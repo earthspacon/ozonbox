@@ -11,7 +11,7 @@ import {
   IconRat,
   IconSpray,
   IconSterilize,
-} from '@/shared/ui'
+} from '@/shared/ui/icons'
 import { AppLink } from '@/shared/ui/app-link'
 
 export function TechnologyPage() {

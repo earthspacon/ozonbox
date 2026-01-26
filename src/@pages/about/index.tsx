@@ -2,7 +2,7 @@ import { useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets'
 
-import { IconAuto, IconCheck, IconShield } from '@/shared/ui'
+import { IconAuto, IconCheck, IconShield } from '@/shared/ui/icons'
 import { AppLink } from '@/shared/ui/app-link'
 
 export function AboutPage() {

@@ -14,7 +14,7 @@ import {
   IconShield,
   IconTimer,
   IconWater,
-} from '@/shared/ui'
+} from '@/shared/ui/icons'
 import { AppLink } from '@/shared/ui/app-link'
 
 export function HomePage() {

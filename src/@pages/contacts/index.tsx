@@ -3,7 +3,7 @@ import { FormEvent, useState } from 'react'
 
 import { Layout } from '@/widgets'
 
-import { IconEmail, IconLocation, IconPhone, IconTelegram, IconTimer, IconWhatsapp } from '@/shared/ui'
+import { IconEmail, IconLocation, IconPhone, IconTelegram, IconTimer, IconWhatsapp } from '@/shared/ui/icons'
 
 export function ContactsPage() {
   const { t } = useTranslate()

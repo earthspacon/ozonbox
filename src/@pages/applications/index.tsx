@@ -1,8 +1,9 @@
 import { useTranslate } from '@tolgee/react'
+import Image from 'next/image'
 
 import { Layout } from '@/widgets'
 
-import { IconCheck } from '@/shared/ui'
+import { IconCheck } from '@/shared/ui/icons'
 import { AppLink } from '@/shared/ui/app-link'
 
 export function ApplicationsPage() {
@@ -23,7 +24,12 @@ export function ApplicationsPage() {
         <div className="container">
           <div className="application-detail__inner">
             <div className="application-detail__image slide-in-left visible">
-              <img src="https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=800&q=80" alt="" />
+              <Image
+                src="https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=800&q=80"
+                alt={t('applicationsPage.poultry.title')}
+                width={800}
+                height={600}
+              />
             </div>
             <div className="application-detail__content slide-in-right visible">
               <h2>
@@ -73,7 +79,12 @@ export function ApplicationsPage() {
         <div className="container">
           <div className="application-detail__inner">
             <div className="application-detail__image slide-in-right visible">
-              <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80" alt="" />
+              <Image
+                src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80"
+                alt={t('applicationsPage.food.title')}
+                width={800}
+                height={600}
+              />
             </div>
             <div className="application-detail__content slide-in-left visible">
               <h2>
@@ -123,7 +134,12 @@ export function ApplicationsPage() {
         <div className="container">
           <div className="application-detail__inner">
             <div className="application-detail__image slide-in-left visible">
-              <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80" alt="" />
+              <Image
+                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80"
+                alt={t('applicationsPage.horeca.title')}
+                width={800}
+                height={600}
+              />
             </div>
             <div className="application-detail__content slide-in-right visible">
               <h2>
@@ -173,7 +189,12 @@ export function ApplicationsPage() {
         <div className="container">
           <div className="application-detail__inner">
             <div className="application-detail__image slide-in-right visible">
-              <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80" alt="" />
+              <Image
+                src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80"
+                alt={t('applicationsPage.medical.title')}
+                width={800}
+                height={600}
+              />
             </div>
             <div className="application-detail__content slide-in-left visible">
               <h2>
@@ -223,7 +244,12 @@ export function ApplicationsPage() {
         <div className="container">
           <div className="application-detail__inner">
             <div className="application-detail__image slide-in-left visible">
-              <img src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=800&q=80" alt="" />
+              <Image
+                src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=800&q=80"
+                alt={t('applicationsPage.waterSection.title')}
+                width={800}
+                height={600}
+              />
             </div>
             <div className="application-detail__content slide-in-right visible">
               <h2>

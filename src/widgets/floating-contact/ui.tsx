@@ -1,4 +1,4 @@
-import { IconPhone, IconTelegram, IconWhatsapp } from '@/shared/ui'
+import { IconPhone, IconTelegram, IconWhatsapp } from '@/shared/ui/icons'
 
 export function FloatingContact() {
   return (
