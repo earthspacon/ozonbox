@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "title": "OzonTech — Biznes uchun ozonlash va dezinfeksiya",
+    "description": "Parranda parvarishlash, oziq-ovqat sanoati, HoReCa va tibbiyot uchun professional ozonlash tizimlari. Xlordan 300 marta samaraliroq. Bepul konsultatsiya."
+  },
+  "nav": {
+    "technology": "Texnologiya",
+    "applications": "Qo'llanilishi",
+    "benefits": "Afzalliklari",
+    "about": "Kompaniya haqida",
+    "contacts": "Aloqa"
+  },
+  "header": {
+    "phone": "8 (800) 123-45-67",
+    "orderCall": "Qo'ng'iroq buyurtma qilish",
+    "freeCall": "Rossiya bo'ylab bepul qo'ng'iroq"
+  },
+  "footer": {
+    "description": "Biznes uchun professional ozonlash tizimlari. Kimyoviy moddalarisiz ekologik toza va samarali dezinfeksiya.",
+    "navigation": "Navigatsiya",
+    "home": "Bosh sahifa",
+    "applicationsTitle": "Qo'llanilishi",
+    "contactsTitle": "Aloqa",
+    "copyright": "OzonTech. Barcha huquqlar himoyalangan.",
+    "dev": "Sayt yaratish — OzonTech"
+  },
+  "cta": {
+    "home": {
+      "title": "Biznesingizda ozonlashni joriy etishga tayyormisiz?",
+      "text": "Bepul konsultatsiya va ehtiyojlaringiz uchun uskunalar narxini hisoblang",
+      "call": "Qo'ng'iroq qilish: 8 (800) 123-45-67"
+    },
+    "technology": {
+      "title": "Texnologiya haqida ko'proq bilishni xohlaysizmi?",
+      "text": "Mutaxassislarimizdan bepul konsultatsiya oling",
+      "areas": "Qo'llash sohalari"
+    },
+    "applications": {
+      "title": "Qaysi soha sizni qiziqtiradi?",
+      "text": "Biznesingiz haqida aytib bering, biz ozonlash uchun optimal yechimni topamiz"
+    },
+    "benefits": {
+      "title": "Afzalliklariga ishondingizmi?",
+      "text": "Bepul konsultatsiya oling va ozonlash biznesingizga qanday yordam berishini bilib oling"
+    },
+    "about": {
+      "title": "Hamkorlik qilishga tayyormisiz?",
+      "text": "Bepul konsultatsiya uchun biz bilan bog'laning",
+      "contact": "Bog'lanish"
+    },
+    "contacts": {
+      "title": "Qo'ng'iroq qilishni afzal ko'rasizmi?",
+      "text": "Mutaxassislarimiz savollaringizga javob berishga tayyor"
+    }
+  },
+  "hero": {
+    "title": "Ozon — Tabiat dezinfeksiya kuchi",
+    "subtitle": "Xlordan 300 marta samaraliroq. Kimyosiz. Qoldig'isiz. Salomatlikka zararsiz. Biznesingiz uchun professional ozonlash tizimlari.",
+    "learnMore": "Ko'proq bilish",
+    "getConsultation": "Konsultatsiya olish",
+    "stats": {
+      "power": "xlordan kuchli",
+      "pathogens": "patogenlar yo'q qilindi",
+      "residue": "kimyoviy qoldiq",
+      "functions": "bitta qurilmada funksiyalar"
+    }
+  },
+  "applications": {
+    "title": "Qo'llash",
+    "titleHighlight": "sohalari",
+    "subtitle": "Ozonlash turli sohalarda dezinfeksiya, sanitariya va mahsulot sifatini oshirish uchun ishlatiladi",
+    "more": "Batafsil"
+  }
+}

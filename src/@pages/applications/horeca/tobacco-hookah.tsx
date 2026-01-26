@@ -1,0 +1,262 @@
+import Image from 'next/image'
+import { Layout } from '@/widgets'
+import { AppLink } from '@/shared/ui/app-link'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
+import {
+  StatCard,
+  StatGrid,
+  HighlightBox,
+  DataTable,
+  ArticleSection,
+  Paragraph,
+  BulletList,
+  FeatureCard,
+  FeatureGrid,
+  ProcessList,
+} from '@/shared/ui/article-components'
+
+export function TobaccoHookahPage() {
+  return (
+    <Layout>
+      {/* Breadcrumbs */}
+      <div className="bg-bg-light border-b border-border">
+        <div className="container py-4">
+          <nav className="flex items-center gap-2 text-sm">
+            <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
+              Применение
+            </AppLink>
+            <span className="text-text-light">/</span>
+            <AppLink href="/applications/horeca" className="text-text-secondary hover:text-primary transition-colors">
+              HoReCa
+            </AppLink>
+            <span className="text-text-light">/</span>
+            <span className="text-text-primary font-medium">Кальянные и табачные</span>
+          </nav>
+        </div>
+      </div>
+
+      {/* Hero Section */}
+      <section className="relative py-16 md:py-24 overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="https://images.unsplash.com/photo-1527661591475-527312dd65f5?w=1920&q=80"
+            alt="Интерьер кальянной"
+            fill
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
+        </div>
+        <div className="container relative z-10">
+          <AppLink href="/applications/horeca" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+            <IconArrowLeft style={{ width: 20, height: 20 }} />
+            <span>HoReCa</span>
+          </AppLink>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+            Озонирование кальянных и табачных
+          </h1>
+          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
+            Химическое удаление въевшегося запаха дыма. Не маскировка — полная нейтрализация за 60-120 минут.
+          </p>
+        </div>
+      </section>
+
+      {/* Key Stats */}
+      <section className="py-12 bg-bg-light">
+        <div className="container">
+          <StatGrid columns={4}>
+            <StatCard
+              value="60-120"
+              label="Минут обработки"
+              description="Ежедневная очистка"
+              variant="primary"
+            />
+            <StatCard
+              value="100%"
+              label="Удаление запаха"
+              description="Химическая нейтрализация"
+              variant="accent"
+            />
+            <StatCard
+              value="2-3"
+              label="Часа выветривания"
+              description="Озон распадается сам"
+              variant="primary"
+            />
+            <StatCard
+              value="0"
+              label="Расходников"
+              description="Озон из воздуха"
+              variant="accent"
+            />
+          </StatGrid>
+        </div>
+      </section>
+
+      {/* Main Content */}
+      <article className="py-12 md:py-16">
+        <div className="container max-w-4xl">
+          
+          <ArticleSection>
+            <Paragraph>
+              Въевшийся, застарелый запах сигарет и кальяна может отпугнуть посетителей заведения. Даже в кальянных, где гостям нравится аромат свежего кальянного дыма, проблема существует: когда дым въедается в мебель и обшивку, ароматические присадки быстро испаряются, оставляя лишь неприятный запах гари и смолы.
+            </Paragraph>
+            <Paragraph>
+              Озонирование — единственный эффективный метод химического удаления таких запахов, а не их маскировки ароматизаторами. Озон окисляет молекулы дурнопахнущих веществ до воды и углекислого газа или до промежуточных продуктов окисления, не имеющих запаха.
+            </Paragraph>
+          </ArticleSection>
+
+          <HighlightBox variant="info">
+            <strong>Важно понимать:</strong> Подавители запахов и ароматизаторы не решают проблему — они лишь маскируют её. Озон уничтожает источник запаха на молекулярном уровне.
+          </HighlightBox>
+
+          <ArticleSection title="Почему запах въедается">
+            <Paragraph>
+              Табачный и кальянный дым содержат смолы, которые проникают в пористые материалы: ткани, дерево, обивку мебели, потолочные плитки, ковры. Со временем эти вещества накапливаются и создают устойчивый неприятный запах, который не удаляется обычной уборкой или проветриванием.
+            </Paragraph>
+            <BulletList items={[
+              'Текстиль (шторы, обивка, подушки) — основной «резервуар» запаха',
+              'Мягкая мебель — смолы проникают в наполнитель',
+              'Потолочные покрытия — особенно пористые материалы',
+              'Вентиляционные каналы — скопление загрязнений',
+              'Труднодоступные места — щели, швы, внутренние полости',
+            ]} />
+          </ArticleSection>
+
+          <ArticleSection title="Преимущества озонирования">
+            <FeatureGrid columns={2}>
+              <FeatureCard
+                icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                title="Химическое удаление"
+                description="Озон окисляет молекулы запаха, а не маскирует их. Результат — настоящая свежесть."
+              />
+              <FeatureCard
+                icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                title="Проникновение везде"
+                description="Газ проникает в структуру материалов, поры, щели — куда не добраться ни одному чистящему средству."
+              />
+              <FeatureCard
+                icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                title="Высокая скорость"
+                description="Полная обработка помещения за 60-120 минут. К открытию заведения воздух свежий."
+              />
+              <FeatureCard
+                icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                title="Автоматизация"
+                description="Недельный таймер позволяет запускать обработку автоматически после закрытия."
+              />
+            </FeatureGrid>
+          </ArticleSection>
+
+          <ArticleSection title="Процесс озонирования">
+            <ProcessList steps={[
+              {
+                title: 'Подготовка помещения',
+                description: 'Закрываются все окна и двери. Отключается приточная вентиляция для максимальной концентрации озона.'
+              },
+              {
+                title: 'Размещение озонатора',
+                description: 'Мобильный озонатор устанавливается на максимальной высоте — на шкафу, полке или специальной подставке.'
+              },
+              {
+                title: 'Озонирование',
+                description: 'Включается режим обработки на 60-120 минут. При регулярном использовании достаточно 60 минут.'
+              },
+              {
+                title: 'Проветривание',
+                description: 'Открываются двери и окна, включается вентиляция. Озон выветривается за 2-3 часа.'
+              },
+            ]} />
+
+            <HighlightBox variant="success">
+              <strong>Ночная обработка:</strong> При обработке в ночное время проветривание не требуется. К приходу персонала озон уже выветрится, останется только лёгкий запах свежести.
+            </HighlightBox>
+          </ArticleSection>
+
+          <ArticleSection title="Расчёт оборудования">
+            <Paragraph>
+              Производительность озонатора выбирается из соотношения: 1 г/час на 25 м³ объёма помещения.
+            </Paragraph>
+            <DataTable
+              caption="Пример расчёта для кальянной"
+              headers={['Параметр', 'Значение', 'Комментарий']}
+              rows={[
+                ['Площадь зала', '40 м²', 'Основной зал заведения'],
+                ['Высота потолков', '3 м', 'Стандартная высота'],
+                ['Объём помещения', '120 м³', '40 × 3 = 120'],
+                ['Расчёт мощности', '4,8 г/час', '120 ÷ 25 = 4,8'],
+                ['Рекомендация', '5 г/час', 'Округление вверх'],
+              ]}
+            />
+          </ArticleSection>
+
+          <ArticleSection title="Рекомендуемые режимы обработки">
+            <DataTable
+              headers={['Ситуация', 'Время обработки', 'Частота', 'Результат']}
+              rows={[
+                ['Ежедневная профилактика', '60 минут', 'Каждую ночь', 'Поддержание свежести'],
+                ['После интенсивного вечера', '90-120 минут', 'По необходимости', 'Глубокая очистка'],
+                ['Застарелый запах', '2-3 часа', '3-5 дней подряд', 'Полное устранение'],
+                ['Новое помещение (б/у)', '3-4 часа', '5-7 дней подряд', 'Восстановление'],
+              ]}
+            />
+          </ArticleSection>
+
+          <ArticleSection title="Что обрабатывается озоном">
+            <BulletList items={[
+              'Мягкая мебель — диваны, кресла, подушки, наполнители',
+              'Текстиль — шторы, скатерти, тканевые элементы декора',
+              'Ковры и напольные покрытия — глубокое проникновение в ворс',
+              'Потолочные покрытия — пористые материалы, плитки',
+              'Вентиляционная система — воздуховоды, решётки',
+              'Труднодоступные места — щели, швы, внутренние полости мебели',
+            ]} />
+          </ArticleSection>
+
+          <ArticleSection title="Экономика решения">
+            <DataTable
+              caption="Сравнение методов борьбы с запахом"
+              headers={['Метод', 'Эффективность', 'Стоимость/месяц']}
+              rows={[
+                ['Ароматизаторы', 'Маскировка (временно)', '10-20 тыс. ₽'],
+                ['Профессиональная химчистка', 'Частичное удаление', '50-100 тыс. ₽'],
+                ['Замена текстиля', 'Полное удаление', '200+ тыс. ₽ (разово)'],
+                ['Озонирование', 'Полное удаление', '1-2 тыс. ₽ (электричество)'],
+              ]}
+            />
+
+            <HighlightBox variant="success">
+              <strong>ROI:</strong> Стоимость озонатора 14-35 тыс. ₽ окупается за 1-3 месяца только на экономии ароматизаторов. Дальнейшая эксплуатация практически бесплатна — только электроэнергия.
+            </HighlightBox>
+          </ArticleSection>
+
+          <ArticleSection title="Важные особенности">
+            <BulletList items={[
+              'Обработка только в отсутствие людей — озон в высоких концентрациях токсичен',
+              'Персонал в маске с угольным фильтром, если находится во время обработки',
+              'После обработки — запах свежести, безопасный для человека',
+              'Озон вырабатывается из воздуха — нет расходных материалов',
+              'Автоматическая работа по таймеру — минимум участия персонала',
+            ]} />
+          </ArticleSection>
+
+        </div>
+      </article>
+
+      {/* CTA Section */}
+      <section className="cta">
+        <div className="container">
+          <h2 className="cta__title">Избавиться от въевшегося запаха дыма?</h2>
+          <p className="cta__text">Получите консультацию и расчёт оборудования для вашего заведения</p>
+          <div className="cta__actions">
+            <AppLink href="/contacts" className="btn btn--white btn--large">
+              Получить консультацию
+            </AppLink>
+            <a href="tel:+78001234567" className="btn btn--secondary btn--large" style={{ borderColor: 'white', color: 'white' }}>
+              Позвонить: 8 (800) 123-45-67
+            </a>
+          </div>
+        </div>
+      </section>
+    </Layout>
+  )
+}

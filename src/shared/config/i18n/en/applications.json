@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Ozonation Applications — OzonTech",
+  "pageDescription": "All areas of ozone technology application: medicine, agriculture, food production, HoReCa, water treatment and more.",
+  "viewAll": "All application areas",
+  "viewAllShort": "View all",
+  "backToCategories": "All areas",
+  "relatedArticles": "See also",
+  "benefits": "Benefits of ozonation",
+  "categories": {
+    "medicine": {
+      "title": "Medicine",
+      "description": "Ozonation for medical facilities provides the highest level of sterility, meeting SanPiN requirements. Effective against all types of pathogens, including chlorine-resistant viruses."
+    },
+    "agriculture": {
+      "title": "Agriculture",
+      "description": "Ozonation in agriculture improves yields, extends product shelf life and ensures biosecurity. An eco-friendly alternative to chemical pesticides and preservatives."
+    },
+    "food-production": {
+      "title": "Food Production",
+      "description": "Ozonation in the food industry extends shelf life, ensures product safety and compliance with sanitary standards without the use of chemical additives."
+    },
+    "horeca": {
+      "title": "HoReCa",
+      "description": "Hotels, restaurants and cafes use ozonation to create a comfortable environment, eliminate odors and ensure high hygiene standards."
+    },
+    "water-treatment": {
+      "title": "Water Treatment",
+      "description": "Ozone is the most effective and eco-friendly water purification method. 95% of drinking water in Europe is treated with ozone. Does not form dangerous byproducts like chlorine."
+    },
+    "disinfection": {
+      "title": "Disinfection",
+      "description": "Ozonation provides deep disinfection of premises and transport, destroying bacteria, viruses and fungi without chemical residues."
+    },
+    "cleaning": {
+      "title": "Cleaning",
+      "description": "Ozonation is an effective tool for cleaning companies: eliminating stubborn odors, post-incident disinfection, vehicle treatment."
+    },
+    "warehouses": {
+      "title": "Warehouses",
+      "description": "Ozonation of warehouse facilities prevents mold growth, controls odors and ensures the preservation of stored goods."
+    },
+    "industry": {
+      "title": "Industry",
+      "description": "Industrial ozonation solves specific production tasks: oil product removal, facility disinfection, water treatment."
+    },
+    "transport": {
+      "title": "Transport",
+      "description": "Ozonation of vehicles ensures sanitary safety of passenger transportation and cargo containers."
+    }
+  }
+}

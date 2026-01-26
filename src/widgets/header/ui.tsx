@@ -5,6 +5,7 @@ import { useState } from 'react'
 import { useScrolled } from '@/shared/hooks'
 import { AppLink } from '@/shared/ui/app-link'
 import { IconClose, IconMenu, IconPhone } from '@/shared/ui/icons'
+import { LanguageSwitcher } from '@/shared/ui/language-switcher'
 import { Logo } from '@/shared/ui/logo'
 
 export function Header() {
@@ -55,6 +56,7 @@ export function Header() {
           </nav>
 
           <div className="header__actions">
+            <LanguageSwitcher />
             <a href="tel:+78001234567" className="header__phone">
               <IconPhone className="header__phone-icon" />
               <span>{t('header.phone')}</span>
@@ -84,6 +86,9 @@ export function Header() {
             </li>
           ))}
         </ul>
+        <div className="mobile-menu__language">
+          <LanguageSwitcher />
+        </div>
         <div className="mobile-menu__phone">
           <a href="tel:+78001234567">{t('header.phone')}</a>
           <p>{t('header.freeCall')}</p>

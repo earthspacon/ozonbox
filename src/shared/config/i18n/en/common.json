@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "title": "OzonTech — Ozonation and disinfection for business",
+    "description": "Professional ozonation systems for poultry farming, food industry, HoReCa and medicine. 300 times more effective than chlorine. Free consultation."
+  },
+  "nav": {
+    "technology": "Technology",
+    "applications": "Applications",
+    "benefits": "Benefits",
+    "about": "About us",
+    "contacts": "Contacts"
+  },
+  "header": {
+    "phone": "8 (800) 123-45-67",
+    "orderCall": "Request a call",
+    "freeCall": "Free call across Russia"
+  },
+  "footer": {
+    "description": "Professional ozonation systems for business. Eco-friendly and effective disinfection without chemicals.",
+    "navigation": "Navigation",
+    "home": "Home",
+    "applicationsTitle": "Applications",
+    "contactsTitle": "Contacts",
+    "copyright": "OzonTech. All rights reserved.",
+    "dev": "Website development — OzonTech"
+  },
+  "cta": {
+    "home": {
+      "title": "Ready to implement ozonation in your business?",
+      "text": "Get a free consultation and equipment cost calculation for your needs",
+      "call": "Call: 8 (800) 123-45-67"
+    },
+    "technology": {
+      "title": "Want to learn more about the technology?",
+      "text": "Get a free consultation from our specialists",
+      "areas": "Application areas"
+    },
+    "applications": {
+      "title": "Which industry interests you?",
+      "text": "Tell us about your business, and we will find the optimal ozonation solution"
+    },
+    "benefits": {
+      "title": "Convinced of the benefits?",
+      "text": "Get a free consultation and learn how ozonation can help your business"
+    },
+    "about": {
+      "title": "Ready to cooperate?",
+      "text": "Contact us for a free consultation",
+      "contact": "Contact us"
+    },
+    "contacts": {
+      "title": "Prefer to call?",
+      "text": "Our specialists are ready to answer your questions"
+    }
+  },
+  "hero": {
+    "title": "Ozone — Nature's disinfection power",
+    "subtitle": "300 times more effective than chlorine. No chemicals. No residue. No harm to health. Professional ozonation systems for your business.",
+    "learnMore": "Learn more",
+    "getConsultation": "Get consultation",
+    "stats": {
+      "power": "more powerful than chlorine",
+      "pathogens": "pathogens destroyed",
+      "residue": "chemical residue",
+      "functions": "functions in one"
+    }
+  },
+  "applications": {
+    "title": "Areas of",
+    "titleHighlight": "application",
+    "subtitle": "Ozonation is used in various industries for disinfection, sanitization and product quality improvement",
+    "more": "Learn more"
+  }
+}

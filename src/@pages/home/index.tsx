@@ -1,4 +1,5 @@
 import { useTranslate } from '@tolgee/react'
+import Image from 'next/image'
 
 import { Layout } from '@/widgets'
 
@@ -6,14 +7,12 @@ import {
   IconArrowRight,
   IconCheck,
   IconEco,
-  IconFactory,
   IconFood,
   IconHotel,
   IconMedical,
   IconPoultry,
   IconShield,
   IconTimer,
-  IconWater,
 } from '@/shared/ui/icons'
 import { AppLink } from '@/shared/ui/app-link'
 
@@ -25,7 +24,12 @@ export function HomePage() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero__bg">
-          <img src="https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=1920&q=80" alt="" />
+          <Image
+            src="https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=1920&q=80"
+            alt={t('hero.title')}
+            width={1920}
+            height={1080}
+          />
         </div>
         <div className="hero__shapes">
           <div className="hero__shape hero__shape--1"></div>
@@ -107,7 +111,12 @@ export function HomePage() {
         <div className="container">
           <div className="about-ozone">
             <div className="about-ozone__image slide-in-left visible">
-              <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80" alt="" />
+              <Image
+                src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80"
+                alt={t('aboutOzone.title')}
+                width={800}
+                height={600}
+              />
             </div>
             <div className="about-ozone__content slide-in-right visible">
               <h2>
@@ -147,83 +156,82 @@ export function HomePage() {
             <p className="section__subtitle">{t('applications.subtitle')}</p>
           </div>
           <div className="applications-grid">
-            <AppLink href="/applications#poultry" className="application-card fade-in visible">
+            <AppLink href="/applications/medicine" className="application-card fade-in visible">
               <div className="application-card__image">
-                <img src="https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=800&q=80" alt="" />
-              </div>
-              <div className="application-card__overlay">
-                <IconPoultry className="application-card__icon" />
-                <h3 className="application-card__title">{t('applications.poultry.title')}</h3>
-                <p className="application-card__text">{t('applications.poultry.text')}</p>
-                <span className="application-card__link">
-                  {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
-                </span>
-              </div>
-            </AppLink>
-            <AppLink href="/applications#food" className="application-card fade-in visible">
-              <div className="application-card__image">
-                <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80" alt="" />
-              </div>
-              <div className="application-card__overlay">
-                <IconFood className="application-card__icon" />
-                <h3 className="application-card__title">{t('applications.food.title')}</h3>
-                <p className="application-card__text">{t('applications.food.text')}</p>
-                <span className="application-card__link">
-                  {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
-                </span>
-              </div>
-            </AppLink>
-            <AppLink href="/applications#horeca" className="application-card fade-in visible">
-              <div className="application-card__image">
-                <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80" alt="" />
-              </div>
-              <div className="application-card__overlay">
-                <IconHotel className="application-card__icon" />
-                <h3 className="application-card__title">{t('applications.horeca.title')}</h3>
-                <p className="application-card__text">{t('applications.horeca.text')}</p>
-                <span className="application-card__link">
-                  {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
-                </span>
-              </div>
-            </AppLink>
-            <AppLink href="/applications#medical" className="application-card fade-in visible">
-              <div className="application-card__image">
-                <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80" alt="" />
+                <Image
+                  src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80"
+                  alt={t('applications.categories.medicine.title')}
+                  width={800}
+                  height={600}
+                />
               </div>
               <div className="application-card__overlay">
                 <IconMedical className="application-card__icon" />
-                <h3 className="application-card__title">{t('applications.medical.title')}</h3>
-                <p className="application-card__text">{t('applications.medical.text')}</p>
+                <h3 className="application-card__title">{t('applications.categories.medicine.title')}</h3>
+                <p className="application-card__text">{t('applications.categories.medicine.text')}</p>
                 <span className="application-card__link">
                   {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
                 </span>
               </div>
             </AppLink>
-            <AppLink href="/applications#water" className="application-card fade-in visible">
+            <AppLink href="/applications/agriculture" className="application-card fade-in visible">
               <div className="application-card__image">
-                <img src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=800&q=80" alt="" />
+                <Image
+                  src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=800&q=80"
+                  alt={t('applications.categories.agriculture.title')}
+                  width={800}
+                  height={600}
+                />
               </div>
               <div className="application-card__overlay">
-                <IconWater className="application-card__icon" />
-                <h3 className="application-card__title">{t('applications.water.title')}</h3>
-                <p className="application-card__text">{t('applications.water.text')}</p>
+                <IconPoultry className="application-card__icon" />
+                <h3 className="application-card__title">{t('applications.categories.agriculture.title')}</h3>
+                <p className="application-card__text">{t('applications.categories.agriculture.text')}</p>
                 <span className="application-card__link">
                   {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
                 </span>
               </div>
             </AppLink>
-            <AppLink href="/applications#industry" className="application-card fade-in visible">
+            <AppLink href="/applications/food-production" className="application-card fade-in visible">
               <div className="application-card__image">
-                <img src="https://images.unsplash.com/photo-1581093458791-9d42e3c7e117?w=800&q=80" alt="" />
+                <Image
+                  src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80"
+                  alt={t('applications.categories.food-production.title')}
+                  width={800}
+                  height={600}
+                />
               </div>
               <div className="application-card__overlay">
-                <IconFactory className="application-card__icon" />
-                <h3 className="application-card__title">{t('applications.industry.title')}</h3>
-                <p className="application-card__text">{t('applications.industry.text')}</p>
+                <IconFood className="application-card__icon" />
+                <h3 className="application-card__title">{t('applications.categories.food-production.title')}</h3>
+                <p className="application-card__text">{t('applications.categories.food-production.text')}</p>
                 <span className="application-card__link">
                   {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
                 </span>
               </div>
+            </AppLink>
+            <AppLink href="/applications/horeca" className="application-card fade-in visible">
+              <div className="application-card__image">
+                <Image
+                  src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80"
+                  alt={t('applications.categories.horeca.title')}
+                  width={800}
+                  height={600}
+                />
+              </div>
+              <div className="application-card__overlay">
+                <IconHotel className="application-card__icon" />
+                <h3 className="application-card__title">{t('applications.categories.horeca.title')}</h3>
+                <p className="application-card__text">{t('applications.categories.horeca.text')}</p>
+                <span className="application-card__link">
+                  {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
+                </span>
+              </div>
+            </AppLink>
+          </div>
+          <div className="flex justify-center mt-8">
+            <AppLink href="/applications" className="btn btn--primary btn--large">
+              {t('applications.viewAll')} <IconArrowRight style={{ width: 20, height: 20, marginLeft: '0.5rem' }} />
             </AppLink>
           </div>
         </div>

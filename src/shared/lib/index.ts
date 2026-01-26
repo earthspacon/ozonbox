@@ -1,2 +1,9 @@
 export { useLang, useIsLangInRoute, LangSync } from './lang'
-export { withTolgee, getStaticPathsLang, getStaticPropsLang, getStaticPropsDefault } from './page-static-functions'
+export {
+  withTolgee,
+  getStaticPathsLang,
+  getStaticPropsLang,
+  getStaticPropsDefault,
+  createGetStaticPropsLang,
+  createGetStaticPropsDefault,
+} from './page-static-functions'

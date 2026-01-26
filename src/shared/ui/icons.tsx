@@ -153,6 +153,18 @@ export const IconArrowRight = (props: IconProps) => (
   </svg>
 )
 
+export const IconArrowLeft = (props: IconProps) => (
+  <svg viewBox="0 0 64 64" fill="none" {...props}>
+    <path
+      d="M52 32H12M28 16L12 32l16 16"
+      stroke="currentColor"
+      strokeWidth="3"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+)
+
 export const IconWhatsapp = (props: IconProps) => (
   <svg viewBox="0 0 64 64" fill="none" {...props}>
     <path

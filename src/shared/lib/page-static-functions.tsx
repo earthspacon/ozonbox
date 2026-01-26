@@ -1,17 +1,18 @@
 import { TolgeeProvider, TolgeeStaticDataProp } from '@tolgee/react'
 import { GetStaticPaths, GetStaticProps } from 'next'
 
-import { DEFAULT_LOCALE, LOCALES_LIST, TLocale, tolgee } from '@/shared/config/tolgee'
+import { DEFAULT_LOCALE, LOCALES_LIST, NAMESPACES, TLocale, TNamespace, tolgee } from '@/shared/config/tolgee'
 
 import { LangSync } from './lang'
 
-interface PageProps {
+interface BasePageProps {
   staticData: TolgeeStaticDataProp
   lang: string
 }
 
-export function withTolgee(PageComponent: React.ComponentType<Record<string, unknown>>) {
-  return function Page(props: PageProps) {
+// Using explicit any to allow pages with additional props beyond staticData and lang
+export function withTolgee(PageComponent: React.ComponentType<any>) {
+  return function Page(props: BasePageProps & Record<string, unknown>) {
     const lang = (props.lang || DEFAULT_LOCALE) as TLocale
 
     return (
@@ -21,6 +22,22 @@ export function withTolgee(PageComponent: React.ComponentType<Record<string, unk
       </TolgeeProvider>
     )
   }
+}
+
+// Helper function to load translations for specific namespaces
+async function loadNamespaces(lang: TLocale, namespaces: TNamespace[]): Promise<TolgeeStaticDataProp> {
+  const data: TolgeeStaticDataProp = {}
+
+  for (const ns of namespaces) {
+    try {
+      const nsData = await import(`@/shared/config/i18n/${lang}/${ns}.json`)
+      data[`${lang}:${ns}`] = nsData.default || nsData
+    } catch {
+      console.warn(`Failed to load namespace ${ns} for language ${lang}`)
+    }
+  }
+
+  return data
 }
 
 // #region lang pages
@@ -35,35 +52,62 @@ export const getStaticPathsLang: GetStaticPaths = async () => {
   }
 }
 
-export const getStaticPropsLang: GetStaticProps<PageProps> = async ({ params }) => {
+// Standard page props with common namespace
+export const getStaticPropsLang: GetStaticProps<BasePageProps> = async ({ params }) => {
   const lang = params?.lang as TLocale
-
-  const currentLangData = await tolgee.loadRecord({ language: lang })
+  const staticData = await loadNamespaces(lang, [NAMESPACES.common])
 
   return {
     props: {
-      staticData: {
-        [lang]: currentLangData,
-      },
+      staticData,
       lang,
     },
   }
 }
+
+// Factory function to create getStaticProps with additional namespaces
+export function createGetStaticPropsLang(namespaces: TNamespace[]) {
+  const fn: GetStaticProps<BasePageProps> = async ({ params }) => {
+    const lang = params?.lang as TLocale
+    const allNamespaces = [NAMESPACES.common, ...namespaces]
+    const staticData = await loadNamespaces(lang, allNamespaces)
+
+    return {
+      props: {
+        staticData,
+        lang,
+      },
+    }
+  }
+  return fn
+}
 // #endregion
 
 // #region default page
-export const getStaticPropsDefault: GetStaticProps<PageProps> = async () => {
-  const loadedData = await tolgee.loadRecord({
-    language: DEFAULT_LOCALE,
-  })
+export const getStaticPropsDefault: GetStaticProps<BasePageProps> = async () => {
+  const staticData = await loadNamespaces(DEFAULT_LOCALE, [NAMESPACES.common])
 
   return {
     props: {
-      staticData: {
-        [DEFAULT_LOCALE]: loadedData,
-      },
+      staticData,
       lang: DEFAULT_LOCALE,
     },
   }
+}
+
+// Factory function to create getStaticProps for default locale with additional namespaces
+export function createGetStaticPropsDefault(namespaces: TNamespace[]) {
+  const fn: GetStaticProps<BasePageProps> = async () => {
+    const allNamespaces = [NAMESPACES.common, ...namespaces]
+    const staticData = await loadNamespaces(DEFAULT_LOCALE, allNamespaces)
+
+    return {
+      props: {
+        staticData,
+        lang: DEFAULT_LOCALE,
+      },
+    }
+  }
+  return fn
 }
 // #endregion

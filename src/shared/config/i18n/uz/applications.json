@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Ozonlash qo'llash sohalari — OzonTech",
+  "pageDescription": "Ozon texnologiyasining barcha qo'llash sohalari: tibbiyot, qishloq xo'jaligi, oziq-ovqat ishlab chiqarish, HoReCa, suv tozalash va boshqalar.",
+  "viewAll": "Barcha qo'llash sohalari",
+  "viewAllShort": "Hammasini ko'rish",
+  "backToCategories": "Barcha sohalar",
+  "relatedArticles": "Shuningdek qarang",
+  "benefits": "Ozonlash afzalliklari",
+  "categories": {
+    "medicine": {
+      "title": "Tibbiyot",
+      "description": "Tibbiyot muassasalari uchun ozonlash SanPiN talablariga mos keladigan eng yuqori sterillik darajasini ta'minlaydi. Xlorga chidamli viruslar bilan birga barcha turdagi patogenlarga qarshi samarali."
+    },
+    "agriculture": {
+      "title": "Qishloq xo'jaligi",
+      "description": "Qishloq xo'jaligida ozonlash hosildorlikni oshiradi, mahsulotlarning saqlash muddatini uzaytiradi va biohavfsizlikni ta'minlaydi. Kimyoviy pestitsidlar va konservantlarga ekologik toza alternativa."
+    },
+    "food-production": {
+      "title": "Oziq-ovqat ishlab chiqarish",
+      "description": "Oziq-ovqat sanoatida ozonlash saqlash muddatini uzaytiradi, mahsulot xavfsizligini ta'minlaydi va kimyoviy qo'shimchalarsiz sanitariya me'yorlariga muvofiqligini ta'minlaydi."
+    },
+    "horeca": {
+      "title": "HoReCa",
+      "description": "Mehmonxonalar, restoranlar va kafelar qulay muhit yaratish, hidlarni yo'qotish va yuqori gigiena standartlarini ta'minlash uchun ozonlashdan foydalanadi."
+    },
+    "water-treatment": {
+      "title": "Suv tozalash",
+      "description": "Ozon eng samarali va ekologik toza suv tozalash usuli. Yevropada ichimlik suvining 95% ozon bilan ishlov beriladi. Xlor kabi xavfli qo'shimchalar hosil qilmaydi."
+    },
+    "disinfection": {
+      "title": "Dezinfeksiya",
+      "description": "Ozonlash binolar va transportning chuqur dezinfeksiyasini ta'minlaydi, bakteriyalar, viruslar va zamburug'larni kimyoviy qoldiqlarsiz yo'q qiladi."
+    },
+    "cleaning": {
+      "title": "Tozalash",
+      "description": "Ozonlash tozalash kompaniyalari uchun samarali vosita: qattiq hidlarni yo'qotish, voqealardan keyin dezinfeksiya, transport vositalarini ishlov berish."
+    },
+    "warehouses": {
+      "title": "Omborlar",
+      "description": "Ombor binolarini ozonlash mog'or o'sishini oldini oladi, hidlarni nazorat qiladi va saqlangan tovarlarning saqlanishini ta'minlaydi."
+    },
+    "industry": {
+      "title": "Sanoat",
+      "description": "Sanoat ozonlashi ishlab chiqarishning o'ziga xos vazifalarini hal qiladi: neft mahsulotlarini olib tashlash, binolarni dezinfeksiya qilish, suvni tozalash."
+    },
+    "transport": {
+      "title": "Transport",
+      "description": "Transport vositalarini ozonlash yo'lovchi tashish va yuk konteynerlarining sanitariya xavfsizligini ta'minlaydi."
+    }
+  }
+}

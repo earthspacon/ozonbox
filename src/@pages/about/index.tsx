@@ -1,4 +1,5 @@
 import { useTranslate } from '@tolgee/react'
+import Image from 'next/image'
 
 import { Layout } from '@/widgets'
 
@@ -50,9 +51,11 @@ export function AboutPage() {
               </div>
             </div>
             <div className="about-content__image slide-in-right visible">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80"
-                alt=""
+                alt={t('aboutPage.content.title')}
+                width={800}
+                height={600}
                 style={{ borderRadius: '1rem', boxShadow: 'var(--shadow-xl)' }}
               />
             </div>
