@@ -75,7 +75,7 @@ export const tolgee = Tolgee().use(DevTools()).use(FormatSimple()).use(FormatIcu
 
   // Use empty ns, translations will be loaded per-page via staticData prop
   ns: [],
-  defaultNs: '',
+  defaultNs: NAMESPACES.common,
 
   // No static data here - it's loaded per-page via getStaticProps
   staticData: {},

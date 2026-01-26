@@ -65,10 +65,145 @@
       "functions": "functions in one"
     }
   },
+  "features": {
+    "power": {
+      "title": "300x more powerful",
+      "text": "Ozone exceeds chlorine in disinfection efficiency by hundreds of times"
+    },
+    "pathogens": {
+      "title": "99.9% pathogens",
+      "text": "Destroys bacteria, viruses, fungi and mold"
+    },
+    "residue": {
+      "title": "0 residue",
+      "text": "Decomposes into pure oxygen in 20-30 minutes"
+    },
+    "functions": {
+      "title": "7 functions in 1",
+      "text": "Disinfection, pest control, deodorization and more"
+    }
+  },
+  "aboutOzone": {
+    "title": "What is",
+    "titleHighlight": "ozone",
+    "p1": "Ozone (O₃) is a triatomic oxygen molecule, a powerful natural oxidizer. It is formed from atmospheric oxygen using electrical discharge.",
+    "p2": "Upon contact with microorganisms, ozone destroys their cell membranes, then decomposes into ordinary oxygen (O₂), leaving no harmful chemical residues.",
+    "list": {
+      "eco": "Environmentally clean technology without chemicals",
+      "onsite": "Produced on-site from air",
+      "safe": "Safe for humans and animals after decomposition"
+    },
+    "moreAbout": "More about technology"
+  },
   "applications": {
     "title": "Areas of",
     "titleHighlight": "application",
     "subtitle": "Ozonation is used in various industries for disinfection, sanitization and product quality improvement",
-    "more": "Learn more"
+    "more": "Learn more",
+    "viewAll": "All application areas",
+    "poultry": {
+      "title": "Poultry farming",
+      "text": "Egg disinfection, feed and water treatment"
+    },
+    "food": {
+      "title": "Food industry",
+      "text": "Storage of vegetables, fruits and products"
+    },
+    "horeca": {
+      "title": "HoReCa",
+      "text": "Hotels, restaurants, cafes"
+    },
+    "medical": {
+      "title": "Medicine",
+      "text": "Ward and equipment disinfection"
+    },
+    "water": {
+      "title": "Water treatment",
+      "text": "Drinking water and pool purification"
+    },
+    "categories": {
+      "medicine": {
+        "title": "Medicine",
+        "text": "Ozonation for medical facilities provides the highest level of sterility, meeting SanPiN requirements. Effective against all types of pathogens, including chlorine-resistant viruses."
+      },
+      "agriculture": {
+        "title": "Agriculture",
+        "text": "Ozonation in agriculture improves yields, extends product shelf life and ensures biosecurity. An eco-friendly alternative to chemical pesticides and preservatives."
+      },
+      "food-production": {
+        "title": "Food Production",
+        "text": "Ozonation in the food industry extends shelf life, ensures product safety and compliance with sanitary standards without the use of chemical additives."
+      },
+      "horeca": {
+        "title": "HoReCa",
+        "text": "Hotels, restaurants and cafes use ozonation to create a comfortable environment, eliminate odors and ensure high hygiene standards."
+      }
+    }
+  },
+  "research": {
+    "title": "Scientific",
+    "titleHighlight": "research",
+    "subtitle": "Ozonation effectiveness is confirmed by leading world universities",
+    "telaviv": {
+      "title": "Tel Aviv University",
+      "text": "Research confirmed high effectiveness of ozone against SARS-CoV-2 and COVID-19 viruses",
+      "stat": "95% destruction"
+    },
+    "fujita": {
+      "title": "FUJITA University, Japan (2020)",
+      "text": "Low ozone concentrations reduce virus activity in minimal processing time",
+      "stat": "95% in 20 minutes"
+    }
+  },
+  "aboutPage": {
+    "pageTitle": "About — OzonTech",
+    "pageDescription": "About OzonTech — professional ozonation systems for business. Consultations, equipment selection, technical support.",
+    "header": {
+      "title": "About company",
+      "subtitle": "Professional ozonation systems for your business"
+    },
+    "content": {
+      "title": "We are",
+      "titleHighlight": "OzonTech",
+      "p1": "We are a team of specialists in ozone technologies. Our mission is to make disinfection safe, effective and accessible for businesses of any size.",
+      "p2": "We believe the future belongs to eco-friendly technologies that do not harm the environment and human health. Ozonation is exactly such a technology.",
+      "services": {
+        "consulting": "Implementation consulting",
+        "equipment": "Equipment selection",
+        "support": "Technical support",
+        "warranty": "Warranty service"
+      }
+    },
+    "whyUs": {
+      "title": "Why",
+      "titleHighlight": "choose us",
+      "experience": {
+        "title": "Experience and expertise",
+        "list": {
+          "1": "Implementation in poultry farming",
+          "2": "Food industry",
+          "3": "Hotel business",
+          "4": "Medical facilities"
+        }
+      },
+      "standards": {
+        "title": "Standards compliance",
+        "list": {
+          "1": "SanPiN compliance",
+          "2": "GOST compliance",
+          "3": "Certified equipment",
+          "4": "Documentation and instructions"
+        }
+      },
+      "service": {
+        "title": "Full service",
+        "list": {
+          "1": "Free consultation",
+          "2": "Cost calculation",
+          "3": "Installation and setup",
+          "4": "Staff training"
+        }
+      }
+    }
   }
 }
