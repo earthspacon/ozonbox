@@ -31,7 +31,7 @@ export function LangSync({ lang }: { lang: TLocale }) {
     if (LOCALES_LIST.includes(lang)) {
       localStorage.setItem(LANG_LS_KEY, lang)
     }
-  }, [])
+  }, [lang])
 
   useEffect(() => {
     const savedLang = localStorage.getItem(LANG_LS_KEY) as TLocale | null

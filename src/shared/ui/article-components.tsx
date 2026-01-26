@@ -1,4 +1,5 @@
 import { ReactNode } from 'react'
+import Image from 'next/image'
 
 interface StatCardProps {
   value: string
@@ -107,11 +108,13 @@ export function DataTable({ headers, rows, caption }: DataTableProps) {
 
 interface ComparisonTableProps {
   title?: string
-  headers: [string, string, string]
-  rows: { parameter: string; value1: string; value2: string }[]
+  headers: [string, string, string] | [string, string, string, string]
+  rows: { parameter: string; value1: string; value2: string; value3?: string }[]
 }
 
 export function ComparisonTable({ title, headers, rows }: ComparisonTableProps) {
+  const isFourColumns = headers.length === 4
+
   return (
     <div className="my-8">
       {title && <h3 className="text-xl font-bold mb-4">{title}</h3>}
@@ -128,6 +131,11 @@ export function ComparisonTable({ title, headers, rows }: ComparisonTableProps) 
               <th className="px-4 py-3 text-center font-semibold text-sm bg-text-secondary text-white">
                 {headers[2]}
               </th>
+              {isFourColumns && (
+                <th className="px-4 py-3 text-center font-semibold text-sm bg-accent text-white">
+                  {headers[3]}
+                </th>
+              )}
             </tr>
           </thead>
           <tbody>
@@ -140,6 +148,11 @@ export function ComparisonTable({ title, headers, rows }: ComparisonTableProps) 
                 <td className="px-4 py-3 text-sm border-t border-border text-center text-text-secondary">
                   {row.value2}
                 </td>
+                {isFourColumns && (
+                  <td className="px-4 py-3 text-sm border-t border-border text-center text-accent-dark">
+                    {row.value3}
+                  </td>
+                )}
               </tr>
             ))}
           </tbody>
@@ -237,7 +250,7 @@ interface QuoteBlockProps {
 export function QuoteBlock({ text, source }: QuoteBlockProps) {
   return (
     <blockquote className="my-8 pl-6 border-l-4 border-primary">
-      <p className="text-lg italic text-text-secondary mb-2">"{text}"</p>
+      <p className="text-lg italic text-text-secondary mb-2">&ldquo;{text}&rdquo;</p>
       {source && <cite className="text-sm text-text-light not-italic">— {source}</cite>}
     </blockquote>
   )
@@ -252,8 +265,8 @@ interface ImageWithCaptionProps {
 export function ImageWithCaption({ src, alt, caption }: ImageWithCaptionProps) {
   return (
     <figure className="my-8">
-      <div className="rounded-xl overflow-hidden">
-        <img src={src} alt={alt} className="w-full h-auto" />
+      <div className="rounded-xl overflow-hidden relative w-full aspect-auto">
+        <Image src={src} alt={alt} width={800} height={600} className="w-full h-auto" />
       </div>
       {caption && <figcaption className="text-sm text-text-secondary mt-3 text-center">{caption}</figcaption>}
     </figure>
@@ -352,10 +365,11 @@ export function ArticleHero({ title, description, image, imageAlt, backLink }: A
   return (
     <section className="relative py-16 md:py-24 overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <img
+        <Image
           src={image}
           alt={imageAlt}
-          className="w-full h-full object-cover"
+          fill
+          className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
       </div>
