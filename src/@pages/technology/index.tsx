@@ -1,5 +1,4 @@
 import { useTranslate } from '@tolgee/react'
-import Link from 'next/link'
 
 import { Layout } from '@/widgets'
 
@@ -13,6 +12,7 @@ import {
   IconSpray,
   IconSterilize,
 } from '@/shared/ui'
+import { AppLink } from '@/shared/ui/app-link'
 
 export function TechnologyPage() {
   const { t } = useTranslate()
@@ -205,16 +205,16 @@ export function TechnologyPage() {
           <h2 className="cta__title">{t('cta.technology.title')}</h2>
           <p className="cta__text">{t('cta.technology.text')}</p>
           <div className="cta__actions">
-            <Link href="/contacts" className="btn btn--white btn--large">
+            <AppLink href="/contacts" className="btn btn--white btn--large">
               {t('hero.getConsultation')}
-            </Link>
-            <Link
+            </AppLink>
+            <AppLink
               href="/applications"
               className="btn btn--secondary btn--large"
               style={{ borderColor: 'white', color: 'white' }}
             >
               {t('cta.technology.areas')}
-            </Link>
+            </AppLink>
           </div>
         </div>
       </section>

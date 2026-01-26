@@ -1,7 +1,8 @@
 import { useTranslate } from '@tolgee/react'
-import Link from 'next/link'
 
-import { IconEmail, IconLocation, IconPhone, IconTelegram, IconWhatsapp, Logo } from '@/shared/ui'
+import { AppLink } from '@/shared/ui/app-link'
+import { IconEmail, IconLocation, IconPhone, IconTelegram, IconWhatsapp } from '@/shared/ui/icons'
+import { Logo } from '@/shared/ui/logo'
 
 export function Footer() {
   const { t } = useTranslate()
@@ -29,24 +30,24 @@ export function Footer() {
             <h4>{t('footer.navigation')}</h4>
             <ul className="footer__links">
               <li>
-                <Link href="/" className="footer__link">
+                <AppLink href="/" className="footer__link">
                   {t('footer.home')}
-                </Link>
+                </AppLink>
               </li>
               <li>
-                <Link href="/technology" className="footer__link">
+                <AppLink href="/technology" className="footer__link">
                   {t('nav.technology')}
-                </Link>
+                </AppLink>
               </li>
               <li>
-                <Link href="/applications" className="footer__link">
+                <AppLink href="/applications" className="footer__link">
                   {t('nav.applications')}
-                </Link>
+                </AppLink>
               </li>
               <li>
-                <Link href="/benefits" className="footer__link">
+                <AppLink href="/benefits" className="footer__link">
                   {t('nav.benefits')}
-                </Link>
+                </AppLink>
               </li>
             </ul>
           </div>
@@ -55,29 +56,29 @@ export function Footer() {
             <h4>{t('footer.applicationsTitle')}</h4>
             <ul className="footer__links">
               <li>
-                <Link href="/applications#poultry" className="footer__link">
+                <AppLink href="/applications#poultry" className="footer__link">
                   {t('applications.poultry.title')}
-                </Link>
+                </AppLink>
               </li>
               <li>
-                <Link href="/applications#food" className="footer__link">
+                <AppLink href="/applications#food" className="footer__link">
                   {t('applications.food.title')}
-                </Link>
+                </AppLink>
               </li>
               <li>
-                <Link href="/applications#horeca" className="footer__link">
+                <AppLink href="/applications#horeca" className="footer__link">
                   {t('applications.horeca.title')}
-                </Link>
+                </AppLink>
               </li>
               <li>
-                <Link href="/applications#medical" className="footer__link">
+                <AppLink href="/applications#medical" className="footer__link">
                   {t('applications.medical.title')}
-                </Link>
+                </AppLink>
               </li>
               <li>
-                <Link href="/applications#water" className="footer__link">
+                <AppLink href="/applications#water" className="footer__link">
                   {t('applications.water.title')}
-                </Link>
+                </AppLink>
               </li>
             </ul>
           </div>

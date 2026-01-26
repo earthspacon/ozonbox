@@ -1,5 +1,4 @@
 import { useTranslate } from '@tolgee/react'
-import Link from 'next/link'
 
 import { Layout } from '@/widgets'
 
@@ -16,6 +15,7 @@ import {
   IconTimer,
   IconWater,
 } from '@/shared/ui'
+import { AppLink } from '@/shared/ui/app-link'
 
 export function HomePage() {
   const { t } = useTranslate()
@@ -37,12 +37,12 @@ export function HomePage() {
             <h1 className="hero__title">{t('hero.title')}</h1>
             <p className="hero__subtitle">{t('hero.subtitle')}</p>
             <div className="hero__actions">
-              <Link href="/technology" className="btn btn--white btn--large">
+              <AppLink href="/technology" className="btn btn--white btn--large">
                 {t('hero.learnMore')}
-              </Link>
-              <Link href="/contacts" className="btn btn--primary btn--large">
+              </AppLink>
+              <AppLink href="/contacts" className="btn btn--primary btn--large">
                 {t('hero.getConsultation')}
-              </Link>
+              </AppLink>
             </div>
             <div className="hero__stats">
               <div className="hero__stat">
@@ -129,9 +129,9 @@ export function HomePage() {
                   <span>{t('aboutOzone.list.safe')}</span>
                 </li>
               </ul>
-              <Link href="/technology" className="btn btn--primary" style={{ marginTop: '1.5rem' }}>
+              <AppLink href="/technology" className="btn btn--primary" style={{ marginTop: '1.5rem' }}>
                 {t('aboutOzone.moreAbout')}
-              </Link>
+              </AppLink>
             </div>
           </div>
         </div>
@@ -147,7 +147,7 @@ export function HomePage() {
             <p className="section__subtitle">{t('applications.subtitle')}</p>
           </div>
           <div className="applications-grid">
-            <Link href="/applications#poultry" className="application-card fade-in visible">
+            <AppLink href="/applications#poultry" className="application-card fade-in visible">
               <div className="application-card__image">
                 <img src="https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=800&q=80" alt="" />
               </div>
@@ -159,8 +159,8 @@ export function HomePage() {
                   {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
                 </span>
               </div>
-            </Link>
-            <Link href="/applications#food" className="application-card fade-in visible">
+            </AppLink>
+            <AppLink href="/applications#food" className="application-card fade-in visible">
               <div className="application-card__image">
                 <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80" alt="" />
               </div>
@@ -172,8 +172,8 @@ export function HomePage() {
                   {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
                 </span>
               </div>
-            </Link>
-            <Link href="/applications#horeca" className="application-card fade-in visible">
+            </AppLink>
+            <AppLink href="/applications#horeca" className="application-card fade-in visible">
               <div className="application-card__image">
                 <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80" alt="" />
               </div>
@@ -185,8 +185,8 @@ export function HomePage() {
                   {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
                 </span>
               </div>
-            </Link>
-            <Link href="/applications#medical" className="application-card fade-in visible">
+            </AppLink>
+            <AppLink href="/applications#medical" className="application-card fade-in visible">
               <div className="application-card__image">
                 <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80" alt="" />
               </div>
@@ -198,8 +198,8 @@ export function HomePage() {
                   {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
                 </span>
               </div>
-            </Link>
-            <Link href="/applications#water" className="application-card fade-in visible">
+            </AppLink>
+            <AppLink href="/applications#water" className="application-card fade-in visible">
               <div className="application-card__image">
                 <img src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=800&q=80" alt="" />
               </div>
@@ -211,8 +211,8 @@ export function HomePage() {
                   {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
                 </span>
               </div>
-            </Link>
-            <Link href="/applications#industry" className="application-card fade-in visible">
+            </AppLink>
+            <AppLink href="/applications#industry" className="application-card fade-in visible">
               <div className="application-card__image">
                 <img src="https://images.unsplash.com/photo-1581093458791-9d42e3c7e117?w=800&q=80" alt="" />
               </div>
@@ -224,7 +224,7 @@ export function HomePage() {
                   {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
                 </span>
               </div>
-            </Link>
+            </AppLink>
           </div>
         </div>
       </section>
@@ -269,9 +269,9 @@ export function HomePage() {
           <h2 className="cta__title">{t('cta.home.title')}</h2>
           <p className="cta__text">{t('cta.home.text')}</p>
           <div className="cta__actions">
-            <Link href="/contacts" className="btn btn--white btn--large">
+            <AppLink href="/contacts" className="btn btn--white btn--large">
               {t('hero.getConsultation')}
-            </Link>
+            </AppLink>
             <a
               href="tel:+78001234567"
               className="btn btn--secondary btn--large"

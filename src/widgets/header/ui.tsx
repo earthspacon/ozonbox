@@ -1,10 +1,11 @@
 import { useTranslate } from '@tolgee/react'
-import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
 
 import { useScrolled } from '@/shared/hooks'
-import { IconClose, IconMenu, IconPhone, Logo } from '@/shared/ui'
+import { AppLink } from '@/shared/ui/app-link'
+import { IconClose, IconMenu, IconPhone } from '@/shared/ui/icons'
+import { Logo } from '@/shared/ui/logo'
 
 export function Header() {
   const { t } = useTranslate()
@@ -34,20 +35,20 @@ export function Header() {
     <>
       <header className={`header ${scrolled ? 'scrolled' : ''}`}>
         <div className="header__inner container">
-          <Link href="/" className="header__logo">
+          <AppLink href="/" className="header__logo">
             <Logo />
-          </Link>
+          </AppLink>
 
           <nav className="header__nav">
             <ul className="header__nav-list">
               {navLinks.map((link) => (
                 <li key={link.href}>
-                  <Link
+                  <AppLink
                     href={link.href}
                     className={`header__nav-link ${router.pathname === link.href ? 'active' : ''}`}
                   >
                     {link.label}
-                  </Link>
+                  </AppLink>
                 </li>
               ))}
             </ul>
@@ -58,9 +59,9 @@ export function Header() {
               <IconPhone className="header__phone-icon" />
               <span>{t('header.phone')}</span>
             </a>
-            <Link href="/contacts" className="btn btn--primary">
+            <AppLink href="/contacts" className="btn btn--primary">
               {t('header.orderCall')}
-            </Link>
+            </AppLink>
           </div>
 
           <button className="header__menu-toggle" aria-label="Menu" onClick={toggleMobileMenu}>
@@ -77,9 +78,9 @@ export function Header() {
         <ul className="mobile-menu__list">
           {navLinks.map((link) => (
             <li key={link.href}>
-              <Link href={link.href} className="mobile-menu__link" onClick={closeMobileMenu}>
+              <AppLink href={link.href} className="mobile-menu__link" onClick={closeMobileMenu}>
                 {link.label}
-              </Link>
+              </AppLink>
             </li>
           ))}
         </ul>

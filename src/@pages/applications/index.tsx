@@ -1,9 +1,9 @@
 import { useTranslate } from '@tolgee/react'
-import Link from 'next/link'
 
 import { Layout } from '@/widgets'
 
 import { IconCheck } from '@/shared/ui'
+import { AppLink } from '@/shared/ui/app-link'
 
 export function ApplicationsPage() {
   const { t } = useTranslate()
@@ -60,9 +60,9 @@ export function ApplicationsPage() {
                   </div>
                 </li>
               </ul>
-              <Link href="/contacts" className="btn btn--primary" style={{ marginTop: '1rem' }}>
+              <AppLink href="/contacts" className="btn btn--primary" style={{ marginTop: '1rem' }}>
                 {t('hero.getConsultation')}
-              </Link>
+              </AppLink>
             </div>
           </div>
         </div>
@@ -110,9 +110,9 @@ export function ApplicationsPage() {
                   </div>
                 </li>
               </ul>
-              <Link href="/contacts" className="btn btn--primary" style={{ marginTop: '1rem' }}>
+              <AppLink href="/contacts" className="btn btn--primary" style={{ marginTop: '1rem' }}>
                 {t('hero.getConsultation')}
-              </Link>
+              </AppLink>
             </div>
           </div>
         </div>
@@ -160,9 +160,9 @@ export function ApplicationsPage() {
                   </div>
                 </li>
               </ul>
-              <Link href="/contacts" className="btn btn--primary" style={{ marginTop: '1rem' }}>
+              <AppLink href="/contacts" className="btn btn--primary" style={{ marginTop: '1rem' }}>
                 {t('hero.getConsultation')}
-              </Link>
+              </AppLink>
             </div>
           </div>
         </div>
@@ -210,9 +210,9 @@ export function ApplicationsPage() {
                   </div>
                 </li>
               </ul>
-              <Link href="/contacts" className="btn btn--primary" style={{ marginTop: '1rem' }}>
+              <AppLink href="/contacts" className="btn btn--primary" style={{ marginTop: '1rem' }}>
                 {t('hero.getConsultation')}
-              </Link>
+              </AppLink>
             </div>
           </div>
         </div>
@@ -260,9 +260,9 @@ export function ApplicationsPage() {
                   </div>
                 </li>
               </ul>
-              <Link href="/contacts" className="btn btn--primary" style={{ marginTop: '1rem' }}>
+              <AppLink href="/contacts" className="btn btn--primary" style={{ marginTop: '1rem' }}>
                 {t('hero.getConsultation')}
-              </Link>
+              </AppLink>
             </div>
           </div>
         </div>
@@ -274,9 +274,9 @@ export function ApplicationsPage() {
           <h2 className="cta__title">{t('cta.applications.title')}</h2>
           <p className="cta__text">{t('cta.applications.text')}</p>
           <div className="cta__actions">
-            <Link href="/contacts" className="btn btn--white btn--large">
+            <AppLink href="/contacts" className="btn btn--white btn--large">
               {t('hero.getConsultation')}
-            </Link>
+            </AppLink>
             <a
               href="tel:+78001234567"
               className="btn btn--secondary btn--large"

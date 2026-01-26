@@ -1,9 +1,9 @@
 import { useTranslate } from '@tolgee/react'
-import Link from 'next/link'
 
 import { Layout } from '@/widgets'
 
 import { IconAuto, IconCheck, IconShield } from '@/shared/ui'
+import { AppLink } from '@/shared/ui/app-link'
 
 export function AboutPage() {
   const { t } = useTranslate()
@@ -117,9 +117,9 @@ export function AboutPage() {
           <h2 className="cta__title">{t('cta.about.title')}</h2>
           <p className="cta__text">{t('cta.about.text')}</p>
           <div className="cta__actions">
-            <Link href="/contacts" className="btn btn--white btn--large">
+            <AppLink href="/contacts" className="btn btn--white btn--large">
               {t('cta.about.contact')}
-            </Link>
+            </AppLink>
             <a
               href="tel:+78001234567"
               className="btn btn--secondary btn--large"

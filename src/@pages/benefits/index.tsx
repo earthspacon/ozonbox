@@ -1,9 +1,9 @@
 import { useTranslate } from '@tolgee/react'
-import Link from 'next/link'
 
 import { Layout } from '@/widgets'
 
 import { IconAuto, IconCheck, IconEco, IconEconomy, IconShield, IconUniversal } from '@/shared/ui'
+import { AppLink } from '@/shared/ui/app-link'
 
 export function BenefitsPage() {
   const { t } = useTranslate()
@@ -187,16 +187,16 @@ export function BenefitsPage() {
           <h2 className="cta__title">{t('cta.benefits.title')}</h2>
           <p className="cta__text">{t('cta.benefits.text')}</p>
           <div className="cta__actions">
-            <Link href="/contacts" className="btn btn--white btn--large">
+            <AppLink href="/contacts" className="btn btn--white btn--large">
               {t('hero.getConsultation')}
-            </Link>
-            <Link
+            </AppLink>
+            <AppLink
               href="/applications"
               className="btn btn--secondary btn--large"
               style={{ borderColor: 'white', color: 'white' }}
             >
               {t('cta.technology.areas')}
-            </Link>
+            </AppLink>
           </div>
         </div>
       </section>
