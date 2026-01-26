@@ -1,0 +1,545 @@
+{
+  "meta": {
+    "title": "OzonTech — Ozonation and disinfection for business",
+    "description": "Professional ozonation systems for poultry farming, food industry, HoReCa and medicine. 300 times more effective than chlorine. Free consultation."
+  },
+  "nav": {
+    "technology": "Technology",
+    "applications": "Applications",
+    "benefits": "Benefits",
+    "about": "About us",
+    "contacts": "Contacts"
+  },
+  "header": {
+    "phone": "8 (800) 123-45-67",
+    "orderCall": "Request a call",
+    "freeCall": "Free call across Russia"
+  },
+  "hero": {
+    "title": "Ozone — Nature's disinfection power",
+    "subtitle": "300 times more effective than chlorine. No chemicals. No residue. No harm to health. Professional ozonation systems for your business.",
+    "learnMore": "Learn more",
+    "getConsultation": "Get consultation",
+    "stats": {
+      "power": "more powerful than chlorine",
+      "pathogens": "pathogens destroyed",
+      "residue": "chemical residue",
+      "functions": "functions in one"
+    }
+  },
+  "features": {
+    "power": {
+      "title": "300x more powerful",
+      "text": "Ozone exceeds chlorine in disinfection efficiency by hundreds of times"
+    },
+    "pathogens": {
+      "title": "99.9% pathogens",
+      "text": "Destroys bacteria, viruses, fungi and mold"
+    },
+    "residue": {
+      "title": "0 residue",
+      "text": "Decomposes into pure oxygen in 20-30 minutes"
+    },
+    "functions": {
+      "title": "7 functions in 1",
+      "text": "Disinfection, pest control, deodorization and more"
+    }
+  },
+  "aboutOzone": {
+    "title": "What is",
+    "titleHighlight": "ozone",
+    "p1": "Ozone (O₃) is a triatomic oxygen molecule, a powerful natural oxidizer. It is formed from atmospheric oxygen using electrical discharge.",
+    "p2": "Upon contact with microorganisms, ozone destroys their cell membranes, then decomposes into ordinary oxygen (O₂), leaving no harmful chemical residues.",
+    "list": {
+      "eco": "Environmentally clean technology without chemicals",
+      "onsite": "Produced on-site from air",
+      "safe": "Safe for humans and animals after decomposition"
+    },
+    "moreAbout": "More about technology"
+  },
+  "applications": {
+    "title": "Areas of",
+    "titleHighlight": "application",
+    "subtitle": "Ozonation is used in various industries for disinfection, sanitization and product quality improvement",
+    "more": "Learn more",
+    "poultry": {
+      "title": "Poultry farming",
+      "text": "Egg disinfection, feed and water treatment"
+    },
+    "food": {
+      "title": "Food industry",
+      "text": "Storage of vegetables, fruits and products"
+    },
+    "horeca": {
+      "title": "HoReCa",
+      "text": "Hotels, restaurants, cafes"
+    },
+    "medical": {
+      "title": "Medicine",
+      "text": "Ward and equipment disinfection"
+    },
+    "water": {
+      "title": "Water treatment",
+      "text": "Drinking water and pool purification"
+    },
+    "industry": {
+      "title": "Manufacturing",
+      "text": "Workshop and warehouse disinfection"
+    }
+  },
+  "research": {
+    "title": "Scientific",
+    "titleHighlight": "research",
+    "subtitle": "Ozonation effectiveness is confirmed by leading world universities",
+    "telaviv": {
+      "title": "Tel Aviv University",
+      "text": "Research confirmed high effectiveness of ozone against SARS-CoV-2 and COVID-19 viruses",
+      "stat": "95% destruction"
+    },
+    "fujita": {
+      "title": "FUJITA University, Japan (2020)",
+      "text": "Low ozone concentrations reduce virus activity in minimal processing time",
+      "stat": "95% in 20 minutes"
+    }
+  },
+  "cta": {
+    "home": {
+      "title": "Ready to implement ozonation in your business?",
+      "text": "Get a free consultation and equipment cost calculation for your needs",
+      "call": "Call: 8 (800) 123-45-67"
+    },
+    "technology": {
+      "title": "Want to learn more about the technology?",
+      "text": "Get a free consultation from our specialists",
+      "areas": "Application areas"
+    },
+    "applications": {
+      "title": "Which industry interests you?",
+      "text": "Tell us about your business, and we will find the optimal ozonation solution"
+    },
+    "benefits": {
+      "title": "Convinced of the benefits?",
+      "text": "Get a free consultation and learn how ozonation can help your business"
+    },
+    "about": {
+      "title": "Ready to cooperate?",
+      "text": "Contact us for a free consultation",
+      "contact": "Contact us"
+    },
+    "contacts": {
+      "title": "Prefer to call?",
+      "text": "Our specialists are ready to answer your questions"
+    }
+  },
+  "footer": {
+    "description": "Professional ozonation systems for business. Eco-friendly and effective disinfection without chemicals.",
+    "navigation": "Navigation",
+    "home": "Home",
+    "applicationsTitle": "Applications",
+    "contactsTitle": "Contacts",
+    "copyright": "OzonTech. All rights reserved.",
+    "dev": "Website development — OzonTech"
+  },
+  "technology": {
+    "pageTitle": "Ozonation Technology — OzonTech",
+    "pageDescription": "Learn how ozonation technology works. Comparison of ozone and chlorine. 7 ozonation functions in one device.",
+    "header": {
+      "title": "How ozonation works",
+      "subtitle": "Learn the principle of operation and its advantages over traditional disinfection methods"
+    },
+    "process": {
+      "title": "Operating",
+      "titleHighlight": "principle",
+      "subtitle": "Ozonation is a simple and effective 4-step process",
+      "step1": {
+        "title": "Ozone generation",
+        "text": "The ozone generator creates O₃ molecules from atmospheric oxygen using electrical discharge"
+      },
+      "step2": {
+        "title": "Distribution",
+        "text": "Ozone is distributed throughout the room or dissolved in water, reaching all surfaces"
+      },
+      "step3": {
+        "title": "Disinfection",
+        "text": "Ozone molecules contact microorganisms and destroy their cell membranes"
+      },
+      "step4": {
+        "title": "Decomposition",
+        "text": "After completion, ozone decomposes into ordinary oxygen O₂, leaving no traces"
+      }
+    },
+    "comparison": {
+      "title": "Ozone vs",
+      "titleHighlight": "Chlorine",
+      "subtitle": "Comparison of two disinfection methods by key parameters",
+      "parameter": "Parameter",
+      "ozone": "Ozone",
+      "chlorine": "Chlorine",
+      "efficiency": "Disinfection efficiency",
+      "efficiencyOzone": "300 times higher",
+      "efficiencyChlorine": "Basic",
+      "time": "Bacterial exposure time",
+      "timeOzone": "10-30 seconds",
+      "timeChlorine": "Minutes-hours",
+      "byproducts": "Byproducts",
+      "byproductsOzone": "None (only O₂)",
+      "byproductsChlorine": "Trichloramines, carcinogens",
+      "irritation": "Mucous membrane irritation",
+      "irritationOzone": "No",
+      "irritationChlorine": "Yes",
+      "smell": "Post-treatment smell",
+      "smellOzone": "Freshness",
+      "smellChlorine": "Strong chlorine odor",
+      "ph": "pH dependence",
+      "phOzone": "Minimal",
+      "phChlorine": "High",
+      "viruses": "Effectiveness against viruses",
+      "virusesOzone": "High (all types)",
+      "virusesChlorine": "Low (chlorine-resistant)",
+      "eco": "Environmental friendliness",
+      "ecoOzone": "100% eco-friendly",
+      "ecoChlorine": "Pollutes environment"
+    },
+    "functions": {
+      "title": "7 functions of",
+      "titleHighlight": "ozonation",
+      "subtitle": "One device solves multiple disinfection and treatment tasks",
+      "disinfection": {
+        "title": "Disinfection",
+        "text": "Destruction of bacteria, viruses and microorganisms"
+      },
+      "disinsection": {
+        "title": "Pest control",
+        "text": "Destruction of insects and their larvae"
+      },
+      "deodorization": {
+        "title": "Deodorization",
+        "text": "Elimination of unpleasant odors"
+      },
+      "deratization": {
+        "title": "Rodent control",
+        "text": "Repelling rodents"
+      },
+      "demercurization": {
+        "title": "Demercurization",
+        "text": "Neutralization of mercury vapors"
+      },
+      "mold": {
+        "title": "Mold removal",
+        "text": "Destruction of fungi and spores"
+      },
+      "sterilization": {
+        "title": "Sterilization",
+        "text": "Complete surface sanitization"
+      },
+      "allinone": {
+        "title": "All in one",
+        "text": "One ozonizer replaces 7 different devices"
+      }
+    }
+  },
+  "applicationsPage": {
+    "pageTitle": "Ozonation Applications — OzonTech",
+    "pageDescription": "Ozonation applications in poultry farming, food industry, hotels, medicine and water treatment. Specific results and benefits.",
+    "header": {
+      "title": "Application areas",
+      "subtitle": "Ozonation is successfully used in poultry farming, food industry, HoReCa, medicine and water treatment"
+    },
+    "poultry": {
+      "title": "Poultry farming",
+      "description": "Ozonation is a key technology for modern poultry farms. It provides disinfection at all production stages: from incubation to finished product storage.",
+      "eggs": {
+        "title": "Incubation egg disinfection",
+        "text": "92-98% effectiveness. Increase in young stock output by 0.8-2.0%. Safer than formaldehyde."
+      },
+      "feed": {
+        "title": "Feed sanitization",
+        "text": "Reduction of mold fungi by 97% in 1 hour. Increase in feed digestibility by 15%."
+      },
+      "water": {
+        "title": "Drinking water treatment",
+        "text": "Destruction of E.coli, salmonella at concentration of 0.3-1.0 g/m³."
+      },
+      "storage": {
+        "title": "Meat shelf life extension",
+        "text": "From 5-7 days to 21-30 days refrigerated without freezing."
+      }
+    },
+    "food": {
+      "title": "Food industry",
+      "description": "Ozonation extends product shelf life while maintaining quality and freshness without chemical preservatives.",
+      "vegetables": {
+        "title": "Vegetable and fruit storage",
+        "text": "Mold and yeast destruction. Potato storage extension by 2.5 months."
+      },
+      "detox": {
+        "title": "Product detoxification",
+        "text": "Toxin neutralization without changing product structure and taste."
+      },
+      "packaging": {
+        "title": "Container treatment",
+        "text": "Disinfection of transport and reusable containers before product packaging."
+      },
+      "cold": {
+        "title": "Cold storage and warehouses",
+        "text": "Maintaining air cleanliness and freshness, preventing mold growth."
+      }
+    },
+    "horeca": {
+      "title": "HoReCa",
+      "description": "Hotels, restaurants and cafes use ozonation to create a perfectly clean environment and eliminate odors.",
+      "rooms": {
+        "title": "Rooms and halls",
+        "text": "Complete elimination of tobacco, food, dampness odors. Fresh air without fragrances."
+      },
+      "kitchen": {
+        "title": "Kitchens and utility rooms",
+        "text": "Disinfection of work surfaces and equipment without chemicals."
+      },
+      "ventilation": {
+        "title": "Ventilation systems",
+        "text": "Duct cleaning from bacteria, mold and unpleasant odors."
+      },
+      "conference": {
+        "title": "Conference rooms",
+        "text": "Quick room treatment between events."
+      }
+    },
+    "medical": {
+      "title": "Medical facilities",
+      "description": "Ozonation provides the highest level of sterility in medical facilities, meeting SanPiN requirements.",
+      "wards": {
+        "title": "Ward and operating room disinfection",
+        "text": "Complete destruction of pathogens, including chlorine-resistant viruses."
+      },
+      "prevention": {
+        "title": "Infection prevention",
+        "text": "Prevention of nosocomial disease outbreaks."
+      },
+      "equipment": {
+        "title": "Equipment sterilization",
+        "text": "Treatment of medical instruments and devices."
+      },
+      "time": {
+        "title": "Quick application",
+        "text": "Ozone decomposition time to safe level: 1.5-2 hours."
+      }
+    },
+    "waterSection": {
+      "title": "Water treatment",
+      "description": "95% of drinking water in Europe is treated with ozone. It is the most effective and safe water purification method.",
+      "drinking": {
+        "title": "Drinking water",
+        "text": "Ozone is 12 times more soluble in water than chlorine. Complete sanitization."
+      },
+      "quality": {
+        "title": "Quality improvement",
+        "text": "Elimination of odors, tastes, turbidity. Improvement of organoleptic properties."
+      },
+      "pools": {
+        "title": "Pools and water parks",
+        "text": "Clean water without eye and skin irritation, without chlorine smell."
+      },
+      "safety": {
+        "title": "Safety",
+        "text": "Does not form dangerous chlorine-containing compounds (trichloramines)."
+      }
+    }
+  },
+  "benefitsPage": {
+    "pageTitle": "Ozonation Benefits — OzonTech",
+    "pageDescription": "Ozonation benefits: eco-friendliness, effectiveness, safety, economy, versatility and autonomous operation.",
+    "header": {
+      "title": "Ozonation benefits",
+      "subtitle": "Why ozonation is the best choice for your business"
+    },
+    "eco": {
+      "title": "Eco-friendliness",
+      "list": {
+        "1": "No chemical reagents required",
+        "2": "Decomposes into pure oxygen O₂",
+        "3": "Leaves no toxic residue",
+        "4": "Safe for the environment"
+      }
+    },
+    "efficiency": {
+      "title": "Effectiveness",
+      "list": {
+        "1": "300 times more powerful than chlorine",
+        "2": "Destroys 99.9% of pathogens",
+        "3": "Works against chlorine-resistant viruses",
+        "4": "Fast action (10-30 seconds)"
+      }
+    },
+    "safety": {
+      "title": "Safety",
+      "list": {
+        "1": "Does not irritate mucous membranes",
+        "2": "Does not cause allergic reactions",
+        "3": "Hypoallergenic for humans and animals",
+        "4": "Complies with SanPiN and GOST"
+      }
+    },
+    "economy": {
+      "title": "Economy",
+      "list": {
+        "1": "3-4 times cheaper than chemical treatment",
+        "2": "Produced on-site from air",
+        "3": "Minimal operating costs",
+        "4": "Long equipment service life"
+      }
+    },
+    "universal": {
+      "title": "Versatility",
+      "list": {
+        "1": "7 functions in one device",
+        "2": "Application in any industry",
+        "3": "Air and water treatment",
+        "4": "Suitable for any premises"
+      }
+    },
+    "auto": {
+      "title": "Autonomy",
+      "list": {
+        "1": "Automatic scheduled operation",
+        "2": "No constant presence required",
+        "3": "Simple and intuitive control",
+        "4": "Remote monitoring"
+      }
+    },
+    "stats": {
+      "title": "Ozonation",
+      "titleHighlight": "in numbers",
+      "power": {
+        "title": "More effective than chlorine",
+        "text": "Ozone exceeds chlorine in disinfection power"
+      },
+      "europe": {
+        "title": "Of European water",
+        "text": "Is treated with ozone for drinking water supply"
+      },
+      "cheaper": {
+        "title": "Cheaper than chemicals",
+        "text": "Ozonation cost is lower than chemical treatment"
+      },
+      "decay": {
+        "title": "Decomposition time",
+        "text": "Ozone converts to pure oxygen"
+      }
+    }
+  },
+  "aboutPage": {
+    "pageTitle": "About — OzonTech",
+    "pageDescription": "About OzonTech — professional ozonation systems for business. Consultations, equipment selection, technical support.",
+    "header": {
+      "title": "About company",
+      "subtitle": "Professional ozonation systems for your business"
+    },
+    "content": {
+      "title": "We are",
+      "titleHighlight": "OzonTech",
+      "p1": "We are a team of specialists in ozone technologies. Our mission is to make disinfection safe, effective and accessible for businesses of any size.",
+      "p2": "We believe the future belongs to eco-friendly technologies that do not harm the environment and human health. Ozonation is exactly such a technology.",
+      "services": {
+        "consulting": "Implementation consulting",
+        "equipment": "Equipment selection",
+        "support": "Technical support",
+        "warranty": "Warranty service"
+      }
+    },
+    "whyUs": {
+      "title": "Why",
+      "titleHighlight": "choose us",
+      "experience": {
+        "title": "Experience and expertise",
+        "list": {
+          "1": "Implementation in poultry farming",
+          "2": "Food industry",
+          "3": "Hotel business",
+          "4": "Medical facilities"
+        }
+      },
+      "standards": {
+        "title": "Standards compliance",
+        "list": {
+          "1": "SanPiN compliance",
+          "2": "GOST compliance",
+          "3": "Certified equipment",
+          "4": "Documentation and instructions"
+        }
+      },
+      "service": {
+        "title": "Full service",
+        "list": {
+          "1": "Free consultation",
+          "2": "Cost calculation",
+          "3": "Installation and setup",
+          "4": "Staff training"
+        }
+      }
+    }
+  },
+  "contactsPage": {
+    "pageTitle": "Contacts — OzonTech",
+    "pageDescription": "Contact OzonTech — get a free consultation on ozonation systems. Phone, email, feedback form.",
+    "header": {
+      "title": "Contacts",
+      "subtitle": "Contact us for a free consultation"
+    },
+    "form": {
+      "title": "Leave a request",
+      "subtitle": "Fill out the form and we will contact you within 30 minutes",
+      "name": "Your name",
+      "namePlaceholder": "How should we address you?",
+      "phone": "Phone",
+      "phonePlaceholder": "+7 (___) ___-__-__",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "industry": "Industry",
+      "industryPlaceholder": "Select industry",
+      "industryOptions": {
+        "poultry": "Poultry farming",
+        "food": "Food industry",
+        "horeca": "HoReCa (hotels, restaurants)",
+        "medical": "Medical facilities",
+        "water": "Water treatment",
+        "other": "Other"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your task...",
+      "submit": "Submit request",
+      "submitting": "Sending...",
+      "privacy": "By clicking the button, you agree to the privacy policy",
+      "success": "Thank you for your request! We will contact you shortly."
+    },
+    "info": {
+      "phone": {
+        "title": "Phone",
+        "subtitle": "Free call across Russia"
+      },
+      "email": {
+        "title": "Email",
+        "subtitle": "We'll reply within an hour"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "subtitle": "Quick answers to questions"
+      },
+      "telegram": {
+        "title": "Telegram",
+        "subtitle": "News and promotions channel"
+      },
+      "address": {
+        "title": "Address",
+        "value": "Moscow, Primernaya st., 123",
+        "office": "Office 456",
+        "hours": "Mon-Fri: 9:00 AM - 6:00 PM"
+      },
+      "workingHours": {
+        "title": "Working hours",
+        "weekdays": "Mon-Fri: 9:00 AM - 6:00 PM",
+        "weekend": "Sat-Sun: by appointment"
+      }
+    }
+  }
+}

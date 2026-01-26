@@ -1,0 +1,545 @@
+{
+  "meta": {
+    "title": "OzonTech — Biznes uchun ozonlash va dezinfeksiya",
+    "description": "Parrandachilik, oziq-ovqat sanoati, HoReCa va tibbiyot uchun professional ozonlash tizimlari. Xlordan 300 marta samaraliroq. Bepul maslahat."
+  },
+  "nav": {
+    "technology": "Texnologiya",
+    "applications": "Qo'llanilishi",
+    "benefits": "Afzalliklari",
+    "about": "Kompaniya haqida",
+    "contacts": "Kontaktlar"
+  },
+  "header": {
+    "phone": "8 (800) 123-45-67",
+    "orderCall": "Qo'ng'iroq buyurtma qilish",
+    "freeCall": "Rossiya bo'ylab bepul qo'ng'iroq"
+  },
+  "hero": {
+    "title": "Ozon — dezinfeksiyaning tabiiy kuchi",
+    "subtitle": "Xlordan 300 marta samaraliroq. Kimyosiz. Qoldiqlarsiz. Sog'liqqa zararsiz. Biznesingiz uchun professional ozonlash tizimlari.",
+    "learnMore": "Batafsil",
+    "getConsultation": "Maslahat olish",
+    "stats": {
+      "power": "xlordan kuchliroq",
+      "pathogens": "patogenlar yo'q qilindi",
+      "residue": "kimyoviy qoldiqlar",
+      "functions": "funksiya bittada"
+    }
+  },
+  "features": {
+    "power": {
+      "title": "300 marta kuchliroq",
+      "text": "Ozon dezinfeksiya samaradorligi bo'yicha xlordan yuzlab marta ustun"
+    },
+    "pathogens": {
+      "title": "99.9% patogenlar",
+      "text": "Bakteriyalar, viruslar, zamburug'lar va mog'orni yo'q qiladi"
+    },
+    "residue": {
+      "title": "0 qoldiq",
+      "text": "20-30 daqiqada toza kislorodga parchalanadi"
+    },
+    "functions": {
+      "title": "1 tada 7 funksiya",
+      "text": "Dezinfeksiya, dezinseksiya, dezodoratsiya va boshqalar"
+    }
+  },
+  "aboutOzone": {
+    "title": "Nima",
+    "titleHighlight": "ozon",
+    "p1": "Ozon (O₃) — bu uch atomli kislorod molekulasi, kuchli tabiiy oksidlovchi. Elektr razryadi yordamida havoning kislorodidan hosil bo'ladi.",
+    "p2": "Mikroorganizmlar bilan aloqada ozon ularning hujayra membranalarini buzadi, so'ngra oddiy kislorodga (O₂) parchalanadi, zararli kimyoviy qoldiqlar qoldirmaydi.",
+    "list": {
+      "eco": "Kimyosiz ekologik toza texnologiya",
+      "onsite": "Havodan joyida ishlab chiqariladi",
+      "safe": "Parchalangandan so'ng insonlar va hayvonlar uchun xavfsiz"
+    },
+    "moreAbout": "Texnologiya haqida batafsil"
+  },
+  "applications": {
+    "title": "Qo'llanilish",
+    "titleHighlight": "sohalari",
+    "subtitle": "Ozonlash turli sohalarda dezinfeksiya, zararsizlantirish va mahsulot sifatini yaxshilash uchun qo'llaniladi",
+    "more": "Batafsil",
+    "poultry": {
+      "title": "Parrandachilik",
+      "text": "Tuxum dezinfeksiyasi, ozuqa va suv ishlov berish"
+    },
+    "food": {
+      "title": "Oziq-ovqat sanoati",
+      "text": "Sabzavot, meva va mahsulotlarni saqlash"
+    },
+    "horeca": {
+      "title": "HoReCa",
+      "text": "Mehmonxonalar, restoranlar, kafelar"
+    },
+    "medical": {
+      "title": "Tibbiyot",
+      "text": "Palatalar va uskunalarni dezinfeksiya qilish"
+    },
+    "water": {
+      "title": "Suv tozalash",
+      "text": "Ichimlik suvi va basseynlarni tozalash"
+    },
+    "industry": {
+      "title": "Ishlab chiqarish",
+      "text": "Tsexlar va omborlarni dezinfeksiya qilish"
+    }
+  },
+  "research": {
+    "title": "Ilmiy",
+    "titleHighlight": "tadqiqotlar",
+    "subtitle": "Ozonlashning samaradorligi dunyo yetakchi universitetlari tomonidan tasdiqlangan",
+    "telaviv": {
+      "title": "Tel-Aviv universiteti",
+      "text": "Tadqiqot ozonning SARS-CoV-2 va COVID-19 viruslariga qarshi yuqori samaradorligini tasdiqladi",
+      "stat": "95% yo'q qilish"
+    },
+    "fujita": {
+      "title": "FUJITA universiteti, Yaponiya (2020)",
+      "text": "Past ozon konsentratsiyalari minimal ishlov berish vaqtida viruslar faolligini kamaytiradi",
+      "stat": "20 daqiqada 95%"
+    }
+  },
+  "cta": {
+    "home": {
+      "title": "Biznesingizga ozonlashni joriy etishga tayyormisiz?",
+      "text": "Bepul maslahat va ehtiyojlaringiz uchun uskunalar narxini hisoblashni oling",
+      "call": "Qo'ng'iroq qilish: 8 (800) 123-45-67"
+    },
+    "technology": {
+      "title": "Texnologiya haqida ko'proq bilmoqchimisiz?",
+      "text": "Mutaxassislarimizdan bepul maslahat oling",
+      "areas": "Qo'llanilish sohalari"
+    },
+    "applications": {
+      "title": "Qaysi soha sizni qiziqtiradi?",
+      "text": "Biznesingiz haqida ayting, biz optimal ozonlash yechimini topamiz"
+    },
+    "benefits": {
+      "title": "Afzalliklariga ishondingizmi?",
+      "text": "Bepul maslahat oling va ozonlash biznesingizga qanday yordam berishini bilib oling"
+    },
+    "about": {
+      "title": "Hamkorlikka tayyormisiz?",
+      "text": "Bepul maslahat uchun biz bilan bog'laning",
+      "contact": "Bog'lanish"
+    },
+    "contacts": {
+      "title": "Qo'ng'iroq qilishni afzal ko'rasizmi?",
+      "text": "Mutaxassislarimiz savollaringizga javob berishga tayyor"
+    }
+  },
+  "footer": {
+    "description": "Biznes uchun professional ozonlash tizimlari. Kimyosiz ekologik va samarali dezinfeksiya.",
+    "navigation": "Navigatsiya",
+    "home": "Bosh sahifa",
+    "applicationsTitle": "Qo'llanilishi",
+    "contactsTitle": "Kontaktlar",
+    "copyright": "OzonTech. Barcha huquqlar himoyalangan.",
+    "dev": "Sayt ishlab chiqaruvchi — OzonTech"
+  },
+  "technology": {
+    "pageTitle": "Ozonlash texnologiyasi — OzonTech",
+    "pageDescription": "Ozonlash texnologiyasi qanday ishlashini bilib oling. Ozon va xlorni taqqoslash. Bitta qurilmada 7 ta ozonlash funksiyasi.",
+    "header": {
+      "title": "Ozonlash qanday ishlaydi",
+      "subtitle": "Ishlash tamoyilini va an'anaviy dezinfeksiya usullaridan afzalliklarini bilib oling"
+    },
+    "process": {
+      "title": "Ishlash",
+      "titleHighlight": "tamoyili",
+      "subtitle": "Ozonlash — oddiy va samarali 4 bosqichli jarayon",
+      "step1": {
+        "title": "Ozon hosil qilish",
+        "text": "Ozon generatori elektr razryadi yordamida atmosfera kislorodidan O₃ molekulalarini yaratadi"
+      },
+      "step2": {
+        "title": "Tarqatish",
+        "text": "Ozon xona bo'ylab tarqaladi yoki suvda eriydi, barcha sirtlarga yetib boradi"
+      },
+      "step3": {
+        "title": "Dezinfeksiya",
+        "text": "Ozon molekulalari mikroorganizmlar bilan aloqaga kirib, ularning hujayra membranalarini buzadi"
+      },
+      "step4": {
+        "title": "Parchalanish",
+        "text": "Tugagandan so'ng ozon oddiy kislorod O₂ ga parchalanadi, iz qoldirmaydi"
+      }
+    },
+    "comparison": {
+      "title": "Ozon vs",
+      "titleHighlight": "Xlor",
+      "subtitle": "Ikki dezinfeksiya usulini asosiy parametrlar bo'yicha taqqoslash",
+      "parameter": "Parametr",
+      "ozone": "Ozon",
+      "chlorine": "Xlor",
+      "efficiency": "Dezinfeksiya samaradorligi",
+      "efficiencyOzone": "300 marta yuqori",
+      "efficiencyChlorine": "Asosiy",
+      "time": "Bakteriyalarga ta'sir vaqti",
+      "timeOzone": "10-30 soniya",
+      "timeChlorine": "Daqiqalar-soatlar",
+      "byproducts": "Yon mahsulotlar",
+      "byproductsOzone": "Yo'q (faqat O₂)",
+      "byproductsChlorine": "Trixloraminlar, kantserogenlar",
+      "irritation": "Shilliq pardani ta'sirlantirish",
+      "irritationOzone": "Yo'q",
+      "irritationChlorine": "Ha",
+      "smell": "Ishlov berilgandan keyingi hid",
+      "smellOzone": "Toza",
+      "smellChlorine": "Kuchli xlor hidi",
+      "ph": "pH ga bog'liqlik",
+      "phOzone": "Minimal",
+      "phChlorine": "Yuqori",
+      "viruses": "Viruslarga qarshi samaradorlik",
+      "virusesOzone": "Yuqori (barcha turlari)",
+      "virusesChlorine": "Past (xlorga chidamli)",
+      "eco": "Ekologik tozalik",
+      "ecoOzone": "100% ekologik",
+      "ecoChlorine": "Atrof-muhitni ifloslantiradi"
+    },
+    "functions": {
+      "title": "Ozonlashning 7",
+      "titleHighlight": "funksiyasi",
+      "subtitle": "Bitta qurilma bir nechta dezinfeksiya va ishlov berish vazifalarini hal qiladi",
+      "disinfection": {
+        "title": "Dezinfeksiya",
+        "text": "Bakteriyalar, viruslar va mikroorganizmlarni yo'q qilish"
+      },
+      "disinsection": {
+        "title": "Dezinseksiya",
+        "text": "Hasharotlar va ularning lichinalarini yo'q qilish"
+      },
+      "deodorization": {
+        "title": "Dezodoratsiya",
+        "text": "Yoqimsiz hidlarni bartaraf etish"
+      },
+      "deratization": {
+        "title": "Deratizatsiya",
+        "text": "Kemiruvchilarni quvish"
+      },
+      "demercurization": {
+        "title": "Demerkurizatsiya",
+        "text": "Simob bug'larini neytrallashtirish"
+      },
+      "mold": {
+        "title": "Mog'orni olib tashlash",
+        "text": "Zamburug'lar va sporalarni yo'q qilish"
+      },
+      "sterilization": {
+        "title": "Sterilizatsiya",
+        "text": "Sirtlarni to'liq zararsizlantirish"
+      },
+      "allinone": {
+        "title": "Hammasi bittada",
+        "text": "Bitta ozonator 7 xil qurilmani almashtiradi"
+      }
+    }
+  },
+  "applicationsPage": {
+    "pageTitle": "Ozonlash qo'llanilishi — OzonTech",
+    "pageDescription": "Parrandachilik, oziq-ovqat sanoati, mehmonxonalar, tibbiyot va suv tozalashda ozonlash qo'llanilishi. Aniq natijalar va afzalliklar.",
+    "header": {
+      "title": "Qo'llanilish sohalari",
+      "subtitle": "Ozonlash parrandachilik, oziq-ovqat sanoati, HoReCa, tibbiyot va suv tozalashda muvaffaqiyatli qo'llaniladi"
+    },
+    "poultry": {
+      "title": "Parrandachilik",
+      "description": "Ozonlash zamonaviy parrandachilik fermasi uchun asosiy texnologiya. Inkubatsiyadan tayyor mahsulotni saqlashgacha barcha ishlab chiqarish bosqichlarida dezinfeksiya ta'minlaydi.",
+      "eggs": {
+        "title": "Inkubatsiya tuxumini dezinfeksiya qilish",
+        "text": "92-98% samaradorlik. Yosh chiqishini 0,8-2,0% ga oshirish. Formaldegiddan xavfsizroq."
+      },
+      "feed": {
+        "title": "Ozuqani zararsizlantirish",
+        "text": "1 soatda mog'or zamburug'larini 97% ga kamaytirish. Ozuqa hazm qilishni 15% ga oshirish."
+      },
+      "water": {
+        "title": "Ichimlik suvini ishlov berish",
+        "text": "0,3-1,0 g/m³ konsentratsiyada E.coli, salmonellani yo'q qilish."
+      },
+      "storage": {
+        "title": "Go'shtni saqlash muddatini uzaytirish",
+        "text": "5-7 kundan muzlatmasdan sovutilgan holatda 21-30 kungacha."
+      }
+    },
+    "food": {
+      "title": "Oziq-ovqat sanoati",
+      "description": "Ozonlash kimyoviy konservantlarsiz mahsulot sifatini va yangiligini saqlab, saqlash muddatini uzaytiradi.",
+      "vegetables": {
+        "title": "Sabzavot va mevalarni saqlash",
+        "text": "Mog'or va xamirturushni yo'q qilish. Kartoshka saqlashni 2,5 oyga uzaytirish."
+      },
+      "detox": {
+        "title": "Mahsulotni detoksifikatsiya qilish",
+        "text": "Mahsulot tuzilishi va ta'mini o'zgartirmasdan toksinlarni neytrallashtirish."
+      },
+      "packaging": {
+        "title": "Idishlarni ishlov berish",
+        "text": "Mahsulot qadoqlashdan oldin transport va qayta ishlatish idishlarini dezinfeksiya qilish."
+      },
+      "cold": {
+        "title": "Sovutgichlar va omborlar",
+        "text": "Havo tozaligi va yangiligini saqlab qolish, mog'or o'sishini oldini olish."
+      }
+    },
+    "horeca": {
+      "title": "HoReCa",
+      "description": "Mehmonxonalar, restoranlar va kafelar mukammal toza muhit yaratish va hidlarni bartaraf etish uchun ozonlashdan foydalanadi.",
+      "rooms": {
+        "title": "Xonalar va zallar",
+        "text": "Tamaki, ovqat, namlik hidlarini to'liq bartaraf etish. Xushbo'ylantirgichlarsiz toza havo."
+      },
+      "kitchen": {
+        "title": "Oshxonalar va yordamchi xonalar",
+        "text": "Kimyosiz ish sirtlari va uskunalarni dezinfeksiya qilish."
+      },
+      "ventilation": {
+        "title": "Ventilyatsiya tizimlari",
+        "text": "Havo kanallarini bakteriya, mog'or va yoqimsiz hidlardan tozalash."
+      },
+      "conference": {
+        "title": "Konferensiya zallari",
+        "text": "Tadbirlar orasida xonalarni tez ishlov berish."
+      }
+    },
+    "medical": {
+      "title": "Tibbiy muassasalar",
+      "description": "Ozonlash SanPiN talablariga javob berib, tibbiy muassasalarda eng yuqori darajadagi sterillikni ta'minlaydi.",
+      "wards": {
+        "title": "Palatalar va operatsiya xonalarini dezinfeksiya qilish",
+        "text": "Xlorga chidamli viruslar shu jumladan patogenlarni to'liq yo'q qilish."
+      },
+      "prevention": {
+        "title": "Infeksiya profilaktikasi",
+        "text": "Kasalxona ichidagi kasallik avj olishini oldini olish."
+      },
+      "equipment": {
+        "title": "Uskunalarni sterilizatsiya qilish",
+        "text": "Tibbiy asboblar va qurilmalarni ishlov berish."
+      },
+      "time": {
+        "title": "Tez qo'llash",
+        "text": "Ozonning xavfsiz darajagacha parchalanish vaqti: 1,5-2 soat."
+      }
+    },
+    "waterSection": {
+      "title": "Suv tozalash",
+      "description": "Yevropada ichimlik suvining 95% ozon bilan ishlov beriladi. Bu eng samarali va xavfsiz suv tozalash usuli.",
+      "drinking": {
+        "title": "Ichimlik suvi",
+        "text": "Ozon suvda xlorga qaraganda 12 marta ko'proq eriydi. To'liq zararsizlantirish."
+      },
+      "quality": {
+        "title": "Sifatni yaxshilash",
+        "text": "Hidlar, ta'mlar, loyqalikni bartaraf etish. Organoleptik xususiyatlarni yaxshilash."
+      },
+      "pools": {
+        "title": "Basseynlar va akvapark",
+        "text": "Ko'z va teri ta'sirlantirishsiz, xlor hidisiz toza suv."
+      },
+      "safety": {
+        "title": "Xavfsizlik",
+        "text": "Xavfli xlor birikmalarini (trixloraminlar) hosil qilmaydi."
+      }
+    }
+  },
+  "benefitsPage": {
+    "pageTitle": "Ozonlash afzalliklari — OzonTech",
+    "pageDescription": "Ozonlash afzalliklari: ekologik tozalik, samaradorlik, xavfsizlik, tejamkorlik, universallik va avtonom ishlash.",
+    "header": {
+      "title": "Ozonlash afzalliklari",
+      "subtitle": "Nima uchun ozonlash biznesingiz uchun eng yaxshi tanlov"
+    },
+    "eco": {
+      "title": "Ekologik tozalik",
+      "list": {
+        "1": "Kimyoviy reagentlar talab qilinmaydi",
+        "2": "Toza kislorod O₂ ga parchalanadi",
+        "3": "Toksik qoldiq qoldirmaydi",
+        "4": "Atrof-muhit uchun xavfsiz"
+      }
+    },
+    "efficiency": {
+      "title": "Samaradorlik",
+      "list": {
+        "1": "Xlordan 300 marta kuchli",
+        "2": "Patogenlarning 99,9% yo'q qiladi",
+        "3": "Xlorga chidamli viruslarga qarshi ishlaydi",
+        "4": "Tez ta'sir (10-30 soniya)"
+      }
+    },
+    "safety": {
+      "title": "Xavfsizlik",
+      "list": {
+        "1": "Shilliq pardani ta'sirlantirmaydi",
+        "2": "Allergik reaktsiyalarni keltirib chiqarmaydi",
+        "3": "Insonlar va hayvonlar uchun gipoallergen",
+        "4": "SanPiN va GOSTga mos"
+      }
+    },
+    "economy": {
+      "title": "Tejamkorlik",
+      "list": {
+        "1": "Kimyoviy ishlov berishdan 3-4 marta arzon",
+        "2": "Joyida havodan ishlab chiqariladi",
+        "3": "Minimal ekspluatatsiya xarajatlari",
+        "4": "Uskunaning uzoq xizmat muddati"
+      }
+    },
+    "universal": {
+      "title": "Universallik",
+      "list": {
+        "1": "Bitta qurilmada 7 funksiya",
+        "2": "Har qanday sohada qo'llash",
+        "3": "Havo va suvni ishlov berish",
+        "4": "Har qanday binolarga mos"
+      }
+    },
+    "auto": {
+      "title": "Avtonomlik",
+      "list": {
+        "1": "Jadval bo'yicha avtomatik ishlash",
+        "2": "Doimiy ishtirok talab qilinmaydi",
+        "3": "Oddiy va intuitiv boshqaruv",
+        "4": "Masofadan monitoring"
+      }
+    },
+    "stats": {
+      "title": "Ozonlash",
+      "titleHighlight": "raqamlarda",
+      "power": {
+        "title": "Xlordan samaraliroq",
+        "text": "Ozon dezinfeksiya kuchi bo'yicha xlordan ustun"
+      },
+      "europe": {
+        "title": "Yevropa suvining",
+        "text": "Ichimlik suvi ta'minoti uchun ozon bilan ishlov beriladi"
+      },
+      "cheaper": {
+        "title": "Kimyodan arzon",
+        "text": "Ozonlash narxi kimyoviy ishlov berishdan past"
+      },
+      "decay": {
+        "title": "Parchalanish vaqti",
+        "text": "Ozon toza kislorodga aylanadi"
+      }
+    }
+  },
+  "aboutPage": {
+    "pageTitle": "Kompaniya haqida — OzonTech",
+    "pageDescription": "OzonTech haqida — biznes uchun professional ozonlash tizimlari. Maslahatlar, uskunalar tanlash, texnik yordam.",
+    "header": {
+      "title": "Kompaniya haqida",
+      "subtitle": "Biznesingiz uchun professional ozonlash tizimlari"
+    },
+    "content": {
+      "title": "Biz —",
+      "titleHighlight": "OzonTech",
+      "p1": "Biz ozon texnologiyalari sohasidagi mutaxassislar jamoasimiz. Bizning vazifamiz — dezinfeksiyani xavfsiz, samarali va har qanday hajmdagi biznes uchun qulay qilish.",
+      "p2": "Biz kelajak atrof-muhit va inson sog'lig'iga zarar bermaydigan ekologik texnologiyalarga tegishli deb ishonamiz. Ozonlash aynan shunday texnologiya.",
+      "services": {
+        "consulting": "Joriy etish bo'yicha maslahatlar",
+        "equipment": "Uskunalar tanlash",
+        "support": "Texnik yordam",
+        "warranty": "Kafolat xizmati"
+      }
+    },
+    "whyUs": {
+      "title": "Nima uchun",
+      "titleHighlight": "bizni tanlashadi",
+      "experience": {
+        "title": "Tajriba va ekspertiza",
+        "list": {
+          "1": "Parrandachilikda joriy etish",
+          "2": "Oziq-ovqat sanoati",
+          "3": "Mehmonxona biznesi",
+          "4": "Tibbiy muassasalar"
+        }
+      },
+      "standards": {
+        "title": "Standartlarga muvofiqlik",
+        "list": {
+          "1": "SanPiN ga muvofiqlik",
+          "2": "GOST ga muvofiqlik",
+          "3": "Sertifikatlangan uskunalar",
+          "4": "Hujjatlar va ko'rsatmalar"
+        }
+      },
+      "service": {
+        "title": "To'liq xizmat",
+        "list": {
+          "1": "Bepul maslahat",
+          "2": "Narxni hisoblash",
+          "3": "O'rnatish va sozlash",
+          "4": "Xodimlarni o'qitish"
+        }
+      }
+    }
+  },
+  "contactsPage": {
+    "pageTitle": "Kontaktlar — OzonTech",
+    "pageDescription": "OzonTech bilan bog'laning — ozonlash tizimlari bo'yicha bepul maslahat oling. Telefon, email, qayta aloqa formasi.",
+    "header": {
+      "title": "Kontaktlar",
+      "subtitle": "Bepul maslahat uchun biz bilan bog'laning"
+    },
+    "form": {
+      "title": "So'rov qoldiring",
+      "subtitle": "Formani to'ldiring va biz 30 daqiqa ichida siz bilan bog'lanamiz",
+      "name": "Ismingiz",
+      "namePlaceholder": "Sizga qanday murojaat qilaylik?",
+      "phone": "Telefon",
+      "phonePlaceholder": "+7 (___) ___-__-__",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "industry": "Soha",
+      "industryPlaceholder": "Sohani tanlang",
+      "industryOptions": {
+        "poultry": "Parrandachilik",
+        "food": "Oziq-ovqat sanoati",
+        "horeca": "HoReCa (mehmonxonalar, restoranlar)",
+        "medical": "Tibbiy muassasalar",
+        "water": "Suv tozalash",
+        "other": "Boshqa"
+      },
+      "message": "Xabar",
+      "messagePlaceholder": "Vazifangiz haqida ayting...",
+      "submit": "So'rov yuborish",
+      "submitting": "Yuborilmoqda...",
+      "privacy": "Tugmani bosish orqali siz maxfiylik siyosatiga rozilik bildirasiz",
+      "success": "So'rovingiz uchun rahmat! Biz tez orada siz bilan bog'lanamiz."
+    },
+    "info": {
+      "phone": {
+        "title": "Telefon",
+        "subtitle": "Rossiya bo'ylab bepul qo'ng'iroq"
+      },
+      "email": {
+        "title": "Email",
+        "subtitle": "Bir soat ichida javob beramiz"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "subtitle": "Savollarga tez javoblar"
+      },
+      "telegram": {
+        "title": "Telegram",
+        "subtitle": "Yangiliklar va aksiyalar kanali"
+      },
+      "address": {
+        "title": "Manzil",
+        "value": "Moskva, Primernaya ko'chasi, 123",
+        "office": "Ofis 456",
+        "hours": "Dush-Jum: 9:00 - 18:00"
+      },
+      "workingHours": {
+        "title": "Ish vaqti",
+        "weekdays": "Dush-Jum: 9:00 - 18:00",
+        "weekend": "Shan-Yak: oldindan kelishilgan holda"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+export { HomePage } from './home'
+export { TechnologyPage } from './technology'
+export { ApplicationsPage } from './applications'
+export { BenefitsPage } from './benefits'
+export { AboutPage } from './about'
+export { ContactsPage } from './contacts'
