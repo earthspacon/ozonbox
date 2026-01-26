@@ -1,9 +1,16 @@
 import type { NextConfig } from 'next'
 
+const isGithubPages = process.env.GITHUB_PAGES === 'true'
+const basePath = isGithubPages ? process.env.BASE_PATH || '' : ''
+const assetPrefix = isGithubPages ? basePath : ''
+
 const nextConfig: NextConfig = {
   reactStrictMode: true,
 
   output: 'export',
+  basePath: basePath,
+  assetPrefix: assetPrefix,
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
