@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { CarpetCleaningPage } from '@/@pages/applications/cleaning/carpet-cleaning'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

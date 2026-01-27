@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 import { Layout } from '@/widgets'
 
+import { AppLink } from '@/shared/ui/app-link'
 import {
   IconArrowRight,
   IconCheck,
@@ -14,7 +15,6 @@ import {
   IconShield,
   IconTimer,
 } from '@/shared/ui/icons'
-import { AppLink } from '@/shared/ui/app-link'
 
 export function HomePage() {
   const { t } = useTranslate()
@@ -229,7 +229,7 @@ export function HomePage() {
               </div>
             </AppLink>
           </div>
-          <div className="flex justify-center mt-8">
+          <div className="mt-8 flex justify-center">
             <AppLink href="/applications" className="btn btn--primary btn--large">
               {t('applications.viewAll')} <IconArrowRight style={{ width: 20, height: 20, marginLeft: '0.5rem' }} />
             </AppLink>

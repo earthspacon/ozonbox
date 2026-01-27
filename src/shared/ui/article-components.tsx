@@ -1,5 +1,5 @@
-import { ReactNode } from 'react'
 import Image from 'next/image'
+import { ReactNode } from 'react'
 
 interface StatCardProps {
   value: string
@@ -17,8 +17,8 @@ export function StatCard({ value, label, description, variant = 'primary' }: Sta
 
   return (
     <div className={`rounded-2xl p-6 ${variantClasses[variant]}`}>
-      <div className="text-3xl md:text-4xl font-bold mb-2">{value}</div>
-      <div className={`text-lg font-semibold mb-1 ${variant === 'neutral' ? 'text-text-primary' : 'text-white/90'}`}>
+      <div className="mb-2 text-3xl font-bold md:text-4xl">{value}</div>
+      <div className={`mb-1 text-lg font-semibold ${variant === 'neutral' ? 'text-text-primary' : 'text-white/90'}`}>
         {label}
       </div>
       {description && (
@@ -42,7 +42,7 @@ export function StatGrid({ children, columns = 3 }: StatGridProps) {
     4: 'md:grid-cols-2 lg:grid-cols-4',
   }
 
-  return <div className={`grid grid-cols-1 ${gridCols[columns]} gap-4 md:gap-6 my-8`}>{children}</div>
+  return <div className={`grid grid-cols-1 ${gridCols[columns]} my-8 gap-4 px-4 md:gap-6`}>{children}</div>
 }
 
 interface HighlightBoxProps {
@@ -59,9 +59,9 @@ export function HighlightBox({ children, variant = 'info', icon }: HighlightBoxP
   }
 
   return (
-    <div className={`rounded-xl border-l-4 p-5 my-6 ${variantClasses[variant]}`}>
+    <div className={`my-6 rounded-xl border-l-4 p-5 ${variantClasses[variant]}`}>
       <div className="flex items-start gap-3">
-        {icon && <div className="flex-shrink-0 mt-0.5">{icon}</div>}
+        {icon && <div className="mt-0.5 flex-shrink-0">{icon}</div>}
         <div className="text-base leading-relaxed">{children}</div>
       </div>
     </div>
@@ -76,15 +76,13 @@ interface DataTableProps {
 
 export function DataTable({ headers, rows, caption }: DataTableProps) {
   return (
-    <div className="my-8 overflow-x-auto">
-      <table className="w-full border-collapse bg-white rounded-xl overflow-hidden shadow-sm">
-        {caption && (
-          <caption className="text-left text-sm text-text-secondary mb-3 px-1">{caption}</caption>
-        )}
+    <div className="my-8 overflow-x-auto p-4">
+      <table className="w-full border-collapse overflow-hidden rounded-xl bg-white shadow-sm">
+        {caption && <caption className="text-text-secondary mb-3 px-1 text-left text-sm">{caption}</caption>}
         <thead>
-          <tr className="bg-gradient-to-r from-primary to-accent text-white">
+          <tr className="from-primary to-accent bg-gradient-to-r text-white">
             {headers.map((header, i) => (
-              <th key={i} className="px-4 py-3 text-left font-semibold text-sm">
+              <th key={i} className="px-4 py-3 text-left text-sm font-semibold">
                 {header}
               </th>
             ))}
@@ -94,7 +92,7 @@ export function DataTable({ headers, rows, caption }: DataTableProps) {
           {rows.map((row, i) => (
             <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-bg-light'}>
               {row.map((cell, j) => (
-                <td key={j} className="px-4 py-3 text-sm border-t border-border">
+                <td key={j} className="border-border border-t px-4 py-3 text-sm">
                   {cell}
                 </td>
               ))}
@@ -116,40 +114,34 @@ export function ComparisonTable({ title, headers, rows }: ComparisonTableProps) 
   const isFourColumns = headers.length === 4
 
   return (
-    <div className="my-8">
-      {title && <h3 className="text-xl font-bold mb-4">{title}</h3>}
+    <div className="my-8 p-4">
+      {title && <h3 className="mb-4 text-xl font-bold">{title}</h3>}
       <div className="overflow-x-auto">
-        <table className="w-full border-collapse bg-white rounded-xl overflow-hidden shadow-sm">
+        <table className="w-full border-collapse overflow-hidden rounded-xl bg-white shadow-sm">
           <thead>
             <tr>
-              <th className="px-4 py-3 text-left font-semibold text-sm bg-bg-gray border-b border-border">
+              <th className="bg-bg-gray border-border border-b px-4 py-3 text-left text-sm font-semibold">
                 {headers[0]}
               </th>
-              <th className="px-4 py-3 text-center font-semibold text-sm bg-primary text-white">
-                {headers[1]}
-              </th>
-              <th className="px-4 py-3 text-center font-semibold text-sm bg-text-secondary text-white">
-                {headers[2]}
-              </th>
+              <th className="bg-primary px-4 py-3 text-center text-sm font-semibold text-white">{headers[1]}</th>
+              <th className="bg-text-secondary px-4 py-3 text-center text-sm font-semibold text-white">{headers[2]}</th>
               {isFourColumns && (
-                <th className="px-4 py-3 text-center font-semibold text-sm bg-accent text-white">
-                  {headers[3]}
-                </th>
+                <th className="bg-accent px-4 py-3 text-center text-sm font-semibold text-white">{headers[3]}</th>
               )}
             </tr>
           </thead>
           <tbody>
             {rows.map((row, i) => (
               <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-bg-light'}>
-                <td className="px-4 py-3 text-sm border-t border-border font-medium">{row.parameter}</td>
-                <td className="px-4 py-3 text-sm border-t border-border text-center text-primary-dark font-medium">
+                <td className="border-border border-t px-4 py-3 text-sm font-medium">{row.parameter}</td>
+                <td className="border-border text-primary-dark border-t px-4 py-3 text-center text-sm font-medium">
                   {row.value1}
                 </td>
-                <td className="px-4 py-3 text-sm border-t border-border text-center text-text-secondary">
+                <td className="border-border text-text-secondary border-t px-4 py-3 text-center text-sm">
                   {row.value2}
                 </td>
                 {isFourColumns && (
-                  <td className="px-4 py-3 text-sm border-t border-border text-center text-accent-dark">
+                  <td className="border-border text-accent-dark border-t px-4 py-3 text-center text-sm">
                     {row.value3}
                   </td>
                 )}
@@ -170,8 +162,8 @@ interface SectionProps {
 
 export function ArticleSection({ title, children, className = '' }: SectionProps) {
   return (
-    <section className={`my-12 md:my-16 ${className}`}>
-      {title && <h2 className="text-2xl md:text-3xl font-bold mb-6 text-text-primary">{title}</h2>}
+    <section className={`my-12 px-4 md:my-16 md:px-6 ${className}`}>
+      {title && <h2 className="text-text-primary mb-6 text-2xl font-bold md:text-3xl">{title}</h2>}
       {children}
     </section>
   )
@@ -185,12 +177,12 @@ interface ProcessStepProps {
 
 export function ProcessStep({ number, title, description }: ProcessStepProps) {
   return (
-    <div className="flex gap-4 items-start">
-      <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-primary to-accent text-white flex items-center justify-center font-bold text-lg">
+    <div className="flex items-start gap-4 p-4">
+      <div className="from-primary to-accent flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br text-lg font-bold text-white">
         {number}
       </div>
       <div>
-        <h4 className="font-semibold text-lg mb-1">{title}</h4>
+        <h4 className="mb-1 text-lg font-semibold">{title}</h4>
         <p className="text-text-secondary">{description}</p>
       </div>
     </div>
@@ -203,7 +195,7 @@ interface ProcessListProps {
 
 export function ProcessList({ steps }: ProcessListProps) {
   return (
-    <div className="space-y-6 my-8">
+    <div className="my-8 space-y-6 p-4">
       {steps.map((step, i) => (
         <ProcessStep key={i} number={i + 1} title={step.title} description={step.description} />
       ))}
@@ -219,9 +211,9 @@ interface FeatureCardProps {
 
 export function FeatureCard({ icon, title, description }: FeatureCardProps) {
   return (
-    <div className="bg-white rounded-xl p-6 shadow-sm border border-border hover:shadow-md transition-shadow">
+    <div className="border-border rounded-xl border bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
       {icon && <div className="text-primary mb-3">{icon}</div>}
-      <h4 className="font-semibold text-lg mb-2">{title}</h4>
+      <h4 className="mb-2 text-lg font-semibold">{title}</h4>
       <p className="text-text-secondary text-sm">{description}</p>
     </div>
   )
@@ -239,7 +231,7 @@ export function FeatureGrid({ children, columns = 3 }: FeatureGridProps) {
     4: 'md:grid-cols-2 lg:grid-cols-4',
   }
 
-  return <div className={`grid grid-cols-1 ${gridCols[columns]} gap-4 md:gap-6 my-8`}>{children}</div>
+  return <div className={`grid grid-cols-1 ${gridCols[columns]} my-8 gap-4 px-4 md:gap-6`}>{children}</div>
 }
 
 interface QuoteBlockProps {
@@ -249,9 +241,9 @@ interface QuoteBlockProps {
 
 export function QuoteBlock({ text, source }: QuoteBlockProps) {
   return (
-    <blockquote className="my-8 pl-6 border-l-4 border-primary">
-      <p className="text-lg italic text-text-secondary mb-2">&ldquo;{text}&rdquo;</p>
-      {source && <cite className="text-sm text-text-light not-italic">— {source}</cite>}
+    <blockquote className="border-primary my-8 border-l-4 py-4 pr-4 pl-6">
+      <p className="text-text-secondary mb-2 text-lg italic">&ldquo;{text}&rdquo;</p>
+      {source && <cite className="text-text-light text-sm not-italic">— {source}</cite>}
     </blockquote>
   )
 }
@@ -264,25 +256,21 @@ interface ImageWithCaptionProps {
 
 export function ImageWithCaption({ src, alt, caption }: ImageWithCaptionProps) {
   return (
-    <figure className="my-8">
-      <div className="rounded-xl overflow-hidden relative w-full aspect-auto">
-        <Image src={src} alt={alt} width={800} height={600} className="w-full h-auto" />
+    <figure className="my-8 p-4">
+      <div className="relative aspect-auto w-full overflow-hidden rounded-xl">
+        <Image src={src} alt={alt} width={800} height={600} className="h-auto w-full" />
       </div>
-      {caption && <figcaption className="text-sm text-text-secondary mt-3 text-center">{caption}</figcaption>}
+      {caption && <figcaption className="text-text-secondary mt-3 text-center text-sm">{caption}</figcaption>}
     </figure>
   )
 }
 
 export function ArticleContent({ children }: { children: ReactNode }) {
-  return (
-    <div className="prose prose-lg max-w-none text-text-primary leading-relaxed">
-      {children}
-    </div>
-  )
+  return <div className="prose prose-lg text-text-primary max-w-none p-4 leading-relaxed md:p-6">{children}</div>
 }
 
 export function Paragraph({ children }: { children: ReactNode }) {
-  return <p className="mb-4 text-text-secondary leading-relaxed">{children}</p>
+  return <p className="text-text-secondary mb-4 px-2 leading-relaxed">{children}</p>
 }
 
 interface BulletListProps {
@@ -291,10 +279,10 @@ interface BulletListProps {
 
 export function BulletList({ items }: BulletListProps) {
   return (
-    <ul className="my-4 space-y-2">
+    <ul className="my-4 space-y-2 px-4 py-2">
       {items.map((item, i) => (
         <li key={i} className="flex items-start gap-3">
-          <span className="flex-shrink-0 w-2 h-2 rounded-full bg-primary mt-2" />
+          <span className="bg-primary mt-2 h-2 w-2 flex-shrink-0 rounded-full" />
           <span className="text-text-secondary">{item}</span>
         </li>
       ))}
@@ -308,10 +296,10 @@ interface NumberedListProps {
 
 export function NumberedList({ items }: NumberedListProps) {
   return (
-    <ol className="my-4 space-y-3">
+    <ol className="my-4 space-y-3 px-4 py-2">
       {items.map((item, i) => (
         <li key={i} className="flex items-start gap-3">
-          <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 text-primary text-sm font-semibold flex items-center justify-center">
+          <span className="bg-primary/10 text-primary flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-sm font-semibold">
             {i + 1}
           </span>
           <span className="text-text-secondary">{item}</span>
@@ -332,9 +320,9 @@ interface BreadcrumbProps {
 
 export function Breadcrumb({ items }: BreadcrumbProps) {
   return (
-    <div className="bg-bg-light border-b border-border">
+    <div className="bg-bg-light border-border border-b">
       <div className="container py-4">
-        <nav className="flex items-center gap-2 text-sm flex-wrap">
+        <nav className="flex flex-wrap items-center gap-2 text-sm">
           {items.map((item, i) => (
             <span key={i} className="flex items-center gap-2">
               {i > 0 && <span className="text-text-light">/</span>}
@@ -363,31 +351,25 @@ interface ArticleHeroProps {
 
 export function ArticleHero({ title, description, image, imageAlt, backLink }: ArticleHeroProps) {
   return (
-    <section className="relative py-16 md:py-24 overflow-hidden">
+    <section className="relative overflow-hidden py-16 md:py-24">
       <div className="absolute inset-0 z-0">
-        <Image
-          src={image}
-          alt={imageAlt}
-          fill
-          className="object-cover"
-        />
+        <Image src={image} alt={imageAlt} fill className="object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
       </div>
-      <div className="container relative z-10">
+      <div className="relative z-10 container">
         {backLink && (
-          <a href={backLink.href} className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <a
+            href={backLink.href}
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
+            <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
             <span>{backLink.label}</span>
           </a>
         )}
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-          {title}
-        </h1>
-        <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
-          {description}
-        </p>
+        <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">{title}</h1>
+        <p className="max-w-3xl text-xl text-white/80 md:text-2xl">{description}</p>
       </div>
     </section>
   )
@@ -400,9 +382,7 @@ interface ArticleContainerProps {
 export function ArticleContainer({ children }: ArticleContainerProps) {
   return (
     <article className="py-12 md:py-20">
-      <div className="container max-w-4xl">
-        {children}
-      </div>
+      <div className="container max-w-4xl">{children}</div>
     </article>
   )
 }
@@ -425,7 +405,11 @@ export function CTASection({ title, description, primaryButton, secondaryButton 
             {primaryButton.label}
           </a>
           {secondaryButton && (
-            <a href={secondaryButton.href} className="btn btn--secondary btn--large" style={{ borderColor: 'white', color: 'white' }}>
+            <a
+              href={secondaryButton.href}
+              className="btn btn--secondary btn--large"
+              style={{ borderColor: 'white', color: 'white' }}
+            >
               {secondaryButton.label}
             </a>
           )}

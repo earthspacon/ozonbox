@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { GeneralStoragePage } from '@/@pages/applications/warehouses/general-storage'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

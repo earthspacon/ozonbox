@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { MoldPreventionPage } from '@/@pages/applications/warehouses/mold-prevention'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { HotelsPage } from '@/@pages/applications/horeca/hotels'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

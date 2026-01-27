@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { GreenhousesPage } from '@/@pages/applications/agriculture/greenhouses'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

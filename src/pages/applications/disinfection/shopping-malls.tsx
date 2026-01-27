@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { ShoppingMallsPage } from '@/@pages/applications/disinfection/shopping-malls'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

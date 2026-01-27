@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { FireSmokePage } from '@/@pages/applications/cleaning/fire-smoke'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

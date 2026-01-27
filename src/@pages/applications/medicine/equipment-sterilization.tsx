@@ -1,21 +1,23 @@
-import Image from 'next/image'
 import { useTranslate } from '@tolgee/react'
+import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  ComparisonTable,
+  DataTable,
   FeatureCard,
   FeatureGrid,
-  ComparisonTable,
+  HighlightBox,
+  Paragraph,
   ProcessList,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 const NS = 'category-medicine'
 
@@ -25,7 +27,7 @@ export function EquipmentSterilizationPage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
@@ -44,7 +46,7 @@ export function EquipmentSterilizationPage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1581093458791-9d42e3c7e117?w=1920&q=80"
@@ -54,25 +56,25 @@ export function EquipmentSterilizationPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
+        <div className="relative z-10 container">
           <AppLink
             href="/applications/medicine"
-            className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
           >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>{t('title', { ns: NS })}</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
             {t('subcategories.equipment-sterilization.title', { ns: NS })}
           </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
             {t('subcategories.equipment-sterilization.heroText', { ns: NS })}
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
@@ -251,27 +253,37 @@ export function EquipmentSterilizationPage() {
               ]}
               rows={[
                 {
-                  parameter: t('subcategories.equipment-sterilization.sections.comparison.rows.0.parameter', { ns: NS }),
+                  parameter: t('subcategories.equipment-sterilization.sections.comparison.rows.0.parameter', {
+                    ns: NS,
+                  }),
                   value1: t('subcategories.equipment-sterilization.sections.comparison.rows.0.value1', { ns: NS }),
                   value2: t('subcategories.equipment-sterilization.sections.comparison.rows.0.value2', { ns: NS }),
                 },
                 {
-                  parameter: t('subcategories.equipment-sterilization.sections.comparison.rows.1.parameter', { ns: NS }),
+                  parameter: t('subcategories.equipment-sterilization.sections.comparison.rows.1.parameter', {
+                    ns: NS,
+                  }),
                   value1: t('subcategories.equipment-sterilization.sections.comparison.rows.1.value1', { ns: NS }),
                   value2: t('subcategories.equipment-sterilization.sections.comparison.rows.1.value2', { ns: NS }),
                 },
                 {
-                  parameter: t('subcategories.equipment-sterilization.sections.comparison.rows.2.parameter', { ns: NS }),
+                  parameter: t('subcategories.equipment-sterilization.sections.comparison.rows.2.parameter', {
+                    ns: NS,
+                  }),
                   value1: t('subcategories.equipment-sterilization.sections.comparison.rows.2.value1', { ns: NS }),
                   value2: t('subcategories.equipment-sterilization.sections.comparison.rows.2.value2', { ns: NS }),
                 },
                 {
-                  parameter: t('subcategories.equipment-sterilization.sections.comparison.rows.3.parameter', { ns: NS }),
+                  parameter: t('subcategories.equipment-sterilization.sections.comparison.rows.3.parameter', {
+                    ns: NS,
+                  }),
                   value1: t('subcategories.equipment-sterilization.sections.comparison.rows.3.value1', { ns: NS }),
                   value2: t('subcategories.equipment-sterilization.sections.comparison.rows.3.value2', { ns: NS }),
                 },
                 {
-                  parameter: t('subcategories.equipment-sterilization.sections.comparison.rows.4.parameter', { ns: NS }),
+                  parameter: t('subcategories.equipment-sterilization.sections.comparison.rows.4.parameter', {
+                    ns: NS,
+                  }),
                   value1: t('subcategories.equipment-sterilization.sections.comparison.rows.4.value1', { ns: NS }),
                   value2: t('subcategories.equipment-sterilization.sections.comparison.rows.4.value2', { ns: NS }),
                 },

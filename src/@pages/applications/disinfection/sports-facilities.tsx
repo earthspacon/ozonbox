@@ -1,33 +1,38 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  ComparisonTable,
+  DataTable,
   FeatureCard,
   FeatureGrid,
-  ComparisonTable,
+  HighlightBox,
+  Paragraph,
   ProcessList,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function SportsFacilitiesPage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
               Применение
             </AppLink>
             <span className="text-text-light">/</span>
-            <AppLink href="/applications/disinfection" className="text-text-secondary hover:text-primary transition-colors">
+            <AppLink
+              href="/applications/disinfection"
+              className="text-text-secondary hover:text-primary transition-colors"
+            >
               Дезинфекция
             </AppLink>
             <span className="text-text-light">/</span>
@@ -37,7 +42,7 @@ export function SportsFacilitiesPage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920&q=80"
@@ -47,48 +52,32 @@ export function SportsFacilitiesPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/disinfection" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/disinfection"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>Дезинфекция</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
             Озонирование спортивных объектов
           </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
-            Дезинфекция залов и раздевалок, устранение запаха пота, профилактика грибковых инфекций. Чистый воздух для здоровых тренировок.
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
+            Дезинфекция залов и раздевалок, устранение запаха пота, профилактика грибковых инфекций. Чистый воздух для
+            здоровых тренировок.
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
-            <StatCard
-              value="2-3 ч"
-              label="Обработка"
-              description="Время озонирования спортзала"
-              variant="primary"
-            />
-            <StatCard
-              value="100%"
-              label="Запахи"
-              description="Эффективность устранения запаха пота"
-              variant="accent"
-            />
-            <StatCard
-              value="99,9%"
-              label="Грибки"
-              description="Уничтожение возбудителей микозов"
-              variant="primary"
-            />
-            <StatCard
-              value="60-120"
-              label="г/ч"
-              description="Производительность для больших залов"
-              variant="accent"
-            />
+            <StatCard value="2-3 ч" label="Обработка" description="Время озонирования спортзала" variant="primary" />
+            <StatCard value="100%" label="Запахи" description="Эффективность устранения запаха пота" variant="accent" />
+            <StatCard value="99,9%" label="Грибки" description="Уничтожение возбудителей микозов" variant="primary" />
+            <StatCard value="60-120" label="г/ч" description="Производительность для больших залов" variant="accent" />
           </StatGrid>
         </div>
       </section>
@@ -96,36 +85,45 @@ export function SportsFacilitiesPage() {
       {/* Main Content */}
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              Фитнес-центры, спортзалы и раздевалки — места с высоким риском распространения инфекций и специфическими запахами. Озонирование эффективно решает обе проблемы: дезинфицирует оборудование и полностью устраняет запах пота, а не маскирует его.
+              Фитнес-центры, спортзалы и раздевалки — места с высоким риском распространения инфекций и специфическими
+              запахами. Озонирование эффективно решает обе проблемы: дезинфицирует оборудование и полностью устраняет
+              запах пота, а не маскирует его.
             </Paragraph>
             <Paragraph>
-              Озон уничтожает бактерии, вирусы, плесень, грибки и паразитических простейших на спортивных снарядах, трибунах, скамейках и матах. Газ проникает в поры материалов, обеспечивая глубокую дезинфекцию текстиля и мягких покрытий.
+              Озон уничтожает бактерии, вирусы, плесень, грибки и паразитических простейших на спортивных снарядах,
+              трибунах, скамейках и матах. Газ проникает в поры материалов, обеспечивая глубокую дезинфекцию текстиля и
+              мягких покрытий.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="warning">
-            <strong>Грибковые инфекции</strong> — одна из главных проблем спортивных объектов. Микоз стопы («грибок»), стригущий лишай, кандидоз передаются через общие раздевалки, душевые и спортивный инвентарь. Озон уничтожает споры грибков на всех поверхностях.
+            <strong>Грибковые инфекции</strong> — одна из главных проблем спортивных объектов. Микоз стопы («грибок»),
+            стригущий лишай, кандидоз передаются через общие раздевалки, душевые и спортивный инвентарь. Озон уничтожает
+            споры грибков на всех поверхностях.
           </HighlightBox>
 
           <ArticleSection title="Что дезинфицирует озон">
-            <BulletList items={[
-              'Тренажёры и спортивные снаряды',
-              'Маты, коврики для йоги и фитнеса',
-              'Скамейки в раздевалках',
-              'Шкафчики и полки',
-              'Душевые кабины и санузлы',
-              'Текстиль: полотенца, халаты (в шкафах)',
-              'Системы вентиляции и кондиционирования',
-              'Трибуны и зрительские места',
-            ]} />
+            <BulletList
+              items={[
+                'Тренажёры и спортивные снаряды',
+                'Маты, коврики для йоги и фитнеса',
+                'Скамейки в раздевалках',
+                'Шкафчики и полки',
+                'Душевые кабины и санузлы',
+                'Текстиль: полотенца, халаты (в шкафах)',
+                'Системы вентиляции и кондиционирования',
+                'Трибуны и зрительские места',
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Проблема запаха в спортзалах">
             <Paragraph>
-              Запах пота в спортивных залах — результат жизнедеятельности бактерий на коже человека. Обычная уборка и освежители воздуха лишь маскируют проблему. Озон разрушает молекулы пахнущих веществ и уничтожает бактерии, которые их производят.
+              Запах пота в спортивных залах — результат жизнедеятельности бактерий на коже человека. Обычная уборка и
+              освежители воздуха лишь маскируют проблему. Озон разрушает молекулы пахнущих веществ и уничтожает
+              бактерии, которые их производят.
             </Paragraph>
 
             <DataTable
@@ -142,27 +140,33 @@ export function SportsFacilitiesPage() {
 
           <ArticleSection title="Режим обработки спортивных объектов">
             <Paragraph>
-              Обработка спортивных сооружений проводится в ночное время, когда объект закрыт для посетителей. Для больших залов и манежей используются мощные мобильные озонаторы производительностью 60-120 г/ч.
+              Обработка спортивных сооружений проводится в ночное время, когда объект закрыт для посетителей. Для
+              больших залов и манежей используются мощные мобильные озонаторы производительностью 60-120 г/ч.
             </Paragraph>
 
-            <ProcessList steps={[
-              {
-                title: 'Подготовка помещения',
-                description: 'Закройте все окна и двери. Отключите приточную вентиляцию. Убедитесь, что в зале нет людей.'
-              },
-              {
-                title: 'Размещение озонатора',
-                description: 'Настенный озонатор — на высоте не менее 3 м. Мобильный — на максимальной высоте, например, на судейской вышке.'
-              },
-              {
-                title: 'Озонирование',
-                description: 'Включите озонатор на 2-3 часа. Производительность: 1 г/ч на 25 м³ объёма помещения.'
-              },
-              {
-                title: 'Распад озона',
-                description: 'После окончания работы озонатора концентрация снизится до ПДК за 2-3 часа. Останется лёгкий запах свежести.'
-              },
-            ]} />
+            <ProcessList
+              steps={[
+                {
+                  title: 'Подготовка помещения',
+                  description:
+                    'Закройте все окна и двери. Отключите приточную вентиляцию. Убедитесь, что в зале нет людей.',
+                },
+                {
+                  title: 'Размещение озонатора',
+                  description:
+                    'Настенный озонатор — на высоте не менее 3 м. Мобильный — на максимальной высоте, например, на судейской вышке.',
+                },
+                {
+                  title: 'Озонирование',
+                  description: 'Включите озонатор на 2-3 часа. Производительность: 1 г/ч на 25 м³ объёма помещения.',
+                },
+                {
+                  title: 'Распад озона',
+                  description:
+                    'После окончания работы озонатора концентрация снизится до ПДК за 2-3 часа. Останется лёгкий запах свежести.',
+                },
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Расчёт оборудования">
@@ -179,7 +183,9 @@ export function SportsFacilitiesPage() {
             />
 
             <HighlightBox variant="info">
-              <strong>Формула расчёта:</strong> 1 г/ч производительности по озону на каждые 25 м³ объёма помещения. Для помещений с высоким уровнем загрязнения или большой площадью поверхностей увеличьте производительность на 20-30%.
+              <strong>Формула расчёта:</strong> 1 г/ч производительности по озону на каждые 25 м³ объёма помещения. Для
+              помещений с высоким уровнем загрязнения или большой площадью поверхностей увеличьте производительность на
+              20-30%.
             </HighlightBox>
           </ArticleSection>
 
@@ -264,20 +270,22 @@ export function SportsFacilitiesPage() {
           </ArticleSection>
 
           <ArticleSection title="Требования безопасности">
-            <BulletList items={[
-              'Обработка только в отсутствие людей (ночное время)',
-              'ПДК озона в рабочей зоне — 0,1 мг/м³',
-              'Персоналу не рекомендуется заходить во время обработки',
-              'При необходимости входа — использовать респиратор с угольным фильтром',
-              'После обработки ночью проветривание не требуется',
-              'К открытию зала озон полностью разложится',
-            ]} />
+            <BulletList
+              items={[
+                'Обработка только в отсутствие людей (ночное время)',
+                'ПДК озона в рабочей зоне — 0,1 мг/м³',
+                'Персоналу не рекомендуется заходить во время обработки',
+                'При необходимости входа — использовать респиратор с угольным фильтром',
+                'После обработки ночью проветривание не требуется',
+                'К открытию зала озон полностью разложится',
+              ]}
+            />
 
             <HighlightBox variant="success">
-              При правильно подобранном времени начала и окончания обработки к приходу персонала и первых посетителей озон уже выветрится. Останется только лёгкий запах свежести, безопасный для человека.
+              При правильно подобранном времени начала и окончания обработки к приходу персонала и первых посетителей
+              озон уже выветрится. Останется только лёгкий запах свежести, безопасный для человека.
             </HighlightBox>
           </ArticleSection>
-
         </div>
       </article>
 
@@ -285,7 +293,9 @@ export function SportsFacilitiesPage() {
       <section className="cta">
         <div className="container">
           <h2 className="cta__title">Создать здоровую атмосферу в вашем спортзале?</h2>
-          <p className="cta__text">Получите бесплатную консультацию и расчёт оборудования для вашего фитнес-центра или спортивного объекта</p>
+          <p className="cta__text">
+            Получите бесплатную консультацию и расчёт оборудования для вашего фитнес-центра или спортивного объекта
+          </p>
           <div className="cta__actions">
             <AppLink href="/contacts" className="btn btn--white btn--large">
               Получить консультацию

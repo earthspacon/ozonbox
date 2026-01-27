@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { OdorRemovalPage } from '@/@pages/applications/cleaning/odor-removal'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

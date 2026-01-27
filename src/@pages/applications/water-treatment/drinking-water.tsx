@@ -1,33 +1,38 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  ComparisonTable,
+  DataTable,
   FeatureCard,
   FeatureGrid,
-  ComparisonTable,
+  HighlightBox,
+  Paragraph,
   ProcessList,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function DrinkingWaterPage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
               Применение
             </AppLink>
             <span className="text-text-light">/</span>
-            <AppLink href="/applications/water-treatment" className="text-text-secondary hover:text-primary transition-colors">
+            <AppLink
+              href="/applications/water-treatment"
+              className="text-text-secondary hover:text-primary transition-colors"
+            >
               Водоочистка
             </AppLink>
             <span className="text-text-light">/</span>
@@ -37,7 +42,7 @@ export function DrinkingWaterPage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=1920&q=80"
@@ -47,48 +52,29 @@ export function DrinkingWaterPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/water-treatment" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/water-treatment"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>Водоочистка</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Озонирование питьевой воды
-          </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">Озонирование питьевой воды</h1>
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
             Стандарт качества питьевой воды в развитых странах. 95% воды в Европе обрабатывается озоном.
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
-            <StatCard
-              value="99,99%"
-              label="Обеззараживание"
-              description="Уничтожение патогенов"
-              variant="primary"
-            />
-            <StatCard
-              value="0"
-              label="Побочных продуктов"
-              description="Канцерогенных соединений"
-              variant="accent"
-            />
-            <StatCard
-              value="3000×"
-              label="Сильнее хлора"
-              description="Бактерицидная активность"
-              variant="primary"
-            />
-            <StatCard
-              value="O₂"
-              label="Распад"
-              description="Только чистый кислород"
-              variant="accent"
-            />
+            <StatCard value="99,99%" label="Обеззараживание" description="Уничтожение патогенов" variant="primary" />
+            <StatCard value="0" label="Побочных продуктов" description="Канцерогенных соединений" variant="accent" />
+            <StatCard value="3000×" label="Сильнее хлора" description="Бактерицидная активность" variant="primary" />
+            <StatCard value="O₂" label="Распад" description="Только чистый кислород" variant="accent" />
           </StatGrid>
         </div>
       </section>
@@ -96,18 +82,23 @@ export function DrinkingWaterPage() {
       {/* Main Content */}
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              Озонирование питьевой воды — стандарт качества в развитых странах мира. Озон уничтожает все виды патогенов: бактерии, вирусы, споры и цисты простейших с эффективностью до 99,99%. В отличие от хлорирования, озон не образует канцерогенных тригалометанов и других опасных побочных продуктов.
+              Озонирование питьевой воды — стандарт качества в развитых странах мира. Озон уничтожает все виды
+              патогенов: бактерии, вирусы, споры и цисты простейших с эффективностью до 99,99%. В отличие от
+              хлорирования, озон не образует канцерогенных тригалометанов и других опасных побочных продуктов.
             </Paragraph>
             <Paragraph>
-              Озон — самый сильный из применяемых в водоподготовке окислителей. По бактерицидному действию он превосходит хлор в 3000 раз, при этом остаточный озон распадается до кислорода за 20-30 минут, не оставляя химических следов в воде.
+              Озон — самый сильный из применяемых в водоподготовке окислителей. По бактерицидному действию он
+              превосходит хлор в 3000 раз, при этом остаточный озон распадается до кислорода за 20-30 минут, не оставляя
+              химических следов в воде.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="warning">
-            <strong>СанПиН 2.1.4.1074-01:</strong> Учитывая опасность побочных продуктов хлорирования (галогеносодержащих соединений), следует отдавать предпочтение альтернативным методам обеззараживания. Озон официально рекомендован как более безопасная альтернатива.
+            <strong>СанПиН 2.1.4.1074-01:</strong> Учитывая опасность побочных продуктов хлорирования
+            (галогеносодержащих соединений), следует отдавать предпочтение альтернативным методам обеззараживания. Озон
+            официально рекомендован как более безопасная альтернатива.
           </HighlightBox>
 
           <ArticleSection title="Сравнение методов обеззараживания воды">
@@ -141,7 +132,8 @@ export function DrinkingWaterPage() {
             />
 
             <HighlightBox variant="info">
-              <strong>Важно:</strong> Доза озона 1-3 мг/л обеспечивает полное обеззараживание воды. При высокой органической нагрузке дозу увеличивают до 5 мг/л для окисления органических соединений.
+              <strong>Важно:</strong> Доза озона 1-3 мг/л обеспечивает полное обеззараживание воды. При высокой
+              органической нагрузке дозу увеличивают до 5 мг/л для окисления органических соединений.
             </HighlightBox>
           </ArticleSection>
 
@@ -150,41 +142,49 @@ export function DrinkingWaterPage() {
               steps={[
                 {
                   title: 'Предварительная очистка',
-                  description: 'Удаление механических примесей и взвесей. Мутность воды должна быть < 2 НТU для эффективного озонирования.',
+                  description:
+                    'Удаление механических примесей и взвесей. Мутность воды должна быть < 2 НТU для эффективного озонирования.',
                 },
                 {
                   title: 'Генерация озона',
-                  description: 'Получение озона из очищенного воздуха или кислорода методом коронного разряда. Концентрация озона в газе: 8-12% (из кислорода) или 2-3% (из воздуха).',
+                  description:
+                    'Получение озона из очищенного воздуха или кислорода методом коронного разряда. Концентрация озона в газе: 8-12% (из кислорода) или 2-3% (из воздуха).',
                 },
                 {
                   title: 'Растворение озона',
-                  description: 'Смешивание озоно-воздушной смеси с водой через эжектор или барботёр. Эффективность растворения: 85-95%.',
+                  description:
+                    'Смешивание озоно-воздушной смеси с водой через эжектор или барботёр. Эффективность растворения: 85-95%.',
                 },
                 {
                   title: 'Контактная камера',
-                  description: 'Выдержка воды в контактной камере 4-10 минут для завершения реакций окисления и обеззараживания.',
+                  description:
+                    'Выдержка воды в контактной камере 4-10 минут для завершения реакций окисления и обеззараживания.',
                 },
                 {
                   title: 'Дегазация',
-                  description: 'Удаление остаточного озона из воды перед подачей в распределительную сеть. Остаточная концентрация: < 0,1 мг/л.',
+                  description:
+                    'Удаление остаточного озона из воды перед подачей в распределительную сеть. Остаточная концентрация: < 0,1 мг/л.',
                 },
                 {
                   title: 'Постхлорирование (опционально)',
-                  description: 'Добавление минимальной дозы хлора (0,3-0,5 мг/л) для пролонгированного эффекта в распределительной сети.',
+                  description:
+                    'Добавление минимальной дозы хлора (0,3-0,5 мг/л) для пролонгированного эффекта в распределительной сети.',
                 },
               ]}
             />
           </ArticleSection>
 
           <ArticleSection title="Что уничтожает озон в питьевой воде">
-            <BulletList items={[
-              'Бактерии: E.coli, сальмонелла, холерный вибрион, легионелла — 99,99% за 2 минуты',
-              'Вирусы: гепатит А, ротавирусы, энтеровирусы, норовирусы — 99,99% за 4 минуты',
-              'Простейшие: лямблии, криптоспоридии (устойчивы к хлору!) — 99,9% за 5 минут',
-              'Споры бактерий: сибирская язва, клостридии — 99% за 10 минут',
-              'Органические загрязнения: фенолы, пестициды, нефтепродукты — окисление до CO₂ и H₂O',
-              'Железо и марганец: окисление до нерастворимых форм для последующей фильтрации',
-            ]} />
+            <BulletList
+              items={[
+                'Бактерии: E.coli, сальмонелла, холерный вибрион, легионелла — 99,99% за 2 минуты',
+                'Вирусы: гепатит А, ротавирусы, энтеровирусы, норовирусы — 99,99% за 4 минуты',
+                'Простейшие: лямблии, криптоспоридии (устойчивы к хлору!) — 99,9% за 5 минут',
+                'Споры бактерий: сибирская язва, клостридии — 99% за 10 минут',
+                'Органические загрязнения: фенолы, пестициды, нефтепродукты — окисление до CO₂ и H₂O',
+                'Железо и марганец: окисление до нерастворимых форм для последующей фильтрации',
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Эффективность обеззараживания">
@@ -201,7 +201,8 @@ export function DrinkingWaterPage() {
             />
 
             <HighlightBox variant="success">
-              Озон особенно эффективен против криптоспоридий — паразитов, вызывающих диарею. Они практически не поддаются хлорированию (для инактивации нужно более 7200 мг×мин/л хлора), но уязвимы для озона.
+              Озон особенно эффективен против криптоспоридий — паразитов, вызывающих диарею. Они практически не
+              поддаются хлорированию (для инактивации нужно более 7200 мг×мин/л хлора), но уязвимы для озона.
             </HighlightBox>
           </ArticleSection>
 
@@ -245,15 +246,16 @@ export function DrinkingWaterPage() {
           </ArticleSection>
 
           <ArticleSection title="Нормативная база">
-            <BulletList items={[
-              'СанПиН 2.1.4.1074-01 «Питьевая вода. Гигиенические требования к качеству воды»',
-              'СанПиН 2.1.4.1116-02 «Питьевая вода. Гигиенические требования к качеству воды, расфасованной в ёмкости»',
-              'ГОСТ Р 51232-98 «Вода питьевая. Общие требования к организации и методам контроля качества»',
-              'МУК 4.3.2030-05 «Методы контроля. Физические факторы. Озон и его гигиеническое регламентирование»',
-              'ГН 2.1.5.1315-03 «Предельно допустимые концентрации химических веществ в воде водных объектов»',
-            ]} />
+            <BulletList
+              items={[
+                'СанПиН 2.1.4.1074-01 «Питьевая вода. Гигиенические требования к качеству воды»',
+                'СанПиН 2.1.4.1116-02 «Питьевая вода. Гигиенические требования к качеству воды, расфасованной в ёмкости»',
+                'ГОСТ Р 51232-98 «Вода питьевая. Общие требования к организации и методам контроля качества»',
+                'МУК 4.3.2030-05 «Методы контроля. Физические факторы. Озон и его гигиеническое регламентирование»',
+                'ГН 2.1.5.1315-03 «Предельно допустимые концентрации химических веществ в воде водных объектов»',
+              ]}
+            />
           </ArticleSection>
-
         </div>
       </article>
 
@@ -266,7 +268,11 @@ export function DrinkingWaterPage() {
             <AppLink href="/contacts" className="btn btn--white btn--large">
               Получить расчёт
             </AppLink>
-            <a href="tel:+78001234567" className="btn btn--secondary btn--large" style={{ borderColor: 'white', color: 'white' }}>
+            <a
+              href="tel:+78001234567"
+              className="btn btn--secondary btn--large"
+              style={{ borderColor: 'white', color: 'white' }}
+            >
               Позвонить: 8 (800) 123-45-67
             </a>
           </div>

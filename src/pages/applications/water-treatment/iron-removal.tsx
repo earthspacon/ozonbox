@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { IronRemovalPage } from '@/@pages/applications/water-treatment/iron-removal'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

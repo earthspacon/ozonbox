@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { OfficesPage } from '@/@pages/applications/disinfection/offices'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

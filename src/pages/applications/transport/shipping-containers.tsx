@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { ShippingContainersPage } from '@/@pages/applications/transport/shipping-containers'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

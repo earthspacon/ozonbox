@@ -1,32 +1,37 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  DataTable,
   FeatureCard,
   FeatureGrid,
+  HighlightBox,
+  Paragraph,
   ProcessList,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function AquaculturePage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
               Применение
             </AppLink>
             <span className="text-text-light">/</span>
-            <AppLink href="/applications/agriculture" className="text-text-secondary hover:text-primary transition-colors">
+            <AppLink
+              href="/applications/agriculture"
+              className="text-text-secondary hover:text-primary transition-colors"
+            >
               Сельское хозяйство
             </AppLink>
             <span className="text-text-light">/</span>
@@ -36,7 +41,7 @@ export function AquaculturePage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1920&q=80"
@@ -46,22 +51,26 @@ export function AquaculturePage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/agriculture" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/agriculture"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>Сельское хозяйство</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
             Озонирование в аквакультуре и УЗВ
           </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
-            Обеззараживание воды до 99%, сокращение производственного цикла и снижение смертности рыб. Современная технология для установок замкнутого водоснабжения.
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
+            Обеззараживание воды до 99%, сокращение производственного цикла и снижение смертности рыб. Современная
+            технология для установок замкнутого водоснабжения.
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
@@ -70,24 +79,14 @@ export function AquaculturePage() {
               description="Уничтожение патогенов в воде"
               variant="primary"
             />
-            <StatCard
-              value="20-30%"
-              label="Сокращение цикла"
-              description="Ускорение роста рыбы"
-              variant="accent"
-            />
+            <StatCard value="20-30%" label="Сокращение цикла" description="Ускорение роста рыбы" variant="accent" />
             <StatCard
               value="50-70%"
               label="Снижение смертности"
               description="Среди молоди и взрослых особей"
               variant="primary"
             />
-            <StatCard
-              value="40-60%"
-              label="Экономия воды"
-              description="Снижение подачи свежей воды"
-              variant="accent"
-            />
+            <StatCard value="40-60%" label="Экономия воды" description="Снижение подачи свежей воды" variant="accent" />
           </StatGrid>
         </div>
       </section>
@@ -95,35 +94,42 @@ export function AquaculturePage() {
       {/* Main Content */}
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              В рыбоводстве озонирование применяется на всех этапах производства: от подготовки воды до хранения готовой продукции. Озон обеззараживает воду, борется с болезнями рыб и значительно сокращает производственный цикл.
+              В рыбоводстве озонирование применяется на всех этапах производства: от подготовки воды до хранения готовой
+              продукции. Озон обеззараживает воду, борется с болезнями рыб и значительно сокращает производственный
+              цикл.
             </Paragraph>
             <Paragraph>
-              В установках замкнутого водоснабжения (УЗВ) озонирование очищает воду от ионов тяжёлых металлов, мелких водорослей, токсинов, спор грибков, микробов и цист. Значительно сокращается мутность воды, исчезают неприятные запахи, создаются оптимальные условия для роста рыбы.
+              В установках замкнутого водоснабжения (УЗВ) озонирование очищает воду от ионов тяжёлых металлов, мелких
+              водорослей, токсинов, спор грибков, микробов и цист. Значительно сокращается мутность воды, исчезают
+              неприятные запахи, создаются оптимальные условия для роста рыбы.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>Рекомендуемая дозировка:</strong> 13 г озона на 1 кг вносимого корма. При такой дозировке достигается оптимальный баланс между эффективностью обеззараживания и безопасностью для рыбы.
+            <strong>Рекомендуемая дозировка:</strong> 13 г озона на 1 кг вносимого корма. При такой дозировке
+            достигается оптимальный баланс между эффективностью обеззараживания и безопасностью для рыбы.
           </HighlightBox>
 
           <ArticleSection title="Преимущества озонирования в УЗВ">
-            <BulletList items={[
-              'Обеззараживание воды от вирусов, бактерий и паразитических простейших',
-              'Окисление органических соединений и аммиака',
-              'Удаление мутности и цветности воды',
-              'Устранение неприятных запахов (геосмин, 2-метилизоборнеол)',
-              'Коагуляция мелкодисперсных взвесей для улучшения фильтрации',
-              'Насыщение воды растворённым кислородом',
-              'Снижение потребления свежей воды на 40-60%',
-            ]} />
+            <BulletList
+              items={[
+                'Обеззараживание воды от вирусов, бактерий и паразитических простейших',
+                'Окисление органических соединений и аммиака',
+                'Удаление мутности и цветности воды',
+                'Устранение неприятных запахов (геосмин, 2-метилизоборнеол)',
+                'Коагуляция мелкодисперсных взвесей для улучшения фильтрации',
+                'Насыщение воды растворённым кислородом',
+                'Снижение потребления свежей воды на 40-60%',
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Влияние озона на качество воды">
             <Paragraph>
-              Качество воды — критический фактор успешного рыбоводства. Озонирование обеспечивает комплексную очистку воды, устраняя как биологические, так и химические загрязнения.
+              Качество воды — критический фактор успешного рыбоводства. Озонирование обеспечивает комплексную очистку
+              воды, устраняя как биологические, так и химические загрязнения.
             </Paragraph>
 
             <DataTable
@@ -140,13 +146,15 @@ export function AquaculturePage() {
             />
 
             <HighlightBox variant="success">
-              В чистой озонированной воде рыба быстрее набирает вес, производственный цикл сокращается на 20-30%, а конверсия корма улучшается на 10-15%.
+              В чистой озонированной воде рыба быстрее набирает вес, производственный цикл сокращается на 20-30%, а
+              конверсия корма улучшается на 10-15%.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Борьба с болезнями рыб">
             <Paragraph>
-              Озон уничтожает до 99% патогенных организмов: вирусы, бактерии и паразитических простейших. Это снижает заболеваемость рыб, уменьшает смертность и позволяет повысить плотность посадки.
+              Озон уничтожает до 99% патогенных организмов: вирусы, бактерии и паразитических простейших. Это снижает
+              заболеваемость рыб, уменьшает смертность и позволяет повысить плотность посадки.
             </Paragraph>
 
             <DataTable
@@ -165,7 +173,8 @@ export function AquaculturePage() {
 
           <ArticleSection title="Режимы озонирования для разных видов рыб">
             <Paragraph>
-              Различные виды рыб имеют разную чувствительность к остаточному озону. Важно подобрать оптимальный режим для каждого вида, обеспечив эффективность обеззараживания при безопасности для рыбы.
+              Различные виды рыб имеют разную чувствительность к остаточному озону. Важно подобрать оптимальный режим
+              для каждого вида, обеспечив эффективность обеззараживания при безопасности для рыбы.
             </Paragraph>
 
             <DataTable
@@ -182,24 +191,40 @@ export function AquaculturePage() {
             />
 
             <HighlightBox variant="warning">
-              <strong>Внимание:</strong> Остаточный озон в воде бассейнов с рыбой не должен превышать 0,01-0,02 мг/л. Для контроля используйте датчики ORP (ОВП) и системы автоматического дозирования.
+              <strong>Внимание:</strong> Остаточный озон в воде бассейнов с рыбой не должен превышать 0,01-0,02 мг/л.
+              Для контроля используйте датчики ORP (ОВП) и системы автоматического дозирования.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Схема озонирования в УЗВ">
-            <ProcessList steps={[
-              { title: 'Забор воды из бассейна', description: 'Вода с продуктами жизнедеятельности рыб направляется на очистку' },
-              { title: 'Механическая фильтрация', description: 'Удаление крупных взвесей на барабанном или ленточном фильтре' },
-              { title: 'Озоно-контактная камера', description: 'Ввод озона через диффузоры или инжекторы, время контакта 3-5 минут' },
-              { title: 'Биофильтрация', description: 'Доочистка от аммиака и нитритов в биологическом фильтре' },
-              { title: 'Дегазация', description: 'Удаление остаточного озона в дегазаторе или через активированный уголь' },
-              { title: 'Возврат в бассейн', description: 'Очищенная вода поступает обратно к рыбе' },
-            ]} />
+            <ProcessList
+              steps={[
+                {
+                  title: 'Забор воды из бассейна',
+                  description: 'Вода с продуктами жизнедеятельности рыб направляется на очистку',
+                },
+                {
+                  title: 'Механическая фильтрация',
+                  description: 'Удаление крупных взвесей на барабанном или ленточном фильтре',
+                },
+                {
+                  title: 'Озоно-контактная камера',
+                  description: 'Ввод озона через диффузоры или инжекторы, время контакта 3-5 минут',
+                },
+                { title: 'Биофильтрация', description: 'Доочистка от аммиака и нитритов в биологическом фильтре' },
+                {
+                  title: 'Дегазация',
+                  description: 'Удаление остаточного озона в дегазаторе или через активированный уголь',
+                },
+                { title: 'Возврат в бассейн', description: 'Очищенная вода поступает обратно к рыбе' },
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Экономический эффект">
             <Paragraph>
-              Внедрение озонирования в УЗВ обеспечивает комплексный экономический эффект за счёт улучшения показателей выращивания и снижения эксплуатационных затрат.
+              Внедрение озонирования в УЗВ обеспечивает комплексный экономический эффект за счёт улучшения показателей
+              выращивания и снижения эксплуатационных затрат.
             </Paragraph>
 
             <DataTable
@@ -250,7 +275,6 @@ export function AquaculturePage() {
               />
             </FeatureGrid>
           </ArticleSection>
-
         </div>
       </article>
 
@@ -258,12 +282,18 @@ export function AquaculturePage() {
       <section className="cta">
         <div className="container">
           <h2 className="cta__title">Внедрить озонирование в вашей УЗВ?</h2>
-          <p className="cta__text">Получите бесплатную консультацию и расчёт оборудования для вашего рыбоводного хозяйства</p>
+          <p className="cta__text">
+            Получите бесплатную консультацию и расчёт оборудования для вашего рыбоводного хозяйства
+          </p>
           <div className="cta__actions">
             <AppLink href="/contacts" className="btn btn--white btn--large">
               Получить консультацию
             </AppLink>
-            <a href="tel:+78001234567" className="btn btn--secondary btn--large" style={{ borderColor: 'white', color: 'white' }}>
+            <a
+              href="tel:+78001234567"
+              className="btn btn--secondary btn--large"
+              style={{ borderColor: 'white', color: 'white' }}
+            >
               Позвонить: 8 (800) 123-45-67
             </a>
           </div>

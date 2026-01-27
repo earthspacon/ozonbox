@@ -1,32 +1,37 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  ComparisonTable,
+  DataTable,
   FeatureCard,
   FeatureGrid,
-  ComparisonTable,
+  HighlightBox,
+  Paragraph,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function CheesePage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
               Применение
             </AppLink>
             <span className="text-text-light">/</span>
-            <AppLink href="/applications/food-production" className="text-text-secondary hover:text-primary transition-colors">
+            <AppLink
+              href="/applications/food-production"
+              className="text-text-secondary hover:text-primary transition-colors"
+            >
               Пищевое производство
             </AppLink>
             <span className="text-text-light">/</span>
@@ -36,7 +41,7 @@ export function CheesePage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=1920&q=80"
@@ -46,22 +51,26 @@ export function CheesePage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/food-production" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/food-production"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>Пищевое производство</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
             Озонирование в производстве сыров
           </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
-            Созревание и хранение сыров без нежелательной плесени. Контроль микрофлоры камер без влияния на процесс созревания и вкус продукции.
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
+            Созревание и хранение сыров без нежелательной плесени. Контроль микрофлоры камер без влияния на процесс
+            созревания и вкус продукции.
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
@@ -95,18 +104,22 @@ export function CheesePage() {
       {/* Main Content */}
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              В сыроделии озонирование решает ключевую проблему — предотвращение развития нежелательной плесени на поверхности сыров при их созревании и хранении. Технология позволяет контролировать микрофлору камер без воздействия на биохимические процессы созревания.
+              В сыроделии озонирование решает ключевую проблему — предотвращение развития нежелательной плесени на
+              поверхности сыров при их созревании и хранении. Технология позволяет контролировать микрофлору камер без
+              воздействия на биохимические процессы созревания.
             </Paragraph>
             <Paragraph>
-              Озон предотвращает развитие плесени на корке сыра, при этом не нарушая баланс полезной микрофлоры внутри головки. При правильной дозировке озон не влияет на цвет, консистенцию, вкус и аромат готовой продукции.
+              Озон предотвращает развитие плесени на корке сыра, при этом не нарушая баланс полезной микрофлоры внутри
+              головки. При правильной дозировке озон не влияет на цвет, консистенцию, вкус и аромат готовой продукции.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>Временная инструкция Минторга РСФСР 1975 г.:</strong> Озонирование рекомендовано для хранения твёрдых сычужных сыров. Метод позволяет контролировать плесень на поверхности сыра без применения химических консервантов.
+            <strong>Временная инструкция Минторга РСФСР 1975 г.:</strong> Озонирование рекомендовано для хранения
+            твёрдых сычужных сыров. Метод позволяет контролировать плесень на поверхности сыра без применения химических
+            консервантов.
           </HighlightBox>
 
           <ArticleSection title="Режимы озонирования для разных типов сыров">
@@ -123,24 +136,31 @@ export function CheesePage() {
             />
 
             <HighlightBox variant="warning">
-              <strong>Важно для сыров с благородной плесенью:</strong> При производстве сыров типа камамбер, бри, рокфор требуется щадящий режим озонирования (1-2 мг/м³, 30 минут) для контроля нежелательной плесени без повреждения культурной.
+              <strong>Важно для сыров с благородной плесенью:</strong> При производстве сыров типа камамбер, бри, рокфор
+              требуется щадящий режим озонирования (1-2 мг/м³, 30 минут) для контроля нежелательной плесени без
+              повреждения культурной.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Преимущества озонирования в сыроделии">
-            <BulletList items={[
-              'Предотвращение развития нежелательной плесени на корке сыра',
-              'Сохранение процесса созревания — озон не проникает внутрь головки',
-              'Снижение усушки продукции за счёт стабилизации микрофлоры',
-              'Обработка без выгрузки сыра из камеры созревания',
-              'Соответствие требованиям ГОСТ Р 54607-2011 «Сыры. Общие технические условия»',
-              'Автоматизация процесса дезинфекции по заданному расписанию',
-            ]} />
+            <BulletList
+              items={[
+                'Предотвращение развития нежелательной плесени на корке сыра',
+                'Сохранение процесса созревания — озон не проникает внутрь головки',
+                'Снижение усушки продукции за счёт стабилизации микрофлоры',
+                'Обработка без выгрузки сыра из камеры созревания',
+                'Соответствие требованиям ГОСТ Р 54607-2011 «Сыры. Общие технические условия»',
+                'Автоматизация процесса дезинфекции по заданному расписанию',
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Влияние озона на продукт">
             <Paragraph>
-              Исследования показывают, что озон подавляет рост микрофлоры на поверхности сыров, сохраняя их органолептические свойства — вкус, аромат, текстуру и цвет. Бактерицидный эффект проявляется особенно ярко в условиях повышенной влажности (70-90%) и умеренных температур (+8...+14°C), характерных для камер созревания.
+              Исследования показывают, что озон подавляет рост микрофлоры на поверхности сыров, сохраняя их
+              органолептические свойства — вкус, аромат, текстуру и цвет. Бактерицидный эффект проявляется особенно ярко
+              в условиях повышенной влажности (70-90%) и умеренных температур (+8...+14°C), характерных для камер
+              созревания.
             </Paragraph>
 
             <DataTable
@@ -171,7 +191,9 @@ export function CheesePage() {
 
           <ArticleSection title="Обработка камер созревания">
             <Paragraph>
-              Для стационарных камер созревания рекомендуется использовать настенные или канальные озонаторы с автоматическим управлением. Озон распределяется равномерно по объёму камеры, проникая в труднодоступные зоны, включая стеллажи и полки.
+              Для стационарных камер созревания рекомендуется использовать настенные или канальные озонаторы с
+              автоматическим управлением. Озон распределяется равномерно по объёму камеры, проникая в труднодоступные
+              зоны, включая стеллажи и полки.
             </Paragraph>
 
             <DataTable
@@ -187,17 +209,20 @@ export function CheesePage() {
             />
 
             <HighlightBox variant="success">
-              Регулярное озонирование камер созревания (1-2 раза в сутки по 1,5-2 часа) позволяет отказаться от ручной протирки сыров и снизить трудозатраты на обслуживание камер на 70-80%.
+              Регулярное озонирование камер созревания (1-2 раза в сутки по 1,5-2 часа) позволяет отказаться от ручной
+              протирки сыров и снизить трудозатраты на обслуживание камер на 70-80%.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Нормативная документация">
-            <BulletList items={[
-              'ГОСТ Р 54607-2011 — Сыры. Общие технические условия',
-              'Временная инструкция по озонированию камер хранения твёрдых сычужных сыров (1975 г.)',
-              'Методические рекомендации по применению озона в качестве дезинфицирующего средства (1976 г.)',
-              'СанПиН 2.3.4.545-96 — Производство молока и молочных продуктов',
-            ]} />
+            <BulletList
+              items={[
+                'ГОСТ Р 54607-2011 — Сыры. Общие технические условия',
+                'Временная инструкция по озонированию камер хранения твёрдых сычужных сыров (1975 г.)',
+                'Методические рекомендации по применению озона в качестве дезинфицирующего средства (1976 г.)',
+                'СанПиН 2.3.4.545-96 — Производство молока и молочных продуктов',
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Преимущества для сыроделия">
@@ -224,7 +249,6 @@ export function CheesePage() {
               />
             </FeatureGrid>
           </ArticleSection>
-
         </div>
       </article>
 
@@ -232,7 +256,9 @@ export function CheesePage() {
       <section className="cta">
         <div className="container">
           <h2 className="cta__title">Внедрить озонирование на вашем сыродельном заводе?</h2>
-          <p className="cta__text">Получите расчёт оборудования для камер созревания с учётом типов производимых сыров</p>
+          <p className="cta__text">
+            Получите расчёт оборудования для камер созревания с учётом типов производимых сыров
+          </p>
           <div className="cta__actions">
             <AppLink href="/contacts" className="btn btn--white btn--large">
               Получить консультацию

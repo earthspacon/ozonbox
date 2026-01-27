@@ -1,25 +1,27 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  DataTable,
   FeatureCard,
   FeatureGrid,
+  HighlightBox,
+  Paragraph,
   ProcessList,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function SecondhandPage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
@@ -36,7 +38,7 @@ export function SecondhandPage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80"
@@ -46,48 +48,31 @@ export function SecondhandPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/horeca" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/horeca"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>HoReCa</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
             Озонирование магазинов секонд-хенд
           </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
             Устранение специфического запаха одежды. Комфорт покупателей и рост продаж.
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
-            <StatCard
-              value="1-3"
-              label="Часа обработки"
-              description="Ночная обработка"
-              variant="primary"
-            />
-            <StatCard
-              value="100%"
-              label="Устранение запаха"
-              description="Химическая нейтрализация"
-              variant="accent"
-            />
-            <StatCard
-              value="+30%"
-              label="Время в магазине"
-              description="Комфорт покупателей"
-              variant="primary"
-            />
-            <StatCard
-              value="99,9%"
-              label="Дезинфекция"
-              description="Бактерии и клещи"
-              variant="accent"
-            />
+            <StatCard value="1-3" label="Часа обработки" description="Ночная обработка" variant="primary" />
+            <StatCard value="100%" label="Устранение запаха" description="Химическая нейтрализация" variant="accent" />
+            <StatCard value="+30%" label="Время в магазине" description="Комфорт покупателей" variant="primary" />
+            <StatCard value="99,9%" label="Дезинфекция" description="Бактерии и клещи" variant="accent" />
           </StatGrid>
         </div>
       </section>
@@ -95,18 +80,23 @@ export function SecondhandPage() {
       {/* Main Content */}
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              Специфический запах одежды в магазинах секонд-хенд — следствие обязательной дезинфекции. Перед продажей вещи обрабатываются газом с формальдегидом или бромистым метилом для уничтожения вирусов и бактерий. Сами дезинфицирующие вещества выветриваются к моменту попадания одежды на полки, но характерный запах сохраняется.
+              Специфический запах одежды в магазинах секонд-хенд — следствие обязательной дезинфекции. Перед продажей
+              вещи обрабатываются газом с формальдегидом или бромистым метилом для уничтожения вирусов и бактерий. Сами
+              дезинфицирующие вещества выветриваются к моменту попадания одежды на полки, но характерный запах
+              сохраняется.
             </Paragraph>
             <Paragraph>
-              Этот запах — главная проблема ритейла секонд-хенд. Он наполняет весь магазин и вызывает у покупателей неприятные ассоциации с поношенной одеждой. Некоторые покупатели проводят меньше времени в магазине из-за дискомфорта, что напрямую влияет на объём продаж.
+              Этот запах — главная проблема ритейла секонд-хенд. Он наполняет весь магазин и вызывает у покупателей
+              неприятные ассоциации с поношенной одеждой. Некоторые покупатели проводят меньше времени в магазине из-за
+              дискомфорта, что напрямую влияет на объём продаж.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="warning">
-            <strong>Проблема бизнеса:</strong> Запах влияет на восприятие качества товара. Покупатель подсознательно готов заплатить меньше за вещь с неприятным запахом, даже если она в отличном состоянии.
+            <strong>Проблема бизнеса:</strong> Запах влияет на восприятие качества товара. Покупатель подсознательно
+            готов заплатить меньше за вещь с неприятным запахом, даже если она в отличном состоянии.
           </HighlightBox>
 
           <ArticleSection title="Влияние запаха на продажи">
@@ -149,24 +139,29 @@ export function SecondhandPage() {
           </ArticleSection>
 
           <ArticleSection title="Процесс озонирования">
-            <ProcessList steps={[
-              {
-                title: 'Подготовка помещения',
-                description: 'Магазин закрывается. Окна и двери закрыты. Приточная вентиляция отключена для максимальной концентрации озона.'
-              },
-              {
-                title: 'Размещение озонатора',
-                description: 'Настенный озонатор размещается на высоте 40-60 см от потолка. Мобильный — на максимальной высоте.'
-              },
-              {
-                title: 'Озонирование',
-                description: 'Включается режим обработки на 1-3 часа в зависимости от объёма помещения.'
-              },
-              {
-                title: 'Проветривание или ожидание',
-                description: 'При ночной обработке проветривание не нужно — озон выветрится сам за 2-3 часа. К открытию магазина останется только лёгкий запах свежести.'
-              },
-            ]} />
+            <ProcessList
+              steps={[
+                {
+                  title: 'Подготовка помещения',
+                  description:
+                    'Магазин закрывается. Окна и двери закрыты. Приточная вентиляция отключена для максимальной концентрации озона.',
+                },
+                {
+                  title: 'Размещение озонатора',
+                  description:
+                    'Настенный озонатор размещается на высоте 40-60 см от потолка. Мобильный — на максимальной высоте.',
+                },
+                {
+                  title: 'Озонирование',
+                  description: 'Включается режим обработки на 1-3 часа в зависимости от объёма помещения.',
+                },
+                {
+                  title: 'Проветривание или ожидание',
+                  description:
+                    'При ночной обработке проветривание не нужно — озон выветрится сам за 2-3 часа. К открытию магазина останется только лёгкий запах свежести.',
+                },
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Расчёт оборудования">
@@ -186,16 +181,19 @@ export function SecondhandPage() {
           </ArticleSection>
 
           <ArticleSection title="Режим работы">
-            <BulletList items={[
-              'Ежедневная обработка в ночное время — оптимальный режим',
-              'Автоматический запуск по таймеру после закрытия магазина',
-              'К утру озон полностью выветривается, остаётся свежесть',
-              'Персоналу не требуется участие — полная автоматизация',
-              'При сильном запахе — первые 3-5 дней обработка по 2-3 часа',
-            ]} />
+            <BulletList
+              items={[
+                'Ежедневная обработка в ночное время — оптимальный режим',
+                'Автоматический запуск по таймеру после закрытия магазина',
+                'К утру озон полностью выветривается, остаётся свежесть',
+                'Персоналу не требуется участие — полная автоматизация',
+                'При сильном запахе — первые 3-5 дней обработка по 2-3 часа',
+              ]}
+            />
 
             <HighlightBox variant="info">
-              <strong>Средства защиты:</strong> Если персонал находится в помещении во время озонирования (например, для включения прибора), необходим респиратор или противогаз с угольным фильтром.
+              <strong>Средства защиты:</strong> Если персонал находится в помещении во время озонирования (например, для
+              включения прибора), необходим респиратор или противогаз с угольным фильтром.
             </HighlightBox>
           </ArticleSection>
 
@@ -211,18 +209,21 @@ export function SecondhandPage() {
             />
 
             <HighlightBox variant="success">
-              <strong>Окупаемость:</strong> При экономии 10 тыс. ₽/месяц на ароматизаторах, озонатор окупается за 2-3 месяца. Дальнейшая эксплуатация — только стоимость электроэнергии.
+              <strong>Окупаемость:</strong> При экономии 10 тыс. ₽/месяц на ароматизаторах, озонатор окупается за 2-3
+              месяца. Дальнейшая эксплуатация — только стоимость электроэнергии.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Дополнительные преимущества">
-            <BulletList items={[
-              'Повышение привлекательности товара — вещи воспринимаются как более качественные',
-              'Уничтожение пылевых клещей — важно для покупателей с аллергией',
-              'Дезинфекция помещения — профилактика распространения инфекций',
-              'Устранение плесени — актуально для подвальных помещений',
-              'Маркетинговое преимущество — «магазин без запаха секонд-хенда»',
-            ]} />
+            <BulletList
+              items={[
+                'Повышение привлекательности товара — вещи воспринимаются как более качественные',
+                'Уничтожение пылевых клещей — важно для покупателей с аллергией',
+                'Дезинфекция помещения — профилактика распространения инфекций',
+                'Устранение плесени — актуально для подвальных помещений',
+                'Маркетинговое преимущество — «магазин без запаха секонд-хенда»',
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Рекомендуемое оборудование">
@@ -235,7 +236,6 @@ export function SecondhandPage() {
               ]}
             />
           </ArticleSection>
-
         </div>
       </article>
 
@@ -248,7 +248,11 @@ export function SecondhandPage() {
             <AppLink href="/contacts" className="btn btn--white btn--large">
               Получить консультацию
             </AppLink>
-            <a href="tel:+78001234567" className="btn btn--secondary btn--large" style={{ borderColor: 'white', color: 'white' }}>
+            <a
+              href="tel:+78001234567"
+              className="btn btn--secondary btn--large"
+              style={{ borderColor: 'white', color: 'white' }}
+            >
               Позвонить: 8 (800) 123-45-67
             </a>
           </div>

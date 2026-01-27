@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { SecondhandPage } from '@/@pages/applications/horeca/secondhand'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

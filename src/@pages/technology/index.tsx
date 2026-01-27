@@ -2,6 +2,7 @@ import { useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets'
 
+import { AppLink } from '@/shared/ui/app-link'
 import {
   IconCheck,
   IconDisinfection,
@@ -12,7 +13,6 @@ import {
   IconSpray,
   IconSterilize,
 } from '@/shared/ui/icons'
-import { AppLink } from '@/shared/ui/app-link'
 
 export function TechnologyPage() {
   const { t } = useTranslate()

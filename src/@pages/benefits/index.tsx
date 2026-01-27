@@ -2,8 +2,8 @@ import { useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets'
 
-import { IconAuto, IconCheck, IconEco, IconEconomy, IconShield, IconUniversal } from '@/shared/ui/icons'
 import { AppLink } from '@/shared/ui/app-link'
+import { IconAuto, IconCheck, IconEco, IconEconomy, IconShield, IconUniversal } from '@/shared/ui/icons'
 
 export function BenefitsPage() {
   const { t } = useTranslate()

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { ColdStoragePage } from '@/@pages/applications/food-production/cold-storage'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

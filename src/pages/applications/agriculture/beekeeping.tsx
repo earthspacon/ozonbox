@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { BeekeepingPage } from '@/@pages/applications/agriculture/beekeeping'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

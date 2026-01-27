@@ -1,25 +1,27 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  DataTable,
   FeatureCard,
   FeatureGrid,
+  HighlightBox,
+  Paragraph,
   ProcessList,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function TobaccoHookahPage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
@@ -36,7 +38,7 @@ export function TobaccoHookahPage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1527661591475-527312dd65f5?w=1920&q=80"
@@ -46,48 +48,31 @@ export function TobaccoHookahPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/horeca" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/horeca"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>HoReCa</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
             Озонирование кальянных и табачных
           </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
             Химическое удаление въевшегося запаха дыма. Не маскировка — полная нейтрализация за 60-120 минут.
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
-            <StatCard
-              value="60-120"
-              label="Минут обработки"
-              description="Ежедневная очистка"
-              variant="primary"
-            />
-            <StatCard
-              value="100%"
-              label="Удаление запаха"
-              description="Химическая нейтрализация"
-              variant="accent"
-            />
-            <StatCard
-              value="2-3"
-              label="Часа выветривания"
-              description="Озон распадается сам"
-              variant="primary"
-            />
-            <StatCard
-              value="0"
-              label="Расходников"
-              description="Озон из воздуха"
-              variant="accent"
-            />
+            <StatCard value="60-120" label="Минут обработки" description="Ежедневная очистка" variant="primary" />
+            <StatCard value="100%" label="Удаление запаха" description="Химическая нейтрализация" variant="accent" />
+            <StatCard value="2-3" label="Часа выветривания" description="Озон распадается сам" variant="primary" />
+            <StatCard value="0" label="Расходников" description="Озон из воздуха" variant="accent" />
           </StatGrid>
         </div>
       </section>
@@ -95,31 +80,39 @@ export function TobaccoHookahPage() {
       {/* Main Content */}
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              Въевшийся, застарелый запах сигарет и кальяна может отпугнуть посетителей заведения. Даже в кальянных, где гостям нравится аромат свежего кальянного дыма, проблема существует: когда дым въедается в мебель и обшивку, ароматические присадки быстро испаряются, оставляя лишь неприятный запах гари и смолы.
+              Въевшийся, застарелый запах сигарет и кальяна может отпугнуть посетителей заведения. Даже в кальянных, где
+              гостям нравится аромат свежего кальянного дыма, проблема существует: когда дым въедается в мебель и
+              обшивку, ароматические присадки быстро испаряются, оставляя лишь неприятный запах гари и смолы.
             </Paragraph>
             <Paragraph>
-              Озонирование — единственный эффективный метод химического удаления таких запахов, а не их маскировки ароматизаторами. Озон окисляет молекулы дурнопахнущих веществ до воды и углекислого газа или до промежуточных продуктов окисления, не имеющих запаха.
+              Озонирование — единственный эффективный метод химического удаления таких запахов, а не их маскировки
+              ароматизаторами. Озон окисляет молекулы дурнопахнущих веществ до воды и углекислого газа или до
+              промежуточных продуктов окисления, не имеющих запаха.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>Важно понимать:</strong> Подавители запахов и ароматизаторы не решают проблему — они лишь маскируют её. Озон уничтожает источник запаха на молекулярном уровне.
+            <strong>Важно понимать:</strong> Подавители запахов и ароматизаторы не решают проблему — они лишь маскируют
+            её. Озон уничтожает источник запаха на молекулярном уровне.
           </HighlightBox>
 
           <ArticleSection title="Почему запах въедается">
             <Paragraph>
-              Табачный и кальянный дым содержат смолы, которые проникают в пористые материалы: ткани, дерево, обивку мебели, потолочные плитки, ковры. Со временем эти вещества накапливаются и создают устойчивый неприятный запах, который не удаляется обычной уборкой или проветриванием.
+              Табачный и кальянный дым содержат смолы, которые проникают в пористые материалы: ткани, дерево, обивку
+              мебели, потолочные плитки, ковры. Со временем эти вещества накапливаются и создают устойчивый неприятный
+              запах, который не удаляется обычной уборкой или проветриванием.
             </Paragraph>
-            <BulletList items={[
-              'Текстиль (шторы, обивка, подушки) — основной «резервуар» запаха',
-              'Мягкая мебель — смолы проникают в наполнитель',
-              'Потолочные покрытия — особенно пористые материалы',
-              'Вентиляционные каналы — скопление загрязнений',
-              'Труднодоступные места — щели, швы, внутренние полости',
-            ]} />
+            <BulletList
+              items={[
+                'Текстиль (шторы, обивка, подушки) — основной «резервуар» запаха',
+                'Мягкая мебель — смолы проникают в наполнитель',
+                'Потолочные покрытия — особенно пористые материалы',
+                'Вентиляционные каналы — скопление загрязнений',
+                'Труднодоступные места — щели, швы, внутренние полости',
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Преимущества озонирования">
@@ -148,27 +141,33 @@ export function TobaccoHookahPage() {
           </ArticleSection>
 
           <ArticleSection title="Процесс озонирования">
-            <ProcessList steps={[
-              {
-                title: 'Подготовка помещения',
-                description: 'Закрываются все окна и двери. Отключается приточная вентиляция для максимальной концентрации озона.'
-              },
-              {
-                title: 'Размещение озонатора',
-                description: 'Мобильный озонатор устанавливается на максимальной высоте — на шкафу, полке или специальной подставке.'
-              },
-              {
-                title: 'Озонирование',
-                description: 'Включается режим обработки на 60-120 минут. При регулярном использовании достаточно 60 минут.'
-              },
-              {
-                title: 'Проветривание',
-                description: 'Открываются двери и окна, включается вентиляция. Озон выветривается за 2-3 часа.'
-              },
-            ]} />
+            <ProcessList
+              steps={[
+                {
+                  title: 'Подготовка помещения',
+                  description:
+                    'Закрываются все окна и двери. Отключается приточная вентиляция для максимальной концентрации озона.',
+                },
+                {
+                  title: 'Размещение озонатора',
+                  description:
+                    'Мобильный озонатор устанавливается на максимальной высоте — на шкафу, полке или специальной подставке.',
+                },
+                {
+                  title: 'Озонирование',
+                  description:
+                    'Включается режим обработки на 60-120 минут. При регулярном использовании достаточно 60 минут.',
+                },
+                {
+                  title: 'Проветривание',
+                  description: 'Открываются двери и окна, включается вентиляция. Озон выветривается за 2-3 часа.',
+                },
+              ]}
+            />
 
             <HighlightBox variant="success">
-              <strong>Ночная обработка:</strong> При обработке в ночное время проветривание не требуется. К приходу персонала озон уже выветрится, останется только лёгкий запах свежести.
+              <strong>Ночная обработка:</strong> При обработке в ночное время проветривание не требуется. К приходу
+              персонала озон уже выветрится, останется только лёгкий запах свежести.
             </HighlightBox>
           </ArticleSection>
 
@@ -202,14 +201,16 @@ export function TobaccoHookahPage() {
           </ArticleSection>
 
           <ArticleSection title="Что обрабатывается озоном">
-            <BulletList items={[
-              'Мягкая мебель — диваны, кресла, подушки, наполнители',
-              'Текстиль — шторы, скатерти, тканевые элементы декора',
-              'Ковры и напольные покрытия — глубокое проникновение в ворс',
-              'Потолочные покрытия — пористые материалы, плитки',
-              'Вентиляционная система — воздуховоды, решётки',
-              'Труднодоступные места — щели, швы, внутренние полости мебели',
-            ]} />
+            <BulletList
+              items={[
+                'Мягкая мебель — диваны, кресла, подушки, наполнители',
+                'Текстиль — шторы, скатерти, тканевые элементы декора',
+                'Ковры и напольные покрытия — глубокое проникновение в ворс',
+                'Потолочные покрытия — пористые материалы, плитки',
+                'Вентиляционная система — воздуховоды, решётки',
+                'Труднодоступные места — щели, швы, внутренние полости мебели',
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Экономика решения">
@@ -225,20 +226,22 @@ export function TobaccoHookahPage() {
             />
 
             <HighlightBox variant="success">
-              <strong>ROI:</strong> Стоимость озонатора 14-35 тыс. ₽ окупается за 1-3 месяца только на экономии ароматизаторов. Дальнейшая эксплуатация практически бесплатна — только электроэнергия.
+              <strong>ROI:</strong> Стоимость озонатора 14-35 тыс. ₽ окупается за 1-3 месяца только на экономии
+              ароматизаторов. Дальнейшая эксплуатация практически бесплатна — только электроэнергия.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Важные особенности">
-            <BulletList items={[
-              'Обработка только в отсутствие людей — озон в высоких концентрациях токсичен',
-              'Персонал в маске с угольным фильтром, если находится во время обработки',
-              'После обработки — запах свежести, безопасный для человека',
-              'Озон вырабатывается из воздуха — нет расходных материалов',
-              'Автоматическая работа по таймеру — минимум участия персонала',
-            ]} />
+            <BulletList
+              items={[
+                'Обработка только в отсутствие людей — озон в высоких концентрациях токсичен',
+                'Персонал в маске с угольным фильтром, если находится во время обработки',
+                'После обработки — запах свежести, безопасный для человека',
+                'Озон вырабатывается из воздуха — нет расходных материалов',
+                'Автоматическая работа по таймеру — минимум участия персонала',
+              ]}
+            />
           </ArticleSection>
-
         </div>
       </article>
 
@@ -251,7 +254,11 @@ export function TobaccoHookahPage() {
             <AppLink href="/contacts" className="btn btn--white btn--large">
               Получить консультацию
             </AppLink>
-            <a href="tel:+78001234567" className="btn btn--secondary btn--large" style={{ borderColor: 'white', color: 'white' }}>
+            <a
+              href="tel:+78001234567"
+              className="btn btn--secondary btn--large"
+              style={{ borderColor: 'white', color: 'white' }}
+            >
               Позвонить: 8 (800) 123-45-67
             </a>
           </div>

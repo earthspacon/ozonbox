@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { PublicTransportPage } from '@/@pages/applications/disinfection/public-transport'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

@@ -150,16 +150,5 @@ export function getAllCategoryIds(): string[] {
   return APPLICATION_CATEGORIES.map((cat) => cat.id)
 }
 
-// Get all subcategory paths for static generation
-export function getAllSubcategoryPaths(): { category: string; subcategory: string }[] {
-  const paths: { category: string; subcategory: string }[] = []
-  APPLICATION_CATEGORIES.forEach((cat) => {
-    cat.subcategories.forEach((sub) => {
-      paths.push({ category: cat.id, subcategory: sub.id })
-    })
-  })
-  return paths
-}
-
 // Featured categories for homepage (top 4)
 export const FEATURED_CATEGORIES = ['medicine', 'agriculture', 'food-production', 'horeca']

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { VegetableStoragePage } from '@/@pages/applications/agriculture/vegetable-storage'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

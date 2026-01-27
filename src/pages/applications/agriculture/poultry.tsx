@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { PoultryPage } from '@/@pages/applications/agriculture/poultry'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

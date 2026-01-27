@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { PublicBusesPage } from '@/@pages/applications/transport/public-buses'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

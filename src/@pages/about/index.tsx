@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 import { Layout } from '@/widgets'
 
-import { IconAuto, IconCheck, IconShield } from '@/shared/ui/icons'
 import { AppLink } from '@/shared/ui/app-link'
+import { IconAuto, IconCheck, IconShield } from '@/shared/ui/icons'
 
 export function AboutPage() {
   const { t } = useTranslate()

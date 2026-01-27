@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { AquaculturePage } from '@/@pages/applications/agriculture/aquaculture'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

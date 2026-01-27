@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { WastewaterPage } from '@/@pages/applications/water-treatment/wastewater'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

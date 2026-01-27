@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { BottledWaterPage } from '@/@pages/applications/food-production/bottled-water'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

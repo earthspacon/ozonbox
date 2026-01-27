@@ -1,32 +1,37 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  ComparisonTable,
+  DataTable,
   FeatureCard,
   FeatureGrid,
-  ComparisonTable,
+  HighlightBox,
+  Paragraph,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function PoolsSpaPage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
               Применение
             </AppLink>
             <span className="text-text-light">/</span>
-            <AppLink href="/applications/water-treatment" className="text-text-secondary hover:text-primary transition-colors">
+            <AppLink
+              href="/applications/water-treatment"
+              className="text-text-secondary hover:text-primary transition-colors"
+            >
               Водоочистка
             </AppLink>
             <span className="text-text-light">/</span>
@@ -36,7 +41,7 @@ export function PoolsSpaPage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1572331165267-854da2b10ccc?w=1920&q=80"
@@ -46,48 +51,29 @@ export function PoolsSpaPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/water-treatment" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/water-treatment"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>Водоочистка</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Озонирование бассейнов и SPA
-          </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">Озонирование бассейнов и SPA</h1>
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
             Кристально чистая вода без запаха хлорки. Не раздражает глаза и кожу даже при длительном купании.
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
-            <StatCard
-              value="7×"
-              label="Меньше хлора"
-              description="Снижение концентрации хлора"
-              variant="primary"
-            />
-            <StatCard
-              value="0"
-              label="Раздражения"
-              description="Глаз и кожи при купании"
-              variant="accent"
-            />
-            <StatCard
-              value="3000×"
-              label="Сильнее хлора"
-              description="По бактерицидному действию"
-              variant="primary"
-            />
-            <StatCard
-              value="Голубая"
-              label="Вода"
-              description="Приятный естественный оттенок"
-              variant="accent"
-            />
+            <StatCard value="7×" label="Меньше хлора" description="Снижение концентрации хлора" variant="primary" />
+            <StatCard value="0" label="Раздражения" description="Глаз и кожи при купании" variant="accent" />
+            <StatCard value="3000×" label="Сильнее хлора" description="По бактерицидному действию" variant="primary" />
+            <StatCard value="Голубая" label="Вода" description="Приятный естественный оттенок" variant="accent" />
           </StatGrid>
         </div>
       </section>
@@ -95,18 +81,22 @@ export function PoolsSpaPage() {
       {/* Main Content */}
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              Хлорирование бассейнов — традиционный метод обеззараживания, однако он имеет существенные недостатки: резкий запах «хлорки», раздражение глаз и слизистых, сухость кожи, обесцвечивание волос и купальников. Озонирование позволяет получить воду высочайшего качества, практически исключив эти проблемы.
+              Хлорирование бассейнов — традиционный метод обеззараживания, однако он имеет существенные недостатки:
+              резкий запах «хлорки», раздражение глаз и слизистых, сухость кожи, обесцвечивание волос и купальников.
+              Озонирование позволяет получить воду высочайшего качества, практически исключив эти проблемы.
             </Paragraph>
             <Paragraph>
-              Озон — сильнейший окислитель, превосходящий хлор по бактерицидному действию в 3000 раз. Он уничтожает бактерии, вирусы, споры и простейших, разрушает плотные оболочки микроводорослей. При этом вода приобретает приятный голубоватый оттенок.
+              Озон — сильнейший окислитель, превосходящий хлор по бактерицидному действию в 3000 раз. Он уничтожает
+              бактерии, вирусы, споры и простейших, разрушает плотные оболочки микроводорослей. При этом вода
+              приобретает приятный голубоватый оттенок.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>СанПиН 2.1.2.1188-03:</strong> Озонирование рекомендовано как современный метод обеззараживания воды бассейнов, позволяющий снизить концентрацию хлора до минимально необходимого уровня.
+            <strong>СанПиН 2.1.2.1188-03:</strong> Озонирование рекомендовано как современный метод обеззараживания воды
+            бассейнов, позволяющий снизить концентрацию хлора до минимально необходимого уровня.
           </HighlightBox>
 
           <ArticleSection title="Преимущества озонирования воды в бассейнах">
@@ -126,7 +116,8 @@ export function PoolsSpaPage() {
 
           <ArticleSection title="Технология озонирования бассейнов">
             <Paragraph>
-              Озон подаётся в циркуляционную воду после фильтрации, перед возвратом в чашу бассейна. Рекомендуемая доза озона для бассейнов — 0,7-0,9 г/м³ циркуляционной воды. Время контакта в контактной ёмкости — 6-7 минут.
+              Озон подаётся в циркуляционную воду после фильтрации, перед возвратом в чашу бассейна. Рекомендуемая доза
+              озона для бассейнов — 0,7-0,9 г/м³ циркуляционной воды. Время контакта в контактной ёмкости — 6-7 минут.
             </Paragraph>
 
             <DataTable
@@ -142,22 +133,26 @@ export function PoolsSpaPage() {
             />
 
             <HighlightBox variant="success">
-              При совместном использовании озона и хлора достаточно поддерживать содержание хлора на уровне 0,1 мг/л вместо обычных 0,7 мг/л. Это практически исключает раздражающее действие на кожу и глаза.
+              При совместном использовании озона и хлора достаточно поддерживать содержание хлора на уровне 0,1 мг/л
+              вместо обычных 0,7 мг/л. Это практически исключает раздражающее действие на кожу и глаза.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Что уничтожает озон в воде бассейна">
-            <BulletList items={[
-              'Бактерии: кишечная палочка, синегнойная палочка, стафилококки',
-              'Вирусы: энтеровирусы, аденовирусы, ротавирусы',
-              'Простейшие: криптоспоридии, лямблии (устойчивы к хлору!)',
-              'Микроводоросли: разрушает плотные клеточные оболочки',
-              'Органические загрязнения: пот, моча, косметика, кремы',
-              'Хлорамины: разрушает вредные побочные продукты хлорирования',
-            ]} />
+            <BulletList
+              items={[
+                'Бактерии: кишечная палочка, синегнойная палочка, стафилококки',
+                'Вирусы: энтеровирусы, аденовирусы, ротавирусы',
+                'Простейшие: криптоспоридии, лямблии (устойчивы к хлору!)',
+                'Микроводоросли: разрушает плотные клеточные оболочки',
+                'Органические загрязнения: пот, моча, косметика, кремы',
+                'Хлорамины: разрушает вредные побочные продукты хлорирования',
+              ]}
+            />
 
             <Paragraph>
-              Особенно важно, что озон эффективен против криптоспоридий — паразитов, вызывающих диарею. Они крайне устойчивы к хлору (для их уничтожения нужно 10 000 мг/л×мин хлора), но уязвимы для озона.
+              Особенно важно, что озон эффективен против криптоспоридий — паразитов, вызывающих диарею. Они крайне
+              устойчивы к хлору (для их уничтожения нужно 10 000 мг/л×мин хлора), но уязвимы для озона.
             </Paragraph>
           </ArticleSection>
 
@@ -203,17 +198,19 @@ export function PoolsSpaPage() {
 
           <ArticleSection title="Особенности для SPA и джакузи">
             <Paragraph>
-              В SPA и джакузи повышенная температура воды (32-40°C) создаёт благоприятные условия для размножения бактерий, включая легионеллу. Озонирование особенно эффективно в этих условиях:
+              В SPA и джакузи повышенная температура воды (32-40°C) создаёт благоприятные условия для размножения
+              бактерий, включая легионеллу. Озонирование особенно эффективно в этих условиях:
             </Paragraph>
-            <BulletList items={[
-              'Уничтожение легионеллы — опасного возбудителя пневмонии',
-              'Разрушение биоплёнок в трубопроводах и форсунках',
-              'Устранение запаха «затхлой воды» в редко используемых джакузи',
-              'Профилактика грибковых инфекций (микозов)',
-              'Отсутствие раздражения при длительных SPA-процедурах',
-            ]} />
+            <BulletList
+              items={[
+                'Уничтожение легионеллы — опасного возбудителя пневмонии',
+                'Разрушение биоплёнок в трубопроводах и форсунках',
+                'Устранение запаха «затхлой воды» в редко используемых джакузи',
+                'Профилактика грибковых инфекций (микозов)',
+                'Отсутствие раздражения при длительных SPA-процедурах',
+              ]}
+            />
           </ArticleSection>
-
         </div>
       </article>
 
@@ -221,12 +218,18 @@ export function PoolsSpaPage() {
       <section className="cta">
         <div className="container">
           <h2 className="cta__title">Хотите чистую воду без хлорки?</h2>
-          <p className="cta__text">Получите бесплатную консультацию и расчёт системы озонирования для вашего бассейна</p>
+          <p className="cta__text">
+            Получите бесплатную консультацию и расчёт системы озонирования для вашего бассейна
+          </p>
           <div className="cta__actions">
             <AppLink href="/contacts" className="btn btn--white btn--large">
               Получить консультацию
             </AppLink>
-            <a href="tel:+78001234567" className="btn btn--secondary btn--large" style={{ borderColor: 'white', color: 'white' }}>
+            <a
+              href="tel:+78001234567"
+              className="btn btn--secondary btn--large"
+              style={{ borderColor: 'white', color: 'white' }}
+            >
               Позвонить: 8 (800) 123-45-67
             </a>
           </div>

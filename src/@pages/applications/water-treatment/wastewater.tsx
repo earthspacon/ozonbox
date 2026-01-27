@@ -1,33 +1,38 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  ComparisonTable,
+  DataTable,
   FeatureCard,
   FeatureGrid,
-  ComparisonTable,
+  HighlightBox,
+  Paragraph,
   ProcessList,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function WastewaterPage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
               Применение
             </AppLink>
             <span className="text-text-light">/</span>
-            <AppLink href="/applications/water-treatment" className="text-text-secondary hover:text-primary transition-colors">
+            <AppLink
+              href="/applications/water-treatment"
+              className="text-text-secondary hover:text-primary transition-colors"
+            >
               Водоочистка
             </AppLink>
             <span className="text-text-light">/</span>
@@ -37,7 +42,7 @@ export function WastewaterPage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=1920&q=80"
@@ -47,22 +52,23 @@ export function WastewaterPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/water-treatment" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/water-treatment"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>Водоочистка</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Озонирование сточных вод
-          </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">Озонирование сточных вод</h1>
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
             Глубокая очистка и обеззараживание стоков без образования токсичных побочных продуктов
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
@@ -96,18 +102,24 @@ export function WastewaterPage() {
       {/* Main Content */}
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              Озонирование сточных вод — современный метод глубокой очистки, применяемый как финишная стадия обработки перед сбросом в водоёмы или повторным использованием воды. Озон — мощный окислитель, который эффективно разрушает сложные органические соединения, обеспечивая обеззараживание без образования токсичных хлорорганических соединений.
+              Озонирование сточных вод — современный метод глубокой очистки, применяемый как финишная стадия обработки
+              перед сбросом в водоёмы или повторным использованием воды. Озон — мощный окислитель, который эффективно
+              разрушает сложные органические соединения, обеспечивая обеззараживание без образования токсичных
+              хлорорганических соединений.
             </Paragraph>
             <Paragraph>
-              Метод особенно эффективен для очистки промышленных стоков, содержащих фенолы, нефтепродукты, поверхностно-активные вещества (ПАВ), пестициды и другие трудноокисляемые органические соединения. После озонирования вода безопасна для сброса в водоёмы без длительного дехлорирования.
+              Метод особенно эффективен для очистки промышленных стоков, содержащих фенолы, нефтепродукты,
+              поверхностно-активные вещества (ПАВ), пестициды и другие трудноокисляемые органические соединения. После
+              озонирования вода безопасна для сброса в водоёмы без длительного дехлорирования.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>Экологическое преимущество:</strong> В отличие от хлорирования, озон не образует токсичных хлорорганических соединений, опасных для экосистем водоёмов. После обработки озон распадается до кислорода, дополнительно аэрируя воду.
+            <strong>Экологическое преимущество:</strong> В отличие от хлорирования, озон не образует токсичных
+            хлорорганических соединений, опасных для экосистем водоёмов. После обработки озон распадается до кислорода,
+            дополнительно аэрируя воду.
           </HighlightBox>
 
           <ArticleSection title="Сравнение методов обеззараживания стоков">
@@ -141,7 +153,8 @@ export function WastewaterPage() {
             />
 
             <HighlightBox variant="success">
-              <strong>Расчёт дозы озона:</strong> 1-3 г озона на 1 г БПК (биохимическое потребление кислорода), 7-10 г озона на 1 г нефтепродуктов. Точная доза определяется экспериментально для конкретных стоков.
+              <strong>Расчёт дозы озона:</strong> 1-3 г озона на 1 г БПК (биохимическое потребление кислорода), 7-10 г
+              озона на 1 г нефтепродуктов. Точная доза определяется экспериментально для конкретных стоков.
             </HighlightBox>
           </ArticleSection>
 
@@ -150,19 +163,23 @@ export function WastewaterPage() {
               steps={[
                 {
                   title: 'Механическая очистка',
-                  description: 'Удаление грубых примесей, песка, взвешенных веществ. Обязательный этап перед озонированием.',
+                  description:
+                    'Удаление грубых примесей, песка, взвешенных веществ. Обязательный этап перед озонированием.',
                 },
                 {
                   title: 'Биологическая очистка',
-                  description: 'Аэробная или анаэробная биоочистка для снижения БПК до 15-30 мг/л. Озонирование применяется после этого этапа.',
+                  description:
+                    'Аэробная или анаэробная биоочистка для снижения БПК до 15-30 мг/л. Озонирование применяется после этого этапа.',
                 },
                 {
                   title: 'Генерация озона',
-                  description: 'Производство озона из кислорода методом коронного разряда. Концентрация озона в газе: 6-12%.',
+                  description:
+                    'Производство озона из кислорода методом коронного разряда. Концентрация озона в газе: 6-12%.',
                 },
                 {
                   title: 'Контактная камера',
-                  description: 'Смешивание озоно-воздушной смеси со стоками через систему барботажа. Время контакта: 10-30 минут в зависимости от загрязнённости.',
+                  description:
+                    'Смешивание озоно-воздушной смеси со стоками через систему барботажа. Время контакта: 10-30 минут в зависимости от загрязнённости.',
                 },
                 {
                   title: 'Осветление',
@@ -170,23 +187,26 @@ export function WastewaterPage() {
                 },
                 {
                   title: 'Контроль качества',
-                  description: 'Анализ очищенной воды на соответствие нормам сброса: БПК, ХПК, взвешенные вещества, коли-индекс.',
+                  description:
+                    'Анализ очищенной воды на соответствие нормам сброса: БПК, ХПК, взвешенные вещества, коли-индекс.',
                 },
               ]}
             />
           </ArticleSection>
 
           <ArticleSection title="Загрязнители, удаляемые озонированием">
-            <BulletList items={[
-              'Фенолы и нитрофенолы: окисление до CO₂ и H₂O, снижение концентрации до ПДК',
-              'Нефтепродукты: деструкция до простых органических кислот',
-              'ПАВ (поверхностно-активные вещества): разрушение молекулярной структуры',
-              'Пестициды и гербициды: окисление до нетоксичных соединений',
-              'Красители и пигменты: полное обесцвечивание стоков',
-              'Патогенная микрофлора: инактивация бактерий, вирусов, яиц гельминтов',
-              'Аммонийный азот: окисление до нитратов',
-              'Сероводород и меркаптаны: устранение неприятных запахов',
-            ]} />
+            <BulletList
+              items={[
+                'Фенолы и нитрофенолы: окисление до CO₂ и H₂O, снижение концентрации до ПДК',
+                'Нефтепродукты: деструкция до простых органических кислот',
+                'ПАВ (поверхностно-активные вещества): разрушение молекулярной структуры',
+                'Пестициды и гербициды: окисление до нетоксичных соединений',
+                'Красители и пигменты: полное обесцвечивание стоков',
+                'Патогенная микрофлора: инактивация бактерий, вирусов, яиц гельминтов',
+                'Аммонийный азот: окисление до нитратов',
+                'Сероводород и меркаптаны: устранение неприятных запахов',
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Результаты озонирования стоков">
@@ -204,7 +224,9 @@ export function WastewaterPage() {
             />
 
             <Paragraph>
-              Данные получены при обработке стоков дозой озона 50 мг/л в контактной камере с временем контакта 15 минут. При подаче озона свыше 50 мг/л исчезает цветность, мутность, запах, коли-индекс снижается до нормативных значений.
+              Данные получены при обработке стоков дозой озона 50 мг/л в контактной камере с временем контакта 15 минут.
+              При подаче озона свыше 50 мг/л исчезает цветность, мутность, запах, коли-индекс снижается до нормативных
+              значений.
             </Paragraph>
           </ArticleSection>
 
@@ -249,18 +271,21 @@ export function WastewaterPage() {
           </ArticleSection>
 
           <ArticleSection title="Нормативные требования к сбросу">
-            <BulletList items={[
-              'СанПиН 2.1.5.980-00 «Гигиенические требования к охране поверхностных вод»',
-              'ПДК вредных веществ в воде водных объектов хозяйственно-питьевого водопользования',
-              'Приказ Минприроды России от 17.12.2007 № 333 «Об утверждении методики разработки НДС»',
-              'ГОСТ 17.1.3.13-86 «Охрана природы. Гидросфера. Общие требования к охране поверхностных вод от загрязнения»',
-            ]} />
+            <BulletList
+              items={[
+                'СанПиН 2.1.5.980-00 «Гигиенические требования к охране поверхностных вод»',
+                'ПДК вредных веществ в воде водных объектов хозяйственно-питьевого водопользования',
+                'Приказ Минприроды России от 17.12.2007 № 333 «Об утверждении методики разработки НДС»',
+                'ГОСТ 17.1.3.13-86 «Охрана природы. Гидросфера. Общие требования к охране поверхностных вод от загрязнения»',
+              ]}
+            />
 
             <HighlightBox variant="warning">
-              <strong>Внимание:</strong> Законодательство предъявляет строгие требования к качеству сбрасываемых стоков. Несоблюдение норм влечёт штрафы до 250 000 рублей для юридических лиц. Озонирование позволяет гарантированно достичь нормативных показателей.
+              <strong>Внимание:</strong> Законодательство предъявляет строгие требования к качеству сбрасываемых стоков.
+              Несоблюдение норм влечёт штрафы до 250 000 рублей для юридических лиц. Озонирование позволяет
+              гарантированно достичь нормативных показателей.
             </HighlightBox>
           </ArticleSection>
-
         </div>
       </article>
 
@@ -273,7 +298,11 @@ export function WastewaterPage() {
             <AppLink href="/contacts" className="btn btn--white btn--large">
               Получить расчёт
             </AppLink>
-            <a href="tel:+78001234567" className="btn btn--secondary btn--large" style={{ borderColor: 'white', color: 'white' }}>
+            <a
+              href="tel:+78001234567"
+              className="btn btn--secondary btn--large"
+              style={{ borderColor: 'white', color: 'white' }}
+            >
               Позвонить: 8 (800) 123-45-67
             </a>
           </div>

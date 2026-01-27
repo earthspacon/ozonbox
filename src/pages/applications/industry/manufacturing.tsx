@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { ManufacturingPage } from '@/@pages/applications/industry/manufacturing'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

@@ -1,32 +1,37 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  ComparisonTable,
+  DataTable,
   FeatureCard,
   FeatureGrid,
-  ComparisonTable,
+  HighlightBox,
+  Paragraph,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function VegetableStoragePage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
               Применение
             </AppLink>
             <span className="text-text-light">/</span>
-            <AppLink href="/applications/agriculture" className="text-text-secondary hover:text-primary transition-colors">
+            <AppLink
+              href="/applications/agriculture"
+              className="text-text-secondary hover:text-primary transition-colors"
+            >
               Сельское хозяйство
             </AppLink>
             <span className="text-text-light">/</span>
@@ -36,7 +41,7 @@ export function VegetableStoragePage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?w=1920&q=80"
@@ -46,22 +51,24 @@ export function VegetableStoragePage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/agriculture" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/agriculture"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>Сельское хозяйство</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Озонирование овощехранилищ
-          </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
-            Продление сроков хранения овощей и фруктов в 1,5-2 раза. Уничтожение плесени и патогенов без химических консервантов.
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">Озонирование овощехранилищ</h1>
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
+            Продление сроков хранения овощей и фруктов в 1,5-2 раза. Уничтожение плесени и патогенов без химических
+            консервантов.
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
@@ -70,24 +77,14 @@ export function VegetableStoragePage() {
               description="Увеличение сроков хранения продукции"
               variant="primary"
             />
-            <StatCard
-              value="90%"
-              label="Снижение плесени"
-              description="Уничтожение спор грибков"
-              variant="accent"
-            />
+            <StatCard value="90%" label="Снижение плесени" description="Уничтожение спор грибков" variant="accent" />
             <StatCard
               value="30-50%"
               label="Снижение потерь"
               description="Уменьшение порчи продукции"
               variant="primary"
             />
-            <StatCard
-              value="0"
-              label="Химии"
-              description="Без консервантов и фунгицидов"
-              variant="accent"
-            />
+            <StatCard value="0" label="Химии" description="Без консервантов и фунгицидов" variant="accent" />
           </StatGrid>
         </div>
       </section>
@@ -95,18 +92,21 @@ export function VegetableStoragePage() {
       {/* Main Content */}
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              Потери овощей и фруктов при хранении составляют от 20 до 40% от общего объёма. Основные причины — развитие плесени, бактериальная гниль, преждевременное прорастание и увядание. Озонирование позволяет решить эти проблемы комплексно, продлевая сроки хранения в 1,5-2 раза без использования химических препаратов.
+              Потери овощей и фруктов при хранении составляют от 20 до 40% от общего объёма. Основные причины — развитие
+              плесени, бактериальная гниль, преждевременное прорастание и увядание. Озонирование позволяет решить эти
+              проблемы комплексно, продлевая сроки хранения в 1,5-2 раза без использования химических препаратов.
             </Paragraph>
             <Paragraph>
-              В отличие от фунгицидов и консервантов, озон не накапливается в продукции, распадаясь на кислород. Это особенно важно для органического земледелия и производства экологически чистых продуктов питания.
+              В отличие от фунгицидов и консервантов, озон не накапливается в продукции, распадаясь на кислород. Это
+              особенно важно для органического земледелия и производства экологически чистых продуктов питания.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>Принцип действия:</strong> Озон уничтожает плесень, дрожжи и бактерии на поверхности овощей и в воздухе хранилища. Также разрушает этилен — газ, ускоряющий созревание и старение плодов.
+            <strong>Принцип действия:</strong> Озон уничтожает плесень, дрожжи и бактерии на поверхности овощей и в
+            воздухе хранилища. Также разрушает этилен — газ, ускоряющий созревание и старение плодов.
           </HighlightBox>
 
           <ArticleSection title="Эффективность озонирования овощей">
@@ -126,19 +126,23 @@ export function VegetableStoragePage() {
 
           <ArticleSection title="Борьба с болезнями хранения">
             <Paragraph>
-              Основные болезни овощей при хранении вызываются грибками и бактериями. Озон эффективен против всех основных возбудителей:
+              Основные болезни овощей при хранении вызываются грибками и бактериями. Озон эффективен против всех
+              основных возбудителей:
             </Paragraph>
-            <BulletList items={[
-              'Фитофтороз картофеля — снижение поражённости на 60-80%',
-              'Серая гниль (Botrytis) — уничтожение спор на 95%',
-              'Мокрая гниль — подавление развития бактерий',
-              'Фузариоз — снижение заражённости на 70%',
-              'Пенициллёз плодов — уничтожение спор на 90%',
-              'Чёрная ножка моркови — предотвращение развития',
-            ]} />
+            <BulletList
+              items={[
+                'Фитофтороз картофеля — снижение поражённости на 60-80%',
+                'Серая гниль (Botrytis) — уничтожение спор на 95%',
+                'Мокрая гниль — подавление развития бактерий',
+                'Фузариоз — снижение заражённости на 70%',
+                'Пенициллёз плодов — уничтожение спор на 90%',
+                'Чёрная ножка моркови — предотвращение развития',
+              ]}
+            />
 
             <HighlightBox variant="success">
-              При регулярном озонировании (2-3 мг/м³, 4-6 часов ежесуточно) заражённость картофеля фитофторозом снижается с 15-20% до 3-5%, что экономит до 30% урожая.
+              При регулярном озонировании (2-3 мг/м³, 4-6 часов ежесуточно) заражённость картофеля фитофторозом
+              снижается с 15-20% до 3-5%, что экономит до 30% урожая.
             </HighlightBox>
           </ArticleSection>
 
@@ -157,7 +161,8 @@ export function VegetableStoragePage() {
             />
 
             <Paragraph>
-              Важно учитывать, что режим озонирования зависит от температуры, влажности и состояния продукции. При повышенной влажности (более 95%) эффективность озона увеличивается.
+              Важно учитывать, что режим озонирования зависит от температуры, влажности и состояния продукции. При
+              повышенной влажности (более 95%) эффективность озона увеличивается.
             </Paragraph>
           </ArticleSection>
 
@@ -196,15 +201,19 @@ export function VegetableStoragePage() {
                 { parameter: 'Потери при хранении картофеля', value1: '5-8%', value2: '15-25%' },
                 { parameter: 'Потери при хранении моркови', value1: '8-12%', value2: '25-35%' },
                 { parameter: 'Затраты на фунгициды', value1: '0', value2: '15-20 руб/т' },
-                { parameter: 'Реализация в поздний период', value1: 'По премиальной цене', value2: 'Со скидкой (ухудшение качества)' },
+                {
+                  parameter: 'Реализация в поздний период',
+                  value1: 'По премиальной цене',
+                  value2: 'Со скидкой (ухудшение качества)',
+                },
               ]}
             />
 
             <HighlightBox variant="success">
-              Окупаемость оборудования для озонирования овощехранилища ёмкостью 1000 тонн составляет 1-2 сезона хранения за счёт снижения потерь и повышения цены реализации.
+              Окупаемость оборудования для озонирования овощехранилища ёмкостью 1000 тонн составляет 1-2 сезона хранения
+              за счёт снижения потерь и повышения цены реализации.
             </HighlightBox>
           </ArticleSection>
-
         </div>
       </article>
 
@@ -217,7 +226,11 @@ export function VegetableStoragePage() {
             <AppLink href="/contacts" className="btn btn--white btn--large">
               Получить консультацию
             </AppLink>
-            <a href="tel:+78001234567" className="btn btn--secondary btn--large" style={{ borderColor: 'white', color: 'white' }}>
+            <a
+              href="tel:+78001234567"
+              className="btn btn--secondary btn--large"
+              style={{ borderColor: 'white', color: 'white' }}
+            >
               Позвонить: 8 (800) 123-45-67
             </a>
           </div>

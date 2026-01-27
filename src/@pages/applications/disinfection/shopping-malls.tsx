@@ -1,33 +1,38 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  ComparisonTable,
+  DataTable,
   FeatureCard,
   FeatureGrid,
-  ComparisonTable,
+  HighlightBox,
+  Paragraph,
   ProcessList,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function ShoppingMallsPage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
               Применение
             </AppLink>
             <span className="text-text-light">/</span>
-            <AppLink href="/applications/disinfection" className="text-text-secondary hover:text-primary transition-colors">
+            <AppLink
+              href="/applications/disinfection"
+              className="text-text-secondary hover:text-primary transition-colors"
+            >
               Дезинфекция
             </AppLink>
             <span className="text-text-light">/</span>
@@ -37,7 +42,7 @@ export function ShoppingMallsPage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1519558260268-cde7e03a0152?w=1920&q=80"
@@ -47,48 +52,30 @@ export function ShoppingMallsPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/disinfection" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/disinfection"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>Дезинфекция</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Озонирование торговых центров
-          </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
-            Чистый воздух для тысяч посетителей. Профилактика инфекций, устранение запахов, комфортная атмосфера для шопинга.
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">Озонирование торговых центров</h1>
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
+            Чистый воздух для тысяч посетителей. Профилактика инфекций, устранение запахов, комфортная атмосфера для
+            шопинга.
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
-            <StatCard
-              value="1000+"
-              label="Посетителей"
-              description="Ежедневный поток в крупных ТЦ"
-              variant="primary"
-            />
-            <StatCard
-              value="24/7"
-              label="Защита"
-              description="Интеграция в систему вентиляции"
-              variant="accent"
-            />
-            <StatCard
-              value="100%"
-              label="Запахи"
-              description="Устранение запахов фудкортов"
-              variant="primary"
-            />
-            <StatCard
-              value="0"
-              label="Химии"
-              description="Экологичная обработка"
-              variant="accent"
-            />
+            <StatCard value="1000+" label="Посетителей" description="Ежедневный поток в крупных ТЦ" variant="primary" />
+            <StatCard value="24/7" label="Защита" description="Интеграция в систему вентиляции" variant="accent" />
+            <StatCard value="100%" label="Запахи" description="Устранение запахов фудкортов" variant="primary" />
+            <StatCard value="0" label="Химии" description="Экологичная обработка" variant="accent" />
           </StatGrid>
         </div>
       </section>
@@ -96,35 +83,43 @@ export function ShoppingMallsPage() {
       {/* Main Content */}
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              Торговые центры — места массового скопления людей с интенсивным потоком посетителей. Ежедневно тысячи людей прикасаются к одним и тем же поверхностям: эскалаторам, поручням, кнопкам лифтов, дверным ручкам. Озонирование поддерживает качество воздуха, устраняет запахи и обеспечивает профилактику распространения инфекций.
+              Торговые центры — места массового скопления людей с интенсивным потоком посетителей. Ежедневно тысячи
+              людей прикасаются к одним и тем же поверхностям: эскалаторам, поручням, кнопкам лифтов, дверным ручкам.
+              Озонирование поддерживает качество воздуха, устраняет запахи и обеспечивает профилактику распространения
+              инфекций.
             </Paragraph>
             <Paragraph>
-              Регулярная обработка озоном в нерабочие часы дезинфицирует все поверхности, включая труднодоступные места и технические зоны. Газ проникает во все помещения, обеспечивая комплексную обработку всего объекта.
+              Регулярная обработка озоном в нерабочие часы дезинфицирует все поверхности, включая труднодоступные места
+              и технические зоны. Газ проникает во все помещения, обеспечивая комплексную обработку всего объекта.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>Комфорт посетителей</strong> напрямую влияет на время пребывания в ТЦ и объём покупок. Чистый свежий воздух без посторонних запахов — важный элемент позитивного покупательского опыта.
+            <strong>Комфорт посетителей</strong> напрямую влияет на время пребывания в ТЦ и объём покупок. Чистый свежий
+            воздух без посторонних запахов — важный элемент позитивного покупательского опыта.
           </HighlightBox>
 
           <ArticleSection title="Зоны обработки в торговом центре">
-            <BulletList items={[
-              'Торговые галереи и атриумы — основные зоны скопления посетителей',
-              'Эскалаторы и лифты — контактные поверхности с максимальной нагрузкой',
-              'Фудкорты — источники запахов и пищевых загрязнений',
-              'Туалетные комнаты — критические зоны для гигиены',
-              'Подсобные и технические помещения — часто игнорируются при уборке',
-              'Системы вентиляции — распространяют воздух по всему ТЦ',
-              'Парковки — накапливают выхлопные газы и запахи',
-            ]} />
+            <BulletList
+              items={[
+                'Торговые галереи и атриумы — основные зоны скопления посетителей',
+                'Эскалаторы и лифты — контактные поверхности с максимальной нагрузкой',
+                'Фудкорты — источники запахов и пищевых загрязнений',
+                'Туалетные комнаты — критические зоны для гигиены',
+                'Подсобные и технические помещения — часто игнорируются при уборке',
+                'Системы вентиляции — распространяют воздух по всему ТЦ',
+                'Парковки — накапливают выхлопные газы и запахи',
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Проблема запахов в ТЦ">
             <Paragraph>
-              Торговые центры объединяют множество источников запахов: фудкорты, туалеты, парфюмерные магазины, подсобные помещения. Озон эффективно нейтрализует все эти запахи, не маскируя их, а разрушая молекулы пахнущих веществ.
+              Торговые центры объединяют множество источников запахов: фудкорты, туалеты, парфюмерные магазины,
+              подсобные помещения. Озон эффективно нейтрализует все эти запахи, не маскируя их, а разрушая молекулы
+              пахнущих веществ.
             </Paragraph>
 
             <DataTable
@@ -165,24 +160,30 @@ export function ShoppingMallsPage() {
           </ArticleSection>
 
           <ArticleSection title="Режим обработки">
-            <ProcessList steps={[
-              {
-                title: 'Ночная дезинфекция',
-                description: 'После закрытия ТЦ запускаются мобильные озонаторы. Обработка 2-4 часа в зависимости от площади. К открытию озон полностью разлагается.'
-              },
-              {
-                title: 'Фудкорт',
-                description: 'Ежедневная обработка после закрытия кафе. Устранение запахов готовки, дезинфекция столов и стульев.'
-              },
-              {
-                title: 'Туалетные комнаты',
-                description: 'Озонаторы малой мощности работают постоянно в безопасной концентрации или включаются автоматически в перерывах.'
-              },
-              {
-                title: 'Вентиляция',
-                description: 'Канальные озонаторы подают озон в воздуховоды, обеспечивая обеззараживание приточного воздуха.'
-              },
-            ]} />
+            <ProcessList
+              steps={[
+                {
+                  title: 'Ночная дезинфекция',
+                  description:
+                    'После закрытия ТЦ запускаются мобильные озонаторы. Обработка 2-4 часа в зависимости от площади. К открытию озон полностью разлагается.',
+                },
+                {
+                  title: 'Фудкорт',
+                  description:
+                    'Ежедневная обработка после закрытия кафе. Устранение запахов готовки, дезинфекция столов и стульев.',
+                },
+                {
+                  title: 'Туалетные комнаты',
+                  description:
+                    'Озонаторы малой мощности работают постоянно в безопасной концентрации или включаются автоматически в перерывах.',
+                },
+                {
+                  title: 'Вентиляция',
+                  description:
+                    'Канальные озонаторы подают озон в воздуховоды, обеспечивая обеззараживание приточного воздуха.',
+                },
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Расчёт оборудования">
@@ -199,7 +200,8 @@ export function ShoppingMallsPage() {
             />
 
             <HighlightBox variant="success">
-              Для крупных торговых центров рекомендуется проектирование комплексной системы озонирования с учётом архитектуры здания, систем вентиляции и режима работы. Мы разрабатываем индивидуальные решения.
+              Для крупных торговых центров рекомендуется проектирование комплексной системы озонирования с учётом
+              архитектуры здания, систем вентиляции и режима работы. Мы разрабатываем индивидуальные решения.
             </HighlightBox>
           </ArticleSection>
 
@@ -262,19 +264,21 @@ export function ShoppingMallsPage() {
             <Paragraph>
               При правильной организации озонирование абсолютно безопасно для посетителей и персонала торгового центра.
             </Paragraph>
-            <BulletList items={[
-              'Основная обработка — в ночное время, когда ТЦ закрыт',
-              'Интеграция в вентиляцию — в безопасных концентрациях',
-              'Туалеты — автоматическое отключение при входе посетителей',
-              'Датчики концентрации — контроль уровня озона в реальном времени',
-              'К открытию ТЦ озон полностью разлагается на кислород',
-            ]} />
+            <BulletList
+              items={[
+                'Основная обработка — в ночное время, когда ТЦ закрыт',
+                'Интеграция в вентиляцию — в безопасных концентрациях',
+                'Туалеты — автоматическое отключение при входе посетителей',
+                'Датчики концентрации — контроль уровня озона в реальном времени',
+                'К открытию ТЦ озон полностью разлагается на кислород',
+              ]}
+            />
 
             <HighlightBox variant="warning">
-              ПДК озона для рабочей зоны — 0,1 мг/м³. При интеграции в вентиляцию концентрация поддерживается на уровне 0,03-0,05 мг/м³ — это безопасно и даёт эффект «свежего воздуха».
+              ПДК озона для рабочей зоны — 0,1 мг/м³. При интеграции в вентиляцию концентрация поддерживается на уровне
+              0,03-0,05 мг/м³ — это безопасно и даёт эффект «свежего воздуха».
             </HighlightBox>
           </ArticleSection>
-
         </div>
       </article>
 
@@ -282,7 +286,9 @@ export function ShoppingMallsPage() {
       <section className="cta">
         <div className="container">
           <h2 className="cta__title">Создать здоровую атмосферу в вашем ТЦ?</h2>
-          <p className="cta__text">Получите бесплатную консультацию и проект системы озонирования для вашего торгового центра</p>
+          <p className="cta__text">
+            Получите бесплатную консультацию и проект системы озонирования для вашего торгового центра
+          </p>
           <div className="cta__actions">
             <AppLink href="/contacts" className="btn btn--white btn--large">
               Получить консультацию

@@ -1,25 +1,27 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  DataTable,
   FeatureCard,
   FeatureGrid,
+  HighlightBox,
+  Paragraph,
   ProcessList,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function RestaurantsPage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
@@ -36,7 +38,7 @@ export function RestaurantsPage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920&q=80"
@@ -46,48 +48,29 @@ export function RestaurantsPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/horeca" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/horeca"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>HoReCa</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Озонирование ресторанов и кафе
-          </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">Озонирование ресторанов и кафе</h1>
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
             Устранение запахов кухни, табака и кальяна. Свежий воздух повышает комфорт гостей и стимулирует аппетит.
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
-            <StatCard
-              value="60-120"
-              label="Минут обработки"
-              description="Полный цикл очистки зала"
-              variant="primary"
-            />
-            <StatCard
-              value="100%"
-              label="Удаление запахов"
-              description="Табак, кухня, сырость"
-              variant="accent"
-            />
-            <StatCard
-              value="+25%"
-              label="Время пребывания"
-              description="Гости дольше остаются"
-              variant="primary"
-            />
-            <StatCard
-              value="0"
-              label="Расходных материалов"
-              description="Озон из воздуха"
-              variant="accent"
-            />
+            <StatCard value="60-120" label="Минут обработки" description="Полный цикл очистки зала" variant="primary" />
+            <StatCard value="100%" label="Удаление запахов" description="Табак, кухня, сырость" variant="accent" />
+            <StatCard value="+25%" label="Время пребывания" description="Гости дольше остаются" variant="primary" />
+            <StatCard value="0" label="Расходных материалов" description="Озон из воздуха" variant="accent" />
           </StatGrid>
         </div>
       </section>
@@ -95,35 +78,44 @@ export function RestaurantsPage() {
       {/* Main Content */}
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              Ресторанный бизнес — это атмосфера. Запах прокуренного помещения, застоявшихся блюд или кухонного жира способен отпугнуть даже лояльных клиентов. Исследования показывают: качество воздуха напрямую влияет на подсознательную оценку уровня сервиса. Озонирование решает эту проблему радикально — не маскируя запахи ароматизаторами, а уничтожая их на молекулярном уровне.
+              Ресторанный бизнес — это атмосфера. Запах прокуренного помещения, застоявшихся блюд или кухонного жира
+              способен отпугнуть даже лояльных клиентов. Исследования показывают: качество воздуха напрямую влияет на
+              подсознательную оценку уровня сервиса. Озонирование решает эту проблему радикально — не маскируя запахи
+              ароматизаторами, а уничтожая их на молекулярном уровне.
             </Paragraph>
             <Paragraph>
-              Обоняние настолько тесно связано с подсознанием, что человек может не отдавать себе отчёт, почему ему приятно или неприятно в данном заведении. Он просто скажет «понравилось» или «не понравилось». А от этой оценки зависит, придёт ли он снова и порекомендует ли друзьям.
+              Обоняние настолько тесно связано с подсознанием, что человек может не отдавать себе отчёт, почему ему
+              приятно или неприятно в данном заведении. Он просто скажет «понравилось» или «не понравилось». А от этой
+              оценки зависит, придёт ли он снова и порекомендует ли друзьям.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="success">
-            <strong>Факт:</strong> Большинство казино Лас-Вегаса используют озонаторы. Свежий воздух увеличивает время пребывания гостей и количество заказов. Озон также снижает воздействие алкоголя на ЦНС — клиенты дольше остаются бодрыми.
+            <strong>Факт:</strong> Большинство казино Лас-Вегаса используют озонаторы. Свежий воздух увеличивает время
+            пребывания гостей и количество заказов. Озон также снижает воздействие алкоголя на ЦНС — клиенты дольше
+            остаются бодрыми.
           </HighlightBox>
 
           <ArticleSection title="Проблемы ресторанов, решаемые озонированием">
-            <BulletList items={[
-              'Запах табака и кальяна — въедается в мебель, шторы, обивку',
-              'Кухонные ароматы — жир, специи, рыба, чеснок',
-              'Сырость и плесень — особенно в подвальных помещениях',
-              'Запах от вентиляции — скопление жира в воздуховодах',
-              'Туалетные запахи — проникают в зал при плохой вентиляции',
-              'Бактерии и плесень — источники неприятных запахов',
-              'Запах бытовой химии — от моющих средств после уборки',
-            ]} />
+            <BulletList
+              items={[
+                'Запах табака и кальяна — въедается в мебель, шторы, обивку',
+                'Кухонные ароматы — жир, специи, рыба, чеснок',
+                'Сырость и плесень — особенно в подвальных помещениях',
+                'Запах от вентиляции — скопление жира в воздуховодах',
+                'Туалетные запахи — проникают в зал при плохой вентиляции',
+                'Бактерии и плесень — источники неприятных запахов',
+                'Запах бытовой химии — от моющих средств после уборки',
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Почему запахи так важны">
             <Paragraph>
-              Вы можете создать креативный дизайн, нанять профессиональный персонал, вкладывать деньги в рекламу — но неприятный запах сведёт все усилия на нет. Разве в хорошем месте может плохо пахнуть?
+              Вы можете создать креативный дизайн, нанять профессиональный персонал, вкладывать деньги в рекламу — но
+              неприятный запах сведёт все усилия на нет. Разве в хорошем месте может плохо пахнуть?
             </Paragraph>
             <DataTable
               caption="Влияние качества воздуха на бизнес-показатели"
@@ -139,27 +131,33 @@ export function RestaurantsPage() {
           </ArticleSection>
 
           <ArticleSection title="Процесс озонирования ресторана">
-            <ProcessList steps={[
-              {
-                title: 'Закрытие заведения',
-                description: 'Озонирование проводится в нерабочие часы, когда в помещении нет людей.'
-              },
-              {
-                title: 'Подготовка помещения',
-                description: 'Закрываются окна и двери, отключается приточная вентиляция для максимальной концентрации озона.'
-              },
-              {
-                title: 'Озонирование',
-                description: 'Озонатор размещается на максимальной высоте. Время обработки: 60-120 минут в зависимости от объёма.'
-              },
-              {
-                title: 'Проветривание',
-                description: 'Включается вентиляция, открываются окна. За 2-3 часа озон распадается до безопасного уровня.'
-              },
-            ]} />
+            <ProcessList
+              steps={[
+                {
+                  title: 'Закрытие заведения',
+                  description: 'Озонирование проводится в нерабочие часы, когда в помещении нет людей.',
+                },
+                {
+                  title: 'Подготовка помещения',
+                  description:
+                    'Закрываются окна и двери, отключается приточная вентиляция для максимальной концентрации озона.',
+                },
+                {
+                  title: 'Озонирование',
+                  description:
+                    'Озонатор размещается на максимальной высоте. Время обработки: 60-120 минут в зависимости от объёма.',
+                },
+                {
+                  title: 'Проветривание',
+                  description:
+                    'Включается вентиляция, открываются окна. За 2-3 часа озон распадается до безопасного уровня.',
+                },
+              ]}
+            />
 
             <HighlightBox variant="info">
-              <strong>Автоматизация:</strong> Современные озонаторы оснащены недельными таймерами. Можно настроить автоматический запуск после закрытия — к утру воздух будет идеально свежим.
+              <strong>Автоматизация:</strong> Современные озонаторы оснащены недельными таймерами. Можно настроить
+              автоматический запуск после закрытия — к утру воздух будет идеально свежим.
             </HighlightBox>
           </ArticleSection>
 
@@ -205,31 +203,35 @@ export function RestaurantsPage() {
           </ArticleSection>
 
           <ArticleSection title="Дополнительные применения озона">
-            <BulletList items={[
-              'Стерилизация посуды и инвентаря без химии',
-              'Обработка продуктов для увеличения срока хранения (рыба, мясо, зелень)',
-              'Дезинфекция рук персонала озонированной водой (полезно для кожи)',
-              'Очистка воды в декоративных водоёмах и аквариумах',
-              'Доочистка водопроводной воды до питьевого качества',
-              'Борьба с плесенью в подвальных помещениях и кладовых',
-            ]} />
+            <BulletList
+              items={[
+                'Стерилизация посуды и инвентаря без химии',
+                'Обработка продуктов для увеличения срока хранения (рыба, мясо, зелень)',
+                'Дезинфекция рук персонала озонированной водой (полезно для кожи)',
+                'Очистка воды в декоративных водоёмах и аквариумах',
+                'Доочистка водопроводной воды до питьевого качества',
+                'Борьба с плесенью в подвальных помещениях и кладовых',
+              ]}
+            />
 
             <HighlightBox variant="success">
-              <strong>Экономия:</strong> Один озонатор может обрабатывать и воздух, и воду. Компактные мобильные модели обслуживают разные помещения и решают разные задачи.
+              <strong>Экономия:</strong> Один озонатор может обрабатывать и воздух, и воду. Компактные мобильные модели
+              обслуживают разные помещения и решают разные задачи.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Преимущества для бизнеса">
-            <BulletList items={[
-              'Повышение лояльности гостей — комфортная атмосфера запоминается',
-              'Рост среднего чека — свежий воздух стимулирует аппетит',
-              'Увеличение времени пребывания — гости не спешат уйти',
-              'Снижение жалоб на запахи — защита репутации на отзовиках',
-              'Отсутствие расходных материалов — озон вырабатывается из воздуха',
-              'Автоматическая работа — минимум участия персонала',
-            ]} />
+            <BulletList
+              items={[
+                'Повышение лояльности гостей — комфортная атмосфера запоминается',
+                'Рост среднего чека — свежий воздух стимулирует аппетит',
+                'Увеличение времени пребывания — гости не спешат уйти',
+                'Снижение жалоб на запахи — защита репутации на отзовиках',
+                'Отсутствие расходных материалов — озон вырабатывается из воздуха',
+                'Автоматическая работа — минимум участия персонала',
+              ]}
+            />
           </ArticleSection>
-
         </div>
       </article>
 
@@ -242,7 +244,11 @@ export function RestaurantsPage() {
             <AppLink href="/contacts" className="btn btn--white btn--large">
               Получить консультацию
             </AppLink>
-            <a href="tel:+78001234567" className="btn btn--secondary btn--large" style={{ borderColor: 'white', color: 'white' }}>
+            <a
+              href="tel:+78001234567"
+              className="btn btn--secondary btn--large"
+              style={{ borderColor: 'white', color: 'white' }}
+            >
               Позвонить: 8 (800) 123-45-67
             </a>
           </div>

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { RailwayPage } from '@/@pages/applications/transport/railway'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

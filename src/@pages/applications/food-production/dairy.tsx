@@ -1,32 +1,37 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  ComparisonTable,
+  DataTable,
   FeatureCard,
   FeatureGrid,
-  ComparisonTable,
+  HighlightBox,
+  Paragraph,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function DairyPage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
               Применение
             </AppLink>
             <span className="text-text-light">/</span>
-            <AppLink href="/applications/food-production" className="text-text-secondary hover:text-primary transition-colors">
+            <AppLink
+              href="/applications/food-production"
+              className="text-text-secondary hover:text-primary transition-colors"
+            >
               Пищевое производство
             </AppLink>
             <span className="text-text-light">/</span>
@@ -36,7 +41,7 @@ export function DairyPage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1550583724-b2692b85b150?w=1920&q=80"
@@ -46,22 +51,26 @@ export function DairyPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/food-production" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/food-production"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>Пищевое производство</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
             Озонирование в молочном производстве
           </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
-            Дезинфекция оборудования, ёмкостей и помещений без химии. Увеличение сроков хранения молочной продукции и соответствие требованиям HACCP.
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
+            Дезинфекция оборудования, ёмкостей и помещений без химии. Увеличение сроков хранения молочной продукции и
+            соответствие требованиям HACCP.
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
@@ -82,12 +91,7 @@ export function DairyPage() {
               description="Концентрация для дезинфекции оборудования"
               variant="primary"
             />
-            <StatCard
-              value="0"
-              label="Химии"
-              description="Полный отказ от моющих средств"
-              variant="accent"
-            />
+            <StatCard value="0" label="Химии" description="Полный отказ от моющих средств" variant="accent" />
           </StatGrid>
         </div>
       </section>
@@ -95,18 +99,23 @@ export function DairyPage() {
       {/* Main Content */}
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              Молочная промышленность предъявляет высочайшие требования к микробиологической безопасности. Патогенные микроорганизмы — листерия, сальмонелла, E.coli — способны выживать даже после пастеризации, размножаясь в молокопроводах и на поверхности оборудования.
+              Молочная промышленность предъявляет высочайшие требования к микробиологической безопасности. Патогенные
+              микроорганизмы — листерия, сальмонелла, E.coli — способны выживать даже после пастеризации, размножаясь в
+              молокопроводах и на поверхности оборудования.
             </Paragraph>
             <Paragraph>
-              Озонирование позволяет решить эту проблему комплексно: дезинфицировать танки-охладители, доильные аппараты, молокопроводы и ёмкости для хранения без применения химических моющих средств. Озон эффективен против термофильных бактерий, устойчивых к высоким температурам.
+              Озонирование позволяет решить эту проблему комплексно: дезинфицировать танки-охладители, доильные
+              аппараты, молокопроводы и ёмкости для хранения без применения химических моющих средств. Озон эффективен
+              против термофильных бактерий, устойчивых к высоким температурам.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>HACCP:</strong> Озонирование признано критической контрольной точкой (ККТ) в системе анализа опасностей, позволяя контролировать микробиологическую безопасность на всех этапах производства молочной продукции.
+            <strong>HACCP:</strong> Озонирование признано критической контрольной точкой (ККТ) в системе анализа
+            опасностей, позволяя контролировать микробиологическую безопасность на всех этапах производства молочной
+            продукции.
           </HighlightBox>
 
           <ArticleSection title="Применение озона на молочных производствах">
@@ -124,14 +133,16 @@ export function DairyPage() {
           </ArticleSection>
 
           <ArticleSection title="Преимущества перед традиционными методами">
-            <BulletList items={[
-              'Уничтожение термофильных бактерий, устойчивых к пастеризации',
-              'Профилактика листериоза — критически важно для мягких сыров и творога',
-              'Отсутствие химических остатков на поверхности оборудования',
-              'Возможность обработки труднодоступных мест молокопроводов',
-              'Дезинфекция при низких температурах — не требуется прогрев',
-              'Автоматизация процесса — снижение влияния человеческого фактора',
-            ]} />
+            <BulletList
+              items={[
+                'Уничтожение термофильных бактерий, устойчивых к пастеризации',
+                'Профилактика листериоза — критически важно для мягких сыров и творога',
+                'Отсутствие химических остатков на поверхности оборудования',
+                'Возможность обработки труднодоступных мест молокопроводов',
+                'Дезинфекция при низких температурах — не требуется прогрев',
+                'Автоматизация процесса — снижение влияния человеческого фактора',
+              ]}
+            />
           </ArticleSection>
 
           <ComparisonTable
@@ -149,7 +160,8 @@ export function DairyPage() {
 
           <ArticleSection title="Хранение молочной продукции">
             <Paragraph>
-              Озонирование холодильных камер для хранения молочной продукции предотвращает развитие плесени, подавляет размножение психрофильных бактерий и увеличивает срок хранения творога, сметаны, йогуртов на 30-50%.
+              Озонирование холодильных камер для хранения молочной продукции предотвращает развитие плесени, подавляет
+              размножение психрофильных бактерий и увеличивает срок хранения творога, сметаны, йогуртов на 30-50%.
             </Paragraph>
 
             <DataTable
@@ -165,16 +177,20 @@ export function DairyPage() {
             />
 
             <HighlightBox variant="success">
-              При холодильном хранении озонирование не только подавляет микрофлору, но и предотвращает появление постороннего запаха продукции, что особенно важно для длительного хранения масла.
+              При холодильном хранении озонирование не только подавляет микрофлору, но и предотвращает появление
+              постороннего запаха продукции, что особенно важно для длительного хранения масла.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Профилактика листериоза">
             <Paragraph>
-              Listeria monocytogenes — один из наиболее опасных патогенов в молочной промышленности. Бактерия способна размножаться при температуре холодильника (+4°C), выживать в биоплёнках на поверхности оборудования и вызывать тяжёлые заболевания с летальным исходом.
+              Listeria monocytogenes — один из наиболее опасных патогенов в молочной промышленности. Бактерия способна
+              размножаться при температуре холодильника (+4°C), выживать в биоплёнках на поверхности оборудования и
+              вызывать тяжёлые заболевания с летальным исходом.
             </Paragraph>
             <Paragraph>
-              Озон эффективно разрушает биоплёнки листерии и уничтожает клетки бактерий. При концентрации 0,5-1,0 мг/л озона в воде достигается 99,99% инактивация L. monocytogenes в течение 5 минут контакта.
+              Озон эффективно разрушает биоплёнки листерии и уничтожает клетки бактерий. При концентрации 0,5-1,0 мг/л
+              озона в воде достигается 99,99% инактивация L. monocytogenes в течение 5 минут контакта.
             </Paragraph>
           </ArticleSection>
 
@@ -202,7 +218,6 @@ export function DairyPage() {
               />
             </FeatureGrid>
           </ArticleSection>
-
         </div>
       </article>
 

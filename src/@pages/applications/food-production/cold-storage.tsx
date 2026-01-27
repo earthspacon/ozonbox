@@ -1,32 +1,37 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  ComparisonTable,
+  DataTable,
   FeatureCard,
   FeatureGrid,
-  ComparisonTable,
+  HighlightBox,
+  Paragraph,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function ColdStoragePage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
               Применение
             </AppLink>
             <span className="text-text-light">/</span>
-            <AppLink href="/applications/food-production" className="text-text-secondary hover:text-primary transition-colors">
+            <AppLink
+              href="/applications/food-production"
+              className="text-text-secondary hover:text-primary transition-colors"
+            >
               Пищевое производство
             </AppLink>
             <span className="text-text-light">/</span>
@@ -36,7 +41,7 @@ export function ColdStoragePage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=1920&q=80"
@@ -46,22 +51,24 @@ export function ColdStoragePage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/food-production" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/food-production"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>Пищевое производство</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Озонирование холодильных камер
-          </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
-            Дезинфекция и дезодорация холодильных складов. Обработка загруженных камер без отепления, сокращение простоя в 5 раз, устранение затхлых запахов.
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">Озонирование холодильных камер</h1>
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
+            Дезинфекция и дезодорация холодильных складов. Обработка загруженных камер без отепления, сокращение простоя
+            в 5 раз, устранение затхлых запахов.
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
@@ -70,24 +77,9 @@ export function ColdStoragePage() {
               description="Сокращение простоя камер под дезинфекцию"
               variant="primary"
             />
-            <StatCard
-              value="35-40"
-              label="мг/м³"
-              description="Концентрация для пустых камер"
-              variant="accent"
-            />
-            <StatCard
-              value="24"
-              label="часа"
-              description="Время обработки пустых камер"
-              variant="primary"
-            />
-            <StatCard
-              value="0"
-              label="Отепления"
-              description="Обработка при низких температурах"
-              variant="accent"
-            />
+            <StatCard value="35-40" label="мг/м³" description="Концентрация для пустых камер" variant="accent" />
+            <StatCard value="24" label="часа" description="Время обработки пустых камер" variant="primary" />
+            <StatCard value="0" label="Отепления" description="Обработка при низких температурах" variant="accent" />
           </StatGrid>
         </div>
       </section>
@@ -95,36 +87,45 @@ export function ColdStoragePage() {
       {/* Main Content */}
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              Дезинфекция и дезодорация холодильников — одно из важнейших санитарно-гигиенических мероприятий, направленных на предупреждение порчи и снижения качества хранящихся пищевых продуктов. Озонирование имеет значительные преимущества перед «мокрым» способом дезинфекции.
+              Дезинфекция и дезодорация холодильников — одно из важнейших санитарно-гигиенических мероприятий,
+              направленных на предупреждение порчи и снижения качества хранящихся пищевых продуктов. Озонирование имеет
+              значительные преимущества перед «мокрым» способом дезинфекции.
             </Paragraph>
             <Paragraph>
-              Практика показала, что озонирование холодильных камер и складов позволяет продлить сроки хранения продукции, удалить неприятные запахи и предотвратить формирование плесневых колоний — всё это без отепления камеры и выгрузки продукции.
+              Практика показала, что озонирование холодильных камер и складов позволяет продлить сроки хранения
+              продукции, удалить неприятные запахи и предотвратить формирование плесневых колоний — всё это без
+              отепления камеры и выгрузки продукции.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>Инструкция Минторга СССР 1973 г.:</strong> «Дезинфекция и дезодорация в холодильниках способом озонирования» — рабочая концентрация озона для дезинфекции помещений, свободных от грузов: 35-40 мг/м³, продолжительность озонирования 24 часа.
+            <strong>Инструкция Минторга СССР 1973 г.:</strong> «Дезинфекция и дезодорация в холодильниках способом
+            озонирования» — рабочая концентрация озона для дезинфекции помещений, свободных от грузов: 35-40 мг/м³,
+            продолжительность озонирования 24 часа.
           </HighlightBox>
 
           <ArticleSection title="Преимущества озонирования холодильников">
-            <BulletList items={[
-              'Возможность дезинфекции камер, загруженных пищевыми продуктами',
-              'Обработка без отепления камеры — эффективность повышается при низких температурах',
-              'Сокращение времени простоя камеры в 5 раз по сравнению с «мокрой» дезинфекцией',
-              'Незаменимо для борьбы с затхлым запахом в холодильниках',
-              'Угнетение бактериальной флоры на стенах, решётках, крюках, поддонах',
-              'Предотвращение плесени на стенах хранилища, ящиках и упаковке',
-              'Экономия электроэнергии — не требуется повторная выработка холода',
-              'Минимальные затраты рабочей силы — автоматизированный процесс',
-            ]} />
+            <BulletList
+              items={[
+                'Возможность дезинфекции камер, загруженных пищевыми продуктами',
+                'Обработка без отепления камеры — эффективность повышается при низких температурах',
+                'Сокращение времени простоя камеры в 5 раз по сравнению с «мокрой» дезинфекцией',
+                'Незаменимо для борьбы с затхлым запахом в холодильниках',
+                'Угнетение бактериальной флоры на стенах, решётках, крюках, поддонах',
+                'Предотвращение плесени на стенах хранилища, ящиках и упаковке',
+                'Экономия электроэнергии — не требуется повторная выработка холода',
+                'Минимальные затраты рабочей силы — автоматизированный процесс',
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Озонирование камер, свободных от грузов">
             <Paragraph>
-              Свободные от грузов камеры перед озонированием очищают от снега, льда, остатков продуктов, видимых колоний плесени. Обязательно удаляют снеговую «шубу». Двери камеры плотно закрывают, сообщающиеся воздушные каналы перекрывают шиберами.
+              Свободные от грузов камеры перед озонированием очищают от снега, льда, остатков продуктов, видимых колоний
+              плесени. Обязательно удаляют снеговую «шубу». Двери камеры плотно закрывают, сообщающиеся воздушные каналы
+              перекрывают шиберами.
             </Paragraph>
 
             <DataTable
@@ -140,13 +141,15 @@ export function ColdStoragePage() {
             />
 
             <HighlightBox variant="warning">
-              Для камер, сильно заражённых плесенью, и камер с устойчивыми запахами продолжительность озонирования может быть увеличена до 36, а в отдельных случаях — до 48 часов.
+              Для камер, сильно заражённых плесенью, и камер с устойчивыми запахами продолжительность озонирования может
+              быть увеличена до 36, а в отдельных случаях — до 48 часов.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Озонирование камер с продукцией">
             <Paragraph>
-              На основании данных зарубежной практики и результатов применения озонирования на отдельных холодильниках рекомендуются следующие концентрации озона для камер, загруженных продуктами:
+              На основании данных зарубежной практики и результатов применения озонирования на отдельных холодильниках
+              рекомендуются следующие концентрации озона для камер, загруженных продуктами:
             </Paragraph>
 
             <DataTable
@@ -192,20 +195,26 @@ export function ColdStoragePage() {
 
           <ArticleSection title="Дезодорация холодильников">
             <Paragraph>
-              Озонирование незаменимо для борьбы с затхлым запахом, образующимся в холодильниках и морозильных камерах. При дезодорации камеры выдерживают после отключения озонатора в течение суток без проветривания — озон полностью распадается до кислорода.
+              Озонирование незаменимо для борьбы с затхлым запахом, образующимся в холодильниках и морозильных камерах.
+              При дезодорации камеры выдерживают после отключения озонатора в течение суток без проветривания — озон
+              полностью распадается до кислорода.
             </Paragraph>
             <Paragraph>
-              Озон окисляет и разрушает органические соединения, вызывающие неприятные запахи. Это позволяет использовать одну камеру для хранения разных видов продукции поочерёдно без риска переноса запахов.
+              Озон окисляет и разрушает органические соединения, вызывающие неприятные запахи. Это позволяет
+              использовать одну камеру для хранения разных видов продукции поочерёдно без риска переноса запахов.
             </Paragraph>
           </ArticleSection>
 
           <ArticleSection title="Организация процесса озонирования">
             <Paragraph>
-              В озонируемой камере озонатор устанавливают в середине камеры на столе высотой примерно 1,2 м. При двух-трёх озонаторах их размещают в разных точках камеры для равномерного распределения озона. Вентиляторы воздухоохладителей выключают.
+              В озонируемой камере озонатор устанавливают в середине камеры на столе высотой примерно 1,2 м. При
+              двух-трёх озонаторах их размещают в разных точках камеры для равномерного распределения озона. Вентиляторы
+              воздухоохладителей выключают.
             </Paragraph>
 
             <HighlightBox variant="success">
-              <strong>Рекомендация ВНИХИ:</strong> Для повышения эффективности озонирования после достижения рабочей концентрации рекомендуется кратковременно включить вентиляторы для перемешивания озоно-воздушной смеси.
+              <strong>Рекомендация ВНИХИ:</strong> Для повышения эффективности озонирования после достижения рабочей
+              концентрации рекомендуется кратковременно включить вентиляторы для перемешивания озоно-воздушной смеси.
             </HighlightBox>
           </ArticleSection>
 
@@ -233,7 +242,6 @@ export function ColdStoragePage() {
               />
             </FeatureGrid>
           </ArticleSection>
-
         </div>
       </article>
 

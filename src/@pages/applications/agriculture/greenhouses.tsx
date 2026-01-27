@@ -1,32 +1,37 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  DataTable,
   FeatureCard,
   FeatureGrid,
+  HighlightBox,
+  Paragraph,
   ProcessList,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function GreenhousesPage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
               Применение
             </AppLink>
             <span className="text-text-light">/</span>
-            <AppLink href="/applications/agriculture" className="text-text-secondary hover:text-primary transition-colors">
+            <AppLink
+              href="/applications/agriculture"
+              className="text-text-secondary hover:text-primary transition-colors"
+            >
               Сельское хозяйство
             </AppLink>
             <span className="text-text-light">/</span>
@@ -36,7 +41,7 @@ export function GreenhousesPage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1920&q=80"
@@ -46,22 +51,26 @@ export function GreenhousesPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/agriculture" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/agriculture"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>Сельское хозяйство</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
             Озонирование в теплицах и растениеводстве
           </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
-            Повышение урожайности на 13-35%, защита от болезней и вредителей без химических пестицидов. Экологически чистая технология для современного тепличного хозяйства.
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
+            Повышение урожайности на 13-35%, защита от болезней и вредителей без химических пестицидов. Экологически
+            чистая технология для современного тепличного хозяйства.
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
@@ -70,24 +79,14 @@ export function GreenhousesPage() {
               description="При поливе озонированной водой"
               variant="primary"
             />
-            <StatCard
-              value="90-98%"
-              label="Уничтожение нематоды"
-              description="В тепличных грунтах"
-              variant="accent"
-            />
+            <StatCard value="90-98%" label="Уничтожение нематоды" description="В тепличных грунтах" variant="accent" />
             <StatCard
               value="30-45%"
               label="Больше кислорода"
               description="Растворённого в воде для полива"
               variant="primary"
             />
-            <StatCard
-              value="до 30%"
-              label="Рост биомассы"
-              description="После обеззараживания почвы"
-              variant="accent"
-            />
+            <StatCard value="до 30%" label="Рост биомассы" description="После обеззараживания почвы" variant="accent" />
           </StatGrid>
         </div>
       </section>
@@ -95,34 +94,41 @@ export function GreenhousesPage() {
       {/* Main Content */}
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              В тепличном хозяйстве озон применяется комплексно: для обеззараживания воздуха, поверхностей растений, почвы и воды для полива. Это позволяет повысить урожайность и эффективно бороться с болезнями без применения химических препаратов.
+              В тепличном хозяйстве озон применяется комплексно: для обеззараживания воздуха, поверхностей растений,
+              почвы и воды для полива. Это позволяет повысить урожайность и эффективно бороться с болезнями без
+              применения химических препаратов.
             </Paragraph>
             <Paragraph>
-              Озон растворяется в воде в 15 раз лучше кислорода. Полив озонированной водой увеличивает урожайность на 13-35% благодаря улучшению качества почвы, увеличению корневой массы и снижению содержания корневых патогенов.
+              Озон растворяется в воде в 15 раз лучше кислорода. Полив озонированной водой увеличивает урожайность на
+              13-35% благодаря улучшению качества почвы, увеличению корневой массы и снижению содержания корневых
+              патогенов.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>Научный факт:</strong> Озон в 15 раз более растворим в воде, чем кислород. Это позволяет создавать высокообогащённые растворы для полива, которые насыщают почву кислородом и уничтожают патогены.
+            <strong>Научный факт:</strong> Озон в 15 раз более растворим в воде, чем кислород. Это позволяет создавать
+            высокообогащённые растворы для полива, которые насыщают почву кислородом и уничтожают патогены.
           </HighlightBox>
 
           <ArticleSection title="Направления применения озона в теплицах">
-            <BulletList items={[
-              'Полив озонированной водой — повышение урожайности и стимуляция роста',
-              'Обеззараживание тепличных грунтов — борьба с нематодой и патогенами',
-              'Озонирование воздуха — уничтожение грибков, бактерий, вирусов',
-              'Защита от насекомых-вредителей — экологичная альтернатива инсектицидам',
-              'Предпосевная обработка семян — повышение всхожести и энергии прорастания',
-              'Подготовка теплицы к сезону — полная дезинфекция помещения',
-            ]} />
+            <BulletList
+              items={[
+                'Полив озонированной водой — повышение урожайности и стимуляция роста',
+                'Обеззараживание тепличных грунтов — борьба с нематодой и патогенами',
+                'Озонирование воздуха — уничтожение грибков, бактерий, вирусов',
+                'Защита от насекомых-вредителей — экологичная альтернатива инсектицидам',
+                'Предпосевная обработка семян — повышение всхожести и энергии прорастания',
+                'Подготовка теплицы к сезону — полная дезинфекция помещения',
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Полив озонированной водой">
             <Paragraph>
-              Полив растений водой, обогащённой озоном, — одна из наиболее эффективных технологий повышения урожайности. Озон быстро разлагается до кислорода, насыщая корневую зону и стимулируя развитие растений.
+              Полив растений водой, обогащённой озоном, — одна из наиболее эффективных технологий повышения урожайности.
+              Озон быстро разлагается до кислорода, насыщая корневую зону и стимулируя развитие растений.
             </Paragraph>
 
             <DataTable
@@ -138,13 +144,16 @@ export function GreenhousesPage() {
             />
 
             <HighlightBox variant="success">
-              Исследования показывают, что регулярный полив озонированной водой увеличивает корневую массу растений на 15-25%, что обеспечивает лучшее усвоение питательных веществ и устойчивость к стрессам.
+              Исследования показывают, что регулярный полив озонированной водой увеличивает корневую массу растений на
+              15-25%, что обеспечивает лучшее усвоение питательных веществ и устойчивость к стрессам.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Обеззараживание тепличных грунтов">
             <Paragraph>
-              Галловая нематода — один из главных врагов тепличных культур. Химические методы борьбы малоэффективны и загрязняют почву. Озонирование грунта концентрированным раствором озона эффективно подавляет нематоду и стимулирует развитие растений.
+              Галловая нематода — один из главных врагов тепличных культур. Химические методы борьбы малоэффективны и
+              загрязняют почву. Озонирование грунта концентрированным раствором озона эффективно подавляет нематоду и
+              стимулирует развитие растений.
             </Paragraph>
 
             <DataTable
@@ -159,18 +168,33 @@ export function GreenhousesPage() {
               ]}
             />
 
-            <ProcessList steps={[
-              { title: 'Подготовка грунта', description: 'Рыхление почвы для обеспечения проникновения озона. Удаление растительных остатков.' },
-              { title: 'Насыщение воды озоном', description: 'Приготовление озонированной воды с концентрацией 3-5 мг/л в специальном реакторе.' },
-              { title: 'Пролив грунта', description: 'Равномерное внесение озонированной воды из расчёта 10-15 л/м² площади теплицы.' },
-              { title: 'Выдержка', description: 'Время экспозиции 30-60 минут для полного уничтожения патогенов.' },
-              { title: 'Посадка растений', description: 'Высадка рассады возможна через 24-48 часов после обработки.' },
-            ]} />
+            <ProcessList
+              steps={[
+                {
+                  title: 'Подготовка грунта',
+                  description: 'Рыхление почвы для обеспечения проникновения озона. Удаление растительных остатков.',
+                },
+                {
+                  title: 'Насыщение воды озоном',
+                  description: 'Приготовление озонированной воды с концентрацией 3-5 мг/л в специальном реакторе.',
+                },
+                {
+                  title: 'Пролив грунта',
+                  description: 'Равномерное внесение озонированной воды из расчёта 10-15 л/м² площади теплицы.',
+                },
+                { title: 'Выдержка', description: 'Время экспозиции 30-60 минут для полного уничтожения патогенов.' },
+                {
+                  title: 'Посадка растений',
+                  description: 'Высадка рассады возможна через 24-48 часов после обработки.',
+                },
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Озонирование воздуха в теплицах">
             <Paragraph>
-              Озонирование воздуха в теплицах уничтожает грибки, бактерии, дрожжи, вирусы и насекомых-вредителей. Высокие концентрации применяются для подготовки теплицы к высадке рассады в отсутствие людей и растений.
+              Озонирование воздуха в теплицах уничтожает грибки, бактерии, дрожжи, вирусы и насекомых-вредителей.
+              Высокие концентрации применяются для подготовки теплицы к высадке рассады в отсутствие людей и растений.
             </Paragraph>
 
             <DataTable
@@ -185,13 +209,16 @@ export function GreenhousesPage() {
             />
 
             <HighlightBox variant="warning">
-              <strong>Важно:</strong> При обработке теплицы высокими концентрациями озона (более 1 мг/м³) необходимо удалить персонал и обеспечить герметизацию помещения. После обработки требуется проветривание в течение 30-60 минут.
+              <strong>Важно:</strong> При обработке теплицы высокими концентрациями озона (более 1 мг/м³) необходимо
+              удалить персонал и обеспечить герметизацию помещения. После обработки требуется проветривание в течение
+              30-60 минут.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Предпосевная обработка семян">
             <Paragraph>
-              Обработка семян озоном повышает всхожесть, энергию прорастания и устойчивость молодых растений к заболеваниям. Технология позволяет отказаться от химических протравителей.
+              Обработка семян озоном повышает всхожесть, энергию прорастания и устойчивость молодых растений к
+              заболеваниям. Технология позволяет отказаться от химических протравителей.
             </Paragraph>
 
             <DataTable
@@ -240,7 +267,6 @@ export function GreenhousesPage() {
               />
             </FeatureGrid>
           </ArticleSection>
-
         </div>
       </article>
 
@@ -248,12 +274,18 @@ export function GreenhousesPage() {
       <section className="cta">
         <div className="container">
           <h2 className="cta__title">Внедрить озонирование в вашей теплице?</h2>
-          <p className="cta__text">Получите бесплатную консультацию и расчёт оборудования для вашего тепличного хозяйства</p>
+          <p className="cta__text">
+            Получите бесплатную консультацию и расчёт оборудования для вашего тепличного хозяйства
+          </p>
           <div className="cta__actions">
             <AppLink href="/contacts" className="btn btn--white btn--large">
               Получить консультацию
             </AppLink>
-            <a href="tel:+78001234567" className="btn btn--secondary btn--large" style={{ borderColor: 'white', color: 'white' }}>
+            <a
+              href="tel:+78001234567"
+              className="btn btn--secondary btn--large"
+              style={{ borderColor: 'white', color: 'white' }}
+            >
               Позвонить: 8 (800) 123-45-67
             </a>
           </div>

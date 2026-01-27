@@ -1,32 +1,37 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  DataTable,
   FeatureCard,
   FeatureGrid,
+  HighlightBox,
+  Paragraph,
   ProcessList,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function GrainStoragePage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
               Применение
             </AppLink>
             <span className="text-text-light">/</span>
-            <AppLink href="/applications/agriculture" className="text-text-secondary hover:text-primary transition-colors">
+            <AppLink
+              href="/applications/agriculture"
+              className="text-text-secondary hover:text-primary transition-colors"
+            >
               Сельское хозяйство
             </AppLink>
             <span className="text-text-light">/</span>
@@ -36,7 +41,7 @@ export function GrainStoragePage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=1920&q=80"
@@ -46,22 +51,26 @@ export function GrainStoragePage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/agriculture" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/agriculture"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>Сельское хозяйство</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
             Озонирование при хранении зерна
           </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
-            Защита от вредителей и микроорганизмов без химикатов. Уничтожение насекомых на 95-99%, снижение потерь при хранении на 40-60%.
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
+            Защита от вредителей и микроорганизмов без химикатов. Уничтожение насекомых на 95-99%, снижение потерь при
+            хранении на 40-60%.
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
@@ -82,12 +91,7 @@ export function GrainStoragePage() {
               description="При предпосевной обработке"
               variant="primary"
             />
-            <StatCard
-              value="40-60%"
-              label="Снижение потерь"
-              description="При хранении зерна"
-              variant="accent"
-            />
+            <StatCard value="40-60%" label="Снижение потерь" description="При хранении зерна" variant="accent" />
           </StatGrid>
         </div>
       </section>
@@ -95,34 +99,41 @@ export function GrainStoragePage() {
       {/* Main Content */}
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              Хранение зерна — ответственный процесс, где потери от вредителей и микроорганизмов могут составлять от 5 до 50% мирового производства. Традиционная фумигация химическими препаратами создаёт риски для здоровья и окружающей среды.
+              Хранение зерна — ответственный процесс, где потери от вредителей и микроорганизмов могут составлять от 5
+              до 50% мирового производства. Традиционная фумигация химическими препаратами создаёт риски для здоровья и
+              окружающей среды.
             </Paragraph>
             <Paragraph>
-              Озонирование семян и зерна позволяет эффективно бороться с вредителями и предотвращать распространение плесени, полностью сохраняя органолептические и питательные свойства продукции. Это экологически безопасная альтернатива химической фумигации.
+              Озонирование семян и зерна позволяет эффективно бороться с вредителями и предотвращать распространение
+              плесени, полностью сохраняя органолептические и питательные свойства продукции. Это экологически
+              безопасная альтернатива химической фумигации.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>Мировой опыт:</strong> Озонирование зерна применяется в США, Канаде, Австралии и странах ЕС как экологически безопасная альтернатива фосфину и бромистому метилу, запрещённому Монреальским протоколом.
+            <strong>Мировой опыт:</strong> Озонирование зерна применяется в США, Канаде, Австралии и странах ЕС как
+            экологически безопасная альтернатива фосфину и бромистому метилу, запрещённому Монреальским протоколом.
           </HighlightBox>
 
           <ArticleSection title="Направления применения озона">
-            <BulletList items={[
-              'Дезинсекция зерна — уничтожение амбарных вредителей',
-              'Дезинфекция — снижение микробной и грибковой обсеменённости',
-              'Детоксикация — разрушение микотоксинов',
-              'Предпосевная обработка семян — повышение всхожести',
-              'Обеззараживание зернохранилищ — подготовка к загрузке',
-              'Консервация зерна — продление сроков хранения',
-            ]} />
+            <BulletList
+              items={[
+                'Дезинсекция зерна — уничтожение амбарных вредителей',
+                'Дезинфекция — снижение микробной и грибковой обсеменённости',
+                'Детоксикация — разрушение микотоксинов',
+                'Предпосевная обработка семян — повышение всхожести',
+                'Обеззараживание зернохранилищ — подготовка к загрузке',
+                'Консервация зерна — продление сроков хранения',
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Уничтожение амбарных вредителей">
             <Paragraph>
-              Озон поражает насекомых и клещей на всех стадиях развития: яйца, личинки, куколки и имаго. Механизм действия основан на окислении липидов кутикулы и разрушении дыхательной системы насекомых.
+              Озон поражает насекомых и клещей на всех стадиях развития: яйца, личинки, куколки и имаго. Механизм
+              действия основан на окислении липидов кутикулы и разрушении дыхательной системы насекомых.
             </Paragraph>
 
             <DataTable
@@ -140,13 +151,15 @@ export function GrainStoragePage() {
             />
 
             <HighlightBox variant="success">
-              В отличие от химической фумигации, озонирование не оставляет остаточных веществ в зерне. После обработки озон быстро разлагается до кислорода, и продукция полностью безопасна для употребления.
+              В отличие от химической фумигации, озонирование не оставляет остаточных веществ в зерне. После обработки
+              озон быстро разлагается до кислорода, и продукция полностью безопасна для употребления.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Обеззараживание и снижение микотоксинов">
             <Paragraph>
-              Плесневые грибки на зерне продуцируют опасные микотоксины: афлатоксины, зеараленон, дезоксиниваленол (DON). Озонирование уничтожает грибки и частично разрушает уже образовавшиеся токсины.
+              Плесневые грибки на зерне продуцируют опасные микотоксины: афлатоксины, зеараленон, дезоксиниваленол
+              (DON). Озонирование уничтожает грибки и частично разрушает уже образовавшиеся токсины.
             </Paragraph>
 
             <DataTable
@@ -165,7 +178,8 @@ export function GrainStoragePage() {
 
           <ArticleSection title="Режимы озонирования зерна">
             <Paragraph>
-              Выбор режима зависит от целей обработки: профилактика, дезинсекция или обеззараживание. Важно учитывать влажность зерна, температуру и герметичность хранилища.
+              Выбор режима зависит от целей обработки: профилактика, дезинсекция или обеззараживание. Важно учитывать
+              влажность зерна, температуру и герметичность хранилища.
             </Paragraph>
 
             <DataTable
@@ -181,13 +195,15 @@ export function GrainStoragePage() {
             />
 
             <HighlightBox variant="warning">
-              <strong>Важно:</strong> При обработке зерна с влажностью выше 14% эффективность озонирования снижается. Рекомендуется предварительная сушка или увеличение дозы озона на 20-30%.
+              <strong>Важно:</strong> При обработке зерна с влажностью выше 14% эффективность озонирования снижается.
+              Рекомендуется предварительная сушка или увеличение дозы озона на 20-30%.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Предпосевная обработка семян">
             <Paragraph>
-              Обработка семян озоном повышает всхожесть, энергию прорастания и устойчивость всходов к неблагоприятным условиям. Исследования подтверждают значительный прирост урожайности.
+              Обработка семян озоном повышает всхожесть, энергию прорастания и устойчивость всходов к неблагоприятным
+              условиям. Исследования подтверждают значительный прирост урожайности.
             </Paragraph>
 
             <DataTable
@@ -205,14 +221,34 @@ export function GrainStoragePage() {
           </ArticleSection>
 
           <ArticleSection title="Технология озонирования зернохранилищ">
-            <ProcessList steps={[
-              { title: 'Подготовка хранилища', description: 'Очистка от остатков зерна и пыли. Проверка герметичности ворот, люков и швов.' },
-              { title: 'Установка оборудования', description: 'Размещение озонатора и системы распределения озона. Подключение к электросети.' },
-              { title: 'Герметизация', description: 'Закрытие всех отверстий, установка предупреждающих знаков о проведении обработки.' },
-              { title: 'Подача озона', description: 'Запуск озонатора, контроль концентрации датчиками. Время обработки 2-6 часов.' },
-              { title: 'Выдержка', description: 'После достижения целевой концентрации выдержка 30-60 минут без подачи озона.' },
-              { title: 'Дегазация', description: 'Включение вентиляции для удаления остаточного озона. Контроль ПДК (0,1 мг/м³).' },
-            ]} />
+            <ProcessList
+              steps={[
+                {
+                  title: 'Подготовка хранилища',
+                  description: 'Очистка от остатков зерна и пыли. Проверка герметичности ворот, люков и швов.',
+                },
+                {
+                  title: 'Установка оборудования',
+                  description: 'Размещение озонатора и системы распределения озона. Подключение к электросети.',
+                },
+                {
+                  title: 'Герметизация',
+                  description: 'Закрытие всех отверстий, установка предупреждающих знаков о проведении обработки.',
+                },
+                {
+                  title: 'Подача озона',
+                  description: 'Запуск озонатора, контроль концентрации датчиками. Время обработки 2-6 часов.',
+                },
+                {
+                  title: 'Выдержка',
+                  description: 'После достижения целевой концентрации выдержка 30-60 минут без подачи озона.',
+                },
+                {
+                  title: 'Дегазация',
+                  description: 'Включение вентиляции для удаления остаточного озона. Контроль ПДК (0,1 мг/м³).',
+                },
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Сравнение с химической фумигацией">
@@ -265,7 +301,6 @@ export function GrainStoragePage() {
               />
             </FeatureGrid>
           </ArticleSection>
-
         </div>
       </article>
 
@@ -278,7 +313,11 @@ export function GrainStoragePage() {
             <AppLink href="/contacts" className="btn btn--white btn--large">
               Получить консультацию
             </AppLink>
-            <a href="tel:+78001234567" className="btn btn--secondary btn--large" style={{ borderColor: 'white', color: 'white' }}>
+            <a
+              href="tel:+78001234567"
+              className="btn btn--secondary btn--large"
+              style={{ borderColor: 'white', color: 'white' }}
+            >
               Позвонить: 8 (800) 123-45-67
             </a>
           </div>

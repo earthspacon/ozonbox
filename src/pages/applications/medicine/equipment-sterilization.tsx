@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { EquipmentSterilizationPage } from '@/@pages/applications/medicine/equipment-sterilization'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

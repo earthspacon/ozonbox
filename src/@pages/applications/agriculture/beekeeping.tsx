@@ -1,32 +1,37 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  DataTable,
   FeatureCard,
   FeatureGrid,
+  HighlightBox,
+  Paragraph,
   ProcessList,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function BeekeepingPage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
               Применение
             </AppLink>
             <span className="text-text-light">/</span>
-            <AppLink href="/applications/agriculture" className="text-text-secondary hover:text-primary transition-colors">
+            <AppLink
+              href="/applications/agriculture"
+              className="text-text-secondary hover:text-primary transition-colors"
+            >
               Сельское хозяйство
             </AppLink>
             <span className="text-text-light">/</span>
@@ -36,7 +41,7 @@ export function BeekeepingPage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1920&q=80"
@@ -46,30 +51,27 @@ export function BeekeepingPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/agriculture" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/agriculture"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>Сельское хозяйство</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Озонирование в пчеловодстве
-          </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
-            Дезинфекция ульев и сот, борьба с болезнями пчёл. Увеличение медосбора на 25 кг за сезон и повышение продуктивности семей на 39%.
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">Озонирование в пчеловодстве</h1>
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
+            Дезинфекция ульев и сот, борьба с болезнями пчёл. Увеличение медосбора на 25 кг за сезон и повышение
+            продуктивности семей на 39%.
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
-            <StatCard
-              value="+25 кг"
-              label="Медосбор"
-              description="Прибавка за сезон на семью"
-              variant="primary"
-            />
+            <StatCard value="+25 кг" label="Медосбор" description="Прибавка за сезон на семью" variant="primary" />
             <StatCard
               value="39%"
               label="Рост продуктивности"
@@ -82,12 +84,7 @@ export function BeekeepingPage() {
               description="Уничтожение спор Ascosphaera apis"
               variant="primary"
             />
-            <StatCard
-              value="0"
-              label="Химикатов"
-              description="Экологически чистый мёд"
-              variant="accent"
-            />
+            <StatCard value="0" label="Химикатов" description="Экологически чистый мёд" variant="accent" />
           </StatGrid>
         </div>
       </section>
@@ -95,35 +92,43 @@ export function BeekeepingPage() {
       {/* Main Content */}
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              Озонирование в пчеловодстве применяется для дезинфекции ульев, рамок и сот от возбудителей болезней пчёл. Обработка невысокими концентрациями озона оказывает благоприятное воздействие на жизнедеятельность пчелиных семейств.
+              Озонирование в пчеловодстве применяется для дезинфекции ульев, рамок и сот от возбудителей болезней пчёл.
+              Обработка невысокими концентрациями озона оказывает благоприятное воздействие на жизнедеятельность
+              пчелиных семейств.
             </Paragraph>
             <Paragraph>
-              Регулярное озонирование снижает концентрацию болезнетворных микроорганизмов, уменьшает влажность внутриульевого воздуха и улучшает газовый состав. В результате опытные семьи показали увеличение производства товарного мёда на 25 кг за сезон по сравнению с контрольной группой.
+              Регулярное озонирование снижает концентрацию болезнетворных микроорганизмов, уменьшает влажность
+              внутриульевого воздуха и улучшает газовый состав. В результате опытные семьи показали увеличение
+              производства товарного мёда на 25 кг за сезон по сравнению с контрольной группой.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>Научные исследования:</strong> Опыты, проведённые в НИИ пчеловодства, подтвердили повышение продуктивности пчелиных семей на 39% при регулярном озонировании ульев в весенне-летний период.
+            <strong>Научные исследования:</strong> Опыты, проведённые в НИИ пчеловодства, подтвердили повышение
+            продуктивности пчелиных семей на 39% при регулярном озонировании ульев в весенне-летний период.
           </HighlightBox>
 
           <ArticleSection title="Направления применения озона в пчеловодстве">
-            <BulletList items={[
-              'Дезинфекция сот от возбудителей аскосфероза (известкового расплода)',
-              'Обработка ульев и рамок от гнильцовых заболеваний',
-              'Борьба с варроатозом в комплексной терапии',
-              'Улучшение микроклимата в ульях',
-              'Дезинфекция пчеловодного инвентаря',
-              'Профилактика нозематоза и других инфекций',
-              'Обработка зимовников и омшаников',
-            ]} />
+            <BulletList
+              items={[
+                'Дезинфекция сот от возбудителей аскосфероза (известкового расплода)',
+                'Обработка ульев и рамок от гнильцовых заболеваний',
+                'Борьба с варроатозом в комплексной терапии',
+                'Улучшение микроклимата в ульях',
+                'Дезинфекция пчеловодного инвентаря',
+                'Профилактика нозематоза и других инфекций',
+                'Обработка зимовников и омшаников',
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Борьба с аскосферозом">
             <Paragraph>
-              Аскосфероз (известковый расплод) — одно из наиболее распространённых грибковых заболеваний пчёл, вызываемое Ascosphaera apis. Споры гриба устойчивы к традиционным методам дезинфекции, но уничтожаются озоном.
+              Аскосфероз (известковый расплод) — одно из наиболее распространённых грибковых заболеваний пчёл,
+              вызываемое Ascosphaera apis. Споры гриба устойчивы к традиционным методам дезинфекции, но уничтожаются
+              озоном.
             </Paragraph>
 
             <DataTable
@@ -138,13 +143,15 @@ export function BeekeepingPage() {
             />
 
             <HighlightBox variant="success">
-              Озон эффективно воздействует на споры грибка Ascosphaera apis. Степень обеззараживания достигает 50-77% в зависимости от материала обрабатываемой поверхности и концентрации озона.
+              Озон эффективно воздействует на споры грибка Ascosphaera apis. Степень обеззараживания достигает 50-77% в
+              зависимости от материала обрабатываемой поверхности и концентрации озона.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Эффективность против различных патогенов">
             <Paragraph>
-              Озон эффективен против широкого спектра возбудителей болезней пчёл — бактерий, грибков и вирусов. Это позволяет использовать единую технологию для комплексной защиты пасеки.
+              Озон эффективен против широкого спектра возбудителей болезней пчёл — бактерий, грибков и вирусов. Это
+              позволяет использовать единую технологию для комплексной защиты пасеки.
             </Paragraph>
 
             <DataTable
@@ -162,23 +169,45 @@ export function BeekeepingPage() {
           </ArticleSection>
 
           <ArticleSection title="Технология озонирования ульев">
-            <ProcessList steps={[
-              { title: 'Подготовка улья', description: 'Удаление пчёл или планирование обработки в отсутствие семьи. Закрытие летков.' },
-              { title: 'Подключение озонатора', description: 'Установка шланга подачи озона через верхний леток или специальное отверстие в крышке.' },
-              { title: 'Обработка озоном', description: 'Подача озона с заданной концентрацией в течение 30-90 минут в зависимости от цели.' },
-              { title: 'Выдержка', description: 'После прекращения подачи озона выдержка 15-30 минут при закрытых летках.' },
-              { title: 'Проветривание', description: 'Открытие летков для выхода остаточного озона. Время — 15-30 минут.' },
-              { title: 'Возврат пчёл', description: 'Заселение обработанного улья пчелиной семьёй через 1-2 часа после обработки.' },
-            ]} />
+            <ProcessList
+              steps={[
+                {
+                  title: 'Подготовка улья',
+                  description: 'Удаление пчёл или планирование обработки в отсутствие семьи. Закрытие летков.',
+                },
+                {
+                  title: 'Подключение озонатора',
+                  description: 'Установка шланга подачи озона через верхний леток или специальное отверстие в крышке.',
+                },
+                {
+                  title: 'Обработка озоном',
+                  description: 'Подача озона с заданной концентрацией в течение 30-90 минут в зависимости от цели.',
+                },
+                {
+                  title: 'Выдержка',
+                  description: 'После прекращения подачи озона выдержка 15-30 минут при закрытых летках.',
+                },
+                {
+                  title: 'Проветривание',
+                  description: 'Открытие летков для выхода остаточного озона. Время — 15-30 минут.',
+                },
+                {
+                  title: 'Возврат пчёл',
+                  description: 'Заселение обработанного улья пчелиной семьёй через 1-2 часа после обработки.',
+                },
+              ]}
+            />
 
             <HighlightBox variant="warning">
-              <strong>Важно:</strong> Обработку высокими концентрациями озона (более 200 мг/м³) следует проводить в отсутствие пчёл. Для стимулирующей обработки пчёл концентрация не должна превышать 10-15 мг/м³.
+              <strong>Важно:</strong> Обработку высокими концентрациями озона (более 200 мг/м³) следует проводить в
+              отсутствие пчёл. Для стимулирующей обработки пчёл концентрация не должна превышать 10-15 мг/м³.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Стимулирующее действие озона">
             <Paragraph>
-              Обработка ульев невысокими концентрациями озона (5-15 мг/м³) в присутствии пчёл оказывает стимулирующее действие: повышает активность семей, улучшает яйценоскость маток и ускоряет весеннее развитие.
+              Обработка ульев невысокими концентрациями озона (5-15 мг/м³) в присутствии пчёл оказывает стимулирующее
+              действие: повышает активность семей, улучшает яйценоскость маток и ускоряет весеннее развитие.
             </Paragraph>
 
             <DataTable
@@ -197,7 +226,8 @@ export function BeekeepingPage() {
 
           <ArticleSection title="Обработка сот и инвентаря">
             <Paragraph>
-              Соты и пчеловодный инвентарь могут быть источником инфекции для здоровых семей. Регулярная дезинфекция озоном предотвращает распространение болезней на пасеке.
+              Соты и пчеловодный инвентарь могут быть источником инфекции для здоровых семей. Регулярная дезинфекция
+              озоном предотвращает распространение болезней на пасеке.
             </Paragraph>
 
             <DataTable
@@ -263,7 +293,6 @@ export function BeekeepingPage() {
               />
             </FeatureGrid>
           </ArticleSection>
-
         </div>
       </article>
 
@@ -271,12 +300,18 @@ export function BeekeepingPage() {
       <section className="cta">
         <div className="container">
           <h2 className="cta__title">Внедрить озонирование на вашей пасеке?</h2>
-          <p className="cta__text">Получите бесплатную консультацию и расчёт оборудования для вашего пчеловодческого хозяйства</p>
+          <p className="cta__text">
+            Получите бесплатную консультацию и расчёт оборудования для вашего пчеловодческого хозяйства
+          </p>
           <div className="cta__actions">
             <AppLink href="/contacts" className="btn btn--white btn--large">
               Получить консультацию
             </AppLink>
-            <a href="tel:+78001234567" className="btn btn--secondary btn--large" style={{ borderColor: 'white', color: 'white' }}>
+            <a
+              href="tel:+78001234567"
+              className="btn btn--secondary btn--large"
+              style={{ borderColor: 'white', color: 'white' }}
+            >
               Позвонить: 8 (800) 123-45-67
             </a>
           </div>

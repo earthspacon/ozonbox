@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { GrainStoragePage } from '@/@pages/applications/agriculture/grain-storage'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

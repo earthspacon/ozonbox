@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { TobaccoHookahPage } from '@/@pages/applications/horeca/tobacco-hookah'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

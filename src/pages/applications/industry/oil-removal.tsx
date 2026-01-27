@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { OilRemovalPage } from '@/@pages/applications/industry/oil-removal'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

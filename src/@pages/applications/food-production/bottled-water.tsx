@@ -1,32 +1,37 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  ComparisonTable,
+  DataTable,
   FeatureCard,
   FeatureGrid,
-  ComparisonTable,
+  HighlightBox,
+  Paragraph,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function BottledWaterPage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
               Применение
             </AppLink>
             <span className="text-text-light">/</span>
-            <AppLink href="/applications/food-production" className="text-text-secondary hover:text-primary transition-colors">
+            <AppLink
+              href="/applications/food-production"
+              className="text-text-secondary hover:text-primary transition-colors"
+            >
               Пищевое производство
             </AppLink>
             <span className="text-text-light">/</span>
@@ -36,7 +41,7 @@ export function BottledWaterPage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=1920&q=80"
@@ -46,22 +51,26 @@ export function BottledWaterPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/food-production" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/food-production"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>Пищевое производство</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
             Озонирование при розливе бутилированной воды
           </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
-            Финишное озонирование — стандарт отрасли для стерилизации питьевой воды, тары и оборудования. Соответствие СанПиН без применения хлора.
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
+            Финишное озонирование — стандарт отрасли для стерилизации питьевой воды, тары и оборудования. Соответствие
+            СанПиН без применения хлора.
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
@@ -82,12 +91,7 @@ export function BottledWaterPage() {
               description="Рекомендуемая доза озонатора на объём воды"
               variant="primary"
             />
-            <StatCard
-              value="9"
-              label="мг/л кислорода"
-              description="Насыщение воды высшей категории"
-              variant="accent"
-            />
+            <StatCard value="9" label="мг/л кислорода" description="Насыщение воды высшей категории" variant="accent" />
           </StatGrid>
         </div>
       </section>
@@ -95,29 +99,36 @@ export function BottledWaterPage() {
       {/* Main Content */}
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              Производители питьевой воды часто сталкиваются с ситуацией, когда добытая из проверенной скважины и прошедшая все степени очистки вода портится уже на полках магазинов. Причина — вторичное загрязнение непосредственно на линии розлива при контакте с воздухом, оборудованием и нестерильной тарой.
+              Производители питьевой воды часто сталкиваются с ситуацией, когда добытая из проверенной скважины и
+              прошедшая все степени очистки вода портится уже на полках магазинов. Причина — вторичное загрязнение
+              непосредственно на линии розлива при контакте с воздухом, оборудованием и нестерильной тарой.
             </Paragraph>
             <Paragraph>
-              Финишное озонирование решает эту проблему комплексно: озон не только обеззараживает воду, но и дезинфицирует оборудование для розлива и стерилизует тару. После закупорки бутылок озон в течение нескольких часов разлагается до кислорода, не оставляя следов и улучшая вкусовые качества воды.
+              Финишное озонирование решает эту проблему комплексно: озон не только обеззараживает воду, но и
+              дезинфицирует оборудование для розлива и стерилизует тару. После закупорки бутылок озон в течение
+              нескольких часов разлагается до кислорода, не оставляя следов и улучшая вкусовые качества воды.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>СанПиН 2.1.4.1116-02:</strong> «Не допускается применение препаратов хлора для обработки питьевых вод, предназначенных для розлива, предпочтительными методами обеззараживания являются озонирование и физические методы обработки, в частности, УФ-облучение.»
+            <strong>СанПиН 2.1.4.1116-02:</strong> «Не допускается применение препаратов хлора для обработки питьевых
+            вод, предназначенных для розлива, предпочтительными методами обеззараживания являются озонирование и
+            физические методы обработки, в частности, УФ-облучение.»
           </HighlightBox>
 
           <ArticleSection title="Преимущества финишного озонирования">
-            <BulletList items={[
-              'Стерилизация воды, бутылки, воздуха внутри тары и пробки одновременно',
-              'Среда остаётся стерильной до момента вскрытия упаковки',
-              'Насыщение воды кислородом — обязательное требование для воды высшей категории',
-              'Полный распад озона до кислорода без химических остатков',
-              'Единственный допустимый метод консервации воды для детского питания',
-              'Отсутствие необходимости в дополнительной дезинфекции тары',
-            ]} />
+            <BulletList
+              items={[
+                'Стерилизация воды, бутылки, воздуха внутри тары и пробки одновременно',
+                'Среда остаётся стерильной до момента вскрытия упаковки',
+                'Насыщение воды кислородом — обязательное требование для воды высшей категории',
+                'Полный распад озона до кислорода без химических остатков',
+                'Единственный допустимый метод консервации воды для детского питания',
+                'Отсутствие необходимости в дополнительной дезинфекции тары',
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Нормативные требования">
@@ -134,13 +145,16 @@ export function BottledWaterPage() {
             />
 
             <HighlightBox variant="success">
-              Для воды детского питания озонирование — возможно, единственный вариант консервирования, поскольку использование ионов серебра и диоксида углерода запрещено СанПиН.
+              Для воды детского питания озонирование — возможно, единственный вариант консервирования, поскольку
+              использование ионов серебра и диоксида углерода запрещено СанПиН.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Принципиальная схема финишного озонирования">
             <Paragraph>
-              Установка озонирования размещается непосредственно перед машиной розлива. Система включает генератор кислорода, генератор озона, систему подачи и растворения озона в воде, а также анализатор содержания озона или ОВП-метр для контроля.
+              Установка озонирования размещается непосредственно перед машиной розлива. Система включает генератор
+              кислорода, генератор озона, систему подачи и растворения озона в воде, а также анализатор содержания озона
+              или ОВП-метр для контроля.
             </Paragraph>
 
             <DataTable
@@ -158,10 +172,14 @@ export function BottledWaterPage() {
 
           <ArticleSection title="Ограничения для минеральной воды">
             <Paragraph>
-              При озонировании минеральной воды недопустимо содержание примесей, окисляемых озоном: железа, марганца, сероводорода, бромида, природных органических веществ. Реакция озона с бромидом приводит к образованию бромата, норма содержания которого в питьевой воде — 10 мкг/л.
+              При озонировании минеральной воды недопустимо содержание примесей, окисляемых озоном: железа, марганца,
+              сероводорода, бромида, природных органических веществ. Реакция озона с бромидом приводит к образованию
+              бромата, норма содержания которого в питьевой воде — 10 мкг/л.
             </Paragraph>
             <Paragraph>
-              Растворённые металлы после взаимодействия с озоном переходят в нерастворимые оксиды, что приводит к появлению окраски и осадка в воде. Поэтому перед финишным озонированием вода должна быть предварительно очищена в соответствии с требованиями СанПиН.
+              Растворённые металлы после взаимодействия с озоном переходят в нерастворимые оксиды, что приводит к
+              появлению окраски и осадка в воде. Поэтому перед финишным озонированием вода должна быть предварительно
+              очищена в соответствии с требованиями СанПиН.
             </Paragraph>
           </ArticleSection>
 
@@ -202,7 +220,6 @@ export function BottledWaterPage() {
               />
             </FeatureGrid>
           </ArticleSection>
-
         </div>
       </article>
 

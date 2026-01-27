@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { MeatSausagesPage } from '@/@pages/applications/food-production/meat-sausages'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

@@ -11,6 +11,7 @@ interface BasePageProps {
 }
 
 // Using explicit any to allow pages with additional props beyond staticData and lang
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function withTolgee(PageComponent: React.ComponentType<any>) {
   return function Page(props: BasePageProps & Record<string, unknown>) {
     const lang = (props.lang || DEFAULT_LOCALE) as TLocale

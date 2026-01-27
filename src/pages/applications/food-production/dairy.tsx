@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { DairyPage } from '@/@pages/applications/food-production/dairy'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

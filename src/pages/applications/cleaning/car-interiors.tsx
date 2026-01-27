@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { CarInteriorsPage } from '@/@pages/applications/cleaning/car-interiors'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

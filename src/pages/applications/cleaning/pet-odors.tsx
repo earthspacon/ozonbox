@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { PetOdorsPage } from '@/@pages/applications/cleaning/pet-odors'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

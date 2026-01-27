@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { HospitalsPage } from '@/@pages/applications/medicine/hospitals'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

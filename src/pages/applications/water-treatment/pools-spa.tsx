@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { PoolsSpaPage } from '@/@pages/applications/water-treatment/pools-spa'
+
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
 
 function Page() {

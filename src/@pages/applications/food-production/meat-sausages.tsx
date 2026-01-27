@@ -1,32 +1,37 @@
 import Image from 'next/image'
+
 import { Layout } from '@/widgets'
+
 import { AppLink } from '@/shared/ui/app-link'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import {
-  StatCard,
-  StatGrid,
-  HighlightBox,
-  DataTable,
   ArticleSection,
-  Paragraph,
   BulletList,
+  ComparisonTable,
+  DataTable,
   FeatureCard,
   FeatureGrid,
-  ComparisonTable,
+  HighlightBox,
+  Paragraph,
+  StatCard,
+  StatGrid,
 } from '@/shared/ui/article-components'
+import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 
 export function MeatSausagesPage() {
   return (
     <Layout>
       {/* Breadcrumbs */}
-      <div className="bg-bg-light border-b border-border">
+      <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
               Применение
             </AppLink>
             <span className="text-text-light">/</span>
-            <AppLink href="/applications/food-production" className="text-text-secondary hover:text-primary transition-colors">
+            <AppLink
+              href="/applications/food-production"
+              className="text-text-secondary hover:text-primary transition-colors"
+            >
               Пищевое производство
             </AppLink>
             <span className="text-text-light">/</span>
@@ -36,7 +41,7 @@ export function MeatSausagesPage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
+      <section className="relative overflow-hidden py-16 md:py-24">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=1920&q=80"
@@ -46,22 +51,26 @@ export function MeatSausagesPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        <div className="container relative z-10">
-          <AppLink href="/applications/food-production" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+        <div className="relative z-10 container">
+          <AppLink
+            href="/applications/food-production"
+            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
+          >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
             <span>Пищевое производство</span>
           </AppLink>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
             Озонирование в мясном производстве
           </h1>
-          <p className="text-xl md:text-2xl text-white/80 max-w-3xl">
-            Хранение мясной продукции и созревание колбас. Увеличение срока хранения в 2-5 раз, подавление плесени и сохранение органолептических свойств.
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
+            Хранение мясной продукции и созревание колбас. Увеличение срока хранения в 2-5 раз, подавление плесени и
+            сохранение органолептических свойств.
           </p>
         </div>
       </section>
 
       {/* Key Stats */}
-      <section className="py-12 bg-bg-light">
+      <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
@@ -95,23 +104,30 @@ export function MeatSausagesPage() {
       {/* Main Content */}
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
-          
           <ArticleSection>
             <Paragraph>
-              В процессе созревания колбас и хранения мясной продукции активно развиваются бактерии, плесневые грибы и дрожжи. Это приводит к порче продукта, изменению вкуса, потере массы и сокращению срока хранения. Озонирование — эффективный, экологичный и безопасный метод дезинфекции.
+              В процессе созревания колбас и хранения мясной продукции активно развиваются бактерии, плесневые грибы и
+              дрожжи. Это приводит к порче продукта, изменению вкуса, потере массы и сокращению срока хранения.
+              Озонирование — эффективный, экологичный и безопасный метод дезинфекции.
             </Paragraph>
             <Paragraph>
-              Обеззараживающее действие озона в 15-20 раз, а на споровые формы бактерий примерно в 300-600 раз сильнее действия хлора. При этом озон полностью распадается до кислорода, не оставляя химических остатков на поверхности продукции.
+              Обеззараживающее действие озона в 15-20 раз, а на споровые формы бактерий примерно в 300-600 раз сильнее
+              действия хлора. При этом озон полностью распадается до кислорода, не оставляя химических остатков на
+              поверхности продукции.
             </Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>Инструкция Минторга СССР 1977 г.:</strong> Озонирование рекомендовано для приёмки, хранения и выпуска колбасных изделий и копчёностей. Метод позволяет проводить дезинфекцию камер вместе с загруженной продукцией.
+            <strong>Инструкция Минторга СССР 1977 г.:</strong> Озонирование рекомендовано для приёмки, хранения и
+            выпуска колбасных изделий и копчёностей. Метод позволяет проводить дезинфекцию камер вместе с загруженной
+            продукцией.
           </HighlightBox>
 
           <ArticleSection title="Хранение охлаждённого мяса">
             <Paragraph>
-              При хранении охлаждённого мяса озонирование при концентрации 8-10 мг/м³ обеспечивает полное уничтожение мезофильной и холодоустойчивой микрофлоры на поверхности туш при температуре 1-4°C. Срок хранения охлаждённого мяса увеличивается в 2-5 раз.
+              При хранении охлаждённого мяса озонирование при концентрации 8-10 мг/м³ обеспечивает полное уничтожение
+              мезофильной и холодоустойчивой микрофлоры на поверхности туш при температуре 1-4°C. Срок хранения
+              охлаждённого мяса увеличивается в 2-5 раз.
             </Paragraph>
 
             <DataTable
@@ -129,7 +145,9 @@ export function MeatSausagesPage() {
 
           <ArticleSection title="Камеры созревания колбас">
             <Paragraph>
-              В камерах созревания сырокопчёных и сыровяленых колбас озон подавляет развитие слизистых и плесневых налётов, предотвращает появление посторонних запахов. При умеренной концентрации озон не вызывает обесцвечивания оболочки и фарша.
+              В камерах созревания сырокопчёных и сыровяленых колбас озон подавляет развитие слизистых и плесневых
+              налётов, предотвращает появление посторонних запахов. При умеренной концентрации озон не вызывает
+              обесцвечивания оболочки и фарша.
             </Paragraph>
 
             <DataTable
@@ -144,19 +162,22 @@ export function MeatSausagesPage() {
             />
 
             <HighlightBox variant="success">
-              <strong>Рекомендуемый режим:</strong> Ежедневная обработка в течение 1-3 часов. В период обработки в камере не должно быть персонала. Производительность озонатора: 1 г/час на 20-25 м³ объёма помещения.
+              <strong>Рекомендуемый режим:</strong> Ежедневная обработка в течение 1-3 часов. В период обработки в
+              камере не должно быть персонала. Производительность озонатора: 1 г/час на 20-25 м³ объёма помещения.
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title="Преимущества озонирования">
-            <BulletList items={[
-              'Обеззараживание поверхности продукта — уничтожение бактерий, спор плесени и дрожжей',
-              'Сохранение органолептических свойств — не изменяет вкус и аромат, предотвращает горечь',
-              'Снижение потерь массы — уменьшает усушку за счёт стабилизации микрофлоры',
-              'Дезинфекция камеры вместе с продукцией — обработка возможна при полной загрузке',
-              'Экономия времени и средств — сокращение частоты ручной санитарной обработки',
-              'Автоматизация — обработка по таймеру без участия персонала',
-            ]} />
+            <BulletList
+              items={[
+                'Обеззараживание поверхности продукта — уничтожение бактерий, спор плесени и дрожжей',
+                'Сохранение органолептических свойств — не изменяет вкус и аромат, предотвращает горечь',
+                'Снижение потерь массы — уменьшает усушку за счёт стабилизации микрофлоры',
+                'Дезинфекция камеры вместе с продукцией — обработка возможна при полной загрузке',
+                'Экономия времени и средств — сокращение частоты ручной санитарной обработки',
+                'Автоматизация — обработка по таймеру без участия персонала',
+              ]}
+            />
           </ArticleSection>
 
           <ComparisonTable
@@ -174,14 +195,17 @@ export function MeatSausagesPage() {
 
           <ArticleSection title="Нормативная база">
             <Paragraph>
-              Применение озона для дезинфекции мясной продукции регламентировано рядом нормативных документов с советского периода:
+              Применение озона для дезинфекции мясной продукции регламентировано рядом нормативных документов с
+              советского периода:
             </Paragraph>
-            <BulletList items={[
-              '1973 г. — Инструкция «Дезинфекция и дезодорация в холодильниках способом озонирования» (Минторг СССР)',
-              '1977 г. — Инструкция по приёмке, хранению и выпуску колбасных изделий и копчёностей',
-              '1998 г. — Озон внесён в перечень дезинфектантов (рег. №0039-98/21, Минздрав РФ)',
-              'СанПиН 2.3.4.545-96 — Производство колбасных изделий',
-            ]} />
+            <BulletList
+              items={[
+                '1973 г. — Инструкция «Дезинфекция и дезодорация в холодильниках способом озонирования» (Минторг СССР)',
+                '1977 г. — Инструкция по приёмке, хранению и выпуску колбасных изделий и копчёностей',
+                '1998 г. — Озон внесён в перечень дезинфектантов (рег. №0039-98/21, Минздрав РФ)',
+                'СанПиН 2.3.4.545-96 — Производство колбасных изделий',
+              ]}
+            />
           </ArticleSection>
 
           <ArticleSection title="Преимущества для мясокомбинатов">
@@ -208,7 +232,6 @@ export function MeatSausagesPage() {
               />
             </FeatureGrid>
           </ArticleSection>
-
         </div>
       </article>
 

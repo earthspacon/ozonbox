@@ -6,7 +6,6 @@ import { Layout } from '@/widgets'
 import { getCategoryById } from '@/shared/config/applications-data'
 import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
 import { AppLink } from '@/shared/ui/app-link'
-import { IconCheck } from '@/shared/ui/icons'
 
 interface CategoryPageProps {
   categoryId: string
