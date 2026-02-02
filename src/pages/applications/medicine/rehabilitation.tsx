@@ -1,19 +1,15 @@
-import Head from 'next/head'
-
 import { RehabilitationPage } from '@/@pages/applications/medicine/rehabilitation'
 
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
+import { Seo } from '@/shared/ui/seo'
 
 function Page() {
   return (
     <>
-      <Head>
-        <title>Озонотерапия в реабилитационных центрах — OzonTech</title>
-        <meta
-          name="description"
-          content="Озонотерапия для реабилитации: озоновые ванны, SPA-процедуры, озонирование бассейнов. Комплексное решение для санаториев и реабилитационных центров."
-        />
-      </Head>
+      <Seo
+        title="Озонотерапия в реабилитационных центрах"
+        description="Озонотерапия для реабилитации: озоновые ванны, SPA-процедуры, озонирование бассейнов. Комплексное решение для санаториев и реабилитационных центров."
+      />
       <RehabilitationPage />
     </>
   )

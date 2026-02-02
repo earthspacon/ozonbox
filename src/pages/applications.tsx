@@ -1,20 +1,21 @@
 import { useTranslate } from '@tolgee/react'
-import Head from 'next/head'
 
 import { ApplicationsPage } from '@/@pages'
 
 import { NAMESPACES } from '@/shared/config/tolgee'
 import { createGetStaticPropsDefault, withTolgee } from '@/shared/lib'
+import { Seo } from '@/shared/ui/seo'
 
 function Page() {
   const { t } = useTranslate()
 
   return (
     <>
-      <Head>
-        <title>{t('pageTitle', { ns: NAMESPACES.applications })}</title>
-        <meta name="description" content={t('pageDescription', { ns: NAMESPACES.applications })} />
-      </Head>
+      <Seo
+        title={t('pageTitle', { ns: NAMESPACES.applications })}
+        description={t('pageDescription', { ns: NAMESPACES.applications })}
+        titleSuffix={false}
+      />
       <ApplicationsPage />
     </>
   )

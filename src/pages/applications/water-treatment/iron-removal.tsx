@@ -1,19 +1,15 @@
-import Head from 'next/head'
-
 import { IronRemovalPage } from '@/@pages/applications/water-treatment/iron-removal'
 
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
+import { Seo } from '@/shared/ui/seo'
 
 function Page() {
   return (
     <>
-      <Head>
-        <title>Обезжелезивание и деманганация воды озоном — OzonTech</title>
-        <meta
-          name="description"
-          content="Удаление железа и марганца из воды озонированием: эффективно при органических комплексах металлов. Работает при любом pH. Соответствие СанПиН."
-        />
-      </Head>
+      <Seo
+        title="Обезжелезивание и деманганация воды озоном"
+        description="Удаление железа и марганца из воды озонированием: эффективно при органических комплексах металлов. Работает при любом pH. Соответствие СанПиН."
+      />
       <IronRemovalPage />
     </>
   )

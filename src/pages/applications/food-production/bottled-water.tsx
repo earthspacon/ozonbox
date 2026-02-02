@@ -1,19 +1,15 @@
-import Head from 'next/head'
-
 import { BottledWaterPage } from '@/@pages/applications/food-production/bottled-water'
 
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
+import { Seo } from '@/shared/ui/seo'
 
 function Page() {
   return (
     <>
-      <Head>
-        <title>Озонирование при розливе бутилированной воды — OzonTech</title>
-        <meta
-          name="description"
-          content="Финишное озонирование питьевой воды — стандарт отрасли. Стерилизация воды, тары и оборудования. Соответствие СанПиН 2.1.4.1116-02 без применения хлора."
-        />
-      </Head>
+      <Seo
+        title="Озонирование при розливе бутилированной воды"
+        description="Финишное озонирование питьевой воды — стандарт отрасли. Стерилизация воды, тары и оборудования. Соответствие СанПиН 2.1.4.1116-02 без применения хлора."
+      />
       <BottledWaterPage />
     </>
   )

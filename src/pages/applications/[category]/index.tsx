@@ -1,12 +1,12 @@
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 import { GetStaticPaths, GetStaticProps } from 'next'
-import Head from 'next/head'
 
 import { CategoryPage } from '@/@pages/applications/category'
 
 import { getAllCategoryIds } from '@/shared/config/applications-data'
 import { DEFAULT_LOCALE, getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
 import { withTolgee } from '@/shared/lib'
+import { Seo } from '@/shared/ui/seo'
 
 interface PageProps {
   category: string
@@ -20,10 +20,7 @@ function Page({ category }: PageProps) {
 
   return (
     <>
-      <Head>
-        <title>{t('title', { ns })} — OzonTech</title>
-        <meta name="description" content={t('description', { ns })} />
-      </Head>
+      <Seo title={t('title', { ns })} description={t('description', { ns })} />
       <CategoryPage categoryId={category} />
     </>
   )

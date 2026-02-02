@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "OzonTech — Ozonation and disinfection for business",
+    "title": "OzonOxy — Ozonation and disinfection for business",
     "description": "Professional ozonation systems for poultry farming, food industry, HoReCa and medicine. 300 times more effective than chlorine. Free consultation."
   },
   "nav": {
@@ -21,8 +21,8 @@
     "home": "Home",
     "applicationsTitle": "Applications",
     "contactsTitle": "Contacts",
-    "copyright": "OzonTech. All rights reserved.",
-    "dev": "Website development — OzonTech"
+    "copyright": "OzonOxy. All rights reserved.",
+    "dev": "Website development — OzonOxy"
   },
   "cta": {
     "home": {
@@ -156,15 +156,15 @@
     }
   },
   "aboutPage": {
-    "pageTitle": "About — OzonTech",
-    "pageDescription": "About OzonTech — professional ozonation systems for business. Consultations, equipment selection, technical support.",
+    "pageTitle": "About — OzonOxy",
+    "pageDescription": "About OzonOxy — professional ozonation systems for business. Consultations, equipment selection, technical support.",
     "header": {
       "title": "About company",
       "subtitle": "Professional ozonation systems for your business"
     },
     "content": {
       "title": "We are",
-      "titleHighlight": "OzonTech",
+      "titleHighlight": "OzonOxy",
       "p1": "We are a team of specialists in ozone technologies. Our mission is to make disinfection safe, effective and accessible for businesses of any size.",
       "p2": "We believe the future belongs to eco-friendly technologies that do not harm the environment and human health. Ozonation is exactly such a technology.",
       "services": {

@@ -1,19 +1,15 @@
-import Head from 'next/head'
-
 import { ColdStoragePage } from '@/@pages/applications/food-production/cold-storage'
 
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
+import { Seo } from '@/shared/ui/seo'
 
 function Page() {
   return (
     <>
-      <Head>
-        <title>Озонирование холодильных камер — OzonTech</title>
-        <meta
-          name="description"
-          content="Дезинфекция и дезодорация холодильных складов озоном. Обработка загруженных камер без отепления. Сокращение простоя в 5 раз. Устранение затхлых запахов."
-        />
-      </Head>
+      <Seo
+        title="Озонирование холодильных камер"
+        description="Дезинфекция и дезодорация холодильных складов озоном. Обработка загруженных камер без отепления. Сокращение простоя в 5 раз. Устранение затхлых запахов."
+      />
       <ColdStoragePage />
     </>
   )

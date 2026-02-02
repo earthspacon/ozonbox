@@ -1,19 +1,15 @@
-import Head from 'next/head'
-
 import { MoldPreventionPage } from '@/@pages/applications/warehouses/mold-prevention'
 
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
+import { Seo } from '@/shared/ui/seo'
 
 function Page() {
   return (
     <>
-      <Head>
-        <title>Борьба с плесенью на складе — OzonTech</title>
-        <meta
-          name="description"
-          content="Озонирование складов для уничтожения плесени и грибка. Защита товаров и здоровья персонала. Уничтожение до 99% плесени без химикатов."
-        />
-      </Head>
+      <Seo
+        title="Борьба с плесенью на складе"
+        description="Озонирование складов для уничтожения плесени и грибка. Защита товаров и здоровья персонала. Уничтожение до 99% плесени без химикатов."
+      />
       <MoldPreventionPage />
     </>
   )

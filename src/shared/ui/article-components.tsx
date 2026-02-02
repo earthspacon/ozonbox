@@ -42,7 +42,7 @@ export function StatGrid({ children, columns = 3 }: StatGridProps) {
     4: 'md:grid-cols-2 lg:grid-cols-4',
   }
 
-  return <div className={`grid grid-cols-1 ${gridCols[columns]} my-8 gap-4 px-4 md:gap-6`}>{children}</div>
+  return <div className={`grid grid-cols-1 ${gridCols[columns]} my-8 gap-4 md:gap-6`}>{children}</div>
 }
 
 interface HighlightBoxProps {
@@ -76,7 +76,7 @@ interface DataTableProps {
 
 export function DataTable({ headers, rows, caption }: DataTableProps) {
   return (
-    <div className="my-8 overflow-x-auto p-4">
+    <div className="my-8 overflow-x-auto">
       <table className="w-full border-collapse overflow-hidden rounded-xl bg-white shadow-sm">
         {caption && <caption className="text-text-secondary mb-3 px-1 text-left text-sm">{caption}</caption>}
         <thead>
@@ -114,7 +114,7 @@ export function ComparisonTable({ title, headers, rows }: ComparisonTableProps) 
   const isFourColumns = headers.length === 4
 
   return (
-    <div className="my-8 p-4">
+    <div className="my-8">
       {title && <h3 className="mb-4 text-xl font-bold">{title}</h3>}
       <div className="overflow-x-auto">
         <table className="w-full border-collapse overflow-hidden rounded-xl bg-white shadow-sm">
@@ -162,7 +162,7 @@ interface SectionProps {
 
 export function ArticleSection({ title, children, className = '' }: SectionProps) {
   return (
-    <section className={`my-12 px-4 md:my-16 md:px-6 ${className}`}>
+    <section className={`my-12 md:my-16 ${className}`}>
       {title && <h2 className="text-text-primary mb-6 text-2xl font-bold md:text-3xl">{title}</h2>}
       {children}
     </section>
@@ -177,7 +177,7 @@ interface ProcessStepProps {
 
 export function ProcessStep({ number, title, description }: ProcessStepProps) {
   return (
-    <div className="flex items-start gap-4 p-4">
+    <div className="flex items-start gap-4">
       <div className="from-primary to-accent flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br text-lg font-bold text-white">
         {number}
       </div>
@@ -195,7 +195,7 @@ interface ProcessListProps {
 
 export function ProcessList({ steps }: ProcessListProps) {
   return (
-    <div className="my-8 space-y-6 p-4">
+    <div className="my-8 space-y-6">
       {steps.map((step, i) => (
         <ProcessStep key={i} number={i + 1} title={step.title} description={step.description} />
       ))}
@@ -231,7 +231,7 @@ export function FeatureGrid({ children, columns = 3 }: FeatureGridProps) {
     4: 'md:grid-cols-2 lg:grid-cols-4',
   }
 
-  return <div className={`grid grid-cols-1 ${gridCols[columns]} my-8 gap-4 px-4 md:gap-6`}>{children}</div>
+  return <div className={`grid grid-cols-1 ${gridCols[columns]} my-8 gap-4 md:gap-6`}>{children}</div>
 }
 
 interface QuoteBlockProps {
@@ -241,7 +241,7 @@ interface QuoteBlockProps {
 
 export function QuoteBlock({ text, source }: QuoteBlockProps) {
   return (
-    <blockquote className="border-primary my-8 border-l-4 py-4 pr-4 pl-6">
+    <blockquote className="border-primary my-8 border-l-4 pl-6">
       <p className="text-text-secondary mb-2 text-lg italic">&ldquo;{text}&rdquo;</p>
       {source && <cite className="text-text-light text-sm not-italic">— {source}</cite>}
     </blockquote>
@@ -256,7 +256,7 @@ interface ImageWithCaptionProps {
 
 export function ImageWithCaption({ src, alt, caption }: ImageWithCaptionProps) {
   return (
-    <figure className="my-8 p-4">
+    <figure className="my-8">
       <div className="relative aspect-auto w-full overflow-hidden rounded-xl">
         <Image src={src} alt={alt} width={800} height={600} className="h-auto w-full" />
       </div>
@@ -266,11 +266,11 @@ export function ImageWithCaption({ src, alt, caption }: ImageWithCaptionProps) {
 }
 
 export function ArticleContent({ children }: { children: ReactNode }) {
-  return <div className="prose prose-lg text-text-primary max-w-none p-4 leading-relaxed md:p-6">{children}</div>
+  return <div className="prose prose-lg text-text-primary max-w-none leading-relaxed">{children}</div>
 }
 
 export function Paragraph({ children }: { children: ReactNode }) {
-  return <p className="text-text-secondary mb-4 px-2 leading-relaxed">{children}</p>
+  return <p className="text-text-secondary mb-4 leading-relaxed">{children}</p>
 }
 
 interface BulletListProps {
@@ -279,7 +279,7 @@ interface BulletListProps {
 
 export function BulletList({ items }: BulletListProps) {
   return (
-    <ul className="my-4 space-y-2 px-4 py-2">
+    <ul className="my-4 space-y-2">
       {items.map((item, i) => (
         <li key={i} className="flex items-start gap-3">
           <span className="bg-primary mt-2 h-2 w-2 flex-shrink-0 rounded-full" />
@@ -296,7 +296,7 @@ interface NumberedListProps {
 
 export function NumberedList({ items }: NumberedListProps) {
   return (
-    <ol className="my-4 space-y-3 px-4 py-2">
+    <ol className="my-4 space-y-3">
       {items.map((item, i) => (
         <li key={i} className="flex items-start gap-3">
           <span className="bg-primary/10 text-primary flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-sm font-semibold">

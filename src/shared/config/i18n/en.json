@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "OzonTech — Ozonation and disinfection for business",
+    "title": "OzonOxy — Ozonation and disinfection for business",
     "description": "Professional ozonation systems for poultry farming, food industry, HoReCa and medicine. 300 times more effective than chlorine. Free consultation."
   },
   "nav": {
@@ -137,11 +137,11 @@
     "home": "Home",
     "applicationsTitle": "Applications",
     "contactsTitle": "Contacts",
-    "copyright": "OzonTech. All rights reserved.",
-    "dev": "Website development — OzonTech"
+    "copyright": "OzonOxy. All rights reserved.",
+    "dev": "Website development — OzonOxy"
   },
   "technology": {
-    "pageTitle": "Ozonation Technology — OzonTech",
+    "pageTitle": "Ozonation Technology — OzonOxy",
     "pageDescription": "Learn how ozonation technology works. Comparison of ozone and chlorine. 7 ozonation functions in one device.",
     "header": {
       "title": "How ozonation works",
@@ -239,7 +239,7 @@
     }
   },
   "applicationsPage": {
-    "pageTitle": "Ozonation Applications — OzonTech",
+    "pageTitle": "Ozonation Applications — OzonOxy",
     "pageDescription": "Ozonation applications in poultry farming, food industry, hotels, medicine and water treatment. Specific results and benefits.",
     "header": {
       "title": "Application areas",
@@ -347,7 +347,7 @@
     }
   },
   "benefitsPage": {
-    "pageTitle": "Ozonation Benefits — OzonTech",
+    "pageTitle": "Ozonation Benefits — OzonOxy",
     "pageDescription": "Ozonation benefits: eco-friendliness, effectiveness, safety, economy, versatility and autonomous operation.",
     "header": {
       "title": "Ozonation benefits",
@@ -429,15 +429,15 @@
     }
   },
   "aboutPage": {
-    "pageTitle": "About — OzonTech",
-    "pageDescription": "About OzonTech — professional ozonation systems for business. Consultations, equipment selection, technical support.",
+    "pageTitle": "About — OzonOxy",
+    "pageDescription": "About OzonOxy — professional ozonation systems for business. Consultations, equipment selection, technical support.",
     "header": {
       "title": "About company",
       "subtitle": "Professional ozonation systems for your business"
     },
     "content": {
       "title": "We are",
-      "titleHighlight": "OzonTech",
+      "titleHighlight": "OzonOxy",
       "p1": "We are a team of specialists in ozone technologies. Our mission is to make disinfection safe, effective and accessible for businesses of any size.",
       "p2": "We believe the future belongs to eco-friendly technologies that do not harm the environment and human health. Ozonation is exactly such a technology.",
       "services": {
@@ -480,8 +480,8 @@
     }
   },
   "contactsPage": {
-    "pageTitle": "Contacts — OzonTech",
-    "pageDescription": "Contact OzonTech — get a free consultation on ozonation systems. Phone, email, feedback form.",
+    "pageTitle": "Contacts — OzonOxy",
+    "pageDescription": "Contact OzonOxy — get a free consultation on ozonation systems. Phone, email, feedback form.",
     "header": {
       "title": "Contacts",
       "subtitle": "Contact us for a free consultation"

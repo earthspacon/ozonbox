@@ -1,19 +1,15 @@
-import Head from 'next/head'
-
 import { EquipmentSterilizationPage } from '@/@pages/applications/medicine/equipment-sterilization'
 
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
+import { Seo } from '@/shared/ui/seo'
 
 function Page() {
   return (
     <>
-      <Head>
-        <title>Стерилизация медицинского оборудования озоном — OzonTech</title>
-        <meta
-          name="description"
-          content="Низкотемпературная озоновая стерилизация эндоскопов, пластиковых изделий и электроники. Безопасная обработка термочувствительного медицинского оборудования."
-        />
-      </Head>
+      <Seo
+        title="Стерилизация медицинского оборудования озоном"
+        description="Низкотемпературная озоновая стерилизация эндоскопов, пластиковых изделий и электроники. Безопасная обработка термочувствительного медицинского оборудования."
+      />
       <EquipmentSterilizationPage />
     </>
   )

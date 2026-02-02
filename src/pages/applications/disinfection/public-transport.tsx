@@ -1,19 +1,15 @@
-import Head from 'next/head'
-
 import { PublicTransportPage } from '@/@pages/applications/disinfection/public-transport'
 
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
+import { Seo } from '@/shared/ui/seo'
 
 function Page() {
   return (
     <>
-      <Head>
-        <title>Дезинфекция общественного транспорта — OzonTech</title>
-        <meta
-          name="description"
-          content="Озонирование автобусов, трамваев и троллейбусов. Быстрая обработка за 20-40 минут. Защита пассажиров от вирусных инфекций без химических остатков."
-        />
-      </Head>
+      <Seo
+        title="Дезинфекция общественного транспорта"
+        description="Озонирование автобусов, трамваев и троллейбусов. Быстрая обработка за 20-40 минут. Защита пассажиров от вирусных инфекций без химических остатков."
+      />
       <PublicTransportPage />
     </>
   )

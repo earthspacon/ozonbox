@@ -1,19 +1,15 @@
-import Head from 'next/head'
-
 import { DairyPage } from '@/@pages/applications/food-production/dairy'
 
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
+import { Seo } from '@/shared/ui/seo'
 
 function Page() {
   return (
     <>
-      <Head>
-        <title>Озонирование в молочном производстве — OzonTech</title>
-        <meta
-          name="description"
-          content="Дезинфекция молочного оборудования, танков и молокопроводов озоном. Увеличение срока хранения кисломолочной продукции на 30-50%. Соответствие HACCP."
-        />
-      </Head>
+      <Seo
+        title="Озонирование в молочном производстве"
+        description="Дезинфекция молочного оборудования, танков и молокопроводов озоном. Увеличение срока хранения кисломолочной продукции на 30-50%. Соответствие HACCP."
+      />
       <DairyPage />
     </>
   )

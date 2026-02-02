@@ -1,19 +1,15 @@
-import Head from 'next/head'
-
 import { AmbulancesPage } from '@/@pages/applications/medicine/ambulances'
 
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
+import { Seo } from '@/shared/ui/seo'
 
 function Page() {
   return (
     <>
-      <Head>
-        <title>Дезинфекция машин скорой помощи озоном — OzonTech</title>
-        <meta
-          name="description"
-          content="Экспресс-дезинфекция салона скорой помощи за 20-30 минут. Мобильные озонаторы от 12В/24В. Полная обработка между вызовами."
-        />
-      </Head>
+      <Seo
+        title="Дезинфекция машин скорой помощи озоном"
+        description="Экспресс-дезинфекция салона скорой помощи за 20-30 минут. Мобильные озонаторы от 12В/24В. Полная обработка между вызовами."
+      />
       <AmbulancesPage />
     </>
   )

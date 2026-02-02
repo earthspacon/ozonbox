@@ -1,19 +1,15 @@
-import Head from 'next/head'
-
 import { SportsFacilitiesPage } from '@/@pages/applications/disinfection/sports-facilities'
 
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
+import { Seo } from '@/shared/ui/seo'
 
 function Page() {
   return (
     <>
-      <Head>
-        <title>Озонирование спортивных объектов — OzonTech</title>
-        <meta
-          name="description"
-          content="Дезинфекция фитнес-центров, спортзалов и раздевалок. Устранение запаха пота, профилактика грибковых инфекций. Чистый воздух для тренировок."
-        />
-      </Head>
+      <Seo
+        title="Озонирование спортивных объектов"
+        description="Дезинфекция фитнес-центров, спортзалов и раздевалок. Устранение запаха пота, профилактика грибковых инфекций. Чистый воздух для тренировок."
+      />
       <SportsFacilitiesPage />
     </>
   )

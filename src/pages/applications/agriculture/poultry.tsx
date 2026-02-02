@@ -1,19 +1,15 @@
-import Head from 'next/head'
-
 import { PoultryPage } from '@/@pages/applications/agriculture/poultry'
 
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
+import { Seo } from '@/shared/ui/seo'
 
 function Page() {
   return (
     <>
-      <Head>
-        <title>Озонирование в птицеводстве — OzonTech</title>
-        <meta
-          name="description"
-          content="Озонирование для птицефабрик: инкубация яиц, дезинфекция помещений, обработка кормов и воды. Повышение вывода молодняка на 2%, продление хранения мяса в 4 раза."
-        />
-      </Head>
+      <Seo
+        title="Озонирование в птицеводстве"
+        description="Озонирование для птицефабрик: инкубация яиц, дезинфекция помещений, обработка кормов и воды. Повышение вывода молодняка на 2%, продление хранения мяса в 4 раза."
+      />
       <PoultryPage />
     </>
   )

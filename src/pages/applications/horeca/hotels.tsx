@@ -1,19 +1,15 @@
-import Head from 'next/head'
-
 import { HotelsPage } from '@/@pages/applications/horeca/hotels'
 
 import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
+import { Seo } from '@/shared/ui/seo'
 
 function Page() {
   return (
     <>
-      <Head>
-        <title>Озонирование гостиниц и отелей — OzonTech</title>
-        <meta
-          name="description"
-          content="Озонирование для гостиниц: полное устранение запахов табака, дезинфекция номеров за 30-60 минут. Повышение рейтингов на Booking и TripAdvisor."
-        />
-      </Head>
+      <Seo
+        title="Озонирование гостиниц и отелей"
+        description="Озонирование для гостиниц: полное устранение запахов табака, дезинфекция номеров за 30-60 минут. Повышение рейтингов на Booking и TripAdvisor."
+      />
       <HotelsPage />
     </>
   )
