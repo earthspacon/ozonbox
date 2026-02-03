@@ -37,6 +37,7 @@ export const DEFAULT_LOCALE = LOCALES.ru.id
 export const NAMESPACES = {
   common: 'common',
   applications: 'applications',
+  articles: 'articles',
   // Category-specific namespaces (loaded on demand)
   categoryMedicine: 'category-medicine',
   categoryAgriculture: 'category-agriculture',
@@ -67,6 +68,10 @@ export function getCategoryNamespace(categoryId: string): TNamespace {
     transport: NAMESPACES.categoryTransport,
   }
   return nsMap[categoryId] || NAMESPACES.common
+}
+
+export function getArticleNamespace(slug: string): string {
+  return `article-${slug}`
 }
 
 export const tolgee = Tolgee().use(DevTools()).use(FormatSimple()).use(FormatIcu()).init({

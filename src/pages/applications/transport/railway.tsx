@@ -1,19 +1,17 @@
+import { GetStaticProps } from 'next'
+
 import { RailwayPage } from '@/@pages/applications/transport/railway'
 
-import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
-import { Seo } from '@/shared/ui/seo'
+import { DEFAULT_LOCALE, getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { loadNamespaces, withTolgee } from '@/shared/lib'
 
-function Page() {
-  return (
-    <>
-      <Seo
-        title="Озонирование железнодорожных вагонов"
-        description="Дезинфекция пассажирских купе, плацкартов и санузлов в депо. Обработка грузовых вагонов. Устранение запахов и плесени в поездах."
-      />
-      <RailwayPage />
-    </>
-  )
+export const getStaticProps: GetStaticProps = async () => {
+  const staticData = await loadNamespaces(DEFAULT_LOCALE as TLocale, [
+    NAMESPACES.common,
+    NAMESPACES.applications,
+    getCategoryNamespace('transport'),
+  ])
+  return { props: { staticData, lang: DEFAULT_LOCALE } }
 }
 
-export const getStaticProps = getStaticPropsDefault
-export default withTolgee(Page)
+export default withTolgee(RailwayPage)

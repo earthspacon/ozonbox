@@ -1,4 +1,5 @@
 export { useLang, useIsLangInRoute, LangSync } from './lang'
+export { loadNamespaces } from './load-namespaces'
 export {
   withTolgee,
   getStaticPathsLang,

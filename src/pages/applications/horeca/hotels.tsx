@@ -1,19 +1,17 @@
+import { GetStaticProps } from 'next'
+
 import { HotelsPage } from '@/@pages/applications/horeca/hotels'
 
-import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
-import { Seo } from '@/shared/ui/seo'
+import { DEFAULT_LOCALE, getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { loadNamespaces, withTolgee } from '@/shared/lib'
 
-function Page() {
-  return (
-    <>
-      <Seo
-        title="Озонирование гостиниц и отелей"
-        description="Озонирование для гостиниц: полное устранение запахов табака, дезинфекция номеров за 30-60 минут. Повышение рейтингов на Booking и TripAdvisor."
-      />
-      <HotelsPage />
-    </>
-  )
+export const getStaticProps: GetStaticProps = async () => {
+  const staticData = await loadNamespaces(DEFAULT_LOCALE as TLocale, [
+    NAMESPACES.common,
+    NAMESPACES.applications,
+    getCategoryNamespace('horeca'),
+  ])
+  return { props: { staticData, lang: DEFAULT_LOCALE } }
 }
 
-export const getStaticProps = getStaticPropsDefault
-export default withTolgee(Page)
+export default withTolgee(HotelsPage)

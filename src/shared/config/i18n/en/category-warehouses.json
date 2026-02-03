@@ -1,0 +1,32 @@
+{
+  "title": "Warehouses",
+  "description": "Ozonation of warehouse facilities protects goods from mold and fungus, controls pests, extends product shelf life and creates a healthy air environment for staff.",
+  "subcategories": {
+    "mold-prevention": {
+      "title": "Mold and fungus control",
+      "shortDesc": "Suppressing mold growth and eliminating contamination hotspots in the warehouse",
+      "content": "Uncontrolled mold growth in warehouse facilities leads to product spoilage and poor employee health. Mold spores and toxins in the air undermine staff immunity, while spoilage of goods and cardboard increases waste.\n\nWarehouse ozonation addresses the problem comprehensively: it destroys existing contamination hotspots, suppresses new mold and fungus colonies, eliminates unpleasant odors from microbial activity.\n\nOzone interacts with the membrane structure of bacterial and fungal cells, disrupting their barrier function and causing cell death. Unlike chemical agents, the gas penetrates all crevices and remote corners, treating hard-to-reach areas.\n\nFor effective mold control, ozonation is recommended for 1–3 hours during off-hours. Ozone generator capacity is selected at approximately 1 g/h per 25 m³ of room volume.",
+      "benefits": [
+        "95–99% mold destruction",
+        "Suppression of new colonies",
+        "Elimination of musty odor",
+        "Treatment without unloading goods",
+        "Penetration into hard-to-reach areas",
+        "Safe decay to oxygen"
+      ]
+    },
+    "general-storage": {
+      "title": "General goods storage",
+      "shortDesc": "Maintaining stored product quality and warehouse sanitary conditions",
+      "content": "Warehouse logistics requires stable storage conditions to preserve a wide range of goods. Air ozonation comprehensively addresses disinfection, deodorization and spoilage prevention.\n\nRegular ozonation reduces bacterial load in the air and on surfaces, extends product shelf life, eliminates unpleasant odors and creates comfortable conditions for staff.\n\nThe technology is especially relevant for mixed-purpose warehouses, distribution centers and logistics hubs storing diverse product groups with different storage requirements.\n\nOzone is universal: equally effective against bacteria, viruses, fungi and pests. Treatment does not require unloading and can be run automatically on a timer.",
+      "benefits": [
+        "80–90% reduction in bacterial load",
+        "Extended product shelf life",
+        "Pest prevention",
+        "Odor elimination",
+        "Improved working conditions",
+        "Automatic treatment without staff"
+      ]
+    }
+  }
+}

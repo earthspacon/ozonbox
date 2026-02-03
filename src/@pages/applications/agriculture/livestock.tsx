@@ -1,7 +1,9 @@
 import Image from 'next/image'
+import { useTranslate } from '@tolgee/react'
 
-import { Layout } from '@/widgets'
+import { Layout } from '@/widgets/layout'
 
+import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
 import { AppLink } from '@/shared/ui/app-link'
 import {
   ArticleSection,
@@ -15,26 +17,31 @@ import {
   StatGrid,
 } from '@/shared/ui/article-components'
 import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
+import { Seo } from '@/shared/ui/seo'
 
 export function LivestockPage() {
+  const { t } = useTranslate()
+  const ns = getCategoryNamespace('agriculture')
+
   return (
     <Layout>
+      <Seo title={t('subcategories.livestock.title', { ns })} description={t('subcategories.livestock.shortDesc', { ns })} />
       {/* Breadcrumbs */}
       <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
-              Применение
+              {t('nav.applications', { ns: NAMESPACES.common })}
             </AppLink>
             <span className="text-text-light">/</span>
             <AppLink
               href="/applications/agriculture"
               className="text-text-secondary hover:text-primary transition-colors"
             >
-              Сельское хозяйство
+              {t('title', { ns })}
             </AppLink>
             <span className="text-text-light">/</span>
-            <span className="text-text-primary font-medium">Животноводство</span>
+            <span className="text-text-primary font-medium">{t('subcategories.livestock.title', { ns })}</span>
           </nav>
         </div>
       </div>
@@ -44,7 +51,7 @@ export function LivestockPage() {
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=1920&q=80"
-            alt="Животноводство"
+            alt={t('subcategories.livestock.title', { ns })}
             fill
             className="object-cover"
           />
@@ -56,12 +63,13 @@ export function LivestockPage() {
             className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
           >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
-            <span>Сельское хозяйство</span>
+            <span>{t('title', { ns })}</span>
           </AppLink>
-          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">Озонирование в животноводстве</h1>
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
+            {t('subcategories.livestock.title', { ns })}
+          </h1>
           <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
-            Дезинфекция помещений содержания животных, обработка питьевой воды и кормов. Снижение заболеваемости и
-            повышение продуктивности без антибиотиков.
+            {t('subcategories.livestock.shortDesc', { ns })}
           </p>
         </div>
       </section>
@@ -250,18 +258,18 @@ export function LivestockPage() {
       {/* CTA Section */}
       <section className="cta">
         <div className="container">
-          <h2 className="cta__title">Внедрить озонирование на вашей ферме?</h2>
-          <p className="cta__text">Получите бесплатную консультацию и расчёт оборудования для вашего хозяйства</p>
+          <h2 className="cta__title">{t('cta.applications.title', { ns: NAMESPACES.common })}</h2>
+          <p className="cta__text">{t('cta.applications.text', { ns: NAMESPACES.common })}</p>
           <div className="cta__actions">
             <AppLink href="/contacts" className="btn btn--white btn--large">
-              Получить консультацию
+              {t('hero.getConsultation', { ns: NAMESPACES.common })}
             </AppLink>
             <a
               href="tel:+78001234567"
               className="btn btn--secondary btn--large"
               style={{ borderColor: 'white', color: 'white' }}
             >
-              Позвонить: 8 (800) 123-45-67
+              {t('header.phone', { ns: NAMESPACES.common })}
             </a>
           </div>
         </div>

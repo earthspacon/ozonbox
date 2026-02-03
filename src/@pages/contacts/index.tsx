@@ -1,7 +1,7 @@
 import { useTranslate } from '@tolgee/react'
 import { FormEvent, useState } from 'react'
 
-import { Layout } from '@/widgets'
+import { Layout } from '@/widgets/layout'
 
 import { IconEmail, IconLocation, IconPhone, IconTelegram, IconTimer, IconWhatsapp } from '@/shared/ui/icons'
 

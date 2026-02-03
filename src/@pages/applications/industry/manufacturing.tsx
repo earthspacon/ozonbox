@@ -1,7 +1,9 @@
 import Image from 'next/image'
+import { useTranslate } from '@tolgee/react'
 
-import { Layout } from '@/widgets'
+import { Layout } from '@/widgets/layout'
 
+import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
 import { AppLink } from '@/shared/ui/app-link'
 import {
   ArticleSection,
@@ -17,23 +19,31 @@ import {
   StatGrid,
 } from '@/shared/ui/article-components'
 import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
+import { Seo } from '@/shared/ui/seo'
 
 export function ManufacturingPage() {
+  const { t } = useTranslate()
+  const ns = getCategoryNamespace('industry')
+
   return (
     <Layout>
+      <Seo title={t('subcategories.manufacturing.title', { ns })} description={t('subcategories.manufacturing.shortDesc', { ns })} />
       {/* Breadcrumbs */}
       <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
-              Применение
+              {t('nav.applications', { ns: NAMESPACES.common })}
             </AppLink>
             <span className="text-text-light">/</span>
-            <AppLink href="/applications/industry" className="text-text-secondary hover:text-primary transition-colors">
-              Промышленность
+            <AppLink
+              href="/applications/industry"
+              className="text-text-secondary hover:text-primary transition-colors"
+            >
+              {t('title', { ns })}
             </AppLink>
             <span className="text-text-light">/</span>
-            <span className="text-text-primary font-medium">Обработка воздуха на производстве</span>
+            <span className="text-text-primary font-medium">{t('subcategories.manufacturing.title', { ns })}</span>
           </nav>
         </div>
       </div>
@@ -43,7 +53,7 @@ export function ManufacturingPage() {
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1920&q=80"
-            alt="Производственное помещение"
+            alt={t('subcategories.manufacturing.title', { ns })}
             fill
             className="object-cover"
           />
@@ -55,14 +65,13 @@ export function ManufacturingPage() {
             className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
           >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
-            <span>Промышленность</span>
+            <span>{t('title', { ns })}</span>
           </AppLink>
           <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
-            Обработка воздуха на производственных объектах
+            {t('subcategories.manufacturing.title', { ns })}
           </h1>
           <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
-            Промышленное озонирование для обеззараживания воздуха, устранения запахов и нейтрализации вредных веществ.
-            Соответствие требованиям охраны труда и санитарным нормам.
+            {t('subcategories.manufacturing.shortDesc', { ns })}
           </p>
         </div>
       </section>
@@ -406,18 +415,18 @@ export function ManufacturingPage() {
       {/* CTA Section */}
       <section className="cta">
         <div className="container">
-          <h2 className="cta__title">Проект системы озонирования для вашего производства</h2>
-          <p className="cta__text">Получите бесплатный аудит качества воздуха и технико-экономическое обоснование</p>
+          <h2 className="cta__title">{t('cta.applications.title', { ns: NAMESPACES.common })}</h2>
+          <p className="cta__text">{t('cta.applications.text', { ns: NAMESPACES.common })}</p>
           <div className="cta__actions">
             <AppLink href="/contacts" className="btn btn--white btn--large">
-              Заказать аудит
+              {t('hero.getConsultation', { ns: NAMESPACES.common })}
             </AppLink>
             <a
               href="tel:+78001234567"
               className="btn btn--secondary btn--large"
               style={{ borderColor: 'white', color: 'white' }}
             >
-              Консультация специалиста
+              {t('header.phone', { ns: NAMESPACES.common })}
             </a>
           </div>
         </div>

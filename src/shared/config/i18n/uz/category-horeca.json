@@ -1,0 +1,203 @@
+{
+  "title": "HoReCa",
+  "description": "Hotels, restaurants, laundries and other hospitality venues use ozonation to create a comfortable environment, eliminate odors and maintain high hygiene standards.",
+  "subcategories": {
+    "hotels": {
+      "title": "Hotels",
+      "shortDesc": "Room disinfection and odor removal",
+      "content": "Hotel room ozonation is a modern method for quick disinfection and odor removal. Ozone effectively destroys bacteria, viruses, mold, fungi and parasitic protozoa on all surfaces.\n\nAn air ozonator allows full treatment of a room after cleaning when guests change. Typically 30–60 minutes of treatment is enough. The gas penetrates all crevices and corners, disinfecting textiles, furniture and décor.\n\nAfter treatment, ozone decomposes to oxygen without toxic byproducts. The air feels \"fresh\" without air fresheners or masking agents. Complete removal of tobacco, sweat, musty and damp odors.\n\nTreatment does not require staff after the ozonator is switched on. Modern units have weekly timers for automation.",
+      "benefits": [
+        "Complete removal of tobacco and sweat odors",
+        "Disinfection of all surfaces without chemicals",
+        "Quick treatment in 30–60 minutes",
+        "Automatic operation on timer",
+        "Ozone decay to pure oxygen",
+        "Fresh air feeling"
+      ]
+    },
+    "restaurants": {
+      "title": "Restaurants and cafes",
+      "shortDesc": "Removal of kitchen and tobacco odors",
+      "heroTitle": "Restaurant and cafe ozonation",
+      "heroDesc": "Removal of kitchen, tobacco and hookah odors. Fresh air improves guest comfort and appetite.",
+      "content": "Restaurant business is about atmosphere. The smell of a smoky room, stale food or kitchen grease can put off even loyal customers. Research shows that air quality directly affects subconscious perception of service.\n\nSmell is so closely tied to the subconscious that people may not realize why they feel comfortable or not in a venue. They simply say \"liked it\" or \"didn't like it.\" That impression determines whether they return.\n\nOzonation addresses this radically — not masking odors with fragrances but destroying them at the molecular level. Regular ozonation of premises during off-hours significantly reduces unpleasant odors.\n\nOzone is a gas and a strong oxidizer. It penetrates hard-to-reach areas, material structure and pores where odor sources are sorbed, and oxidizes odor molecules to water and carbon dioxide.",
+      "benefits": [
+        "Higher guest loyalty",
+        "15–20% higher average check",
+        "Longer stay time",
+        "Fewer odor complaints",
+        "No consumables",
+        "Automatic operation without staff"
+      ],
+      "stats": {
+        "processingTime": "60-120",
+        "processingTimeLabel": "Minutes of treatment",
+        "odorRemoval": "100%",
+        "odorRemovalLabel": "Odor removal",
+        "stayIncrease": "+25%",
+        "stayIncreaseLabel": "Stay time"
+      },
+      "problems": [
+        "Tobacco and hookah odor — penetrates furniture, curtains, upholstery",
+        "Kitchen odors — grease, spices, fish, garlic",
+        "Damp and mold — especially in basements",
+        "Ventilation odor — grease buildup in ducts",
+        "Restroom odors — enter the hall with poor ventilation",
+        "Bacteria and mold — sources of unpleasant odors"
+      ],
+      "zones": {
+        "hall": {
+          "title": "Dining hall",
+          "desc": "Removal of tobacco, food and perfume odors. Fresh air feeling."
+        },
+        "kitchen": {
+          "title": "Kitchen",
+          "desc": "Neutralization of grease in ventilation and frying odors."
+        },
+        "refrigerators": {
+          "title": "Cold rooms",
+          "desc": "Disinfection without shutdown. 2–3× longer storage."
+        },
+        "toilets": {
+          "title": "Restrooms",
+          "desc": "Complete odor removal and bacteria destruction."
+        }
+      }
+    },
+    "laundries": {
+      "title": "Commercial laundries",
+      "shortDesc": "Cold-water washing with full disinfection",
+      "heroTitle": "Laundry ozonation",
+      "heroDesc": "Cold-water washing with full disinfection. Up to 70% savings on energy and chemicals.",
+      "content": "Water ozonation in laundries is an advanced technology that significantly reduces detergent, hot water and energy use, and extends linen life and shortens wash time. Ozone dissolves in water and replaces part of the chemicals.\n\nThis is a fundamental change in washing: you replace harsh chemistry with something that works much better. So much better that water and time use can also be reduced.\n\nOzone is a strong oxidizer. With a small amount of alkali, cold water and detergent you can achieve cleaning and brightness equal to or better than chlorine and hot water.\n\nThe colder the water, the more stable ozone is and the longer it works. Above 95°C ozone loses effectiveness due to faster decay.",
+      "benefits": [
+        "70–100% savings on water heating",
+        "30–50% savings on detergents",
+        "20–40% less water use",
+        "Full disinfection at low temperatures",
+        "Up to 30% longer linen life",
+        "Treatment of delicate items without damage"
+      ],
+      "stats": {
+        "energySaving": "70-100%",
+        "energySavingLabel": "Heating savings",
+        "chemistrySaving": "30-50%",
+        "chemistrySavingLabel": "Chemical savings",
+        "linenLife": "+30%",
+        "linenLifeLabel": "Linen life",
+        "disinfection": "99.9%",
+        "disinfectionLabel": "Disinfection"
+      },
+      "ozoneClosets": {
+        "title": "Ozone cabinets for dry cleaners",
+        "desc": "Dry cleaners use ozone cabinets — sealed chambers filled with high-concentration ozone. As a gas, ozone penetrates the densest fabrics and hard-to-reach areas.",
+        "features": [
+          "Treatment of delicate items: theatrical costumes, vintage, fur coats, leather jackets",
+          "Odor removal: fire smoke, tobacco, biological odors, pet odors",
+          "Disinfection: destroys bacteria, viruses and fungal spores",
+          "Monetization: sold as VIP service at minimal cost"
+        ]
+      }
+    },
+    "tobacco-hookah": {
+      "title": "Hookah lounges and tobacco",
+      "shortDesc": "Removal of ingrained smoke odor",
+      "heroTitle": "Hookah lounge and tobacco ozonation",
+      "heroDesc": "Chemical removal of ingrained smoke odor. Not masking — full neutralization in 60–120 minutes.",
+      "content": "Ingrained, aged cigarette and hookah odor can put off visitors. Even in hookah lounges where guests like fresh hookah aroma, there is a problem: when smoke soaks into furniture and upholstery, aromatic additives evaporate quickly, leaving only unpleasant smoke and tar odor.\n\nOzonation is the only effective method for chemically removing such odors rather than masking them with fragrances. Ozone oxidizes odor molecules to water and carbon dioxide or to odorless oxidation products.\n\nTobacco and hookah smoke contain tars that penetrate porous materials: fabrics, wood, upholstery, ceiling tiles, carpets. Over time these substances accumulate and create a persistent unpleasant odor.\n\nRegular ozonation during off-hours keeps the air fresh. With correct start and end times, ozone dissipates before staff arrive.",
+      "benefits": [
+        "Chemical removal, not odor masking",
+        "Penetration into hard-to-reach areas",
+        "Treatment of textiles and furniture",
+        "Automatic operation on timer",
+        "No consumables",
+        "Decay to oxygen in 2–3 hours"
+      ],
+      "stats": {
+        "processingTime": "60-120",
+        "processingTimeLabel": "Minutes of treatment",
+        "odorRemoval": "100%",
+        "odorRemovalLabel": "Odor removal",
+        "ventilationTime": "2-3",
+        "ventilationTimeLabel": "Hours ventilation"
+      },
+      "odorSources": [
+        "Textiles (curtains, upholstery, cushions) — main odor reservoir",
+        "Upholstered furniture — tars penetrate filling",
+        "Ceiling materials — especially porous types",
+        "Ventilation ducts — pollutant buildup",
+        "Hard-to-reach areas — crevices, seams, cavities"
+      ],
+      "modes": {
+        "daily": {
+          "title": "Daily prevention",
+          "time": "60 minutes",
+          "frequency": "Every night",
+          "result": "Maintain freshness"
+        },
+        "intensive": {
+          "title": "After busy evening",
+          "time": "90-120 minutes",
+          "frequency": "As needed",
+          "result": "Deep cleaning"
+        },
+        "deepClean": {
+          "title": "Aged odor",
+          "time": "2-3 hours",
+          "frequency": "3-5 days in a row",
+          "result": "Complete removal"
+        }
+      }
+    },
+    "secondhand": {
+      "title": "Secondhand stores",
+      "shortDesc": "Removal of characteristic clothing odor",
+      "heroTitle": "Secondhand store ozonation",
+      "heroDesc": "Removal of characteristic clothing odor. Customer comfort and higher sales.",
+      "content": "The characteristic odor of clothing in secondhand stores comes from mandatory disinfection. Before sale, items are treated with formaldehyde or methyl bromide gas to kill viruses and bacteria. The disinfectants dissipate by the time clothes reach the shelves, but the characteristic smell remains.\n\nThis odor is the main retail problem in secondhand. It fills the whole store and triggers unpleasant associations with worn clothing. Some customers spend less time in the store because of discomfort.\n\nOdor affects perceived product quality. Customers subconsciously pay less for items with an unpleasant smell, even if they are in excellent condition.\n\nRegular clothing ozonation effectively removes the odor and freshens the store air. Ozonation is done during off-hours for 1–3 hours. The gas penetrates all crevices and corners, treating all merchandise.",
+      "benefits": [
+        "Complete removal of characteristic odor",
+        "Treatment of all merchandise at once",
+        "Disinfection from bacteria and mites",
+        "Higher product appeal",
+        "Customer comfort in store",
+        "Automatic treatment at night"
+      ],
+      "stats": {
+        "processingTime": "1-3",
+        "processingTimeLabel": "Hours of treatment",
+        "odorRemoval": "100%",
+        "odorRemovalLabel": "Odor removal",
+        "stayIncrease": "+30%",
+        "stayIncreaseLabel": "Time in store",
+        "disinfection": "99.9%",
+        "disinfectionLabel": "Disinfection"
+      },
+      "businessImpact": {
+        "visitTime": {
+          "before": "12 minutes",
+          "after": "18-20 minutes"
+        },
+        "conversion": {
+          "before": "15%",
+          "after": "22%"
+        },
+        "avgCheck": {
+          "before": "Baseline",
+          "after": "+15-25%"
+        },
+        "repeatVisits": {
+          "before": "25%",
+          "after": "40%"
+        }
+      },
+      "advantages": [
+        "Higher product appeal — items perceived as better quality",
+        "Destruction of dust mites — important for allergy sufferers",
+        "Room disinfection — infection spread prevention",
+        "Mold removal — relevant for basement premises",
+        "Marketing advantage — odor-free secondhand store"
+      ]
+    }
+  }
+}

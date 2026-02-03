@@ -1,0 +1,29 @@
+{
+  "title": "Ozone as an environmentally safe protection for grain",
+  "excerpt": "Purdue University researchers demonstrated that ozone effectively eliminates insects in grain storage facilities without harming grain quality or the environment.",
+  "body": {
+    "lead": "Taking a cue from air purification systems used in surgical suites, Purdue University researchers discovered that ozone can eliminate insects in grain storage facilities without harming food quality or the environment. The gas is being touted as a fumigant alternative in response to an international treaty banning the use of ozone-layer harming chemicals currently used to rid food storage facilities of insects.",
+    "montreal": "Purdue's Post Harvest Grain Quality Research team began its studies in response to the 1987 Montreal Protocol, an international agreement to prohibit substances deemed dangerous to the Earth's ozone layer. One such substance is methyl bromide, commonly used against crop pests in the soil and in grain storage facilities. Beginning in 2005, it no longer was available. A replacement for chemical fumigants is imperative because insects not only eat the grain but also defecate on it, causing development of fungi, primarily Fusarium and Aspergillus. These fungi can release potentially deadly mycotoxins that can cause illness in most livestock and have been linked to some forms of human cancer. In humans, approximately 76 million cases of food-borne disease occur annually in the United States, according to the Centers for Disease Control and Prevention. Experts estimate that 5 percent to 10 percent of the world's food production is lost each year because of insects, and in some countries that figure is believed to be as high as 50 percent.",
+    "purdue": "In the latest study, Purdue researchers used ozone to treat rice, popcorn, soft red winter wheat, hard red winter wheat, soybeans and corn. They used five-gallon plastic pails and 50-gallon steel drums, storage bins filled with grain, and buried mesh bags all filled with grain and a known number of grain-eating bugs to test ozone's killing efficacy. The ozone treatment of grain included two applications of ozone. In the first, the ozone moves through the grain slowly because the gas reacts, or bonds, with matter on the grain surface. This first treatment allows ozone to react with most of the grain surface and degrades the ozone. With the second ozone application, the gas moves through the grain more quickly because it isn't slowed by reactions with the grain. This allows the ozone to kill the insects by reacting with them rather than the grain.",
+    "twoPhase": "The flow of ozone through a 3-m column of wheat was similar to that previously observed for maize, having a Phase 1 in which the ozone rapidly degraded as the ozone front moved through the grain and a Phase 2 in which the ozone moved freely through the grain with little degradation. Increasing the velocity of ozone flow from 0.02 to 0.04 m/s facilitated deeper penetration of wheat in a Phase 1 state. The team's previous studies were done in similar storage containers or in 500-bushel bins built for pilot studies at the Purdue Agronomy Farm.",
+    "masonQuote": "Ozone has a very short half-life and we're using relatively low dosages, but enough to kill an insect. The chemicals currently used can kill everything in and around the grain bin, including people. With ozone, we're not generating ozone at deadly concentrations, and we have better control over it when it's present.",
+    "quality": "Treatment of grains with 50 ppm ozone for 30 d had no detrimental effect on popping volume of popcorn, fatty acid and amino acid composition of soybean, wheat and maize, milling characteristics of wheat and maize, baking characteristics of wheat, and stickiness of rice. The scientists checked whether the grain looked any different; if it milled the same way; if it made flour the same way; whether bread tastes the same when made from ozonated wheat. Essentially, there were no differences. The team also checked how ozone treatments affected amounts of important amino acids and essential fatty acids — the treatments caused no significant difference in any of the nutritional and metabolic values. The food industry can take grain that's been treated with ozone and know it won't affect their ability to come up with the same products in the end.",
+    "origin": "The scientists began their study after a company that uses ozone air purification systems in hospitals noticed that air vents were cockroach free. Absence of cockroaches in a large building is unusual, so the researchers tested various ozone doses on different insects and found the gas was fatal to bugs.",
+    "limitation": "All the species we tested seemed affected. The only ones we don't have control over are immature weevils since they are hidden within the kernels. Ozone, unlike chemical fumigants, doesn't penetrate into the kernel enough to kill immature insects. Currently, the researchers are studying ways to use ozone as a preventative treatment by possibly sealing of grain storage facilities with layers of ozone, much the way a jelly jar is capped with wax. The USDA National Research Initiative provided funding for this study."
+  },
+  "sourcesTitle": "Sources",
+  "sources": [
+    {
+      "title": "Purdue University News — Ozone may provide environmentally safe protection for grains",
+      "url": "https://www.purdue.edu/uns/html4ever/030130.Mason.ozone.html"
+    },
+    {
+      "title": "Purdue University Grain Quality & Stored Product Protection Program",
+      "url": "https://www.grainquality.org"
+    },
+    {
+      "title": "CDC — Food-borne Illness",
+      "url": "https://www.cdc.gov/ncidod/eid/vol5no5/mead.htm"
+    }
+  ]
+}

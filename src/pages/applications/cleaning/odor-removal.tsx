@@ -1,19 +1,17 @@
+import { GetStaticProps } from 'next'
+
 import { OdorRemovalPage } from '@/@pages/applications/cleaning/odor-removal'
 
-import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
-import { Seo } from '@/shared/ui/seo'
+import { DEFAULT_LOCALE, getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { loadNamespaces, withTolgee } from '@/shared/lib'
 
-function Page() {
-  return (
-    <>
-      <Seo
-        title="Устранение въевшихся запахов озоном"
-        description="Профессиональное озонирование для удаления стойких запахов. Полное разрушение молекул запаха, не маскировка. Результат за 4-10 часов без химических остатков."
-      />
-      <OdorRemovalPage />
-    </>
-  )
+export const getStaticProps: GetStaticProps = async () => {
+  const staticData = await loadNamespaces(DEFAULT_LOCALE as TLocale, [
+    NAMESPACES.common,
+    NAMESPACES.applications,
+    getCategoryNamespace('cleaning'),
+  ])
+  return { props: { staticData, lang: DEFAULT_LOCALE } }
 }
 
-export const getStaticProps = getStaticPropsDefault
-export default withTolgee(Page)
+export default withTolgee(OdorRemovalPage)

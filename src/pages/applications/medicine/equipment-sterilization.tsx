@@ -1,19 +1,17 @@
+import { GetStaticProps } from 'next'
+
 import { EquipmentSterilizationPage } from '@/@pages/applications/medicine/equipment-sterilization'
 
-import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
-import { Seo } from '@/shared/ui/seo'
+import { DEFAULT_LOCALE, getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { loadNamespaces, withTolgee } from '@/shared/lib'
 
-function Page() {
-  return (
-    <>
-      <Seo
-        title="Стерилизация медицинского оборудования озоном"
-        description="Низкотемпературная озоновая стерилизация эндоскопов, пластиковых изделий и электроники. Безопасная обработка термочувствительного медицинского оборудования."
-      />
-      <EquipmentSterilizationPage />
-    </>
-  )
+export const getStaticProps: GetStaticProps = async () => {
+  const staticData = await loadNamespaces(DEFAULT_LOCALE as TLocale, [
+    NAMESPACES.common,
+    NAMESPACES.applications,
+    getCategoryNamespace('medicine'),
+  ])
+  return { props: { staticData, lang: DEFAULT_LOCALE } }
 }
 
-export const getStaticProps = getStaticPropsDefault
-export default withTolgee(Page)
+export default withTolgee(EquipmentSterilizationPage)

@@ -1,7 +1,7 @@
 import { useTranslate } from '@tolgee/react'
 import Image from 'next/image'
 
-import { Layout } from '@/widgets'
+import { Layout } from '@/widgets/layout'
 
 import { getCategoryById } from '@/shared/config/applications-data'
 import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
@@ -71,7 +71,13 @@ export function CategoryPage({ categoryId }: CategoryPageProps) {
               {category.subcategories.map((sub) => (
                 <AppLink key={sub.id} href={`/applications/${categoryId}/${sub.id}`} className="subcategory-card">
                   <div className="subcategory-card__image">
-                    <Image src={sub.image} alt={t(`subcategories.${sub.id}.title`, { ns })} width={128} height={128} />
+                    <Image
+                      src={sub.image}
+                      alt={t(`subcategories.${sub.id}.title`, { ns })}
+                      width={400}
+                      height={250}
+                      className="object-cover"
+                    />
                   </div>
                   <div className="subcategory-card__content">
                     <h3 className="subcategory-card__title">{t(`subcategories.${sub.id}.title`, { ns })}</h3>

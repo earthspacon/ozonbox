@@ -1,19 +1,17 @@
+import { GetStaticProps } from 'next'
+
 import { CheesePage } from '@/@pages/applications/food-production/cheese'
 
-import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
-import { Seo } from '@/shared/ui/seo'
+import { DEFAULT_LOCALE, getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { loadNamespaces, withTolgee } from '@/shared/lib'
 
-function Page() {
-  return (
-    <>
-      <Seo
-        title="Озонирование в производстве сыров"
-        description="Озонирование камер созревания сыров. Предотвращение нежелательной плесени на 95-99% без влияния на вкус и процесс созревания. ГОСТ Р 54607-2011."
-      />
-      <CheesePage />
-    </>
-  )
+export const getStaticProps: GetStaticProps = async () => {
+  const staticData = await loadNamespaces(DEFAULT_LOCALE as TLocale, [
+    NAMESPACES.common,
+    NAMESPACES.applications,
+    getCategoryNamespace('food-production'),
+  ])
+  return { props: { staticData, lang: DEFAULT_LOCALE } }
 }
 
-export const getStaticProps = getStaticPropsDefault
-export default withTolgee(Page)
+export default withTolgee(CheesePage)

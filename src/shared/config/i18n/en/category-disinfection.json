@@ -1,0 +1,58 @@
+{
+  "title": "Disinfection",
+  "description": "Ozonation provides deep disinfection of premises and transport, destroying bacteria, viruses, fungi and spores without chemical residues. The gas penetrates all hard-to-reach areas.",
+  "subcategories": {
+    "offices": {
+      "title": "Office premises",
+      "shortDesc": "Healthy work environment without viruses",
+      "content": "The office is the face of the company. Polluted air with unpleasant odors harms staff, reduces productivity and loyalty, and damages the company's image with clients and partners.\n\nIn most buildings, concentrations of toxic substances in the air are 2–5 times higher than outdoors. Benzene, formaldehyde and ammonia are released from furniture, carpets, office equipment and finishes. Ozonation effectively neutralizes these pollutants.\n\nOzone disinfects everything staff and visitors touch: desktops, armrests, office equipment, coffee machines. It reduces virus transmission via surfaces, removes odors and freshens the air.\n\nTreatment is run at night on a timer. 1–2 hours of ozonation is usually enough. Ozone generator capacity: about 1 g/h per 25 m³ of room volume. By the time staff arrive, ozone has dissipated, leaving a light fresh smell.",
+      "benefits": [
+        "Infection spread prevention",
+        "Removal of toxic substances from air",
+        "Disinfection of work surfaces",
+        "Automatic night treatment",
+        "Higher staff productivity",
+        "Better company image"
+      ]
+    },
+    "public-transport": {
+      "title": "Public transport",
+      "shortDesc": "Disinfection of buses, trams and trolleybuses",
+      "content": "Public transport is a high-risk environment for infection transmission. Ozonation allows quick and effective disinfection of bus, tram and trolleybus interiors between runs or at night.\n\nOzone disinfects everything passengers touch: handrails, seats, windows and walls. The gas penetrates all crevices and hard-to-reach areas for full interior treatment. Odors and mold growth are also suppressed.\n\nTreatment: 20–40 minutes depending on interior volume. After treatment, ventilate for 20 minutes or use the vehicle's ventilation system to clear ozone.\n\nEquipment can run from the vehicle's power (12V or 24V). No staff need to stay — turn on the generator and leave. No consumables reduce operating costs.",
+      "benefits": [
+        "Quick treatment in 20–40 minutes",
+        "Disinfection of all interior surfaces",
+        "Operation from vehicle power",
+        "Odor and mold removal",
+        "No consumables",
+        "Process automation"
+      ]
+    },
+    "sports-facilities": {
+      "title": "Sports facilities",
+      "shortDesc": "Disinfection of halls and locker rooms",
+      "content": "Gyms, fitness centers and locker rooms are high-risk for infection spread and have specific odors. Ozonation addresses both: it disinfects equipment and removes sweat odor.\n\nOzone destroys bacteria, viruses, mold, fungi and parasitic protozoa on equipment, stands, benches and mats. The gas penetrates material pores for deep disinfection.\n\nSports facilities are treated at night. 2–3 hours at about 1 g/h per 25 m³ is typical. For large halls and arenas, mobile ozone generators of 60–120 g/h are used.\n\nAfter the generator is off, ozone drops to safe levels in 2–3 hours. Only a light fresh smell remains. Staff should not enter during treatment.",
+      "benefits": [
+        "Effective sweat odor removal",
+        "Disinfection of sports equipment",
+        "Fungal infection prevention",
+        "Treatment of mats and textiles",
+        "Mold suppression",
+        "Automatic night operation"
+      ]
+    },
+    "shopping-malls": {
+      "title": "Shopping malls",
+      "shortDesc": "Clean air for visitors",
+      "content": "Shopping malls are high-traffic spaces with dense visitor flow. Ozonation maintains air quality, removes odors and helps prevent infection spread.\n\nRegular ozone treatment during off-hours disinfects all surfaces: escalators, handrails, elevators, benches, restrooms. The gas reaches all areas, including back-of-house and technical zones.\n\nOzone effectively removes odors from food courts, restrooms and storage areas. It neutralizes chemical pollutants from finishes and merchandise. The air becomes fresh and pleasant for visitors.\n\nLarge malls use high-capacity industrial ozone generators or systems integrated with ventilation. Treatment is automated with timers and sensors.",
+      "benefits": [
+        "Infection prevention in crowded spaces",
+        "Improved air quality",
+        "Food court odor removal",
+        "Disinfection of contact surfaces",
+        "Visitor comfort",
+        "Ventilation system integration"
+      ]
+    }
+  }
+}

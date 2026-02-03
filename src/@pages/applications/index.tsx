@@ -1,7 +1,7 @@
 import { useTranslate } from '@tolgee/react'
 import Image from 'next/image'
 
-import { Layout } from '@/widgets'
+import { Layout } from '@/widgets/layout'
 
 import { APPLICATION_CATEGORIES, getCategoryById } from '@/shared/config/applications-data'
 import { NAMESPACES } from '@/shared/config/tolgee'

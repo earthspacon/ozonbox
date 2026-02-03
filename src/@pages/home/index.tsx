@@ -1,7 +1,7 @@
 import { useTranslate } from '@tolgee/react'
 import Image from 'next/image'
 
-import { Layout } from '@/widgets'
+import { Layout } from '@/widgets/layout'
 
 import { AppLink } from '@/shared/ui/app-link'
 import {

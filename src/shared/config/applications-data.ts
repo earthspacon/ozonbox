@@ -152,3 +152,10 @@ export function getAllCategoryIds(): string[] {
 
 // Featured categories for homepage (top 4)
 export const FEATURED_CATEGORIES = ['medicine', 'agriculture', 'food-production', 'horeca']
+
+// All (categoryId, subcategoryId) pairs for static paths
+export function getAllSubcategoryPaths(): { categoryId: string; subcategoryId: string }[] {
+  return APPLICATION_CATEGORIES.flatMap((cat) =>
+    cat.subcategories.map((sub) => ({ categoryId: cat.id, subcategoryId: sub.id })),
+  )
+}

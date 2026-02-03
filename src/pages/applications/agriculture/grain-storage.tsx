@@ -1,19 +1,17 @@
+import { GetStaticProps } from 'next'
+
 import { GrainStoragePage } from '@/@pages/applications/agriculture/grain-storage'
 
-import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
-import { Seo } from '@/shared/ui/seo'
+import { DEFAULT_LOCALE, getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { loadNamespaces, withTolgee } from '@/shared/lib'
 
-function Page() {
-  return (
-    <>
-      <Seo
-        title="Озонирование при хранении зерна"
-        description="Озонирование зерна: уничтожение вредителей на 95-99%, снижение потерь на 40-60%. Экологичная альтернатива химической фумигации зернохранилищ."
-      />
-      <GrainStoragePage />
-    </>
-  )
+export const getStaticProps: GetStaticProps = async () => {
+  const staticData = await loadNamespaces(DEFAULT_LOCALE as TLocale, [
+    NAMESPACES.common,
+    NAMESPACES.applications,
+    getCategoryNamespace('agriculture'),
+  ])
+  return { props: { staticData, lang: DEFAULT_LOCALE } }
 }
 
-export const getStaticProps = getStaticPropsDefault
-export default withTolgee(Page)
+export default withTolgee(GrainStoragePage)

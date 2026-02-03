@@ -1,0 +1,32 @@
+{
+  "title": "Omborxonalar",
+  "description": "Omborxona binolarini ozonlash mahsulotlarni mog'or va zamburug'dan himoya qiladi, zararkunandalarga qarshi kurashadi, saqlash muddatini uzaytiradi va xodimlar uchun sog'lom havo muhitini yaratadi.",
+  "subcategories": {
+    "mold-prevention": {
+      "title": "Mog'or va zamburug'ga qarshi kurash",
+      "shortDesc": "Om borda mog'or o'sishini bostirish va yuqumlilik ochaklarini bartaraf etish",
+      "content": "Omborxona binolarida nazoratsiz mog'or o'sishi mahsulotlarning buzilishiga va xodimlarning sog'lig'ining yomonlashishiga olib keladi. Mog'or sporalari va havodagi toksinlar xodimlarning immunitetini zaiflashtiradi.\n\nOmborxona ozonlashi muammoni kompleks hal qiladi: mavjud yuqumlilik ochaklarini yo'q qiladi, yangi mog'or va zamburug' koloniyalarining o'sishini bostiradi, mikroorganizmlar faoliyati tufayli yuzaga keladigan yoqimsiz hidlarni bartaraf etadi.\n\nOzon bakteriya va zamburug' hujayralarining membran tuzilishi bilan o'zaro ta'sir qiladi, ularning to'siq funksiyasini buzadi va hujayra o'limiga olib keladi. Kimyoviy vositalardan farqli o'laroq, gaz barcha yoriqlar va uzoq burchaklarga kirib boradi.\n\nSamarali mog'orga qarshi kurash uchun ishlamaydigan vaqtda 1–3 soat ozonlash tavsiya etiladi. Ozon generatori quvvati xonaning har 25 m³ hajmi uchun taxminan 1 g/soat tanlanadi.",
+      "benefits": [
+        "95–99% mog'or yo'q qilish",
+        "Yangi koloniyalarni bostirish",
+        "Nam hidni bartaraf etish",
+        "Mahsulotlarni tushirmasdan davolash",
+        "Qiyin joylarga kirish",
+        "Kislorodga xavfsiz parchalanadi"
+      ]
+    },
+    "general-storage": {
+      "title": "Umumiy mahsulot saqlash",
+      "shortDesc": "Saqlanayotgan mahsulot sifati va ombor sanitariya holatini saqlash",
+      "content": "Ombor logistikasi keng mahsulot assortimentini saqlash uchun barqaror saqlash sharoitlarini talab qiladi. Havoni ozonlash dezinfeksiya, dezodorizatsiya va mahsulot buzilishining oldini olish vazifalarini kompleks hal qiladi.\n\nMuntazam ozonlash havoda va yuzalarda bakteriya yukini kamaytiradi, mahsulot saqlash muddatini uzaytiradi, yoqimsiz hidlarni bartaraf etadi va xodimlar uchun qulay sharoitlar yaratadi.\n\nTexnologiya aralash maqsadli omborlar, tarqatish markazlari va turli saqlash talablari bo'lgan mahsulot guruhlarini saqlaydigan logistika markazlari uchun ayniqsa muhim.\n\nOzon universal: bakteriyalar, viruslar, zamburug'lar va zararkunandalarga bir xil samarali. Davolash mahsulotlarni tushirishni talab qilmaydi va taymer orqali avtomatik bajarilishi mumkin.",
+      "benefits": [
+        "80–90% bakteriya yukini kamaytirish",
+        "Uzaytirilgan mahsulot saqlash muddati",
+        "Zararkunandalarning oldini olish",
+        "Hidni bartaraf etish",
+        "Ish sharoitlarini yaxshilash",
+        "Xodimlarsiz avtomatik davolash"
+      ]
+    }
+  }
+}

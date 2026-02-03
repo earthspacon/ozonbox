@@ -309,6 +309,28 @@ export function NumberedList({ items }: NumberedListProps) {
   )
 }
 
+interface SourcesListProps {
+  title: string
+  items: { title: string; url: string }[]
+}
+
+export function SourcesList({ title, items }: SourcesListProps) {
+  return (
+    <section className="my-12">
+      <h2 className="text-text-primary mb-4 text-xl font-bold md:text-2xl">{title}</h2>
+      <ol className="list-decimal space-y-2 pl-6">
+        {items.map((item, i) => (
+          <li key={i} className="text-text-secondary">
+            <a href={item.url} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+              {item.title}
+            </a>
+          </li>
+        ))}
+      </ol>
+    </section>
+  )
+}
+
 interface BreadcrumbItem {
   label: string
   href?: string
@@ -351,25 +373,31 @@ interface ArticleHeroProps {
 
 export function ArticleHero({ title, description, image, imageAlt, backLink }: ArticleHeroProps) {
   return (
-    <section className="relative overflow-hidden py-16 md:py-24">
+    <section className="relative min-h-[280px] overflow-hidden md:min-h-[360px]">
       <div className="absolute inset-0 z-0">
         <Image src={image} alt={imageAlt} fill className="object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
+        <div className="absolute inset-0 bg-black/65" aria-hidden />
       </div>
-      <div className="relative z-10 container">
-        {backLink && (
-          <a
-            href={backLink.href}
-            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
-          >
-            <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-            <span>{backLink.label}</span>
-          </a>
-        )}
-        <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">{title}</h1>
-        <p className="max-w-3xl text-xl text-white/80 md:text-2xl">{description}</p>
+      <div className="relative z-10 flex min-h-[280px] flex-col justify-end py-12 md:min-h-[360px] md:py-16">
+        <div className="container">
+          {backLink && (
+            <a
+              href={backLink.href}
+              className="mb-4 inline-flex items-center gap-2 text-sm text-white/90 transition-colors hover:text-white"
+            >
+              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+              <span>{backLink.label}</span>
+            </a>
+          )}
+          <h1 className="mb-3 text-3xl font-bold text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)] md:text-4xl lg:text-5xl">
+            {title}
+          </h1>
+          <p className="max-w-3xl text-base text-white/95 drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)] md:text-lg lg:text-xl">
+            {description}
+          </p>
+        </div>
       </div>
     </section>
   )

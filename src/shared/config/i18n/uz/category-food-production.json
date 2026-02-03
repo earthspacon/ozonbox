@@ -1,0 +1,71 @@
+{
+  "title": "Food production",
+  "description": "Ozonation at food facilities ensures product safety, extends shelf life and meets HACCP requirements. An eco-friendly alternative to chemical preservatives.",
+  "subcategories": {
+    "bottled-water": {
+      "title": "Bottled water",
+      "shortDesc": "Final ozonation in drinking water bottling",
+      "content": "Final ozonation is a key step in bottled drinking water production. The technology sterilizes water, packaging and equipment immediately before filling, preventing secondary microbiological contamination.\n\nUnder sanitary standards, ozonation is the preferred method for disinfecting drinking water. Chlorine is not permitted for bottled water. Ozone fully decays to oxygen, saturating the water and improving taste.\n\nAt residual ozone up to 0.1 mg/L and contact time of at least 12 minutes, full sterilization of water, bottle, headspace and cap is achieved. The product remains sterile until the package is opened.",
+      "benefits": [
+        "Compliance with drinking water standards",
+        "Simultaneous sterilization of water and packaging",
+        "Oxygen saturation up to 9 mg/L",
+        "No chemical residues",
+        "Extended product shelf life",
+        "Suitable for baby water"
+      ]
+    },
+    "dairy": {
+      "title": "Dairy production",
+      "shortDesc": "Equipment disinfection and dairy storage",
+      "content": "Ozonation in the dairy industry is used to disinfect equipment, tanks, milk lines and premises. The technology reduces the need for chemical detergents and ensures microbiological safety.\n\nOzonated water at 2–3 mg/L effectively disinfects cooling tanks, milking equipment and pipelines with 99.9% efficiency. Ozone destroys pathogens, including thermophilic bacteria resistant to pasteurization.\n\nIn cold storage of dairy products, chamber ozonation prevents mold and extends shelf life of cottage cheese, sour cream and other fermented products by 30–50%.",
+      "benefits": [
+        "Equipment disinfection up to 99.9%",
+        "Reduced chemical detergents",
+        "30–50% longer shelf life",
+        "Destruction of thermophilic bacteria",
+        "Listeriosis prevention",
+        "HACCP compliance"
+      ]
+    },
+    "meat-sausages": {
+      "title": "Meat and sausages",
+      "shortDesc": "Meat storage and sausage ripening chambers",
+      "content": "Ozonation is an effective disinfection method in meat production and storage. It is used to treat cold rooms, sausage ripening chambers and meat surfaces without changing sensory properties.\n\nFor chilled meat storage, ozonation at 8–10 mg/m³ for 4–5 hours every other day extends shelf life 2–5 times. Ozone destroys mesophilic and psychrotrophic microflora on carcass surfaces at 1–4°C.\n\nFor sausage ripening chambers, 3–8 mg/m³ with daily 3-hour treatment is recommended. Disinfection efficiency reaches 96–99% while preserving taste, aroma and texture.",
+      "benefits": [
+        "2–5 times longer meat shelf life",
+        "96–99% disinfection efficiency",
+        "Mold suppression on sausages",
+        "Preserved sensory properties",
+        "Operation at low temperatures",
+        "Eco-friendly — decay to oxygen"
+      ]
+    },
+    "cheese": {
+      "title": "Cheese production",
+      "shortDesc": "Ripening and storage of cheese without mold",
+      "content": "In cheese production, ozonation addresses the key issue of preventing unwanted mold on cheese surfaces during ripening and storage. The technology controls chamber microflora without affecting the ripening process.\n\nFor hard cheeses, 2–4 mg/m³ ozone is recommended; for soft cheeses, 3–6 mg/m³ at 8–12°C and 85–90% humidity. Treatment for 1.5–2 hours gives 94–99% disinfection efficiency.\n\nOzone prevents mold on the rind without disrupting ripening biochemistry. At correct dosage it does not affect color, consistency or taste. Ozonation has been recommended for hard cheese storage in industry guidelines.",
+      "benefits": [
+        "95–99% mold prevention",
+        "Ripening process preserved",
+        "Reduced product shrinkage",
+        "Treatment without unloading cheese",
+        "Compliance with cheese standards",
+        "Disinfection process automation"
+      ]
+    },
+    "cold-storage": {
+      "title": "Cold storage",
+      "shortDesc": "Disinfection and deodorization of cold stores",
+      "content": "Ozonation of cold rooms and warehouses is a proven technology for extending food shelf life and removing odors. It has major advantages over \"wet\" disinfection.\n\nTreatment can be done without warming the chamber or unloading product. At lower temperatures, ozonation is more effective. Chamber downtime is reduced by a factor of about 5 compared with traditional methods.\n\nFor empty chambers, 35–40 mg/m³ for 24 hours is recommended. For loaded chambers, 2–10 mg/m³ depending on product type. Ozone suppresses bacterial flora, prevents mold and removes musty odor.",
+      "benefits": [
+        "Treatment of loaded chambers",
+        "Operation at subzero temperatures",
+        "About 5× less downtime",
+        "Musty odor removal",
+        "Energy savings",
+        "No chemical residues"
+      ]
+    }
+  }
+}

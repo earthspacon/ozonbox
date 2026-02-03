@@ -1,7 +1,9 @@
 import Image from 'next/image'
+import { useTranslate } from '@tolgee/react'
 
-import { Layout } from '@/widgets'
+import { Layout } from '@/widgets/layout'
 
+import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
 import { AppLink } from '@/shared/ui/app-link'
 import {
   ArticleSection,
@@ -16,23 +18,31 @@ import {
   StatGrid,
 } from '@/shared/ui/article-components'
 import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
+import { Seo } from '@/shared/ui/seo'
 
 export function HotelsPage() {
+  const { t } = useTranslate()
+  const ns = getCategoryNamespace('horeca')
+
   return (
     <Layout>
+      <Seo title={t('subcategories.hotels.title', { ns })} description={t('subcategories.hotels.shortDesc', { ns })} />
       {/* Breadcrumbs */}
       <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
-              Применение
+              {t('nav.applications', { ns: NAMESPACES.common })}
             </AppLink>
             <span className="text-text-light">/</span>
-            <AppLink href="/applications/horeca" className="text-text-secondary hover:text-primary transition-colors">
-              HoReCa
+            <AppLink
+              href="/applications/horeca"
+              className="text-text-secondary hover:text-primary transition-colors"
+            >
+              {t('title', { ns })}
             </AppLink>
             <span className="text-text-light">/</span>
-            <span className="text-text-primary font-medium">Гостиницы и отели</span>
+            <span className="text-text-primary font-medium">{t('subcategories.hotels.title', { ns })}</span>
           </nav>
         </div>
       </div>
@@ -42,7 +52,7 @@ export function HotelsPage() {
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1920&q=80"
-            alt="Гостиничный номер"
+            alt={t('subcategories.hotels.title', { ns })}
             fill
             className="object-cover"
           />
@@ -54,11 +64,13 @@ export function HotelsPage() {
             className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
           >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
-            <span>HoReCa</span>
+            <span>{t('title', { ns })}</span>
           </AppLink>
-          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">Озонирование гостиниц и отелей</h1>
+          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
+            {t('subcategories.hotels.title', { ns })}
+          </h1>
           <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
-            Полная дезинфекция номеров и устранение запахов за 30-60 минут. Ощущение свежести без ароматизаторов.
+            {t('subcategories.hotels.shortDesc', { ns })}
           </p>
         </div>
       </section>
@@ -226,18 +238,18 @@ export function HotelsPage() {
       {/* CTA Section */}
       <section className="cta">
         <div className="container">
-          <h2 className="cta__title">Повысить рейтинг вашего отеля?</h2>
-          <p className="cta__text">Получите бесплатную консультацию и расчёт оборудования для вашей гостиницы</p>
+          <h2 className="cta__title">{t('cta.applications.title', { ns: NAMESPACES.common })}</h2>
+          <p className="cta__text">{t('cta.applications.text', { ns: NAMESPACES.common })}</p>
           <div className="cta__actions">
             <AppLink href="/contacts" className="btn btn--white btn--large">
-              Получить консультацию
+              {t('hero.getConsultation', { ns: NAMESPACES.common })}
             </AppLink>
             <a
               href="tel:+78001234567"
               className="btn btn--secondary btn--large"
               style={{ borderColor: 'white', color: 'white' }}
             >
-              Позвонить: 8 (800) 123-45-67
+              {t('header.phone', { ns: NAMESPACES.common })}
             </a>
           </div>
         </div>

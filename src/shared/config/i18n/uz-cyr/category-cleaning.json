@@ -1,0 +1,71 @@
+{
+  "title": "Cleaning",
+  "description": "Professional ozonation for cleaning companies: removal of ingrained odors, post-fire treatment, pet odor removal, vehicle ozonation and deep cleaning of carpets and upholstery.",
+  "subcategories": {
+    "odor-removal": {
+      "title": "Odor removal",
+      "shortDesc": "Removal of ingrained and persistent odors",
+      "content": "Ozonation is the most effective method for removing ingrained odors in premises. Unlike air fresheners and deodorizers, ozone does not mask odors but fully breaks down odor molecules into safe compounds: water and carbon dioxide.\n\nAs a gas, ozone penetrates everywhere: crevices, material pores, upholstery, carpets and even ventilation systems. This allows treating all surfaces at once, including areas inaccessible to manual cleaning.\n\nOzonation effectiveness depends on odor intensity, room volume, temperature and humidity. Lower temperature means more stable ozone and longer activity. At 0–5°C ozone can remain active for days; at 50°C it decays in 20–30 minutes.\n\nAfter treatment, ozone fully decays to oxygen with no chemical residues. The room is ready for use after 30–60 minutes of ventilation.",
+      "benefits": [
+        "Complete breakdown of odor molecules",
+        "Penetration into porous materials",
+        "Treatment of hard-to-reach areas",
+        "No chemical residues",
+        "Results in 4–10 hours",
+        "Permanent effect"
+      ]
+    },
+    "fire-smoke": {
+      "title": "Fire aftermath",
+      "shortDesc": "Removal of smoke and soot odor",
+      "content": "Fire smoke odor is among the hardest to remove. Smoke and soot particles penetrate plaster, concrete, wood, textiles and soak into upholstery and carpets. Conventional cleaning cannot remove this odor — it keeps coming back.\n\nOzonation is the only method that can fully eliminate fire odor without major renovation. Ozone penetrates all materials at the molecular level and oxidizes soot and combustion products, breaking their chemical structure.\n\nPost-fire treatment requires high ozone concentrations (40–80 mg/m³) and long exposure — 24 to 72 hours depending on damage. Multiple cycles with ventilation between are recommended.\n\nBefore ozonation, clean visible soot, wipe surfaces and remove badly damaged items. Ozone does not physically remove soot — it only eliminates the odor.",
+      "benefits": [
+        "Odor removal without renovation",
+        "Penetration into walls and ceilings",
+        "Whole-room treatment at once",
+        "Preservation of finishes",
+        "Faster recovery of the premises",
+        "Savings on major repairs"
+      ]
+    },
+    "pet-odors": {
+      "title": "Pet odors",
+      "shortDesc": "Removal of cat and dog urine odor",
+      "content": "Pet odors, especially cat urine, are among the most persistent and difficult to remove. Uric acid crystallizes in fabric fibers and reactivates with humidity, releasing a sharp ammonia smell. Conventional products only mask the problem temporarily.\n\nOzone breaks down uric acid crystals at the molecular level, fully removing the odor source. The gas penetrates upholstery, carpets, mattresses and baseboards — everywhere pets may have left marks.\n\nFor effective treatment, clean visible stains with an enzymatic cleaner first, then dry surfaces. Ozonation is run at 20–40 mg/m³ for 4–8 hours. Severe cases may need 2–3 cycles.\n\nImportant: ozonation is done with no people or pets present. After treatment, ventilate for 1–2 hours until the typical ozone smell is gone.",
+      "benefits": [
+        "Breakdown of uric acid crystals",
+        "Treatment of upholstery and carpets",
+        "Removal of marks in hard-to-reach spots",
+        "Destruction of bacteria and fungi",
+        "Preparation for sale or rental",
+        "More effective than enzymatic cleaners"
+      ]
+    },
+    "car-interiors": {
+      "title": "Car interiors",
+      "shortDesc": "Disinfection and deodorization of vehicles",
+      "content": "Car interior ozonation is a popular service at car washes and detailing centers. Over time, odors build up: tobacco, spilled drinks, food, sweat, pets. They soak into seat upholstery, carpets, headliner and AC ducts.\n\nOzone penetrates all interior materials, including ventilation and AC. This matters especially because bacteria and fungi often accumulate in ducts and cause odor when the AC is on.\n\nStandard car ozonation takes 30–60 minutes. The ozone generator is placed inside, recirculation is turned on to treat the ventilation system. Ozone concentration: 20–40 mg/m³. Ventilate for 15–30 minutes after treatment.\n\nFor used cars, ozonation helps remove the \"previous owner smell.\" For dealerships and car-sharing, regular ozonation keeps fleets fresh and hygienic.",
+      "benefits": [
+        "Treatment in 30–60 minutes",
+        "AC system disinfection",
+        "Tobacco odor removal",
+        "Preparation for sale",
+        "No traces or chemical residues",
+        "Destruction of bacteria and fungi"
+      ]
+    },
+    "carpet-cleaning": {
+      "title": "Carpets and upholstery",
+      "shortDesc": "Deep cleaning of textile surfaces",
+      "content": "Carpets and upholstery are the main odor reservoirs in a room. Textile fibers absorb dust, fungal spores, bacteria, skin particles, sweat and spills. Over time a characteristic musty odor forms that normal cleaning cannot remove.\n\nOzonation complements conventional dry cleaning with deep deodorization and disinfection. After wet carpet cleaning, ozone penetrates fibers and destroys remaining bacteria, fungal spores and odor molecules.\n\nFor local treatment of furniture or carpet, \"chamber ozonation\" is used: the item is covered with plastic film and ozone is fed underneath. Exposure: 2–4 hours. This creates high ozone concentration directly in the item.\n\nOzonation is effective after flooding: it removes damp odor and prevents mold in wet furniture and carpets. Treatment should be done after items are dried.",
+      "benefits": [
+        "Complement to dry cleaning",
+        "Destruction of dust mites",
+        "Musty odor removal",
+        "Mold prevention",
+        "Post-flood treatment",
+        "Longer life of textiles"
+      ]
+    }
+  }
+}

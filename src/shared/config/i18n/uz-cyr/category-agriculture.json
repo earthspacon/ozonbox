@@ -1,0 +1,103 @@
+{
+  "title": "Agriculture",
+  "description": "Ozonation in agriculture increases yields, extends product shelf life and ensures biosecurity. An eco-friendly alternative to chemical pesticides and preservatives.",
+  "subcategories": {
+    "poultry": {
+      "title": "Poultry farming",
+      "shortDesc": "Disinfection of eggs, incubators and poultry house premises",
+      "content": "Ozonation is a key technology for modern poultry farms. Ozone use covers all production stages: from egg incubation to storage of finished product.\n\nOzone effectively disinfects hatching eggs with 92–98% efficiency, destroying Salmonella, E. coli and other pathogens without damaging the shell. This increases hatchability by 0.8–2.0% and reduces early mortality.\n\nPoultry house ozonation destroys up to 99.9% of bacteria, viruses and fungi in the air and on surfaces. Regular air ozonation reduces flock morbidity and improves weight gain and feed conversion.\n\nOzonated drinking water contains more oxygen and has no pathogenic microflora, which positively affects flock health and productivity.",
+      "benefits": [
+        "92–98% egg disinfection",
+        "Up to 2% higher hatchability",
+        "99.9% pathogen destruction in poultry houses",
+        "Clean drinking water without chemicals",
+        "Extended poultry meat shelf life",
+        "Reduced mortality and morbidity"
+      ]
+    },
+    "livestock": {
+      "title": "Livestock farming",
+      "shortDesc": "Farm disinfection, feed treatment and extended meat storage",
+      "content": "In livestock farming, ozonation addresses a range of tasks: from maintaining sanitary conditions to extending meat product shelf life.\n\nAir ozonation in livestock buildings reduces concentrations of pathogens, ammonia and unpleasant odors. This improves microclimate, reduces animal stress and respiratory disease risk.\n\nFor meat storage, ozonation ensures destruction of surface microflora on carcasses while preserving nutritional and sensory quality. Regular cold room ozonation can extend chilled meat shelf life 2–5 times.\n\nOzone concentration of 10 mg/m³ for 2–5 hours ensures complete destruction of mesophilic and psychrotrophic microflora on meat surface at 1–4°C.",
+      "benefits": [
+        "2–5 times longer meat shelf life",
+        "99.9% cold room disinfection",
+        "Reduced flock morbidity",
+        "Ammonia and odor removal",
+        "Preserved product quality",
+        "Operation at subzero temperatures"
+      ]
+    },
+    "vegetable-storage": {
+      "title": "Vegetable storage",
+      "shortDesc": "Reduced losses of vegetables and fruit during long storage",
+      "content": "Vegetable storage ozonation is an effective way to reduce losses during long-term storage. Ozone quickly and thoroughly disinfects air and surfaces, destroying viruses, bacteria, fungi and mold.\n\nOzone breaks down ethylene, which accelerates ripening and shortens storage life. This allows storing ethylene-sensitive produce together with ethylene-producing produce.\n\nFor a 300-ton carrot store, ozonation equipment can reduce losses on average by a factor of 3.\n\nTreatment regime for most vegetables and fruit: 1–2 times per day for 2–4 hours. Special regimes are used for potatoes, cabbage, apples and other crops.",
+      "benefits": [
+        "About 3× lower losses",
+        "Mold and rot destruction",
+        "Ethylene breakdown for longer storage",
+        "Mold spore germination suppression",
+        "Operation at subzero temperatures",
+        "Payback in the first season"
+      ]
+    },
+    "greenhouses": {
+      "title": "Greenhouses and crop production",
+      "shortDesc": "Higher yields and plant disease protection",
+      "content": "In greenhouse production, ozone is used to disinfect air, plant surfaces and soil. Ozonation increases yields and effectively controls disease without chemical pesticides.\n\nOzone dissolves in water about 15 times better than oxygen. Irrigation with ozonated water increases yields by 13–35% through improved soil quality, greater root mass and reduced root pathogens.\n\nDisinfection of greenhouse soils with concentrated ozone solution effectively suppresses root-knot nematode by 90–98% and stimulates plant growth. Biomass can increase by up to 30%.\n\nGreenhouse air ozonation destroys fungi, bacteria, yeast, viruses and pests. High concentrations are used to prepare the greenhouse for planting when the facility is unoccupied.",
+      "benefits": [
+        "13–35% yield increase",
+        "90–98% nematode destruction",
+        "Increased root mass",
+        "Disease control without chemicals",
+        "30–45% more dissolved oxygen in irrigation water",
+        "Eco-friendly technology"
+      ]
+    },
+    "aquaculture": {
+      "title": "Aquaculture (RAS)",
+      "shortDesc": "Water treatment and fish disease control in recirculating aquaculture systems",
+      "stats": {
+        "disinfection": { "value": "Up to 99%", "label": "Disinfection", "description": "Pathogen destruction in water" },
+        "cycleSaving": { "value": "20-30%", "label": "Cycle shortening", "description": "Faster fish growth" },
+        "mortalityReduction": { "value": "50-70%", "label": "Mortality reduction", "description": "Among juveniles and adults" },
+        "waterSaving": { "value": "40-60%", "label": "Water savings", "description": "Reduced fresh water supply" }
+      },
+      "content": "In fish farming, ozonation is used at all production stages: from water preparation to storage of harvest. Ozone disinfects water, controls fish diseases and extends storage life.\n\nIn recirculating aquaculture systems (RAS), ozonation removes heavy metal ions, microalgae, toxins, fungal spores, microbes and cysts. Water turbidity drops significantly and unpleasant odors disappear.\n\nOzone destroys up to 99% of pathogenic organisms: viruses, bacteria and parasitic protozoa. This reduces fish morbidity and mortality and allows higher stocking density.\n\nRecommended ozone dose is about 13 g per 1 kg of feed. In clean water, fish gain weight faster and the production cycle shortens.",
+      "benefits": [
+        "Up to 99% pathogen disinfection",
+        "Shorter production cycle",
+        "Reduced fish mortality",
+        "Higher stocking density possible",
+        "Reduced fresh water demand",
+        "Water oxygen saturation"
+      ]
+    },
+    "grain-storage": {
+      "title": "Grain storage",
+      "shortDesc": "Protection from pests and microorganisms without chemicals",
+      "content": "Grain storage is a critical process where pest losses can account for 5 to 50% of world production. Seed and grain ozonation effectively controls pests and prevents mold spread.\n\nOzone affects insects and mites at all life stages. After treatment at 30–60 mg/m³ for 30–60 minutes, mortality of grain weevil, rice weevil and grain borer reaches 95–99%.\n\nGrain disinfection level at exposure from 15 minutes to 1 hour reaches 80–95% for total contamination and 80–90% for mold fungi. Treatment does not impair sensory or nutritional quality.\n\nPre-sowing seed ozonation increases germination and stress resistance. Wheat yield can increase by about 22%, barley by about 17.5%.",
+      "benefits": [
+        "95–99% pest destruction",
+        "80–95% disinfection",
+        "17–22% yield increase with pre-sowing treatment",
+        "Preserved nutritional quality",
+        "Eco-friendly fumigation alternative",
+        "40–60% loss reduction"
+      ]
+    },
+    "beekeeping": {
+      "title": "Beekeeping",
+      "shortDesc": "Hive and comb disinfection and bee disease control",
+      "content": "Ozonation in beekeeping is used to disinfect hives, frames and combs from bee disease pathogens. Treatment with moderate ozone concentrations has a beneficial effect on colony activity.\n\nRegular ozonation reduces pathogenic microorganisms and humidity in the hive air and improves gas composition. As a result, treated colonies can show about 25 kg more marketable honey per season.\n\nFor chalkbrood (ascosphaerosis) control, ozone at 250 mg/m³ for 1 hour twice daily for 7 days is used. In severe cases, 500 mg/m³ four times daily.\n\nOzone effectively acts on spores of the fungus Ascosphaera apis. Disinfection level reaches 50–77% depending on the treated surface material.",
+      "benefits": [
+        "About 25 kg more honey per season",
+        "About 39% productivity increase",
+        "Chalkbrood control",
+        "Comb and equipment disinfection",
+        "Improved hive microclimate",
+        "Safety for honey and bees"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Industry",
+  "description": "Industrial ozonation for wastewater treatment, air treatment at production sites and compliance with environmental standards. High-capacity solutions for large enterprises.",
+  "subcategories": {
+    "oil-removal": {
+      "title": "Oil-containing wastewater treatment",
+      "shortDesc": "Ozonation of industrial wastewater for oil product removal",
+      "content": "Ozonation is a highly effective method for treating oil-containing wastewater from industrial plants. The technology achieves discharge standards without reagents or secondary pollution.\n\nOil products in wastewater pose a serious environmental threat: 1 liter of oil can pollute up to 1 million liters of water. The maximum allowable concentration of oil products for discharge into fishery water bodies is 0.05 mg/L.\n\nOzone oxidizes oil products to carbon dioxide and water, ensuring deep destruction of pollutants. Treatment efficiency reaches 95–99% at initial oil product concentrations of 5–50 mg/L.\n\nThe technology is used at refineries, transport depots, shipyards, metallurgical plants and any facilities with oil-containing effluents.",
+      "benefits": [
+        "95–99% treatment efficiency",
+        "Achieving 0.05 mg/L discharge limit",
+        "No secondary pollution",
+        "Mineralization to CO₂ and H₂O",
+        "Compliance with environmental norms",
+        "Lower environmental fees"
+      ]
+    },
+    "manufacturing": {
+      "title": "Production air treatment",
+      "shortDesc": "Air purification and disinfection in production facilities",
+      "content": "Air ozonation at production sites addresses disinfection of work areas, odor removal, neutralization of harmful substances and compliance with occupational health standards.\n\nIn production facilities, concentrations of microorganisms and harmful substances can far exceed sanitary norms. Ozonation reduces microbial load by 80–95% and oxidizes volatile organic compounds.\n\nThe technology is effective for food production, pharmaceutical plants, packaging facilities, warehouses and any sites with strict air quality requirements.\n\nIndustrial ozone generators provide capacity from 10 to 1000 g/h, enabling treatment of spaces from 100 to 50,000 m³.",
+      "benefits": [
+        "80–95% reduction in microflora",
+        "Elimination of industrial odors",
+        "Compliance with occupational health norms",
+        "Oxidation of VOCs",
+        "Improved working conditions",
+        "Scalable industrial solutions"
+      ]
+    }
+  }
+}

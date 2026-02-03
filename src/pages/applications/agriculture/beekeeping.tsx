@@ -1,19 +1,17 @@
+import { GetStaticProps } from 'next'
+
 import { BeekeepingPage } from '@/@pages/applications/agriculture/beekeeping'
 
-import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
-import { Seo } from '@/shared/ui/seo'
+import { DEFAULT_LOCALE, getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { loadNamespaces, withTolgee } from '@/shared/lib'
 
-function Page() {
-  return (
-    <>
-      <Seo
-        title="Озонирование в пчеловодстве"
-        description="Озонирование ульев и сот: увеличение медосбора на 25 кг/сезон, борьба с аскосферозом. Экологичный метод дезинфекции для здоровых пчёл."
-      />
-      <BeekeepingPage />
-    </>
-  )
+export const getStaticProps: GetStaticProps = async () => {
+  const staticData = await loadNamespaces(DEFAULT_LOCALE as TLocale, [
+    NAMESPACES.common,
+    NAMESPACES.applications,
+    getCategoryNamespace('agriculture'),
+  ])
+  return { props: { staticData, lang: DEFAULT_LOCALE } }
 }
 
-export const getStaticProps = getStaticPropsDefault
-export default withTolgee(Page)
+export default withTolgee(BeekeepingPage)

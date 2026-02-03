@@ -1,0 +1,14 @@
+{
+  "list": {
+    "pageTitle": "Ozonlash haqida maqolalar",
+    "pageDescription": "Qishloq xo'jaligi, sanoat va ekologiyada ozondan foydalanish bo'yicha ilmiy va amaliy materiallar.",
+    "more": "Batafsil",
+    "backToArticles": "Maqolalar ro'yxatiga"
+  },
+  "articles": {
+    "ozoneGrainProtection": {
+      "title": "Ozon — donni ekologik xavfsiz himoya qilish",
+      "excerpt": "Purdue universiteti tadqiqotlari shuni ko'rsatdiki: ozon don saqlash inshootlarida hasharotlarni samarali yo'q qiladi, don sifati va atrof-muhitga zarar yetkazmasdan."
+    }
+  }
+}

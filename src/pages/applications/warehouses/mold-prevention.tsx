@@ -1,19 +1,17 @@
+import { GetStaticProps } from 'next'
+
 import { MoldPreventionPage } from '@/@pages/applications/warehouses/mold-prevention'
 
-import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
-import { Seo } from '@/shared/ui/seo'
+import { DEFAULT_LOCALE, getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { loadNamespaces, withTolgee } from '@/shared/lib'
 
-function Page() {
-  return (
-    <>
-      <Seo
-        title="Борьба с плесенью на складе"
-        description="Озонирование складов для уничтожения плесени и грибка. Защита товаров и здоровья персонала. Уничтожение до 99% плесени без химикатов."
-      />
-      <MoldPreventionPage />
-    </>
-  )
+export const getStaticProps: GetStaticProps = async () => {
+  const staticData = await loadNamespaces(DEFAULT_LOCALE as TLocale, [
+    NAMESPACES.common,
+    NAMESPACES.applications,
+    getCategoryNamespace('warehouses'),
+  ])
+  return { props: { staticData, lang: DEFAULT_LOCALE } }
 }
 
-export const getStaticProps = getStaticPropsDefault
-export default withTolgee(Page)
+export default withTolgee(MoldPreventionPage)

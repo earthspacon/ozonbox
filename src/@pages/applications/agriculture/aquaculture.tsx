@@ -1,7 +1,9 @@
 import Image from 'next/image'
+import { useTranslate } from '@tolgee/react'
 
-import { Layout } from '@/widgets'
+import { Layout } from '@/widgets/layout'
 
+import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
 import { AppLink } from '@/shared/ui/app-link'
 import {
   ArticleSection,
@@ -16,26 +18,31 @@ import {
   StatGrid,
 } from '@/shared/ui/article-components'
 import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
+import { Seo } from '@/shared/ui/seo'
 
 export function AquaculturePage() {
+  const { t } = useTranslate()
+  const ns = getCategoryNamespace('agriculture')
+
   return (
     <Layout>
+      <Seo title={t('subcategories.aquaculture.title', { ns })} description={t('subcategories.aquaculture.shortDesc', { ns })} />
       {/* Breadcrumbs */}
       <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
           <nav className="flex items-center gap-2 text-sm">
             <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
-              Применение
+              {t('nav.applications', { ns: NAMESPACES.common })}
             </AppLink>
             <span className="text-text-light">/</span>
             <AppLink
               href="/applications/agriculture"
               className="text-text-secondary hover:text-primary transition-colors"
             >
-              Сельское хозяйство
+              {t('title', { ns })}
             </AppLink>
             <span className="text-text-light">/</span>
-            <span className="text-text-primary font-medium">Аквакультура (УЗВ)</span>
+            <span className="text-text-primary font-medium">{t('subcategories.aquaculture.title', { ns })}</span>
           </nav>
         </div>
       </div>
@@ -45,7 +52,7 @@ export function AquaculturePage() {
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1920&q=80"
-            alt="Аквакультура и УЗВ"
+            alt={t('subcategories.aquaculture.title', { ns })}
             fill
             className="object-cover"
           />
@@ -57,14 +64,13 @@ export function AquaculturePage() {
             className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
           >
             <IconArrowLeft style={{ width: 20, height: 20 }} />
-            <span>Сельское хозяйство</span>
+            <span>{t('title', { ns })}</span>
           </AppLink>
           <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
-            Озонирование в аквакультуре и УЗВ
+            {t('subcategories.aquaculture.title', { ns })}
           </h1>
           <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
-            Обеззараживание воды до 99%, сокращение производственного цикла и снижение смертности рыб. Современная
-            технология для установок замкнутого водоснабжения.
+            {t('subcategories.aquaculture.shortDesc', { ns })}
           </p>
         </div>
       </section>
@@ -74,19 +80,29 @@ export function AquaculturePage() {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value="до 99%"
-              label="Обеззараживание"
-              description="Уничтожение патогенов в воде"
+              value={t('subcategories.aquaculture.stats.disinfection.value', { ns })}
+              label={t('subcategories.aquaculture.stats.disinfection.label', { ns })}
+              description={t('subcategories.aquaculture.stats.disinfection.description', { ns })}
               variant="primary"
             />
-            <StatCard value="20-30%" label="Сокращение цикла" description="Ускорение роста рыбы" variant="accent" />
             <StatCard
-              value="50-70%"
-              label="Снижение смертности"
-              description="Среди молоди и взрослых особей"
+              value={t('subcategories.aquaculture.stats.cycleSaving.value', { ns })}
+              label={t('subcategories.aquaculture.stats.cycleSaving.label', { ns })}
+              description={t('subcategories.aquaculture.stats.cycleSaving.description', { ns })}
+              variant="accent"
+            />
+            <StatCard
+              value={t('subcategories.aquaculture.stats.mortalityReduction.value', { ns })}
+              label={t('subcategories.aquaculture.stats.mortalityReduction.label', { ns })}
+              description={t('subcategories.aquaculture.stats.mortalityReduction.description', { ns })}
               variant="primary"
             />
-            <StatCard value="40-60%" label="Экономия воды" description="Снижение подачи свежей воды" variant="accent" />
+            <StatCard
+              value={t('subcategories.aquaculture.stats.waterSaving.value', { ns })}
+              label={t('subcategories.aquaculture.stats.waterSaving.label', { ns })}
+              description={t('subcategories.aquaculture.stats.waterSaving.description', { ns })}
+              variant="accent"
+            />
           </StatGrid>
         </div>
       </section>
@@ -281,20 +297,18 @@ export function AquaculturePage() {
       {/* CTA Section */}
       <section className="cta">
         <div className="container">
-          <h2 className="cta__title">Внедрить озонирование в вашей УЗВ?</h2>
-          <p className="cta__text">
-            Получите бесплатную консультацию и расчёт оборудования для вашего рыбоводного хозяйства
-          </p>
+          <h2 className="cta__title">{t('cta.applications.title', { ns: NAMESPACES.common })}</h2>
+          <p className="cta__text">{t('cta.applications.text', { ns: NAMESPACES.common })}</p>
           <div className="cta__actions">
             <AppLink href="/contacts" className="btn btn--white btn--large">
-              Получить консультацию
+              {t('hero.getConsultation', { ns: NAMESPACES.common })}
             </AppLink>
             <a
               href="tel:+78001234567"
               className="btn btn--secondary btn--large"
               style={{ borderColor: 'white', color: 'white' }}
             >
-              Позвонить: 8 (800) 123-45-67
+              {t('header.phone', { ns: NAMESPACES.common })}
             </a>
           </div>
         </div>

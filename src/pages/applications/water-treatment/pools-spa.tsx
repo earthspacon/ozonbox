@@ -1,19 +1,17 @@
+import { GetStaticProps } from 'next'
+
 import { PoolsSpaPage } from '@/@pages/applications/water-treatment/pools-spa'
 
-import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
-import { Seo } from '@/shared/ui/seo'
+import { DEFAULT_LOCALE, getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { loadNamespaces, withTolgee } from '@/shared/lib'
 
-function Page() {
-  return (
-    <>
-      <Seo
-        title="Озонирование бассейнов и SPA"
-        description="Озонирование воды в бассейнах: кристально чистая вода без хлорки, не раздражает глаза и кожу. Снижение расхода химии в 7 раз. Соответствие СанПиН."
-      />
-      <PoolsSpaPage />
-    </>
-  )
+export const getStaticProps: GetStaticProps = async () => {
+  const staticData = await loadNamespaces(DEFAULT_LOCALE as TLocale, [
+    NAMESPACES.common,
+    NAMESPACES.applications,
+    getCategoryNamespace('water-treatment'),
+  ])
+  return { props: { staticData, lang: DEFAULT_LOCALE } }
 }
 
-export const getStaticProps = getStaticPropsDefault
-export default withTolgee(Page)
+export default withTolgee(PoolsSpaPage)

@@ -1,0 +1,71 @@
+{
+  "title": "Medicine",
+  "description": "Ozone therapy and ozonation in medicine: sterilization of operating rooms and wards, disinfection of medical equipment, treatment of dental offices, rehabilitation centers and ambulances.",
+  "subcategories": {
+    "hospitals": {
+      "title": "Hospitals and operating rooms",
+      "shortDesc": "Sterilization of wards and operating blocks",
+      "content": "Hospital ozonation provides the highest level of sterility, critical for preventing nosocomial infections. Ozone destroys bacteria, viruses, spores and fungi with up to 99.99% efficiency.\n\nOperating blocks require special sanitary regimes. Ozonation after surgery ensures deep disinfection of all surfaces, including hard-to-reach areas: equipment crevices, ventilation systems, ceiling fixtures.\n\nICU and resuscitation wards are high-risk zones for infection transmission between patients. Regular ozonation reduces microbial load in the air and on surfaces, complementing standard cleaning protocols.\n\nOzone is effective against antibiotic-resistant bacteria, including MRSA and VRE, which pose a serious threat in healthcare. After treatment, ozone decays to oxygen with no toxic residues, which is important for patient safety.",
+      "benefits": [
+        "99.99% efficiency against pathogens",
+        "Fight against nosocomial infections",
+        "Destruction of antibiotic-resistant bacteria",
+        "Disinfection of hard-to-reach areas",
+        "No toxic chemical residues",
+        "Complement to standard protocols"
+      ]
+    },
+    "equipment-sterilization": {
+      "title": "Medical equipment sterilization",
+      "shortDesc": "Sterilization of instruments and devices",
+      "content": "Ozone is used to sterilize medical equipment that cannot be treated with high temperatures or harsh chemicals: endoscopes, plastic items, electronics, optics.\n\nLow-temperature ozone sterilization is an alternative to autoclaving for heat-sensitive equipment. The process runs at 25–35°C and 80–90% relative humidity, which is safe for most materials.\n\nEndoscopic equipment is especially demanding. Complex construction with narrow channels creates a risk of incomplete treatment by traditional methods. Ozone gas penetrates all cavities and channels for full sterilization.\n\nThe ozone sterilization cycle includes: pre-humidification, exposure in ozone atmosphere for 30–60 minutes, and degassing. The method is validated for use in healthcare and meets sterilization standards.",
+      "benefits": [
+        "Low-temperature sterilization",
+        "Safe for plastic and electronics",
+        "Penetration into narrow channels",
+        "Endoscope treatment",
+        "No damage to optics",
+        "Compliance with medical standards"
+      ]
+    },
+    "dental": {
+      "title": "Dental clinics",
+      "shortDesc": "Sterilization of offices and instruments",
+      "content": "Dental procedures create aerosol with potentially pathogenic microorganisms. Ozonation of operatories between patients ensures disinfection of air and all surfaces, reducing cross-infection risk.\n\nModern dentistry uses ozone not only for room disinfection but also therapeutically: caries cavity treatment, periodontal disease treatment, root canal disinfection.\n\nDental operatory ozonation after each patient takes 15–20 minutes and can be done during breaks. The gas penetrates hard-to-reach parts of equipment: hoses, handpieces, water lines.\n\nSpeed of treatment and absence of chemical odors after disinfection are especially important for dental clinics. Ozone decays to oxygen in 20–30 minutes, leaving a light fresh smell. Patients note a pleasant atmosphere.",
+      "benefits": [
+        "Disinfection after each patient",
+        "Treatment in 15–20 minutes",
+        "Therapeutic use of ozone",
+        "Dental equipment cleaning",
+        "No chemical odors",
+        "Cross-infection prevention"
+      ]
+    },
+    "rehabilitation": {
+      "title": "Rehabilitation centers",
+      "shortDesc": "Ozone therapy and sanitary treatment",
+      "content": "Rehabilitation centers and sanatoriums use ozone in two ways: ozone therapy as a treatment and recovery method, and room ozonation to maintain sanitary standards.\n\nOzone therapy is used for musculoskeletal, cardiovascular and skin conditions. Methods include: ozone baths, subcutaneous injections, autohemotherapy with ozone, rectal insufflations.\n\nOzonation of wards and procedure rooms is especially important in centers where elderly patients and people with weakened immunity undergo rehabilitation. Ozone reduces the risk of respiratory infection spread between patients.\n\nPools, saunas and spa areas in rehabilitation centers are also treated with ozone. Pool water ozonation reduces chlorine demand, making procedures more comfortable for patients with sensitive skin.",
+      "benefits": [
+        "Ozone therapy as treatment",
+        "Disinfection of wards and procedure rooms",
+        "Protection for immunocompromised patients",
+        "Pool and spa ozonation",
+        "Reduced chlorine in water",
+        "Integrated rehabilitation approach"
+      ]
+    },
+    "ambulances": {
+      "title": "Ambulances",
+      "shortDesc": "Express disinfection of medical transport",
+      "content": "Ambulances transport patients with various infectious diseases. Fast and effective disinfection between calls is critical to prevent infection spread.\n\nAmbulance interior ozonation takes 20–30 minutes and ensures full disinfection of all surfaces: stretchers, equipment, handrails, floor, walls and ceiling. The gas penetrates seat upholstery and hard-to-reach areas.\n\nTraditional wiping with disinfectants cannot achieve the same level of treatment as gas disinfection. Ozone reaches areas inaccessible to manual wiping and destroys pathogens in the air.\n\nMobile ozone generators for ambulances run from 12V or 24V vehicle power. Equipment is compact and can be stored in the cabin. After treatment, ventilate for 10–15 minutes. The vehicle is ready for the next call.",
+      "benefits": [
+        "Express disinfection in 20–30 minutes",
+        "Full treatment of all surfaces",
+        "Operation from electrical supply",
+        "Compact mobile equipment",
+        "Cross-infection prevention",
+        "Quick readiness for next call"
+      ]
+    }
+  }
+}

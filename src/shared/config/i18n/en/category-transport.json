@@ -1,0 +1,58 @@
+{
+  "title": "Transport",
+  "description": "Ozonation of vehicles ensures sanitary safety of passenger transport, disinfection of cargo containers and an eco-friendly alternative to chemical fumigation.",
+  "subcategories": {
+    "public-buses": {
+      "title": "Buses",
+      "shortDesc": "Disinfection of passenger buses",
+      "content": "Daily ozonation of passenger buses reduces infection risk, removes unpleasant odors and creates a comfortable environment for passengers. Treatment is done between runs or at night in the depot.\n\nOzone disinfects all interior surfaces: handrails, seats, walls, floor and ceiling. The gas penetrates seat upholstery, floor coverings and ventilation — everywhere bacteria and viruses can accumulate.\n\nTreatment: 20–40 minutes with windows and doors closed. The generator is placed at maximum height inside. After treatment, ventilate 15–20 minutes or use the ventilation system. The process can be automated.\n\nEquipment can run from the bus power (12V or 24V) or from 220V in the depot. Mobile generators can treat several buses. No consumables reduce operating costs.",
+      "benefits": [
+        "Infection prevention",
+        "Interior odor removal",
+        "Quick treatment in 20–40 minutes",
+        "Operation from vehicle power",
+        "Passenger comfort",
+        "Low operating costs"
+      ]
+    },
+    "railway": {
+      "title": "Railway carriages",
+      "shortDesc": "Treatment of passenger and freight cars",
+      "content": "Railway carriage ozonation is used to disinfect compartments, open coaches and toilets, and to treat freight cars between runs. It effectively removes odors and destroys pathogens.\n\nPassenger cars have high occupancy and limited ventilation. Ozonation in the depot between runs provides deep disinfection of all surfaces and textiles: shelves, curtains, carpeting.\n\nToilet treatment with ozone is especially effective: the gas neutralizes odors at the molecular level and destroys bacteria in hard-to-reach areas. The result is clean, fresh spaces without harsh chemicals.\n\nFreight cars are ozonated to remove odors from previous cargo and to prepare for sensitive goods. Ozonation is an eco-friendly alternative to chemical treatment and leaves no residues on walls.",
+      "benefits": [
+        "Disinfection of compartments and coaches",
+        "Deep toilet treatment",
+        "Textile odor removal",
+        "Freight car preparation",
+        "No chemical residues",
+        "Treatment in depot between runs"
+      ]
+    },
+    "shipping-containers": {
+      "title": "Shipping containers",
+      "shortDesc": "Container fumigation with ozone",
+      "content": "Ozonation is an eco-friendly alternative to chemical fumigation of shipping containers. Ozone destroys pests, mold spores and bacteria and removes quarantine odors without toxic residues.\n\nTraditional fumigation with methyl bromide or phosphine leaves toxic residues, requires long degassing and special permits. Ozone decays to oxygen in hours without polluting the environment or cargo.\n\nOzone is effective against insects at all stages: eggs, larvae, pupae and adults. Treatment is done in a sealed container for 12–24 hours depending on pest type.\n\nAfter ozonation, the container is ventilated for 2–4 hours to safe levels. The method is approved for containers with food, textiles, wood and other chemically sensitive goods.",
+      "benefits": [
+        "Eco-friendly fumigation alternative",
+        "Destruction of pest insects",
+        "No toxic residues",
+        "Decay to pure oxygen",
+        "Suitable for food cargo",
+        "Quarantine odor removal"
+      ]
+    },
+    "auto-transport": {
+      "title": "Road freight",
+      "shortDesc": "Trucks and vans",
+      "content": "Ozonation of trucks and vans ensures sanitary safety of cargo, especially important for food. It removes odors from previous loads and disinfects the cargo area.\n\nRefrigerated and insulated vans need careful sanitation. Ozonation destroys bacteria, mold and spores that can spoil products. Treatment is done between runs.\n\nFor vans carrying mixed cargo, ozonation removes cross-odors. Smells of fish, chemicals or fertilizers can soak into walls and transfer to other goods. Ozone neutralizes these odors.\n\nTreatment: 30–60 minutes with doors closed. A mobile generator is placed inside the cargo area. After treatment, ventilate 15–20 minutes. For large fleets, fixed ozonation systems in the loading zone are recommended.",
+      "benefits": [
+        "Food transport safety",
+        "Cargo odor removal",
+        "Refrigerator disinfection",
+        "Compliance with sanitary norms",
+        "Quick treatment between runs",
+        "Cargo quality preservation"
+      ]
+    }
+  }
+}

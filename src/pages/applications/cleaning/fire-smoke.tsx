@@ -1,19 +1,17 @@
+import { GetStaticProps } from 'next'
+
 import { FireSmokePage } from '@/@pages/applications/cleaning/fire-smoke'
 
-import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
-import { Seo } from '@/shared/ui/seo'
+import { DEFAULT_LOCALE, getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { loadNamespaces, withTolgee } from '@/shared/lib'
 
-function Page() {
-  return (
-    <>
-      <Seo
-        title="Удаление запаха гари после пожара"
-        description="Устранение последствий задымления без капитального ремонта. Озон проникает в стены, перекрытия и мебель, разрушая частицы сажи. Обработка за 24-72 часа."
-      />
-      <FireSmokePage />
-    </>
-  )
+export const getStaticProps: GetStaticProps = async () => {
+  const staticData = await loadNamespaces(DEFAULT_LOCALE as TLocale, [
+    NAMESPACES.common,
+    NAMESPACES.applications,
+    getCategoryNamespace('cleaning'),
+  ])
+  return { props: { staticData, lang: DEFAULT_LOCALE } }
 }
 
-export const getStaticProps = getStaticPropsDefault
-export default withTolgee(Page)
+export default withTolgee(FireSmokePage)

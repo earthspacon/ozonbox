@@ -1,19 +1,17 @@
+import { GetStaticProps } from 'next'
+
 import { ColdStoragePage } from '@/@pages/applications/food-production/cold-storage'
 
-import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
-import { Seo } from '@/shared/ui/seo'
+import { DEFAULT_LOCALE, getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { loadNamespaces, withTolgee } from '@/shared/lib'
 
-function Page() {
-  return (
-    <>
-      <Seo
-        title="Озонирование холодильных камер"
-        description="Дезинфекция и дезодорация холодильных складов озоном. Обработка загруженных камер без отепления. Сокращение простоя в 5 раз. Устранение затхлых запахов."
-      />
-      <ColdStoragePage />
-    </>
-  )
+export const getStaticProps: GetStaticProps = async () => {
+  const staticData = await loadNamespaces(DEFAULT_LOCALE as TLocale, [
+    NAMESPACES.common,
+    NAMESPACES.applications,
+    getCategoryNamespace('food-production'),
+  ])
+  return { props: { staticData, lang: DEFAULT_LOCALE } }
 }
 
-export const getStaticProps = getStaticPropsDefault
-export default withTolgee(Page)
+export default withTolgee(ColdStoragePage)

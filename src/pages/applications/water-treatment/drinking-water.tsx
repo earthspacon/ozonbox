@@ -1,19 +1,17 @@
+import { GetStaticProps } from 'next'
+
 import { DrinkingWaterPage } from '@/@pages/applications/water-treatment/drinking-water'
 
-import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
-import { Seo } from '@/shared/ui/seo'
+import { DEFAULT_LOCALE, getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { loadNamespaces, withTolgee } from '@/shared/lib'
 
-function Page() {
-  return (
-    <>
-      <Seo
-        title="Озонирование питьевой воды"
-        description="Озонирование питьевой воды: обеззараживание на 99,99% без канцерогенных побочных продуктов. Стандарт качества в Европе. Соответствие СанПиН."
-      />
-      <DrinkingWaterPage />
-    </>
-  )
+export const getStaticProps: GetStaticProps = async () => {
+  const staticData = await loadNamespaces(DEFAULT_LOCALE as TLocale, [
+    NAMESPACES.common,
+    NAMESPACES.applications,
+    getCategoryNamespace('water-treatment'),
+  ])
+  return { props: { staticData, lang: DEFAULT_LOCALE } }
 }
 
-export const getStaticProps = getStaticPropsDefault
-export default withTolgee(Page)
+export default withTolgee(DrinkingWaterPage)

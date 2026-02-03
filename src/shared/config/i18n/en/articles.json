@@ -1,0 +1,14 @@
+{
+  "list": {
+    "pageTitle": "Articles on Ozonation",
+    "pageDescription": "Scientific and practical materials on the use of ozone in agriculture, industry and the environment.",
+    "more": "Read more",
+    "backToArticles": "Back to articles"
+  },
+  "articles": {
+    "ozoneGrainProtection": {
+      "title": "Ozone as an environmentally safe protection for grain",
+      "excerpt": "Purdue University research showed that ozone effectively eliminates insects in grain storage facilities without harming grain quality or the environment."
+    }
+  }
+}
