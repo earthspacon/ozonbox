@@ -1,29 +1,29 @@
 {
-  "title": "Water treatment",
-  "description": "Ozone is the most effective and eco-friendly water treatment method. 95% of drinking water in Europe is treated with ozone. It does not form dangerous byproducts like chlorine.",
+  "title": "Suvni tozalash",
+  "description": "Ozon eng samarali va ekologik toza suvni tozalash usuli. Yevropada ichimlik suvining 95% ozon bilan ishlov beriladi. Xlor kabi xavfli yon mahsulotlar hosil qilmaydi.",
   "subcategories": {
     "drinking-water": {
-      "title": "Drinking water",
-      "shortDesc": "Disinfection without chemicals or byproducts",
-      "heroTitle": "Drinking water ozonation",
-      "heroDesc": "Drinking water quality standard in developed countries. 95% of water in Europe is treated with ozone.",
-      "content": "Drinking water ozonation is the quality standard in developed countries. Ozone destroys all types of pathogens: bacteria, viruses, spores and cysts with up to 99.99% efficiency. Unlike chlorination, it does not form carcinogenic trihalomethanes.\n\nGiven the hazards of chlorination byproducts (halogenated compounds), alternative disinfection methods are preferred. Ozone is officially recommended as a safer alternative.\n\nOzonation improves water organoleptic properties: removes unpleasant taste and odor, improves color. Residual ozone decays to oxygen in 20–30 minutes, leaving no chemical traces.\n\nRecommended residual ozone in drinking water is 0.1–0.3 mg/L. Treatment is effective at any pH found in natural waters.",
+      "title": "Ichimlik suvi",
+      "shortDesc": "Kimyoviy moddalar yoki yon mahsulotlarsiz dezinfeksiya",
+      "heroTitle": "Ichimlik suvini ozonlash",
+      "heroDesc": "Rivojlangan mamlakatlarda ichimlik suvi sifat standarti. Yevropada suvning 95% ozon bilan ishlov beriladi.",
+      "content": "Ichimlik suvini ozonlash rivojlangan mamlakatlarda sifat standartiga xalos. Ozon barcha turdagi patogenlarni yo'q qiladi: bakteriyalar, viruslar, sporalar va sislar 99,99% samaradorlikka qadar. Xlorlashdan farqli o'laroq, kantserogen trihalometanlarni hosil qilmaydi.\n\nXlorlash yon mahsulotlarining (galogenli birikmalar) xavfini hisobga olgan holda, alternativ dezinfeksiya usullariga ustuvorlik beriladi. Ozon rasman xavfsizroq alternativa sifatida tavsiya etiladi.\n\nOzonlash suvning organoleptik xususiyatlarini yaxshilaydi: yoqimsiz ta'm va hidni olib tashlaydi, rangni yaxshilaydi. Qolgan ozon 20-30 daqiqada kislorodga parchalanadi va kimyoviy iz qoldirmaydi.\n\nIchimlik suvida tavsiya etilgan qolgan ozon 0,1-0,3 mg/L. Tozalash tabiiy suv pH si har qanday darajasida samarali.",
       "benefits": [
-        "99.99% disinfection",
-        "No carcinogenic byproducts",
-        "Improved taste and odor",
-        "Decay to pure oxygen",
-        "Compliance with drinking water standards",
-        "Effective at any pH"
+        "99,99% dezinfeksiya",
+        "Kantserogen yon mahsulotlar yo'q",
+        "Ta'm va hid yaxshilanishi",
+        "Toza kislorodga parchalanish",
+        "Ichimlik suvi standartlariga muvofiqlik",
+        "Har qanday pH da samarali"
       ],
       "technicalData": {
         "ozoneDoze": "1-3 mg/L",
-        "residualOzone": "0.1-0.3 mg/L",
-        "contactTime": "4-10 minutes",
-        "disinfectionRate": "99.99%",
-        "phRange": "6.5-8.5"
+        "residualOzone": "0,1-0,3 mg/L",
+        "contactTime": "4-10 daqiqa",
+        "disinfectionRate": "99,99%",
+        "phRange": "6,5-8,5"
       },
-      "regulations": ["Drinking water standards", "Bottled water standards", "Water quality norms"],
+      "regulations": ["Ichimlik suvi standartlari", "Shisha suv standartlari", "Suv sifat me'yorlari"],
       "stats": {
         "disinfection": {
           "value": "99.99%",
@@ -305,27 +305,27 @@
       }
     },
     "wastewater": {
-      "title": "Wastewater",
-      "shortDesc": "Deep treatment and disinfection of effluents",
-      "heroTitle": "Wastewater ozonation",
-      "heroDesc": "Deep treatment and disinfection of effluents without toxic byproducts",
-      "content": "Wastewater ozonation provides deep treatment of organic pollutants, pathogens and odors. The method is used as a final treatment stage before discharge to water bodies or reuse.\n\nOzone is a strong oxidizer that effectively breaks down complex organic compounds, including phenols, oil products and surfactants. Oxidation converts soluble pollutants to insoluble forms for subsequent filtration.\n\nAdvantage over chlorination: ozone does not form toxic chlorinated organics that harm aquatic ecosystems. After treatment, water is safe for discharge without long dechlorination.\n\nThe method is especially effective in oil-bearing regions where water contains high organic loads and color. Ozone removes color and odors, improving treated water quality.",
+      "title": "Chiqindi suv",
+      "shortDesc": "Chuqur tozalash va chiqindilarni dezinfeksiya qilish",
+      "heroTitle": "Chiqindi suvlarni ozonlash",
+      "heroDesc": "Toksik yon mahsulotlarsiz chuqur tozalash va chiqindilarni dezinfeksiya qilish",
+      "content": "Chiqindi suvlarni ozonlash organik ifloslantiruvchilar, patogenlar va hidlarning chuqur tozalashini ta'minlaydi. Usul suv havzalariga chiqarish yoki qayta ishlatishdan oldin oxirgi tozalash bosqichi sifatida qo'llaniladi.\n\nOzon kuchli oksidlovchi bo'lib, phenollar, neft mahsulotlari va sirt faol moddalarni o'z ichiga olgan murakkab organik birikmalarni samarali parchalaydi. Oksidlanish erituvchi ifloslantiruvchilarni keyingi filtratsiya uchun erimaydigan shaklga aylantiradi.\n\nXlorlashdan afzallik: ozon suv ekotizimlari uchun zararli bo'lgan toksik xlororganik birikmalarni hosil qilmaydi. Qayta ishlashdan keyin suv uzun dexloringizsiz suv havzalariga chiqarish uchun xavfsiz.\n\nUsul neft o'z ichiga olgan mintaqalarda yuqori organik yukga va rangga ega bo'lgan suvlarni tozalash uchun ayniqsa samarali. Ozon rang va hidlarni olib tashlaydi, tozalangan suv sifatini yaxshilaydi.",
       "benefits": [
-        "Deep removal of organics",
-        "Full effluent disinfection",
-        "Odor and color removal",
-        "No toxic byproducts",
-        "Safe discharge to water bodies",
-        "Water reuse possibility"
+        "Organik moddalarni chuqur olib tashlash",
+        "Chiqindilarni to'liq dezinfeksiya qilish",
+        "Hid va rang olib tashlash",
+        "Toksik yon mahsulotlar yo'q",
+        "Suv havzalariga xavfsiz chiqarish",
+        "Suvni qayta ishlatish imkonyati"
       ],
       "technicalData": {
-        "ozoneDoze": "5-100 mg/L (depending on effluent type)",
-        "contactTime": "10-40 minutes",
-        "bpkReduction": "up to 95%",
+        "ozoneDoze": "5-100 mg/L (chiqindi turiga qarab)",
+        "contactTime": "10-40 daqiqa",
+        "bpkReduction": "95% gacha",
         "disinfectionRate": "99.9%",
-        "colorReduction": "up to 80%"
+        "colorReduction": "80% gacha"
       },
-      "regulations": ["Wastewater discharge standards", "Environmental norms", "Water protection regulations"],
+      "regulations": ["Chiqindi suv chiqarish standartlari", "Ekologik me'yorlar", "Suv himoya qoidalari"],
       "stats": {
         "bpkReduction": {
           "value": "95%",
@@ -846,204 +846,204 @@
       }
     },
     "iron-removal": {
-      "title": "Iron and manganese removal",
-      "shortDesc": "Iron and manganese removal from water",
-      "heroTitle": "Iron and manganese removal by ozonation",
-      "heroDesc": "Iron and manganese removal by ozonation — effective for difficult cases with organic metal complexes",
-      "content": "Iron and manganese are the most common metallic impurities in natural water. Ozonation is an effective removal method, especially when metals are present as organic complexes.\n\nStandard iron removal methods (aeration, lime, cation exchange) are ineffective with organic compounds. Ozone oxidizes complexes, causing iron and manganese to precipitate for subsequent filtration.\n\nRequired ozone dose: about 1 mg per 1 mg iron and 4 mg per 1 mg manganese. Oxidation is effective at any pH of natural waters. Ozone converts Fe²⁺ to Fe³⁺, which forms solid Fe(OH)₃ precipitate, easily removed by filtration.\n\nThe technology includes ozonation in a contact tank followed by mechanical and carbon filtration. For high manganese, double ozonation is used for complete metal precipitation.",
+      "title": "Temir va marganetsni olib tashlash",
+      "shortDesc": "Suvdan temir va marganetsni olib tashlash",
+      "heroTitle": "Ozonlash orqali temir va marganetsni olib tashlash",
+      "heroDesc": "Ozonlash orqali temir va marganetsni olib tashlash — organik metal komplekslari bilan qiyin holatlar uchun samarali",
+      "content": "Temir va marganets tabiiy suvdagi eng keng tarqalgan metallik ifloslantiruvchilardir. Ozonlash samarali olib tashlash usuli bo'lib, ayniqsa metallar organik komplekslar shaklidagi bo'lganda.\n\nStandart temir olib tashlash usullari (aeratsiya, kalijdosh, kation almashinuvi) organik birikmalar bilan samarasiz. Ozon komplekslarni oksidlaydi, temir va marganetsni cho'ktiradi va keyingi filtratsiya uchun tayyorlaydi.\n\nKerakli ozon dozasi: taxminan 1 mg temir uchun 1 mg ozon va 1 mg marganets uchun 4 mg ozon. Oksidlanish tabiiy suvlar uchun har qanday pH da samarali. Ozon Fe²⁺ ni Fe³⁺ ga aylantiradi, bu qiyin erimaydigan Fe(OH)₃ precipitat hosil qiladi va filtrlash orqali osonlik bilan olib tashlanadi.\n\nTexnologiyaga kontakt idishida ozonlash va undan keyin mexanik va uglerod filtratsiyasi kiradi. Yuqori marganets uchun metal precipitatning to'liq so'chishini ta'minlash uchun qo'sh ozonlash qo'llaniladi.",
       "benefits": [
-        "Oxidation of iron and manganese to precipitate",
-        "Effective at any pH",
-        "Removal of organic complexes",
-        "Water color removal",
-        "Improved taste and odor",
-        "Compliance with metal content standards"
+        "Temir va marganetsni precipitatga oksidlash",
+        "Har qanday pH da samarali",
+        "Organik komplekslarni olib tashlash",
+        "Suvning rangini olib tashlash",
+        "Ta'm va hidni yaxshilash",
+        "Metal miqdor standartlariga muvofiqlik"
       ],
       "technicalData": {
-        "ozoneDozeForIron": "0.43-1 mg O₃ / mg Fe",
-        "ozoneDozeForManganese": "0.87-4 mg O₃ / mg Mn",
-        "ironPDK": "< 0.3 mg/L",
-        "manganesePDK": "< 0.1 mg/L",
+        "ozoneDozeForIron": "0,43-1 mg O₃ / mg Fe",
+        "ozoneDozeForManganese": "0,87-4 mg O₃ / mg Mn",
+        "ironPDK": "< 0,3 mg/L",
+        "manganesePDK": "< 0,1 mg/L",
         "phRange": "6-9",
-        "contactTime": "5-15 minutes"
+        "contactTime": "5-15 daqiqa"
       },
       "chemicalReactions": {
         "iron": "2Fe²⁺ + O₃ + H₂O → 2Fe³⁺ + O₂ + 2OH⁻ → Fe(OH)₃↓",
         "manganese": "Mn²⁺ + O₃ + H₂O → MnO₂↓ + 2H⁺ + O₂"
       },
-      "regulations": ["Drinking water standards", "Water quality norms"],
+      "regulations": ["Ichimlik suvi standartlari", "Suv sifat me'yorlari"],
       "stats": {
         "ozoneForIron": {
-          "value": "0.43",
+          "value": "0,43",
           "label": "mg O₃ / mg Fe",
-          "description": "Ozone dose per iron"
+          "description": "Temirga ozon dozasi"
         },
         "ozoneForManganese": {
-          "value": "0.87",
+          "value": "0,87",
           "label": "mg O₃ / mg Mn",
-          "description": "Ozone dose per manganese"
+          "description": "Marganetsga ozon dozasi"
         },
         "residualIron": {
-          "value": "< 0.3",
+          "value": "< 0,3",
           "label": "mg/L Fe",
-          "description": "Residual iron (standard limit)"
+          "description": "Qolgan temir (standart limit)"
         },
         "residualManganese": {
-          "value": "< 0.1",
+          "value": "< 0,1",
           "label": "mg/L Mn",
-          "description": "Residual manganese (standard limit)"
+          "description": "Qolgan marganets (standart limit)"
         }
       },
       "sections": {
         "intro": {
-          "paragraph1": "Iron and manganese are the most common metallic impurities in natural water, and they are usually present together. Although iron is not toxic, its presence in water leads to deterioration of organoleptic and taste properties, appearance of brown sediment on surfaces in contact with water. Manganese belongs to the category of hazardous substances.",
-          "paragraph2": "Ozonation is especially effective when iron and manganese are present in water as organic complex compounds. Standard iron removal methods (aeration, liming, cation exchange) are ineffective in this case. Ozone oxidizes complex compounds, causing metals to precipitate in insoluble forms.",
-          "regulationLabel": "Drinking water standards:",
-          "regulationText": "Maximum permissible concentration (MPC) of iron in drinking water is 0.3 mg/L, manganese — 0.1 mg/L. Exceeding these limits makes water unsuitable for drinking water supply and technological needs."
+          "paragraph1": "Temir va marganets tabiiy suvdagi eng keng tarqalgan metallik ifloslantiruvchilar bo'lib, ular odatda bir-biri bilan mavjud. Temir toksik bo'lmasa ham, uning suvdagi mavjudligi organoleptik va ta'm xususiyatlarining yomonlashuviga olib keladi, suv bilan aloqa qilayotgan sirtlarda jigarrang cho'ktirmaning paydo bo'lishiga. Marganets zararli moddalar toifasiga mansub.",
+          "paragraph2": "Ozonlash ayniqsa temir va marganets suvda organik kompleks birikmalar shaklidagi bo'lganda samarali. Standart temir olib tashlash usullari (aeratsiya, kalijdosh qo'shish, kation almashinuvi) bu holatda samarasiz. Ozon kompleks birikmalarni oksidlaydi va metallarni erimaydigan shaklda cho'ktiradi.",
+          "regulationLabel": "Ichimlik suvi standartlari:",
+          "regulationText": "Ichimlik suvida temirning maksimal ruxsat etilgan kontsentratsiyasi (MRC) 0,3 mg/L, marganets — 0,1 mg/L. Bu limitlarni oshirish suv ichimlik suvi ta'minoti va texnologik ehtiyojlar uchun mo'lkusiz bo'ladi."
         },
         "comparison": {
-          "title": "Iron removal methods comparison",
-          "headers": ["Parameter", "Ozonation", "Aeration + filtration"],
+          "title": "Temir olib tashlash usullarini solishtirish",
+          "headers": ["Parametr", "Ozonlash", "Aeratsiya + filtratsiya"],
           "rows": [
-            { "parameter": "Fe removal efficiency", "value1": "> 95%", "value2": "80-90%" },
-            { "parameter": "Mn removal efficiency", "value1": "> 95%", "value2": "50-70%" },
-            { "parameter": "Organic complex removal", "value1": "Yes", "value2": "No" },
-            { "parameter": "Color reduction", "value1": "Yes (up to 80%)", "value2": "Partial" },
-            { "parameter": "Works at any pH", "value1": "Yes (6-9)", "value2": "Requires pH > 7.5" },
-            { "parameter": "Disinfection", "value1": "Yes", "value2": "No" },
-            { "parameter": "H₂S removal", "value1": "Yes", "value2": "Partial" },
-            { "parameter": "Reagent requirement", "value1": "No", "value2": "May be required" }
+            { "parameter": "Fe olib tashlash samaradorligi", "value1": "> 95%", "value2": "80-90%" },
+            { "parameter": "Mn olib tashlash samaradorligi", "value1": "> 95%", "value2": "50-70%" },
+            { "parameter": "Organik kompleks olib tashlash", "value1": "Ha", "value2": "Yo'q" },
+            { "parameter": "Rang kamaytirish", "value1": "Ha (80% gacha)", "value2": "Qisman" },
+            { "parameter": "Har qanday pH da ishlaydi", "value1": "Ha (6-9)", "value2": "pH > 7,5 talab qiladi" },
+            { "parameter": "Dezinfeksiya", "value1": "Ha", "value2": "Yo'q" },
+            { "parameter": "H₂S olib tashlash", "value1": "Ha", "value2": "Qisman" },
+            { "parameter": "Reagent talab qilinishi", "value1": "Yo'q", "value2": "Talab qilinishi mumkin" }
           ]
         },
         "ironChemistry": {
-          "title": "Iron oxidation chemistry with ozone",
-          "reactionLabel": "Iron oxidation reaction:",
+          "title": "Ozon bilan temir oksidlanishining kimyosi",
+          "reactionLabel": "Temir oksidlanish reaktsiyasi:",
           "reaction1": "2Fe²⁺ + O₃ + H₂O → 2Fe³⁺ + O₂ + 2OH⁻",
           "reaction2": "Fe³⁺ + 3H₂O → Fe(OH)₃↓ + 3H⁺",
-          "description": "Ozone oxidizes Fe²⁺ to Fe³⁺, which forms insoluble iron hydroxide Fe(OH)₃, easily removed by filtration. The reaction proceeds at pH from 6 to 9.",
+          "description": "Ozon Fe²⁺ ni Fe³⁺ ga oksidlaydi, bu erimaydigan temir gidroksid Fe(OH)₃ hosil qiladi, filtrlash orqali osonlik bilan olib tashlanadi. Reaktsiya pH 6 dan 9 gacha bo'lgan diapazonida yuz beradi.",
           "table": {
-            "caption": "Stoichiometric ratios for metal oxidation",
-            "headers": ["Metal", "Theoretical ozone dose", "Practical ozone dose", "Note"],
+            "caption": "Metal oksidlanishi uchun stoixiometrik nisbatlar",
+            "headers": ["Metal", "Nazariy ozon dozasi", "Amaliy ozon dozasi", "Izoh"],
             "rows": [
-              ["Iron (Fe²⁺)", "0.43 mg O₃ / mg Fe", "1 mg O₃ / mg Fe", "With organics"],
-              ["Manganese (Mn²⁺)", "0.87 mg O₃ / mg Mn", "4 mg O₃ / mg Mn", "With organics"],
-              ["Hydrogen sulfide (H₂S)", "3.0 mg O₃ / mg H₂S", "3-5 mg O₃ / mg H₂S", "To elemental sulfur"]
+              ["Temir (Fe²⁺)", "0,43 mg O₃ / mg Fe", "1 mg O₃ / mg Fe", "Organik moddalar bilan"],
+              ["Marganets (Mn²⁺)", "0,87 mg O₃ / mg Mn", "4 mg O₃ / mg Mn", "Organik moddalar bilan"],
+              ["Vodorod sulfidi (H₂S)", "3,0 mg O₃ / mg H₂S", "3-5 mg O₃ / mg H₂S", "Elementar sulfuriga"]
             ]
           }
         },
         "manganeseChemistry": {
-          "title": "Manganese oxidation chemistry with ozone",
-          "reactionLabel": "Manganese oxidation reaction:",
+          "title": "Ozon bilan marganets oksidlanishining kimyosi",
+          "reactionLabel": "Marganets oksidlanish reaktsiyasi:",
           "reaction": "Mn²⁺ + O₃ + H₂O → MnO₂↓ + 2H⁺ + O₂",
-          "description": "Ozone oxidizes Mn²⁺ to Mn⁴⁺, which forms insoluble manganese dioxide MnO₂. At pH around 8, the reaction proceeds most effectively.",
-          "importantLabel": "Important:",
-          "importantText": "With excess ozone, further oxidation of manganese to Mn⁷⁺ with formation of soluble permanganate MnO₄⁻ (pink water color) is possible. In the presence of organic compounds, permanganate decomposes to MnO₂. For high manganese concentrations, double ozonation is used."
+          "description": "Ozon Mn²⁺ ni Mn⁴⁺ ga oksidlaydi, bu erimaydigan marganets dioksid MnO₂ hosil qiladi. pH 8 atrofida reaktsiya eng samarali yuz beradi.",
+          "importantLabel": "Muhim:",
+          "importantText": "Ozonning ortiqchasi bilan marganetsning Mn⁷⁺ ga yanada oksidlanishi mumkin bo'lib, eriydigan permanganat MnO₄⁻ (pushti suv rangi) hosil qiladi. Organik birikmalarning mavjudligi holatida permanganat MnO₂ ga parchalanadi. Yuqori marganets kontsentratsiyasi uchun qo'sh ozonlash qo'llaniladi."
         },
         "process": {
-          "title": "Iron removal process",
+          "title": "Temir olib tashlash jarayoni",
           "steps": [
             {
-              "title": "Source water supply",
-              "description": "Water with elevated iron and manganese content is fed into the contact tank. Pre-filtration from coarse impurities."
+              "title": "Manba suvining ta'minoti",
+              "description": "Temir va marganets miqdori ko'paygan suv kontakt idishiga beriladi. Qo'pol aralashmalardan oldindan filtratsiya."
             },
             {
-              "title": "Ozone generation",
-              "description": "Atmospheric air is cleaned by filter, fed into oxygen concentrator (85-95% O₂), then into ozone generator."
+              "title": "Ozon ishlab chiqarish",
+              "description": "Atmosfera havosi filtr orqali tozalanadi, kislorod kontsentratori (85-95% O₂) orqali o'tkaziladi, undan ozon generatoriga kiritiladi."
             },
             {
-              "title": "Ozonation in contact chamber",
-              "description": "Bubbling ozone-air mixture through water layer or injection through Venturi ejector. Contact time: 5-15 minutes."
+              "title": "Kontakt kamerada ozonlash",
+              "description": "Ozon-havo aralashmasini suv qatori orqali barboter yoki Venturi ejektor orqali ineksiya. Kontakt vaqti: 5-15 daqiqa."
             },
             {
-              "title": "Precipitation of oxidized metals",
-              "description": "Fe(OH)₃ and MnO₂ precipitate in the contact tank. Periodic tank flushing to remove sediment."
+              "title": "Oksidlangan metallarning cho'ktirilishi",
+              "description": "Fe(OH)₃ va MnO₂ kontakt idishida cho'ktiradi. Cho'ktirmani olib tashlash uchun idishni davriy ravishda yuvish."
             },
             {
-              "title": "Mechanical filtration",
-              "description": "Removal of suspended particles of oxidized metals through sand filter. Pore size: 10-50 μm."
+              "title": "Mexanik filtratsiya",
+              "description": "Qum filtr orqali oksidlangan metallarning suyuq moddalarni olib tashlash. Pore o'lchami: 10-50 μm."
             },
             {
-              "title": "Carbon filtration",
-              "description": "Final treatment through activated carbon to remove residual ozone and improve organoleptic properties."
+              "title": "Uglerod filtratsiyasi",
+              "description": "Faol uglerod orqali yakuniy tozalash, qolgan ozonni olib tashlash va organoleptik xususiyatlarni yaxshilash."
             }
           ]
         },
         "doubleOzonation": {
-          "title": "Double ozonation (for high Mn concentrations)",
-          "paragraph": "At manganese content above 0.5 mg/L, double ozonation scheme may be required: primary ozonation of source water, filtration, then secondary ozonation of filtrate. This prevents formation of soluble permanganate.",
+          "title": "Qo'sh ozonlash (yuqori Mn kontsentratsiyasi uchun)",
+          "paragraph": "Marganets miqdori 0,5 mg/L dan yuqori bo'lganda, qo'sh ozonlash sxemasi talab qilinishi mumkin: manba suvining birlamchi ozonlashi, filtratsiya, undan so'ng filtratning ikkilamchi ozonlashi. Bu eriydigan permanganat hosil bo'lishini oldini oladi.",
           "table": {
-            "caption": "Double ozonation results (Ashton, England)",
-            "headers": ["Parameter", "Before treatment", "After treatment"],
+            "caption": "Qo'sh ozonlash natijalari (Ashton, Angliya)",
+            "headers": ["Parametr", "Tozalashdan oldin", "Tozalashdan keyin"],
             "rows": [
-              ["Manganese, mg/L", "0.5", "0.05"],
-              ["Color, degrees", "22", "5"],
-              ["Turbidity, NTU", "15", "< 2"]
+              ["Marganets, mg/L", "0,5", "0,05"],
+              ["Rang, daraja", "22", "5"],
+              ["Loyqalik, NTU", "15", "< 2"]
             ]
           }
         },
         "organicComplexes": {
-          "title": "Organic complex problems",
-          "paragraph": "In oil-bearing regions where water contains large amounts of organic impurities, iron and manganese are often present as organic complex compounds. This makes standard iron removal methods ineffective.",
+          "title": "Organik kompleks muammolari",
+          "paragraph": "Suv katta miqdorda organik ifloslantiruvchilarni o'z ichiga olgan neft bo'yicha bogatli mintaqalarda, temir va marganets ko'pincha organik kompleks birikmalar shaklidagi bo'ladi. Bu standart temir olib tashlash usullarini samarasiz qiladi.",
           "items": [
-            "Aeration doesn't work: organic complexes are not oxidized by air oxygen",
-            "Liming is ineffective: complex compounds do not precipitate when pH is raised",
-            "Cation exchange is difficult: organic complexes do not exchange on ion exchange resins",
-            "Ozone solves the problem: breaks down organic complexes, releasing metals for precipitation"
+            "Aeratsiya ishlarmaydi: organik komplekslar havo kislorodi bilan oksidlanmaydi",
+            "Kalijdosh qo'shish samarasiz: kompleks birikmalar pH ko'paytirilganda cho'ktirmaydi",
+            "Kation almashinuvi qiyin: organik komplekslar ion almashtirish amullarida almashalmaydi",
+            "Ozon muammoni hal qiladi: organik komplekslarni buzadi, metallarni cho'ktirish uchun chiqaradi"
           ],
-          "advantageLabel": "Ozone advantage:",
-          "advantageText": "Metal oxidation with ozone proceeds effectively at any pH values found in natural waters (6-9), while manganese oxidation with air oxygen requires pH > 10."
+          "advantageLabel": "Ozonning afzalligi:",
+          "advantageText": "Metal oksidlanishi ozon bilan tabiiy suvlarda topilgan har qanday pH qiymatlarda (6-9) samarali yuz beradi, havo kislorodi bilan marganets oksidlanishi esa pH > 10 talab qiladi."
         },
         "systemParams": {
-          "title": "Recommended system parameters",
+          "title": "Tavsiya etilgan tizim parametrlari",
           "table": {
-            "caption": "Equipment selection by capacity",
-            "headers": ["Capacity, m³/h", "Ozonator power, g/h", "Contact chamber volume, m³"],
+            "caption": "Unumdorlikka qarab uskunalar tanlash",
+            "headers": ["Unumadorlik, m³/h", "Ozonator quvvati, g/h", "Kontakt kamerasi hajmi, m³"],
             "rows": [
-              ["1-5", "5-25", "0.2-1"],
+              ["1-5", "5-25", "0,2-1"],
               ["5-20", "25-100", "1-4"],
               ["20-50", "100-250", "4-10"],
               ["50-100", "250-500", "10-20"],
               ["100-500", "500-2500", "20-100"]
             ]
           },
-          "noteLabel": "Note:",
-          "noteText": "Ozonator power is calculated for water with Fe content up to 10 mg/L and Mn up to 1 mg/L. For higher concentrations, individual calculation is required."
+          "noteLabel": "Izoh:",
+          "noteText": "Ozonator quvvati Fe miqdori 10 mg/L gacha va Mn 1 mg/L gacha bo'lgan suv uchun hisoblanadi. Yuqori kontsentratsiyalar uchun individual hisoblash talab qilinadi."
         },
         "benefits": {
-          "title": "Benefits of ozonation for iron removal",
+          "title": "Temir olib tashlash uchun ozonlashning afzalliklari",
           "items": [
             {
-              "title": "Versatility",
-              "description": "Effectively removes iron and manganese of any forms, including organic complexes."
+              "title": "Versatilik",
+              "description": "Temir va marganetsni organik komplekslarni o'z ichiga olgan har qanday shaklda samarali olib tashlaydi."
             },
             {
-              "title": "Wide pH range",
-              "description": "Works at pH 6-9 without need for water acidity correction."
+              "title": "Keng pH diapazon",
+              "description": "pH 6-9 da suv kislotasini to'g'rilash talab qilinmasdan ishlaydi."
             },
             {
-              "title": "Complex action",
-              "description": "Simultaneously disinfects water, removes color, odors, oxidizes H₂S."
+              "title": "Murakkab ta'sir",
+              "description": "Bir vaqtda suvni dezinfeksiya qiladi, rangni, hidlarni olib tashlaydi, H₂S ni oksidlaydi."
             },
             {
-              "title": "No reagents",
-              "description": "Ozone is produced on-site from air. No need to purchase and store chemicals."
+              "title": "Reagent talab qilinmaydi",
+              "description": "Ozon havodan joy oldin ishlab chiqariladi. Kimyoviy moddalarni sotib olish va saqlash talab qilinmaydi."
             }
           ]
         },
         "regulations": {
-          "title": "Regulatory requirements",
+          "title": "Normativ talablar",
           "table": {
-            "caption": "MPC of iron and manganese by standards",
-            "headers": ["Metal", "Drinking water", "Bottled water", "Hazard class"],
+            "caption": "Standartlarga qarab temir va marganetsning MRC",
+            "headers": ["Metal", "Ichimlik suvi", "Shisha suv", "Xavf sinfi"],
             "rows": [
-              ["Iron (Fe)", "0.3 mg/L", "0.3 mg/L", "III"],
-              ["Manganese (Mn)", "0.1 mg/L", "0.05 mg/L", "III"]
+              ["Temir (Fe)", "0,3 mg/L", "0,3 mg/L", "III"],
+              ["Marganets (Mn)", "0,1 mg/L", "0,05 mg/L", "III"]
             ]
           },
           "items": [
-            "Drinking water standards «Drinking water. Hygienic requirements for centralized drinking water supply systems water quality»",
-            "Bottled water standards «Drinking water. Hygienic requirements for bottled water quality»",
-            "GOST 2874-82 «Drinking water. Hygienic requirements and quality control»"
+            "Ichimlik suvi standartlari «Ichimlik suvi. Markaziy ichimlik suvi ta'minoti tizimlari suv sifati uchun gigiyena talablari»",
+            "Shisha suv standartlari «Ichimlik suvi. Shisha suvning sifati uchun gigiyena talablari»",
+            "GOST 2874-82 «Ichimlik suvi. Gigiyena talablari va sifat nazorati»"
           ]
         }
       }

@@ -1,499 +1,978 @@
 {
-  "title": "Industry",
-  "description": "Industrial ozonation for wastewater treatment, air treatment at production sites and compliance with environmental standards. High-capacity solutions for large enterprises.",
+  "title": "Саноат",
+  "description": "Саноат озонлаш: чиқинди сувларни тозалаш, ишлаб чиқариш жойларида ҳавони тозалаш ва екологик стандартларга мувофиқлик. Катта корхоналар учун йуқори қувватли йечимлар.",
   "subcategories": {
     "oil-removal": {
-      "title": "Oil-containing wastewater treatment",
-      "shortDesc": "Ozonation of industrial wastewater for oil product removal",
-      "content": "Ozonation is a highly effective method for treating oil-containing wastewater from industrial plants. The technology achieves discharge standards without reagents or secondary pollution.\n\nOil products in wastewater pose a serious environmental threat: 1 liter of oil can pollute up to 1 million liters of water. The maximum allowable concentration of oil products for discharge into fishery water bodies is 0.05 mg/L.\n\nOzone oxidizes oil products to carbon dioxide and water, ensuring deep destruction of pollutants. Treatment efficiency reaches 95–99% at initial oil product concentrations of 5–50 mg/L.\n\nThe technology is used at refineries, transport depots, shipyards, metallurgical plants and any facilities with oil-containing effluents.",
+      "title": "Нефт маҳсулотлари билан ифлосланган чиқинди сувларни тозалаш",
+      "shortDesc": "Саноат чиқинди сувларидан нефт маҳсулотларини олиб ташлаш учун озонлаш",
+      "content": "Озонлаш саноат завотларидан нефт маҳсулотлари билан ифлосланган чиқинди сувларни тозалашнинг жуда самарали усули ҳисобланади. Текнологийа реагентлар йоки иккинчи даражали ифлослантиришсиз оқиш стандартларини белгилайди.\n\nЧиқинди сувлардаги нефт маҳсулотлари жиддий екологик таҳдид ташкил етади: 1 литр нефт 1 миллион литр сувни ифлослантириши мумкин. Балиқ овқатланиш сув ҳавзаларига оқишда нефт маҳсулотларининг максимал рухсат етилган контсентратсийаси 0,05 мг/Л.\n\nОзон нефт маҳсулотларини карбон диоксиди ва сув билан оксидлаш орқали ифлослантирувчиларни чуқур йўқ қилишни та'минлайди. Нефт маҳсулотларининг дастлабки контсентрасийаси 5–50 мг/Л бўлса, тозалаш самарадорлиги 95–99% га йетади.\n\nТекнологийа рефинерйаларида, транспортни ташкил етишда, кемир тикишда, металуржик завотларида ва нефт ўз мавжудлигига ега бўлган барча завотларда қўлланилади.",
       "benefits": [
-        "95–99% treatment efficiency",
-        "Achieving 0.05 mg/L discharge limit",
-        "No secondary pollution",
-        "Mineralization to CO₂ and H₂O",
-        "Compliance with environmental norms",
-        "Lower environmental fees"
+        "95–99% тозалаш самарадорлиги",
+        "0,05 мг/Л оқиш чегарасига еришиш",
+        "Иккинчи даражали ифлослантириш йўқ",
+        "CО₂ ва Ҳ₂О га минерализатсийа",
+        "Екологик ме'йорларга мувофиқлик",
+        "Пастроқ екологик тўловлар"
       ],
       "stats": {
         "efficiency": {
           "value": "95-99%",
-          "label": "Treatment efficiency",
-          "description": "Removal of oil products from wastewater"
+          "label": "Тозалаш самарадорлиги",
+          "description": "Чиқинди сувлардан нефт маҳсулотларини олиб ташлаш"
         },
         "pdk": {
           "value": "0.05",
-          "label": "mg/L limit",
-          "description": "Achieving discharge standards"
+          "label": "мг/Л чегараси",
+          "description": "Оқиш стандартларини белгилаш"
         },
         "ozoneConsumption": {
           "value": "3-5",
-          "label": "mg O₃/mg OP",
-          "description": "Ozone consumption for destruction"
+          "label": "мг О₃/мг ОП",
+          "description": "Йўқ қилиш учун озон сарфланиши"
         },
         "secondaryPollution": {
           "value": "0",
-          "label": "Secondary pollution",
-          "description": "Mineralization to CO₂ and H₂O"
+          "label": "Иккинчи даражали ифлослантириш",
+          "description": "CО₂ ва Ҳ₂О га минерализатсийа"
         }
       },
       "sections": {
         "intro": {
-          "paragraph1": "Wastewater from industrial facilities contaminated with oil products represents one of the most serious environmental problems. One liter of oil can pollute up to 1 million liters of water, creating a film that prevents gas exchange and threatens the death of aquatic ecosystems.",
-          "paragraph2": "Ozonation is an advanced method for deep treatment of oil-containing wastewater, ensuring destruction of hydrocarbons to carbon dioxide and water. Unlike traditional methods (flotation, sorption, biological treatment), ozonation provides complete mineralization of pollutants without formation of secondary waste."
+          "paragraph1": "Нефт маҳсулотлари билан ифлосланган саноат қуриллалари чиқинди суви енг жиддий екологик муаммолардан биридир. 1 литр нефт 1 миллион литр сувни ифлослантириши мумкин, бу газ алмашинувини тўсиб турувчи филм йаратиб, сув екосистемаларининг ўлимига таҳдид ташкил етади.",
+          "paragraph2": "Озонлаш нефт маҳсулотлари билан ифлосланган чиқинди сувларни чуқур тозалашнинг илғор усули бўлиб, углеродсизчилар карбон диоксиди ва сувга йўқ қилишни та'минлайди. Ан'анавий усуллардан (флотатсийа, сорптион, биологик тозалаш) фарқли ўлароқ, озонлаш ифлослантиргувчиларнинг тўлиқ минерализатсийасини та'минлайди ва иккинчи даражали ходисаларнинг шакллашини олдини олади."
         },
         "regulations": {
-          "title": "Regulatory requirements",
-          "text": "Maximum allowable concentration of oil products for discharge into fishery water bodies is 0.05 mg/L (GOST 17.1.3.07-82). For discharge into municipal sewerage — 4.0 mg/L. Exceeding the limit entails environmental fees and fines up to 2 million rubles."
+          "title": "Норматив талаблар",
+          "text": "Балиқ овқатланиш сув ҳавзаларига оқишда нефт маҳсулотларининг максимал рухсат етилган контсентратсийаси 0,05 мг/Л (ГОСТ 17.1.3.07-82). Мунитсипал фазо ташкил етишга оқишда — 4,0 мг/Л. Чегара осиш муддати екологик тўловларни ва 2 миллион рублингача жарималанган қоидаларни тўплаш."
         },
         "mechanism": {
-          "title": "Mechanism of oil product oxidation by ozone",
-          "paragraph": "Ozone is a powerful oxidizer with an oxidation-reduction potential of 2.07 V (compared to 1.36 V for chlorine). When interacting with oil products, oxidative destruction reactions occur:",
+          "title": "Озон томонидан нефт маҳсулотларининг оксидлаш механизми",
+          "paragraph": "Озон 2,07 В оксидлаш-редутсийа потенсиали билан кучли оксидловчи (хлорингача 1,36 В билан таққослаганда). Нефт маҳсулотлари билан ўзаро та'сир қилганда, оксидатив йўқ қилиш реактсийалари содир бўлади:",
           "items": [
-            "Cleavage of long-chain hydrocarbons to short-chain",
-            "Oxidation of aromatic compounds with opening of benzene ring",
-            "Formation of intermediate products: aldehydes, ketones, carboxylic acids",
-            "Complete mineralization to CO₂ and H₂O with sufficient ozone dose",
-            "Destruction of polycyclic aromatic hydrocarbons (PAH)"
+            "Узоқ-занжирли углеводокларни қисқа-занжирли йўқ қилиш",
+            "Бензол ҳалқасини очиш билан ароматик бирикмаларин оксидланиши",
+            "Оралиқ маҳсулотларнинг шакллашиши: алдегидлар, кетонлар, карбонил кислоталар",
+            "Етарли озон дозаси билан CО₂ ва Ҳ₂О га тўлиқ минерализатсийа",
+            "Политсиклик ароматик углеводокларнинг (ПАУ) йўқ қилиши"
           ],
-          "tableCaption": "Kinetics of oil product oxidation by ozone",
-          "tableHeaders": ["Compound class", "Rate constant, M⁻¹·s⁻¹", "Half-life, min"],
+          "tableCaption": "Озон томонидан нефт маҳсулотларининг оксидланишининг кинетикаси",
+          "tableHeaders": [
+            "Бирикма синфи",
+            "Тезлик константаси, М⁻¹·с⁻¹",
+            "Йарим ҳайоти, мин"
+          ],
           "tableRows": [
-            ["Aliphatic hydrocarbons", "10² — 10³", "15-30"],
-            ["Aromatic (benzene, toluene)", "10³ — 10⁴", "5-15"],
-            ["Polyaromatic (PAH)", "10⁴ — 10⁵", "1-5"],
-            ["Naphthenic acids", "10³ — 10⁴", "5-10"],
-            ["Phenols", "10⁵ — 10⁶", "<1"]
+            [
+              "Алифатик углеводокларни",
+              "10² — 10³",
+              "15-30"
+            ],
+            [
+              "Ароматик (бензол, толуол)",
+              "10³ — 10⁴",
+              "5-15"
+            ],
+            [
+              "Полиароматик (ПАУ)",
+              "10⁴ — 10⁵",
+              "1-5"
+            ],
+            [
+              "Нафтник кислоталар",
+              "10³ — 10⁴",
+              "5-10"
+            ],
+            [
+              "Феноллар",
+              "10⁵ — 10⁶",
+              "<1"
+            ]
           ],
           "infoBox": {
-            "title": "Oxidative destruction vs. sorption",
-            "text": "Unlike activated carbon, which only concentrates pollutants and requires regeneration or disposal, ozonation destroys oil product molecules, eliminating formation of secondary waste."
+            "title": "Оксидатив йўқ қилиш вс. сорптион",
+            "text": "Фаоллаштирилган кўмир ифлослантиргувчиларни фақат тўплаш ва регенератсийа йоки ўчиришни талаб қиладиган озонлаш, нефт маҳсулотлари молекулаларини йўқ қилади ва иккинчи даражали ходисаларнинг шакллашини олдини олади."
           }
         },
         "technology": {
-          "title": "Treatment process scheme",
-          "paragraph": "Industrial ozonation installation for oil-containing wastewater includes several treatment stages to achieve maximum efficiency:",
+          "title": "Тозалаш жарайони схемаси",
+          "paragraph": "Нефт маҳсулотлари билан ифлосланган чиқинди сувларни озонлашнинг саноат ўрнатилмаси максимал самарадорликка еришиш учун бир неча тозалаш босқичларини ўз ичига олади:",
           "steps": [
             {
-              "title": "Preliminary mechanical treatment",
-              "description": "Removal of suspended solids, settling in oil traps. Reduction of oil product concentration to 30-50 mg/L."
+              "title": "Дастлабки механик тозалаш",
+              "description": "Осилган қатиқ моддаларни олиб ташлаш, нефт тузоқларида чўкиш. Нефт маҳсулотларининг контсентрасийаси 30-50 мг/Л га камайиши."
             },
             {
-              "title": "Flotation with ozone-air mixture",
-              "description": "Supply of ozone-air mixture (5-10 mg/L) through ejectors. Flotation of emulsified oil products."
+              "title": "Озон-ҳава аралашмаси билан флотатсийа",
+              "description": "Озон-ҳава аралашмаси етажеторлар орқали та'минот (5-10 мг/Л). Емулсийалаштирилган нефт маҳсулотларининг флотатсийаси."
             },
             {
-              "title": "Ozonation contact chamber",
-              "description": "Deep oxidation of dissolved oil products. Ozone dose 3-5 mg per 1 mg of oil products. Contact time 20-30 minutes."
+              "title": "Озонлаш контакт камерад",
+              "description": "Ечимлаштирилган нефт маҳсулотларинин чуқур оксидланиши. Озон дозе нефт маҳсулотлари 1 мг га 3-5 мг. Контакт вақти 20-30 минут."
             },
             {
-              "title": "Degassing and post-treatment",
-              "description": "Removal of excess ozone and oxidation products. If necessary — filtration through activated carbon."
+              "title": "Дегаза қилиш ва кейинги тозалаш",
+              "description": "Ортиқча озон ва оксидлаш маҳсулотларини олиб ташлаш. Агар зарур бўлса — фаоллаштирилган кўмир орқали филтрлаш."
             },
             {
-              "title": "Quality control",
-              "description": "Automatic monitoring of oil product concentration at outlet. Regulation of ozone dose according to sensor readings."
+              "title": "Сифат назорати",
+              "description": "Чиқиш жойидаги нефт маҳсулотларининг контсентрасийасининг автоматик мониторинги. Сенсор ўқилмалари бўйича озон дозасининг регулйатсийаси."
             }
           ],
-          "tableCaption": "Ozonation parameters for various oil product concentrations",
-          "tableHeaders": ["Initial OP concentration, mg/L", "Ozone dose, mg/L", "Contact time, min", "Residual concentration, mg/L"],
+          "tableCaption": "Турли нефт маҳсулотларининг контсентратсийас учун озонлаш параметрлари",
+          "tableHeaders": [
+            "Дастлабки ОП контсентратсийаси, мг/Л",
+            "Озон дозаси, мг/Л",
+            "Контакт вақти, мин",
+            "Қолган контсентратсийа, мг/Л"
+          ],
           "tableRows": [
-            ["5-10", "15-30", "15-20", "<0.05"],
-            ["10-20", "30-60", "20-30", "<0.05"],
-            ["20-50", "60-150", "30-45", "<0.1"],
-            ["50-100", "150-300", "45-60", "<0.3"],
-            [">100", "Two-stage treatment", "60-90", "<0.5"]
+            [
+              "5-10",
+              "15-30",
+              "15-20",
+              "<0.05"
+            ],
+            [
+              "10-20",
+              "30-60",
+              "20-30",
+              "<0.05"
+            ],
+            [
+              "20-50",
+              "60-150",
+              "30-45",
+              "<0.1"
+            ],
+            [
+              "50-100",
+              "150-300",
+              "45-60",
+              "<0.3"
+            ],
+            [
+              ">100",
+              "Икки босқичли тозалаш",
+              "60-90",
+              "<0.5"
+            ]
           ]
         },
         "types": {
-          "title": "Types of oil-containing wastewater and treatment features",
-          "paragraph": "Ozonation efficiency depends on the composition and concentration of oil products in wastewater:",
-          "tableCaption": "Characteristics of oil-containing wastewater by industry",
-          "tableHeaders": ["Wastewater source", "Typical OP concentration, mg/L", "Composition features", "Treatment mode"],
+          "title": "Нефт маҳсулотлари билан ифлосланган чиқинди сувларининг турли схемалари ва тозалаш хусусийатлари",
+          "paragraph": "Озонлашнинг самарадорлиги чиқинди сувлардаги нефт маҳсулотларининг таркиби ва контсентратсийас боғлиқ:",
+          "tableCaption": "Саноат бўйича нефт маҳсулотлари билан ифлосланган чиқинди сувларнинг хусусийатлари",
+          "tableHeaders": [
+            "Чиқинди сув манбаси",
+            "Типик ОП контсентратсийаси, мг/Л",
+            "Таркиб хусусийатлари",
+            "Тозалаш режими"
+          ],
           "tableRows": [
-            ["Refineries, oil depots", "50-500", "Light fractions, benzene, toluene", "Flotation + ozonation"],
-            ["Transport, gas stations", "10-100", "Oils, fuel, surfactants", "Direct ozonation"],
-            ["Machine building", "20-200", "Coolants, emulsions, oils", "De-emulsification + ozonation"],
-            ["Ship repair", "50-300", "Heavy fractions, resins", "Multi-stage treatment"],
-            ["Metallurgy", "10-50", "Technical oils, soot", "Flocculation + ozonation"]
+            [
+              "Рефинерй, нефт деполар",
+              "50-500",
+              "Йенгил фрактсийалар, бензол, толуол",
+              "Флотатсийа + озонлаш"
+            ],
+            [
+              "Ташиш, бензин стантсийалари",
+              "10-100",
+              "Мойлашган масловларни, йоқилғи, Йузактивсиз моддалари",
+              "Тўғридан-тўғри озонлаш"
+            ],
+            [
+              "Машина қурилиш",
+              "20-200",
+              "Совитиш суйуқлиқлари, емулсийалар, мойлашган масловларни",
+              "Демулсификатсийа + озонлаш"
+            ],
+            [
+              "Кемир та'мирлаш",
+              "50-300",
+              "Оғир фрактсийалар, смаолалар",
+              "Кўп босқичли тозалаш"
+            ],
+            [
+              "Металуржийа",
+              "10-50",
+              "Техник мойлашган масловларни, фумар",
+              "Флокулйатсийа + озонлаш"
+            ]
           ],
           "successBox": {
-            "title": "Synergistic effect",
-            "text": "Combining ozonation with UV irradiation (O₃/UV process) increases oxidation efficiency by 30-40% due to formation of hydroxyl radicals (•OH) with oxidation potential of 2.80 V."
+            "title": "Синергик та'сир",
+            "text": "Озонлашни УВ нурланиш билан (О₃/УВ жарайони) бирлаштириб, оксидлаш самарадорлиги 30-40% га ортади, чунки 2,80 В оксидлаш потенсиали билан гидроксел радикалларнинг (•ОҲ) шакллашуши."
           }
         },
         "equipment": {
-          "title": "Technical specifications of industrial ozonators",
-          "paragraph": "High-capacity corona discharge ozone generators are used for treatment of oil-containing wastewater:",
-          "tableCaption": "Line of industrial ozonators for wastewater treatment",
-          "tableHeaders": ["Model", "Capacity, g O₃/h", "Wastewater volume, m³/h", "Power consumption, kW"],
+          "title": "Саноат озонаторларининг техник характеристикаси",
+          "paragraph": "Нефт маҳсулотлари билан ифлосланган чиқинди сувларни тозалаш учун йуқори қувватли корона екстремум озон генераторлари қўлланилади:",
+          "tableCaption": "Чиқинди сувларни тозалаш учун саноат озонаторларининг линийаси",
+          "tableHeaders": [
+            "Модел",
+            "Қабилийет, г О₃/соат",
+            "Чиқинди сув ҳажми, м³/соат",
+            "Енергийа сарфланиши, кW"
+          ],
           "tableRows": [
-            ["OZT-100", "100", "3-5", "1.2"],
-            ["OZT-500", "500", "15-25", "5.5"],
-            ["OZT-1000", "1000", "30-50", "10"],
-            ["OZT-2000", "2000", "60-100", "18"],
-            ["OZT-5000", "5000", "150-250", "45"]
+            [
+              "ОЗТ-100",
+              "100",
+              "3-5",
+              "1.2"
+            ],
+            [
+              "ОЗТ-500",
+              "500",
+              "15-25",
+              "5.5"
+            ],
+            [
+              "ОЗТ-1000",
+              "1000",
+              "30-50",
+              "10"
+            ],
+            [
+              "ОЗТ-2000",
+              "2000",
+              "60-100",
+              "18"
+            ],
+            [
+              "ОЗТ-5000",
+              "5000",
+              "150-250",
+              "45"
+            ]
           ],
           "items": [
-            "Oxygen feed for maximum ozone concentration (up to 12% by mass)",
-            "Cooling system for stable operation under high loads",
-            "Automatic capacity regulation by sensor signal",
-            "Residual ozone destructor with catalytic conversion",
-            "Safety system with emergency shutdown on ozone leak"
+            "Максимал озон контсентратсийас учун кислород етакзалаш (масса бўйича 12% гача)",
+            "Йуқори йуки остида барқарор ишлаш учун совитиш тизими",
+            "Сенсор сигнали бўйича автоматик қабилийет регулйатсийаси",
+            "Каталитик конверсийаси билан қолган озон деструктор",
+            "Озон озиқлаш бўлса зав тўхтатиш тизими"
           ]
         },
         "economics": {
-          "title": "Environmental and economic indicators",
-          "comparisonTitle": "Comparison of oil-containing wastewater treatment methods",
-          "comparisonHeaders": ["Parameter", "Ozonation", "Traditional methods"],
+          "title": "Екологик ва иқтисодий кўрсаткичлар",
+          "comparisonTitle": "Нефт маҳсулотлари билан ифлосланган чиқинди сувларни тозалаш усулларнинг таққослаши",
+          "comparisonHeaders": [
+            "Параметр",
+            "Озонлаш",
+            "Ан'анавий усуллар"
+          ],
           "comparisonRows": [
-            { "parameter": "Treatment efficiency", "value1": "95-99%", "value2": "70-90%" },
-            { "parameter": "Residual OP concentration", "value1": "<0.05 mg/L", "value2": "0.5-5 mg/L" },
-            { "parameter": "Sludge formation", "value1": "None", "value2": "2-5% of volume" },
-            { "parameter": "Reagent consumption", "value1": "Oxygen only", "value2": "Coagulants, sorbents" },
-            { "parameter": "Operating costs", "value1": "15-25 rub/m³", "value2": "30-60 rub/m³" },
-            { "parameter": "Capital costs", "value1": "Medium", "value2": "Low-medium" },
-            { "parameter": "Footprint", "value1": "Minimal", "value2": "Significant" }
+            {
+              "parameter": "Тозалаш самарадорлиги",
+              "value1": "95-99%",
+              "value2": "70-90%"
+            },
+            {
+              "parameter": "Қолган ОП контсентратсийаси",
+              "value1": "<0.05 мг/Л",
+              "value2": "0.5-5 мг/Л"
+            },
+            {
+              "parameter": "Чўкма шакллашиши",
+              "value1": "Йўқ",
+              "value2": "Ҳажмнинг 2-5%"
+            },
+            {
+              "parameter": "Реагент сарфланиши",
+              "value1": "Фақат кислород",
+              "value2": "Коагулйантлар, сорптсивар"
+            },
+            {
+              "parameter": "Ишлаш харажатлари",
+              "value1": "15-25 руб/м³",
+              "value2": "30-60 руб/м³"
+            },
+            {
+              "parameter": "Модал харажатлари",
+              "value1": "Ўрта",
+              "value2": "Паст-ўрта"
+            },
+            {
+              "parameter": "Жойи егаллаб туриш",
+              "value1": "Минимал",
+              "value2": "Сезиларли"
+            }
           ],
           "infoBox": {
-            "title": "Savings calculation",
-            "text": "For discharge of 100 m³/day of wastewater with OP concentration of 20 mg/L, the limit exceedance is 400 times. Discharge fee — up to 50,000 rub/month. Ozonation pays for itself in 8-12 months only on savings from environmental fees."
+            "title": "Тежашган ҳисоблаш",
+            "text": "100 м³/кун чиқинди сув оқиши ва 20 мг/Л ОП контсентратсийас учун чегара осиш 400 марта бўлади. Оқиш тўлови — ойига 50 000 рубли гача. Озонлаш фақат екологик тўловлардаги тежашган орқали 8-12 ойда ўзи қоплади."
           }
         },
         "compliance": {
-          "title": "Compliance with regulatory requirements",
-          "paragraph": "Ozonation ensures compliance with current regulations:",
+          "title": "Норматив талабларга мувофиқлик",
+          "paragraph": "Озонлаш ҳозирги қоидаларга мувофиқликни та'минлайди:",
           "items": [
-            "SanPiN 2.1.5.980-00 — Hygienic requirements for surface water protection",
-            "GOST 17.1.3.07-82 — Rules for water quality control of water bodies",
-            "Ministry of Agriculture Order No. 552 — Water quality standards for fishery water bodies",
-            "Federal Law No. 7-FZ \"On Environmental Protection\"",
-            "Government Decree No. 644 — Rules for cold water supply and wastewater disposal"
+            "СанПиН 2.1.5.980-00 — Сув ҳавзаларини ҳимойа қилишнинг гигийенак талаблари",
+            "ГОСТ 17.1.3.07-82 — Сув ҳавзаларини сувнинг сифатини назорат қилиш қоидалари",
+            "Қишлоқ хўжалиги вазирлиги буйруғи № 552 — Балиқ овқатланиш сув ҳавзалари учун сув сифат стандартлари",
+            "Федерал қонуни № 7-ФЗ \"Екологик ҳимойа ҳақида\"",
+            "Ҳукумат фармонî № 644 — Музлатилган сув та'миноти ва чиқинди сувларини ўчиритиш қоидалари"
           ],
-          "tableCaption": "Maximum allowable concentrations of oil products for various water use categories",
-          "tableHeaders": ["Water body category", "Limit, mg/L", "Hazard class"],
+          "tableCaption": "Турли сув фойдаланиш категорийалари учун нефт маҳсулотларининг максимал рухсат етилган контсентратсийас",
+          "tableHeaders": [
+            "Сув ҳавзаси категорийаси",
+            "Чегара, мг/Л",
+            "Хатар синфи"
+          ],
           "tableRows": [
-            ["Fishery water bodies, highest category", "0.05", "3"],
-            ["Fishery water bodies, category I", "0.05", "3"],
-            ["Fishery water bodies, category II", "0.05", "3"],
-            ["Domestic and drinking water use", "0.1", "4"],
-            ["Discharge to municipal sewerage", "4.0", "—"]
+            [
+              "Балиқ овқатланиш сув ҳавзалари, енг йуқори категорийа",
+              "0.05",
+              "3"
+            ],
+            [
+              "Балиқ овқатланиш сув ҳавзалари, категорийа И",
+              "0.05",
+              "3"
+            ],
+            [
+              "Балиқ овқатланиш сув ҳавзалари, категорийа ИИ",
+              "0.05",
+              "3"
+            ],
+            [
+              "Уйга ва ичимлик сув фойдаланиш",
+              "0.1",
+              "4"
+            ],
+            [
+              "Мунитсипал фазо ташкил етишга оқиш",
+              "4.0",
+              "—"
+            ]
           ]
         },
         "benefits": {
-          "title": "Advantages of industrial ozonation",
+          "title": "Саноат озонлашининг устунлуклари",
           "features": [
             {
-              "title": "Environmental safety",
-              "description": "Complete mineralization of oil products without secondary pollution and waste for disposal"
+              "title": "Екологик хавфсизлик",
+              "description": "Нефт маҳсулотларни иккинчи даражали ифлослантириш ва ўчиришнинг маҳсулотлари ташкил етишсиз тўлиқ минерализатсийа"
             },
             {
-              "title": "Compliance with limits",
-              "description": "Guaranteed achievement of standards for discharge into fishery water bodies"
+              "title": "Чегара мувофиқлиги",
+              "description": "Балиқ овқатланиш сув ҳавзаларига оқиш стандартларини гарантийаланган еришиш"
             },
             {
-              "title": "Process automation",
-              "description": "Automatic regulation of ozone dose according to concentration sensor readings"
+              "title": "Жарайонни автоматлаштириш",
+              "description": "Контсентратсийа сенсор ўқилмалари бўйича озон дозасининг автоматик регулйатсийаси"
             },
             {
-              "title": "Reduced fees",
-              "description": "Savings on environmental fees and fines for exceeding limits"
+              "title": "Тўловларни камайтирриш",
+              "description": "Екологик тўловлар ва чегара осиш учун жарималарга тежашган"
             },
             {
-              "title": "Versatility",
-              "description": "Effective treatment of all classes of oil products: aliphatic, aromatic, PAH"
+              "title": "Коʻп қоллиликлик",
+              "description": "Барча нефт маҳсулотларининг синфлари: алифатик, ароматик, ПАУ нинг самарали тозалаши"
             },
             {
-              "title": "Low operating costs",
-              "description": "No consumables — only electricity and oxygen"
+              "title": "Пастроқ ишлаш харажатлари",
+              "description": "Исте'молланувчи йўқ — фақат електр ва кислород"
             }
           ]
         },
         "case": {
-          "title": "Case study: Refinery with capacity of 6 million tons/year",
-          "paragraph": "Implementation of ozonation at wastewater treatment facilities of a refinery:",
-          "tableCaption": "Results of ozonation system implementation",
-          "tableHeaders": ["Indicator", "Before implementation", "After implementation", "Effect"],
+          "title": "Корхона ўрни: Йилига 6 миллион тон қабилийет билан рефинерй",
+          "paragraph": "Рефинерй нинг чиқинди сувларни тозалаш қуриллалари озонлаш ўрнатилмасининг қўлланилиши:",
+          "tableCaption": "Озонлаш тизимининг қўлланилиши натижалари",
+          "tableHeaders": [
+            "Кўрсаткич",
+            "Қўлланилишидан олдин",
+            "Қўлланилишидан кейин",
+            "Та'сир"
+          ],
           "tableRows": [
-            ["Wastewater volume, m³/day", "5,000", "5,000", "—"],
-            ["OP concentration at inlet, mg/L", "25-40", "25-40", "—"],
-            ["OP concentration at outlet, mg/L", "0.8-1.5", "0.03-0.05", "-96%"],
-            ["Environmental fees, million rub/year", "18.5", "0.2", "-99%"],
-            ["Coagulant consumption, t/year", "120", "0", "-100%"],
-            ["Sludge formation, t/year", "850", "0", "-100%"],
-            ["Payback period", "—", "14 months", "—"]
+            [
+              "Чиқинди сув ҳажми, м³/кун",
+              "5,000",
+              "5,000",
+              "—"
+            ],
+            [
+              "Кириш жойидаги ОП контсентратсийаси, мг/Л",
+              "25-40",
+              "25-40",
+              "—"
+            ],
+            [
+              "Чиқиш жойидаги ОП контсентратсийаси, мг/Л",
+              "0.8-1.5",
+              "0.03-0.05",
+              "-96%"
+            ],
+            [
+              "Екологик тўловлар, миллион руб/йил",
+              "18.5",
+              "0.2",
+              "-99%"
+            ],
+            [
+              "Коагулйант сарфланиши, т/йил",
+              "120",
+              "0",
+              "-100%"
+            ],
+            [
+              "Чўкма шакллашиши, т/йил",
+              "850",
+              "0",
+              "-100%"
+            ],
+            [
+              "Қайтариш даври",
+              "—",
+              "14 ой",
+              "—"
+            ]
           ]
         }
       }
     },
     "manufacturing": {
-      "title": "Production air treatment",
-      "shortDesc": "Air purification and disinfection in production facilities",
-      "content": "Air ozonation at production sites addresses disinfection of work areas, odor removal, neutralization of harmful substances and compliance with occupational health standards.\n\nIn production facilities, concentrations of microorganisms and harmful substances can far exceed sanitary norms. Ozonation reduces microbial load by 80–95% and oxidizes volatile organic compounds.\n\nThe technology is effective for food production, pharmaceutical plants, packaging facilities, warehouses and any sites with strict air quality requirements.\n\nIndustrial ozone generators provide capacity from 10 to 1000 g/h, enabling treatment of spaces from 100 to 50,000 m³.",
+      "title": "Ишлаб чиқариш ҳавони тозалаш",
+      "shortDesc": "Ишлаб чиқариш қуриллалари ҳавони тозалаш ва дезинфексийа",
+      "content": "Ишлаб чиқариш жойларида ҳава озонлаш иш жойларини дезинфексийа қилиш, ҳид олиб ташлаш, зарарли моддаларни нейтраллаштириш ва касб соғлиғини ҳимойа стандартларининг мувофиқлигини ҳал қилади.\n\nИшлаб чиқариш қуриллаларида микроорганизмлар ва зарарли моддаларнинг контсентратсийас санитарийа ме'йорларини 80-95% дан ортмай қўйиши мумкин ва озонлаш микробиал йüкни 80–95% га камайтириб, учқун органик бирикмаларни оксидлаш.\n\nТекнологийа озиқ-овқат ишлаб чиқариш, фарматсевтик завотлар, қадоқлаш қуриллалари, омборлар ва ҳава сифатига жиддий талаблар қўйувчи барча жойларда самарали.\n\nСаноат озон генераторлари 10 дан 1000 г/соат қабилийет та'минлайди, бу 100 дан 50,000 м³ фаоʻзаси тозалаш имконийатини беради.",
       "benefits": [
-        "80–95% reduction in microflora",
-        "Elimination of industrial odors",
-        "Compliance with occupational health norms",
-        "Oxidation of VOCs",
-        "Improved working conditions",
-        "Scalable industrial solutions"
+        "80–95% микрофлора камайиши",
+        "Саноат ҳидларини олиб ташлаш",
+        "Касб соғлиғини ҳимойа стандартларининг мувофиқлик",
+        "ВОК оксидланиши",
+        "Иш шароитларининг йахшиланиши",
+        "Масштабланиши мумкин бўлган саноат йечимлар"
       ],
       "stats": {
         "stat1": {
           "value": "80-95%",
-          "label": "Microflora reduction",
-          "description": "In production facility air"
+          "label": "Микрофлора камайиши",
+          "description": "Ишлаб чиқариш қуриллалари ҳавосида"
         },
         "stat2": {
           "value": "0.1",
-          "label": "mg/m³ MPC",
-          "description": "Maximum single ozone concentration"
+          "label": "мг/м³ МПC",
+          "description": "Максимал йагона озон контсентратсийаси"
         },
         "stat3": {
           "value": "15-20",
-          "label": "min",
-          "description": "Express treatment time"
+          "label": "мин",
+          "description": "Ехпресс тозалаш вақти"
         },
         "stat4": {
           "value": "99.9%",
-          "label": "Efficiency",
-          "description": "Against pathogenic microorganisms"
+          "label": "Самарадорлик",
+          "description": "Патогеник микроорганизмларга қарши"
         }
       },
       "sections": {
         "intro": {
-          "paragraph1": "Air quality at production facilities directly affects personnel health, product quality and compliance with sanitary standards. In production facilities, concentrations of microorganisms, dust and harmful substances can far exceed permissible levels.",
-          "paragraph2": "Ozonation is a comprehensive air treatment technology providing disinfection, deodorization and oxidation of volatile organic compounds. Industrial ozone generators with capacity from 10 to 1000 g/h enable treatment of spaces from 100 to 50,000 m³.",
+          "paragraph1": "Ишлаб чиқариш қуриллаларида ҳава сифати бевосита ходимлар соғлиғига, маҳсулот сифатига ва санитарийа стандартларининг мувофиқлигига та'сир қилади. Ишлаб чиқариш қуриллаларида микроорганизмлар, чанг ва зарарли моддаларнинг контсентратсийас рухсат етилган даражаларни 80-95% дан ортмай қўйиши мумкин.",
+          "paragraph2": "Озонлаш дезинфексийа, деодорлаш ва учқун органик бирикмаларнинг оксидланишини та'минлаш компйутер ҳава тозалаш техналогийасидир. 10 дан 1000 г/соат қабилийет билан саноат озон генераторлари 100 дан 50,000 м³ фаоʻзаси тозалаш имконийатини беради.",
           "warning": {
-            "title": "Safety requirements:",
-            "text": "Ozone MPC in work zones is 0.1 mg/m³ (maximum single) and 0.03 mg/m³ (shift average) according to GN 2.2.5.3532-18. Facility treatment is conducted in the absence of personnel with subsequent ventilation to residual concentration <0.03 mg/m³."
+            "title": "Хавфсизлик талаблари:",
+            "text": "Иш жойларида озон МПC ГН 2.2.5.3532-18 бўйича 0,1 мг/м³ (максимал йагона) ва 0,03 мг/м³ (смена ўртача). Қурилла тозалаш ходимлар йўқлигида амалга оширилади ва кейинги вентилатсийа қолган контсентратсийаси <0,03 мг/м³ билан."
           }
         },
         "mechanism": {
-          "title": "Mechanism of ozone action on air pollutants",
-          "paragraph": "Ozone is the strongest oxidizer capable of destroying a wide range of production air pollutants:",
+          "title": "Озон томонидан ишлаб чиқариш ҳава ифлослантиргувчиларига та'сир механизми",
+          "paragraph": "Озон кўплаб ишлаб чиқариш ҳава ифлослантиргувчиларни йўқ қиладиган қоида кучли оксидловчи:",
           "bulletList": [
-            "Bacteria, viruses, fungi and spores — oxidative destruction of cell membranes",
-            "Volatile organic compounds (VOCs) — oxidation to CO₂ and H₂O",
-            "Hydrogen sulfide (H₂S) — oxidation to sulfates",
-            "Ammonia (NH₃) — oxidation to nitrates and water",
-            "Odorants — destruction of unsaturated bonds in molecules"
+            "Бактерйалар, вируслар, қўзиқоринлар ва споралар — клатка мембраналарининг оксидатив йўқ қилиши",
+            "Учқун органик биркмалар (ВОК) — CО₂ ва Ҳ₂О га оксидланиши",
+            "Водород сулфид (Ҳ₂С) — сулфатларга оксидланиши",
+            "Аммиак (НҲ₃) — нитратлар ва сув га оксидланиши",
+            "Одорантлар — молекулаларида тўғри бўлмаган боғларини йўқ қилиш"
           ],
           "table": {
-            "caption": "Ozonation efficiency against microorganisms",
-            "headers": ["Microorganism", "Ozone concentration, mg/m³", "Exposure time, min", "Efficiency"],
+            "caption": "Микроорганизмларга қарши озонлаш самарадорлиги",
+            "headers": [
+              "Микроорганисм",
+              "Озон контсентратсийаси, мг/м³",
+              "Експозитсийа вақти, мин",
+              "Самарадорлик"
+            ],
             "rows": [
-              ["E. coli", "0.5-1.0", "15-20", "99.9%"],
-              ["Staphylococcus aureus", "1.0-2.0", "20-30", "99.9%"],
-              ["Aspergillus niger (spores)", "2.0-5.0", "30-60", "99.0%"],
-              ["Influenza virus", "0.5-1.0", "10-15", "99.99%"],
-              ["SARS-CoV-2", "1.0-2.0", "15-20", "99.9%"]
+              [
+                "Е. cоли",
+                "0.5-1.0",
+                "15-20",
+                "99.9%"
+              ],
+              [
+                "Стапҳйлоcоccус ауреус",
+                "1.0-2.0",
+                "20-30",
+                "99.9%"
+              ],
+              [
+                "Аспергиллус нигер (споралар)",
+                "2.0-5.0",
+                "30-60",
+                "99.0%"
+              ],
+              [
+                "Грипп вируси",
+                "0.5-1.0",
+                "10-15",
+                "99.99%"
+              ],
+              [
+                "САРС-CоВ-2",
+                "1.0-2.0",
+                "15-20",
+                "99.9%"
+              ]
             ]
           },
           "highlight": {
-            "title": "Ozone vs. UV disinfection:",
-            "text": "Unlike UV lamps, effective only in direct radiation zones, ozone spreads throughout the entire facility volume, penetrating hard-to-reach areas: crevices, ventilation systems, equipment interior spaces."
+            "title": "Озон вс. УВ дезинфексийа:",
+            "text": "УВ лампалардан фарқли ўлароқ, фақат тўғридан-тўғри нурланиш жойларида самарали, озон бутун қурилла ҳажмига тарқалади, қийин қўлга кирадиган жойларни: трешчинааларни, вентилатсийа тизимларини, қурилла ички жойларини пенетратсийа қилади."
           }
         },
         "applications": {
-          "title": "Industrial ozonation application areas",
-          "paragraph": "The technology is in demand at facilities with high air quality requirements:",
+          "title": "Саноат озонлаш қўлланилиш соҳаси",
+          "paragraph": "Техналогийа ҳава сифатига йуқори талаблар қўйувчи қуриллаларида талаб.",
           "table": {
-            "caption": "Application industries and specific tasks",
-            "headers": ["Industry", "Main tasks", "Treatment mode"],
+            "caption": "Қўлланиш саноатлари ва махсус вазифалари",
+            "headers": [
+              "Саноат",
+              "Асосий вазифалар",
+              "Тозалаш режими"
+            ],
             "rows": [
-              ["Food production", "Disinfection, odor removal, extended shelf life", "Daily, night shifts"],
-              ["Pharmaceuticals", "Sterility of clean rooms classes A-D", "After each shift"],
-              ["Packaging facilities", "Disinfection of packaging materials and air", "Continuous low-dose"],
-              ["Textile production", "Odor removal, dust reduction", "Periodic"],
-              ["Wood processing", "Mold control, dust concentration reduction", "Daily"],
-              ["Warehouse facilities", "Mold prevention, disinfection", "Scheduled 2-3 times/week"]
+              [
+                "Озиқ-овқат ишлаб чиқариш",
+                "Дезинфексийа, ҳидни олиб ташлаш, маҳсулот қўл даврини узоқартириш",
+                "Кунлик, кечки смена"
+              ],
+              [
+                "Фарматсевтик",
+                "Тоза хоналарнинг А-Д синифини стериллик",
+                "Ҳар смена кейин"
+              ],
+              [
+                "Қадоқлаш қуриллалари",
+                "Қадоқлаш материаллари ва ҳава дезинфексийаси",
+                "Доимий паст-доза"
+              ],
+              [
+                "Матоли ишлаб чиқариш",
+                "Ҳидни олиб ташлаш, чангнинг камайтирилиши",
+                "Даврий"
+              ],
+              [
+                "Йоғочни қайта ишлаш",
+                "Қўзиқоринга назорат, чанг контсентратсийас камайтирилиши",
+                "Кунлик"
+              ],
+              [
+                "Омборлар",
+                "Қўзиқориндан ҳимойа, дезинфексийа",
+                "Режалаштирилган 2-3 марта/ҳафта"
+              ]
             ]
           }
         },
         "modes": {
-          "title": "Production facility treatment modes",
+          "title": "Ишлаб чиқариш қуриллалари тозалаш режимлар",
           "steps": [
             {
-              "title": "Shock disinfection (10-50 mg/m³)",
-              "description": "Used for deep treatment after repairs, mold contamination, sanitization after infection outbreaks. Conducted in the absence of personnel with 60-120 minute exposure."
+              "title": "Шок дезинфексийа (10-50 мг/м³)",
+              "description": "Та'мирлаш, қўзиқорин ифлослантириш, йуқумли ҳасталиклари сурткаларидан кейин санитарийадан кейинги чуқур тозалаш учун қўлланилади. Ходимларнинг йўқлигида 60-120 минут експозитсийа билан амалга оширилади."
             },
             {
-              "title": "Regular treatment (2-5 mg/m³)",
-              "description": "Preventive ozonation during night shifts or technical breaks. Treatment time 30-60 minutes, ventilation 30-45 minutes."
+              "title": "Мунтазам тозалаш (2-5 мг/м³)",
+              "description": "Кечки сменалар йоки техник танаффусларида превентив озонлаш. Тозалаш вақти 30-60 минут, вентилатсийа 30-45 минут."
             },
             {
-              "title": "Continuous low-dose ozonation (0.02-0.05 mg/m³)",
-              "description": "Maintaining sanitary conditions in the presence of personnel. Concentration below MPC, constant circulation of ozonated air through ventilation system."
+              "title": "Доимий паст-доза озонлаш (0.02-0.05 мг/м³)",
+              "description": "Ходимларнинг мавжудлигида санитарийа шароитларини сақлаб туриш. Контсентратсийа МПC дан паст, вентилатсийа тизими орқали озонлаштирилган ҳава доимий сиркулйатсийаси."
             },
             {
-              "title": "Local work zone treatment",
-              "description": "Spot ozonation of areas with high microbial load. Application of mobile ozonators with directed supply."
+              "title": "Маҳаллий иш зона тозалаши",
+              "description": "Йуқори микробиал йукка ега жойларнинг жойлаштирилган озонлаши. Мобил озонаторлари ўтказилган та'минот билан қўлланилмаси."
             }
           ],
           "table": {
-            "caption": "Ozonator capacity calculation for production facilities",
-            "headers": ["Facility volume, m³", "Ozone concentration, mg/m³", "Time to reach mode, min", "Required capacity, g/h"],
+            "caption": "Ишлаб чиқариш қуриллалари учун озонатор қабилийет ҳисоблаши",
+            "headers": [
+              "Қурилла ҳажми, м³",
+              "Озон контсентратсийаси, мг/м³",
+              "Режимга йетиш вақти, мин",
+              "Керакли қабилийет, г/соат"
+            ],
             "rows": [
-              ["100-500", "5", "15-20", "50-100"],
-              ["500-2000", "5", "20-30", "100-300"],
-              ["2000-5000", "5", "30-45", "300-500"],
-              ["5000-10000", "5", "45-60", "500-800"],
-              [">10000", "5", "60-90", "800-1500"]
+              [
+                "100-500",
+                "5",
+                "15-20",
+                "50-100"
+              ],
+              [
+                "500-2000",
+                "5",
+                "20-30",
+                "100-300"
+              ],
+              [
+                "2000-5000",
+                "5",
+                "30-45",
+                "300-500"
+              ],
+              [
+                "5000-10000",
+                "5",
+                "45-60",
+                "500-800"
+              ],
+              [
+                ">10000",
+                "5",
+                "60-90",
+                "800-1500"
+              ]
             ]
           }
         },
         "ventilation": {
-          "title": "Integration with ventilation systems",
-          "paragraph": "For large production facilities, optimal solution is integration of ozonators with existing ventilation system:",
+          "title": "Вентилатсийа тизимлари билан интегратсийа",
+          "paragraph": "Катта ишлаб чиқариш қуриллалари учун оптимал йечим озонаторларни мавжуд вентилатсийа тизими билан интегратсийа қилиш:",
           "bulletList": [
-            "Ozone injection into supply air duct — uniform distribution throughout facility",
-            "Recirculation air treatment — microbial load reduction",
-            "Exhaust air ozonation — odor removal before atmospheric discharge",
-            "Local ventilation with ozonation — treatment of high contamination zones"
+            "Озонни та'минот ҳава каналга киритиш — қурилла бўйлаб текис тарқалиши",
+            "Сиркулйатсийа ҳава тозалаши — микробиал йüк камайтирилиши",
+            "Чиқиши ҳава озонлаши — атмосферага оқишдан олдин ҳидни олиб ташлаш",
+            "Маҳаллий вентилатсийа озонлаш билан — йуқори ифлослантириш жойларини тозалаш"
           ],
           "table": {
-            "caption": "Ozonation integration schemes with ventilation",
-            "headers": ["Scheme", "Advantages", "Limitations"],
+            "caption": "Вентилатсийа билан озонлаш интегратсийа схемалар",
+            "headers": [
+              "Схема",
+              "Устунлуклари",
+              "Чекловлари"
+            ],
             "rows": [
-              ["Injection into supply", "Uniformity, simplicity", "Requires corrosion-resistant ducts"],
-              ["Recirculation", "Energy savings, continuous treatment", "Concentration limitation"],
-              ["Separate circuit", "Mode flexibility, independence", "Additional costs"],
-              ["Mobile units", "Mobility, minimal investment", "Uneven treatment"]
+              [
+                "Та'минот киритиш",
+                "Текислиги, соддалиги",
+                "Еросийа барқарарлаштирилган каналларни талаб қилади"
+              ],
+              [
+                "Сиркулйатсийа",
+                "Енергийа тежаш, доимий тозалаш",
+                "Контсентратсийа чекланмаси"
+              ],
+              [
+                "Алоҳида електр схемаси",
+                "Режим мослиги, мустақиллик",
+                "Қўшимча харажатлар"
+              ],
+              [
+                "Мобил бирликлар",
+                "Портативлик, минимал инвеститсийа",
+                "Тенг бўлмаган тозалаш"
+              ]
             ]
           },
           "highlight": {
-            "title": "Energy resource savings:",
-            "text": "Disinfection of recirculation air with ozone allows reducing fresh supply air share from 100% to 30-50%, reducing heating/cooling costs by 40-60%."
+            "title": "Енергийа ресурси тежаши:",
+            "text": "Озон билан сиркулйатсийа ҳава дезинфексийаси та'минот ҳава улусни 100% дан 30-50% га камайтириш имконийатини беради, иситиш/совитиш харажатларини 40-60% га камайтираб."
           }
         },
         "voc": {
-          "title": "Volatile organic compound neutralization",
-          "paragraph": "At facilities using solvents, paints, adhesives, VOC concentrations can exceed MPC by 5-20 times. Ozonation oxidizes organic compounds to safe products:",
+          "title": "Учқун органик бирикмаларин нейтраллаштириш",
+          "paragraph": "Еритувчилар, ранглар, йопишқоқ моддаларни қўллаш қуриллаларида ВОК контсентратсийас МПC 5-20 марта осиб қўйиши мумкин. Озонлаш органик бирикмаларин хавфсиз маҳсулотлар га оксидлайди:",
           "table": {
-            "caption": "Oxidation of typical production facility VOCs",
-            "headers": ["Compound", "MPC, mg/m³", "Oxidation rate", "Reaction products"],
+            "caption": "Типик ишлаб чиқариш қуриллалари ВОК оксидланиши",
+            "headers": [
+              "Бирикма",
+              "МПC, мг/м³",
+              "Оксидланиш тезлиги",
+              "Реактсийа маҳсулотлари"
+            ],
             "rows": [
-              ["Formaldehyde", "0.5", "High", "CO₂, H₂O, formic acid"],
-              ["Benzene", "5.0", "Medium", "CO₂, H₂O, phenols"],
-              ["Toluene", "50", "Medium", "CO₂, H₂O, benzaldehyde"],
-              ["Xylene", "50", "Medium", "CO₂, H₂O, tolualdehyde"],
-              ["Acetone", "200", "Low", "CO₂, H₂O, acetic acid"],
-              ["Styrene", "30", "High", "CO₂, H₂O, benzaldehyde"]
+              [
+                "Формалдегид",
+                "0.5",
+                "Йуқори",
+                "CО₂, Ҳ₂О, муравйоқ кислотаси"
+              ],
+              [
+                "Бензол",
+                "5.0",
+                "Ўрта",
+                "CО₂, Ҳ₂О, феноллар"
+              ],
+              [
+                "Толуол",
+                "50",
+                "Ўрта",
+                "CО₂, Ҳ₂О, бензалдегид"
+              ],
+              [
+                "Ксилол",
+                "50",
+                "Ўрта",
+                "CО₂, Ҳ₂О, тулуалдегид"
+              ],
+              [
+                "Атсетон",
+                "200",
+                "Паст",
+                "CО₂, Ҳ₂О, аcетик кислотаси"
+              ],
+              [
+                "Стирол",
+                "30",
+                "Йуқори",
+                "CО₂, Ҳ₂О, бензалдегид"
+              ]
             ]
           },
           "highlight": {
-            "title": "Combined methods:",
-            "text": "For high VOC concentrations, effective combination of ozonation with catalytic oxidation. Ozone activates catalyst at 100-150°C instead of 300-400°C for thermal oxidation."
+            "title": "Бирлаштирилган усуллар:",
+            "text": "Йуқори ВОК контсентратсийаси учун озонлаш каталитик оксидатсийа билан бирлаштирилиши самарали. Озон катализ активатсийа қилади 100-150°C да ўхшаш 300-400°C учун термик оксидатсийа."
           }
         },
         "regulatory": {
-          "title": "Compliance with regulatory requirements",
-          "paragraph": "Ozonation helps ensure production compliance with sanitary standards and occupational health requirements:",
+          "title": "Норматив талабларга мувофиқлик",
+          "paragraph": "Озонлаш ишлаб чиқариш санитарийа стандартлари ва касб соғлиғини ҳимойа талабларининг мувофиқлигини та'минлашга йордам беради:",
           "bulletList": [
-            "SanPiN 1.2.3685-21 — Hygienic standards and safety requirements",
-            "GOST 12.1.005-88 — General sanitary-hygienic requirements for work zone air",
-            "GN 2.2.5.3532-18 — MPC of harmful substances in work zone air",
-            "SP 2.2.3670-20 — Sanitary-epidemiological requirements for working conditions",
-            "TR TS 021/2011 — Food product safety (for food production)"
+            "СанПиН 1.2.3685-21 — Гигийена стандартлари ва хавфсизлик талаблари",
+            "ГОСТ 12.1.005-88 — Иш зона ҳавосига умумий санитарийа-гигийена талаблари",
+            "ГН 2.2.5.3532-18 — Иш зона ҳавосида зарарли моддаларнинг МПC",
+            "СП 2.2.3670-20 — Иш шароитлари учун санитарийа-епидемиологик талаблари",
+            "ТР ТС 021/2011 — Озиқ-овқат маҳсулотлари хавфсизлик (озиқ-овқат ишлаб чиқариш учун)"
           ],
           "table": {
-            "caption": "MPC of main work zone air pollutants",
-            "headers": ["Substance", "Max MPC, mg/m³", "Shift avg MPC, mg/m³", "Hazard class"],
+            "caption": "Асосий иш зона ҳава ифлослантиргичилар МПC",
+            "headers": [
+              "Модда",
+              "Макс МПC, мг/м³",
+              "Смена ўртача МПC, мг/м³",
+              "Хатар синфи"
+            ],
             "rows": [
-              ["Ozone", "0.1", "0.03", "1"],
-              ["Non-toxic dust", "10", "4", "4"],
-              ["Ammonia", "20", "—", "4"],
-              ["Hydrogen sulfide", "10", "—", "2"],
-              ["Formaldehyde", "0.5", "0.05", "2"],
-              ["Hydrocarbons (by C)", "300", "100", "4"]
+              [
+                "Озон",
+                "0.1",
+                "0.03",
+                "1"
+              ],
+              [
+                "Токсинли бўлмаган чанг",
+                "10",
+                "4",
+                "4"
+              ],
+              [
+                "Аммиак",
+                "20",
+                "—",
+                "4"
+              ],
+              [
+                "Водород сулфид",
+                "10",
+                "—",
+                "2"
+              ],
+              [
+                "Формалдегид",
+                "0.5",
+                "0.05",
+                "2"
+              ],
+              [
+                "Углеводокларни (C бўйича)",
+                "300",
+                "100",
+                "4"
+              ]
             ]
           }
         },
         "safety": {
-          "title": "Safety system for ozonation",
-          "paragraph": "Industrial ozonation systems are equipped with multi-level safety system:",
+          "title": "Озонлаш учун хавфсизлик тизими",
+          "paragraph": "Саноат озонлаш тизимлари кўп даражали хавфсизлик тизими билан та'чикланади:",
           "bulletList": [
-            "Ozone concentration sensors with emergency shutdown at >0.1 mg/m³",
-            "Automatic generation stop when facility doors open",
-            "Light and sound alarms during treatment",
-            "Timer with automatic shutdown after treatment time",
-            "Residual ozone destructor with 99.9% efficiency",
-            "Personnel access lockout during high-concentration treatment"
+            "Озон контсентратсийаси датчиклари >0.1 мг/м³ да та'гит тўхтади",
+            "Қурилла ешиклари очилганда автоматик шаклланиш тўхташи",
+            "Тозалаш пайтида йоруғлик ва овоз сигнализатсийалар",
+            "Тозалаш вақтидан кейин автоматик тўхташ таймер",
+            "Қолган озон деструктор 99.9% самарадорлик билан",
+            "Йуқори контсентратсийа тозалаш пайтида ходимларнинг кириши тақиқланиши"
           ],
           "highlight": {
-            "title": "Safety protocol:",
-            "text": "Before personnel entry into treated facility, ozone concentration must be reduced to <0.03 mg/m³. Natural ozone decay time: 20-40 minutes. Forced ventilation reduces time to 10-15 minutes."
+            "title": "Хавфсизлик протоколи:",
+            "text": "Тозалаштирилган қуриллага ходимлар кириш олдин, озон контсентратсийас <0.03 мг/м³ гача камайтирилиши керак. Табиий озон пус вақти: 20-40 минут. Мажбурий вентилатсийа вақти 10-15 минутга камайтиради."
           }
         },
         "economics": {
-          "title": "Implementation economic indicators",
+          "title": "Қўлланилиш иқтисодий кўрсаткичлар",
           "comparisonTable": {
-            "title": "Industrial ozonation ROI",
-            "headers": ["Item", "Ozonation", "Alternatives"],
+            "title": "Саноат озонлаш РОИ",
+            "headers": [
+              "Харакат",
+              "Озонлаш",
+              "Муқобиллар"
+            ],
             "rows": [
-              { "parameter": "Capital costs", "value1": "300-800 thousand rub", "value2": "150-400 thousand rub" },
-              { "parameter": "Annual operation", "value1": "50-120 thousand rub", "value2": "200-500 thousand rub" },
-              { "parameter": "Consumables", "value1": "None", "value2": "Disinfectants, filters" },
-              { "parameter": "Efficiency", "value1": "95-99.9%", "value2": "70-90%" },
-              { "parameter": "Payback period", "value1": "12-18 months", "value2": "—" },
-              { "parameter": "Equipment service life", "value1": "10-15 years", "value2": "3-5 years" }
+              {
+                "parameter": "Модал харажатлар",
+                "value1": "300-800 мин руб",
+                "value2": "150-400 мин руб"
+              },
+              {
+                "parameter": "Йиллик ишлаш",
+                "value1": "50-120 мин руб",
+                "value2": "200-500 мин руб"
+              },
+              {
+                "parameter": "Исте'молланувчилар",
+                "value1": "Йўқ",
+                "value2": "Дезинфексийа воситалари, филтрлар"
+              },
+              {
+                "parameter": "Самарадорлик",
+                "value1": "95-99.9%",
+                "value2": "70-90%"
+              },
+              {
+                "parameter": "Қайтариш даври",
+                "value1": "12-18 ой",
+                "value2": "—"
+              },
+              {
+                "parameter": "Қурилла хизмат умри",
+                "value1": "10-15 йил",
+                "value2": "3-5 йил"
+              }
             ]
           },
           "table": {
-            "caption": "Savings calculation for 2000 m³ production facility",
-            "headers": ["Indicator", "Value", "Comment"],
+            "caption": "2000 м³ ишлаб чиқариш қурилласи учун тежаш ҳисоблаши",
+            "headers": [
+              "Кўрсаткич",
+              "Қиймат",
+              "Изоҳ"
+            ],
             "rows": [
-              ["Equipment cost", "450,000 rub", "200 g/h ozonator + automation"],
-              ["Installation and commissioning", "80,000 rub", "Integration with ventilation"],
-              ["Annual electricity", "18,000 rub", "2.5 kW × 2 h/day × 365 days × 10 rub/kWh"],
-              ["Savings on disinfectants", "180,000 rub/year", "Elimination of chemical treatment"],
-              ["Reduced sick leave", "150,000 rub/year", "30% reduction in illness"],
-              ["Net effect", "312,000 rub/year", "Payback in 18 months"]
+              [
+                "Қурилла қиймати",
+                "450,000 руб",
+                "200 г/соат озонатор + автоматика"
+              ],
+              [
+                "Ўрнатиш ва ишга тушириш",
+                "80,000 руб",
+                "Вентилатсийа билан интегратсийа"
+              ],
+              [
+                "Йиллик електр",
+                "18,000 руб",
+                "2.5 кW × 2 соат/кун × 365 кун × 10 руб/кWҳ"
+              ],
+              [
+                "Дезинфексийа воситаларга тежаш",
+                "180,000 руб/йил",
+                "Кимйовий тозалашни бартараф етиш"
+              ],
+              [
+                "Беморга кетайотган кунларни камайтирриш",
+                "150,000 руб/йил",
+                "Касалликнинг 30% камайтирилиши"
+              ],
+              [
+                "Соф та'сир",
+                "312,000 руб/йил",
+                "18 ойда қайтариш"
+              ]
             ]
           }
         },
         "benefits": {
-          "title": "Industrial air ozonation advantages",
+          "title": "Саноат ҳава озонлашининг устунлуклари",
           "items": [
             {
-              "title": "Comprehensive impact",
-              "description": "Simultaneous disinfection, deodorization and neutralization of harmful substances"
+              "title": "Комплекс та'сир",
+              "description": "Бир вақтни ўзида дезинфексийа, деодорлаш ва зарарли моддаларни нейтраллаштириш"
             },
             {
-              "title": "Complete coverage",
-              "description": "Treatment of entire facility volume, including hard-to-reach areas"
+              "title": "Бутун қамров",
+              "description": "Қурилла бутун ҳажмини тозалаш, қийин қўлга кирадиган жойларини ўз ичига олган"
             },
             {
-              "title": "No chemical residues",
-              "description": "Ozone decomposes to oxygen without toxic products"
+              "title": "Кимйовий қолдиқлар йўқ",
+              "description": "Озон токсин бўлмаган маҳсулотларсиз кислород га тўхтади"
             },
             {
-              "title": "Regulatory compliance",
-              "description": "Ensuring SanPiN and occupational health requirements"
+              "title": "Норматив мувофиқлик",
+              "description": "СанПиН ва касб соғлиғини ҳимойа талабларини та'минлаш"
             },
             {
-              "title": "Automation",
-              "description": "Scheduled operation without personnel involvement"
+              "title": "Автоматлаштириш",
+              "description": "Ходим иштирокисиз режалаштирилган ишлаш"
             },
             {
-              "title": "Minimal costs",
-              "description": "No consumables, only electricity"
+              "title": "Минимал харажатлар",
+              "description": "Исте'молланувчилар йўқ, фақат електр"
             }
           ]
         },
         "case": {
-          "title": "Case: Food production, packaging facility",
-          "paragraph": "Ozonation system implementation at confectionery production enterprise:",
+          "title": "Корхона: Озиқ-овқат ишлаб чиқариш, қадоқлаш қуриллалари",
+          "paragraph": "Конфет ишлаб чиқариш корхонасида озонлаш тизимининг қўлланилмаси:",
           "table": {
-            "caption": "Implementation results over 6 months of operation",
-            "headers": ["Indicator", "Before implementation", "After implementation", "Change"],
+            "caption": "6 ойлик ишлаш давридаги қўлланилиш натижалари",
+            "headers": [
+              "Кўрсаткич",
+              "Қўлланилишидан олдин",
+              "Қўлланилишидан кейин",
+              "Ўзгариш"
+            ],
             "rows": [
-              ["Facility volume", "3,500 m³", "3,500 m³", "—"],
-              ["Air microbial contamination", "2,500 CFU/m³", "150 CFU/m³", "-94%"],
-              ["Mold complaint cases", "12 cases/month", "0-1 case/month", "-95%"],
-              ["Product shelf life", "14 days", "21 days", "+50%"],
-              ["Chemical disinfection costs", "35,000 rub/month", "5,000 rub/month", "-86%"],
-              ["Personnel sick leave", "8 days/month", "3 days/month", "-63%"]
+              [
+                "Қурилла ҳажми",
+                "3,500 м³",
+                "3,500 м³",
+                "—"
+              ],
+              [
+                "Ҳава микробиал ифлослантириши",
+                "2,500 CФУ/м³",
+                "150 CФУ/м³",
+                "-94%"
+              ],
+              [
+                "Қўзиқорин шикойат ҳолатлари",
+                "12 ҳолатлар/ойига",
+                "0-1 ҳолатлар/ойига",
+                "-95%"
+              ],
+              [
+                "Маҳсулот қўл даври",
+                "14 кун",
+                "21 кун",
+                "+50%"
+              ],
+              [
+                "Кимйовий дезинфексийа харажатлари",
+                "35,000 руб/ойига",
+                "5,000 руб/ойига",
+                "-86%"
+              ],
+              [
+                "Ходим беморга кетайотган кунлар",
+                "8 кун/ойига",
+                "3 кун/ойига",
+                "-63%"
+              ]
             ]
           }
         }

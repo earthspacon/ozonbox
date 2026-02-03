@@ -1,678 +1,687 @@
 {
-  "title": "Food production",
-  "description": "Ozonation at food facilities ensures product safety, extends shelf life and meets HACCP requirements. An eco-friendly alternative to chemical preservatives.",
+  "title": "Oziq-ovqat ishlab chiqarish",
+  "description": "Oziq-ovqat zavehlarin ozonatsiya qo'llanilishi mahsulot xavfsizligini ta'minlaydi, saqlash muddatini uzaytiradi va HACCP talablariga javob beradi. Kimyoviy konservantlarga eco-dostviy muqobil.",
   "subcategories": {
     "bottled-water": {
-      "title": "Bottled water",
-      "shortDesc": "Final ozonation in drinking water bottling",
-      "content": "Final ozonation is a key step in bottled drinking water production. The technology sterilizes water, packaging and equipment immediately before filling, preventing secondary microbiological contamination.\n\nUnder sanitary standards, ozonation is the preferred method for disinfecting drinking water. Chlorine is not permitted for bottled water. Ozone fully decays to oxygen, saturating the water and improving taste.\n\nAt residual ozone up to 0.1 mg/L and contact time of at least 12 minutes, full sterilization of water, bottle, headspace and cap is achieved. The product remains sterile until the package is opened.",
+      "title": "Shisha suvda ozonatsiya",
+      "shortDesc": "Ichimlik suvining finali ozonatsiyasi",
+      "content": "Finali ozonatsiya shisha ichimlik suvining ishlab chiqarish jarayonida asosiy bosqich hisoblanadi. Texnologiya suv, qadoq va uskunani to'ldirish oldidan sterilizatsiya qiladi va ikkinchi darajali mikrobiologik kontaminatsiyasini oldini oladi.\n\nBugungi sanitar standartlari bo'yicha ozonatsiya ichimlik suvining dezinfeksiyasi uchun afzal usuldir. Shisha suvda xlorin ishlatilishi taqiqlanadi. Ozon butunlay kislorod holatiga aylanadi, suvni kislorod bilan to'yinadi va uning ta'mni yaxshilaydi.\n\nQolgan ozone 0,1 mg/L dan ko'p bo'lmasa va ta'sir vaqti kamida 12 daqiqaga teng bo'lsa, suv, shisha, yuqori qism va qopqoq to'liq sterilizatsiya qilinadi. Mahsulot qopqoq ochilmaguncha steril holatda qoladi.",
       "benefits": [
-        "Compliance with drinking water standards",
-        "Simultaneous sterilization of water and packaging",
-        "Oxygen saturation up to 9 mg/L",
-        "No chemical residues",
-        "Extended product shelf life",
-        "Suitable for baby water"
+        "Ichimlik suvining standartlariga muvofiqlik",
+        "Suv va qadoqning bir vaqtda sterilizatsiyasi",
+        "Kislorod bilan to'yinish 9 mg/L gacha",
+        "Kimyoviy qoldiqlar yo'q",
+        "Mahsulotning saqlash muddati uzaygan",
+        "Chaqaloq suvi uchun mos"
       ],
       "stats": {
         "stat1": {
           "value": "0.1",
           "label": "mg/L ozone",
-          "description": "Maximum residual concentration per standards"
+          "description": "Standartlar bo'yicha maksimal qolgan kontsentratsiya"
         },
         "stat2": {
           "value": "99.9%",
-          "label": "Sterilization",
-          "description": "Destruction of pathogenic microorganisms"
+          "label": "Sterilizatsiya",
+          "description": "Patogen mikroorganizmalarni yo'q qilish"
         },
         "stat3": {
           "value": "1 g/m³",
-          "label": "Performance",
-          "description": "Recommended ozone generator dose per water volume"
+          "label": "Unumdorlik",
+          "description": "Suv hajmiga nisbatan tavsiya etilgan ozone generator dozo"
         },
         "stat4": {
           "value": "9",
-          "label": "mg/L oxygen",
-          "description": "Premium category water saturation"
+          "label": "mg/L kislorod",
+          "description": "Premium kategoriyali suv to'yinish"
         }
       },
       "sections": {
         "intro": {
-          "text": "Drinking water producers often face situations where water extracted from a verified well and passed through all purification stages spoils on store shelves. The cause is secondary contamination directly on the bottling line through contact with air, equipment and non-sterile containers.",
-          "text2": "Final ozonation solves this problem comprehensively: ozone not only disinfects water but also disinfects bottling equipment and sterilizes containers. After capping bottles, ozone decomposes to oxygen within several hours, leaving no traces and improving water taste."
+          "text": "Ichimlik suvi ishlab chiqaruvchilar ko'pincha shunchaki quyosh ostida turgan suv mavjud qiladi - tekshirilgan quyudan ajratilgan va barcha tozalash bosqichlaridan o'tgan suv do'konida xarab bo'ladi. Sababi - bortni shmyot shuyu orqali bevosita kontakt qilish natijasida ikkinchi darajali kontaminatsiya.",
+          "text2": "Finali ozonatsiya bu muammoni keng ko'lamda hal qiladi: ozone faqat suvni dezinfeksiya qilmaydi, balki quvurli uskunasi va konteynerlarni ham sterilizatsiya qiladi. Qopqo'lash shisha qo'yilgandan keyin ozone bir necha soat ichida kislorod holatiga aylanib ketadi, iz qoldirib ketmaydi va suv ta'mni yaxshilaydi."
         },
         "highlight1": {
-          "title": "Sanitary standards:",
-          "text": "\"Chlorine preparations are not permitted for treating drinking waters intended for bottling; preferred disinfection methods are ozonation and physical treatment methods, in particular UV irradiation.\""
+          "title": "Sanitar standartlar:",
+          "text": "\"Shisha qadoqlash uchun mo'ljalangan ichimlik suvini ishlov berish uchun xlorin tayyorlamalari ishlatilmaydi; afzal dezinfeksiya usullari ozonatsiya va fizik ishlov berish usullaridir, xususan UV nurlashtirilishi.\""
         },
         "benefits": {
-          "title": "Advantages of final ozonation",
+          "title": "Finali ozonatsiyaning afzalliklari",
           "items": [
-            "Simultaneous sterilization of water, bottle, headspace and cap",
-            "Environment remains sterile until package opening",
-            "Oxygen saturation — mandatory requirement for premium category water",
-            "Complete ozone decay to oxygen without chemical residues",
-            "Only permitted preservation method for baby water",
-            "No need for additional container disinfection"
+            "Suv, shisha, yuqori qism va qopqoqning bir vaqtda sterilizatsiyasi",
+            "Muhit qopqoq ochilmaguncha steril holatda qoladi",
+            "Kislorod bilan to'yinish — premium kategoriyali suv uchun majbur talabi",
+            "Ozonning kimyoviy qoldiqsiz butunlay kislorod holatiga aylanishi",
+            "Chaqaloq suvi uchun yagona ruxsat etilgan konservatsiya usuli",
+            "Qadoqni alohida dezinfeksiya qilish shart emas"
           ]
         },
         "requirements": {
-          "title": "Regulatory requirements",
+          "title": "Qonuniy talablar",
           "table": {
-            "caption": "Requirements for bottled water",
-            "headers": ["Parameter", "First category", "Premium category"],
+            "caption": "Shisha suv uchun talablar",
+            "headers": ["Parametr", "Birinchi kategoriya", "Premium kategoriya"],
             "rows": [
-              ["Residual ozone", "≤ 0.1 mg/L", "≤ 0.1 mg/L"],
-              ["Oxygen content", "≥ 5 mg/L", "≥ 9 mg/L"],
-              ["Ozone contact time", "≥ 12 minutes", "≥ 12 minutes"],
-              ["Chlorine use", "Prohibited", "Prohibited"],
-              ["Silver (baby water)", "Permitted", "Prohibited"]
+              ["Qolgan ozone", "≤ 0,1 mg/L", "≤ 0,1 mg/L"],
+              ["Kislorod miqdori", "≥ 5 mg/L", "≥ 9 mg/L"],
+              ["Ozone ta'sir vaqti", "≥ 12 daqiqa", "≥ 12 daqiqa"],
+              ["Xlorin ishlatilishi", "Taqiqlangan", "Taqiqlangan"],
+              ["Kumush (chaqaloq suvi)", "Ruxsat etilgan", "Taqiqlangan"]
             ]
           },
           "highlight": {
-            "text": "For baby water, ozonation is possibly the only preservation option, since use of silver ions and carbon dioxide is prohibited by standards."
+            "text": "Chaqaloq suvi uchun ozonatsiya mumkin bo'lgan bitta konservatsiya varianti bo'lishi mumkin, chunki kumush ionlar va uglerod dioksidning standartlar bo'yicha ishlatilishi taqiqlangan."
           }
         },
         "scheme": {
-          "title": "Final ozonation schematic",
-          "text": "Ozonation system is placed directly before the bottling machine. The system includes oxygen generator, ozone generator, ozone delivery and dissolution system, as well as ozone analyzer or ORP meter for control.",
+          "title": "Finali ozonatsiya sxemasi",
+          "text": "Ozonatsiya tizimi to'ldirish mashinasining to'g'ri oldiga o'rnatiladi. Tizim kislorod generatori, ozone generatori, ozone yetkazish va eritish tizimi, shuningdek ozone analizatori yoki nazorat qilish uchun ORP metrini o'z ichiga oladi.",
           "table": {
-            "caption": "Final ozonation equipment composition",
-            "headers": ["Component", "Purpose", "Specifications"],
+            "caption": "Finali ozonatsiya uskunalarining tarkibi",
+            "headers": ["Komponent", "Maqsadi", "Texnik xususiyatlari"],
             "rows": [
-              ["Oxygen generator", "Pure oxygen supply", "O₂ concentration ≥ 90%"],
-              ["Ozone generator", "Ozone production", "1 g/hour per 1 m³/hour water"],
-              ["Ejector / diffuser", "Ozone dissolution in water", "Efficiency > 90%"],
-              ["Contact tank", "Contact time provision", "≥ 12 minutes"],
-              ["Ozone analyzer", "Concentration control", "0-2 mg/L"]
+              ["Kislorod generatori", "Sof kislorod yetkazish", "O₂ kontsentratsiyasi ≥ 90%"],
+              ["Ozone generatori", "Ozone ishlab chiqarish", "Soat bilan 1 m³/soat suvga 1 g"],
+              ["Ejyunior / diffuzor", "Suvda ozonning erish", "Samaradorlik > 90%"],
+              ["Ta'sir tanki", "Ta'sir vaqtini ta'minlash", "≥ 12 daqiqa"],
+              ["Ozone analizatori", "Kontsentratsiyani nazorat qilish", "0-2 mg/L"]
             ]
           }
         },
         "limitations": {
-          "title": "Limitations for mineral water",
-          "text": "When ozonating mineral water, impurities oxidizable by ozone are not permitted: iron, manganese, hydrogen sulfide, bromide, natural organic substances. Ozone reaction with bromide leads to bromate formation, the standard content of which in drinking water is 10 μg/L.",
-          "text2": "Dissolved metals after interaction with ozone convert to insoluble oxides, leading to color and sediment in water. Therefore, before final ozonation, water must be pre-treated in accordance with standards."
+          "title": "Mineral suvning cheklovlari",
+          "text": "Mineral suvini ozonatsiya qilishda ozone oksidlenishi mumkin bo'lgan aralashmalari taqiqlangan: temir, mangon, suvodrod sulfid, bromid, tabiiy organik moddalar. Ozonning bromid bilan reaksiyasi bromat hosil qiladi, buning ichimlik suvida standart miqdori 10 μg/L.",
+          "text2": "Ozone bilan o'zaro ta'siri natijasida eritilib ketgan metallar erimagan oksidlarga aylana, bu suvda rang va cho'kma hosil qiladi. Shuning uchun finali ozonatsiyadan oldin suv standartlar bo'yicha oldindan ishlov berilishi kerak."
         },
         "comparison": {
-          "title": "Water disinfection method comparison",
-          "headers": ["Parameter", "Ozonation", "UV treatment"],
+          "title": "Suv dezinfeksiya usullarining taqqoslanishi",
+          "headers": ["Parametr", "Ozonatsiya", "UV ishlov berish"],
           "rows": [
-            { "parameter": "Container sterilization", "value1": "Yes", "value2": "No" },
-            { "parameter": "Oxygen saturation", "value1": "Yes", "value2": "No" },
-            { "parameter": "Residual effect", "value1": "Yes", "value2": "No" },
-            { "parameter": "Equipment disinfection", "value1": "Yes", "value2": "No" },
-            { "parameter": "Taste improvement", "value1": "Yes", "value2": "No" },
-            { "parameter": "Requires contact", "value1": "≥ 12 minutes", "value2": "Instant" }
+            { "parameter": "Konteyner sterilizatsiyasi", "value1": "Ha", "value2": "Yo'q" },
+            { "parameter": "Kislorod bilan to'yinish", "value1": "Ha", "value2": "Yo'q" },
+            { "parameter": "Qolgan ta'sir", "value1": "Ha", "value2": "Yo'q" },
+            { "parameter": "Uskunani dezinfeksiya qilish", "value1": "Ha", "value2": "Yo'q" },
+            { "parameter": "Ta'mni yaxshilash", "value1": "Ha", "value2": "Yo'q" },
+            { "parameter": "Aloqa vaqtini talab qiladi", "value1": "≥ 12 daqiqa", "value2": "Bir zumada" }
           ]
         },
         "producerBenefits": {
-          "title": "Ozonation advantages for producers",
+          "title": "Ishlab chiqaruvchilar uchun ozonatsiyaning afzalliklari",
           "features": [
             {
-              "title": "Regulatory compliance",
-              "description": "Full compliance with standards and technical regulations"
+              "title": "Qonuniy muvofiqlik",
+              "description": "Standartlar va texnik qoidalarga to'liq muvofiqlik"
             },
             {
-              "title": "Extended shelf life",
-              "description": "Sterile environment maintained until package opening — product does not spoil"
+              "title": "Saqlash muddati uzaygan",
+              "description": "Muhit qopqoq ochilmaguncha steril holatda qoladi — mahsulot xarab bo'lmaydi"
             },
             {
-              "title": "Baby water",
-              "description": "Only permitted preservation method for baby water"
+              "title": "Chaqaloq suvi",
+              "description": "Chaqaloq suvi uchun yagona ruxsat etilgan konservatsiya usuli"
             },
             {
-              "title": "Chemical savings",
-              "description": "No separate container disinfection with chemicals required"
+              "title": "Kimyoviy moddalarni tejash",
+              "description": "Qadoqni kimyoviy moddalar bilan alohida dezinfeksiya qilish shart emas"
             }
           ]
         }
       }
     },
     "dairy": {
-      "title": "Dairy production",
-      "shortDesc": "Equipment disinfection and dairy storage",
-      "content": "Ozonation in the dairy industry is used to disinfect equipment, tanks, milk lines and premises. The technology reduces the need for chemical detergents and ensures microbiological safety.\n\nOzonated water at 2–3 mg/L effectively disinfects cooling tanks, milking equipment and pipelines with 99.9% efficiency. Ozone destroys pathogens, including thermophilic bacteria resistant to pasteurization.\n\nIn cold storage of dairy products, chamber ozonation prevents mold and extends shelf life of cottage cheese, sour cream and other fermented products by 30–50%.",
+      "title": "Sut ishlab chiqarish",
+      "shortDesc": "Uskunani dezinfeksiya qilish va sut mahsulotlarini saqlash",
+      "content": "Sut sanoatida ozonatsiya uskunani, taniklarni, sut liniyalarini va binolarni dezinfeksiya qilish uchun ishlatiladi. Texnologiya kimyoviy tozalash moddalarining ehtiyojini kamaytiradi va mikrobiologik xavfsizlikni ta'minlaydi.\n\nOzonatsiyalangan suv 2–3 mg/L da sovutish taniklari, sut chiqarish uskunasi va quvur liniyalarini 99,9% samaradorlik bilan dezinfeksiya qiladi. Ozone pasteurizatsiyaga chidamli termofillik bakteriyalarni o'z ichiga olgan patogenlari yo'q qiladi.\n\nSut mahsulotlarining sovuq saqlash kamerasida ozonatsiya ko'plakni oldini oladi va pog'ona pishloq, shora krema va boshqa fermentlangan mahsulotlarning saqlash muddatini 30–50% uzaytiradi.",
       "benefits": [
-        "Equipment disinfection up to 99.9%",
-        "Reduced chemical detergents",
-        "30–50% longer shelf life",
-        "Destruction of thermophilic bacteria",
-        "Listeriosis prevention",
-        "HACCP compliance"
+        "Uskunani dezinfeksiya qilish 99,9% gacha",
+        "Kimyoviy tozalash moddalarini kamaytirish",
+        "Saqlash muddatini 30–50% uzaytirish",
+        "Termofillik bakteriyalarni yo'q qilish",
+        "Listeriozning oldini olish",
+        "HACCP muvofiqlik"
       ],
       "stats": {
         "stat1": {
           "value": "99.9%",
-          "label": "Efficiency",
-          "description": "Equipment and tank disinfection"
+          "label": "Samaradorlik",
+          "description": "Uskunani va taniklani dezinfeksiya qilish"
         },
         "stat2": {
           "value": "30–50%",
-          "label": "Extended shelf life",
-          "description": "For fermented dairy products"
+          "label": "Saqlash muddati uzaygan",
+          "description": "Fermentlangan sut mahsulotlari uchun"
         },
         "stat3": {
           "value": "2–3",
           "label": "mg/L ozone",
-          "description": "Concentration for equipment disinfection"
+          "description": "Uskunani dezinfeksiya qilish uchun kontsentratsiya"
         },
         "stat4": {
           "value": "0",
-          "label": "Chemicals",
-          "description": "Complete elimination of detergents"
+          "label": "Kimyoviy moddalar",
+          "description": "Tozalash moddalarini butunlay yo'q qilish"
         }
       },
       "sections": {
         "intro": {
-          "paragraph1": "The dairy industry has the highest requirements for microbiological safety. Pathogenic microorganisms — Listeria, Salmonella, E.coli — can survive even after pasteurization, multiplying in milk lines and on equipment surfaces.",
-          "paragraph2": "Ozonation solves this problem comprehensively: disinfecting cooling tanks, milking equipment, milk lines and storage tanks without using chemical detergents. Ozone is effective against thermophilic bacteria resistant to high temperatures."
+          "paragraph1": "Sut sanoatida mikrobiologik xavfsizlikka eng yuqori talablar qo'yiladi. Patogen mikroorganizmalar — Listeria, Salmonella, E.coli — pasteurizatsiyadan keyin ham omon qolishi mumkin, sut liniyalarida va uskunaning sirtida ko'payishi mumkin.",
+          "paragraph2": "Ozonatsiya bu muammoni keng ko'lamda hal qiladi: kimyoviy tozalash moddalarini ishlatmasdan sovutish taniklari, sut chiqarish uskunasi, sut liniyalari va saqlash taniklari dezinfeksiya qiladi. Ozone yuqori haroratga chidamli termofillik bakteriyalari uchun samarali."
         },
         "haccpHighlight": {
           "title": "HACCP:",
-          "text": "Ozonation is recognized as a critical control point (CCP) in the hazard analysis system, allowing control of microbiological safety at all stages of dairy production."
+          "text": "Ozonatsiya hazard tahlili tizimida kritik nazorat nuqta (CCP) sifatida tan olinadi, bu sut ishlab chiqarishning barcha bosqichlarida mikrobiologik xavfsizlikni nazorat qilish imkonini beradi."
         },
         "application": {
-          "title": "Ozone application in dairy production",
-          "tableCaption": "Ozonation modes for dairy plant equipment",
-          "tableHeaders": ["Treatment object", "Method", "Concentration", "Efficiency"],
+          "title": "Sut ishlab chiqarishda ozonning qo'llanilishi",
+          "tableCaption": "Sut zaveh uskunalari uchun ozonatsiya rejimi",
+          "tableHeaders": ["Ishlov berish ob'ekti", "Usul", "Kontsentratsiya", "Samaradorlik"],
           "tableData": [
-            ["Milking equipment", "Ozonated water", "2–3 mg/L", "99.9%"],
-            ["Cooling tanks", "Water + air", "3–5 mg/L", "99.99%"],
-            ["Milk lines", "Ozonated water flush", "2–3 mg/L", "99.9%"],
-            ["Storage tanks", "Gaseous ozone", "5–10 mg/m³", "99.99%"],
-            ["Cold rooms", "Gaseous ozone", "3–6 mg/m³", "99.5%"]
+            ["Sut chiqarish uskunasi", "Ozonatsiyalangan suv", "2–3 mg/L", "99,9%"],
+            ["Sovutish taniklari", "Suv + hava", "3–5 mg/L", "99,99%"],
+            ["Sut liniyalari", "Ozonatsiyalangan suv shuying", "2–3 mg/L", "99,9%"],
+            ["Saqlash taniklari", "Gazsimon ozone", "5–10 mg/m³", "99,99%"],
+            ["Sovuq xonalar", "Gazsimon ozone", "3–6 mg/m³", "99,5%"]
           ]
         },
         "advantages": {
-          "title": "Advantages over traditional methods",
+          "title": "Eski usullarga nisbatan afzalliklari",
           "items": [
-            "Destruction of thermophilic bacteria resistant to pasteurization",
-            "Listeriosis prevention — critical for soft cheeses and cottage cheese",
-            "No chemical residues on equipment surfaces",
-            "Ability to treat hard-to-reach areas in milk lines",
-            "Disinfection at low temperatures — no heating required",
-            "Process automation — reduced human factor influence"
+            "Pasteurizatsiyaga chidamli termofillik bakteriyalarni yo'q qilish",
+            "Listeriozning oldini olish — yumshoq pishloq va pog'ona pishloq uchun muhim",
+            "Uskunaning sirtida kimyoviy qoldiqlar yo'q",
+            "Sut liniyalarida erishilmasa joylarga ishlov berish imkoniyati",
+            "Ishitmasdan dezinfeksiya qilish — qisqish shart emas",
+            "Jarayonning avtomatik qilish — inson omili ta'sirini kamaytirish"
           ]
         },
         "comparison": {
-          "title": "Comparison of sanitation methods",
-          "headers": ["Parameter", "Ozonation", "Chemical CIP cleaning"],
+          "title": "Sanitatsiya usullarini taqqoslash",
+          "headers": ["Parametr", "Ozonatsiya", "Kimyoviy CIP tozalash"],
           "rows": [
             {
-              "parameter": "Efficiency against Listeria",
-              "value1": "99.99%",
+              "parameter": "Listeria ga nisbatan samaradorlik",
+              "value1": "99,99%",
               "value2": "95–99%"
             },
             {
-              "parameter": "Chemical residues",
-              "value1": "None",
-              "value2": "Rinsing required"
+              "parameter": "Kimyoviy qoldiqlar",
+              "value1": "Yo'q",
+              "value2": "Rinse talab qilinadi"
             },
             {
-              "parameter": "Thermophilic bacteria",
-              "value1": "Destroyed",
-              "value2": "Partially survive"
+              "parameter": "Termofillik bakteriyalar",
+              "value1": "Yo'q qilinadi",
+              "value2": "Qisman omon qoladi"
             },
             {
-              "parameter": "Treatment time",
-              "value1": "15–30 minutes",
-              "value2": "45–90 minutes"
+              "parameter": "Ishlov berish vaqti",
+              "value1": "15–30 daqiqa",
+              "value2": "45–90 daqiqa"
             },
             {
-              "parameter": "Water consumption",
+              "parameter": "Suv sarfiyati",
               "value1": "Minimal",
-              "value2": "Significant"
+              "value2": "Sezilarli"
             },
             {
-              "parameter": "Eco-friendliness",
-              "value1": "Complete",
-              "value2": "Waste disposal required"
+              "parameter": "Atrof-muhitga mos kelishi",
+              "value1": "To'liq",
+              "value2": "Chiqindini bartaraf qilish talab qilinadi"
             }
           ]
         },
         "storage": {
-          "title": "Dairy product storage",
-          "intro": "Ozonation of cold rooms for dairy product storage prevents mold development, suppresses psychrotrophic bacteria growth and extends shelf life of cottage cheese, sour cream, yogurt by 30–50%.",
-          "tableCaption": "Ozonation modes for dairy product storage",
-          "tableHeaders": ["Product", "Temperature", "Concentration", "Shelf life increase"],
+          "title": "Sut mahsulotlarini saqlash",
+          "intro": "Sut mahsulotlarini saqlash uchun sovuq xonalarini ozonatsiya qilish ko'plakni rivojlanishini oldini oladi, psikhrofillik bakteriyalarni bosgiradi va pog'ona pishloq, shora krema, yogurtning saqlash muddatini 30–50% uzaytiradi.",
+          "tableCaption": "Sut mahsulotlarini saqlash uchun ozonatsiya rejimi",
+          "tableHeaders": ["Mahsulot", "Harorat", "Kontsentratsiya", "Saqlash muddatini uzaytirish"],
           "tableData": [
-            ["Cottage cheese", "+2...+6°C", "3–4 mg/m³", "+40%"],
-            ["Sour cream", "+2...+6°C", "2–3 mg/m³", "+35%"],
+            ["Pog'ona pishloq", "+2...+6°C", "3–4 mg/m³", "+40%"],
+            ["Shora krema", "+2...+6°C", "2–3 mg/m³", "+35%"],
             ["Yogurt", "+2...+6°C", "2–3 mg/m³", "+30%"],
-            ["Butter", "-6...-12°C", "3–5 mg/m³", "+50%"],
-            ["Soft cheeses", "+4...+8°C", "3–6 mg/m³", "+45%"]
+            ["Sariyog'", "-6...-12°C", "3–5 mg/m³", "+50%"],
+            ["Yumshoq pishloq", "+4...+8°C", "3–6 mg/m³", "+45%"]
           ],
           "highlight": {
-            "text": "In cold storage, ozonation not only suppresses microflora but also prevents off-flavors in products, which is especially important for long-term butter storage."
+            "text": "Sovuq saqlashda ozonatsiya mikroflora o'sishini bosgirmasdan, mahsulotdagi noxush ta'mlarni ham oldini oladi, bu ayniqsa uzun muddat sariyog' saqlashda muhim."
           }
         },
         "listeriosis": {
-          "title": "Listeriosis prevention",
-          "paragraph1": "Listeria monocytogenes is one of the most dangerous pathogens in the dairy industry. The bacterium can multiply at refrigerator temperature (+4°C), survive in biofilms on equipment surfaces and cause severe diseases with fatal outcomes.",
-          "paragraph2": "Ozone effectively destroys Listeria biofilms and kills bacterial cells. At ozone concentration of 0.5–1.0 mg/L in water, 99.99% inactivation of L. monocytogenes is achieved within 5 minutes of contact."
+          "title": "Listeriozning oldini olish",
+          "paragraph1": "Listeria monocytogenes sut sanoatidagi eng xavfli patogenlardan biri. Bakteriya sovutich haroratida (+4°C) ko'payishi mumkin, uskunaning sirtidagi biofilmlarda omon qolishi mumkin va oqibati o'limga etishi mumkin bo'lgan og'ir kasalliklar keltirib chiqarishi mumkin.",
+          "paragraph2": "Ozone Listeria biofilmlari samarali yo'q qiladi va bakteriya hujayralarini halak qiladi. Suvda ozone kontsentratsiyasi 0,5–1,0 mg/L bo'lganda, L. monocytogenes ning 99,99% inaktivlanishi 5 daqiqali ta'sirot bilan erishiladi."
         },
         "benefits": {
-          "title": "Benefits for dairy production",
+          "title": "Sut ishlab chiqarish uchun foydalari",
           "items": [
             {
-              "title": "HACCP compliance",
-              "description": "Ozonation is a critical control point in food safety systems"
+              "title": "HACCP muvofiqlik",
+              "description": "Ozonatsiya oziq-ovqat xavfsizlik tizimidagi kritik nazorat nuqtasi"
             },
             {
-              "title": "Chemical savings",
-              "description": "Reduction of cleaning and disinfection costs by up to 80%"
+              "title": "Kimyoviy moddalarni tejash",
+              "description": "Tozalash va dezinfeksiya xarajatlarini 80% gacha kamaytirish"
             },
             {
-              "title": "Extended shelf life",
-              "description": "30–50% longer shelf life for fermented dairy products"
+              "title": "Saqlash muddati uzaygan",
+              "description": "Fermentlangan sut mahsulotlarining saqlash muddatini 30–50% uzaytirish"
             },
             {
-              "title": "Product safety",
-              "description": "Guaranteed destruction of Listeria and thermophilic bacteria"
+              "title": "Mahsulot xavfsizligi",
+              "description": "Listeria va termofillik bakteriyalarni kafolati halak qilish"
             }
           ]
         }
       }
     },
     "meat-sausages": {
-      "title": "Meat and sausages",
-      "shortDesc": "Meat storage and sausage ripening chambers",
-      "content": "Ozonation is an effective disinfection method in meat production and storage. It is used to treat cold rooms, sausage ripening chambers and meat surfaces without changing sensory properties.\n\nFor chilled meat storage, ozonation at 8–10 mg/m³ for 4–5 hours every other day extends shelf life 2–5 times. Ozone destroys mesophilic and psychrotrophic microflora on carcass surfaces at 1–4°C.\n\nFor sausage ripening chambers, 3–8 mg/m³ with daily 3-hour treatment is recommended. Disinfection efficiency reaches 96–99% while preserving taste, aroma and texture.",
+      "title": "Go'sht va kolbasa",
+      "shortDesc": "Go'sht saqlash va kolbasa pishish kameralari",
+      "content": "Ozonatsiya go'sht ishlab chiqarish va saqlashda samarali dezinfeksiya usuli hisoblanadi. U sovuq xonalar, kolbasa pishish kameralari va go'sht sirtlarini ishlov berish uchun ishlatiladi, shuning uchun sezgilar xususiyatlari o'zgarishsiz qoladi.\n\nSovuq go'sht saqlash uchun ozonatsiya 8–10 mg/m³ da 4–5 soat davomida har ikki kunning ortig'ida qo'llanilsa, saqlash muddati 2–5 baravar uzayadi. Ozone 1–4°C da karkas sirtidagi mezofil va psikhrofillik mikroflora butunlay yo'q qiladi.\n\nKolbasa pishish kameralari uchun 3–8 mg/m³ har kuni 3 soat ishlov berish tavsiya etiladi. Dezinfeksiya samaradorligi 96–99% bo'lib, ta'm, hid va tekstura saqlanib qoladi.",
       "benefits": [
-        "2–5 times longer meat shelf life",
-        "96–99% disinfection efficiency",
-        "Mold suppression on sausages",
-        "Preserved sensory properties",
-        "Operation at low temperatures",
-        "Eco-friendly — decay to oxygen"
+        "Go'sht saqlash muddatini 2–5 baravar uzaytirish",
+        "96–99% dezinfeksiya samaradorligi",
+        "Kolbasadagi ko'plakni bosgirish",
+        "Sezgilar xususiyatlari saqlanib qoladi",
+        "Massa haroratida ishlash",
+        "Eco-dostviy — kislorod holatiga o'tish"
       ],
       "stats": {
         "shelfLife": {
           "value": "2-5x",
-          "label": "Shelf life",
-          "description": "Extended shelf life of chilled meat"
+          "label": "Saqlash muddati",
+          "description": "Sovuq go'sht saqlash muddatini uzaytirish"
         },
         "disinfection": {
           "value": "96-99%",
-          "label": "Disinfection",
-          "description": "Efficiency of ripening chamber disinfection"
+          "label": "Dezinfeksiya",
+          "description": "Pishish kameras dezinfeksiya samaradorligi"
         },
         "concentration": {
           "value": "3-8",
           "label": "mg/m³ ozone",
-          "description": "Concentration for sausage ripening chambers"
+          "description": "Kolbasa pishish kameralari uchun kontsentratsiya"
         },
         "organoleptics": {
           "value": "100%",
-          "label": "Organoleptics",
-          "description": "Preservation of taste, color and aroma"
+          "label": "Organoleptik xususiyatlar",
+          "description": "Ta'm, rang va hidning saqlanishi"
         }
       },
       "sections": {
         "intro": {
-          "paragraph1": "During sausage ripening and meat storage, bacteria, mold fungi and yeasts actively develop. This leads to product spoilage, taste changes, mass loss and reduced shelf life. Ozonation is an effective, eco-friendly and safe disinfection method.",
-          "paragraph2": "Ozone's disinfecting effect is 15-20 times stronger than chlorine, and approximately 300-600 times stronger against spore-forming bacteria. At the same time, ozone completely decays to oxygen, leaving no chemical residues on the product surface."
+          "paragraph1": "Kolbasa pishtirilishi va go'sht saqlashda bakteriyalar, ko'plak fungalari va xamirturush mikroorganizmalar faol rivojlanadi. Bu mahsulotning xarab bo'lishiga, ta'm o'zgarishiga, massa yo'qolishiga va saqlash muddatining qisqarishi bilan natijalanad. Ozonatsiya samarali, eco-dostviy va xavfsiz dezinfeksiya usuli.",
+          "paragraph2": "Ozonning dezinfeksiya ta'siri xlorin bilan taqqoslaganda 15-20 baravar kuchlidir, sporasini hosil qiluvchi bakteriyalarga nisbatan taxminan 300-600 baravar kuchlidir. Shu bilan birga ozone mahsulot sirtida kimyoviy qoldiqlar qoldirmasdan butunlay kislorod holatiga aylanadi."
         },
         "instruction": {
-          "label": "USSR Ministry of Trade Instruction 1977:",
-          "text": "Ozonation is recommended for receiving, storing and releasing sausage products and smoked goods. The method allows disinfecting chambers together with loaded products."
+          "label": "SSRQ Savdo Vazirligi 1977 yo'riqlamasi:",
+          "text": "Ozonatsiya kolbasa mahsulotlarini qabul qilish, saqlash va ishlab chiqarish uchun tavsiya etiladi, shuningdek dumaloq mahsulotlar uchun. Bu usul yuklangan mahsulotlar bilan kamerani dezinfeksiya qilish imkonini beradi."
         },
         "storage": {
-          "title": "Chilled meat storage",
-          "paragraph": "For chilled meat storage, ozonation at 8-10 mg/m³ ensures complete destruction of mesophilic and psychrotrophic microflora on carcass surfaces at 1-4°C. Chilled meat shelf life increases 2-5 times.",
-          "tableCaption": "Ozonation regimes for meat storage",
-          "tableHeaders": ["Product", "Temperature", "Concentration", "Treatment time", "Frequency"],
+          "title": "Sovuq go'sht saqlash",
+          "paragraph": "Sovuq go'sht saqlash uchun 8-10 mg/m³ da ozonatsiya 1-4°C da karkas sirtidagi mezofil va psikhrofillik mikroflora butunlay yo'q qilishni ta'minlaydi. Sovuq go'sht saqlash muddati 2-5 baravar uzayadi.",
+          "tableCaption": "Go'sht saqlash uchun ozonatsiya rejimi",
+          "tableHeaders": ["Mahsulot", "Harorat", "Kontsentratsiya", "Ishlov berish vaqti", "Chastotasi"],
           "tableRows": [
-            ["Chilled meat", "-1...-4°C", "8-10 mg/m³", "4-5 hours", "Every other day"],
-            ["Frozen meat", "-18°C", "10 mg/m³", "3 hours", "Daily"],
-            ["Poultry (chilled)", "-1...-4°C", "8-10 mg/m³", "2-3 hours", "Daily"],
-            ["Poultry (frozen)", "-18°C", "8-12 mg/m³", "3 hours", "Daily"],
-            ["Offal", "-1...-4°C", "8-10 mg/m³", "3-4 hours", "Daily"]
+            ["Sovuq go'sht", "-1...-4°C", "8-10 mg/m³", "4-5 soat", "Har ikki kunning"],
+            ["Muzlatilgan go'sht", "-18°C", "10 mg/m³", "3 soat", "Kuniga"],
+            ["Murjon (sovuq)", "-1...-4°C", "8-10 mg/m³", "2-3 soat", "Kuniga"],
+            ["Murjon (muzlatilgan)", "-18°C", "8-12 mg/m³", "3 soat", "Kuniga"],
+            ["Ichki organlar", "-1...-4°C", "8-10 mg/m³", "3-4 soat", "Kuniga"]
           ]
         },
         "ripeningChambers": {
-          "title": "Sausage ripening chambers",
-          "paragraph": "In ripening chambers for dry-cured and air-dried sausages, ozone suppresses development of slimy and mold deposits, preventing off-odors. At moderate concentration, ozone does not cause discoloration of casing or filling.",
-          "tableCaption": "Ozonation regimes for sausage ripening chambers",
-          "tableHeaders": ["Sausage type", "Concentration", "Treatment time", "Temperature", "Efficiency"],
+          "title": "Kolbasa pishish kameralari",
+          "paragraph": "Quruq so'lgan va havo quritish kolbasi uchun pishish kameralarida ozone slimy va ko'plak cho'kmasining rivojlanishini bosgiradi, noxush hidilar paydo bo'lishini oldini oladi. O'rtacha kontsentratsiyada ozone qobiq yoki to'ldirilish rangini o'zgartirsа ham, ta'sir qilmaydi.",
+          "tableCaption": "Kolbasa pishish kameralari uchun ozonatsiya rejimi",
+          "tableHeaders": ["Kolbasa turi", "Kontsentratsiya", "Ishlov berish vaqti", "Harorat", "Samaradorlik"],
           "tableRows": [
-            ["Dry-cured", "3-8 mg/m³", "3 hours", "+12...+14°C", "96-99%"],
-            ["Cooked-smoked", "3-7 mg/m³", "2 hours", "+10...+12°C", "95-98%"],
-            ["Air-dried", "5-10 mg/m³", "2-3 hours", "+10...+15°C", "96-99%"],
-            ["Semi-smoked", "3-6 mg/m³", "2 hours", "+10...+12°C", "95-98%"]
+            ["Quruq so'lgan", "3-8 mg/m³", "3 soat", "+12...+14°C", "96-99%"],
+            ["Pishirilgan-tutun qilingan", "3-7 mg/m³", "2 soat", "+10...+12°C", "95-98%"],
+            ["Hava quritish", "5-10 mg/m³", "2-3 soat", "+10...+15°C", "96-99%"],
+            ["Yarim tutun qilingan", "3-6 mg/m³", "2 soat", "+10...+12°C", "95-98%"]
           ],
           "recommendedMode": {
-            "label": "Recommended regime:",
-            "text": "Daily treatment for 1-3 hours. During treatment, no personnel should be in the chamber. Ozonator capacity: 1 g/hour per 20-25 m³ chamber volume."
+            "label": "Tavsiya etilgan rejim:",
+            "text": "Kuniga 1-3 soat ishlov berish. Ishlov berish paytida kamera ichida hech kim bo'lmasligi kerak. Ozonator imkoniyati: kamera hajmi 20-25 m³ uchun soat bilan 1 g."
           }
         },
         "benefits": {
-          "title": "Benefits of ozonation",
+          "title": "Ozonatsiyaning foydalari",
           "items": [
-            "Product surface disinfection — destruction of bacteria, mold spores and yeasts",
-            "Preservation of organoleptic properties — does not change taste and aroma, prevents bitterness",
-            "Reduced mass loss — decreases shrinkage through microflora stabilization",
-            "Chamber disinfection together with products — treatment possible with full load",
-            "Time and cost savings — reduced frequency of manual sanitation",
-            "Automation — timer-based treatment without personnel involvement"
+            "Mahsulot sirtini dezinfeksiya qilish — bakteriyalar, ko'plak sporalari va xamirturush yo'q qilish",
+            "Organoleptik xususiyatlari saqlanib qoladi — ta'm va hidni o'zgartirsа ham, achchiklikni oldini oladi",
+            "Massa yo'qolishini kamaytirish — mikroflora stabilizatsiyasi orqali qisqarishni kamaytirish",
+            "Kamera dezinfeksiyasi yuklangan mahsulot bilan — to'liq yuklashda ishlov berish mumkin",
+            "Vaqt va xarajatlarni tejash — qo'lda sanitatsiya chastotasini kamaytirish",
+            "Avtomatika — taymer asosida ishlov berish, inson ishlashsiz"
           ]
         },
         "comparison": {
-          "title": "Comparison of ripening chamber disinfection methods",
-          "headers": ["Parameter", "Ozonation", "Traditional treatment"],
+          "title": "Pishish kameras dezinfeksiya usullari taqqoslanishi",
+          "headers": ["Parametr", "Ozonatsiya", "Eski usul"],
           "rows": [
-            { "parameter": "Product unloading", "value1": "Not required", "value2": "Required" },
-            { "parameter": "Chemical residues", "value1": "None", "value2": "Rinsing required" },
-            { "parameter": "Hard-to-reach areas", "value1": "Treated with gas", "value2": "Inaccessible" },
-            { "parameter": "Downtime", "value1": "1-3 hours/day", "value2": "24-48 hours" },
-            { "parameter": "Effect on product", "value1": "None", "value2": "Possible" },
-            { "parameter": "Automation", "value1": "Full", "value2": "Manual work" }
+            { "parameter": "Mahsulotni ochirib olish", "value1": "Shart emas", "value2": "Talab qilinadi" },
+            { "parameter": "Kimyoviy qoldiqlar", "value1": "Yo'q", "value2": "Rinse talab qilinadi" },
+            {
+              "parameter": "Erishilmasa joylar",
+              "value1": "Gaz bilan ishlov beriladi",
+              "value2": "Erishilb bo'lmaydi"
+            },
+            { "parameter": "Faoliyatni to'xtash", "value1": "1-3 soat/kun", "value2": "24-48 soat" },
+            { "parameter": "Mahsulotga ta'sir", "value1": "Yo'q", "value2": "Mumkin" },
+            { "parameter": "Avtomatika", "value1": "To'liq", "value2": "Qo'l ishi" }
           ]
         },
         "regulations": {
-          "title": "Regulatory framework",
-          "paragraph": "Use of ozone for meat product disinfection is regulated by a number of regulatory documents from the Soviet period:",
+          "title": "Qonuniy bazasi",
+          "paragraph": "Go'sht mahsulotlarini dezinfeksiya qilish uchun ozone ishlatilishi Sovet davridan qo'yilgan bir nechta qonuniy hujjatlar bilan tartibga solinadi:",
           "items": [
-            "1973 — Instruction \"Disinfection and deodorization in cold storage facilities by ozonation\" (USSR Ministry of Trade)",
-            "1977 — Instruction on receiving, storing and releasing sausage products and smoked goods",
-            "1998 — Ozone added to list of disinfectants (reg. No. 0039-98/21, Russian Ministry of Health)",
-            "SanPiN 2.3.4.545-96 — Sausage production"
+            "1973 — \"Sovuq saqlash jarayonida ozonatsiya orqali dezinfeksiya va deodoratsiya\" yo'riqlamasi (SSRQ Savdo Vazirligi)",
+            "1977 — Kolbasa mahsulotlarini va tutun qilingan mahsulotlarni qabul qilish, saqlash va chiqarish haqidagi yo'riqlamasi",
+            "1998 — Ozone dezinfektantlar ro'yxatiga qo'shildi (reg. № 0039-98/21, Rossiya Sog'liqni saqlash Vazirligi)",
+            "SanPiN 2.3.4.545-96 — Kolbasa ishlab chiqarishi"
           ]
         },
         "features": {
-          "title": "Benefits for meat processing plants",
+          "title": "Go'sht qayta ishlash zavehilari uchun foydalari",
           "items": [
             {
-              "title": "Extended shelf life",
-              "description": "2-5 times longer chilled meat shelf life without freezing"
+              "title": "Saqlash muddati uzaygan",
+              "description": "Sovuq go'sht saqlash muddatini muzlatmasdan 2-5 baravar uzaytirish"
             },
             {
-              "title": "Mold suppression",
-              "description": "96-99% efficiency against mold fungi on sausages"
+              "title": "Ko'plakni bosgirish",
+              "description": "Kolbasa bo'yidagi ko'plak fungalari uchun 96-99% samaradorlik"
             },
             {
-              "title": "Eco-friendliness",
-              "description": "Complete ozone decay to oxygen without chemical residues"
+              "title": "Atrof-muhitga mos kelishi",
+              "description": "Ozonning kimyoviy qoldiqsiz butunlay kislorod holatiga aylanishi"
             },
             {
-              "title": "Production continuity",
-              "description": "Treatment without unloading products and stopping the process"
+              "title": "Ishlab chiqarish davomiylik",
+              "description": "Mahsulotlarni ochirib olmasdan va jarayonni to'xtamasdan ishlov berish"
             }
           ]
         }
       }
     },
     "cheese": {
-      "title": "Cheese production",
-      "shortDesc": "Ripening and storage of cheese without mold",
-      "content": "In cheese production, ozonation addresses the key issue of preventing unwanted mold on cheese surfaces during ripening and storage. The technology controls chamber microflora without affecting the ripening process.\n\nFor hard cheeses, 2–4 mg/m³ ozone is recommended; for soft cheeses, 3–6 mg/m³ at 8–12°C and 85–90% humidity. Treatment for 1.5–2 hours gives 94–99% disinfection efficiency.\n\nOzone prevents mold on the rind without disrupting ripening biochemistry. At correct dosage it does not affect color, consistency or taste. Ozonation has been recommended for hard cheese storage in industry guidelines.",
+      "title": "Pishloq ishlab chiqarish",
+      "shortDesc": "Pishloq pishishi va ko'plaksiz saklash",
+      "content": "Pishloq ishlab chiqarishda ozonatsiya pishloq sirtida noxush ko'plak rivojlanishini oldini olish masalasini hal qiladi pishloq pishtirilishi va saklashda. Texnologiya kamera mikroflorali nazorat qiladi, faqat pishirish jarayoniga ta'sir qilmasda.\n\nQat'iy pishloqlar uchun 2–4 mg/m³ ozone tavsiya etiladi; yumshoq pishloqlar uchun 3–6 mg/m³ 8–12°C va 85–90% nam holata. 1,5–2 soatli ishlov berish 94–99% dezinfeksiya samaradorligini beradi.\n\nOzone pishloq qobigida ko'plakni oldini oladi, pishirish biokimyosini buzmasda. To'g'ri dozo rang, tuzilish yoki ta'mga ta'sir qilmasda. Ozonatsiya sanoat yo'riqlamalarida qat'iy pishloq saklash uchun tavsiya etilgan.",
       "benefits": [
-        "95–99% mold prevention",
-        "Ripening process preserved",
-        "Reduced product shrinkage",
-        "Treatment without unloading cheese",
-        "Compliance with cheese standards",
-        "Disinfection process automation"
+        "95–99% ko'plakni oldini olish",
+        "Pishirish jarayoni saqlanib qoladi",
+        "Mahsulotning qisqarishi kamaytirish",
+        "Pishloqni ochirib olmasdan ishlov berish",
+        "Pishloq standartlariga muvofiqlik",
+        "Dezinfeksiya jarayonining avtomatlasti"
       ],
       "stats": {
         "efficiency": {
           "value": "95-99%",
-          "label": "Efficiency",
-          "description": "Prevention of unwanted mold"
+          "label": "Samaradorlik",
+          "description": "Noxush ko'plakni oldini olish"
         },
         "concentration": {
           "value": "2-6",
           "label": "mg/m³ ozone",
-          "description": "Concentration for cheese ripening chambers"
+          "description": "Pishloq pishish kameralari uchun kontsentratsiya"
         },
         "tastePreservation": {
           "value": "100%",
-          "label": "Taste preservation",
-          "description": "Does not affect the ripening process"
+          "label": "Ta'm saqlanishi",
+          "description": "Pishirish jarayoniga ta'sir qilmasda"
         },
         "instructionYear": {
           "value": "1975",
-          "label": "Instruction year",
-          "description": "Ozonation for cheese storage in the USSR"
+          "label": "Yo'riqlamaning yili",
+          "description": "SSRQ-da pishloq saqlash uchun ozonatsiya"
         }
       },
       "sections": {
         "intro": {
-          "paragraph1": "In cheese production, ozonation addresses the key issue of preventing unwanted mold on cheese surfaces during ripening and storage. The technology controls chamber microflora without affecting the biochemical ripening processes.",
-          "paragraph2": "Ozone prevents mold development on the cheese rind without disrupting the balance of beneficial microflora inside the cheese head. At correct dosage, ozone does not affect the color, consistency, taste, or aroma of the finished product."
+          "paragraph1": "Pishloq ishlab chiqarishda ozonatsiya pishloq pishtirilishi va saklashda pishloq sirtida noxush ko'plak rivojlanishini oldini olish masalasini hal qiladi. Texnologiya kamera mikroflorali nazorat qiladi, biokimyoviy pishirish jarayoniga ta'sir qilmasda.",
+          "paragraph2": "Ozone pishloq qobigida ko'plak rivojlanishini oldini oladi, pishloq ichidagi foydali mikroflora balansi buzmasda. To'g'ri dozo rang, tuzilish, ta'm yoki pishloqning aromatini o'zgartirsа ham."
         },
         "instruction": {
-          "label": "Temporary instruction of the RSFSR Ministry of Trade, 1975:",
-          "text": "Ozonation is recommended for storing hard rennet cheeses. The method allows controlling mold on the cheese surface without using chemical preservatives."
+          "label": "RFSSR Savdo Vazirligi 1975 vaqtiy yo'riqlamasi:",
+          "text": "Ozonatsiya qat'iy pishloqning saklashda tavsiya etiladi. Usul pishloq sirtidagi ko'plakni kimyoviy konservantlarni ishlatmasdan nazorat qilish imkonini beradi."
         },
         "regimes": {
-          "title": "Ozonation regimes for different cheese types",
-          "tableCaption": "Recommended treatment regimes for cheese ripening chambers",
-          "tableHeaders": ["Cheese type", "Concentration", "Treatment time", "Temperature", "Efficiency"],
+          "title": "Har xil turdagi pishloq uchun ozonatsiya rejimi",
+          "tableCaption": "Pishloq pishish kameralari uchun tavsiya etilgan ishlov berish rejimi",
+          "tableHeaders": ["Pishloq turi", "Kontsentratsiya", "Ishlov berish vaqti", "Harorat", "Samaradorlik"],
           "tableRows": [
-            ["Hard cheeses", "2-4 mg/m³", "2 hours", "+10...+12°C", "95-99%"],
-            ["Soft cheeses", "3-6 mg/m³", "1.5 hours", "+8...+10°C", "94-98%"],
-            ["Semi-hard cheeses", "2-4 mg/m³", "1.5-2 hours", "+10...+12°C", "95-98%"],
-            ["Brine cheeses", "2-3 mg/m³", "1 hour", "+6...+8°C", "94-97%"],
-            ["Mold-ripened cheeses", "1-2 mg/m³", "30 minutes", "+8...+10°C", "90-95%"]
+            ["Qat'iy pishloqlar", "2-4 mg/m³", "2 soat", "+10...+12°C", "95-99%"],
+            ["Yumshoq pishloqlar", "3-6 mg/m³", "1,5 soat", "+8...+10°C", "94-98%"],
+            ["Yarim qat'iy pishloqlar", "2-4 mg/m³", "1,5-2 soat", "+10...+12°C", "95-98%"],
+            ["Sho'rvali pishloqlar", "2-3 mg/m³", "1 soat", "+6...+8°C", "94-97%"],
+            ["Ko'plak pishirilgan pishloqlar", "1-2 mg/m³", "30 daqiqa", "+8...+10°C", "90-95%"]
           ],
-          "warningLabel": "Important for noble mold cheeses:",
-          "warningText": "For cheeses like Camembert, Brie, and Roquefort, a gentle ozonation regime (1-2 mg/m³, 30 minutes) is required to control unwanted mold without damaging the cultured mold."
+          "warningLabel": "Asiliy ko'plak pishloqlari uchun muhim:",
+          "warningText": "Camembert, Brie va Roquefort kabi pishloqlar uchun, ehtiyotli ozonatsiya rejimi (1-2 mg/m³, 30 daqiqa) noxush ko'plakni nazorat qilish bilan ko'plak ko'lmi halak qilmasligi kerak."
         },
         "benefits": {
-          "title": "Benefits of ozonation in cheese production",
+          "title": "Pishloq ishlab chiqarishda ozonatsiyaning foydalari",
           "items": [
-            "Prevention of unwanted mold development on the cheese rind",
-            "Preservation of the ripening process — ozone does not penetrate inside the cheese head",
-            "Reduced product shrinkage due to microflora stabilization",
-            "Treatment without unloading cheese from the ripening chamber",
-            "Compliance with GOST R 54607-2011 \"Cheeses. General technical specifications\"",
-            "Automation of disinfection process on a scheduled basis"
+            "Pishloq qobigida noxush ko'plak rivojlanishini oldini olish",
+            "Pishirish jarayonini saqlanib qoldi — ozone pishloq ichiga penetratsiya qilmaydi",
+            "Mahsulotning qisqarishi kamaytirish mikroflora stabilizatsiyasi orqali",
+            "Pishloqni pishish kamerasidan ochirib olmasdan ishlov berish",
+            "GOST R 54607-2011 \"Pishloqlar. Umumiy texnik xususiyatlari\" ga muvofiqlik",
+            "Scheduled asosida dezinfeksiya jarayonining avtomatlasti"
           ]
         },
         "impact": {
-          "title": "Effect of ozone on the product",
-          "paragraph": "Research shows that ozone suppresses microflora growth on cheese surfaces while preserving their organoleptic properties — taste, aroma, texture, and color. The bactericidal effect is particularly pronounced under conditions of high humidity (70-90%) and moderate temperatures (+8...+14°C), typical of ripening chambers.",
-          "tableCaption": "Cheese ripening conditions and ozonation parameters",
-          "tableHeaders": ["Parameter", "Hard cheeses", "Soft cheeses", "Optimum for ozone"],
+          "title": "Ozonning mahsulotga ta'siri",
+          "paragraph": "Tekshiruv ozonning pishloq sirtida mikroflora o'sishini bosgirishi shuningdek ularning organoleptik xususiyatlarini saqlanib qolishini ko'rsatadi — ta'm, hidi, tekstura va rang. Bakteritsid ta'sir ayniqsa yuqori nam holata (70-90%) va o'rtacha haroratda (+8...+14°C), pishirish kameralarining tipik holati sharoitida aytiladi.",
+          "tableCaption": "Pishloq pishish shartlari va ozonatsiya parametrlari",
+          "tableHeaders": ["Parametr", "Qat'iy pishloqlar", "Yumshoq pishloqlar", "Ozone uchun optimal"],
           "tableRows": [
-            ["Temperature", "+10...+14°C", "+8...+12°C", "+8...+14°C"],
-            ["Humidity", "80-90%", "85-95%", "70-90%"],
-            ["Ripening time", "2-12 months", "2-6 weeks", "Any"],
-            ["O₃ concentration", "2-4 mg/m³", "3-6 mg/m³", "2-6 mg/m³"],
-            ["Frequency", "Every 2-3 days", "Daily", "By schedule"]
+            ["Harorat", "+10...+14°C", "+8...+12°C", "+8...+14°C"],
+            ["Namlik", "80-90%", "85-95%", "70-90%"],
+            ["Pishirish vaqti", "2-12 oy", "2-6 hafta", "Har qanday"],
+            ["O₃ kontsentratsiya", "2-4 mg/m³", "3-6 mg/m³", "2-6 mg/m³"],
+            ["Chastota", "Har 2-3 kunning", "Kuniga", "Jadvalni bo'yicha"]
           ]
         },
         "comparison": {
-          "title": "Comparison of mold control methods for cheeses",
-          "headers": ["Parameter", "Ozonation", "Wax/paraffin coating"],
+          "title": "Pishloqlardagi ko'plak nazorat usullari taqqoslanishi",
+          "headers": ["Parametr", "Ozonatsiya", "Mum/parafin qoplamasi"],
           "rows": [
-            { "parameter": "Mold protection", "value1": "95-99%", "value2": "80-90%" },
-            { "parameter": "Effect on taste", "value1": "None", "value2": "Possible" },
-            { "parameter": "Breathable rind", "value1": "Preserved", "value2": "Blocked" },
-            { "parameter": "Additional costs", "value1": "Minimal", "value2": "For materials" },
-            { "parameter": "Manual labor", "value1": "Not required", "value2": "Required" },
-            { "parameter": "Eco-friendliness", "value1": "Complete", "value2": "Wax waste" }
+            { "parameter": "Ko'plak himoyasi", "value1": "95-99%", "value2": "80-90%" },
+            { "parameter": "Ta'miga ta'sir", "value1": "Yo'q", "value2": "Mumkin" },
+            { "parameter": "Nafas olib turuvchi qobiq", "value1": "Saqlanib qoladi", "value2": "Bloklangan" },
+            { "parameter": "Qo'shimcha xarajatlar", "value1": "Minimal", "value2": "Materiallar uchun" },
+            { "parameter": "Qo'l ishi", "value1": "Talab qilinmaydi", "value2": "Talab qilinadi" },
+            { "parameter": "Atrof-muhitga mos kelishi", "value1": "To'liq", "value2": "Mum chiqindilari" }
           ]
         },
         "chamberTreatment": {
-          "title": "Ripening chamber treatment",
-          "paragraph": "For stationary ripening chambers, wall-mounted or ducted ozonators with automatic control are recommended. Ozone is distributed evenly throughout the chamber volume, penetrating hard-to-reach areas including racks and shelves.",
-          "tableCaption": "Example treatment regime for cheese ripening chamber (50 m³ volume)",
-          "tableHeaders": ["Parameter", "Value", "Note"],
+          "title": "Pishish kameras ishlov berish",
+          "paragraph": "Statsionar pishish kameralari uchun, devorasiga o'rnatilgan yoki quvur orqali ozonatorlar avtomatik nazorat bilan tavsiya etiladi. Ozone kamera hajmi bo'ylab tekis taqsimlani, erishilmasa joylar o'z ichiga olgan polka va javonlari penetratsiya qiladi.",
+          "tableCaption": "Pishloq pishish kamerasi uchun ishlov berish rejimining misoli (50 m³ hajmi)",
+          "tableHeaders": ["Parametr", "Qiymati", "Eslatma"],
           "tableRows": [
-            ["Ozonator capacity", "2-3 g/hour", "1 g/hour per 15-20 m³"],
-            ["Ozone concentration", "3-4 mg/m³", "For hard cheeses"],
-            ["Operating time", "1.5-2 hours", "Daily or every other day"],
-            ["Chamber humidity", "85-90%", "Optimum for ozone"],
-            ["Efficiency", "95-99%", "Mold destruction"]
+            ["Ozonator imkoniyati", "2-3 g/soat", "15-20 m³ uchun soat bilan 1 g"],
+            ["Ozone kontsentratsiya", "3-4 mg/m³", "Qat'iy pishloqlar uchun"],
+            ["Faoliyat vaqti", "1,5-2 soat", "Kuniga yoki har ikki kunning"],
+            ["Kamera namligi", "85-90%", "Ozone uchun optimal"],
+            ["Samaradorlik", "95-99%", "Ko'plakni yo'q qilish"]
           ],
-          "successText": "Regular ozonation of ripening chambers (1-2 times per day for 1.5-2 hours) allows eliminating manual cheese wiping and reducing chamber maintenance labor costs by 70-80%."
+          "successText": "Pishish kameralarini muntazam ozonatsiya qilish (kuniga 1-2 marta 1,5-2 soatda) pishloqni qo'lda silkitish va kamera texamatini mehnat xarajatlarini 70-80% kamaytirish imkonini beradi."
         },
         "regulations": {
-          "title": "Regulatory documentation",
+          "title": "Qonuniy hujjatlar",
           "items": [
-            "GOST R 54607-2011 — Cheeses. General technical specifications",
-            "Temporary instruction on ozonation of hard rennet cheese storage chambers (1975)",
-            "Methodological recommendations on the use of ozone as a disinfectant (1976)",
-            "SanPiN 2.3.4.545-96 — Milk and dairy products production"
+            "GOST R 54607-2011 — Pishloqlar. Umumiy texnik xususiyatlari",
+            "Qat'iy pishloq saklash kameralarini ozonatsiya qilish vaqtiy yo'riqlamasi (1975)",
+            "Ozonni dezinfektant sifatida ishlatish haqidagi uslubiy tavsiyalar (1976)",
+            "SanPiN 2.3.4.545-96 — Sut va sut mahsulotlarini ishlab chiqarish"
           ]
         },
         "features": {
-          "title": "Benefits for cheese production",
+          "title": "Pishloq ishlab chiqarish uchun foydalari",
           "items": [
             {
-              "title": "Mold control",
-              "description": "95-99% prevention of unwanted mold without affecting ripening"
+              "title": "Ko'plak nazorati",
+              "description": "Pishirish ta'sir qilmasdan 95-99% noxush ko'plak oldini olish"
             },
             {
-              "title": "Quality preservation",
-              "description": "Cheese taste, aroma, and texture remain unchanged"
+              "title": "Sifat saqlanishi",
+              "description": "Pishloq ta'm, hidi va teksturasi o'zgarishsiz qoladi"
             },
             {
-              "title": "Reduced shrinkage",
-              "description": "Microflora stabilization reduces mass losses during ripening"
+              "title": "Qisqarish kamaytirish",
+              "description": "Mikroflora stabilizatsiya massa yo'qolishini kamaytiradi pishtirilish paytida"
             },
             {
-              "title": "Automation",
-              "description": "Scheduled treatment without staff involvement"
+              "title": "Avtomatika",
+              "description": "Jadvallangan ishlov berish xodimlar ishtirok etmasida"
             }
           ]
         }
       }
     },
     "cold-storage": {
-      "title": "Cold storage",
-      "shortDesc": "Disinfection and deodorization of cold stores",
-      "content": "Ozonation of cold rooms and warehouses is a proven technology for extending food shelf life and removing odors. It has major advantages over \"wet\" disinfection.\n\nTreatment can be done without warming the chamber or unloading product. At lower temperatures, ozonation is more effective. Chamber downtime is reduced by a factor of about 5 compared with traditional methods.\n\nFor empty chambers, 35–40 mg/m³ for 24 hours is recommended. For loaded chambers, 2–10 mg/m³ depending on product type. Ozone suppresses bacterial flora, prevents mold and removes musty odor.",
+      "title": "Sovuq saklash",
+      "shortDesc": "Sovuq ombor dezinfeksiyasi va deodoratsiyasi",
+      "content": "Sovuq xonalari va omborlarini ozonatsiya qilish oziq-ovqat saqlash muddatini uzaytirish va hidilarni bartaraf qilish uchun isbotlangan texnologiya. U \"ho'l\" dezinfeksiya usullariga nisbatan katta afzalliklarga ega.\n\nİşlov berish kamerani issiqmasdan yoki mahsulotni ochirib olmasdan bajarilishi mumkin. Massa haroratida ozonatsiya samaradorroq. Kamera faoliyatni to'xtash eski usullarga nisbatan taxminan 5 baravar kamaytirish bilan o'tadi.\n\nBo'sh kameralar uchun 35–40 mg/m³ 24 soat tavsiya etiladi. Yuklangan kameralar uchun 2–10 mg/m³ mahsulot turiga ko'ra. Ozone bakteriya flora bosgiradi, ko'plakni oldini oladi va xira hidni bartaraf qiladi.",
       "benefits": [
-        "Treatment of loaded chambers",
-        "Operation at subzero temperatures",
-        "About 5× less downtime",
-        "Musty odor removal",
-        "Energy savings",
-        "No chemical residues"
+        "Yuklangan kameralarni ishlov berish",
+        "Minus haroratda ishlash",
+        "Taxminan 5× saqlash muddat qisqarishi",
+        "Xira hidilarni bartaraf qilish",
+        "Energiya tejash",
+        "Kimyoviy qoldiqlar yo'q"
       ],
       "stats": {
         "downtimeReduction": {
           "value": "5x",
-          "label": "Faster",
-          "description": "Reduction in chamber downtime for disinfection"
+          "label": "Tezroq",
+          "description": "Kamera ishlov berish faoliyatni to'xtash qisqarishi"
         },
         "emptyChamberConcentration": {
           "value": "35-40",
           "label": "mg/m³",
-          "description": "Concentration for empty chambers"
+          "description": "Bo'sh kameralar uchun kontsentratsiya"
         },
         "emptyChamberTime": {
           "value": "24",
-          "label": "hours",
-          "description": "Treatment time for empty chambers"
+          "label": "soat",
+          "description": "Bo'sh kameralarni ishlov berish vaqti"
         },
         "noWarming": {
           "value": "0",
-          "label": "Warming",
-          "description": "Treatment at low temperatures"
+          "label": "İsitish",
+          "description": "Massa haroratda ishlov berish"
         }
       },
       "sections": {
         "intro": {
-          "paragraph1": "Disinfection and deodorization of cold storage facilities is one of the most important sanitary and hygienic measures aimed at preventing spoilage and quality degradation of stored food products. Ozonation has significant advantages over \"wet\" disinfection methods.",
-          "paragraph2": "Practice has shown that ozonation of cold storage chambers and warehouses allows extending product shelf life, removing unpleasant odors and preventing mold colony formation — all without warming the chamber or unloading products.",
-          "instructionTitle": "USSR Ministry of Trade Instruction 1973:",
-          "instructionText": "\"Disinfection and deodorization in cold storage facilities by ozonation\" — working ozone concentration for disinfection of empty chambers: 35-40 mg/m³, ozonation duration 24 hours."
+          "paragraph1": "Sovuq saklash jarayonlarining dezinfeksiyasi va deodoratsiyasi axlatlanish va sifatning pasayishini oldini olish maqsadida saqlangan oziq-ovqat mahsulotlarning xavfsizligini ta'minlashning eng muhim sanitarliq va gigienik choralaridan biridir. Ozonatsiya \"ho'l\" dezinfeksiya usullariga nisbatan katta afzalliklarga ega.",
+          "paragraph2": "Amaliyot sovuq saklash kameralari va omborlarini ozonatsiya qilish mahsulot saqlash muddatini uzaytirish, noxush hidilarni bartaraf qilish va ko'plak koloniyalari rivojlanishini oldini olish imkonini beradi — bu kamerani issiqmasdan yoki mahsulotlarni ochirib olmasdan.",
+          "instructionTitle": "SSRQ Savdo Vazirligi 1973 yo'riqlamasi:",
+          "instructionText": "\"Sovuq saklash jarayonida ozonatsiya orqali dezinfeksiya va deodoratsiya\" — bo'sh kameralarni dezinfeksiya qilish uchun ishlash ozone kontsentratsiyasi: 35-40 mg/m³, ozonatsiya davomiyligi 24 soat."
         },
         "benefits": {
-          "title": "Advantages of cold storage ozonation",
+          "title": "Sovuq saklashni ozonatsiyaning afzalliklari",
           "items": [
-            "Ability to disinfect chambers loaded with food products",
-            "Treatment without warming the chamber — effectiveness increases at low temperatures",
-            "Reduction of chamber downtime by 5 times compared to \"wet\" disinfection",
-            "Indispensable for combating musty odors in cold storage",
-            "Suppression of bacterial flora on walls, grates, hooks, pallets",
-            "Prevention of mold on storage walls, boxes and packaging",
-            "Energy savings — no need for repeated cooling",
-            "Minimal labor costs — automated process"
+            "Oziq-ovqat mahsulotlar bilan yuklangan kameralarni dezinfeksiya qilish imkoniyati",
+            "Kamerani issiqmasdan ishlov berish — samaradorlik massa haroratida oshadi",
+            "Kamera faoliyatni to'xtashni \"ho'l\" dezinfeksiyaga nisbatan 5 baravar qisqarishi",
+            "Sovuq saklashda xira hidni qarshiga olish uchun lazim",
+            "Devorlarda, tora panjalarda, ilmaklar va pallatalarda bakteriya flora bosgirish",
+            "Saqlash devorlari, qutilar va qadoqlashda ko'plakni oldini olish",
+            "Energiya tejash — qayta sovutish shart emas",
+            "Minimal mehnat xarajatlari — avtomatik jarayonlar"
           ]
         },
         "emptyChambers": {
-          "title": "Ozonation of empty chambers",
-          "intro": "Empty chambers are cleaned of snow, ice, product residues and visible mold colonies before ozonation. The snow \"coat\" must be removed. Chamber doors are tightly closed, and connecting air channels are blocked with dampers.",
-          "tableCaption": "Ozone decay periods after ozonator shutdown",
-          "tableHeaders": ["Initial concentration", "Final concentration", "Time (up to 400 m³)", "Time (over 400 m³)"],
-          "tableData": [
-            ["40 mg/m³", "20 mg/m³", "0.4 hours", "0.2 hours"],
-            ["20 mg/m³", "10 mg/m³", "0.8 hours", "0.4 hours"],
-            ["10 mg/m³", "5 mg/m³", "1.2 hours", "0.6 hours"],
-            ["5 mg/m³", "2.5 mg/m³", "1.6 hours", "0.8 hours"],
-            ["2.5 mg/m³", "0.1 mg/m³", "3.6 hours", "1.8 hours"]
+          "title": "Bo'sh kameralarni ozonatsiya qilish",
+          "intro": "Bo'sh kameralar ozonatsiyadan oldin qor, muz, mahsulot qoldiqlar va ko'rinarli ko'plak koloniyalardan tozalanadi. Qor \"qoplamasi\" olib tashlanganligi kerak. Kamera eshiklari mahkamlangan va hava kanallari damperlar bilan bloklangan.",
+          "tableCaption": "Ozonator to'xtamagandan keyin ozon tanabbusi vaqti",
+          "tableHeaders": [
+            "Boshlang'ich kontsentratsiya",
+            "Yakuniy kontsentratsiya",
+            "Vaqt (400 m³ gacha)",
+            "Vaqt (400 m³ dan ko'p)"
           ],
-          "warning": "For chambers heavily contaminated with mold and chambers with persistent odors, ozonation duration may be increased to 36, and in some cases — up to 48 hours."
+          "tableData": [
+            ["40 mg/m³", "20 mg/m³", "0,4 soat", "0,2 soat"],
+            ["20 mg/m³", "10 mg/m³", "0,8 soat", "0,4 soat"],
+            ["10 mg/m³", "5 mg/m³", "1,2 soat", "0,6 soat"],
+            ["5 mg/m³", "2,5 mg/m³", "1,6 soat", "0,8 soat"],
+            ["2,5 mg/m³", "0,1 mg/m³", "3,6 soat", "1,8 soat"]
+          ],
+          "warning": "Ko'plak va tiklanmagan hidilar bilan og'ir kontaminarlangan kameralar uchun ozonatsiya davomiyligi 36 ga orttirilishi mumkin, ba'zi hollarda — 48 soat gacha."
         },
         "loadedChambers": {
-          "title": "Ozonation of loaded chambers",
-          "intro": "Based on foreign practice data and results of ozonation application at individual cold storage facilities, the following ozone concentrations are recommended for chambers loaded with products:",
-          "tableHeaders": ["Product", "Temperature", "Concentration", "Time", "Frequency"],
-          "animalProductsTableCaption": "Recommended ozonation regimes for animal products",
+          "title": "Yuklangan kameralarni ozonatsiya qilish",
+          "intro": "Xorijiy amaliyot ma'lumotlari va individual sovuq saklash jarayonlarida ozonatsiya tatbiqi natijalariga asosan, mahsulot bilan yuklangan kameralar uchun quyidagi ozone kontsentratsiyalari tavsiya etiladi:",
+          "tableHeaders": ["Mahsulot", "Harorat", "Kontsentratsiya", "Vaqt", "Chastotasi"],
+          "animalProductsTableCaption": "Hayvonot mahsulotlari uchun tavsiya etilgan ozonatsiya rejimi",
           "animalProductsTableData": [
-            ["Chilled meat", "-1...-4°C", "8-10 mg/m³", "4-5 h", "Every other day"],
-            ["Frozen meat", "-18°C", "10 mg/m³", "3 h", "Daily"],
-            ["Poultry (chilled)", "-1...-4°C", "8-10 mg/m³", "2-3 h", "Daily"],
-            ["Poultry (frozen)", "-18°C", "8-12 mg/m³", "3 h", "Daily"],
-            ["Sausage products", "+12°C", "3-10 mg/m³", "3-4 h", "Every 2-3 days"],
-            ["Cheeses", "-4...+4°C", "3-4 mg/m³", "5-7 h", "Every 2-3 days"],
-            ["Eggs", "-1.5...+0.5°C", "3-6 mg/m³", "3-5 h", "As odor appears"]
+            ["Sovuq go'sht", "-1...-4°C", "8-10 mg/m³", "4-5 s", "Har ikki kunning"],
+            ["Muzlatilgan go'sht", "-18°C", "10 mg/m³", "3 s", "Kuniga"],
+            ["Murjon (sovuq)", "-1...-4°C", "8-10 mg/m³", "2-3 s", "Kuniga"],
+            ["Murjon (muzlatilgan)", "-18°C", "8-12 mg/m³", "3 s", "Kuniga"],
+            ["Kolbasa mahsulotlari", "+12°C", "3-10 mg/m³", "3-4 s", "Har 2-3 kunning"],
+            ["Pishloq", "-4...+4°C", "3-4 mg/m³", "5-7 s", "Har 2-3 kunning"],
+            ["Tuxumlar", "-1,5...+0,5°C", "3-6 mg/m³", "3-5 s", "Hid paydo bo'lganda"]
           ],
-          "vegetableProductsTableCaption": "Recommended ozonation regimes for fruits and vegetables",
+          "vegetableProductsTableCaption": "Mevalar va sabzavotlar uchun tavsiya etilgan ozonatsiya rejimi",
           "vegetableProductsTableData": [
-            ["Potatoes", "+2...+3°C", "10-15 mg/m³", "6 h", "Every 10 days"],
-            ["Carrots", "0...-1°C", "15-30 mg/m³", "6 h", "Every 8-10 days"],
-            ["Apples", "0...-2°C", "1-3 mg/m³", "0.5-2 h", "Daily"],
-            ["Onions", "-1...-3°C", "25-30 mg/m³", "5-6 h", "Every 3 days"],
-            ["Grapes", "0...-2°C", "4-6 mg/m³", "3 h", "Daily"]
+            ["Kartoshka", "+2...+3°C", "10-15 mg/m³", "6 s", "Har 10 kunning"],
+            ["Sabzi", "0...-1°C", "15-30 mg/m³", "6 s", "Har 8-10 kunning"],
+            ["Olma", "0...-2°C", "1-3 mg/m³", "0,5-2 s", "Kuniga"],
+            ["Piyoz", "-1...-3°C", "25-30 mg/m³", "5-6 s", "Har 3 kunning"],
+            ["Angu", "0...-2°C", "4-6 mg/m³", "3 s", "Kuniga"]
           ]
         },
         "comparison": {
-          "title": "Comparison of cold storage chamber disinfection methods",
-          "headers": ["Parameter", "Ozonation", "\"Wet\" disinfection"],
+          "title": "Sovuq saklash kameras dezinfeksiya usullari taqqoslanishi",
+          "headers": ["Parametr", "Ozonatsiya", "\"Ho'l\" dezinfeksiya"],
           "rows": [
-            { "parameter": "Product unloading", "value1": "Not required", "value2": "Required" },
-            { "parameter": "Chamber warming", "value1": "Not required", "value2": "Required" },
-            { "parameter": "Downtime", "value1": "24 hours", "value2": "5-7 days" },
-            { "parameter": "Energy consumption", "value1": "Minimal", "value2": "Significant" },
-            { "parameter": "Labor costs", "value1": "Minimal", "value2": "High" },
-            { "parameter": "Chemical residues", "value1": "None", "value2": "Rinsing required" },
-            { "parameter": "Hard-to-reach areas treatment", "value1": "Complete", "value2": "Difficult" }
+            { "parameter": "Mahsulotni ochirib olish", "value1": "Shart emas", "value2": "Talab qilinadi" },
+            { "parameter": "Kamerani issiqish", "value1": "Shart emas", "value2": "Talab qilinadi" },
+            { "parameter": "Faoliyatni to'xtash", "value1": "24 soat", "value2": "5-7 kun" },
+            { "parameter": "Energiya sarfiyati", "value1": "Minimal", "value2": "Sezilarli" },
+            { "parameter": "Mehnat xarajatlari", "value1": "Minimal", "value2": "Yuqori" },
+            { "parameter": "Kimyoviy qoldiqlar", "value1": "Yo'q", "value2": "Rinse talab qilinadi" },
+            { "parameter": "Erishilmasa joylarni ishlov berish", "value1": "To'liq", "value2": "Qiyin" }
           ]
         },
         "deodorization": {
-          "title": "Cold storage deodorization",
-          "paragraph1": "Ozonation is indispensable for combating musty odors that form in cold storage and freezer chambers. During deodorization, chambers are held after ozonator shutdown for 24 hours without ventilation — ozone fully decays to oxygen.",
-          "paragraph2": "Ozone oxidizes and destroys organic compounds that cause unpleasant odors. This allows using one chamber to store different types of products alternately without risk of odor transfer."
+          "title": "Sovuq saklash deodoratsiyasi",
+          "paragraph1": "Ozonatsiya sovuq saklash va muzlatgichlar kameralarida paydo bo'ladigan xira hidga qarshiga olish uchun lazim. Deodoratsiya paytida, kameralar ozonator to'xtashdan keyin ventilatsiyasiz 24 soat saqlanadi — ozone butunlay kislorod holatiga aylanadi.",
+          "paragraph2": "Ozone noxush hidlarni keltirib chiqaradigan organik tarkiblar oksidlaydi va yo'q qiladi. Bu bir kamerani alohida mahsulotlar saqlash uchun birma-bir ishlatish imkonini beradi, hidning o'tish xavfisiz."
         },
         "organization": {
-          "title": "Ozonation process organization",
-          "intro": "In the ozonated chamber, the ozonator is installed in the middle of the chamber on a table approximately 1.2 m high. With two or three ozonators, they are placed at different points in the chamber for even ozone distribution. Air cooler fans are turned off.",
-          "recommendationTitle": "VNIKHI recommendation:",
-          "recommendationText": "To increase ozonation effectiveness after reaching working concentration, it is recommended to briefly turn on fans to mix the ozone-air mixture."
+          "title": "Ozonatsiya jarayonining tashkillanishi",
+          "intro": "Ozonatsiya qilinadigan kamerada, ozonator kamera o'rtasiga taxminan 1,2 m balandlikdagi stol ustiga o'rnatiladi. Ikkita yoki uchta ozonator bo'lsa, ular kamerada turli joyalarga o'rnatiladi ozone tekis taqsimoti uchun. Sovutish qulaylagichlarining ventilatorlari o'chiriladi.",
+          "recommendationTitle": "VNIKHI tavsiyasi:",
+          "recommendationText": "Ishlash kontsentratsiyasiga erishgandan keyin ozonatsiya samaradorligini oshirish uchun, ozone-hava aralashmasini aralashtirishni qisqa vaqtga ventilatorlarni yoqish tavsiya etiladi."
         },
         "advantages": {
-          "title": "Advantages for cold storage warehouses",
+          "title": "Sovuq saklash omborlari uchun afzalliklari",
           "feature1": {
-            "title": "Treatment of loaded chambers",
-            "description": "Disinfection without unloading products and stopping warehouse operations"
+            "title": "Yuklangan kameralarni ishlov berish",
+            "description": "Mahsulotlarni ochirib olmasdan va omborning faoliyatini to'xtamasdan dezinfeksiya qilish"
           },
           "feature2": {
-            "title": "Operation at subzero temperatures",
-            "description": "Ozonation effectiveness increases at low temperatures"
+            "title": "Minus haroratda ishlash",
+            "description": "Ozonatsiya samaradorligi massa haroratida oshadi"
           },
           "feature3": {
-            "title": "Odor elimination",
-            "description": "Complete chamber deodorization without chemical agents"
+            "title": "Hidni bartaraf qilish",
+            "description": "Kimyoviy agentlarsiz to'liq kamera deodoratsiyasi"
           },
           "feature4": {
-            "title": "Resource savings",
-            "description": "5× reduction in downtime, energy and labor savings"
+            "title": "Resurslarni tejash",
+            "description": "Faoliyatni to'xtash 5× qisqarishi, energiya va mehnat tejashi"
           }
         }
       }

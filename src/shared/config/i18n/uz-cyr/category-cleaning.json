@@ -1,418 +1,966 @@
 {
-  "title": "Cleaning",
-  "description": "Professional ozonation for cleaning companies: removal of ingrained odors, post-fire treatment, pet odor removal, vehicle ozonation and deep cleaning of carpets and upholstery.",
+  "title": "Тозалаш",
+  "description": "Тозалаш компанийалари учун профессионал озонлаш: чуқур ҳидларни олиб ташлаш, йонғин содир бўлгандан кейин тозалаш, ҳайвон ҳидларини олиб ташлаш, автомобилларни озонлаш ва қалипча ва мебел йузаларини чуқур тозалаш.",
   "subcategories": {
     "odor-removal": {
-      "title": "Odor removal",
-      "shortDesc": "Removal of ingrained and persistent odors",
-      "content": "Ozonation is the most effective method for removing ingrained odors in premises. Unlike air fresheners and deodorizers, ozone does not mask odors but fully breaks down odor molecules into safe compounds: water and carbon dioxide.\n\nAs a gas, ozone penetrates everywhere: crevices, material pores, upholstery, carpets and even ventilation systems. This allows treating all surfaces at once, including areas inaccessible to manual cleaning.\n\nOzonation effectiveness depends on odor intensity, room volume, temperature and humidity. Lower temperature means more stable ozone and longer activity. At 0–5°C ozone can remain active for days; at 50°C it decays in 20–30 minutes.\n\nAfter treatment, ozone fully decays to oxygen with no chemical residues. The room is ready for use after 30–60 minutes of ventilation.",
+      "title": "Ҳидарни олиб ташлаш",
+      "shortDesc": "Чуқур ва доимий ҳидларни олиб ташлаш",
+      "content": "Озонлаш хоналардаги чуқур ҳидларни олиб ташлашнинг енг самарали усули. Ҳаво тоза қилиш спрейларид ва деодорантларидан фарқли ўлароқ, озон ҳидларни йаширамайди, балки ҳидар молекулаларини хавфсиз бирикмаларга айлантириб тўлиқ бузади: сув ва карбон диоксидга.\n\nГаз сифатида озон ҳамма йерга кириб олади: тор йерлар, материал порлари, мебел, қалипчалар ва ҳатто вентиллйатсийа тизимига. Бу барча йузаларни бир вақтда тозалаш имконини беради, шу жумладан қўл билан тозалаш мумкин бўлмаган жойларни ҳам.\n\nОзонлашнинг самарадорлиги ҳид интенсивлиги, хона ҳажми, ҳарорат ва намликка боғлиқ. Кам ҳарорат озоннинг йанада барқарор ва узоқ фаоллиги демани англатади. 0-5°C да озон бир неча кун давомида фаол қолиши мумкин; 50°C да у 20-30 дақиқада парчаланади.\n\nТедавини амалга оширгандан сўнг озон кимйовий қолдиқлар қолмасдан охйген га тўлиқ парчаланади. Хона 30-60 дақиқали вентиллйатсийадан кейин фойдаланишга таййор.",
       "benefits": [
-        "Complete breakdown of odor molecules",
-        "Penetration into porous materials",
-        "Treatment of hard-to-reach areas",
-        "No chemical residues",
-        "Results in 4–10 hours",
-        "Permanent effect"
-      ]
-    },
-    "fire-smoke": {
-      "title": "Fire aftermath",
-      "shortDesc": "Removal of smoke and soot odor",
-      "content": "Fire smoke odor is among the hardest to remove. Smoke and soot particles penetrate plaster, concrete, wood, textiles and soak into upholstery and carpets. Conventional cleaning cannot remove this odor — it keeps coming back.\n\nOzonation is the only method that can fully eliminate fire odor without major renovation. Ozone penetrates all materials at the molecular level and oxidizes soot and combustion products, breaking their chemical structure.\n\nPost-fire treatment requires high ozone concentrations (40–80 mg/m³) and long exposure — 24 to 72 hours depending on damage. Multiple cycles with ventilation between are recommended.\n\nBefore ozonation, clean visible soot, wipe surfaces and remove badly damaged items. Ozone does not physically remove soot — it only eliminates the odor.",
-      "benefits": [
-        "Odor removal without renovation",
-        "Penetration into walls and ceilings",
-        "Whole-room treatment at once",
-        "Preservation of finishes",
-        "Faster recovery of the premises",
-        "Savings on major repairs"
+        "Ҳидар молекулаларининг тўлиқ бузилиши",
+        "Порл материалга кириб олиш",
+        "Қўл орқали тозалашга рухсат етилмаган жойларни тозалаш",
+        "Кимйовий қолдиқлар йўқ",
+        "Натижа 4-10 соатда",
+        "Доимий та'сир"
       ],
       "stats": {
         "stat1": {
-          "value": "24-72 h",
-          "label": "Treatment time",
-          "description": "Depending on damage level"
+          "value": "100%",
+          "label": "Йўқ қилиш",
+          "description": "Ҳидар молекулаларининг, йаширинмаса"
         },
         "stat2": {
-          "value": "40-80",
-          "label": "mg/m³",
-          "description": "Ozone concentration"
+          "value": "4-10 ҳ",
+          "label": "Тедави вақти",
+          "description": "Интенсивликка қараб"
         },
         "stat3": {
-          "value": "2-3",
-          "label": "Cycles",
-          "description": "For heavy smoke damage"
+          "value": "30 мин",
+          "label": "Вентиллйатсийа",
+          "description": "Хона тўлиқ таййор бўлгунига қадар"
         },
         "stat4": {
-          "value": "100%",
-          "label": "Elimination",
-          "description": "Of smoke odor without renovation"
+          "value": "0",
+          "label": "Кимйовийлар",
+          "description": "Фақат охйген парчаланишдан кейин"
         }
       },
       "sections": {
         "intro": {
-          "text": "Fire smoke odor is among the most persistent and difficult to remove. Combustion products penetrate deep into building materials: plaster, concrete, brick, wood. Tiny soot particles are absorbed into textiles, upholstery, carpets, wallpaper. Traditional cleaning and ventilation don't help — the odor keeps coming back.",
-          "text2": "Many property owners after a fire are forced to do a full renovation with replacement of finishes. However, ozonation allows solving the problem faster and cheaper — without demolishing walls and replacing furniture."
+          "text": "Хоналардаги йоқимсиз ҳидлар нафақат ноқулайлик. Аксарийат синтетик ва органик ҳидлар заҳарлı моддаларни ўз ичига олади: бензен, формалдегид, амитак, трикҳлоретилен. Улар карсиноген ва мутагендан иборат бўлиб, бош оғриғи, чарчоқ, қон босими ўзгаришига сабаб бўлади.",
+          "text2": "Одий ҳидар назорати усуллари — спрейлар, аромалар, сорбернтлар — фақат муаммони йаширинади йоки ҳава орқали молекулаларни секин сўрилади. Озонлаш бошқача ишлайди: озон фаол равишда ҳидли моддаларни оксидлаши, уларни хавфсиз бирикмаларга — сув ва карбон диоксидга айлантириб бузади."
         },
         "highlight1": {
-          "title": "Why fire smoke odor is so persistent:",
-          "text": "When organic materials burn, polycyclic aromatic hydrocarbons (PAHs), soot, and resins are formed. These substances have microscopic particle sizes (0.1-1 μm) and penetrate deep into the pores of building materials. Regular cleaning only removes the surface layer."
+          "title": "Ишлаш принтсипи:",
+          "text": "Озон (О₃) енг кучли оксидловчи, хлорин дан 3000 марта кўпроқ самарадор. У ҳидар молекулаларига кимйовий даражада та'сир қилади, уларнинг тузилишини қайтарилмас тарзда бузади. Реаксийадан кейин ҳидар абадий йўқ бўлиб кетади, йанги манба пайдо бўлгунига қадар."
+        },
+        "odors": {
+          "title": "Озон қайси ҳидларни йўқ қилади",
+          "text": "Озонлаш дейарли ҳар қандай органик ва норганик ҳидларга самарадор:",
+          "items": [
+            "Савоб чигити — девори, мебелинг, текстилга ўраппиланган",
+            "Ремонтдан кейин чиққан ҳид — бўйа, елим, чўзилган шифтлар, йанги мебел",
+            "Намлик ва кокат — нам хоналарда, йер остида, сув тўки кейин",
+            "Овқат ҳидлари — булғанган маҳсулотлар, балиқ, асар-масалалар",
+            "Уй ҳидлари — тер, ески кир, уй кимйовий моддалар",
+            "Cелебратсийа ҳидлари — алкогол, овқат, савоб"
+          ]
+        },
+        "comparison": {
+          "title": "Нима учун озон бошқа усуллардан кўпроқ самарадор",
+          "tableTitle": "Ҳидар олиб ташлаш усулларини солиштириш",
+          "headers": [
+            "Усул",
+            "Озонлаш",
+            "Спрейлар/сорбернтлар"
+          ],
+          "rows": [
+            {
+              "parameter": "Ишлаш принтсипи",
+              "value1": "Молекула йўқ қилиш",
+              "value2": "Йашириш/сўрилиш"
+            },
+            {
+              "parameter": "Йузани қамраб олиш",
+              "value1": "100% йаширин жойлар билан",
+              "value2": "Фақат ҳава"
+            },
+            {
+              "parameter": "Чуқур ҳидлар",
+              "value1": "Тўлиқ йўқ қилиш",
+              "value2": "Йўқ қилмайди"
+            },
+            {
+              "parameter": "Та'сирнинг давомийлиги",
+              "value1": "Доимий",
+              "value2": "Вақтинчалик"
+            },
+            {
+              "parameter": "Кимйовий қолдиқлар",
+              "value1": "Йўқ (фақат О₂)",
+              "value2": "Ҳа (аромалар)"
+            },
+            {
+              "parameter": "Дезинфектсийа",
+              "value1": "Ҳа (бонус)",
+              "value2": "Йўқ"
+            }
+          ]
+        },
+        "factors": {
+          "title": "Самарадорликга та'сир етувчи омиллар",
+          "text": "Озонлаш натижалари тўғри танланган тедави режимига боғлиқ:",
+          "table": {
+            "caption": "Тавсийа етилган озонлаш параметрлари",
+            "headers": [
+              "Параметр",
+              "Та'сир",
+              "Тавсийа"
+            ],
+            "rows": [
+              [
+                "Озон консентратсийаси",
+                "Йуқори — тезроқ натижа",
+                "Вазифага қараб 10-80 мг/м³"
+              ],
+              [
+                "Ҳарорат",
+                "Пастроқ Т озоннинг йанада барқарорлигини англатади",
+                "Оптимал 15-25°C"
+              ],
+              [
+                "Намлик",
+                "Йуқори намлик парчаланишни тезлаштиради",
+                "40-60% нисбий намлик"
+              ],
+              [
+                "Тедави вақти",
+                "Ҳид интенсивлигига боғлиқ",
+                "2 дан 24 соатигача"
+              ],
+              [
+                "Сеал қилиш",
+                "Сизиқлар консентратсийани камайтиради",
+                "Ойналар, ешиклар, вентиллйатсийани йопинг"
+              ]
+            ]
+          },
+          "highlight": {
+            "title": "Муҳим:",
+            "text": "0-5°C да озон бир неча кун давомида фаол қолади, 50°C да у 20-30 дақиқада парчаланади. Бу ҳарорат режими билан тедави интенсивлигини назорат қилиш имконини беради."
+          }
+        },
+        "process": {
+          "title": "Хона озонлаш жарайони",
+          "steps": [
+            {
+              "title": "Хонани таййорлаш",
+              "description": "Стандарт тозалашни амалга оширинг, кўриниб турадиган ифлосланиш манбаларини олиб ташланг. Ўсимликлар, ҳайвонларни олиб чиқинг. Ойналар ва та'мин вентиллйатсийасини йопинг."
+            },
+            {
+              "title": "Параметрлар ҳисоблаш",
+              "description": "Хона ҳажми ва зарур озон консентратсийасини аниқланг. Кучсиз ҳидлар учун: 10-20 мг/м³, ўрта: 20-40 мг/м³, кучли: 40-80 мг/м³."
+            },
+            {
+              "title": "Озонлаш",
+              "description": "Озон генераторини ўрнатинг, хонани тарк етинг, ҳисобланган вақт учун тедавини бошланг. Озоннинг текис тақсимоти учун вентилйатордан фойдаланинг."
+            },
+            {
+              "title": "Експозитсийа",
+              "description": "Озонни генератори ўчгандан кейин 30 дақиқадан бир неча соатгача хонада қолдиринг. Озон парчалангунига қадар ишлашда давом етади."
+            },
+            {
+              "title": "Вентиллйатсийа",
+              "description": "Ойналар ва ешикларни очинг, чўжоқ вентиллйатсийасини йоқинг. Характерли озон ҳиди йўқ бўлгунига қадар вентиллйатсийа қилинг (15-60 дақиқа)."
+            }
+          ]
+        },
+        "scenarios": {
+          "title": "Типик қўлланилиш стсенарйилари",
+          "items": [
+            {
+              "title": "Уй ижарачилардан кейин",
+              "description": "Аввалги егалари, ҳайвонлар, савоб ичкилиги ҳидларини олиб ташлаш. Сотиш йоки ижарага таййорлаш"
+            },
+            {
+              "title": "Ремонт кейин офис",
+              "description": "Бўйа, елим, йанги мебел, пластик тугатиш ҳидларини йўқ қилиш. Ишчилар учун хавфсизлик"
+            },
+            {
+              "title": "Меҳмонхона хонаси",
+              "description": "Меҳмонлар ўртасида тез тедави. Савоб, парфйум, овқат ҳидларини олиб ташлаш"
+            },
+            {
+              "title": "Совуқ сақлаш",
+              "description": "Булғанган маҳсулотлар, балиқ, гўшт ҳидларини йўқ қилиш. Йуклашдан олдин дезинфектсийа"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Тозалаш компанийалари учун фойдалари",
+          "text": "Озонлаш йуқори фойдаланилишли қўшимча хизмат. Жиҳозлар 2-3 ой ичида тўланади:",
+          "items": [
+            "Паст харажатлар — озон генераторлар тоза талаби йўқ",
+            "Фойдаланишнинг ошлиги — ўрнатинг, йоқинг, тарк етинг",
+            "Кенг ишлаб чиқаридаги доирон — апартаментлардан саноат унумлари омига",
+            "Аниқ натижалар — фойдаланувчи дарҳол фарқни сезади",
+            "Жиҳозларнинг умри — тўғри ишлаш билан 5-10 йил",
+            "Ижара имконийлиги — қўшимча даромад манбаи"
+          ],
+          "highlight": {
+            "title": "Хавфсизлик:",
+            "text": "Озонлаш одамлар йоки ҳайвонлар иштирокисиз амалга оширилади. 0,1 мг/м³ дан йуқори консентратсийалар ўпка учун хавфлиди. Ходимлар тренинги олиши керак. Озон консентратсийа сенсорсидан фойдаланиш тавсийа етилади."
+          }
+        }
+      }
+    },
+    "fire-smoke": {
+      "title": "Йонғин оқибати",
+      "shortDesc": "Савоб ва кулилар ҳидини олиб ташлаш",
+      "content": "Йонғин савоб ҳиди енг қийин олиб ташланиши керак ҳидлардан биридир. Савоб ва кулий зарралар гипс, бетон, йоғоч, текстилга кириб олади ва мебел, қалипчаларни шарбатига солиб кетади. Одий тозалаш бу ҳидни олиб таша олмайди — у доимий қайтиб келади.\n\nОзонлаш йонғин ҳидини асосий ремонтасиз тўлиқ йўқ қилишнинг йагона усули. Озон молекулйар даражада барча материалларга кириб олади ва кулий ва йониш маҳсулотларини оксидлаши, уларнинг кимйовий тузилишини бузади.\n\nЙонғиндан кейин тедави йуқори озон консентратсийасини (40-80 мг/м³) ва узоқ експозитсийани (зийоннинг даражасига қараб 24 дан 72 соатгача) талаб қилади. Вентиллйатсийа билан бир неча сиклни амалга ошириш тавсийа етилади.\n\nОзонлашдан олдин кўриниб турадиган кулиларни тозаланг, йузаларни силанг ва ноқолган зарар кўлмаган нарсаларни олиб ташланг. Озон физик равишда кулиларни олиб таша олмайди — у фақат ҳидни йўқ қилади.",
+      "benefits": [
+        "Ҳидарни ремонтасиз олиб ташлаш",
+        "Девор ва шифтларга кириб олиш",
+        "Бутун хонани бир вақтда тозалаш",
+        "Тугатишни сақлаб қолиш",
+        "Хонани тезроқ тиклаш",
+        "Асосий тамирлаш харажатларини тежасч"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "24-72 ҳ",
+          "label": "Тедави вақти",
+          "description": "Зарар кўриш даражасига қараб"
+        },
+        "stat2": {
+          "value": "40-80",
+          "label": "мг/м³",
+          "description": "Озон консентратсийаси"
+        },
+        "stat3": {
+          "value": "2-3",
+          "label": "Сикллар",
+          "description": "Оғир савоб зийонида"
+        },
+        "stat4": {
+          "value": "100%",
+          "label": "Йўқ қилиш",
+          "description": "Савоб ҳидининг ремонтасиз"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Йонғин савоб ҳиди енг доимий ва қийин олиб ташланиши керак ҳидлардан биридир. Йониш маҳсулотлари бино материаллари чуқурига кириб олади: гипс, бетон, ғишт, йоғоч. Майда кулий зарралар текстилга, мебел, қалипчалар, деворгил қогозга сўрилади. Одий тозалаш ва вентиллйатсийа йордам бермайди — ҳидар доимий қайтиб келади.",
+          "text2": "Коʻп хоналар йонғиндер кейин тугатишни алмаштириш билан тўлиқ ремонтга мажбур. Шунга қарамай, озонлаш муаммони тезроқ ва арзонроқ ҳал қила олади — деворларни бузиш ва мебелни алмаштириш кераксиз."
+        },
+        "highlight1": {
+          "title": "Нима учун йонғин савоб ҳидини доимий:",
+          "text": "Органик материал йонганда, поликтсиклик ароматик углеводородлар (ПАҲ), кулий ва қолйатмалар ҳосил бўлади. Ушбу моддалар микроскопик зарраларнинг ўлчамига ега (0,1-1 μм) ва бино материаллари порлари чуқурида кириб олади. Одий тозалаш фақат сиртни олиб ташлайди."
         },
         "howOzone": {
-          "title": "How ozone eliminates fire smoke odor",
-          "text": "Ozone is a gas that penetrates everywhere smoke and soot particles have reached. It oxidizes organic compounds at the molecular level, breaking chemical bonds in combustion product molecules. As a result, safe compounds are formed — water and carbon dioxide.",
+          "title": "Озон йонғин савоб ҳидини қандай йўқ қилади",
+          "text": "Озон савоб ва кулий зарраларнинг ерган барча йерга кириб оладиган газ. У йониш маҳсулот молекулаларида кимйовий боғланишларни бузиб органик бирикмалари молекулйар даражада оксидлаши. Натижада хавфсиз бирикмалари ҳосил бўлади — сув ва карбон диоксид.",
           "items": [
-            "Penetrates micropores of concrete, plaster, brick",
-            "Treats wooden structures from inside",
-            "Reaches hidden cavities behind wall cladding",
-            "Passes through textiles and furniture upholstery",
-            "Cleans ventilation systems and ducts",
-            "Treats books, documents, clothing"
+            "Бетон, гипс, ғишт миксро порларига кириб олади",
+            "Йоғоч тузилмаларини ичидан тозалади",
+            "Девор паластра ортида йаширин бўшлиқларни еради",
+            "Текстил ва мебел тўширувига ўтади",
+            "Вентиллйатсийа тизимини ва каналларини тозалади",
+            "Китоблар, ҳужжатлар, кийимларни тозалади"
           ]
         },
         "process": {
-          "title": "Post-fire room treatment stages",
+          "title": "Йонғиндан кейин хона тедависи босқичлари",
           "steps": [
             {
-              "title": "Preliminary cleaning",
-              "description": "Remove visible soot and smoke residue from all surfaces. Wipe walls, ceilings, floors. Vacuum upholstery and carpets. Remove severely damaged items."
+              "title": "Дастлабки тозалаш",
+              "description": "Барча йузалардан кўриниб турадиган кулий ва савоб қолдиқларини олиб ташланг. Деворни, шифтни, полли силанг. Мебел ва қалипчаларни сўриланг. Оғир зарар кўлган нарсаларни олиб ташланг."
             },
             {
-              "title": "Room sealing",
-              "description": "Close all windows and doors. Seal ventilation openings. Seal gaps. This is necessary to maintain high ozone concentration."
+              "title": "Хонани сеал қилиш",
+              "description": "Барча ойналар ва ешикларни йопинг. Вентиллйатсийа очиқларини сеал қилинг. Сизиқларни сеал қилинг. Бу йуқори озон консентратсийасини сақлаб қолиш учун зарур."
             },
             {
-              "title": "First ozonation cycle",
-              "description": "Install ozone generator, leave the room. Treatment at 40-80 mg/m³ concentration for 8-24 hours. Ozone must completely fill the room volume."
+              "title": "Биринчи озонлаш сикласи",
+              "description": "Озон генераторини ўрнатинг, хонани тарк етинг. 40-80 мг/м³ консентратсийада 8-24 соат тедависи. Озон хона ҳажмини тўлиқ қамраб олиши керак."
             },
             {
-              "title": "Ventilation and assessment",
-              "description": "Ventilate the room for 2-4 hours until ozone odor completely disappears. Assess the result. If necessary, perform additional wet cleaning."
+              "title": "Вентиллйатсийа ва баҳолаш",
+              "description": "Хонани 2-4 соат вентиллйатсийа қилинг, озон ҳиди тўлиқ йўқ бўлгунига қадар. Натижани баҳоланг. Заруратда қўшимча нам тозалашни амалга оширинг."
             },
             {
-              "title": "Repeat cycles (if needed)",
-              "description": "For heavy smoke damage, 2-3 treatment cycles with ventilation breaks are required. Each cycle further reduces odor concentration."
+              "title": "Сиклларни такрорлаш (зарур бўлса)",
+              "description": "Оғир савоб зийонида 2-3 та вентиллйатсийа тантанасиз тедави сикласи талаб қилинди. Ҳар бир сикласи ҳидарнинг консентратсийасини йанада камайтиради."
             }
           ]
         },
         "modes": {
-          "title": "Treatment modes depending on damage level",
+          "title": "Зарар кўриш даражасига қараб тедави режимлар",
           "table": {
-            "caption": "Recommended post-fire ozonation parameters",
-            "headers": ["Damage level", "Concentration", "Cycle time", "Number of cycles"],
+            "caption": "Тавсийа етилган йонғиндан кейин озонлаш параметрлари",
+            "headers": [
+              "Зарар кўриш даражаси",
+              "Консентратсийа",
+              "Сикласнинг вақти",
+              "Сиклалар сони"
+            ],
             "rows": [
-              ["Light smoke", "20-40 mg/m³", "4-8 hours", "1"],
-              ["Moderate smoke", "40-60 mg/m³", "12-24 hours", "1-2"],
-              ["Heavy smoke", "60-80 mg/m³", "24-48 hours", "2-3"],
-              ["Very heavy", "80+ mg/m³", "48-72 hours", "3+"]
+              [
+                "Йенгил савоб",
+                "20-40 мг/м³",
+                "4-8 соат",
+                "1"
+              ],
+              [
+                "Ўрта савоб",
+                "40-60 мг/м³",
+                "12-24 соат",
+                "1-2"
+              ],
+              [
+                "Оғир савоб",
+                "60-80 мг/м³",
+                "24-48 соат",
+                "2-3"
+              ],
+              [
+                "Жуда оғир",
+                "80+ мг/м³",
+                "48-72 соат",
+                "3+"
+              ]
             ]
           },
           "highlight": {
-            "title": "Important:",
-            "text": "Ozone does not physically remove soot — it only eliminates the odor. Mechanical cleaning is mandatory before ozonation. Also, ozone does not restore damaged materials — charred surfaces require repair."
+            "title": "Муҳим:",
+            "text": "Озон физик равишда кулиларни олиб таша олмайди — у фақат ҳидни йўқ қилади. Механик тозалаш озонлашдан олдин мажбур. Шунингдек, озон зарар кўлган материални тиклама олмайди — йонган йузалар тамирлашни талаб қилади."
           }
         },
         "comparison": {
-          "title": "Comparison of fire smoke odor removal methods",
-          "tableTitle": "Ozonation vs other methods",
-          "headers": ["Criterion", "Ozonation", "Major renovation"],
+          "title": "Йонғин савоб ҳидини олиб ташлаш усулларини солиштириш",
+          "tableTitle": "Озонлаш вс бошқа усуллар",
+          "headers": [
+            "Мезон",
+            "Озонлаш",
+            "Асосий ремонт"
+          ],
           "rows": [
             {
-              "parameter": "Cost",
-              "value1": "Low",
-              "value2": "Very high"
+              "parameter": "Харажат",
+              "value1": "Паст",
+              "value2": "Жуда йуқори"
             },
             {
-              "parameter": "Completion time",
-              "value1": "1-3 days",
-              "value2": "2-4 weeks"
+              "parameter": "Тугатиш вақти",
+              "value1": "1-3 кун",
+              "value2": "2-4 ҳафта"
             },
             {
-              "parameter": "Effectiveness",
+              "parameter": "Самарадорлик",
               "value1": "95-100%",
               "value2": "100%"
             },
             {
-              "parameter": "Preservation of finishes",
-              "value1": "Yes",
-              "value2": "No (replacement)"
+              "parameter": "Тугатишни сақлаб қолиш",
+              "value1": "Ҳа",
+              "value2": "Йўқ (алмаштириш)"
             },
             {
-              "parameter": "Preservation of furniture",
-              "value1": "Yes",
-              "value2": "Depends on damage"
+              "parameter": "Мебелни сақлаб қолиш",
+              "value1": "Ҳа",
+              "value2": "Зарар кўриш даражасига боғлиқ"
             },
             {
-              "parameter": "Need for evacuation",
-              "value1": "During treatment",
-              "value2": "For entire repair period"
+              "parameter": "Евакуатсийа керак бўлса",
+              "value1": "Тедави пайтида",
+              "value2": "Бутун тамирлаш давомида"
             }
           ]
         },
         "whatCanTreat": {
-          "title": "What can be treated with ozone",
+          "title": "Озон билан қандай нарсаларни тозалаш мумкин",
           "items": [
             {
-              "title": "Building structures",
-              "description": "Walls, ceilings, floors, wooden beams. Ozone penetrates to a depth of several centimeters"
+              "title": "Бино тузилмалари",
+              "description": "Девор, шифт, пол, йоғоч бравалар. Озон бир неча сантиметрликлиги чуқурида кириб олади"
             },
             {
-              "title": "Upholstered furniture",
-              "description": "Sofas, armchairs, mattresses, pillows. Ozone treats both filling and upholstery simultaneously"
+              "title": "Мебел тўширма",
+              "description": "Диванлар, кресло, ўриндиқлар, йостиқ. Озон тўширма ва тўширувини бир вақтда тозалади"
             },
             {
-              "title": "Carpets and textiles",
-              "description": "Carpet coverings, curtains, clothing in closets. Can be treated directly in the room"
+              "title": "Қалипча ва текстил",
+              "description": "Қалипча қоплами, пардалар, хона гийомлари. Хонада тўғридан-тўғри тозалаш мумкин"
             },
             {
-              "title": "Books and documents",
-              "description": "Paper media absorb fire smoke odor. Ozonation allows preserving archives"
+              "title": "Китоблар ва ҳужжатлар",
+              "description": "Қоғоз медиа йонғин савоб ҳидини сўради. Озонлаш архивларни сақлиб қолиш имконини беради"
             }
           ]
         },
         "whenNotHelp": {
-          "title": "When ozonation won't help",
-          "text": "Ozonation is not a universal solution. There are cases when additional treatment or repair is required:",
+          "title": "Озонлаш қачон йордам бермайди",
+          "text": "Озонлаш универсал йечим емас. Қўшимча тедави йоки тамирлаш талаб қиладиган ҳолатлар бор:",
           "items": [
-            "Charred surfaces — require mechanical cleaning or replacement",
-            "Water-soaked materials after firefighting — drying first",
-            "Melted plastic — odor source not eliminated by ozone",
-            "Deeply sooted drywall — may require replacement",
-            "Ventilation systems with accumulated soot — require mechanical cleaning"
+            "Йонган йузалар — механик тозалаш йоки алмаштириш талаб қилади",
+            "Сувга ботган материаллар ўчирилишдан кейин — қуритув аввал талаб",
+            "Ериган пластик — ҳидар манбаси озон билан йўқ қилинмайди",
+            "Чуқур кулий бўлган гйпсопластик — алмаштириш талаб қилиши мумкин",
+            "Кулий билан тўла вентиллйатсийа тизими — механик тозалаш талаб"
           ],
           "highlight": {
-            "title": "Recommendation:",
-            "text": "For maximum effect, combine ozonation with professional cleaning. First — mechanical removal of soot, then — ozonation to eliminate ingrained odor."
+            "title": "Тавсийа:",
+            "text": "Максимал та'сир учун озонлашни профессионал тозалаш билан бирлаш. Аввал — кулиларни механик олиб ташлаш, кейин — чуқур ҳидни йўқ қилиш учун озонлаш."
           }
         },
         "economic": {
-          "title": "Economic effect",
-          "text": "Ozonation allows significant savings on post-fire restoration:",
+          "title": "Иқтисодий та'сир",
+          "text": "Озонлаш йонғиндан кейин тикланиш харажатларида сезиларли тежашни имкон беради:",
           "table": {
-            "caption": "Restoration cost comparison (example for 60 m² apartment)",
-            "headers": ["Expense item", "With ozonation", "Without ozonation"],
+            "caption": "Тикланиш харажатларини солиштириш (60 м² апартамент учун мисол)",
+            "headers": [
+              "Харажат маддаси",
+              "Озонлаш билан",
+              "Озонлашсиз"
+            ],
             "rows": [
-              ["Finish removal", "—", "$500"],
-              ["New finishes", "—", "$2,000"],
-              ["Furniture cleaning", "$150", "$150"],
-              ["Ozonation", "$200", "—"],
-              ["New furniture (replacement)", "—", "$1,500"],
-              ["TOTAL", "$350", "$4,150"]
+              [
+                "Тугатишни олиб ташлаш",
+                "—",
+                "$500"
+              ],
+              [
+                "Йанги тугатиш",
+                "—",
+                "$2,000"
+              ],
+              [
+                "Мебелни тозалаш",
+                "$150",
+                "$150"
+              ],
+              [
+                "Озонлаш",
+                "$200",
+                "—"
+              ],
+              [
+                "Йанги мебел (алмаштириш)",
+                "—",
+                "$1,500"
+              ],
+              [
+                "ЖАМИ",
+                "$350",
+                "$4,150"
+              ]
             ]
           }
         }
       }
     },
     "pet-odors": {
-      "title": "Pet odors",
-      "shortDesc": "Removal of cat and dog urine odor",
-      "content": "Pet odors, especially cat urine, are among the most persistent and difficult to remove. Uric acid crystallizes in fabric fibers and reactivates with humidity, releasing a sharp ammonia smell. Conventional products only mask the problem temporarily.\n\nOzone breaks down uric acid crystals at the molecular level, fully removing the odor source. The gas penetrates upholstery, carpets, mattresses and baseboards — everywhere pets may have left marks.\n\nFor effective treatment, clean visible stains with an enzymatic cleaner first, then dry surfaces. Ozonation is run at 20–40 mg/m³ for 4–8 hours. Severe cases may need 2–3 cycles.\n\nImportant: ozonation is done with no people or pets present. After treatment, ventilate for 1–2 hours until the typical ozone smell is gone.",
+      "title": "Ҳайвон ҳидлари",
+      "shortDesc": "Мушук ва ит суйласни ҳидини олиб ташлаш",
+      "content": "Ҳайвон ҳидлари, хусусан мушук суйласи, енг қийин олиб ташланиши керак ҳидлардан биридир. Урий кислота ипак толаларида кристаллизатсийага учраса ва намликка жавоб беради, кескин аммонйак ҳиди чиқади. Одий маҳсулотлар муаммони вақтинчалик йаширади.\n\nОзон урий кислота кристалларини молекулйар даражада бузиб, ҳидарнинг манбасини тўлиқ олиб ташлайди. Гас мебел, қалипча, ўриндиқлар ва плинтуслар — ҳайвонлар из қўйган барча йерга кириб олади.\n\nСамарали тедави учун аввал кўриниб турадиган догларни фермент тозалагаи билан тозаланг, сўнг йузаларни қуритнг. Озонлаш 20-40 мг/м³ да 4-8 соат ишлайди. Оғир ҳолатлар 2-3 та сиклани талаб қилиши мумкин.\n\nМуҳим: озонлаш одамлар ва ҳайвонлар иштирокисиз амалга оширилади. Тедавидан кейин характерли озон ҳиди йўқ бўлгунига қадар 1-2 соат вентиллйатсийа қилинг.",
       "benefits": [
-        "Breakdown of uric acid crystals",
-        "Treatment of upholstery and carpets",
-        "Removal of marks in hard-to-reach spots",
-        "Destruction of bacteria and fungi",
-        "Preparation for sale or rental",
-        "More effective than enzymatic cleaners"
+        "Урий кислота кристалларини бузиш",
+        "Мебел ва қалипчани тозалаш",
+        "Қўл йетиб бўлмаган жойлардаги изларни олиб ташлаш",
+        "Бактерийа ва замбуруқлари йўқ қилиш",
+        "Сотиш йоки ижарага таййорлаш",
+        "Фермент тозалашдан кўпроқ самарадор"
       ],
       "stats": {
         "stat1": {
           "value": "100%",
-          "label": "Elimination",
-          "description": "Of uric acid crystals"
+          "label": "Йўқ қилиш",
+          "description": "Урий кислота кристалларининг"
         },
         "stat2": {
-          "value": "4-8 h",
-          "label": "Treatment time",
-          "description": "Standard procedure"
+          "value": "4-8 ҳ",
+          "label": "Тедави вақти",
+          "description": "Стандарт тартиб"
         },
         "stat3": {
           "value": "2-3",
-          "label": "Cycles",
-          "description": "For severe contamination"
+          "label": "Сикллар",
+          "description": "Оғир ифлосланиш учун"
         },
         "stat4": {
           "value": "99.9%",
-          "label": "Bacteria",
-          "description": "Additionally destroyed"
+          "label": "Бактерийа",
+          "description": "Қўшимча йўқ қилиш"
         }
       },
       "sections": {
         "intro": {
-          "text": "Pet odors, especially cat urine, are one of the most common reasons for contacting cleaning companies. This odor is almost impossible to remove with conventional means. Air fresheners only mask the problem, and the odor returns again and again, especially in humid weather.",
-          "text2": "The reason for the persistence of the odor is uric acid. Unlike other components of urine (urea and urochrome), it does not dissolve in water and crystallizes in fabric fibers. When humidity increases, the crystals activate and again release a sharp ammonia smell."
+          "text": "Ҳайвон ҳидлари, хусусан мушук суйласи, тозалаш компанийалари билан боғланишнинг енг кенг тарқалган сабаблари. Бу ҳидни одий воситаларга йўқотиш дейарли мумкин емас. Ҳаво тоза қилиш спрейлар муаммони йаширинади, ва ҳидар доимий қайтиб келади, айниқса нам ҳава шароитида.",
+          "text2": "Ҳидарнинг доимийлиги сабабни урий кислотадир. Суйласнинг бошқа компонентларидан (уреа ва урохром) фарқли ўлароқ, у сувда еримагани ва ипак толаларида кристаллизатсийага учраса. Намлик кўпайган вақтда кристаллар фаол бўлиб қайтиб кетади ва кескин аммонйак ҳиди чиқаради."
         },
         "highlight1": {
-          "title": "Why conventional products don't work:",
-          "text": "Most cleaning products remove water-soluble components of urine, creating an illusion of cleanliness. But uric acid crystals remain in fabric fibers and activate when humidity increases. Ozone chemically breaks down these crystals, making the result permanent."
+          "title": "Нима учун одий маҳсулотлар ишлама:",
+          "text": "Аксарийат тозалаш маҳсулотлари суйласа сув-еритма компонентларини олиб ташласа, тозалашнинг ваҳими ҳосил қилади. Лекин урий кислота кристаллар ипак толаларида қолади ва намлик кўпайган вақтда фаол бўлади. Озон бу кристалларни кимйовий тарзда бузади, натижа доимий бўлади."
         },
         "howItWorks": {
-          "title": "How ozone eliminates pet odors",
-          "text": "Ozone is a powerful oxidizer that breaks down the molecular structure of uric acid. Being a gas, it penetrates everywhere urine could have reached: upholstery, carpets, mattresses, baseboards, floor cracks.",
+          "title": "Озон ҳайвон ҳидларини қандай йўқ қилади",
+          "text": "Озон урий кислотанинг молекулйар тузилишини бузиб қувват оксидловчи. Гас бўлгани учун мебел, қалипча, ўриндиқлар, плинтуслар, пол сизиқлар — суйла кириб ўтган барча йерга кириб олади.",
           "items": [
-            "Oxidizes uric acid crystals into safe compounds",
-            "Penetrates porous materials to full depth",
-            "Treats hard-to-reach areas (under furniture, behind baseboards)",
-            "Destroys bacteria causing additional odor",
-            "Neutralizes pheromones animals use to mark territory",
-            "Leaves no chemical residues after treatment"
+            "Урий кислота кристалларини хавфсиз бирикмаларга оксидлаши",
+            "Порл материалларга тўлиқ чуқур кириб олади",
+            "Қўл йетиб бўлмаган жойларни тозалади (мебелнинг остида, плинтуснинг ортида)",
+            "Қўшимча ҳид сабабчи бактерийаларни йўқ қилади",
+            "Ҳайвонлар ҳудудини белгилаш учун ишлатайдиган феромон тутдиришларни нейтраллаштиради",
+            "Тедавидан кейин кимйовий қолдиқ қолмайди"
           ]
         },
         "types": {
-          "title": "Types of pet odors",
+          "title": "Ҳайвон ҳидларининг турлари",
           "table": {
-            "caption": "Characteristics of different odors and treatment methods",
-            "headers": ["Odor source", "Features", "Treatment mode"],
+            "caption": "Турли хил ҳидларнинг хусусийатлари ва тедави усуллари",
+            "headers": [
+              "Ҳидар манбаси",
+              "Хусусийатлари",
+              "Тедави режими"
+            ],
             "rows": [
-              ["Cat urine", "Most persistent, contains uric acid", "40-60 mg/m³, 6-8 hours, 2-3 cycles"],
-              ["Dog urine", "Less concentrated, easier to remove", "20-40 mg/m³, 4-6 hours, 1-2 cycles"],
-              ["Marks (territory)", "Concentrated, with pheromones", "40-60 mg/m³, 8-12 hours, 2-3 cycles"],
-              ["Fur odor", "Organic, from sebum", "10-20 mg/m³, 2-4 hours, 1 cycle"],
-              ["Litter box odor", "Mixture of urine and feces", "20-40 mg/m³, 4-6 hours, 1-2 cycles"]
+              [
+                "Мушук суйласи",
+                "Енг доимий, урий кислотани ўз ичига олади",
+                "40-60 мг/м³, 6-8 соат, 2-3 сикллар"
+              ],
+              [
+                "Ит суйласи",
+                "Кам консентрат, олиб ташлаш осонроқ",
+                "20-40 мг/м³, 4-6 соат, 1-2 сикллар"
+              ],
+              [
+                "Излар (ҳудудни белгилаш)",
+                "Консентат, феромон билан",
+                "40-60 мг/м³, 8-12 соат, 2-3 сикллар"
+              ],
+              [
+                "Сочни ҳиди",
+                "Органик, себумдан",
+                "10-20 мг/м³, 2-4 соат, 1 сиклада"
+              ],
+              [
+                "Туалет қутиидаги ҳид",
+                "Суйла ва нажас қолдиғи",
+                "20-40 мг/м³, 4-6 соат, 1-2 сикллар"
+              ]
             ]
           }
         },
         "process": {
-          "title": "Ozonation process for pet odor removal",
+          "title": "Ҳайвон ҳидларини олиб ташлаш учун озонлаш жарайони",
           "steps": [
             {
-              "title": "Source localization",
-              "description": "Identify all places where pets left marks. Use a UV flashlight — urine glows in ultraviolet light. Mark all detected spots."
+              "title": "Манба локализатсийаси",
+              "description": "Ҳайвонлар сиз қолдиришдаги барча жойларни аниқланг. Ултравиолет чироқ ишлатинг — суйла ултравойолета нури остида помсалади. Аниқланган барча жойларни белгиланг."
             },
             {
-              "title": "Preliminary cleaning",
-              "description": "Treat visible stains with an enzymatic cleaner. It breaks down organic components of urine. Let dry completely before ozonation."
+              "title": "Дастлабки тозалаш",
+              "description": "Кўриниб турадиган догларни фермент тозалагаи билан тозаланг. У суйла органик компонентларни бузади. Озонлашдан олдин тўлиқ қуритнг."
             },
             {
-              "title": "Room preparation",
-              "description": "Remove pets and houseplants. Close windows, doors, ventilation. Raise curtains and drapes for better ozone access."
+              "title": "Хонани таййорлаш",
+              "description": "Ҳайвонлар ва ўсимликлар олиб чиқинг. Ойналар, ешиклар, вентиллйатсийани йопинг. Пердалар ва қора парде озоннинг йахши кириши учун кўтаринг."
             },
             {
-              "title": "Ozonation",
-              "description": "Place the ozone generator in the center of the room. Run for 4-8 hours at 20-60 mg/m³ concentration. Use a fan for even distribution."
+              "title": "Озонлаш",
+              "description": "Озон генераторини хона марказига қўйинг. 20-60 мг/м³ консентратсийада 4-8 соат ишлатинг. Текис тақсимот учун вентилйатордан фойдаланинг."
             },
             {
-              "title": "Assessment and retreatment",
-              "description": "Ventilate the room for 1-2 hours. Assess the result. For severe contamination, repeat treatment after 24 hours. Usually 2-3 cycles are needed."
+              "title": "Баҳолаш ва қайта тедави",
+              "description": "Хонани 1-2 соат вентиллйатсийа қилинг. Натижани баҳоланг. Оғир ифлосланиш учун 24 соатдан кейин тедавини такрорланг. Одатда 2-3 та сиклда керак."
             }
           ]
         },
         "comparison": {
-          "title": "Comparison of odor removal methods",
-          "tableTitle": "Ozonation vs conventional products",
-          "headers": ["Criterion", "Ozonation", "Enzymatic/chemical products"],
+          "title": "Ҳидар олиб ташлаш усулларини солиштириш",
+          "tableTitle": "Озонлаш вс одий маҳсулотлар",
+          "headers": [
+            "Мезон",
+            "Озонлаш",
+            "Фермент/кимйовий маҳсулотлар"
+          ],
           "rows": [
             {
-              "parameter": "Principle of action",
-              "value1": "Molecule destruction",
-              "value2": "Enzymatic breakdown"
+              "parameter": "Ишлаш принтсипи",
+              "value1": "Молекула йўқ қилиш",
+              "value2": "Фермент бузилиши"
             },
             {
-              "parameter": "Penetration depth",
-              "value1": "Full material thickness",
-              "value2": "Surface only"
+              "parameter": "Кириб олиш чуқурлиğи",
+              "value1": "Материалнинг тўлиқ қалинлиги",
+              "value2": "Фақат сирт"
             },
             {
-              "parameter": "Hard-to-reach areas",
-              "value1": "Yes (gas penetrates everywhere)",
-              "value2": "No (manual treatment only)"
+              "parameter": "Қўл йетиб бўлмаган жойлар",
+              "value1": "Ҳа (газ ҳамма йерга кириб олади)",
+              "value2": "Йўқ (фақат қўл тозалаш)"
             },
             {
-              "parameter": "Effect duration",
-              "value1": "Permanent",
-              "value2": "May require repetition"
+              "parameter": "Та'сирнинг давомийлиги",
+              "value1": "Доимий",
+              "value2": "Такрорлашни талаб қилиши мумкин"
             },
             {
-              "parameter": "Treatment time",
-              "value1": "4-8 hours (automatic)",
-              "value2": "1-24 hours (manual labor)"
+              "parameter": "Тедави вақти",
+              "value1": "4-8 соат (автомат)",
+              "value2": "1-24 соат (қўлбола меҳнати)"
             },
             {
-              "parameter": "Disinfection",
-              "value1": "Yes (kills bacteria)",
-              "value2": "Partial"
+              "parameter": "Дезинфектсийа",
+              "value1": "Ҳа (бактерийаларни ўлдиради)",
+              "value2": "Қисман"
             }
           ]
         },
         "specialCases": {
-          "title": "Special treatment cases",
+          "title": "Махсус тедави ҳоллари",
           "features": [
             {
-              "title": "Apartment with multiple cats",
-              "description": "Multiple marks around the perimeter. Requires 3-4 ozonation cycles with high concentration"
+              "title": "Кўп мушукли апартамент",
+              "description": "Периметр атрофида кўп излар. Йуқори консентратсийада 3-4 та озонлаш сикласи талаб"
             },
             {
-              "title": "Wooden floor",
-              "description": "Urine soaks into wood. Ozonation is the only way to treat wood without replacement"
+              "title": "Йоғоч пол",
+              "description": "Суйла йоғочга киради. Озонлаш йоғочни алмаштирмасдан тозалашнинг йагона усули"
             },
             {
-              "title": "Preparation for sale/rental",
-              "description": "Buyers are sensitive to odors. Ozonation is mandatory for apartments with pets"
+              "title": "Сотиш/ижарага таййорлаш",
+              "description": "Харидорлар ҳидларга сезгир. Ҳайвонлар билан апартаментлар учун озонлаш мажбур"
             },
             {
-              "title": "Upholstered furniture",
-              "description": "Sofas and armchairs are favorite marking spots. Can be treated locally by covering with film"
+              "title": "Мебел тўширма",
+              "description": "Диванлар ва кресло улама белгилаш севими. Филм билан йопиб локал тозалаш мумкин"
             }
           ]
         },
         "localTreatment": {
-          "title": "Local furniture treatment",
-          "text": "If the odor is localized in a specific piece of furniture, chamber ozonation can be performed:",
+          "title": "Локал мебел тозалаши",
+          "text": "Агар ҳидар ма'лум мебел бўласига қаниқўй бўлса, камера озонлаши амалга ошириш мумкин:",
           "items": [
-            "Cover the item with plastic film, creating a \"chamber\"",
-            "Press film edges to the floor for sealing",
-            "Run hose from ozone generator under the film",
-            "Run ozone generator for 2-4 hours",
-            "This creates high ozone concentration directly in the item",
-            "After treatment — ventilate for 30-60 minutes"
+            "Нарсани пластик филм билан қоплаб \"камера\" ҳосил қилинг",
+            "Текисларинг сеалинг учун полга босинг",
+            "Озон генератордан шланги филм остига ўтказинг",
+            "Озон генераторни 2-4 соат ишлатинг",
+            "Бу нарсада тўғридан-тўғри йуқори озон консентратсийани ҳосил қилади",
+            "Тедавидан кейин 30-60 дақиқа вентиллйатсийа қилинг"
           ],
           "highlight": {
-            "title": "Tip:",
-            "text": "To enhance effect when treating upholstered furniture, slightly moisten the surface with a spray bottle. Moisture activates uric acid crystals, making them more accessible for oxidation by ozone."
+            "title": "Маслаҳат:",
+            "text": "Мебел тўширмани тозалашда та'сири кучайтириш учун йузани спрейловчи билан енгилиш нам қилинг. Намлик урий кислота кристалларини фаол қилади, уларни озоннинг оксидлашига йанада осон киритади."
           }
         },
         "prevention": {
-          "title": "Preventing recontamination",
-          "text": "After ozonation, it's important to prevent reappearance of marks:",
+          "title": "Қайта ифлосланишни олдини олиш",
+          "text": "Озонлашдан кейин излар қайтиб келишини олдини олиш муҳим:",
           "items": [
-            "Eliminate the cause of marks (stress, illness, conflict with other animals)",
-            "Use pheromone diffusers to reduce anxiety",
-            "Provide sufficient number of litter boxes (rule N+1, where N is number of cats)",
-            "Clean litter boxes regularly — dirty box provokes marking",
-            "If necessary, spay/neuter the animal",
-            "For quick removal of fresh marks, use enzymatic cleaners"
+            "Изларнинг сабабини йўқ қилинг (стресс, касаллик, бошқа ҳайвонлар билан тўқнашув)",
+            "Хавотирни камайтириш учун феромон тарқатгичлардан фойдаланинг",
+            "Етарли туалет қутилари та'минини қилинг (қоида Н+1, Н – мушуклар сони)",
+            "Туалет қутисини мунтазам тозаланг — брудли қутиси излар қолдиришга ундайди",
+            "Зарур бўлса, ҳайвонни стерилизатсийа қилинг",
+            "Таза изларни тез олиб ташлаш учун фермент тозалашлардан фойдаланинг"
           ],
           "highlight": {
-            "title": "Safety:",
-            "text": "Ozonation is performed with complete absence of animals! Ozone is toxic to pets just as it is to humans. Return animals to the room only after complete ventilation (1-2 hours)."
+            "title": "Хавфсизлик:",
+            "text": "Озонлаш ҳайвонлар тўлиқ бўлмай амалга оширилади! Озон ҳайвонлар ва одамлар учун хавфлиди. Тўлиқ вентиллйатсийадан (1-2 соат) кейин ҳайвонларни хонага қайтаринг."
           }
         }
       }
     },
     "car-interiors": {
-      "title": "Car interiors",
-      "shortDesc": "Disinfection and deodorization of vehicles",
-      "content": "Car interior ozonation is a popular service at car washes and detailing centers. Over time, odors build up: tobacco, spilled drinks, food, sweat, pets. They soak into seat upholstery, carpets, headliner and AC ducts.\n\nOzone penetrates all interior materials, including ventilation and AC. This matters especially because bacteria and fungi often accumulate in ducts and cause odor when the AC is on.\n\nStandard car ozonation takes 30–60 minutes. The ozone generator is placed inside, recirculation is turned on to treat the ventilation system. Ozone concentration: 20–40 mg/m³. Ventilate for 15–30 minutes after treatment.\n\nFor used cars, ozonation helps remove the \"previous owner smell.\" For dealerships and car-sharing, regular ozonation keeps fleets fresh and hygienic.",
+      "title": "Автомобил ичининг тозалаши",
+      "shortDesc": "Автомобилларнинг дезинфектсийаси ва деҳидли билан тозалаши",
+      "content": "Автомобил ичини озонлаш автомобил йувиш стансийалари ва детаилинг марказларида кенг тарқалган хизмат. Вақт ўтган сари ҳидлар тўпланади: савоб, тўкилган ичимликлар, овқат, тер, ҳайвонлар. Улар ўриндиқ тўшиммасига, қалипчага, шифтга ва кондитсионер каналларига кириб олади.\n\nОзон барча ичидаги материалларга, шу жумладан вентиллйатсийа ва кондитсионерга кириб олади. Бу айниқса муҳим, чунки бактерийа ва замбуруқ кўпинча каналларда тўпланади ва кондитсионер йоқилган вақтда ҳид чиқаради.\n\nСтандарт автомобил озонлаши 30-60 дақиқада амалга оширилади. Озон генератори ичида қўйилади, вентиллйатсийа тизими билан иш қилиш учун қайта айлантирилиш йоқилади. Озон консентратсийаси: 20-40 мг/м³. Тедавидан кейин 15-30 дақиқада вентиллйатсийа қилинг.\n\nИшлатилган автомобилларни озонлаш \"аввалги егасининг ҳиди\" ни олиб ташлашга йордам беради. Дилерлик ва автомобил ижараши учун мунтазам озонлаш флотларни тоза ва гигиеник қилиб сақлайди.",
       "benefits": [
-        "Treatment in 30–60 minutes",
-        "AC system disinfection",
-        "Tobacco odor removal",
-        "Preparation for sale",
-        "No traces or chemical residues",
-        "Destruction of bacteria and fungi"
-      ]
+        "30-60 дақиқада тозалаш",
+        "Кондитсионер тизимини дезинфектсийа",
+        "Савоб ҳидини олиб ташлаш",
+        "Сотишга таййорлаш",
+        "Кимйовий қолдиқлар йўқ",
+        "Бактерийа ва замбуруқлари йўқ қилиш"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "30-60",
+          "label": "Дақиқалар",
+          "description": "Стандарт ичидаги тозалаш"
+        },
+        "stat2": {
+          "value": "99.9%",
+          "label": "Бактерийа",
+          "description": "Вентиллйатсийа тизимида йўқ қилиш"
+        },
+        "stat3": {
+          "value": "15",
+          "label": "Дақиқалар",
+          "description": "Тедавидан кейин вентиллйатсийа"
+        },
+        "stat4": {
+          "value": "0",
+          "label": "Излар",
+          "description": "Ичида кимйовий қолдиқлар"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Автомобил ичини ўриндиқлар, қалипчалар, шифтлар, вентиллйатсийа ва кондитсионер тизими каби текстил елементларига тез ҳидлар тўпланади: савоб чигити, тер, овқат, ичимликлар, ҳайвонлар.",
+          "text2": "Қуруқ тозалаш ахлатни ва догларни олиб ташлайди, лекин доимий ҳидларни ҳар доим ҳал қила олмайди. Ҳаво тоза қилиш спрейлар ва деодорантлар муаммони йаширинади. Озонлаш кондитсионер каналларидаги ҳидлар билан, ҳидар молекулаларини тўлиқ йўқ қилиш усули."
+        },
+        "highlight1": {
+          "title": "Муҳим:",
+          "text": "Кондитсионер йоқилган вақтда йоқимсиз ҳид — вентиллйатсийа тизимида бактерийа ва замбуруқлар ривожланиши белгиси. Одий ичидаги тозалаш уларни йўқ қила олмайди. Озон барча каналларга кириб олади ва муаммони манбада ҳал қилади."
+        },
+        "problems": {
+          "title": "Озонлаш қандай муаммоларни ҳал қилади",
+          "items": [
+            "Савоб ҳиди — тўшимма, шифтга, пластикга ўраппиланган",
+            "Аввалги егасининг ҳиди — ишлатилиб бўлган автомобил харид қилишда",
+            "Овқат ва ичимлик ҳидлари — тўкилган қаҳва, тез овқат, булғанган маҳсулотлар",
+            "Ҳайвон ҳидлари — сўч, салиқа, излар",
+            "Нам ва кокат ҳиди — сув тўкиш кейин йоки узоқ сақлашдан",
+            "Кондитсионердаги бактерийа — йоқилган вақтда йоқимсиз ҳид сабаби"
+          ]
+        },
+        "process": {
+          "title": "Автомобил озонлаш жарайони",
+          "steps": [
+            {
+              "title": "Ичини таййорлаш",
+              "description": "Стандарт тозалашни амалга оширинг: сўрилаш, пластик йузаларни силаш. Ахлатларни ва шахсий нарсаларни олиб чиқинг. Пол ковсаларни алоҳида тозалаш учун олиб чиқинг."
+            },
+            {
+              "title": "Озон генераторини қўйиш",
+              "description": "Озон генераторини ичида олди ўриндиқда йоки полда қўйинг. Барча ойна ва ешикларни йопинг. Ташқи генератордан фойдаланиш билан қувват шланги учун кичик бўшлиқ қолдиринг."
+            },
+            {
+              "title": "Вентиллйатсийа тизими тозалаши",
+              "description": "Зал йоқинг, ҳава қайта айлантирилиш режимини ўрнатинг, вентилйаторни максималга ўрнатинг. Бу озоннинг кондитсионер тизими орқали айланишини та'минлайди."
+            },
+            {
+              "title": "Озонлаш",
+              "description": "Озон генераторни 20-40 мг/м³ консентратсийада 20-40 дақиқада ишлатинг. Кучли ҳидлар учун — 60 дақиқача. Тедави пайтида автомобилни тарк етинг."
+            },
+            {
+              "title": "Вентиллйатсийа",
+              "description": "Барча ешиклар ва ойналарни очинг. 15-30 дақиқада вентиллйатсийа қилинг. Кондитсионерини тоза ҳава киритиш режимига йоқинг. Автомобил фойдаланишга тайор."
+            }
+          ]
+        },
+        "modes": {
+          "title": "Турли вазифалар учун тедави режимлар",
+          "table": {
+            "caption": "Тавсийа етилган автомобил ичини озонлаш параметрлари",
+            "headers": [
+              "Ифлосланиш тури",
+              "Консентратсийа",
+              "Вақти",
+              "Хусусийатлари"
+            ],
+            "rows": [
+              [
+                "Йенгил ҳидлар",
+                "10-20 мг/м³",
+                "20 мин",
+                "Олдини олувчи тозалаш"
+              ],
+              [
+                "Савоб (йенгил)",
+                "20-30 мг/м³",
+                "30 мин",
+                "Савоб ичкилийлини йўқотган кейин"
+              ],
+              [
+                "Савоб (кучли)",
+                "30-40 мг/м³",
+                "45-60 мин",
+                "Мунтазам савоб ичкилийли автомобил"
+              ],
+              [
+                "Ҳайвон ҳидлари",
+                "30-40 мг/м³",
+                "40-60 мин",
+                "Қайта айлантирилиш билан"
+              ],
+              [
+                "Сув тўкиш кейин",
+                "40-60 мг/м³",
+                "60 мин",
+                "Ичини қуритурггандан кейин"
+              ],
+              [
+                "Кондитсионер дезинфектсийаси",
+                "20-30 мг/м³",
+                "30 мин",
+                "Фақат қайта айлантирилиш"
+              ]
+            ]
+          }
+        },
+        "service": {
+          "title": "Автомобил йуваш ва детаилинг хизмати сифатида озонлаш",
+          "text": "Автомобил йуваш ва детаилинг марказлари учун озонлаш йуқори маргинли қўшимча хизмат. Жиҳозлар компакт, тоза талаби йўқ, фаол мижозлар реклама билан 1-2 ой ичида тўланади.",
+          "features": [
+            {
+              "title": "Йуқори фойдаланилиши",
+              "description": "Тедави харажати електр енергийа. Ўртача хизмат нархи: $20-40"
+            },
+            {
+              "title": "Тезлик бажарилиш",
+              "description": "30-60 дақиқада тозалаш учун. Қуруқ тозалаш йоки полишинг билан параллел қилиш мумкин"
+            },
+            {
+              "title": "Оддий оператсийалар",
+              "description": "Генераторни қўйинг, йоқинг, тарк етинг. Малака олган ходим талаб қилмайди"
+            },
+            {
+              "title": "Қуруқ тозалашга тўлдириш",
+              "description": "Қуруқ тозалашдан кейин озонлаш — йуқори нархли комплементар хизмат"
+            }
+          ],
+          "highlight": {
+            "title": "Маркетинг маслаҳат:",
+            "text": "Озонлашни аввалги сот автомобилини таййорлашнинг мажбури қисми сифатида тақдим етинг. Ишлатилиб бўлган автомобил харидорлар чет ҳидларга хусусан сезгир — бу сотувни рад етишнинг кенг тарқалган сабаби."
+          }
+        },
+        "carsharing": {
+          "title": "Автомобил ижараши ва таксиларда озонлаш",
+          "text": "Такси ва автомобил ижараша флотлари мунтазам озонлаш учун идеал мижозлар:",
+          "items": [
+            "Йуқори айланма — ҳар кун кўп турли йўловчилар",
+            "Ҳидар тўпланиши — йўловчиларнинг овқати, ичимликлари, парфйуми, савоби",
+            "Гигиеник талаблари — айниқса пандемийадан кейин долзарб",
+            "Ном риски — ҳидар шикойатлар рейтингни пасайтиради",
+            "Мунтазамлик — хизмат шартномасини имконийлиги"
+          ],
+          "table": {
+            "caption": "Тавсийа етилган озонлаш частотаси",
+            "headers": [
+              "Флот тури",
+              "Тавсийа етилган частотаси",
+              "Мақсади"
+            ],
+            "rows": [
+              [
+                "Автомобил ижараши",
+                "Ҳафталига бир марта",
+                "Ҳидар тўпланишни олдини олиш"
+              ],
+              [
+                "Иқтисодий такси",
+                "Ҳар 2 ҳафта",
+                "Ичидаги тоз қилиш"
+              ],
+              [
+                "Бизнес/қулайлик такси",
+                "Ҳафталига бир марта",
+                "Йуқори сифат стандарди"
+              ],
+              [
+                "Ижарадаги автомобиллар",
+                "Ҳар бир мижоздан кейин",
+                "Кейинги ижарага таййорлаш"
+              ],
+              [
+                "Корпоратив транспорт",
+                "Ойига бир марта",
+                "Олдини олувчи тозалаш"
+              ]
+            ]
+          }
+        },
+        "comparison": {
+          "title": "Алтернатив усуллар билан солиштириш",
+          "tableTitle": "Озонлаш вс кимйовий ҳаво тоза қилиш спрейлар",
+          "headers": [
+            "Параметр",
+            "Озонлаш",
+            "Спрейлар/деодорантлар"
+          ],
+          "rows": [
+            {
+              "parameter": "Ишлаш принтсипи",
+              "value1": "Ҳидар молекулаларини йўқ қилиш",
+              "value2": "Бошқа ҳидлар билан йашириш"
+            },
+            {
+              "parameter": "Вентиллйатсийа тизими",
+              "value1": "Тўлиқ тозалаш",
+              "value2": "Тозаланмади"
+            },
+            {
+              "parameter": "Та'сирнинг давомийлиги",
+              "value1": "Доимий (йанги ифлосланиш пайтига қадар)",
+              "value2": "Вақтинчалик (соат/кунлар)"
+            },
+            {
+              "parameter": "Дезинфектсийа",
+              "value1": "Ҳа (бактерийаларни ўлдиради)",
+              "value2": "Йўқ"
+            },
+            {
+              "parameter": "Хавфсизлик",
+              "value1": "О₂ га парчаланади",
+              "value2": "Кимйовий бирикмалари"
+            },
+            {
+              "parameter": "Иштирок талаб",
+              "value1": "Йўқ (автомат)",
+              "value2": "Тадбиқ талаб қилади"
+            }
+          ]
+        },
+        "interiors": {
+          "title": "Турли хил ичидаги турлар билан ишлаш",
+          "table": {
+            "caption": "Тўшимма турига қараб тавсийалар",
+            "headers": [
+              "Ичидаги тури",
+              "Хусусийатлари",
+              "Тавсийалар"
+            ],
+            "rows": [
+              [
+                "Мато",
+                "Ҳидларни йахши сўради",
+                "Тедави вақтини 20% га оширинг"
+              ],
+              [
+                "Тери",
+                "Кам сўрилиш, олиб ташлаш осонроқ",
+                "Стандарт режими"
+              ],
+              [
+                "Синтетик тери",
+                "Натурал терийга ўхшаш",
+                "Стандарт режими"
+              ],
+              [
+                "Алcантара",
+                "Микрошуа, йахши сўради",
+                "Мато ичидек"
+              ],
+              [
+                "Бирлаштирилган",
+                "Турли хил материаллар",
+                "Мато елементларига е'тибор қаратилиши"
+              ]
+            ]
+          },
+          "highlight": {
+            "title": "Муҳим:",
+            "text": "Тери ичидаги озонлашдан кейин, терисини кондитсионер билан тозалаш тавсийа етилади. Озон натурал терини бироз қуритиши мумкин, лекин тўғри консентратсийаларда бу критик емас."
+          }
+        }
+      }
     },
     "carpet-cleaning": {
-      "title": "Carpets and upholstery",
-      "shortDesc": "Deep cleaning of textile surfaces",
-      "content": "Carpets and upholstery are the main odor reservoirs in a room. Textile fibers absorb dust, fungal spores, bacteria, skin particles, sweat and spills. Over time a characteristic musty odor forms that normal cleaning cannot remove.\n\nOzonation complements conventional dry cleaning with deep deodorization and disinfection. After wet carpet cleaning, ozone penetrates fibers and destroys remaining bacteria, fungal spores and odor molecules.\n\nFor local treatment of furniture or carpet, \"chamber ozonation\" is used: the item is covered with plastic film and ozone is fed underneath. Exposure: 2–4 hours. This creates high ozone concentration directly in the item.\n\nOzonation is effective after flooding: it removes damp odor and prevents mold in wet furniture and carpets. Treatment should be done after items are dried.",
+      "title": "Қалипча ва мебел тўширма",
+      "shortDesc": "Текстил йузаларни чуқур тозалаш",
+      "content": "Қалипча ва мебел тўширма хонада ҳидар манбаларидир. Текстил толалари чанг, замбуруқ спорсини, бактерийаларни, тери зарҳалми, тери ва тўкилишларни сўради. Вақт ўтган сари характерли нам ҳиди ҳосил бўлади, одий тозалаш олиб таша олмайди.\n\nОзонлаш одий қуруқ тозалашни чуқур деҳидли ва дезинфектсийа билан тўлдиради. Нам қалипча тозалашдан кейин озон толаларга кириб олади ва қолган бактерийаларни, замбуруқ спорсини ва ҳидар молекулаларини йўқ қилади.\n\nМебел йоки қалипчанинг локал тозалаши учун \"камера озонлаши\" ишлатилиб: нарса пластик филм билан қоплаб, озон остига кириб олади. Експозитсийа: 2-4 соат. Бу нарсада тўғридан-тўғри йуқори озон консентратсийани ҳосил қилади.\n\nОзонлаш сув тўкиш кейин самарадордир: нам ҳидини олиб ташлади ва нам мебел ва қалипчада кокат олдини олади. Тедавини нарсалар қуритурггандан кейин амалга оширинг.",
       "benefits": [
-        "Complement to dry cleaning",
-        "Destruction of dust mites",
-        "Musty odor removal",
-        "Mold prevention",
-        "Post-flood treatment",
-        "Longer life of textiles"
+        "Қуруқ тозалашга тўлдириш",
+        "Чанг қоқни йўқ қилиш",
+        "Нам ҳидини олиб ташлаш",
+        "Кокат олдини олиш",
+        "Сув тўкиш кейин тозалаш",
+        "Текстилнинг узоқ умри"
       ]
     }
   }

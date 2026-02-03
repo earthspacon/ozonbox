@@ -1,18 +1,18 @@
 {
   "title": "Transport",
-  "description": "Ozonation of vehicles ensures sanitary safety of passenger transport, disinfection of cargo containers and an eco-friendly alternative to chemical fumigation.",
+  "description": "Transport vositalarini ozonlash yo'lovchi transportining sanitariya xavfsizligini ta'minlaydi, yuk konteynerlarini dezinfeksiya qiladi va kimyoviy fumigatsiyaga ekologik toza muqobil.",
   "subcategories": {
     "public-buses": {
-      "title": "Buses",
-      "shortDesc": "Disinfection of passenger buses",
-      "content": "Daily ozonation of passenger buses reduces infection risk, removes unpleasant odors and creates a comfortable environment for passengers. Treatment is done between runs or at night in the depot.\n\nOzone disinfects all interior surfaces: handrails, seats, walls, floor and ceiling. The gas penetrates seat upholstery, floor coverings and ventilation — everywhere bacteria and viruses can accumulate.\n\nTreatment: 20–40 minutes with windows and doors closed. The generator is placed at maximum height inside. After treatment, ventilate 15–20 minutes or use the ventilation system. The process can be automated.\n\nEquipment can run from the bus power (12V or 24V) or from 220V in the depot. Mobile generators can treat several buses. No consumables reduce operating costs.",
+      "title": "Avtobuslar",
+      "shortDesc": "Yo'lovchi avtobuslarini dezinfeksiya qilish",
+      "content": "Yo'lovchi avtobuslarini kundalik ozonlash infektsiya xavfini kamaytiradi, yoqimsiz hidlarni olib tashlaydi va yo'lovchilar uchun qulay muhit yaratadi. Qayta ishlash reyslar orasida yoki depoda kechasi o'tkaziladi.\n\nOzon barcha ichki sirtlarni dezinfeksiya qiladi: tutqichlar, o'rindiqlar, devorlar, pol va shiftga. Gaz o'rindiq qoplamasi, pol qoplamalari va ventilyatsiyaga kirib boradi — bakteriyalar va viruslar to'planishi mumkin bo'lgan hamma joyga.\n\nQayta ishlash: derazalar va eshiklarni yopiq holda 20-40 daqiqa. Generator ichkariga maksimal balandlikka o'rnatilib qo'yiladi. Qayta ishlashdan keyin 15-20 daqiqa havolantiring yoki ventilatsiya tizimini ishlating. Jarayon avtomatlashtirilib bo'ladi.\n\nUskunalar avtobusning quvvatidan (12V yoki 24V) yoki depoda 220V dan ishlashi mumkin. Mobil generatorlar bir necha avtobuslarni qayta islashi mumkin. Sarflar yo'q bo'lgani uchun operatsiya xarajatlari kam.",
       "benefits": [
-        "Infection prevention",
-        "Interior odor removal",
-        "Quick treatment in 20–40 minutes",
-        "Operation from vehicle power",
-        "Passenger comfort",
-        "Low operating costs"
+        "Infektsiyani oldini olish",
+        "Salon hidlarini bartaraf etish",
+        "20-40 daqiqada tez qayta ishlash",
+        "Avtomobil quvvatidan ishlash",
+        "Yo'lovchilarga raxat",
+        "Kam operatsiya xarajatlari"
       ],
       "stats": {
         "time": {
@@ -323,16 +323,16 @@
       }
     },
     "railway": {
-      "title": "Railway carriages",
-      "shortDesc": "Treatment of passenger and freight cars",
-      "content": "Railway carriage ozonation is used to disinfect compartments, open coaches and toilets, and to treat freight cars between runs. It effectively removes odors and destroys pathogens.\n\nPassenger cars have high occupancy and limited ventilation. Ozonation in the depot between runs provides deep disinfection of all surfaces and textiles: shelves, curtains, carpeting.\n\nToilet treatment with ozone is especially effective: the gas neutralizes odors at the molecular level and destroys bacteria in hard-to-reach areas. The result is clean, fresh spaces without harsh chemicals.\n\nFreight cars are ozonated to remove odors from previous cargo and to prepare for sensitive goods. Ozonation is an eco-friendly alternative to chemical treatment and leaves no residues on walls.",
+      "title": "Temir yo'l vagonlari",
+      "shortDesc": "Yo'lovchi va yuk vagonlarini qayta ishlash",
+      "content": "Temir yo'l vagonlarini ozonlash kupelari, platskart vagonlar va hojatxonalarni dezinfeksiya qilish, reyslar orasida yuk vagonlarini qayta ishlash uchun qo'llaniladi. U samarali ravishda hidlarni bartaraf etadi va patogenlarni yo'q qiladi.\n\nYo'lovchi vagonlari yuqori ishغollanish va cheklangan ventilyatsiyaga ega. Depoda reyslar orasida ozonlash barcha yuzalar va to'qimalarning chuqur dezinfeksiyasini ta'minlaydi: raflalar, pardalar, gilam qoplamalari.\n\nHojatxonalarni ozon bilan qayta ishlash ayniqsa samaralidir: gaz hidlarni molekulyar darajada neytrallaydi va qiyin erishiladigan joylardagi bakteriyalarni yo'q qiladi. Natija — qattiy kimyoviy vositalarisiz toza, yangi makonlar.\n\nYuk vagonlari oldingi yuklardan hidalarni olib tashlash va sezgir tovarlar uchun tayyorlash uchun ozonlanadi. Ozonlash kimyoviy qayta ishlashning ekologik toza alternativasi va devorlarda qoldiqlarni qoldirmaydi.",
       "benefits": [
-        "Disinfection of compartments and coaches",
-        "Deep toilet treatment",
-        "Textile odor removal",
-        "Freight car preparation",
-        "No chemical residues",
-        "Treatment in depot between runs"
+        "Kupelari va platskart vagonlarini dezinfeksiya qilish",
+        "Hojatxonalarni chuqur qayta ishlash",
+        "To'qimalarning hidlarini bartaraf etish",
+        "Yuk vagonlarini tayyorlash",
+        "Kimyoviy qoldiqlar yo'q",
+        "Depoda reyslar orasida qayta ishlash"
       ],
       "stats": {
         "time": {
@@ -548,287 +548,683 @@
       }
     },
     "shipping-containers": {
-      "title": "Shipping containers",
-      "shortDesc": "Container fumigation with ozone",
-      "content": "Ozonation is an eco-friendly alternative to chemical fumigation of shipping containers. Ozone destroys pests, mold spores and bacteria and removes quarantine odors without toxic residues.\n\nTraditional fumigation with methyl bromide or phosphine leaves toxic residues, requires long degassing and special permits. Ozone decays to oxygen in hours without polluting the environment or cargo.\n\nOzone is effective against insects at all stages: eggs, larvae, pupae and adults. Treatment is done in a sealed container for 12–24 hours depending on pest type.\n\nAfter ozonation, the container is ventilated for 2–4 hours to safe levels. The method is approved for containers with food, textiles, wood and other chemically sensitive goods.",
+      "title": "Yuk konteynerlar",
+      "shortDesc": "Konteynerlarni ozon bilan fumigatsiya qilish",
+      "content": "Ozonlash yuk konteynerlarini kimyoviy fumigatsiyadan alternativ ekologik usuli. Ozon zararkunanda hasharotlar, mog'or sporlari va bakteriyalarni yo'q qiladi va karantinlik hidlarni zaharlı qoldiqsiz bartaraf etadi.\n\nMetil bromid yoki fosfin bilan an'anaviy fumigatsiya zaharlı qoldiqlarni qoldiradi, uzoq degassifikatsiya va maxsus ruxsat talab qiladi. Ozon soatlar ichida kislorodga parchalanadi, atrof-muhit va yukni iflos qilmaydi.\n\nOzon barcha bosqichlardagi hasharotlarga karshi samarali: tuxumlar, larva, pupalar va kamalaklari. Qayta ishlash zararkunanda turi bo'yicha 12-24 soat davomida yopiq konteynerda o'tkaziladi.\n\nOzonlashdan keyin konteyner 2-4 soat davomida xavfsiz darajagacha havolantiriladi. Usul oziq-ovqat, to'qimalar, yog'och va boshqa kimyoviy sezgir tovarlar bilan konteynerlar uchun tasdiqlangan.",
       "benefits": [
-        "Eco-friendly fumigation alternative",
-        "Destruction of pest insects",
-        "No toxic residues",
-        "Decay to pure oxygen",
-        "Suitable for food cargo",
-        "Quarantine odor removal"
-      ]
-    },
-    "auto-transport": {
-      "title": "Road freight",
-      "shortDesc": "Trucks and vans",
-      "content": "Ozonation of trucks and vans ensures sanitary safety of cargo, especially important for food. It removes odors from previous loads and disinfects the cargo area.\n\nRefrigerated and insulated vans need careful sanitation. Ozonation destroys bacteria, mold and spores that can spoil products. Treatment is done between runs.\n\nFor vans carrying mixed cargo, ozonation removes cross-odors. Smells of fish, chemicals or fertilizers can soak into walls and transfer to other goods. Ozone neutralizes these odors.\n\nTreatment: 30–60 minutes with doors closed. A mobile generator is placed inside the cargo area. After treatment, ventilate 15–20 minutes. For large fleets, fixed ozonation systems in the loading zone are recommended.",
-      "benefits": [
-        "Food transport safety",
-        "Cargo odor removal",
-        "Refrigerator disinfection",
-        "Compliance with sanitary norms",
-        "Quick treatment between runs",
-        "Cargo quality preservation"
+        "Ekologik toza fumigatsiya alternativasi",
+        "Zararkunanda hasharotlarini yo'q qilish",
+        "Zaharlı qoldiqlar yo'q",
+        "Sof kislorodga parchalanish",
+        "Oziq-ovqat yuklari uchun to'g'ri",
+        "Karantinlik hidlarni bartaraf etish"
       ],
       "stats": {
-        "stat1": {
-          "value": "20-40",
-          "label": "minutes",
-          "description": "Truck body treatment"
+        "cycle": {
+          "value": "12-24",
+          "label": "soat",
+          "description": "To'liq konteyner fumigatsiya sikli"
         },
-        "stat2": {
-          "value": "HACCP",
-          "label": "Compliance",
-          "description": "Food transport requirements"
+        "eggs": {
+          "value": "100%",
+          "label": "Tuxumlar va larva",
+          "description": "Barcha bosqichlarda yo'q qilish"
         },
-        "stat3": {
-          "value": "12/24V",
-          "label": "Power",
-          "description": "Operation from vehicle power"
+        "residues": {
+          "value": "0",
+          "label": "Zaharlı qoldiqlar",
+          "description": "Sof kislorodga parchalanish"
         },
-        "stat4": {
-          "value": "10-15",
-          "label": "vehicles per shift",
-          "description": "Handled by 1 operator"
+        "sizes": {
+          "value": "20/40 ft",
+          "label": "Konteynerlar",
+          "description": "Standart o'lchamlar"
         }
       },
       "sections": {
         "intro": {
-          "text": "Commercial road transport — from small vans to long-haul trucks — requires regular sanitary treatment. This is especially critical for food transporters: dairy products, meat, vegetables and fruits. Sanitary standards and HACCP requirements mandate maintaining cargo area cleanliness.",
-          "text2": "Ozonation is an effective and economical method of fleet sanitary treatment. One mobile ozonator treats 10-15 trucks per shift, runs from vehicle power, requires no consumables. For logistics companies, this is significant savings compared to chemical treatment."
+          "text1": "Yuk konteynerları xalqaro savdoning asosi. Har yili millionlab TEU (yigirma futli ekvivalenti) barcha kategoriyali tovarlar bilan dengiz yo'li bo'ylab tashilinadi. Konteynerlar ko'pincha karantinlik qayta ishlashni talab qiladi: zararkunanda hasharotlarni yo'q qilish, mog'or, bakteriyalar yoki oldingi yuklardan hidalarni bartaraf etish.",
+          "text2": "Metil bromid yoki fosfin bilan an'anaviy fumigatsiya zaharlı qoldiqlarni qoldiradi, maxsus ruxsat talab qiladi va uzoq degassifikatsiya kerak. Ozonlash ekologik toza alternativa: ozon sof kislorodga parchalanadi, yukni yoki atrof-muhitni iflos qilmaydi."
         },
         "highlight1": {
-          "title": "For fleet managers:",
-          "text": "Integrate ozonation into maintenance schedules. While the driver processes paperwork or rests between runs — the truck is treated. This creates no additional downtime."
+          "title": "Importyorlar uchun muhim:",
+          "text": "Konteynerlarni ozonlash ko'pchilik mamlakatlarnig fitosamitariya hizmatları tomonidan kimyoviy fumigatsiyaga muqobil sifatida tan olingan. Bu kimyoviy qoldiqlarning sezgir tovarlarini qayta ishlash imkoniyatini beradi: oziq-ovqat mahsulotları, to'qimalar, elektronika."
+        },
+        "problems": {
+          "title": "Ozonlash bilan hal qilingan muammolar",
+          "text": "Yuk konteynerları uzoq tashish va saqlashga bog'liq ko'pchilik muammolarni hal qiladi:",
+          "items": [
+            "Zararkunanda hasharotlar — boshqa mamlakatlrdan tovarlar bilan kelgan karantinlik turlar",
+            "Mog'or va zambrug'lar — harorat tebranishi va yuqori namlik bilan rivojlanadi",
+            "Bakterial ifloslanish — ayniqsa oziq-ovqat yuklari uchun muhim",
+            "Hidlar — oldingi yuk (baliq, kimyoviy, o'g'it) yoki mog'orn hidalari",
+            "Karantinlik talablar — tovarni mamlakatga import qilishdan oldin majburiy qayta ishlash"
+          ]
+        },
+        "comparison": {
+          "title": "Ozon vs an'anaviy fumigatsiya",
+          "table": {
+            "title": "Konteynerlarni qayta ishlash usullarini solishtirish",
+            "headers": {
+              "parameter": "Parametr",
+              "ozonation": "Ozonlash",
+              "methyl": "Metil bromid",
+              "phosphine": "Fosfin"
+            },
+            "rows": {
+              "residues": {
+                "parameter": "Zaharlı qoldiqlar",
+                "value1": "Yo'q",
+                "value2": "Ha (karsingen)",
+                "value3": "Ha (juda zaharli)"
+              },
+              "time": {
+                "parameter": "Qayta ishlash vaqti",
+                "value1": "12-24 soat",
+                "value2": "24-48 soat",
+                "value3": "72-120 soat"
+              },
+              "degassing": {
+                "parameter": "Degassifikatsiya",
+                "value1": "2-4 soat",
+                "value2": "24-48 soat",
+                "value3": "48-72 soat"
+              },
+              "ozoneLayer": {
+                "parameter": "Ozon qatiga ta'siri",
+                "value1": "Yo'q",
+                "value2": "Ha (AB'da taqiqlangan)",
+                "value3": "Yo'q"
+              },
+              "food": {
+                "parameter": "Oziq-ovqat yuklari",
+                "value1": "Ha",
+                "value2": "Cheklangan",
+                "value3": "Yo'q"
+              },
+              "electronics": {
+                "parameter": "Elektronika",
+                "value1": "Ha (ehtiyot bilan)",
+                "value2": "Ha",
+                "value3": "Ha"
+              },
+              "permits": {
+                "parameter": "Maxsus ruxsat",
+                "value1": "Yo'q",
+                "value2": "Ha",
+                "value3": "Ha"
+              }
+            }
+          }
+        },
+        "technology": {
+          "title": "Konteynerlarni ozonlash texnologiyasi",
+          "steps": [
+            {
+              "title": "Konteynerlarni tekshirish",
+              "description": "Eshik muhri qattiligi, ventilyatsiya ochiqligini tekshiring. Kerak bo'lsa - lenta yoki plyonka bilan vaqtiy sıg'ish."
+            },
+            {
+              "title": "Parametrlarni hisoblash",
+              "description": "Konteyner hajmini, maqsadli zararkunanda turini, zarur ozon konsentratsiyasini aniqlang. Standart 20-futlik konteyner — taxminan 33 m³."
+            },
+            {
+              "title": "Uskunalarni ulash",
+              "description": "Ozonatorni texnik ochiqlik yoki eshik oraliqdagi gaz ta'minoti bilan konteynering ichiga o'rnating. Kiruvchi joyni sıg'ish."
+            },
+            {
+              "title": "Ozonlash",
+              "description": "Maqsadli konsentratsiyaga yetguncha ozon ta'minot qiling (hasharotlar uchun 50-100 mg/m³). Konsentratsiyani 12-24 soat saqlang."
+            },
+            {
+              "title": "Degassifikatsiya",
+              "description": "Ozonatorni o'chiring, konteynering eshiklarini oching. Tabiiy yoki majburiy havolantirish 2-4 soat."
+            }
+          ],
+          "highlight": "Degassifikatsiyadan keyin ozon konsentratsiyasi xavfsiz darajagacha (<0,1 mg/m³) tushadi. Yuk qo'shimcha qayta ishlashsiz yuklash va foydalanishga tayyor."
+        },
+        "modes": {
+          "title": "Konteynerlarni qayta ishlash rejimlari",
+          "table": {
+            "caption": "Turli maqsadlar uchun ozonlash parametrlari",
+            "headers": {
+              "goal": "Qayta ishlash maqsadi",
+              "concentration": "Konsentratsiya",
+              "exposure": "Ta'sir vaqti",
+              "notes": "Izohlar"
+            },
+            "rows": {
+              "adults": {
+                "goal": "Hasharotlar (kattalar)",
+                "concentration": "30-50 mg/m³",
+                "exposure": "12-18 soat",
+                "notes": "Ko'pchilik turlar"
+              },
+              "allStages": {
+                "goal": "Hasharotlar (barcha bosqichlar)",
+                "concentration": "50-100 mg/m³",
+                "exposure": "18-24 soat",
+                "notes": "Tuxumlar va larva o'z ichiga oladi"
+              },
+              "mold": {
+                "goal": "Mog'or va zambrug'lar",
+                "concentration": "20-30 mg/m³",
+                "exposure": "8-12 soat",
+                "notes": "Yuzalardan"
+              },
+              "bacteria": {
+                "goal": "Bakteriyalar",
+                "concentration": "15-25 mg/m³",
+                "exposure": "4-8 soat",
+                "notes": "99,9% inaktivatsiya"
+              },
+              "odors": {
+                "goal": "Hidlarni bartaraf etish",
+                "concentration": "10-20 mg/m³",
+                "exposure": "4-6 soat",
+                "notes": "Hidli moddalarni neytrallash"
+              },
+              "complex": {
+                "goal": "Murakkab qayta ishlash",
+                "concentration": "50-80 mg/m³",
+                "exposure": "24 soat",
+                "notes": "Barcha omillar"
+              }
+            }
+          },
+          "text": "Karantinlik zararkunandalar (qorinng yilemlari, dolali, un kurtaklari) uchun maksimal rejim tavsiya qilinadi: 24 soat davomida 80-100 mg/m³. Bu yog'och yoki don ichidagi tuxumlar o'z ichiga olgan barcha rivojlanish bosqichlardagi hasharotlar yo'q qilishni kafolatlaydI."
+        },
+        "efficiency": {
+          "title": "Zararkunandalarga qarshi samaradorlik",
+          "table": {
+            "caption": "Ozon bilan zararkunanda hasharotlarini yo'q qilish (80 mg/m³, 24 soat)",
+            "headers": {
+              "pest": "Zararkunanda",
+              "adults": "Kattalar",
+              "larvae": "Larva",
+              "eggs": "Tuxumlar"
+            },
+            "rows": {
+              "breadBeetle": {
+                "pest": "Non qo'nogisi",
+                "adults": "100%",
+                "larvae": "100%",
+                "eggs": "100%"
+              },
+              "grainWeevil": {
+                "pest": "Don dolali",
+                "adults": "100%",
+                "larvae": "100%",
+                "eggs": "99,9%"
+              },
+              "flourBeetle": {
+                "pest": "Un qo'nogisi",
+                "adults": "100%",
+                "larvae": "100%",
+                "eggs": "100%"
+              },
+              "riceWeevil": {
+                "pest": "Jurta dolali",
+                "adults": "100%",
+                "larvae": "100%",
+                "eggs": "99,9%"
+              },
+              "tobaccoBeetle": {
+                "pest": "Tamaki qo'nogisi",
+                "adults": "100%",
+                "larvae": "100%",
+                "eggs": "100%"
+              },
+              "woodBeetle": {
+                "pest": "Yog'och qo'nogisi",
+                "adults": "100%",
+                "larvae": "99,9%",
+                "eggs": "99,5%"
+              },
+              "moth": {
+                "pest": "Kiyim shoshqasI",
+                "adults": "100%",
+                "larvae": "100%",
+                "eggs": "100%"
+              }
+            }
+          },
+          "highlight": {
+            "title": "Ta'siri mexanizmi:",
+            "text": "Ozon hasharot uyali membranalarini molekulyar darajada yo'q qiladi. Kimyoviy pestitsidlardan farqli o'laroq, ozonga qarshi diroqat rivojlanmaydi — bu asosiy fizikokimyoviy ta'sir."
+          }
         },
         "types": {
-          "title": "Types of commercial transport",
-          "text": "Ozonation is used for all types of freight road transport:",
+          "title": "Konteyner turlari va qayta ishlash xususiyatlari",
+          "features": [
+            {
+              "title": "Quruq konteynerlar (DC)",
+              "description": "Standart qayta ishlash. 20-futlik — 33 m³, 40-futlik — 67 m³. Ventilyatsiya ochiqliklarini sıg'ish talab qiladi."
+            },
+            {
+              "title": "Sovutilgan (RF)",
+              "description": "Sovutish qurilmasi o'chiq holatda qayta ishlash. Yaxshi muhkamlik. Elektronika bilan ehtiyot."
+            },
+            {
+              "title": "Havolantiriladigan",
+              "description": "Barcha ventilyatsiya ochiqliklarini vaqtiy sıg'ish talab qiladi. Yuqori ozon iste'mol."
+            },
+            {
+              "title": "Ochiq top",
+              "description": "Brezent bilan qoplangandan keyin qayta ishlash. Perimetr sıg'ish. Qisman sizib chiqishi mumkin."
+            }
+          ],
+          "table": {
+            "caption": "Konteyner o'lchamiga qarab uskunalar hisoblash",
+            "headers": {
+              "type": "Konteyner turi",
+              "volume": "Hajm",
+              "capacity": "Ozonator quvvati",
+              "time": "Konsentratsiya ko'tarilish vaqti"
+            },
+            "rows": {
+              "10ft": {
+                "type": "10 fut",
+                "volume": "16 m³",
+                "capacity": "20-30 g/h",
+                "time": "1-2 soat"
+              },
+              "20ft": {
+                "type": "20 fut",
+                "volume": "33 m³",
+                "capacity": "30-50 g/h",
+                "time": "2-3 soat"
+              },
+              "40ft": {
+                "type": "40 fut",
+                "volume": "67 m³",
+                "capacity": "50-80 g/h",
+                "time": "3-4 soat"
+              },
+              "40ftHC": {
+                "type": "40 fut HC",
+                "volume": "76 m³",
+                "capacity": "60-100 g/h",
+                "time": "3-5 soat"
+              },
+              "45ft": {
+                "type": "45 fut",
+                "volume": "86 m³",
+                "capacity": "80-120 g/h",
+                "time": "4-5 soat"
+              }
+            }
+          }
+        },
+        "applications": {
+          "title": "Turli tovarlar uchun qo'llash",
+          "text": "Ozonlash ko'pchilik tovar kategoriyalariga to'g'ri:",
           "items": [
-            "Refrigerators — transport of perishable products with temperature control",
-            "Insulated vans — product delivery without active cooling",
-            "Curtain-sided semi-trailers — universal freight transport",
-            "Solid-body vans — delivery to retail outlets",
-            "Specialized vehicles — bread trucks, milk trucks, meat trucks",
-            "Container carriers — with installed shipping containers"
+            "Don va bilan — saqlash zararkunandalarini kimyoviy qoldiqsiz yo'q qilish",
+            "Yong'oq va quritilgan meva — ko'rinish va ta'mni saqlab qolish",
+            "Qahva va kakao — mog'or neytrallash aromasiga ta'sir qilmasdan",
+            "Spicalar — importdan oldin karantinlik qayta ishlash",
+            "To'qimalar — ombor saqlashining hid va mog'orni yo'q qilish",
+            "Yog'och va taxtasi — qorinng yilemlari va yog'och o't o'tkaklarini yo'q qilish",
+            "Qog'oz va kartonda — qo'ziqorin shikastining oldini olish"
+          ],
+          "highlight": {
+            "title": "Cheklovlar:",
+            "text": "Rezina muhrlari bilan yukni ehtiyot bilan qayta ishlasin (ozon rezinaning qarishshini tezlashtiradi), himoyasiz elektronika, yangi meva va sabzavot (yuqori konsentratsiylarda shikastlanishi mumkin)."
+          }
+        },
+        "economics": {
+          "title": "Ozon fumigatsiyasining iqtisodiyoti",
+          "table": {
+            "title": "40-futlik konteynerning qayta ishlash xaraji",
+            "headers": {
+              "parameter": "Xaraj elementi",
+              "ozonation": "Ozonlash",
+              "chemical": "Kimyoviy fumigatsiya"
+            },
+            "rows": {
+              "equipment": {
+                "parameter": "Uskunalar (bir marta)",
+                "value1": "150-300 ming ₽",
+                "value2": "Talab qilinmaydi (xizmat)"
+              },
+              "cost": {
+                "parameter": "Qayta ishlash xaraji",
+                "value1": "500-1000 ₽",
+                "value2": "15-25 ming ₽"
+              },
+              "downtime": {
+                "parameter": "To'xtash vaqti",
+                "value1": "24-28 soat",
+                "value2": "72-120 soat"
+              },
+              "documentation": {
+                "parameter": "Hujjatlashtirish",
+                "value1": "Qayta ishlash sertifikati",
+                "value2": "Fumigatsiya sertifikati"
+              },
+              "staff": {
+                "parameter": "Xodimlar",
+                "value1": "1 kishi (o'qitish)",
+                "value2": "Lisenziyalashgan brigada"
+              }
+            }
+          },
+          "text": "Muntazam konteyner qayta ishlash bilan ozonator uskunalarining o'zini qoplash muddati 10-20 qayta ishlashdir. Terminallari va logistika kompaniyalari uchun yuqori konteyner aylanishi bilan tejamkorlik oyiga yuz minglab rubllarga yetadi."
+        },
+        "equipment": {
+          "title": "Konteynerlar uchun uskunalar",
+          "text": "Konteyner fumigatsiyasida yuqori quvvatli sanoat ozonatorlari qo'llaniladi:",
+          "items": [
+            "Ozon generatorlari 50-200 g/h — 20-40 futlik konteynerlar uchun",
+            "Ta'minot tizimi — shlangar, fittinglari, muhrlash gasketlari",
+            "Ozon analizatorlari — real vaqtda konsentratsiyani nazorat qilish",
+            "Taymerlar va boshqaruvlar — jarayonni avtomatlashtirish",
+            "Mobil komplekslar — traktor yoki van asosida"
+          ],
+          "highlight": {
+            "title": "Terminallari uchun:",
+            "text": "Statsionar ozonator komplekslari bir vaqtning o'zida bir necha konteynerlarni qayta ishlash imkoniyatini beradi. Konveyer tizimi saytdagi konteynerlaraga ozon ta'minot qiladi, markaziy boshqarish paneli jarayonni boshqaradi."
+          }
+        },
+        "regulatory": {
+          "title": "Normalativ aspektlar",
+          "text": "Ozonlash karantinlik qayta ishlash usuli ko'pchilik mamlakatlarda tan olingan:",
+          "items": [
+            "ISPM-15 — yog'och qadoqlash qayta ishlash uchun muqobil usullarni ruxsat beradi",
+            "EPA (AQSH) — ozon antimikrob vositasi sifatida ro'yxatga olindi",
+            "AB — organik mahsulotlar uchun ozonlash tasdiqlangan",
+            "Rosselkhoznadzor — karantinlik nazorat uchun ozonlash sertifikatlarini qabul qiladi",
+            "SanPiN — oziq-ovqat mahsulotlarining dezinfeksiyasI uchun ozon tasdiqlangan"
+          ],
+          "text2": "Eksport/import qilishda, maqsad mamlakatining talablarini tekshiring. Ko'pchilik hollarda ozonlash maxsus hujjatlashtirish bilan kimyoviy fumigatsiyaning muqobil sifatida qabul qilinadi: konsentratsiya va ta'sir vaqtini ko'rsatgan qayta ishlash sertifikati."
+        },
+        "safety": {
+          "title": "Xavfsizlik talablari",
+          "items": [
+            "Qayta ishlash faqat ochiq hududlarda yoki havolantiriladigan ombarlarda",
+            "Qayta ishlash hududini to'sqin, ogohlantiruvchi plakatlarni osib qo'ying",
+            "Xodimlar — ishlayotgan ozonatordan hech bo'lmaganda 10 m masofada",
+            "Degassifikatsiyadan oldin konteynerga kirishda — ko'mir filtri bilan respirator",
+            "Odamlarni ruxsat berish oldin analizator bilan konsentratsiyani nazorat qilish",
+            "Sizib chiqish yoki nosozlik aniqlandid yoki xavfsizlik xavfini bartaraf qilish"
+          ],
+          "highlight": {
+            "title": "Ozon MPDK:",
+            "text": "Ish zonasida 0,1 mg/m³. 1 mg/m³ dan yuqori konsentratsiylarda — nafas yo'llari uyalirlashgan. 10+ mg/m³ — sog'liqiga zarar. Nazorat uchun doim analizatorlardan foydalanin."
+          }
+        }
+      }
+    },
+    "auto-transport": {
+      "title": "Avtomobil yuklari",
+      "shortDesc": "Yuk mashinalar va vanlari",
+      "content": "Yuk mashinalarini va vanlarini ozonlash yukining sanitariya xavfsizligini ta'minlaydi, ayniqsa ovqat uchun muhim. U oldingi yuklardan hidalarni olib tashlaydi va yuk hududini dezinfeksiya qiladi.\n\nSovutilgan va izolyatsiyalangan vanlari diqqat bilan sanitariya ehtiyojlari bo'lishi kerak. Ozonlash mahsulotlarni buza oladigan bakteriyalar, mog'orlar va sporlarni yo'q qiladi. Qayta ishlash reyslar orasida o'tkaziladi.\n\nAralash yuk tashiyotgan vanlari uchun ozonlash o'zaro hidlarni bartaraf etadi. Baliq, kimyoviy moddalar yoki o'g'it hidlari devor orqali soqib o'tadi va boshqa tovarlaraga o'tadi. Ozon bu hidlarni neytrallaydi.\n\nQayta ishlash: eshiklarini yopiq holda 30-60 daqiqa. Mobil generator yuk hududiga o'rnatilib qo'yiladi. Qayta ishlashdan keyin 15-20 daqiqa havolantiriladi. Katta avtoparklar uchun yuk hududidagi doimiy ozonlash tizimlarini tavsiya qilinadi.",
+      "benefits": [
+        "Oziq-ovqat transportining xavfsizligi",
+        "Yuk hidlarini bartaraf etish",
+        "Sovutish moslamalarni dezinfeksiya qilish",
+        "Sanitariya normalariga moslik",
+        "Reyslar orasidagi tez qayta ishlash",
+        "Yuk sifatini saqlab qolish"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "20-40",
+          "label": "daqiqa",
+          "description": "Yuk mashinasi tanasini qayta ishlash"
+        },
+        "stat2": {
+          "value": "HACCP",
+          "label": "Moslik",
+          "description": "Oziq-ovqat transporti talablari"
+        },
+        "stat3": {
+          "value": "12/24V",
+          "label": "Quvvat",
+          "description": "Avtomobil quvvatidan ishlash"
+        },
+        "stat4": {
+          "value": "10-15",
+          "label": "vositalar smena uchun",
+          "description": "1 operator boshqaravdi"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Tijorat avtomobil transporti — kichik vanlardan uzun masofali yuk mashinalarigacha — muntazam sanitariya qayta ishlashni talab qiladi. Bu ayniqsa oziq-ovqat tashishtiruvchilar uchun muhim: sut mahsulotlari, go'sht, sabzavot va mevalar. Sanitariya standartlari va HACCP talablari yuk hududining tozaligini saqlab qolishini to'g'ri qiladi.",
+          "text2": "Ozonlash avtoparkni santariya qayta ishlashning samarali va iqtisodiy usuli. Bitta mobil ozonator bir smenada 10-15 ta yuk mashinasini qayta ishlaydi, avtomobil quvvatdan ishlaydi, hech qanday sarflarni talab qilmaydi. Logistika kompaniyalari uchun bu kimyoviy qayta ishlash bilan solishtirganda katta tejamkorlik."
+        },
+        "highlight1": {
+          "title": "Avtoparkni boshqaruvchi uchun:",
+          "text": "Ozonlashni ta'mirlash jadvaliga integratsiya qiling. Haydovchi hujjatlarni qayta ishlashda yoki reyslar orasida dam olayotganda — yuk mashinasi qayta ishlanadi. Bu qo'shimcha to'xtash vaqtini yaratmaydi."
+        },
+        "types": {
+          "title": "Tijorat transportining turlari",
+          "text": "Ozonlash barcha toq avtomobil transporti turlari uchun qo'llaniladi:",
+          "items": [
+            "Sovutilgan — tez buziladigan tovarlarni harorat boshqaruviga bilan tashish",
+            "Izolyatsiyalangan vanlari — faol sovutishsiz tovar yetkazib berish",
+            "Tullo bilan qoplangan yarim traktorlari — universal yuk transporti",
+            "Mustahkam tanali vanlari — chakana do'konlarga yetkazib berish",
+            "Ixtisoslashtirilgan vositalar — non mashinalari, sut mashinalari, go'sht mashinalari",
+            "Konteyner tashiuvchilari — o'rnatilgan yuk konteynerlar bilan"
           ]
         },
         "problems": {
-          "title": "Sanitation problems in freight transport",
-          "text": "Vehicle cargo areas are contaminated from various sources:",
+          "title": "Avtomobil transportida sanitariya muammolari",
+          "text": "Avtomobil yuk hudi turli manbalardan iflos bo'ladi:",
           "items": [
-            "Odors from previous cargo — fish, meat, chemicals, fertilizers",
-            "Bacterial contamination — from leaking packaging, damaged products",
-            "Mold and fungi — when transporting wet cargo, condensation",
-            "Insects — brought in with cargo or from warehouses",
-            "Dust and dirt — accumulate on floor and body walls",
-            "Packaging residues — cardboard, film, tape, pallet strapping"
+            "Oldingi yuklardan hidalar — baliq, go'sht, kimyoviy moddalar, o'g'it",
+            "Bakterial ifloslanish — sizib chiqadigan qadoqlash, shikastlanmish tovarlardan",
+            "Mog'or va zambrug'lar — nam yuk tashishda, kondensatsiya",
+            "Hasharotlar — yuk bilan keltirilgan yoki omborlardan",
+            "Chang va kir — pol va tanasining devorida to'planadi",
+            "Qadoqlash qoldiqlar — kartonda, plyonka, lenta, paleta bog'lar"
           ],
-          "text2": "Traditional washing and wiping do not fully solve the problem. Water does not kill bacteria, odors return, mold grows again. Disinfection is needed."
+          "text2": "An'anaviy yuvish va artish muammoni to'liq hal qilmaydi. Suv bakteriyalarni o'ldirmaydi, hidlar qaytadi, mog'or yana rivojlanadi. Dezinfeksiya talab qilinadi."
         },
         "technology": {
-          "title": "Truck treatment technology",
+          "title": "Yuk mashinasini qayta ishlash texnologiyasi",
           "steps": [
             {
-              "title": "Emptying the body",
-              "description": "Unload cargo, remove trash and packaging residues. For heavy contamination — preliminary wet cleaning."
+              "title": "Tanani bo'shatish",
+              "description": "Yuk tushirish, axlat va qadoqlash qoldiqlarni olib tashlash. Katta ifloslanish uchun — dastlabki nam tozalash."
             },
             {
-              "title": "Ozonator placement",
-              "description": "Install ozonator inside the body at maximum height. Connect to electrical network (220V/230V) or external source."
+              "title": "Ozonator joylashtirish",
+              "description": "Ozonatorni tananing ichida maksimal balandlikda o'rnating. Elektr tarmog'iga (220V/230V) yoki tashqi manbaaga ulang."
             },
             {
-              "title": "Sealing",
-              "description": "Close doors, gates, hatches. For curtain-sided semi-trailers — lower curtain and secure."
+              "title": "Sıg'ish",
+              "description": "Eshiklar, darvozalar, hatchlarni yoping. Tullo bilan qoplangan yarim traktorlari uchun — tullo pasaytiring va havfsizlashtiring."
             },
             {
-              "title": "Ozonation",
-              "description": "Turn on ozonator, start timer. Treatment time 20-40 minutes depending on volume and contamination."
+              "title": "Ozonlash",
+              "description": "Ozonatorni yoqing, taymerdi boshlang. Qayta ishlash vaqti hajm va ifloslanishga qarab 20-40 daqiqa."
             },
             {
-              "title": "Ventilation",
-              "description": "Open doors, turn on refrigerator ventilation (if available). Ventilate for 15-20 minutes."
+              "title": "Havolantirish",
+              "description": "Eshiklar, sovutish mashinasining ventilyatsiyasini yoqing (agar bo'lsa). 15-20 daqiqa havolantiring."
             }
           ],
-          "highlight": "After ventilation, the body is ready for loading. Ozone has decayed to oxygen, no chemical residues, cargo is not at risk of contamination."
+          "highlight": "Havolantirishdan keyin tana yuklashga tayyor. Ozon kislorodga parchalanadi, kimyoviy qoldiqlar yo'q, yuk ifloslanish xatari yo'q."
         },
         "modes": {
-          "title": "Treatment modes by transport type",
+          "title": "Avtomobil turi bo'yicha qayta ishlash rejimlari",
           "table": {
-            "caption": "Road freight ozonation parameters",
-            "headers": ["Transport type", "Body volume", "Capacity", "Treatment time"],
+            "caption": "Avtomobil yuklasining ozonlash parametrlari",
+            "headers": ["Avtomobil turi", "Tana hajmi", "Quvvat", "Qayta ishlash vaqti"],
             "rows": [
-              ["Light-duty van", "8-15 m³", "5-10 g/h", "15-20 min"],
-              ["Medium-duty van", "20-40 m³", "10-20 g/h", "20-30 min"],
-              ["Refrigerator (semi-trailer)", "80-90 m³", "20-30 g/h", "30-40 min"],
-              ["Curtain-sided semi-trailer", "90-100 m³", "20-30 g/h", "35-45 min"],
-              ["Tank truck (milk truck)", "5-20 m³", "10-15 g/h", "20-30 min"],
-              ["Bread van", "15-25 m³", "5-10 g/h", "15-25 min"]
+              ["Engil van", "8-15 m³", "5-10 g/h", "15-20 min"],
+              ["O'rta van", "20-40 m³", "10-20 g/h", "20-30 min"],
+              ["Sovutilgan (yarim traktor)", "80-90 m³", "20-30 g/h", "30-40 min"],
+              ["Tullo bilan qoplangan yarim traktor", "90-100 m³", "20-30 g/h", "35-45 min"],
+              ["Tank maskina (sut maskina)", "5-20 m³", "10-15 g/h", "20-30 min"],
+              ["Non vani", "15-25 m³", "5-10 g/h", "15-25 min"]
             ]
           }
         },
         "refrigerators": {
-          "title": "Refrigerator treatment specifics",
-          "text": "Refrigerators and insulated vans require special attention — they transport food products with strict sanitary requirements.",
+          "title": "Sovutishni qayta ishlash xususiyatlari",
+          "text": "Sovutish moslamalari va izolyatsiyalangan vanlari maxsus e'tibor talab qiladi — ular qat'iy sanitariya talablari bilan oziq-ovqat mahsulotlarini tashiydi.",
           "items": [
-            "Treatment with refrigeration unit off — ozone does not affect refrigerant",
-            "Good insulation tightness increases effectiveness",
-            "Ozone does not damage sandwich panels and plastic lining",
-            "Entire interior surface treated, including ceiling and floor grooves",
-            "Odors absorbed into walls from previous transports are eliminated"
+            "Sovutish moslamasi o'chiq holatda qayta ishlash — ozon sovutuvchi gazzga ta'sir qilmaydi",
+            "Yaxshi izolyatsiya mustahkamligi samaradorligini oshiradi",
+            "Ozon sendvich panelari va plastik qoplamani shikasta qilmaydi",
+            "Butun ichki sirt qayta ishlanadi, shuningdek shiftga va pol bo'yliklarga",
+            "Oldingi tashishlardan devorga soqib otkagan hidalar yo'q qilinadi"
           ],
           "highlight": {
-            "title": "For HACCP:",
-            "text": "Record each treatment in a log with date, vehicle number, parameters (time, concentration). This is documentary proof of sanitary compliance during audits."
+            "title": "HACCP uchun:",
+            "text": "Har bir qayta ishlashni sana, avtomobil raqami, parametrlari (vaqt, konsentratsiya) ko'rsatgan jurnalga yozib qo'ying. Bu tekshiruvlar paytida sanitariya mosligining hujjatli isboti."
           }
         },
         "odors": {
-          "title": "Odor elimination",
-          "text": "One of the main problems in freight transport — odors from previous cargo:",
+          "title": "Hidlarni bartaraf etish",
+          "text": "Avtomobil transportida asosiy muammolardan biri — oldingi yuklardan hidalar:",
           "items": [
-            "Fish and seafood — persistent odor, absorbs into walls",
-            "Meat — when packaging is damaged or temperature regime violated",
-            "Onions, garlic — sharp odor, transfers to other cargo",
-            "Chemicals — fertilizers, household chemicals, technical fluids",
-            "Perfumes — strong aromas, incompatible with food cargo"
+            "Baliq va quyosh mahsullari — doimiy hid, devorga soqib o'tadi",
+            "Go'sht — qadoqlash shikastlanmasa yoki harorat rejimi buzilsa",
+            "Piyoz, sarimsoq — o'tkir hid, boshqa yukka o'tadi",
+            "Kimyoviy moddalar — o'g'itlar, uy kimyoviy vositalari, texnika suyuqliklar",
+            "Xushbo'y moddalar — kuchli aroma, oziq-ovqat yugi bilan mos emas"
           ],
-          "text2": "Ozone oxidizes odor molecules, converting them to neutral compounds. This is not masking, but complete elimination. After treatment, the body smells fresh — \"like after a thunderstorm\".",
+          "text2": "Ozon hid molekulalarini oksidlaydi, ularni neytral birikmalarga aylantirad. Bu yashirish emas, balki to'liq bartaraf etish. Qayta ishlashdan keyin tana yangi sifatida hid qiladi — \"Bo'ron keyin kabi\".",
           "table": {
-            "caption": "Odor elimination modes",
-            "headers": ["Odor type", "Concentration", "Treatment time", "Efficiency"],
+            "caption": "Hidlarni bartaraf etish rejimlar",
+            "headers": ["Hid turi", "Konsentratsiya", "Qayta ishlash vaqti", "Samaradorlik"],
             "rows": [
-              ["Light (dust, mustiness)", "10-15 mg/m³", "15-20 min", "100%"],
-              ["Medium (onions, garlic)", "15-20 mg/m³", "20-30 min", "100%"],
-              ["Strong (fish, meat)", "20-30 mg/m³", "30-45 min", "95-100%"],
-              ["Very strong (chemicals)", "25-35 mg/m³", "45-60 min", "90-95%"],
-              ["Stale (mold)", "30-40 mg/m³", "60-90 min", "95-100%"]
+              ["Engil (chang, eskirganlik)", "10-15 mg/m³", "15-20 min", "100%"],
+              ["O'rta (piyoz, sarimsoq)", "15-20 mg/m³", "20-30 min", "100%"],
+              ["Kuchli (baliq, go'sht)", "20-30 mg/m³", "30-45 min", "95-100%"],
+              ["Juda kuchli (kimyoviy)", "25-35 mg/m³", "45-60 min", "90-95%"],
+              ["Eskirgan (mog'or)", "30-40 mg/m³", "60-90 min", "95-100%"]
             ]
           }
         },
         "integration": {
-          "title": "Fleet integration",
+          "title": "Avtoparkka integratsiya",
           "features": [
             {
-              "title": "After unloading",
-              "description": "While driver processes paperwork and receives next assignment — vehicle is treated"
+              "title": "Yuklashdan so'ng",
+              "description": "Haydovchi hujjatlarni qayta ishlay va keyingi vazifani olay — avtomobil qayta ishlanadi"
             },
             {
-              "title": "Before loading",
-              "description": "Preventive treatment before loading sensitive cargo: dairy, meat, vegetables"
+              "title": "Yuklashdan oldin",
+              "description": "Sezgir yuk yuklashdan oldin prophilaktikal qayta ishlash: sut mahsulotlari, go'sht, sabzavot"
             },
             {
-              "title": "Night layover",
-              "description": "Vehicles in the depot are treated at night — ready for run in the morning"
+              "title": "Tungi to'xtash",
+              "description": "Depoda turgan avtomobillar tunda qayta ishlanadi — sabahda reysga tayyorlangan"
             },
             {
-              "title": "Cargo change",
-              "description": "When switching from one cargo type to another (fish → dairy) — mandatory treatment"
+              "title": "Yuk o'zgarishi",
+              "description": "Bir turdagi yukdan boshqasiga o'tish (baliq → sut) — majburiy qayta ishlash"
             }
           ]
         },
         "economy": {
-          "title": "Fleet economics",
+          "title": "Avtoparkni iqtisodiyoti",
           "table": {
-            "title": "Fleet sanitary treatment method comparison (50 vehicles)",
-            "headers": ["Indicator", "Ozonation", "Chemical treatment"],
+            "title": "Avtoparkni sanitariya qayta ishlash usullarini solishtirish (50 vositalar)",
+            "headers": ["Ko'rsatkich", "Ozonlash", "Kimyoviy qayta ishlash"],
             "rows": [
               {
-                "parameter": "Equipment",
-                "value1": "50-150 thousand ₽ (one-time)",
-                "value2": "Not required"
+                "parameter": "Uskunalar",
+                "value1": "50-150 ming ₽ (bir marta)",
+                "value2": "Talab qilinmaydi"
               },
               {
-                "parameter": "Cost per vehicle",
-                "value1": "30-50 ₽ (electricity)",
-                "value2": "500-1500 ₽ (service/materials)"
+                "parameter": "Bir avtomobil uchun xaraj",
+                "value1": "30-50 ₽ (elektrik energiya)",
+                "value2": "500-1500 ₽ (xizmat/materiallar)"
               },
               {
-                "parameter": "Staff",
+                "parameter": "Xodimlar",
                 "value1": "1 operator",
-                "value2": "3-5 washers"
+                "value2": "3-5 yuvish xodimlari"
               },
               {
-                "parameter": "Time per vehicle",
-                "value1": "30-40 min (unattended)",
-                "value2": "60-90 min (manual work)"
+                "parameter": "Bir avtomobil uchun vaqt",
+                "value1": "30-40 min (nazorat qilmasdan)",
+                "value2": "60-90 min (qo'lda ishlash)"
               },
               {
-                "parameter": "Odor elimination",
-                "value1": "Complete",
-                "value2": "Partial"
+                "parameter": "Hidlarni bartaraf etish",
+                "value1": "To'liq",
+                "value2": "Qisman"
               },
               {
-                "parameter": "Payback",
-                "value1": "2-4 months",
+                "parameter": "O'zini qoplash muddati",
+                "value1": "2-4 oy",
                 "value2": "—"
               }
             ]
           },
-          "text": "When treating 50 vehicles twice a week, savings amount to 100-200 thousand rubles per month. Ozonator payback — 2-4 months. Additional benefit — reduced customer complaints about odors and contamination."
+          "text": "Haftada ikki marta 50 ta avtomobilni qayta ishlashda tejamkorlik oyiga 100-200 ming rubl. Ozonator o'zini qoplash — 2-4 oy. Qo'shimcha foyda — hidlar va ifloslanishga shikoyatlarnigga kamaytirish."
         },
         "compliance": {
-          "title": "Compliance with sanitary norms",
-          "text": "Road freight ozonation complies with requirements:",
+          "title": "Sanitariya normalariga moslik",
+          "text": "Avtomobil yuklasining ozonlash quyidagi talablarga javob beradi:",
           "items": [
-            "SanPiN 2.3.4.050-96 — food product transport",
-            "Technical Regulation TS 021/2011 — food product safety",
-            "HACCP — critical control points in logistics",
-            "ISO 22000 — food safety management systems",
-            "Retail chain requirements for suppliers and carriers"
+            "SanPiN 2.3.4.050-96 — oziq-ovqat mahsulotlarini tashish",
+            "Texnik Reglament TS 021/2011 — oziq-ovqat mahsulotlarining xavfsizligi",
+            "HACCP — logistikada kritik nazorat nuqtalari",
+            "ISO 22000 — oziq-ovqat xavfsizligi boshqaruv tizimi",
+            "Chakana do'konning tavsiyachor va tashiuvchilarga talablari"
           ],
           "warning": {
-            "title": "Documentation:",
-            "text": "Keep treatment logs for at least 1 year. During HACCP audits, Rospotrebnadzor inspections or customer claims — this is your protection."
+            "title": "Hujjatlashtirish:",
+            "text": "Qayta ishlash jurnallarini hech bo'lmaganda 1 yil davomida saqlang. HACCP tekshiruvlari, Rospotrebnadzor inspeksiyalari yoki miski talablari paytida — bu sizning himoyangiz."
           }
         },
         "equipment": {
-          "title": "Fleet equipment",
-          "text": "For commercial transport treatment, the following are used:",
+          "title": "Avtoparkni uskunalar",
+          "text": "Tijorat transportni qayta ishlash uchun quyidagilardan foydalaniladi:",
           "items": [
-            "Mobile ozonators 5-20 g/h — for vans and medium trucks",
-            "Portable ozonators 20-50 g/h — for semi-trailers and large transport",
-            "Wall-mounted ozonators — for fixed installation in body",
-            "220V/230V modifications — for operation from electrical network without external power",
-            "Timer systems — for automatic scheduled treatment"
+            "Mobil ozonatorlar 5-20 g/h — vanlar va o'rta yuk mashinalar uchun",
+            "Ko'chma ozonatorlar 20-50 g/h — yarim traktorlar va katta transport uchun",
+            "Devor o'rnatilgan ozonatorlar — tanada doimiy o'rnatish uchun",
+            "220V/230V o'zgartirishlari — tashqi quvvatsiz elektr tarmog'idan ishlash uchun",
+            "Taymer tizimlar — avtomatik jadvalga asoslangan qayta ishlash uchun"
           ],
           "table": {
-            "caption": "Ozonator selection by fleet size",
-            "headers": ["Fleet size", "Recommended equipment", "Set cost"],
+            "caption": "Avtoparkka o'lchamiga qarab ozonatorlarni tanlash",
+            "headers": ["Avtoparkka o'lcham", "Tavsiya etilgan uskunalar", "To'plam xaraji"],
             "rows": [
-              ["5-15 vehicles", "1-2 mobile ozonators 10-20 g/h", "30-60 thousand ₽"],
-              ["15-50 vehicles", "3-5 ozonators 15-30 g/h", "80-150 thousand ₽"],
-              ["50-100 vehicles", "5-10 ozonators + fixed zones", "150-300 thousand ₽"],
-              ["100+ vehicles", "Custom solutions", "Individual"]
+              ["5-15 vositalar", "1-2 mobil ozonatorlar 10-20 g/h", "30-60 ming ₽"],
+              ["15-50 vositalar", "3-5 ozonatorlar 15-30 g/h", "80-150 ming ₽"],
+              ["50-100 vositalar", "5-10 ozonatorlar + doimiy zonalar", "150-300 ming ₽"],
+              ["100+ vositalar", "Shaxsiy yechim", "Shaxsiy"]
             ]
           }
         },
         "roi": {
-          "title": "ROI for fleet operators",
-          "text": "Return on investment calculation for fleet of 30 trucks:",
+          "title": "Avtoparkni boshqaruvchilari uchun ROI",
+          "text": "30 ta yuk mashinasidan iborat avtoparkni investitsiya qaytarish hisoblash:",
           "items": [
-            "Investment: 100,000 ₽ (3 ozonators at 30-35 thousand ₽)",
-            "Staff savings: 40,000 ₽/month (release of 1-2 cleaners)",
-            "Disinfectant savings: 15,000 ₽/month",
-            "Downtime reduction: 10,000 ₽/month (quick treatment)",
-            "Total savings: ~65,000 ₽/month",
-            "Payback period: 1.5-2 months"
+            "Investitsiya: 100 000 ₽ (3 ozonator 30-35 ming ₽ bilan)",
+            "Xodimlar tejamkrolic: 40 000 ₽/oy (1-2 tozalovchini ozod qilish)",
+            "Dezinfeksiya vositalari tejamkorligi: 15 000 ₽/oy",
+            "To'xtash vaqti qisqartirish: 10 000 ₽/oy (tez qayta ishlash)",
+            "Umumiy tejamkorlik: ~ 65 000 ₽/oy",
+            "O'zini qoplash muddati: 1,5-2 oy"
           ],
           "highlight": {
-            "title": "Additional benefit:",
-            "text": "Reputational effect. Clean, odor-free trucks — this is customer confidence in transport quality. Large retail chains and producers choose carriers with confirmed sanitary treatment."
+            "title": "Qo'shimcha foyda:",
+            "text": "Obro'imomiy ta'sir. Toza, hidisiz yuk mashinalar — bu transport sifatiga ishonch. Katta chakana do'konlar va ishlab chiqaruvchilar tasdiqlanmish sanitariya qayta ishlashga ega tashiuvchilarni tanlaydi."
           }
         },
         "safety": {
-          "title": "Safety requirements",
+          "title": "Xavfsizlik talablari",
           "items": [
-            "Treatment only with closed body and no people inside",
-            "Do not turn on ozonator in driver cabin",
-            "After treatment — mandatory ventilation before entering body",
-            "If early entry needed — respirator with carbon filter",
-            "Do not direct ozonator output at rubber seals",
-            "Store ozonator in dry ventilated place"
+            "Qayta ishlash faqat yopiq tana va ichida odamlar bo'lmaganda",
+            "Ozonatorni haydovchi kabinasida yoqmang",
+            "Qayta ishlashdan keyin — tanaga kirishdan oldin majburiy havolantirish",
+            "Erta kirish kerak bo'lsa — ko'mir filtri bilan respirator",
+            "Ozonator chiqarishini rezina muhrlaraga yo'naltirmang",
+            "Ozonatorni quruq havolantiriladigan joyda saqlang"
           ]
         }
       }

@@ -1,184 +1,837 @@
 {
-  "title": "Medicine",
-  "description": "Ozone therapy and ozonation in medicine: sterilization of operating rooms and wards, disinfection of medical equipment, treatment of dental offices, rehabilitation centers and ambulances.",
+  "title": "Тиббийот",
+  "description": "Тиббийотда озон терапийаси ва озонлаш: оператсийа хоналари ва палаталарни стерилизатсийа қилиш, тиббий ускуналарни дезинфексийа қилиш, стоматологийа кабинетларини, реабилитатсийа марказларини ва тез йордам машиналарини даволаш.",
   "subcategories": {
     "hospitals": {
-      "title": "Hospitals and operating rooms",
-      "shortDesc": "Sterilization of wards and operating blocks",
-      "content": "Hospital ozonation provides the highest level of sterility, critical for preventing nosocomial infections. Ozone destroys bacteria, viruses, spores and fungi with up to 99.99% efficiency.\n\nOperating blocks require special sanitary regimes. Ozonation after surgery ensures deep disinfection of all surfaces, including hard-to-reach areas: equipment crevices, ventilation systems, ceiling fixtures.\n\nICU and resuscitation wards are high-risk zones for infection transmission between patients. Regular ozonation reduces microbial load in the air and on surfaces, complementing standard cleaning protocols.\n\nOzone is effective against antibiotic-resistant bacteria, including MRSA and VRE, which pose a serious threat in healthcare. After treatment, ozone decays to oxygen with no toxic residues, which is important for patient safety.",
+      "title": "Касалхоналар ва оператсийа хоналари",
+      "shortDesc": "Палаталар ва оператсийа блокаларининг стерилизатсийаси",
+      "content": "Касалхона озонлаши йуқори даражадаги стерилликни та'минлайди, бу носокомиал инфектсийаларни олдини олиш учун жуда муҳимдир. Озон бактерийа, вируслар, споралар ва хамирларни 99,99% самара билан йўқ қилади.\n\nОператсийа блоклар махсус санитарйа режимларини талаб қилади. Оператсийадан кейин озонлаш барча сиртларнинг, шу жумладан қийин йорган жойларнинг чуқур дезинфексийасини та'минлайди: ускунанинг тесчасида, вентилйатсийа тизимларида, шпонка қўзғатувчиларда.\n\nРезистансийа хоналари ва қайта тиклаш хоналари беморлар ўртасида инфексийа узатиш хавфининг йуқори зоналаридир. Мунтазам озонлаш ҳавода ва сиртларда микроб йüкини камайтиради, стандарт тозалаш протоколларини тўлдиради.\n\nОзон антибиотикларага чидамли бактерийаларга, шу жумладан МРСА ва ВРЕ га карши самарали, бу соғлиқни сақлашда жиддий хавф. Ишлов беришдан кейин озон кислородга парчаланади, токсик қолдиқлар қолмайди, бу бемор хавфсизлиги учун муҳимдир.",
       "benefits": [
-        "99.99% efficiency against pathogens",
-        "Fight against nosocomial infections",
-        "Destruction of antibiotic-resistant bacteria",
-        "Disinfection of hard-to-reach areas",
-        "No toxic chemical residues",
-        "Complement to standard protocols"
-      ]
-    },
-    "equipment-sterilization": {
-      "title": "Medical equipment sterilization",
-      "shortDesc": "Sterilization of instruments and devices",
-      "content": "Ozone is used to sterilize medical equipment that cannot be treated with high temperatures or harsh chemicals: endoscopes, plastic items, electronics, optics.\n\nLow-temperature ozone sterilization is an alternative to autoclaving for heat-sensitive equipment. The process runs at 25–35°C and 80–90% relative humidity, which is safe for most materials.\n\nEndoscopic equipment is especially demanding. Complex construction with narrow channels creates a risk of incomplete treatment by traditional methods. Ozone gas penetrates all cavities and channels for full sterilization.\n\nThe ozone sterilization cycle includes: pre-humidification, exposure in ozone atmosphere for 30–60 minutes, and degassing. The method is validated for use in healthcare and meets sterilization standards.",
-      "benefits": [
-        "Low-temperature sterilization",
-        "Safe for plastic and electronics",
-        "Penetration into narrow channels",
-        "Endoscope treatment",
-        "No damage to optics",
-        "Compliance with medical standards"
-      ]
-    },
-    "dental": {
-      "title": "Dental clinics",
-      "shortDesc": "Sterilization of offices and instruments",
-      "content": "Dental procedures create aerosol with potentially pathogenic microorganisms. Ozonation of operatories between patients ensures disinfection of air and all surfaces, reducing cross-infection risk.\n\nModern dentistry uses ozone not only for room disinfection but also therapeutically: caries cavity treatment, periodontal disease treatment, root canal disinfection.\n\nDental operatory ozonation after each patient takes 15–20 minutes and can be done during breaks. The gas penetrates hard-to-reach parts of equipment: hoses, handpieces, water lines.\n\nSpeed of treatment and absence of chemical odors after disinfection are especially important for dental clinics. Ozone decays to oxygen in 20–30 minutes, leaving a light fresh smell. Patients note a pleasant atmosphere.",
-      "benefits": [
-        "Disinfection after each patient",
-        "Treatment in 15–20 minutes",
-        "Therapeutic use of ozone",
-        "Dental equipment cleaning",
-        "No chemical odors",
-        "Cross-infection prevention"
+        "99,99% патогенларга қарши самарадорлик",
+        "Носокомиал инфектсийаларга қарши кураш",
+        "Антибиотикларага чидамли бактерийаларни йўқ қилиш",
+        "Қийин йорган жойларни дезинфексийа қилиш",
+        "Токсик кимйовий қолдиқлар йўқ",
+        "Стандарт протоколларни тўлдириш"
       ],
       "stats": {
         "stat1": {
-          "value": "15-20",
-          "label": "Minutes",
-          "description": "Office disinfection between patients"
+          "value": "99,99%",
+          "label": "Самарадорлик",
+          "description": "Патоген микроорганизмларни йўқ қилиш"
         },
         "stat2": {
-          "value": "99.9%",
-          "label": "Pathogens",
-          "description": "Destroyed during treatment"
+          "value": "МРСА",
+          "label": "Йўқ қилади",
+          "description": "Антибиотикларага чидамли бактерийалар"
         },
         "stat3": {
-          "value": "100%",
-          "label": "Coverage",
-          "description": "Of all surfaces and equipment"
+          "value": "20-30 дақиқа",
+          "label": "Озон парчаланиши",
+          "description": "Хавфсиз кислород даражасигача"
         },
         "stat4": {
-          "value": "Ozone therapy",
-          "label": "Treatment",
-          "description": "Of caries and periodontal diseases"
+          "value": "0",
+          "label": "Қолдиқлар",
+          "description": "Ишлов беришдан кейин кимйовий моддалар"
         }
       },
       "sections": {
         "intro": {
-          "text": "Dental procedures carry a high risk of infection transmission: aerosols from turbine handpieces, contact with blood and saliva, large numbers of patients daily. Ozonation provides rapid and effective office disinfection, as well as therapeutic applications.",
-          "text2": "In addition to room disinfection, ozone is actively used therapeutically: treatment of carious cavities, periodontal disease treatment, root canal disinfection. Ozone therapy is a recognized field of modern dentistry."
+          "text": "Носокомиал инфектсийалар (ҲАИ) замонавий тиббийотнинг енг жиддий муаммоларидан биридир. ЖУОН ма'лумотига кўра, ривожланган мамлакатларда ҳоспиталга йотқан беморларнинг 7-10 фоизи ва ривожланайотган мамлакатларда 25 фоизигача йуқумли. Озонлаш бу муаммони ҳал қилишнинг самарали усули бўлиб, 99,99% патогенлари йўқ қилишни та'минлайди.",
+          "text2": "Кимйовий дезинфектантлардан фарқли ўлароқ, озон токсик қолдиқлар қолдирмайди, микроорганизмлар ичида қаршиликни келтириб чиқармайди ва ишлов беришдан кейин 20-30 дақиқада соф кислородга парчаланади. Бу иммунитети заиф беморлар учун айниқса муҳимдир."
         },
         "highlight1": {
-          "title": "Dentistry feature:",
-          "text": "When a turbine handpiece operates, fine aerosol containing bacteria and viruses from the patient's oral cavity is formed. This aerosol spreads throughout the office and settles on surfaces."
+          "title": "Муҳим:",
+          "text": "Озон антибиотикларага чидамли бактерийа штаммларига, шу жумладан МРСА (метитсиллинага чидамли Стапҳйлоcоccус ауреус) ва ВРЕ (ванкомисинага чидамли ентерококклар) га карши самарали бўлиб, бу соғлиқни сақлаш муассасаларида алоҳида хавф ташкил қилади."
+        },
+        "problem": {
+          "title": "Носокомиал инфектсийалар муаммоси",
+          "text": "Носокомиал инфектсийалар ўртача 8-10 куннинг даволаниш вақтини, даволаниш харажатларини ва ўлим ортини оширади. ҲАИ нинг асосий манбалари:",
+          "items": [
+            "Алоқа сиртлари: тўшаклар, йон стол, қўл тутгичлари, қўнғироқ тугмачалари",
+            "Тиббий ускуналар: мониторлар, катетерлар, нафас олиш схемалари",
+            "Ҳаво муҳити: йўтал пайтида, ҳапира пайтида, тиббий протседуралардан аеросоланинг зарралар",
+            "Вентилйатсийа ва кондитсионер тизимлар",
+            "Тўқималар: тўшак лайпари, пардалар, либослар"
+          ]
+        },
+        "operating-rooms": {
+          "title": "Оператсийа блокаларини озонлаш",
+          "text": "Оператсийа блоклар махсус санитарйа режимларини талаб қилади. Дезинфектантлар билан ан'анавий тозалаш барча сиртларни ишлов бериш имконини бермайди — озон газ бўлгани учун ускунанинг тесчасига, вентилйатсийа тизимларига, ускунанинг орқасидаги қийин йорган жойларига пенетратсийа қилади.",
+          "table": {
+            "caption": "Оператсийа хоналари учун озонлаш режими",
+            "headers": [
+              "Ишлов бериш тури",
+              "Контсентратсийа",
+              "Ишлов бериш вақти",
+              "Частотаси"
+            ],
+            "rows": [
+              [
+                "Оператсийалар орасида",
+                "10-15 мг/м³",
+                "30-40 дақиқа",
+                "Ҳар бир оператсийадан кейин"
+              ],
+              [
+                "Йакуний дезинфексийа",
+                "20-25 мг/м³",
+                "60-90 дақиқа",
+                "Иш кунининг охирида"
+              ],
+              [
+                "Йуқумли ҳолатлардан кейин",
+                "30-40 мг/м³",
+                "120 дақиқа",
+                "Кўрсатилган жойда"
+              ],
+              [
+                "Профилактика",
+                "10 мг/м³",
+                "60 дақиқа",
+                "Ҳафтасига бир"
+              ]
+            ]
+          },
+          "highlight": "Озонлашдан кейин озон контсентратсийасини хавфсиз даражага тушириш учун 1,5-2 соат вентилйатсийаси йетарли. Хона қўшимча ишлов беришсиз фойдаланишга таййор."
+        },
+        "wards": {
+          "title": "Палаталар ва РРР ларини дезинфексийа қилиш",
+          "text": "Реаниматсийа ва қайта тиклаш палаталарингиз беморлар ўртасида инфексийа узатиш хавфининг орттирилган зоналаридир. Енг заиф тоифалар бу ерда: механик вентилйатсийада бўлган беморлар, оператсийадан кейин, иммун танқислиги бўлган.",
+          "steps": [
+            {
+              "title": "Хона тайорлаш",
+              "description": "Беморларни олиб ташлаш (иложи бўлса) йоки ажратилган зоналардан фойдаланиш. Ойналар ва ешикларни йопиш, та'минот вентилйатсийасини ўчириш."
+            },
+            {
+              "title": "Озонлаш",
+              "description": "Озонатори ҳисобланган вақт учун йоқиш. 15-20 мг/м³ контсентратсийа кўпчилик патогенларни йўқ қилишни та'минлайди."
+            },
+            {
+              "title": "Експозе",
+              "description": "Барча сиртларни тўлиқ дезинфексийа қилиш учун 30-60 дақиқа давомида ўрнатилган контсентратсийани сақлаш."
+            },
+            {
+              "title": "Вентилйатсийа",
+              "description": "Вентилйатсийани очинг, озон контсентратсийаси ПДК (0,1 мг/м³) дан пастга тушгунча хонани шамол бериш."
+            }
+          ]
+        },
+        "pathogens": {
+          "title": "Патогенларга қарши самарадорлик",
+          "text": "Озон соғлиқни сақлаш муассасаларида топилган дейарли барча патоген микроорганизмларни йўқ қилади:",
+          "table": {
+            "caption": "Озон томонидан патоген инактиватсийа вақти (контсентратсийа 20 мг/м³)",
+            "headers": [
+              "Микроорганизм",
+              "Инактиватсийа вақти",
+              "Самарадорлик"
+            ],
+            "rows": [
+              [
+                "Стапҳйлоcоccус ауреус (МРСА)",
+                "10-15 дақиқа",
+                "99,99%"
+              ],
+              [
+                "Есчеричиа cоли",
+                "5-10 дақиқа",
+                "99,99%"
+              ],
+              [
+                "Псеудомонас аеругиноса",
+                "15-20 дақиқа",
+                "99,99%"
+              ],
+              [
+                "Cандида албиcанс",
+                "15-20 дақиқа",
+                "99,9%"
+              ],
+              [
+                "Аспергиллус нигер (споралар)",
+                "30-40 дақиқа",
+                "99,9%"
+              ],
+              [
+                "Cлостридиум диффиcиле (споралар)",
+                "40-60 дақиқа",
+                "99,9%"
+              ],
+              [
+                "Грипп вируслар",
+                "5-10 дақиқа",
+                "99,99%"
+              ],
+              [
+                "Коронавируслар",
+                "10-15 дақиқа",
+                "99,99%"
+              ]
+            ]
+          }
+        },
+        "comparison": {
+          "title": "Дезинфексийа усулларини таққослаш",
+          "tableTitle": "Озонлаш вс ан'анавий усуллар",
+          "headers": [
+            "Параметр",
+            "Озонлаш",
+            "Кимйовий дезинфексийа"
+          ],
+          "rows": [
+            {
+              "parameter": "Сиртни қопламиши",
+              "value1": "100% (қийин йорган жойлар ўз ичига олиб)",
+              "value2": "70-80% (фақат еришиладиган)"
+            },
+            {
+              "parameter": "Токсик қолдиқлар",
+              "value1": "Йўқ (О₂ га парчаланади)",
+              "value2": "Ҳа (шунинг учун чўмишни талаб қилади)"
+            },
+            {
+              "parameter": "Бактерийа қаршилиги",
+              "value1": "Шаклланмади",
+              "value2": "Тез-тез фойдаланиш билан шаклланади"
+            },
+            {
+              "parameter": "Ҳава ишлов бериш",
+              "value1": "Ҳа (ҳава дезинфексийаси)",
+              "value2": "Йўқ"
+            },
+            {
+              "parameter": "Кейин тозалаш керакми",
+              "value1": "Йўқ",
+              "value2": "Ҳа (силкитиш, чўмиш)"
+            },
+            {
+              "parameter": "Ходимлар учун хавфсизлик",
+              "value1": "Ҳа (тўғри протокол билан)",
+              "value2": "Аллергийа ва ирритатсийа хавфи"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Тиббийотда озонлашнинг афзалликлари",
+          "features": [
+            {
+              "title": "Қаршилик йўқ",
+              "description": "Озон ҳужаира мембраналарига та'сир қилади — бактерийалар қаршилик ривожлантира олмайди"
+            },
+            {
+              "title": "Тўлиқ қопламиши",
+              "description": "Газ ҳамма йерга пенетратсийа қилади: тесчасига, ускунанинг орқасига, вентилйатсийага, мебел остига"
+            },
+            {
+              "title": "Қолдиқлар йўқ",
+              "description": "Кислородга парчаланади — чўмиш керак емас, беморлар учун хавфсиз"
+            },
+            {
+              "title": "Қонунлар билан мувофиқлик",
+              "description": "Усул соғлиқни сақлаш муассасалари учун Российа санитарйа стандартлари томонидан тавсийа етилади"
+            }
+          ]
+        },
+        "safety": {
+          "title": "Хавфсизлик талаблари",
+          "text": "Тиббий биноларни озонлашда хавфсизлик талабларини кузатиш керак:",
+          "items": [
+            "Ишлов бериш одамлар ва ҳайвонлар йўқ вақтида ўтказилади",
+            "Хона ишлов бериш пайтида муҳр тутилиши керак",
+            "Озонаторлар билан ишлайотган ходимлар ўқитиш ўтказишлари керак",
+            "Ишлов беришдан кейин — ПДК (0,1 мг/м³) гача мажбурий вентилйатсийа",
+            "Озон контсентратсийаси сенсорларидан фойдаланиш тавсийа етилади",
+            "Назорат ва ҳисобот учун ишлов бериш журнали йуритиш"
+          ],
+          "warning": "Иш зонасида озоннинг ПДК 0,1 мг/м³. Ортса, характерли \"чақиндан кейин\" ҳиди сезилади. Замонавий озонаторлар таймер ва автоматик ўчириш тизимига ега."
+        }
+      }
+    },
+    "equipment-sterilization": {
+      "title": "Тиббий ускуналарни стерилизатсийа қилиш",
+      "shortDesc": "Асбоблар ва қурилмаларни стерилизатсийа қилиш",
+      "heroText": "Иссиқликка сезгир ендоскоплар, пластик маҳсулотлар ва електрониканинг паст ҳароратда озон стерилизатсийаси. Зарар бермайдиган ишлов бериш билан иссиқликка сезгир тиббий ускуналарнинг тўлиқ даволаш.",
+      "content": "Озон йуқори ҳарорат йоки қаттиқ кимйовий моддалар билан ишлов берилмаса бўлмайдиган тиббий ускуналарни стерилизатсийа қилиш учун ишлатилади: ендоскоплар, пластик буйумлар, електроника, оптика.\n\nПаст ҳароратда озон стерилизатсийаси иссиқликка сезгир ускуналар учун автоклавнинг алтернативидир. Жарайон 25–35°C ва 80–90% нисбий намлик шароитида ўтади, бу кўпчилик материаллар учун хавфсиздир.\n\nЕндоскопик ускуналар айниқса талабчии. Тор каналлар билан мураккаб йасалиш ан'анавий усуллар билан тўлиқ ишлов бериш хавфини йаратади. Озон гази барча бўшлиқлар ва каналларни пенетратсийа қилади тўлиқ стерилизатсийани та'минлаш учун.\n\nОзон стерилизатсийа сиклки ўз ичига олади: ишлов беришдан олдин намланиш, озон атмосферасида 30–60 дақиқа давомида експозе ва газни чиқариш. Усул соғлиқни сақлашда фойдаланиш учун тасдиқланади ва стерилизатсийа стандартларига жавоб беради.",
+      "benefits": [
+        "Паст ҳароратда стерилизатсийа",
+        "Пластик ва електроника учун хавфсиз",
+        "Тор каналларга пенетратсийа",
+        "Ендоскоп ишлов бериш",
+        "Оптикада шикаст йўқ",
+        "Тиббий стандартларга мувофиқлик"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "25-35°C",
+          "label": "Ҳарорат",
+          "description": "Паст ҳароратда стерилизатсийа"
+        },
+        "stat2": {
+          "value": "30-60",
+          "label": "Дақиқа",
+          "description": "Тўлиқ стерилизатсийа сикли"
+        },
+        "stat3": {
+          "value": "99,99%",
+          "label": "Самарадорлик",
+          "description": "Микроорганизмларни йўқ қилиш"
+        },
+        "stat4": {
+          "value": "0",
+          "label": "Зарар",
+          "description": "Сезгир материаллар учун хавфсиз"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Замонавий тиббий ускуналар кўпинча иссиқликка сезгир материалларни ўз ичига олади: пластик, електроника, оптика, уларни аутоклав ичида стерилизатсийа қилиш мумкин емас. Озон стерилизатсийаси 25-35°C да ишлайотган самарали алтернативдир.",
+          "text2": "Озон ҳужайра мембраналарини бузиш орқали бактерийа, вируслар, споралар ва хамирларни йўқ қилувчи кучли оксидизер. Шу билан бирга, токсик қолдиқлар қолдирмайди ва ишлов беришдан кейин 20-30 дақиқада кислородга парчаланади."
+        },
+        "highlight1": {
+          "title": "Муҳим:",
+          "text": "121-134°C да ан'анавий буғ стерилизатсийаси пластик маҳсулотлар, електроника ва оптикани зарар беради. Озон стерилизатсийаси ушбу материалларни деформатсийа йоки носозлик хавфисиз ишлов бериш имконини беради."
+        },
+        "problem": {
+          "title": "Тиббий ускуналарни стерилизатсийа қилиш муаммолари",
+          "text": "Тиббий ускуналар ҳар бир фойдаланишдан кейин стерилизатсийани талаб қилади. Аммо барча усуллар барча турдаги маҳсулотлар учун мос емас:",
+          "items": [
+            "Автоклавлаш: йуқори ҳарорат пластик ва електроникани зарар беради",
+            "Етиленоксид: токсик, узоқ дегассинг (12 соатгача) талаб қилади",
+            "Плазма стерилизатсийаси: ускунанинг йуқори нархи",
+            "Кимйовий еритмалар: металнинг коррозийаси, муҳрларнинг шикасти",
+            "Радиатсион стерилизатсийа: қиммат, кундалик фойдаланиш учун мос емас"
+          ]
+        },
+        "endoscopes": {
+          "title": "Ендоскопларни стерилизатсийа қилиш",
+          "text": "Ендоскоплар тор каналлар, оптика ва електроникага ега мураккаб қурилмалардир. Уларнинг стерилизатсийаси озонни самарали ҳал қилувчи махсус вазифадир.",
+          "table": {
+            "caption": "Ендоскоплар учун озон стерилизатсийа параметрлари",
+            "headers": [
+              "Ендоскоп тури",
+              "Озон контсентратсийаси",
+              "Ишлов бериш вақти",
+              "Хусусийатлар"
+            ],
+            "rows": [
+              [
+                "Гастросcоплар",
+                "40-60 ппм",
+                "30-40 дақиқа",
+                "Канал тозалаш озонига"
+              ],
+              [
+                "Колоносcоплар",
+                "40-60 ппм",
+                "40-50 дақиқа",
+                "Каналнинг узайтирилган узунлиги"
+              ],
+              [
+                "Брончосcоплар",
+                "50-70 ппм",
+                "35-45 дақиқа",
+                "Тор каналлар, нозик оптика"
+              ],
+              [
+                "Лапаросcоплар",
+                "30-50 ппм",
+                "25-35 дақиқа",
+                "Компакт дизайн"
+              ]
+            ]
+          },
+          "highlight": "Озон 1 мм диаметрли каналларни пенетратсийа қилади, шунинг учун суйуқ дезинфектантлар учун очиқ бўлмаган жойларнинг стерилизатсийасини та'минлайди. Бу носокомиал инфектсийаларни олдини олиш учун критикалдир."
+        },
+        "lowtemp": {
+          "title": "Паст ҳароратда стерилизатсийа жарайони",
+          "text": "Озон стерилизатсийа сиклки бир неча босқичдан иборат бўлиб, ҳар бири тўлиқ стериллик еришиш учун муҳимдир:",
+          "steps": [
+            {
+              "title": "Ишлов беришдан олдин намланиш",
+              "description": "Камерада намликни 80-90% га кўтариш. Намлик озоннинг бактеритсид та'сирини кучайтиради ва унинг микропарларга пенетратсийасини та'минлайди."
+            },
+            {
+              "title": "Озон сатуратсийаси",
+              "description": "40-80 ппм контсентратсийасига озон та'миноти. Газ камера бўйлаб текис тарқалиб ва барча ускуналар бўшлиқларига пенетратсийа қилади."
+            },
+            {
+              "title": "Експозе",
+              "description": "Белгиланган контсентратсийада 30-60 дақиқа сақлаш. Бу вақт ойлана барча микроорганизмлар ҳужайраларининг мембраналарини йўқ қилади."
+            },
+            {
+              "title": "Газни чиқариш",
+              "description": "Камерадан қолдиқ озонни олиб ташлаш. Озон 15-20 дақиқада кислородга парчаланади. Ускуналар фойдаланишга таййор."
+            }
+          ]
+        },
+        "materials": {
+          "title": "Мос келадиган материаллар",
+          "text": "Озон стерилизатсийаси тиббий ускуналарида қўлланиладиган кўпчилик материаллар учун хавфсиздир:",
+          "features": [
+            {
+              "title": "Пластиклар ва полимерлар",
+              "description": "Полиетилен, полипропилен, поликарбонат, ПВC — озон стерилизатсийаси пайтида зарар бериш йўқ"
+            },
+            {
+              "title": "Електроника",
+              "description": "Платалари, сенсорлари, дисплейлар, ендоскоп камералари — статик кучсиз хавфсиз ишлов бериш"
+            },
+            {
+              "title": "Оптика",
+              "description": "Линзалар, йоруғлик воситалари, призмалар — озон елементларнинг оптик хусусийатларига та'сир қилмайди"
+            },
+            {
+              "title": "Металлар ва қотишмалар",
+              "description": "Рустга чидамли пўлатлар, титан, алйуминий — стандарт контсентратсийаларда озонага чидамли"
+            }
+          ]
+        },
+        "comparison": {
+          "title": "Стерилизатсийа усулларини таққослаш",
+          "tableTitle": "Озон вс ан'анавий усуллар",
+          "headers": [
+            "Параметр",
+            "Озон",
+            "Автоклавлаш/Етиленоксид"
+          ],
+          "rows": [
+            {
+              "parameter": "Ишлов бериш ҳарорати",
+              "value1": "25-35°C",
+              "value2": "121-134°C / 37-55°C"
+            },
+            {
+              "parameter": "Тўлиқ сикл вақти",
+              "value1": "45-90 дақиқа",
+              "value2": "30-60 дақиқа / 3-12 соат"
+            },
+            {
+              "parameter": "Токсик қолдиқлар",
+              "value1": "Йўқ (О₂ га парчаланади)",
+              "value2": "Йўқ / Ҳа (дегассинг талаб қилади)"
+            },
+            {
+              "parameter": "Пластик мос келиши",
+              "value1": "Ҳа",
+              "value2": "Йўқ / Қисман"
+            },
+            {
+              "parameter": "Исте-фойдаланиш харажи",
+              "value1": "Минимал (електр)",
+              "value2": "Ўртача / Йуқори"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Соғлиқни сақлаш муассасалари учун фойда",
+          "items": [
+            "Зарар бермайдиган иссиқликка сезгир ускуналарнинг стерилизатсийаси",
+            "Тез ишлов бериш сикли — ускуналар ўтмаши йуқори",
+            "Токсик қолдиқлар йўқ — бемор хавфсизлиги",
+            "Кам оператсион харажи — минимал исте-фойдаланиш",
+            "Қийин йорган жойларни пенетратсийа — тўлиқ канал стерилизатсийаси",
+            "Тиббий қурилмаларни стерилизатсийа қилиш стандартларига мувофиқлик"
+          ],
+          "warning": "Озонаторлар билан ишлашда хавфсизлик еҳтийотчалиги кузатилиши керак: озон инҳале қилинганда токсикдир. Стерилизатсийа камерлари муҳр тутилиши керак. Иш соҳада озоннинг ПДК 0,1 мг/м³."
+        }
+      },
+      "cta": {
+        "title": "Ендоскоплар ва тиббий асбобларни стерилизатсийа қилиш учун озонларни жорий қилишни хоҳлайсизми?",
+        "text": "Ендоскоплар ва тиббий асбобларни стерилизатсийа қилиш учун ускуналар бўйича маслаҳат олинг"
+      }
+    },
+    "dental": {
+      "title": "Стоматологийа клиникалар",
+      "shortDesc": "Кабинетлар ва асбобларни стерилизатсийа қилиш",
+      "content": "Стоматологийа протседуралар потентсиал патоген микроорганизмлар билан аеросолни йаратади. Беморлар ўртасида денто-лабораторийаларни озонлаш ҳава ва барча сиртларнинг дезинфексийасини та'минлайди, ўзаро инфексийа хавфини камайтиради.\n\nЗамонавий стоматологийа озонни нафақат хона дезинфексийаси учун, балки терапийавий мақсадда ҳам ишлатади: карихларни даволаш, периодонтал касалликларни даволаш, илдиз каналини дезинфексийа қилиш.\n\nҲар бир бемордан кейин стоматологийа кабинетини озонлаш 15–20 дақиқани олади ва танаффуслар пайтида ўтказилиши мумкин. Газ ускунанинг қийин йорган қисмларига пенетратсийа қилади: шлангларга, қулоқ қисмига, сув линийаларига.\n\nИшлов бериш тезлиги ва дезинфексийадан кейин кимйовий ҳидларнинг йўқлиги стоматологийа клиникалар учун айниқса муҳимдир. Озон 20–30 дақиқада кислородга парчаланади, енгил йанги ҳид қолади. Беморлар йоқимли атмосферани қайд етади.",
+      "benefits": [
+        "Ҳар бир бемордан кейин дезинфексийа",
+        "15–20 дақиқада ишлов бериш",
+        "Озоннинг терапийавий қўлланилиши",
+        "Стоматологийа ускуналарни тозалаш",
+        "Кимйовий ҳидлар йўқ",
+        "Ўзаро инфексийа олдини олиш"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "15-20",
+          "label": "Дақиқа",
+          "description": "Беморлар ўртасида кабинет дезинфексийаси"
+        },
+        "stat2": {
+          "value": "99,9%",
+          "label": "Патогенлар",
+          "description": "Ишлов бериш пайтида йўқ қилинди"
+        },
+        "stat3": {
+          "value": "100%",
+          "label": "Қопламиши",
+          "description": "Барча сиртлар ва ускуналардан"
+        },
+        "stat4": {
+          "value": "Озон терапийаси",
+          "label": "Даволаш",
+          "description": "Карихлар ва периодонтал касалликларни"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Стоматологийа протседуралар инфексийа узатиш йуқори хавфини ташкил қилади: турбин қулоқ қисмларидан аеросоллар, қон ва салиува билан алоқа, кунига кўп миқдордаги беморлар. Озонлаш кабинет дезинфексийасини тез ва самарали, шунингдек терапийавий татбиқлашни та'минлайди.",
+          "text2": "Хона дезинфексийасига қўшимча равишда, озон фаол равишда терапийавий мақсадда ишлатилади: карих бўшлиқларини даволаш, периодонтал касалликларни даволаш, илдиз каналини дезинфексийа қилиш. Озон терапийаси замонавий стоматологийанинг тан олинган соҳаси."
+        },
+        "highlight1": {
+          "title": "Стоматологийа хусусийати:",
+          "text": "Турбин қулоқ қисми ишлайотганда, бемор оғиз бўшлигидан бактерийа ва вируслар ўз ичига олган йупқа аеросоллар ҳосил бўлади. Бу аеросоллар кабинетда тарқалиб, сиртларга тўпланади."
         },
         "applications": {
-          "title": "Ozone applications in dentistry",
+          "title": "Стоматологийада озоннинг қўлланилиши",
           "items": [
-            "Office disinfection between patient visits",
-            "Final office treatment at end of workday",
-            "Cleaning of water supply systems in dental units",
-            "Ozone therapy: caries treatment without drilling",
-            "Root canal treatment",
-            "Periodontal disease treatment",
-            "Disinfection of removable prostheses"
+            "Бемор ташриф ўртасида кабинет дезинфексийаси",
+            "Иш кунининг охирида кабинет охирги ишлов бериш",
+            "Стоматологийа қурилмаларида сув та'минот тизимини тозалаш",
+            "Озон терапийаси: бурғулашсиз карих даволаш",
+            "Илдиз канали даволаш",
+            "Периодонтал касалликларни даволаш",
+            "Олинадиган протезларни дезинфексийа қилиш"
           ]
         },
         "disinfection": {
-          "title": "Dental office disinfection",
-          "text": "Ozonation allows rapid office disinfection during technical breaks between patients. In 15-20 minutes, ozone destroys pathogens on all surfaces and in the air.",
+          "title": "Стоматологийа кабинетини дезинфексийа қилиш",
+          "text": "Озонлаш беморлар ўртасида техник танаффуслар пайтида тез кабинет дезинфексийасига имкон беради. 15-20 дақиқада озон барча сиртлар ва ҳавода патогенларни йўқ қилади.",
           "table": {
-            "caption": "Dental office ozonation modes",
-            "headers": ["Treatment type", "Concentration", "Time", "Frequency"],
+            "caption": "Стоматологийа кабинет озонлаш режими",
+            "headers": [
+              "Ишлов бериш тури",
+              "Контсентратсийа",
+              "Вақт",
+              "Частотаси"
+            ],
             "rows": [
-              ["Between patients", "5-10 mg/m³", "15-20 min", "After each visit"],
-              ["Lunch break", "10-15 mg/m³", "30-40 min", "Daily"],
-              ["End of workday", "15-20 mg/m³", "60 min", "Daily"],
-              ["After infectious patient", "20-30 mg/m³", "60-90 min", "As indicated"]
+              [
+                "Беморлар ўртасида",
+                "5-10 мг/м³",
+                "15-20 дақиқа",
+                "Ҳар бир ташриф кейин"
+              ],
+              [
+                "Тушлик танаффуси",
+                "10-15 мг/м³",
+                "30-40 дақиқа",
+                "Кунига"
+              ],
+              [
+                "Иш кунининг охири",
+                "15-20 мг/м³",
+                "60 дақиқа",
+                "Кунига"
+              ],
+              [
+                "Йуқумли бемордан кейин",
+                "20-30 мг/м³",
+                "60-90 дақиқа",
+                "Кўрсатилганда"
+              ]
             ]
           },
-          "highlight": "Ozone penetrates hard-to-reach equipment areas: hoses, handpieces, water supply systems — places where traditional wiping is impossible."
+          "highlight": "Озон ускуналарнинг қийин йорган жойларига пенетратсийа қилади: шлангларга, қулоқ қисмига, сув та'минот тизимига — ан'анавий силкитиш имконсиз бўлган жойлар."
         },
         "ozonotherapy": {
-          "title": "Ozone therapy in dentistry",
-          "text": "Therapeutic use of ozone in dentistry is one of the most developed fields of ozone therapy. Ozone has pronounced bactericidal, antiviral and fungicidal effects.",
+          "title": "Стоматологийада озон терапийаси",
+          "text": "Стоматологийада озоннинг терапийавий қўлланилиши озон терапийасининг енг ривожланган соҳаларидан биридир. Озон ўзига хос бактеритсид, антивирусли ва фунгитсид та'сирларга ега.",
           "features": [
             {
-              "title": "Caries treatment",
-              "description": "At early stages, ozone destroys bacteria and stops caries development without drilling"
+              "title": "Карих даволаш",
+              "description": "Бошланғич босқичларида озон бактерийаларни йўқ қилади ва бурғулашсиз карихнинг ривожланишини тўхтатади"
             },
             {
-              "title": "Canal treatment",
-              "description": "Ozonated water and gas for root canal disinfection before filling"
+              "title": "Канал даволаш",
+              "description": "Озонланган сув ва газ тўлдириш олдидан илдиз каналини дезинфексийа қилиш учун"
             },
             {
-              "title": "Periodontitis treatment",
-              "description": "Ozone treatment of periodontal pockets reduces inflammation and destroys pathogens"
+              "title": "Периодонтитис даволаш",
+              "description": "Периодонтал чўнчаларни озон даволаш йаллиғланишни камайтиради ва патогенларни йўқ қилади"
             },
             {
-              "title": "Wound healing",
-              "description": "Accelerated healing after tooth extraction, implantation, surgical interventions"
+              "title": "Йаранинг соҳайлаш",
+              "description": "Тиш чиқариш, имплантатсийа, чирургик амалийотлардан кейин тезлаштирилган соҳайлаш"
             }
           ],
           "table": {
-            "caption": "Ozone use in therapeutic dentistry",
-            "headers": ["Indication", "Method", "Effect"],
+            "caption": "Терапийавий стоматологийада озоннинг қўлланилиши",
+            "headers": [
+              "Кўрсатма",
+              "Усул",
+              "Та'сир"
+            ],
             "rows": [
-              ["Initial caries", "Gas 40-60 sec on lesion", "Remineralization, process stop"],
-              ["Deep caries", "Gas + ozonated water", "Cavity sterilization before filling"],
-              ["Pulpitis", "Ozonated water in canal", "Inflammation relief"],
-              ["Periodontitis", "Gas in pockets + irrigation", "80% reduction in bleeding"],
-              ["Stomatitis", "Ozonated water, rinses", "Healing in 3-5 days"]
+              [
+                "Бошланғич карих",
+                "Газ 40-60 сонийали ўсувга",
+                "Минераллаштириш, жарайонни тўхташ"
+              ],
+              [
+                "Чуқур карих",
+                "Газ + озонланган сув",
+                "Қалинлик стерилизатсийаси тўлдириш олдин"
+              ],
+              [
+                "Пулпит",
+                "Озонланган сув каналда",
+                "Йаллиғланишнинг йенгилланиши"
+              ],
+              [
+                "Периодонтитис",
+                "Газ чўнчада + ирригатсийа",
+                "Қоний оқишнинг 80% қисқарилиши"
+              ],
+              [
+                "Стоматит",
+                "Озонланган сув, чўмиш",
+                "3-5 куннинг соҳайлаши"
+              ]
             ]
           }
         },
         "waterSystems": {
-          "title": "Water supply system treatment",
-          "text": "Biofilms — bacterial colonies including Legionella and Pseudomonas — form in dental unit pipelines. Ozonated water effectively destroys biofilms and disinfects the system.",
+          "title": "Сув та'минот тизими ишлов бериш",
+          "text": "Биофилмлар — Легионелла ва Псеудомонас ўз ичига олган бактерийа колонийалари — стоматологийа қурилмасининг қувур линийаларига шаклланади. Озонланган сув самарали биофилмларни йўқ қилади ва тизимни дезинфексийа қилади.",
           "items": [
-            "Flushing ozonated water (2-3 mg/L) through system at end of day",
-            "Biofilm destruction on inner pipeline surfaces",
-            "Tank and filter disinfection",
-            "Improved water quality for irrigation"
+            "Куннинг охирида озонланган сувни тизимдан (2-3 мг/Л) тўкириш",
+            "Қувур сиртидаги биофилмларни йўқ қилиш",
+            "Танк ва филтрни дезинфексийа қилиш",
+            "Ирригатсийа учун сув сифатини йахшилаш"
           ]
         },
         "benefits": {
-          "title": "Benefits for dental clinics",
+          "title": "Стоматологийа клиникалар учун фойда",
           "items": [
-            "Rapid office turnover — disinfection during breaks",
-            "Cross-infection prevention between patients",
-            "No chemical odors after treatment — patient comfort",
-            "Additional service — ozone therapy as modern treatment method",
-            "Compliance with dental clinic sanitary requirements",
-            "Reduced costs for disinfectants"
+            "Тез кабинет ўзгартириш — танаффуслар пайтида дезинфексийа",
+            "Беморлар ўртасида ўзаро инфексийанинг олдини олиш",
+            "Ишлов беришдан кейин кимйовий ҳидлар йўқ — бемор қулайлиги",
+            "Қўшимча хизмат — замонавий даволаш усули сифатида озон терапийаси",
+            "Стоматологийа клиника санитарйа талабларига мувофиқлик",
+            "Дезинфектантлар харажи камайиши"
           ],
-          "highlight": "Patients note pleasant office atmosphere after ozonation — fresh air without specific \"hospital\" odors. This increases loyalty and visit comfort."
+          "highlight": "Беморлар озонлашдан кейин кабинетнинг йоқимли атмосферасини қайд етади — ма'йус \"касалхона\" ҳиди йўқ йанги ҳава. Бу лойалликни ва ташриф қулайлигини оширади."
         }
       }
     },
     "rehabilitation": {
-      "title": "Rehabilitation centers",
-      "shortDesc": "Ozone therapy and sanitary treatment",
-      "content": "Rehabilitation centers and sanatoriums use ozone in two ways: ozone therapy as a treatment and recovery method, and room ozonation to maintain sanitary standards.\n\nOzone therapy is used for musculoskeletal, cardiovascular and skin conditions. Methods include: ozone baths, subcutaneous injections, autohemotherapy with ozone, rectal insufflations.\n\nOzonation of wards and procedure rooms is especially important in centers where elderly patients and people with weakened immunity undergo rehabilitation. Ozone reduces the risk of respiratory infection spread between patients.\n\nPools, saunas and spa areas in rehabilitation centers are also treated with ozone. Pool water ozonation reduces chlorine demand, making procedures more comfortable for patients with sensitive skin.",
+      "title": "Реабилитатсийа марказлари",
+      "shortDesc": "Озонотерапийа ва санитарийа ишлов бериш",
+      "heroText": "Санаторийалар ва реабилитатсийа марказларида озоннинг кенг қўлланилиши: соғлиқни тиклаш учун озонотерапийа, бассейн ва СПА озонлаш, палаталар ва протседура хоналарини дезинфексийа қилиш.",
+      "content": "Реабилитатсийа марказлари ва санаторийалар озондан икки йўналишда фойдаланади: озонотерапийа даволаш ва тиклаш усули сифатида ва санитарийа стандартларини сақлаш учун хоналарни озонлаш.\n\nОзонотерапийа мускулоскелет, йурак-қон томир ва тери касалликларини даволаш учун қўлланилади. Усуллар қуйидагиларни ўз ичига олади: озон ванналари, тери остига ин'ектсийалар, озон билан автогемотерапийа, ректал инсуффлйатсийалар.\n\nПалаталар ва протседура хоналарини озонлаш қарийалар ва иммунитети заиф бўлган одамлар реабилитатсийадан ўтадиган марказларда айниқса муҳимдир. Озон беморлар орасида нафас олиш инфектсийаларининг тарқалиш хавфини камайтиради.\n\nРеабилитатсийа марказларидаги бассейнлар, сауналар ва СПА зоналари ҳам озон билан ишлов берилади. Бассейн сувини озонлаш хлорга бўлган еҳтийожни камайтиради, бу еса сезгир терига ега беморлар учун протседураларни қулайроқ қилади.",
       "benefits": [
-        "Ozone therapy as treatment",
-        "Disinfection of wards and procedure rooms",
-        "Protection for immunocompromised patients",
-        "Pool and spa ozonation",
-        "Reduced chlorine in water",
-        "Integrated rehabilitation approach"
-      ]
+        "Даволаш усули сифатида озонотерапийа",
+        "Палаталар ва протседура хоналарини дезинфексийа қилиш",
+        "Иммунитети заиф беморларни ҳимойа қилиш",
+        "Бассейн ва СПА ни озонлаш",
+        "Сувдаги хлор миқйорини камайтириш",
+        "Реабилитатсийага интегратсийалашган йондашув"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "100+",
+          "label": "Кўрсатмалар",
+          "description": "Озонотерапийа қўллаш учун"
+        },
+        "stat2": {
+          "value": "70%",
+          "label": "Кам хлор",
+          "description": "Озонлаш билан бассейнларда"
+        },
+        "stat3": {
+          "value": "99,9%",
+          "label": "Патогенлар",
+          "description": "Сувда йўқ қилинади"
+        },
+        "stat4": {
+          "value": "Қулайлик",
+          "label": "Беморлар",
+          "description": "Хлор ҳидисиз йумшоқ сув"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Реабилитатсийа марказлари ва санаторийалар нойоб талабларга ега: бир томондан, йуқори санитарийа стандартларини сақлаш керак, иккинчи томондан — беморларнинг тикланиши учун қулай муҳит йаратиш керак. Озон иккала вазифани ҳам ҳал қилади.",
+          "text2": "Озонотерапийа — кенг кўламли касалликларни даволаш учун қўлланиладиган физиотерапийанинг тан олинган йўналиши. Шу билан бирга, озон хоналарни дезинфексийа қилиш ва бассейн сувини таййорлаш учун ишлатилади, бу уни реабилитатсийа муассасалари учун универсал йечимга айлантиради."
+        },
+        "highlight1": {
+          "title": "Кенг қамровли йондашув:",
+          "text": "Бир марказда озон даволовчи протседуралар (озонотерапийа), бассейн сувини тозалаш (сувни озонлаш) ва хоналарни дезинфексийа қилиш (ҳавони озонлаш) учун қўлланилиши мумкин. Бу харажатларни оптималлаштиради ва логистикани соддалаштиради."
+        },
+        "ozonotherapy": {
+          "title": "Реабилитатсийада озонотерапийа",
+          "text": "Озонотерапийа — тиббий озоннинг даволовчи хусусийатларига асосланган физиотерапийа усули. Шикастланишлар, оператсийалардан кейин тикланиш ва сурункали касалликлар учун қўлланилади.",
+          "features": [
+            {
+              "title": "Озон ванналари",
+              "description": "Озонга тўйинган сув умумий мустаҳкамловчи та'сир кўрсатади, қон айланишини йахшилайди, мушакларнинг кучланишини камайтиради"
+            },
+            {
+              "title": "Тери остига ин'ектсийалар",
+              "description": "Боғланиш касалликларида оғриқ ва йаллиғланишни камайтириш учун триггер нуқталарига озон-кислород аралашмасини киритиш"
+            },
+            {
+              "title": "Автогемотерапийа",
+              "description": "Беморнинг қонини озон билан бойитиш ва кейин қайта киритиш — тизимли соғлиқни сақлаш та'сири"
+            },
+            {
+              "title": "Ректал инсуффлйатсийалар",
+              "description": "Ошқозон-ичак тракти касалликларини даволаш ва организмнинг умумий соғломлаштириш учун озон-кислород аралашмасини киритиш"
+            }
+          ]
+        },
+        "methods": {
+          "title": "Озонотерапийа усуллари ва кўрсатмалар",
+          "text": "Кўрсатмалар ва бемор ҳолатига қараб турли хил озонотерапийа усуллари қўлланилади:",
+          "table": {
+            "caption": "Реабилитатсийада озонотерапийа усуллари",
+            "headers": [
+              "Усул",
+              "Кўрсатмалар",
+              "Даволаш курси"
+            ],
+            "rows": [
+              [
+                "Озон ванналари",
+                "Артрит, артроз, варикоз, тселлйулит",
+                "10-15 протседура"
+              ],
+              [
+                "Тери остига ин'ектсийалар",
+                "Боғланиш оғриғи, миофатсиал синдром",
+                "5-10 протседура"
+              ],
+              [
+                "Автогемотерапийа (БАХТ)",
+                "Иммунитет танқислиги, сурункали чарчоқ, диабет",
+                "8-12 протседура"
+              ],
+              [
+                "Ректал инсуффлйатсийалар",
+                "Колит, дисбиоз, простатит",
+                "10-15 протседура"
+              ],
+              [
+                "Вена ичига инфузийалар",
+                "Ишемийа, трофик йаралар, сепсис",
+                "5-8 протседура"
+              ]
+            ]
+          }
+        },
+        "spa": {
+          "title": "Озон билан СПА протседуралари",
+          "text": "Озон реабилитатсийа марказларининг СПА зоналарида соғлиқни сақлаш протседуралари учун кенг қўлланилади:",
+          "steps": [
+            {
+              "title": "Озон капсулалари",
+              "description": "Бемор озонланган ҳавога ега капсулага жойлаштирилади. Озон тери орқали ўтиб, микротсиркулйатсийани йахшилайди ва тўқималарни кислород билан тўйдиради."
+            },
+            {
+              "title": "Озонланган сув билан гидромассаж",
+              "description": "Гидромассаж ваннасидаги озонланган сув антисептик хусусийатга ега ва тери регенератсийасини рағбатлантиради."
+            },
+            {
+              "title": "Озон душ",
+              "description": "Танни майда дисперсланган озонланган сув билан пуркаш. Терини тонуслайди, дерматологик муаммоларда унинг ҳолатини йахшилайди."
+            },
+            {
+              "title": "Озонланган ўрашлар",
+              "description": "Озонланган мой йоки крем қўллаш ва кейин ўраш. Тана контурини тузатиш ва тселлйулитни даволаш учун қўлланилади."
+            }
+          ],
+          "highlight": "Озон билан СПА протседуралари бошқа реабилитатсийа усуллари билан биргаликда айниқса самарали: массаж, физиотерапийа, даволовчи жисмоний машқлар. Кенг қамровли йондашув тикланишни тезлаштиради."
+        },
+        "pools": {
+          "title": "Бассейнларни озонлаш",
+          "text": "Реабилитатсийа марказларидаги бассейнлар сувни таййорлашга махсус йондашувни талаб қилади. Озонлаш хлор миқйорини камайтириш ва беморлар учун қулай шароитлар йаратиш имконини беради:",
+          "items": [
+            "Хлор консентратсийасини 60-70% га камайтириш — тери ва кўзнинг минимал қичишиши",
+            "Хлор ҳидининг йўқлиги — нафас олиш касалликларига ега беморлар учун қулайлик",
+            "Хлорга чидамли патогенларни йўқ қилиш: криптоспоридийалар, лйамблийалар",
+            "Хлораминларни парчалаш — шиллиқ қаватнинг қичишишининг асосий сабаби",
+            "Сувнинг шаффофлигини йахшилаш — естетик қулайлик"
+          ],
+          "table": {
+            "caption": "Бассейнларни озонлаш параметрлари",
+            "headers": [
+              "Параметр",
+              "Озон + хлор",
+              "Фақат хлор"
+            ],
+            "rows": [
+              [
+                "Хлор консентратсийаси",
+                "0,3-0,5 мг/л",
+                "1,0-1,5 мг/л"
+              ],
+              [
+                "Боғланган хлор (хлораминлар)",
+                "<0,2 мг/л",
+                "1,0 мг/л гача"
+              ],
+              [
+                "Сувнинг шаффофлиги",
+                "Кристалл аниқ",
+                "Йахши"
+              ]
+            ]
+          }
+        },
+        "disinfection": {
+          "title": "Хоналарни дезинфексийа қилиш",
+          "text": "Палаталар ва протседура хоналарини озонлаш реабилитатсийа марказида санитарийа режимининг муҳим таркибий қисмидир:",
+          "items": [
+            "Беморлар ўртасида палаталарни дезинфексийа қилиш — 40-60 дақиқада тўлиқ ишлов бериш",
+            "Протседура хоналарини ишлов бериш — ўзаро ифлосланишни бартараф етиш",
+            "Массаж столлари, тренажорлар, физиотерапийа ускуналарини озонлаш",
+            "Хоналардаги ҳидларни бартараф етиш — кимйовий хушбўй ҳидларсиз йанги ҳаво",
+            "Вентилйатсийани дезинфексийа қилиш — нафас олиш инфектсийаларининг тарқалиш хавфини камайтириш"
+          ],
+          "warning": "Хоналарни озонлаш пайтида беморлар ва ходимлар ишлов берилайотган зонани тарк етишлари керак. Ишлов беришдан кейин озон консентратсийаси ПДК (0,1 мг/м³) дан пастга тушгунча вентилйатсийа талаб қилинади."
+        },
+        "benefits": {
+          "title": "Реабилитатсийа маркази учун озоннинг афзалликлари",
+          "features": [
+            {
+              "title": "Кенг қамровли йечим",
+              "description": "Терапийа, сувни таййорлаш ва дезинфексийа қилиш учун битта технологик йондашув — харажатларни оптималлаштириш ва ходимларни ўқитишни соддалаштириш"
+            },
+            {
+              "title": "Беморлар қулайлиги",
+              "description": "Хлор ҳидисиз йумшоқ сув, тоза ҳаво, йоқимли муҳит — ижобий қолиш тажрибаси"
+            },
+            {
+              "title": "Тиббий самарадорлик",
+              "description": "Озонотерапийа — кенг кўламли кўрсатмалар ва минимал контраиндикатсийалар билан исботланган даволаш усули"
+            },
+            {
+              "title": "Екологик тозалик",
+              "description": "Озон кимйовий қолдиқларсиз кислородга парчаланади — беморлар ва атроф-муҳит учун хавфсиз"
+            }
+          ]
+        }
+      },
+      "cta": {
+        "title": "Марказингизда озонни жорий қилишни хоҳлайсизми?",
+        "text": "Озонотерапийа, сувни таййорлаш ва дезинфексийа қилиш учун кенг қамровли йечим олинг"
+      }
     },
     "ambulances": {
-      "title": "Ambulances",
-      "shortDesc": "Express disinfection of medical transport",
-      "content": "Ambulances transport patients with various infectious diseases. Fast and effective disinfection between calls is critical to prevent infection spread.\n\nAmbulance interior ozonation takes 20–30 minutes and ensures full disinfection of all surfaces: stretchers, equipment, handrails, floor, walls and ceiling. The gas penetrates seat upholstery and hard-to-reach areas.\n\nTraditional wiping with disinfectants cannot achieve the same level of treatment as gas disinfection. Ozone reaches areas inaccessible to manual wiping and destroys pathogens in the air.\n\nMobile ozone generators for ambulances run from 12V or 24V vehicle power. Equipment is compact and can be stored in the cabin. After treatment, ventilate for 10–15 minutes. The vehicle is ready for the next call.",
+      "title": "Шифохона машиналар",
+      "shortDesc": "Тиббий транспортни тез дезинфексийа қилиш",
+      "content": "Шифохона машиналар турли йуқумли касалликлар билан беморларни ташилади. Қўнғироқлар ўртасида тез ва самарали дезинфексийа инфексийа тарқалишини олдини олиш учун жуда муҳимдир.\n\nШифохона машинасининг ичининг озонлаши 20–30 дақиқани олади ва барча сиртларнинг тўлиқ дезинфексийасини та'минлайди: дандаланлар, ускуналар, қўл тутгичлари, пол, деварлар ва шпонка. Газ ўриндиқ обивкаси ва қийин йорган жойларни пенетратсийа қилади.\n\nДезинфектантлар билан ан'анавий силкитиш газ дезинфексийаси каби ишлов бериш даражасига еришмаса. Озон қўлда силкитиш имконсиз жойларни еришади ва ҳавода патогенларни йўқ қилади.\n\nШифохона машиналари учун мобил озон генераторлари 12В йоки 24В машинанинг қувватида ишлайди. Ускуналар жуда компакт ва кабинада сақланса бўлади. Ишлов беришдан кейин 10–15 дақиқада вентилйатсийа қилинг. Машина кейинги қўнғироққа таййор.",
       "benefits": [
-        "Express disinfection in 20–30 minutes",
-        "Full treatment of all surfaces",
-        "Operation from electrical supply",
-        "Compact mobile equipment",
-        "Cross-infection prevention",
-        "Quick readiness for next call"
+        "20–30 дақиқада тез дезинфексийа",
+        "Барча сиртларнинг тўлиқ ишлов бериш",
+        "Електр та'минотида фойдаланиш",
+        "Компакт мобил ускуналар",
+        "Ўзаро инфексийанинг олдини олш",
+        "Кейинги қўнғироққа тез таййорлик"
       ]
     }
   }

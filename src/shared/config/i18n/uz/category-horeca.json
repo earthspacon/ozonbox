@@ -1,631 +1,631 @@
 {
   "title": "HoReCa",
-  "description": "Hotels, restaurants, laundries and other hospitality venues use ozonation to create a comfortable environment, eliminate odors and maintain high hygiene standards.",
+  "description": "Mehmonxonalar, restoranlar, kir yuvish xonalari va boshqa mehmonxona muassasalari qulay muhit yaratish, hidlarni yo'q qilish va yuqori gigiyena standartlarini saqlash uchun ozonlashdan foydalanadi.",
   "subcategories": {
     "hotels": {
-      "title": "Hotels",
-      "shortDesc": "Room disinfection and odor removal",
-      "content": "Hotel room ozonation is a modern method for quick disinfection and odor removal. Ozone effectively destroys bacteria, viruses, mold, fungi and parasitic protozoa on all surfaces.\n\nAn air ozonator allows full treatment of a room after cleaning when guests change. Typically 30–60 minutes of treatment is enough. The gas penetrates all crevices and corners, disinfecting textiles, furniture and décor.\n\nAfter treatment, ozone decomposes to oxygen without toxic byproducts. The air feels \"fresh\" without air fresheners or masking agents. Complete removal of tobacco, sweat, musty and damp odors.\n\nTreatment does not require staff after the ozonator is switched on. Modern units have weekly timers for automation.",
+      "title": "Mehmonxonalar",
+      "shortDesc": "Xona dezinfeksiyasi va hidi yo'q qilish",
+      "content": "Mehmonxona xonasini ozonlash tez dezinfeksiya va hidi yo'q qilish uchun zamonaviy usuldir. Ozon bacteria, viruslar, ko'plak, xamirlar va parazit protozoalarni barcha sirtlarda samarali yo'q qiladi.\n\nHava ozonatori bemorlar o'zgartirilganda tozalab turib xonani to'liq ishlov berish imkonini beradi. Odatiy ravishda 30–60 daqiqa ishlov berish yetarli. Gaz barcha teschalik va burchaklarga penetratsiya qiladi, to'qimalar, mebel va dekoratsiyalarni dezinfeksiya qiladi.\n\nIshlov berishdan keyin ozon toksik mahsulotlarsiz kislorodga parchalanadi. Hava \"yangi\" ko'rinadi, havo yangilantiruvchisiz yoki niqob qiluvchi vositalarsiz. Tabak, ter, changa qo'zg'algan va namlik hidlarning to'liq yo'q qilishi.\n\nIshlov berish ozonator yoqilgandan keyin xodimlarni talab qilmaydi. Zamonaviy qurilmalar avtomatika uchun haftaviy taymerega ega.",
       "stats": {
         "processingTime": {
           "value": "30-60",
-          "label": "Minutes of treatment",
-          "description": "Full room disinfection cycle"
+          "label": "Ishlov berish daqiqlari",
+          "description": "Xonani to'liq dezinfeksiya siklsi"
         },
         "odorRemoval": {
           "value": "100%",
-          "label": "Odor removal",
-          "description": "Tobacco, sweat, mustiness, food"
+          "label": "Hidi yo'q qilish",
+          "description": "Tabak, ter, changa, oziq"
         },
         "disinfection": {
           "value": "99.9%",
-          "label": "Disinfection",
-          "description": "Destruction of bacteria and viruses"
+          "label": "Dezinfeksiya",
+          "description": "Bakteriyalar va viruslarning yo'q qilishi"
         },
         "noChemistry": {
           "value": "0",
-          "label": "Chemicals",
-          "description": "No fragrances or air fresheners"
+          "label": "Kimyoviy moddalar",
+          "description": "Xushbo'y va havo yangilantiruvchisiz"
         }
       },
       "sections": {
         "intro": {
-          "p1": "Hotel business is primarily about guest impressions. The smell of a smoked room, mustiness, foreign odors can ruin the impression of even the most luxurious hotel. Ozonation solves this problem radically — not masking odors, but destroying them at the molecular level.",
-          "p2": "In addition to eliminating odors, ozone disinfects all room surfaces: mattresses, pillows, curtains, carpets, upholstered furniture. The gas penetrates the material structure, destroying bacteria, viruses, dust mites and mold spores."
+          "p1": "Mehmonxona biznesi asosan mehmon taassurotlari haqida. Fumonlash xonasining hidlari, changa qo'zg'algan, chuqur hidlar hatto eng shoh mehmonxonaning taassurotini buzishi mumkin. Ozonlash bu muammoni radikalyadi hal qiladi — hidlarni niqob qilish emas, balki ularni molekulyar darajada yo'q qilish.",
+          "p2": "Hidlarni yo'q qilishdan tashqari, ozon barcha xona sirtlarini dezinfeksiya qiladi: saltalar, yostiqlar, pardalar, gilam, qaplotilgan mebel. Gaz material tuzilmasiga penetratsiya qiladi, bakteriyalar, viruslar, chang qumurtqalari va ko'plak sporsini yo'q qiladi."
         },
         "automation": {
-          "title": "Automation:",
-          "text": "Modern ozonators are equipped with weekly timers. Treatment can start automatically after room cleaning, without staff involvement."
+          "title": "Avtomatika:",
+          "text": "Zamonaviy ozonatorlar haftaviy taymerga ega. Ishlov berish xonani tozalashdan keyin avtomatik ravishda boshlashi mumkin, xodimlarning qatnashmasi bo'lmasdan."
         },
         "problems": {
-          "title": "Problems solved by ozonation",
+          "title": "Ozonlash bilan hal qilinadigan muammolar",
           "items": [
-            "Tobacco and hookah odor — complete removal, not masking",
-            "Mustiness and dampness — especially relevant for rooms without natural ventilation",
-            "Sweat and perfume odors from previous guests",
-            "Culinary aromas from room service",
-            "Pet odors (pet-friendly hotels)",
-            "Bacteria and viruses on contact surfaces",
-            "Dust mites in textiles — allergy prevention"
+            "Tabak va nargila hidi — to'liq yo'q qilish, niqob qilish emas",
+            "Changa qo'zg'algan va namlik — ayniqsa tabiiy ventilatsiyosiz xonalar uchun muhim",
+            "Oldingi mehmonlarning ter va parfyum hidlari",
+            "Xona xizmatidagi kulinariya aromatlari",
+            "Hayvon hidlari (hayvon-do'st mehmonxonalar)",
+            "Aloqa sirtlarida bakteriyalar va viruslar",
+            "To'qimalardagi chang qumurtqalari — allergiya oldini olish"
           ]
         },
         "process": {
-          "title": "Room ozonation process",
+          "title": "Xona ozonlash jarayoni",
           "steps": {
             "step1": {
-              "title": "Standard cleaning",
-              "description": "Room undergoes regular cleaning: changing linens, wiping surfaces, vacuuming."
+              "title": "Standart tozalash",
+              "description": "Xona muntazam tozalanadi: to'shak kiyim o'zgartirish, sirtlarni surtish, chang chiqarish."
             },
             "step2": {
-              "title": "Ozonator installation",
-              "description": "Portable ozonator is placed at maximum height (on wardrobe, shelf). Windows and doors are closed."
+              "title": "Ozonator o'rnatish",
+              "description": "Portativ ozonator maksimal balandlikka qo'yiladi (shkafning ustiga, polkaga). Oynalar va eshiklar yopiladi."
             },
             "step3": {
-              "title": "Ozonation",
-              "description": "Treatment starts. Standard mode: 30-60 minutes at 1 g/h per 25 m³ capacity."
+              "title": "Ozonlash",
+              "description": "Ishlov berish boshlandi. Standart rejim: 30-60 daqiqa, 25 m³ sig'im uchun soatiga 1 g."
             },
             "step4": {
-              "title": "Ventilation",
-              "description": "After treatment — 20-30 minutes ventilation. Ozone decomposes to oxygen, leaving a fresh feeling."
+              "title": "Ventilatsiya",
+              "description": "Ishlov berishdan keyin — 20-30 daqiqa ventilatsiya. Ozon kislorodga parchalanadi, yangi hissi qoladi."
             }
           },
           "table": {
-            "caption": "Hotel room ozonation modes",
-            "headers": ["Situation", "Concentration", "Time", "Result"],
+            "caption": "Xona ozonlash rejimlar",
+            "headers": ["Holat", "Konsentratsiya", "Vaqt", "Natija"],
             "rows": [
-              ["Standard treatment", "5-10 mg/m³", "30 min", "Freshening, light disinfection"],
-              ["After smoker", "15-20 mg/m³", "60-90 min", "Complete odor removal"],
-              ["Heavy contamination", "20-30 mg/m³", "2-3 hours", "Deep deodorization"],
-              ["After infectious guest", "25-35 mg/m³", "2-4 hours", "Complete disinfection"]
+              ["Standart ishlov berish", "5-10 mg/m³", "30 daqiqa", "Yangilash, yengil dezinfeksiya"],
+              ["Fumonchidan keyin", "15-20 mg/m³", "60-90 daqiqa", "To'liq hidi yo'q qilish"],
+              ["Og'ir ifloslanish", "20-30 mg/m³", "2-3 soat", "Chuqur hidi yo'q qilish"],
+              ["Yuqumli mehmondan keyin", "25-35 mg/m³", "2-4 soat", "To'liq dezinfeksiya"]
             ]
           }
         },
         "whatIsTreated": {
-          "title": "What is treated with ozone",
-          "intro": "Ozone, being a gas, penetrates all places inaccessible to traditional cleaning:",
+          "title": "Ozon bilan nima ishlov beriladi",
+          "intro": "Ozon gaz bo'lgarki, muntazam tozalashga kirishmaydigan barcha joylarni penetratsiya qiladi:",
           "items": {
             "textiles": {
-              "title": "Textiles",
-              "description": "Mattresses, pillows, blankets, curtains, furniture upholstery, carpets"
+              "title": "To'qimalar",
+              "description": "Saltalar, yostiqlar, ko'rpalalar, pardalar, mebel qaplotlanishi, gilam"
             },
             "furniture": {
-              "title": "Furniture",
-              "description": "Internal cavities of wardrobes, crevices, decorative elements, armrests"
+              "title": "Mebel",
+              "description": "Shkaflarning ichki bo'shliklari, teschaliklar, dekorative elementlar, qo'l tayanglar"
             },
             "ventilation": {
-              "title": "Ventilation",
-              "description": "Air ducts, grilles, air conditioning system — source of odors and bacteria"
+              "title": "Ventilatsiya",
+              "description": "Havo kanallar, panjara, konditsioner tizimi — hidlar va bakteriyalarning manba"
             },
             "bathroom": {
-              "title": "Bathroom",
-              "description": "Tiles, grout, plumbing — places where bacteria and mold accumulate"
+              "title": "Hammom",
+              "description": "Plitka, shpaklevka, sanuztexnika — bakteriyalar va ko'plak to'planish joylari"
             }
           }
         },
         "benefits": {
-          "title": "Benefits for hotels",
+          "title": "Mehmonxonalar uchun foydalari",
           "items": [
-            "Higher ratings on Booking, TripAdvisor — reviews about cleanliness and freshness",
-            "Reduced guest complaints about odors — especially in smoking rooms",
-            "Prevention of infection transmission between guests",
-            "Ability to quickly turn over rooms — treatment during time between check-out and check-in",
-            "Reduced costs for air fresheners and fragrances",
-            "Extended textile lifespan — odor removal without dry cleaning"
+            "Booking, TripAdvisor-da yuqori reyting — toza va yangi xavf haqidagi sharhlar",
+            "Mehmonlarning hidlar haqidagi shikoyatlari kamaydi — ayniqsa fumonlash xonalarida",
+            "Mehmonlar orasida infeksiya uzatishining oldini olish",
+            "Xonalarni tez o'tkazib berish — check-out va check-in orasidagi vaqtda ishlov berish",
+            "Xushbo'y va aromat xarcharalarining kamayishi",
+            "To'qima hayoti uzoqlashi — hid yo'q qilish qurumisiz"
           ],
-          "highlight": "Research shows: 87% of guests note \"room freshness\" as an important factor when evaluating a hotel. Ozonation creates a \"just renovated\" room feeling."
+          "highlight": "Tadqiqotlar ko'rsatadi: 87% mehmon mehmonxonani baholashda \"xona yangiligi\" muhim omil deb hisoblaydilari. Ozonlash \"yangi ta'mirlanmish\" xona his etishini yaratadi."
         },
         "equipment": {
-          "title": "Equipment for hotels",
-          "intro": "For hotels, portable ozonators are recommended, which staff move from room to room after cleaning. This is the optimal solution in terms of price/effectiveness ratio.",
+          "title": "Mehmonxonalar uchun asboblar",
+          "intro": "Mehmonxonalar uchun portativ ozonatorlar tavsiya qilinadi, ular xodimlar tozalashdan keyin xonadan xonaga o'tashadilari. Bu narx/samaradorlik nisbati bo'yicha optimal yechimdir.",
           "table": {
-            "headers": ["Hotel type", "Recommended equipment", "Quantity"],
+            "headers": ["Mehmonxona turi", "Tavsiya qilingan asbob", "Miqdor"],
             "rows": [
-              ["Mini-hotel (up to 20 rooms)", "Portable ozonator 5-10 g/h", "1-2 units"],
-              ["Medium hotel (20-100 rooms)", "Portable ozonators 10-20 g/h", "3-5 units"],
-              ["Large hotel (100+ rooms)", "Ozonator fleet + stationary units in common areas", "As calculated"]
+              ["Mini-mehmonxona (20 xonagacha)", "Portativ ozonator 5-10 g/soat", "1-2 dona"],
+              ["O'rta mehmonxona (20-100 xona)", "Portativ ozonatorlar 10-20 g/soat", "3-5 dona"],
+              ["Katta mehmonxona (100+ xona)", "Ozonator floti + stasionar qurilmalar umumiy joylar", "Hisob qilingani bo'yicha"]
             ]
           }
         }
       },
       "benefits": [
-        "Complete removal of tobacco and sweat odors",
-        "Disinfection of all surfaces without chemicals",
-        "Quick treatment in 30–60 minutes",
-        "Automatic operation on timer",
-        "Ozone decay to pure oxygen",
-        "Fresh air feeling"
+        "Tabak va ter hidlarining to'liq yo'q qilishi",
+        "Barcha sirtlarni kimyosiz dezinfeksiya qilish",
+        "Tez ishlov berish 30–60 daqiqada",
+        "Taymer bilan avtomatik ishlash",
+        "Ozon sof kislorodga parchalanishi",
+        "Yangi havoning his etish"
       ]
     },
     "restaurants": {
-      "title": "Restaurants and cafes",
-      "shortDesc": "Removal of kitchen and tobacco odors",
-      "heroTitle": "Restaurant and cafe ozonation",
-      "heroDesc": "Removal of kitchen, tobacco and hookah odors. Fresh air improves guest comfort and appetite.",
-      "content": "Restaurant business is about atmosphere. The smell of a smoky room, stale food or kitchen grease can put off even loyal customers. Research shows that air quality directly affects subconscious perception of service.\n\nSmell is so closely tied to the subconscious that people may not realize why they feel comfortable or not in a venue. They simply say \"liked it\" or \"didn't like it.\" That impression determines whether they return.\n\nOzonation addresses this radically — not masking odors with fragrances but destroying them at the molecular level. Regular ozonation of premises during off-hours significantly reduces unpleasant odors.\n\nOzone is a gas and a strong oxidizer. It penetrates hard-to-reach areas, material structure and pores where odor sources are sorbed, and oxidizes odor molecules to water and carbon dioxide.",
+      "title": "Restoranlar va kofexonalar",
+      "shortDesc": "Oshxona va tabak hidlarining yo'q qilishi",
+      "heroTitle": "Restoran va kofexona ozonlashi",
+      "heroDesc": "Oshxona, tabak va nargila hidlarining yo'q qilishi. Yangi hava mehmon qulayligini va ishtahani yaxshilaydi.",
+      "content": "Restoran biznesi atmosferasi haqida. Fumonlash xonasining hidlari, eski oziq yoki oshxona yog'i hatto sadoqli mijozlarni ham bezdirtsa oladi. Tadqiqotlar ko'rsatadi: havo sifati xizmatning ongli emas fikriga bevosita ta'sir qiladi.\n\nHid ongli his bilan shunchalik bog'langan, ya'ni odamlar joyda o'zlarini qulaylik-qulaysizlik haqidagi sababni tushunmasliklari mumkin. Ular oddiygina \"yoqdi\" yoki \"yoqmadi\" deyshadi. Bu taassurat ularning qaytib kelmalarini aniqlaydi.\n\nOzonlash bu muammoni radikalyadi hal qiladi — hidlarni xushbo'y bilan niqob qilish emas, balki ularni molekulyar darajada yo'q qilish. Ishchi soatlarida binolarni muntazam ozonlash noqulaylik hidlarini sezilarli kamaytiraydi.\n\nOzon gaz va kuchli oksidlovchi. U qo'l yetmaydigan joylar, material tuzilma va porylar penetratsiya qiladi, bu yerda hid manbalar sorblanga va hid molekulalarni suv va karbon dioksidga oksidlaydi.",
       "benefits": [
-        "Higher guest loyalty",
-        "15–20% higher average check",
-        "Longer stay time",
-        "Fewer odor complaints",
-        "No consumables",
-        "Automatic operation without staff"
+        "Mehmon sadoqatining kuchayishi",
+        "O'rtacha hisob 15–20% yuqoriroq",
+        "Qabulning ko'tarilishi",
+        "Hid shikoyatlari kamaydi",
+        "Isteʼmol vositalari yo'q",
+        "Xodimlarning qatnashmasi bo'lmasdan avtomatik ishlash"
       ],
       "stats": {
         "stat1": {
           "value": "60-120",
-          "label": "Minutes of treatment",
-          "description": "Full cleaning cycle of the hall"
+          "label": "Ishlov berish daqiqlari",
+          "description": "Zal suratini to'liq tozalash siklsi"
         },
         "stat2": {
           "value": "100%",
-          "label": "Odor removal",
-          "description": "Tobacco, kitchen, dampness"
+          "label": "Hidi yo'q qilish",
+          "description": "Tabak, oshxona, namlik"
         },
         "stat3": {
           "value": "+25%",
-          "label": "Stay time",
-          "description": "Guests stay longer"
+          "label": "Turiş vaqti",
+          "description": "Mehmonlar ko'proq qo'nadi"
         },
         "stat4": {
           "value": "0",
-          "label": "Consumables",
-          "description": "Ozone from air"
+          "label": "Isteʼmol vositalari",
+          "description": "Ozon havadan"
         }
       },
       "problems": [
-        "Tobacco and hookah odor — penetrates furniture, curtains, upholstery",
-        "Kitchen odors — grease, spices, fish, garlic",
-        "Damp and mold — especially in basements",
-        "Ventilation odor — grease buildup in ducts",
-        "Restroom odors — enter the hall with poor ventilation",
-        "Bacteria and mold — sources of unpleasant odors",
-        "Household chemical odor — from cleaning agents after cleaning"
+        "Tabak va nargila hidi — mebel, pardalar, qaplotlashga penetratsiya qiladi",
+        "Oshxona hidlari — yog', ziravor, baliq, sarimsoq",
+        "Namlik va ko'plak — ayniqsa podvalda",
+        "Ventilatsiya hidi — kanalarda yog' to'planishi",
+        "Tualet hidlari — yomon ventilatsiya bilan zalga kiradi",
+        "Bakteriyalar va ko'plak — noqulaylik hidlarining manbalari",
+        "Uy kimyoviy hidi — tozalashdan keyin tozalantirish vositalaridan"
       ],
       "zones": {
         "hall": {
-          "title": "Dining hall",
-          "desc": "Removal of tobacco, food and perfume odors. Creating a feeling of freshness and cleanliness for guests."
+          "title": "Ovqat emiş sali",
+          "desc": "Tabak, oziq va parfyum hidlarining yo'q qilishi. Mehmonlar uchun yangi va toza his etishni yaratish."
         },
         "kitchen": {
-          "title": "Kitchen",
-          "desc": "Neutralization of grease deposits in ventilation, frying, fish, spice odors."
+          "title": "Oshxona",
+          "desc": "Ventilatsiyada yog' saytlarining neytrallashtirish, qovuruv, baliq, ziravor hidlari."
         },
         "refrigerators": {
-          "title": "Cold rooms",
-          "desc": "Disinfection without shutdown. 2–3× longer product storage."
+          "title": "Sovuq xonalar",
+          "desc": "O'chiritmasdan dezinfeksiya. 2–3 marta ko'p mahsulot saqlanishi."
         },
         "toilets": {
-          "title": "Restrooms",
-          "desc": "Complete odor removal and bacteria destruction on all surfaces."
+          "title": "Tualet xonalari",
+          "desc": "To'liq hidi yo'q qilish va barcha sirtlarda bakteriyalarni yo'q qilish."
         }
       },
       "sections": {
         "intro": {
-          "text": "Restaurant business is about atmosphere. The smell of a smoky room, stale food or kitchen grease can put off even loyal customers. Research shows that air quality directly affects subconscious perception of service. Ozonation addresses this radically — not masking odors with fragrances but destroying them at the molecular level.",
-          "text2": "Smell is so closely tied to the subconscious that people may not realize why they feel comfortable or not in a venue. They simply say \"liked it\" or \"didn't like it.\" That impression determines whether they return and recommend to friends."
+          "text": "Restoran biznesi atmosferasi haqida. Fumonlash xonasining hidlari, eski oziq yoki oshxona yog'i hatto sadoqli mijozlarni ham bezdirtsa oladi. Tadqiqotlar ko'rsatadi: havo sifati xizmatning ongli fikriga bevosita ta'sir qiladi. Ozonlash bu muammoni radikalyadi hal qiladi — hidlarni xushbo'y bilan niqob qilish emas, balki ularni molekulyar darajada yo'q qilish.",
+          "text2": "Hid ongli his bilan shunchalik bog'langan, ya'ni odamlar joyda o'zlarini qulaylik-qulaysizlik haqidagi sababni tushunmasliklari mumkin. Ular oddiygina \"yoqdi\" yoki \"yoqmadi\" deyshadi. Bu taassurat ularning qaytib kelmasini va do'stlariga tavsiya qilmasini aniqlaydi."
         },
         "factHighlight": {
-          "title": "Fact:",
-          "text": "Most Las Vegas casinos use ozonators. Fresh air increases guest stay time and order volume. Ozone also reduces alcohol's effect on the CNS — clients stay alert longer."
+          "title": "Fakt:",
+          "text": "Las Vegas kazinolarining aksariyati ozonatorlardan foydalanadi. Yangi hava mehmon turiş vaqtini va buyurtma hajmini oshiradi. Ozon markaziy asab tizimida spirtning ta'sirini kamaytiraydi — mijozlar uzoqroq hushyar qoladi."
         },
         "problems": {
-          "title": "Restaurant problems solved by ozonation"
+          "title": "Ozonlash bilan hal qilinadigan restoran muammolari"
         },
         "whyImportant": {
-          "title": "Why odors matter so much",
-          "text": "You can create creative design, hire professional staff, invest in advertising — but an unpleasant smell will negate all efforts. Can a good place smell bad?",
+          "title": "Nima uchun hidlar shuncha muhimdir",
+          "text": "Siz ijodiy dizayn yaratib, professional xodimlar ishga olib, reklama uchun sarmoya kiritishingiz mumkin — lekin noqulaylik hidi barcha harakatlarni bekor qiladi. Yaxshi joy yomon hid bilanoq qolishi mumkinmi?",
           "table": {
-            "caption": "Impact of air quality on business metrics",
+            "caption": "Havo sifatining biznes ko'rsatkich ta'siriga",
             "headers": {
-              "indicator": "Metric",
-              "without": "Without ozonation",
-              "with": "With ozonation"
+              "indicator": "Ko'rsatkich",
+              "without": "Ozonlashsiz",
+              "with": "Ozonlash bilan"
             },
             "rows": {
               "visitTime": {
-                "indicator": "Average visit time",
-                "without": "45 minutes",
-                "with": "55-60 minutes"
+                "indicator": "O'rtacha turiş vaqti",
+                "without": "45 daqiqa",
+                "with": "55-60 daqiqa"
               },
               "repeatVisits": {
-                "indicator": "Repeat visits",
+                "indicator": "Takroriy tashrif",
                 "without": "35%",
                 "with": "52%"
               },
               "cleanlinessRating": {
-                "indicator": "\"Cleanliness\" rating in reviews",
-                "without": "3.8/5",
-                "with": "4.6/5"
+                "indicator": "Sharhda \"Toza\" reytingi",
+                "without": "3,8/5",
+                "with": "4,6/5"
               },
               "odorComplaints": {
-                "indicator": "Odor complaints",
-                "without": "12% of guests",
-                "with": "<1% of guests"
+                "indicator": "Hid shikoyatlari",
+                "without": "12% mehmon",
+                "with": "<1% mehmon"
               },
               "avgCheck": {
-                "indicator": "Average check",
-                "without": "Baseline",
+                "indicator": "O'rtacha hisob",
+                "without": "Bazaviy",
                 "with": "+15-20%"
               }
             }
           }
         },
         "process": {
-          "title": "Restaurant ozonation process",
+          "title": "Restoran ozonlash jarayoni",
           "steps": {
             "closure": {
-              "title": "Closure",
-              "description": "Ozonation is done during off-hours when there are no people in the premises."
+              "title": "Yopilish",
+              "description": "Ozonlash binoda odamlar bo'lmaganda, ishdan chiqish soatlarida amalga oshiriladi."
             },
             "preparation": {
-              "title": "Preparation",
-              "description": "Windows and doors are closed, supply ventilation is turned off for maximum ozone concentration."
+              "title": "Tayorlash",
+              "description": "Oynalar va eshiklar yopiladi, ta'minot ventilatsiyasi maksimal ozon konsentratsiyasi uchun o'chiriladi."
             },
             "ozonation": {
-              "title": "Ozonation",
-              "description": "Ozonator is placed at maximum height. Treatment time: 60-120 minutes depending on volume."
+              "title": "Ozonlash",
+              "description": "Ozonator maksimal balandlikka qo'yiladi. Ishlov berish vaqti: hajmiga qarab 60-120 daqiqa."
             },
             "ventilation": {
-              "title": "Ventilation",
-              "description": "Ventilation is turned on, windows are opened. In 2-3 hours ozone decays to safe levels."
+              "title": "Ventilatsiya",
+              "description": "Ventilatsiya yoqiladi, oynalar ochiladi. 2-3 soatda ozon xavfsiz darajagacha parchalanadi."
             }
           },
           "automation": {
-            "title": "Automation:",
-            "text": "Modern ozonators have weekly timers. You can set automatic start after closing — by morning the air will be perfectly fresh."
+            "title": "Avtomatika:",
+            "text": "Zamonaviy ozonatorlar haftaviy taymerga ega. Siz yopilgandan keyin avtomatik boshlashni o'rnatishingiz mumkin — ertalab havo mutlaqo yangi bo'ladi."
           }
         },
         "zones": {
-          "title": "Application zones in restaurants"
+          "title": "Restoranlarda qo'llanish zonalari"
         },
         "calculation": {
-          "title": "Equipment calculation",
-          "text": "Ozonator capacity is selected at: 1 g/hour per 25 m³ of room volume.",
+          "title": "Asboblar hisoblash",
+          "text": "Ozonator sig'imi tanlash: xona hajmi uchun soatiga 25 m³ dan 1 g.",
           "table": {
-            "caption": "Calculation examples for different venues",
+            "caption": "Har xil joylarda hisoblash misollari",
             "headers": {
-              "type": "Venue type",
-              "area": "Area",
-              "volume": "Volume",
+              "type": "Joy turi",
+              "area": "Maydoni",
+              "volume": "Hajmi",
               "ozonator": "Ozonator"
             },
             "rows": {
               "smallCafe": {
-                "type": "Small cafe",
+                "type": "Kichik kofexona",
                 "area": "40-60 m²",
                 "volume": "120-180 m³",
-                "ozonator": "5-7 g/hour"
+                "ozonator": "5-7 g/soat"
               },
               "mediumRestaurant": {
-                "type": "Medium restaurant",
+                "type": "O'rta restoran",
                 "area": "100-200 m²",
                 "volume": "300-600 m³",
-                "ozonator": "12-24 g/hour"
+                "ozonator": "12-24 g/soat"
               },
               "largeRestaurant": {
-                "type": "Large restaurant/banquet hall",
+                "type": "Katta restoran/banket zali",
                 "area": "300+ m²",
                 "volume": "900+ m³",
-                "ozonator": "36+ g/hour or multiple units"
+                "ozonator": "36+ g/soat yoki bir nechta qurilma"
               },
               "hookahLounge": {
-                "type": "Hookah lounge",
+                "type": "Nargila zali",
                 "area": "50-100 m²",
                 "volume": "150-300 m³",
-                "ozonator": "6-12 g/hour (daily treatment)"
+                "ozonator": "6-12 g/soat (kunlik ishlov berish)"
               }
             }
           }
         },
         "additionalUses": {
-          "title": "Additional ozone applications",
+          "title": "Qo'shimcha ozon qo'llanishlari",
           "items": [
-            "Sterilization of dishes and equipment without chemicals",
-            "Product treatment to extend storage (fish, meat, greens)",
-            "Staff hand disinfection with ozonated water (good for skin)",
-            "Water cleaning in decorative ponds and aquariums",
-            "Post-treatment of tap water to drinking quality",
-            "Mold control in basement premises and storerooms"
+            "Kimyoviy moddalarning ishtirokisiz idish va asboblarning sterilizatsiyasi",
+            "Saqlash vaqti uzaytirish uchun mahsulot ishlov berish (baliq, go'sht, sabzavot)",
+            "Xodimlarning qo'li ozonlashtirilgan suv bilan dezinfeksiyasi (teri uchun yaxshi)",
+            "Dekorativ hovuzlarda va akvariumlarda suv toza qilish",
+            "Kranidagi suvning ichimlik sifatiga ishlov berish",
+            "Podval xonalari va qomorlarda ko'plak nazoratı"
           ],
           "savings": {
-            "title": "Savings:",
-            "text": "One ozonator can treat both air and water. Compact mobile models serve different rooms and solve different tasks."
+            "title": "Tejash:",
+            "text": "Bir ozonator hava va suvni ham ishlov berishi mumkin. Kompakt mobil modellar turli xil xonalarga xizmat qiladi va har xil vazifalarni hal qiladi."
           }
         },
         "benefits": {
-          "title": "Business benefits",
+          "title": "Biznes foydalari",
           "items": [
-            "Higher guest loyalty — comfortable atmosphere is memorable",
-            "Higher average check — fresh air stimulates appetite",
-            "Longer stay time — guests don't rush to leave",
-            "Fewer odor complaints — reputation protection on review sites",
-            "No consumables — ozone is produced from air",
-            "Automatic operation — minimal staff involvement"
+            "Mehmon sadoqatining kuchayishi — qulay atmosfera esda qoladi",
+            "O'rtacha hisob yuqoriroq — yangi hava ishtahani boshqarib",
+            "Turiş vaqti ko'tarilishi — mehmonlar tez ketib turmaydilari",
+            "Hid shikoyatlari kamaydi — sharhlar saytlarida reputatsiya muhofazasi",
+            "Isteʼmol vositalari yo'q — ozon havadan istehso qilinadi",
+            "Avtomatik ishlash — xodimlarning minimal qatnashmasi"
           ]
         }
       }
     },
     "laundries": {
-      "title": "Commercial laundries",
-      "shortDesc": "Cold-water washing with full disinfection",
-      "heroTitle": "Laundry ozonation",
-      "heroDesc": "Cold-water washing with full disinfection. Up to 70% savings on energy and chemicals.",
-      "content": "Water ozonation in laundries is an advanced technology that significantly reduces detergent, hot water and energy use, and extends linen life and shortens wash time. Ozone dissolves in water and replaces part of the chemicals.\n\nThis is a fundamental change in washing: you replace harsh chemistry with something that works much better. So much better that water and time use can also be reduced.\n\nOzone is a strong oxidizer. With a small amount of alkali, cold water and detergent you can achieve cleaning and brightness equal to or better than chlorine and hot water.\n\nThe colder the water, the more stable ozone is and the longer it works. Above 95°C ozone loses effectiveness due to faster decay.",
+      "title": "Tijorat kir yuvish xonalari",
+      "shortDesc": "Sovuq suvda to'liq dezinfeksiya bilan yuvish",
+      "heroTitle": "Kir yuvish ozonlashi",
+      "heroDesc": "Sovuq suvda to'liq dezinfeksiya bilan yuvish. Energiya va kimyoviy moddalar bo'yicha 70% gacha tejash.",
+      "content": "Kir yuvish xonalarida suv ozonlashi tozalanji vositalari, issiq suv va energiya ishlatishini sezilarli kamaytiradigan, kir hayotini uzaytiradigan va yuvish vaqtini qisqartiradigan ilg'or texnologiyadir. Ozon suvda eriladi va kimyoviy moddalarning bir qismini almashtiraydi.\n\nBu yuvishning asosiy o'zgarishi: siz qat'iy kimyoviyni ancha yaxshi ishlaydiganiga almashtirasiz. Shunday darajada yaxshiki, suv va vaqt ishlatishini ham kamaytirib bo'ladi.\n\nOzon kuchli oksidlovchi. Kam miqdordagi qamira, sovuq suv va tozalantiruvchi bilan siz xlor va issiq suv bilan teng yoki undan yaxshi toza va porloq qilishi mumkin.\n\nSuv qancha sovuq bo'lsa, ozon shuncha barqaror bo'ladi va uzoqroq ishlaydi. 95°C dan yuqorida ozon tezroq parchalanish tufayli samaradorligini yo'qotadi.",
       "benefits": [
-        "70–100% savings on water heating",
-        "30–50% savings on detergents",
-        "20–40% less water use",
-        "Full disinfection at low temperatures",
-        "Up to 30% longer linen life",
-        "Treatment of delicate items without damage"
+        "Su qizitish tejashi 70–100%",
+        "Tozalangich tejashi 30–50%",
+        "Suv ishlatish 20–40% kamaydi",
+        "Düşük haroratda to'liq dezinfeksiya",
+        "Kir hayoti 30% gacha ko'tariladi",
+        "Shaxsiy bo'lmagan kirlarni niqobsiz ishlov berish"
       ],
       "stats": {
         "energySaving": "70-100%",
-        "energySavingLabel": "Heating savings",
-        "energySavingDesc": "Cold-water washing",
+        "energySavingLabel": "Qizitish tejashi",
+        "energySavingDesc": "Sovuq suvda yuvish",
         "chemistrySaving": "30-50%",
-        "chemistrySavingLabel": "Chemical savings",
-        "chemistrySavingDesc": "Less detergent and bleach",
+        "chemistrySavingLabel": "Kimyoviy tejashi",
+        "chemistrySavingDesc": "Kamroq tozalantiruvchi va oqartgich",
         "linenLife": "+30%",
-        "linenLifeLabel": "Linen life",
-        "linenLifeDesc": "Without harsh chemicals and heating",
+        "linenLifeLabel": "Kir hayoti",
+        "linenLifeDesc": "Qat'iy kimyoviy va qizitmasdan",
         "disinfection": "99.9%",
-        "disinfectionLabel": "Disinfection",
-        "disinfectionDesc": "Even in cold water"
+        "disinfectionLabel": "Dezinfeksiya",
+        "disinfectionDesc": "Hatto sovuq suvda ham"
       },
       "sections": {
         "intro": {
-          "text": "Water ozonation in laundries is an advanced technology that significantly reduces detergent, hot water and energy use, and extends linen life and shortens wash time. Ozone dissolves in water and replaces part of the chemicals, ensuring superior cleaning quality.",
-          "text2": "This is a fundamental change in washing: you replace harsh chemistry with something that works much better. So much better that water and time use can also be reduced while achieving superior results."
+          "text": "Kir yuvish xonalarida suv ozonlashi tozalanji vositalari, issiq suv va energiya ishlatishini sezilarli kamaytiradigan, kir hayotini uzaytiradigan va yuvish vaqtini qisqartiradigan ilg'or texnologiyadir. Ozon suvda eriladi va kimyoviy moddalarning bir qismini almashtiraydi, yuqori toza sifatini ta'minlab.",
+          "text2": "Bu yuvishning asosiy o'zgarishi: siz qat'iy kimyoviyni ancha yaxshi ishlaydiganiga almashtirasiz. Shunday darajada yaxshiki, suv va vaqt ishlatishini kamaytirib, yuqori natijalarni qila olasiz."
         },
         "highlight1": {
-          "title": "How it works:",
-          "text": "Ozone is a strong oxidizer. With a small amount of alkali, cold water and detergent you can achieve cleaning and brightness equal to or better than chlorine and hot water."
+          "title": "Qanday ishlaydi:",
+          "text": "Ozon kuchli oksidlovchi. Kam miqdordagi qamira, sovuq suv va tozalantiruvchi bilan siz xlor va issiq suv bilan teng yoki undan yaxshi toza va porloq qilishi mumkin."
         },
         "economicEffects": {
-          "title": "Economic effects",
-          "comparisonTitle": "Comparison of traditional and ozone washing",
-          "headers": ["Parameter", "Ozone washing", "Traditional"],
+          "title": "Iqtisodiy ta'sirlar",
+          "comparisonTitle": "An'anaviy va ozon yuvishining taqqoslash",
+          "headers": ["Parametr", "Ozon yuvish", "An'anaviy"],
           "rows": [
             {
-              "parameter": "Water temperature",
-              "value1": "Cold (15-25°C)",
-              "value2": "Hot (60-90°C)"
+              "parameter": "Suv harorati",
+              "value1": "Sovuq (15-25°C)",
+              "value2": "Issiq (60-90°C)"
             },
             {
-              "parameter": "Electricity consumption",
-              "value1": "70-100% less",
-              "value2": "Baseline"
+              "parameter": "Elektr energiya ishlatish",
+              "value1": "70-100% kamroq",
+              "value2": "Bazaviy"
             },
             {
-              "parameter": "Detergent consumption",
-              "value1": "30-50% less",
-              "value2": "Baseline"
+              "parameter": "Tozalantiruvchi ishlatish",
+              "value1": "30-50% kamroq",
+              "value2": "Bazaviy"
             },
             {
-              "parameter": "Water consumption",
-              "value1": "20-40% less",
-              "value2": "Baseline"
+              "parameter": "Suv ishlatish",
+              "value1": "20-40% kamroq",
+              "value2": "Bazaviy"
             },
             {
-              "parameter": "Linen wear",
+              "parameter": "Kir kulrang",
               "value1": "Minimal",
-              "value2": "Increased"
+              "value2": "Ko'paygan"
             },
             {
-              "parameter": "Disinfection",
+              "parameter": "Dezinfeksiya",
               "value1": "99.9%",
               "value2": "95-98%"
             }
           ]
         },
         "coldWater": {
-          "title": "Why cold water is more effective",
-          "text": "Washing quality depends on 4 factors: water temperature, chemicals, wash time and mechanical action. Using ozone, you can replace chemistry and temperature with a more effective solution.",
+          "title": "Nima uchun sovuq suv samaradorroq",
+          "text": "Yuvish sifati 4 omilga bog'liq: suv harorati, kimyoviy moddalar, yuvish vaqti va mexanik harakat. Ozondan foydalanib, siz kimyoviy va haroratni yanada samaradorroq yechim bilan almashtirishingiz mumkin.",
           "items": [
-            "Ozone creates hydroxyl radicals (OH) at pH 8 in cold water — the same as at high pH with hot water",
-            "The colder the water, the more stable ozone is and the longer it works",
-            "Above 95°C ozone loses effectiveness due to faster decay",
-            "Cold water does not damage fabric fibers — linen lasts longer",
-            "Absence of chlorine bleach with hot water prevents chemical reactions that damage fabric"
+            "Ozon sovuq suvda pH 8 da hidroksil radikallarini (OH) yaratadi — issiq suvda yuqori pH bilan bir xil",
+            "Suv qancha sovuq bo'lsa, ozon shuncha barqaror bo'ladi va uzoqroq ishlaydi",
+            "95°C dan yuqorida ozon tezroq parchalanish tufayli samaradorligini yo'qotadi",
+            "Sovuq suv to'qima tolalarni shikast bermaydi — kir uzoqroq davom etadi",
+            "Issiq suvdagi xlor oqartgichning yo'qligi to'qimani shikast beradigan kimyoviy reaktsiyalarini oldini oladi"
           ]
         },
         "process": {
-          "title": "Technological process",
-          "tableCaption": "Comparison of washing components",
-          "tableHeaders": ["Traditional laundry", "Ozone laundry"],
+          "title": "Texnoloji jarayon",
+          "tableCaption": "Yuvish komponentlarining taqqoslash",
+          "tableHeaders": ["An'anaviy kir yuvish", "Ozon kir yuvish"],
           "tableRows": [
-            ["Hot water", "Cold water"],
-            ["Alkali", "Ozone"],
-            ["Detergent", "Detergent (less)"],
-            ["Acid (neutralization)", "—"],
-            ["Bleach", "—"]
+            ["Issiq suv", "Sovuq suv"],
+            ["Qamira", "Ozon"],
+            ["Tozalantiruvchi", "Tozalantiruvchi (kamroq)"],
+            ["Kislota (neytrallashtirish)", "—"],
+            ["Oqartgich", "—"]
           ],
-          "text": "Ozone spontaneously decomposes to oxygen and does not require removal unlike traditional chemicals. This allows reducing the number of rinses by 20-40%."
+          "text": "Ozon o'z-o'zidan kislorodga parchalanadi va an'anaviy kimyoviy moddalardan farqli o'laroq olib chiqilishni talab qilmaydi. Bu rinselash sonini 20-40% kamaytirishga imkon beradi."
         },
         "benefits": {
-          "title": "Benefits of ozonation in laundries",
+          "title": "Kir yuvish xonalarida ozonlashning foydalari",
           "items": [
             {
-              "title": "Energy savings",
-              "description": "70-100% reduction in water heating costs. Complete washing in cold water."
+              "title": "Energiya tejashi",
+              "description": "Su qizitish xarcharalarini 70-100% kamayirish. Sovuq suvda to'liq yuvish."
             },
             {
-              "title": "Improved disinfection",
-              "description": "Ozone effectively destroys viruses and bacteria even at low temperatures."
+              "title": "Dezinfeksiyaning yaxshillanishi",
+              "description": "Ozon buzgun haroratda ham viruslar va bakteriyalarni samarali yo'q qiladi."
             },
             {
-              "title": "Softer linen",
-              "description": "No chemicals remain in fibers. Linen becomes softer."
+              "title": "Yumshoq kir",
+              "description": "Tolalarda kimyoviy qoldiq yo'q. Kir yumshoq bo'ladi."
             },
             {
-              "title": "Better whitening",
-              "description": "Strong oxidizing properties of ozone ensure brightness without chlorine."
+              "title": "Yaxshiroq oqartirish",
+              "description": "Ozonning kuchli oksidlovchi xususiyatlari xlorsi bo'lmasdan yorug'likni ta'minlab."
             }
           ]
         },
         "ozoneClosets": {
-          "title": "Ozone cabinets for dry cleaners",
-          "desc": "Dry cleaners use ozone cabinets — sealed chambers filled with high-concentration ozone. As a gas, ozone penetrates the densest fabrics and hard-to-reach areas.",
+          "title": "Quruq temirlash uchun ozon shkafi",
+          "desc": "Quruq temirlovchilar ozon shkaflaridan foydalanadi — yuqori konsentratsiyada ozon bilan to'ldirilgan mo'hlangan kameralar. Gaz bo'lgani uchun, ozon eng zichlik to'qimlarga va qo'l yetmaydigan joylarga penetratsiya qiladi.",
           "steps": [
             {
-              "title": "Treatment of delicate items",
-              "description": "Theatrical costumes, vintage, fur coats, leather jackets, motorcycle helmets, hockey gear. No mechanical action or heating — minimal risk of damage."
+              "title": "Nozik buyumlarni ishlov berish",
+              "description": "Teatr kostyumlari, antikvar, turali palto, charm jaketlar, motor kokteli, xokkey asbob. Mexanik harakat yoki qizitmasdan — shikast etish xavfi minimal."
             },
             {
-              "title": "Odor removal (deodorization)",
-              "description": "Fire smoke, ingrained tobacco smoke, biological odors, animal odors, mustiness. Ozone destroys the cause of odor at the molecular level."
+              "title": "Hidi yo'q qilish (dezodoratsiya)",
+              "description": "Olov tutuni, qo'zg'algan tabaka tutuni, biologik hidlar, hayvon hidlari, changa qo'zg'algan. Ozon hid sabab molekulyar darajada yo'q qiladi."
             },
             {
-              "title": "Disinfection",
-              "description": "Destroys cell membranes of bacteria, virus envelopes and fungal spores. Ideal for children's items and bedding."
+              "title": "Dezinfeksiya",
+              "description": "Bakteriyalarning hujayra membranalarini, virus qobiqlarini va qo'ziqorin sporsini yo'q qiladi. Bolalar buyumlar va to'shak kiyimi uchun ideal."
             },
             {
-              "title": "Monetization",
-              "description": "Service is sold as an additional option (upsell) or as a separate VIP service. Cycle cost is minimal."
+              "title": "Daromad yaratish",
+              "description": "Xizmat qo'shimcha variant (nisbiy sotuvlar) yoki alohida VIP xizmat sifatida sotiladi. Sikl narxi minimal."
             }
           ]
         },
         "equipment": {
-          "title": "Equipment selection",
-          "tableHeaders": ["Laundry type", "Recommended equipment", "Cost"],
+          "title": "Asboblarni tanlash",
+          "tableHeaders": ["Kir yuvish turi", "Tavsiya qilingan asbob", "Narxi"],
           "tableRows": [
-            ["Small laundry", "Ozone generator 5 g/h", "from 250,000 ₽"],
-            ["Hotel laundry", "Ozone generator 10 g/h", "from 320,000 ₽"],
-            ["Commercial laundry", "Ozone generator 20 g/h", "from 420,000 ₽"],
-            ["Dry cleaner (700L cabinet)", "Ozone cabinet OZ-1S", "from 420,000 ₽"],
-            ["Dry cleaner (1400L cabinet)", "Ozone cabinet OZ-2S", "from 500,000 ₽"]
+            ["Kichik kir yuvish", "Ozon generatori 5 g/h", "250.000 ₽ dan"],
+            ["Mehmonxona kir yuvish", "Ozon generatori 10 g/h", "320.000 ₽ dan"],
+            ["Tijorat kir yuvish", "Ozon generatori 20 g/h", "420.000 ₽ dan"],
+            ["Quruq temirlovchi (700L shkaf)", "Ozon shkafi OZ-1S", "420.000 ₽ dan"],
+            ["Quruq temirlovchi (1400L shkaf)", "Ozon shkafi OZ-2S", "500.000 ₽ dan"]
           ],
-          "highlightTitle": "Important:",
-          "highlightText": "Ozone generator capacity calculation depends on contamination volume, water quality and equipment specifications. A pilot project may be required for accurate selection."
+          "highlightTitle": "Muhim:",
+          "highlightText": "Ozon generatori sig'imini hisoblash ifloslanish hajmi, suv sifati va asboblar xususiyatlariga bog'liq. Aniq tanlash uchun pilot loyiha talab qilinishi mumkin."
         },
         "limitations": {
-          "title": "Technology limitations",
-          "text": "In some cases, a small amount of hot water will still need to be used. Cold water is not suitable for working with greasy stains (lipstick, shoe polish, ink) due to the physical nature of fat at low temperatures.",
+          "title": "Texnologiya cheklovlari",
+          "text": "Ba'zi hollarda issiq suvning kichik miqdori hali ham kerak bo'lishi mumkin. Sovuq suv yog'li dog'lar (gullo, oyoq poyabzali, siyoh sumi) bilan ishlash uchun mos emas, chunki yuqori haroratda yog'ning fizik tabiati.",
           "items": [
-            "Heavily soiled linen with greasy stains requires a separate program with hot fill",
-            "Such loads usually make up a very small percentage of total volume",
-            "For the remaining 90%+ of linen, ozone washing in cold water is the optimal solution"
+            "Og'ir yog' dog'lar bilan ifloslangan kir alohida yog'li to'ldirish dasturi talab qiladi",
+            "Bunday yuklar odatiy tom hajmning faqat juda kichik foizini tashkil etadi",
+            "Qolgan 90%+ kir uchun ozon yuvish sovuq suvda optimal yechimdir"
           ]
         },
         "roi": {
-          "title": "ROI and payback",
+          "title": "Qaytib berish va to'lash",
           "items": [
-            "50-70% reduction in electricity bills (water heating is the main expense)",
-            "30-50% savings on detergents and bleaches",
-            "30%+ extension of linen life (fewer replacements)",
-            "Reduced wash time — more cycles per day",
-            "Typical payback period: 12-18 months"
+            "Elektr hisob raqamlarini 50-70% kamayirish (suv qizitish asosiy xaraja)",
+            "Tozalantiruvchi va oqartgich bo'yicha 30-50% tejash",
+            "Kir hayoti 30%+ uzayishi (kamroq almashtirish)",
+            "Kamroq yuvish vaqti — kuniga ko'p sikllar",
+            "Tipik to'lash muddati: 12-18 oy"
           ]
         }
       },
       "ozoneClosets": {
-        "title": "Ozone cabinets for dry cleaners",
-        "desc": "Dry cleaners use ozone cabinets — sealed chambers filled with high-concentration ozone. As a gas, ozone penetrates the densest fabrics and hard-to-reach areas.",
+        "title": "Quruq temirlash uchun ozon shkafi",
+        "desc": "Quruq temirlovchilar ozon shkaflaridan foydalanadi — yuqori konsentratsiyada ozon bilan to'ldirilgan mo'hlangan kameralar. Gaz bo'lgani uchun, ozon eng zichlik to'qimlarga va qo'l yetmaydigan joylarga penetratsiya qiladi.",
         "features": [
-          "Treatment of delicate items: theatrical costumes, vintage, fur coats, leather jackets",
-          "Odor removal: fire smoke, tobacco, biological odors, pet odors",
-          "Disinfection: destroys bacteria, viruses and fungal spores",
-          "Monetization: sold as VIP service at minimal cost"
+          "Nozik buyumlarni ishlov berish: teatr kostyumlari, antikvar, turali palto, charm jaketlar",
+          "Hidi yo'q qilish: olov tutuni, tabaka, biologik hidlar, hayvon hidlari",
+          "Dezinfeksiya: bakteriyalar, viruslar va qo'ziqorin sporsini yo'q qiladi",
+          "Pul kiritish: minimal narxda VIP xizmat sifatida sotiladi"
         ]
       }
     },
     "tobacco-hookah": {
-      "title": "Hookah lounges and tobacco",
-      "shortDesc": "Removal of ingrained smoke odor",
-      "heroTitle": "Hookah lounge and tobacco ozonation",
-      "heroDesc": "Chemical removal of ingrained smoke odor. Not masking — full neutralization in 60–120 minutes.",
-      "content": "Ingrained, aged cigarette and hookah odor can put off visitors. Even in hookah lounges where guests like fresh hookah aroma, there is a problem: when smoke soaks into furniture and upholstery, aromatic additives evaporate quickly, leaving only unpleasant smoke and tar odor.\n\nOzonation is the only effective method for chemically removing such odors rather than masking them with fragrances. Ozone oxidizes odor molecules to water and carbon dioxide or to odorless oxidation products.\n\nTobacco and hookah smoke contain tars that penetrate porous materials: fabrics, wood, upholstery, ceiling tiles, carpets. Over time these substances accumulate and create a persistent unpleasant odor.\n\nRegular ozonation during off-hours keeps the air fresh. With correct start and end times, ozone dissipates before staff arrive.",
+      "title": "Nargila zallari va tabak",
+      "shortDesc": "O'qib turgan hidi yo'q qilish",
+      "heroTitle": "Nargila zali va tabak ozonlashi",
+      "heroDesc": "O'qib turgan hidi kimyoviy yo'q qilish. Maskalamasdan — to'liq neytrallashtirish 60–120 daqiqada.",
+      "content": "O'qib turgan, eskilashgan sigareta va nargila hidi tashrif qiluvchilarni bezdirtsa oladi. Hatto nargila zallarida mehmonlar yangi nargila aromasi yoqsa ham, muammo bor: tutun mebel va qaplotlashga sutkaga kirganda, aromat qo'shimchalar tez poyab, faqat noqulaylik tutun va qatron hidi qoladi.\n\nOzonlash bunday hidlarni maskalamasdan, balki kimyoviy yo'q qilishning yagona samarali usuli. Ozon hid molekulalarni suv va karbon dioksidga yoki hidsi bo'lmagan oksidlash mahsulotlariga oksidlaydi.\n\nTabaka va nargila tutuni tar o'z ichiga oladi, ular to'qimlarga penetratsiya qiladi: to'qimalar, yog'och, qaplotlash, plita, gilam. Vaqt o'tishi bilan bu moddalar to'planadi va doimiy noqulaylik hidi yaratadi.\n\nMuntazam ozonlash ishdan chiqish soatlarida hava yangi qoladi. To'g'ri boshlash va tugash vaqti bilan, ozon xodimlar kelishidan oldin poyab.",
       "benefits": [
-        "Chemical removal, not odor masking",
-        "Penetration into hard-to-reach areas",
-        "Treatment of textiles and furniture",
-        "Automatic operation on timer",
-        "No consumables",
-        "Decay to oxygen in 2–3 hours"
+        "Kimyoviy yo'q qilish, maskallash emas",
+        "Qo'l yetmaydigan joylarni penetratsiya",
+        "To'qimalar va mebel ishlov berish",
+        "Taymer bilan avtomatik ishlash",
+        "Isteʼmol vositalari yo'q",
+        "2–3 soatda kislorodga parchalanishi"
       ],
       "stats": {
         "processingTime": "60-120",
-        "processingTimeLabel": "Minutes of treatment",
+        "processingTimeLabel": "Ishlov berish daqiqlari",
         "odorRemoval": "100%",
-        "odorRemovalLabel": "Odor removal",
+        "odorRemovalLabel": "Hidi yo'q qilish",
         "ventilationTime": "2-3",
-        "ventilationTimeLabel": "Hours ventilation"
+        "ventilationTimeLabel": "Ventilatsiya soatlari"
       },
       "odorSources": [
-        "Textiles (curtains, upholstery, cushions) — main odor reservoir",
-        "Upholstered furniture — tars penetrate filling",
-        "Ceiling materials — especially porous types",
-        "Ventilation ducts — pollutant buildup",
-        "Hard-to-reach areas — crevices, seams, cavities"
+        "To'qimalar (pardalar, qaplotlash, yostiqlar) — asosiy hidi xonjiragi",
+        "Qaplotilgan mebel — qatron tolalarni penetratsiya qiladi",
+        "Plita materiallar — ayniqsa meskitlilar",
+        "Ventilatsiya kanallar — ifloslanish to'planishi",
+        "Qo'l yetmaydigan joylar — teschaliklar, tikishlar, bo'shliklari"
       ],
       "modes": {
-        "title": "Treatment modes",
-        "tableHeaders": ["Mode", "Time", "Frequency", "Result"],
+        "title": "Ishlov berish rejim",
+        "tableHeaders": ["Rejim", "Vaqt", "Chastotasi", "Natija"],
         "daily": {
-          "title": "Daily prevention",
-          "time": "60 minutes",
-          "frequency": "Every night",
-          "result": "Maintain freshness"
+          "title": "Kunlik oldini olish",
+          "time": "60 daqiqa",
+          "frequency": "Har kecha",
+          "result": "Yangilikiini saqlash"
         },
         "intensive": {
-          "title": "After busy evening",
-          "time": "90-120 minutes",
-          "frequency": "As needed",
-          "result": "Deep cleaning"
+          "title": "Shoshqaloq kechdan keyin",
+          "time": "90-120 daqiqa",
+          "frequency": "Kerak bo'lganda",
+          "result": "Chuqur tozalash"
         },
         "deepClean": {
-          "title": "Aged odor",
-          "time": "2-3 hours",
-          "frequency": "3-5 days in a row",
-          "result": "Complete removal"
+          "title": "Eskilashgan hidi",
+          "time": "2-3 soat",
+          "frequency": "Ketma-ket 3-5 kun",
+          "result": "To'liq yo'q qilish"
         }
       },
       "sections": {
         "benefits": {
-          "title": "Benefits"
+          "title": "Foydalari"
         }
       }
     },
     "secondhand": {
-      "title": "Secondhand stores",
-      "shortDesc": "Removal of characteristic clothing odor",
-      "heroTitle": "Secondhand store ozonation",
-      "heroDesc": "Removal of characteristic clothing odor. Customer comfort and higher sales.",
-      "content": "The characteristic odor of clothing in secondhand stores comes from mandatory disinfection. Before sale, items are treated with formaldehyde or methyl bromide gas to kill viruses and bacteria. The disinfectants dissipate by the time clothes reach the shelves, but the characteristic smell remains.\n\nThis odor is the main retail problem in secondhand. It fills the whole store and triggers unpleasant associations with worn clothing. Some customers spend less time in the store because of discomfort.\n\nOdor affects perceived product quality. Customers subconsciously pay less for items with an unpleasant smell, even if they are in excellent condition.\n\nRegular clothing ozonation effectively removes the odor and freshens the store air. Ozonation is done during off-hours for 1–3 hours. The gas penetrates all crevices and corners, treating all merchandise.",
+      "title": "Ikkinchi qo'l do'konlar",
+      "shortDesc": "Kiyim xarakterli hidini yo'q qilish",
+      "heroTitle": "Ikkinchi qo'l do'kon ozonlashi",
+      "heroDesc": "Kiyim xarakterli hidini yo'q qilish. Mijoz qulayligi va yuqori sotuvlar.",
+      "content": "Ikkinchi qo'l do'konlarida kiyimlarning xarakterli hidi majburiy dezinfeksiyadan keladi. Sotuvdan oldin, buyumlar viruslar va bakteriyalarni o'ldirish uchun formaldegid yoki metil bromid gazisiga ishlov beriladi. Dezinfeksiyalar kiyimlar polkalarga yetib kelganda poyab, lekin xarakterli hid qoladi.\n\nBu hidi ikkinchi qo'lda asosiy mahdiyatdir. U butun do'konda poyab va kiyilgan kiyimga noqulaylik assosiatsiyalarni keltirib chiqaradi. Ba'zi mijozlar qulaysizlik tufayli do'konda kamroq vaqt o'tkazadi.\n\nHid o'zgartirilgan mahsulot sifatiga ta'sir qiladi. Mijozlar ongli bo'lmagan holda noqulaylik hidli buyumlar uchun kamroq pul to'layshadi, hatto ular ajoyib holatda bo'lsa ham.\n\nMuntazam kiyim ozonlashi hidi samarali yo'q qiladi va do'kon havasini yangilaydi. Ozonlash ishdan chiqish soatlarida 1–3 soat amalga oshiriladi. Gaz barcha teschalik va burchaklarga kirib, barcha tovarlar ishlov beriladi.",
       "benefits": [
-        "Complete removal of characteristic odor",
-        "Treatment of all merchandise at once",
-        "Disinfection from bacteria and mites",
-        "Higher product appeal",
-        "Customer comfort in store",
-        "Automatic treatment at night"
+        "Xarakterli hidini to'liq yo'q qilish",
+        "Barcha tovarlarni bir vaqtda ishlov berish",
+        "Bakteriyalar va chayniqlardan dezinfeksiya",
+        "Tovarlarning yuqori jozibasi",
+        "Do'konda mijoz qulayligi",
+        "Kechuning avtomatik ishlov berish"
       ],
       "stats": {
         "processingTime": "1-3",
-        "processingTimeLabel": "Hours of treatment",
-        "processingTimeDesc": "Night treatment",
+        "processingTimeLabel": "Ishlov berish soatlari",
+        "processingTimeDesc": "Kecha ishlov berish",
         "odorRemoval": "100%",
-        "odorRemovalLabel": "Odor removal",
-        "odorRemovalDesc": "Chemical neutralization",
+        "odorRemovalLabel": "Hidi yo'q qilish",
+        "odorRemovalDesc": "Kimyoviy neytrallashtirish",
         "stayIncrease": "+30%",
-        "stayIncreaseLabel": "Time in store",
-        "stayIncreaseDesc": "Customer comfort",
+        "stayIncreaseLabel": "Do'konda vaqt",
+        "stayIncreaseDesc": "Mijoz qulayligi",
         "disinfection": "99.9%",
-        "disinfectionLabel": "Disinfection",
-        "disinfectionDesc": "Bacteria and mites"
+        "disinfectionLabel": "Dezinfeksiya",
+        "disinfectionDesc": "Bakteriyalar va chayniqlar"
       },
       "businessImpact": {
         "visitTime": {
-          "before": "12 minutes",
-          "after": "18-20 minutes"
+          "before": "12 daqiqa",
+          "after": "18-20 daqiqa"
         },
         "conversion": {
           "before": "15%",
           "after": "22%"
         },
         "avgCheck": {
-          "before": "Baseline",
+          "before": "Bazaviy",
           "after": "+15-25%"
         },
         "repeatVisits": {
@@ -634,45 +634,45 @@
         }
       },
       "advantages": [
-        "Higher product appeal — items perceived as better quality",
-        "Destruction of dust mites — important for allergy sufferers",
-        "Room disinfection — infection spread prevention",
-        "Mold removal — relevant for basement premises",
-        "Marketing advantage — odor-free secondhand store"
+        "Tovarlarning yuqori jozibasi — buyumlar yaxshi sifat deb qabul qilinadi",
+        "Chang chayniqlarining yo'q qilishi — allergiyachi uchun muhimdir",
+        "Xona dezinfeksiyasi — infeksiya uzatishini oldini olish",
+        "Ko'plak yo'q qilish — podval xonalar uchun relevantan",
+        "Marketing afzalligi — hidsi bo'lmagan ikkinchi qo'l do'kon"
       ],
       "sections": {
         "intro": {
-          "p1": "The characteristic odor of clothing in secondhand stores comes from mandatory disinfection. Before sale, items are treated with formaldehyde or methyl bromide gas to kill viruses and bacteria. The disinfectants dissipate by the time clothes reach the shelves, but the characteristic smell remains.",
-          "p2": "This odor is the main retail problem in secondhand. It fills the whole store and triggers unpleasant associations with worn clothing. Some customers spend less time in the store because of discomfort, which directly affects sales volume."
+          "p1": "Ikkinchi qo'l do'konlarida kiyimlarning xarakterli hidi majburiy dezinfeksiyadan keladi. Sotuvdan oldin, buyumlar viruslar va bakteriyalarni o'ldirish uchun formaldegid yoki metil bromid gazisiga ishlov beriladi. Dezinfeksiyalar kiyimlar polkalarga yetib kelganda poyab, lekin xarakterli hidi qoladi.",
+          "p2": "Bu hidi ikkinchi qo'lda asosiy mahdiyatdir. U butun do'konda poyab va kiyilgan kiyimga noqulaylik assosiatsiyalarni keltirib chiqaradi. Ba'zi mijozlar qulaysizlik tufayli do'konda kamroq vaqt o'tkazadi, bu to'g'ridan-to'g'ri sotuvlar hajmiga ta'sir qiladi."
         },
         "businessProblem": {
-          "title": "Business problem:",
-          "text": "Odor affects perceived product quality. Customers subconsciously pay less for items with an unpleasant smell, even if they are in excellent condition."
+          "title": "Biznes muammosi:",
+          "text": "Hid o'zgartirilgan mahsulot sifatiga ta'sir qiladi. Mijozlar ongli bo'lmagan holda noqulaylik hidli buyumlar uchun kamroq pul to'layshadi, hatto ular ajoyib holatda bo'lsa ham."
         },
         "businessImpact": {
-          "title": "Impact of odor on sales",
+          "title": "Hidning sotuvlar ta'siriga",
           "table": {
-            "caption": "How odor affects business metrics",
+            "caption": "Hid biznes ko'rsatchlarga qanday ta'sir qiladi",
             "headers": {
-              "indicator": "Metric",
-              "without": "With odor",
-              "with": "After ozonation"
+              "indicator": "Ko'rsatchi",
+              "without": "Hid bilan",
+              "with": "Ozonlashdan keyin"
             },
             "rows": {
               "visitTime": {
-                "indicator": "Average visit time"
+                "indicator": "O'rtacha turiş vaqti"
               },
               "conversion": {
-                "indicator": "Conversion to purchase"
+                "indicator": "Sotuvga o'tish"
               },
               "avgCheck": {
-                "indicator": "Average check"
+                "indicator": "O'rtacha hisob"
               },
               "repeatVisits": {
-                "indicator": "Repeat visits"
+                "indicator": "Takroriy tashrif"
               },
               "odorComplaints": {
-                "indicator": "Negative reviews about odor",
+                "indicator": "Hid haqidagi salbiy sharhlar",
                 "without": "35%",
                 "with": "<5%"
               }
@@ -680,173 +680,173 @@
           }
         },
         "benefits": {
-          "title": "Benefits of ozonation",
+          "title": "Ozonlashning foydalari",
           "items": {
             "odorRemoval": {
-              "title": "Complete odor removal",
-              "description": "Ozone neutralizes disinfectant molecules rather than masking them. Result — fresh air."
+              "title": "To'liq hidi yo'q qilish",
+              "description": "Ozon dezinfeksiyant molekulalarni maskalamasdan neytrallab. Natija — yangi hava."
             },
             "noUnloading": {
-              "title": "Treatment without unloading",
-              "description": "All merchandise is treated simultaneously, no need to remove items from hangers."
+              "title": "Tovar yechilmasi",
+              "description": "Barcha tovarlar bir vaqtda ishlov beriladi, buyumlarni osilishdan olib chiqish shart emas."
             },
             "additionalDisinfection": {
-              "title": "Additional disinfection",
-              "description": "Ozone destroys bacteria, viruses and dust mites — additional quality guarantee."
+              "title": "Qo'shimcha dezinfeksiya",
+              "description": "Ozon bakteriyalar, viruslar va chang chayniqlarini yo'q qiladi — qo'shimcha sifat kafolati."
             },
             "customerComfort": {
-              "title": "Customer comfort",
-              "description": "Pleasant atmosphere in store = more time to choose = more purchases."
+              "title": "Mijoz qulayligi",
+              "description": "Do'konda yoqimli atmosfera = tanlash uchun ko'proq vaqt = ko'proq sotuvlar."
             }
           }
         },
         "process": {
-          "title": "Ozonation process",
+          "title": "Ozonlash jarayoni",
           "steps": {
             "preparation": {
-              "title": "Room preparation",
-              "description": "Store closes. Windows and doors closed. Supply ventilation turned off for maximum ozone concentration."
+              "title": "Xona tayorlash",
+              "description": "Do'kon yopiladi. Oynalar va eshiklar yopiladi. Ta'minot ventilatsiyasi maksimal ozon konsentratsiyasi uchun o'chiriladi."
             },
             "placement": {
-              "title": "Ozonator placement",
-              "description": "Wall-mounted ozonator placed 40-60 cm from ceiling. Mobile — at maximum height."
+              "title": "Ozonator qo'yish",
+              "description": "Devoqaga o'rnatilgan ozonator shiftdan 40-60 sm yuqorida qo'yiladi. Mobil — maksimal balandlikta."
             },
             "ozonation": {
-              "title": "Ozonation",
-              "description": "Treatment mode activated for 1-3 hours depending on room volume."
+              "title": "Ozonlash",
+              "description": "Xona hajmiga qarab ishlov berish rejimi 1-3 soatga faollashtiriladi."
             },
             "ventilation": {
-              "title": "Ventilation or waiting",
-              "description": "For night treatment, ventilation is not needed — ozone dissipates on its own in 2-3 hours. By store opening, only a light freshness smell remains."
+              "title": "Ventilatsiya yoki kutish",
+              "description": "Kecha ishlov berish uchun ventilatsiya kerak emas — ozon o'z-o'zidan 2-3 soatda poyab. Do'kon ochilganda, faqat ringli yangiligi qoladi."
             }
           }
         },
         "calculation": {
-          "title": "Equipment calculation",
-          "text": "Ozonator capacity is selected at: 1 g/hour per 25 m³ of room volume.",
+          "title": "Asboblar hisoblash",
+          "text": "Ozonator sig'imi tanlash: xona hajmi uchun soatiga 25 m³ dan 1 g.",
           "table": {
-            "caption": "Ozonator selection recommendations",
+            "caption": "Ozonator tanlash tafsiyalari",
             "headers": {
-              "area": "Store area",
-              "volume": "Volume",
+              "area": "Do'kon maydoni",
+              "volume": "Hajmi",
               "ozonator": "Ozonator",
-              "time": "Treatment time"
+              "time": "Ishlov berish vaqti"
             },
             "rows": {
               "small": {
                 "area": "50-100 m²",
                 "volume": "150-300 m³",
-                "ozonator": "10 g/hour",
-                "time": "1-2 hours"
+                "ozonator": "10 g/soat",
+                "time": "1-2 soat"
               },
               "medium": {
                 "area": "100-200 m²",
                 "volume": "300-600 m³",
-                "ozonator": "10-20 g/hour",
-                "time": "2-3 hours"
+                "ozonator": "10-20 g/soat",
+                "time": "2-3 soat"
               },
               "large": {
                 "area": "200-400 m²",
                 "volume": "600-1200 m³",
-                "ozonator": "20-40 g/hour",
-                "time": "2-3 hours"
+                "ozonator": "20-40 g/soat",
+                "time": "2-3 soat"
               },
               "veryLarge": {
                 "area": "400+ m²",
                 "volume": "1200+ m³",
-                "ozonator": "Multiple units",
-                "time": "2-3 hours"
+                "ozonator": "Bir nechta qurilma",
+                "time": "2-3 soat"
               }
             }
           }
         },
         "workMode": {
-          "title": "Operating mode",
+          "title": "Ishlash rejimi",
           "items": {
-            "daily": "Daily night treatment — optimal mode",
-            "automatic": "Automatic start on timer after store closing",
-            "ventilation": "By morning ozone completely dissipates, freshness remains",
-            "automation": "No staff involvement required — full automation",
-            "initial": "For strong odor — first 3-5 days treatment for 2-3 hours"
+            "daily": "Kunlik kecha ishlov berish — optimal rejim",
+            "automatic": "Do'kon yopilganidan keyin taymerda avtomatik boshlash",
+            "ventilation": "Ertalab ozon to'liq poyab, yangiliki qoladi",
+            "automation": "Xodimlarning qatnashmasi shart emas — to'liq avtomatika",
+            "initial": "Kuchli hid uchun — birinchi 3-5 kun 2-3 soatga ishlov berish"
           },
           "protection": {
-            "title": "Protective equipment:",
-            "text": "If staff is in the room during ozonation (e.g., to turn on the unit), a respirator or gas mask with charcoal filter is required."
+            "title": "Himoya asbob:",
+            "text": "Agar xodim ozonlash paytida xonada bo'lsa (masalan, qurilmani yoqish uchun), o'rtak filtrli respirator yoki gaz niqob talab qilinadi."
           }
         },
         "economics": {
-          "title": "Solution economics",
+          "title": "Yechim iqtisodiyoti",
           "table": {
             "headers": {
-              "expense": "Expense item",
-              "without": "Without ozonation",
-              "with": "With ozonation"
+              "expense": "Xaraja maddasi",
+              "without": "Ozonlashsiz",
+              "with": "Ozonlash bilan"
             },
             "rows": {
               "fresheners": {
-                "expense": "Air fresheners",
-                "without": "5-15 thousand ₽/month",
+                "expense": "Havo yangilantiruvchilari",
+                "without": "5-15 ming ₽/oy",
                 "with": "0 ₽"
               },
               "electricity": {
-                "expense": "Electricity",
+                "expense": "Elektr energiyasi",
                 "without": "—",
-                "with": "500-1000 ₽/month"
+                "with": "500-1000 ₽/oy"
               },
               "losses": {
-                "expense": "Losses from dissatisfied customers",
-                "without": "Significant",
+                "expense": "Noqulaylik bilan bezdash miqdor",
+                "without": "Sezilarli",
                 "with": "Minimal"
               },
               "equipment": {
-                "expense": "Equipment cost",
+                "expense": "Asboblar narxi",
                 "without": "—",
-                "with": "22-35 thousand ₽ (one-time)"
+                "with": "22-35 ming ₽ (bir marta)"
               }
             }
           },
           "payback": {
-            "title": "Payback:",
-            "text": "With savings of 10 thousand ₽/month on air fresheners, the ozonator pays for itself in 2-3 months. Further operation — only electricity cost."
+            "title": "To'lash:",
+            "text": "Havo yangilantiruvchilarda oy uchun 10 ming ₽ tejash bilan ozonator 2-3 oyda o'z narxini to'laydi. Keyingi ishlash — faqat energiya narxi."
           }
         },
         "additionalAdvantages": {
-          "title": "Additional advantages",
+          "title": "Qo'shimcha afzalliklar",
           "items": {
-            "0": "Higher product appeal — items perceived as better quality",
-            "1": "Destruction of dust mites — important for allergy sufferers",
-            "2": "Room disinfection — infection spread prevention",
-            "3": "Mold removal — relevant for basement premises",
-            "4": "Marketing advantage — odor-free secondhand store"
+            "0": "Tovarlarning yuqori jozibasi — buyumlar yaxshi sifat deb qabul qilinadi",
+            "1": "Chang chayniqlarining yo'q qilishi — allergiyachi uchun muhimdir",
+            "2": "Xona dezinfeksiyasi — infeksiya uzatishini oldini olish",
+            "3": "Ko'plak yo'q qilish — podval xonalar uchun relevantan",
+            "4": "Marketing afzalligi — hidsi bo'lmagan ikkinchi qo'l do'kon"
           }
         },
         "equipment": {
-          "title": "Recommended equipment",
+          "title": "Tavsiya qilingan asboblar",
           "table": {
             "headers": {
               "model": "Model",
-              "capacity": "Capacity",
-              "application": "Application",
-              "cost": "Cost"
+              "capacity": "Sig'im",
+              "application": "Qo'llanish",
+              "cost": "Narxi"
             },
             "rows": {
               "model1": {
                 "model": "OZ-A10",
-                "capacity": "10 g/hour",
-                "application": "Stores up to 250 m³",
-                "cost": "from 22,000 ₽"
+                "capacity": "10 g/soat",
+                "application": "250 m³ gacha do'konlar",
+                "cost": "22.000 ₽ dan"
               },
               "model2": {
                 "model": "OZ-A10(N)",
-                "capacity": "10 g/hour",
-                "application": "Wall-mounted installation",
-                "cost": "from 32,000 ₽"
+                "capacity": "10 g/soat",
+                "application": "Devoqaga o'rnatish",
+                "cost": "32.000 ₽ dan"
               },
               "model3": {
                 "model": "OZ-A20",
-                "capacity": "20 g/hour",
-                "application": "Stores up to 500 m³",
-                "cost": "from 34,000 ₽"
+                "capacity": "20 g/soat",
+                "application": "500 m³ gacha do'konlar",
+                "cost": "34.000 ₽ dan"
               }
             }
           }

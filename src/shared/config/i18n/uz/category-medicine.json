@@ -1,326 +1,477 @@
 {
-  "title": "Medicine",
-  "description": "Ozone therapy and ozonation in medicine: sterilization of operating rooms and wards, disinfection of medical equipment, treatment of dental offices, rehabilitation centers and ambulances.",
+  "title": "Tibbiyot",
+  "description": "Tibbiyotda ozon terapiyasi va ozonlash: operatsiya xonalari va palatalarni sterilizatsiya qilish, tibbiy uskunalarni dezinfeksiya qilish, stomatologiya kabinetlarini, reabilitatsiya markazlarini va tez yordam mashinalarini davolash.",
   "subcategories": {
     "hospitals": {
-      "title": "Hospitals and operating rooms",
-      "shortDesc": "Sterilization of wards and operating blocks",
-      "content": "Hospital ozonation provides the highest level of sterility, critical for preventing nosocomial infections. Ozone destroys bacteria, viruses, spores and fungi with up to 99.99% efficiency.\n\nOperating blocks require special sanitary regimes. Ozonation after surgery ensures deep disinfection of all surfaces, including hard-to-reach areas: equipment crevices, ventilation systems, ceiling fixtures.\n\nICU and resuscitation wards are high-risk zones for infection transmission between patients. Regular ozonation reduces microbial load in the air and on surfaces, complementing standard cleaning protocols.\n\nOzone is effective against antibiotic-resistant bacteria, including MRSA and VRE, which pose a serious threat in healthcare. After treatment, ozone decays to oxygen with no toxic residues, which is important for patient safety.",
+      "title": "Kasalxonalar va operatsiya xonalari",
+      "shortDesc": "Palatalar va operatsiya blokalarining sterilizatsiyasi",
+      "content": "Kasalxona ozonlashi yuqori darajadagi sterillikni ta'minlaydi, bu nosokomial infektsiyalarni oldini olish uchun juda muhimdir. Ozon bakteriya, viruslar, sporalar va xamirlarni 99,99% samara bilan yo'q qiladi.\n\nOperatsiya bloklar maxsus sanitarya rejimlarini talab qiladi. Operatsiyadan keyin ozonlash barcha sirtlarning, shu jumladan qiyin yorgan joylarning chuqur dezinfeksiyasini ta'minlaydi: uskunaning teschasida, ventilyatsiya tizimlarida, shponka qo'zg'atuvchilarda.\n\nRezistansiya xonalari va qayta tiklash xonalari bemorlar o'rtasida infeksiya uzatish xavfining yuqori zonalaridir. Muntazam ozonlash havoda va sirtlarda mikrob yükini kamaytiradi, standart tozalash protokollarini to'ldiradi.\n\nOzon antibiotiklaraga chidamli bakteriyalarga, shu jumladan MRSA va VRE ga karshi samarali, bu sog'liqni saqlashda jiddiy xavf. Ishlov berishdan keyin ozon kislorodga parchalanadi, toksik qoldiqlar qolmaydi, bu bemor xavfsizligi uchun muhimdir.",
       "benefits": [
-        "99.99% efficiency against pathogens",
-        "Fight against nosocomial infections",
-        "Destruction of antibiotic-resistant bacteria",
-        "Disinfection of hard-to-reach areas",
-        "No toxic chemical residues",
-        "Complement to standard protocols"
+        "99,99% patogenlarga qarshi samaradorlik",
+        "Nosokomial infektsiyalarga qarshi kurash",
+        "Antibiotiklaraga chidamli bakteriyalarni yo'q qilish",
+        "Qiyin yorgan joylarni dezinfeksiya qilish",
+        "Toksik kimyoviy qoldiqlar yo'q",
+        "Standart protokollarni to'ldirish"
       ],
       "stats": {
         "stat1": {
-          "value": "99.99%",
-          "label": "Efficiency",
-          "description": "Destruction of pathogenic microorganisms"
+          "value": "99,99%",
+          "label": "Samaradorlik",
+          "description": "Patogen mikroorganizmlarni yo'q qilish"
         },
         "stat2": {
           "value": "MRSA",
-          "label": "Kills",
-          "description": "Antibiotic-resistant bacteria"
+          "label": "Yo'q qiladi",
+          "description": "Antibiotiklaraga chidamli bakteriyalar"
         },
         "stat3": {
-          "value": "20-30 min",
-          "label": "Ozone decay",
-          "description": "To safe oxygen level"
+          "value": "20-30 daqiqa",
+          "label": "Ozon parchalanishi",
+          "description": "Xavfsiz kislorod darajasigacha"
         },
         "stat4": {
           "value": "0",
-          "label": "Residues",
-          "description": "Chemical substances after treatment"
+          "label": "Qoldiqlar",
+          "description": "Ishlov berishdan keyin kimyoviy moddalar"
         }
       },
       "sections": {
         "intro": {
-          "text": "Nosocomial infections (HAI) are one of the most serious problems in modern medicine. According to WHO, 7-10% of hospitalized patients in developed countries and up to 25% in developing countries are infected. Ozonation is an effective method to combat this problem, ensuring pathogen destruction at 99.99%.",
-          "text2": "Unlike chemical disinfectants, ozone leaves no toxic residues, does not cause resistance in microorganisms, and decays to pure oxygen within 20-30 minutes after treatment. This is especially important for patients with weakened immunity."
+          "text": "Nosokomial infektsiyalar (HAI) zamonaviy tibbiyotning eng jiddiy muammolaridan biridir. JUON ma'lumotiga ko'ra, rivojlangan mamlakatlarda hospitalga yotqan bemorlarning 7-10 foizi va rivojlanayotgan mamlakatlarda 25 foizigacha yuqumli. Ozonlash bu muammoni hal qilishning samarali usuli bo'lib, 99,99% patogenlari yo'q qilishni ta'minlaydi.",
+          "text2": "Kimyoviy dezinfektantlardan farqli o'laroq, ozon toksik qoldiqlar qoldirmaydi, mikroorganizmlar ichida qarshilikni keltirib chiqarmaydi va ishlov berishdan keyin 20-30 daqiqada sof kislorodga parchalanadi. Bu immuniteti zaif bemorlar uchun ayniqsa muhimdir."
         },
         "highlight1": {
-          "title": "Important:",
-          "text": "Ozone is effective against antibiotic-resistant bacterial strains, including MRSA (methicillin-resistant Staphylococcus aureus) and VRE (vancomycin-resistant enterococci), which pose a particular threat in healthcare facilities."
+          "title": "Muhim:",
+          "text": "Ozon antibiotiklaraga chidamli bakteriya shtammlariga, shu jumladan MRSA (metitsillinaga chidamli Staphylococcus aureus) va VRE (vankomisinaga chidamli enterokokklar) ga karshi samarali bo'lib, bu sog'liqni saqlash muassasalarida alohida xavf tashkil qiladi."
         },
         "problem": {
-          "title": "The problem of nosocomial infections",
-          "text": "Nosocomial infections increase hospitalization time by an average of 8-10 days, increase treatment costs and increase mortality. Main sources of HAI:",
+          "title": "Nosokomial infektsiyalar muammosi",
+          "text": "Nosokomial infektsiyalar o'rtacha 8-10 kunning davolanish vaqtini, davolanish xarajatlarini va o'lim ortini oshiradi. HAI ning asosiy manbalari:",
           "items": [
-            "Contact surfaces: beds, bedside tables, handrails, call buttons",
-            "Medical equipment: monitors, catheters, breathing circuits",
-            "Air environment: aerosol particles from coughing, sneezing, medical procedures",
-            "Ventilation and air conditioning systems",
-            "Textiles: bed linens, curtains, gowns"
+            "Aloqa sirtlari: to'shaklar, yon stol, qo'l tutgichlari, qo'ng'iroq tugmachalari",
+            "Tibbiy uskunalar: monitorlar, kateterlar, nafas olish sxemalari",
+            "Havo muhiti: yo'tal paytida, hapira paytida, tibbiy protseduralardan aerosolaning zarralar",
+            "Ventilyatsiya va konditsioner tizimlar",
+            "To'qimalar: to'shak laypari, pardalar, liboslar"
           ]
         },
         "operating-rooms": {
-          "title": "Ozonation of operating blocks",
-          "text": "Operating blocks require special sanitary regimes. Traditional cleaning with disinfectants cannot ensure treatment of all surfaces — ozone, being a gas, penetrates equipment crevices, ventilation systems, hard-to-reach areas behind devices.",
+          "title": "Operatsiya blokalarini ozonlash",
+          "text": "Operatsiya bloklar maxsus sanitarya rejimlarini talab qiladi. Dezinfektantlar bilan an'anaviy tozalash barcha sirtlarni ishlov berish imkonini bermaydi — ozon gaz bo'lgani uchun uskunaning teschasiga, ventilyatsiya tizimlariga, uskunaning orqasidagi qiyin yorgan joylariga penetratsiya qiladi.",
           "table": {
-            "caption": "Ozonation modes for operating rooms",
-            "headers": ["Treatment type", "Concentration", "Treatment time", "Frequency"],
+            "caption": "Operatsiya xonalari uchun ozonlash rejimi",
+            "headers": ["Ishlov berish turi", "Kontsentratsiya", "Ishlov berish vaqti", "Chastotasi"],
             "rows": [
-              ["Between operations", "10-15 mg/m³", "30-40 min", "After each operation"],
-              ["Final disinfection", "20-25 mg/m³", "60-90 min", "At end of workday"],
-              ["After infectious cases", "30-40 mg/m³", "120 min", "As indicated"],
-              ["Preventive", "10 mg/m³", "60 min", "Weekly"]
+              ["Operatsiyalar orasida", "10-15 mg/m³", "30-40 daqiqa", "Har bir operatsiyadan keyin"],
+              ["Yakuniy dezinfeksiya", "20-25 mg/m³", "60-90 daqiqa", "Ish kunining oxirida"],
+              ["Yuqumli holatlardan keyin", "30-40 mg/m³", "120 daqiqa", "Ko'rsatilgan joyda"],
+              ["Profilaktika", "10 mg/m³", "60 daqiqa", "Haftasiga bir"]
             ]
           },
-          "highlight": "After ozonation, 1.5-2 hours of ventilation is sufficient to reduce ozone concentration to a safe level. The room is ready for use without additional treatment."
+          "highlight": "Ozonlashdan keyin ozon kontsentratsiyasini xavfsiz darajaga tushirish uchun 1,5-2 soat ventilyatsiyasi yetarli. Xona qo'shimcha ishlov berishsiz foydalanishga tayyor."
         },
         "wards": {
-          "title": "Disinfection of wards and ICUs",
-          "text": "Intensive care and resuscitation wards are zones with increased risk of infection transmission between patients. The most vulnerable categories are here: patients on mechanical ventilation, after surgery, with immunodeficiency.",
+          "title": "Palatalar va RRR larini dezinfeksiya qilish",
+          "text": "Reanimatsiya va qayta tiklash palatalaringiz bemorlar o'rtasida infeksiya uzatish xavfining orttirilgan zonalaridir. Eng zaif toifalar bu erda: mexanik ventilyatsiyada bo'lgan bemorlar, operatsiyadan keyin, immun tanqisligi bo'lgan.",
           "steps": [
             {
-              "title": "Room preparation",
-              "description": "Removal of patients (if possible) or use of isolated zones. Closing windows and doors, turning off supply ventilation."
+              "title": "Xona tayorlash",
+              "description": "Bemorlarni olib tashlash (iloji bo'lsa) yoki ajratilgan zonalardan foydalanish. Oynalar va eshiklarni yopish, ta'minot ventilyatsiyasini o'chirish."
             },
             {
-              "title": "Ozonation",
-              "description": "Turning on the ozonator for the calculated time. Concentration of 15-20 mg/m³ ensures destruction of most pathogens."
+              "title": "Ozonlash",
+              "description": "Ozonatori hisoblangan vaqt uchun yoqish. 15-20 mg/m³ kontsentratsiya ko'pchilik patogenlarni yo'q qilishni ta'minlaydi."
             },
             {
-              "title": "Exposure",
-              "description": "Maintaining the set concentration for 30-60 minutes for complete disinfection of all surfaces."
+              "title": "Ekspoze",
+              "description": "Barcha sirtlarni to'liq dezinfeksiya qilish uchun 30-60 daqiqa davomida o'rnatilgan kontsentratsiyani saqlash."
             },
             {
-              "title": "Ventilation",
-              "description": "Opening ventilation, airing the room until ozone concentration drops below MAC (0.1 mg/m³)."
+              "title": "Ventilyatsiya",
+              "description": "Ventilyatsiyani oching, ozon kontsentratsiyasi PDK (0,1 mg/m³) dan pastga tushguncha xonani shamol berish."
             }
           ]
         },
         "pathogens": {
-          "title": "Effectiveness against pathogens",
-          "text": "Ozone destroys almost all types of pathogenic microorganisms found in healthcare facilities:",
+          "title": "Patogenlarga qarshi samaradorlik",
+          "text": "Ozon sog'liqni saqlash muassasalarida topilgan deyarli barcha patogen mikroorganizmlarni yo'q qiladi:",
           "table": {
-            "caption": "Pathogen inactivation time by ozone (concentration 20 mg/m³)",
-            "headers": ["Microorganism", "Inactivation time", "Efficiency"],
+            "caption": "Ozon tomonidan patogen inaktivatsiya vaqti (kontsentratsiya 20 mg/m³)",
+            "headers": ["Mikroorganizm", "Inaktivatsiya vaqti", "Samaradorlik"],
             "rows": [
-              ["Staphylococcus aureus (MRSA)", "10-15 min", "99.99%"],
-              ["Escherichia coli", "5-10 min", "99.99%"],
-              ["Pseudomonas aeruginosa", "15-20 min", "99.99%"],
-              ["Candida albicans", "15-20 min", "99.9%"],
-              ["Aspergillus niger (spores)", "30-40 min", "99.9%"],
-              ["Clostridium difficile (spores)", "40-60 min", "99.9%"],
-              ["Influenza viruses", "5-10 min", "99.99%"],
-              ["Coronaviruses", "10-15 min", "99.99%"]
+              ["Staphylococcus aureus (MRSA)", "10-15 daqiqa", "99,99%"],
+              ["Escherichia coli", "5-10 daqiqa", "99,99%"],
+              ["Pseudomonas aeruginosa", "15-20 daqiqa", "99,99%"],
+              ["Candida albicans", "15-20 daqiqa", "99,9%"],
+              ["Aspergillus niger (sporalar)", "30-40 daqiqa", "99,9%"],
+              ["Clostridium difficile (sporalar)", "40-60 daqiqa", "99,9%"],
+              ["Gripp viruslar", "5-10 daqiqa", "99,99%"],
+              ["Koronaviruslar", "10-15 daqiqa", "99,99%"]
             ]
           }
         },
         "comparison": {
-          "title": "Comparison of disinfection methods",
-          "tableTitle": "Ozonation vs traditional methods",
-          "headers": ["Parameter", "Ozonation", "Chemical disinfection"],
+          "title": "Dezinfeksiya usullarini taqqoslash",
+          "tableTitle": "Ozonlash vs an'anaviy usullar",
+          "headers": ["Parametr", "Ozonlash", "Kimyoviy dezinfeksiya"],
           "rows": [
             {
-              "parameter": "Surface coverage",
-              "value1": "100% (including hard-to-reach)",
-              "value2": "70-80% (only accessible)"
+              "parameter": "Sirtni qoplamishi",
+              "value1": "100% (qiyin yorgan joylar o'z ichiga olib)",
+              "value2": "70-80% (faqat erishiladigan)"
             },
             {
-              "parameter": "Toxic residues",
-              "value1": "No (decays to O₂)",
-              "value2": "Yes (require rinsing)"
+              "parameter": "Toksik qoldiqlar",
+              "value1": "Yo'q (O₂ ga parchalanadi)",
+              "value2": "Ha (shuning uchun cho'mishni talab qiladi)"
             },
             {
-              "parameter": "Bacterial resistance",
-              "value1": "Not formed",
-              "value2": "Forms with frequent use"
+              "parameter": "Bakteriya qarshiligi",
+              "value1": "Shakllanmadi",
+              "value2": "Tez-tez foydalanish bilan shakllanadi"
             },
             {
-              "parameter": "Air treatment",
-              "value1": "Yes (air disinfection)",
-              "value2": "No"
+              "parameter": "Hava ishlov berish",
+              "value1": "Ha (hava dezinfeksiyasi)",
+              "value2": "Yo'q"
             },
             {
-              "parameter": "Need for cleaning after",
-              "value1": "No",
-              "value2": "Yes (wiping, rinsing)"
+              "parameter": "Keyin tozalash kerakmi",
+              "value1": "Yo'q",
+              "value2": "Ha (silkitish, cho'mish)"
             },
             {
-              "parameter": "Safety for staff",
-              "value1": "Yes (with proper protocol)",
-              "value2": "Risk of allergies and irritation"
+              "parameter": "Xodimlar uchun xavfsizlik",
+              "value1": "Ha (to'g'ri protokol bilan)",
+              "value2": "Allergiya va irritatsiya xavfi"
             }
           ]
         },
         "benefits": {
-          "title": "Advantages of ozonation in medicine",
+          "title": "Tibbiyotda ozonlashning afzalliklari",
           "features": [
             {
-              "title": "No resistance",
-              "description": "Ozone acts on cell membranes — bacteria cannot develop resistance"
+              "title": "Qarshilik yo'q",
+              "description": "Ozon hujaira membranalariga ta'sir qiladi — bakteriyalar qarshilik rivojlantira olmaydi"
             },
             {
-              "title": "Full coverage",
-              "description": "Gas penetrates everywhere: into crevices, behind equipment, into ventilation, under furniture"
+              "title": "To'liq qoplamishi",
+              "description": "Gaz hamma yerga penetratsiya qiladi: teschasiga, uskunaning orqasiga, ventilyatsiyaga, mebel ostiga"
             },
             {
-              "title": "No residues",
-              "description": "Decays to oxygen — no rinsing required, safe for patients"
+              "title": "Qoldiqlar yo'q",
+              "description": "Kislorodga parchalanadi — cho'mish kerak emas, bemorlar uchun xavfsiz"
             },
             {
-              "title": "Compliance with regulations",
-              "description": "Method recommended by Russian sanitary standards for healthcare facilities"
+              "title": "Qonunlar bilan muvofiqlik",
+              "description": "Usul sog'liqni saqlash muassasalari uchun Rossiya sanitarya standartlari tomonidan tavsiya etiladi"
             }
           ]
         },
         "safety": {
-          "title": "Safety requirements",
-          "text": "When ozonating medical premises, safety requirements must be observed:",
+          "title": "Xavfsizlik talablari",
+          "text": "Tibbiy binolarni ozonlashda xavfsizlik talablarini kuzatish kerak:",
           "items": [
-            "Treatment is carried out in the absence of people and animals",
-            "The room must be sealed during treatment",
-            "Staff working with ozonators must undergo training",
-            "After treatment — mandatory ventilation to MAC (0.1 mg/m³)",
-            "Use of ozone concentration sensors is recommended",
-            "Keeping a treatment log for control and reporting"
+            "Ishlov berish odamlar va hayvonlar yo'q vaqtida o'tkaziladi",
+            "Xona ishlov berish paytida muhr tutilishi kerak",
+            "Ozonatorlar bilan ishlayotgan xodimlar o'qitish o'tkazishlari kerak",
+            "Ishlov berishdan keyin — PDK (0,1 mg/m³) gacha majburiy ventilyatsiya",
+            "Ozon kontsentratsiyasi sensorlaridan foydalanish tavsiya etiladi",
+            "Nazorat va hisobot uchun ishlov berish jurnali yuritish"
           ],
-          "warning": "MAC of ozone in the work zone is 0.1 mg/m³. When exceeded, a characteristic \"after thunderstorm\" smell is felt. Modern ozonators are equipped with timers and automatic shutdown systems."
+          "warning": "Ish zonasida ozonning PDK 0,1 mg/m³. Ortsa, xarakterli \"chaqindan keyin\" hidi seziladi. Zamonaviy ozonatorlar taymer va avtomatik o'chirish tizimiga ega."
         }
       }
     },
     "equipment-sterilization": {
-      "title": "Medical equipment sterilization",
-      "shortDesc": "Sterilization of instruments and devices",
-      "content": "Ozone is used to sterilize medical equipment that cannot be treated with high temperatures or harsh chemicals: endoscopes, plastic items, electronics, optics.\n\nLow-temperature ozone sterilization is an alternative to autoclaving for heat-sensitive equipment. The process runs at 25–35°C and 80–90% relative humidity, which is safe for most materials.\n\nEndoscopic equipment is especially demanding. Complex construction with narrow channels creates a risk of incomplete treatment by traditional methods. Ozone gas penetrates all cavities and channels for full sterilization.\n\nThe ozone sterilization cycle includes: pre-humidification, exposure in ozone atmosphere for 30–60 minutes, and degassing. The method is validated for use in healthcare and meets sterilization standards.",
+      "title": "Tibbiy uskunalarni sterilizatsiya qilish",
+      "shortDesc": "Asboblar va qurilmalarni sterilizatsiya qilish",
+      "heroText": "Issiqlikka sezgir endoskoplar, plastik mahsulotlar va elektronikaning past haroratda ozon sterilizatsiyasi. Zarar bermaydigan ishlov berish bilan issiqlikka sezgir tibbiy uskunalarning to'liq davolash.",
+      "content": "Ozon yuqori harorat yoki qattiq kimyoviy moddalar bilan ishlov berilmasa bo'lmaydigan tibbiy uskunalarni sterilizatsiya qilish uchun ishlatiladi: endoskoplar, plastik buyumlar, elektronika, optika.\n\nPast haroratda ozon sterilizatsiyasi issiqlikka sezgir uskunalar uchun avtoklavning alternatividir. Jarayon 25–35°C va 80–90% nisbiy namlik sharoitida o'tadi, bu ko'pchilik materiallar uchun xavfsizdir.\n\nEndoskopik uskunalar ayniqsa talabchii. Tor kanallar bilan murakkab yasalish an'anaviy usullar bilan to'liq ishlov berish xavfini yaratadi. Ozon gazi barcha bo'shliqlar va kanallarni penetratsiya qiladi to'liq sterilizatsiyani ta'minlash uchun.\n\nOzon sterilizatsiya siklki o'z ichiga oladi: ishlov berishdan oldin namlanish, ozon atmosferasida 30–60 daqiqa davomida ekspoze va gazni chiqarish. Usul sog'liqni saqlashda foydalanish uchun tasdiqlanadi va sterilizatsiya standartlariga javob beradi.",
       "benefits": [
-        "Low-temperature sterilization",
-        "Safe for plastic and electronics",
-        "Penetration into narrow channels",
-        "Endoscope treatment",
-        "No damage to optics",
-        "Compliance with medical standards"
-      ]
-    },
-    "dental": {
-      "title": "Dental clinics",
-      "shortDesc": "Sterilization of offices and instruments",
-      "content": "Dental procedures create aerosol with potentially pathogenic microorganisms. Ozonation of operatories between patients ensures disinfection of air and all surfaces, reducing cross-infection risk.\n\nModern dentistry uses ozone not only for room disinfection but also therapeutically: caries cavity treatment, periodontal disease treatment, root canal disinfection.\n\nDental operatory ozonation after each patient takes 15–20 minutes and can be done during breaks. The gas penetrates hard-to-reach parts of equipment: hoses, handpieces, water lines.\n\nSpeed of treatment and absence of chemical odors after disinfection are especially important for dental clinics. Ozone decays to oxygen in 20–30 minutes, leaving a light fresh smell. Patients note a pleasant atmosphere.",
-      "benefits": [
-        "Disinfection after each patient",
-        "Treatment in 15–20 minutes",
-        "Therapeutic use of ozone",
-        "Dental equipment cleaning",
-        "No chemical odors",
-        "Cross-infection prevention"
+        "Past haroratda sterilizatsiya",
+        "Plastik va elektronika uchun xavfsiz",
+        "Tor kanallarga penetratsiya",
+        "Endoskop ishlov berish",
+        "Optikada shikast yo'q",
+        "Tibbiy standartlarga muvofiqlik"
       ],
       "stats": {
         "stat1": {
-          "value": "15-20",
-          "label": "Minutes",
-          "description": "Office disinfection between patients"
+          "value": "25-35°C",
+          "label": "Harorat",
+          "description": "Past haroratda sterilizatsiya"
         },
         "stat2": {
-          "value": "99.9%",
-          "label": "Pathogens",
-          "description": "Destroyed during treatment"
+          "value": "30-60",
+          "label": "Daqiqa",
+          "description": "To'liq sterilizatsiya sikli"
         },
         "stat3": {
-          "value": "100%",
-          "label": "Coverage",
-          "description": "Of all surfaces and equipment"
+          "value": "99,99%",
+          "label": "Samaradorlik",
+          "description": "Mikroorganizmlarni yo'q qilish"
         },
         "stat4": {
-          "value": "Ozone therapy",
-          "label": "Treatment",
-          "description": "Of caries and periodontal diseases"
+          "value": "0",
+          "label": "Zarar",
+          "description": "Sezgir materiallar uchun xavfsiz"
         }
       },
       "sections": {
         "intro": {
-          "text": "Dental procedures carry a high risk of infection transmission: aerosols from turbine handpieces, contact with blood and saliva, large numbers of patients daily. Ozonation provides rapid and effective office disinfection, as well as therapeutic applications.",
-          "text2": "In addition to room disinfection, ozone is actively used therapeutically: treatment of carious cavities, periodontal disease treatment, root canal disinfection. Ozone therapy is a recognized field of modern dentistry."
+          "text": "Zamonaviy tibbiy uskunalar ko'pincha issiqlikka sezgir materiallarni o'z ichiga oladi: plastik, elektronika, optika, ularni autoklav ichida sterilizatsiya qilish mumkin emas. Ozon sterilizatsiyasi 25-35°C da ishlayotgan samarali alternativdir.",
+          "text2": "Ozon hujayra membranalarini buzish orqali bakteriya, viruslar, sporalar va xamirlarni yo'q qiluvchi kuchli oksidizer. Shu bilan birga, toksik qoldiqlar qoldirmaydi va ishlov berishdan keyin 20-30 daqiqada kislorodga parchalanadi."
         },
         "highlight1": {
-          "title": "Dentistry feature:",
-          "text": "When a turbine handpiece operates, fine aerosol containing bacteria and viruses from the patient's oral cavity is formed. This aerosol spreads throughout the office and settles on surfaces."
+          "title": "Muhim:",
+          "text": "121-134°C da an'anaviy bug' sterilizatsiyasi plastik mahsulotlar, elektronika va optikani zarar beradi. Ozon sterilizatsiyasi ushbu materiallarni deformatsiya yoki nosozlik xavfisiz ishlov berish imkonini beradi."
+        },
+        "problem": {
+          "title": "Tibbiy uskunalarni sterilizatsiya qilish muammolari",
+          "text": "Tibbiy uskunalar har bir foydalanishdan keyin sterilizatsiyani talab qiladi. Ammo barcha usullar barcha turdagi mahsulotlar uchun mos emas:",
+          "items": [
+            "Avtoklavlash: yuqori harorat plastik va elektronikani zarar beradi",
+            "Etilenoksid: toksik, uzoq degassing (12 soatgacha) talab qiladi",
+            "Plazma sterilizatsiyasi: uskunaning yuqori narxi",
+            "Kimyoviy eritmalar: metalning korroziyasi, muhrlarning shikasti",
+            "Radiatsion sterilizatsiya: qimmat, kundalik foydalanish uchun mos emas"
+          ]
+        },
+        "endoscopes": {
+          "title": "Endoskoplarni sterilizatsiya qilish",
+          "text": "Endoskoplar tor kanallar, optika va elektronikaga ega murakkab qurilmalardir. Ularning sterilizatsiyasi ozonni samarali hal qiluvchi maxsus vazifadir.",
+          "table": {
+            "caption": "Endoskoplar uchun ozon sterilizatsiya parametrlari",
+            "headers": ["Endoskop turi", "Ozon kontsentratsiyasi", "Ishlov berish vaqti", "Xususiyatlar"],
+            "rows": [
+              ["Gastroscoplar", "40-60 ppm", "30-40 daqiqa", "Kanal tozalash ozoniga"],
+              ["Kolonoscoplar", "40-60 ppm", "40-50 daqiqa", "Kanalning uzaytirilgan uzunligi"],
+              ["Bronchoscoplar", "50-70 ppm", "35-45 daqiqa", "Tor kanallar, nozik optika"],
+              ["Laparoscoplar", "30-50 ppm", "25-35 daqiqa", "Kompakt dizayn"]
+            ]
+          },
+          "highlight": "Ozon 1 mm diametrli kanallarni penetratsiya qiladi, shuning uchun suyuq dezinfektantlar uchun ochiq bo'lmagan joylarning sterilizatsiyasini ta'minlaydi. Bu nosokomial infektsiyalarni oldini olish uchun kritikaldir."
+        },
+        "lowtemp": {
+          "title": "Past haroratda sterilizatsiya jarayoni",
+          "text": "Ozon sterilizatsiya siklki bir necha bosqichdan iborat bo'lib, har biri to'liq sterillik erishish uchun muhimdir:",
+          "steps": [
+            {
+              "title": "Ishlov berishdan oldin namlanish",
+              "description": "Kamerada namlikni 80-90% ga ko'tarish. Namlik ozonning bakteritsid ta'sirini kuchaytiradi va uning mikroparlarga penetratsiyasini ta'minlaydi."
+            },
+            {
+              "title": "Ozon saturatsiyasi",
+              "description": "40-80 ppm kontsentratsiyasiga ozon ta'minoti. Gaz kamera bo'ylab tekis tarqalib va barcha uskunalar bo'shliqlariga penetratsiya qiladi."
+            },
+            {
+              "title": "Ekspoze",
+              "description": "Belgilangan kontsentratsiyada 30-60 daqiqa saqlash. Bu vaqt oylana barcha mikroorganizmlar hujayralarining membranalarini yo'q qiladi."
+            },
+            {
+              "title": "Gazni chiqarish",
+              "description": "Kameradan qoldiq ozonni olib tashlash. Ozon 15-20 daqiqada kislorodga parchalanadi. Uskunalar foydalanishga tayyor."
+            }
+          ]
+        },
+        "materials": {
+          "title": "Mos keladigan materiallar",
+          "text": "Ozon sterilizatsiyasi tibbiy uskunalarida qo'llaniladigan ko'pchilik materiallar uchun xavfsizdir:",
+          "features": [
+            {
+              "title": "Plastiklar va polimerlar",
+              "description": "Polietilen, polipropilen, polikarbonat, PVC — ozon sterilizatsiyasi paytida zarar berish yo'q"
+            },
+            {
+              "title": "Elektronika",
+              "description": "Platalari, sensorlari, displeylar, endoskop kameralari — statik kuchsiz xavfsiz ishlov berish"
+            },
+            {
+              "title": "Optika",
+              "description": "Linzalar, yorug'lik vositalari, prizmalar — ozon elementlarning optik xususiyatlariga ta'sir qilmaydi"
+            },
+            {
+              "title": "Metallar va qotishmalar",
+              "description": "Rustga chidamli po'latlar, titan, alyuminiy — standart kontsentratsiyalarda ozonaga chidamli"
+            }
+          ]
+        },
+        "comparison": {
+          "title": "Sterilizatsiya usullarini taqqoslash",
+          "tableTitle": "Ozon vs an'anaviy usullar",
+          "headers": ["Parametr", "Ozon", "Avtoklavlash/Etilenoksid"],
+          "rows": [
+            {
+              "parameter": "Ishlov berish harorati",
+              "value1": "25-35°C",
+              "value2": "121-134°C / 37-55°C"
+            },
+            {
+              "parameter": "To'liq sikl vaqti",
+              "value1": "45-90 daqiqa",
+              "value2": "30-60 daqiqa / 3-12 soat"
+            },
+            {
+              "parameter": "Toksik qoldiqlar",
+              "value1": "Yo'q (O₂ ga parchalanadi)",
+              "value2": "Yo'q / Ha (degassing talab qiladi)"
+            },
+            {
+              "parameter": "Plastik mos kelishi",
+              "value1": "Ha",
+              "value2": "Yo'q / Qisman"
+            },
+            {
+              "parameter": "Iste-foydalanish xaraji",
+              "value1": "Minimal (elektr)",
+              "value2": "O'rtacha / Yuqori"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Sog'liqni saqlash muassasalari uchun foyda",
+          "items": [
+            "Zarar bermaydigan issiqlikka sezgir uskunalarning sterilizatsiyasi",
+            "Tez ishlov berish sikli — uskunalar o'tmashi yuqori",
+            "Toksik qoldiqlar yo'q — bemor xavfsizligi",
+            "Kam operatsion xaraji — minimal iste-foydalanish",
+            "Qiyin yorgan joylarni penetratsiya — to'liq kanal sterilizatsiyasi",
+            "Tibbiy qurilmalarni sterilizatsiya qilish standartlariga muvofiqlik"
+          ],
+          "warning": "Ozonatorlar bilan ishlashda xavfsizlik ehtiyotchaligi kuzatilishi kerak: ozon inhale qilinganda toksikdir. Sterilizatsiya kamerlari muhr tutilishi kerak. Ish sohada ozonning PDK 0,1 mg/m³."
+        }
+      },
+      "cta": {
+        "title": "Endoskoplar va tibbiy asboblarni sterilizatsiya qilish uchun ozonlarni joriy qilishni xohlaysizmi?",
+        "text": "Endoskoplar va tibbiy asboblarni sterilizatsiya qilish uchun uskunalar bo'yicha maslahat oling"
+      }
+    },
+    "dental": {
+      "title": "Stomatologiya klinikalar",
+      "shortDesc": "Kabinetlar va asboblarni sterilizatsiya qilish",
+      "content": "Stomatologiya protseduralar potentsial patogen mikroorganizmlar bilan aerosolni yaratadi. Bemorlar o'rtasida dento-laboratoriyalarni ozonlash hava va barcha sirtlarning dezinfeksiyasini ta'minlaydi, o'zaro infeksiya xavfini kamaytiradi.\n\nZamonaviy stomatologiya ozonni nafaqat xona dezinfeksiyasi uchun, balki terapiyaviy maqsadda ham ishlatadi: karixlarni davolash, periodontal kasalliklarni davolash, ildiz kanalini dezinfeksiya qilish.\n\nHar bir bemordan keyin stomatologiya kabinetini ozonlash 15–20 daqiqani oladi va tanaffuslar paytida o'tkazilishi mumkin. Gaz uskunaning qiyin yorgan qismlariga penetratsiya qiladi: shlanglarga, quloq qismiga, suv liniyalariga.\n\nIshlov berish tezligi va dezinfeksiyadan keyin kimyoviy hidlarning yo'qligi stomatologiya klinikalar uchun ayniqsa muhimdir. Ozon 20–30 daqiqada kislorodga parchalanadi, engil yangi hid qoladi. Bemorlar yoqimli atmosferani qayd etadi.",
+      "benefits": [
+        "Har bir bemordan keyin dezinfeksiya",
+        "15–20 daqiqada ishlov berish",
+        "Ozonning terapiyaviy qo'llanilishi",
+        "Stomatologiya uskunalarni tozalash",
+        "Kimyoviy hidlar yo'q",
+        "O'zaro infeksiya oldini olish"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "15-20",
+          "label": "Daqiqa",
+          "description": "Bemorlar o'rtasida kabinet dezinfeksiyasi"
+        },
+        "stat2": {
+          "value": "99,9%",
+          "label": "Patogenlar",
+          "description": "Ishlov berish paytida yo'q qilindi"
+        },
+        "stat3": {
+          "value": "100%",
+          "label": "Qoplamishi",
+          "description": "Barcha sirtlar va uskunalardan"
+        },
+        "stat4": {
+          "value": "Ozon terapiyasi",
+          "label": "Davolash",
+          "description": "Karixlar va periodontal kasalliklarni"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Stomatologiya protseduralar infeksiya uzatish yuqori xavfini tashkil qiladi: turbin quloq qismlaridan aerosollar, qon va saliuva bilan aloqa, kuniga ko'p miqdordagi bemorlar. Ozonlash kabinet dezinfeksiyasini tez va samarali, shuningdek terapiyaviy tatbiqlashni ta'minlaydi.",
+          "text2": "Xona dezinfeksiyasiga qo'shimcha ravishda, ozon faol ravishda terapiyaviy maqsadda ishlatiladi: karix bo'shliqlarini davolash, periodontal kasalliklarni davolash, ildiz kanalini dezinfeksiya qilish. Ozon terapiyasi zamonaviy stomatologiyaning tan olingan sohasi."
+        },
+        "highlight1": {
+          "title": "Stomatologiya xususiyati:",
+          "text": "Turbin quloq qismi ishlayotganda, bemor og'iz bo'shligidan bakteriya va viruslar o'z ichiga olgan yupqa aerosollar hosil bo'ladi. Bu aerosollar kabinetda tarqalib, sirtlarga to'planadi."
         },
         "applications": {
-          "title": "Ozone applications in dentistry",
+          "title": "Stomatologiyada ozonning qo'llanilishi",
           "items": [
-            "Office disinfection between patient visits",
-            "Final office treatment at end of workday",
-            "Cleaning of water supply systems in dental units",
-            "Ozone therapy: caries treatment without drilling",
-            "Root canal treatment",
-            "Periodontal disease treatment",
-            "Disinfection of removable prostheses"
+            "Bemor tashrif o'rtasida kabinet dezinfeksiyasi",
+            "Ish kunining oxirida kabinet oxirgi ishlov berish",
+            "Stomatologiya qurilmalarida suv ta'minot tizimini tozalash",
+            "Ozon terapiyasi: burg'ulashsiz karix davolash",
+            "Ildiz kanali davolash",
+            "Periodontal kasalliklarni davolash",
+            "Olinadigan protezlarni dezinfeksiya qilish"
           ]
         },
         "disinfection": {
-          "title": "Dental office disinfection",
-          "text": "Ozonation allows rapid office disinfection during technical breaks between patients. In 15-20 minutes, ozone destroys pathogens on all surfaces and in the air.",
+          "title": "Stomatologiya kabinetini dezinfeksiya qilish",
+          "text": "Ozonlash bemorlar o'rtasida texnik tanaffuslar paytida tez kabinet dezinfeksiyasiga imkon beradi. 15-20 daqiqada ozon barcha sirtlar va havoda patogenlarni yo'q qiladi.",
           "table": {
-            "caption": "Dental office ozonation modes",
-            "headers": ["Treatment type", "Concentration", "Time", "Frequency"],
+            "caption": "Stomatologiya kabinet ozonlash rejimi",
+            "headers": ["Ishlov berish turi", "Kontsentratsiya", "Vaqt", "Chastotasi"],
             "rows": [
-              ["Between patients", "5-10 mg/m³", "15-20 min", "After each visit"],
-              ["Lunch break", "10-15 mg/m³", "30-40 min", "Daily"],
-              ["End of workday", "15-20 mg/m³", "60 min", "Daily"],
-              ["After infectious patient", "20-30 mg/m³", "60-90 min", "As indicated"]
+              ["Bemorlar o'rtasida", "5-10 mg/m³", "15-20 daqiqa", "Har bir tashrif keyin"],
+              ["Tushlik tanaffusi", "10-15 mg/m³", "30-40 daqiqa", "Kuniga"],
+              ["Ish kunining oxiri", "15-20 mg/m³", "60 daqiqa", "Kuniga"],
+              ["Yuqumli bemordan keyin", "20-30 mg/m³", "60-90 daqiqa", "Ko'rsatilganda"]
             ]
           },
-          "highlight": "Ozone penetrates hard-to-reach equipment areas: hoses, handpieces, water supply systems — places where traditional wiping is impossible."
+          "highlight": "Ozon uskunalarning qiyin yorgan joylariga penetratsiya qiladi: shlanglarga, quloq qismiga, suv ta'minot tizimiga — an'anaviy silkitish imkonsiz bo'lgan joylar."
         },
         "ozonotherapy": {
-          "title": "Ozone therapy in dentistry",
-          "text": "Therapeutic use of ozone in dentistry is one of the most developed fields of ozone therapy. Ozone has pronounced bactericidal, antiviral and fungicidal effects.",
+          "title": "Stomatologiyada ozon terapiyasi",
+          "text": "Stomatologiyada ozonning terapiyaviy qo'llanilishi ozon terapiyasining eng rivojlangan sohalaridan biridir. Ozon o'ziga xos bakteritsid, antivirusli va fungitsid ta'sirlarga ega.",
           "features": [
             {
-              "title": "Caries treatment",
-              "description": "At early stages, ozone destroys bacteria and stops caries development without drilling"
+              "title": "Karix davolash",
+              "description": "Boshlang'ich bosqichlarida ozon bakteriyalarni yo'q qiladi va burg'ulashsiz karixning rivojlanishini to'xtatadi"
             },
             {
-              "title": "Canal treatment",
-              "description": "Ozonated water and gas for root canal disinfection before filling"
+              "title": "Kanal davolash",
+              "description": "Ozonlangan suv va gaz to'ldirish oldidan ildiz kanalini dezinfeksiya qilish uchun"
             },
             {
-              "title": "Periodontitis treatment",
-              "description": "Ozone treatment of periodontal pockets reduces inflammation and destroys pathogens"
+              "title": "Periodontitis davolash",
+              "description": "Periodontal cho'nchalarni ozon davolash yallig'lanishni kamaytiradi va patogenlarni yo'q qiladi"
             },
             {
-              "title": "Wound healing",
-              "description": "Accelerated healing after tooth extraction, implantation, surgical interventions"
+              "title": "Yaraning sohaylash",
+              "description": "Tish chiqarish, implantatsiya, chirurgik amaliyotlardan keyin tezlashtirilgan sohaylash"
             }
           ],
           "table": {
-            "caption": "Ozone use in therapeutic dentistry",
-            "headers": ["Indication", "Method", "Effect"],
+            "caption": "Terapiyaviy stomatologiyada ozonning qo'llanilishi",
+            "headers": ["Ko'rsatma", "Usul", "Ta'sir"],
             "rows": [
-              ["Initial caries", "Gas 40-60 sec on lesion", "Remineralization, process stop"],
-              ["Deep caries", "Gas + ozonated water", "Cavity sterilization before filling"],
-              ["Pulpitis", "Ozonated water in canal", "Inflammation relief"],
-              ["Periodontitis", "Gas in pockets + irrigation", "80% reduction in bleeding"],
-              ["Stomatitis", "Ozonated water, rinses", "Healing in 3-5 days"]
+              ["Boshlang'ich karix", "Gaz 40-60 soniyali o'suvga", "Minerallashtirish, jarayonni to'xtash"],
+              ["Chuqur karix", "Gaz + ozonlangan suv", "Qalinlik sterilizatsiyasi to'ldirish oldin"],
+              ["Pulpit", "Ozonlangan suv kanalda", "Yallig'lanishning yengillanishi"],
+              ["Periodontitis", "Gaz cho'nchada + irrigatsiya", "Qoniy oqishning 80% qisqarilishi"],
+              ["Stomatit", "Ozonlangan suv, cho'mish", "3-5 kunning sohaylashi"]
             ]
           }
         },
         "waterSystems": {
-          "title": "Water supply system treatment",
-          "text": "Biofilms — bacterial colonies including Legionella and Pseudomonas — form in dental unit pipelines. Ozonated water effectively destroys biofilms and disinfects the system.",
+          "title": "Suv ta'minot tizimi ishlov berish",
+          "text": "Biofilmlar — Legionella va Pseudomonas o'z ichiga olgan bakteriya koloniyalari — stomatologiya qurilmasining quvur liniyalariga shakllanadi. Ozonlangan suv samarali biofilmlarni yo'q qiladi va tizimni dezinfeksiya qiladi.",
           "items": [
-            "Flushing ozonated water (2-3 mg/L) through system at end of day",
-            "Biofilm destruction on inner pipeline surfaces",
-            "Tank and filter disinfection",
-            "Improved water quality for irrigation"
+            "Kunning oxirida ozonlangan suvni tizimdan (2-3 mg/L) to'kirish",
+            "Quvur sirtidagi biofilmlarni yo'q qilish",
+            "Tank va filtrni dezinfeksiya qilish",
+            "Irrigatsiya uchun suv sifatini yaxshilash"
           ]
         },
         "benefits": {
-          "title": "Benefits for dental clinics",
+          "title": "Stomatologiya klinikalar uchun foyda",
           "items": [
-            "Rapid office turnover — disinfection during breaks",
-            "Cross-infection prevention between patients",
-            "No chemical odors after treatment — patient comfort",
-            "Additional service — ozone therapy as modern treatment method",
-            "Compliance with dental clinic sanitary requirements",
-            "Reduced costs for disinfectants"
+            "Tez kabinet o'zgartirish — tanaffuslar paytida dezinfeksiya",
+            "Bemorlar o'rtasida o'zaro infeksiyaning oldini olish",
+            "Ishlov berishdan keyin kimyoviy hidlar yo'q — bemor qulayligi",
+            "Qo'shimcha xizmat — zamonaviy davolash usuli sifatida ozon terapiyasi",
+            "Stomatologiya klinika sanitarya talablariga muvofiqlik",
+            "Dezinfektantlar xaraji kamayishi"
           ],
-          "highlight": "Patients note pleasant office atmosphere after ozonation — fresh air without specific \"hospital\" odors. This increases loyalty and visit comfort."
+          "highlight": "Bemorlar ozonlashdan keyin kabinetning yoqimli atmosferasini qayd etadi — ma'yus \"kasalxona\" hidi yo'q yangi hava. Bu loyallikni va tashrif qulayligini oshiradi."
         }
       }
     },
@@ -488,16 +639,16 @@
       }
     },
     "ambulances": {
-      "title": "Ambulances",
-      "shortDesc": "Express disinfection of medical transport",
-      "content": "Ambulances transport patients with various infectious diseases. Fast and effective disinfection between calls is critical to prevent infection spread.\n\nAmbulance interior ozonation takes 20–30 minutes and ensures full disinfection of all surfaces: stretchers, equipment, handrails, floor, walls and ceiling. The gas penetrates seat upholstery and hard-to-reach areas.\n\nTraditional wiping with disinfectants cannot achieve the same level of treatment as gas disinfection. Ozone reaches areas inaccessible to manual wiping and destroys pathogens in the air.\n\nMobile ozone generators for ambulances run from 12V or 24V vehicle power. Equipment is compact and can be stored in the cabin. After treatment, ventilate for 10–15 minutes. The vehicle is ready for the next call.",
+      "title": "Shifoxona mashinalar",
+      "shortDesc": "Tibbiy transportni tez dezinfeksiya qilish",
+      "content": "Shifoxona mashinalar turli yuqumli kasalliklar bilan bemorlarni tashiladi. Qo'ng'iroqlar o'rtasida tez va samarali dezinfeksiya infeksiya tarqalishini oldini olish uchun juda muhimdir.\n\nShifoxona mashinasining ichining ozonlashi 20–30 daqiqani oladi va barcha sirtlarning to'liq dezinfeksiyasini ta'minlaydi: dandalanlar, uskunalar, qo'l tutgichlari, pol, devarlar va shponka. Gaz o'rindiq obivkasi va qiyin yorgan joylarni penetratsiya qiladi.\n\nDezinfektantlar bilan an'anaviy silkitish gaz dezinfeksiyasi kabi ishlov berish darajasiga erishmasa. Ozon qo'lda silkitish imkonsiz joylarni erishadi va havoda patogenlarni yo'q qiladi.\n\nShifoxona mashinalari uchun mobil ozon generatorlari 12V yoki 24V mashinaning quvvatida ishlaydi. Uskunalar juda kompakt va kabinada saqlansa bo'ladi. Ishlov berishdan keyin 10–15 daqiqada ventilyatsiya qiling. Mashinа keyingi qo'ng'iroqqa tayyor.",
       "benefits": [
-        "Express disinfection in 20–30 minutes",
-        "Full treatment of all surfaces",
-        "Operation from electrical supply",
-        "Compact mobile equipment",
-        "Cross-infection prevention",
-        "Quick readiness for next call"
+        "20–30 daqiqada tez dezinfeksiya",
+        "Barcha sirtlarning to'liq ishlov berish",
+        "Elektr ta'minotida foydalanish",
+        "Kompakt mobil uskunalar",
+        "O'zaro infeksiyaning oldini olsh",
+        "Keyingi qo'ng'iroqqa tez tayyorlik"
       ]
     }
   }

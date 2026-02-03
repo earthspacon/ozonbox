@@ -1,804 +1,1956 @@
 {
-  "title": "Agriculture",
-  "description": "Ozonation in agriculture increases yields, extends product shelf life and ensures biosecurity. An eco-friendly alternative to chemical pesticides and preservatives.",
+  "title": "Қишлоқ хўжалиги",
+  "description": "Қишлоқ хўжалигида озонлаш ҳосилдорликни оширади, маҳсулотларнинг сақлаш муддатини узайтиради ва биохавфсизликни та'минлайди. Кимйовий пеститсидлар ва консервантларга екологик тоза муқобил.",
   "subcategories": {
     "poultry": {
-      "title": "Poultry farming",
-      "shortDesc": "Disinfection of eggs, incubators and poultry house premises",
-      "content": "Ozonation is a key technology for modern poultry farms. Ozone use covers all production stages: from egg incubation to storage of finished product.\n\nOzone effectively disinfects hatching eggs with 92–98% efficiency, destroying Salmonella, E. coli and other pathogens without damaging the shell. This increases hatchability by 0.8–2.0% and reduces early mortality.\n\nPoultry house ozonation destroys up to 99.9% of bacteria, viruses and fungi in the air and on surfaces. Regular air ozonation reduces flock morbidity and improves weight gain and feed conversion.\n\nOzonated drinking water contains more oxygen and has no pathogenic microflora, which positively affects flock health and productivity.",
+      "title": "Паррандачилик",
+      "shortDesc": "Тухумлар, инкубаторлар ва паррандачилик хоналарини дезинфексийа қилиш",
+      "content": "Озонлаш замонавий паррандачилик фермалари учун асосий технологийа ҳисобланади. Озонни қўллаш ишлаб чиқаришнинг барча босқичларини қамраб олади: тухумни инкубатсийа қилишдан тортиб таййор маҳсулотни сақлашгача.\n\nОзон тухум пўстлоғига зарар йетказмасдан Салмонелла, Е. cоли ва бошқа патогенларни йўқ қилиб, инкубатсийа тухумларини 92–98% самарадорлик билан дезинфексийа қилади. Бу тухумдан жўжа чиқишини 0,8–2,0% га оширади ва ерта ўлимни камайтиради.\n\nПаррандачилик хоналарини озонлаш ҳавода ва йузалардаги бактерийа, вирус ва замбуруғларнинг 99,9% гача қисмини йўқ қилади. Ҳавони мунтазам озонлаш паррандалар касалланишини камайтиради, вазн ортиши ва йем ўзлаштирилишини йахшилайди.\n\nОзонланган ичимлик суви кўпроқ кислородга ега ва патоген микрофлорадан холи бўлиб, бу паррандалар саломатлиги ва маҳсулдорлигига ижобий та'сир кўрсатади.",
       "stats": {
         "disinfection": {
           "value": "92–98%",
-          "label": "Disinfection efficiency",
-          "description": "Pathogen destruction on egg shells"
+          "label": "Дезинфексийа самарадорлиги",
+          "description": "Тухум пўстлоғидаги патогенларни йўқ қилиш"
         },
         "hatchability": {
           "value": "+2%",
-          "label": "Hatchability",
-          "description": "Increased hatchability during incubation"
+          "label": "Жўжа чиқиши",
+          "description": "Инкубатсийа пайтида жўжа чиқишининг кўпайиши"
         },
         "moldReduction": {
           "value": "97%",
-          "label": "Mold reduction",
-          "description": "In feed after ozonation"
+          "label": "Замбуруғларнинг камайиши",
+          "description": "Озонлашдан кейин йем таркибида"
         },
         "storageExtension": {
           "value": "4×",
-          "label": "Storage extension",
-          "description": "Chilled meat storage life"
+          "label": "Сақлаш муддатини узайтириш",
+          "description": "Совутилган гўштни сақлаш муддати"
         }
       },
       "benefits": [
-        "92–98% egg disinfection",
-        "Up to 2% higher hatchability",
-        "99.9% pathogen destruction in poultry houses",
-        "Clean drinking water without chemicals",
-        "Extended poultry meat shelf life",
-        "Reduced mortality and morbidity"
+        "92–98% тухум дезинфексийаси",
+        "Жўжа чиқиши 2% гача йуқори",
+        "Паррандахоналарда 99,9% патогенларни йўқ қилиш",
+        "Кимйовий моддаларсиз тоза ичимлик суви",
+        "Парранда гўштининг сақлаш муддати узайиши",
+        "Ўлим ва касалланиш даражасининг пасайиши"
       ],
       "sections": {
         "intro": {
-          "paragraph1": "Ozonation is a key technology for modern industrial poultry farming. Thanks to ozone's unique antibacterial properties, environmental purity, safety and ease of use, the technology finds application at all production stages: from egg incubation to storage of finished product.",
-          "paragraph2": "Poor microclimate and bacterial contamination in facilities reduce laying hen egg production by 25% and average daily gain by 10%. Ozonation solves these problems without using chemical agents that can enter food products.",
-          "warningLabel": "Important:",
-          "warningText": "Maximum permissible ozone concentration for poultry is up to 1.2 mg/m³ — 12 times higher than for humans (0.1 mg/m³). This allows effective treatment in the presence of birds when regimes are followed."
+          "paragraph1": "Озонлаш замонавий саноат паррандачилиги учун асосий технологийа ҳисобланади. Озоннинг нойоб антибактериал хусусийатлари, екологик тозалиги, хавфсизлиги ва фойдаланиш қулайлиги туфайли ушбу технологийа ишлаб чиқаришнинг барча босқичларида қўлланилади: тухумни инкубатсийа қилишдан тортиб таййор маҳсулотни сақлашгача.",
+          "paragraph2": "Бинолардаги йомон микроклимат ва бактериал ифлосланиш тухум қўйадиган товуқларнинг тухум беришини 25% га ва ўртача кунлик вазн ортишини 10% га камайтиради. Озонлаш озиқ-овқат маҳсулотларига кириши мумкин бўлган кимйовий моддаларни ишлатмасдан ушбу муаммоларни ҳал қилади.",
+          "warningLabel": "Муҳим:",
+          "warningText": "Паррандалар учун рухсат етилган максимал озон контсентратсийаси 1,2 мг/м³ гача — бу одамлар учун ме'йордан (0,1 мг/м³) 12 баравар йуқори. Бу режимга риойа қилинганда паррандалар мавжуд бўлган пайтда ҳам самарали ишлов бериш имконини беради."
         },
         "applications": {
-          "title": "Ozone applications in poultry farming",
+          "title": "Паррандачиликда озоннинг қўлланилиши",
           "items": [
-            "Egg incubation — stimulation of embryonic development and increased hatchability",
-            "Hatching egg disinfection — poultry disease prevention",
-            "Product processing and storage — improved preservation and nutritional value",
-            "Feed disinfection — reduced microflora and toxins",
-            "Water disinfection and air sanitation — increased poultry productivity",
-            "Poultry farm wastewater treatment"
+            "Тухум инкубатсийаси — ембрион ривожланишини рағбатлантириш ва жўжа чиқишини ошириш",
+            "Инкубатсийа тухумларини дезинфексийа қилиш — парранда касалликларининг олдини олиш",
+            "Маҳсулотни қайта ишлаш ва сақлаш — сақлаш муддати ва озуқавий қийматини йахшилаш",
+            "Йемни дезинфексийа қилиш — микрофлора ва токсинларни камайтириш",
+            "Сувни дезинфексийа қилиш ва ҳавони санитарийа қилиш — парранда маҳсулдорлигини ошириш",
+            "Паррандачилик фермаларининг чиқинди сувларини тозалаш"
           ]
         },
         "incubation": {
-          "title": "Egg incubation: increased hatchability",
-          "intro": "Treatment of hatching eggs with ozone (~10 mg/m³) improves their quality and increases hatchability with subsequent high viability. In the confined space of an incubator, there is a risk of oxygen starvation of embryos. Ozone, as a derivative of oxygen, improves the air environment and, penetrating through the shell, nourishes embryos with oxygen.",
+          "title": "Тухум инкубатсийаси: жўжа чиқишининг кўпайиши",
+          "intro": "Инкубатсийа тухумларига озон (~10 мг/м³) билан ишлов бериш уларнинг сифатини йахшилайди ва кейинчалик йуқори ҳайотчанлик билан жўжа чиқишини оширади. Инкубаторнинг чекланган жойида ембрионларнинг кислород очлиги хавфи мавжуд. Озон кислород ҳосиласи сифатида ҳаво муҳитини йахшилайди ва пўстлоқ орқали кириб, ембрионларни кислород билан озиқлантиради.",
           "stats": {
             "eggLayers": {
               "value": "780 → 12",
-              "label": "Pathogenic microflora",
-              "description": "Colony count/cm³ on egg-laying chicken egg shells before and after ozonation"
+              "label": "Патоген микрофлора",
+              "description": "Озонлашдан олдин ва кейин тухум қўйадиган товуқ тухуми пўстлоғидаги колонийа сони/см³"
             },
             "meatChickens": {
               "value": "913 → 24",
-              "label": "Meat chickens",
-              "description": "Colony count/cm³ on meat chicken egg shells before and after ozonation"
+              "label": "Гўшт йўналишидаги жўжалар",
+              "description": "Озонлашдан олдин ва кейин гўшт йўналишидаги товуқ тухуми пўстлоғидаги колонийа сони/см³"
             }
           },
-          "tableCaption": "Results of hatching egg ozonation",
-          "tableHeaders": ["Bird type", "Hatchability without ozone, %", "Hatchability with ozone, %", "Survival without ozone, %", "Survival with ozone, %"],
-          "tableData": [
-            ["Laying hens", "83.9", "86.4", "97.0", "97.8"],
-            ["Meat chickens", "79.4", "81.8", "93.3", "94.8"]
+          "tableCaption": "Инкубатсийа тухумларини озонлаш натижалари",
+          "tableHeaders": [
+            "Парранда тури",
+            "Озонсиз жўжа чиқиши, %",
+            "Озон билан жўжа чиқиши, %",
+            "Озонсиз йашовчанлик, %",
+            "Озон билан йашовчанлик, %"
           ],
-          "highlight": "VNITIP recommendations: long-term storage of hatching eggs in an ozone environment prevents premature spoilage, reduces shell contamination by 2–7 times, prevents mold development and extends storage life to 10 days."
+          "tableData": [
+            [
+              "Тухум қўйувчи товуқлар",
+              "83.9",
+              "86.4",
+              "97.0",
+              "97.8"
+            ],
+            [
+              "Гўшт йўналишидаги товуқлар",
+              "79.4",
+              "81.8",
+              "93.3",
+              "94.8"
+            ]
+          ],
+          "highlight": "ВНИТИП тавсийалари: инкубатсийа тухумларини озонли муҳитда узоқ муддат сақлаш муддатидан олдин бузилишнинг олдини олади, пўстлоқ ифлосланишини 2–7 баравар камайтиради, моғор ривожланишига йўл қўймайди ва сақлаш муддатини 10 кунгача узайтиради."
         },
         "airDisinfection": {
-          "title": "Air disinfection on poultry farms",
-          "intro1": "As a result of bird activity, poultry house air becomes contaminated with harmful substances: ammonia (up to 0.3–0.5 mg/l at MPC 0.01 mg/l), hydrogen sulfide, carbon dioxide, organic dust with microflora (up to 30–50 mg/l).",
-          "intro2": "Ozonation in a recirculation system allows air cleaning without significant ventilation and heating costs.",
-          "tableCaption": "Poultry house air cleaning efficiency (ozone concentration 11.3 mg/l)",
-          "tableHeaders": ["Parameter", "Before treatment", "After treatment"],
-          "tableData": [
-            ["Hydrogen sulfide, mg/l", "0.15", "0.0002"],
-            ["Ammonia, mg/l", "0.12", "0.004"],
-            ["Carbon dioxide, mg/l", "14.2", "0.2"],
-            ["Organic dust, mg/l", "18.1", "—"],
-            ["Oxygen, % vol.", "21.2", "21.7"],
-            ["Microflora, colonies/m³", "27,480", "< 200"]
+          "title": "Паррандачилик фермаларида ҳавони дезинфексийа қилиш",
+          "intro1": "Паррандалар фаолийати натижасида паррандахона ҳавоси зарарли моддалар билан ифлосланади: аммиак (0,01 мг/л ме'йорда 0,3–0,5 мг/л гача), водород сулфиди, карбонат ангидрид, микрофлорали органик чанг (30–50 мг/л гача).",
+          "intro2": "Ретсиркулйатсийа тизимидаги озонлаш ҳавони сезиларли шамоллатиш ва иситиш харажатларисиз тозалаш имконини беради.",
+          "tableCaption": "Паррандахона ҳавосини тозалаш самарадорлиги (озон контсентратсийаси 11,3 мг/л)",
+          "tableHeaders": [
+            "Кўрсаткич",
+            "Ишлов беришдан олдин",
+            "Ишлов беришдан кейин"
           ],
-          "highlight": "Periodic ozonation (8–12 hours once every 3–5 days) reduces harmful gas content by 80–85% and bacterial and mold contamination by 80–90%."
+          "tableData": [
+            [
+              "Водород сулфиди, мг/л",
+              "0.15",
+              "0.0002"
+            ],
+            [
+              "Аммиак, мг/л",
+              "0.12",
+              "0.004"
+            ],
+            [
+              "Карбонат ангидрид, мг/л",
+              "14.2",
+              "0.2"
+            ],
+            [
+              "Органик чанг, мг/л",
+              "18.1",
+              "—"
+            ],
+            [
+              "Кислород, ҳажмий %",
+              "21.2",
+              "21.7"
+            ],
+            [
+              "Микрофлора, колонийа/м³",
+              "27,480",
+              "< 200"
+            ]
+          ],
+          "highlight": "Вақти-вақти билан озонлаш (ҳар 3–5 кунда бир марта 8–12 соат давомида) зарарли газлар миқдорини 80–85% га, бактериал ва моғор ифлосланишини еса 80–90% га камайтиради."
         },
         "feedDisinfection": {
-          "title": "Feed disinfection",
-          "intro": "Microflora and mold fungi in feed produce toxins that pose a threat to bird health. Ozone treatment of feed significantly reduces microflora and toxins, increases biological value and feed digestibility.",
-          "tableCaption": "Feed ozonation efficiency",
-          "tableHeaders": ["Parameter", "Wheat without ozone", "Wheat with ozone", "Feed without ozone", "Feed with ozone"],
+          "title": "Йемни дезинфексийа қилиш",
+          "intro": "Йем таркибидаги микрофлора ва моғор замбуруғлари паррандалар саломатлигига хавф туғдирадиган токсинлар ишлаб чиқаради. Йемни озон билан ишлаш микрофлора ва токсинларни сезиларли даражада камайтиради, озуқавий қийматини ва йемнинг ҳазм бўлишини оширади.",
+          "tableCaption": "Йемни озонлаш самарадорлиги",
+          "tableHeaders": [
+            "Кўрсаткич",
+            "Озонсиз буғдой",
+            "Озон билан буғдой",
+            "Озонсиз йем",
+            "Озон билан йем"
+          ],
           "tableData": [
-            ["Microflora, colonies/g", "945", "63", "27,840", "91"],
-            ["Toxins, mg/kg", "5.11", "0.12", "4.87", "0.18"]
+            [
+              "Микрофлора, колонийа/г",
+              "945",
+              "63",
+              "27,840",
+              "91"
+            ],
+            [
+              "Токсинлар, мг/кг",
+              "5.11",
+              "0.12",
+              "4.87",
+              "0.18"
+            ]
           ]
         },
         "storage": {
-          "title": "Extended poultry meat storage",
-          "intro": "Positive effect in meat storage is achieved with daily ozonation for 2 hours at ozone concentration ~6 mg/m³. Poultry meat preservation in chilled form (+4°C) increases 4 times.",
-          "tableTitle": "Poultry meat storage comparison",
+          "title": "Парранда гўштини сақлаш муддатини узайтириш",
+          "intro": "Гўштни сақлашда ижобий та'сирга озон контсентратсийаси ~6 мг/м³ бўлганда кунига 2 соат озонлаш орқали еришилади. Парранда гўштини совутилган ҳолда (+4°C) сақлаш муддати 4 баравар ошади.",
+          "tableTitle": "Парранда гўштини сақлашни солиштириш",
           "tableHeaders": {
-            "0": "Parameter",
-            "1": "With ozone",
-            "2": "Without ozone"
+            "0": "Кўрсаткич",
+            "1": "Озон билан",
+            "2": "Озонсиз"
           },
           "tableData": [
-            { "parameter": "Maximum storage life", "value1": "18–21 days", "value2": "5–7 days" },
-            { "parameter": "Weight loss", "value1": "7.6%", "value2": "10.9%" },
-            { "parameter": "Carcass color", "value1": "Light yellow", "value2": "Yellow" },
-            { "parameter": "Meat odor", "value1": "Characteristic of fresh", "value2": "Musty, putrid" },
-            { "parameter": "Bacterial contamination after storage", "value1": "65 colonies/ml", "value2": "736 colonies/ml" }
+            {
+              "parameter": "Максимал сақлаш муддати",
+              "value1": "18–21 кун",
+              "value2": "5–7 кун"
+            },
+            {
+              "parameter": "Вазн йўқотиш",
+              "value1": "7.6%",
+              "value2": "10.9%"
+            },
+            {
+              "parameter": "Тана ранги",
+              "value1": "Оч сариқ",
+              "value2": "Сариқ"
+            },
+            {
+              "parameter": "Гўшт ҳиди",
+              "value1": "Йанги гўштга хос",
+              "value2": "Моғорлаган, сассиқ"
+            },
+            {
+              "parameter": "Сақлашдан кейинги бактериал ифлосланиш",
+              "value1": "65 колонийа/мл",
+              "value2": "736 колонийа/мл"
+            }
           ],
-          "highlight": "After 20 days of storage, meat with ozonation maintained initial freshness and tenderness without odor. Without treatment — greenish color and putrid odor after just 5 days."
+          "highlight": "20 кунлик сақлашдан кейин озонланган гўшт ҳидсиз, ўзининг йангилиги ва йумшоқлигини сақлаб қолди. Ишлов берилмаган гўшт еса атиги 5 кундан кейин йашил рангга кириб, сассиқ ҳид чиқара бошлади."
         },
         "modes": {
-          "title": "Ozonation regimes in poultry farming",
-          "tableHeaders": ["Ozonation purpose", "Concentration", "Treatment time", "Frequency"],
+          "title": "Паррандачиликда озонлаш режимлари",
+          "tableHeaders": [
+            "Озонлаш мақсади",
+            "Контсентратсийа",
+            "Ишлов бериш вақти",
+            "Даврийлиги"
+          ],
           "tableData": [
-            ["Preventive egg disinfection", "8–12 mg/m³", "60 min", "Once before loading"],
-            ["Disinfection during incubation", "8–12 mg/m³", "30 min", "6 hours after loading"],
-            ["Hatching egg storage", "4–15 mg/m³", "120–180 min", "Once daily"],
-            ["Embryonic development stimulation", "~10 mg/m³", "20 min", "Once daily throughout period"],
-            ["Poultry house air disinfection", "8–12 mg/m³", "5–10 min", "2–3 times daily"],
-            ["Grain storage treatment", "8–12 mg/m³", "60–120 min", "Once daily"],
-            ["Meat treatment during storage", "~6 mg/m³", "120 min", "1–2 times daily"]
+            [
+              "Тухумларни профилактик дезинфексийа қилиш",
+              "8–12 мг/м³",
+              "60 мин",
+              "Йуклашдан олдин бир марта"
+            ],
+            [
+              "Инкубатсийа пайтида дезинфексийа қилиш",
+              "8–12 мг/м³",
+              "30 мин",
+              "Йуклашдан 6 соат ўтгач"
+            ],
+            [
+              "Инкубатсийа тухумларини сақлаш",
+              "4–15 мг/м³",
+              "120–180 мин",
+              "Кунига бир марта"
+            ],
+            [
+              "Ембрионал ривожланишни рағбатлантириш",
+              "~10 мг/м³",
+              "20 мин",
+              "Бутун давр давомида кунига бир марта"
+            ],
+            [
+              "Паррандахона ҳавосини дезинфексийа қилиш",
+              "8–12 мг/м³",
+              "5–10 мин",
+              "Кунига 2–3 марта"
+            ],
+            [
+              "Дон омборларини ишлаш",
+              "8–12 мг/м³",
+              "60–120 мин",
+              "Кунига бир марта"
+            ],
+            [
+              "Гўштни сақлаш пайтида ишлаш",
+              "~6 мг/м³",
+              "120 мин",
+              "Кунига 1–2 марта"
+            ]
           ]
         },
         "benefits": {
-          "title": "Benefits of ozonation in poultry farming",
+          "title": "Паррандачиликда озонлашнинг афзалликлари",
           "items": [
             {
-              "title": "Environmental purity",
-              "description": "Ozone decomposes to oxygen without leaving chemical residues in products"
+              "title": "Екологик тозалик",
+              "description": "Озон маҳсулотларда кимйовий қолдиқларни қолдирмасдан кислородга парчаланади"
             },
             {
-              "title": "Safety",
-              "description": "Safer than formaldehyde and chlorine, which are carcinogenic or have side effects"
+              "title": "Хавфсизлик",
+              "description": "Кансероген йоки ножўйа та'сирга ега бўлган формалдегид ва хлорга қараганда хавфсизроқ"
             },
             {
-              "title": "Versatility",
-              "description": "Single equipment for eggs, feed, water, air and products"
+              "title": "Кўп қирралилик",
+              "description": "Тухумлар, йем, сув, ҳаво ва маҳсулотлар учун битта ускуна"
             },
             {
-              "title": "Economy",
-              "description": "Produced on-site from air, requires no reagent storage"
+              "title": "Тежамкорлик",
+              "description": "Ҳаводан жойида ишлаб чиқарилади, реагентларни сақлашни талаб қилмайди"
             }
           ]
         }
       }
     },
     "livestock": {
-      "title": "Livestock farming",
-      "shortDesc": "Farm disinfection, feed treatment and extended meat storage",
-      "content": "In livestock farming, ozonation addresses a range of tasks: from maintaining sanitary conditions to extending meat product shelf life.\n\nAir ozonation in livestock buildings reduces concentrations of pathogens, ammonia and unpleasant odors. This improves microclimate, reduces animal stress and respiratory disease risk.\n\nFor meat storage, ozonation ensures destruction of surface microflora on carcasses while preserving nutritional and sensory quality. Regular cold room ozonation can extend chilled meat shelf life 2–5 times.\n\nOzone concentration of 10 mg/m³ for 2–5 hours ensures complete destruction of mesophilic and psychrotrophic microflora on meat surface at 1–4°C.",
-      "benefits": [
-        "2–5 times longer meat shelf life",
-        "99.9% cold room disinfection",
-        "Reduced flock morbidity",
-        "Ammonia and odor removal",
-        "Preserved product quality",
-        "Operation at subzero temperatures"
-      ]
-    },
-    "vegetable-storage": {
-      "title": "Vegetable storage",
-      "shortDesc": "Reduced losses of vegetables and fruit during long storage",
-      "content": "Vegetable storage ozonation is an effective way to reduce losses during long-term storage. Ozone quickly and thoroughly disinfects air and surfaces, destroying viruses, bacteria, fungi and mold.\n\nOzone breaks down ethylene, which accelerates ripening and shortens storage life. This allows storing ethylene-sensitive produce together with ethylene-producing produce.\n\nFor a 300-ton carrot store, ozonation equipment can reduce losses on average by a factor of 3.\n\nTreatment regime for most vegetables and fruit: 1–2 times per day for 2–4 hours. Special regimes are used for potatoes, cabbage, apples and other crops.",
+      "title": "Чорвачилик",
+      "shortDesc": "Фермаларни дезинфексийа қилиш, йем-хашакни қайта ишлаш ва гўшт маҳсулотларини сақлаш муддатини узайтириш",
+      "content": "Чорвачиликда озонлаш бир қатор вазифаларни ҳал қилади: биноларнинг санитарийа ҳолатини сақлашдан тортиб гўшт маҳсулотларини сақлаш муддатини узайтиришгача.\n\nЧорвачилик биноларидаги ҳавони озонлаш патогенлар, аммиак ва йоқимсиз ҳидлар контсентратсийасини камайтиради. Бу микроклиманни йахшилайди, ҳайвонлар стрессини ва нафас олиш касалликлари хавфини камайтиради.\n\nГўшт маҳсулотларини сақлашда озонлаш тана йузасидаги микрофлорани йўқ қилади ва маҳсулотнинг озуқавий ва сезги хусусийатларини сақлайди. Мунтазам озонлаш совутгич камераларида совутилган гўштни сақлаш муддатини 2-5 марта узайтиради.\n\n1-4°C ҳароратда 2-5 соат давомида 10 мг/м³ озон контсентратсийаси гўшт йузасидаги мезофил ва психротроф микрофлорани тўлиқ йўқ қилади.",
       "stats": {
-        "storageExtension": {
-          "value": "1.5–2×",
-          "label": "Storage extension",
-          "description": "Extended product storage life"
+        "microfloraReduction": {
+          "value": "80-90%",
+          "label": "Микрофлорани камайтириш",
+          "description": "Чорвачилик биноларидаги ҳавода"
         },
-        "moldReduction": {
-          "value": "90%",
-          "label": "Mold reduction",
-          "description": "Destruction of fungal spores"
+        "morbidityReduction": {
+          "value": "30-50%",
+          "label": "Касалланишни камайтириш",
+          "description": "Чорва ҳайвонларида нафас олиш инфексийалари"
         },
-        "lossReduction": {
-          "value": "30–50%",
-          "label": "Loss reduction",
-          "description": "Reduced product spoilage"
+        "productivityGrowth": {
+          "value": "10-15%",
+          "label": "Унумдорлик ўсиши",
+          "description": "Ўртача кунлик вазн ўсиши ва сут маҳсулдорлиги"
         },
-        "noChemicals": {
+        "antibiotics": {
           "value": "0",
-          "label": "Chemicals",
-          "description": "No preservatives or fungicides"
+          "label": "Антибиотиклар",
+          "description": "Екологик тоза маҳсулотлар"
         }
       },
       "benefits": [
-        "About 3× lower losses",
-        "Mold and rot destruction",
-        "Ethylene breakdown for longer storage",
-        "Mold spore germination suppression",
-        "Operation at subzero temperatures",
-        "Payback in the first season"
+        "Гўштни сақлаш муддати 2-5 марта узайади",
+        "Совутгич камераларни 99,9% дезинфексийа қилиш",
+        "Чорва ҳайвонларида касалланишни камайтириш",
+        "Аммиак ва йоқимсиз ҳидларни йўқ қилиш",
+        "Маҳсулотнинг озуқавий хусусийатларини сақлаш",
+        "Салбий ҳароратларда ишлаш"
       ],
       "sections": {
         "intro": {
-          "paragraph1": "Storage losses of vegetables and fruit range from 20 to 40% of total volume. Main causes are mold development, bacterial rot, premature sprouting and wilting. Ozonation solves these problems comprehensively, extending storage life by 1.5–2 times without chemical agents.",
-          "paragraph2": "Unlike fungicides and preservatives, ozone does not accumulate in products, decomposing to oxygen. This is especially important for organic farming and production of eco-friendly food."
+          "paragraph1": "Замонавий чорвачилик жиддий муаммоларга дуч келмоқда: антибиотикларга чидамлиликнинг ўсиши, маҳсулотларнинг екологик тозалигига қўйиладиган қат'ий талаблар ва харажатларни камайтириш билан унумдорликни ошириш зарурати. Озонлаш бу муаммоларни комплекс ҳал қиладиган технологийадир.",
+          "paragraph2": "Чорвачиликда озон қўллаш касалланишни 30-50% камайтириш, унумдорликни 10-15% ошириш ва профилактик антибиотиклардан фойдаланишни тўхтатишга имкон беради. Бу Йевропа Иттифоқининг антибиотикларни ўсиш стимулйаторлари сифатида ишлатишни тақиқлаши контекстида айниқса муҳимдир."
+        },
+        "pdkInfo": {
+          "label": "Ҳайвонлар учун озон МПC:",
+          "text": "қорамол ва чўчқалар учун 1,0 мг/м³ гача, паррандалар учун 1,2 мг/м³ гача. Бу режимларга риойа қилган ҳолда ҳайвонлар мавжуд бўлганда профилактик муолажаларни ўтказишга имкон беради."
+        },
+        "applications": {
+          "title": "Озон қўллаш йўналишлари",
+          "items": [
+            "Ҳайвонлар йашайдиган биноларда ҳавони дезинфексийа қилиш",
+            "Ичимлик сувини дезинфексийа қилиш",
+            "Йем-хашакни қайта ишлаш — микотоксинлар ва патогенларни камайтириш",
+            "Сут ускуналари ва идишларни дезинфексийа қилиш",
+            "Гўнг ва чиқиндиларни қайта ишлаш",
+            "Туғруқхоналарни санитатсийа қилиш"
+          ]
+        },
+        "airDisinfection": {
+          "title": "Биноларда ҳавони дезинфексийа қилиш",
+          "intro": "Чорвачилик биноларидаги ҳаво аммиак, водород сулфиди, чанг ва микроорганизмлар билан ифлосланади. Аммиак контсентратсийаси МПC 0,01 мг/л бўлса, 0,02-0,03 мг/л га йетиши мумкин. Бу унумдорликни камайтиради, касалланишни оширади ва ходимлар учун иш шароитларини йомонлаштиради.",
+          "tableCaption": "Сигирхонада ҳавони озонлаш самарадорлиги",
+          "tableHeaders": [
+            "Кўрсаткич",
+            "Муолажадан олдин",
+            "Муолажадан кейин",
+            "Камайиш"
+          ],
+          "tableData": [
+            [
+              "Аммиак, мг/л",
+              "0,025",
+              "0,005",
+              "80%"
+            ],
+            [
+              "Водород сулфиди, мг/л",
+              "0,008",
+              "0,001",
+              "87%"
+            ],
+            [
+              "Микрофлора, КОЕ/м³",
+              "85 000",
+              "12 000",
+              "86%"
+            ],
+            [
+              "Чанг, мг/м³",
+              "4,5",
+              "1,2",
+              "73%"
+            ]
+          ],
+          "highlight": "Мунтазам озонлаш (кунига 2-3 марта, 15-20 дақиқа, 0,5-1,0 мг/м³ контсентратсийада) қорамол нафас олиш касалликларини 40-50% камайтиради ва ўртача кунлик вазн ўсишини 8-12% оширади."
+        },
+        "waterDisinfection": {
+          "title": "Ичимлик сувини дезинфексийа қилиш",
+          "intro": "Сув сифати ҳайвонлар саломатлиги ва унумдорлигига бевосита та'сир қилади. Очиқ манбалардан ва ҳатто артезиан қудуқларидан олинган сув кўпинча патоген микроорганизмлар, темир, марганетс ва органик бирикмаларни ўз ичига олади.",
+          "intro2": "Сувни озонлаш қуйидагиларни та'минлайди:",
+          "items": [
+            "Е.cоли, салмонелла, кампилобактер ва бошқа патогенларни йўқ қилиш",
+            "Темир ва марганетсни еримайдиган шаклларга оксидланиши",
+            "Йоқимсиз ҳидлар ва та'мларни йўқ қилиш",
+            "Ҳайвонлар томонидан сувнинг йахшироқ ҳазм бўлиши",
+            "Ошқозон-ичак касалликларининг олдини олиш"
+          ],
+          "tableCaption": "Чорвачилик учун сувни озонлаш режимлари",
+          "tableHeaders": [
+            "Мақсад",
+            "Озон контсентратсийаси",
+            "Алоқа вақти"
+          ],
+          "tableData": [
+            [
+              "Қорамол учун ичимлик суви",
+              "0,3-0,5 мг/л",
+              "10-15 мин"
+            ],
+            [
+              "Чўчқалар учун ичимлик суви",
+              "0,3-0,5 мг/л",
+              "10-15 мин"
+            ],
+            [
+              "Ускуналарни йувиш суви",
+              "1,0-2,0 мг/л",
+              "5-10 мин"
+            ],
+            [
+              "Сутни суйултириш суви",
+              "0,5-1,0 мг/л",
+              "15-20 мин"
+            ]
+          ]
+        },
+        "feedTreatment": {
+          "title": "Йем-хашакни қайта ишлаш",
+          "intro": "Йем-хашак ҳайвонлар организмига кирувчи микотоксинлар ва патоген микроорганизмларнинг асосий манбаи ҳисобланади. Йем-хашакни озонлаш қуйидагиларга имкон беради:",
+          "items": [
+            "Моғор замбуруғларининг таркибини 90-95% камайтириш",
+            "Микотоксинларни (афлатоксинлар, зеараленон, ДОН) йўқ қилиш",
+            "Патоген микрофлорани (салмонелла, Е.cоли) йўқ қилиш",
+            "Йем-хашакнинг биологик қиймати ва ҳазм бўлишини ошириш",
+            "Йем-хашакни сақлаш муддатини узайтириш"
+          ],
+          "highlight": "Тавсийа етилган йем-хашакни қайта ишлаш режими: озон контсентратсийаси 10-15 мг/м³, қайта ишлаш вақти намлик ва ифлосланиш даражасига қараб 60-120 дақиқа."
+        },
+        "dairyEquipment": {
+          "title": "Сут ускуналарини дезинфексийа қилиш",
+          "intro": "Сут фермаларида озон соғиш ускуналари, совутгич танклар, сут қувурлари ва идишларни дезинфексийа қилиш учун ишлатилади. Бу кимйовий тозалаш воситаларидан фойдаланишни тўхтатиш ва сут маҳсулотларининг хавфсизлигини та'минлашга имкон беради.",
+          "tableCaption": "Сут фермаларида озон қўллаш",
+          "tableHeaders": [
+            "Муолажа об'екти",
+            "Усул",
+            "Самарадорлик"
+          ],
+          "tableData": [
+            [
+              "Соғиш аппаратлари",
+              "Озонланган сув 2-3 мг/л",
+              "99,9%"
+            ],
+            [
+              "Сут танклари",
+              "Озонланган сув + ҳаво",
+              "99,99%"
+            ],
+            [
+              "Сут қувурлари",
+              "Озонланган сувни айлантириш",
+              "99,9%"
+            ],
+            [
+              "Сақлаш идишлари",
+              "Газсимон озон",
+              "99,99%"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "Чорвачиликда озонлашнинг афзалликлари",
+          "items": [
+            {
+              "title": "Антибиотиксиз",
+              "description": "Профилактик антибиотикларсиз касалланишни камайтириш — екологик тоза маҳсулотлар"
+            },
+            {
+              "title": "Унумдорликни ошириш",
+              "description": "Шароитларни йахшилаш ҳисобига сут маҳсулдорлиги 5-10%, ўртача кунлик вазн ўсиши 8-15% ошади"
+            },
+            {
+              "title": "Ветеринарийа харажатларини тежаш",
+              "description": "Даволаш ва касалликнинг олдини олиш харажатларини 30-40% камайтириш"
+            },
+            {
+              "title": "Иш шароитларини йахшилаш",
+              "description": "Ферма ходимлари учун зарарли газлар ва ҳидлар контсентратсийасини камайтириш"
+            }
+          ]
+        }
+      }
+    },
+    "vegetable-storage": {
+      "title": "Сабзавотларни сақлаш",
+      "shortDesc": "Узоқ муддатли сақлашда сабзавот ва меваларнинг нобуд бўлишини камайтириш",
+      "content": "Сабзавот омборларини озонлаш — узоқ муддатли сақлаш пайтида нобуд бўлишни камайтиришнинг самарали усули. Озон ҳаво ва йузаларни тез ва йахшилаб дезинфексийа қилади, вируслар, бактерийалар, замбуруғлар ва моғорни йўқ қилади.\n\nОзон пишишни тезлаштирадиган ва сақлаш муддатини қисқартирадиган етиленни парчалайди. Бу етиленга сезгир маҳсулотларни етилен ишлаб чиқарадиган маҳсулотлар билан бирга сақлаш имконини беради.\n\n300 тонналик сабзавот омбори учун озонлаш ускунаси нобуд бўлишни ўртача 3 баравар камайтириши мумкин.\n\nКўпгина сабзавот ва мевалар учун ишлов бериш режими: кунига 1–2 марта 2–4 соат давомида. Картошка, карам, олма ва бошқа екинлар учун махсус режимлар қўлланилади.",
+      "stats": {
+        "storageExtension": {
+          "value": "1.5–2×",
+          "label": "Сақлаш муддатини узайтириш",
+          "description": "Маҳсулотни сақлаш муддатини узайтириш"
+        },
+        "moldReduction": {
+          "value": "90%",
+          "label": "Моғорни камайтириш",
+          "description": "Замбуруғ спораларини йўқ қилиш"
+        },
+        "lossReduction": {
+          "value": "30–50%",
+          "label": "Нобуд бўлишни камайтириш",
+          "description": "Маҳсулот бузилишини камайтириш"
+        },
+        "noChemicals": {
+          "value": "0",
+          "label": "Кимйовий моддалар",
+          "description": "Консервантлар ва фунгитсидларсиз"
+        }
+      },
+      "benefits": [
+        "Нобуд бўлиш тахминан 3 баравар камайади",
+        "Моғор ва чиришни йўқ қилиш",
+        "Узоқроқ сақлаш учун етиленни парчалаш",
+        "Моғор спораларининг униб чиқишини бостириш",
+        "Салбий ҳароратларда ишлаш",
+        "Биринчи мавсумда харажатларни қоплаш"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Сабзавот ва меваларни сақлашдаги нобуд бўлиш умумий ҳажмнинг 20 дан 40% гача йетади. Асосий сабаблар — моғор ривожланиши, бактериал чириш, муддатидан олдин униб чиқиш ва сўлиш. Озонлаш ушбу муаммоларни комплекс ҳал қилади ва сақлаш муддатини кимйовий моддаларсиз 1,5–2 баравар узайтиради.",
+          "paragraph2": "Фунгитсидлар ва консервантлардан фарқли ўлароқ, озон маҳсулотларда тўпланмайди ва кислородга парчаланади. Бу органик деҳқончилик ва екологик тоза озиқ-овқат маҳсулотларини ишлаб чиқариш учун жуда муҳимдир."
         },
         "principle": {
-          "title": "Principle of action:",
-          "text": "Ozone destroys mold, yeast and bacteria on vegetable surfaces and in storage air. It also breaks down ethylene — a gas that accelerates ripening and aging of fruits."
+          "title": "Ишлаш принсипи:",
+          "text": "Озон сабзавот йузаларидаги ва омбор ҳавосидаги моғор, ачитқи ва бактерийаларни йўқ қилади. Шунингдек, у меваларнинг пишиши ва қаришини тезлаштирадиган газ — етиленни парчалайди."
         },
         "efficiency": {
-          "title": "Effectiveness of vegetable ozonation",
-          "tableCaption": "Storage life extension with ozonation",
-          "tableHeaders": ["Crop", "Without ozone", "With ozone", "Increase"],
+          "title": "Сабзавотларни озонлаш самарадорлиги",
+          "tableCaption": "Озонлаш билан сақлаш муддатини узайтириш",
+          "tableHeaders": [
+            "Екин",
+            "Озонсиз",
+            "Озон билан",
+            "Ўсиш"
+          ],
           "tableData": [
-            ["Potatoes", "4–5 months", "6–7.5 months", "+2.5 months"],
-            ["Carrots", "4–6 months", "7–9 months", "+3 months"],
-            ["Cabbage", "4–5 months", "6–8 months", "+2–3 months"],
-            ["Onions", "5–6 months", "8–9 months", "+3 months"],
-            ["Beets", "5–6 months", "8–9 months", "+3 months"],
-            ["Apples", "4–6 months", "7–9 months", "+3 months"]
+            [
+              "Картошка",
+              "4–5 ой",
+              "6–7.5 ой",
+              "+2.5 ой"
+            ],
+            [
+              "Сабзи",
+              "4–6 ой",
+              "7–9 ой",
+              "+3 ой"
+            ],
+            [
+              "Карам",
+              "4–5 ой",
+              "6–8 ой",
+              "+2–3 ой"
+            ],
+            [
+              "Пийоз",
+              "5–6 ой",
+              "8–9 ой",
+              "+3 ой"
+            ],
+            [
+              "Лавлаги",
+              "5–6 ой",
+              "8–9 ой",
+              "+3 ой"
+            ],
+            [
+              "Олма",
+              "4–6 ой",
+              "7–9 ой",
+              "+3 ой"
+            ]
           ]
         },
         "diseases": {
-          "title": "Storage disease control",
-          "intro": "Main storage diseases of vegetables are caused by fungi and bacteria. Ozone is effective against all major pathogens:",
+          "title": "Сақлаш касалликларига қарши кураш",
+          "intro": "Сабзавотларнинг асосий сақлаш касалликлари замбуруғлар ва бактерийалар томонидан чақирилади. Озон барча асосий патогенларга қарши самаралидир:",
           "items": [
-            "Potato late blight — 60–80% reduction in infection",
-            "Gray mold (Botrytis) — 95% spore destruction",
-            "Wet rot — suppression of bacterial development",
-            "Fusarium — 70% reduction in infection",
-            "Fruit penicillium — 90% spore destruction",
-            "Carrot blackleg — prevention of development"
+            "Картошка фитофторози — инфексийани 60–80% га камайтириш",
+            "Кулранг чириш (Ботрйтис) — спорани 95% йўқ қилиш",
+            "Нам чириш — бактериал ривожланишни бостириш",
+            "Фузариоз — инфексийани 70% га камайтириш",
+            "Мева пенитсиллози — спорани 90% йўқ қилиш",
+            "Сабзи қора чириши — ривожланишининг олдини олиш"
           ],
-          "highlight": "With regular ozonation (2–3 mg/m³, 4–6 hours daily), potato late blight infection decreases from 15–20% to 3–5%, saving up to 30% of the crop."
+          "highlight": "Мунтазам озонлаш (кунига 2–3 мг/м³, 4–6 соат) билан картошка фитофторози инфексийаси 15–20% дан 3–5% гача камайади ва ҳосилнинг 30% гача қисмини сақлаб қолади."
         },
         "modes": {
-          "title": "Vegetable storage ozonation modes",
-          "tableCaption": "Recommended treatment modes",
-          "tableHeaders": ["Crop", "Concentration", "Treatment time", "Frequency"],
-          "tableData": [
-            ["Potatoes", "2–5 mg/m³", "4–6 hours", "Daily"],
-            ["Carrots", "3–5 mg/m³", "4–8 hours", "Daily"],
-            ["Cabbage", "3–5 mg/m³", "4–6 hours", "Daily"],
-            ["Onions", "5–10 mg/m³", "2–4 hours", "2–3 times per week"],
-            ["Apples", "2–3 mg/m³", "4–6 hours", "Daily"],
-            ["Citrus fruits", "3–5 mg/m³", "4–6 hours", "Daily"]
+          "title": "Сабзавот омборларини озонлаш режимлари",
+          "tableCaption": "Тавсийа етилган ишлов бериш режимлари",
+          "tableHeaders": [
+            "Екин",
+            "Контсентратсийа",
+            "Ишлов бериш вақти",
+            "Даврийлиги"
           ],
-          "note": "It is important to consider that ozonation mode depends on temperature, humidity and product condition. At high humidity (over 95%), ozone effectiveness increases."
+          "tableData": [
+            [
+              "Картошка",
+              "2–5 мг/м³",
+              "4–6 соат",
+              "Ҳар куни"
+            ],
+            [
+              "Сабзи",
+              "3–5 мг/м³",
+              "4–8 соат",
+              "Ҳар куни"
+            ],
+            [
+              "Карам",
+              "3–5 мг/м³",
+              "4–6 соат",
+              "Ҳар куни"
+            ],
+            [
+              "Пийоз",
+              "5–10 мг/м³",
+              "2–4 соат",
+              "Ҳафтада 2–3 марта"
+            ],
+            [
+              "Олма",
+              "2–3 мг/м³",
+              "4–6 соат",
+              "Ҳар куни"
+            ],
+            [
+              "Ситрус мевалар",
+              "3–5 мг/м³",
+              "4–6 соат",
+              "Ҳар куни"
+            ]
+          ],
+          "note": "Шуни ҳисобга олиш керакки, озонлаш режими ҳарорат, намлик ва маҳсулот ҳолатига боғлиқ. Йуқори намликда (95% дан йуқори) озон самарадорлиги ошади."
         },
         "additionalEffects": {
-          "title": "Additional effects of ozonation",
+          "title": "Озонлашнинг қўшимча еффектлари",
           "items": [
             {
-              "title": "Odor elimination",
-              "description": "Ozone neutralizes odors of decay, mustiness, chemicals in storage"
+              "title": "Ҳидларни йўқ қилиш",
+              "description": "Озон омбордаги чириш, моғор ва кимйовий ҳидларни нейтраллайди"
             },
             {
-              "title": "Sprouting suppression",
-              "description": "Slowing sprouting of potatoes and onions without chemical inhibitors"
+              "title": "Униб чиқишни бостириш",
+              "description": "Картошка ва пийознинг кимйовий ингибиторларсиз униб чиқишини секинлаштириш"
             },
             {
-              "title": "Ethylene breakdown",
-              "description": "Ethylene oxidation slows ripening and aging of fruits"
+              "title": "Етиленни парчалаш",
+              "description": "Етилен оксидланиши меваларнинг пишиши ва қаришини секинлаштиради"
             },
             {
-              "title": "Disinsection",
-              "description": "Destruction of pest insects and their larvae in storage"
+              "title": "Дезинсексийа",
+              "description": "Омбордаги зарарли ҳашаротлар ва уларнинг личинкаларини йўқ қилиш"
             }
           ]
         },
         "economic": {
-          "title": "Economic effect",
-          "intro": "Implementation of ozonation in vegetable storage provides significant economic benefits:",
-          "tableHeaders": ["Indicator", "With ozone", "Without ozone"],
-          "tableData": [
-            { "parameter": "Potato storage losses", "value1": "5–8%", "value2": "15–25%" },
-            { "parameter": "Carrot storage losses", "value1": "8–12%", "value2": "25–35%" },
-            { "parameter": "Fungicide costs", "value1": "0", "value2": "15–20 rub/t" },
-            { "parameter": "Late season sales", "value1": "At premium price", "value2": "At discount (quality deterioration)" }
+          "title": "Иқтисодий самарадорлик",
+          "intro": "Сабзавот омборларида озонлашни жорий етиш сезиларли иқтисодий фойда келтиради:",
+          "tableHeaders": [
+            "Кўрсаткич",
+            "Озон билан",
+            "Озонсиз"
           ],
-          "highlight": "Equipment payback for ozonation of a 1000-ton vegetable storage is 1–2 storage seasons through loss reduction and higher sales prices."
+          "tableData": [
+            {
+              "parameter": "Картошка сақлашдаги нобуд бўлиш",
+              "value1": "5–8%",
+              "value2": "15–25%"
+            },
+            {
+              "parameter": "Сабзи сақлашдаги нобуд бўлиш",
+              "value1": "8–12%",
+              "value2": "25–35%"
+            },
+            {
+              "parameter": "Фунгитсидлар харажатлари",
+              "value1": "0",
+              "value2": "15–20 руб/т"
+            },
+            {
+              "parameter": "Мавсум охиридаги савдо",
+              "value1": "Йуқори нархда",
+              "value2": "Чегирма билан (сифат йомонлашиши)"
+            }
+          ],
+          "highlight": "1000 тонналик сабзавот омборини озонлаш ускунаси нобуд бўлишни камайтириш ва йуқори сотув нархлари ҳисобига 1–2 сақлаш мавсумида ўзини оқлайди."
         }
       }
     },
     "greenhouses": {
-      "title": "Greenhouses and crop production",
-      "shortDesc": "Higher yields and plant disease protection",
-      "heroText": "13–35% yield increase, protection from diseases and pests without chemical pesticides. Eco-friendly technology for modern greenhouse operations.",
-      "content": "In greenhouse production, ozone is used to disinfect air, plant surfaces and soil. Ozonation increases yields and effectively controls disease without chemical pesticides.\n\nOzone dissolves in water about 15 times better than oxygen. Irrigation with ozonated water increases yields by 13–35% through improved soil quality, greater root mass and reduced root pathogens.\n\nDisinfection of greenhouse soils with concentrated ozone solution effectively suppresses root-knot nematode by 90–98% and stimulates plant growth. Biomass can increase by up to 30%.\n\nGreenhouse air ozonation destroys fungi, bacteria, yeast, viruses and pests. High concentrations are used to prepare the greenhouse for planting when the facility is unoccupied.",
+      "title": "Иссиқхоналар ва деҳқончилик",
+      "shortDesc": "Йуқори ҳосилдорлик ва ўсимликларни касалликлардан ҳимойа қилиш",
+      "heroText": "13–35% ҳосилдорлик ўсиши, кимйовий пеститсидларсиз касаллик ва зараркунандалардан ҳимойа. Замонавий иссиқхона хўжаликлари учун екологик тоза технологийа.",
+      "content": "Иссиқхона ишлаб чиқаришида озон ҳаво, ўсимлик йузалари ва тупроқни дезинфексийа қилиш учун ишлатилади. Озонлаш ҳосилдорликни оширади ва кимйовий пеститсидларсиз касалликларни самарали назорат қилади.\n\nОзон сувда кислородга қараганда тахминан 15 баравар йахши ерийди. Озонланган сув билан суғориш тупроқ сифатини йахшилаш, илдиз массасини ошириш ва илдиз патогенларини камайтириш орқали ҳосилдорликни 13–35% га оширади.\n\nИссиқхона тупроқларини контсентрланган озон еритмаси билан дезинфексийа қилиш илдиз бўртма нематодасини 90–98% га бостиради ва ўсимлик ўсишини рағбатлантиради. Биомасса 30% гача ошиши мумкин.\n\nИссиқхона ҳавосини озонлаш замбуруғлар, бактерийалар, ачитқилар, вируслар ва зараркунандаларни йўқ қилади. Йуқори контсентратсийалар иссиқхонани екишга таййорлашда, бино бўш бўлган пайтда қўлланилади.",
       "stats": {
         "yieldIncrease": {
           "value": "13–35%",
-          "label": "Yield increase",
-          "description": "With ozonated water irrigation"
+          "label": "Ҳосилдорлик ўсиши",
+          "description": "Озонланган сув билан суғорганда"
         },
         "nematodeDestruction": {
           "value": "90–98%",
-          "label": "Nematode destruction",
-          "description": "In greenhouse soils"
+          "label": "Нематодаларни йўқ қилиш",
+          "description": "Иссиқхона тупроқларида"
         },
         "oxygenIncrease": {
           "value": "30–45%",
-          "label": "More oxygen",
-          "description": "Dissolved in irrigation water"
+          "label": "Кўпроқ кислород",
+          "description": "Суғориш сувида ериган"
         },
         "biomassGrowth": {
-          "value": "up to 30%",
-          "label": "Biomass growth",
-          "description": "After soil disinfection"
+          "value": "30% гача",
+          "label": "Биомасса ўсиши",
+          "description": "Тупроқни дезинфексийа қилгандан кейин"
         }
       },
       "benefits": [
-        "13–35% yield increase",
-        "90–98% nematode destruction",
-        "Increased root mass",
-        "Disease control without chemicals",
-        "30–45% more dissolved oxygen in irrigation water",
-        "Eco-friendly technology"
+        "13–35% ҳосилдорлик ўсиши",
+        "90–98% нематодаларни йўқ қилиш",
+        "Илдиз массасининг кўпайиши",
+        "Кимйовий моддаларсиз касаллик назорати",
+        "Суғориш сувида 30–45% кўпроқ ериган кислород",
+        "Екологик тоза технологийа"
       ],
       "sections": {
         "applications": {
-          "title": "Ozone applications in greenhouses",
+          "title": "Иссиқхоналарда озоннинг қўлланилиши",
           "items": [
-            "Ozonated water irrigation — yield increase and growth stimulation",
-            "Greenhouse soil disinfection — nematode and pathogen control",
-            "Air ozonation — destruction of fungi, bacteria, viruses",
-            "Pest protection — eco-friendly alternative to insecticides",
-            "Pre-sowing seed treatment — improved germination and sprouting energy",
-            "Greenhouse preparation for season — complete facility disinfection"
+            "Озонланган сув билан суғориш — ҳосилдорликни ошириш ва ўсишни рағбатлантириш",
+            "Иссиқхона тупроқларини дезинфексийа қилиш — нематода ва патогенларни назорат қилиш",
+            "Ҳавони озонлаш — замбуруғ, бактерийа, вирусларни йўқ қилиш",
+            "Зараркунандалардан ҳимойа — инсектитсидларга екологик тоза муқобил",
+            "Уруғларни екишдан олдин ишлаш — униб чиқишни йахшилаш",
+            "Иссиқхонани мавсумга таййорлаш — бинони тўлиқ дезинфексийа қилиш"
           ]
         },
         "irrigation": {
-          "title": "Ozonated water irrigation",
-          "intro": "Irrigation with ozone-enriched water is one of the most effective technologies for increasing yields. Ozone quickly decomposes to oxygen, saturating the root zone and stimulating plant development.",
-          "tableCaption": "Effect of ozonated water on yield of various crops",
-          "tableHeaders": ["Crop", "O₃ concentration", "Yield increase", "Additional effect"],
-          "tableData": [
-            ["Tomatoes", "0.5–1.0 mg/l", "+18–25%", "Larger fruit size"],
-            ["Cucumbers", "0.5–0.8 mg/l", "+15–22%", "Improved taste"],
-            ["Peppers", "0.5–1.0 mg/l", "+20–28%", "Extended shelf life"],
-            ["Lettuce", "0.3–0.5 mg/l", "+13–18%", "Better appearance"],
-            ["Strawberries", "0.5–0.8 mg/l", "+22–35%", "Increased sugar content"]
+          "title": "Озонланган сув билан суғориш",
+          "intro": "Озон билан бойитилган сув билан суғориш ҳосилдорликни оширишнинг енг самарали технологийаларидан биридир. Озон тезда кислородга парчаланади, илдиз зонасини тўйинтиради ва ўсимлик ривожланишини рағбатлантиради.",
+          "tableCaption": "Озонланган сувнинг турли екинлар ҳосилдорлигига та'сири",
+          "tableHeaders": [
+            "Екин",
+            "О₃ контсентратсийаси",
+            "Ҳосил ўсиши",
+            "Қўшимча еффект"
           ],
-          "highlight": "Research shows that regular irrigation with ozonated water increases plant root mass by 15–25%, ensuring better nutrient uptake and stress resistance."
+          "tableData": [
+            [
+              "Помидор",
+              "0.5–1.0 мг/л",
+              "+18–25%",
+              "Мева ҳажми каттароқ"
+            ],
+            [
+              "Бодринг",
+              "0.5–0.8 мг/л",
+              "+15–22%",
+              "Та'ми йахшиланган"
+            ],
+            [
+              "Қалампир",
+              "0.5–1.0 мг/л",
+              "+20–28%",
+              "Сақлаш муддати узайган"
+            ],
+            [
+              "Салат барги",
+              "0.3–0.5 мг/л",
+              "+13–18%",
+              "Ташқи кўриниши йахшиланган"
+            ],
+            [
+              "Қулупнай",
+              "0.5–0.8 мг/л",
+              "+22–35%",
+              "Шакар миқдори ошган"
+            ]
+          ],
+          "highlight": "Тадқиқотлар шуни кўрсатадики, озонланган сув билан мунтазам суғориш ўсимлик илдиз массасини 15–25% га оширади, бу озуқа моддаларининг йахшироқ ўзлаштирилишини ва стрессга чидамлиликни та'минлайди."
         },
         "soilDisinfection": {
-          "title": "Greenhouse soil disinfection",
-          "intro": "Root-knot nematode is one of the main enemies of greenhouse crops. Chemical control methods are ineffective and contaminate the soil. Soil ozonation with concentrated ozone solution effectively suppresses nematodes and stimulates plant development.",
-          "tableCaption": "Effectiveness of ozonation against soil pathogens",
-          "tableHeaders": ["Pathogen", "O₃ concentration", "Treatment time", "Effectiveness"],
+          "title": "Иссиқхона тупроқларини дезинфексийа қилиш",
+          "intro": "Илдиз бўртма нематодаси иссиқхона екинларининг асосий душманларидан биридир. Кимйовий кураш усуллари самарасиз ва тупроқни ифлослантиради. Тупроқни контсентрланган озон еритмаси билан озонлаш нематодаларни самарали бостиради ва ўсимлик ривожланишини рағбатлантиради.",
+          "tableCaption": "Тупроқ патогенларига қарши озонлаш самарадорлиги",
+          "tableHeaders": [
+            "Патоген",
+            "О₃ контсентратсийаси",
+            "Ишлов бериш вақти",
+            "Самарадорлик"
+          ],
           "tableData": [
-            ["Root-knot nematode", "3–5 mg/l", "30–60 min", "90–98%"],
-            ["Fusarium", "2–3 mg/l", "20–30 min", "95–99%"],
-            ["Verticillium", "2–3 mg/l", "20–30 min", "93–97%"],
-            ["Root rot", "1.5–2.5 mg/l", "15–25 min", "90–95%"],
-            ["Phytophthora", "2–4 mg/l", "20–40 min", "96–99%"]
+            [
+              "Илдиз бўртма нематодаси",
+              "3–5 мг/л",
+              "30–60 мин",
+              "90–98%"
+            ],
+            [
+              "Фузариоз",
+              "2–3 мг/л",
+              "20–30 мин",
+              "95–99%"
+            ],
+            [
+              "Вертитсиллиоз",
+              "2–3 мг/л",
+              "20–30 мин",
+              "93–97%"
+            ],
+            [
+              "Илдиз чириши",
+              "1.5–2.5 мг/л",
+              "15–25 мин",
+              "90–95%"
+            ],
+            [
+              "Фитофтороз",
+              "2–4 мг/л",
+              "20–40 мин",
+              "96–99%"
+            ]
           ],
           "processSteps": [
             {
-              "title": "Soil preparation",
-              "description": "Loosening soil to ensure ozone penetration. Removing plant residues."
+              "title": "Тупроқни таййорлаш",
+              "description": "Озон кириб боришини та'минлаш учун тупроқни йумшатиш. Ўсимлик қолдиқларини олиб ташлаш."
             },
             {
-              "title": "Water ozonation",
-              "description": "Preparing ozonated water with concentration of 3–5 mg/l in a special reactor."
+              "title": "Сувни озонлаш",
+              "description": "Махсус реакторда 3–5 мг/л контсентратсийали озонланган сув таййорлаш."
             },
             {
-              "title": "Soil irrigation",
-              "description": "Uniform application of ozonated water at 10–15 l/m² of greenhouse area."
+              "title": "Тупроқни суғориш",
+              "description": "Иссиқхонанинг ҳар м² майдонига 10–15 л ҳисобида озонланган сувни бир текисда қуйиш."
             },
             {
-              "title": "Exposure",
-              "description": "Exposure time of 30–60 minutes for complete pathogen destruction."
+              "title": "Експозитсийа",
+              "description": "Патогенларни тўлиқ йўқ қилиш учун 30–60 дақиқа кутиш."
             },
             {
-              "title": "Planting",
-              "description": "Seedlings can be planted 24–48 hours after treatment."
+              "title": "Екиш",
+              "description": "Кўчатларни ишлов беришдан 24–48 соат ўтгач екиш мумкин."
             }
           ]
         },
         "airOzonation": {
-          "title": "Air ozonation in greenhouses",
-          "intro": "Air ozonation in greenhouses destroys fungi, bacteria, yeast, viruses and pests. High concentrations are used to prepare the greenhouse for planting when the facility is unoccupied.",
-          "tableCaption": "Air ozonation regimes in greenhouses",
-          "tableHeaders": ["Purpose", "O₃ concentration", "Time", "Note"],
-          "tableData": [
-            ["Disease prevention", "0.1–0.3 mg/m³", "2–4 h/day", "With plants present"],
-            ["Pest control", "1–2 mg/m³", "4–6 hours", "Without people and animals"],
-            ["Greenhouse disinfection", "5–10 mg/m³", "8–12 hours", "Without plants, before season"],
-            ["Mold destruction", "2–3 mg/m³", "4–8 hours", "After harvest"]
+          "title": "Иссиқхоналарда ҳавони озонлаш",
+          "intro": "Иссиқхона ҳавосини озонлаш замбуруғлар, бактерийалар, ачитқилар, вируслар ва зараркунандаларни йўқ қилади. Йуқори контсентратсийалар иссиқхонани екишга таййорлашда, бино бўш бўлган пайтда қўлланилади.",
+          "tableCaption": "Иссиқхоналарда ҳавони озонлаш режимлари",
+          "tableHeaders": [
+            "Мақсад",
+            "О₃ контсентратсийаси",
+            "Вақт",
+            "Еслатма"
           ],
-          "warning": "Important: When treating the greenhouse with high ozone concentrations (over 1 mg/m³), personnel must be removed and the facility sealed. Ventilation for 30–60 minutes is required after treatment."
+          "tableData": [
+            [
+              "Касалликлар профилактикаси",
+              "0.1–0.3 мг/м³",
+              "Кунига 2–4 соат",
+              "Ўсимликлар мавжуд бўлганда"
+            ],
+            [
+              "Зараркунандаларга қарши кураш",
+              "1–2 мг/м³",
+              "4–6 соат",
+              "Одамлар ва ҳайвонларсиз"
+            ],
+            [
+              "Иссиқхонани дезинфексийа қилиш",
+              "5–10 мг/м³",
+              "8–12 соат",
+              "Ўсимликларсиз, мавсумдан олдин"
+            ],
+            [
+              "Моғорни йўқ қилиш",
+              "2–3 мг/м³",
+              "4–8 соат",
+              "Ҳосил йиғиб олингандан кейин"
+            ]
+          ],
+          "warning": "Муҳим: Иссиқхонани йуқори озон контсентратсийалари (1 мг/м³ дан йуқори) билан ишлаганда ходимлар чиқариб йуборилиши ва бино герметик йопилиши керак. Ишлов беришдан кейин 30–60 дақиқа шамоллатиш талаб қилинади."
         },
         "seedTreatment": {
-          "title": "Pre-sowing seed treatment",
-          "intro": "Ozone seed treatment increases germination, sprouting energy and resistance of young plants to diseases. The technology allows avoiding chemical seed dressers.",
-          "tableCaption": "Ozone seed treatment regimes",
-          "tableHeaders": ["Crop", "O₃ concentration", "Treatment time", "Result"],
+          "title": "Уруғларни екишдан олдин ишлаш",
+          "intro": "Уруғларни озон билан ишлаш униб чиқишни, униб чиқиш қувватини ва йош ўсимликларнинг касалликларга чидамлилигини оширади. Технологийа кимйовий уруғ дориловчилардан воз кечиш имконини беради.",
+          "tableCaption": "Уруғларни екишдан олдин озонлаш натижалари",
+          "tableHeaders": [
+            "Екин",
+            "О₃ контсентратсийаси",
+            "Ишлов бериш вақти",
+            "Натижа"
+          ],
           "tableData": [
-            ["Tomatoes", "5–10 mg/m³", "30–60 min", "Germination +8–12%"],
-            ["Cucumbers", "5–8 mg/m³", "20–40 min", "Germination +10–15%"],
-            ["Peppers", "8–12 mg/m³", "40–60 min", "Germination +7–10%"],
-            ["Cabbage", "5–8 mg/m³", "20–30 min", "Germination +12–18%"]
+            [
+              "Помидор",
+              "5–10 мг/м³",
+              "30–60 мин",
+              "Униб чиқиш +8–12%"
+            ],
+            [
+              "Бодринг",
+              "5–8 мг/м³",
+              "20–40 мин",
+              "Униб чиқиш +10–15%"
+            ],
+            [
+              "Қалампир",
+              "8–12 мг/м³",
+              "40–60 мин",
+              "Униб чиқиш +7–10%"
+            ],
+            [
+              "Карам",
+              "5–8 мг/м³",
+              "20–30 мин",
+              "Униб чиқиш +12–18%"
+            ]
           ]
         },
         "benefits": {
-          "title": "Benefits of ozonation in greenhouses",
+          "title": "Иссиқхоналарда озонлашнинг афзалликлари",
           "items": [
             {
-              "title": "Environmental purity",
-              "description": "Ozone decomposes to oxygen without forming harmful compounds — products remain environmentally clean"
+              "title": "Екологик тозалик",
+              "description": "Озон зарарли бирикмалар ҳосил қилмасдан кислородга парчаланади — маҳсулотлар екологик тоза бўлиб қолади"
             },
             {
-              "title": "Chemical-free",
-              "description": "Complete replacement or significant reduction of pesticides, fungicides and seed dressers"
+              "title": "Кимйовий моддаларсиз",
+              "description": "Пеститсидлар, фунгитсидлар ва уруғ дориловчиларни тўлиқ алмаштириш йоки сезиларли даражада камайтириш"
             },
             {
-              "title": "Yield increase",
-              "description": "13–35% yield increase with regular ozonated water irrigation"
+              "title": "Ҳосилдорлик ўсиши",
+              "description": "Мунтазам озонланган сув билан суғоришда 13–35% ҳосилдорлик ўсиши"
             },
             {
-              "title": "Nematode control",
-              "description": "90–98% effectiveness against root-knot nematode without damaging soil microflora"
+              "title": "Нематодани назорат қилиш",
+              "description": "Тупроқ микрофлорасига зарар йетказмасдан илдиз бўртма нематодасига қарши 90–98% самарадорлик"
             },
             {
-              "title": "Product quality",
-              "description": "Improved taste, shelf life and appearance of grown products"
+              "title": "Маҳсулот сифати",
+              "description": "Йетиштирилган маҳсулотларнинг та'ми, сақлаш муддати ва ташқи кўриниши йахшиланиши"
             },
             {
-              "title": "Economic benefit",
-              "description": "Equipment payback in 1–2 seasons through yield increase and reduced chemical costs"
+              "title": "Иқтисодий фойда",
+              "description": "Ҳосилдорлик ўсиши ва кимйовий харажатларнинг камайиши ҳисобига ускунанинг 1–2 мавсумда ўзини оқлаши"
             }
           ]
         },
         "intro": {
-          "paragraph1": "In greenhouse operations, ozone is used comprehensively: for air disinfection, plant surfaces, soil and irrigation water. This allows increasing yields and effectively controlling diseases without chemical agents.",
-          "paragraph2": "Ozone dissolves in water 15 times better than oxygen. Irrigation with ozonated water increases yields by 13–35% through improved soil quality, increased root mass and reduced root pathogens.",
-          "scientificFact": "Scientific fact: Ozone is 15 times more soluble in water than oxygen. This allows creating highly enriched irrigation solutions that saturate soil with oxygen and destroy pathogens."
+          "paragraph1": "Иссиқхона хўжаликларида озон комплекс қўлланилади: ҳаво, ўсимлик йузалари, тупроқ ва суғориш сувини дезинфексийа қилиш учун. Бу ҳосилдорликни ошириш ва кимйовий моддаларсиз касалликларни самарали назорат қилиш имконини беради.",
+          "paragraph2": "Озон сувда кислородга қараганда 15 баравар йахши ерийди. Озонланган сув билан суғориш тупроқ сифатини йахшилаш, илдиз массасини ошириш ва илдиз патогенларини камайтириш орқали ҳосилдорликни 13–35% га оширади.",
+          "scientificFact": "Илмий факт: Озон сувда кислородга қараганда 15 баравар кўпроқ ерийди. Бу тупроқни кислород билан тўйинтирадиган ва патогенларни йўқ қиладиган йуқори даражада бойитилган суғориш еритмаларини йаратиш имконини беради."
         }
       }
     },
     "aquaculture": {
-      "title": "Aquaculture (RAS)",
-      "shortDesc": "Water treatment and fish disease control in recirculating aquaculture systems",
+      "title": "Аквакултура (РАС)",
+      "shortDesc": "Балиқ йетиштиришнинг йопиқ тизимларида сувни тозалаш ва балиқ касалликларини назорат қилиш",
       "stats": {
-        "disinfection": { "value": "Up to 99%", "label": "Disinfection", "description": "Pathogen destruction in water" },
-        "cycleSaving": { "value": "20-30%", "label": "Cycle shortening", "description": "Faster fish growth" },
-        "mortalityReduction": { "value": "50-70%", "label": "Mortality reduction", "description": "Among juveniles and adults" },
-        "waterSaving": { "value": "40-60%", "label": "Water savings", "description": "Reduced fresh water supply" }
+        "disinfection": {
+          "value": "99% гача",
+          "label": "Дезинфексийа",
+          "description": "Сувдаги патогенларни йўқ қилиш"
+        },
+        "cycleSaving": {
+          "value": "20-30%",
+          "label": "Тсиклни қисқартириш",
+          "description": "Балиқнинг тезроқ ўсиши"
+        },
+        "mortalityReduction": {
+          "value": "50-70%",
+          "label": "Ўлим даражасининг пасайиши",
+          "description": "Чавоқлар ва катталар орасида"
+        },
+        "waterSaving": {
+          "value": "40-60%",
+          "label": "Сувни тежаш",
+          "description": "Йанги сув беришнинг камайиши"
+        }
       },
-      "content": "In fish farming, ozonation is used at all production stages: from water preparation to storage of harvest. Ozone disinfects water, controls fish diseases and extends storage life.\n\nIn recirculating aquaculture systems (RAS), ozonation removes heavy metal ions, microalgae, toxins, fungal spores, microbes and cysts. Water turbidity drops significantly and unpleasant odors disappear.\n\nOzone destroys up to 99% of pathogenic organisms: viruses, bacteria and parasitic protozoa. This reduces fish morbidity and mortality and allows higher stocking density.\n\nRecommended ozone dose is about 13 g per 1 kg of feed. In clean water, fish gain weight faster and the production cycle shortens.",
+      "content": "Балиқчиликда озонлаш ишлаб чиқаришнинг барча босқичларида қўлланилади: сув таййорлашдан тортиб ҳосилни сақлашгача. Озон сувни дезинфексийа қилади, балиқ касалликларини назорат қилади ва сақлаш муддатини узайтиради.\n\nЙопиқ сув та'миноти қурилмаларида (РАС) озонлаш оғир металл ионларини, микросу ўтларни, токсинларни, замбуруғ спораларини, микробларни ва кисталарни йўқ қилади. Сувнинг лойқалиги сезиларли даражада пасайади ва йоқимсиз ҳидлар йўқолади.\n\nОзон патоген организмларнинг: вируслар, бактерийалар ва паразит бир ҳужайралиларнинг 99% гача қисмини йўқ қилади. Бу балиқларнинг касалланиши ва ўлимини камайтиради ва йуқорироқ зичликда сақлаш имконини беради.\n\nТавсийа етилган озон дозаси 1 кг йем учун тахминан 13 г ни ташкил қилади. Тоза сувда балиқлар тезроқ вазн олади ва ишлаб чиқариш тсикли қисқаради.",
       "benefits": [
-        "Up to 99% pathogen disinfection",
-        "Shorter production cycle",
-        "Reduced fish mortality",
-        "Higher stocking density possible",
-        "Reduced fresh water demand",
-        "Water oxygen saturation"
-      ]
+        "99% гача патогенларни дезинфексийа қилиш",
+        "Қисқароқ ишлаб чиқариш тсикли",
+        "Балиқ ўлимининг камайиши",
+        "Йуқори зичликда сақлаш имконийати",
+        "Йанги сувга бўлган талабнинг камайиши",
+        "Сувнинг кислород билан тўйиниши"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Балиқчиликда озонлаш ишлаб чиқаришнинг барча босқичларида қўлланилади: сув таййорлашдан тортиб таййор маҳсулотни сақлашгача. Озон сувни дезинфексийа қилади, балиқ касалликларини назорат қилади ва ишлаб чиқариш тсиклини сезиларли даражада қисқартиради.",
+          "paragraph2": "Йопиқ сув та'миноти қурилмаларида (РАС) озонлаш сувдаги оғир металл ионларини, микросу ўтларни, токсинларни, замбуруғ спораларини, микробларни ва кисталарни йўқ қилади. Сувнинг лойқалиги сезиларли даражада камайади, йоқимсиз ҳидлар йўқолади ва балиқ ўсиши учун мақбул шароитлар йаратилади."
+        },
+        "dosage": {
+          "title": "Тавсийа етилган доза:",
+          "text": "1 кг йем учун 13 г озон. Ушбу доза дезинфексийа самарадорлиги ва балиқ хавфсизлиги ўртасидаги оптимал мувозанатни та'минлайди."
+        },
+        "advantages": {
+          "title": "РАСда озонлашнинг афзалликлари",
+          "items": [
+            "Сувни вируслар, бактерийалар ва паразит бир ҳужайралилардан дезинфексийа қилиш",
+            "Органик бирикмалар ва аммиакни оксидлаш",
+            "Сув лойқалиги ва рангини йўқ қилиш",
+            "Йоқимсиз ҳидларни (геосмин, 2-метилизоборнеол) йўқ қилиш",
+            "Филтрлашни йахшилаш учун майда муаллақ заррачаларни коагулйатсийаси",
+            "Сувни ериган кислород билан тўйинтириш",
+            "Йанги сув сарфини 40-60% га камайтириш"
+          ]
+        },
+        "waterQuality": {
+          "title": "Озоннинг сув сифатига та'сири",
+          "intro": "Сув сифати муваффақийатли балиқ йетиштириш учун ҳал қилувчи омил ҳисобланади. Озонлаш ҳам биологик, ҳам кимйовий ифлослантирувчи моддаларни йўқ қилиб, сувни комплекс тозалашни та'минлайди.",
+          "tableCaption": "РАСда сувни озонлаш самарадорлиги",
+          "tableHeaders": [
+            "Кўрсаткич",
+            "Ишлов беришдан олдин",
+            "Ишлов беришдан кейин",
+            "Йахшиланиш"
+          ],
+          "tableData": [
+            [
+              "Умумий бактерийалар сони",
+              "10⁵-10⁶ КОЕ/мл",
+              "10²-10³ КОЕ/мл",
+              "99-99.9%"
+            ],
+            [
+              "Сув лойқалиги",
+              "15-25 НТУ",
+              "1-3 НТУ",
+              "85-95%"
+            ],
+            [
+              "Аммиак (НҲ₃)",
+              "0.5-1.5 мг/л",
+              "0.05-0.1 мг/л",
+              "90-95%"
+            ],
+            [
+              "Нитритлар (НО₂)",
+              "0.3-0.8 мг/л",
+              "0.02-0.05 мг/л",
+              "90-95%"
+            ],
+            [
+              "Сув ранги",
+              "40-60°",
+              "5-10°",
+              "80-90%"
+            ],
+            [
+              "Геосмин",
+              "50-100 нг/л",
+              "< 5 нг/л",
+              "> 95%"
+            ]
+          ],
+          "note": "Тоза озонланган сувда балиқлар тезроқ вазн олади, ишлаб чиқариш тсикли 20-30% га қисқаради ва йем ўзлаштирилиши 10-15% га йахшиланади."
+        },
+        "pathogens": {
+          "title": "Балиқ касалликларига қарши кураш",
+          "intro": "Озон патоген организмларнинг: вируслар, бактерийалар ва паразит бир ҳужайралиларнинг 99% гача қисмини йўқ қилади. Бу балиқларнинг касалланишини камайтиради, ўлимни пасайтиради ва йуқорироқ зичликда сақлаш имконини беради.",
+          "tableCaption": "Балиқ патогенларига қарши озон самарадорлиги",
+          "tableHeaders": [
+            "Патоген",
+            "Касаллик",
+            "О₃ контсентратсийаси",
+            "Самарадорлик"
+          ],
+          "tableData": [
+            [
+              "Аеромонас салмониcида",
+              "Фурункулйоз",
+              "0.1-0.3 мг/л",
+              "99.9%"
+            ],
+            [
+              "Вибрио ангуилларум",
+              "Вибриоз",
+              "0.1-0.2 мг/л",
+              "99.9%"
+            ],
+            [
+              "Ичтҳйопҳтҳириус",
+              "Ихтиофтириоз",
+              "0.2-0.4 мг/л",
+              "99%"
+            ],
+            [
+              "Сапролегниа",
+              "Сапролегниоз",
+              "0.15-0.3 мг/л",
+              "99.5%"
+            ],
+            [
+              "ВҲС вируси",
+              "Вирусли геморрагик септитсемийа",
+              "0.1-0.2 мг/л",
+              "99.99%"
+            ],
+            [
+              "ИҲН вируси",
+              "Инфексион гемопоетик некроз",
+              "0.1-0.2 мг/л",
+              "99.99%"
+            ]
+          ]
+        },
+        "fishTypes": {
+          "title": "Турли балиқ турлари учун озонлаш режимлари",
+          "intro": "Турли балиқ турлари қолдиқ озонга нисбатан турлича сезгирликка ега. Ҳар бир тур учун балиқ хавфсизлигини сақлаган ҳолда дезинфексийа самарадорлигини та'минловчи оптимал режимни танлаш муҳимдир.",
+          "tableCaption": "Тавсийа етилган озонлаш режимлари",
+          "tableHeaders": [
+            "Балиқ тури",
+            "Озон дозаси",
+            "Қолдиқ О₃",
+            "Алоқа вақти"
+          ],
+          "tableData": [
+            [
+              "Форел",
+              "10-15 г/кг йем",
+              "< 0.01 мг/л",
+              "3-5 мин"
+            ],
+            [
+              "Осийотр",
+              "12-18 г/кг йем",
+              "< 0.01 мг/л",
+              "3-5 мин"
+            ],
+            [
+              "Тилапийа",
+              "8-12 г/кг йем",
+              "< 0.02 мг/л",
+              "2-4 мин"
+            ],
+            [
+              "Сазан",
+              "10-15 г/кг йем",
+              "< 0.01 мг/л",
+              "3-5 мин"
+            ],
+            [
+              "Лагам",
+              "8-12 г/кг йем",
+              "< 0.02 мг/л",
+              "2-4 мин"
+            ],
+            [
+              "Креветка",
+              "5-8 г/кг йем",
+              "< 0.005 мг/л",
+              "5-10 мин"
+            ]
+          ],
+          "warning": {
+            "title": "Огоҳлантириш:",
+            "text": "Балиқ ҳовузидаги сувдаги қолдиқ озон 0.01-0.02 мг/л дан ошмаслиги керак. Назорат қилиш учун ОРП датчиклари ва автоматик дозалаш тизимларидан фойдаланинг."
+          }
+        },
+        "scheme": {
+          "title": "РАСда озонлаш схемаси",
+          "steps": [
+            {
+              "title": "Ҳовуздан сув олиш",
+              "description": "Балиқ ҳайот фаолийати маҳсулотлари бўлган сув тозалашга йуборилади"
+            },
+            {
+              "title": "Механик филтрлаш",
+              "description": "Барабанли йоки лентали филтрда йирик муаллақ заррачаларни олиб ташлаш"
+            },
+            {
+              "title": "Озон алоқа камераси",
+              "description": "Диффузорлар йоки инжекторлар орқали озон йубориш, алоқа вақти 3-5 дақиқа"
+            },
+            {
+              "title": "Биофилтрлаш",
+              "description": "Биологик филтрда аммиак ва нитритларни йакуний тозалаш"
+            },
+            {
+              "title": "Дегазатсийа",
+              "description": "Дегазаторда йоки фаоллаштирилган кўмир орқали қолдиқ озонни олиб ташлаш"
+            },
+            {
+              "title": "Ҳовузга қайтариш",
+              "description": "Тозаланган сув балиқларга қайтарилади"
+            }
+          ]
+        },
+        "economic": {
+          "title": "Иқтисодий самарадорлик",
+          "intro": "РАСда озонлашни жорий етиш ўсиш кўрсаткичларини йахшилаш ва оператсион харажатларни камайтириш орқали комплекс иқтисодий фойда келтиради.",
+          "tableCaption": "РАСда озонлашнинг иқтисодий кўрсаткичлари",
+          "tableHeaders": [
+            "Кўрсаткич",
+            "Озонсиз",
+            "Озон билан",
+            "Фойда"
+          ],
+          "tableData": [
+            [
+              "Чавоқларнинг йашовчанлиги",
+              "60-70%",
+              "85-95%",
+              "+25-35%"
+            ],
+            [
+              "Йем коеффитсиенти",
+              "1.3-1.5",
+              "1.1-1.2",
+              "15-20% тежаш"
+            ],
+            [
+              "Сақлаш зичлиги",
+              "30-40 кг/м³",
+              "50-80 кг/м³",
+              "+60-100%"
+            ],
+            [
+              "Йетиштириш вақти",
+              "12 ой",
+              "9-10 ой",
+              "20-25% қисқариш"
+            ],
+            [
+              "Даволаш харажатлари",
+              "100%",
+              "20-30%",
+              "70-80% тежаш"
+            ],
+            [
+              "Йанги сув исте'моли",
+              "100%",
+              "40-60%",
+              "40-60% тежаш"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "Балиқчиликда озонлашнинг афзалликлари",
+          "items": [
+            {
+              "title": "Тоза сув",
+              "description": "Сувни 99% гача дезинфексийа қилиш, лойқалик, ранг ва йоқимсиз ҳидларни йўқ қилиш"
+            },
+            {
+              "title": "Соғлом балиқ",
+              "description": "Касалланишни 50-70% га камайтириш, ветеринарийа харажатларини пасайтириш"
+            },
+            {
+              "title": "Тез ўсиш",
+              "description": "Оптимал шароитлар ҳисобига ишлаб чиқариш тсиклини 20-30% га қисқартириш"
+            },
+            {
+              "title": "Йуқори зичлик",
+              "description": "Балиқлар учун хавфсиз ҳолда сақлаш зичлигини 60-100% га ошириш имконийати"
+            },
+            {
+              "title": "Сувни тежаш",
+              "description": "Йахшиланган тозалаш туфайли йанги сув исте'молини 40-60% га камайтириш"
+            },
+            {
+              "title": "Маҳсулот сифати",
+              "description": "Сотиладиган балиқларда бегона та'м ва ҳидларнинг бўлмаслиги"
+            }
+          ]
+        }
+      }
     },
     "grain-storage": {
-      "title": "Grain storage",
-      "shortDesc": "Protection from pests and microorganisms without chemicals",
-      "heroText": "Protection from pests and microorganisms without chemicals. 95–99% insect destruction, 40–60% storage loss reduction.",
-      "content": "Grain storage is a critical process where pest losses can account for 5 to 50% of world production. Seed and grain ozonation effectively controls pests and prevents mold spread.\n\nOzone affects insects and mites at all life stages. After treatment at 30–60 mg/m³ for 30–60 minutes, mortality of grain weevil, rice weevil and grain borer reaches 95–99%.\n\nGrain disinfection level at exposure from 15 minutes to 1 hour reaches 80–95% for total contamination and 80–90% for mold fungi. Treatment does not impair sensory or nutritional quality.\n\nPre-sowing seed ozonation increases germination and stress resistance. Wheat yield can increase by about 22%, barley by about 17.5%.",
+      "title": "Донни сақлаш",
+      "shortDesc": "Зараркунандалар ва микроорганизмлардан кимйовий моддаларсиз ҳимойа қилиш",
+      "heroText": "Зараркунандалар ва микроорганизмлардан кимйовий моддаларсиз ҳимойа қилиш. 95–99% ҳашаротларни йўқ қилиш, сақлашдаги нобуд бўлишни 40–60% га камайтириш.",
+      "content": "Донни сақлаш муҳим жарайон бўлиб, унда зараркунандалардан кўриладиган зарар жаҳон ишлаб чиқаришининг 5 дан 50% гача қисмини ташкил қилиши мумкин. Уруғ ва донни озонлаш зараркунандаларни самарали назорат қилади ва моғор тарқалишининг олдини олади.\n\nОзон ҳашаротлар ва каналарга ривожланишнинг барча босқичларида та'сир қилади. 30–60 дақиқа давомида 30–60 мг/м³ билан ишлов беришдан кейин дон қандаласи, гуруч қандаласи ва дон кемирувчисининг ўлими 95–99% га йетади.\n\n15 дақиқадан 1 соатгача бўлган експозитсийада донни дезинфексийа қилиш даражаси умумий ифлосланиш учун 80–95% ва моғор замбуруғлари учун 80–90% га йетади. Ишлов бериш сезги йоки озуқавий сифатни йомонлаштирмайди.\n\nУруғларни екишдан олдин озонлаш униб чиқишни ва стрессга чидамлиликни оширади. Буғдой ҳосилдорлиги тахминан 22% га, арпа еса тахминан 17,5% га ошиши мумкин.",
       "stats": {
         "pestDestruction": {
           "value": "95–99%",
-          "label": "Pest destruction",
-          "description": "At all development stages"
+          "label": "Зараркунандаларни йўқ қилиш",
+          "description": "Ривожланишнинг барча босқичларида"
         },
         "disinfection": {
           "value": "80–95%",
-          "label": "Disinfection",
-          "description": "Reduced microbial contamination"
+          "label": "Дезинфексийа",
+          "description": "Микробиал ифлосланишнинг камайиши"
         },
         "yieldIncrease": {
           "value": "17–22%",
-          "label": "Yield increase",
-          "description": "With pre-sowing treatment"
+          "label": "Ҳосилдорлик ўсиши",
+          "description": "Екишдан олдин ишлов берилганда"
         },
         "lossReduction": {
           "value": "40–60%",
-          "label": "Loss reduction",
-          "description": "During grain storage"
+          "label": "Нобуд бўлишни камайтириш",
+          "description": "Донни сақлаш пайтида"
         }
       },
       "benefits": [
-        "95–99% pest destruction",
-        "80–95% disinfection",
-        "17–22% yield increase with pre-sowing treatment",
-        "Preserved nutritional quality",
-        "Eco-friendly fumigation alternative",
-        "40–60% loss reduction"
+        "95–99% зараркунандаларни йўқ қилиш",
+        "80–95% дезинфексийа",
+        "Екиш олдидан ишлов беришда 17–22% ҳосилдорлик ўсиши",
+        "Озуқавий сифатнинг сақланиши",
+        "Фумигатсийага екологик тоза муқобил",
+        "40–60% нобуд бўлишни камайтириш"
       ],
       "sections": {
         "applications": {
-          "title": "Ozone application areas",
+          "title": "Озон қўллаш йўналишлари",
           "items": [
-            "Grain disinsection — elimination of storage pests",
-            "Disinfection — reduction of microbial and fungal contamination",
-            "Detoxification — destruction of mycotoxins",
-            "Pre-sowing seed treatment — increased germination",
-            "Grain storage disinfection — preparation for loading",
-            "Grain preservation — extended storage life"
+            "Дон дезинсексийаси — сақлаш зараркунандаларини йўқ қилиш",
+            "Дезинфексийа — микробиал ва замбуруғли ифлосланишни камайтириш",
+            "Детоксикатсийа — микотоксинларни парчалаш",
+            "Уруғларни екишдан олдин ишлаш — униб чиқишни ошириш",
+            "Дон омборларини дезинфексийа қилиш — йуклашга таййорлаш",
+            "Донни консерватсийа қилиш — сақлаш муддатини узайтириш"
           ]
         },
         "pests": {
-          "title": "Storage pest elimination",
-          "intro": "Ozone affects insects and mites at all life stages: eggs, larvae, pupae and adults. The mechanism is based on oxidation of cuticle lipids and destruction of insect respiratory systems.",
-          "tableCaption": "Ozonation effectiveness against grain pests",
-          "tableHeaders": ["Pest", "O₃ concentration", "Treatment time", "Mortality"],
-          "tableData": [
-            ["Grain weevil", "30–50 mg/m³", "30–60 min", "95–99%"],
-            ["Rice weevil", "30–50 mg/m³", "30–60 min", "96–99%"],
-            ["Grain borer", "40–60 mg/m³", "45–90 min", "95–98%"],
-            ["Flour beetle", "40–60 mg/m³", "60–120 min", "93–97%"],
-            ["Sawtoothed grain beetle", "30–50 mg/m³", "30–60 min", "97–99%"],
-            ["Grain moth", "20–40 mg/m³", "30–45 min", "98–99%"],
-            ["Grain mite", "50–80 mg/m³", "60–120 min", "90–95%"]
+          "title": "Сақлаш зараркунандаларини йўқ қилиш",
+          "intro": "Озон ҳашаротлар ва каналарга барча босқичларда: тухум, личинка, ғумбак ва йетук ҳашарот ҳолатида та'сир қилади. Механизм кутикула липидларини оксидлаш ва ҳашаротларнинг нафас олиш тизимини йўқ қилишга асосланган.",
+          "tableCaption": "Дон зараркунандаларига қарши озонлаш самарадорлиги",
+          "tableHeaders": [
+            "Зараркунанда",
+            "О₃ контсентратсийаси",
+            "Ишлов бериш вақти",
+            "Ўлим даражаси"
           ],
-          "highlightText": "Unlike chemical fumigation, ozonation leaves no residues in grain. After treatment, ozone quickly decomposes to oxygen, and the product is completely safe for consumption."
+          "tableData": [
+            [
+              "Дон қандаласи",
+              "30–50 мг/м³",
+              "30–60 мин",
+              "95–99%"
+            ],
+            [
+              "Гуруч қандаласи",
+              "30–50 мг/м³",
+              "30–60 мин",
+              "96–99%"
+            ],
+            [
+              "Дон кемирувчиси",
+              "40–60 мг/м³",
+              "45–90 мин",
+              "95–98%"
+            ],
+            [
+              "Ун қўнғизи",
+              "40–60 мг/м³",
+              "60–120 мин",
+              "93–97%"
+            ],
+            [
+              "Суринам унхўри",
+              "30–50 мг/м³",
+              "30–60 мин",
+              "97–99%"
+            ],
+            [
+              "Дон куйаси",
+              "20–40 мг/м³",
+              "30–45 мин",
+              "98–99%"
+            ],
+            [
+              "Дон канаси",
+              "50–80 мг/м³",
+              "60–120 мин",
+              "90–95%"
+            ]
+          ],
+          "highlightText": "Кимйовий фумигатсийадан фарқли ўлароқ, озонлаш донда қолдиқ қолдирмайди. Ишлов беришдан кейин озон тезда кислородга парчаланади ва маҳсулот исте'мол учун тўлиқ хавфсиздир."
         },
         "fungi": {
-          "title": "Disinfection and mycotoxin reduction",
-          "intro": "Mold fungi on grain produce dangerous mycotoxins: aflatoxins, zearalenone, deoxynivalenol (DON). Ozonation destroys fungi and partially breaks down already formed toxins.",
-          "tableCaption": "Ozonation effectiveness against fungi and mycotoxins",
-          "tableHeaders": ["Indicator", "O₃ concentration", "Time", "Effectiveness"],
+          "title": "Дезинфексийа ва микотоксинларни камайтириш",
+          "intro": "Дондаги моғор замбуруғлари хавфли микотоксинларни ишлаб чиқаради: афлатоксинлар, зеараленон, деоксиниваленол (ДОН). Озонлаш замбуруғларни йўқ қилади ва аллақачон ҳосил бўлган токсинларни қисман парчалайди.",
+          "tableCaption": "Замбуруғлар ва микотоксинларга қарши озонлаш самарадорлиги",
+          "tableHeaders": [
+            "Кўрсаткич",
+            "О₃ контсентратсийаси",
+            "Вақт",
+            "Самарадорлик"
+          ],
           "tableData": [
-            ["Total microflora", "20–40 mg/m³", "15–60 min", "80–95%"],
-            ["Mold fungi", "30–50 mg/m³", "30–60 min", "85–95%"],
-            ["Aspergillus (aflatoxins)", "40–60 mg/m³", "45–90 min", "90–95%"],
-            ["Fusarium (DON, zearalenone)", "40–60 mg/m³", "60–120 min", "75–90%"],
-            ["Aflatoxin B1", "50–100 mg/m³", "120–180 min", "60–80%"],
-            ["Zearalenone", "50–100 mg/m³", "120–180 min", "50–70%"]
+            [
+              "Умумий микрофлора",
+              "20–40 мг/м³",
+              "15–60 мин",
+              "80–95%"
+            ],
+            [
+              "Моғор замбуруғлари",
+              "30–50 мг/м³",
+              "30–60 мин",
+              "85–95%"
+            ],
+            [
+              "Аспергилл (афлатоксинлар)",
+              "40–60 мг/м³",
+              "45–90 мин",
+              "90–95%"
+            ],
+            [
+              "Фузариум (ДОН, зеараленон)",
+              "40–60 мг/м³",
+              "60–120 мин",
+              "75–90%"
+            ],
+            [
+              "Афлатоксин Б1",
+              "50–100 мг/м³",
+              "120–180 мин",
+              "60–80%"
+            ],
+            [
+              "Зеараленон",
+              "50–100 мг/м³",
+              "120–180 мин",
+              "50–70%"
+            ]
           ]
         },
         "modes": {
-          "title": "Grain ozonation modes",
-          "intro": "Mode selection depends on treatment goals: prevention, disinsection or disinfection. It is important to consider grain moisture, temperature and storage airtightness.",
-          "tableCaption": "Recommended ozonation modes",
-          "tableHeaders": ["Treatment goal", "O₃ concentration", "Time", "Frequency"],
-          "tableData": [
-            ["Prevention", "10–20 mg/m³", "4–6 hours", "Every 2–4 weeks"],
-            ["Disinsection", "30–60 mg/m³", "1–2 hours", "As needed"],
-            ["Disinfection", "30–50 mg/m³", "1–3 hours", "During loading/unloading"],
-            ["Deep treatment", "60–100 mg/m³", "2–4 hours", "Every 3–6 months"],
-            ["Pre-sowing treatment", "10–30 mg/m³", "30–60 min", "Before sowing"]
+          "title": "Донни озонлаш режимлари",
+          "intro": "Режимни танлаш ишлов бериш мақсадларига боғлиқ: профилактика, дезинсексийа йоки дезинфексийа. Доннинг намлиги, ҳарорати ва омборнинг герметиклигини ҳисобга олиш муҳимдир.",
+          "tableCaption": "Тавсийа етилган озонлаш режимлари",
+          "tableHeaders": [
+            "Ишлов бериш мақсади",
+            "О₃ контсентратсийаси",
+            "Вақт",
+            "Даврийлиги"
           ],
-          "warningLabel": "Important",
-          "warningText": "When treating grain with moisture above 14%, ozonation effectiveness decreases. Pre-drying or increasing ozone dose by 20–30% is recommended."
+          "tableData": [
+            [
+              "Профилактика",
+              "10–20 мг/м³",
+              "4–6 соат",
+              "Ҳар 2–4 ҳафтада"
+            ],
+            [
+              "Дезинсексийа",
+              "30–60 мг/м³",
+              "1–2 соат",
+              "Заруратга қараб"
+            ],
+            [
+              "Дезинфексийа",
+              "30–50 мг/м³",
+              "1–3 соат",
+              "Йуклаш/тушириш пайтида"
+            ],
+            [
+              "Чуқур ишлов бериш",
+              "60–100 мг/м³",
+              "2–4 соат",
+              "Ҳар 3–6 ойда"
+            ],
+            [
+              "Екиш олдидан ишлов бериш",
+              "10–30 мг/м³",
+              "30–60 мин",
+              "Екишдан олдин"
+            ]
+          ],
+          "warningLabel": "Муҳим",
+          "warningText": "Намлиги 14% дан йуқори бўлган донни ишлаганда озонлаш самарадорлиги пасайади. Олдиндан қуритиш йоки озон дозасини 20–30% га ошириш тавсийа етилади."
         },
         "presowing": {
-          "title": "Pre-sowing seed treatment",
-          "intro": "Ozone seed treatment increases germination, germination energy and seedling resistance to adverse conditions. Research confirms significant yield gains.",
-          "tableCaption": "Pre-sowing seed ozonation results",
-          "tableHeaders": ["Crop", "Treatment mode", "Germination increase", "Yield gain"],
+          "title": "Уруғларни екишдан олдин ишлаш",
+          "intro": "Уруғларни озон билан ишлаш униб чиқишни, униб чиқиш қувватини ва кўчатларнинг ноқулай шароитларга чидамлилигини оширади. Тадқиқотлар ҳосилдорликнинг сезиларли даражада ўсишини тасдиқлайди.",
+          "tableCaption": "Екиш олдидан уруғларни озонлаш натижалари",
+          "tableHeaders": [
+            "Екин",
+            "Ишлов бериш режими",
+            "Униб чиқиш ўсиши",
+            "Ҳосил ўсиши"
+          ],
           "tableData": [
-            ["Wheat", "10–20 mg/m³, 30 min", "+5–8%", "+18–22%"],
-            ["Barley", "10–20 mg/m³, 30 min", "+6–10%", "+14–17.5%"],
-            ["Corn", "15–25 mg/m³, 45 min", "+4–7%", "+12–16%"],
-            ["Sunflower", "15–25 mg/m³, 45 min", "+5–8%", "+10–14%"],
-            ["Soybean", "10–20 mg/m³, 30 min", "+6–9%", "+13–18%"],
-            ["Rice", "10–15 mg/m³, 20 min", "+7–12%", "+15–20%"]
+            [
+              "Буғдой",
+              "10–20 мг/м³, 30 мин",
+              "+5–8%",
+              "+18–22%"
+            ],
+            [
+              "Арпа",
+              "10–20 мг/м³, 30 мин",
+              "+6–10%",
+              "+14–17.5%"
+            ],
+            [
+              "Маккажўхори",
+              "15–25 мг/м³, 45 мин",
+              "+4–7%",
+              "+12–16%"
+            ],
+            [
+              "Кунгабоқар",
+              "15–25 мг/м³, 45 мин",
+              "+5–8%",
+              "+10–14%"
+            ],
+            [
+              "Сойа",
+              "10–20 мг/м³, 30 мин",
+              "+6–9%",
+              "+13–18%"
+            ],
+            [
+              "Гуруч",
+              "10–15 мг/м³, 20 мин",
+              "+7–12%",
+              "+15–20%"
+            ]
           ]
         },
         "worldExperience": {
-          "label": "World experience",
-          "text": "Grain ozonation is used in the USA, Canada, Australia and EU countries as an eco-friendly alternative to phosphine and methyl bromide, banned by the Montreal Protocol."
+          "label": "Жаҳон тажрибаси",
+          "text": "Донни озонлаш АҚСҲ, Канада, Австралийа ва Йевропа Иттифоқи мамлакатларида Монреал протоколи томонидан тақиқланган фосфин ва метил бромидга екологик тоза муқобил сифатида қўлланилади."
         },
         "technology": {
-          "title": "Grain storage ozonation technology",
+          "title": "Дон омборларини озонлаш технологийаси",
           "steps": [
             {
-              "title": "Storage preparation",
-              "description": "Cleaning of grain residues and dust. Checking airtightness of gates, hatches and seams."
+              "title": "Омборни таййорлаш",
+              "description": "Дон қолдиқлари ва чангдан тозалаш. Дарвозалар, лйуклар ва чокларнинг герметиклигини текшириш."
             },
             {
-              "title": "Equipment installation",
-              "description": "Placing ozonator and ozone distribution system. Connection to power supply."
+              "title": "Ускунани ўрнатиш",
+              "description": "Озонатор ва озон тақсимлаш тизимини жойлаштириш. Електр та'минотига улаш."
             },
             {
-              "title": "Sealing",
-              "description": "Closing all openings, installing warning signs about treatment."
+              "title": "Герметизатсийа",
+              "description": "Барча тешикларни йопиш, ишлов бериш ҳақида огоҳлантирувчи белгиларни ўрнатиш."
             },
             {
-              "title": "Ozone supply",
-              "description": "Starting ozonator, monitoring concentration with sensors. Treatment time 2–6 hours."
+              "title": "Озон бериш",
+              "description": "Озонаторни ишга тушириш, датчиклар йордамида контсентратсийани назорат қилиш. Ишлов бериш вақти 2–6 соат."
             },
             {
-              "title": "Holding",
-              "description": "After reaching target concentration, holding for 30–60 minutes without ozone supply."
+              "title": "Ушлаб туриш",
+              "description": "Мақсадли контсентратсийага еришилгандан кейин озон бермасдан 30–60 дақиқа ушлаб туриш."
             },
             {
-              "title": "Degassing",
-              "description": "Turning on ventilation to remove residual ozone. Monitoring MPC (0.1 mg/m³)."
+              "title": "Дегазатсийа",
+              "description": "Қолдиқ озонни чиқариб йубориш учун шамоллатишни йоқиш. МПC (0,1 мг/м³) назорати."
             }
           ]
         },
         "comparison": {
-          "title": "Comparison with chemical fumigation",
-          "tableCaption": "Ozonation vs chemical fumigation",
-          "tableHeaders": ["Parameter", "Ozonation", "Phosphine (PH₃)"],
+          "title": "Кимйовий фумигатсийа билан солиштириш",
+          "tableCaption": "Озонлаш кимйовий фумигатсийага қарши",
+          "tableHeaders": [
+            "Кўрсаткич",
+            "Озонлаш",
+            "Фосфин (ПҲ₃)"
+          ],
           "tableData": [
-            ["Residues in product", "None", "Present (MPC 0.1 mg/kg)"],
-            ["Eco-friendliness", "Complete", "Toxic to environment"],
-            ["Treatment time", "2–6 hours", "3–7 days"],
-            ["Pest resistance", "Not formed", "Increases with each use"],
-            ["Personnel safety", "High (with MPC compliance)", "Low (strong poison)"],
-            ["Effect on grain quality", "Positive", "May reduce germination"],
-            ["Treatment cost", "Medium", "Low–medium"]
+            [
+              "Маҳсулотдаги қолдиқлар",
+              "Йўқ",
+              "Мавжуд (МПC 0.1 мг/кг)"
+            ],
+            [
+              "Екологик тозалик",
+              "Тўлиқ",
+              "Атроф-муҳит учун токсик"
+            ],
+            [
+              "Ишлов бериш вақти",
+              "2–6 соат",
+              "3–7 кун"
+            ],
+            [
+              "Зараркунандаларнинг чидамлилиги",
+              "Шаклланмайди",
+              "Ҳар бир фойдаланишда ошади"
+            ],
+            [
+              "Ходимлар хавфсизлиги",
+              "Йуқори (МПCга риойа қилинганда)",
+              "Паст (кучли заҳар)"
+            ],
+            [
+              "Дон сифатига та'сири",
+              "Ижобий",
+              "Униб чиқишни камайтириши мумкин"
+            ],
+            [
+              "Ишлов бериш нархи",
+              "Ўртача",
+              "Паст–ўртача"
+            ]
           ]
         },
         "benefits": {
-          "title": "Advantages of ozonation in grain storage"
+          "title": "Донни сақлашда озонлашнинг афзалликлари"
         }
       }
     },
     "beekeeping": {
-      "title": "Beekeeping",
-      "shortDesc": "Hive and comb disinfection and bee disease control",
-      "heroText": "Hive and comb disinfection, bee disease control. Increase in honey yield by 25 kg per season and 39% increase in colony productivity.",
-      "content": "Ozonation in beekeeping is used to disinfect hives, frames and combs from bee disease pathogens. Treatment with moderate ozone concentrations has a beneficial effect on colony activity.\n\nRegular ozonation reduces pathogenic microorganisms and humidity in the hive air and improves gas composition. As a result, treated colonies can show about 25 kg more marketable honey per season.\n\nFor chalkbrood (ascosphaerosis) control, ozone at 250 mg/m³ for 1 hour twice daily for 7 days is used. In severe cases, 500 mg/m³ four times daily.\n\nOzone effectively acts on spores of the fungus Ascosphaera apis. Disinfection level reaches 50–77% depending on the treated surface material.",
+      "title": "Асаларичилик",
+      "shortDesc": "Уйа ва кишанларни дезинфексийа қилиш ҳамда асалари касалликларини назорат қилиш",
+      "heroText": "Уйа ва кишанларни дезинфексийа қилиш, асалари касалликларини назорат қилиш. Бир мавсумда асал ҳосилини 25 кг га ошириш ва оила маҳсулдорлигини 39% га ошириш.",
+      "content": "Асаларичиликда озонлаш уйа, рамка ва кишанларни асалари касалликлари патогенларидан дезинфексийа қилиш учун ишлатилади. Мўтадил озон контсентратсийалари билан ишлов бериш оила фаоллигига ижобий та'сир кўрсатади.\n\nМунтазам озонлаш уйа ҳавосидаги патоген микроорганизмлар ва намликни камайтиради ҳамда газ таркибини йахшилайди. Натижада, ишлов берилган оилалар бир мавсумда тахминан 25 кг кўпроқ товар асал бериши мумкин.\n\nАскосферозга қарши курашиш учун 7 кун давомида кунига икки марта 1 соат давомида 250 мг/м³ озон ишлатилади. Оғир ҳолатларда кунига тўрт марта 500 мг/м³.\n\nОзон Асcоспҳаера апис замбуруғи спораларига самарали та'сир қилади. Дезинфексийа даражаси ишлов бериладиган йуза материалига қараб 50–77% га йетади.",
       "stats": {
-        "honeyIncrease": { "value": "+25 kg", "label": "Honey yield", "description": "Increase per season per colony" },
+        "honeyIncrease": {
+          "value": "+25 кг",
+          "label": "Асал ҳосили",
+          "description": "Ҳар бир оиладан бир мавсумда ўсиш"
+        },
         "productivityGrowth": {
           "value": "39%",
-          "label": "Productivity growth",
-          "description": "With regular ozonation"
+          "label": "Маҳсулдорлик ўсиши",
+          "description": "Мунтазам озонлашда"
         },
         "disinfection": {
           "value": "50-77%",
-          "label": "Disinfection",
-          "description": "Destruction of Ascosphaera apis spores"
+          "label": "Дезинфексийа",
+          "description": "Асcоспҳаера апис спораларини йўқ қилиш"
         },
-        "chemicals": { "value": "0", "label": "Chemicals", "description": "Eco-friendly honey" }
+        "chemicals": {
+          "value": "0",
+          "label": "Кимйовий моддалар",
+          "description": "Екологик тоза асал"
+        }
       },
       "benefits": [
-        "About 25 kg more honey per season",
-        "About 39% productivity increase",
-        "Chalkbrood control",
-        "Comb and equipment disinfection",
-        "Improved hive microclimate",
-        "Safety for honey and bees"
+        "Бир мавсумда тахминан 25 кг кўпроқ асал",
+        "Маҳсулдорлик тахминан 39% га ошиши",
+        "Аскосферозни назорат қилиш",
+        "Кишан ва ускуналарни дезинфексийа қилиш",
+        "Уйа микроклиматини йахшилаш",
+        "Асал ва асаларилар учун хавфсизлик"
       ],
       "paragraphs": {
-        "intro1": "Ozonation in beekeeping is used to disinfect hives, frames and combs from bee disease pathogens. Treatment with moderate ozone concentrations has a beneficial effect on colony activity.",
-        "intro2": "Regular ozonation reduces pathogenic microorganisms, decreases humidity in the hive air and improves gas composition. As a result, treated colonies showed an increase in marketable honey production of 25 kg per season compared to the control group.",
-        "ascospherosis": "Chalkbrood (ascosphaerosis) is one of the most common fungal diseases of bees, caused by Ascosphaera apis. Fungal spores are resistant to traditional disinfection methods but are destroyed by ozone.",
-        "pathogens": "Ozone is effective against a wide range of bee disease pathogens — bacteria, fungi and viruses. This allows using a single technology for comprehensive apiary protection.",
-        "stimulation": "Treatment of hives with moderate ozone concentrations (5-15 mg/m³) in the presence of bees has a stimulating effect: increases colony activity, improves queen egg-laying and accelerates spring development.",
-        "equipment": "Combs and beekeeping equipment can be a source of infection for healthy colonies. Regular ozone disinfection prevents disease spread in the apiary."
+        "intro1": "Асаларичиликда озонлаш уйа, рамка ва кишанларни асалари касалликлари патогенларидан дезинфексийа қилиш учун ишлатилади. Мўтадил озон контсентратсийалари билан ишлов бериш оила фаоллигига ижобий та'сир кўрсатади.",
+        "intro2": "Мунтазам озонлаш патоген микроорганизмларни камайтиради, уйа ҳавосидаги намликни пасайтиради ва газ таркибини йахшилайди. Натижада, ишлов берилган оилалар назорат гуруҳига қараганда бир мавсумда товар асал ишлаб чиқаришни 25 кг га оширди.",
+        "ascospherosis": "Аскосфероз — асалариларнинг енг кенг тарқалган замбуруғли касалликларидан бири бўлиб, Асcоспҳаера апис томонидан чақирилади. Замбуруғ споралари ан'анавий дезинфексийа усулларига чидамли, аммо озон томонидан йўқ қилинади.",
+        "pathogens": "Озон асалари касалликларининг кенг доирасидаги патогенларига — бактерийалар, замбуруғлар ва вирусларга қарши самаралидир. Бу битта технологийадан асаларихонани комплекс ҳимойа қилиш учун фойдаланиш имконини беради.",
+        "stimulation": "Асаларилар мавжуд бўлганда уйаларни мўтадил озон контсентратсийалари (5-15 мг/м³) билан ишлаш рағбатлантирувчи та'сир кўрсатади: оила фаоллигини оширади, онари асалари тухум қўйишини йахшилайди ва баҳорги ривожланишни тезлаштиради.",
+        "equipment": "Кишанлар ва асаларичилик ускуналари соғлом оилалар учун инфексийа манбаи бўлиши мумкин. Мунтазам озон дезинфексийаси асаларихонада касаллик тарқалишининг олдини олади."
       },
       "highlightBoxes": {
         "research": {
-          "label": "Scientific research:",
-          "text": "Experiments conducted at the Beekeeping Research Institute confirmed a 39% increase in colony productivity with regular hive ozonation during the spring-summer period."
+          "label": "Илмий тадқиқотлар:",
+          "text": "Асаларичилик илмий-тадқиқот институтида ўтказилган тажрибалар баҳор-йоз даврида уйаларни мунтазам озонлаш билан оила маҳсулдорлигининг 39% га ошишини тасдиқлади."
         },
-        "ascospherosis": "Ozone effectively acts on spores of the fungus Ascosphaera apis. Disinfection level reaches 50-77% depending on the treated surface material and ozone concentration.",
+        "ascospherosis": "Озон Асcоспҳаера апис замбуруғи спораларига самарали та'сир қилади. Дезинфексийа даражаси ишлов бериладиган йуза материалига ва озон контсентратсийасига қараб 50-77% га йетади.",
         "warning": {
-          "label": "Important:",
-          "text": "Treatment with high ozone concentrations (over 200 mg/m³) should be performed in the absence of bees. For stimulating bee treatment, concentration should not exceed 10-15 mg/m³."
+          "label": "Муҳим:",
+          "text": "Йуқори озон контсентратсийалари (200 мг/м³ дан йуқори) билан ишлов бериш асаларилар йўқлигида ўтказилиши керак. Рағбатлантирувчи ишлов бериш учун контсентратсийа 10-15 мг/м³ дан ошмаслиги керак."
         }
       },
       "processSteps": [
         {
-          "title": "Hive preparation",
-          "description": "Removal of bees or planning treatment in the absence of the colony. Closing entrances."
+          "title": "Уйани таййорлаш",
+          "description": "Асалариларни кўчириш йоки оила бўлмаган пайтда ишлов беришни режалаштириш. Кириш йўлларини йопиш."
         },
         {
-          "title": "Ozonator connection",
-          "description": "Installing ozone supply hose through the upper entrance or special opening in the lid."
+          "title": "Озонаторни улаш",
+          "description": "Озон бериш шлангини йуқори кириш йўли йоки қопқоқдаги махсус тешик орқали ўрнатиш."
         },
         {
-          "title": "Ozone treatment",
-          "description": "Ozone supply at specified concentration for 30-90 minutes depending on the goal."
+          "title": "Озон билан ишлов бериш",
+          "description": "Мақсадга қараб белгиланган контсентратсийада 30-90 дақиқа давомида озон бериш."
         },
         {
-          "title": "Exposure",
-          "description": "After stopping ozone supply, exposure for 15-30 minutes with closed entrances."
+          "title": "Експозитсийа",
+          "description": "Озон беришни тўхтатгандан кейин, йопиқ кириш йўллари билан 15-30 дақиқа кутиш."
         },
         {
-          "title": "Ventilation",
-          "description": "Opening entrances for residual ozone exit. Time — 15-30 minutes."
+          "title": "Шамоллатиш",
+          "description": "Қолдиқ озон чиқиши учун кириш йўлларини очиш. Вақти — 15-30 дақиқа."
         },
         {
-          "title": "Bee return",
-          "description": "Settling the treated hive with a bee colony 1-2 hours after treatment."
+          "title": "Асалариларни қайтариш",
+          "description": "Ишлов берилган уйага асаларилар оиласини ишловдан 1-2 соат ўтгач жойлаштириш."
         }
       ],
       "sections": {
         "applications": {
-          "title": "Ozone applications in beekeeping",
+          "title": "Асаларичиликда озоннинг қўлланилиши",
           "items": [
-            "Comb disinfection from chalkbrood (ascosphaerosis) pathogens",
-            "Hive and frame treatment for foulbrood diseases",
-            "Varroosis control in complex therapy",
-            "Improved hive microclimate",
-            "Beekeeping equipment disinfection",
-            "Nosemosis and other infection prevention",
-            "Wintering house and apiary building treatment"
+            "Кишанларни аскосфероз патогенларидан дезинфексийа қилиш",
+            "Уйа ва рамкаларни чириш касалликларига қарши ишлаш",
+            "Комплекс терапийада варроозни назорат қилиш",
+            "Уйа микроклиматини йахшилаш",
+            "Асаларичилик ускуналарини дезинфексийа қилиш",
+            "Нозематоз ва бошқа инфексийаларнинг олдини олиш",
+            "Қишловхоналар ва асаларихона биноларини ишлаш"
           ]
         },
         "ascospherosis": {
-          "title": "Chalkbrood control",
-          "tableCaption": "Treatment regimes for chalkbrood",
-          "tableHeaders": ["Infection level", "O₃ concentration", "Treatment time", "Frequency"],
+          "title": "Аскосферозга қарши кураш",
+          "tableCaption": "Аскосфероз учун ишлов бериш режимлари",
+          "tableHeaders": [
+            "Инкубатсийа даражаси",
+            "О₃ контсентратсийаси",
+            "Ишлов бериш вақти",
+            "Даврийлиги"
+          ],
           "tableData": [
-            ["Prevention", "100-150 mg/m³", "30-45 min", "Once a month"],
-            ["Mild form", "200-250 mg/m³", "60 min", "Twice daily, 5-7 days"],
-            ["Moderate form", "250-350 mg/m³", "60 min", "Three times daily, 7-10 days"],
-            ["Severe form", "400-500 mg/m³", "60-90 min", "Four times daily, 10-14 days"]
+            [
+              "Профилактика",
+              "100-150 мг/м³",
+              "30-45 мин",
+              "Ойига бир марта"
+            ],
+            [
+              "Йенгил шакли",
+              "200-250 мг/м³",
+              "60 мин",
+              "Кунига икки марта, 5-7 кун"
+            ],
+            [
+              "Ўртача шакли",
+              "250-350 мг/м³",
+              "60 мин",
+              "Кунига уч марта, 7-10 кун"
+            ],
+            [
+              "Оғир шакли",
+              "400-500 мг/м³",
+              "60-90 мин",
+              "Кунига тўрт марта, 10-14 кун"
+            ]
           ]
         },
         "pathogens": {
-          "title": "Effectiveness against various pathogens",
-          "tableCaption": "Effectiveness of ozonation against bee pathogens",
-          "tableHeaders": ["Pathogen/disease", "O₃ concentration", "Time", "Effectiveness"],
+          "title": "Турли патогенларга қарши самарадорлик",
+          "tableCaption": "Асалари патогенларига қарши озонлаш самарадорлиги",
+          "tableHeaders": [
+            "Патоген/касаллик",
+            "О₃ контсентратсийаси",
+            "Вақт",
+            "Самарадорлик"
+          ],
           "tableData": [
-            ["Ascosphaera apis (chalkbrood)", "250-500 mg/m³", "60 min", "50-77%"],
-            ["Paenibacillus larvae (American foulbrood)", "300-500 mg/m³", "60-90 min", "85-95%"],
-            ["Melissococcus plutonius (European foulbrood)", "250-400 mg/m³", "45-60 min", "90-98%"],
-            ["Nosema apis (nosemosis)", "200-300 mg/m³", "30-45 min", "80-90%"],
-            ["Aspergillus (aspergillosis)", "300-500 mg/m³", "60-90 min", "85-95%"],
-            ["Deformed wing virus", "150-250 mg/m³", "30-45 min", "70-85%"]
+            [
+              "Асcоспҳаера апис (аскосфероз)",
+              "250-500 мг/м³",
+              "60 мин",
+              "50-77%"
+            ],
+            [
+              "Паенибаcиллус ларвае (Америка чириши)",
+              "300-500 мг/м³",
+              "60-90 мин",
+              "85-95%"
+            ],
+            [
+              "Мелиссоcоccус плутониус (Йевропа чириши)",
+              "250-400 мг/м³",
+              "45-60 мин",
+              "90-98%"
+            ],
+            [
+              "Носема апис (нозематоз)",
+              "200-300 мг/м³",
+              "30-45 мин",
+              "80-90%"
+            ],
+            [
+              "Аспергилл (аспергиллоз)",
+              "300-500 мг/м³",
+              "60-90 мин",
+              "85-95%"
+            ],
+            [
+              "Қанот деформатсийаси вируси",
+              "150-250 мг/м³",
+              "30-45 мин",
+              "70-85%"
+            ]
           ]
         },
         "stimulation": {
-          "title": "Stimulating effect of ozone",
-          "tableCaption": "Effect of stimulating ozonation on bee colonies",
-          "tableHeaders": ["Indicator", "Control group", "Treated group", "Difference"],
+          "title": "Озоннинг рағбатлантирувчи та'сири",
+          "tableCaption": "Рағбатлантирувчи озонлашнинг асалари оилаларига та'сири",
+          "tableHeaders": [
+            "Кўрсаткич",
+            "Назорат гуруҳи",
+            "Ишлов берилган гуруҳ",
+            "Фарқ"
+          ],
           "tableData": [
-            ["Honey yield, kg/season", "45-50", "70-75", "+25 kg (+50%)"],
-            ["Colony strength, frames", "8-10", "12-14", "+40%"],
-            ["Queen egg-laying, eggs/day", "1200-1400", "1600-1800", "+30%"],
-            ["Brood rearing", "100%", "135-140%", "+35-40%"],
-            ["Wintering (losses)", "15-20%", "5-8%", "-60%"],
-            ["Swarming", "Frequent", "Rare", "2-3 times reduction"]
+            [
+              "Асал ҳосили, кг/мавсум",
+              "45-50",
+              "70-75",
+              "+25 кг (+50%)"
+            ],
+            [
+              "Оила кучи, рамкалар",
+              "8-10",
+              "12-14",
+              "+40%"
+            ],
+            [
+              "Онари асалари тухум қўйиши, тухум/кун",
+              "1200-1400",
+              "1600-1800",
+              "+30%"
+            ],
+            [
+              "Насл йетиштириш",
+              "100%",
+              "135-140%",
+              "+35-40%"
+            ],
+            [
+              "Қишлаш (нобуд бўлиш)",
+              "15-20%",
+              "5-8%",
+              "-60%"
+            ],
+            [
+              "Тўп ажратиш",
+              "Тез-тез",
+              "Камдан-кам",
+              "2-3 баравар камайиш"
+            ]
           ]
         },
         "equipment": {
-          "title": "Comb and equipment treatment",
-          "tableCaption": "Comb and equipment treatment regimes",
-          "tableHeaders": ["Treatment object", "O₃ concentration", "Time", "Note"],
+          "title": "Кишан ва ускуналарни ишлаш",
+          "tableCaption": "Кишан ва ускуналарни ишлаш режимлари",
+          "tableHeaders": [
+            "Муолажа об'екти",
+            "О₃ контсентратсийаси",
+            "Вақт",
+            "Еслатма"
+          ],
           "tableData": [
-            ["Combs (prevention)", "200-300 mg/m³", "30-45 min", "After honey extraction"],
-            ["Combs (disinfection)", "400-600 mg/m³", "60-90 min", "In case of diseases"],
-            ["Empty hives", "300-500 mg/m³", "45-60 min", "Before settling"],
-            ["Metal equipment", "500-700 mg/m³", "30-45 min", "Smokers, hive tools"],
-            ["Protective clothing", "300-400 mg/m³", "30-45 min", "In ozone chamber"],
-            ["Honey containers", "200-300 mg/m³", "20-30 min", "Before filling"]
+            [
+              "Кишанлар (профилактика)",
+              "200-300 мг/м³",
+              "30-45 мин",
+              "Асал олингандан кейин"
+            ],
+            [
+              "Кишанлар (дезинфексийа)",
+              "400-600 мг/м³",
+              "60-90 мин",
+              "Касалликлар бўлганда"
+            ],
+            [
+              "Бўш уйалар",
+              "300-500 мг/м³",
+              "45-60 мин",
+              "Жойлаштиришдан олдин"
+            ],
+            [
+              "Металл ускуналар",
+              "500-700 мг/м³",
+              "30-45 мин",
+              "Тутатқичлар, уйа асбоблари"
+            ],
+            [
+              "Ҳимойа кийимлари",
+              "300-400 мг/м³",
+              "30-45 мин",
+              "Озон камерасида"
+            ],
+            [
+              "Асал идишлари",
+              "200-300 мг/м³",
+              "20-30 мин",
+              "Тўлдиришдан олдин"
+            ]
           ]
         },
         "calendar": {
-          "title": "Seasonal ozonation calendar",
-          "tableCaption": "Recommended treatment schedule",
-          "tableHeaders": ["Period", "Treatment type", "Concentration", "Purpose"],
+          "title": "Мавсумий озонлаш тақвими",
+          "tableCaption": "Тавсийа етилган ишлов бериш жадвали",
+          "tableHeaders": [
+            "Давр",
+            "Ишлов бериш тури",
+            "Контсентратсийа",
+            "Мақсад"
+          ],
           "tableData": [
-            ["Early spring (March)", "Stimulating", "10-15 mg/m³", "Colony activation after wintering"],
-            ["Spring (April-May)", "Preventive", "100-200 mg/m³", "Spring infection prevention"],
-            ["Summer (June-July)", "Stimulating", "10-15 mg/m³", "Honey yield increase"],
-            ["After extraction (August)", "Comb disinfection", "300-500 mg/m³", "Disinfection of freed combs"],
-            ["Autumn (September)", "Preventive", "150-250 mg/m³", "Wintering preparation"],
-            ["Wintering house (November)", "Disinfection", "400-600 mg/m³", "Wintering house treatment before placement"]
+            [
+              "Ерта баҳор (Март)",
+              "Рағбатлантирувчи",
+              "10-15 мг/м³",
+              "Қишлашдан кейин оилани фаоллаштириш"
+            ],
+            [
+              "Баҳор (Апрел-Май)",
+              "Профилактик",
+              "100-200 мг/м³",
+              "Баҳорги инфексийаларнинг олдини олиш"
+            ],
+            [
+              "Йоз (Ийун-Ийул)",
+              "Рағбатлантирувчи",
+              "10-15 мг/м³",
+              "Асал ҳосилини ошириш"
+            ],
+            [
+              "Асал олгандан кейин (Август)",
+              "Кишанларни дезинфексийа қилиш",
+              "300-500 мг/м³",
+              "Бўшаган кишанларни дезинфексийа қилиш"
+            ],
+            [
+              "Куз (Сентабр)",
+              "Профилактик",
+              "150-250 мг/м³",
+              "Қишлашга таййоргарлик"
+            ],
+            [
+              "Қишловхона (Нойабр)",
+              "Дезинфексийа",
+              "400-600 мг/м³",
+              "Жойлаштиришдан олдин қишловхонани ишлаш"
+            ]
           ]
         },
         "technology": {
-          "title": "Hive ozonation technology"
+          "title": "Уйаларни озонлаш технологийаси"
         },
         "benefits": {
-          "title": "Benefits of ozonation in beekeeping",
+          "title": "Асаларичиликда озонлашнинг афзалликлари",
           "items": [
             {
-              "title": "Chemical-free",
-              "description": "Ozone leaves no residues in honey and bee products — completely eco-friendly method"
+              "title": "Кимйовий моддаларсиз",
+              "description": "Озон асал ва ари маҳсулотларида қолдиқ қолдирмайди — тўлиқ екологик тоза усул"
             },
             {
-              "title": "Honey yield increase",
-              "description": "Increase in marketable honey by 25 kg per colony per season with regular ozonation"
+              "title": "Асал ҳосили ўсиши",
+              "description": "Мунтазам озонлаш билан ҳар бир оиладан бир мавсумда товар асалини 25 кг га ошириш"
             },
             {
-              "title": "Disease control",
-              "description": "Effectiveness against chalkbrood, foulbrood, nosemosis and other infections"
+              "title": "Касалликларни назорат қилиш",
+              "description": "Аскосфероз, чириш, нозематоз ва бошқа инфексийаларга қарши самарадорлик"
             },
             {
-              "title": "Improved wintering",
-              "description": "2-3 times reduction in colony losses during wintering thanks to bee health improvement"
+              "title": "Қишлашни йахшилаш",
+              "description": "Асаларилар саломатлигини йахшилаш ҳисобига қишлаш даврида оила нобуд бўлишини 2-3 баравар камайтириш"
             },
             {
-              "title": "Reduced swarming",
-              "description": "Stimulating ozonation reduces colony tendency to swarm by 2-3 times"
+              "title": "Тўп ажратишни камайтириш",
+              "description": "Рағбатлантирувчи озонлаш оиланинг тўп ажратишга мойиллигини 2-3 баравар камайтиради"
             },
             {
-              "title": "Economic benefit",
-              "description": "Equipment payback in 1-2 seasons through increased apiary productivity"
+              "title": "Иқтисодий фойда",
+              "description": "Асаларихона маҳсулдорлигини ошириш ҳисобига ускунанинг 1-2 мавсумда ўзини оқлаши"
             }
           ]
         }

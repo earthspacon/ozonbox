@@ -1,317 +1,1173 @@
 {
-  "title": "Food production",
-  "description": "Ozonation at food facilities ensures product safety, extends shelf life and meets HACCP requirements. An eco-friendly alternative to chemical preservatives.",
+  "title": "Озиқ-овқат ишлаб чиқариш",
+  "description": "Озиқ-овқат завеҳларин озонатсийа қўлланилиши маҳсулот хавфсизлигини та'минлайди, сақлаш муддатини узайтиради ва ҲАCCП талабларига жавоб беради. Кимйовий консервантларга еcо-доствий муқобил.",
   "subcategories": {
     "bottled-water": {
-      "title": "Bottled water",
-      "shortDesc": "Final ozonation in drinking water bottling",
-      "content": "Final ozonation is a key step in bottled drinking water production. The technology sterilizes water, packaging and equipment immediately before filling, preventing secondary microbiological contamination.\n\nUnder sanitary standards, ozonation is the preferred method for disinfecting drinking water. Chlorine is not permitted for bottled water. Ozone fully decays to oxygen, saturating the water and improving taste.\n\nAt residual ozone up to 0.1 mg/L and contact time of at least 12 minutes, full sterilization of water, bottle, headspace and cap is achieved. The product remains sterile until the package is opened.",
+      "title": "Шиша сувда озонатсийа",
+      "shortDesc": "Ичимлик сувининг финали озонатсийаси",
+      "content": "Финали озонатсийа шиша ичимлик сувининг ишлаб чиқариш жарайонида асосий босқич ҳисобланади. Технологийа сув, қадоқ ва ускунани тўлдириш олдидан стерилизатсийа қилади ва иккинчи даражали микробиологик контаминатсийасини олдини олади.\n\nБугунги санитар стандартлари бўйича озонатсийа ичимлик сувининг дезинфексийаси учун афзал усулдир. Шиша сувда хлорин ишлатилиши тақиқланади. Озон бутунлай кислород ҳолатига айланади, сувни кислород билан тўйинади ва унинг та'мни йахшилайди.\n\nҚолган озоне 0,1 мг/Л дан кўп бўлмаса ва та'сир вақти камида 12 дақиқага тенг бўлса, сув, шиша, йуқори қисм ва қопқоқ тўлиқ стерилизатсийа қилинади. Маҳсулот қопқоқ очилмагунча стерил ҳолатда қолади.",
       "benefits": [
-        "Compliance with drinking water standards",
-        "Simultaneous sterilization of water and packaging",
-        "Oxygen saturation up to 9 mg/L",
-        "No chemical residues",
-        "Extended product shelf life",
-        "Suitable for baby water"
+        "Ичимлик сувининг стандартларига мувофиқлик",
+        "Сув ва қадоқнинг бир вақтда стерилизатсийаси",
+        "Кислород билан тўйиниш 9 мг/Л гача",
+        "Кимйовий қолдиқлар йўқ",
+        "Маҳсулотнинг сақлаш муддати узайган",
+        "Чақалоқ суви учун мос"
       ],
       "stats": {
         "stat1": {
           "value": "0.1",
-          "label": "mg/L ozone",
-          "description": "Maximum residual concentration per standards"
+          "label": "мг/Л озоне",
+          "description": "Стандартлар бўйича максимал қолган контсентратсийа"
         },
         "stat2": {
           "value": "99.9%",
-          "label": "Sterilization",
-          "description": "Destruction of pathogenic microorganisms"
+          "label": "Стерилизатсийа",
+          "description": "Патоген микроорганизмаларни йўқ қилиш"
         },
         "stat3": {
-          "value": "1 g/m³",
-          "label": "Performance",
-          "description": "Recommended ozone generator dose per water volume"
+          "value": "1 г/м³",
+          "label": "Унумдорлик",
+          "description": "Сув ҳажмига нисбатан тавсийа етилган озоне генератор дозо"
         },
         "stat4": {
           "value": "9",
-          "label": "mg/L oxygen",
-          "description": "Premium category water saturation"
+          "label": "мг/Л кислород",
+          "description": "Премиум категорийали сув тўйиниш"
         }
       },
       "sections": {
         "intro": {
-          "text": "Drinking water producers often face situations where water extracted from a verified well and passed through all purification stages spoils on store shelves. The cause is secondary contamination directly on the bottling line through contact with air, equipment and non-sterile containers.",
-          "text2": "Final ozonation solves this problem comprehensively: ozone not only disinfects water but also disinfects bottling equipment and sterilizes containers. After capping bottles, ozone decomposes to oxygen within several hours, leaving no traces and improving water taste."
+          "text": "Ичимлик суви ишлаб чиқарувчилар кўпинча шунчаки қуйош остида турган сув мавжуд қилади - текширилган қуйудан ажратилган ва барча тозалаш босқичларидан ўтган сув дўконида хараб бўлади. Сабаби - бортни шмйот шуйу орқали бевосита контакт қилиш натижасида иккинчи даражали контаминатсийа.",
+          "text2": "Финали озонатсийа бу муаммони кенг кўламда ҳал қилади: озоне фақат сувни дезинфексийа қилмайди, балки қувурли ускунаси ва контейнерларни ҳам стерилизатсийа қилади. Қопқўлаш шиша қўйилгандан кейин озоне бир неча соат ичида кислород ҳолатига айланиб кетади, из қолдириб кетмайди ва сув та'мни йахшилайди."
         },
         "highlight1": {
-          "title": "Sanitary standards:",
-          "text": "\"Chlorine preparations are not permitted for treating drinking waters intended for bottling; preferred disinfection methods are ozonation and physical treatment methods, in particular UV irradiation.\""
+          "title": "Санитар стандартлар:",
+          "text": "\"Шиша қадоқлаш учун мўлжаланган ичимлик сувини ишлов бериш учун хлорин таййорламалари ишлатилмайди; афзал дезинфексийа усуллари озонатсийа ва физик ишлов бериш усулларидир, хусусан УВ нурлаштирилиши.\""
         },
         "benefits": {
-          "title": "Advantages of final ozonation",
+          "title": "Финали озонатсийанинг афзалликлари",
           "items": [
-            "Simultaneous sterilization of water, bottle, headspace and cap",
-            "Environment remains sterile until package opening",
-            "Oxygen saturation — mandatory requirement for premium category water",
-            "Complete ozone decay to oxygen without chemical residues",
-            "Only permitted preservation method for baby water",
-            "No need for additional container disinfection"
+            "Сув, шиша, йуқори қисм ва қопқоқнинг бир вақтда стерилизатсийаси",
+            "Муҳит қопқоқ очилмагунча стерил ҳолатда қолади",
+            "Кислород билан тўйиниш — премиум категорийали сув учун мажбур талаби",
+            "Озоннинг кимйовий қолдиқсиз бутунлай кислород ҳолатига айланиши",
+            "Чақалоқ суви учун йагона рухсат етилган консерватсийа усули",
+            "Қадоқни алоҳида дезинфексийа қилиш шарт емас"
           ]
         },
         "requirements": {
-          "title": "Regulatory requirements",
+          "title": "Қонуний талаблар",
           "table": {
-            "caption": "Requirements for bottled water",
-            "headers": ["Parameter", "First category", "Premium category"],
+            "caption": "Шиша сув учун талаблар",
+            "headers": [
+              "Параметр",
+              "Биринчи категорийа",
+              "Премиум категорийа"
+            ],
             "rows": [
-              ["Residual ozone", "≤ 0.1 mg/L", "≤ 0.1 mg/L"],
-              ["Oxygen content", "≥ 5 mg/L", "≥ 9 mg/L"],
-              ["Ozone contact time", "≥ 12 minutes", "≥ 12 minutes"],
-              ["Chlorine use", "Prohibited", "Prohibited"],
-              ["Silver (baby water)", "Permitted", "Prohibited"]
+              [
+                "Қолган озоне",
+                "≤ 0,1 мг/Л",
+                "≤ 0,1 мг/Л"
+              ],
+              [
+                "Кислород миқдори",
+                "≥ 5 мг/Л",
+                "≥ 9 мг/Л"
+              ],
+              [
+                "Озоне та'сир вақти",
+                "≥ 12 дақиқа",
+                "≥ 12 дақиқа"
+              ],
+              [
+                "Хлорин ишлатилиши",
+                "Тақиқланган",
+                "Тақиқланган"
+              ],
+              [
+                "Кумуш (чақалоқ суви)",
+                "Рухсат етилган",
+                "Тақиқланган"
+              ]
             ]
           },
           "highlight": {
-            "text": "For baby water, ozonation is possibly the only preservation option, since use of silver ions and carbon dioxide is prohibited by standards."
+            "text": "Чақалоқ суви учун озонатсийа мумкин бўлган битта консерватсийа варианти бўлиши мумкин, чунки кумуш ионлар ва углерод диоксиднинг стандартлар бўйича ишлатилиши тақиқланган."
           }
         },
         "scheme": {
-          "title": "Final ozonation schematic",
-          "text": "Ozonation system is placed directly before the bottling machine. The system includes oxygen generator, ozone generator, ozone delivery and dissolution system, as well as ozone analyzer or ORP meter for control.",
+          "title": "Финали озонатсийа схемаси",
+          "text": "Озонатсийа тизими тўлдириш машинасининг тўғри олдига ўрнатилади. Тизим кислород генератори, озоне генератори, озоне йетказиш ва еритиш тизими, шунингдек озоне анализатори йоки назорат қилиш учун ОРП метрини ўз ичига олади.",
           "table": {
-            "caption": "Final ozonation equipment composition",
-            "headers": ["Component", "Purpose", "Specifications"],
+            "caption": "Финали озонатсийа ускуналарининг таркиби",
+            "headers": [
+              "Компонент",
+              "Мақсади",
+              "Техник хусусийатлари"
+            ],
             "rows": [
-              ["Oxygen generator", "Pure oxygen supply", "O₂ concentration ≥ 90%"],
-              ["Ozone generator", "Ozone production", "1 g/hour per 1 m³/hour water"],
-              ["Ejector / diffuser", "Ozone dissolution in water", "Efficiency > 90%"],
-              ["Contact tank", "Contact time provision", "≥ 12 minutes"],
-              ["Ozone analyzer", "Concentration control", "0-2 mg/L"]
+              [
+                "Кислород генератори",
+                "Соф кислород йетказиш",
+                "О₂ контсентратсийаси ≥ 90%"
+              ],
+              [
+                "Озоне генератори",
+                "Озоне ишлаб чиқариш",
+                "Соат билан 1 м³/соат сувга 1 г"
+              ],
+              [
+                "Ежйуниор / диффузор",
+                "Сувда озоннинг ериш",
+                "Самарадорлик > 90%"
+              ],
+              [
+                "Та'сир танки",
+                "Та'сир вақтини та'минлаш",
+                "≥ 12 дақиқа"
+              ],
+              [
+                "Озоне анализатори",
+                "Контсентратсийани назорат қилиш",
+                "0-2 мг/Л"
+              ]
             ]
           }
         },
         "limitations": {
-          "title": "Limitations for mineral water",
-          "text": "When ozonating mineral water, impurities oxidizable by ozone are not permitted: iron, manganese, hydrogen sulfide, bromide, natural organic substances. Ozone reaction with bromide leads to bromate formation, the standard content of which in drinking water is 10 μg/L.",
-          "text2": "Dissolved metals after interaction with ozone convert to insoluble oxides, leading to color and sediment in water. Therefore, before final ozonation, water must be pre-treated in accordance with standards."
+          "title": "Минерал сувнинг чекловлари",
+          "text": "Минерал сувини озонатсийа қилишда озоне оксидлениши мумкин бўлган аралашмалари тақиқланган: темир, мангон, суводрод сулфид, бромид, табиий органик моддалар. Озоннинг бромид билан реаксийаси бромат ҳосил қилади, бунинг ичимлик сувида стандарт миқдори 10 μг/Л.",
+          "text2": "Озоне билан ўзаро та'сири натижасида еритилиб кетган металлар еримаган оксидларга айлана, бу сувда ранг ва чўкма ҳосил қилади. Шунинг учун финали озонатсийадан олдин сув стандартлар бўйича олдиндан ишлов берилиши керак."
         },
         "comparison": {
-          "title": "Water disinfection method comparison",
-          "headers": ["Parameter", "Ozonation", "UV treatment"],
+          "title": "Сув дезинфексийа усулларининг таққосланиши",
+          "headers": [
+            "Параметр",
+            "Озонатсийа",
+            "УВ ишлов бериш"
+          ],
           "rows": [
-            { "parameter": "Container sterilization", "value1": "Yes", "value2": "No" },
-            { "parameter": "Oxygen saturation", "value1": "Yes", "value2": "No" },
-            { "parameter": "Residual effect", "value1": "Yes", "value2": "No" },
-            { "parameter": "Equipment disinfection", "value1": "Yes", "value2": "No" },
-            { "parameter": "Taste improvement", "value1": "Yes", "value2": "No" },
-            { "parameter": "Requires contact", "value1": "≥ 12 minutes", "value2": "Instant" }
+            {
+              "parameter": "Контейнер стерилизатсийаси",
+              "value1": "Ҳа",
+              "value2": "Йўқ"
+            },
+            {
+              "parameter": "Кислород билан тўйиниш",
+              "value1": "Ҳа",
+              "value2": "Йўқ"
+            },
+            {
+              "parameter": "Қолган та'сир",
+              "value1": "Ҳа",
+              "value2": "Йўқ"
+            },
+            {
+              "parameter": "Ускунани дезинфексийа қилиш",
+              "value1": "Ҳа",
+              "value2": "Йўқ"
+            },
+            {
+              "parameter": "Та'мни йахшилаш",
+              "value1": "Ҳа",
+              "value2": "Йўқ"
+            },
+            {
+              "parameter": "Алоқа вақтини талаб қилади",
+              "value1": "≥ 12 дақиқа",
+              "value2": "Бир зумада"
+            }
           ]
         },
         "producerBenefits": {
-          "title": "Ozonation advantages for producers",
+          "title": "Ишлаб чиқарувчилар учун озонатсийанинг афзалликлари",
           "features": [
             {
-              "title": "Regulatory compliance",
-              "description": "Full compliance with standards and technical regulations"
+              "title": "Қонуний мувофиқлик",
+              "description": "Стандартлар ва техник қоидаларга тўлиқ мувофиқлик"
             },
             {
-              "title": "Extended shelf life",
-              "description": "Sterile environment maintained until package opening — product does not spoil"
+              "title": "Сақлаш муддати узайган",
+              "description": "Муҳит қопқоқ очилмагунча стерил ҳолатда қолади — маҳсулот хараб бўлмайди"
             },
             {
-              "title": "Baby water",
-              "description": "Only permitted preservation method for baby water"
+              "title": "Чақалоқ суви",
+              "description": "Чақалоқ суви учун йагона рухсат етилган консерватсийа усули"
             },
             {
-              "title": "Chemical savings",
-              "description": "No separate container disinfection with chemicals required"
+              "title": "Кимйовий моддаларни тежаш",
+              "description": "Қадоқни кимйовий моддалар билан алоҳида дезинфексийа қилиш шарт емас"
             }
           ]
         }
       }
     },
     "dairy": {
-      "title": "Dairy production",
-      "shortDesc": "Equipment disinfection and dairy storage",
-      "content": "Ozonation in the dairy industry is used to disinfect equipment, tanks, milk lines and premises. The technology reduces the need for chemical detergents and ensures microbiological safety.\n\nOzonated water at 2–3 mg/L effectively disinfects cooling tanks, milking equipment and pipelines with 99.9% efficiency. Ozone destroys pathogens, including thermophilic bacteria resistant to pasteurization.\n\nIn cold storage of dairy products, chamber ozonation prevents mold and extends shelf life of cottage cheese, sour cream and other fermented products by 30–50%.",
+      "title": "Сут ишлаб чиқариш",
+      "shortDesc": "Ускунани дезинфексийа қилиш ва сут маҳсулотларини сақлаш",
+      "content": "Сут саноатида озонатсийа ускунани, таникларни, сут линийаларини ва биноларни дезинфексийа қилиш учун ишлатилади. Технологийа кимйовий тозалаш моддаларининг еҳтийожини камайтиради ва микробиологик хавфсизликни та'минлайди.\n\nОзонатсийаланган сув 2–3 мг/Л да совутиш таниклари, сут чиқариш ускунаси ва қувур линийаларини 99,9% самарадорлик билан дезинфексийа қилади. Озоне пастеуризатсийага чидамли термофиллик бактерийаларни ўз ичига олган патогенлари йўқ қилади.\n\nСут маҳсулотларининг совуқ сақлаш камерасида озонатсийа кўплакни олдини олади ва поғона пишлоқ, шора крема ва бошқа ферментланган маҳсулотларнинг сақлаш муддатини 30–50% узайтиради.",
       "benefits": [
-        "Equipment disinfection up to 99.9%",
-        "Reduced chemical detergents",
-        "30–50% longer shelf life",
-        "Destruction of thermophilic bacteria",
-        "Listeriosis prevention",
-        "HACCP compliance"
+        "Ускунани дезинфексийа қилиш 99,9% гача",
+        "Кимйовий тозалаш моддаларини камайтириш",
+        "Сақлаш муддатини 30–50% узайтириш",
+        "Термофиллик бактерийаларни йўқ қилиш",
+        "Листериознинг олдини олиш",
+        "ҲАCCП мувофиқлик"
       ],
       "stats": {
         "stat1": {
           "value": "99.9%",
-          "label": "Efficiency",
-          "description": "Equipment and tank disinfection"
+          "label": "Самарадорлик",
+          "description": "Ускунани ва таниклани дезинфексийа қилиш"
         },
         "stat2": {
           "value": "30–50%",
-          "label": "Extended shelf life",
-          "description": "For fermented dairy products"
+          "label": "Сақлаш муддати узайган",
+          "description": "Ферментланган сут маҳсулотлари учун"
         },
         "stat3": {
           "value": "2–3",
-          "label": "mg/L ozone",
-          "description": "Concentration for equipment disinfection"
+          "label": "мг/Л озоне",
+          "description": "Ускунани дезинфексийа қилиш учун контсентратсийа"
         },
         "stat4": {
           "value": "0",
-          "label": "Chemicals",
-          "description": "Complete elimination of detergents"
+          "label": "Кимйовий моддалар",
+          "description": "Тозалаш моддаларини бутунлай йўқ қилиш"
         }
       },
       "sections": {
         "intro": {
-          "paragraph1": "The dairy industry has the highest requirements for microbiological safety. Pathogenic microorganisms — Listeria, Salmonella, E.coli — can survive even after pasteurization, multiplying in milk lines and on equipment surfaces.",
-          "paragraph2": "Ozonation solves this problem comprehensively: disinfecting cooling tanks, milking equipment, milk lines and storage tanks without using chemical detergents. Ozone is effective against thermophilic bacteria resistant to high temperatures."
+          "paragraph1": "Сут саноатида микробиологик хавфсизликка енг йуқори талаблар қўйилади. Патоген микроорганизмалар — Листериа, Салмонелла, Е.cоли — пастеуризатсийадан кейин ҳам омон қолиши мумкин, сут линийаларида ва ускунанинг сиртида кўпайиши мумкин.",
+          "paragraph2": "Озонатсийа бу муаммони кенг кўламда ҳал қилади: кимйовий тозалаш моддаларини ишлатмасдан совутиш таниклари, сут чиқариш ускунаси, сут линийалари ва сақлаш таниклари дезинфексийа қилади. Озоне йуқори ҳароратга чидамли термофиллик бактерийалари учун самарали."
         },
         "haccpHighlight": {
-          "title": "HACCP:",
-          "text": "Ozonation is recognized as a critical control point (CCP) in the hazard analysis system, allowing control of microbiological safety at all stages of dairy production."
+          "title": "ҲАCCП:",
+          "text": "Озонатсийа ҳазард таҳлили тизимида критик назорат нуқта (CCП) сифатида тан олинади, бу сут ишлаб чиқаришнинг барча босқичларида микробиологик хавфсизликни назорат қилиш имконини беради."
         },
         "application": {
-          "title": "Ozone application in dairy production",
-          "tableCaption": "Ozonation modes for dairy plant equipment",
-          "tableHeaders": ["Treatment object", "Method", "Concentration", "Efficiency"],
+          "title": "Сут ишлаб чиқаришда озоннинг қўлланилиши",
+          "tableCaption": "Сут завеҳ ускуналари учун озонатсийа режими",
+          "tableHeaders": [
+            "Ишлов бериш об'екти",
+            "Усул",
+            "Контсентратсийа",
+            "Самарадорлик"
+          ],
           "tableData": [
-            ["Milking equipment", "Ozonated water", "2–3 mg/L", "99.9%"],
-            ["Cooling tanks", "Water + air", "3–5 mg/L", "99.99%"],
-            ["Milk lines", "Ozonated water flush", "2–3 mg/L", "99.9%"],
-            ["Storage tanks", "Gaseous ozone", "5–10 mg/m³", "99.99%"],
-            ["Cold rooms", "Gaseous ozone", "3–6 mg/m³", "99.5%"]
+            [
+              "Сут чиқариш ускунаси",
+              "Озонатсийаланган сув",
+              "2–3 мг/Л",
+              "99,9%"
+            ],
+            [
+              "Совутиш таниклари",
+              "Сув + ҳава",
+              "3–5 мг/Л",
+              "99,99%"
+            ],
+            [
+              "Сут линийалари",
+              "Озонатсийаланган сув шуйинг",
+              "2–3 мг/Л",
+              "99,9%"
+            ],
+            [
+              "Сақлаш таниклари",
+              "Газсимон озоне",
+              "5–10 мг/м³",
+              "99,99%"
+            ],
+            [
+              "Совуқ хоналар",
+              "Газсимон озоне",
+              "3–6 мг/м³",
+              "99,5%"
+            ]
           ]
         },
         "advantages": {
-          "title": "Advantages over traditional methods",
+          "title": "Ески усулларга нисбатан афзалликлари",
           "items": [
-            "Destruction of thermophilic bacteria resistant to pasteurization",
-            "Listeriosis prevention — critical for soft cheeses and cottage cheese",
-            "No chemical residues on equipment surfaces",
-            "Ability to treat hard-to-reach areas in milk lines",
-            "Disinfection at low temperatures — no heating required",
-            "Process automation — reduced human factor influence"
+            "Пастеуризатсийага чидамли термофиллик бактерийаларни йўқ қилиш",
+            "Листериознинг олдини олиш — йумшоқ пишлоқ ва поғона пишлоқ учун муҳим",
+            "Ускунанинг сиртида кимйовий қолдиқлар йўқ",
+            "Сут линийаларида еришилмаса жойларга ишлов бериш имконийати",
+            "Ишитмасдан дезинфексийа қилиш — қисқиш шарт емас",
+            "Жарайоннинг автоматик қилиш — инсон омили та'сирини камайтириш"
           ]
         },
         "comparison": {
-          "title": "Comparison of sanitation methods",
-          "headers": ["Parameter", "Ozonation", "Chemical CIP cleaning"],
+          "title": "Санитатсийа усулларини таққослаш",
+          "headers": [
+            "Параметр",
+            "Озонатсийа",
+            "Кимйовий CИП тозалаш"
+          ],
           "rows": [
             {
-              "parameter": "Efficiency against Listeria",
-              "value1": "99.99%",
+              "parameter": "Листериа га нисбатан самарадорлик",
+              "value1": "99,99%",
               "value2": "95–99%"
             },
             {
-              "parameter": "Chemical residues",
-              "value1": "None",
-              "value2": "Rinsing required"
+              "parameter": "Кимйовий қолдиқлар",
+              "value1": "Йўқ",
+              "value2": "Ринсе талаб қилинади"
             },
             {
-              "parameter": "Thermophilic bacteria",
-              "value1": "Destroyed",
-              "value2": "Partially survive"
+              "parameter": "Термофиллик бактерийалар",
+              "value1": "Йўқ қилинади",
+              "value2": "Қисман омон қолади"
             },
             {
-              "parameter": "Treatment time",
-              "value1": "15–30 minutes",
-              "value2": "45–90 minutes"
+              "parameter": "Ишлов бериш вақти",
+              "value1": "15–30 дақиқа",
+              "value2": "45–90 дақиқа"
             },
             {
-              "parameter": "Water consumption",
-              "value1": "Minimal",
-              "value2": "Significant"
+              "parameter": "Сув сарфийати",
+              "value1": "Минимал",
+              "value2": "Сезиларли"
             },
             {
-              "parameter": "Eco-friendliness",
-              "value1": "Complete",
-              "value2": "Waste disposal required"
+              "parameter": "Атроф-муҳитга мос келиши",
+              "value1": "Тўлиқ",
+              "value2": "Чиқиндини бартараф қилиш талаб қилинади"
             }
           ]
         },
         "storage": {
-          "title": "Dairy product storage",
-          "intro": "Ozonation of cold rooms for dairy product storage prevents mold development, suppresses psychrotrophic bacteria growth and extends shelf life of cottage cheese, sour cream, yogurt by 30–50%.",
-          "tableCaption": "Ozonation modes for dairy product storage",
-          "tableHeaders": ["Product", "Temperature", "Concentration", "Shelf life increase"],
+          "title": "Сут маҳсулотларини сақлаш",
+          "intro": "Сут маҳсулотларини сақлаш учун совуқ хоналарини озонатсийа қилиш кўплакни ривожланишини олдини олади, псикҳрофиллик бактерийаларни босгиради ва поғона пишлоқ, шора крема, йогуртнинг сақлаш муддатини 30–50% узайтиради.",
+          "tableCaption": "Сут маҳсулотларини сақлаш учун озонатсийа режими",
+          "tableHeaders": [
+            "Маҳсулот",
+            "Ҳарорат",
+            "Контсентратсийа",
+            "Сақлаш муддатини узайтириш"
+          ],
           "tableData": [
-            ["Cottage cheese", "+2...+6°C", "3–4 mg/m³", "+40%"],
-            ["Sour cream", "+2...+6°C", "2–3 mg/m³", "+35%"],
-            ["Yogurt", "+2...+6°C", "2–3 mg/m³", "+30%"],
-            ["Butter", "-6...-12°C", "3–5 mg/m³", "+50%"],
-            ["Soft cheeses", "+4...+8°C", "3–6 mg/m³", "+45%"]
+            [
+              "Поғона пишлоқ",
+              "+2...+6°C",
+              "3–4 мг/м³",
+              "+40%"
+            ],
+            [
+              "Шора крема",
+              "+2...+6°C",
+              "2–3 мг/м³",
+              "+35%"
+            ],
+            [
+              "Йогурт",
+              "+2...+6°C",
+              "2–3 мг/м³",
+              "+30%"
+            ],
+            [
+              "Сарийоғ",
+              "-6...-12°C",
+              "3–5 мг/м³",
+              "+50%"
+            ],
+            [
+              "Йумшоқ пишлоқ",
+              "+4...+8°C",
+              "3–6 мг/м³",
+              "+45%"
+            ]
           ],
           "highlight": {
-            "text": "In cold storage, ozonation not only suppresses microflora but also prevents off-flavors in products, which is especially important for long-term butter storage."
+            "text": "Совуқ сақлашда озонатсийа микрофлора ўсишини босгирмасдан, маҳсулотдаги нохуш та'мларни ҳам олдини олади, бу айниқса узун муддат сарийоғ сақлашда муҳим."
           }
         },
         "listeriosis": {
-          "title": "Listeriosis prevention",
-          "paragraph1": "Listeria monocytogenes is one of the most dangerous pathogens in the dairy industry. The bacterium can multiply at refrigerator temperature (+4°C), survive in biofilms on equipment surfaces and cause severe diseases with fatal outcomes.",
-          "paragraph2": "Ozone effectively destroys Listeria biofilms and kills bacterial cells. At ozone concentration of 0.5–1.0 mg/L in water, 99.99% inactivation of L. monocytogenes is achieved within 5 minutes of contact."
+          "title": "Листериознинг олдини олиш",
+          "paragraph1": "Листериа моноcйтогенес сут саноатидаги енг хавфли патогенлардан бири. Бактерийа совутич ҳароратида (+4°C) кўпайиши мумкин, ускунанинг сиртидаги биофилмларда омон қолиши мумкин ва оқибати ўлимга етиши мумкин бўлган оғир касалликлар келтириб чиқариши мумкин.",
+          "paragraph2": "Озоне Листериа биофилмлари самарали йўқ қилади ва бактерийа ҳужайраларини ҳалак қилади. Сувда озоне контсентратсийаси 0,5–1,0 мг/Л бўлганда, Л. моноcйтогенес нинг 99,99% инактивланиши 5 дақиқали та'сирот билан еришилади."
         },
         "benefits": {
-          "title": "Benefits for dairy production",
+          "title": "Сут ишлаб чиқариш учун фойдалари",
           "items": [
             {
-              "title": "HACCP compliance",
-              "description": "Ozonation is a critical control point in food safety systems"
+              "title": "ҲАCCП мувофиқлик",
+              "description": "Озонатсийа озиқ-овқат хавфсизлик тизимидаги критик назорат нуқтаси"
             },
             {
-              "title": "Chemical savings",
-              "description": "Reduction of cleaning and disinfection costs by up to 80%"
+              "title": "Кимйовий моддаларни тежаш",
+              "description": "Тозалаш ва дезинфексийа харажатларини 80% гача камайтириш"
             },
             {
-              "title": "Extended shelf life",
-              "description": "30–50% longer shelf life for fermented dairy products"
+              "title": "Сақлаш муддати узайган",
+              "description": "Ферментланган сут маҳсулотларининг сақлаш муддатини 30–50% узайтириш"
             },
             {
-              "title": "Product safety",
-              "description": "Guaranteed destruction of Listeria and thermophilic bacteria"
+              "title": "Маҳсулот хавфсизлиги",
+              "description": "Листериа ва термофиллик бактерийаларни кафолати ҳалак қилиш"
             }
           ]
         }
       }
     },
     "meat-sausages": {
-      "title": "Meat and sausages",
-      "shortDesc": "Meat storage and sausage ripening chambers",
-      "content": "Ozonation is an effective disinfection method in meat production and storage. It is used to treat cold rooms, sausage ripening chambers and meat surfaces without changing sensory properties.\n\nFor chilled meat storage, ozonation at 8–10 mg/m³ for 4–5 hours every other day extends shelf life 2–5 times. Ozone destroys mesophilic and psychrotrophic microflora on carcass surfaces at 1–4°C.\n\nFor sausage ripening chambers, 3–8 mg/m³ with daily 3-hour treatment is recommended. Disinfection efficiency reaches 96–99% while preserving taste, aroma and texture.",
+      "title": "Гўшт ва колбаса",
+      "shortDesc": "Гўшт сақлаш ва колбаса пишиш камералари",
+      "content": "Озонатсийа гўшт ишлаб чиқариш ва сақлашда самарали дезинфексийа усули ҳисобланади. У совуқ хоналар, колбаса пишиш камералари ва гўшт сиртларини ишлов бериш учун ишлатилади, шунинг учун сезгилар хусусийатлари ўзгаришсиз қолади.\n\nСовуқ гўшт сақлаш учун озонатсийа 8–10 мг/м³ да 4–5 соат давомида ҳар икки куннинг ортиғида қўлланилса, сақлаш муддати 2–5 баравар узайади. Озоне 1–4°C да каркас сиртидаги мезофил ва псикҳрофиллик микрофлора бутунлай йўқ қилади.\n\nКолбаса пишиш камералари учун 3–8 мг/м³ ҳар куни 3 соат ишлов бериш тавсийа етилади. Дезинфексийа самарадорлиги 96–99% бўлиб, та'м, ҳид ва текстура сақланиб қолади.",
       "benefits": [
-        "2–5 times longer meat shelf life",
-        "96–99% disinfection efficiency",
-        "Mold suppression on sausages",
-        "Preserved sensory properties",
-        "Operation at low temperatures",
-        "Eco-friendly — decay to oxygen"
-      ]
+        "Гўшт сақлаш муддатини 2–5 баравар узайтириш",
+        "96–99% дезинфексийа самарадорлиги",
+        "Колбасадаги кўплакни босгириш",
+        "Сезгилар хусусийатлари сақланиб қолади",
+        "Масса ҳароратида ишлаш",
+        "Еcо-доствий — кислород ҳолатига ўтиш"
+      ],
+      "stats": {
+        "shelfLife": {
+          "value": "2-5х",
+          "label": "Сақлаш муддати",
+          "description": "Совуқ гўшт сақлаш муддатини узайтириш"
+        },
+        "disinfection": {
+          "value": "96-99%",
+          "label": "Дезинфексийа",
+          "description": "Пишиш камерас дезинфексийа самарадорлиги"
+        },
+        "concentration": {
+          "value": "3-8",
+          "label": "мг/м³ озоне",
+          "description": "Колбаса пишиш камералари учун контсентратсийа"
+        },
+        "organoleptics": {
+          "value": "100%",
+          "label": "Органолептик хусусийатлар",
+          "description": "Та'м, ранг ва ҳиднинг сақланиши"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Колбаса пиштирилиши ва гўшт сақлашда бактерийалар, кўплак фунгалари ва хамиртуруш микроорганизмалар фаол ривожланади. Бу маҳсулотнинг хараб бўлишига, та'м ўзгаришига, масса йўқолишига ва сақлаш муддатининг қисқариши билан натижаланад. Озонатсийа самарали, еcо-доствий ва хавфсиз дезинфексийа усули.",
+          "paragraph2": "Озоннинг дезинфексийа та'сири хлорин билан таққослаганда 15-20 баравар кучлидир, спорасини ҳосил қилувчи бактерийаларга нисбатан тахминан 300-600 баравар кучлидир. Шу билан бирга озоне маҳсулот сиртида кимйовий қолдиқлар қолдирмасдан бутунлай кислород ҳолатига айланади."
+        },
+        "instruction": {
+          "label": "ССРҚ Савдо Вазирлиги 1977 йўриқламаси:",
+          "text": "Озонатсийа колбаса маҳсулотларини қабул қилиш, сақлаш ва ишлаб чиқариш учун тавсийа етилади, шунингдек думалоқ маҳсулотлар учун. Бу усул йукланган маҳсулотлар билан камерани дезинфексийа қилиш имконини беради."
+        },
+        "storage": {
+          "title": "Совуқ гўшт сақлаш",
+          "paragraph": "Совуқ гўшт сақлаш учун 8-10 мг/м³ да озонатсийа 1-4°C да каркас сиртидаги мезофил ва псикҳрофиллик микрофлора бутунлай йўқ қилишни та'минлайди. Совуқ гўшт сақлаш муддати 2-5 баравар узайади.",
+          "tableCaption": "Гўшт сақлаш учун озонатсийа режими",
+          "tableHeaders": [
+            "Маҳсулот",
+            "Ҳарорат",
+            "Контсентратсийа",
+            "Ишлов бериш вақти",
+            "Частотаси"
+          ],
+          "tableRows": [
+            [
+              "Совуқ гўшт",
+              "-1...-4°C",
+              "8-10 мг/м³",
+              "4-5 соат",
+              "Ҳар икки куннинг"
+            ],
+            [
+              "Музлатилган гўшт",
+              "-18°C",
+              "10 мг/м³",
+              "3 соат",
+              "Кунига"
+            ],
+            [
+              "Муржон (совуқ)",
+              "-1...-4°C",
+              "8-10 мг/м³",
+              "2-3 соат",
+              "Кунига"
+            ],
+            [
+              "Муржон (музлатилган)",
+              "-18°C",
+              "8-12 мг/м³",
+              "3 соат",
+              "Кунига"
+            ],
+            [
+              "Ички органлар",
+              "-1...-4°C",
+              "8-10 мг/м³",
+              "3-4 соат",
+              "Кунига"
+            ]
+          ]
+        },
+        "ripeningChambers": {
+          "title": "Колбаса пишиш камералари",
+          "paragraph": "Қуруқ сўлган ва ҳаво қуритиш колбаси учун пишиш камераларида озоне слимй ва кўплак чўкмасининг ривожланишини босгиради, нохуш ҳидилар пайдо бўлишини олдини олади. Ўртача контсентратсийада озоне қобиқ йоки тўлдирилиш рангини ўзгартирса ҳам, та'сир қилмайди.",
+          "tableCaption": "Колбаса пишиш камералари учун озонатсийа режими",
+          "tableHeaders": [
+            "Колбаса тури",
+            "Контсентратсийа",
+            "Ишлов бериш вақти",
+            "Ҳарорат",
+            "Самарадорлик"
+          ],
+          "tableRows": [
+            [
+              "Қуруқ сўлган",
+              "3-8 мг/м³",
+              "3 соат",
+              "+12...+14°C",
+              "96-99%"
+            ],
+            [
+              "Пиширилган-тутун қилинган",
+              "3-7 мг/м³",
+              "2 соат",
+              "+10...+12°C",
+              "95-98%"
+            ],
+            [
+              "Ҳава қуритиш",
+              "5-10 мг/м³",
+              "2-3 соат",
+              "+10...+15°C",
+              "96-99%"
+            ],
+            [
+              "Йарим тутун қилинган",
+              "3-6 мг/м³",
+              "2 соат",
+              "+10...+12°C",
+              "95-98%"
+            ]
+          ],
+          "recommendedMode": {
+            "label": "Тавсийа етилган режим:",
+            "text": "Кунига 1-3 соат ишлов бериш. Ишлов бериш пайтида камера ичида ҳеч ким бўлмаслиги керак. Озонатор имконийати: камера ҳажми 20-25 м³ учун соат билан 1 г."
+          }
+        },
+        "benefits": {
+          "title": "Озонатсийанинг фойдалари",
+          "items": [
+            "Маҳсулот сиртини дезинфексийа қилиш — бактерийалар, кўплак споралари ва хамиртуруш йўқ қилиш",
+            "Органолептик хусусийатлари сақланиб қолади — та'м ва ҳидни ўзгартирса ҳам, аччикликни олдини олади",
+            "Масса йўқолишини камайтириш — микрофлора стабилизатсийаси орқали қисқаришни камайтириш",
+            "Камера дезинфексийаси йукланган маҳсулот билан — тўлиқ йуклашда ишлов бериш мумкин",
+            "Вақт ва харажатларни тежаш — қўлда санитатсийа частотасини камайтириш",
+            "Автоматика — таймер асосида ишлов бериш, инсон ишлашсиз"
+          ]
+        },
+        "comparison": {
+          "title": "Пишиш камерас дезинфексийа усуллари таққосланиши",
+          "headers": [
+            "Параметр",
+            "Озонатсийа",
+            "Ески усул"
+          ],
+          "rows": [
+            {
+              "parameter": "Маҳсулотни очириб олиш",
+              "value1": "Шарт емас",
+              "value2": "Талаб қилинади"
+            },
+            {
+              "parameter": "Кимйовий қолдиқлар",
+              "value1": "Йўқ",
+              "value2": "Ринсе талаб қилинади"
+            },
+            {
+              "parameter": "Еришилмаса жойлар",
+              "value1": "Газ билан ишлов берилади",
+              "value2": "Еришилб бўлмайди"
+            },
+            {
+              "parameter": "Фаолийатни тўхташ",
+              "value1": "1-3 соат/кун",
+              "value2": "24-48 соат"
+            },
+            {
+              "parameter": "Маҳсулотга та'сир",
+              "value1": "Йўқ",
+              "value2": "Мумкин"
+            },
+            {
+              "parameter": "Автоматика",
+              "value1": "Тўлиқ",
+              "value2": "Қўл иши"
+            }
+          ]
+        },
+        "regulations": {
+          "title": "Қонуний базаси",
+          "paragraph": "Гўшт маҳсулотларини дезинфексийа қилиш учун озоне ишлатилиши Совет давридан қўйилган бир нечта қонуний ҳужжатлар билан тартибга солинади:",
+          "items": [
+            "1973 — \"Совуқ сақлаш жарайонида озонатсийа орқали дезинфексийа ва деодоратсийа\" йўриқламаси (ССРҚ Савдо Вазирлиги)",
+            "1977 — Колбаса маҳсулотларини ва тутун қилинган маҳсулотларни қабул қилиш, сақлаш ва чиқариш ҳақидаги йўриқламаси",
+            "1998 — Озоне дезинфектантлар рўйхатига қўшилди (рег. № 0039-98/21, Российа Соғлиқни сақлаш Вазирлиги)",
+            "СанПиН 2.3.4.545-96 — Колбаса ишлаб чиқариши"
+          ]
+        },
+        "features": {
+          "title": "Гўшт қайта ишлаш завеҳилари учун фойдалари",
+          "items": [
+            {
+              "title": "Сақлаш муддати узайган",
+              "description": "Совуқ гўшт сақлаш муддатини музлатмасдан 2-5 баравар узайтириш"
+            },
+            {
+              "title": "Кўплакни босгириш",
+              "description": "Колбаса бўйидаги кўплак фунгалари учун 96-99% самарадорлик"
+            },
+            {
+              "title": "Атроф-муҳитга мос келиши",
+              "description": "Озоннинг кимйовий қолдиқсиз бутунлай кислород ҳолатига айланиши"
+            },
+            {
+              "title": "Ишлаб чиқариш давомийлик",
+              "description": "Маҳсулотларни очириб олмасдан ва жарайонни тўхтамасдан ишлов бериш"
+            }
+          ]
+        }
+      }
     },
     "cheese": {
-      "title": "Cheese production",
-      "shortDesc": "Ripening and storage of cheese without mold",
-      "content": "In cheese production, ozonation addresses the key issue of preventing unwanted mold on cheese surfaces during ripening and storage. The technology controls chamber microflora without affecting the ripening process.\n\nFor hard cheeses, 2–4 mg/m³ ozone is recommended; for soft cheeses, 3–6 mg/m³ at 8–12°C and 85–90% humidity. Treatment for 1.5–2 hours gives 94–99% disinfection efficiency.\n\nOzone prevents mold on the rind without disrupting ripening biochemistry. At correct dosage it does not affect color, consistency or taste. Ozonation has been recommended for hard cheese storage in industry guidelines.",
+      "title": "Пишлоқ ишлаб чиқариш",
+      "shortDesc": "Пишлоқ пишиши ва кўплаксиз саклаш",
+      "content": "Пишлоқ ишлаб чиқаришда озонатсийа пишлоқ сиртида нохуш кўплак ривожланишини олдини олиш масаласини ҳал қилади пишлоқ пиштирилиши ва саклашда. Технологийа камера микрофлорали назорат қилади, фақат пишириш жарайонига та'сир қилмасда.\n\nҚат'ий пишлоқлар учун 2–4 мг/м³ озоне тавсийа етилади; йумшоқ пишлоқлар учун 3–6 мг/м³ 8–12°C ва 85–90% нам ҳолата. 1,5–2 соатли ишлов бериш 94–99% дезинфексийа самарадорлигини беради.\n\nОзоне пишлоқ қобигида кўплакни олдини олади, пишириш биокимйосини бузмасда. Тўғри дозо ранг, тузилиш йоки та'мга та'сир қилмасда. Озонатсийа саноат йўриқламаларида қат'ий пишлоқ саклаш учун тавсийа етилган.",
       "benefits": [
-        "95–99% mold prevention",
-        "Ripening process preserved",
-        "Reduced product shrinkage",
-        "Treatment without unloading cheese",
-        "Compliance with cheese standards",
-        "Disinfection process automation"
-      ]
+        "95–99% кўплакни олдини олиш",
+        "Пишириш жарайони сақланиб қолади",
+        "Маҳсулотнинг қисқариши камайтириш",
+        "Пишлоқни очириб олмасдан ишлов бериш",
+        "Пишлоқ стандартларига мувофиқлик",
+        "Дезинфексийа жарайонининг автоматласти"
+      ],
+      "stats": {
+        "efficiency": {
+          "value": "95-99%",
+          "label": "Самарадорлик",
+          "description": "Нохуш кўплакни олдини олиш"
+        },
+        "concentration": {
+          "value": "2-6",
+          "label": "мг/м³ озоне",
+          "description": "Пишлоқ пишиш камералари учун контсентратсийа"
+        },
+        "tastePreservation": {
+          "value": "100%",
+          "label": "Та'м сақланиши",
+          "description": "Пишириш жарайонига та'сир қилмасда"
+        },
+        "instructionYear": {
+          "value": "1975",
+          "label": "Йўриқламанинг йили",
+          "description": "ССРҚ-да пишлоқ сақлаш учун озонатсийа"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Пишлоқ ишлаб чиқаришда озонатсийа пишлоқ пиштирилиши ва саклашда пишлоқ сиртида нохуш кўплак ривожланишини олдини олиш масаласини ҳал қилади. Технологийа камера микрофлорали назорат қилади, биокимйовий пишириш жарайонига та'сир қилмасда.",
+          "paragraph2": "Озоне пишлоқ қобигида кўплак ривожланишини олдини олади, пишлоқ ичидаги фойдали микрофлора баланси бузмасда. Тўғри дозо ранг, тузилиш, та'м йоки пишлоқнинг ароматини ўзгартирса ҳам."
+        },
+        "instruction": {
+          "label": "РФССР Савдо Вазирлиги 1975 вақтий йўриқламаси:",
+          "text": "Озонатсийа қат'ий пишлоқнинг саклашда тавсийа етилади. Усул пишлоқ сиртидаги кўплакни кимйовий консервантларни ишлатмасдан назорат қилиш имконини беради."
+        },
+        "regimes": {
+          "title": "Ҳар хил турдаги пишлоқ учун озонатсийа режими",
+          "tableCaption": "Пишлоқ пишиш камералари учун тавсийа етилган ишлов бериш режими",
+          "tableHeaders": [
+            "Пишлоқ тури",
+            "Контсентратсийа",
+            "Ишлов бериш вақти",
+            "Ҳарорат",
+            "Самарадорлик"
+          ],
+          "tableRows": [
+            [
+              "Қат'ий пишлоқлар",
+              "2-4 мг/м³",
+              "2 соат",
+              "+10...+12°C",
+              "95-99%"
+            ],
+            [
+              "Йумшоқ пишлоқлар",
+              "3-6 мг/м³",
+              "1,5 соат",
+              "+8...+10°C",
+              "94-98%"
+            ],
+            [
+              "Йарим қат'ий пишлоқлар",
+              "2-4 мг/м³",
+              "1,5-2 соат",
+              "+10...+12°C",
+              "95-98%"
+            ],
+            [
+              "Шўрвали пишлоқлар",
+              "2-3 мг/м³",
+              "1 соат",
+              "+6...+8°C",
+              "94-97%"
+            ],
+            [
+              "Кўплак пиширилган пишлоқлар",
+              "1-2 мг/м³",
+              "30 дақиқа",
+              "+8...+10°C",
+              "90-95%"
+            ]
+          ],
+          "warningLabel": "Асилий кўплак пишлоқлари учун муҳим:",
+          "warningText": "Cамемберт, Брие ва Роқуефорт каби пишлоқлар учун, еҳтийотли озонатсийа режими (1-2 мг/м³, 30 дақиқа) нохуш кўплакни назорат қилиш билан кўплак кўлми ҳалак қилмаслиги керак."
+        },
+        "benefits": {
+          "title": "Пишлоқ ишлаб чиқаришда озонатсийанинг фойдалари",
+          "items": [
+            "Пишлоқ қобигида нохуш кўплак ривожланишини олдини олиш",
+            "Пишириш жарайонини сақланиб қолди — озоне пишлоқ ичига пенетратсийа қилмайди",
+            "Маҳсулотнинг қисқариши камайтириш микрофлора стабилизатсийаси орқали",
+            "Пишлоқни пишиш камерасидан очириб олмасдан ишлов бериш",
+            "ГОСТ Р 54607-2011 \"Пишлоқлар. Умумий техник хусусийатлари\" га мувофиқлик",
+            "Счедулед асосида дезинфексийа жарайонининг автоматласти"
+          ]
+        },
+        "impact": {
+          "title": "Озоннинг маҳсулотга та'сири",
+          "paragraph": "Текширув озоннинг пишлоқ сиртида микрофлора ўсишини босгириши шунингдек уларнинг органолептик хусусийатларини сақланиб қолишини кўрсатади — та'м, ҳиди, текстура ва ранг. Бактеритсид та'сир айниқса йуқори нам ҳолата (70-90%) ва ўртача ҳароратда (+8...+14°C), пишириш камераларининг типик ҳолати шароитида айтилади.",
+          "tableCaption": "Пишлоқ пишиш шартлари ва озонатсийа параметрлари",
+          "tableHeaders": [
+            "Параметр",
+            "Қат'ий пишлоқлар",
+            "Йумшоқ пишлоқлар",
+            "Озоне учун оптимал"
+          ],
+          "tableRows": [
+            [
+              "Ҳарорат",
+              "+10...+14°C",
+              "+8...+12°C",
+              "+8...+14°C"
+            ],
+            [
+              "Намлик",
+              "80-90%",
+              "85-95%",
+              "70-90%"
+            ],
+            [
+              "Пишириш вақти",
+              "2-12 ой",
+              "2-6 ҳафта",
+              "Ҳар қандай"
+            ],
+            [
+              "О₃ контсентратсийа",
+              "2-4 мг/м³",
+              "3-6 мг/м³",
+              "2-6 мг/м³"
+            ],
+            [
+              "Частота",
+              "Ҳар 2-3 куннинг",
+              "Кунига",
+              "Жадвални бўйича"
+            ]
+          ]
+        },
+        "comparison": {
+          "title": "Пишлоқлардаги кўплак назорат усуллари таққосланиши",
+          "headers": [
+            "Параметр",
+            "Озонатсийа",
+            "Мум/парафин қопламаси"
+          ],
+          "rows": [
+            {
+              "parameter": "Кўплак ҳимойаси",
+              "value1": "95-99%",
+              "value2": "80-90%"
+            },
+            {
+              "parameter": "Та'мига та'сир",
+              "value1": "Йўқ",
+              "value2": "Мумкин"
+            },
+            {
+              "parameter": "Нафас олиб турувчи қобиқ",
+              "value1": "Сақланиб қолади",
+              "value2": "Блокланган"
+            },
+            {
+              "parameter": "Қўшимча харажатлар",
+              "value1": "Минимал",
+              "value2": "Материаллар учун"
+            },
+            {
+              "parameter": "Қўл иши",
+              "value1": "Талаб қилинмайди",
+              "value2": "Талаб қилинади"
+            },
+            {
+              "parameter": "Атроф-муҳитга мос келиши",
+              "value1": "Тўлиқ",
+              "value2": "Мум чиқиндилари"
+            }
+          ]
+        },
+        "chamberTreatment": {
+          "title": "Пишиш камерас ишлов бериш",
+          "paragraph": "Статсионар пишиш камералари учун, деворасига ўрнатилган йоки қувур орқали озонаторлар автоматик назорат билан тавсийа етилади. Озоне камера ҳажми бўйлаб текис тақсимлани, еришилмаса жойлар ўз ичига олган полка ва жавонлари пенетратсийа қилади.",
+          "tableCaption": "Пишлоқ пишиш камераси учун ишлов бериш режимининг мисоли (50 м³ ҳажми)",
+          "tableHeaders": [
+            "Параметр",
+            "Қиймати",
+            "Еслатма"
+          ],
+          "tableRows": [
+            [
+              "Озонатор имконийати",
+              "2-3 г/соат",
+              "15-20 м³ учун соат билан 1 г"
+            ],
+            [
+              "Озоне контсентратсийа",
+              "3-4 мг/м³",
+              "Қат'ий пишлоқлар учун"
+            ],
+            [
+              "Фаолийат вақти",
+              "1,5-2 соат",
+              "Кунига йоки ҳар икки куннинг"
+            ],
+            [
+              "Камера намлиги",
+              "85-90%",
+              "Озоне учун оптимал"
+            ],
+            [
+              "Самарадорлик",
+              "95-99%",
+              "Кўплакни йўқ қилиш"
+            ]
+          ],
+          "successText": "Пишиш камераларини мунтазам озонатсийа қилиш (кунига 1-2 марта 1,5-2 соатда) пишлоқни қўлда силкитиш ва камера техаматини меҳнат харажатларини 70-80% камайтириш имконини беради."
+        },
+        "regulations": {
+          "title": "Қонуний ҳужжатлар",
+          "items": [
+            "ГОСТ Р 54607-2011 — Пишлоқлар. Умумий техник хусусийатлари",
+            "Қат'ий пишлоқ саклаш камераларини озонатсийа қилиш вақтий йўриқламаси (1975)",
+            "Озонни дезинфектант сифатида ишлатиш ҳақидаги услубий тавсийалар (1976)",
+            "СанПиН 2.3.4.545-96 — Сут ва сут маҳсулотларини ишлаб чиқариш"
+          ]
+        },
+        "features": {
+          "title": "Пишлоқ ишлаб чиқариш учун фойдалари",
+          "items": [
+            {
+              "title": "Кўплак назорати",
+              "description": "Пишириш та'сир қилмасдан 95-99% нохуш кўплак олдини олиш"
+            },
+            {
+              "title": "Сифат сақланиши",
+              "description": "Пишлоқ та'м, ҳиди ва текстураси ўзгаришсиз қолади"
+            },
+            {
+              "title": "Қисқариш камайтириш",
+              "description": "Микрофлора стабилизатсийа масса йўқолишини камайтиради пиштирилиш пайтида"
+            },
+            {
+              "title": "Автоматика",
+              "description": "Жадвалланган ишлов бериш ходимлар иштирок етмасида"
+            }
+          ]
+        }
+      }
     },
     "cold-storage": {
-      "title": "Cold storage",
-      "shortDesc": "Disinfection and deodorization of cold stores",
-      "content": "Ozonation of cold rooms and warehouses is a proven technology for extending food shelf life and removing odors. It has major advantages over \"wet\" disinfection.\n\nTreatment can be done without warming the chamber or unloading product. At lower temperatures, ozonation is more effective. Chamber downtime is reduced by a factor of about 5 compared with traditional methods.\n\nFor empty chambers, 35–40 mg/m³ for 24 hours is recommended. For loaded chambers, 2–10 mg/m³ depending on product type. Ozone suppresses bacterial flora, prevents mold and removes musty odor.",
+      "title": "Совуқ саклаш",
+      "shortDesc": "Совуқ омбор дезинфексийаси ва деодоратсийаси",
+      "content": "Совуқ хоналари ва омборларини озонатсийа қилиш озиқ-овқат сақлаш муддатини узайтириш ва ҳидиларни бартараф қилиш учун исботланган технологийа. У \"ҳўл\" дезинфексийа усулларига нисбатан катта афзалликларга ега.\n\nİşлов бериш камерани иссиқмасдан йоки маҳсулотни очириб олмасдан бажарилиши мумкин. Масса ҳароратида озонатсийа самарадорроқ. Камера фаолийатни тўхташ ески усулларга нисбатан тахминан 5 баравар камайтириш билан ўтади.\n\nБўш камералар учун 35–40 мг/м³ 24 соат тавсийа етилади. Йукланган камералар учун 2–10 мг/м³ маҳсулот турига кўра. Озоне бактерийа флора босгиради, кўплакни олдини олади ва хира ҳидни бартараф қилади.",
       "benefits": [
-        "Treatment of loaded chambers",
-        "Operation at subzero temperatures",
-        "About 5× less downtime",
-        "Musty odor removal",
-        "Energy savings",
-        "No chemical residues"
-      ]
+        "Йукланган камераларни ишлов бериш",
+        "Минус ҳароратда ишлаш",
+        "Тахминан 5× сақлаш муддат қисқариши",
+        "Хира ҳидиларни бартараф қилиш",
+        "Енергийа тежаш",
+        "Кимйовий қолдиқлар йўқ"
+      ],
+      "stats": {
+        "downtimeReduction": {
+          "value": "5х",
+          "label": "Тезроқ",
+          "description": "Камера ишлов бериш фаолийатни тўхташ қисқариши"
+        },
+        "emptyChamberConcentration": {
+          "value": "35-40",
+          "label": "мг/м³",
+          "description": "Бўш камералар учун контсентратсийа"
+        },
+        "emptyChamberTime": {
+          "value": "24",
+          "label": "соат",
+          "description": "Бўш камераларни ишлов бериш вақти"
+        },
+        "noWarming": {
+          "value": "0",
+          "label": "İситиш",
+          "description": "Масса ҳароратда ишлов бериш"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Совуқ саклаш жарайонларининг дезинфексийаси ва деодоратсийаси ахлатланиш ва сифатнинг пасайишини олдини олиш мақсадида сақланган озиқ-овқат маҳсулотларнинг хавфсизлигини та'минлашнинг енг муҳим санитарлиқ ва гигиеник чораларидан биридир. Озонатсийа \"ҳўл\" дезинфексийа усулларига нисбатан катта афзалликларга ега.",
+          "paragraph2": "Амалийот совуқ саклаш камералари ва омборларини озонатсийа қилиш маҳсулот сақлаш муддатини узайтириш, нохуш ҳидиларни бартараф қилиш ва кўплак колонийалари ривожланишини олдини олиш имконини беради — бу камерани иссиқмасдан йоки маҳсулотларни очириб олмасдан.",
+          "instructionTitle": "ССРҚ Савдо Вазирлиги 1973 йўриқламаси:",
+          "instructionText": "\"Совуқ саклаш жарайонида озонатсийа орқали дезинфексийа ва деодоратсийа\" — бўш камераларни дезинфексийа қилиш учун ишлаш озоне контсентратсийаси: 35-40 мг/м³, озонатсийа давомийлиги 24 соат."
+        },
+        "benefits": {
+          "title": "Совуқ саклашни озонатсийанинг афзалликлари",
+          "items": [
+            "Озиқ-овқат маҳсулотлар билан йукланган камераларни дезинфексийа қилиш имконийати",
+            "Камерани иссиқмасдан ишлов бериш — самарадорлик масса ҳароратида ошади",
+            "Камера фаолийатни тўхташни \"ҳўл\" дезинфексийага нисбатан 5 баравар қисқариши",
+            "Совуқ саклашда хира ҳидни қаршига олиш учун лазим",
+            "Деворларда, тора панжаларда, илмаклар ва паллаталарда бактерийа флора босгириш",
+            "Сақлаш деворлари, қутилар ва қадоқлашда кўплакни олдини олиш",
+            "Енергийа тежаш — қайта совутиш шарт емас",
+            "Минимал меҳнат харажатлари — автоматик жарайонлар"
+          ]
+        },
+        "emptyChambers": {
+          "title": "Бўш камераларни озонатсийа қилиш",
+          "intro": "Бўш камералар озонатсийадан олдин қор, муз, маҳсулот қолдиқлар ва кўринарли кўплак колонийалардан тозаланади. Қор \"қопламаси\" олиб ташланганлиги керак. Камера ешиклари маҳкамланган ва ҳава каналлари дамперлар билан блокланган.",
+          "tableCaption": "Озонатор тўхтамагандан кейин озон танаббуси вақти",
+          "tableHeaders": [
+            "Бошланғич контсентратсийа",
+            "Йакуний контсентратсийа",
+            "Вақт (400 м³ гача)",
+            "Вақт (400 м³ дан кўп)"
+          ],
+          "tableData": [
+            [
+              "40 мг/м³",
+              "20 мг/м³",
+              "0,4 соат",
+              "0,2 соат"
+            ],
+            [
+              "20 мг/м³",
+              "10 мг/м³",
+              "0,8 соат",
+              "0,4 соат"
+            ],
+            [
+              "10 мг/м³",
+              "5 мг/м³",
+              "1,2 соат",
+              "0,6 соат"
+            ],
+            [
+              "5 мг/м³",
+              "2,5 мг/м³",
+              "1,6 соат",
+              "0,8 соат"
+            ],
+            [
+              "2,5 мг/м³",
+              "0,1 мг/м³",
+              "3,6 соат",
+              "1,8 соат"
+            ]
+          ],
+          "warning": "Кўплак ва тикланмаган ҳидилар билан оғир контаминарланган камералар учун озонатсийа давомийлиги 36 га орттирилиши мумкин, ба'зи ҳолларда — 48 соат гача."
+        },
+        "loadedChambers": {
+          "title": "Йукланган камераларни озонатсийа қилиш",
+          "intro": "Хорижий амалийот ма'лумотлари ва индивидуал совуқ саклаш жарайонларида озонатсийа татбиқи натижаларига асосан, маҳсулот билан йукланган камералар учун қуйидаги озоне контсентратсийалари тавсийа етилади:",
+          "tableHeaders": [
+            "Маҳсулот",
+            "Ҳарорат",
+            "Контсентратсийа",
+            "Вақт",
+            "Частотаси"
+          ],
+          "animalProductsTableCaption": "Ҳайвонот маҳсулотлари учун тавсийа етилган озонатсийа режими",
+          "animalProductsTableData": [
+            [
+              "Совуқ гўшт",
+              "-1...-4°C",
+              "8-10 мг/м³",
+              "4-5 с",
+              "Ҳар икки куннинг"
+            ],
+            [
+              "Музлатилган гўшт",
+              "-18°C",
+              "10 мг/м³",
+              "3 с",
+              "Кунига"
+            ],
+            [
+              "Муржон (совуқ)",
+              "-1...-4°C",
+              "8-10 мг/м³",
+              "2-3 с",
+              "Кунига"
+            ],
+            [
+              "Муржон (музлатилган)",
+              "-18°C",
+              "8-12 мг/м³",
+              "3 с",
+              "Кунига"
+            ],
+            [
+              "Колбаса маҳсулотлари",
+              "+12°C",
+              "3-10 мг/м³",
+              "3-4 с",
+              "Ҳар 2-3 куннинг"
+            ],
+            [
+              "Пишлоқ",
+              "-4...+4°C",
+              "3-4 мг/м³",
+              "5-7 с",
+              "Ҳар 2-3 куннинг"
+            ],
+            [
+              "Тухумлар",
+              "-1,5...+0,5°C",
+              "3-6 мг/м³",
+              "3-5 с",
+              "Ҳид пайдо бўлганда"
+            ]
+          ],
+          "vegetableProductsTableCaption": "Мевалар ва сабзавотлар учун тавсийа етилган озонатсийа режими",
+          "vegetableProductsTableData": [
+            [
+              "Картошка",
+              "+2...+3°C",
+              "10-15 мг/м³",
+              "6 с",
+              "Ҳар 10 куннинг"
+            ],
+            [
+              "Сабзи",
+              "0...-1°C",
+              "15-30 мг/м³",
+              "6 с",
+              "Ҳар 8-10 куннинг"
+            ],
+            [
+              "Олма",
+              "0...-2°C",
+              "1-3 мг/м³",
+              "0,5-2 с",
+              "Кунига"
+            ],
+            [
+              "Пийоз",
+              "-1...-3°C",
+              "25-30 мг/м³",
+              "5-6 с",
+              "Ҳар 3 куннинг"
+            ],
+            [
+              "Ангу",
+              "0...-2°C",
+              "4-6 мг/м³",
+              "3 с",
+              "Кунига"
+            ]
+          ]
+        },
+        "comparison": {
+          "title": "Совуқ саклаш камерас дезинфексийа усуллари таққосланиши",
+          "headers": [
+            "Параметр",
+            "Озонатсийа",
+            "\"Ҳўл\" дезинфексийа"
+          ],
+          "rows": [
+            {
+              "parameter": "Маҳсулотни очириб олиш",
+              "value1": "Шарт емас",
+              "value2": "Талаб қилинади"
+            },
+            {
+              "parameter": "Камерани иссиқиш",
+              "value1": "Шарт емас",
+              "value2": "Талаб қилинади"
+            },
+            {
+              "parameter": "Фаолийатни тўхташ",
+              "value1": "24 соат",
+              "value2": "5-7 кун"
+            },
+            {
+              "parameter": "Енергийа сарфийати",
+              "value1": "Минимал",
+              "value2": "Сезиларли"
+            },
+            {
+              "parameter": "Меҳнат харажатлари",
+              "value1": "Минимал",
+              "value2": "Йуқори"
+            },
+            {
+              "parameter": "Кимйовий қолдиқлар",
+              "value1": "Йўқ",
+              "value2": "Ринсе талаб қилинади"
+            },
+            {
+              "parameter": "Еришилмаса жойларни ишлов бериш",
+              "value1": "Тўлиқ",
+              "value2": "Қийин"
+            }
+          ]
+        },
+        "deodorization": {
+          "title": "Совуқ саклаш деодоратсийаси",
+          "paragraph1": "Озонатсийа совуқ саклаш ва музлатгичлар камераларида пайдо бўладиган хира ҳидга қаршига олиш учун лазим. Деодоратсийа пайтида, камералар озонатор тўхташдан кейин вентилатсийасиз 24 соат сақланади — озоне бутунлай кислород ҳолатига айланади.",
+          "paragraph2": "Озоне нохуш ҳидларни келтириб чиқарадиган органик таркиблар оксидлайди ва йўқ қилади. Бу бир камерани алоҳида маҳсулотлар сақлаш учун бирма-бир ишлатиш имконини беради, ҳиднинг ўтиш хавфисиз."
+        },
+        "organization": {
+          "title": "Озонатсийа жарайонининг ташкилланиши",
+          "intro": "Озонатсийа қилинадиган камерада, озонатор камера ўртасига тахминан 1,2 м баландликдаги стол устига ўрнатилади. Иккита йоки учта озонатор бўлса, улар камерада турли жойаларга ўрнатилади озоне текис тақсимоти учун. Совутиш қулайлагичларининг вентилаторлари ўчирилади.",
+          "recommendationTitle": "ВНИКҲИ тавсийаси:",
+          "recommendationText": "Ишлаш контсентратсийасига еришгандан кейин озонатсийа самарадорлигини ошириш учун, озоне-ҳава аралашмасини аралаштиришни қисқа вақтга вентилаторларни йоқиш тавсийа етилади."
+        },
+        "advantages": {
+          "title": "Совуқ саклаш омборлари учун афзалликлари",
+          "feature1": {
+            "title": "Йукланган камераларни ишлов бериш",
+            "description": "Маҳсулотларни очириб олмасдан ва омборнинг фаолийатини тўхтамасдан дезинфексийа қилиш"
+          },
+          "feature2": {
+            "title": "Минус ҳароратда ишлаш",
+            "description": "Озонатсийа самарадорлиги масса ҳароратида ошади"
+          },
+          "feature3": {
+            "title": "Ҳидни бартараф қилиш",
+            "description": "Кимйовий агентларсиз тўлиқ камера деодоратсийаси"
+          },
+          "feature4": {
+            "title": "Ресурсларни тежаш",
+            "description": "Фаолийатни тўхташ 5× қисқариши, енергийа ва меҳнат тежаши"
+          }
+        }
+      }
     }
   }
 }

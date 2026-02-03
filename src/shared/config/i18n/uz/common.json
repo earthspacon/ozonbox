@@ -68,10 +68,145 @@
       "functions": "bitta qurilmada funksiyalar"
     }
   },
+  "features": {
+    "power": {
+      "title": "300 marta kuchliroq",
+      "text": "Ozon dezinfeksiya samaradorligida xlorni yuzlab marta ortda qoldiradi"
+    },
+    "pathogens": {
+      "title": "99.9% patogenlar",
+      "text": "Bakteriyalar, viruslar, zamburug'lar va mog'orlarni yo'q qiladi"
+    },
+    "residue": {
+      "title": "0 qoldiq",
+      "text": "20-30 daqiqada sof kislorodga parchalanadi"
+    },
+    "functions": {
+      "title": "1 qurilmada 7 funksiya",
+      "text": "Dezinfeksiya, zararkunandalarga qarshi kurash, hidlarni yo'q qilish va boshqalar"
+    }
+  },
+  "aboutOzone": {
+    "title": "Ozon nima",
+    "titleHighlight": "ekanligi",
+    "p1": "Ozon (O₃) — uch atomli kislorod molekulasi, kuchli tabiiy oksidlovchi. Atmosfera kislorodidan elektr razryadi yordamida hosil bo'ladi.",
+    "p2": "Mikroorganizmlar bilan aloqada ozon ularning hujayra membranalarini yo'q qiladi, so'ng oddiy kislorodga (O₂) parchalanadi, zararli kimyoviy qoldiqlarni qoldirmaydi.",
+    "list": {
+      "eco": "Kimyoviy moddalarsiz ekologik toza texnologiya",
+      "onsite": "Joyda havodan ishlab chiqariladi",
+      "safe": "Parchalanishdan keyin odamlar va hayvonlar uchun xavfsiz"
+    },
+    "moreAbout": "Texnologiya haqida ko'proq"
+  },
   "applications": {
     "title": "Qo'llash",
     "titleHighlight": "sohalari",
     "subtitle": "Ozonlash turli sohalarda dezinfeksiya, sanitariya va mahsulot sifatini oshirish uchun ishlatiladi",
-    "more": "Batafsil"
+    "more": "Batafsil",
+    "viewAll": "Barcha qo'llash sohalari",
+    "poultry": {
+      "title": "Parrandachilik",
+      "text": "Tuxum dezinfeksiyasi, yem-xashak va suvni qayta ishlash"
+    },
+    "food": {
+      "title": "Oziq-ovqat sanoati",
+      "text": "Sabzavot, meva va mahsulotlarni saqlash"
+    },
+    "horeca": {
+      "title": "HoReCa",
+      "text": "Mehmonxonalar, restoranlar, kafelar"
+    },
+    "medical": {
+      "title": "Tibbiyot",
+      "text": "Palata va uskunalarni dezinfeksiya qilish"
+    },
+    "water": {
+      "title": "Suvni tozalash",
+      "text": "Ichimlik suvi va basseynlarni tozalash"
+    },
+    "categories": {
+      "medicine": {
+        "title": "Tibbiyot",
+        "text": "Tibbiy muassasalar uchun ozonlash eng yuqori darajadagi sterillikni ta'minlaydi, SanPiN talablariga javob beradi. Barcha turdagi patogenlarga qarshi samarali, shu jumladan xlorga chidamli viruslarga."
+      },
+      "agriculture": {
+        "title": "Qishloq xo'jaligi",
+        "text": "Qishloq xo'jaligida ozonlash hosildorlikni oshiradi, mahsulotlarning saqlash muddatini uzaytiradi va bioxavfsizlikni ta'minlaydi. Kimyoviy pestitsidlar va konservantlarga ekologik toza muqobil."
+      },
+      "food-production": {
+        "title": "Oziq-ovqat ishlab chiqarish",
+        "text": "Oziq-ovqat sanoatida ozonlash saqlash muddatini uzaytiradi, mahsulot xavfsizligini va sanitariya standartlariga mosligini kimyoviy qo'shimchalarsiz ta'minlaydi."
+      },
+      "horeca": {
+        "title": "HoReCa",
+        "text": "Mehmonxonalar, restoranlar va kafelar qulay muhit yaratish, hidlarni yo'q qilish va yuqori gigiyena standartlarini ta'minlash uchun ozonlashdan foydalanadi."
+      }
+    }
+  },
+  "research": {
+    "title": "Ilmiy",
+    "titleHighlight": "tadqiqotlar",
+    "subtitle": "Ozonlash samaradorligi dunyoning yetakchi universitetlari tomonidan tasdiqlangan",
+    "telaviv": {
+      "title": "Tel-Aviv universiteti",
+      "text": "Tadqiqotlar ozonning SARS-CoV-2 va COVID-19 viruslariga qarshi yuqori samaradorligini tasdiqladi",
+      "stat": "95% yo'q qilish"
+    },
+    "fujita": {
+      "title": "FUJITA universiteti, Yaponiya (2020)",
+      "text": "Past ozon kontsentratsiyalari minimal qayta ishlash vaqtida virus faolligini kamaytiradi",
+      "stat": "20 daqiqada 95%"
+    }
+  },
+  "aboutPage": {
+    "pageTitle": "Kompaniya haqida — OzonOxy",
+    "pageDescription": "OzonOxy haqida — biznes uchun professional ozonlash tizimlari. Konsultatsiyalar, uskunalarni tanlash, texnik yordam.",
+    "header": {
+      "title": "Kompaniya haqida",
+      "subtitle": "Biznesingiz uchun professional ozonlash tizimlari"
+    },
+    "content": {
+      "title": "Biz",
+      "titleHighlight": "OzonOxy",
+      "p1": "Biz ozon texnologiyalari bo'yicha mutaxassislar jamoasimiz. Bizning missiyamiz — dezinfeksiyani har qanday o'lchamdagi bizneslar uchun xavfsiz, samarali va qulay qilish.",
+      "p2": "Biz kelajak ekologik toza texnologiyalarga tegishli ekanligiga ishonamiz, ular atrof-muhit va inson salomatligiga zarar yetkazmaydi. Ozonlash aynan shunday texnologiyadir.",
+      "services": {
+        "consulting": "Joriy etish bo'yicha konsultatsiya",
+        "equipment": "Uskunalarni tanlash",
+        "support": "Texnik yordam",
+        "warranty": "Kafolat xizmati"
+      }
+    },
+    "whyUs": {
+      "title": "Nima uchun",
+      "titleHighlight": "bizni tanlash",
+      "experience": {
+        "title": "Tajriba va malaka",
+        "list": {
+          "1": "Parrandachilikda joriy etish",
+          "2": "Oziq-ovqat sanoati",
+          "3": "Mehmonxona biznesi",
+          "4": "Tibbiy muassasalar"
+        }
+      },
+      "standards": {
+        "title": "Standartlarga moslik",
+        "list": {
+          "1": "SanPiN ga moslik",
+          "2": "GOST ga moslik",
+          "3": "Sertifikatlangan uskunalar",
+          "4": "Hujjatlar va ko'rsatmalar"
+        }
+      },
+      "service": {
+        "title": "To'liq xizmat",
+        "list": {
+          "1": "Bepul konsultatsiya",
+          "2": "Narxni hisoblash",
+          "3": "O'rnatish va sozlash",
+          "4": "Xodimlarni o'qitish"
+        }
+      }
+    }
   }
 }

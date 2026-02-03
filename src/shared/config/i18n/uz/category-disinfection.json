@@ -1,419 +1,861 @@
 {
-  "title": "Disinfection",
-  "description": "Ozonation provides deep disinfection of premises and transport, destroying bacteria, viruses, fungi and spores without chemical residues. The gas penetrates all hard-to-reach areas.",
+  "title": "Dezinfeksiya",
+  "description": "Ozonlash ta'minovchi binolar va transportni chuqur dezinfeksiya qiladi, bakteriyalarni, viruslarni, xamirlarni va sporalarni yo'q qiladi, kimyoviy qoldiqsiz. Gaz barcha qiyin-erishiladigan joylarni penetratsiya qiladi.",
   "subcategories": {
     "offices": {
-      "title": "Office premises",
-      "shortDesc": "Healthy work environment without viruses",
-      "content": "The office is the face of the company. Polluted air with unpleasant odors harms staff, reduces productivity and loyalty, and damages the company's image with clients and partners.\n\nIn most buildings, concentrations of toxic substances in the air are 2–5 times higher than outdoors. Benzene, formaldehyde and ammonia are released from furniture, carpets, office equipment and finishes. Ozonation effectively neutralizes these pollutants.\n\nOzone disinfects everything staff and visitors touch: desktops, armrests, office equipment, coffee machines. It reduces virus transmission via surfaces, removes odors and freshens the air.\n\nTreatment is run at night on a timer. 1–2 hours of ozonation is usually enough. Ozone generator capacity: about 1 g/h per 25 m³ of room volume. By the time staff arrive, ozone has dissipated, leaving a light fresh smell.",
+      "title": "Ofis binolari",
+      "shortDesc": "Viruslardan salomatli ish muhiti",
+      "content": "Ofis kompaniyaning yüzi. Ifloslangan havo va noxush hidlar ishchilarni zararlab, ish unumiyligi va loyalligini kamaytirib, kompaniyaning tasviri va hamkorlari bilan munosabatlariga salbiy ta'sir ko'rsatadi.\n\nKo'pchilik binolarda havoda toksik moddalarning konsentratsiyasi tashqarida 2-5 marta yuqori. Benzol, formaldegid va ammiak mebeldan, kovradan, ofis jihozlari va tamomlardan chiqadi. Ozonlash bu ifloslantiruvchilarni samarali zaiflashtiradl.\n\nOzon barcha ishchilar va tashrif buyuruvchilar tegadigan sirtlarni dezinfeksiya qiladi: ish stoqlari, stul quloqlari, ofis jihozlari, kofе mashinalar. U sirtlar orqali viruslarni uzatishni kamaytiradi, hidlarni yo'q qiladi va havoyi yangilaydi.\n\nDavomi tungi vaqtda taymer bilan o'tkaziladi. 1-2 soat ozonlash odatda etarli. Ozon generatori quvvati: xona hajmiga qarab 25 m³ uchun soatiga 1 g. Ishchilar kelguniga keyin, ozon dispersiya bo'ladi, yengil yangi hid qoladi.",
       "benefits": [
-        "Infection spread prevention",
-        "Removal of toxic substances from air",
-        "Disinfection of work surfaces",
-        "Automatic night treatment",
-        "Higher staff productivity",
-        "Better company image"
+        "Infeksiyaning tarqalishini oldini olish",
+        "Havoda toksik moddalarni neytral qilish",
+        "Ish sirtlarining dezinfeksiyasi",
+        "Avtomatik tungi davomi",
+        "Ishchilarning unumiyligi oshishi",
+        "Kompaniyaning yaxshi tasviri"
       ],
       "stats": {
         "pollution": {
           "value": "2-5x",
-          "label": "Pollution",
-          "description": "Office air is dirtier than outdoor air"
+          "label": "Ifloslanimligi",
+          "description": "Ofis havosi tashqari havoga nisbatan iflosliroq"
         },
         "sickLeave": {
           "value": "-40%",
-          "label": "Sick leave",
-          "description": "Reduction in staff illness"
+          "label": "Bemorlik ta'tili",
+          "description": "Ishchi kasalliklarining kamayishi"
         },
         "treatment": {
           "value": "1-2 h",
-          "label": "Treatment",
-          "description": "Sufficient for complete disinfection"
+          "label": "Davomi",
+          "description": "To'liq dezinfeksiya uchun etarli"
         },
         "residues": {
           "value": "0",
-          "label": "Residues",
-          "description": "Chemical substances after treatment"
+          "label": "Qoldiq",
+          "description": "Davomi keyin kimyoviy moddalar"
         }
       },
       "sections": {
         "intro": {
-          "text": "The office is the face of the company. Polluted air with unpleasant odors harms staff, reduces productivity and loyalty, and damages the company's image with clients and partners.",
-          "text2": "Scientists have found that in most buildings, concentrations of harmful and toxic chemicals in the air are 2–5 times higher than outdoors. In some offices, indoor air pollution levels for certain toxins are up to 70 times higher than outside."
+          "text": "Ofis kompaniyaning yüzi. Ifloslangan havo va noxush hidlar ishchilarni zararlab, ish unumiyligi va loyalligini kamaytirib, kompaniyaning tasviri va hamkorlari bilan munosabatlariga salbiy ta'sir ko'rsatadi.",
+          "text2": "Olimlar topdilar-ki, ko'pchilik binolarda havoda zararli va toksik kimyoviy moddalarning konsentratsiyasi tashqarida 2-5 marta yuqori. Ba'zi ofiislarda ichki havo ifloslanimligi ba'zi toksik moddalar uchun tashqarida 70 marta yuqori bo'ladi."
         },
         "highlight1": {
-          "title": "Sources of office air pollution:",
-          "text": "benzene, formaldehyde, and ammonia are released from furniture, carpets, office equipment, and finishes. Traditional ventilation and air conditioning strip the air of its natural freshness."
+          "title": "Ofis havosi ifloslanimligi manbalari:",
+          "text": "benzol, formaldegid va ammiak mebeldan, kovradan, ofis jihozlari va tamomlardan chiqadi. An'anaviy ventilatsiya va konditsionerlash havayi tabiiy yangiligini yo'q qiladi."
         },
         "airQuality": {
-          "title": "The problem of air quality in offices",
-          "text": "Air loses its 'freshness' after passing through air conditioners and heating systems. As a result, ozone and ion levels drop by 90%. The lack of these natural air components has led to complaints of frequent headaches, weakness, and poor well-being — 'sick building syndrome'.",
+          "title": "Ofiislarda havo sifatining muammosi",
+          "text": "Havo konditsionerlash va isitish tizimlarida o'tgach o'z 'yangiligini' yo'qotadi. Natijada ozon va ion darajalari 90% kamayadi. Bu tabiiy havo komponentlarining kamayishi ko'p hollarda doimiy bosh og'rishi, zaiflik va yomon farovonlik — 'bemorli binosi sindromi' xosil qiladi.",
           "items": [
-            "Benzene — from paints, carpets, curtains, and furniture upholstery",
-            "Ammonia — from tobacco smoke and cleaning products",
-            "Formaldehyde — from plywood, furniture, particleboard, office partitions",
-            "Trichloroethylene — from paint, glue, furniture, and wallpaper",
-            "Chloroform — from paints, carpets, and curtains"
+            "Benzol — bo'yoq, kover, parda va mebel obivkasidan",
+            "Ammiak — tutun va tozalash vositalaridan",
+            "Formaldegid — laminat, mebel, chipbord va ofis bo'linmalaridan",
+            "Trikloroetilen — bo'yoq, elim, mebel va devor qoplamasidan",
+            "Xloroform — bo'yoq, kover va pardalardan"
           ]
         },
         "effectiveness": {
-          "title": "Effectiveness of ozonation",
-          "text": "Studies have shown that adding ozone to air at 15 parts per billion (0.03 mg/m³) produces an effect equivalent to a two-hour walk in fresh air. Staff showed strengthened immune systems, increased blood oxygen levels, and improved blood pressure.",
+          "title": "Ozonlashning samaradorligi",
+          "text": "Tadqiqotlar ko'rsatadiki, havoga 15 milliardga ozon (0,03 mg/m³) qo'shilsa, yangi havoda ikki soat yurgan kabi ta'sir beradi. Ishchilar immunitet tizimini kuchaytirildi, qon kislorodi darajalari oshdi va qon bosimi yaxshilandi.",
           "table": {
-            "caption": "Results of ozone impact studies in offices",
-            "headers": ["Indicator", "Before ozonation", "After ozonation"],
+            "caption": "Ofiislarda ozonlash ta'sirining tadqiqot natijalari",
+            "headers": ["Ko'rsatgich", "Ozonlashdan oldin", "Ozonlashdan keyin"],
             "rows": [
-              ["Headache frequency", "Frequent", "Rare"],
-              ["Work capacity", "70%", "100%"],
-              ["Attention concentration", "Reduced", "Normal"],
-              ["ARI incidence", "15-20% per season", "8-10% per season"],
-              ["Atmosphere satisfaction", "45%", "89%"]
+              ["Bosh og'rish chastotasi", "Tez-tez", "Nadirdir"],
+              ["Ish qobiliyati", "70%", "100%"],
+              ["Diqqat kontsentratsiyasi", "Pasaygan", "Normal"],
+              ["ARK kasalliklari", "Har mavsumda 15-20%", "Har mavsumda 8-10%"],
+              ["Muhit qoniqish", "45%", "89%"]
             ]
           }
         },
         "whatDisinfects": {
-          "title": "What ozone disinfects in the office",
-          "text": "Ozone disinfects all surfaces touched by staff and visitors. The gas penetrates crevices and hard-to-reach areas behind equipment and into ventilation systems.",
+          "title": "Ozon ofisda nima dezinfeksiya qiladi",
+          "text": "Ozon barcha ishchilar va tashrif buyuruvchilar tegadigan sirtlarni dezinfeksiya qiladi. Gaz chuqur bo'lmalarni va jihozning orqasi, ventilatsiya tizimidagi qiyin erishiladigan joylarni penetratsiya qiladi.",
           "items": [
-            "Work desks and countertops",
-            "Armrests of chairs and seats",
-            "Keyboards, mice, phones",
-            "Door handles and handrails",
-            "Office equipment and coffee machines",
-            "Meeting rooms and coworking areas",
-            "Ventilation and air conditioning systems"
+            "Ish stoqlari va hisob-kitoblar",
+            "Stul va o'rindiqlar quloqlari",
+            "Klaviatura, sichqon, telefonlar",
+            "Eshik tutgichlari va qo'l yog'diri",
+            "Ofis jihozlari va kofе mashinalar",
+            "Jalgasha xonalari va kovorking joylar",
+            "Ventilatsiya va konditsionerlash tizimlar"
           ]
         },
         "treatmentMode": {
-          "title": "Office treatment mode",
-          "text": "Ozonation of offices and coworking spaces is conducted at night. Equipment runs automatically on a timer. By the time staff arrive, ozone has dissipated, leaving a light fresh smell.",
+          "title": "Ofis davomi rejimi",
+          "text": "Ofis va kovorking bo'lmalarning ozonlashi tungi vaqtda o'tkaziladi. Jihozlar taymer bilan avtomatik ishlaydi. Ishchilar kelguniga keyin, ozon dispersiya bo'ladi va yengil yangi hid qoladi.",
           "steps": [
             {
-              "title": "Room preparation",
-              "description": "Close all windows and doors. Turn off supply ventilation. Ensure no one is in the room."
+              "title": "Xonani tayyorlash",
+              "description": "Barcha oynalar va eshiklarni yoping. Ta'minlovchi ventilatsiyani o'chiring. Xonada hechkim yo'q-ligini ta'minlang."
             },
             {
-              "title": "Starting the ozonator",
-              "description": "Turn on the ozonator for 40–120 minutes depending on room volume. Capacity: 1 g/h per 25 m³."
+              "title": "Ozonlashtirgichni boshlash",
+              "description": "Ozonlashtirgichni xona hajmiga qarab 40-120 daqiqa uchun yoqing. Quvvat: 25 m³ xona uchun soatiga 1 g."
             },
             {
-              "title": "Exposure",
-              "description": "Ozone spreads throughout the room, penetrating all crevices and far corners. Concentration reaches the required level."
+              "title": "Ekspozitsiya",
+              "description": "Ozon xona bo'ylab tarqalib, barcha chuqur bo'lmalar va uzoq burchaklarni penetratsiya qiladi. Konsentratsiya kerakli darajaga erishadi."
             },
             {
-              "title": "Ventilation",
-              "description": "2–3 hours after treatment ends, ozone decomposes to safe levels. Active ventilation is not required."
+              "title": "Ventilatsiya",
+              "description": "Davomi tugagach 2-3 soat keyin ozon xavfsiz darajaga tushadi. Faol ventilatsiya talab qilinmaydi."
             }
           ],
           "table": {
-            "caption": "Recommended ozonation modes for offices",
-            "headers": ["Room type", "Volume", "Capacity", "Treatment time"],
+            "caption": "Ofiislarga tavsiya etilgan ozonlash rejimlar",
+            "headers": ["Xona turi", "Hajmi", "Quvvat", "Davomi"],
             "rows": [
-              ["Office", "up to 50 m³", "2-3 g/h", "60 min"],
-              ["Open space", "100-300 m³", "5-10 g/h", "90 min"],
-              ["Meeting room", "30-50 m³", "2 g/h", "40 min"],
-              ["Coworking", "200-500 m³", "10-20 g/h", "120 min"]
+              ["Ofis", "50 m³ gacha", "2-3 g/h", "60 min"],
+              ["Ochiq makon", "100-300 m³", "5-10 g/h", "90 min"],
+              ["Jalgasha xonasi", "30-50 m³", "2 g/h", "40 min"],
+              ["Kovorking", "200-500 m³", "10-20 g/h", "120 min"]
             ]
           }
         },
         "comparison": {
-          "title": "Comparison of air cleaning methods",
+          "title": "Havo tozalash usullarining taqqoslashi",
           "table": {
-            "title": "Ozonation vs other methods",
-            "headers": ["Parameter", "Ozonation", "Chemical cleaning"],
+            "title": "Ozonlash va boshqa usullar",
+            "headers": ["Parametr", "Ozonlash", "Kimyoviy tozalash"],
             "rows": [
-              { "parameter": "Air disinfection", "value1": "Yes", "value2": "No" },
-              { "parameter": "Hard-to-reach areas", "value1": "Yes (gas penetrates everywhere)", "value2": "No" },
-              { "parameter": "Toxin neutralization", "value1": "Yes", "value2": "No" },
-              { "parameter": "Odor elimination", "value1": "Complete", "value2": "Masking" },
-              { "parameter": "Chemical residues", "value1": "No (decomposes to O₂)", "value2": "Yes" },
-              { "parameter": "Recovery time", "value1": "2-3 hours", "value2": "Immediate" }
+              { "parameter": "Havo dezinfeksiyasi", "value1": "Ha", "value2": "Yo'q" },
+              {
+                "parameter": "Qiyin erishiladigan joylar",
+                "value1": "Ha (gaz hamma yerga penetratsiya qiladi)",
+                "value2": "Yo'q"
+              },
+              { "parameter": "Toksik moddalarni neytral qilish", "value1": "Ha", "value2": "Yo'q" },
+              { "parameter": "Hid yo'q qilish", "value1": "To'liq", "value2": "Niqob qilish" },
+              { "parameter": "Kimyoviy qoldiq", "value1": "Yo'q (O₂ ga parchalanadi)", "value2": "Ha" },
+              { "parameter": "Tiklanish vaqti", "value1": "2-3 soat", "value2": "Darhol" }
             ]
           }
         },
         "benefits": {
-          "title": "Benefits for employers",
+          "title": "Ishchilar uchun foyda",
           "features": [
             {
-              "title": "Reduced sick leave",
-              "description": "30–40% reduction in staff illness during flu season"
+              "title": "Bemorlik ta'tilining kamayishi",
+              "description": "Grip mavsumida ishchi kasalliklarining 30-40% kamayishi"
             },
             {
-              "title": "Increased productivity",
-              "description": "Clean air improves concentration and work capacity"
+              "title": "Unumiyligi oshishi",
+              "description": "Toza hava diqqat va ish qobiliyatini yaxshilaydi"
             },
             {
-              "title": "Company image",
-              "description": "Caring for employee health is part of corporate culture"
+              "title": "Kompaniya tasviri",
+              "description": "Ishchilar sog'lig'iga e'tibor korporativ madaniyatining bir qismi"
             },
             {
-              "title": "Automation",
-              "description": "Timer-based operation without staff involvement at night"
+              "title": "Avtomatsiya",
+              "description": "Taymer bilan ishchilar ishtirokisiz tungi davomi"
             }
           ]
         },
         "toiletOdor": {
-          "title": "Toilet odor elimination",
-          "text": "Toilet odor is one of the most common problems in office buildings. Causes can vary: leaky pipe connections, ventilation 'backflow', uric acid stone formation.",
+          "title": "Tualet hidini yo'q qilish",
+          "text": "Tualet hidi ofis binolarida eng odatiy muammolardan biri. Sabablar turli bo'lishi mumkin: oqimdan chiqib ketgan to'rttik ulanishlari, ventilatsiya 'teskari oqishi', mocha kislotasi toshi hosil bo'lishi.",
           "highlight": {
-            "text": "To eliminate toilet odor, install an ozonator with capacity of 0.5 g/h for 24/7 ozonation or 5 g/h for night treatment. Ozone breaks down odorous organic compounds into simple odorless compounds."
+            "text": "Tualet hidini yo'q qilish uchun, 24/7 ozonlash uchun 0,5 g/h quvvatga yoki tungi davomi uchun 5 g/h quvvatga ozonlashtirgichni o'rnating. Ozon hid organik moddalarni oddiy hidsiz moddalarni ajratib chiqaradi."
           }
         },
         "safety": {
-          "title": "Safety requirements",
+          "title": "Xavfsizlik talablari",
           "items": [
-            "Treatment is conducted in the absence of people",
-            "Ozone MAC in work zone — 0.1 mg/m³",
-            "Ventilation is not required after night treatment",
-            "Staff opening the room after treatment use respirators",
-            "Equipment runs automatically on a timer"
+            "Davomi odamlar yo'q vaqtida o'tkaziladi",
+            "Ozon MPC ish zonasida — 0,1 mg/m³",
+            "Tungi davomi keyin ventilatsiya talab qilinmaydi",
+            "Davomi keyin xonani ochgan ishchilar respirator ishlatasdi",
+            "Jihozlar taymer bilan avtomatik ishlaydi"
           ]
         }
       }
     },
     "public-transport": {
-      "title": "Public transport",
-      "shortDesc": "Disinfection of buses, trams and trolleybuses",
-      "content": "Public transport is a high-risk environment for infection transmission. Ozonation allows quick and effective disinfection of bus, tram and trolleybus interiors between runs or at night.\n\nOzone disinfects everything passengers touch: handrails, seats, windows and walls. The gas penetrates all crevices and hard-to-reach areas for full interior treatment. Odors and mold growth are also suppressed.\n\nTreatment: 20–40 minutes depending on interior volume. After treatment, ventilate for 20 minutes or use the vehicle's ventilation system to clear ozone.\n\nEquipment can run from the vehicle's power (12V or 24V). No staff need to stay — turn on the generator and leave. No consumables reduce operating costs.",
+      "title": "Jamoaviy transport",
+      "shortDesc": "Avtobuslar, tramvaylar va trolleybuslarning dezinfeksiyasi",
+      "content": "Jamoaviy transport infeksiya uzatishning yuqori xavf muhiti. Ozonlash tez va samarali avtobuslar, tramvaylar va trolleybuslarning ichki bo'lmalarini dezinfeksiya qiladi bir muddatlar orasida yoki tungi vaqtda.\n\nOzon barcha yo'lovchilar tegadigan sirtlarni dezinfeksiya qiladi: qo'l tutgichlari, o'rindiqlar, oynalar va devarlar. Gaz barcha chuqur bo'lmalar va qiyin erishiladigan joylarni penetratsiya qiladi to'liq ichki muomalasini ta'minlash. Hidlar va ko'k o'tishi ham bosiladi.\n\nDavomi: 20-40 daqiqa ichki bo'lma hajmiga qarab. Davomi keyin, 20 daqiqa ventilatsiya qiling yoki ozonni dispersiya qilish uchun mashinaning ventilatsiya tizimini yoqing.\n\nJihoz mashinaning quvvatiidan ishlashi mumkin (12V yoki 24V). Hechqanday ishchi qolishi kerak emas — ozonlashtirgichni yoqing va chiqib ket. Hechqanday sarflama mahsulotlar operatsion xarajatlarni kamaytiradi.",
       "benefits": [
-        "Quick treatment in 20–40 minutes",
-        "Disinfection of all interior surfaces",
-        "Operation from vehicle power",
-        "Odor and mold removal",
-        "No consumables",
-        "Process automation"
-      ]
-    },
-    "sports-facilities": {
-      "title": "Sports facilities",
-      "shortDesc": "Disinfection of halls and locker rooms",
-      "content": "Gyms, fitness centers and locker rooms are high-risk for infection spread and have specific odors. Ozonation addresses both: it disinfects equipment and removes sweat odor.\n\nOzone destroys bacteria, viruses, mold, fungi and parasitic protozoa on equipment, stands, benches and mats. The gas penetrates material pores for deep disinfection.\n\nSports facilities are treated at night. 2–3 hours at about 1 g/h per 25 m³ is typical. For large halls and arenas, mobile ozone generators of 60–120 g/h are used.\n\nAfter the generator is off, ozone drops to safe levels in 2–3 hours. Only a light fresh smell remains. Staff should not enter during treatment.",
-      "benefits": [
-        "Effective sweat odor removal",
-        "Disinfection of sports equipment",
-        "Fungal infection prevention",
-        "Treatment of mats and textiles",
-        "Mold suppression",
-        "Automatic night operation"
+        "20-40 daqiqada tez davomi",
+        "Barcha ichki sirtlarining dezinfeksiyasi",
+        "Mashinaning quvvatidan ishlash",
+        "Hid va ko'k o'tishining yo'q qilishi",
+        "Hechqanday sarflama mahsulotlar",
+        "Jarayonning avtomatsiyasi"
       ],
       "stats": {
-        "stat1": {
-          "value": "2-3 h",
-          "label": "Treatment",
-          "description": "Ozonation time for gym"
+        "time": {
+          "value": "20-40",
+          "label": "Daqiqa",
+          "description": "Bir ichki bo'lma uchun davomi vaqti"
         },
-        "stat2": {
+        "power": {
+          "value": "12V/24V",
+          "label": "Quvvat",
+          "description": "Mashinaning elektr tizimidan ishlash"
+        },
+        "coverage": {
           "value": "100%",
-          "label": "Odors",
-          "description": "Sweat odor elimination efficiency"
+          "label": "Qoplamа",
+          "description": "Barcha sirtlar va qiyin erishiladigan joylar"
         },
-        "stat3": {
-          "value": "99.9%",
-          "label": "Fungi",
-          "description": "Destruction of mycosis pathogens"
-        },
-        "stat4": {
-          "value": "60-120",
-          "label": "g/h",
-          "description": "Capacity for large halls"
+        "consumables": {
+          "value": "0",
+          "label": "Sarflama mahsulotlar",
+          "description": "Hechqanday kimyoviy reagentlar"
         }
       },
       "sections": {
         "intro": {
-          "paragraph1": "Gyms, fitness centers and locker rooms are high-risk for infection spread and have specific odors. Ozonation addresses both: it disinfects equipment and completely removes sweat odor, rather than masking it.",
-          "paragraph2": "Ozone destroys bacteria, viruses, mold, fungi and parasitic protozoa on equipment, stands, benches and mats. The gas penetrates material pores for deep disinfection of textiles and soft surfaces."
+          "text": "Jamoaviy transport infeksiya uzatishning yuqori xavf muhiti. Minglab yo'lovchilar har kuni bir xil sirtlarga tegasdi: qo'l tutgichlari, o'rindiqlar va tugmachalar. Ozonlash tez va samarali avtobuslar, tramvaylar va trolleybuslarning ichki bo'lmalarini dezinfeksiya qiladi bir muddatlar orasida yoki tungi vaqtda.",
+          "text2": "Qo'lbola dezinfeksiyasidan farqli o'laroq, ozon barcha chuqur bo'lmalar va qiyin erishiladigan joylarni penetratsiya qiladi, to'liq ichki muomalasini ta'minlash. Hechqanday kimyoviy qoldiq qolmaydi, bu yo'lovchilarda allergiya sabablashmasdan."
         },
-        "warning": {
-          "title": "Fungal infections",
-          "text": "are one of the main problems in sports facilities. Athlete's foot, ringworm, candidiasis are transmitted through shared locker rooms, showers and sports equipment. Ozone destroys fungal spores on all surfaces."
+        "highlight1": {
+          "title": "Ozonlashning afzalligi:",
+          "text": "gaz o'rindiqlar orasidagi chuqur bo'lmalarni, obivka ostiga, ventilatsiya tizimiga penetratsiya qiladi — qo'lbola tozalashi bilan erishmasa bo'ladigan joylar. Davomi keyin ichki bo'lma barcha patogenlardan azod."
         },
         "whatDisinfects": {
-          "title": "What ozone disinfects",
+          "title": "Transport ichida ozon nima dezinfeksiya qiladi",
+          "items": {
+            "handrails": "Qo'l tutgichlari va reyinglar — asosiy yo'lovchi tutish nuqtalari",
+            "seats": "O'rindiqlar va orqasi — bakteriya va hidlarni to'plash",
+            "windows": "Oynalar va devarlar — chang va aerosal zarralari to'planadi",
+            "floor": "Ichki pol — ifloslanimligi va mikroorganizmlar to'planadi",
+            "ventilation": "Ventilatsiya tizimi — infeksiyalarni ichki bo'lma bo'ylab tarqatadi",
+            "cabin": "Voditel kabinasi — kasal bo'lgan ichki xodimlari himoyasi"
+          }
+        },
+        "treatmentMode": {
+          "title": "Transport davomi rejimi",
+          "steps": {
+            "installation": {
+              "title": "Ozonlashtirgich o'rnatishi",
+              "description": "Ozonlashtirgichni yo'lovchi bo'lmasida maksimal balandlikdagi joyga o'rnating. Barcha oynalar va eshiklarni yoping."
+            },
+            "start": {
+              "title": "Davomini boshlash",
+              "description": "Ozonlashtirgichni ichki bo'lma hajmiga qarab 20-40 daqiqa uchun yoqing. Mashinani tark eting."
+            },
+            "exposure": {
+              "title": "Ozon ekspozitsiyasi",
+              "description": "Ozon ichki bo'lma bo'ylab tarqalib, barcha chuqur bo'lmalar va qiyin erishiladigan joylarni penetratsiya qiladi. Viruslar, bakteriyalar, ko'k yo'q qiladi."
+            },
+            "ventilation": {
+              "title": "Ventilatsiya",
+              "description": "Eshiklar va oynalarni oching, 20 daqiqa ventilatsiya qiling. Tezlatish uchun mashinaning ventilatsiya tizimini yoqing."
+            }
+          },
+          "table": {
+            "caption": "Tavsiya etilgan davomi rejimlar",
+            "headers": {
+              "type": "Transport turi",
+              "volume": "Ichki hajmi",
+              "capacity": "Quvvat",
+              "time": "Vaqti"
+            },
+            "rows": {
+              "minibus": {
+                "type": "Minibus",
+                "volume": "15-25 m³",
+                "capacity": "5-10 g/h",
+                "time": "20 min"
+              },
+              "cityBus": {
+                "type": "Shahar avtobusi",
+                "volume": "40-60 m³",
+                "capacity": "20-30 g/h",
+                "time": "30 min"
+              },
+              "articulatedBus": {
+                "type": "Shunga o'rnatilgan avtobusi",
+                "volume": "80-100 m³",
+                "capacity": "30-50 g/h",
+                "time": "40 min"
+              },
+              "tramTrolley": {
+                "type": "Tramvay/trolleybus",
+                "volume": "50-80 m³",
+                "capacity": "20-40 g/h",
+                "time": "35 min"
+              }
+            }
+          }
+        },
+        "organizationOptions": {
+          "title": "Davomi tashkil etish variantlari",
+          "text": "Jamoaviy transport dezinfeksiyasi floti hajmi va ishlash jadvaliga qarab turli usullar bilan tashkil etilishi mumkin.",
+          "options": {
+            "depot": {
+              "title": "Depo davobi",
+              "description": "Kuchli mobil ozonlashtirgichlar bilan tungi vaqtda butun flotning markazlashtirilgan davobi"
+            },
+            "betweenRuns": {
+              "title": "Chiqishlar orasida",
+              "description": "Kompakt ozonlashtirgichlar bilan terminal to'xtashlarda tezkor davomi"
+            },
+            "stationary": {
+              "title": "Statsionar o'rnatma",
+              "description": "Ichki devarga o'rnatilgan ozonlashtirgich, mashinaning quvvatida taymer bilan ishlaydi"
+            },
+            "mobile": {
+              "title": "Mobil xizmat",
+              "description": "Transportni yo'lda davolash uchun tashuvchi ozonlashtirgichlar"
+            }
+          }
+        },
+        "powerSupply": {
+          "title": "Transport quvvati ta'minoti",
+          "text": "Ozonlashtirgichlar mashinaning quvvatida ishlashi mumkin, tashqi quvvat ulanishisiz davomiga imkon beradi.",
+          "table": {
+            "caption": "Ozonlashtirgichlar uchun quvvat ta'minoti variantlari",
+            "headers": {
+              "type": "Quvvat turi",
+              "application": "Ijro",
+              "advantages": "Afzalliklari"
+            },
+            "rows": {
+              "dc12v": {
+                "type": "12V DC",
+                "application": "Minibus, mikrobuslar",
+                "advantages": "Standart mashinaning quvvati"
+              },
+              "dc24v": {
+                "type": "24V DC",
+                "application": "Avtobuslar, trolleybuslar",
+                "advantages": "Yuqori quvvat"
+              },
+              "ac220v": {
+                "type": "220V AC",
+                "application": "Depolar, parklar",
+                "advantages": "Maksimal quvvat"
+              },
+              "battery": {
+                "type": "Batareya",
+                "application": "Mobil xizmat",
+                "advantages": "Avtonomiya"
+              }
+            }
+          },
+          "highlight": "Davomi hechqanday ishchi ishtirokini talab qilmaydi — ozonlashtirgichni yoqing va chiqib ket. Hechqanday sarflama mahsulotlar harakat xarajatini kamaytiradi."
+        },
+        "pathogenEfficiency": {
+          "title": "Patogenlarga qarshi samaradorligi",
+          "table": {
+            "caption": "Transport ichida patogen inaktivatsiya vaqti",
+            "headers": {
+              "pathogen": "Patogen",
+              "time": "Vaqti 20 mg/m³ da",
+              "efficiency": "Samaradorligi"
+            },
+            "rows": {
+              "covid": {
+                "pathogen": "Koronaviruslar (COVID-19)",
+                "time": "10-15 min",
+                "efficiency": "99.9%"
+              },
+              "flu": {
+                "pathogen": "Gripp viruslari",
+                "time": "5-10 min",
+                "efficiency": "99.9%"
+              },
+              "staph": {
+                "pathogen": "Stafilo aureusi",
+                "time": "10-15 min",
+                "efficiency": "99.9%"
+              },
+              "ecoli": {
+                "pathogen": "E. coli",
+                "time": "5-10 min",
+                "efficiency": "99.9%"
+              },
+              "mold": {
+                "pathogen": "Ko'k va xamirlar",
+                "time": "15-20 min",
+                "efficiency": "99%"
+              },
+              "odors": {
+                "pathogen": "Hidlar (organik)",
+                "time": "20-30 min",
+                "efficiency": "100%"
+              }
+            }
+          }
+        },
+        "comparison": {
+          "title": "Dezinfeksiya usuli taqqoslashi",
+          "tableTitle": "Ozonlash va kimyoviy davomi",
+          "headers": {
+            "criterion": "Mezon",
+            "ozonation": "Ozonlash",
+            "chemical": "Kimyoviy davomi"
+          },
+          "rows": {
+            "time": {
+              "parameter": "Davomi vaqti",
+              "ozonation": "20-40 min + ventilatsiya",
+              "chemical": "15-30 min"
+            },
+            "coverage": {
+              "parameter": "Sirtning qoplamasi",
+              "ozonation": "100% (yashirin joylar kiritilgan)",
+              "chemical": "60-70% (faqat kirish)"
+            },
+            "residues": {
+              "parameter": "Kimyoviy qoldiq",
+              "ozonation": "Yo'q",
+              "chemical": "Ha (allergiyani sabablashi mumkin)"
+            },
+            "consumables": {
+              "parameter": "Sarflama mahsulotlar",
+              "ozonation": "Yo'q",
+              "chemical": "Ha (dezinfektantlar)"
+            },
+            "odors": {
+              "parameter": "Hid yo'q qilish",
+              "ozonation": "To'liq",
+              "chemical": "Qisman (niqob qilish)"
+            },
+            "staff": {
+              "parameter": "Ishchi ishtirokchiligi",
+              "ozonation": "Minimal",
+              "chemical": "Doim"
+            }
+          }
+        },
+        "benefits": {
+          "title": "Transport kompaniyalari uchun foyda",
+          "items": {
+            "passengerProtection": {
+              "title": "Yo'lovchi himoyasi",
+              "description": "Jamoaviy transportda infeksiya tarqalishining xavfi kamayishi"
+            },
+            "driverProtection": {
+              "title": "Voditel himoyasi",
+              "description": "Bemorlik kunlari kam, muntazam faoliyat"
+            },
+            "noChemicals": {
+              "title": "Kimyoviy vositasiz",
+              "description": "Dezinfektantlar va saqlash xarajatlari yo'q"
+            },
+            "automation": {
+              "title": "Avtomatsiya",
+              "description": "Ishlari tomonidan kuzatishsiz taymer bilan davomi"
+            }
+          }
+        },
+        "safety": {
+          "title": "Xavfsizlik talablari",
+          "items": {
+            "noPeople": "Davomi ichki bo'lma bo'sh vaqtida o'tkaziladi",
+            "staffLeave": "Voditel va ishchilar davomi paytida transportni tark etasdi",
+            "ventilation": "Davomi keyin — 20 daqiqa ventilatsiya qiling yoki ventilatsiya tizimini yoqing",
+            "respirator": "Ishchilar davomi keyin darhol kirganda respirator ishlatasdi",
+            "mpc": "Ozon MPC — 0,1 mg/m³ (seziladigan hid darajasi)"
+          },
+          "warning": "Chiqishlar orasida davomini tashkil etganda, ventilatsiya vaqti jadvaldagi davomiga hisoblanishini ta'minlang. Yo'lovchilar ozon konsentratsiyasi xavfsiz darajaga tushguniga keyin ichki bo'lmaga kirishlari kerak."
+        }
+      }
+    },
+    "sports-facilities": {
+      "title": "Sport zallari",
+      "shortDesc": "Zallar va loker xonalarining dezinfeksiyasi",
+      "content": "Sport zallar, fitnes markazlar va loker xonalari infeksiya tarqalishi va maxsus hidlar uchun yuqori xavf. Ozonlash ikkala muammoni hal qiladi: jihoz dezinfeksiya qiladi va ter hidini yo'q qiladi.\n\nOzon bakteriyalar, viruslar, ko'k, xamirlar va parazit protozoalarni jihoz, turn, stol va mat'lardan yo'q qiladi. Gaz material porlarini penetratsiya qiladi chuqur dezinfeksiya uchun.\n\nSport joylar tungi vaqtda davoladi. 2-3 soat, xona hajmiga qarab 25 m³ uchun soatiga 1 g. Katta zallar va arenalar uchun, mobil ozonlashtirgichlar 60-120 g/h ishlatasdi.\n\nOzonlashtirgich o'chgach, ozon 2-3 soat xavfsiz darajaga tushadi. Faqat yengil yangi hid qoladi. Ishchilar davomi paytida kirishlari kerak emas.",
+      "benefits": [
+        "Samarali ter hidini yo'q qilish",
+        "Sport jihoziining dezinfeksiyasi",
+        "Xamir infeksiyasining oldini olish",
+        "Mat va to'qimaning davobi",
+        "Ko'k o'tishini bosilishi",
+        "Avtomatik tungi davomi"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "2-3 h",
+          "label": "Davomi",
+          "description": "Sport zalida ozonlash vaqti"
+        },
+        "stat2": {
+          "value": "100%",
+          "label": "Hidlar",
+          "description": "Ter hidini yo'q qilish samaradorligi"
+        },
+        "stat3": {
+          "value": "99.9%",
+          "label": "Xamirlar",
+          "description": "Mikoz patogenlarini yo'q qilish"
+        },
+        "stat4": {
+          "value": "60-120",
+          "label": "g/h",
+          "description": "Katta zallar uchun quvvat"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Sport zallar, fitnes markazlar va loker xonalari infeksiya tarqalishi va maxsus hidlar uchun yuqori xavf. Ozonlash ikkala muammoni hal qiladi: jihoz dezinfeksiya qiladi va ter hidini butunlay yo'q qiladi, niqob qilmasdan.",
+          "paragraph2": "Ozon bakteriyalar, viruslar, ko'k, xamirlar va parazit protozoalarni jihoz, turn, stol va mat'lardan yo'q qiladi. Gaz material porlarini penetratsiya qiladi to'qimaning va yumshoq sirtlarning chuqur dezinfeksiyasini ta'minlash."
+        },
+        "warning": {
+          "title": "Xamir infeksiyalari",
+          "text": "sport zallari uchun asosiy muammolardan biri. Atlettik oyoqlari, halqa xamir, kandidiyasiz loker xonalari, shower va sport jihozlari orqali uzatiladi. Ozon barcha sirtlarda xamir sporlarini yo'q qiladi."
+        },
+        "whatDisinfects": {
+          "title": "Ozon nima dezinfeksiya qiladi",
           "items": [
-            "Exercise machines and sports equipment",
-            "Mats, yoga and fitness mats",
-            "Locker room benches",
-            "Lockers and shelves",
-            "Shower cabins and restrooms",
-            "Textiles: towels, robes (in lockers)",
-            "Ventilation and air conditioning systems",
-            "Stands and spectator areas"
+            "Zamin va sport jihozlar",
+            "Mat, yoga va fitnes mat'lar",
+            "Loker xonasi stoli",
+            "Shikastlar va javonlar",
+            "Shower bo'lmalari va banyo xonalari",
+            "To'qimalar: shumlari, xlamalar (shikastlarda)",
+            "Ventilatsiya va konditsionerlash tizimlar",
+            "Turlar va tamasha joylar"
           ]
         },
         "odorProblem": {
-          "title": "Odor problem in gyms",
-          "text": "Sweat odor in gyms is the result of bacterial activity on human skin. Regular cleaning and air fresheners only mask the problem. Ozone breaks down odor molecules and destroys the bacteria that produce them.",
+          "title": "Sport zallarida hid muammosi",
+          "text": "Sport zallarida ter hidi odam terida bakteriya faolligining natijasi. Muntazam tozalash va havo yangilantiruvchilar faqat muammoni niqob qiladi. Ozon hid molekulalarini buzadi va ularni ishlab chiqaradigan bakteriyalarni yo'q qiladi.",
           "table": {
-            "caption": "Ozone effectiveness against odors",
-            "headers": ["Odor type", "Source", "Elimination time"],
+            "caption": "Hidlarga qarshi ozon samaradorligi",
+            "headers": ["Hid turi", "Manba", "Yo'q qilish vaqti"],
             "rows": [
-              ["Sweat", "Skin bacteria", "30-60 min"],
-              ["Dampness", "Mold and fungi", "60-90 min"],
-              ["Stale air", "Insufficient ventilation", "40-60 min"],
-              ["Rubber", "Flooring and mats", "90-120 min"]
+              ["Ter", "Teri bakteriyalari", "30-60 min"],
+              ["Namlik", "Ko'k va xamirlar", "60-90 min"],
+              ["Qadim havo", "Ventilatsiya yetersizligi", "40-60 min"],
+              ["Rezina", "Pol va mat'lar", "90-120 min"]
             ]
           }
         },
         "process": {
-          "title": "Sports facility treatment mode",
-          "text": "Sports facilities are treated at night when closed to visitors. For large halls and arenas, powerful mobile ozone generators of 60–120 g/h are used.",
+          "title": "Sport zali davomi rejimi",
+          "text": "Sport joylari tungi vaqtda tashrif buyuruvchilar bilan yopilganda davoladi. Katta zallar va arenalar uchun kuchli mobil ozonlashtirgichlar 60-120 g/h ishlatasdi.",
           "steps": [
             {
-              "title": "Room preparation",
-              "description": "Close all windows and doors. Turn off supply ventilation. Ensure no one is in the hall."
+              "title": "Xonani tayyorlash",
+              "description": "Barcha oynalar va eshiklarni yoping. Ta'minlovchi ventilatsiyani o'chiring. Hechkim zalda yo'q-ligini ta'minlang."
             },
             {
-              "title": "Ozone generator placement",
-              "description": "Wall-mounted generator — at least 3 m high. Mobile — at maximum height, e.g., on a referee's platform."
+              "title": "Ozonlashtirgich o'rnatishi",
+              "description": "Devarga o'rnatilgan — kamida 3 m baland. Mobil — maksimal balandlikda, masalan, hakam platformasida."
             },
             {
-              "title": "Ozonation",
-              "description": "Run the generator for 2–3 hours. Capacity: 1 g/h per 25 m³ of room volume."
+              "title": "Ozonlash",
+              "description": "Ozonlashtirgichni 2-3 soat uchun yoqing. Quvvat: xona hajmiga qarab 25 m³ uchun soatiga 1 g."
             },
             {
-              "title": "Ozone decay",
-              "description": "After the generator stops, concentration drops to safe levels in 2–3 hours. A light fresh smell remains."
+              "title": "Ozonning parchalanishi",
+              "description": "Ozonlashtirgich o'chgach, konsentratsiya 2-3 soat xavfsiz darajaga tushadi. Yengil yangi hid qoladi."
             }
           ]
         },
         "equipment": {
-          "title": "Equipment calculation",
+          "title": "Jihoz hisoblash",
           "table": {
-            "caption": "Recommended ozone generator capacity",
-            "headers": ["Facility type", "Volume", "Capacity", "Time"],
+            "caption": "Tavsiya etilgan ozonlashtirgich quvvati",
+            "headers": ["Zal turi", "Hajmi", "Quvvat", "Davomi"],
             "rows": [
-              ["Fitness hall", "200-500 m³", "10-20 g/h", "120 min"],
-              ["Locker room", "50-100 m³", "3-5 g/h", "90 min"],
-              ["Gym", "300-600 m³", "15-25 g/h", "150 min"],
-              ["Sports arena", "2000-5000 m³", "80-200 g/h", "180 min"],
-              ["Pool (air)", "500-1500 m³", "20-60 g/h", "120 min"]
+              ["Fitnes zali", "200-500 m³", "10-20 g/h", "120 min"],
+              ["Loker xonasi", "50-100 m³", "3-5 g/h", "90 min"],
+              ["Sport zali", "300-600 m³", "15-25 g/h", "150 min"],
+              ["Sport arenasi", "2000-5000 m³", "80-200 g/h", "180 min"],
+              ["Yuzma havuzi", "500-1500 m³", "20-60 g/h", "120 min"]
             ]
           },
           "highlight": {
-            "title": "Calculation formula:",
-            "text": "1 g/h ozone capacity per 25 m³ of room volume. For rooms with high contamination or large surface area, increase capacity by 20–30%."
+            "title": "Hisoblash formulasi:",
+            "text": "xona hajmiga qarab 25 m³ uchun soatiga 1 g ozon quvvat. Yuqori ifloslanimligi yoki katta sirt maydoniga ega xonalar uchun, quvvatni 20-30% oshiring."
           }
         },
         "specialZones": {
-          "title": "Special attention zones",
+          "title": "Maxsus diqqat sonalari",
           "features": [
             {
-              "title": "Locker rooms",
-              "description": "Benches, lockers, floor — main points of fungal infection transmission"
+              "title": "Loker xonalari",
+              "description": "Stol, shikastlar, pol — xamir infeksiya uzatishning asosiy nuqtalari"
             },
             {
-              "title": "Showers",
-              "description": "Humid environment promotes mold and fungi growth"
+              "title": "Shower bo'lmalari",
+              "description": "Namlik muhiti ko'k va xamir o'tishini rag'batlantiradi"
             },
             {
-              "title": "Cardio zone",
-              "description": "Intense sweating, many contact surfaces"
+              "title": "Kardio zona",
+              "description": "Intensiv ter izchiligi, ko'p tutish sirtlari"
             },
             {
-              "title": "Group class hall",
-              "description": "Mats, shared equipment — infection transmission risk"
+              "title": "Guruh darslar zali",
+              "description": "Mat'lar, umumiy jihoz — infeksiya uzatish xavfi"
             }
           ]
         },
         "pathogens": {
-          "title": "Effectiveness against pathogens",
+          "title": "Patogenlarga qarshi samaradorligi",
           "table": {
-            "caption": "Pathogen inactivation time (concentration 20 mg/m³)",
-            "headers": ["Pathogen", "Inactivation time", "Efficiency"],
+            "caption": "Patogen inaktivatsiya vaqti (konsentratsiya 20 mg/m³)",
+            "headers": ["Patogen", "Inaktivatsiya vaqti", "Samaradorligi"],
             "rows": [
-              ["Trichophyton (athlete's foot)", "20-30 min", "99.9%"],
-              ["Candida albicans", "15-20 min", "99.9%"],
-              ["Staphylococcus aureus", "10-15 min", "99.99%"],
-              ["Influenza viruses", "5-10 min", "99.99%"],
-              ["Mold (spores)", "30-40 min", "99%"],
+              ["Trichophyton (atlettik oyoqlari)", "20-30 min", "99.9%"],
+              ["Kandidiya albikans", "15-20 min", "99.9%"],
+              ["Stafilo aureusi", "10-15 min", "99.99%"],
+              ["Gripp viruslari", "5-10 min", "99.99%"],
+              ["Ko'k (sporlari)", "30-40 min", "99%"],
               ["E. coli", "5-10 min", "99.99%"]
             ]
           }
         },
         "comparison": {
-          "title": "Comparison with traditional cleaning",
-          "tableTitle": "Ozonation vs chemical disinfection",
-          "headers": ["Criterion", "Ozonation", "Chemical treatment"],
+          "title": "An'anaviy tozalash bilan taqqoslash",
+          "tableTitle": "Ozonlash va kimyoviy dezinfeksiya",
+          "headers": ["Mezon", "Ozonlash", "Kimyoviy davomi"],
           "rows": [
             {
-              "parameter": "Sweat odor elimination",
-              "value1": "Complete (molecule breakdown)",
-              "value2": "Masking"
+              "parameter": "Ter hidini yo'q qilish",
+              "value1": "To'liq (molekula buzilishi)",
+              "value2": "Niqob qilish"
             },
             {
-              "parameter": "Mat and textile treatment",
-              "value1": "Deep (gas in pores)",
-              "value2": "Surface only"
+              "parameter": "Mat va to'qima davobi",
+              "value1": "Chuqur (gaz porlarida)",
+              "value2": "Faqat sirtlar"
             },
             {
-              "parameter": "Ventilation systems",
-              "value1": "Yes",
-              "value2": "No"
+              "parameter": "Ventilatsiya tizimlar",
+              "value1": "Ha",
+              "value2": "Yo'q"
             },
             {
-              "parameter": "Chemical residues",
-              "value1": "No",
-              "value2": "Yes (allergy risk)"
+              "parameter": "Kimyoviy qoldiq",
+              "value1": "Yo'q",
+              "value2": "Ha (allergiya xavfi)"
             },
             {
-              "parameter": "Recovery time",
-              "value1": "2-3 hours",
-              "value2": "Immediate"
+              "parameter": "Tiklanish vaqti",
+              "value1": "2-3 soat",
+              "value2": "Darhol"
             },
             {
-              "parameter": "Consumables",
-              "value1": "No",
-              "value2": "Yes"
+              "parameter": "Sarflama mahsulotlar",
+              "value1": "Yo'q",
+              "value2": "Ha"
             }
           ]
         },
         "benefits": {
-          "title": "Benefits for owners",
+          "title": "Zal egasiga foyda",
           "features": [
             {
-              "title": "Reputation",
-              "description": "Clean air and no odors — competitive advantage"
+              "title": "Obro'",
+              "description": "Toza hava va hidlarsiz — raqobat afzalligi"
             },
             {
-              "title": "Client health",
-              "description": "Reduced risk of fungal and viral infections"
+              "title": "Mijozlar sog'lig'i",
+              "description": "Xamir va viral infeksiya xavfining kamayishi"
             },
             {
-              "title": "Savings",
-              "description": "No costs for chemicals and air fresheners"
+              "title": "Tejash",
+              "description": "Kimyoviy vosita va havo yangilantiruvchilar xarajatlari yo'q"
             },
             {
-              "title": "Automation",
-              "description": "Timer operation without staff involvement"
+              "title": "Avtomatsiya",
+              "description": "Ishchi ishtirokisiz taymer ishlashi"
             }
           ]
         },
         "safety": {
-          "title": "Safety requirements",
+          "title": "Xavfsizlik talablari",
           "items": [
-            "Treatment only when unoccupied (nighttime)",
-            "Ozone MPC in work zone — 0.1 mg/m³",
-            "Staff should not enter during treatment",
-            "If entry is necessary — use respirator with carbon filter",
-            "After nighttime treatment, ventilation is not required",
-            "By opening time, ozone will fully decompose"
+            "Davomi faqat bo'sh (tungi) vaqtda",
+            "Ozon MPC ish zonasida — 0,1 mg/m³",
+            "Ishchilar davomi paytida kirishlari kerak emas",
+            "Kirilish zarur bo'lsa — karbon filtri bilan respirator ishlating",
+            "Tungi davomi keyin ventilatsiya talab qilinmaydi",
+            "Ochish vaqtiga ozon to'liq parchalanadi"
           ],
-          "highlight": "With properly selected start and end times, ozone will dissipate by the time staff and first visitors arrive. Only a light fresh smell remains, safe for humans."
+          "highlight": "To'g'ri tanlangan boshlash va tugash vaqti bilan, ozon ishchilar va birinchi tashrif buyuruvchilar kelguniga parchalanib ketadi. Faqat yengil yangi hid qoladi, odamlar uchun xavfsiz."
         }
       }
     },
     "shopping-malls": {
-      "title": "Shopping malls",
-      "shortDesc": "Clean air for visitors",
-      "content": "Shopping malls are high-traffic spaces with dense visitor flow. Ozonation maintains air quality, removes odors and helps prevent infection spread.\n\nRegular ozone treatment during off-hours disinfects all surfaces: escalators, handrails, elevators, benches, restrooms. The gas reaches all areas, including back-of-house and technical zones.\n\nOzone effectively removes odors from food courts, restrooms and storage areas. It neutralizes chemical pollutants from finishes and merchandise. The air becomes fresh and pleasant for visitors.\n\nLarge malls use high-capacity industrial ozone generators or systems integrated with ventilation. Treatment is automated with timers and sensors.",
+      "title": "Savdo markazlari",
+      "shortDesc": "Tashrif buyuruvchilar uchun toza hava",
+      "content": "Savdo markazlari massaviy jami bo'lgan joylari, ko'p tashrif buyuruvchilar oqimi. Ozonlash havo sifatini saqlaydi, hidlarni yo'q qiladi va infeksiya tarqalishini oldini olishga yordam beradi.\n\nMuntazam ozonlash ishning bo'sh vaqtida barcha sirtlarni dezinfeksiya qiladi: eskalatorlar, qo'l tutgichlari, liftlar, stol, restoran xonalari. Gaz barcha joylarni erishadi, orqa bo'lmalar va texnik zonalarni o'z ichiga olgan.\n\nOzon restoran xonalaridan, restoran xonalaridan va saqlanuvchi joylardan hidlarni samarali yo'q qiladi. Tamomlardan va tovarlardan kimyoviy ifloslanishni neytral qiladi. Hava tashrif buyuruvchilar uchun yangi va yoqimli bo'lib qoladi.\n\nKatta markazlar yuqori quvvatli sanoat ozonlashtirgichlar yoki ventilatsiya bilan birlashtirilgan tizimlarni ishlatasdi. Davomi taymer va sensorlar bilan avtomatikdir.",
       "benefits": [
-        "Infection prevention in crowded spaces",
-        "Improved air quality",
-        "Food court odor removal",
-        "Disinfection of contact surfaces",
-        "Visitor comfort",
-        "Ventilation system integration"
-      ]
+        "Ko'pchilik joyda infeksiyani oldini olish",
+        "Havo sifatining yaxshilanishi",
+        "Restoran xonasida hidni yo'q qilish",
+        "Tutish sirtlarining dezinfeksiyasi",
+        "Tashrif buyuruvchi farovonligi",
+        "Ventilatsiya tizimi integratsiyasi"
+      ],
+      "stats": {
+        "visitors": {
+          "value": "1000+",
+          "label": "Tashrif buyuruvchilar",
+          "description": "Katta markazlarda kunlik oqimi"
+        },
+        "protection": {
+          "value": "24/7",
+          "label": "Himoya",
+          "description": "Ventilatsiya tizimi integratsiyasi"
+        },
+        "odors": {
+          "value": "100%",
+          "label": "Hidlar",
+          "description": "Restoran xonasida hidni yo'q qilish"
+        },
+        "chemicals": {
+          "value": "0",
+          "label": "Kimyoviy",
+          "description": "Ekologik davomi"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Savdo markazlari massaviy jami bo'lgan joylari, ko'p tashrif buyuruvchilar oqimi. Minglab odamlar har kuni bir xil sirtlarga tegasdi: eskalatorlar, qo'l tutgichlari, lift tugmachalari, eshik tutgichlari. Ozonlash havo sifatini saqlaydi, hidlarni yo'q qiladi va infeksiya tarqalishini oldini olishga yordam beradi.",
+          "paragraph2": "Muntazam ozonlash ishning bo'sh vaqtida barcha sirtlarni dezinfeksiya qiladi, qiyin erishiladigan joylar va texnik zonalarni o'z ichiga olgan. Gaz barcha xonalarni penetratsiya qiladi, butun markazni keng davolashni ta'minlash."
+        },
+        "comfort": {
+          "label": "Tashrif buyuruvchi farovonligi",
+          "text": "markazda o'tkaziladigan vaqt va sotib olish hajmiga ta'sir qiladi. Toza yangi hava tashqari hidlarsiz — xarid qilish tajribasining ijobiy elementi."
+        },
+        "zones": {
+          "title": "Savdo markazlarida davomi zonalari",
+          "items": [
+            "Savdo galareylari va atriumlar — asosiy tashrif buyuruvchilar jami joylar",
+            "Eskalatorlar va liftlar — maksimal yuklama tutish sirtlari",
+            "Restoran xonalari — hidlar va oziq kontaminatsiya manbalari",
+            "Restoran xonalari — muhim gigiyena zonalari",
+            "Saqlanuvchi va texnik xonalar — tozalash paytida tashlab ketiladi",
+            "Ventilatsiya tizimlar — butun markazda havoyi tarqatadi",
+            "Avtomobil to'xtashlari — ehtirot gazlarini va hidlarni to'plash"
+          ]
+        },
+        "odorProblem": {
+          "title": "Markazda hid muammosi",
+          "intro": "Savdo markazlari ko'p hid manbalari: restoran xonalari, restoran xonalari, xush hid do'konlar, saqlanuvchi joylar. Ozon samarali barcha bu hidlarni neytral qiladi, niqob qilmasdan, balki hid moddalarining molekulalarini yo'q qiladi.",
+          "tableCaption": "Hid manbalari va yechimlar",
+          "tableHeaders": ["Zona", "Hid manba", "Yechim"],
+          "tableData": [
+            ["Restoran xonasi", "Tayyorlash, yog', ziravorlar", "Tungi ozonlash + to'rttik ozonlashtirgichlar"],
+            ["Restoran xonalari", "Organik moddalar", "Uzluksiz kam konsentratsiyali ozonlash"],
+            ["Atrium", "Hid aralashi, havo tukunchiligi", "Ventilatsiya integratsiyasi"],
+            ["Avtomobil to'xtashi", "Ehtirot gazlar", "Ehtirot ozonlashtirgichlar"]
+          ]
+        },
+        "organization": {
+          "title": "Ozonlash tashkil etish variantlari",
+          "night": {
+            "title": "Tungi davomi",
+            "description": "Mobil ozonlashtirgichlar yopilgach markazni davoladi. Maksimal samaradorligi."
+          },
+          "ventilation": {
+            "title": "Ventilatsiya integratsiyasi",
+            "description": "To'rttik ozonlashtirgichlar HVAC tizimida. Uzluksiz havo sifati ta'minoti."
+          },
+          "zonal": {
+            "title": "Zonali davomi",
+            "description": "Devarga o'rnatilgan ozonlashtirgichlar muammoli zonalarda: restoran xonalari, restoran xonasi, avtomobil to'xtashi."
+          },
+          "combined": {
+            "title": "Birlashtirilgan usul",
+            "description": "Maksimal ta'sir uchun barcha usullarni birlashtirish"
+          }
+        },
+        "treatmentMode": {
+          "title": "Davomi rejimi",
+          "steps": [
+            {
+              "title": "Tungi dezinfeksiya",
+              "description": "Markaz yopilgach, mobil ozonlashtirgichlar ishga tushuriladi. Davomi maydoni qarab 2-4 soat. Ochish vaqtiga ozon to'liq parchalanib ketadi."
+            },
+            {
+              "title": "Restoran xonasi",
+              "description": "Kunli cahillari yopilgach davomi. Pishirish hidlarini yo'q qilish, stol va stullarni dezinfeksiya qilsh."
+            },
+            {
+              "title": "Restoran xonalari",
+              "description": "Kam quvvatli ozonlashtirgichlar uzluksiz xavfsiz konsentratsiyada yoki tanaffuslar paytida avtomatik yoqiladi."
+            },
+            {
+              "title": "Ventilatsiya",
+              "description": "To'rttik ozonlashtirgichlar havoni to'rttikka ta'minlaydi, ta'minlovchi havoyi dezinfeksiyasini ta'minlash."
+            }
+          ]
+        },
+        "equipment": {
+          "title": "Jihoz hisoblash",
+          "tableCaption": "Markaz zonalari uchun tavsiya etilgan quvvat",
+          "tableHeaders": ["Zona", "Maydon", "Quvvat", "Rejimi"],
+          "tableData": [
+            ["Savdo galareylari", "1000-5000 m²", "50-200 g/h", "Tungi davomi"],
+            ["Restoran xonasi", "500-1500 m²", "20-60 g/h", "Yopilgach kunli"],
+            ["Restoran xonalari", "20-50 m²", "1-2 g/h", "Uzluksiz yoki tsikllar"],
+            ["Saqlanuvchi", "100-300 m²", "5-15 g/h", "Haftada 2-3 marta"],
+            ["Avtomobil to'xtashi", "5000-20000 m²", "100-500 g/h", "Ventilatsiya integratsiyasi"]
+          ],
+          "highlight": "Katta savdo markazlari uchun, to'liq ozonlash tizimi dizayni tavsiya etiladi, binoni arxitekturasi, ventilatsiya tizimlar va ishlash rejimini hisobga olgan. Biz sozlama yechimlarni ishlab chiqamiz."
+        },
+        "pathogens": {
+          "title": "Patogenlarga qarshi samaradorligi",
+          "tableCaption": "Tutish sirtlarida inaktivatsiya vaqti",
+          "tableHeaders": ["Patogen", "Vaqti (20 mg/m³)", "Samaradorligi"],
+          "tableData": [
+            ["Koronaviruslar", "10-15 min", "99.9%"],
+            ["Gripp viruslari", "5-10 min", "99.9%"],
+            ["Norovirus", "15-20 min", "99.9%"],
+            ["Stafilo aureusi", "10-15 min", "99.99%"],
+            ["E. coli", "5-10 min", "99.99%"],
+            ["Ko'k", "30-40 min", "99%"]
+          ]
+        },
+        "benefits": {
+          "title": "Boshqaruv kompaniyalari uchun foyda",
+          "safety": {
+            "title": "Tashrif buyuruvchi xavfsizligi",
+            "description": "Ko'pchilik joyda infeksiya tarqalish xavfining kamayishi"
+          },
+          "comfort": {
+            "title": "Qulay muhit",
+            "description": "Toza hava hidlarsiz tashrif buyuruvchi qolish vaqti ortadi"
+          },
+          "compliance": {
+            "title": "Qonun talablari",
+            "description": "Umumiy joylar uchun sanitaria talablarini bajarish"
+          },
+          "savings": {
+            "title": "Kimyoviy tejash",
+            "description": "Dezinfektantlar va hava yangilantiruvchilar xarajatlari kamayishi"
+          }
+        },
+        "comparison": {
+          "title": "Dezinfeksiya usuli taqqoslashi",
+          "tableTitle": "Savdo markazi davomi usullari",
+          "tableHeaders": ["Mezon", "Ozonlash", "Kimyoviy davomi"],
+          "tableData": [
+            { "parameter": "Havo davomi", "value1": "Ha", "value2": "Yo'q" },
+            { "parameter": "Ventilatsiya tizimlar", "value1": "Ha", "value2": "Yo'q" },
+            { "parameter": "Qiyin erishiladigan joylar", "value1": "Ha (gaz)", "value2": "Yo'q" },
+            { "parameter": "Hid yo'q qilish", "value1": "To'liq", "value2": "Niqob qilish" },
+            { "parameter": "Kimyoviy qoldiq", "value1": "Yo'q", "value2": "Ha" },
+            { "parameter": "Avtomatsiya", "value1": "To'liq", "value2": "Qisman" }
+          ]
+        },
+        "safety": {
+          "title": "Tashrif buyuruvchilar uchun xavfsizlik",
+          "intro": "To'g'ri tashkil etilsa, ozonlash tashrif buyuruvchilar va savdo markazi ishchilar uchun to'liq xavfsizdir.",
+          "items": [
+            "Asosiy davomi — markaz yopilgach tungi vaqtda",
+            "Ventilatsiya integratsiyasi — xavfsiz konsentratsiyada",
+            "Restoran xonalari — tashrif buyuruvchilar kirganda avtomatik o'chadi",
+            "Konsentratsiya sensorlari — real vaqtda ozon darajasi kuzatiladi",
+            "Ochish vaqtiga ozon to'liq kislorodga parchalanadi"
+          ],
+          "warning": "Ish zonasida ozon MPC — 0,1 mg/m³. Ventilatsiya integratsiyasi bilan konsentratsiya 0,03-0,05 mg/m³ da saqlanadi — bu xavfsiz va 'yangi hava' ta'sirini ta'minlash."
+        }
+      }
     }
   }
 }

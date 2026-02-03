@@ -345,7 +345,7 @@ export function Breadcrumb({ items }: BreadcrumbProps) {
     <nav className="flex flex-wrap items-center gap-2 text-sm">
       {items.map((item, i) => (
         <span key={i} className="flex items-center gap-2">
-          {i > 0 && <span className="text-white/50">/</span>}
+          {i > 0 && <span className="text-white/80">/</span>}
           {item.href ? (
             <a href={item.href} className="text-white/80 transition-colors hover:text-white">
               {item.label}
@@ -380,7 +380,7 @@ export function ArticleHero({
 }: ArticleHeroProps) {
   return (
     <section className="flex flex-col" style={{ marginTop: topOffset }}>
-      <div className="container">
+      <div className="container !mb-5">
         {breadcrumbs && (
           <div className="pt-4 md:pt-6">
             <Breadcrumb items={breadcrumbs} />
