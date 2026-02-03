@@ -1,9 +1,10 @@
 import Image from 'next/image'
-import { useTranslate } from '@tolgee/react'
+import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
+import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { useLang } from '@/shared/lib'
 import { AppLink } from '@/shared/ui/app-link'
 import {
   ArticleSection,
@@ -21,9 +22,66 @@ import {
 import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import { Seo } from '@/shared/ui/seo'
 
-export function IronRemovalPage() {
+interface IronRemovalPageProps {
+  staticData: TolgeeStaticDataProp
+  lang: TLocale
+}
+
+interface SubcategoryData {
+  title: string
+  shortDesc: string
+  stats?: {
+    [key: string]: {
+      value: string
+      label: string
+      description: string
+    }
+  }
+  sections?: {
+    [key: string]: {
+      title?: string
+      paragraph?: string
+      paragraph1?: string
+      paragraph2?: string
+      text?: string
+      items?: string[] | Array<{ title: string; description: string }>
+      tableCaption?: string
+      tableHeaders?: string[]
+      tableData?: string[][]
+      headers?: string[]
+      rows?: Array<{ parameter: string; value1: string; value2: string; value3?: string }>
+      steps?: Array<{ title: string; description: string }>
+      note?: string
+      warning?: { title: string; text: string }
+      reactionLabel?: string
+      reaction1?: string
+      reaction2?: string
+      reaction?: string
+      description?: string
+      importantLabel?: string
+      importantText?: string
+      advantageLabel?: string
+      advantageText?: string
+      noteLabel?: string
+      noteText?: string
+      table?: {
+        caption?: string
+        headers?: string[]
+        rows?: string[][]
+      }
+    }
+  }
+}
+
+export function IronRemovalPage({ staticData, lang }: IronRemovalPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('water-treatment')
+
+  // get category data from staticData
+  const categoryData = (staticData as Record<string, { subcategories?: { 'iron-removal'?: SubcategoryData } }>)[
+    `${lang}:${ns}`
+  ]
+  const data = categoryData?.subcategories?.['iron-removal']
 
   return (
     <Layout>
@@ -80,10 +138,30 @@ export function IronRemovalPage() {
       <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
-            <StatCard value="0,43" label="мг O₃ / мг Fe" description="Доза озона на железо" variant="primary" />
-            <StatCard value="0,87" label="мг O₃ / мг Mn" description="Доза озона на марганец" variant="accent" />
-            <StatCard value="< 0,3" label="мг/л Fe" description="Остаточное железо (норма СанПиН)" variant="primary" />
-            <StatCard value="< 0,1" label="мг/л Mn" description="Остаточный марганец (норма СанПиН)" variant="accent" />
+            <StatCard
+              value={data?.stats?.ozoneForIron?.value ?? ''}
+              label={data?.stats?.ozoneForIron?.label ?? ''}
+              description={data?.stats?.ozoneForIron?.description ?? ''}
+              variant="primary"
+            />
+            <StatCard
+              value={data?.stats?.ozoneForManganese?.value ?? ''}
+              label={data?.stats?.ozoneForManganese?.label ?? ''}
+              description={data?.stats?.ozoneForManganese?.description ?? ''}
+              variant="accent"
+            />
+            <StatCard
+              value={data?.stats?.residualIron?.value ?? ''}
+              label={data?.stats?.residualIron?.label ?? ''}
+              description={data?.stats?.residualIron?.description ?? ''}
+              variant="primary"
+            />
+            <StatCard
+              value={data?.stats?.residualManganese?.value ?? ''}
+              label={data?.stats?.residualManganese?.label ?? ''}
+              description={data?.stats?.residualManganese?.description ?? ''}
+              variant="accent"
+            />
           </StatGrid>
         </div>
       </section>
@@ -92,222 +170,117 @@ export function IronRemovalPage() {
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>
-              Железо и марганец — наиболее часто встречающиеся металлические примеси в природной воде, причём чаще всего
-              они присутствуют вместе. Хотя железо не является токсичным веществом, его присутствие в воде приводит к
-              ухудшению органолептических и вкусовых свойств, появлению бурого осадка на поверхностях, контактирующих с
-              водой. Марганец относится к категории опасных веществ.
-            </Paragraph>
-            <Paragraph>
-              Озонирование особенно эффективно, когда железо и марганец содержатся в воде в виде органических
-              комплексных соединений. Стандартные методы обезжелезивания (аэрация, известкование, катионирование) в этом
-              случае неэффективны. Озон окисляет комплексные соединения, вызывая осаждение металлов в нерастворимые
-              формы.
-            </Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="warning">
-            <strong>СанПиН 2.1.4.1074-01:</strong> ПДК железа в питьевой воде — 0,3 мг/л, марганца — 0,1 мг/л.
-            Превышение этих норм делает воду непригодной для питьевого водоснабжения и технологических нужд.
+            <strong>{data?.sections?.intro?.warning?.title ?? ''}</strong> {data?.sections?.intro?.warning?.text ?? ''}
           </HighlightBox>
 
-          <ArticleSection title="Сравнение методов обезжелезивания">
+          <ArticleSection title={data?.sections?.comparison?.title}>
             <ComparisonTable
-              headers={['Параметр', 'Озонирование', 'Аэрация + фильтрация']}
-              rows={[
-                { parameter: 'Эффективность по Fe', value1: '> 95%', value2: '80-90%' },
-                { parameter: 'Эффективность по Mn', value1: '> 95%', value2: '50-70%' },
-                { parameter: 'Удаление органических комплексов', value1: 'Да', value2: 'Нет' },
-                { parameter: 'Снижение цветности', value1: 'Да (до 80%)', value2: 'Частично' },
-                { parameter: 'Работа при любом pH', value1: 'Да (6-9)', value2: 'Требует pH > 7,5' },
-                { parameter: 'Обеззараживание', value1: 'Да', value2: 'Нет' },
-                { parameter: 'Удаление H₂S', value1: 'Да', value2: 'Частично' },
-                { parameter: 'Необходимость реагентов', value1: 'Нет', value2: 'Может потребоваться' },
-              ]}
+              headers={(data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]) ?? []}
+              rows={data?.sections?.comparison?.rows ?? []}
             />
           </ArticleSection>
 
-          <ArticleSection title="Химия окисления железа озоном">
+          <ArticleSection title={data?.sections?.ironChemistry?.title}>
             <HighlightBox variant="info">
-              <strong>Реакция окисления железа:</strong>
+              <strong>{data?.sections?.ironChemistry?.reactionLabel ?? ''}</strong>
               <br />
-              2Fe²⁺ + O₃ + H₂O → 2Fe³⁺ + O₂ + 2OH⁻
+              {data?.sections?.ironChemistry?.reaction1 ?? ''}
               <br />
-              Fe³⁺ + 3H₂O → Fe(OH)₃↓ + 3H⁺
+              {data?.sections?.ironChemistry?.reaction2 ?? ''}
               <br />
               <br />
-              Озон окисляет Fe²⁺ до Fe³⁺, который образует нерастворимый гидроксид железа Fe(OH)₃, легко удаляемый
-              фильтрацией. Реакция протекает при pH от 6 до 9.
+              {data?.sections?.ironChemistry?.description ?? ''}
             </HighlightBox>
 
             <DataTable
-              caption="Стехиометрические соотношения для окисления металлов"
-              headers={['Металл', 'Теоретическая доза озона', 'Практическая доза озона', 'Примечание']}
-              rows={[
-                ['Железо (Fe²⁺)', '0,43 мг O₃ / мг Fe', '1 мг O₃ / мг Fe', 'С учётом органики'],
-                ['Марганец (Mn²⁺)', '0,87 мг O₃ / мг Mn', '4 мг O₃ / мг Mn', 'С учётом органики'],
-                ['Сероводород (H₂S)', '3,0 мг O₃ / мг H₂S', '3-5 мг O₃ / мг H₂S', 'До элементарной серы'],
-              ]}
+              caption={data?.sections?.ironChemistry?.table?.caption}
+              headers={data?.sections?.ironChemistry?.table?.headers ?? []}
+              rows={data?.sections?.ironChemistry?.table?.rows ?? []}
             />
           </ArticleSection>
 
-          <ArticleSection title="Химия окисления марганца озоном">
+          <ArticleSection title={data?.sections?.manganeseChemistry?.title}>
             <HighlightBox variant="info">
-              <strong>Реакция окисления марганца:</strong>
+              <strong>{data?.sections?.manganeseChemistry?.reactionLabel ?? ''}</strong>
               <br />
-              Mn²⁺ + O₃ + H₂O → MnO₂↓ + 2H⁺ + O₂
+              {data?.sections?.manganeseChemistry?.reaction ?? ''}
               <br />
               <br />
-              Озон окисляет Mn²⁺ до Mn⁴⁺, который образует нерастворимый диоксид марганца MnO₂. При pH около 8 реакция
-              протекает наиболее эффективно.
+              {data?.sections?.manganeseChemistry?.description ?? ''}
             </HighlightBox>
 
             <Paragraph>
-              <strong>Важно:</strong> При избытке озона возможно дальнейшее окисление марганца до Mn⁷⁺ с образованием
-              растворимого перманганата MnO₄⁻ (розовая окраска воды). В присутствии органических соединений перманганат
-              распадается до MnO₂. При высоких концентрациях марганца применяется двойное озонирование.
+              <strong>{data?.sections?.manganeseChemistry?.importantLabel ?? ''}</strong>{' '}
+              {data?.sections?.manganeseChemistry?.importantText ?? ''}
             </Paragraph>
           </ArticleSection>
 
-          <ArticleSection title="Технологический процесс обезжелезивания">
-            <ProcessList
-              steps={[
-                {
-                  title: 'Подача исходной воды',
-                  description:
-                    'Вода с повышенным содержанием железа и марганца подаётся в контактную ёмкость. Предварительная фильтрация от грубых примесей.',
-                },
-                {
-                  title: 'Генерация озона',
-                  description:
-                    'Атмосферный воздух очищается фильтром, подаётся в концентратор кислорода (85-95% O₂), затем в генератор озона.',
-                },
-                {
-                  title: 'Озонирование в контактной камере',
-                  description:
-                    'Барботирование озоно-воздушной смеси через слой воды или инжекция через эжектор Вентури. Время контакта: 5-15 минут.',
-                },
-                {
-                  title: 'Осаждение окисленных металлов',
-                  description:
-                    'Fe(OH)₃ и MnO₂ выпадают в осадок в контактной ёмкости. Периодическая промывка ёмкости для удаления осадка.',
-                },
-                {
-                  title: 'Механическая фильтрация',
-                  description:
-                    'Удаление взвешенных частиц окисленных металлов через песчаный фильтр. Размер пор: 10-50 мкм.',
-                },
-                {
-                  title: 'Угольная фильтрация',
-                  description:
-                    'Финишная очистка через активированный уголь для удаления остаточного озона и улучшения органолептических свойств.',
-                },
-              ]}
-            />
+          <ArticleSection title={data?.sections?.process?.title}>
+            <ProcessList steps={data?.sections?.process?.steps ?? []} />
           </ArticleSection>
 
-          <ArticleSection title="Двойное озонирование (для высоких концентраций Mn)">
-            <Paragraph>
-              При содержании марганца более 0,5 мг/л может потребоваться схема двойного озонирования: первичное
-              озонирование исходной воды, фильтрование, затем вторичное озонирование фильтрата. Это предотвращает
-              образование растворимого перманганата.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.doubleOzonation?.title}>
+            <Paragraph>{data?.sections?.doubleOzonation?.paragraph ?? ''}</Paragraph>
 
             <DataTable
-              caption="Результаты двойного озонирования (г. Аштон, Англия)"
-              headers={['Показатель', 'До обработки', 'После обработки']}
-              rows={[
-                ['Марганец, мг/л', '0,5', '0,05'],
-                ['Цветность, градусы', '22', '5'],
-                ['Мутность, НТU', '15', '< 2'],
-              ]}
+              caption={data?.sections?.doubleOzonation?.table?.caption}
+              headers={data?.sections?.doubleOzonation?.table?.headers ?? []}
+              rows={data?.sections?.doubleOzonation?.table?.rows ?? []}
             />
           </ArticleSection>
 
-          <ArticleSection title="Проблемы органических комплексов">
-            <Paragraph>
-              В нефтеносных районах, где вода содержит большое количество органических примесей, железо и марганец часто
-              находятся в виде органических комплексных соединений. Это делает стандартные методы обезжелезивания
-              неэффективными.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.organicComplexes?.title}>
+            <Paragraph>{data?.sections?.organicComplexes?.paragraph ?? ''}</Paragraph>
 
-            <BulletList
-              items={[
-                'Аэрация не работает: органические комплексы не окисляются кислородом воздуха',
-                'Известкование неэффективно: комплексные соединения не осаждаются при повышении pH',
-                'Катионирование затруднено: органические комплексы не обмениваются на ионообменных смолах',
-                'Озон решает проблему: разрушает органические комплексы, высвобождая металлы для осаждения',
-              ]}
-            />
+            <BulletList items={(data?.sections?.organicComplexes?.items as string[]) ?? []} />
 
             <HighlightBox variant="success">
-              <strong>Преимущество озона:</strong> Окисление металлов озоном эффективно протекает при любых значениях
-              pH, встречающихся в природных водах (6-9), в то время как для окисления марганца кислородом воздуха
-              требуется pH &gt; 10.
+              <strong>{data?.sections?.organicComplexes?.advantageLabel ?? ''}</strong>{' '}
+              {data?.sections?.organicComplexes?.advantageText ?? ''}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Рекомендуемые параметры систем">
+          <ArticleSection title={data?.sections?.systemParams?.title}>
             <DataTable
-              caption="Подбор оборудования по производительности"
-              headers={['Производительность, м³/час', 'Мощность озонатора, г/ч', 'Объём контактной камеры, м³']}
-              rows={[
-                ['1-5', '5-25', '0,2-1'],
-                ['5-20', '25-100', '1-4'],
-                ['20-50', '100-250', '4-10'],
-                ['50-100', '250-500', '10-20'],
-                ['100-500', '500-2500', '20-100'],
-              ]}
+              caption={data?.sections?.systemParams?.table?.caption}
+              headers={data?.sections?.systemParams?.table?.headers ?? []}
+              rows={data?.sections?.systemParams?.table?.rows ?? []}
             />
 
             <Paragraph>
-              <strong>Примечание:</strong> Мощность озонатора рассчитана для воды с содержанием Fe до 10 мг/л и Mn до 1
-              мг/л. При более высоких концентрациях требуется индивидуальный расчёт.
+              <strong>{data?.sections?.systemParams?.noteLabel ?? ''}</strong>{' '}
+              {data?.sections?.systemParams?.noteText ?? ''}
             </Paragraph>
           </ArticleSection>
 
-          <ArticleSection title="Преимущества озонирования для обезжелезивания">
+          <ArticleSection title={data?.sections?.benefits?.title}>
             <FeatureGrid columns={2}>
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Универсальность"
-                description="Эффективно удаляет железо и марганец любых форм, включая органические комплексы."
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Широкий диапазон pH"
-                description="Работает при pH 6-9 без необходимости коррекции кислотности воды."
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Комплексное действие"
-                description="Одновременно обеззараживает воду, устраняет цветность, запахи, окисляет H₂S."
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Без реагентов"
-                description="Озон производится на месте из воздуха. Не требуется закупка и хранение химикатов."
-              />
+              {((data?.sections?.benefits?.items as Array<{ title: string; description: string }>) ?? []).map(
+                (item, idx) => (
+                  <FeatureCard
+                    key={idx}
+                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                    title={item.title}
+                    description={item.description}
+                  />
+                ),
+              )}
             </FeatureGrid>
           </ArticleSection>
 
-          <ArticleSection title="Нормативные требования">
+          <ArticleSection title={data?.sections?.regulations?.title}>
             <DataTable
-              caption="ПДК железа и марганца по СанПиН"
-              headers={['Металл', 'Питьевая вода', 'Бутилированная вода', 'Класс опасности']}
-              rows={[
-                ['Железо (Fe)', '0,3 мг/л', '0,3 мг/л', 'III'],
-                ['Марганец (Mn)', '0,1 мг/л', '0,05 мг/л', 'III'],
-              ]}
+              caption={data?.sections?.regulations?.table?.caption}
+              headers={data?.sections?.regulations?.table?.headers ?? []}
+              rows={data?.sections?.regulations?.table?.rows ?? []}
             />
 
-            <BulletList
-              items={[
-                'СанПиН 2.1.4.1074-01 «Питьевая вода. Гигиенические требования к качеству воды централизованных систем питьевого водоснабжения»',
-                'СанПиН 2.1.4.1116-02 «Питьевая вода. Гигиенические требования к качеству воды, расфасованной в ёмкости»',
-                'ГОСТ 2874-82 «Вода питьевая. Гигиенические требования и контроль за качеством»',
-              ]}
-            />
+            <BulletList items={(data?.sections?.regulations?.items as string[]) ?? []} />
           </ArticleSection>
         </div>
       </article>

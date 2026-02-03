@@ -1,9 +1,10 @@
+import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 import Image from 'next/image'
-import { useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
+import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { useLang } from '@/shared/lib'
 import { AppLink } from '@/shared/ui/app-link'
 import {
   ArticleSection,
@@ -21,13 +22,64 @@ import {
 import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import { Seo } from '@/shared/ui/seo'
 
-export function GeneralStoragePage() {
+interface GeneralStoragePageProps {
+  staticData: TolgeeStaticDataProp
+  lang: TLocale
+}
+
+interface SubcategoryData {
+  title: string
+  shortDesc: string
+  stats?: {
+    [key: string]: {
+      value: string
+      label: string
+      description: string
+    }
+  }
+  sections?: {
+    [key: string]: {
+      title?: string
+      paragraph?: string
+      paragraph1?: string
+      paragraph2?: string
+      infoLabel?: string
+      infoText?: string
+      tableCaption?: string
+      tableHeaders?: string[]
+      tableData?: string[][]
+      exampleLabel?: string
+      exampleText?: string
+      numberedItems?: string[]
+      bulletItems?: string[]
+      scheduleLabel?: string
+      scheduleText?: string
+      comparisonTitle?: string
+      comparisonHeaders?: string[]
+      comparisonRows?: Array<{ parameter: string; value1: string; value2: string }>
+      warningLabel?: string
+      warningText?: string
+      features?: Array<{ title: string; description: string }>
+    }
+  }
+}
+
+export function GeneralStoragePage({ staticData, lang }: GeneralStoragePageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('warehouses')
 
+  // get category data from staticData
+  const categoryData = (staticData as Record<string, { subcategories?: { 'general-storage'?: SubcategoryData } }>)[
+    `${lang}:${ns}`
+  ]
+  const data = categoryData?.subcategories?.['general-storage']
+
   return (
     <Layout>
-      <Seo title={t('subcategories.general-storage.title', { ns })} description={t('subcategories.general-storage.shortDesc', { ns })} />
+      <Seo
+        title={t('subcategories.general-storage.title', { ns })}
+        description={t('subcategories.general-storage.shortDesc', { ns })}
+      />
       {/* Breadcrumbs */}
       <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
@@ -81,27 +133,27 @@ export function GeneralStoragePage() {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value="80-90%"
-              label="Снижение микрофлоры"
-              description="В воздухе и на поверхностях"
+              value={data?.stats?.microfloraReduction?.value ?? ''}
+              label={data?.stats?.microfloraReduction?.label ?? ''}
+              description={data?.stats?.microfloraReduction?.description ?? ''}
               variant="primary"
             />
             <StatCard
-              value="+20-40%"
-              label="Продление хранения"
-              description="Для различных категорий товаров"
+              value={data?.stats?.storageExtension?.value ?? ''}
+              label={data?.stats?.storageExtension?.label ?? ''}
+              description={data?.stats?.storageExtension?.description ?? ''}
               variant="accent"
             />
             <StatCard
-              value="99%"
-              label="Устранение запахов"
-              description="Химическое разложение, не маскировка"
+              value={data?.stats?.odorElimination?.value ?? ''}
+              label={data?.stats?.odorElimination?.label ?? ''}
+              description={data?.stats?.odorElimination?.description ?? ''}
               variant="primary"
             />
             <StatCard
-              value="24/7"
-              label="Автоматизация"
-              description="Работа по таймеру без персонала"
+              value={data?.stats?.automation?.value ?? ''}
+              label={data?.stats?.automation?.label ?? ''}
+              description={data?.stats?.automation?.description ?? ''}
               variant="accent"
             />
           </StatGrid>
@@ -112,244 +164,117 @@ export function GeneralStoragePage() {
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>
-              Современная складская логистика требует комплексного подхода к поддержанию качества хранимых товаров.
-              Озонирование воздуха — универсальная технология, решающая задачи дезинфекции, дезодорации, борьбы с
-              вредителями и профилактики порчи продукции одновременно.
-            </Paragraph>
-            <Paragraph>
-              Для логистических операторов и владельцев складских комплексов озонирование становится стандартом
-              качества, позволяющим снизить потери, продлить сроки хранения товаров и обеспечить соответствие санитарным
-              требованиям без постоянного применения химических средств.
-            </Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>Для менеджеров по логистике:</strong> Озонирование — это обработка большого объёма воздуха без
-            необходимости выгрузки товаров. Газ проникает во все зоны склада, включая труднодоступные места между
-            паллетами и на верхних ярусах стеллажей.
+            <strong>{data?.sections?.intro?.infoLabel ?? ''}</strong> {data?.sections?.intro?.infoText ?? ''}
           </HighlightBox>
 
-          <ArticleSection title="Типы складов и рекомендованные решения">
-            <Paragraph>
-              Подход к озонированию различается в зависимости от типа складского помещения, хранимой продукции и
-              интенсивности товарооборота.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.warehouseTypes?.title}>
+            <Paragraph>{data?.sections?.warehouseTypes?.paragraph ?? ''}</Paragraph>
 
             <DataTable
-              caption="Рекомендации по типам складских помещений"
-              headers={['Тип склада', 'Рекомендуемое оборудование', 'Режим работы']}
-              rows={[
-                ['Распределительный центр', 'Канальные озонаторы в HVAC', 'Непрерывный в низких дозах'],
-                ['Класс A (высотное хранение)', 'Мобильные + настенные', 'Ночная обработка зонами'],
-                ['Класс B (стандартный)', 'Настенные озонаторы', '2-3 раза в неделю'],
-                ['Холодильный склад', 'Специальные модели -20°C', 'По графику без разморозки'],
-                ['Склад е-commerce', 'Озоновые шкафы для партий', 'Обработка при приёмке'],
-              ]}
+              caption={data?.sections?.warehouseTypes?.tableCaption}
+              headers={data?.sections?.warehouseTypes?.tableHeaders ?? []}
+              rows={data?.sections?.warehouseTypes?.tableData ?? []}
             />
           </ArticleSection>
 
-          <ArticleSection title="Расчёт покрытия для больших пространств">
-            <Paragraph>
-              Для эффективной обработки складов площадью от 1000 м² необходимо учитывать не только объём помещения, но и
-              высоту потолков, наличие стеллажей, интенсивность воздухообмена и тип хранимых товаров.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.calculation?.title}>
+            <Paragraph>{data?.sections?.calculation?.paragraph ?? ''}</Paragraph>
 
             <DataTable
-              caption="Формула расчёта производительности озонатора"
-              headers={['Параметр', 'Значение', 'Примечание']}
-              rows={[
-                ['Базовое соотношение', '1 г/ч на 25 м³', 'Для пустого помещения'],
-                ['Коэффициент заполнения', '×1.2-1.5', 'При наличии стеллажей'],
-                ['Высота потолков >6м', '×1.3', 'Дополнительный коэффициент'],
-                ['Высокая влажность >70%', '×1.2', 'Озон быстрее распадается'],
-                ['Температура ниже 0°C', '×0.8', 'Озон стабильнее'],
-              ]}
+              caption={data?.sections?.calculation?.tableCaption}
+              headers={data?.sections?.calculation?.tableHeaders ?? []}
+              rows={data?.sections?.calculation?.tableData ?? []}
             />
 
             <HighlightBox variant="success">
-              <strong>Пример расчёта:</strong> Склад 3000 м² × 8 м высота = 24000 м³. Базовая производительность:
-              24000÷25 = 960 г/ч. С учётом стеллажей (×1.3): 1248 г/ч. Рекомендуется установка 4-5 озонаторов по 250-300
-              г/ч или интеграция в систему вентиляции.
+              <strong>{data?.sections?.calculation?.exampleLabel ?? ''}</strong>{' '}
+              {data?.sections?.calculation?.exampleText ?? ''}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Интеграция с системой вентиляции (HVAC)">
-            <Paragraph>
-              Для крупных логистических комплексов оптимальным решением является интеграция озонаторного оборудования в
-              существующую систему вентиляции и кондиционирования.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.hvacIntegration?.title}>
+            <Paragraph>{data?.sections?.hvacIntegration?.paragraph ?? ''}</Paragraph>
 
-            <NumberedList
-              items={[
-                'Канальный озонатор устанавливается в воздуховод приточной или рециркуляционной ветки',
-                'Датчик концентрации озона контролирует уровень в рабочей зоне',
-                'Автоматика управляет режимами: профилактический (низкие дозы) и интенсивный (в нерабочее время)',
-                'Интеграция с BMS (Building Management System) для централизованного контроля',
-                'Озоноразрушитель на выходе вентиляции при выбросе в атмосферу',
-              ]}
-            />
+            <NumberedList items={data?.sections?.hvacIntegration?.numberedItems ?? []} />
 
-            <BulletList
-              items={[
-                'Равномерное распределение озона по всему объёму склада',
-                'Автоматическое проветривание через систему вентиляции',
-                'Возможность зонирования обработки',
-                'Минимальные затраты на обслуживание после интеграции',
-                'Соответствие требованиям охраны труда',
-              ]}
-            />
+            <BulletList items={data?.sections?.hvacIntegration?.bulletItems ?? []} />
           </ArticleSection>
 
-          <ArticleSection title="Частота обработки и оптимальный график">
-            <Paragraph>
-              Регулярность озонирования зависит от типа склада, интенсивности товарооборота и требований к качеству
-              хранения. Для большинства складов достаточно 2-4 обработок в неделю в нерабочее время.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.frequency?.title}>
+            <Paragraph>{data?.sections?.frequency?.paragraph ?? ''}</Paragraph>
 
             <DataTable
-              caption="Рекомендуемая частота обработки"
-              headers={['Тип товаров', 'Частота', 'Продолжительность']}
-              rows={[
-                ['Промышленные товары', '1-2 раза в неделю', '60-90 минут'],
-                ['Текстиль, одежда', '2-3 раза в неделю', '60-120 минут'],
-                ['Бытовая химия', '1 раз в неделю', '30-60 минут'],
-                ['Электроника', '1-2 раза в неделю', '30-60 минут'],
-                ['Строительные материалы', '1 раз в неделю', '60-90 минут'],
-                ['Скоропортящиеся товары', 'Ежедневно', '120-180 минут'],
-              ]}
+              caption={data?.sections?.frequency?.tableCaption}
+              headers={data?.sections?.frequency?.tableHeaders ?? []}
+              rows={data?.sections?.frequency?.tableData ?? []}
             />
 
             <HighlightBox variant="info">
-              <strong>Оптимальный график:</strong> Рекомендуется проводить озонирование в ночные часы (22:00 — 06:00).
-              При правильно подобранном времени обработки озон полностью выветрится к началу рабочего дня без
-              необходимости специального проветривания.
+              <strong>{data?.sections?.frequency?.scheduleLabel ?? ''}</strong>{' '}
+              {data?.sections?.frequency?.scheduleText ?? ''}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Профилактика появления вредителей">
-            <Paragraph>
-              Озон эффективен против широкого спектра складских вредителей: насекомых, грызунов, клещей. Регулярная
-              обработка создаёт неблагоприятную среду для их обитания и размножения.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.pestPrevention?.title}>
+            <Paragraph>{data?.sections?.pestPrevention?.paragraph1 ?? ''}</Paragraph>
 
             <DataTable
-              caption="Эффективность озона против складских вредителей"
-              headers={['Вредитель', 'Эффективность', 'Режим обработки']}
-              rows={[
-                ['Амбарный долгоносик', '95-99%', '30-60 мг/м³, 30-60 мин'],
-                ['Мучной хрущак', '90-95%', '20-40 мг/м³, 60 мин'],
-                ['Табачный жук', '95-99%', '30-50 мг/м³, 45 мин'],
-                ['Пылевые клещи', '99%', '10-20 мг/м³, 30 мин'],
-                ['Грызуны (отпугивание)', '80-90%', '5-10 мг/м³, регулярно'],
-              ]}
+              caption={data?.sections?.pestPrevention?.tableCaption}
+              headers={data?.sections?.pestPrevention?.tableHeaders ?? []}
+              rows={data?.sections?.pestPrevention?.tableData ?? []}
             />
 
-            <Paragraph>
-              При обнаружении вредителей озонирование используется как часть комплекса мер по дезинсекции. Озон не
-              заменяет профессиональную обработку при сильном заражении, но эффективен для профилактики и поддерживающих
-              обработок.
-            </Paragraph>
+            <Paragraph>{data?.sections?.pestPrevention?.paragraph2 ?? ''}</Paragraph>
           </ArticleSection>
 
-          <ArticleSection title="Качество воздуха для персонала">
-            <Paragraph>
-              Озонирование улучшает условия труда складских работников: устраняет затхлые запахи, снижает концентрацию
-              пыли и аллергенов, уничтожает болезнетворные микроорганизмы в воздухе.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.airQuality?.title}>
+            <Paragraph>{data?.sections?.airQuality?.paragraph ?? ''}</Paragraph>
 
             <ComparisonTable
-              title="До и после внедрения озонирования"
-              headers={['Показатель', 'С озонированием', 'Без озонирования']}
-              rows={[
-                { parameter: 'Запах в помещении', value1: 'Свежий воздух', value2: 'Затхлость, запах товаров' },
-                { parameter: 'Микрофлора в воздухе', value1: 'Снижена на 80-90%', value2: 'Стандартный уровень' },
-                { parameter: 'Респираторные заболевания', value1: '-30-40%', value2: 'Базовый уровень' },
-                { parameter: 'Аллергические реакции', value1: '-50-60%', value2: 'Частые жалобы' },
-                { parameter: 'Субъективный комфорт', value1: 'Высокий', value2: 'Средний/низкий' },
-              ]}
+              title={data?.sections?.airQuality?.comparisonTitle}
+              headers={(data?.sections?.airQuality?.comparisonHeaders ?? ['', '', '']) as [string, string, string]}
+              rows={data?.sections?.airQuality?.comparisonRows ?? []}
             />
 
             <HighlightBox variant="warning">
-              <strong>Требования безопасности:</strong> ПДК озона в рабочей зоне — 0,1 мг/м³. Обработка проводится в
-              отсутствие людей. Персоналу, осуществляющему обслуживание во время озонирования, необходимо использовать
-              респиратор или противогаз с угольным фильтром.
+              <strong>{data?.sections?.airQuality?.warningLabel ?? ''}</strong>{' '}
+              {data?.sections?.airQuality?.warningText ?? ''}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Соответствие требованиям хранения">
-            <Paragraph>
-              Озонирование помогает соответствовать санитарным требованиям к складским помещениям различных классов. При
-              этом озон не оставляет химических остатков на товарах и совместим с большинством материалов.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.compliance?.title}>
+            <Paragraph>{data?.sections?.compliance?.paragraph ?? ''}</Paragraph>
 
-            <BulletList
-              items={[
-                'СанПиН 2.1.2.2645-10 — санитарно-эпидемиологические требования',
-                'СП 2.2.3670-20 — санитарные правила для рабочих мест',
-                'ГОСТ Р 51303-2013 — классификация складских помещений',
-                'Требования арендаторов к качеству хранения',
-                'Сертификационные требования для фармацевтических и продуктовых складов',
-              ]}
-            />
+            <BulletList items={data?.sections?.compliance?.bulletItems ?? []} />
           </ArticleSection>
 
-          <ArticleSection title="Экономика внедрения">
-            <Paragraph>
-              Инвестиции в озонирование окупаются за счёт снижения потерь, экономии на химической обработке и улучшения
-              показателей здоровья персонала.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.economics?.title}>
+            <Paragraph>{data?.sections?.economics?.paragraph1 ?? ''}</Paragraph>
 
             <DataTable
-              caption="Калькулятор ROI для склада 5000 м²"
-              headers={['Статья', 'Без озонирования', 'С озонированием']}
-              rows={[
-                ['Потери от порчи товаров', '500 000 ₽/год', '150 000 ₽/год'],
-                ['Химическая обработка', '120 000 ₽/год', '20 000 ₽/год'],
-                ['Больничные листы (дни)', '45 дней/год', '25 дней/год'],
-                ['Рекламации по качеству', '80 000 ₽/год', '20 000 ₽/год'],
-                ['Затраты на озонирование', '—', '180 000 ₽/год*'],
-              ]}
+              caption={data?.sections?.economics?.tableCaption}
+              headers={data?.sections?.economics?.tableHeaders ?? []}
+              rows={data?.sections?.economics?.tableData ?? []}
             />
 
-            <Paragraph>
-              * Включая амортизацию оборудования, электроэнергию и техническое обслуживание. Чистая экономия: около 330
-              000 ₽/год. Срок окупаемости оборудования: 8-14 месяцев.
-            </Paragraph>
+            <Paragraph>{data?.sections?.economics?.paragraph2 ?? ''}</Paragraph>
           </ArticleSection>
 
-          <ArticleSection title="Преимущества для логистических операторов">
+          <ArticleSection title={data?.sections?.benefits?.title}>
             <FeatureGrid columns={2}>
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Универсальность"
-                description="Один метод против бактерий, вирусов, грибков, запахов и вредителей"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Масштабируемость"
-                description="От небольшого склада до логистического комплекса 100 000+ м²"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Автоматизация"
-                description="Работа по расписанию без участия персонала, интеграция с BMS"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Без остатков"
-                description="Озон распадается до кислорода, не оставляя химических следов на товарах"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Быстрый запуск"
-                description="Установка и запуск оборудования за 1-2 дня без остановки склада"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Низкие OPEX"
-                description="Минимальные операционные расходы: только электричество и воздух"
-              />
+              {(data?.sections?.benefits?.features ?? []).map((feature, index) => (
+                <FeatureCard
+                  key={index}
+                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                  title={feature.title}
+                  description={feature.description}
+                />
+              ))}
             </FeatureGrid>
           </ArticleSection>
         </div>

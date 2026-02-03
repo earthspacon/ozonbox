@@ -1,9 +1,10 @@
 import Image from 'next/image'
-import { useTranslate } from '@tolgee/react'
+import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
+import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { useLang } from '@/shared/lib'
 import { AppLink } from '@/shared/ui/app-link'
 import {
   ArticleSection,
@@ -20,9 +21,49 @@ import {
 import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import { Seo } from '@/shared/ui/seo'
 
-export function MoldPreventionPage() {
+interface MoldPreventionPageProps {
+  staticData: TolgeeStaticDataProp
+  lang: TLocale
+}
+
+interface SubcategoryData {
+  title: string
+  shortDesc: string
+  stats?: {
+    [key: string]: {
+      value: string
+      label: string
+      description: string
+    }
+  }
+  sections?: {
+    [key: string]: {
+      title?: string
+      intro?: string
+      paragraph1?: string
+      paragraph2?: string
+      warningLabel?: string
+      warningText?: string
+      items?: string[] | Array<{ title: string; description: string }>
+      tableCaption?: string
+      tableHeaders?: string[]
+      tableRows?: string[][]
+      hvacLabel?: string
+      hvacText?: string
+      [key: string]: unknown
+    }
+  }
+}
+
+export function MoldPreventionPage({ staticData, lang }: MoldPreventionPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('warehouses')
+
+  // get category data from staticData
+  const categoryData = (staticData as Record<string, { subcategories?: { 'mold-prevention'?: SubcategoryData } }>)[
+    `${lang}:${ns}`
+  ]
+  const data = categoryData?.subcategories?.['mold-prevention']
 
   return (
     <Layout>
@@ -80,19 +121,29 @@ export function MoldPreventionPage() {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value="95-99%"
-              label="Уничтожение плесени"
-              description="После обработки озоном"
+              value={t('subcategories.mold-prevention.stats.destruction.value', { ns })}
+              label={t('subcategories.mold-prevention.stats.destruction.label', { ns })}
+              description={t('subcategories.mold-prevention.stats.destruction.description', { ns })}
               variant="primary"
             />
             <StatCard
-              value="1-3 ч"
-              label="Время обработки"
-              description="Для эффективной дезинфекции"
+              value={t('subcategories.mold-prevention.stats.treatmentTime.value', { ns })}
+              label={t('subcategories.mold-prevention.stats.treatmentTime.label', { ns })}
+              description={t('subcategories.mold-prevention.stats.treatmentTime.description', { ns })}
               variant="accent"
             />
-            <StatCard value="80%" label="Снижение потерь" description="От порчи продукции" variant="primary" />
-            <StatCard value="0" label="Химикатов" description="Распад озона до O₂" variant="accent" />
+            <StatCard
+              value={t('subcategories.mold-prevention.stats.lossReduction.value', { ns })}
+              label={t('subcategories.mold-prevention.stats.lossReduction.label', { ns })}
+              description={t('subcategories.mold-prevention.stats.lossReduction.description', { ns })}
+              variant="primary"
+            />
+            <StatCard
+              value={t('subcategories.mold-prevention.stats.chemicals.value', { ns })}
+              label={t('subcategories.mold-prevention.stats.chemicals.label', { ns })}
+              description={t('subcategories.mold-prevention.stats.chemicals.description', { ns })}
+              variant="accent"
+            />
           </StatGrid>
         </div>
       </section>
@@ -101,66 +152,34 @@ export function MoldPreventionPage() {
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>
-              Бесконтрольный рост плесени в складских помещениях — одна из главных проблем складской логистики. Плесень
-              и другие микроорганизмы значительно затрудняют работу складского комплекса: порча продукции и картонных
-              коробок увеличивает процент брака, а споры плесени и токсины в воздухе подрывают иммунитет сотрудников
-              склада.
-            </Paragraph>
-            <Paragraph>
-              Озонирование складских помещений позволяет решить сразу несколько проблем: устранить порчу хранимой
-              продукции в результате жизнедеятельности плесени и гнили, удалить неприятные запахи и улучшить
-              самочувствие работников склада. Попадание единичных спор плесени в организм легко блокируется иммунной
-              системой, но при большом количестве они представляют серьёзную угрозу из-за токсинов, выделяемых в
-              процессе жизнедеятельности.
-            </Paragraph>
+            <Paragraph>{t('subcategories.mold-prevention.sections.intro.paragraph1', { ns })}</Paragraph>
+            <Paragraph>{t('subcategories.mold-prevention.sections.intro.paragraph2', { ns })}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="warning">
-            <strong>Важно для B2B:</strong> Озон взаимодействует с мембранной структурой клеток бактерий, грибов и
-            структурной единицей вирусов, что приводит к нарушению их барьерной функции и гибели. Дозы и концентрации
-            необходимо подбирать в зависимости от обрабатываемой продукции, объёмов помещения и технических условий.
+            <strong>{t('subcategories.mold-prevention.sections.intro.warningLabel', { ns })}</strong>{' '}
+            {t('subcategories.mold-prevention.sections.intro.warningText', { ns })}
           </HighlightBox>
 
-          <ArticleSection title="Механизм воздействия озона на плесень">
-            <Paragraph>
-              Озон — мощный окислитель, который разрушает клеточные мембраны грибков и плесени. В отличие от
-              поверхностных химических средств, газообразный озон проникает во все труднодоступные места: щели,
-              стеллажи, упаковку, системы вентиляции.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.mechanism?.title}>
+            <Paragraph>{data?.sections?.mechanism?.intro ?? ''}</Paragraph>
             <BulletList
-              items={[
-                'Разрушение клеточных мембран спор и мицелия плесени',
-                'Окисление органических веществ — питательной среды для грибков',
-                'Нейтрализация микотоксинов и продуктов жизнедеятельности',
-                'Подавление роста новых колоний за счёт изменения среды',
-                'Устранение затхлого запаха на молекулярном уровне',
-              ]}
+              items={((data?.sections?.mechanism?.items as string[]) ?? [])}
             />
           </ArticleSection>
 
-          <ArticleSection title="Расчёт оборудования для склада">
-            <Paragraph>
-              Правильный подбор производительности озонатора — ключевой фактор эффективной обработки. Для складских
-              помещений используется базовое соотношение: 1 г/ч производительности по озону на 25 м³ объёма помещения.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.equipment?.title}>
+            <Paragraph>{data?.sections?.equipment?.intro ?? ''}</Paragraph>
 
             <DataTable
-              caption="Рекомендации по выбору оборудования для складов"
-              headers={['Объём склада', 'Производительность озонатора', 'Время обработки']}
-              rows={[
-                ['до 500 м³', '20-25 г/ч', '60-90 мин'],
-                ['500-1000 м³', '40-50 г/ч', '60-120 мин'],
-                ['1000-2500 м³', '80-100 г/ч', '90-120 мин'],
-                ['2500-5000 м³', '150-200 г/ч', '120-180 мин'],
-                ['свыше 5000 м³', 'Несколько установок', '120-180 мин'],
-              ]}
+              caption={data?.sections?.equipment?.tableCaption}
+              headers={data?.sections?.equipment?.tableHeaders ?? []}
+              rows={data?.sections?.equipment?.tableRows ?? []}
             />
 
             <HighlightBox variant="info">
-              <strong>Интеграция с HVAC:</strong> Для крупных складов рекомендуется использовать канальные озонаторы,
-              интегрированные в систему вентиляции. Это обеспечивает равномерное распределение озона по всему объёму и
-              автоматическое проветривание после обработки.
+              <strong>{data?.sections?.equipment?.hvacLabel ?? ''}</strong>{' '}
+              {data?.sections?.equipment?.hvacText ?? ''}
             </HighlightBox>
           </ArticleSection>
 
@@ -234,19 +253,10 @@ export function MoldPreventionPage() {
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Соответствие требованиям и стандартам">
-            <Paragraph>
-              Озонирование складских помещений соответствует санитарным нормам и требованиям к хранению товаров. Озон не
-              оставляет химических остатков на продукции, полностью распадаясь до кислорода.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.standards?.title}>
+            <Paragraph>{data?.sections?.standards?.intro ?? ''}</Paragraph>
             <BulletList
-              items={[
-                'СанПиН 2.1.6.1032-01 — гигиенические требования к качеству атмосферного воздуха',
-                'ГОСТ Р 51232-98 — питьевая вода (для складов продуктов питания)',
-                'ТР ТС 021/2011 — требования безопасности пищевой продукции',
-                'ФЗ-52 «О санитарно-эпидемиологическом благополучии населения»',
-                'Требования к складским помещениям категории А, Б, В',
-              ]}
+              items={((data?.sections?.standards?.items as string[]) ?? [])}
             />
           </ArticleSection>
 
