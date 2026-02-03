@@ -1,14 +1,14 @@
-import Image from 'next/image'
-import { useTranslate } from '@tolgee/react'
+import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
-import { AppLink } from '@/shared/ui/app-link'
+import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
 import {
+  ArticleHero,
   ArticleSection,
   BulletList,
   ComparisonTable,
+  CTASection,
   DataTable,
   FeatureCard,
   FeatureGrid,
@@ -18,343 +18,234 @@ import {
   StatCard,
   StatGrid,
 } from '@/shared/ui/article-components'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
+import { IconCheck } from '@/shared/ui/icons'
 import { Seo } from '@/shared/ui/seo'
 
-export function PublicBusesPage() {
+interface PublicBusesPageProps {
+  staticData: TolgeeStaticDataProp
+  lang: TLocale
+}
+
+interface SubcategoryData {
+  title: string
+  shortDesc: string
+  stats?: {
+    [key: string]: {
+      value: string
+      label: string
+      description: string
+    }
+  }
+  sections?: {
+    [key: string]: {
+      title?: string
+      intro?: string
+      paragraph1?: string
+      paragraph2?: string
+      text?: string
+      text2?: string
+      items?: string[] | Array<{ title: string; description: string }>
+      tableCaption?: string
+      tableHeaders?: string[]
+      tableData?: string[][]
+      steps?: Array<{ title: string; description: string }>
+      note?: string
+      warning?: { title: string; text: string }
+      highlight?: string
+      comparisonTitle?: string
+    }
+  }
+}
+
+export function PublicBusesPage({ staticData, lang }: PublicBusesPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('transport')
 
+  // get category data from staticData
+  const categoryData = (staticData as Record<string, { subcategories?: { 'public-buses'?: SubcategoryData } }>)[
+    `${lang}:${ns}`
+  ]
+  const data = categoryData?.subcategories?.['public-buses']
+
+  const breadcrumbs = [
+    { label: t('nav.applications', { ns: NAMESPACES.common }), href: '/applications' },
+    { label: t('title', { ns }), href: '/applications/transport' },
+    { label: t('subcategories.public-buses.title', { ns }) },
+  ]
+
   return (
     <Layout>
-      <Seo title={t('subcategories.public-buses.title', { ns })} description={t('subcategories.public-buses.shortDesc', { ns })} />
-      {/* Breadcrumbs */}
-      <div className="bg-bg-light border-border border-b">
-        <div className="container py-4">
-          <nav className="flex items-center gap-2 text-sm">
-            <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
-              {t('nav.applications', { ns: NAMESPACES.common })}
-            </AppLink>
-            <span className="text-text-light">/</span>
-            <AppLink
-              href="/applications/transport"
-              className="text-text-secondary hover:text-primary transition-colors"
-            >
-              {t('title', { ns })}
-            </AppLink>
-            <span className="text-text-light">/</span>
-            <span className="text-text-primary font-medium">{t('subcategories.public-buses.title', { ns })}</span>
-          </nav>
-        </div>
-      </div>
+      <Seo
+        title={t('subcategories.public-buses.title', { ns })}
+        description={t('subcategories.public-buses.shortDesc', { ns })}
+      />
 
-      {/* Hero Section */}
-      <section className="relative overflow-hidden py-16 md:py-24">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?w=1920&q=80"
-            alt={t('subcategories.public-buses.title', { ns })}
-            fill
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
-        </div>
-        <div className="relative z-10 container">
-          <AppLink
-            href="/applications/transport"
-            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
-          >
-            <IconArrowLeft style={{ width: 20, height: 20 }} />
-            <span>{t('title', { ns })}</span>
-          </AppLink>
-          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
-            {t('subcategories.public-buses.title', { ns })}
-          </h1>
-          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
-            {t('subcategories.public-buses.shortDesc', { ns })}
-          </p>
-        </div>
-      </section>
+      <ArticleHero
+        title={t('subcategories.public-buses.title', { ns })}
+        description={t('subcategories.public-buses.shortDesc', { ns })}
+        image="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?w=1920&q=80"
+        imageAlt={t('subcategories.public-buses.title', { ns })}
+        breadcrumbs={breadcrumbs}
+        backLink={{
+          href: '/applications/transport',
+          label: t('title', { ns }),
+        }}
+      />
 
       {/* Key Stats */}
       <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
-            <StatCard value="20-40" label="минут" description="Полный цикл обработки салона" variant="primary" />
             <StatCard
-              value="99,9%"
-              label="Эффективность"
-              description="Уничтожение вирусов и бактерий"
+              value={data?.stats?.time?.value ?? ''}
+              label={data?.stats?.time?.label ?? ''}
+              description={data?.stats?.time?.description ?? ''}
+              variant="primary"
+            />
+            <StatCard
+              value={data?.stats?.efficiency?.value ?? ''}
+              label={data?.stats?.efficiency?.label ?? ''}
+              description={data?.stats?.efficiency?.description ?? ''}
               variant="accent"
             />
-            <StatCard value="12/24В" label="Питание" description="Работа от бортовой сети автобуса" variant="primary" />
-            <StatCard value="0" label="Расходников" description="Только электричество" variant="accent" />
+            <StatCard
+              value={data?.stats?.power?.value ?? ''}
+              label={data?.stats?.power?.label ?? ''}
+              description={data?.stats?.power?.description ?? ''}
+              variant="primary"
+            />
+            <StatCard
+              value={data?.stats?.consumables?.value ?? ''}
+              label={data?.stats?.consumables?.label ?? ''}
+              description={data?.stats?.consumables?.description ?? ''}
+              variant="accent"
+            />
           </StatGrid>
         </div>
       </section>
 
       {/* Main Content */}
-      <article className="py-12 md:py-16">
+      <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>
-              Городской общественный транспорт — среда с высокой интенсивностью контактов между людьми. Ежедневно через
-              салон автобуса проходят сотни пассажиров, прикасаясь к поручням, сиденьям, кнопкам остановки. В период
-              эпидемий риск передачи инфекций многократно возрастает.
-            </Paragraph>
-            <Paragraph>
-              Озонирование обеспечивает глубокую дезинфекцию всех поверхностей салона, включая труднодоступные места:
-              щели в обивке, систему вентиляции, пространство под сиденьями. В отличие от протирки дезинфицирующими
-              средствами, озон-газ проникает везде и не оставляет химических остатков.
-            </Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>Для операторов автопарков:</strong> Озонирование можно проводить в автопарке ночью, между рейсами
-            или во время технических перерывов. Один мобильный озонатор обрабатывает 10-15 автобусов за смену —
-            значительная экономия по сравнению с наймом дополнительного клинингового персонала.
+            <strong>{data?.sections?.highlight1?.title ?? ''}</strong> {data?.sections?.highlight1?.text ?? ''}
           </HighlightBox>
 
-          <ArticleSection title="Проблемы санитарии в общественном транспорте">
-            <Paragraph>
-              Пассажирский салон автобуса — благоприятная среда для размножения микроорганизмов. Тепло от двигателя,
-              влажность от дыхания пассажиров, органические загрязнения создают идеальные условия для бактерий, вирусов
-              и грибков.
-            </Paragraph>
-            <BulletList
-              items={[
-                'Поручни и ручки — основной источник контактной передачи инфекций',
-                'Тканевая обивка сидений впитывает влагу, запахи и микроорганизмы',
-                'Система вентиляции распространяет аэрозольные частицы по всему салону',
-                'Напольные покрытия накапливают грязь и патогены с обуви',
-                'Труднодоступные места не обрабатываются при обычной уборке',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.sanitationProblems?.title}>
+            <Paragraph>{data?.sections?.sanitationProblems?.text ?? ''}</Paragraph>
+            <BulletList items={(data?.sections?.sanitationProblems?.items as string[]) ?? []} />
           </ArticleSection>
 
-          <ArticleSection title="Технология озонирования автобусов">
-            <Paragraph>
-              Озонирование салона автобуса — простая процедура, не требующая специальной квалификации персонала. Главное
-              — соблюдать режим обработки и технику безопасности.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.technology?.title}>
+            <Paragraph>{data?.sections?.technology?.text ?? ''}</Paragraph>
 
-            <ProcessList
-              steps={[
-                {
-                  title: 'Подготовка салона',
-                  description:
-                    'Закрыть все окна и двери. При необходимости провести предварительную влажную уборку для удаления крупных загрязнений.',
-                },
-                {
-                  title: 'Размещение озонатора',
-                  description:
-                    'Установить озонатор в центре салона или в проходе на максимальной высоте. Подключить к электрической сети (220В/230В) или внешнему источнику питания.',
-                },
-                {
-                  title: 'Озонирование',
-                  description:
-                    'Включить озонатор, покинуть салон и закрыть дверь. Время обработки 20-40 минут в зависимости от объёма и загрязнённости.',
-                },
-                {
-                  title: 'Проветривание',
-                  description:
-                    'Открыть все двери и окна, включить штатную вентиляцию. Проветривать 15-20 минут до полного выветривания озона.',
-                },
-              ]}
-            />
+            <ProcessList steps={data?.sections?.technology?.steps ?? []} />
 
             <HighlightBox variant="success">
-              После проветривания в салоне остаётся лёгкий запах свежести — озон полностью распадается до кислорода.
-              Автобус готов к выходу на линию без дополнительной обработки.
+              {data?.sections?.technology?.highlight ?? ''}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Режимы обработки для автопарков">
+          <ArticleSection title={data?.sections?.modes?.title}>
             <DataTable
-              caption="Рекомендуемые режимы озонирования городских автобусов"
-              headers={['Режим обработки', 'Концентрация', 'Время', 'Когда применять']}
-              rows={[
-                ['Экспресс между рейсами', '10-15 мг/м³', '15-20 мин', 'На конечных остановках, перерывы'],
-                ['Стандартный ночной', '15-20 мг/м³', '30-40 мин', 'Ежедневно в автопарке'],
-                ['Глубокая дезинфекция', '25-30 мг/м³', '60 мин', 'Еженедельно или после инцидентов'],
-                ['Сезонная обработка', '20-25 мг/м³', '90 мин', 'Перед сезоном эпидемий'],
-              ]}
+              caption={data?.sections?.modes?.tableCaption}
+              headers={data?.sections?.modes?.tableHeaders ?? []}
+              rows={data?.sections?.modes?.tableData ?? []}
             />
 
-            <Paragraph>
-              При выборе режима учитывайте загруженность маршрута, сезон (в период эпидемий — более интенсивная
-              обработка), состояние салона. Регулярное озонирование снижает потребность в глубокой обработке.
-            </Paragraph>
+            <Paragraph>{data?.sections?.modes?.text ?? ''}</Paragraph>
           </ArticleSection>
 
-          <ArticleSection title="Эффективность против патогенов">
-            <Paragraph>
-              Озон уничтожает широкий спектр микроорганизмов, актуальных для общественного транспорта:
-            </Paragraph>
+          <ArticleSection title={data?.sections?.pathogenEfficiency?.title}>
+            <Paragraph>{data?.sections?.pathogenEfficiency?.text ?? ''}</Paragraph>
 
             <DataTable
-              caption="Эффективность озона против патогенов в салоне автобуса"
-              headers={['Патоген', 'Время инактивации', 'Эффективность']}
-              rows={[
-                ['Вирусы гриппа A/B', '5-10 мин', '99,99%'],
-                ['Коронавирусы (SARS-CoV-2)', '10-15 мин', '99,99%'],
-                ['Норовирус', '15-20 мин', '99,9%'],
-                ['Staphylococcus aureus', '10-15 мин', '99,99%'],
-                ['E. coli', '5-10 мин', '99,99%'],
-                ['Грибки рода Candida', '15-20 мин', '99,9%'],
-                ['Плесневые споры', '30-40 мин', '99,9%'],
-              ]}
+              caption={data?.sections?.pathogenEfficiency?.tableCaption}
+              headers={data?.sections?.pathogenEfficiency?.tableHeaders ?? []}
+              rows={data?.sections?.pathogenEfficiency?.tableData ?? []}
             />
           </ArticleSection>
 
-          <ArticleSection title="Устранение запахов в салоне">
-            <Paragraph>
-              Помимо дезинфекции, озонирование эффективно устраняет неприятные запахи, которые накапливаются в салоне
-              автобуса:
-            </Paragraph>
-            <BulletList
-              items={[
-                'Запах пота и человеческого тела от большого потока пассажиров',
-                'Запахи еды, которую перевозят пассажиры',
-                'Табачный дым от одежды курящих пассажиров',
-                'Затхлый запах от влажной обивки и напольных покрытий',
-                'Запахи от системы кондиционирования с накопившейся плесенью',
-                'Специфические запахи после перевозки определённых категорий пассажиров',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.odorRemoval?.title}>
+            <Paragraph>{data?.sections?.odorRemoval?.text ?? ''}</Paragraph>
+            <BulletList items={(data?.sections?.odorRemoval?.items as string[]) ?? []} />
 
-            <Paragraph>
-              Озон окисляет молекулы запаха, а не маскирует их. Результат — действительно чистый воздух, а не смесь
-              запахов с ароматизатором. Это особенно ценят пассажиры утренних рейсов.
-            </Paragraph>
+            <Paragraph>{data?.sections?.odorRemoval?.text2 ?? ''}</Paragraph>
           </ArticleSection>
 
-          <ArticleSection title="Интеграция в график работы автопарка">
+          <ArticleSection title={data?.sections?.integration?.title}>
             <FeatureGrid columns={2}>
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Ночная обработка"
-                description="Автобусы озонируются в автопарке с 23:00 до 05:00. Один оператор обрабатывает весь парк"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Между сменами"
-                description="Экспресс-обработка при пересменке водителей. 15-20 минут — и автобус готов к следующему рейсу"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="На конечных остановках"
-                description="Компактный озонатор работает от бортовой сети во время стоянки на конечной"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Без простоя автобусов"
-                description="Озонирование не требует вывода транспорта из эксплуатации — обработка в штатные перерывы"
-              />
+              {((data?.sections?.integration?.items as Array<{ title: string; description: string }>) ?? []).map(
+                (item, idx) => (
+                  <FeatureCard
+                    key={idx}
+                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                    title={item.title}
+                    description={item.description}
+                  />
+                ),
+              )}
             </FeatureGrid>
           </ArticleSection>
 
-          <ArticleSection title="Экономика озонирования автопарка">
+          <ArticleSection title={data?.sections?.economics?.title}>
             <ComparisonTable
-              title="Сравнение методов санитарной обработки автобусов"
-              headers={['Параметр', 'Озонирование', 'Ручная дезинфекция']}
-              rows={[
-                { parameter: 'Время на 1 автобус', value1: '20-40 минут', value2: '60-90 минут' },
-                { parameter: 'Персонал', value1: '1 человек на парк', value2: '1 человек на 3-5 автобусов' },
-                {
-                  parameter: 'Расходные материалы',
-                  value1: 'Только электричество',
-                  value2: 'Дезсредства, ветошь, перчатки',
-                },
-                { parameter: 'Охват поверхностей', value1: '100%', value2: '60-70%' },
-                { parameter: 'Обработка вентиляции', value1: 'Да', value2: 'Нет' },
-                { parameter: 'Устранение запахов', value1: 'Полное', value2: 'Частичное (маскировка)' },
-              ]}
+              title={data?.sections?.economics?.comparisonTitle ?? ''}
+              headers={data?.sections?.economics?.tableHeaders ?? []}
+              rows={data?.sections?.economics?.tableData ?? []}
             />
 
             <HighlightBox variant="info">
-              <strong>Пример расчёта:</strong> Автопарк из 50 автобусов. Ежедневная ручная обработка требует 5-6
-              уборщиков. С озонаторами справляется 1 оператор + 3-4 мобильных прибора. Срок окупаемости оборудования —
-              4-6 месяцев за счёт экономии на персонале и расходниках.
+              <strong>{data?.sections?.economics?.highlight?.title ?? ''}</strong>{' '}
+              {data?.sections?.economics?.highlight?.text ?? ''}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Оборудование для автопарков">
-            <Paragraph>Для озонирования городских автобусов применяются мобильные и настенные озонаторы:</Paragraph>
-            <BulletList
-              items={[
-                'Мобильные озонаторы (5-30 г/ч) — переносятся между автобусами, универсальные',
-                'Настенные озонаторы (10-20 г/ч) — устанавливаются стационарно в салоне',
-                'Питание 220В/230В — от электрической сети, не требуют внешнего подключения',
-                'Питание 220В — для обработки в автопарке от стационарной сети',
-                'Таймеры и дистанционное управление — автоматизация процесса',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.equipment?.title}>
+            <Paragraph>{data?.sections?.equipment?.text ?? ''}</Paragraph>
+            <BulletList items={(data?.sections?.equipment?.items as string[]) ?? []} />
 
             <DataTable
-              caption="Подбор озонатора по типу автобуса"
-              headers={['Тип автобуса', 'Объём салона', 'Производительность', 'Время обработки']}
-              rows={[
-                ['Малый класс (ПАЗ)', '15-20 м³', '5-10 г/ч', '15-20 мин'],
-                ['Средний класс (ЛиАЗ)', '40-50 м³', '10-20 г/ч', '20-30 мин'],
-                ['Большой класс (сочленённый)', '80-100 м³', '20-30 г/ч', '30-40 мин'],
-                ['Электробусы', '50-60 м³', '10-20 г/ч', '25-35 мин'],
-              ]}
+              caption={data?.sections?.equipment?.tableCaption}
+              headers={data?.sections?.equipment?.tableHeaders ?? []}
+              rows={data?.sections?.equipment?.tableData ?? []}
             />
           </ArticleSection>
 
-          <ArticleSection title="Соответствие нормативам">
-            <Paragraph>Озонирование пассажирского транспорта соответствует требованиям:</Paragraph>
-            <BulletList
-              items={[
-                'СанПиН 2.1.2.2645-10 — требования к санитарному состоянию транспорта',
-                'ГОСТ Р 51617-2014 — услуги пассажирского транспорта',
-                'Методические рекомендации Роспотребнадзора по дезинфекции транспорта',
-                'Региональные требования к санитарной обработке общественного транспорта',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.compliance?.title}>
+            <Paragraph>{data?.sections?.compliance?.text ?? ''}</Paragraph>
+            <BulletList items={(data?.sections?.compliance?.items as string[]) ?? []} />
 
             <HighlightBox variant="warning">
-              <strong>Документирование:</strong> Ведите журнал озонирования с указанием даты, времени, номера автобуса и
-              параметров обработки. Это подтверждение соблюдения санитарных норм при проверках.
+              <strong>{data?.sections?.compliance?.warning?.title ?? ''}</strong>{' '}
+              {data?.sections?.compliance?.warning?.text ?? ''}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Техника безопасности">
-            <Paragraph>Озон в высоких концентрациях вреден для дыхания. Соблюдайте правила безопасности:</Paragraph>
-            <BulletList
-              items={[
-                'Обработка проводится только в отсутствие людей в салоне',
-                'После включения озонатора немедленно покинуть автобус',
-                'Не открывать двери до окончания цикла обработки',
-                'После обработки — обязательное проветривание 15-20 минут',
-                'При необходимости раннего входа — использовать респиратор с угольным фильтром',
-                'Хранить озонатор в проветриваемом помещении',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.safety?.title}>
+            <Paragraph>{data?.sections?.safety?.text ?? ''}</Paragraph>
+            <BulletList items={(data?.sections?.safety?.items as string[]) ?? []} />
           </ArticleSection>
         </div>
       </article>
 
-      {/* CTA Section */}
-      <section className="cta">
-        <div className="container">
-          <h2 className="cta__title">{t('cta.applications.title', { ns: NAMESPACES.common })}</h2>
-          <p className="cta__text">{t('cta.applications.text', { ns: NAMESPACES.common })}</p>
-          <div className="cta__actions">
-            <AppLink href="/contacts" className="btn btn--white btn--large">
-              {t('hero.getConsultation', { ns: NAMESPACES.common })}
-            </AppLink>
-            <a
-              href="tel:+78001234567"
-              className="btn btn--secondary btn--large"
-              style={{ borderColor: 'white', color: 'white' }}
-            >
-              {t('header.phone', { ns: NAMESPACES.common })}
-            </a>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        title={t('cta.applications.title', { ns: NAMESPACES.common })}
+        description={t('cta.applications.text', { ns: NAMESPACES.common })}
+        primaryButton={{
+          label: t('hero.getConsultation', { ns: NAMESPACES.common }),
+          href: '/contacts',
+        }}
+        secondaryButton={{
+          label: t('header.phone', { ns: NAMESPACES.common }),
+          href: 'tel:+78001234567',
+        }}
+      />
     </Layout>
   )
 }
