@@ -1,0 +1,77 @@
+{
+  "title": "Issiqxonada bodring yetishtirish uchun ozon",
+  "excerpt": "Tadqiqotlar shuni ko'rsatdiki: ozonlangan suv bilan sug'orish bodring ko'chatlarining o'sishini rag'batlantiradi, barg maydonini 25–30% ga oshiradi, urug' hosildorligini yaxshilaydi va kimyoviy fumigantlarsiz nematodalarni yo'q qiladi.",
+  "body": {
+    "lead": "So'nggi yillarda ozonning ajoyib oksidlovchi xususiyatlari tufayli uning qo'llanilishi uchun yangi imkoniyatlar ochildi. Ozonlangan suv kimyo, farmatsevtika va to'qimachilik sanoatida qo'llaniladi. Ozon qishloq xo'jaligida ham qo'llanilmoqda — omborxonalar va saqlashga qo'yishdan oldin ayrim mahsulotlarni dezinfeksiya qilish uchun. Tadqiqotlar shuni ko'rsatdiki, ozon o'sishni rag'batlantiruvchi ta'sirga ham ega.",
+    "ozoneProperties": "Ozon kuchli oksidlovchi bo'lib, inson va atrof-muhit uchun xavfli emas. Ozon molekulalarining yashash muddati muhit haroratiga bog'liq; harorat oshganda ular tezda oddiy kislorodga aylanadi. Havoda ozon molekulalari bir necha daqiqa, suyuqlikda — bir soatgacha mavjud bo'lishi mumkin.",
+    "experimentSetup": "Ozon ishlab chiqarish uchun soatiga 6 g sig'imli sanoat ozon generatorlari ishlatildi, ballon kislorodi yoki havo kislorodidan foydalanildi. Ozon va suvni aralashtirish uchun gaz sug'orish suvi idishining resirkulyatsiya nasosining so'rish quvuriga berildi.",
+    "firstExperimentTitle": "Birinchi ishlab chiqarish tajribasi (2003)",
+    "firstExperiment": "Himoyalangan tuproqda ozonni qo'llash bo'yicha birinchi ishlab chiqarish tajribasi 2003 yilda issiqxona majmuasida o'tkazildi. Blokning issiqxonalaridan birida 16 iyuldan boshlab ozonlangan suv bilan sug'orildi, boshqa issiqxonalarga ozonlangan suv berilmadi. Sug'orish suvida ozon konsentratsiyasi 0,2 mg/l ni tashkil etdi. Ozonlangan suv bilan sug'orish ekinning vegetatsiyasi oxirigacha (ikki oy) davom etdi.",
+    "firstExperimentResult": "Ozonni qo'llash natijasi juda tez ko'rindi. Atigi ikki haftada hosildorlik sezilarli darajada oshdi. Ikki oy davomida tajriba issiqxonasida blokning boshqa issiqxonalariga qaraganda ancha ko'p mahsulot olindi.",
+    "nematodeEffect": "Mavsum oxirida o'simliklar ildiz tizimi tekshirildi. Ildizlarda yosh nematoda gallari topilmadi — faqat yarim parchalangan, sariq rangdagi galllar mavjud edi. Kuchli oksidlovchi sifatida ozon nematodalarning o'limiga sabab bo'lgan deb taxmin qilish mumkin.",
+    "seedGerminationTitle": "Ozonning urug' unib chiqishiga ta'siri",
+    "seedGermination": "Maxsus tajribada ozonning urug' unib chiqish jarayoniga ta'siri o'rganildi. Pomidor urug'lari ikki soat davomida ozon bilan ishlangan suvda ivitildi, so'ngra Petri idishlarida undirildi. Nazorat partiyasidagi urug'lar xuddi shu vaqt davomida jo'mrak suvida ivitildi. Natijada, pomidor urug'larining unib chiqishi tajriba partiyasida 94%, nazoratda — 88% ni tashkil etdi.",
+    "cucumberSeedExperiment": "Bodring urug'larini undirish tajribasi ayniqsa yaqqol bo'ldi. Tajriba variantida urug'larning unib chiqish tezligi va ko'chatlar rivojlanishi jo'mrak suvida undirilgan urug'larnikidan ancha yuqori edi.",
+    "fullCycleTitle": "To'liq sikl tajribasi (2007)",
+    "fullCycleIntro": "O'simliklarning urug'dan vegetatsiya oxirigacha bo'lgan butun rivojlanish jarayonini ozon bilan ishlov berish texnologiyasi bilan o'rganish qiziqarli edi. Bunday tajriba 2007 yilda Kirov sabzavotchilik tajriba stantsiyasi mutaxassislari ishtirokida, Krasnogorsk qishloq xo'jaligi majmuasi issiqxonalarida o'tkazildi. Tajribalar yil davomida foydalaniladigan 1000 m² maydonli shishalangan issiqxonalarda F₁ Topolek bodring duragayida o'tkazildi.",
+    "ozoneVariants": "Tajribada ozon ikki usulda olingan: havodan (O₃ + havo) va ballon kislorodidan (O₃ + O₂). Ozonlangan suv bilan sug'orish kuniga bir marta 0,5 l/o'simlik hisobida o'tkazildi. Suv 20–30 daqiqa davomida ozonlandi va ozonning parchalanishining oldini olish uchun darhol sug'orish uchun ishlatildi.",
+    "seedlingResults": "Ko'chatlar davrining oxirida, issiqxonaga o'tqazishdan oldin bodring o'simliklarining asosiy parametrlarining biometrik o'lchovlari o'tkazildi. Tadqiqotlar shuni ko'rsatdiki, ko'chatlar davrida ozonlangan suv bilan ishlangan o'simliklar mustahkamroq, balandroq va barglari intensiv yashil rangda — nazoratga qaraganda to'yinganroq edi.",
+    "leafAreaResults": "Ekin vegetatsiyasi davomida ozonlangan suv bilan sug'orilgan o'simliklar balandroq bo'ldi. Barg maydonida sezilarli farq qayd etildi: O₃ + O₂ variantida 153 sm², O₃ + havo variantida 146 sm² va nazoratda 119 sm².",
+    "rootDevelopment": "Tadqiqotlar bodring o'simliklari ildiz tizimi rivojlanishidagi farqlarni ham aniqladi. O₃ + O₂ variantida ildiz tizimi uzunligi eng katta edi.",
+    "floweringPhaseTitle": "Gulash va meva tugishga ta'siri",
+    "floweringPhase": "Bodring o'simliklari gullashi boshida biometrik o'lchovlar o'tkazildi. Ozonlangan suv poya balandligi o'sishini rag'batlantirdi; O₃ + O₂ variantida poya uzunligi 119 sm ni tashkil etdi, bu nazoratga qaraganda 9 sm ko'p. Ozonlangan suv ham vegetativ o'simlik massasini, ham gullar va tugunchalar sonini oshirdi.",
+    "seedProductivity": "Ozonlangan suv urug'lik hosildorligi va bodring urug' hosiliga ham ta'sir ko'rsatdi. Eng yuqori hosildorlik ballon kislorodi bilan ozon aralashmasi bilan ishlov berilgan variantda olindi va 37,4 g ni tashkil etdi, bu nazoratga qaraganda 12,5 g yoki 33% yuqori.",
+    "conclusionTitle": "Xulosalar",
+    "conclusion": "Ozonlangan suv quyidagi ta'sirlarga ega: bodring o'simliklarining dastlabki rivojlanish bosqichlarida o'sishni rag'batlantiradi, barg hosil bo'lishiga yordam beradi va barg yuzasi maydonini oshiradi; ildiz o'sishini rag'batlantiradi va ildiz massasini oshiradi; gullash va meva tugish fazalarida generativ organlar shakllanishiga ijobiy ta'sir ko'rsatadi; mevadan urug' hosildorligini oshiradi va bodring urug'lik hosildorligini yaxshilaydi.",
+    "perspectiveNote": "Bodring o'simliklarini ozonlangan suv bilan sug'orish bo'yicha tadqiqotlar issiqxona ishlab chiqarishida ozonni qo'llashning istiqbolli potentsialini ko'rsatdi."
+  },
+  "table1Title": "1-jadval. Bodring ishlab chiqarishning qiyosiy xarakteristikasi (2003)",
+  "table1": {
+    "headers": ["Parametr", "Tajriba issiqxonasi (ozon)", "Blok o'rtachasi"],
+    "rows": [
+      ["Hosildorlik, kg/m²", "Sezilarli yuqori", "Bazaviy"],
+      ["Standart mahsulot chiqishi", "Maksimal", "O'rtacha"],
+      ["Kuzatish davri", "2 oy (iyul–sentyabr)", "2 oy"]
+    ]
+  },
+  "table2Title": "2-jadval. Bodring o'simliklarining asosiy xarakteristikalari (2007)",
+  "table2": {
+    "headers": ["Parametr", "O₃ + O₂", "O₃ + havo", "Nazorat"],
+    "rows": [
+      ["Barg maydoni, sm²", "153", "146", "119"],
+      ["O'simlik balandligi", "Nazoratdan yuqori", "Nazoratdan yuqori", "Bazaviy"],
+      ["Barg rangi", "Intensiv yashil", "Intensiv yashil", "Oddiy"],
+      ["Ildiz tizimi uzunligi", "Maksimal", "O'rtacha", "O'rtacha"]
+    ]
+  },
+  "table3Title": "3-jadval. Gullash fazasida bodring o'sishi va rivojlanishi",
+  "table3": {
+    "headers": ["Parametr", "O₃ + O₂", "O₃ + havo", "Nazorat"],
+    "rows": [
+      ["Poya uzunligi, sm", "119", "≈110", "110"],
+      ["Gullar va tugunchalar soni", "Oshgan", "Oshgan", "Bazaviy"],
+      ["Vegetativ massa", "Oshgan", "Oshgan", "Bazaviy"]
+    ]
+  },
+  "table4Title": "4-jadval. Bodring urug'lik hosildorligi",
+  "table4": {
+    "headers": ["Parametr", "O₃ + O₂", "O₃ + havo", "Nazorat"],
+    "rows": [
+      ["Hosildorlik, g", "37,4", "—", "24,9"],
+      ["Nazoratga nisbatan o'sish", "+12,5 g (+33%)", "—", "—"]
+    ]
+  },
+  "keyFindings": [
+    "Pomidor urug'larining unib chiqishi ozonlangan suv bilan ishlov berishda 88% dan 94% ga oshdi",
+    "Bodring barg maydoni 25–30% ga oshdi (119 dan 153 sm² gacha)",
+    "Urug'lik hosildorligi 33% ga oshdi (24,9 dan 37,4 g gacha)",
+    "Ozon kimyoviy fumigantlarsiz nematodalarni yo'q qildi",
+    "Ko'chatlar mustahkamroq bo'lib, barglar intensiv yashil rangda edi"
+  ],
+  "sourcesTitle": "Manbalar",
+  "sources": [
+    {
+      "title": "Kirov sabzavotchilik tajriba stantsiyasi VNIIO — issiqxona ishlab chiqarishida ozonni qo'llash bo'yicha tadqiqotlar (2003–2007)"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Qishloq xo'jaligida konsentrlangan ozonni qo'llash",
+  "excerpt": "Soatiga 10 kg gacha sig'imli ixcham mobil konsentrlangan ozon generatorlari don, ozuqa va parranda fermalari dezinfeksiyasini soatlar o'rniga daqiqalarda o'tkazish imkonini beradi.",
+  "body": {
+    "lead": "Qishloq xo'jaligi ishlab chiqarishida kimyoviy ishlov berish usullarini almashtirishda ozonning yuqori samaradorligi uzoq vaqtdan beri isbotlangan. Muammo zarur ozon unumdorligiga ega mobil ozon qurilmalarini yaratish imkonsizligida edi. Yaqinda buni amalga oshirish imkonini beruvchi yechimlar paydo bo'ldi.",
+    "generatorSection": "Bevosita qo'llash joyida atmosfera kislorodidan 200 mg/l dan ortiq konsentrasiyada soatiga 10 kg gacha unumdorlik ta'minlaydigan ixcham konsentrlangan ozon generatorlari yaratilgan. Qurilma kislorod konsentratorini talab qilmaydi va istalgan yuk avtomobiliga sig'adi.",
+    "applicationsTitle": "Mobil ozon qurilmasining qo'llanish sohalari",
+    "applicationsList": [
+      "Saqlashga tayyorlash vaqtida donni dezinfeksiya qilish",
+      "Ozuqalarni qayta ishlash",
+      "Parranda fermalarini dezinfeksiya qilish"
+    ],
+    "speedAdvantage": "Ishlov berish jarayoni soatlar o'rniga daqiqalar davom etadi. Bitta qurilma bir nechta ishlab chiqarish obyektlariga xizmat ko'rsatishi mumkin.",
+    "comparisonTitle": "Formaldegid usuli bilan taqqoslash",
+    "comparisonIntro": "Parranda fermalarini an'anaviy dezinfeksiyalash formaldegid aerozoli yordamida amalga oshiriladi. Bu usulning jiddiy kamchiliklari bor:",
+    "comparisonList": [
+      "Sarflanadigan materiallarning yuqori narxi",
+      "Ishlovdan keyin 24 soatlik shamollatish talab qilinadi",
+      "Viruslar va zamburug'larga qarshi cheklangan samaradorlik"
+    ],
+    "displacementTitle": "Konsentrlangan ozon bilan siljitish usuli",
+    "displacementText": "Konsentrlangan ozon bilan siljitish usuli sabzavot va meva omborxonalarini qayta ishlash uchun ham qo'llaniladi. Asosiy talab: donlar orasidagi bo'shliqni ozon bilan almashtirish ozon parchalanishidan tezroq sodir bo'lishi kerak.",
+    "sideEffectsTitle": "Qo'shimcha ta'sirlar",
+    "sideEffectsList": [
+      "Kemiruvchilar (sichqonlar, kalamushlar) ishlov berilgan binolarni tark etadi",
+      "Zararkunanda hasharotlar yo'q qilinadi"
+    ],
+    "tableTitle": "2-jadval. Mobil ozon qurilmasining qo'llanish sohalari",
+    "tableCaption": "Qishloq xo'jaligida konsentrlangan ozonni qo'llash",
+    "conclusion": "Konsentrlangan ozonni qo'llash kimyoviy preparatlardan foydalanmasdan qishloq xo'jaligi mahsulotlarini ekologik toza qayta ishlash uchun yangi imkoniyatlar ochadi."
+  },
+  "table": {
+    "headers": ["Qo'llanish sohasi", "Afzalliklari"],
+    "rows": [
+      ["Donni dezinfeksiyalash", "Tez ishlov berish, sifatni saqlash"],
+      ["Ozuqani qayta ishlash", "Kimyosiz patogenlarni yo'q qilish"],
+      ["Parranda fermalarini dezinfeksiyalash", "Viruslar va zamburug'larga qarshi samaradorlik"],
+      ["Sabzavot omborxonalari", "Saqlash muddatini uzaytirish"],
+      ["Meva omborxonalari", "Tovar ko'rinishini saqlash"]
+    ]
+  },
+  "sourcesTitle": "Manbalar",
+  "sources": [
+    {
+      "title": "V.V. Lunin, V.G. Samoilovich, S.N. Tkachenko, I.S. Tkachenko. Ozon va boshqa ekologik toza oksidlovchilar: Fan va texnologiyalar (30-Umum Rossiya seminari)"
+    }
+  ]
+}

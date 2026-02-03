@@ -1,0 +1,39 @@
+{
+  "title": "Ozon yordamida donni quritish jarayonini intensivlashtirish",
+  "excerpt": "Shaxta retsirkulyatsion don quritgichlarida ozon-havo aralashmasini qo'llash quritish vaqtini 1,5–2 marta qisqartiradi va yiliga 19 tonnagacha shartli yoqilg'i tejashni ta'minlaydi.",
+  "body": {
+    "lead": "Donni quritish jarayoni qishloq xo'jaligidagi eng ko'p energiya talab qiladigan jarayonlardan biridir. Shaxta retsirkulyatsion don quritgichlaridan foydalangan holda an'anaviy quritish usullari katta yoqilg'i va elektr energiyasi xarajatlarini talab qiladi. Ilmiy tadqiqotlar quritish jarayonini intensivlashtirish uchun ozon-havo aralashmasini qo'llashning yuqori samaradorligini ko'rsatdi.",
+    "problemTitle": "Donni quritishning energiya sig'imi muammosi",
+    "problem": "SZK va SZSh tipidagi shaxta retsirkulyatsion don quritgichlari don ekinlarini quritish uchun keng qo'llaniladi. Biroq, an'anaviy quritish texnologiyasi yuqori solishtirma yoqilg'i sarfi bilan ajralib turadi — namlikni 6% ga kamaytirganda 1 tonna donga 4 dan 6 kg gacha shartli yoqilg'i. Don yig'imining katta hajmlarida bu sezilarli energiya xarajatlariga olib keladi.",
+    "technologyTitle": "Ozon-havo texnologiyasi",
+    "technology": "Usulning mohiyati issiqlik tashuvchi bilan birga quritish kamerasiga ozon-havo aralashmasini berishdir. Ozon yuqori oksidlovchi qobiliyatga ega va don yuzasidagi namlik bilan o'zaro ta'sir qilib, bug'lanish jarayonini tezlashtiradi. Bu nafaqat quritishni intensivlashtirish, balki bir qator qo'shimcha ijobiy ta'sirlarni ham ta'minlaydi.",
+    "benefitsTitle": "Quritish paytida ozonlashning afzalliklari",
+    "benefit1Title": "Quritish vaqtining qisqarishi",
+    "benefit1": "Ozon-havo aralashmasini qo'llash an'anaviy texnologiyaga nisbatan quritish jarayoni davomiyligini 1,5–2 marta qisqartiradi.",
+    "benefit2Title": "Donni zararsizlantirish",
+    "benefit2": "Ozon don yuzasidagi mikroorganizmlar, mog'or zamburug'lari va ularning sporalarini samarali yo'q qiladi, bu uning sanitariya holatini yaxshilaydi.",
+    "benefit3Title": "O'z-o'zidan qizib ketishning oldini olish",
+    "benefit3": "Ozon bilan ishlov berish mikrofloraning hayotiy faoliyatini bostiradi, bu saqlash paytida donning o'z-o'zidan qizib ketishining oldini oladi.",
+    "benefit4Title": "Saqlash paytida chuqur tinchlik",
+    "benefit4": "Ozon bilan ishlov berilgandan so'ng don chuqur fiziologik tinchlik holatiga kiradi, bu sifat yo'qotilmasdan uzoq muddatli saqlashga yordam beradi.",
+    "benefit5Title": "Massani saqlash",
+    "benefit5": "Dondagi biokimyoviy faollikning pasayishi saqlash paytida quruq modda yo'qotilishini kamaytiradi.",
+    "benefit6Title": "Unuvchanlikning yaxshilanishi",
+    "benefit6": "Urug'lik don uchun ozonlash unish energiyasi va unuvchanlikning oshishiga yordam beradi.",
+    "economicsTitle": "Iqtisodiy samara",
+    "economics1": "Eksperimental ma'lumotlar shuni ko'rsatdiki, SZK va SZSh tipidagi quritgichlardan foydalanganda shartli yoqilg'i tejamliligi 1 tonna donga 1,8 dan 3,2 kg gacha tashkil etadi.",
+    "economics2": "Bir quritgichning yillik ish hajmiga nisbatan hisoblaganda, tejamkorlik 10,9 dan 19,4 tonnagacha shartli yoqilg'ini tashkil etadi.",
+    "scaleTitle": "Qo'llash miqyosi",
+    "scale": "Yillik don ishlab chiqarish taxminan 7 million tonnani tashkil etishi va hosil yig'imining taxminan 70% ini quritish zarurligi bilan, ozon-havo texnologiyasini joriy etish mintaqa miqyosida yiliga 9000 dan 16000 tonnagacha shartli yoqilg'i tejashga imkon beradi.",
+    "chartTitle": "Bug'doyni quritish dinamikasi",
+    "chartDescription": "Rasmda ozon-havo aralashmasini qo'llagan holda quritish jarayonida bug'doy namligining o'zgarish egri chizig'i ko'rsatilgan. Donning dastlabki namligi 25%, yakuniy — 14% ni tashkil etdi. Grafikdan ko'rinib turibdiki, asosiy namlik kamayishi ishlov berishning dastlabki soatlarida sodir bo'ladi.",
+    "conclusionTitle": "Xulosalar",
+    "conclusion": "Donni quritishda ozon-havo aralashmasini qo'llash nafaqat energiya xarajatlarini kamaytirish, balki don sifati, saqlanishi va urug'lik xususiyatlarini yaxshilash imkonini beradigan istiqbolli yo'nalishdir. Texnologiya mavjud don quritish majmualarida uskunalarni modernizatsiya qilish uchun minimal xarajatlar bilan joriy etilishi mumkin."
+  },
+  "sourcesTitle": "Manbalar",
+  "sources": [
+    {
+      "title": "V.V. Lunin, V.G. Samoilovich, S.N. Tkachenko, I.S. Tkachenko. Ozon va boshqa ekologik toza oksidlovchilar: Fan va texnologiyalar (30-Butunrossiya seminari)"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Intensification of Grain Drying Process with Ozone",
+  "excerpt": "The use of ozone-air mixture in shaft recirculation grain dryers reduces drying time by 1.5–2 times and provides energy savings of up to 19 tonnes of equivalent fuel per unit annually.",
+  "body": {
+    "lead": "The grain drying process is one of the most energy-intensive processes in agriculture. Traditional drying methods using shaft recirculation grain dryers require significant fuel and electricity costs. Scientific research has demonstrated high efficiency of using ozone-air mixture to intensify the drying process.",
+    "problemTitle": "The Problem of Energy-Intensive Grain Drying",
+    "problem": "Shaft recirculation grain dryers of SZK and SZSh types are widely used for drying grain crops. However, traditional drying technology is characterized by high specific fuel consumption — from 4 to 6 kg of equivalent fuel per tonne of grain when reducing moisture by 6%. With large volumes of grain harvesting, this leads to significant energy costs.",
+    "technologyTitle": "Ozone-Air Technology",
+    "technology": "The essence of the method is to supply an ozone-air mixture into the drying chamber together with the heat carrier. Ozone has a high oxidizing capacity and interacts with moisture on the grain surface, accelerating the evaporation process. This achieves not only intensification of drying but also a number of additional positive effects.",
+    "benefitsTitle": "Benefits of Ozonation During Drying",
+    "benefit1Title": "Reduced Drying Time",
+    "benefit1": "The use of ozone-air mixture reduces the drying process duration by 1.5–2 times compared to traditional technology.",
+    "benefit2Title": "Grain Disinfection",
+    "benefit2": "Ozone effectively destroys microorganisms, mold fungi and their spores on the grain surface, improving its sanitary condition.",
+    "benefit3Title": "Prevention of Self-Heating",
+    "benefit3": "Ozone treatment suppresses the vital activity of microflora, preventing grain self-heating during storage.",
+    "benefit4Title": "Deep Dormancy During Storage",
+    "benefit4": "After ozone treatment, grain enters a state of deep physiological dormancy, which promotes long-term storage without quality loss.",
+    "benefit5Title": "Mass Preservation",
+    "benefit5": "Reduced biochemical activity in grain decreases dry matter losses during storage.",
+    "benefit6Title": "Improved Germination",
+    "benefit6": "For seed grain, ozonation promotes increased germination energy and viability.",
+    "economicsTitle": "Economic Effect",
+    "economics1": "Experimental data showed that equivalent fuel savings range from 1.8 to 3.2 kg per tonne of grain when using SZK and SZSh type dryers.",
+    "economics2": "Calculated per annual operation volume of one dryer, savings amount to 10.9 to 19.4 tonnes of equivalent fuel.",
+    "scaleTitle": "Scale of Application",
+    "scale": "With annual grain production of about 7 million tonnes and the need to dry approximately 70% of the harvest, implementation of ozone-air technology will save 9,000 to 16,000 tonnes of equivalent fuel per year region-wide.",
+    "chartTitle": "Wheat Drying Dynamics",
+    "chartDescription": "The figure shows the moisture change curve of wheat during drying with ozone-air mixture application. Initial grain moisture was 25%, final — 14%. As can be seen from the graph, the main moisture reduction occurs in the first hours of treatment.",
+    "conclusionTitle": "Conclusions",
+    "conclusion": "The use of ozone-air mixture in grain drying is a promising direction that allows not only reducing energy costs but also improving grain quality, preservation, and seed properties. The technology can be implemented at existing grain drying facilities with minimal equipment upgrade costs."
+  },
+  "sourcesTitle": "Sources",
+  "sources": [
+    {
+      "title": "V.V. Lunin, V.G. Samoilovich, S.N. Tkachenko, I.S. Tkachenko. Ozone and Other Environmentally Clean Oxidizers: Science and Technology (30th All-Russian Seminar)"
+    }
+  ]
+}

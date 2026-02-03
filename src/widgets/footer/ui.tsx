@@ -1,7 +1,7 @@
 import { useTranslate } from '@tolgee/react'
 
 import { AppLink } from '@/shared/ui/app-link'
-import { IconEmail, IconLocation, IconPhone, IconTelegram, IconWhatsapp } from '@/shared/ui/icons'
+import { IconLocation, IconPhone, IconTelegram } from '@/shared/ui/icons'
 import { Logo } from '@/shared/ui/logo'
 
 export function Footer() {
@@ -17,10 +17,13 @@ export function Footer() {
             </div>
             <p className="footer__description">{t('footer.description')}</p>
             <div className="footer__social">
-              <a href="https://wa.me/78001234567" className="footer__social-link" aria-label="WhatsApp">
-                <IconWhatsapp />
-              </a>
-              <a href="https://t.me/ozontech" className="footer__social-link" aria-label="Telegram">
+              <a
+                href="https://t.me/Ozonoxy01"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer__social-link"
+                aria-label="Telegram"
+              >
                 <IconTelegram />
               </a>
             </div>
@@ -99,12 +102,14 @@ export function Footer() {
               </span>
             </div>
             <div className="footer__contact-item">
-              <IconEmail />
-              <span>info@ozontech.ru</span>
+              <IconTelegram />
+              <span>@Ozonoxy01</span>
             </div>
             <div className="footer__contact-item">
               <IconLocation />
-              <span>{t('contactsPage.info.address.value')}</span>
+              <span>
+                {t('contactsPage.info.address.country')}, {t('contactsPage.info.address.city')}
+              </span>
             </div>
           </div>
         </div>

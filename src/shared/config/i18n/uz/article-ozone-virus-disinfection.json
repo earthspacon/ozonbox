@@ -1,0 +1,95 @@
+{
+  "title": "Ozonning viruslar va bakteriyalarga ta'siri",
+  "excerpt": "Ozonning antivirus va bakteritsid ta'sir mexanizmi: hujayra membranalarining oksidlanib parchalanishi, ilmiy tadqiqotlar va dezinfeksiyada amaliy qo'llanilishi.",
+  "body": {
+    "lead": "Ozon (O₃) — havoda elektr razryadi natijasida hosil bo'ladigan kuchli tabiiy oksidlovchi. O'zining noyob kimyoviy xususiyatlari tufayli u viruslar, bakteriyalar, zamburug'lar va sporalarni o'z ichiga olgan kasallik qo'zg'atuvchi mikroorganizmlarni samarali yo'q qilishga qodir. Bunda ozon zararli qoldiqlar qoldirmaydi — u tezda kislorodga parchalanadi.",
+    "whatIsOzone": "Ozon — yuqori reaktivlikka ega bo'lgan kislorodning uch atomli shakli. Bu molekula beqaror va o'zining 'ortiqcha' kislorod atomini berishga intiladi, bu esa uning kuchli oksidlovchi xususiyatlarini belgilaydi. Havoda ozonning yarim parchalanish davri sharoitlarga qarab bir necha daqiqadan bir soatgacha bo'ladi.",
+    "propertiesTitle": "Ozonning asosiy xususiyatlari",
+    "properties": [
+      "Dezinfeksiyalovchi — patogen mikroorganizmlarni yo'q qiladi",
+      "Bakteritsid — bakteriya hujayralarini parchalaydi",
+      "Oksidlovchi — organik birikmalarni oksidlaydi",
+      "Dezodorant — yoqimsiz hidlarni bartaraf etadi"
+    ],
+    "mechanismTitle": "Viruslarga ta'sir mexanizmi",
+    "mechanismIntro": "Ilmiy tadqiqotlar ozon viruslarni ularning tuzilishini to'g'ridan-to'g'ri oksidlab shikastlash orqali inaktivatsiya qilishini aniqladi. Virusni yo'q qilish jarayoni bir necha bosqichda sodir bo'ladi:",
+    "mechanismSteps": [
+      {
+        "title": "Qobiq bilan aloqa",
+        "description": "Ozon molekulasi virusning tashqi qobig'i — virus zarrachasining yaxlitligini saqlab turuvchi lipid qatlami bilan aloqaga kirishadi."
+      },
+      {
+        "title": "Lipidlarning oksidlanishi",
+        "description": "Ozon qobiqdagi to'yinmagan yog' kislotalari va lipoproteinlar bilan reaksiyaga kirishib, ularni oksidlaydi. Bu virusning himoya membranasida yoriqlar hosil qiladi."
+      },
+      {
+        "title": "Tuzilmaning parchalanishi",
+        "description": "Hosil bo'lgan shikastlanishlar asta-sekin kengayib, virus zarrachasining yaxlitligini buzadi. Virus hujayralarni infeksiyalash qobiliyatini yo'qotadi."
+      },
+      {
+        "title": "Genomning shikastlanishi",
+        "description": "Shikastlangan zarraga kirib, ozon genetik materialga (DNK yoki RNK) ta'sir ko'rsatadi, bu virusning ko'payishini imkonsiz qiladi."
+      }
+    ],
+    "envelopedTitle": "Qobiqli va qobiqsiz viruslar",
+    "envelopedText": "Tadqiqotlar shuni ko'rsatdiki, qobiqli viruslar (lipid membranaga ega) qobiqsiz viruslarga qaraganda ozonga ancha sezgir. Qobiqli viruslarga gripp viruslari, koronaviruslar va gerpesviruslar kiradi. Ozon ularning lipid qobig'ini samarali parchalab, virus zarrachalarini tez inaktivatsiya qiladi.",
+    "researchTitle": "Samaradorlik bo'yicha ilmiy tadqiqotlar",
+    "researchSarsCov2": "Ozonning SARS-CoV-2 ga ta'siri bo'yicha tadqiqotlar alohida qiziqish uyg'otadi. 2020–2024 yillardagi ilmiy ishlar ozon koronavirusni ham sirtlarda, ham havoda samarali inaktivatsiya qilishini tasdiqladi. Genes jurnali (2023) tadqiqoti shuni ko'rsatdiki, ozon bilan ishlov berish SARS-CoV-2 RNKsini bir soat ichida parchalaydi, virusning replikatsiya qilmaydigan shakllarining sezilarli parchalanishi esa 30 daqiqa ichida sodir bo'ladi.",
+    "researchAirborne": "Aerozol viruslari bilan o'tkazilgan tajribalar shuni ko'rsatdiki, 85% nisbiy namlikda 0,23–1,23 ppm ozon konsentratsiyasi 40 daqiqalik ekspozitsiya davomida virus yuklamasini ikki tartibga (100 marta) kamaytiradi. Namlik muhim rol o'ynaydi — yuqori namlikda ozonning samaradorligi oshadi.",
+    "bacteriaTitle": "Bakteriyalarga ta'siri",
+    "bacteriaText": "Ozonning bakteritsid ta'sir mexanizmi antivirus ta'siriga o'xshash: hujayra membranasi komponentlarining oksidlanishi membrananing parchalanishi va bakteriya hujayrasi o'limiga olib keladi. Muhimi shundaki, ozon antibiotiklarga chidamli bakteriya shtammlariga ham samarali, chunki uning ta'sir mexanizmi antibiotiklar ta'siridan tubdan farq qiladi.",
+    "factorsTitle": "Samaradorlikka ta'sir etuvchi omillar",
+    "factors": [
+      "Ozon konsentratsiyasi — yuqori konsentratsiyalar tezroq inaktivatsiyani ta'minlaydi",
+      "Ekspozitsiya vaqti — yetarli aloqa davomiyligi juda muhim",
+      "Nisbiy namlik — yuqori namlik antivirus ta'sirini kuchaytiradi",
+      "Mikroorganizm turi — qobiqli viruslar qobiqsizlarga qaraganda tezroq inaktivatsiya bo'ladi"
+    ],
+    "applicationsTitle": "Amaliy qo'llanilish sohalari",
+    "applicationsIntro": "Ozonning keng doiradagi patogenlarni yo'q qilish qobiliyati uning turli sohalarda qo'llanilishini belgilaydi:",
+    "applications": [
+      "Tibbiyot muassasalari va operatsiya xonalarini dezinfeksiya qilish",
+      "Ommaviy joylarda havoni tozalash",
+      "Oziq-ovqat sanoatida sirtlarni qayta ishlash",
+      "Transport vositalarini dezinfeksiya qilish",
+      "Suvni tozalash va zararsizlantirish",
+      "Ombor va ishlab chiqarish binolarini qayta ishlash"
+    ],
+    "advantagesTitle": "Ozonlashning afzalliklari",
+    "advantagesHighlight": "Ozon xlorga qaraganda 3000 marta tezroq ta'sir qiladi va kimyoviy qoldiqlar qoldirmaydi — dezinfeksiya tugagandan so'ng u oddiy kislorodga parchalanadi.",
+    "advantages": [
+      "Keng doiradagi patogenlarga qarshi yuqori samaradorlik",
+      "Ekologik xavfsizlik — kislorodga parchalanadi",
+      "Qayta ishlangan sirtlarda kimyoviy qoldiqlar yo'q",
+      "Qiyin yetib boriladigan joylarga kirib borish qobiliyati",
+      "Antibiotiklarga chidamli mikroorganizmlarga qarshi samaradorlik"
+    ],
+    "safetyTitle": "Xavfsizlik choralari",
+    "safetyText": "Ozonlash paytida xavfsizlik choralariga rioya qilish kerak. Ishlov berish paytida binoda odamlar, hayvonlar va o'simliklar bo'lmasligi kerak. Jarayon tugagandan so'ng xona shamollatiladi — ozon tezda xavfsiz kislorodga parchalanadi, shundan so'ng makon foydalanishga tayyor bo'ladi.",
+    "conclusionTitle": "Xulosa",
+    "conclusion": "Ozon havo va sirtlarni dezinfeksiya qilish uchun samarali va ekologik xavfsiz vositadir. Uning viruslarning lipid qobig'ini va bakteriyalarning hujayra membranalarini parchalash qobiliyati ko'plab ilmiy tadqiqotlar tomonidan tasdiqlangan. Mikroorganizmlarning an'anaviy dezinfeksiya vositalariga chidamliligi ortib borayotgan sharoitda ozonlash mikrobiologik xavfsizlikni ta'minlashning istiqbolli usuli hisoblanadi."
+  },
+  "sourcesTitle": "Manbalar",
+  "sources": [
+    {
+      "title": "Roy D. et al. The biological effects of ozone on representative members of five groups of animal viruses. Environmental Research, 1982",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/0013935182901025"
+    },
+    {
+      "title": "Hudson J.B. et al. Inactivation of cell-associated viruses by ozone gas. NCBI PMC, 1982",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC241881/"
+    },
+    {
+      "title": "Tizaoui C. Ozone: A potential oxidant for COVID-19 virus (SARS-CoV-2). Critical Reviews in Environmental Science and Technology, 2022",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/10643389.2022.2043094"
+    },
+    {
+      "title": "Dennis R. et al. Ozone Disinfection for Elimination of Bacteria and Degradation of SARS-CoV2 RNA for Medical Environments. Genes, 2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9858956/"
+    },
+    {
+      "title": "Tseng C., Li C. Ozone efficacy for the control of airborne viruses: Bacteriophage and norovirus models. PLOS ONE, 2020",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0231164"
+    }
+  ]
+}

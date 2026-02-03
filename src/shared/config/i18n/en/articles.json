@@ -9,6 +9,66 @@
     "ozoneGrainProtection": {
       "title": "Ozone as an environmentally safe protection for grain",
       "excerpt": "Purdue University research showed that ozone effectively eliminates insects in grain storage facilities without harming grain quality or the environment."
+    },
+    "ozoneVocStudy": {
+      "title": "Study of ozone effects on volatile organic compounds in enclosed spaces",
+      "excerpt": "Research demonstrated that ozone effectively transforms low-molecular organic impurities in air into non-hazardous, non-toxic derivatives. Biotesting confirmed the safety of oxidation products."
+    },
+    "aopWastewaterAgriculture": {
+      "title": "AOP and Wastewater. AOP in Agriculture",
+      "excerpt": "Application of Advanced Oxidation Processes (AOP) for wastewater treatment in aquaculture and agriculture. Ozonation reduced shrimp mortality from 80% to 20%."
+    },
+    "grainDryingOzone": {
+      "title": "Intensification of Grain Drying Process with Ozone",
+      "excerpt": "The use of ozone-air mixture in shaft recirculation grain dryers reduces drying time by 1.5–2 times and provides energy savings of up to 19 t.e.f. per year."
+    },
+    "concentratedOzoneAgriculture": {
+      "title": "Application of Concentrated Ozone in Agriculture",
+      "excerpt": "Compact mobile concentrated ozone generators with capacity up to 10 kg/h enable disinfection of grain, feed, and poultry facilities in minutes instead of hours."
+    },
+    "ozoneFoodInteraction": {
+      "title": "Ozone Interaction with Food Products",
+      "excerpt": "Ozone as an oxidizer: effects on nutrients, bactericidal and antifungal activity, role of humidity and ethylene in food processing."
+    },
+    "ozonePoultryFarming": {
+      "title": "Ozone in Poultry Farming. Introduction",
+      "excerpt": "Ozone applications in poultry farming: egg incubation, water and air disinfection, feed treatment, carcass decontamination. VNITIP research and global experience."
+    },
+    "ozoneCovid19Treatment": {
+      "title": "Potential Use of Ozone in COVID-19 Treatment",
+      "excerpt": "Official ISCO3 expert opinion on ozone therapy as adjunct treatment for SARS-CoV-2: disinfection, mechanisms of action, clinical protocols."
+    },
+    "ozoneSeedTreatmentResearch": {
+      "title": "Results of Ozone Technology Testing for Pre-Sowing Seed Treatment",
+      "excerpt": "Long-term research demonstrated that pre-sowing treatment of seeds with ozone-air mixture increases yield by 15–20%, activates germination and accelerates plant development with minimal costs."
+    },
+    "ozoneVirusDisinfection": {
+      "title": "Ozone Effects on Viruses and Bacteria",
+      "excerpt": "Mechanism of ozone's antiviral and bactericidal action: oxidative destruction of cell membranes, scientific research, and practical applications in disinfection."
+    },
+    "poolVentilationDehumidifiers": {
+      "title": "Pool Ventilation: Wall-Mounted and Ducted Dehumidifiers",
+      "excerpt": "A comprehensive guide to ventilation and dehumidification systems for indoor swimming pools. Humidity standards, dehumidifier types, heat pump technology, and ASHRAE recommendations."
+    },
+    "ozoneCucumberGreenhouse": {
+      "title": "Ozone for Greenhouse Cucumber Cultivation",
+      "excerpt": "Research demonstrated that irrigation with ozonated water stimulates cucumber seedling growth, increases leaf area by 25–30%, improves seed yield, and eliminates nematodes without chemical fumigants."
+    },
+    "ozoneCancerRiskReduction": {
+      "title": "Reducing Cancer Risk Through Air Purification",
+      "excerpt": "Scientific research shows that cleaning workplace air from carcinogenic compounds (phenol, formaldehyde) can reduce cancer risk by 3–5 times."
+    },
+    "ozoneDriedFruitsStorage": {
+      "title": "Ozone Application for Dried Fruits: Storage, Preservation, and Treatment",
+      "excerpt": "Scientific review of ozone application for dried fruit treatment: decontamination, aflatoxin and mycotoxin reduction, pesticide residue removal, shelf life extension for nuts, raisins, dates, and dried apricots."
+    },
+    "ozoneGoldSilverMining": {
+      "title": "Ozone Applications in Gold, Silver and Metal Extraction",
+      "excerpt": "Scientific review of ozone technology in mining: pretreatment of refractory ores, enhanced gold leaching, silver recovery, and environmentally safe cyanide destruction in wastewater."
+    },
+    "ozoneFoodWarehouseMeat": {
+      "title": "Ozone Applications in Food Warehouses and Meat Storage",
+      "excerpt": "Comprehensive review of ozone technology in cold storage facilities, meat preservation, pathogen control, and adoption by major food service chains. FDA GRAS approved for direct food contact."
     }
   }
 }

@@ -6,6 +6,7 @@ import { Layout } from '@/widgets/layout'
 import { ARTICLES } from '@/shared/config/articles-data'
 import { NAMESPACES } from '@/shared/config/tolgee'
 import { AppLink } from '@/shared/ui/app-link'
+import { CTASection } from '@/shared/ui/article-components'
 import { IconArrowRight } from '@/shared/ui/icons'
 
 export function ArticlesPage() {
@@ -59,24 +60,18 @@ export function ArticlesPage() {
         </div>
       </section>
 
-      <section className="cta">
-        <div className="container">
-          <h2 className="cta__title">{t('cta.applications.title', { ns: NAMESPACES.common })}</h2>
-          <p className="cta__text">{t('cta.applications.text', { ns: NAMESPACES.common })}</p>
-          <div className="cta__actions">
-            <AppLink href="/contacts" className="btn btn--white btn--large">
-              {t('hero.getConsultation', { ns: NAMESPACES.common })}
-            </AppLink>
-            <a
-              href="tel:+78001234567"
-              className="btn btn--secondary btn--large"
-              style={{ borderColor: 'white', color: 'white' }}
-            >
-              {t('cta.home.call', { ns: NAMESPACES.common })}
-            </a>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        title={t('cta.applications.title', { ns: NAMESPACES.common })}
+        description={t('cta.applications.text', { ns: NAMESPACES.common })}
+        primaryButton={{
+          label: t('hero.getConsultation', { ns: NAMESPACES.common }),
+          href: '/contacts',
+        }}
+        secondaryButton={{
+          label: t('cta.home.call', { ns: NAMESPACES.common }),
+          href: 'tel:+998942909977',
+        }}
+      />
     </Layout>
   )
 }

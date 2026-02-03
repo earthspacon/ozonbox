@@ -12,9 +12,9 @@
     "contacts": "Contacts"
   },
   "header": {
-    "phone": "8 (800) 123-45-67",
+    "phone": "+998 94 290 99 77",
     "orderCall": "Request a call",
-    "freeCall": "Free call across Russia"
+    "freeCall": "Call us"
   },
   "footer": {
     "description": "Professional ozonation systems for business. Eco-friendly and effective disinfection without chemicals.",
@@ -27,11 +27,11 @@
   },
   "cta": {
     "consultation": "Get consultation",
-    "call": "Call: 8 (800) 123-45-67",
+    "call": "Call: +998 94 290 99 77",
     "home": {
       "title": "Ready to implement ozonation in your business?",
       "text": "Get a free consultation and equipment cost calculation for your needs",
-      "call": "Call: 8 (800) 123-45-67"
+      "call": "Call: +998 94 290 99 77"
     },
     "technology": {
       "title": "Want to learn more about the technology?",

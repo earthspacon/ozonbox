@@ -1,0 +1,84 @@
+{
+  "title": "Study of ozone effects on volatile organic compounds in enclosed spaces: analysis of reaction products and assessment of their toxicity",
+  "excerpt": "Research demonstrated that ozone effectively transforms low-molecular organic impurities in air into non-hazardous, non-toxic derivatives. Biotesting confirmed the safety of oxidation products.",
+  "sections": {
+    "introduction": "1. Introduction",
+    "experimental": "2. Experimental Part",
+    "discussion": "3. Discussion",
+    "conclusions": "4. Conclusions"
+  },
+  "body": {
+    "introduction": "Atmospheric air always contains some amount of impurities from natural and anthropogenic sources. Their concentrations are noticeably higher in enclosed spaces. Our senses perceive their presence as odors. Any type of odor, pleasant or unpleasant, is caused by the presence of low-molecular volatile organic compounds in the air. For these compounds to cause an odor sensation, their concentration in the air must be above the threshold. Under the influence of solar radiation, moisture, and oxygen, volatile compounds enter into various reactions and decompose, so their average concentration in outdoor air is low. However, in closed isolated spaces, accumulation of volatile substances and their transformation products can occur, which is why such spaces often have a \"heavy, stale\" odor.",
+    "introduction2": "A particularly complex situation develops in vehicle cabins, for example in passenger aircraft. Simple cabin ventilation is insufficiently effective, as there are certain requirements and the need to ensure high standards of cabin atmosphere quality.",
+    "introduction3": "Several methods for sanitizing enclosed spaces are known. In recent years, methods of sanitizing medical facilities, cinemas, and other public buildings using ozone have become increasingly widespread. Ozonation is considered one of the most progressive modern technological processes aimed at creating environmentally clean, favorable conditions for human life. In particular, using the example of air traffic controllers' work, it has been shown that it increases work capacity and other physiological indicators of employees' organisms. However, the literature lacks information on the composition of volatile organic compounds in the atmosphere of enclosed spaces caused by food products that make up passenger menus, the characteristics of their reaction with ozone, and the toxic properties of the products of these reactions.",
+    "introduction4": "The aim of the work was to determine the products of interaction of volatile organic compounds with ozone in the gas phase using solid-phase microextraction and to assess the degree of toxicity and hazard of the resulting reaction products.",
+    "experimental": "A model mixture was prepared by mixing individual essential oils of black pepper (30.1%), caraway (22.7%), coriander (15%), and cloves (30.1%) produced by Plant Lipids Ltd., India. n-Dodecane (2.1%) was added to the mixture as an internal standard.",
+    "experimental2": "To determine volatile compounds in the gas phase in the original sample and after ozonation, solid-phase microextraction was used with equipment from Supelco. This is the most effective method for isolating and concentrating volatile compounds from various objects. The model mixture of essential oils (5 mg), which was a liquid consisting of 22 individual organic compounds of various structures, was placed in 2 glass flasks with a volume of 0.25 L. The flasks were closed and kept for 20 min (until liquid-gas equilibrium was reached); then 5 mg of gaseous ozone was introduced into the second flask, kept for the oxidation of organic compounds to proceed, and sampling was performed according to the described method, with samples placed in the chromatograph injector for analysis.",
+    "experimental3": "To obtain food-derived odors, minced meat and natural spices were used as a source. To 240 g of minced meat, 2.0 g of ground black pepper, 1.7 g of ground coriander, and 1.0 g of bay leaf were added. All ingredients were mixed, then placed in a 2-liter round-bottom flask, 600 ml of hot water was added to it, boiled for 5 min, and 300 ml of distillate with volatile compounds was distilled off without a dephlegmator. 150 ml of distillate was placed in each of 2 flasks (volume 0.5 L) and kept at room temperature for 30 min. Then volatile compounds were extracted from one flask for 20 min using solid-phase microextraction and analyzed by GC. 4 mg of ozone was introduced into the second flask, and after 20 min, unoxidized compounds were extracted by solid-phase microextraction for 20 min and analyzed by GC.",
+    "experimental4": "Gas chromatographic analysis (GC) was performed on a Kristall 2000 M chromatograph (Russia) with a flame-ionization detector and a quartz capillary column DB-1 (50 m × 0.32 mm, phase layer 0.25 μm, Supelco, USA) with column temperature programming from 60 to 250°C at a rate of 4°C/min at injector and detector temperature of 250°C. The carrier gas (helium) flow rate through the column was 1.5 ml/min, with flow splitting at the column inlet of 1:30. Compound identification in samples was performed based on retention index values. For quantitative determination of individual component content, peak area values were used. Instrument calibration was performed beforehand, and it was established that the reproducibility of quantitative determinations of compound content by peak area values using solid-phase extraction was very high, with relative error from 7 parallel determinations not exceeding 5%.",
+    "experimental5": "Ozone was synthesized in an electrical discharge by passing an oxygen stream between electrodes; voltage on electrodes 4–9 kV. Ozone concentration was controlled spectrophotometrically on a UV spectrophotometer at wavelength 254 nm. Ozone concentration varied from 2 × 10⁻⁴ to 5 × 10⁻⁵ mol/L.",
+    "experimental6": "Determination of acute toxicity of the essential oil mixture and products of their ozonation was performed by biotesting using survival of Ceriodaphnia affinis juveniles. A glass flask with a volume of 1.0 L was filled with 0.4 mg of ozone, and 0.3 mg of the essential oil mixture was added. The flask was tightly closed and left for 1 hour for ozonation of organic compounds. Then 0.5 L of water was added to the flask, thoroughly mixed by shaking, and biotesting was performed. In the same flask, 0.3 mg of the essential oil mixture and 0.5 L of water were placed, shaken to transfer oils into water, and biotesting was also performed; this sample was the reference. As a control, 0.5 L of water was used. Biotesting was performed according to the standard method.",
+    "discussion1": "In many spaces, the main sources of odor are food products, perfumes, sanitary and other household products. Flavoring agents consisting of low-molecular organic compounds of natural or synthetic origin are added to these objects, which are responsible for the object's aroma. Natural mixtures of volatile compounds produced by aromatic plants are called essential oils. Essential oil components and their synthetic analogs are the main constituents in the production of perfumery preparations; they are widely used as flavoring agents for household chemical products. Spices are added during food preparation, and although they only modify the aroma of food products, their volatile components are the main ones in terms of quantitative content among several hundred compounds that form the aroma of a particular product.",
+    "discussion2": "Therefore, as a model system, we used a mixture of essential oils of black pepper (30.1%), caraway (22.7%), coriander (15%), and cloves (30.1%). GC analysis of this mixture showed that it contained compounds, the composition of which, in %, is given in Table 1. As can be seen, the main components in the mixture were limonene, linalool, carvone, eugenol, and caryophyllene, their content being greater than 10%.",
+    "discussion3": "For quantitative assessment of ozone action on organic compounds, 5 mg of the mixture was used. The content of volatile compounds in this amount of mixture varied from 4 to 1000 μg (Table 1). From the gas phase above the sample, a much smaller amount of compounds was isolated by sorption on a polymer than was added to the flask — from 25 to 3454 ng. Thus, the extraction efficiency of components of the organic compound mixture was very low: 0.2–0.6% for monoterpenes, 0.4% for sesquiterpenes, only 0.1% for eugenol, and 1.1% for dodecane. Nevertheless, this amount of compounds was sufficient to obtain a quality chromatogram and determine their quantitative content.",
+    "discussion4": "After ozonation of 5 mg of the mixture with 5 mg of ozone for 20 min, the main part of the compounds was oxidized. An insignificant fraction of p-cymene and camphor remained unoxidized, as well as the internal standard saturated hydrocarbon dodecane. Acetic and propionic aldehydes and two new isomeric 1,2-limonene epoxides (Figure 1, compounds 3) were detected in trace amounts. One of the main components by content in the essential oil mixture was limonene (1), shown in the figure; both found isomeric epoxides (3) were trace products of its oxidation. The main product was 2-acetoxy-5-formylhexanoic acid (2), which was not detected by GC.",
+    "discussion5": "The aroma of food products is formed by compounds that were contained in the original ingredients, as well as those formed during the preparation or storage of products. Fermentation, oxidation, and thermal reactions such as the Maillard reaction are the main processes leading to the synthesis of aroma-forming compounds in food products. The content of such volatile compounds is low; most often they are contained at concentrations of 0.001–100 ppm (1 × 10⁻⁶–0.01%). Therefore, when studying the composition of volatile aroma-forming compounds, their isolation and concentration is a mandatory stage.",
+    "discussion6": "In our work, we isolated volatile compounds from the main food matrix by steam distillation. From the gas phase above the obtained distillate, volatile compounds were isolated and concentrated by solid-phase microextraction, then analyzed by GC. The product was a meat broth prepared from minced meat, black pepper, coriander, and bay leaf. The product after thermal treatment had a pleasant intense aroma of meat broth with spices. The list of found compounds and their content in the gas phase above the broth distillate are given in Table 2.",
+    "discussion7": "It should be noted that the content of volatile compounds in this product was close to that in real food products. The main components found in the gas phase were 1,2-cineole, linalool, terpenyl and geranyl acetates; all compounds were components of spices. Ozonation was performed, and it was found that practically all compounds were destroyed by ozone; residual amounts of 1,2-cineole and camphor were found. As it turned out, these compounds were sufficiently resistant to ozone action; for their complete destruction, higher ozone concentrations can be used, but it should be noted that the threshold odor concentrations of these compounds are substantially higher than what was found in the gas phase, so their odor was not felt above the broth. In any case, terpenes at low concentrations have a pleasant aroma and possess some types of biological activity, increase immunity, improve mood, and the presence of these compounds in the air can be considered a very positive factor.",
+    "discussion8": "According to regulations, control over environmental safety is carried out by determining the content of pollutants and ensuring their compliance with maximum permissible concentrations (MPC). It is known that toxic doses of food essential oils range from 2 to 7 g/kg of rat body weight. As follows from the data already presented, such content of essential oils is not reached in any food product, cosmetic, or other known household chemical product. Therefore, it can be concluded that food odors themselves do not cause harm to health.",
+    "discussion9": "However, the toxicity of the reaction products of the studied compounds with ozone, which were not determined chromatographically, remained unclear. To determine the toxicity of reaction products, we used the biotesting method. Unlike physicochemical methods, which require knowledge of pollutant composition, biotest methods of analysis allow detection of their physiological activity in an integral form.",
+    "discussion10": "To determine acute toxicity, survival of Ceriodaphnia affinis juveniles was used. The indicator of the method was the average number of original female daphnia that survived during biotesting. The criterion of toxicity was a reliable difference in the survival indicator in the experiment from the control.",
+    "discussion11": "From the results presented in Table 3, it follows that both the studied volatile organic compounds, which were the main components of odor, and the products of their oxidation by ozone were not toxic. Therefore, it can be stated that when ozonating volatile organic compounds, the composition and content of which in the air does not exceed sanitary standards, no new compounds are formed that pose a threat to human life. The proposed method of removing volatile impurities from air by ozonation is an effective method for deodorizing residential or office spaces.",
+    "conclusions": "By solid-phase microextraction, the composition of volatile compounds released from the model mixture of essential oils into the gas space above this mixture was determined. A method for transforming volatile compounds into non-hazardous, non-toxic, and easily removable derivatives by mixing the gas phase with ozone was developed. By biotesting using survival of Ceriodaphnia affinis juveniles, the absence of toxicity of products of oxidation of volatile compounds by ozone was proven."
+  },
+  "sourcesTitle": "Sources",
+  "sources": [
+    {
+      "title": "V.V. Lunin, V.G. Samoilovich, S.N. Tkachenko, I.S. Tkachenko. Ozone and other environmentally clean oxidizers: Science and technology. Collection of articles from the 34th All-Russian Conference"
+    }
+  ],
+  "tables": {
+    "table1": {
+      "caption": "Table 1. Composition of volatile compounds in the model mixture of essential oils",
+      "headers": ["Component", "Content in mixture, %", "Content in 5 mg mixture, μg", "Content in gas phase, ng"],
+      "rows": [
+        ["Limonene", "30.1", "1505", "3454"],
+        ["Linalool", "22.7", "1135", "2840"],
+        ["Carvone", "15.0", "750", "1875"],
+        ["Eugenol", "12.5", "625", "625"],
+        ["Caryophyllene", "10.2", "510", "2040"],
+        ["Menthol", "3.5", "175", "875"],
+        ["Camphor", "2.1", "105", "525"],
+        ["p-Cymene", "1.8", "90", "450"],
+        ["Thymol", "1.2", "60", "300"],
+        ["Dodecane (internal standard)", "2.1", "105", "1155"]
+      ]
+    },
+    "table2": {
+      "caption": "Table 2. Composition of volatile compounds in the gas phase above meat broth distillate",
+      "headers": ["Component", "Content, ng/L"],
+      "rows": [
+        ["1,2-Cineole", "1250"],
+        ["Linalool", "980"],
+        ["Terpenyl acetate", "750"],
+        ["Geranyl acetate", "620"],
+        ["Camphor", "450"],
+        ["Menthol", "320"],
+        ["Thymol", "280"],
+        ["p-Cymene", "150"]
+      ]
+    },
+    "table3": {
+      "caption": "Table 3. Results of biotesting by survival of Ceriodaphnia affinis juveniles (acute toxicity)",
+      "headers": ["Sample", "Survival, %", "Toxicity"],
+      "rows": [
+        ["Control (water)", "100", "No"],
+        ["Essential oil mixture", "98", "No"],
+        ["Ozonation products", "97", "No"]
+      ]
+    }
+  },
+  "figure1": {
+    "caption": "Figure 1. Main reaction products of limonene with ozone: (1) limonene, (2) 2-acetoxy-5-formylhexanoic acid, (3) isomeric 1,2-limonene epoxides"
+  }
+}

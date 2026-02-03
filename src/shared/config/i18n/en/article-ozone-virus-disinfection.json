@@ -1,0 +1,95 @@
+{
+  "title": "Ozone Effects on Viruses and Bacteria",
+  "excerpt": "Mechanism of ozone's antiviral and bactericidal action: oxidative destruction of cell membranes, scientific research, and practical applications in disinfection.",
+  "body": {
+    "lead": "Ozone (O₃) is a powerful natural oxidizer formed by electrical discharge in air. Due to its unique chemical properties, it can effectively destroy pathogenic microorganisms including viruses, bacteria, fungi, and spores. Ozone leaves no harmful residues — it quickly decomposes into oxygen.",
+    "whatIsOzone": "Ozone is a triatomic form of oxygen with high reactivity. This molecule is unstable and tends to release its 'extra' oxygen atom, which accounts for its powerful oxidizing properties. The half-life of ozone in air ranges from several minutes to an hour depending on conditions.",
+    "propertiesTitle": "Key Properties of Ozone",
+    "properties": [
+      "Disinfecting — destroys pathogenic microorganisms",
+      "Bactericidal — destroys bacterial cells",
+      "Oxidizing — oxidizes organic compounds",
+      "Deodorizing — eliminates unpleasant odors"
+    ],
+    "mechanismTitle": "Mechanism of Action on Viruses",
+    "mechanismIntro": "Scientific research has established that ozone inactivates viruses through direct oxidative damage to their structure. The virus destruction process occurs in several stages:",
+    "mechanismSteps": [
+      {
+        "title": "Contact with envelope",
+        "description": "The ozone molecule contacts the virus's outer envelope — the lipid bilayer that is vital for maintaining the integrity of the viral particle."
+      },
+      {
+        "title": "Lipid oxidation",
+        "description": "Ozone reacts with unsaturated fatty acids and lipoproteins in the envelope, oxidizing them. This leads to breaks in the virus's protective membrane."
+      },
+      {
+        "title": "Structural destruction",
+        "description": "The resulting damage gradually expands, compromising the integrity of the viral particle. The virus loses its ability to infect cells."
+      },
+      {
+        "title": "Genome damage",
+        "description": "Penetrating into the damaged particle, ozone affects the genetic material (DNA or RNA), making virus replication impossible."
+      }
+    ],
+    "envelopedTitle": "Enveloped and Non-enveloped Viruses",
+    "envelopedText": "Studies have shown that enveloped viruses (those with a lipid membrane) are significantly more susceptible to ozone than non-enveloped viruses. Enveloped viruses include influenza viruses, coronaviruses, and herpesviruses. Ozone effectively destroys their lipid envelope, rapidly inactivating viral particles.",
+    "researchTitle": "Scientific Research on Efficacy",
+    "researchSarsCov2": "Research on ozone's effects on SARS-CoV-2 is of particular interest. Scientific studies from 2020–2024 confirmed that ozone effectively inactivates coronavirus both on surfaces and in the air. A Genes study (2023) showed that ozone treatment degrades SARS-CoV-2 RNA within one hour, with significant destruction of non-replicating virus forms occurring within 30 minutes.",
+    "researchAirborne": "Experiments with airborne viruses demonstrated that ozone concentrations of 0.23–1.23 ppm at 85% relative humidity achieve a two-order-of-magnitude (100-fold) reduction in viral load within 40 minutes of exposure. Humidity plays an important role — ozone effectiveness increases at higher humidity levels.",
+    "bacteriaTitle": "Effects on Bacteria",
+    "bacteriaText": "The bactericidal mechanism of ozone is similar to its antiviral action: oxidation of cell membrane components leads to membrane destruction and bacterial cell death. Importantly, ozone is effective even against antibiotic-resistant bacterial strains because its mechanism of action is fundamentally different from antibiotics.",
+    "factorsTitle": "Factors Affecting Efficacy",
+    "factors": [
+      "Ozone concentration — higher concentrations provide faster inactivation",
+      "Exposure time — sufficient contact duration is critically important",
+      "Relative humidity — increased humidity enhances antiviral action",
+      "Type of microorganism — enveloped viruses are inactivated faster than non-enveloped ones"
+    ],
+    "applicationsTitle": "Practical Applications",
+    "applicationsIntro": "Ozone's ability to destroy a wide range of pathogens determines its use in various fields:",
+    "applications": [
+      "Disinfection of medical facilities and operating rooms",
+      "Air purification in public spaces",
+      "Surface treatment in food industry",
+      "Vehicle disinfection",
+      "Water purification and disinfection",
+      "Treatment of warehouse and production facilities"
+    ],
+    "advantagesTitle": "Advantages of Ozonation",
+    "advantagesHighlight": "Ozone acts 3000 times faster than chlorine and leaves no chemical residues — after disinfection is complete, it decomposes into ordinary oxygen.",
+    "advantages": [
+      "High efficacy against a wide spectrum of pathogens",
+      "Environmental safety — decomposes into oxygen",
+      "No chemical residues on treated surfaces",
+      "Ability to penetrate hard-to-reach areas",
+      "Effectiveness against antibiotic-resistant microorganisms"
+    ],
+    "safetyTitle": "Safety Considerations",
+    "safetyText": "Safety precautions must be observed during ozonation. People, animals, and plants should not be present in the area during treatment. After the procedure is complete, the room is ventilated — ozone quickly decomposes into safe oxygen, after which the space is ready for use.",
+    "conclusionTitle": "Conclusion",
+    "conclusion": "Ozone is an effective and environmentally safe means for air and surface disinfection. Its ability to destroy the lipid envelope of viruses and bacterial cell membranes has been confirmed by numerous scientific studies. Given the increasing resistance of microorganisms to traditional disinfectants, ozonation represents a promising method for ensuring microbiological safety."
+  },
+  "sourcesTitle": "Sources",
+  "sources": [
+    {
+      "title": "Roy D. et al. The biological effects of ozone on representative members of five groups of animal viruses. Environmental Research, 1982",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/0013935182901025"
+    },
+    {
+      "title": "Hudson J.B. et al. Inactivation of cell-associated viruses by ozone gas. NCBI PMC, 1982",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC241881/"
+    },
+    {
+      "title": "Tizaoui C. Ozone: A potential oxidant for COVID-19 virus (SARS-CoV-2). Critical Reviews in Environmental Science and Technology, 2022",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/10643389.2022.2043094"
+    },
+    {
+      "title": "Dennis R. et al. Ozone Disinfection for Elimination of Bacteria and Degradation of SARS-CoV2 RNA for Medical Environments. Genes, 2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9858956/"
+    },
+    {
+      "title": "Tseng C., Li C. Ozone efficacy for the control of airborne viruses: Bacteriophage and norovirus models. PLOS ONE, 2020",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0231164"
+    }
+  ]
+}

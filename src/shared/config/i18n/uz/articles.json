@@ -9,6 +9,66 @@
     "ozoneGrainProtection": {
       "title": "Ozon — donni ekologik xavfsiz himoya qilish",
       "excerpt": "Purdue universitetining tadqiqotlari shuni ko'rsatadiki: ozon don saqlash inshootlarida hasharotlarni samarali yo'q qiladi, don sifati va atrof-muhitga zarar yetkazmasdan."
+    },
+    "ozoneVocStudy": {
+      "title": "Yopiq xonalarda uchuvchi organik birikmalarga ozonning ta'sirini o'rganish",
+      "excerpt": "Tadqiqotlar shuni ko'rsatdiki: ozon havodagi past molekulyar organik aralashmalarni xavfsiz, zaharsiz hosilalarga samarali o'zgartiradi. Biotestlash oksidlanish mahsulotlarining xavfsizligini tasdiqladi."
+    },
+    "aopWastewaterAgriculture": {
+      "title": "AOP va oqova suvlar. Qishloq xo'jaligida AOP",
+      "excerpt": "Akvakultura va qishloq xo'jaligida oqova suvlarni tozalash uchun ilg'or oksidlanish jarayonlari (AOP) qo'llanilishi. Ozonlash krevetkalar o'limini 80% dan 20% gacha kamaytirdi."
+    },
+    "grainDryingOzone": {
+      "title": "Ozon yordamida donni quritish jarayonini intensivlashtirish",
+      "excerpt": "Shaxtali resirkulyatsion don quritgichlarida ozon-havo aralashmasini qo'llash quritish vaqtini 1,5-2 marta qisqartirish va yiliga 19 t shartli yoqilg'igacha energiya tejash imkonini beradi."
+    },
+    "concentratedOzoneAgriculture": {
+      "title": "Qishloq xo'jaligida konsentrlangan ozonni qo'llash",
+      "excerpt": "Soatiga 10 kg gacha sig'imli ixcham mobil konsentrlangan ozon generatorlari don, ozuqa va parranda fermalari dezinfeksiyasini soatlar o'rniga daqiqalarda o'tkazish imkonini beradi."
+    },
+    "ozoneFoodInteraction": {
+      "title": "Ozonning oziq-ovqat mahsulotlari bilan o'zaro ta'siri",
+      "excerpt": "Oksidlovchi sifatida ozon: ozuqa moddalarga ta'siri, bakteritsid va zamburug'ga qarshi faollik, oziq-ovqatni qayta ishlashda namlik va etilenning roli."
+    },
+    "ozonePoultryFarming": {
+      "title": "Parranda fermasida ozon. Kirish",
+      "excerpt": "Parranda fermasida ozonni qo'llash: tuxumlarni inkubatsiya qilish, suv va havoni dezinfeksiya qilish, ozuqalarni qayta ishlash, tuxum tanasini zararsizlantirish. VNITIP tadqiqotlari va jahon tajribasi."
+    },
+    "ozoneCovid19Treatment": {
+      "title": "COVID-19 davolashda ozondan potentsial foydalanish",
+      "excerpt": "ISCO3 ning SARS-CoV-2 uchun qo'shimcha terapiya sifatida ozon terapiyasi bo'yicha rasmiy ekspert xulosasi: dezinfeksiya, ta'sir mexanizmlari, klinik protokollar."
+    },
+    "ozoneSeedTreatmentResearch": {
+      "title": "Urug'larni ekishdan oldin ozon texnologiyasi bilan ishlov berish sinov natijalari",
+      "excerpt": "Ko'p yillik tadqiqotlar shuni ko'rsatdiki: urug'larni ozon-havo aralashmasi bilan ekishdan oldin ishlov berish hosilni 15–20% ga oshiradi, unib chiqishni faollashtiradi va o'simliklarning rivojlanishini minimal xarajatlar bilan tezlashtiradi."
+    },
+    "ozoneVirusDisinfection": {
+      "title": "Ozonning viruslar va bakteriyalarga ta'siri",
+      "excerpt": "Ozonning antivirus va bakteritsid ta'sir mexanizmi: hujayra membranalarining oksidlanib parchalanishi, ilmiy tadqiqotlar va dezinfeksiyada amaliy qo'llanilishi."
+    },
+    "poolVentilationDehumidifiers": {
+      "title": "Basseyn ventilyatsiyasi: devorga o'rnatiladigan va kanalli quritgichlar",
+      "excerpt": "Yopiq basseynlar uchun ventilyatsiya va havoni quritish tizimlari bo'yicha to'liq qo'llanma. Namlik standartlari, quritgich turlari, issiqlik nasosi texnologiyasi va ASHRAE tavsiyalari."
+    },
+    "ozoneCucumberGreenhouse": {
+      "title": "Issiqxonada bodring yetishtirish uchun ozon",
+      "excerpt": "Tadqiqotlar shuni ko'rsatdiki: ozonlangan suv bilan sug'orish bodring ko'chatlarining o'sishini rag'batlantiradi, barg maydonini 25–30% ga oshiradi, urug' hosildorligini yaxshilaydi va kimyoviy fumigantlarsiz nematodalarni yo'q qiladi."
+    },
+    "ozoneCancerRiskReduction": {
+      "title": "Havoni tozalash orqali saraton xavfini kamaytirish",
+      "excerpt": "Ilmiy tadqiqotlar shuni ko'rsatadiki: ish joyidagi havoni kanserogen birikmalardan (fenol, formaldegid) tozalash saraton xavfini 3–5 marta kamaytirishi mumkin."
+    },
+    "ozoneDriedFruitsStorage": {
+      "title": "Quritilgan mevalar uchun ozonni qo'llash: saqlash, konservatsiya va ishlov berish",
+      "excerpt": "Quritilgan mevalarni ozon bilan ishlov berish bo'yicha ilmiy sharh: dekonaminatsiya, aflatoksin va mikotoksinlarni kamaytirish, pestitsid qoldiqlarini yo'qotish, yong'oq, mayiz, xurmo va quritilgan o'rikni saqlash muddatini uzaytirish."
+    },
+    "ozoneGoldSilverMining": {
+      "title": "Oltin, kumush va metallar qazib olishda ozonni qo'llash",
+      "excerpt": "Kon sanoatida ozon texnologiyalarining ilmiy sharhi: qiyin rudalarni oldindan ishlov berish, oltin eritishni kuchaytirish, kumush ajratib olish va oqova suvlarda siyanidlarni ekologik xavfsiz yo'q qilish."
+    },
+    "ozoneFoodWarehouseMeat": {
+      "title": "Oziq-ovqat omborlarida va go'sht saqlashda ozonni qo'llash",
+      "excerpt": "Sovuq saqlash inshootlarida, go'shtni saqlashda, patogenlarni nazorat qilishda va yirik oziq-ovqat xizmat ko'rsatish tarmoqlari tomonidan qabul qilinishida ozon texnologiyasining keng qamrovli sharhi. FDA GRAS to'g'ridan-to'g'ri oziq-ovqat bilan aloqa qilish uchun tasdiqlangan."
     }
   }
 }

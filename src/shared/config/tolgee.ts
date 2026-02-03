@@ -9,23 +9,28 @@ export const LOCALES: Record<
   TLocale,
   {
     id: TLocale
+    shortLabel: string
     fullLabel: string
   }
 > = {
   ru: {
     id: 'ru',
+    shortLabel: 'RU',
     fullLabel: 'Русский',
   },
   en: {
     id: 'en',
+    shortLabel: 'EN',
     fullLabel: 'English',
   },
   uz: {
     id: 'uz',
+    shortLabel: 'UZ',
     fullLabel: "O'zbekcha",
   },
   'uz-cyr': {
     id: 'uz-cyr',
+    shortLabel: 'ЎЗ',
     fullLabel: 'Ўзбекча',
   },
 }

@@ -36,7 +36,7 @@ export function Header() {
   return (
     <>
       <header className={`header ${scrolled ? 'scrolled' : ''}`}>
-        <div className="header__inner container">
+        <div className="header__inner">
           <AppLink href="/" className="header__logo">
             <Logo />
           </AppLink>
@@ -58,11 +58,11 @@ export function Header() {
 
           <div className="header__actions">
             <LanguageSwitcher />
-            <a href="tel:+78001234567" className="header__phone">
+            <a href="tel:+998942909977" className="header__phone">
               <IconPhone className="header__phone-icon" />
-              <span>{t('header.phone')}</span>
+              <span className="header__phone-text">{t('header.phone')}</span>
             </a>
-            <AppLink href="/contacts" className="btn btn--primary">
+            <AppLink href="/contacts" className="btn btn--primary header__cta-btn">
               {t('header.orderCall')}
             </AppLink>
           </div>
@@ -91,7 +91,7 @@ export function Header() {
           <LanguageSwitcher />
         </div>
         <div className="mobile-menu__phone">
-          <a href="tel:+78001234567">{t('header.phone')}</a>
+          <a href="tel:+998942909977">{t('header.phone')}</a>
           <p>{t('header.freeCall')}</p>
         </div>
       </div>

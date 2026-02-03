@@ -11,9 +11,9 @@
     "contacts": "Contacts"
   },
   "header": {
-    "phone": "8 (800) 123-45-67",
+    "phone": "+998 94 290 99 77",
     "orderCall": "Request a call",
-    "freeCall": "Free call across Russia"
+    "freeCall": "Call us"
   },
   "hero": {
     "title": "Ozone — Nature's disinfection power",
@@ -106,7 +106,7 @@
     "home": {
       "title": "Ready to implement ozonation in your business?",
       "text": "Get a free consultation and equipment cost calculation for your needs",
-      "call": "Call: 8 (800) 123-45-67"
+      "call": "Call: +998 94 290 99 77"
     },
     "technology": {
       "title": "Want to learn more about the technology?",
@@ -492,7 +492,7 @@
       "name": "Your name",
       "namePlaceholder": "How should we address you?",
       "phone": "Phone",
-      "phonePlaceholder": "+7 (___) ___-__-__",
+      "phonePlaceholder": "+998 (__) ___ __ __",
       "email": "Email",
       "emailPlaceholder": "your@email.com",
       "industry": "Industry",
@@ -515,30 +515,17 @@
     "info": {
       "phone": {
         "title": "Phone",
-        "subtitle": "Free call across Russia"
-      },
-      "email": {
-        "title": "Email",
-        "subtitle": "We'll reply within an hour"
-      },
-      "whatsapp": {
-        "title": "WhatsApp",
-        "subtitle": "Quick answers to questions"
+        "subtitle": "Call during business hours"
       },
       "telegram": {
         "title": "Telegram",
-        "subtitle": "News and promotions channel"
+        "subtitle": "Quick contact 24/7"
       },
       "address": {
         "title": "Address",
-        "value": "Moscow, Primernaya st., 123",
-        "office": "Office 456",
-        "hours": "Mon-Fri: 9:00 AM - 6:00 PM"
-      },
-      "workingHours": {
-        "title": "Working hours",
-        "weekdays": "Mon-Fri: 9:00 AM - 6:00 PM",
-        "weekend": "Sat-Sun: by appointment"
+        "country": "Uzbekistan",
+        "city": "Samarkand",
+        "street": "Bulungur shoh kuchasi, 25"
       }
     }
   }

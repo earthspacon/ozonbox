@@ -1,0 +1,52 @@
+{
+  "title": "Basseyn ventilyatsiyasi: devorga o'rnatiladigan va kanalli quritgichlar",
+  "excerpt": "Yopiq basseynlar uchun ventilyatsiya va havoni quritish tizimlari bo'yicha to'liq qo'llanma. Namlik standartlari, quritgich turlari, issiqlik nasosi texnologiyasi va ASHRAE tavsiyalari.",
+  "body": {
+    "lead": "Yopiq basseynlar uchun ventilyatsiya tizimlarini loyihalash ko'plab o'zaro bog'liq omillarni hisobga olishni talab qiladigan murakkab muhandislik vazifasidir. Asosiy muammo - havo namligini nazorat qilish, chunki suv yuzasidan yuqori bug'lanish darajasi doimiy namlik manbai yaratadi. Eng samarali yechim asosiy kiruvchi-chiquvchi ventilyatsiyani devorga o'rnatiladigan yoki kanalli havo quritgichlari bilan birlashtirish hisoblanadi.",
+    "humidityStandardsTitle": "Yopiq basseynlar uchun namlik standartlari",
+    "humidityStandards": "ASHRAE (Amerika Isitish, Sovutish va Konditsionerlash Muhandislari Jamiyati) tavsiyalariga ko'ra, basseyn inshootlarida optimal nisbiy namlik darajasi 40-60% oralig'ida saqlanishi kerak. Bu oraliq mehmonlar qulayligi, oqilona energiya sarfi va bino konstruksiyalarini himoya qilishni ta'minlaydi. Yozda namlikni yuqori chegaraga yaqinroq (60%) saqlash mumkin, qishda esa bino qobig'i elementlarida kondensatsiyani oldini olish uchun uni 50% gacha kamaytirish tavsiya etiladi.",
+    "dewPointTitle": "Shudring nuqtasini tushunish",
+    "dewPoint": "Yopiq basseynlar yuqori shudring nuqtali inshootlar toifasiga kiradi. Basseyn zalida havo harorati odatda suv haroratidan 2-4°C (4-7°F) yuqori saqlanadi (odatda 27-30°C yoki 80-86°F), bu oddiy ofis xonalaridagidan (20-22°C yoki 68-72°F) ancha yuqori. Bu shudring nuqtasini oshiradi va sovuqroq sirtlarda — oynalar, devorlar va metall konstruksiyalarda kondensatsiya xavfini oshiradi. Kondensatsiya korroziya, mog'or paydo bo'lishi va pardozlash materiallarining buzilishiga olib keladi.",
+    "evaporationTitle": "Namlik manbalari va bug'lanish tezligi",
+    "evaporation": "Basseyn inshootidagi asosiy namlik manbalari: suv yuzasidan bug'lanish, tashqi havo oqimi va mehmonlardan ajralishlar. Bug'lanish tezligi suv yuzasi va havo o'rtasidagi bug' bosimi farqiga, suv haroratiga, basseyn yuzasi maydoniga va havo harakati intensivligiga bog'liq. Mehmonlarning faolligi (suzish, sakrash, o'yinlar) sachratish va turbulentlik tufayli bug'lanishni sezilarli darajada oshiradi. Hisob-kitoblar uchun ASHRAE qo'llanmasida nashr etilgan Faollik Koeffitsienti ishlatiladi.",
+    "wallMountedTitle": "Devorga o'rnatiladigan havo quritgichlar",
+    "wallMounted": "Devorga o'rnatiladigan quritgichlar - maishiy konditsionerlar bilan o'lchamlari bo'yicha solishtiriladigan ixcham qurilmalar. Ular to'g'ridan-to'g'ri basseyn zonasiga o'rnatiladi va sovuq bug'latgich serpentinida namlik kondensatsiyasi tamoyili asosida ishlaydi, so'ngra quritilgan havo kondensatorda qayta isitiladi. Afzalliklari: oson o'rnatish, past narx va zalning istalgan joyiga joylashtirish moslashuvchanligi. Biroq, ularning sig'imi cheklangan, shuning uchun kichik basseynlar uchun ham odatda 2-3 ta qurilma talab qilinadi. Devorga o'rnatiladigan quritgichlar faqat havoni quritadi va isitadi, lekin uning tarkibini yangilamaydi — buning uchun alohida ventilyatsiya tizimi talab qilinadi.",
+    "ductedTitle": "Kanalli havo quritgichlar",
+    "ductedText": "Kanalli quritgichlar havo kanallari tizimiga integratsiyalanadi va basseyn zonasidan tashqarida texnik xonalarda joylashadi. Bu uskunani yashirish, unga texnik xizmat ko'rsatish va ta'mirlashni soddalashtirish, shuningdek, agressiv xlor-tarkibli muhitdan himoya qilish imkonini beradi. Havo kanal tizimi orqali xonaning butun hajmidan bir tekisda olinadi, markaziy blokda quritiladi va zalga qaytariladi. Kanalli tizimlar standart kiruvchi-chiquvchi ventilyatsiya bilan oson integratsiyalashadi, bir vaqtning o'zida quritish va havoni yangilashni ta'minlaydi.",
+    "heatPumpTitle": "Issiqlik nasosi texnologiyasi",
+    "heatPump": "Zamonaviy basseyn quritgichlari ozon qatlamini yemiraydigan R-407C xladagent yordamida issiqlik nasosi tamoyili asosida ishlaydi. Issiqlik nasosi namlik kondensatsiyasi paytida nam havodan yashirin issiqlikni ajratib oladi va undan isitish uchun foydalanishi mumkin: chiqayotgan quritilgan havo (reheat), qo'shimcha issiqlik almashtirgich orqali basseyn suvi yoki issiq suv ta'minoti tizimlari. Qulay sharoitlarda issiqlik nasosli quritgich basseyn suvini isitish talablarini to'liq qondirishi mumkin, bu yordamchi isitgichlarga bo'lgan ehtiyojni yo'q qiladi. Bu tizimni yuqori energiya samarali qiladi.",
+    "ventilationRequirementsTitle": "Ventilyatsiya talablari",
+    "ventilationRequirements": "ASHRAE 62.1-2022 standarti basseynlar uchun minimal tashqi havo ta'minoti tezligini belgilaydi: basseyn va ho'l maydonlar uchun kvadrat fut uchun 0,48 CFM, quruq maydonlar uchun kvadrat fut uchun 0,06 CFM. Umumiy havo almashinuvi soatiga 4-6 marta tavsiya etiladi. Nam, xlor-aminli havo butun bino bo'ylab tarqalishini oldini olish uchun basseyn zalida qo'shni xonalarga nisbatan biroz salbiy bosimni saqlash muhimdir.",
+    "chloraminesTitle": "Xloramin muammosi va havo sifati",
+    "chloramines": "Xarakterli 'basseyn hidi' xlor emas, balki xloraminlar — xlor organik moddalar (ter, teri ajralishlari, kosmetika) bilan reaksiyaga kirishganda hosil bo'ladigan uchuvchan birikmalar tomonidan yaratiladi. Xloraminlar ko'z va nafas yo'llarini qitiqlab, ularning havoda konsentratsiyasi samarali ventilyatsiya orqali nazorat qilinishi kerak. Ba'zi loyihachilar mehmonlar nafas olish zonasida havo sifatini yaxshilash uchun tashqi havo ta'minoti tezligini ASHRAE minimumlaridan 50% yuqori oshiradilar.",
+    "airDistributionTitle": "Havo taqsimoti",
+    "airDistribution": "Zamonaviy loyihalash yondashuvlari sifatli havoni aynan nafas olish zonasida — suv yuzasida va maydoncha darajasida ta'minlashga e'tibor beradi. Shiftda chiqarish va pol darajasida kiritish bilan an'anaviy sxema basseynlar uchun har doim ham samarali emas. Havo oqimlarini yangi havo to'g'ridan-to'g'ri suzuvchilarga yetkazib beriladigan, ifloslangan nam havo esa ulardan uzoqlashtirilishi kerakli tarzda tashkil qilish tavsiya etiladi. Bu diqqatli hisob-kitob va havo oqimi modellashtiruvini talab qiladi.",
+    "energyRecoveryTitle": "Issiqlikni qaytarish",
+    "energyRecovery": "Basseyn inshootiga tashqi havoni kiritish isitish uchun sezilarli energiya xarajatlari bilan bog'liq (ayniqsa qishda). Foydalanish xarajatlarini kamaytirish uchun chiqarilayotgan havodan kiruvchi havoga issiqlikni o'tkazadigan Issiqlikni Qaytarish Ventilyatorlari (HRV) qo'llaniladi. Issiqlik almashtirgichlar yuqori xlor birikmalari tarkibiga ega agressiv muhitda ishlash uchun korroziyaga chidamli materiallardan yasalgan bo'lishi kerak.",
+    "systemIntegrationTitle": "Integratsiyalangan loyihalash yondashuvi",
+    "systemIntegration": "Basseynning muvaffaqiyatli ishlashi HVAC tizimi va suv tozalash tizimining muvofiqlashtirilgan ishini talab qiladi. Hech qanday iqlim tizimi, qanchalik yaxshi loyihalangan bo'lmasin, suv kimyosi bilan bog'liq muammolarni yoki bino qobig'i kamchiliklarini qoplay olmaydi. Bino qobig'i elementlari yuqori shudring nuqtali ilovalar uchun mo'ljallangan bo'lishi kerak — devorlar va tomlar ichida muzlash va kondensatsiyani oldini olish uchun kuchaytirilgan issiqlik izolyatsiyasi va bug' to'siqlari bilan."
+  },
+  "sourcesTitle": "Manbalar",
+  "sources": [
+    {
+      "title": "ASHRAE HVAC Applications Handbook, Chapter A06: Indoor Swimming Pools (2019)",
+      "url": "https://www.dxair.com/pdf/designguide/ashrae-2019-hvac-manual.pdf"
+    },
+    {
+      "title": "ASHRAE Standard 62.1-2022: Ventilation and Acceptable Indoor Air Quality",
+      "url": ""
+    },
+    {
+      "title": "Shah M.M. Improved method for calculating evaporation from indoor water pools. Energy and Buildings, 2012",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378778812001041"
+    },
+    {
+      "title": "Ribeiro E.M. et al. Analysis of indoor environmental conditions and heat pump energy supply systems in indoor swimming pools. Energy and Buildings, 2011",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378778810002665"
+    },
+    {
+      "title": "Desert Aire Technical Note: Indoor Pool Dehumidifier Sizing Guide",
+      "url": "https://www.desert-aire.com/sites/default/files/AN10-Tech-Note-Indoor-Pool-Dehumidiifer-Sizing-Guide-Application-Note-DA110.pdf"
+    }
+  ]
+}

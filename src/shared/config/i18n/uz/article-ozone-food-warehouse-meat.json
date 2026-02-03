@@ -1,0 +1,69 @@
+{
+  "title": "Oziq-ovqat omborlarida va go'sht saqlashda ozonni qo'llash",
+  "excerpt": "Sovuq saqlash inshootlarida, go'shtni saqlashda, patogenlarni nazorat qilishda va yirik oziq-ovqat xizmat ko'rsatish tarmoqlari tomonidan qabul qilinishida ozon texnologiyasining keng qamrovli sharhi. FDA GRAS to'g'ridan-to'g'ri oziq-ovqat bilan aloqa qilish uchun tasdiqlangan.",
+  "sections": {
+    "introduction": "Kirish",
+    "coldStorage": "Sovuq saqlash inshootlarida ozon",
+    "meatPreservation": "Go'shtni saqlash va konservatsiya qilish",
+    "pathogenControl": "Go'sht mahsulotlarida patogenlarni nazorat qilish",
+    "industryAdoption": "Sanoatda qo'llash",
+    "benefits": "An'anaviy sanitariya usullariga nisbatan afzalliklar",
+    "shelfLife": "Saqlash muddatini uzaytirish",
+    "regulatory": "Regulyator tasdiqlashlar va xavfsizlik",
+    "conclusion": "Xulosa"
+  },
+  "body": {
+    "lead": "Ozon texnologiyasi oziq-ovqat saqlash va konservatsiya qilish uchun kuchli va ekologik xavfsiz yechim sifatida paydo bo'ldi, ayniqsa sovuq saqlash inshootlarida va go'shtni qayta ishlash operatsiyalarida. FDA GRAS (Umumiy xavfsiz deb tan olingan) oziq-ovqat mahsulotlari bilan to'g'ridan-to'g'ri aloqa uchun tasdiqlanishi bilan ozon patogenlarni samarali nazorat qilish va saqlash muddatini uzaytirish bilan birga an'anaviy kimyoviy dezinfektantlarga nisbatan sezilarli afzalliklar taklif etadi.",
+    "coldStorage1": "Sovuq saqlash inshootlari oziq-ovqat ta'minot zanjirida muhim infratuzilmani ifodalaydi, tez buziladigan mahsulotlarni saqlash uchun optimal sharoitlarni ta'minlaydi. Ozon sovuq saqlash qo'llanmalarida XX asrning boshlaridan beri ishlatilgan, go'shtni konservatsiya qilish uchun hujjatlashtirilgan qo'llanish 1909 yildan, meva saqlash qo'llanmalari esa 1939 yildan boshlab.",
+    "coldStorage2": "Zamonaviy sovuq saqlash omborlarida ozon tizimlari mavjud sovutish infratuzilmasiga integratsiya qilinishi mumkin, uzluksiz antimikrob himoyani ta'minlash uchun. Gaz odatda elektr razryad texnologiyasidan foydalangan holda joyda ishlab chiqariladi va nazorat qilinadigan konsentratsiyalarda saqlash muhitiga tarqatiladi. Bu yondashuv kimyoviy moddalarni saqlash zaruratini bartaraf etadi, boshqarish xavflarini kamaytiradi va butun saqlash davri davomida doimiy himoyani ta'minlaydi.",
+    "coldStorage3": "Ozonning sovuq saqlash muhitlarida samaradorligi uning kuchli oksidlanish xususiyatlaridan kelib chiqadi. Uch atomli kislorod molekulasi (O₃) erkin radikal mexanizmlari orqali mikroorganizmlar bilan reaksiyaga kirishadi, hujayra membranalarini va hujayra komponentlarini yo'q qiladi. To'g'ridan-to'g'ri aloqa talab qiladigan va qoldiqlarni qoldirishi mumkin bo'lgan kimyoviy dezinfektantlardan farqli o'laroq, ozon butun saqlash bo'shlig'iga kirib boradi va tabiiy ravishda kislorodga parchalanadi, zararli qoldiqlarni qoldirmaydi.",
+    "meatPreservation1": "Go'sht mahsulotlari ayniqsa buzilish va patogen kontaminatsiyasiga sezgir, bu esa oziq-ovqat xavfsizligi uchun samarali konservatsiya usullarini zarur qiladi. Ozon bilan ishlov berish go'shtni konservatsiya qilish qo'llanmalarida sezilarli samaradorlikni ko'rsatdi, tadqiqotlar mikrob hisoblarining sezilarli kamayishini va saqlash muddatining uzayishini ko'rsatadi.",
+    "meatPreservation2": "Gazsimon ozon bilan ishlov berish protokollari odatda har 30 minutda 5-10 minut davom etadigan impulslarni uzaytirilgan davrlar uchun qo'llashni o'z ichiga oladi. Tadqiqotlar 218-283 mg O₃/m³ konsentratsiyalarining mol go'shti mahsulotlarida mikrob populyatsiyalarini samarali kamaytirishini ko'rsatdi. Masalan, mol go'shtini gazsimon ozon bilan ishlov berish inokulyatsiya qilingan Listeria monocytogenes hisoblarini 1 log sikldan ko'proq kamaytirdi, 4°C saqlash haroratida 16 kun davomida aniqlash chegaralaridan pastga tushirdi.",
+    "meatPreservation3": "Suvli ozon qo'llanmalari ham go'shtni qayta ishlash uchun samarali, tadqiqotlar 5 minut davomida 3 ppm konsentratsiyada Clostridium perfringens uchun 1,28, E. coli O157:H7 uchun 0,85 va Listeria monocytogenes uchun 1,09 log kamayishini ko'rsatadi. Gazsimon va suvli qo'llanmalar o'rtasidagi tanlov qayta ishlashning aniq bosqichiga va mahsulot talablariga bog'liq.",
+    "pathogenControl1": "Oziq-ovqat patogenlari jamoat salomatligiga sezilarli xavflarni tug'diradi, Salmonella, E. coli O157:H7 va Listeria monocytogenes kabi patogenlar jiddiy kasalliklarga va hatto o'limga olib keladi. Ozon go'sht mahsulotlari bilan odatda bog'liq bo'lgan bu va boshqa patogenlarga qarshi keng spektrli antimikrob faollikni ko'rsatdi.",
+    "pathogenControl2": "Mol go'shti qayta ishlash zavodlarida ozon bilan ishlov berish tabiiy mikrobiotada ham, patogen surrogatlarda ham sezilarli kamayishni ko'rsatdi. Bir yillik ozon qo'llash trim namunalarida taxminiy E. coli O157:H7 ning sezilarli kamayishiga olib keldi. Samaradorlik ham gram-musbat, ham gram-manfiy bakteriyalarga tarqaladi, bu ozonni patogenlarni nazorat qilish uchun keng qamrovli yechimga aylantiradi.",
+    "pathogenControl3": "Ozonning antimikrob ta'sir mexanizmi hujayra membranalarining va hujayra komponentlarining oksidlanib yo'q qilinishini o'z ichiga oladi. Bu oksidlanuvchi mexanizm mikroorganizmlar ozonga qarshilik rivojlantira olmasligini anglatadi, aniq hujayra jarayonlarini nishonga oladigan an'anaviy antibiotiklar yoki kimyoviy dezinfektantlardan farqli o'laroq. Bu ozonni qarshilik rivojlanishi tashvish tug'diradigan oziq-ovqat xavfsizligi qo'llanmalarida ayniqsa qimmatli qiladi.",
+    "industryAdoption1": "Oziq-ovqat xizmat ko'rsatish sanoati sanitariya va oziq-ovqat xavfsizligi qo'llanmalari uchun ozon texnologiyasini tobora ko'proq qabul qilmoqda. Yirik uskuna yetkazib beruvchilar butun dunyo bo'ylab minglab tizim o'rnatishlarini xabar qilmoqda, qo'llanmalar mol go'shti va parranda go'shtini qayta ishlash, meva va sabzavotlarni boshqarish va oziq-ovqat xizmat ko'rsatish operatsiyalarini qamrab oladi.",
+    "industryAdoption2": "Tez oziq-ovqat tarmoqlari va oziq-ovqat xizmat ko'rsatish operatsiyalari uskunalarni sanitariyalash, suvni tozalash va sirtlarni dezinfeksiya qilish uchun ozon tizimlarini integratsiya qildi. Ozon bilan boyitilgan suv xodimlar uchun qattiq kimyoviy moddalarni boshqarish, aralashtirish va yo'q qilish zaruratini bartaraf etadi, samarali antimikrob ta'sirni ta'minlaydi. Texnologiya doimiy sanitariya muhim bo'lgan yuqori hajmli operatsiyalarda ayniqsa qimmatlidir.",
+    "industryAdoption3": "Oziq-ovqatni qayta ishlash inshootlari ozonni joyda tozalash (CIP) tizimlari, uskunalarni sanitariyalash, tanklarni dezinfeksiya qilish va qadoqlash liniyalarini dezinfeksiya qilish kabi ko'plab qo'llanmalar uchun ishlatadi. Joyda ozon ishlab chiqarish qobiliyati kimyoviy moddalarni saqlash talablarini bartaraf etadi va yuqori oziq-ovqat xavfsizligi standartlarini saqlab, operatsion xarajatlarni kamaytiradi.",
+    "benefits1": "Ozon xlor asosidagi birikmalar kabi an'anaviy kimyoviy dezinfektantlarga nisbatan ko'plab afzalliklarni taklif etadi. Ehtimol, eng muhimi, ozon tabiiy ravishda bir necha daqiqada kislorodga parchalanadi, oziq-ovqat mahsulotlari yoki qayta ishlash uskunalarida kimyoviy qoldiqlarni qoldirmaydi. Bu yakuniy chayqash bosqichlarining zaruratini bartaraf etadi va kimyoviy kontaminatsiya xavfini kamaytiradi.",
+    "benefits2": "Ekologik afzalliklar kimyoviy moddalarni saqlash va yo'q qilish talablarini bartaraf etishni o'z ichiga oladi. Ozon faqat elektr va havodan foydalangan holda joyda ishlab chiqariladi, kimyoviy dezinfektantlar uchun transport va saqlash ehtiyojlarini bartaraf etadi. Parchalanish mahsulotlari zararsiz kislorod bo'lib, ozonni ekologik barqaror tanlovga aylantiradi.",
+    "benefits3": "Operatsion afzalliklar tozalash vaqtini qisqartirish, hidlarni nazorat qilishni yaxshilash va biofilm shakllanishini oldini olishni o'z ichiga oladi. Ozon to'g'ridan-to'g'ri pol, drenajlar, devorlar, uskunalar va tanklarga purkalishi mumkin, keng qamrovli sanitariya qamrovini ta'minlaydi. Vaqt o'tishi bilan ozon bilan ishlov berish mavjud biofilmlarni olib tashlaydi va yangi shakllanishni oldini oladi, umumiy zavod gigienasini yaxshilaydi.",
+    "benefits4": "Xarajat samaradorligi yana bir muhim afzallikdir. Dastlabki tizim o'rnatish investitsiya talab qilsa ham, operatsion xarajatlar odatda kimyoviy moddalarni sotib olish, saqlash talablari va yo'q qilish xarajatlarining kamayishi tufayli kimyoviy dezinfektantlardan past. Kimyoviy moddalar bilan ishlashni bartaraf etish ham mehnat talablarini va xavfsizlik xavflarini kamaytiradi.",
+    "shelfLife1": "Saqlash muddatini uzaytirish oziq-ovqat saqlashda ozon bilan ishlov berishning eng qimmatli afzalliklaridan birini ifodalaydi. Tadqiqotlar turli go'sht mahsulotlari uchun mos sharoitlarda ozon bilan ishlov berilganda mahsulot saqlash muddatining sezilarli yaxshilanishini ko'rsatdi.",
+    "shelfLife2": "Mol go'shti mahsulotlari uchun gazsimon ozon impulslari mikrob hisoblarini samarali kamaytirdi va uzaytirilgan davrlar davomida mahsulot sifatini saqlab qoldi. Tadqiqotlar ozon va liofilizatsiya jarayonlarining kombinatsiyasi bilan ishlov berilgan liofilizatsiya qilingan tovuq go'shti ozonlanmagan namunalarga nisbatan 3,26 va 1,41 log kamayishga erishdi, saqlash muddatini 4 oydan 8 oygacha uzaytirdi.",
+    "shelfLife3": "Saqlash muddatini uzaytirish afzalliklari samarali mikrob nazorati va mahsulot sifatiga minimal ta'sirning kombinatsiyasidan kelib chiqadi. Optimallashtirilgan sharoitlarda qo'llanilganda, ozon bilan ishlov berish go'shtning rangini, teksturasini va ozuqa xususiyatlarini saqlab qoladi, buzilish mikroorganizmlarini sezilarli darajada kamaytiradi. Mahsulot sifatiga potentsial salbiy ta'sirlardan qochish uchun ishlov berish parametrlarini ehtiyotkorlik bilan nazorat qilish zarur.",
+    "regulatory1": "Regulyator tasdiqlash oziq-ovqat qo'llanmalarida ozondan foydalanish uchun muhim tasdiqlashni ta'minlaydi. AQSh Oziq-ovqat va dori vositalari boshqarmasi (FDA) 2001 yil 26 iyunda 21 CFR 173.368 bo'yicha oziq-ovqatni qayta ishlash qo'llanmalari uchun ozonga GRAS maqomini berdi. Bu tasdiqlash oziq-ovqatni ishlov berish, saqlash va qayta ishlashda antimikrob agent sifatida gazsimon yoki suvli fazalarda ozondan foydalanishni qamrab oladi.",
+    "regulatory2": "AQSh Qishloq xo'jaligi vazirligi (USDA) 2002 yil 17 dekabrda mol go'shti va parranda go'shti mahsulotlari bilan ishlatish uchun ozonni tasdiqlagan yakuniy qoida bilan ergashdi. Qoidalar yaxshi ishlab chiqarish amaliyotining joriy sanoat standartlariga muvofiqlikni talab qiladi, lekin xavfsizlikni ta'minlash bilan birga ishlab chiqaruvchilar uchun moslashuvchanlikni ta'minlab, ozon darajalariga cheklovlar belgilamaydi.",
+    "regulatory3": "Ozon shuningdek organik oziq-ovqatni qayta ishlash uchun tasdiqlangan, USDA Milliy organik dasturining Ruxsat etilgan moddalar milliy ro'yxatiga kiritilgan. Bu tasdiqlash ozonni organik ishlab chiqarish standartlari bilan mos kelishini tan oladi, oziq-ovqat sanoatida uning qo'llanilishini yanada kengaytiradi.",
+    "regulatory4": "Ozonning oziq-ovqat qo'llanmalaridagi regulyator tarixi o'nlab yillar oldinga cho'ziladi, USDA tomonidan 1957 yilda mol go'shtini saqlash uchun gazsimon ozon tasdiqlanishi, FDA tomonidan 1975 yilda shisha suv uchun yaxshi ishlab chiqarish amaliyoti sifatida tan olinishi va 1982 yilda shisha suv uchun cheklangan GRAS tasdiqlanishi bilan. 2001-2002 yillardagi tasdiqlashlar ozonning qo'llanilishini barcha oziq-ovqatni qayta ishlash qo'llanmalariga kengaytirdi.",
+    "conclusion": "Ozon texnologiyasi oziq-ovqat saqlash va go'shtni konservatsiya qilish qo'llanmalari uchun yetuk, yaxshi tartibga solingan va yuqori samarali yechimni ifodalaydi. FDA va USDA tasdiqlashlari, asosiy oziq-ovqat patogenlariga qarshi isbotlangan samaradorlik va an'anaviy dezinfektantlarga nisbatan sezilarli afzalliklar bilan ozon zamonaviy oziq-ovqat xavfsizligi tizimlarida muhim vosita bo'ldi. Oziq-ovqat sanoati oziq-ovqat xavfsizligi, ekologik barqarorlik va operatsion samaradorlikni davom ettirayotgani sari, ozon texnologiyasi barcha bu ustuvorliklarni hal qiladigan va eng yuqori mahsulot sifat va xavfsizlik standartlarini saqlab, keng qamrovli yechimni taklif etadi."
+  },
+  "sourcesTitle": "Manbalar",
+  "sources": [
+    {
+      "title": "Ozone treatment of meat and meat products: a review. Frontiers in Food Science and Technology, 2024",
+      "url": "https://www.frontiersin.org/journals/food-science-and-technology/articles/10.3389/frfst.2024.1351801/full"
+    },
+    {
+      "title": "Treatment of beef with gaseous ozone: Physicochemical aspects and antimicrobial effects on heterotrophic microflora and listeria monocytogenes. Food Control, 2020",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0956713520305181"
+    },
+    {
+      "title": "The Use of Ozone Technology to Control Microorganism Growth, Enhance Food Safety and Extend Shelf Life: A Promising Food Decontamination Technology. Foods, 2023",
+      "url": "https://mdpi-res.com/d_attachment/foods/foods-12-00814/article_deploy/foods-12-00814.pdf"
+    },
+    {
+      "title": "USDA and FDA Ozone Regulations. Ozone Solutions, 2024",
+      "url": "https://ozonesolutions.com/blog/usda-and-fda-ozone-regulations/"
+    },
+    {
+      "title": "Recent Ozone Applications in Food Processing and Sanitation. Food Safety Magazine, 2023",
+      "url": "https://www.food-safety.com/articles/4369-recent-ozone-applications-in-food-processing-and-sanitation"
+    },
+    {
+      "title": "21 CFR § 173.368 - Ozone. U.S. Food and Drug Administration",
+      "url": "https://www.law.cornell.edu/cfr/text/21/173.368"
+    }
+  ]
+}

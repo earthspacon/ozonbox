@@ -59,7 +59,7 @@ export function LanguageSwitcher() {
         aria-haspopup="listbox"
       >
         <span className="lang-switcher__flag">{FLAGS[currentLang]}</span>
-        <span className="lang-switcher__label">{currentLocale?.fullLabel || currentLang}</span>
+        <span className="lang-switcher__label">{currentLocale?.shortLabel || currentLang.toUpperCase()}</span>
         <svg
           className={`lang-switcher__arrow ${isOpen ? 'lang-switcher__arrow--open' : ''}`}
           width="12"

@@ -2,7 +2,7 @@ import { useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { AppLink } from '@/shared/ui/app-link'
+import { CTASection } from '@/shared/ui/article-components'
 import { IconAuto, IconCheck, IconEco, IconEconomy, IconShield, IconUniversal } from '@/shared/ui/icons'
 
 export function BenefitsPage() {
@@ -182,24 +182,18 @@ export function BenefitsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="cta">
-        <div className="container">
-          <h2 className="cta__title">{t('cta.benefits.title')}</h2>
-          <p className="cta__text">{t('cta.benefits.text')}</p>
-          <div className="cta__actions">
-            <AppLink href="/contacts" className="btn btn--white btn--large">
-              {t('hero.getConsultation')}
-            </AppLink>
-            <AppLink
-              href="/applications"
-              className="btn btn--secondary btn--large"
-              style={{ borderColor: 'white', color: 'white' }}
-            >
-              {t('cta.technology.areas')}
-            </AppLink>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        title={t('cta.benefits.title')}
+        description={t('cta.benefits.text')}
+        primaryButton={{
+          label: t('hero.getConsultation'),
+          href: '/contacts',
+        }}
+        secondaryButton={{
+          label: t('cta.technology.areas'),
+          href: '/applications',
+        }}
+      />
     </Layout>
   )
 }

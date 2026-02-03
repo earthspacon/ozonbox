@@ -18,27 +18,7 @@ import { Seo } from '@/shared/ui/seo'
 const SLUG = 'ozone-grain-protection'
 const ARTICLE_NS = getArticleNamespace(SLUG)
 
-function parseSources(raw: unknown): { title: string; url: string }[] {
-  if (Array.isArray(raw)) {
-    return raw.filter(
-      (item): item is { title: string; url: string } =>
-        item != null &&
-        typeof item === 'object' &&
-        'title' in item &&
-        'url' in item &&
-        typeof (item as { title: unknown }).title === 'string' &&
-        typeof (item as { url: unknown }).url === 'string',
-    )
-  }
-  if (typeof raw === 'string') {
-    try {
-      return parseSources(JSON.parse(raw) as unknown)
-    } catch {
-      return []
-    }
-  }
-  return []
-}
+type Source = { title: string; url: string }
 
 export function OzoneGrainProtectionPage({ staticData }: { staticData: TolgeeStaticDataProp }) {
   const { t } = useTranslate()
@@ -59,8 +39,8 @@ export function OzoneGrainProtectionPage({ staticData }: { staticData: TolgeeSta
     )
   }
 
-  const nsData = (staticData as Record<string, { sources?: unknown }>)[`${lang}:${ARTICLE_NS}`]
-  const sources = parseSources(nsData?.sources)
+  const nsData = (staticData as Record<string, { sources?: Source[] }>)[`${lang}:${ARTICLE_NS}`]
+  const sources = nsData?.sources ?? []
   const masonQuote = t('body.masonQuote', { ns: ARTICLE_NS, defaultValue: '' })
   const origin = t('body.origin', { ns: ARTICLE_NS, defaultValue: '' })
 

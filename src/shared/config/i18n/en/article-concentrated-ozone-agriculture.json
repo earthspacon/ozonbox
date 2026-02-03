@@ -1,0 +1,45 @@
+{
+  "title": "Application of Concentrated Ozone in Agriculture",
+  "excerpt": "Compact mobile concentrated ozone generators with capacity up to 10 kg/h enable disinfection of grain, feed, and poultry facilities in minutes instead of hours.",
+  "body": {
+    "lead": "The high effectiveness of ozone as a replacement for chemical treatment methods in agricultural production has long been proven. The problem was the inability to create mobile ozone installations with the required ozone output. Recently, solutions have emerged that make this possible.",
+    "generatorSection": "Compact concentrated ozone generators have been developed that provide output of up to 10 kg/h at concentrations exceeding 200 mg/l from atmospheric oxygen directly at the point of application. The device does not require an oxygen concentrator and fits in any cargo vehicle.",
+    "applicationsTitle": "Applications of Mobile Ozone Installation",
+    "applicationsList": [
+      "Grain disinfection during storage preparation",
+      "Feed treatment",
+      "Poultry facility disinfection"
+    ],
+    "speedAdvantage": "The treatment process takes minutes instead of hours. A single device can service multiple production facilities.",
+    "comparisonTitle": "Comparison with Formaldehyde Method",
+    "comparisonIntro": "Traditional poultry facility disinfection is performed using formaldehyde aerosol. This method has significant drawbacks:",
+    "comparisonList": [
+      "High cost of consumables",
+      "Requires 24-hour ventilation after treatment",
+      "Limited effectiveness against viruses and fungi"
+    ],
+    "displacementTitle": "Displacement Method with Concentrated Ozone",
+    "displacementText": "The displacement method with concentrated ozone is also applicable for treating vegetable and fruit storage facilities. The main requirement: replacement of inter-grain space gas with ozone must occur faster than ozone decomposition.",
+    "sideEffectsTitle": "Additional Effects",
+    "sideEffectsList": ["Rodents (mice, rats) leave the treated premises", "Pest insects are destroyed"],
+    "tableTitle": "Table 2. Applications of Mobile Ozone Installation",
+    "tableCaption": "Application of concentrated ozone in agriculture",
+    "conclusion": "The application of concentrated ozone opens new possibilities for environmentally clean treatment of agricultural products without using chemical preparations."
+  },
+  "table": {
+    "headers": ["Application Area", "Advantages"],
+    "rows": [
+      ["Grain disinfection", "Fast treatment, quality preservation"],
+      ["Feed treatment", "Pathogen destruction without chemicals"],
+      ["Poultry facility disinfection", "Effectiveness against viruses and fungi"],
+      ["Vegetable storage", "Extended storage life"],
+      ["Fruit storage", "Preservation of marketable appearance"]
+    ]
+  },
+  "sourcesTitle": "Sources",
+  "sources": [
+    {
+      "title": "V.V. Lunin, V.G. Samoilovich, S.N. Tkachenko, I.S. Tkachenko. Ozone and Other Environmentally Clean Oxidizers: Science and Technology (30th All-Russian Seminar)"
+    }
+  ]
+}

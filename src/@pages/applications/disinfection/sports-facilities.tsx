@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
+import Image from 'next/image'
 
 import { Layout } from '@/widgets/layout'
 
@@ -10,6 +10,7 @@ import {
   ArticleSection,
   BulletList,
   ComparisonTable,
+  CTASection,
   DataTable,
   FeatureCard,
   FeatureGrid,
@@ -72,7 +73,10 @@ export function SportsFacilitiesPage({ staticData }: SportsFacilitiesPageProps) 
 
   return (
     <Layout>
-      <Seo title={t('subcategories.sports-facilities.title', { ns })} description={t('subcategories.sports-facilities.shortDesc', { ns })} />
+      <Seo
+        title={t('subcategories.sports-facilities.title', { ns })}
+        description={t('subcategories.sports-facilities.shortDesc', { ns })}
+      />
       {/* Breadcrumbs */}
       <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
@@ -162,8 +166,7 @@ export function SportsFacilitiesPage({ staticData }: SportsFacilitiesPageProps) 
           </ArticleSection>
 
           <HighlightBox variant="warning">
-            <strong>{data?.sections?.warning?.title ?? ''}</strong>{' '}
-            {data?.sections?.warning?.text ?? ''}
+            <strong>{data?.sections?.warning?.title ?? ''}</strong> {data?.sections?.warning?.text ?? ''}
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.whatDisinfects?.title}>
@@ -235,17 +238,17 @@ export function SportsFacilitiesPage({ staticData }: SportsFacilitiesPageProps) 
                 (data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]) ??
                 []
               }
-              rows={
-                ((data?.sections?.comparison?.rows as Array<{
+              rows={(
+                (data?.sections?.comparison?.rows as Array<{
                   parameter?: string
                   value1?: string
                   value2?: string
-                }>) ?? []).map((row) => ({
-                  parameter: row.parameter ?? '',
-                  value1: row.value1 ?? '',
-                  value2: row.value2 ?? '',
-                }))
-              }
+                }>) ?? []
+              ).map((row) => ({
+                parameter: row.parameter ?? '',
+                value1: row.value1 ?? '',
+                value2: row.value2 ?? '',
+              }))}
             />
           </ArticleSection>
 
@@ -268,33 +271,25 @@ export function SportsFacilitiesPage({ staticData }: SportsFacilitiesPageProps) 
             <BulletList items={(data?.sections?.safety?.items as string[]) ?? []} />
 
             <HighlightBox variant="success">
-              {typeof data?.sections?.safety?.highlight === 'string'
-                ? data?.sections?.safety?.highlight
-                : ''}
+              {typeof data?.sections?.safety?.highlight === 'string' ? data?.sections?.safety?.highlight : ''}
             </HighlightBox>
           </ArticleSection>
         </div>
       </article>
 
       {/* CTA Section */}
-      <section className="cta">
-        <div className="container">
-          <h2 className="cta__title">{t('cta.applications.title', { ns: NAMESPACES.common })}</h2>
-          <p className="cta__text">{t('cta.applications.text', { ns: NAMESPACES.common })}</p>
-          <div className="cta__actions">
-            <AppLink href="/contacts" className="btn btn--white btn--large">
-              {t('hero.getConsultation', { ns: NAMESPACES.common })}
-            </AppLink>
-            <a
-              href="tel:+78001234567"
-              className="btn btn--secondary btn--large"
-              style={{ borderColor: 'white', color: 'white' }}
-            >
-              {t('header.phone', { ns: NAMESPACES.common })}
-            </a>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        title={t('cta.applications.title', { ns: NAMESPACES.common })}
+        description={t('cta.applications.text', { ns: NAMESPACES.common })}
+        primaryButton={{
+          label: t('hero.getConsultation', { ns: NAMESPACES.common }),
+          href: '/contacts',
+        }}
+        secondaryButton={{
+          label: t('header.phone', { ns: NAMESPACES.common }),
+          href: 'tel:+998942909977',
+        }}
+      />
     </Layout>
   )
 }

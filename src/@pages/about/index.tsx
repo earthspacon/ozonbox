@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import { Layout } from '@/widgets/layout'
 
-import { AppLink } from '@/shared/ui/app-link'
+import { CTASection } from '@/shared/ui/article-components'
 import { IconAuto, IconCheck, IconShield } from '@/shared/ui/icons'
 
 export function AboutPage() {
@@ -115,24 +115,18 @@ export function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="cta">
-        <div className="container">
-          <h2 className="cta__title">{t('cta.about.title')}</h2>
-          <p className="cta__text">{t('cta.about.text')}</p>
-          <div className="cta__actions">
-            <AppLink href="/contacts" className="btn btn--white btn--large">
-              {t('cta.about.contact')}
-            </AppLink>
-            <a
-              href="tel:+78001234567"
-              className="btn btn--secondary btn--large"
-              style={{ borderColor: 'white', color: 'white' }}
-            >
-              {t('header.phone')}
-            </a>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        title={t('cta.about.title')}
+        description={t('cta.about.text')}
+        primaryButton={{
+          label: t('cta.about.contact'),
+          href: '/contacts',
+        }}
+        secondaryButton={{
+          label: t('header.phone'),
+          href: 'tel:+998942909977',
+        }}
+      />
     </Layout>
   )
 }

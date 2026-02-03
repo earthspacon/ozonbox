@@ -119,6 +119,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 body {
@@ -129,6 +130,7 @@ body {
   background-color: var(--color-bg-white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 img {
@@ -253,6 +255,10 @@ p {
   align-items: center;
   justify-content: space-between;
   height: 100%;
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
 }
 
 .header__logo {
@@ -269,13 +275,14 @@ p {
 .header__nav {
   display: flex;
   align-items: center;
-  gap: var(--spacing-8);
+  gap: var(--spacing-6);
+  margin: 0 var(--spacing-8) 0 auto;
 }
 
 .header__nav-list {
   display: flex;
   align-items: center;
-  gap: var(--spacing-6);
+  gap: var(--spacing-4);
 }
 
 .header__nav-link {
@@ -284,6 +291,8 @@ p {
   color: var(--color-text-secondary);
   transition: color var(--transition-fast);
   position: relative;
+  white-space: nowrap;
+  padding: 0 var(--spacing-2);
 }
 
 .header__nav-link:hover,
@@ -311,20 +320,41 @@ p {
   display: flex;
   align-items: center;
   gap: var(--spacing-4);
+  flex-shrink: 0;
 }
 
 .header__phone {
   display: flex;
   align-items: center;
-  gap: var(--spacing-2);
+  gap: var(--spacing-1);
   font-weight: 600;
   color: var(--color-text-primary);
+  font-size: var(--font-size-sm);
+  white-space: nowrap;
+  padding: var(--spacing-2) var(--spacing-3);
+  background: var(--color-bg-light);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+}
+
+.header__phone:hover {
+  background: var(--color-bg-gray);
 }
 
 .header__phone-icon {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+.header__phone-text {
+  display: inline;
+}
+
+.header__cta-btn {
+  display: inline-flex;
 }
 
 .header__menu-toggle {
@@ -1482,11 +1512,64 @@ p {
    RESPONSIVE DESIGN
    =================================== */
 
-/* Tablet */
+/* Large tablet / small desktop */
+@media (max-width: 1200px) {
+  .header__cta-btn {
+    display: none;
+  }
+
+  .header__nav-list {
+    gap: var(--spacing-3);
+  }
+
+  .header__nav-link {
+    font-size: 0.8125rem;
+    padding: 0 var(--spacing-1);
+  }
+}
+
+/* Tablet - switch to hamburger menu */
 @media (max-width: 1024px) {
   :root {
     --font-size-5xl: 2.5rem;
     --font-size-4xl: 2rem;
+    --header-height: 64px;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__actions {
+    gap: var(--spacing-2);
+  }
+
+  .header__phone {
+    display: flex;
+    padding: var(--spacing-2);
+    background: transparent;
+    min-width: auto;
+  }
+
+  .header__phone:hover {
+    background: var(--color-bg-light);
+  }
+
+  .header__phone-text {
+    display: none;
+  }
+
+  .header__phone-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .header__cta-btn {
+    display: none;
+  }
+
+  .header__menu-toggle {
+    display: flex;
   }
 
   .features {
@@ -1517,20 +1600,11 @@ p {
 /* Mobile */
 @media (max-width: 768px) {
   :root {
-    --header-height: 64px;
     --container-padding: 1rem;
   }
 
-  .header__nav {
+  .lang-switcher {
     display: none;
-  }
-
-  .header__phone {
-    display: none;
-  }
-
-  .header__menu-toggle {
-    display: flex;
   }
 
   .hero__stats {
@@ -1675,6 +1749,7 @@ p {
   cursor: pointer;
   transition: all var(--transition-fast);
   min-height: 2.75rem;
+  min-width: 3.5rem;
 }
 
 .lang-switcher__trigger:hover {
@@ -1684,17 +1759,23 @@ p {
 }
 
 .lang-switcher__flag {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1;
 }
 
 .lang-switcher__label {
-  display: none;
+  display: inline;
 }
 
-@media (min-width: 768px) {
-  .lang-switcher__label {
-    display: inline;
+@media (max-width: 1199px) {
+  .lang-switcher__trigger {
+    padding: var(--spacing-2);
+    gap: var(--spacing-1);
+    min-width: auto;
+  }
+
+  .lang-switcher__arrow {
+    display: none;
   }
 }
 

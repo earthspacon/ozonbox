@@ -1,0 +1,54 @@
+{
+  "title": "Ozone Interaction with Food Products",
+  "excerpt": "Ozone as an oxidizer: effects on nutrients, bactericidal and antifungal activity, role of humidity and ethylene. Science-based principles for using ozone in food processing and storage.",
+  "body": {
+    "intro": "Ozone is a powerful oxidizer, and its application in the food industry requires understanding the mechanisms of interaction with products. This article examines the principles of using ozone for food processing, its bactericidal and antifungal activity, as well as the influence of humidity and ethylene on ozonation effectiveness.",
+    "oxidationTitle": "Ozone as an Oxidizer and Effects on Nutrients",
+    "oxidation1": "As a strong oxidizer, ozone can potentially reduce the content of labile (unstable) nutrients — vitamins, proteins, and lipids. However, in practice, with proper application, this effect is minimal.",
+    "oxidation2": "Ozone primarily affects the surface of products. Due to the use of low concentrations and short exposure times, changes in product composition remain insignificant.",
+    "grasTitle": "GRAS Status and Application Safety",
+    "gras": "Ozone has GRAS (Generally Recognized as Safe) status, confirmed by experts. This means that when following recommended treatment protocols, ozone is safe for use in the food industry.",
+    "kuprianovTitle": "Kuprianov's Principles for Fruit Storage",
+    "kuprianov": "Kuprianov formulated key principles for ozone application in cold fruit storage: ozonation should be carried out at low temperatures, with controlled concentration and exposure time to achieve optimal effect without damaging the products.",
+    "bacterialTitle": "Bactericidal Activity of Ozone",
+    "bacterial1": "Ozone exhibits more pronounced bactericidal activity in water than in air. This is due to higher ozone solubility in water and direct contact with microorganisms.",
+    "bacterial2": "It is important to note that at very low concentrations (about 0.2 mg/m³), ozone may not kill bacteria but instead accelerate their growth. This phenomenon is known as hormesis.",
+    "bacterial3": "With prolonged exposure to low ozone concentrations, some bacteria can develop resistance. Therefore, it is important to apply sufficient concentrations to achieve bactericidal effect.",
+    "antifungalTitle": "Antifungal Activity",
+    "antifungal1": "Very low ozone concentrations are sufficient to prevent fungal growth on clean fruit surfaces. This makes ozonation an effective method for preventing fungal diseases.",
+    "antifungal2": "However, significantly higher ozone concentrations are required to destroy existing fungal colonies. The more developed the colony, the higher the concentration needed.",
+    "antifungal3": "Antifungal activity of ozone increases with air humidity. This is because fungal spores are more vulnerable to oxidative damage in humid environments.",
+    "yeastMoldTitle": "Effects on Yeasts and Molds",
+    "yeastMold1": "Yeasts are more susceptible to ozone than bacteria. They are more easily damaged by oxidation, making ozonation an effective method for controlling yeast microflora.",
+    "yeastMold2": "Mold spores are more resistant to ozone than bacteria. This is explained by the presence of protective coatings on spores that reduce ozone permeability.",
+    "yeastMold3": "When storing products at 0°C, ozonation effectively controls blue mold (Penicillium) development.",
+    "humidityTitle": "Effect of Relative Humidity",
+    "humidity1": "The rate of ozone decomposition increases with air humidity. This means that ozone is consumed faster in high humidity conditions.",
+    "humidity2": "Optimal regime: humidity should be high enough to enhance ozone's antimicrobial activity, but ozone must reach the product surface before decomposing.",
+    "humidity3": "When setting up ozonation systems, it is necessary to balance humidity and ozone concentration to achieve maximum effectiveness.",
+    "ethyleneTitle": "Role of Ethylene",
+    "ethylene1": "Ozone actively reacts with ethylene — a gas released by ripening and spoiling fruits. Ethylene accelerates fruit ripening and aging.",
+    "ethylene2": "When ozone interacts with ethylene, an intermediate compound is formed — ethylene oxide, which then breaks down into carbon dioxide and water.",
+    "ethylene3": "Ethylene oxide itself has antimicrobial activity — it inhibits the growth of bacteria, fungi, and mold. Thus, ozonation provides a dual effect: ethylene removal and additional antimicrobial action.",
+    "tableTitle": "Table 5.12. Summary of Ozone Use for Food Product Treatment",
+    "conclusionTitle": "Conclusions",
+    "conclusion": "Ozone is an effective and environmentally safe tool for food processing and storage. When properly applied — considering concentration, exposure time, temperature, and humidity — ozone provides reliable protection against microorganisms without significantly affecting product quality."
+  },
+  "table": {
+    "headers": ["Product", "Application", "Ozone Concentration", "Result"],
+    "rows": [
+      ["Fruits and vegetables", "Cold storage", "0.1–0.3 ppm", "Reduced microbial contamination, extended shelf life"],
+      ["Meat and poultry", "Surface treatment", "0.5–3.0 ppm", "Reduced bacterial load"],
+      ["Fish and seafood", "Water and product treatment", "0.1–2.0 ppm", "Pathogen control, odor elimination"],
+      ["Grain and cereals", "Storage treatment", "3–50 ppm", "Pest and fungal destruction"],
+      ["Eggs", "Shell treatment", "0.5–2.0 ppm", "Salmonella reduction"],
+      ["Cheese", "Aging and storage", "0.02–0.05 ppm", "Surface mold control"]
+    ]
+  },
+  "sourcesTitle": "Sources",
+  "sources": [
+    {
+      "title": "V.V. Lunin, V.G. Samoilovich, S.N. Tkachenko, I.S. Tkachenko. Theory and Practice of Ozone Production and Application"
+    }
+  ]
+}

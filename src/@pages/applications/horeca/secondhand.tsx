@@ -182,7 +182,7 @@ export function SecondhandPage({ staticData, lang }: SecondhandPageProps) {
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.workMode?.title}>
-            <BulletList items={(data?.sections?.workMode?.items as string[]) ?? []} />
+            <BulletList items={Array.isArray(data?.sections?.workMode?.items) ? data?.sections?.workMode?.items : Object.values((data?.sections?.workMode?.items as Record<string, string>) ?? {}) ?? []} />
 
             <HighlightBox variant="info">
               <strong>{(data?.sections?.workMode?.highlight as { title?: string } | undefined)?.title ?? ''}</strong>{' '}
@@ -224,7 +224,7 @@ export function SecondhandPage({ staticData, lang }: SecondhandPageProps) {
         }}
         secondaryButton={{
           label: t('header.phone', { ns: NAMESPACES.common }),
-          href: 'tel:+78001234567',
+          href: 'tel:+998942909977',
         }}
       />
     </Layout>

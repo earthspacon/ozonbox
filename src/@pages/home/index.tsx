@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { Layout } from '@/widgets/layout'
 
 import { AppLink } from '@/shared/ui/app-link'
+import { CTASection } from '@/shared/ui/article-components'
 import {
   IconArrowRight,
   IconCheck,
@@ -272,24 +273,18 @@ export function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="cta">
-        <div className="container">
-          <h2 className="cta__title">{t('cta.home.title')}</h2>
-          <p className="cta__text">{t('cta.home.text')}</p>
-          <div className="cta__actions">
-            <AppLink href="/contacts" className="btn btn--white btn--large">
-              {t('hero.getConsultation')}
-            </AppLink>
-            <a
-              href="tel:+78001234567"
-              className="btn btn--secondary btn--large"
-              style={{ borderColor: 'white', color: 'white' }}
-            >
-              {t('cta.home.call')}
-            </a>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        title={t('cta.home.title')}
+        description={t('cta.home.text')}
+        primaryButton={{
+          label: t('hero.getConsultation'),
+          href: '/contacts',
+        }}
+        secondaryButton={{
+          label: t('cta.home.call'),
+          href: 'tel:+998942909977',
+        }}
+      />
     </Layout>
   )
 }

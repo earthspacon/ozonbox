@@ -6,12 +6,10 @@ import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolge
 import {
   ArticleHero,
   ArticleSection,
-  BulletList,
   CTASection,
   DataTable,
   FeatureCard,
   FeatureGrid,
-  HighlightBox,
   Paragraph,
   StatCard,
   StatGrid,
@@ -152,7 +150,7 @@ export function TobaccoHookahPage({ staticData, lang }: TobaccoHookahPageProps) 
         }}
         secondaryButton={{
           label: t('header.phone', { ns: NAMESPACES.common }),
-          href: 'tel:+78001234567',
+          href: 'tel:+998942909977',
         }}
       />
     </Layout>

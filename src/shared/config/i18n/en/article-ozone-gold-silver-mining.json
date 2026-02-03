@@ -1,0 +1,65 @@
+{
+  "title": "Ozone Applications in Gold, Silver and Metal Extraction",
+  "excerpt": "Scientific review of ozone technology in mining: pretreatment of refractory ores, enhanced gold leaching, silver recovery, and environmentally safe cyanide destruction in wastewater.",
+  "body": {
+    "lead": "Ozone (O₃) is emerging as a valuable technology in the mining and mineral processing industry. With its powerful oxidizing properties, ozone offers solutions for improving precious metal extraction from refractory ores, enhancing leaching efficiency, and treating mining wastewater. This article reviews scientific research on ozone applications in gold, silver, and metal extraction processes.",
+    "refractoryOresTitle": "Ozone Pretreatment of Refractory Gold Ores",
+    "refractoryOresIntro": "Refractory gold ores present a significant challenge in mining operations. In these ores, gold particles are encapsulated within sulfide minerals such as pyrite, arsenopyrite, and pyrrhotite, making them inaccessible to conventional cyanide leaching. Ozone pretreatment offers an effective solution by oxidizing these sulfide minerals and exposing the gold for extraction.",
+    "refractoryOresResults": "Research conducted on Mexican refractory ore samples demonstrated remarkable improvements with ozone pretreatment. The indirect ozone contact method increased gold recovery from 53% to 88% and silver recovery from 26% to 78%. Additionally, direct ozone pretreatment reduced extraction time from 40 hours to 24 hours while maintaining recovery rates.",
+    "refractoryOresMechanism": "The oxidation mechanism involves ozone reacting with sulfide minerals to form metal sulfates and hydroxides. This process exposes previously encapsulated gold particles and reduces cyanide consumption during subsequent leaching. Temperature is identified as the predominant parameter affecting ozone pretreatment efficiency, while ozone concentration shows less influence when treating ores in ferric sulfate solutions.",
+    "heapLeachingTitle": "Ozone Ice for Heap Leaching Enhancement",
+    "heapLeachingIntro": "Heap leaching is a widely used method for gold extraction, but oxygen availability often limits leaching rates. Research at various institutions has explored using ozone ice as an oxygen release reagent to address this limitation.",
+    "heapLeachingResults": "Studies showed that increasing dissolved oxygen (DO) concentration from 8.2 mg/L to 12 mg/L doubled the gold leaching rate at high cyanide concentrations (60 mg/L). When ozone ice containing 300 mg/L ozone was added to column leaching experiments, gold extraction increased by 4.1% compared to control columns without ozone ice.",
+    "heapLeachingPhases": "The ozone flow through grain columns occurs in two distinct phases. In Phase 1, ozone rapidly degrades as it reacts with matter on the grain surface. In Phase 2, ozone moves freely through the grain with minimal degradation, allowing it to react with target materials. Increasing the ozone flow velocity from 0.02 to 0.04 m/s facilitates deeper penetration during Phase 1.",
+    "directLeachingTitle": "Direct Ozone Leaching of Precious Metals",
+    "directLeachingIntro": "Beyond pretreatment applications, ozone can serve as a direct leaching agent for precious metals. Research has demonstrated that aqueous ozone in dilute chloride media can dissolve gold and palladium at ambient temperature.",
+    "directLeachingMechanism": "The leaching process forms metal chloride complexes (such as AuCl₄⁻) through oxidation by ozone in the presence of chloride ions. The kinetics are controlled by ozone mass transfer to the solid-liquid interface, showing first-order dependence on dissolved ozone concentration.",
+    "directLeachingEconomics": "The electric power consumption for ozone generation ranges from 4-8 kWh per kilogram of metal leached. This makes the process most economically viable for high-value metals like gold and platinum group metals. Recent research has also explored ozone/thiosulfate combined approaches for recovering copper and gold from old flotation tailings.",
+    "cyanideDestructionTitle": "Cyanide Destruction in Mining Wastewater",
+    "cyanideDestructionIntro": "One of the most established applications of ozone in mining is the destruction of cyanide in wastewater. Cyanide is essential for gold extraction but poses serious environmental and health risks if released untreated.",
+    "cyanideDestructionProcess": "Ozone oxidizes cyanide in a two-step process: first converting cyanide (CN⁻) to cyanate (CNO⁻), followed by further oxidation and hydrolysis to bicarbonate and nitrogen. The reaction follows first-order kinetics with respect to ozone concentration and zero-order with respect to cyanide concentration. The stoichiometry indicates one mole of cyanide reacts with one mole of ozone.",
+    "cyanideDestructionResults": "Field trials at gold mining operations demonstrated 99% reduction of free cyanide and Weak Acid Dissociated (WAD) cyanide complexes. The average ozone dose required is 2-3 grams of O₃ per gram of cyanide, with complete oxidation typically achieved within 10-30 minutes.",
+    "cyanideDestructionAdvanced": "Advanced catalytic ozonation systems using MgO/persulfate or EDTA-coir/copper slag catalysts have achieved 98.71% cyanide removal efficiency. The O₃/H₂O₂ combination (peroxone process) has proven most effective for complete free cyanide removal, achieving near-total elimination in 3 minutes at pH 11.0.",
+    "environmentalBenefitsTitle": "Environmental Benefits Compared to Traditional Methods",
+    "environmentalBenefits1": "Reduced chemical usage: Ozone pretreatment can significantly reduce cyanide consumption during subsequent leaching, minimizing the amount of toxic chemicals needed.",
+    "environmentalBenefits2": "Elimination of hazardous additives: Ozone can substitute for lead additives traditionally used to improve gold leaching, eliminating associated environmental concerns.",
+    "environmentalBenefits3": "On-site generation: Ozone is produced on-site from air or oxygen, eliminating transportation and storage of hazardous chemicals.",
+    "environmentalBenefits4": "No toxic residues: Ozone rapidly decomposes to oxygen, leaving no harmful residues in treated materials or wastewater.",
+    "environmentalBenefits5": "Wastewater recycling: Ozone-treated wastewater can often be recycled in the process, reducing fresh water consumption.",
+    "industrialApplicationsTitle": "Industrial Applications and Implementation",
+    "industrialApplicationsIntro": "Several mining operations have successfully implemented ozone technology for various applications:",
+    "industrialApp1": "Cyanide destruction systems: On-site ozone generation systems have been installed at gold mines in Southeast Asia and South Africa, achieving over 85% reduction in free cyanide while complying with the International Cyanide Management Code (ICMC).",
+    "industrialApp2": "Pretreatment facilities: Pilot and commercial-scale ozone pretreatment systems have been tested for processing double refractory gold ores, demonstrating improved gold recovery and reduced processing time.",
+    "industrialApp3": "Combined treatment systems: Integrated systems combining ozone with other oxidants (hydrogen peroxide, persulfate) have been deployed for enhanced wastewater treatment efficiency.",
+    "industrialEconomics": "While ozonation involves relatively high capital costs for equipment, operating expenses are lower compared to conventional chemical oxidizers like sodium hypochlorite. The technology requires no adjustment of tailings streams, produces rapid and irreversible reactions, and improves operator safety by eliminating handling of hazardous chemicals.",
+    "conclusionTitle": "Conclusions",
+    "conclusion": "Ozone technology offers significant advantages for precious metal extraction and mining wastewater treatment. Research has demonstrated its effectiveness in pretreating refractory ores, enhancing gold and silver recovery, and destroying cyanide in wastewater. As environmental regulations become stricter and the industry seeks more sustainable practices, ozone applications in mining are likely to expand. Key benefits include improved metal recovery rates, reduced chemical usage, lower environmental impact, and compliance with international environmental standards."
+  },
+  "sourcesTitle": "Sources",
+  "sources": [
+    {
+      "title": "Ozone Ice as an Oxygen Release Reagent for Heap Leaching of Gold Ore — Minerals, MDPI, 2021",
+      "url": "https://mdpi-res.com/d_attachment/minerals/minerals-11-01251/article_deploy/minerals-11-01251-v2.pdf"
+    },
+    {
+      "title": "Leaching of gold and palladium with aqueous ozone in dilute chloride media — Hydrometallurgy, ScienceDirect, 2006",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304386X05002847"
+    },
+    {
+      "title": "Cyanide oxidation by ozone in cyanidation tailings: Reaction kinetics — Minerals Engineering, ScienceDirect, 2000",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0892687500000340"
+    },
+    {
+      "title": "The Effective Use of Ozone for Cyanide Destruction in Mining and Mineral Processing — Academia.edu",
+      "url": "https://www.academia.edu/26379027/The_Effective_Use_of_Ozone_for_Cyanide_Destruction_in_Mining_and_Mineral_Processing"
+    },
+    {
+      "title": "Evaluation of ozonation technology for gold recovery and cyanide management during processing of a double refractory gold ore — Journal of the Southern African Institute of Mining and Metallurgy, 2017",
+      "url": "http://www.scielo.org.za/scielo.php?pid=S2225-62532017000800006&script=sci_arttext"
+    },
+    {
+      "title": "Catalytic ozonation of cyanide in gold leaching effluent by EDTA-Coir/copper slag — Process Safety and Environmental Protection, ScienceDirect, 2025",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957582025014831"
+    }
+  ]
+}

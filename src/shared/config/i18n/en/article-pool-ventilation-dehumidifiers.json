@@ -1,0 +1,52 @@
+{
+  "title": "Pool Ventilation: Wall-Mounted and Ducted Dehumidifiers",
+  "excerpt": "A comprehensive guide to ventilation and dehumidification systems for indoor swimming pools. Humidity standards, dehumidifier types, heat pump technology, and ASHRAE recommendations.",
+  "body": {
+    "lead": "Designing ventilation systems for indoor swimming pools is a complex engineering task that requires consideration of multiple interconnected factors. The key challenge is controlling air humidity, as high evaporation rates from the water surface create a constant source of moisture. The most effective solution combines basic supply and exhaust ventilation with wall-mounted or ducted air dehumidifiers.",
+    "humidityStandardsTitle": "Humidity Standards for Indoor Pools",
+    "humidityStandards": "According to ASHRAE (American Society of Heating, Refrigerating and Air-Conditioning Engineers) recommendations, the optimal relative humidity level in pool facilities should be maintained between 40-60%. This range ensures visitor comfort, reasonable energy consumption, and protection of building structures. In summer, humidity can be maintained closer to the upper limit (60%), while in winter it is recommended to reduce it to 50% to prevent condensation on building envelope components.",
+    "dewPointTitle": "Understanding Dew Point",
+    "dewPoint": "Indoor pools are classified as high-dew-point facilities. Air temperature in the pool hall is typically maintained 2-4°C (4-7°F) above water temperature (usually 27-30°C or 80-86°F), which is significantly higher than in typical office spaces (20-22°C or 68-72°F). This elevates the dew point and increases the risk of condensation on cooler surfaces — windows, walls, and metal structures. Condensation leads to corrosion, mold growth, and deterioration of finishing materials.",
+    "evaporationTitle": "Moisture Sources and Evaporation Rates",
+    "evaporation": "The primary sources of moisture in a pool facility are: evaporation from the water surface, outdoor makeup air, and occupant emissions. Evaporation rate depends on the vapor pressure difference between the water surface and air, water temperature, pool surface area, and air movement intensity. Occupant activity (swimming, diving, games) significantly increases evaporation due to splashing and turbulence. The Activity Factor published in the ASHRAE handbook is used for calculations.",
+    "wallMountedTitle": "Wall-Mounted Air Dehumidifiers",
+    "wallMounted": "Wall-mounted dehumidifiers are compact units comparable in size to residential air conditioners. They are installed directly in the pool area and operate on the principle of moisture condensation on a cold evaporator coil, followed by reheating of the dried air on the condenser. Advantages include: easy installation, low cost, and flexible placement anywhere in the hall. However, their capacity is limited, so 2-3 units are typically required even for small pools. Wall-mounted dehumidifiers only dry and heat the air but do not refresh its composition — a separate ventilation system is required for that.",
+    "ductedTitle": "Ducted Air Dehumidifiers",
+    "ductedText": "Ducted dehumidifiers are integrated into the ductwork system and located in mechanical rooms outside the pool zone. This allows hiding the equipment, simplifying its maintenance and repair, and protecting it from the aggressive chlorine-containing environment. Air is drawn uniformly from the entire volume of the room through the duct system, dehumidified in the central unit, and returned to the hall. Ducted systems easily integrate with standard supply and exhaust ventilation, providing simultaneous dehumidification and air renewal.",
+    "heatPumpTitle": "Heat Pump Technology",
+    "heatPump": "Modern pool dehumidifiers operate on the heat pump principle using R-407C refrigerant, which does not deplete the ozone layer. The heat pump extracts latent heat from humid air during moisture condensation and can use it for heating: the outgoing dried air (reheat), pool water through an additional heat exchanger, or domestic hot water systems. Under favorable conditions, a heat pump dehumidifier can fully meet pool water heating requirements, eliminating the need for auxiliary heaters. This makes the system highly energy-efficient.",
+    "ventilationRequirementsTitle": "Ventilation Requirements",
+    "ventilationRequirements": "ASHRAE Standard 62.1-2022 establishes minimum outdoor air supply rates for pools: 0.48 CFM per square foot for the pool and wet deck areas, and 0.06 CFM per square foot for dry areas. Total air changes are recommended at 4-6 times per hour. It is important to maintain slight negative pressure in the pool hall relative to adjacent spaces to prevent humid, chloramine-laden air from spreading throughout the building.",
+    "chloraminesTitle": "The Chloramine Problem and Air Quality",
+    "chloramines": "The characteristic 'pool smell' is created not by chlorine but by chloramines — volatile compounds formed when chlorine reacts with organic matter (sweat, skin secretions, cosmetics). Chloramines irritate eyes and respiratory passages, so their concentration in the air must be controlled through effective ventilation. Some designers increase outdoor air supply rates by 50% above ASHRAE minimums to improve air quality in the occupant breathing zone.",
+    "airDistributionTitle": "Air Distribution",
+    "airDistribution": "Modern design approaches emphasize providing quality air specifically in the breathing zone — at the water surface and at deck level. The traditional scheme with ceiling exhaust and floor-level supply is not always effective for pools. It is recommended to organize airflows so that fresh air is delivered directly to swimmers, while contaminated humid air is drawn away from them. This requires careful calculation and airflow modeling.",
+    "energyRecoveryTitle": "Heat Recovery",
+    "energyRecovery": "Introducing outdoor air into the pool facility involves significant energy costs for heating (especially in winter). Heat Recovery Ventilators (HRVs) are used to reduce operating costs by transferring heat from exhaust air to supply air. Heat exchangers must be made of corrosion-resistant materials for operation in the aggressive environment with elevated chlorine compound content.",
+    "systemIntegrationTitle": "Integrated Design Approach",
+    "systemIntegration": "Successful pool operation requires coordinated work of the HVAC system and water treatment system. No climate system, however well-designed, can compensate for problems with water chemistry or building envelope deficiencies. Building envelope components must be designed for high-dew-point applications — with enhanced thermal insulation and vapor barriers to prevent freezing and condensation inside walls and roofs."
+  },
+  "sourcesTitle": "Sources",
+  "sources": [
+    {
+      "title": "ASHRAE HVAC Applications Handbook, Chapter A06: Indoor Swimming Pools (2019)",
+      "url": "https://www.dxair.com/pdf/designguide/ashrae-2019-hvac-manual.pdf"
+    },
+    {
+      "title": "ASHRAE Standard 62.1-2022: Ventilation and Acceptable Indoor Air Quality",
+      "url": ""
+    },
+    {
+      "title": "Shah M.M. Improved method for calculating evaporation from indoor water pools. Energy and Buildings, 2012",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378778812001041"
+    },
+    {
+      "title": "Ribeiro E.M. et al. Analysis of indoor environmental conditions and heat pump energy supply systems in indoor swimming pools. Energy and Buildings, 2011",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378778810002665"
+    },
+    {
+      "title": "Desert Aire Technical Note: Indoor Pool Dehumidifier Sizing Guide",
+      "url": "https://www.desert-aire.com/sites/default/files/AN10-Tech-Note-Indoor-Pool-Dehumidiifer-Sizing-Guide-Application-Note-DA110.pdf"
+    }
+  ]
+}

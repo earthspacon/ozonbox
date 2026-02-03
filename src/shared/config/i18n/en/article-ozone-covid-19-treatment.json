@@ -1,0 +1,102 @@
+{
+  "title": "Potential Use of Ozone in SARS-CoV-2 / COVID-19 Infection",
+  "excerpt": "Official expert opinion of the International Scientific Committee on Ozone Therapy (ISCO3) on the potential use of ozone as adjunct therapy for COVID-19.",
+  "body": {
+    "intro": "The emergence of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) at the end of 2019 caused a global response and became a major public health challenge. The World Health Organization (WHO) characterized COVID-19 as a \"pandemic\".",
+    "purpose": "The purpose of this work is to review the potential use of ozone as an adjunct therapy in the treatment of COVID-19. The main relevant terms (ozone, SARS-CoV-2, and COVID-19) were searched in scientific databases.",
+    "disinfection": {
+      "title": "Environmental Disinfection",
+      "p1": "Ozone can be used to disinfect virus-contaminated environments. Its maximum antiviral efficacy requires a short period of high humidity (greater than 90% relative humidity) after reaching peak gaseous ozone concentration (20–25 ppm, 39–49 mg/m³).",
+      "p2": "As a gas, ozone can penetrate all areas within a room, including crevices, fixtures, fabrics, hospital rooms, public transport, hotel rooms, cruise ship cabins, offices, etc., as well as under furniture surfaces, much more effectively than manually applied liquid aerosols.",
+      "p3": "After 30 seconds of ozone exposure, 99% of viruses were inactivated and demonstrated envelope protein damage, which can lead to disruption of attachment to normal cells and destruction of single-stranded RNA.",
+      "warning": "The environment being treated must not contain people or animals due to the relative toxicity of ozone when inhaled."
+    },
+    "therapeutic": {
+      "title": "Therapeutic Effects of Ozone in Viral Diseases",
+      "p1": "Systemic ozone therapy may be potentially beneficial in SARS-CoV-2 infection. The rationale and mechanism of action have already been clinically proven for other viral infections and have shown high efficacy in scientific studies."
+    },
+    "mechanisms": {
+      "title": "Mechanisms of Ozone Therapy Action",
+      "item1": "Induction of adaptation to oxidative stress, thus restoring cellular redox balance — a fundamental process for inhibiting virus replication",
+      "item2": "Induction of interferon-gamma and pro-inflammatory cytokines",
+      "item3": "Increased blood flow and tissue oxygenation of vital organs (renal, pulmonary, and cardiac circulation)",
+      "item4": "Can act as an autovaccine when administered as minor autohemotherapy"
+    },
+    "oxidativeStress": {
+      "title": "Adaptation to Oxidative Stress",
+      "p1": "Prolonged ozone therapy treatment can induce adaptation to oxidative stress. The paradoxical mechanism by which ozone (a powerful oxidant) can induce an antioxidant response is demonstrated not only at the proteomic but also at the genomic level.",
+      "p2": "Ozone at therapeutic doses modulates the nuclear factors Nrf2 and NF-κB and induces restoration of antioxidant environment balance. Oxidative stress and innate immunity play key roles in lung injury pathways during viral infections."
+    },
+    "cytokines": {
+      "title": "Induction of Cytokine Synthesis",
+      "p1": "It has been shown that induction of cytokine synthesis, such as interferon and interleukins, in ozonated blood is possible. Reinfused lymphocytes and monocytes, migrating through the lymphoid system, can activate other cells, eventually leading to immune system stimulation.",
+      "p2": "In addition to HO-1 induction as a protective enzyme, the release of heat shock proteins (HSP60, HSP70, HSP90) also influences virucidal activity. These proteins are powerful activators of the innate immune system."
+    },
+    "oxygenation": {
+      "title": "Improved Oxygenation",
+      "p1": "Oxygen-ozone therapy improves tissue oxygenation. Patients with SARS are prone to mild nonspecific hepatitis, pulmonary fibrosis and renal failure may be present.",
+      "p2": "Ozone therapy stabilizes hepatic metabolism, plasma fibrinogen and prothrombin levels tend to normalize in infected patients. Studies demonstrate the protective effect of ozone in preventing oxidative damage to heart, liver, lung, and kidney tissue."
+    },
+    "routes": {
+      "title": "Recommended Routes of Administration",
+      "intro": "Recommended systemic routes of administration:",
+      "item1": "Ozonated saline solution (O3SS)",
+      "item2": "Major autohemotherapy (MAH)",
+      "item3": "Extracorporeal blood oxygenation-ozonation (EBOO)",
+      "item4": "Minor autohemotherapy variant (MiAH)"
+    },
+    "saline": {
+      "title": "Ozonated Saline Solution",
+      "p1": "The ozonated saline method was officially approved by the Ministry of Health of the Russian Federation in the early 1980s. In 2004, it was also officially recognized in Ukraine.",
+      "p2": "Unlike major autohemotherapy, ozonated saline has proven particularly effective against viral diseases such as Epstein-Barr virus, cytomegalovirus, papillomavirus, HIV, herpes zoster, and herpes simplex.",
+      "p3": "Since saline rapidly distributes throughout the plasma volume, it allows treatment of a larger blood volume than major autohemotherapy."
+    },
+    "protocol": {
+      "title": "Recommended Clinical Protocol",
+      "preventive": {
+        "title": "Preventive Protocol with O3SS",
+        "p1": "Saturate 0.9% saline at 3 μg/mL for 10 minutes. Administer to patient by bubbling at a rate of 80–120 drops/min. Twice weekly (6 procedures).",
+        "p2": "After O3SS administration, use intravenous glutathione (GSH; 600 mg) with vitamin C (1 g) dissolved in 100 mL saline."
+      },
+      "intervention": {
+        "title": "Intervention Protocol with O3SS",
+        "p1": "Saturate 0.9% saline at 5 μg/mL for 10 minutes. Administer daily for 5 days. Over the following 5 days, reduce concentration to 3 μg/mL. Total 10 procedures.",
+        "p2": "After each O3SS administration, use intravenous glutathione (GSH; 1200 mg) with vitamin C (2 g). Administer 10 procedures, twice weekly."
+      }
+    },
+    "glutathione": {
+      "title": "Role of Glutathione",
+      "p1": "Since the disease is accompanied by acute oxidative stress, glutathione (GSH) is included in the protocol due to its ability to donate electrons and stabilize free radicals. GSH is a non-enzymatic antioxidant and one of the first lines of defense against oxidative damage.",
+      "p2": "During aging, GSH levels decrease and the immune system experiences deficiency in Th1 response induction. Decreased Th1 cytokine secretion can weaken host defense against viral infections."
+    },
+    "equipment": {
+      "title": "Equipment Requirements",
+      "p1": "Ozone must be produced using a medical, reliable, and certified generator. In the European Union, ozone generators are classified as Class IIb medical devices with CE marking.",
+      "p2": "The generator must allow precise ozone concentration measurements (from 1 to 80 mg/L) and produce ozone exclusively from medical-grade oxygen."
+    },
+    "conclusion": {
+      "title": "Conclusion",
+      "p1": "Ozone can be useful for disinfecting virus-contaminated environments. The environment being treated must not contain people or animals due to ozone toxicity when inhaled.",
+      "p2": "Systemic ozone therapy may be potentially useful for SARS-CoV-2. This is an adjunct therapy: the infected patient continues to receive primary medications while simultaneously receiving ozone therapy.",
+      "p3": "Clinical protocols must comply with standard doses and procedures defined in the Madrid Declaration on Ozone Therapy. Additional clinical trials are needed to confirm the efficacy of ozone therapy as adjunct therapy for COVID-19."
+    },
+    "disclaimer": "ISCO3 documents are recommendations that can serve as a source of information for all practitioners of ozone therapy. Each ozone therapist must follow their own clinical judgment when implementing the recommendations."
+  },
+  "sourcesTitle": "References",
+  "sources": [
+    { "title": "WHO. Responding to community spread of COVID-19. Interim guidance, March 2020" },
+    { "title": "Ghebreyesus T. WHO Director-General's opening remarks at the media briefing on COVID-19 — 11 March 2020" },
+    { "title": "Lai C.C. et al. Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and coronavirus disease-2019 (COVID-19): The epidemic and the challenges // Int J Antimicrob Agents. 2020" },
+    { "title": "Li X. et al. Evolutionary history, potential intermediate animal host, and cross-species analyses of SARS-CoV-2 // J Med Virol. 2020" },
+    { "title": "Hudson J.B. et al. Development of a Practical Method for Using Ozone Gas as a Virus Decontaminating Agent // Ozone: Science & Engineering. 2009;31:216-223" },
+    { "title": "Roy D. et al. Mechanism of enteroviral inactivation by ozone // Appl Environ Microbiol. 1981;41(3):718-723" },
+    { "title": "Murray B.K. et al. Virion disruption by ozone-mediated reactive oxygen species // J Virol Methods. 2008;153(1):74-77" },
+    { "title": "Bocci V. Ozone: A new medical drug. Netherlands: Springer; 2011" },
+    { "title": "Bocci V., Paulesu L. Studies on the biological effects of ozone 1. Induction of interferon gamma on human leucocytes // Haematologica. 1990;75(6):510-515" },
+    { "title": "Pecorelli A. et al. NRF2 activation is involved in ozonated human serum upregulation of HO-1 in endothelial cells // Toxicol Appl Pharmacol. 2013;267(1):30-40" },
+    { "title": "Imai Y. et al. Identification of oxidative stress and Toll-like receptor 4 signaling as a key pathway of acute lung injury // Cell. 2008;133(2):235-249" },
+    { "title": "Schwartz-Tapia A., Martínez-Sánchez G. et al. Madrid Declaration on Ozone Therapy. ISCO3. 2015" },
+    { "title": "Maslennikov O.V. et al. Ozone therapy in Practice. Health Manual, Ministry Health Service of The Russian Federation. 2008" },
+    { "title": "Amatore D. et al. Glutathione increase by the n-butanoyl glutathione derivative inhibits viral replication // FASEB Bioadv. 2019;1(5):296-305" }
+  ]
+}

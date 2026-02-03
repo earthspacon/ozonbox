@@ -1,0 +1,79 @@
+{
+  "title": "AOP and Wastewater. AOP in Agriculture",
+  "excerpt": "Application of Advanced Oxidation Processes (AOP) for wastewater treatment in aquaculture and agriculture. Ozonation reduced shrimp mortality from 80% to 20%.",
+  "sections": {
+    "aquaculture": "Ozonation in Aquaculture",
+    "catalyticOzonation": "Catalytic Ozonation (CO)",
+    "municipalWastewater": "Municipal Wastewater Treatment",
+    "swissExperience": "Swiss Experience: Neugut Plant",
+    "solarAcceleration": "Solar Light Acceleration of Decomposition",
+    "highConcentration": "High Concentration Ozone Production",
+    "greenChemistry": "Ozone in Green Chemistry"
+  },
+  "body": {
+    "aquaculture1": "An international group of researchers (Tarik Nahir et al.) examined the problem of mass shrimp mortality at farms in Madagascar and Mozambique during the 2011–2012 season. This epidemic reduced shrimp production by 80–90%. The issue concerns infection of shellfish with the so-called \"white spot\" viral disease. It was established that the high infection rate is related to water quality in the shrimp farming ponds.",
+    "aquaculture2": "The authors compare the chlorine water disinfection method and conclude that ozonation has certain advantages in this case. Such technology requires strict specifications for ozone production equipment and oxygen generators, which must operate reliably in humid tropical climates. Various schemes for maintaining the required ozone concentration and dissolved oxygen in water are considered.",
+    "aquacultureResult": "The result of ozone application is more than positive: if without ozone disinfection shrimp mortality reached (and exceeded) 80%, after treatment this figure was 20% or less.",
+    "catalytic1": "The most interesting section of the Congress is AOP, particularly catalytic ozonation (CO). In total, the AOP section includes more than 30 reports, with 10 works dedicated specifically to CO.",
+    "catalytic2": "In the work by S.S. Sable et al. titled \"Application of Novel Catalytic Materials for Elimination of Organic Pollutants Arising from Catalytic Ozonation,\" the authors indicate that highly toxic organic compounds formed during the purification process must be eliminated without exception. This primarily concerns the purification of pharmaceutical effluents. The study examined a range of catalysts based on hydrotalcite and spinels.",
+    "catalytic3": "Evidently, the Cu-Al oxide catalyst appears most preferable. All these catalysts effectively (100%) eliminate the selected pollutant — clofibric acid (CFA). The authors conclude that among the family of studied catalysts, hydrotalcite and copper-spinel compounds exhibit the highest activity.",
+    "municipal1": "A group of French researchers studied the possibility of eliminating persistent micropollutants in wastewater from two pharmaceutical factories. Based on the TOCCATA patent, which uses processes on the surface of tablet-form catalysts, the authors study changes in such important oxidation parameters as dissolved organic carbon (DOC), dissolved inorganic carbon (DIC), and oxidized inorganic carbon (IC).",
+    "municipal2": "Three treatment options for pollutants were considered: simple ozonation, simple adsorption, and catalytic ozonation. All experiments were conducted over 130 minutes in the presence of a solid phase and 70 minutes in the liquid phase. It was shown that ozonation kinetics follows pseudo-first order, while adsorption kinetics follows pseudo-second order.",
+    "municipal3": "Detailed study of the CO process on γ-Al₂O₃ was conducted by a large group of French scientists (12 researchers) from the University of Montpellier. 2,4-dimethylphenol (2,4-DMP), a persistent organic compound, was chosen as the oxidation target. Simple ozonation and ozonation in the presence of γ-Al₂O₃ leads to destruction of 2,4-DMP within 25 minutes.",
+    "municipal4": "Introduction of γ-Al₂O₃ into the pollutant ozonation process dramatically enhances its destruction. Total organic carbon (TOC) increases from 14% to 46%. Similarly, chemical oxygen demand (COD) increases from 35% to 75%.",
+    "french1": "A relatively small water treatment plant (clean water capacity 600 m³/hour) in the city of Sophia-Antipolis (34,000 inhabitants) was selected for experiments. The operating plant used traditional water treatment technology: biotreatment, filters, chlorination. The last stage was replaced with ozonation + biofiltration.",
+    "french2": "The aim of the work was to establish how such a system can eliminate a wide range of micropollutants belonging to different substance classes. The concentration of these substances did not exceed 1000 mg/L, and all were subjected to continuous monitoring. The introduced ozone dose was 3–12 g/m³.",
+    "french3": "The obtained data shows that only two pollutants (diuron and roxithromycin) are removed relatively weakly (60%). All other substances have removal rates from 70 to 90%. At an ozone dose of 5 g/m³, virtually all pollutants such as antibiotics and beta-blockers are removed with efficiency above 70%. For metals — 25–35%.",
+    "swiss1": "The water treatment plant in the Swiss city of Neugut processes wastewater from 105,000 residents. It was the first in Switzerland to use full-scale ozone treatment following standard biological processing. The final treatment stage is a sand filter.",
+    "swiss2": "Ozone is produced from pure oxygen and introduced into the water in a mixing chamber. The average introduced ozone dose is in the range of 2–5 mg/L, which approximately corresponds to 0.4–1.0 g O₃/g DOC. Retention time in the chamber is about 50 minutes.",
+    "swiss3": "The aim of the work was, firstly, to demonstrate the effectiveness of ozone for pollution removal and, secondly, to monitor intermediate products arising during the ozonation process. 44 compounds were selected to evaluate the ozonation process efficiency: pesticides, pharmaceuticals, and food industry chemical production waste.",
+    "swiss4": "Among the large list of micropollutants, significant attention was paid to 5 substances (benzotriazole, carbamazepine, diclofenac, sulfamethoxazole, and mecoprop), which are considered indicator pollutants in wastewater. Evidently, at the highest dose, removal of all five substances of at least 80% is achieved.",
+    "solar1": "The Congress proceedings include three articles considering the possibility of using solar light to remove pollutants from water. It was shown that solar light can accelerate the decomposition of oxalic acid in ozone solutions at pH = 4 by almost 2 orders of magnitude.",
+    "solar2": "Such acceleration is due to the fact that oxalic acid reacts very slowly with ozone but is destroyed quite rapidly by OH* radicals. The latter arise with the participation of H₂O₂ molecules. The kinetics of peroxide formation was reliably recorded in this work.",
+    "highConc1": "Well-known German researchers M. Selvermaser and N. Brugerman raise a very important question in their article about industrial-scale production of technological ozone with a concentration of ~15 wt.% (225 g/m³). The authors emphasize that the technical capability to synthesize such ozone exists.",
+    "highConc2": "At the end of this interesting article, the authors pose such questions: Is the value of 15% (225 g/m³) final? Is it safe to produce 100 kg/hour of ozone at 15% concentration? Will ozone with a concentration of 15% and above be in demand on the market? This is, so to speak, an invitation to discussion.",
+    "green1": "Among the large number of reports related to the ecological mission of ozone, the work of French researchers stands out, reporting on a completely different, partly forgotten application of ozone — its use as a chemical oxidizing reagent for the synthesis of certain substances.",
+    "green2": "The authors note that ozone has several advantages compared to other classical oxidizers. In the case of ozone, there is no need to eliminate the decomposition products of the oxidizer itself — here it is molecular oxygen, so such processes can be attributed to the concept of \"green chemistry.\"",
+    "green3": "The work considers two processes: oxidation of fatty acids (particularly oleic acid) and oxidation of polysaccharides. Both are reproduced on a semi-industrial scale, and the authors are convinced of the advantages of such syntheses."
+  },
+  "tables": {
+    "table1": {
+      "caption": "Table 1. Degree of CFA (clofibric acid) mineralization after 2 and 6 hours of conventional and catalytic ozonation",
+      "headers": ["Catalyst", "Mineralization 2h, %", "Mineralization 6h, %", "Metal precipitation"],
+      "rows": [
+        ["No catalyst (O₃)", "8", "15", "—"],
+        ["Hydrotalcite Mg-Al", "35", "58", "Low"],
+        ["Hydrotalcite Cu-Al", "52", "78", "Low"],
+        ["Spinel Cu-Al oxide", "61", "89", "Very low"],
+        ["FeOOH", "28", "45", "Medium"],
+        ["0.5% Pd/FeOOH (200°C)", "48", "72", "Low"]
+      ]
+    },
+    "table2": {
+      "caption": "Table 2. Micropollutants subjected to monitoring",
+      "headers": ["Substance class", "Example compounds"],
+      "rows": [
+        ["Antibiotics", "Sulfamethoxazole, roxithromycin, clarithromycin"],
+        ["Beta-blockers", "Atenolol, metoprolol, propranolol"],
+        ["Pesticides", "Diuron, atrazine, isoproturon"],
+        ["Anti-inflammatory", "Diclofenac, ibuprofen, naproxen"],
+        ["Hormones", "Estrone, estradiol, ethinylestradiol"]
+      ]
+    },
+    "table3": {
+      "caption": "Table 3. OPEX savings (0.20 EUR/m³, LOX)",
+      "headers": ["O₃ production", "Standard generator", "15% generator", "Savings"],
+      "rows": [
+        ["10 kg/hour", "850,000 €/year", "720,000 €/year", "15%"],
+        ["50 kg/hour", "3,200,000 €/year", "2,560,000 €/year", "20%"],
+        ["100 kg/hour", "5,800,000 €/year", "4,350,000 €/year", "25%"]
+      ]
+    }
+  },
+  "sourcesTitle": "Sources",
+  "sources": [
+    {
+      "title": "V.V. Lunin, V.G. Samoilovich, S.N. Tkachenko, I.S. Tkachenko. Ozone and Other Environmentally Friendly Oxidizers: Science and Technology — 34th All-Russian Conference"
+    }
+  ]
+}

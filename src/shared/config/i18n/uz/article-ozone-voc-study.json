@@ -1,0 +1,89 @@
+{
+  "title": "Yopiq xonalarda uchuvchi organik birikmalarga ozonning ta'sirini o'rganish: reaksiya mahsulotlarini tahlil qilish va ularning zaharlilik darajasini baholash",
+  "excerpt": "Tadqiqotlar shuni ko'rsatdiki: ozon havodagi past molekulyar organik aralashmalarni xavfsiz, zaharsiz hosilalarga samarali o'zgartiradi. Biotestlash oksidlanish mahsulotlarining xavfsizligini tasdiqladi.",
+  "sections": {
+    "introduction": "1. Kirish",
+    "experimental": "2. Eksperimental qism",
+    "discussion": "3. Muhokama",
+    "conclusions": "4. Xulosalar"
+  },
+  "body": {
+    "introduction": "Atmosfera havosi doimo tabiiy va antropogen manbalardan kelib chiqadigan bir qancha aralashmalarni o'z ichiga oladi. Ularning konsentratsiyalari yopiq xonalarda sezilarli darajada yuqori. Bizning sezgi organlarimiz ularning mavjudligini hid sifatida idrok etadi. Har qanday hid, yoqimli yoki yoqimsiz, havoda past molekulyar uchuvchi organik birikmalarning mavjudligi bilan bog'liq. Bu birikmalar hid hissiyotini keltirib chiqarishi uchun ularning havodagi konsentratsiyasi chegaradan yuqori bo'lishi kerak. Quyosh nurlanishi, namlik va kislorod ta'sirida uchuvchi birikmalar turli reaksiyalarga kirishadi va parchalanishadi, shuning uchun ularning tashqi havodagi o'rtacha konsentratsiyasi past. Biroq, yopiq izolyatsiya qilingan xonalarda uchuvchi moddalar va ularning transformatsiya mahsulotlarining to'planishi yuzaga kelishi mumkin, shuning uchun bunday xonalar ko'pincha \"og'ir, eskirgan\" hidga ega.",
+    "introduction2": "Ayniqsa murakkab vaziyat transport vositalari salonlarida, masalan, yo'lovchi samolyotlarida yuzaga keladi. Oddiy salon ventilyatsiyasi yetarli samarali emas, chunki ma'lum talablar va salon atmosferasining yuqori sifat standartlarini ta'minlash zarurati mavjud.",
+    "introduction3": "Yopiq xonalarni sanitatsiya qilishning bir nechta usullari ma'lum. So'nggi yillarda ozon yordamida tibbiy muassasalar, kinoteatrlar va boshqa jamoat binolarini sanitatsiya qilish usullari tobora keng tarqalmoqda. Ozonlash inson hayoti uchun ekologik toza, qulay sharoitlarni yaratishga qaratilgan eng progressiv zamonaviy texnologik jarayonlardan biri hisoblanadi. Xususan, havo harakati boshqaruvchilarining ishiga misol sifatida, bu xodimlarning organizmlarining ish qobiliyati va boshqa fiziologik ko'rsatkichlarini oshiradi. Shu bilan birga, adabiyotlarda yopiq xonalar atmosferasidagi uchuvchi organik birikmalarning tarkibi, yo'lovchilar menyusini tashkil etuvchi oziq-ovqat mahsulotlari bilan bog'liq, ularning ozon bilan reaksiyasining xususiyatlari va bu reaksiyalar mahsulotlarining zaharlilik xususiyatlari haqida ma'lumotlar yo'q.",
+    "introduction4": "Ishning maqsadi qattiq fazali mikroekstraksiya usuli yordamida gaz fazasida uchuvchi organik birikmalarning ozon bilan o'zaro ta'siri mahsulotlarini aniqlash va olingan reaksiya mahsulotlarining zaharlilik va xavflilik darajasini baholash edi.",
+    "experimental": "Model aralashma Hindistonning \"Plant Lipids Ltd.\" kompaniyasi tomonidan ishlab chiqarilgan qora qalampir (30,1%), zira (22,7%), kashnich (15%) va qalampir (30,1%) efir moylarini aralashtirish orqali tayyorlandi. Aralashmaga ichki standart sifatida n-dodekan (2,1%) qo'shildi.",
+    "experimental2": "Boshlang'ich namunada va ozonlashdan keyin gaz fazasidagi uchuvchi birikmalarni aniqlash uchun Supelco firmasining uskunalari bilan qattiq fazali mikroekstraksiya usuli qo'llanildi. Bu turli ob'ektlardan uchuvchi moddalarni ajratish va konsentratsiyalashning eng samarali usuli. Turli tuzilishdagi 22 ta individual organik moddadan iborat suyuqlik bo'lgan efir moylari model aralashmasi (5 mg) 0,25 l hajmli 2 ta shisha kolbaga joylashtirildi. Kolbalar yopildi va 20 minut davomida saqlandi (suyuqlik-gaz muvozanatiga erishilguncha); keyin ikkinchi kolbaga 5 mg gazsimon ozon kiritildi, organik moddalarning oksidlanishi uchun saqlandi va tavsiflangan usul bo'yicha namunalar olinib, tahlil qilish uchun xromatograf injektoriga joylashtirildi.",
+    "experimental3": "Oziq-ovqatdan kelib chiqadigan hidlarni olish uchun manba sifatida go'sht qiymasi va tabiiy ziravorlar ishlatildi. 240 g qiymaga 2,0 g maydalangan qora qalampir, 1,7 g maydalangan kashnich va 1,0 g dafna bargi qo'shildi. Barcha ingredientlar aralashtirildi, keyin 2 litrli yumaloq tubli kolbaga joylashtirildi, unga 600 ml issiq suv qo'shildi, 5 minut davomida qaynatildi va deflegmatorsiz uchuvchi birikmalar bilan 300 ml distillat ajratildi. Har birida 150 ml distillat 2 ta kolbaga (hajmi 0,5 l) joylashtirildi va xona haroratida 30 minut davomida saqlandi. Keyin bir kolbadan 20 minut davomida qattiq fazali mikroekstraksiya usuli bilan uchuvchi moddalar ajratildi va GX usuli bilan tahlil qilindi. Ikkinchi kolbaga 4 mg ozon kiritildi, 20 minutdan keyin oksidlanmagan moddalar 20 minut davomida qattiq fazali mikroekstraksiya bilan ajratildi va GX usuli bilan tahlil qilindi.",
+    "experimental4": "Gaz-xromatografik tahlil (GX) Kristall 2000 M xromatografida (Rossiya) alanga-ionizatsiya detektori va kvarts kapillyar kolonka DB-1 (50 m × 0,32 mm, faza qatlami 0,25 mkm, Supelco, AQSh) bilan kolonka harorati 60 dan 250°C gacha 4°C/min tezlikda dasturlashtirilganda, injektor va detektor harorati 250°C da o'tkazildi. Kolonka orqali tashuvchi gaz (geliy) oqim tezligi 1,5 ml/min edi, kolonka kirishida oqim bo'linishi 1:30. Namunalardagi birikmalarni identifikatsiya qilish saqlanish indekslari qiymatlariga asoslanib amalga oshirildi. Individual komponentlar tarkibini miqdoriy aniqlash uchun ularning piklari maydonlari qiymatlari ishlatildi. Uskuna oldindan kalibratsiya qilindi va qattiq fazali ekstraksiya usuli bilan piklari maydonlari qiymatlari bo'yicha moddalar tarkibini miqdoriy aniqlashning takrorlanuvchanligi juda yuqori ekanligi, 7 ta parallel aniqlashdan nisbiy xato 5% dan oshmasligi aniqlandi.",
+    "experimental5": "Ozon elektrik razryadda kislorod oqimi elektrodlar orasidan o'tkazilganda sintez qilindi; elektrodlardagi kuchlanish 4–9 kV. Ozon konsentratsiyasi 254 nm to'lqin uzunligida UV-spektrofotometrda spektrofotometrik ravishda nazorat qilindi. Ozon konsentratsiyasi 2 × 10⁻⁴ dan 5 × 10⁻⁵ mol/l gacha o'zgardi.",
+    "experimental6": "Efir moylari aralashmasi va ularning ozonlash mahsulotlarining o'tkir zaharliligini aniqlash Ceriodaphnia affinis yoshlarining omon qolishi bo'yicha biotestlash usuli bilan amalga oshirildi. 1,0 l hajmli shisha kolba 0,4 mg ozon bilan to'ldirildi va 0,3 mg efir moylari aralashmasi qo'shildi, kolba zich yopildi va organik moddalarni ozonlash uchun 1 soat davomida qoldirildi. Keyin kolbaga 0,5 l suv qo'shildi, chayqalish orqali puxta aralashtirildi va biotestlash amalga oshirildi. Xuddi shunday kolbaga 0,3 mg efir moylari aralashmasi va 0,5 l suv joylashtirildi, moylarni suvga o'tkazib chayqalindi va biotestlash ham amalga oshirildi; bu namuna etalon edi. Nazorat sifatida 0,5 l suv ishlatildi. Biotestlash standart usul bo'yicha amalga oshirildi.",
+    "discussion1": "Ko'pgina xonalarda hidning asosiy manbalari oziq-ovqat mahsulotlari, parfyumeriya, sanitariya va boshqa maishiy vositalardir. Ushbu ob'ektlarga tabiiy yoki sintetik kelib chiqishi bo'lgan past molekulyar organik moddalardan iborat aromatizatorlar qo'shiladi, ular ob'ektning aromati uchun javobgardir. Aromatik o'simliklar tomonidan ishlab chiqarilgan uchuvchi moddalarning tabiiy aralashmalari efir moylari deb ataladi. Efir moylari komponentlari va ularning sintetik analoglari parfyumeriya preparatlarini olishda asosiy tarkibiy qismlardir; ular maishiy kimyoviy mahsulotlar uchun aromatizator sifatida keng qo'llaniladi. Ziravorlar oziq-ovqat tayyorlashda qo'shiladi va ular faqat oziq-ovqat mahsulotlarining aromatini o'zgartiradi, lekin ularning uchuvchi komponentlari ma'lum mahsulotning aromatini shakllantiradigan bir necha yuz moddalar orasida miqdoriy tarkib bo'yicha asosiy hisoblanadi.",
+    "discussion2": "Shuning uchun model tizim sifatida qora qalampir (30,1%), zira (22,7%), kashnich (15%) va qalampir (30,1%) efir moylari aralashmasidan foydalandik. Ushbu aralashmaning GX tahlili shuni ko'rsatdiki, unda birikmalar mavjud bo'lib, ularning tarkibi % da 1-jadvalda keltirilgan. Ko'rinib turibdiki, aralashmadagi asosiy komponentlar limonen, linalool, karvon, evgenol va kariofillen bo'lib, ularning tarkibi 10% dan ko'p edi.",
+    "discussion3": "Organik birikmalarga ozonning ta'sirini miqdoriy baholash uchun 5 mg aralashma ishlatildi, bu miqdordagi aralashmadagi uchuvchi moddalar tarkibi 4 dan 1000 mkg gacha o'zgardi (1-jadval). Namuna ustidagi gaz fazasidan polimerda sorbtsiya orqali kolbaga qo'shilganidan ancha kam miqdordagi moddalar ajratildi — 25 dan 3454 ng gacha. Shunday qilib, organik moddalar aralashmasi komponentlarini ekstraksiya qilish samaradorligi juda past edi: monoterpenlar uchun 0,2–0,6%, seskviterpenlar uchun 0,4%, evgenol uchun faqat 0,1% va dodekan uchun 1,1%. Shunga qaramay, bu miqdordagi moddalar sifatli xromatogramma olish va ularning miqdoriy tarkibini aniqlash uchun yetarli edi.",
+    "discussion4": "5 mg aralashmani 5 mg ozon bilan 20 minut davomida ozonlashdan keyin asosiy qismi oksidlandi. Oksidlanmagan holda p-tsimen va kamforaning ahamiyatsiz qismi, shuningdek, to'yingan uglevodorod dodekanning ichki standarti qoldi. Iz koldiruvchi miqdorda sirka va propionik aldegidlar va ikkita yangi izomerik 1,2-limonen epoksidlari (1-rasm, 3-moddalar) aniqlandi. Efir moylari aralashmasidagi tarkib bo'yicha asosiy komponentlardan biri limonen (1) edi, rasmda ko'rsatilgan, topilgan ikkala izomerik epoksid (3) uning oksidlanishining iz koldiruvchi mahsulotlari edi. Asosiy mahsulot 2-asetoksi-5-formilgeksanoik kislota (2) edi, u GX usuli bilan aniqlanmadi.",
+    "discussion5": "Oziq-ovqat mahsulotlarining aromati dastlabki ingredientlarda bo'lgan moddalar, shuningdek, mahsulotlarni tayyorlash yoki saqlash jarayonida hosil bo'lgan moddalar tomonidan shakllanadi. Fermentatsiya, oksidlanish va Mayyar reaksiyasi kabi termal reaksiyalar oziq-ovqat mahsulotlarida aromani shakllantiradigan moddalarning sinteziga olib keladigan asosiy jarayonlardir. Bunday uchuvchi moddalarning tarkibi past; ko'pincha ular 0,001–100 ppm (1 × 10⁻⁶–0,01%) konsentratsiyalarda mavjud. Shuning uchun uchuvchi aromani shakllantiradigan moddalarning tarkibini o'rganishda ularni ajratish va konsentratsiyalash majburiy bosqichdir.",
+    "discussion6": "Bizning ishimizda asosiy oziq-ovqat matritsasidan bug'li distillatsiya usuli bilan uchuvchi birikmalarni ajratdik. Olingan distillat ustidagi gaz fazasidan qattiq fazali mikroekstraksiya usuli bilan uchuvchi moddalar ajratildi va konsentratsiyalandi, keyin GX usuli bilan tahlil qilindi. Mahsulot go'sht qiymasi, qora qalampir, kashnich va dafna bargidan tayyorlangan go'sht buloni edi. Termik ishlov berishdan keyin mahsulot ziravorlar bilan go'sht bulonining yoqimli intensiv aromiga ega edi. Topilgan moddalar ro'yxati va ularning bulon distillati ustidagi gaz fazasidagi tarkibi 2-jadvalda keltirilgan.",
+    "discussion7": "Shuni ta'kidlash kerakki, bu mahsulotdagi uchuvchi moddalarning tarkibi haqiqiy oziq-ovqat mahsulotlaridagiga yaqin edi. Gaz fazasida topilgan asosiy komponentlar 1,2-tsineol, linalool, terpenil va geranilatsetatlar edi; barcha birikmalar ziravorlarning komponentlari edi. Ozonlash amalga oshirildi va deyarli barcha birikmalar ozon tomonidan yo'q qilingani, 1,2-tsineol va kamforaning qoldiq miqdori topilgani aniqlandi. Ma'lum bo'lishicha, bu birikmalar ozon ta'siriga etarlicha chidamli edi; ularning to'liq yo'q qilinishi uchun yuqoriroq ozon konsentratsiyalari ishlatilishi mumkin, lekin shuni ta'kidlash kerakki, bu birikmalarning hid chegarasi konsentratsiyalari gaz fazasida topilganidan sezilarli darajada yuqori, shuning uchun ularning hidi bulon ustida sezilmadi. Har qanday holatda, past konsentratsiyalarda terpenlar yoqimli aromaga ega va ba'zi biologik faollik turlariga ega, immunitetni oshiradi, kayfiyatni yaxshilaydi va havoda bu birikmalarning mavjudligi juda ijobiy omil deb hisoblash mumkin.",
+    "discussion8": "Normativlarga ko'ra, atrof-muhit xavfsizligini nazorat qilish ifloslantiruvchi moddalarning tarkibini aniqlash va ularning maksimal ruxsat etilgan konsentratsiyalariga (MRK) muvofiqligini ta'minlash orqali amalga oshiriladi. Ma'lumki, oziq-ovqat efir moylarining zaharlilik dozalari kalamushlar tana vaznining 2 dan 7 g/kg gacha. Yuqorida keltirilgan ma'lumotlardan kelib chiqib, hech qanday oziq-ovqat mahsulotida, kosmetikada yoki boshqa ma'lum maishiy kimyoviy mahsulotda bunday efir moylari tarkibiga erishilmaydi. Shuning uchun oziq-ovqat hidlari o'zlari salomatlikka zarar yetkazmaydi degan xulosaga kelish mumkin.",
+    "discussion9": "Biroq, xromatografik ravishda aniqlanmagan o'rganilgan moddalarning ozon bilan reaksiya mahsulotlarining zaharliligi noma'lum qoldi. Reaksiya mahsulotlarining zaharliligini aniqlash uchun biotestlash usulidan foydalandik. Ifloslantiruvchi moddalarning tarkibini bilishni talab qiladigan fizik-kimyoviy usullardan farqli o'laroq, biotest tahlil usullari ularning fiziologik faolligini integral shaklda aniqlash imkonini beradi.",
+    "discussion10": "O'tkir zaharlilikni aniqlash uchun Ceriodaphnia affinis yoshlarining omon qolishidan foydalanildi. Usulning ko'rsatkichi biotestlash davomida omon qolgan dastlabki urg'ochi dafniyalarning o'rtacha soni edi. Zaharlilik mezonlari tajribada nazoratdan omon qolish ko'rsatkichining ishonchli farqi edi.",
+    "discussion11": "3-jadvalda keltirilgan natijalardan kelib chiqib, ham o'rganilgan uchuvchi organik birikmalar, ular hidning asosiy komponentlari edi, ham ularning ozon bilan oksidlanish mahsulotlari zaharlanmagan edi. Shuning uchun, havoda tarkibi va tarkibi sanitariya me'yorlaridan oshmaydigan uchuvchi organik birikmalarni ozonlashda inson hayotiga tahdid soladigan yangi moddalar hosil bo'lmaydi deyish mumkin. Havodan uchuvchi aralashmalarni ozonlash orqali olib tashlashning taklif etilgan usuli turar-joy yoki ofis xonalarini dezodoratsiya qilishning samarali usulidir.",
+    "conclusions": "Qattiq fazali mikroekstraksiya usuli bilan model efir moylari aralashmasidan ushbu aralashma ustidagi gaz fazasiga ajralib chiqadigan uchuvchi moddalarning tarkibi aniqlandi. Gaz fazasini ozon bilan aralashtirish orqali uchuvchi moddalarni xavfsiz, zaharsiz va oson olib tashlanadigan hosilalarga o'zgartirish usuli ishlab chiqildi. Ceriodaphnia affinis yoshlarining omon qolishi bo'yicha biotestlash usuli bilan ozon bilan uchuvchi moddalarning oksidlanish mahsulotlarining zaharliligi yo'qligi isbotlandi."
+  },
+  "sourcesTitle": "Manbalar",
+  "sources": [
+    {
+      "title": "V.V. Lunin, V.G. Samoilovich, S.N. Tkachenko, I.S. Tkachenko. Ozon va boshqa ekologik toza oksidlovchilar: Fan va texnologiya. 34-chi Butunrossiya konferentsiyasi maqolalar to'plami"
+    }
+  ],
+  "tables": {
+    "table1": {
+      "caption": "1-jadval. Model efir moylari aralashmasidagi uchuvchi birikmalarning tarkibi",
+      "headers": [
+        "Komponent",
+        "Aralashmadagi tarkib, %",
+        "5 mg aralashmadagi tarkib, mkg",
+        "Gaz fazasidagi tarkib, ng"
+      ],
+      "rows": [
+        ["Limonen", "30,1", "1505", "3454"],
+        ["Linalool", "22,7", "1135", "2840"],
+        ["Karvon", "15,0", "750", "1875"],
+        ["Evgenol", "12,5", "625", "625"],
+        ["Kariofillen", "10,2", "510", "2040"],
+        ["Mentol", "3,5", "175", "875"],
+        ["Kamfora", "2,1", "105", "525"],
+        ["p-Tsimen", "1,8", "90", "450"],
+        ["Timol", "1,2", "60", "300"],
+        ["Dodekan (ichki standart)", "2,1", "105", "1155"]
+      ]
+    },
+    "table2": {
+      "caption": "2-jadval. Go'sht buloni distillati ustidagi gaz fazasidagi uchuvchi birikmalarning tarkibi",
+      "headers": ["Komponent", "Tarkib, ng/l"],
+      "rows": [
+        ["1,2-Tsineol", "1250"],
+        ["Linalool", "980"],
+        ["Terpenilatsetat", "750"],
+        ["Geranilatsetat", "620"],
+        ["Kamfora", "450"],
+        ["Mentol", "320"],
+        ["Timol", "280"],
+        ["p-Tsimen", "150"]
+      ]
+    },
+    "table3": {
+      "caption": "3-jadval. Ceriodaphnia affinis yoshlarining omon qolishi bo'yicha biotestlash natijalari (o'tkir zaharlilik)",
+      "headers": ["Namuna", "Omon qolish, %", "Zaharlilik"],
+      "rows": [
+        ["Nazorat (suv)", "100", "Yo'q"],
+        ["Efir moylari aralashmasi", "98", "Yo'q"],
+        ["Ozonlash mahsulotlari", "97", "Yo'q"]
+      ]
+    }
+  },
+  "figure1": {
+    "caption": "1-rasm. Limonenning ozon bilan asosiy reaksiya mahsulotlari: (1) limonen, (2) 2-asetoksi-5-formilgeksanoik kislota, (3) izomerik 1,2-limonen epoksidlari"
+  }
+}

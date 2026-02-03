@@ -1,0 +1,64 @@
+{
+  "title": "Ozonning oziq-ovqat mahsulotlari bilan o'zaro ta'siri",
+  "excerpt": "Oksidlovchi sifatida ozon: ozuqa moddalarga ta'siri, bakteritsid va zamburug'ga qarshi faollik, namlik va etilenning roli. Oziq-ovqatni qayta ishlash va saqlashda ozondan foydalanishning ilmiy asoslangan tamoyillari.",
+  "body": {
+    "intro": "Ozon kuchli oksidlovchi bo'lib, uni oziq-ovqat sanoatida qo'llash mahsulotlar bilan o'zaro ta'sir mexanizmlarini tushunishni talab qiladi. Ushbu maqolada oziq-ovqat mahsulotlarini qayta ishlashda ozondan foydalanish tamoyillari, uning bakteritsid va zamburug'ga qarshi faolligi, shuningdek namlik va etilenning ozonlash samaradorligiga ta'siri ko'rib chiqiladi.",
+    "oxidationTitle": "Oksidlovchi sifatida ozon va ozuqa moddalarga ta'siri",
+    "oxidation1": "Kuchli oksidlovchi sifatida ozon labil (beqaror) ozuqa moddalar — vitaminlar, oqsillar va lipidlar miqdorini kamaytirishi mumkin. Biroq, amaliyotda to'g'ri qo'llanganda bu ta'sir minimal bo'ladi.",
+    "oxidation2": "Ozon asosan mahsulotlar yuzasiga ta'sir qiladi. Past konsentratsiyalar va qisqa ekspozitsiya vaqtlaridan foydalanish tufayli mahsulot tarkibidagi o'zgarishlar ahamiyatsiz bo'lib qoladi.",
+    "grasTitle": "GRAS maqomi va qo'llash xavfsizligi",
+    "gras": "Ozon mutaxassislar tomonidan tasdiqlangan GRAS (Generally Recognized as Safe — «umuman xavfsiz deb tan olingan») maqomiga ega. Bu tavsiya etilgan ishlov berish rejimlariga rioya qilinganda ozonning oziq-ovqat sanoatida ishlatish uchun xavfsiz ekanligini anglatadi.",
+    "kuprianovTitle": "Mevalarni saqlash bo'yicha Kuprianov tamoyillari",
+    "kuprianov": "Kuprianov mevalarni sovuq saqlashda ozondan foydalanishning asosiy tamoyillarini shakllantirdi: ozonlash past haroratlarda, mahsulotlarga zarar yetkazmasdan optimal samara olish uchun nazorat qilingan konsentratsiya va ekspozitsiya vaqti bilan amalga oshirilishi kerak.",
+    "bacterialTitle": "Ozonning bakteritsid faolligi",
+    "bacterial1": "Ozon suvda havoga qaraganda yaqqolroq bakteritsid faollikni namoyon qiladi. Bu ozonning suvda yaxshiroq erishi va mikroorganizmlar bilan bevosita aloqasi bilan bog'liq.",
+    "bacterial2": "Shuni hisobga olish kerakki, juda past konsentratsiyalarda (taxminan 0,2 mg/m³) ozon bakteriyalarni o'ldirmasdan, aksincha — ularning o'sishini tezlashtirishi mumkin. Bu hodisa gormezis deb ataladi.",
+    "bacterial3": "Past ozon konsentratsiyalariga uzoq vaqt ta'sir qilganda ba'zi bakteriyalar chidamlilik hosil qilishi mumkin. Shuning uchun bakteritsid ta'sirga erishish uchun yetarli konsentratsiyalarni qo'llash muhim.",
+    "antifungalTitle": "Zamburug'ga qarshi faollik",
+    "antifungal1": "Toza meva yuzalarida zamburug' o'sishini oldini olish uchun juda past ozon konsentratsiyalari yetarli. Bu ozonlashni zamburug' kasalliklarini oldini olishning samarali usuli qiladi.",
+    "antifungal2": "Biroq, mavjud zamburug' koloniyalarini yo'q qilish uchun ancha yuqori ozon konsentratsiyalari talab qilinadi. Koloniya qanchalik rivojlangan bo'lsa, konsentratsiya shunchalik yuqori bo'lishi kerak.",
+    "antifungal3": "Ozonning zamburug'ga qarshi faolligi havo namligi ortishi bilan oshadi. Bu nam muhitda zamburug' sporalari oksidlovchi ta'sirga ko'proq zaif bo'lishi bilan bog'liq.",
+    "yeastMoldTitle": "Achitqi va mog'orga ta'siri",
+    "yeastMold1": "Achitqilar bakteriyalarga qaraganda ozonga ko'proq sezgir. Ular oksidlanish zarariga osonroq duchor bo'ladi, bu ozonlashni achitqi mikroflorasini nazorat qilishning samarali usuli qiladi.",
+    "yeastMold2": "Mog'or sporalari bakteriyalarga qaraganda ozonga chidamliroq. Bu sporalarning ozonga o'tkazuvchanligini kamaytiradigan himoya qobig'iga ega ekanligi bilan izohlanadi.",
+    "yeastMold3": "Mahsulotlarni 0°C da saqlashda ozonlash ko'k mog'or (Penicillium) rivojlanishini samarali nazorat qiladi.",
+    "humidityTitle": "Nisbiy namlikning ta'siri",
+    "humidity1": "Ozon parchalanish tezligi havo namligi ortishi bilan oshadi. Bu yuqori namlik sharoitida ozon tezroq sarflanishini anglatadi.",
+    "humidity2": "Optimal rejim: namlik ozonning antimikrob faolligini oshirish uchun yetarlicha yuqori bo'lishi kerak, lekin ozon parchalanishdan oldin mahsulot yuzasiga yetib borishi kerak.",
+    "humidity3": "Ozonlash tizimlarini sozlashda maksimal samaradorlikka erishish uchun namlik va ozon konsentratsiyasi o'rtasida muvozanat saqlash zarur.",
+    "ethyleneTitle": "Etilenning roli",
+    "ethylene1": "Ozon etilen bilan faol reaksiyaga kirishadi — bu pishib yetilayotgan va buzilayotgan mevalar tomonidan chiqariladigan gaz. Etilen mevalarning pishishi va qarishini tezlashtiradi.",
+    "ethylene2": "Ozon etilen bilan o'zaro ta'sirlashganda oraliq birikma — etilen oksidi hosil bo'ladi, so'ngra u karbonat angidrid va suvga parchalanadi.",
+    "ethylene3": "Etilen oksidining o'zi antimikrob faollikka ega — u bakteriyalar, zamburug'lar va mog'or o'sishini to'xtatadi. Shunday qilib, ozonlash ikki tomonlama ta'sir ko'rsatadi: etilenni yo'q qilish va qo'shimcha antimikrob ta'sir.",
+    "tableTitle": "5.12-jadval. Oziq-ovqat mahsulotlarini qayta ishlashda ozondan foydalanish xulosasi",
+    "conclusionTitle": "Xulosalar",
+    "conclusion": "Ozon oziq-ovqat mahsulotlarini qayta ishlash va saqlash uchun samarali va ekologik jihatdan xavfsiz vositadir. To'g'ri qo'llanganda — konsentratsiya, ekspozitsiya vaqti, harorat va namlikni hisobga olgan holda — ozon mahsulot sifatiga sezilarli ta'sir ko'rsatmasdan mikroorganizmlardan ishonchli himoya ta'minlaydi."
+  },
+  "table": {
+    "headers": ["Mahsulot", "Qo'llanilishi", "Ozon konsentratsiyasi", "Natija"],
+    "rows": [
+      [
+        "Meva va sabzavotlar",
+        "Sovutgichda saqlash",
+        "0,1–0,3 ppm",
+        "Mikrob ifloslanishining kamayishi, saqlash muddatining uzayishi"
+      ],
+      ["Go'sht va parranda", "Sirtni qayta ishlash", "0,5–3,0 ppm", "Bakterial yuklamaning kamayishi"],
+      [
+        "Baliq va dengiz mahsulotlari",
+        "Suv va mahsulotni qayta ishlash",
+        "0,1–2,0 ppm",
+        "Patogenlarni nazorat qilish, hidlarni yo'q qilish"
+      ],
+      ["Don va yormalar", "Saqlashda qayta ishlash", "3–50 ppm", "Zararkunandalar va zamburug'larni yo'q qilish"],
+      ["Tuxum", "Po'stloqni qayta ishlash", "0,5–2,0 ppm", "Salmonellaning kamayishi"],
+      ["Pishloq", "Pishitish va saqlash", "0,02–0,05 ppm", "Sirt mog'orini nazorat qilish"]
+    ]
+  },
+  "sourcesTitle": "Manbalar",
+  "sources": [
+    {
+      "title": "V.V. Lunin, V.G. Samoilovich, S.N. Tkachenko, I.S. Tkachenko. Ozon olish va qo'llash nazariyasi va amaliyoti"
+    }
+  ]
+}

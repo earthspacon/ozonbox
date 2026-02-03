@@ -12,9 +12,9 @@
     "contacts": "Aloqa"
   },
   "header": {
-    "phone": "8 (800) 123-45-67",
+    "phone": "+998 94 290 99 77",
     "orderCall": "Qo'ng'iroq buyurtma qilish",
-    "freeCall": "Rossiya bo'ylab bepul qo'ng'iroq"
+    "freeCall": "Bizga qo'ng'iroq qiling"
   },
   "footer": {
     "description": "Biznes uchun professional ozonlash tizimlari. Kimyoviy moddalarisiz ekologik toza va samarali dezinfeksiya.",
@@ -27,11 +27,11 @@
   },
   "cta": {
     "consultation": "Konsultatsiya olish",
-    "call": "Qo'ng'iroq qilish: 8 (800) 123-45-67",
+    "call": "Qo'ng'iroq qilish: +998 94 290 99 77",
     "home": {
       "title": "Biznesingizda ozonlashni joriy etishga tayyormisiz?",
       "text": "Bepul konsultatsiya va ehtiyojlaringiz uchun uskunalar narxini hisoblang",
-      "call": "Qo'ng'iroq qilish: 8 (800) 123-45-67"
+      "call": "Qo'ng'iroq qilish: +998 94 290 99 77"
     },
     "technology": {
       "title": "Texnologiya haqida ko'proq bilishni xohlaysizmi?",

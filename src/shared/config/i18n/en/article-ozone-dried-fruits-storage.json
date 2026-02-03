@@ -1,0 +1,66 @@
+{
+  "title": "Ozone Application for Dried Fruits: Storage, Preservation, and Treatment",
+  "excerpt": "Scientific review of ozone application for dried fruit treatment: decontamination, aflatoxin and mycotoxin reduction, pesticide residue removal, shelf life extension for nuts, raisins, dates, and dried apricots.",
+  "body": {
+    "intro": "Ozone is an emerging technology for the treatment and storage of dried fruits. Numerous scientific studies demonstrate its effectiveness in destroying microorganisms, reducing mycotoxin levels, and degrading pesticide residues while preserving product quality. Unlike traditional chemical fumigants such as methyl bromide and phosphine, ozone rapidly decomposes without leaving harmful residues.",
+    "sectionMicrobial": "Microbial Decontamination",
+    "microbialText1": "Ozone exhibits powerful antimicrobial properties due to its strong oxidative capabilities. Gaseous ozone effectively inactivates foodborne pathogenic bacteria, fungi, mold, and biofilms. Research has shown that ozone is particularly effective against Fusarium species, followed by Aspergillus and Penicillium.",
+    "microbialText2": "In a study on Brazil nuts, exposure to ozone at a concentration of 8.88 mg/L for 240 minutes resulted in a reduction of Aspergillus flavus counts by more than 3.1 log cycles. The mechanism of action involves oxidation of fungal cell membranes and walls, disrupting polyunsaturated fatty acids and enzyme proteins.",
+    "sectionAflatoxin": "Aflatoxin and Mycotoxin Reduction",
+    "aflatoxinText1": "Ozone treatment demonstrates significant efficacy in reducing aflatoxin contamination in nuts. Studies on dried pistachios showed that ozone treatment for 3-5 hours with regular stirring reduced aflatoxins B1, B2, G1, G2, and total aflatoxins to 0 ppb from initial levels of 33.5, 1.5, 0.06, 0.31, and 35.13 ppb respectively.",
+    "aflatoxinText2": "Another study found that ozone at 4 ppm reduced total fungal count by approximately 95% and increased aflatoxin degradation by 85% in nuts including pistachio, almond, and peanut. For sultanas (raisins), gaseous ozone at 12.8 mg/L achieved 60.2% reduction in ochratoxin A (OTA) after 120 minutes and 82.5% reduction after 240 minutes of exposure.",
+    "sectionPesticide": "Pesticide Residue Degradation",
+    "pesticideText1": "Ozone is an effective non-thermal method for removing pesticide residues from fresh produce and dried fruits. Studies on table grapes demonstrated that ozone treatment reduced azoxystrobin fungicide residues 2.8 times faster compared to storage in air alone.",
+    "pesticideText2": "The mechanism involves decomposition of pesticide compounds through powerful oxidation. Ozone can also convert some non-biodegradable organic materials into biodegradable ones. Importantly, ozone spontaneously decomposes without forming hazardous residues in the treatment medium.",
+    "sectionShelfLife": "Shelf Life Extension Mechanisms",
+    "shelfLifeText1": "Ozone extends shelf life of dried fruits through several mechanisms. Its strong oxidative properties inactivate spoilage and pathogenic microorganisms, directly extending storage life. Ozone also destroys ethylene, inactivates spoilage microorganisms, and degrades chemical residues.",
+    "shelfLifeText2": "Beyond antimicrobial effects, ozone treatment preserves nutritional value and sensory qualities. Studies demonstrate improvements in textural properties, antioxidant activity, phenolic content, and color profile of treated products. Ozone pretreatment also enhances the drying process itself, saving energy and reducing drying time.",
+    "sectionApplications": "Applications for Specific Products",
+    "appNuts": "Nuts (Pistachios, Almonds, Walnuts)",
+    "appNutsText": "For pistachios, the optimal treatment is recommended as 3 hours of ozone exposure with stirring every 20 minutes. This achieves complete elimination of aflatoxins without negatively affecting sensory properties (flavor, texture, color). All peroxide values remain below allowable limits, indicating good oxidative stability. However, extended treatment (5 hours) may affect aroma.",
+    "appRaisins": "Raisins and Sultanas",
+    "appRaisinsText": "Studies on sultanas demonstrated that gaseous ozone effectively reduces ochratoxin A contamination and fungal populations. Treatment at 12.8 mg/L concentration achieved a reduction of fungal populations by more than 2.2 log cycles while maintaining product quality.",
+    "appDates": "Dates",
+    "appDatesText": "Ozone is effective as an antimicrobial technology for date decontamination. Research confirms significant reduction in microbial load without leaving residues on the product. The technology is approved as a safer alternative to conventional disinfectants with toxic side effects.",
+    "appDriedApricots": "Dried Apricots and Other Dried Fruits",
+    "appDriedApricotsText": "Ozone treatment maintains appearance, sensory qualities, and nutritional properties of dried fruits while controlling microorganism growth. Combined use of ozone with other techniques (hurdle technology) shows promising results for improved food processing.",
+    "sectionParameters": "Optimal Treatment Parameters",
+    "parametersText": "The effectiveness of ozone treatment depends on several factors: gas concentration, humidity levels, and treatment duration. To achieve optimal results, treatment conditions must be carefully controlled. Excessive ozone concentration and prolonged treatment times can cause undesirable changes in product quality.",
+    "sectionLimitations": "Important Limitations",
+    "limitationsText1": "Despite its effectiveness, research results show some ambiguous effects. In pistachios, while ozone reduces fungal populations, aflatoxin B1 contamination may paradoxically be stimulated under certain treatment conditions, particularly at high water activity levels. This indicates the need for further study of the relationship between ozone concentration, exposure time, and moisture conditions.",
+    "limitationsText2": "Commercial scaling of the technology also faces certain challenges. However, regulatory approval of ozone worldwide facilitates its integration into food processing operations.",
+    "sectionConclusion": "Conclusion",
+    "conclusionText": "Ozone represents an environmentally safe and effective technology for treatment and storage of dried fruits and nuts. With properly selected treatment parameters, it provides significant reduction in microbial contamination, mycotoxins, and pesticide residues without compromising product quality. The technology is particularly relevant in the context of international agreements limiting the use of traditional chemical fumigants."
+  },
+  "sourcesTitle": "Sources",
+  "sources": [
+    {
+      "title": "The Use of Ozone Technology to Control Microorganism Growth, Enhance Food Safety and Extend Shelf Life — Foods (MDPI), 2023",
+      "url": "https://www.mdpi.com/2304-8158/12/4/814"
+    },
+    {
+      "title": "Use of gaseous ozone for reduction of ochratoxin A and fungal populations on sultanas — Australian Journal of Grape and Wine Research, 2018",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/ajgw.12362"
+    },
+    {
+      "title": "Effect of ozone gassing time and stirring duration on peroxide value, microbial decontamination, aflatoxin detoxification and sensorial characteristics of dried pistachios — ScienceDirect, 2024",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772502224000702"
+    },
+    {
+      "title": "Ozonation of Brazil nuts: Decomposition kinetics, control of Aspergillus flavus and the effect on color and on raw oil quality — LWT, 2020",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0023643820300943"
+    },
+    {
+      "title": "Reduction of date microbial load with ozone — PubMed (NCBI), 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24124432/"
+    },
+    {
+      "title": "Removal of pesticide residues in food using ozone — Food Chemistry: X, 2023",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772753X23003337"
+    },
+    {
+      "title": "Impacts of Gaseous Ozone on Germination, Mycelial Growth, and Aflatoxin B1 Production In Vitro and In Situ Contamination of Stored Pistachio Nuts — Toxins (MDPI), 2022",
+      "url": "https://www.mdpi.com/2072-6651/14/6/416"
+    }
+  ]
+}

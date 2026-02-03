@@ -1,0 +1,43 @@
+{
+  "title": "Parranda fermasida ozon. Kirish",
+  "excerpt": "Parranda fermasida ozonni qo'llash: tuxumlarni inkubatsiya qilish, suv va havoni dezinfeksiya qilish, ozuqalarni qayta ishlash, tuxum tanasini zararsizlantirish. VNITIP tadqiqotlari va jahon tajribasi.",
+  "body": {
+    "intro": "Sovutilgan go'shtni ozonlangan atmosferada saqlashga birinchi urinishlar 1909 yilda amalga oshirilgan. 1936 yilda Kess Avstraliyada bu mavzu bo'yicha keng ko'lamli tadqiqotlar o'tkazdi. Shu bilan birga, 1933–1935 yillarda ozonning banan pishishiga ta'siri o'rganildi. Raysning sharhi va Yaponiyada 500 dan ortiq ozon qurilmalari haqidagi yapon hisoboti bu yo'nalishning istiqbolini tasdiqladi.",
+    "applicationsTitle": "Ozonni qo'llashning asosiy sohalari",
+    "applications": "Ozon bir nechta asosiy yo'nalishlarda keng qo'llaniladi: parranda fermasi, urug'larni ekishdan oldingi ishlov berish va ho'l donni quritish, shuningdek oziq-ovqat mahsulotlarining saqlash muddatini uzaytirish. Bu yo'nalishlarning har biri o'ziga xos xususiyatlarga ega va ma'lum ozonlash rejimlarini talab qiladi.",
+    "vnitipTitle": "Parranda fermasida VNITIP tadqiqotlari",
+    "vnitip": "Butunrossiya parranda fermasi ilmiy-tadqiqot va texnologiya instituti (VNITIP) parranda fermasida ozonni qo'llash bo'yicha kompleks tadqiqotlar o'tkazdi. Asosiy yo'nalishlar quyidagilarni o'z ichiga oladi: tuxumlarni inkubatsiya qilish (chiqish va jo'ja sifatini yaxshilash), inkubatorlarda suv va havoni tozalash, ozuqalarni dezinfeksiya qilish, shuningdek parranda tanalarini va idish/qadoqlarni qayta ishlash.",
+    "eggOzonationTitle": "Tuxumlarni ozonlash texnologiyasi",
+    "eggOzonation1": "Tuxumlarni ozonlash davriy (har 3–5 kunda 8–12 soat) yoki doimiy ravishda amalga oshirilishi mumkin. Dezinfeksiya kamerasidagi ozon konsentratsiyasi 4–15 mg/m³ ni tashkil qiladi.",
+    "eggOzonation2": "Natijalar hayratlanarli: mikroflora 1,5–2 marta kamayadi, jo'jalarning chiqish darajasi 4–6% ga yaxshilanadi. Uzoq muddatli saqlashda (20 kun) ta'sir yanada kuchli: mikroflora 2–7 marta kamayadi, chiqish 6–12% ga yaxshilanadi.",
+    "equipmentTitle": "Ozonlash uchun jihozlar sxemasi",
+    "equipment": "Tuxumlarni ozonlash uchun odatiy tizim (5.1-rasm) ketma-ket ulangan elementlarni o'z ichiga oladi: havo filtri → kompressor → havo quritgichi → ozon generatori → dezinfeksiya kamerasi. Bu konfiguratsiya kerakli konsentratsiyada barqaror ozon etkazib berishni ta'minlaydi.",
+    "wetDisinfectionTitle": "Ifloslangan tuxumlarni ho'l dezinfeksiya qilish",
+    "wetDisinfection1": "Muammo: quruq dezinfeksiya ifloslangan po'stli tuxumlar uchun samarasiz. An'anaviy usullar (vodorod peroksidi, perasetik kislota, yod, metil bromid) ko'p bosqichli ishlov berishni talab qiladi, qimmat va zararli qoldiqlar qoldiradi.",
+    "wetDisinfection2": "Yechim: sirka kislotasi bilan oldindan nordonlashtirish bilan ozonsaturated suvdan foydalanish. Jarayon sxemasi (5.2-rasm) ifloslangan tuxumlarni dezinfeksiya qilish uchun bu yondashuvning samaradorligini ko'rsatadi.",
+    "mycoplasmaTitle": "Sariqlikdagi patogenlarni inaktivatsiya qilish",
+    "mycoplasma1": "Alohida muammo — kasal tovuqlardan olingan tuxumlardagi mikoplazma. Uni inaktivatsiya qilish uchun murakkab protsedura ishlab chiqilgan: ketma-ket isitish va ozon bilan ishlov berish.",
+    "mycoplasma2": "5.1-jadval zararsizlantirish natijalarini ko'rsatadi: kombinatsiyalangan termal-ozon ta'siri tuxumga zarar yetkazmasdan mikoplazmani samarali inaktivatsiya qiladi.",
+    "salmonellaTitle": "Salmonella muammosi",
+    "salmonella1": "2003 yilda Las-Vegasdagi kongressda Rodriges salmonella muammosi haqida hisobot taqdim etdi. AQShda har yili xom tuxum iste'moli bilan bog'liq 40 000 dan ortiq kasallik holati qayd etiladi.",
+    "salmonella2": "Murakkab ishlov usuli ishlab chiqilgan: termal va vakuumli ta'sir ozonlash bilan birgalikda. Ifloslanishning 5 daraja kamayishiga erishildi — bu patogenlar sonining 100 000 marta kamayishini anglatadi.",
+    "conclusionTitle": "Xulosalar",
+    "conclusion": "Ozon parranda fermasi uchun samarali va ekologik xavfsiz vositadir. Uning qo'llanilishi butun ishlab chiqarish siklini qamrab oladi — tuxumlarni inkubatsiya qilishdan tayyor mahsulotni qayta ishlashgacha. To'g'ri rejim tanlanganda, ozonlash zararli qoldiqlarsiz va mahsulot sifatiga salbiy ta'sirsiz yuqori darajadagi dezinfeksiyani ta'minlaydi."
+  },
+  "table": {
+    "caption": "5.1-jadval. Tuxumlarni mikoplazmadan zararsizlantirish natijalari",
+    "headers": ["Ishlov berish usuli", "Harorat, °C", "Vaqt, daqiqa", "Samaradorlik"],
+    "rows": [
+      ["Nazorat (ishlov berilmagan)", "—", "—", "0%"],
+      ["Faqat isitish", "45", "15", "40–60%"],
+      ["Faqat ozon", "—", "30", "50–70%"],
+      ["Isitish + ozon", "45", "15 + 30", "95–99%"]
+    ]
+  },
+  "sourcesTitle": "Manbalar",
+  "sources": [
+    {
+      "title": "V.V. Lunin, V.G. Samoilovich, S.N. Tkachenko, I.S. Tkachenko. Ozon ishlab chiqarish va qo'llash nazariyasi va amaliyoti"
+    }
+  ]
+}

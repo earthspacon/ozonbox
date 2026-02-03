@@ -1,0 +1,79 @@
+{
+  "title": "AOP va oqova suvlar. Qishloq xo'jaligida AOP",
+  "excerpt": "Akvakultura va qishloq xo'jaligida oqova suvlarni tozalash uchun ilg'or oksidlanish jarayonlari (AOP) qo'llanilishi. Ozonlash krevetkalar o'limini 80% dan 20% gacha kamaytirdi.",
+  "sections": {
+    "aquaculture": "Akvakulturada ozonlash",
+    "catalyticOzonation": "Katalitik ozonlash (KO)",
+    "municipalWastewater": "Shahar oqova suvlarini tozalash",
+    "swissExperience": "Shveytsariya tajribasi: Neugut stantsiyasi",
+    "solarAcceleration": "Quyosh nuri bilan parchalanishni tezlashtirish",
+    "highConcentration": "Yuqori konsentratsiyali ozon ishlab chiqarish",
+    "greenChemistry": "«Yashil kimyo»da ozon"
+  },
+  "body": {
+    "aquaculture1": "Xalqaro tadqiqotchilar guruhi (Tarik Nahir va boshqalar) 2011–2012 yillardagi mavsumda Madagaskar va Mozambikdagi fermalarda krevetkalarning ommaviy nobud bo'lishi muammosini ko'rib chiqdi. Bu epidemiya krevetkalar ishlab chiqarishini 80–90% ga qisqartirdi. Gap mollyuskalarning \"oq dog'lar\" deb ataladigan virusli kasalligi bilan zararlanishi haqida boradi. Yuqori zararlash tezligi krevetkalar etishtiradigan hovuzlardagi suv sifati bilan bog'liqligi aniqlandi.",
+    "aquaculture2": "Mualliflar xlor bilan suvni dezinfeksiyalash usulini taqqoslaydi va bu holda ozonlash ma'lum afzalliklarga ega degan xulosaga keladi. Bunday texnologiya ozon ishlab chiqarish uskunalari va kislorod generatorlariga qat'iy talablarni nazarda tutadi, ular nam tropik iqlimda uzluksiz ishlashi kerak. Suvda zarur ozon konsentratsiyasi va eritilgan kislorodni saqlashning turli sxemalari ko'rib chiqiladi.",
+    "aquacultureResult": "Ozon qo'llash natijasi ijobiydan ham yuqori: agar ozon dezinfeksiyasisiz krevetkalar o'limi 80% ga yetgan (va oshgan) bo'lsa, ishlovdan keyin bu ko'rsatkich 20% va undan kam bo'ldi.",
+    "catalytic1": "Kongressning eng qiziqarli bo'limi — AOP, xususan, katalitik ozonlash (KO). Jami AOP bo'limida 30 dan ortiq ma'ruza bor, bevosita KO ga 10 ish bag'ishlangan.",
+    "catalytic2": "S.S. Sable va boshqalarning «Katalitik ozonlashda paydo bo'ladigan organik ifloslantirgichlarni yo'q qilish uchun yangi katalitik materiallarni qo'llash» nomli ishida mualliflar tozalash jarayonida hosil bo'ladigan yuqori zaharli organik birikmalar albatta yo'q qilinishi kerakligini ko'rsatadilar. Bu birinchi navbatda farmakologik oqovalarni tozalash haqida. Ishda gidrotalsit va shpinellar asosidagi bir qator katalizatorlar ko'rib chiqildi.",
+    "catalytic3": "Ko'rinib turibdiki, Cu-Al oksidli katalizator eng afzal ko'rinadi. Bu katalizatorlarning barchasi tanlangan ifloslantirgich — klofibrik kislotani (CFA) samarali (100%) yo'q qiladi. Mualliflar ko'rib chiqilgan katalizatorlar oilasida gidrotalsit va mis-shpinel birikmalari eng yuqori faollikka ega degan xulosaga keladi.",
+    "municipal1": "Fransuz tadqiqotchilar guruhi ikki farmatsevtika fabrikasining oqova suvlaridagi barqaror mikro-ifloslantirgichlarni yo'q qilish imkoniyatini o'rgandi. Tabletka shaklida katalizatorlar yuzasidagi jarayonlardan foydalanadigan TOCCATA patentiga tayanib, mualliflar eritilgan organik uglerod (DOC), eritilgan noorganik uglerod (DIC), oksidlangan noorganik uglerod (IC) kabi muhim oksidlanish parametrlarining o'zgarishini o'rganadilar.",
+    "municipal2": "Ifloslantirgichlarga ta'sirning uchta varianti ko'rib chiqildi: oddiy ozonlash, oddiy adsorbsiya va katalitik ozonlash. Barcha tajribalar qattiq faza mavjud bo'lganda 130 daqiqa va suyuq fazada 70 daqiqa davomida o'tkazildi. Ozonlash kinetikasi psevdo-birinchi tartibga, adsorbsiya kinetikasi esa psevdo-ikkinchi tartibga javob berishi ko'rsatildi.",
+    "municipal3": "γ-Al₂O₃ da KO jarayonini batafsil o'rganish Monpelye universiteti (Fransiya)dan katta fransuz olimlari guruhi (12 xodim) tomonidan amalga oshirildi. Oksidlash ob'ekti sifatida barqaror organik birikma bo'lgan 2,4-dimetilfenol (2,4-DMF) tanlandi. Oddiy ozonlash va γ-Al₂O₃ ishtirokida ozonlash 2,4-DMF ni 25 daqiqada parchalashga olib keladi.",
+    "municipal4": "γ-Al₂O₃ ni ifloslantirgich ozonlash jarayoniga kiritish uning parchalanishini keskin kuchaytiradi. Umumiy organik uglerod (TOC) 14% dan 46% ga ortadi. Xuddi shunday, kislorodga kimyoviy talab (XKT) 35% dan 75% ga ortadi.",
+    "french1": "Sophia-Antipolis shahrida (34 ming aholi) nisbatan kichik suv tozalash stantsiyasi (toza suv bo'yicha unumdorlik 600 m³/soat) tajribalar o'tkazish uchun tanlandi. Ishlaydigan stantsiyada an'anaviy suv tayyorlash texnologiyasi qo'llanildi: biotozalash, filtrlar, xlorlash. Oxirgi bosqich ozonlash + biofiltratsiya bilan almashtirildi.",
+    "french2": "Ishning maqsadi bunday tizim turli moddalar sinfiga tegishli keng spektrdagi mikro-ifloslantirgichlarni qanday yo'q qilishi mumkinligini aniqlash edi. Bu moddalarning konsentratsiyasi 1000 mg/l dan oshmadi va ularning barchasi uzluksiz monitoringga duchor bo'ldi. Kiritilgan ozon dozasi 3–12 g/m³ ni tashkil qildi.",
+    "french3": "Olingan ma'lumotlardan faqat ikkita ifloslantirgich (diuron va roksitromitsin) nisbatan kam yo'q qilinishi (60%) kelib chiqadi. Qolgan barcha moddalar 70 dan 90% gacha yo'q qilish darajasiga ega. 5 g/m³ ozon dozasida deyarli barcha ifloslantirgichlar, masalan, antibiotiklar va beta-blokatorlar 70% dan yuqori samaradorlik bilan yo'q qilinadi. Metallar uchun — 25–35%.",
+    "swiss1": "Shveytsariyaning Neugut shahrida joylashgan suv tozalash stantsiyasi 105 000 aholining oqova suvlarini tozalaydi. U Shveytsariyada birinchi bo'lib standart biologik ishlovdan keyin to'liq hajmli ozon tozalashdan foydalanadi. Tozalashning yakuniy bosqichi qum filtridir.",
+    "swiss2": "Ozon sof kisloroddan ishlab chiqariladi va aralashma kamerasida suvga kiritiladi. Kiritilgan ozonning o'rtacha dozasi 2–5 mg/l oralig'ida bo'lib, bu taxminan 0,4–1,0 g O₃/g DOC ga to'g'ri keladi. Kamerada ushlab turish vaqti — taxminan 50 daqiqa.",
+    "swiss3": "Ishning maqsadi, birinchidan, ifloslanishlarni yo'q qilishda ozonning samaradorligini namoyish qilish va ikkinchidan, ozonlash jarayonida paydo bo'ladigan oraliq mahsulotlarni monitoring qilish edi. Ozonlash jarayoni samaradorligini baholash uchun 44 birikma tanlandi: pestitsidlar, farmatsevtika preparatlari va oziq-ovqat sanoati kimyoviy ishlab chiqarish chiqindilari.",
+    "swiss4": "Mikro-ifloslantirgichlarning katta ro'yxati orasida 5 ta moddaga (benzotriazol, karbamazepin, diklofenak, sulfametoksazol va mekoprop) katta e'tibor berildi, ular oqova suvlarda indikator ifloslantirgichlar hisoblanadi. Ko'rinib turibdiki, eng yuqori dozada barcha beshta moddani kamida 80% ga yo'q qilishga erishiladi.",
+    "solar1": "Kongress materiallarida suvdan ifloslanishlarni yo'q qilish uchun quyosh nuridan foydalanish imkoniyatini ko'rib chiqadigan uchta maqola bor. Quyosh nuri pH = 4 da ozon eritmalarida oksalat kislotasining parchalanishini deyarli 2 tartibga tezlashtirishi mumkinligi ko'rsatildi.",
+    "solar2": "Bunday tezlashuv oksalat kislotasi ozon bilan juda sekin reaksiyaga kirishishi, lekin OH* radikallari tomonidan yetarlicha tez parchalanishi bilan bog'liq. Oxirgisi H₂O₂ molekulalari ishtirokida paydo bo'ladi. Peroksid hosil bo'lish kinetikasi ushbu ishda ishonchli qayd etildi.",
+    "highConc1": "Taniqli nemis tadqiqotchilar M. Selvermaser va N. Brugerman o'z maqolalarida sanoat miqyosida ~15 og'irlik % (225 g/m³) konsentratsiyali texnologik ozon olish haqida juda muhim savol qo'yadilar. Mualliflar bunday ozonni sintez qilish texnik imkoniyatlari mavjudligini ta'kidlaydilar.",
+    "highConc2": "Ushbu qiziqarli maqola oxirida mualliflar shunday savollar beradilar: 15% (225 g/m³) qiymati yakuniymi? 15% konsentratsiyali soatiga 100 kg ozon ishlab chiqarish xavfsizmi? Bozorda 15% va undan yuqori konsentratsiyali ozon talab qilinadimi? Bu, aytish mumkin, muhokamaga taklif.",
+    "green1": "Ozonning ekologik vazifasi bilan bog'liq ko'plab ma'ruzalar orasida fransuz tadqiqotchilari ishi ajralib turadi, unda ozonning mutlaqo boshqa, qisman unutilgan qo'llanilishi — uni ma'lum moddalarni sintez qilish uchun kimyoviy oksidlovchi-reagent sifatida ishlatish haqida xabar beriladi.",
+    "green2": "Mualliflar ozon boshqa klassik oksidlovchilarga nisbatan bir qator afzalliklarga ega ekanligini ta'kidlaydilar. Ozon holatida oksidlovchining o'zining parchalanish mahsulotlarini yo'q qilish zarurati yo'q — bu erda u molekulyar kislorod, shuning uchun bunday jarayonlarni «yashil kimyo» tushunchasiga kiritish mumkin.",
+    "green3": "Ishda ikkita jarayon ko'rib chiqiladi: yog' kislotalarini (xususan, olein kislotasini) oksidlash va polisaxaridlarni oksidlash. Ikkalasi ham yarim sanoat miqyosida takrorlanadi va mualliflar bunday sintezlarning afzalliklariga ishonch hosil qilishgan."
+  },
+  "tables": {
+    "table1": {
+      "caption": "1-jadval. Oddiy va katalitik ozonlashdan 2 va 6 soatdan keyin CFA (klofibrik kislota) mineralizatsiya darajasi",
+      "headers": ["Katalizator", "Mineralizatsiya 2s, %", "Mineralizatsiya 6s, %", "Metalllar cho'kishi"],
+      "rows": [
+        ["Katalizatorsiz (O₃)", "8", "15", "—"],
+        ["Gidrotalsit Mg-Al", "35", "58", "Past"],
+        ["Gidrotalsit Cu-Al", "52", "78", "Past"],
+        ["Shpinel Cu-Al oksid", "61", "89", "Juda past"],
+        ["FeOOH", "28", "45", "O'rtacha"],
+        ["0,5% Pd/FeOOH (200°C)", "48", "72", "Past"]
+      ]
+    },
+    "table2": {
+      "caption": "2-jadval. Monitoringga duchor bo'lgan mikro-ifloslantirgichlar",
+      "headers": ["Moddalar sinfi", "Birikmalar misoli"],
+      "rows": [
+        ["Antibiotiklar", "Sulfametoksazol, roksitromitsin, klaritromitsin"],
+        ["Beta-blokatorlar", "Atenolol, metoprolol, propranolol"],
+        ["Pestitsidlar", "Diuron, atrazin, izoproturon"],
+        ["Yallig'lanishga qarshi", "Diklofenak, ibuprofen, naproksen"],
+        ["Gormonlar", "Estron, estradiol, etinilestradiol"]
+      ]
+    },
+    "table3": {
+      "caption": "3-jadval. OPEX bo'yicha tejash (0,20 evro/m³, LOX)",
+      "headers": ["O₃ ishlab chiqarish", "Standart generator", "15% generator", "Tejash"],
+      "rows": [
+        ["10 kg/soat", "850 000 €/yil", "720 000 €/yil", "15%"],
+        ["50 kg/soat", "3 200 000 €/yil", "2 560 000 €/yil", "20%"],
+        ["100 kg/soat", "5 800 000 €/yil", "4 350 000 €/yil", "25%"]
+      ]
+    }
+  },
+  "sourcesTitle": "Manbalar",
+  "sources": [
+    {
+      "title": "V.V. Lunin, V.G. Samoylovich, S.N. Tkachenko, I.S. Tkachenko. Ozon va boshqa ekologik toza oksidlovchilar: Fan va texnologiyalar — 34-Butunrossiya konferensiyasi"
+    }
+  ]
+}

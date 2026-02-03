@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
+import Image from 'next/image'
 
 import { Layout } from '@/widgets/layout'
 
@@ -10,6 +10,7 @@ import {
   ArticleSection,
   BulletList,
   ComparisonTable,
+  CTASection,
   DataTable,
   FeatureCard,
   FeatureGrid,
@@ -77,7 +78,10 @@ export function OfficesPage({ staticData }: OfficesPageProps) {
 
   return (
     <Layout>
-      <Seo title={t('subcategories.offices.title', { ns })} description={t('subcategories.offices.shortDesc', { ns })} />
+      <Seo
+        title={t('subcategories.offices.title', { ns })}
+        description={t('subcategories.offices.shortDesc', { ns })}
+      />
       {/* Breadcrumbs */}
       <div className="bg-bg-light border-border border-b">
         <div className="container py-4">
@@ -120,9 +124,7 @@ export function OfficesPage({ staticData }: OfficesPageProps) {
           <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
             {t('subcategories.offices.title', { ns })}
           </h1>
-          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
-            {t('subcategories.offices.shortDesc', { ns })}
-          </p>
+          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">{t('subcategories.offices.shortDesc', { ns })}</p>
         </div>
       </section>
 
@@ -207,11 +209,7 @@ export function OfficesPage({ staticData }: OfficesPageProps) {
             <ComparisonTable
               title={data?.sections?.comparison?.table?.title}
               headers={
-                (data?.sections?.comparison?.table?.headers as unknown as [string, string, string]) ?? [
-                  '',
-                  '',
-                  '',
-                ]
+                (data?.sections?.comparison?.table?.headers as unknown as [string, string, string]) ?? ['', '', '']
               }
               rows={
                 (data?.sections?.comparison?.table?.rows as unknown as Array<{
@@ -251,24 +249,18 @@ export function OfficesPage({ staticData }: OfficesPageProps) {
       </article>
 
       {/* CTA Section */}
-      <section className="cta">
-        <div className="container">
-          <h2 className="cta__title">{t('cta.applications.title', { ns: NAMESPACES.common })}</h2>
-          <p className="cta__text">{t('cta.applications.text', { ns: NAMESPACES.common })}</p>
-          <div className="cta__actions">
-            <AppLink href="/contacts" className="btn btn--white btn--large">
-              {t('hero.getConsultation', { ns: NAMESPACES.common })}
-            </AppLink>
-            <a
-              href="tel:+78001234567"
-              className="btn btn--secondary btn--large"
-              style={{ borderColor: 'white', color: 'white' }}
-            >
-              {t('header.phone', { ns: NAMESPACES.common })}
-            </a>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        title={t('cta.applications.title', { ns: NAMESPACES.common })}
+        description={t('cta.applications.text', { ns: NAMESPACES.common })}
+        primaryButton={{
+          label: t('hero.getConsultation', { ns: NAMESPACES.common }),
+          href: '/contacts',
+        }}
+        secondaryButton={{
+          label: t('header.phone', { ns: NAMESPACES.common }),
+          href: 'tel:+998942909977',
+        }}
+      />
     </Layout>
   )
 }

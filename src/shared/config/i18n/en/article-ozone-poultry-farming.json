@@ -1,0 +1,43 @@
+{
+  "title": "Ozone in Poultry Farming. Introduction",
+  "excerpt": "Ozone applications in poultry farming: egg incubation, water and air disinfection, feed treatment, carcass decontamination. VNITIP research and global experience.",
+  "body": {
+    "intro": "The first attempts to store refrigerated meat in an ozonized atmosphere date back to 1909. In 1936, Kaess conducted extensive research on this topic in Australia. Concurrently, between 1933 and 1935, the effect of ozone on banana ripening was studied. Rice's review and a Japanese report on more than 500 ozone installations in Japan confirmed the promise of this direction.",
+    "applicationsTitle": "Main Areas of Ozone Application",
+    "applications": "Ozone finds wide application in several key areas: poultry farming, pre-sowing seed treatment and wet grain drying, as well as extending the shelf life of food products. Each of these areas has its own specifics and requires certain ozonation modes.",
+    "vnitipTitle": "VNITIP Research in Poultry Farming",
+    "vnitip": "The All-Russian Research and Technological Institute of Poultry Farming (VNITIP) conducted comprehensive studies on the use of ozone in poultry farming. The main directions include: egg incubation (improving hatchability and chick quality), water and air treatment in incubators, feed disinfection, as well as poultry carcass treatment and container/packaging disinfection.",
+    "eggOzonationTitle": "Egg Ozonation Technology",
+    "eggOzonation1": "Egg ozonation can be carried out periodically (8–12 hours every 3–5 days) or continuously. The ozone concentration in the disinfection chamber is 4–15 mg/m³.",
+    "eggOzonation2": "The results are impressive: microflora is reduced by 1.5–2 times, chick hatchability improves by 4–6%. With prolonged storage (20 days), the effect is even more pronounced: microflora reduction by 2–7 times, hatchability improvement by 6–12%.",
+    "equipmentTitle": "Equipment Scheme for Ozonation",
+    "equipment": "A typical egg ozonation system (Fig. 5.1) includes sequentially connected elements: air filter → compressor → air dehumidifier → ozone generator → disinfection chamber. This configuration ensures stable ozone supply at the required concentration.",
+    "wetDisinfectionTitle": "Wet Disinfection of Contaminated Eggs",
+    "wetDisinfection1": "Problem: dry disinfection is ineffective for eggs with contaminated shells. Traditional methods (hydrogen peroxide, peracetic acid, iodine, methyl bromide) require multi-step processing, are expensive, and leave harmful residues.",
+    "wetDisinfection2": "Solution: use of ozone-saturated water with pre-acidification using acetic acid. The process scheme (Fig. 5.2) demonstrates the effectiveness of this approach for disinfecting contaminated eggs.",
+    "mycoplasmaTitle": "Pathogen Inactivation in Yolk",
+    "mycoplasma1": "A particular problem is mycoplasma in eggs from sick chickens. A complex procedure has been developed for its inactivation: sequential heating and ozone treatment.",
+    "mycoplasma2": "Table 5.1 demonstrates the decontamination results: combined thermal-ozone exposure effectively inactivates mycoplasma without damaging the egg.",
+    "salmonellaTitle": "The Salmonella Problem",
+    "salmonella1": "At the Las Vegas congress in 2003, Rodriguez presented a report on the salmonella problem. More than 40,000 cases of illness associated with raw egg consumption are recorded annually in the USA.",
+    "salmonella2": "A complex treatment has been developed: thermal and vacuum exposure combined with ozonation. A contamination reduction of 5 orders of magnitude has been achieved — this means a 100,000-fold decrease in pathogen count.",
+    "conclusionTitle": "Conclusions",
+    "conclusion": "Ozone is an effective and environmentally safe tool for poultry farming. Its application covers the entire production cycle — from egg incubation to finished product processing. With proper mode selection, ozonation provides a high degree of disinfection without harmful residues and negative effects on product quality."
+  },
+  "table": {
+    "caption": "Table 5.1. Results of egg decontamination from mycoplasma",
+    "headers": ["Treatment Method", "Temperature, °C", "Time, min", "Effectiveness"],
+    "rows": [
+      ["Control (no treatment)", "—", "—", "0%"],
+      ["Heating only", "45", "15", "40–60%"],
+      ["Ozone only", "—", "30", "50–70%"],
+      ["Heating + ozone", "45", "15 + 30", "95–99%"]
+    ]
+  },
+  "sourcesTitle": "Sources",
+  "sources": [
+    {
+      "title": "V.V. Lunin, V.G. Samoilovich, S.N. Tkachenko, I.S. Tkachenko. Theory and Practice of Ozone Production and Application"
+    }
+  ]
+}

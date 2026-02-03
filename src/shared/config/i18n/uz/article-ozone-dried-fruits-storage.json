@@ -1,0 +1,66 @@
+{
+  "title": "Quritilgan mevalar uchun ozonni qo'llash: saqlash, konservatsiya va ishlov berish",
+  "excerpt": "Quritilgan mevalarni ozon bilan ishlov berish bo'yicha ilmiy sharh: dekonaminatsiya, aflatoksin va mikotoksinlarni kamaytirish, pestitsid qoldiqlarini yo'qotish, yong'oq, mayiz, xurmo va quritilgan o'rikni saqlash muddatini uzaytirish.",
+  "body": {
+    "intro": "Ozon quritilgan mevalarni qayta ishlash va saqlash uchun istiqbolli texnologiya hisoblanadi. Ko'plab ilmiy tadqiqotlar uning mikroorganizmlarni yo'q qilish, mikotoksinlar darajasini pasaytirish va mahsulot sifatini saqlab qolgan holda pestitsid qoldiqlarini parchalashdagi samaradorligini ko'rsatadi. Metil bromid va fosfin kabi an'anaviy kimyoviy fumigantlardan farqli o'laroq, ozon tez parchalanadi va zararli qoldiqlar qoldirmaydi.",
+    "sectionMicrobial": "Mikrobiologik dekonaminatsiya",
+    "microbialText1": "Ozon kuchli oksidlovchi xususiyatlari tufayli kuchli antimikrob xususiyatlarini namoyon qiladi. Gazsimon ozon oziq-ovqat patogen bakteriyalari, zamburug'lar, mog'or va biopardalarni samarali inaktivatsiya qiladi. Tadqiqotlar shuni ko'rsatdiki, ozon ayniqsa Fusarium turlari, shuningdek Aspergillus va Penicillium ga qarshi samarali.",
+    "microbialText2": "Braziliya yong'oqlari bo'yicha tadqiqotda 8,88 mg/l konsentratsiyada 240 daqiqa davomida ozon ta'sirida Aspergillus flavus miqdori 3,1 logarifmik sikldan ko'proq kamaydi. Ta'sir mexanizmi zamburug' hujayra membranalarini va devorlarini oksidlashni, to'yinmagan yog' kislotalari va ferment oqsillarini buzishni o'z ichiga oladi.",
+    "sectionAflatoxin": "Aflatoksin va mikotoksinlarni kamaytirish",
+    "aflatoxinText1": "Ozon bilan ishlov berish yong'oqlarda aflatoksin ifloslanishini kamaytirishda sezilarli samaradorlik ko'rsatadi. Quritilgan pistalarni ozon bilan 3-5 soat davomida muntazam aralashtirish bilan ishlov berish natijasida B1, B2, G1, G2 aflatoksinlari va umumiy aflatoksinlar 33,5; 1,5; 0,06; 0,31 va 35,13 ppb boshlang'ich darajasidan mos ravishda 0 ppb ga kamaydi.",
+    "aflatoxinText2": "Boshqa tadqiqot shuni ko'rsatdiki, 4 ppm konsentratsiyali ozon pista, bodom va yeryong'oq kabi yong'oqlarda umumiy zamburug' miqdorini taxminan 95% ga kamaytirdi va aflatoksin degradatsiyasini 85% ga oshirdi. Sulton (mayiz) uchun 12,8 mg/l konsentratsiyadagi gazsimon ozon 120 daqiqadan keyin oxratoksin A (OTA) ni 60,2% ga, 240 daqiqadan keyin esa 82,5% ga kamaytirdi.",
+    "sectionPesticide": "Pestitsid qoldiqlarini parchalash",
+    "pesticideText1": "Ozon yangi mahsulotlar va quritilgan mevalardan pestitsid qoldiqlarini olib tashlashning samarali notermik usuli hisoblanadi. Uzum bo'yicha tadqiqotlar shuni ko'rsatdiki, ozon bilan ishlov berish azoksistrobin fungitsid qoldiqlarini faqat havoda saqlashga qaraganda 2,8 baravar tezroq parchaladi.",
+    "pesticideText2": "Mexanizm kuchli oksidlanish orqali pestitsid birikmalarini parchalashni o'z ichiga oladi. Ozon shuningdek ba'zi biodegradasiya qilinmaydigan organik materiallarni biodegradasiya qilinadiganlarga aylantirishi mumkin. Muhimi, ozon ishlov berish muhitida xavfli qoldiqlar hosil qilmasdan o'z-o'zidan parchalanadi.",
+    "sectionShelfLife": "Saqlash muddatini uzaytirish mexanizmlari",
+    "shelfLifeText1": "Ozon bir nechta mexanizmlar orqali quritilgan mevalarning saqlash muddatini uzaytiradi. Uning kuchli oksidlovchi xususiyatlari buzilish va patogen mikroorganizmlarni inaktivatsiya qiladi, to'g'ridan-to'g'ri saqlash muddatini uzaytiradi. Ozon shuningdek etilenni yo'q qiladi, buzilish mikroorganizmlarini inaktivatsiya qiladi va kimyoviy qoldiqlarni parchalaydi.",
+    "shelfLifeText2": "Antimikrob ta'siridan tashqari, ozon bilan ishlov berish oziq-ovqat qiymatini va sensor sifatlarini saqlaydi. Tadqiqotlar ishlov berilgan mahsulotlarning tekstura xususiyatlari, antioksidant faolligi, fenol tarkibi va rang profilining yaxshilanishini ko'rsatadi. Ozon bilan oldindan ishlov berish quritish jarayonining o'zini ham yaxshilaydi, energiyani tejaydi va quritish vaqtini qisqartiradi.",
+    "sectionApplications": "Muayyan mahsulotlar uchun qo'llash",
+    "appNuts": "Yong'oqlar (pista, bodom, yong'oq)",
+    "appNutsText": "Pista uchun optimal ishlov berish har 20 daqiqada aralashtirish bilan 3 soatlik ozon ta'siri tavsiya etiladi. Bu sensor xususiyatlarga (ta'm, tekstura, rang) salbiy ta'sir ko'rsatmasdan aflatoksinlarni to'liq yo'q qilishga erishadi. Barcha peroksid qiymatlari yol qo'yiladigan chegaralardan past bo'lib qoladi, bu yaxshi oksidlovchi barqarorlikni ko'rsatadi. Biroq, uzoq muddatli ishlov berish (5 soat) aromaga ta'sir qilishi mumkin.",
+    "appRaisins": "Mayiz va sulton uzumi",
+    "appRaisinsText": "Sulton uzumi bo'yicha tadqiqotlar shuni ko'rsatdiki, gazsimon ozon oxratoksin A ifloslanishini va zamburug' populyatsiyalarini samarali kamaytiradi. 12,8 mg/l konsentratsiyada ishlov berish mahsulot sifatini saqlab qolgan holda zamburug' populyatsiyalarini 2,2 logarifmik sikldan ko'proq kamaytirishga erishdi.",
+    "appDates": "Xurmo",
+    "appDatesText": "Ozon xurmoni dekonaminatsiya qilish uchun samarali antimikrob texnologiyasi hisoblanadi. Tadqiqotlar mahsulotda qoldiq qoldirmasdan mikrobiy yukni sezilarli kamayishini tasdiqlaydi. Texnologiya toksik nojo'ya ta'sirga ega an'anaviy dezinfeksiyalovchi vositalarga xavfsizroq muqobil sifatida tasdiqlangan.",
+    "appDriedApricots": "Quritilgan o'rik va boshqa quritilgan mevalar",
+    "appDriedApricotsText": "Ozon bilan ishlov berish mikroorganizmlar o'sishini nazorat qilgan holda quritilgan mevalarning tashqi ko'rinishi, sensor sifatlari va oziq-ovqat xususiyatlarini saqlaydi. Ozonni boshqa texnikalar bilan birgalikda qo'llash (to'siq texnologiyasi) oziq-ovqatni qayta ishlashni yaxshilash uchun istiqbolli natijalarni ko'rsatadi.",
+    "sectionParameters": "Optimal ishlov berish parametrlari",
+    "parametersText": "Ozon bilan ishlov berishning samaradorligi bir nechta omillarga bog'liq: gaz konsentratsiyasi, namlik darajasi va ishlov berish davomiyligi. Optimal natijalarga erishish uchun ishlov berish sharoitlarini diqqat bilan nazorat qilish kerak. Ortiqcha ozon konsentratsiyasi va uzoq ishlov berish vaqti mahsulot sifatida nojo'ya o'zgarishlarga olib kelishi mumkin.",
+    "sectionLimitations": "Muhim cheklovlar",
+    "limitationsText1": "Samaradorligiga qaramay, tadqiqot natijalari ba'zi noaniq ta'sirlarni ko'rsatadi. Pistalarda ozon zamburug' populyatsiyalarini kamaytirsa-da, aflatoksin B1 ifloslanishi ba'zi ishlov berish sharoitlarida, ayniqsa yuqori suv faolligi darajalarida paradoks ravishda rag'batlantirilishi mumkin. Bu ozon konsentratsiyasi, ta'sir vaqti va namlik sharoitlari o'rtasidagi munosabatni yanada o'rganish zarurligini ko'rsatadi.",
+    "limitationsText2": "Texnologiyani tijorat miqyosida kengaytirish ham ma'lum qiyinchiliklarga duch keladi. Biroq, butun dunyo bo'ylab ozonni tartibga solish bo'yicha tasdiqlash uni oziq-ovqatni qayta ishlash operatsiyalariga integratsiyalashni osonlashtiradi.",
+    "sectionConclusion": "Xulosa",
+    "conclusionText": "Ozon quritilgan mevalar va yong'oqlarni qayta ishlash va saqlash uchun ekologik xavfsiz va samarali texnologiyani ifodalaydi. To'g'ri tanlangan ishlov berish parametrlari bilan u mahsulot sifatini buzmasdan mikrobiy ifloslanish, mikotoksinlar va pestitsid qoldiqlarini sezilarli kamaytirishni ta'minlaydi. Texnologiya, ayniqsa, an'anaviy kimyoviy fumigantlarni cheklash bo'yicha xalqaro kelishuvlar kontekstida dolzarb hisoblanadi."
+  },
+  "sourcesTitle": "Manbalar",
+  "sources": [
+    {
+      "title": "The Use of Ozone Technology to Control Microorganism Growth, Enhance Food Safety and Extend Shelf Life — Foods (MDPI), 2023",
+      "url": "https://www.mdpi.com/2304-8158/12/4/814"
+    },
+    {
+      "title": "Use of gaseous ozone for reduction of ochratoxin A and fungal populations on sultanas — Australian Journal of Grape and Wine Research, 2018",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/ajgw.12362"
+    },
+    {
+      "title": "Effect of ozone gassing time and stirring duration on peroxide value, microbial decontamination, aflatoxin detoxification and sensorial characteristics of dried pistachios — ScienceDirect, 2024",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772502224000702"
+    },
+    {
+      "title": "Ozonation of Brazil nuts: Decomposition kinetics, control of Aspergillus flavus and the effect on color and on raw oil quality — LWT, 2020",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0023643820300943"
+    },
+    {
+      "title": "Reduction of date microbial load with ozone — PubMed (NCBI), 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24124432/"
+    },
+    {
+      "title": "Removal of pesticide residues in food using ozone — Food Chemistry: X, 2023",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772753X23003337"
+    },
+    {
+      "title": "Impacts of Gaseous Ozone on Germination, Mycelial Growth, and Aflatoxin B1 Production In Vitro and In Situ Contamination of Stored Pistachio Nuts — Toxins (MDPI), 2022",
+      "url": "https://www.mdpi.com/2072-6651/14/6/416"
+    }
+  ]
+}

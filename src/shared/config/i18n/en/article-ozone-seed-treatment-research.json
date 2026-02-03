@@ -1,0 +1,66 @@
+{
+  "title": "Results of Ozone Technology Testing for Pre-Sowing Seed Treatment",
+  "excerpt": "Long-term research demonstrated that pre-sowing treatment of seeds with ozone-air mixture increases yield by 15–20%, activates germination and accelerates plant development with minimal costs.",
+  "authors": "Dindorogo V.G., Kirichenko V.V., Petrenkova V.P. (Plant Production Institute named after V.Ya. Yuryev), Zavada L.M., Golota V.I., Taran G.V., Pugach S.G., Yakovlev A.V. (National Scientific Center «Kharkiv Institute of Physics and Technology»)",
+  "body": {
+    "intro": "This paper presents the results of testing technology for pre-sowing treatment of spring and winter cereal crop seeds with environmentally friendly ozone-air mixture to increase plant resistance to stressful agroclimatic conditions and improve yield. The technology was developed based on many years of production testing, laboratory and field experiments.",
+    "problemTitle": "Problem Relevance",
+    "problem": "Increasing crop yields is a strategically important problem. One of the key elements in the technological process of growing grain crops that influences yield increase and product quality is pre-sowing seed treatment. Currently, pre-sowing seed treatment is carried out predominantly by chemical methods. However, along with achieving positive results, the use of chemical plant protection methods has a number of negative consequences: environmental pollution, accumulation of hazardous chemicals in soil and crop products, and labor intensity of work.",
+    "ozoneAdvantage": "Analyzing various alternative technologies for pre-sowing seed treatment, we can conclude that ozone technologies are the most attractive. This is due to the fact that ozone exhibits a complex effect on seeds as an activating and deodorizing agent, and ozone application technologies are quite simple and environmentally safe.",
+    "mechanism": "The mechanism of ozone action on seeds consists in the intensification of metabolism during germination and activation of biochemical processes in the embryo under the action of atomic oxygen, which is a product of ozone decomposition.",
+    "fdaTitle": "FDA Certification",
+    "fda": "Research conducted by the Electric Power Research Institute (EPRI, USA) commissioned by the U.S. Food and Drug Administration (FDA) established that when food products are treated with ozone, no substances with mutagenic or carcinogenic properties are formed. Therefore, FDA certified ozone as a disinfectant and sanitizing substance for use without any restrictions in the food industry. Ozone received the status of «Generally Recognized as Safe» (GRAS), which opens broad horizons for using ozone-containing gas mixtures in agricultural production.",
+    "labTitle": "Laboratory Experiments",
+    "labIntro": "At the initial stage of research, laboratory experiments were conducted to determine germination energy and seed viability of various grain crops when exposed to ozone-air mixture with different ozone concentrations and exposure doses. Seeds without any treatment were taken as a control, and seeds treated with Vitavax 200 FF fungicide at the production rate (2.5 L/t) were used as a standard.",
+    "labResult": "In all experimental variants, germination energy increased by 1–3%.",
+    "fieldTitle": "Field Experiments",
+    "fieldIntro": "Simultaneously with laboratory research, field experiments were established on the same grain crops (winter wheat varieties Kharkovskaya 105, Kharus, Tur; winter triticale Garne). The best variants were clearly visible — where seeds treated with ozone-air mixture at ozone concentration of 1 g/m³ with 30-minute exposure were sown.",
+    "fieldBarley": "Using spring barley variety Zvershennya as an example (field experiments, 2000–2003), a comparison of yields from seeds treated with different methods is presented.",
+    "fieldObservation": "Monitoring crop condition showed that after pre-sowing treatment of cereal seeds with ozone-air mixture, a stable effect of germination activation and further acceleration of plant development is observed compared to other pre-sowing treatment methods. At all vegetation phases (germination, seedling development, tillering, stem elongation, heading), plants whose seeds were treated with ozone had significant advantages over variants where seeds were treated with fungicide.",
+    "fieldConclusion": "Long-term tests showed that pre-sowing treatment of seeds with ozone-air mixture contributes to a significant yield increase (by 15–20%).",
+    "productionTitle": "Production Testing",
+    "productionIntro": "During 2000–2004, production testing of ozone pre-sowing treatment of cereal crop seeds was conducted at several agricultural enterprises. Under production conditions, ozone pre-sowing seed treatment was carried out in piles, bins, and bunkers directly at the storage site, 5–15 days before sowing.",
+    "productionTriticale": "Production tests of winter triticale variety Amphidiploid 52 showed significant advantages of ozone treatment: when sowing in dry soil without precipitation for an extended period, conventional treatment resulted in low field germination — seedlings appeared after 25–30 days. With ozone treatment, seedlings appeared significantly earlier and were less sparse.",
+    "productionWheat": "Tests of hard spring wheat variety Kharkovskaya 27 also confirmed the effectiveness of ozone technology.",
+    "economicTitle": "Economic Advantages",
+    "economic": "The data shows that pre-sowing treatment of seeds with ozone-air mixture contributes to a significant yield increase. Moreover, the ozone-air mixture is produced directly at the treatment site with energy consumption of about 5 kWh per ton of treated seeds. For the fungicide seed treatment variant, the required chemical consumption is 2.5–3.0 kg per ton of seeds. Thus, in addition to reducing environmental load, ozone technology for pre-sowing seed treatment has significant economic advantages compared to traditional technologies, is simpler to apply, and enables production of environmentally clean products.",
+    "combinedTitle": "Compatibility with Seed Treatments",
+    "combined": "The compatibility of ozone treatment with chemical seed protection methods was studied. Optimal regimes for combined (ozone-fungicide) pre-sowing seed treatment technology were determined. The variant of optimal ozone treatment followed by treatment with a reduced rate (0.5) of fungicide gave the maximum yield increase. This is especially important because fungicide seed treatment is a preventive measure against such dangerous disease pathogens as smut fungi. Using combined ozone-fungicide technology, it is possible to significantly reduce fungicide consumption, decrease technogenic load on soil, and increase yield.",
+    "equipmentTitle": "Equipment Requirements",
+    "equipment": "For wide implementation of the new ozone technology for pre-sowing seed treatment, reliable ozone generators maximally adapted for seed treatment under agricultural production conditions are needed.",
+    "equipmentRequirements": [
+      "Stable generation of large volumes of ozone-air mixture with optimal ozone concentration",
+      "Ozone synthesis preferably from atmospheric air (without air preparation and oxygen enrichment systems)",
+      "Air cooling is desirable for ozone synthesis reactors",
+      "High reliability and ease of maintenance and operation"
+    ],
+    "conclusionTitle": "Conclusion",
+    "conclusion": "Pre-sowing treatment of cereal crop seeds with ozone-air mixture can be carried out at agricultural enterprises with proper implementation of all agronomic practices. Conditioned seeds are allowed for pre-sowing treatment with ozone-air mixture without subsequent fungicide treatment, provided that according to variety testing reports and phytoexpertise data, no disease pathogens are present and seeds are intended for sowing after recommended predecessors. With all technological practices and requirements met, pre-sowing seed treatment with ozone-air mixture ensures a yield increase of at least 10–15%.",
+    "methodologyNote": "Based on laboratory and field experiment materials, as well as production testing, methodological recommendations for using ozone-air mixture pre-sowing seed treatment technology for agricultural crops have been developed and approved."
+  },
+  "tables": {
+    "barleyTitle": "Effect of various pre-sowing seed treatment methods on spring barley yield, variety Zvershennya (field experiments, 2000–2003)",
+    "barleyHeaders": ["Treatment Method", "Yield, t/ha", "Increase vs Control"],
+    "barleyRows": [
+      ["Control (no treatment)", "3.42", "—"],
+      ["Fungicide treatment (standard)", "3.58", "+0.16 t/ha"],
+      ["Ozone treatment", "3.89", "+0.47 t/ha"],
+      ["Ozone + 0.5 fungicide rate", "4.12", "+0.70 t/ha"]
+    ],
+    "barleyNote": "LSD₀.₀₅ = 0.26"
+  },
+  "highlights": {
+    "yieldIncrease": "Yield increase by 15–20%",
+    "energyCost": "Energy consumption: ~5 kWh/t of seeds",
+    "optimalMode": "Optimal mode: 1 g/m³ ozone, 30 min",
+    "combinedBenefit": "Combined technology allows reducing fungicide rate by half"
+  },
+  "sourcesTitle": "References",
+  "sources": [
+    { "title": "Plant Protection Handbook. Kyiv, «Urozhay», 1999. — 743 p." },
+    { "title": "Theory and Practice of Pre-Sowing Seed Treatment. K.: Southern Branch of VASKhNIL, 1984. — 133 p." },
+    { "title": "Ozone Gets OK For Use in U.S. Food Industry // EPRI Journal — Vol.22, N 4, 1997." },
+    { "title": "Dindorogo V., Kirichenko V., Petrenkova V., Golota V., Sukhomlin E., Zavada L., Pugach S. // Grain and Bread. №3. 2004. P. 40–41." },
+    { "title": "United States Patent #6544486 B2. Ozone Generator. Golota V. et al. April 8, 2003." }
+  ]
+}

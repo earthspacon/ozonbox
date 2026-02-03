@@ -1,0 +1,102 @@
+{
+  "title": "SARS-CoV-2 / COVID-19 infeksiyasida ozondan potentsial foydalanish",
+  "excerpt": "Xalqaro ozon terapiyasi ilmiy qo'mitasining (ISCO3) COVID-19 da qo'shimcha terapiya sifatida ozondan potentsial foydalanish bo'yicha rasmiy ekspert xulosasi.",
+  "body": {
+    "intro": "2019-yil oxirida og'ir o'tkir respirator sindrom koronavirusi 2 (SARS-CoV-2) paydo bo'lishi global javobga sabab bo'ldi va sog'liqni saqlash sohasida asosiy muammoga aylandi. Jahon sog'liqni saqlash tashkiloti (JST) COVID-19 ni «pandemiya» deb ta'rifladi.",
+    "purpose": "Ushbu ishning maqsadi COVID-19 ni davolashda qo'shimcha terapiya sifatida ozondan potentsial foydalanishni ko'rib chiqishdir. Asosiy tegishli atamalar (ozon, SARS-CoV-2 va COVID-19) ilmiy ma'lumotlar bazalarida qidirildi.",
+    "disinfection": {
+      "title": "Atrof-muhitni dezinfeksiya qilish",
+      "p1": "Ozon virus bilan ifloslangan muhitlarni dezinfeksiya qilish uchun ishlatilishi mumkin. Uning maksimal virusga qarshi samaradorligi gazsimon ozonning eng yuqori konsentratsiyasiga (20–25 ppm, 39–49 mg/m³) erishgandan keyin qisqa muddatli yuqori namlikni (90% dan ortiq nisbiy namlik) talab qiladi.",
+      "p2": "Gaz sifatida ozon xona ichidagi barcha joylarga, jumladan yoriqlar, armaturalar, matolar, shifoxona xonalari, jamoat transporti, mehmonxona xonalari, kruiz kemasi kabinalari, ofislar va boshqalarga, shuningdek mebel ostiga qo'lda qo'llaniladigan suyuq aerozollarga qaraganda ancha samarali kirib borishi mumkin.",
+      "p3": "30 soniya ozon ta'siridan keyin viruslarning 99% inaktivatsiya qilindi va qobiq oqsillariga shikast yetkazildi, bu normal hujayralarga birikishning buzilishiga va bir zanjirli RNK ning yo'q qilinishiga olib kelishi mumkin.",
+      "warning": "Qayta ishlanayotgan muhitda ozonning nafas olish paytidagi nisbiy toksikligi tufayli odamlar va hayvonlar bo'lmasligi kerak."
+    },
+    "therapeutic": {
+      "title": "Virusli kasalliklarda ozonning terapevtik ta'siri",
+      "p1": "Sistemik ozon terapiyasi SARS-CoV-2 infeksiyasida potentsial foydali bo'lishi mumkin. Asos va ta'sir mexanizmi boshqa virusli infeksiyalar uchun klinik jihatdan isbotlangan va ilmiy tadqiqotlarda yuqori samaradorlikni ko'rsatgan."
+    },
+    "mechanisms": {
+      "title": "Ozon terapiyasining ta'sir mexanizmlari",
+      "item1": "Oksidativ stressga moslashishni induksiya qilish, shu bilan hujayra redoks muvozanatini tiklash — virus replikatsiyasini inhibilash uchun fundamental jarayon",
+      "item2": "Interferon-gamma va yallig'lanishga qarshi sitokinlarni induksiya qilish",
+      "item3": "Hayotiy muhim a'zolarning (buyrak, o'pka va yurak qon aylanishi) qon oqimini va to'qimalar oksigenatsiyasini oshirish",
+      "item4": "Kichik autogemoterapiya shaklida berilaganda avtovaktsina sifatida ishlashi mumkin"
+    },
+    "oxidativeStress": {
+      "title": "Oksidativ stressga moslashish",
+      "p1": "Uzoq muddatli ozon terapiyasi davolash oksidativ stressga moslashishni induksiya qilishi mumkin. Ozon (kuchli oksidlovchi) antioksidant reaktsiyani induksiya qilishi mumkin bo'lgan paradoksal mexanizm nafaqat proteom, balki genom darajasida ham ko'rsatilgan.",
+      "p2": "Terapevtik dozalarda ozon Nrf2 va NF-κB yadroviy omillarini modulyatsiya qiladi va antioksidant muhit muvozanatini tiklashni induksiya qiladi. Oksidativ stress va tug'ma immunitet virusli infeksiyalar paytida o'pka shikastlanishi yo'llarida muhim rol o'ynaydi."
+    },
+    "cytokines": {
+      "title": "Sitokin sintezini induksiya qilish",
+      "p1": "Ozonlangan qonda interferon va interleukinlar kabi sitokinlar sintezini induksiya qilish mumkinligi ko'rsatildi. Limfoid tizim orqali migratsiya qiluvchi qayta infuziya qilingan limfotsitlar va monotsitlar boshqa hujayralarni faollashtirishi mumkin, bu oxir-oqibat immun tizimini stimulyatsiya qilishga olib keladi.",
+      "p2": "HO-1 ni himoya fermenti sifatida induksiya qilishdan tashqari, issiqlik shok oqsillari (HSP60, HSP70, HSP90) ning chiqarilishi ham virutsid faolligiga ta'sir qiladi. Bu oqsillar tug'ma immun tizimining kuchli aktivatorlaridir."
+    },
+    "oxygenation": {
+      "title": "Oksigenatsiyani yaxshilash",
+      "p1": "Kislorod-ozon terapiyasi to'qimalar oksigenatsiyasini yaxshilaydi. SARS bilan og'rigan bemorlar yengil nospetsifik gepatitga moyil, o'pka fibrozi va buyrak yetishmovchiligi mavjud bo'lishi mumkin.",
+      "p2": "Ozon terapiyasi jigar metabolizmini barqarorlashtiradi, zararlangan bemorlarda plazma fibrinogeni va protrombin darajalari normallashish tendentsiyasiga ega. Tadqiqotlar yurak, jigar, o'pka va buyrak to'qimalarining oksidativ shikastlanishining oldini olishda ozonning himoya ta'sirini ko'rsatadi."
+    },
+    "routes": {
+      "title": "Tavsiya etilgan kiritish yo'llari",
+      "intro": "Tavsiya etilgan sistemik kiritish yo'llari:",
+      "item1": "Ozonlangan fiziologik eritma (O3SS)",
+      "item2": "Katta autogemoterapiya (MAH)",
+      "item3": "Ekstrakorporal qon oksigenatsiya-ozonlash (EBOO)",
+      "item4": "Kichik autogemoterapiya varianti (MiAH)"
+    },
+    "saline": {
+      "title": "Ozonlangan fiziologik eritma",
+      "p1": "Ozonlangan fiziologik eritma usuli Rossiya Federatsiyasi Sog'liqni saqlash vazirligi tomonidan 1980-yillar boshida rasman tasdiqlangan. 2004-yilda u Ukrainada ham rasman tan olindi.",
+      "p2": "Katta autogemoterapiyadan farqli o'laroq, ozonlangan fiziologik eritma Epshteyn-Barr virusi, sitomegalovirus, papillomavirus, OIV, toj boshog'rig'i va oddiy gerpes kabi virusli kasalliklarga qarshi ayniqsa samarali ekanligi isbotlangan.",
+      "p3": "Fiziologik eritma plazma hajmi bo'ylab tezda taqsimlanishi sababli, bu katta autogemoterapiyaga qaraganda katta qon hajmini davolash imkonini beradi."
+    },
+    "protocol": {
+      "title": "Tavsiya etilgan klinik protokol",
+      "preventive": {
+        "title": "O3SS bilan profilaktik protokol",
+        "p1": "0,9% fiziologik eritmani 10 daqiqa davomida 3 mkg/ml da to'yintiring. Bemorga 80–120 tomchi/daqiqa tezlikda pufaklash orqali bering. Haftada ikki marta (6 protsedura).",
+        "p2": "O3SS berishdan keyin 100 ml fiziologik eritmada eritilgan glutation (GSH; 600 mg) bilan C vitamini (1 g) vena ichiga yuboring."
+      },
+      "intervention": {
+        "title": "O3SS bilan interventsion protokol",
+        "p1": "0,9% fiziologik eritmani 10 daqiqa davomida 5 mkg/ml da to'yintiring. 5 kun davomida har kuni bering. Keyingi 5 kunda konsentratsiyani 3 mkg/ml gacha kamaytiring. Jami 10 protsedura.",
+        "p2": "Har bir O3SS berishdan keyin glutation (GSH; 1200 mg) bilan C vitamini (2 g) vena ichiga yuboring. 10 protsedura, haftada ikki marta bering."
+      }
+    },
+    "glutathione": {
+      "title": "Glutationning roli",
+      "p1": "Kasallik o'tkir oksidativ stress bilan birga kelganligi sababli, glutation (GSH) elektronlarni berish va erkin radikallarni barqarorlashtirish qobiliyati tufayli protokolga kiritilgan. GSH nofermentativ antioksidant va oksidativ shikastlanishga qarshi birinchi himoya liniyalaridan biridir.",
+      "p2": "Qarish davrida GSH darajasi pasayadi va immun tizimi Th1 javobini induksiya qilishda tanqislikni boshdan kechiradi. Th1 sitokin sekretsiyasining pasayishi mezbon himoyasini virusli infeksiyalarga qarshi zaiflashtirishi mumkin."
+    },
+    "equipment": {
+      "title": "Uskunalarga qo'yiladigan talablar",
+      "p1": "Ozon tibbiy, ishonchli va sertifikatlangan generator yordamida ishlab chiqarilishi kerak. Yevropa Ittifoqida ozon generatorlari CE belgisi bilan IIb sinfidagi tibbiy asboblar sifatida tasniflanadi.",
+      "p2": "Generator aniq ozon konsentratsiyasi o'lchovlarini (1 dan 80 mg/l gacha) amalga oshirishi va ozonni faqat tibbiy kisloroddan ishlab chiqarishi kerak."
+    },
+    "conclusion": {
+      "title": "Xulosa",
+      "p1": "Ozon virus bilan ifloslangan muhitlarni dezinfeksiya qilish uchun foydali bo'lishi mumkin. Qayta ishlanayotgan muhitda ozonning nafas olish paytidagi toksikligi tufayli odamlar va hayvonlar bo'lmasligi kerak.",
+      "p2": "Sistemik ozon terapiyasi SARS-CoV-2 uchun potentsial foydali bo'lishi mumkin. Bu qo'shimcha terapiya: zararlangan bemor asosiy dorilarni qabul qilishni davom ettiradi va bir vaqtning o'zida ozon terapiyasini oladi.",
+      "p3": "Klinik protokollar Ozon terapiyasi bo'yicha Madrid deklaratsiyasida belgilangan standart dozalar va protseduralaraga mos kelishi kerak. COVID-19 uchun qo'shimcha terapiya sifatida ozon terapiyasining samaradorligini tasdiqlash uchun qo'shimcha klinik sinovlar zarur."
+    },
+    "disclaimer": "ISCO3 hujjatlari ozon terapiyasini amaliyotchilar uchun axborot manbai bo'lib xizmat qilishi mumkin bo'lgan tavsiyalardir. Har bir ozon terapevti tavsiyalarni amalga oshirishda o'zining klinik mulohazasiga amal qilishi kerak."
+  },
+  "sourcesTitle": "Adabiyotlar",
+  "sources": [
+    { "title": "WHO. Responding to community spread of COVID-19. Interim guidance, March 2020" },
+    { "title": "Ghebreyesus T. WHO Director-General's opening remarks at the media briefing on COVID-19 — 11 March 2020" },
+    { "title": "Lai C.C. et al. Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and coronavirus disease-2019 (COVID-19): The epidemic and the challenges // Int J Antimicrob Agents. 2020" },
+    { "title": "Li X. et al. Evolutionary history, potential intermediate animal host, and cross-species analyses of SARS-CoV-2 // J Med Virol. 2020" },
+    { "title": "Hudson J.B. et al. Development of a Practical Method for Using Ozone Gas as a Virus Decontaminating Agent // Ozone: Science & Engineering. 2009;31:216-223" },
+    { "title": "Roy D. et al. Mechanism of enteroviral inactivation by ozone // Appl Environ Microbiol. 1981;41(3):718-723" },
+    { "title": "Murray B.K. et al. Virion disruption by ozone-mediated reactive oxygen species // J Virol Methods. 2008;153(1):74-77" },
+    { "title": "Bocci V. Ozone: A new medical drug. Netherlands: Springer; 2011" },
+    { "title": "Bocci V., Paulesu L. Studies on the biological effects of ozone 1. Induction of interferon gamma on human leucocytes // Haematologica. 1990;75(6):510-515" },
+    { "title": "Pecorelli A. et al. NRF2 activation is involved in ozonated human serum upregulation of HO-1 in endothelial cells // Toxicol Appl Pharmacol. 2013;267(1):30-40" },
+    { "title": "Imai Y. et al. Identification of oxidative stress and Toll-like receptor 4 signaling as a key pathway of acute lung injury // Cell. 2008;133(2):235-249" },
+    { "title": "Schwartz-Tapia A., Martínez-Sánchez G. et al. Madrid Declaration on Ozone Therapy. ISCO3. 2015" },
+    { "title": "Maslennikov O.V. et al. Ozone therapy in Practice. Health Manual, Ministry Health Service of The Russian Federation. 2008" },
+    { "title": "Amatore D. et al. Glutathione increase by the n-butanoyl glutathione derivative inhibits viral replication // FASEB Bioadv. 2019;1(5):296-305" }
+  ]
+}

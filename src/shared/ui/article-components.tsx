@@ -311,19 +311,43 @@ export function NumberedList({ items }: NumberedListProps) {
 
 interface SourcesListProps {
   title: string
-  items: { title: string; url: string }[]
+  items: { title: string; url?: string }[]
 }
 
 export function SourcesList({ title, items }: SourcesListProps) {
   return (
     <section className="my-12">
       <h2 className="text-text-primary mb-4 text-xl font-bold md:text-2xl">{title}</h2>
-      <ol className="list-decimal space-y-2 pl-6">
+      <ol className="list-decimal space-y-3 pl-6">
         {items.map((item, i) => (
           <li key={i} className="text-text-secondary">
-            <a href={item.url} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-              {item.title}
-            </a>
+            {item.url ? (
+              <a
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:bg-primary/10 hover:text-primary-dark group inline-flex items-center gap-1.5 rounded-md px-1 py-0.5 transition-all duration-200"
+              >
+                <span className="decoration-primary/30 group-hover:decoration-primary underline underline-offset-2 transition-all">
+                  {item.title}
+                </span>
+                <svg
+                  className="h-4 w-4 flex-shrink-0 opacity-50 transition-all group-hover:translate-x-0.5 group-hover:opacity-100"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>
+              </a>
+            ) : (
+              <span>{item.title}</span>
+            )}
           </li>
         ))}
       </ol>
@@ -342,16 +366,20 @@ interface BreadcrumbProps {
 
 export function Breadcrumb({ items }: BreadcrumbProps) {
   return (
-    <nav className="flex flex-wrap items-center gap-2 text-sm">
+    <nav className="inline-flex flex-wrap items-center gap-2 rounded-full bg-white/95 px-4 py-2.5 text-sm shadow-lg backdrop-blur-sm">
       {items.map((item, i) => (
         <span key={i} className="flex items-center gap-2">
-          {i > 0 && <span className="text-white/80">/</span>}
+          {i > 0 && (
+            <svg className="text-text-light h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          )}
           {item.href ? (
-            <a href={item.href} className="text-white/80 transition-colors hover:text-white">
+            <a href={item.href} className="text-text-secondary hover:text-primary font-medium transition-colors">
               {item.label}
             </a>
           ) : (
-            <span className="font-medium text-white">{item.label}</span>
+            <span className="text-primary font-semibold">{item.label}</span>
           )}
         </span>
       ))}
@@ -379,35 +407,47 @@ export function ArticleHero({
   topOffset = 80,
 }: ArticleHeroProps) {
   return (
-    <section className="flex flex-col" style={{ marginTop: topOffset }}>
-      <div className="container !mb-5">
-        {breadcrumbs && (
-          <div className="pt-4 md:pt-6">
-            <Breadcrumb items={breadcrumbs} />
-          </div>
-        )}
-      </div>
-      <div className="relative min-h-[320px] overflow-hidden md:min-h-[400px]">
-        <Image src={image} alt={imageAlt} fill className="object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/30" aria-hidden />
-        <div className="relative z-10 container flex min-h-[320px] flex-col justify-end pt-8 pb-10 md:min-h-[400px] md:pt-12 md:pb-14">
-          {backLink && (
-            <a
-              href={backLink.href}
-              className="mb-4 inline-flex items-center gap-2 text-sm text-white/90 transition-colors hover:text-white"
-            >
-              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-              </svg>
-              <span>{backLink.label}</span>
-            </a>
+    <section className="relative" style={{ marginTop: topOffset }}>
+      {breadcrumbs && (
+        <div className="container !py-4 md:!py-6">
+          <Breadcrumb items={breadcrumbs} />
+        </div>
+      )}
+
+      <div className="relative min-h-[400px] overflow-hidden md:min-h-[480px]">
+        <Image src={image} alt={imageAlt} fill className="object-cover" priority />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent" aria-hidden />
+
+        <div className="relative z-10 container flex min-h-[400px] flex-col justify-between py-8 md:min-h-[480px] md:py-12">
+          {!breadcrumbs && backLink && (
+            <div>
+              <a
+                href={backLink.href}
+                className="text-text-primary group inline-flex items-center gap-2 rounded-full bg-white/95 px-4 py-2.5 text-sm font-medium shadow-lg backdrop-blur-sm transition-all hover:bg-white hover:shadow-xl"
+              >
+                <svg
+                  className="h-4 w-4 transition-transform group-hover:-translate-x-0.5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+                <span>{backLink.label}</span>
+              </a>
+            </div>
           )}
-          <h1 className="mb-4 text-3xl font-bold text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)] md:text-4xl lg:text-5xl">
-            {title}
-          </h1>
-          <p className="max-w-3xl text-base text-white/90 drop-shadow-[0_1px_3px_rgba(0,0,0,0.4)] md:text-lg lg:text-xl">
-            {description}
-          </p>
+
+          <div className="flex-1" />
+
+          <div className="space-y-4 pb-4">
+            <h1 className="text-3xl font-bold !text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)] md:text-4xl lg:text-5xl">
+              {title}
+            </h1>
+            <p className="max-w-3xl text-base text-white/95 drop-shadow-[0_1px_4px_rgba(0,0,0,0.5)] md:text-lg lg:text-xl">
+              {description}
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -444,11 +484,7 @@ export function CTASection({ title, description, primaryButton, secondaryButton 
             {primaryButton.label}
           </a>
           {secondaryButton && (
-            <a
-              href={secondaryButton.href}
-              className="btn btn--secondary btn--large"
-              style={{ borderColor: 'white', color: 'white' }}
-            >
+            <a href={secondaryButton.href} className="btn btn--secondary btn--large">
               {secondaryButton.label}
             </a>
           )}

@@ -1,0 +1,65 @@
+{
+  "title": "Oltin, kumush va metallar qazib olishda ozonni qo'llash",
+  "excerpt": "Kon sanoatida ozon texnologiyalarining ilmiy sharhi: qiyin rudalarni oldindan ishlov berish, oltin eritishni kuchaytirish, kumush ajratib olish va oqova suvlarda siyanidlarni ekologik xavfsiz yo'q qilish.",
+  "body": {
+    "lead": "Ozon (O₃) kon va boyitish sanoatida qimmatli texnologiyaga aylanmoqda. Kuchli oksidlovchi xususiyatlari bilan ozon qiyin rudalardan qimmatbaho metallarni ajratib olishni yaxshilash, eritish samaradorligini oshirish va kon oqova suvlarini tozalash uchun yechimlar taklif qiladi. Ushbu maqola oltin, kumush va metallarni qazib olish jarayonlarida ozonni qo'llash bo'yicha ilmiy tadqiqotlarni ko'rib chiqadi.",
+    "refractoryOresTitle": "Qiyin oltin rudalarini ozon bilan oldindan ishlov berish",
+    "refractoryOresIntro": "Qiyin oltin rudalari kon operatsiyalarida muhim muammo hisoblanadi. Bunday rudalarda oltin zarrachalari sulfid minerallarida — pirit, arsenopirit va pirrotinda — yashiringan bo'lib, bu ularni an'anaviy siyanid eritishda foydalanishga imkon bermaydi. Ozon bilan oldindan ishlov berish bu sulfid minerallarini oksidlash va oltinni ajratib olish uchun samarali yechim taklif qiladi.",
+    "refractoryOresResults": "Meksika qiyin ruda namunalarida o'tkazilgan tadqiqotlar ozon bilan oldindan ishlov berishda sezilarli yaxshilanishlarni namoyish etdi. Bilvosita ozon kontakt usuli oltin ajratib olishni 53% dan 88% gacha, kumushni esa 26% dan 78% gacha oshirdi. Bundan tashqari, bevosita ozon bilan oldindan ishlov berish ajratish vaqtini 40 soatdan 24 soatgacha qisqartirdi, shu bilan birga ajratish ko'rsatkichlarini saqlab qoldi.",
+    "refractoryOresMechanism": "Oksidlanish mexanizmi ozonning sulfid minerallari bilan reaksiyaga kirishib, metall sulfatlari va gidroksidlarini hosil qilishni o'z ichiga oladi. Bu jarayon avval yashiringan oltin zarralarini chiqaradi va keyingi eritishda siyanid sarfini kamaytiradi. Harorat ozon bilan oldindan ishlov berish samaradorligiga ta'sir qiluvchi asosiy parametr sifatida aniqlangan, ozon konsentratsiyasi esa temir sulfat eritmalarda rudalarni qayta ishlashda kamroq ta'sir ko'rsatadi.",
+    "heapLeachingTitle": "Uyum eritishni kuchaytirish uchun ozon muzi",
+    "heapLeachingIntro": "Uyum eritish oltin qazib olishning keng qo'llaniladigan usuli, ammo kislorod mavjudligi ko'pincha eritish tezligini cheklaydi. Turli institutlardagi tadqiqotlar kislorod chiqaruvchi reagent sifatida ozon muzidan foydalanishni o'rgandilar.",
+    "heapLeachingResults": "Tadqiqotlar shuni ko'rsatdiki, erigan kislorod (EK) konsentratsiyasini 8,2 mg/l dan 12 mg/l gacha oshirish yuqori siyanid konsentratsiyalarida (60 mg/l) oltin eritish tezligini ikki baravar oshirdi. Ozon muzi 300 mg/l ozon konsentratsiyasi bilan ustunli eritish tajribalariga qo'shilganda, oltin ajratib olish ozon muzisiz nazorat ustunlariga nisbatan 4,1% ga oshdi.",
+    "heapLeachingPhases": "Don ustunlari orqali ozon oqimi ikki fazada sodir bo'ladi. 1-fazada ozon don yuzasidagi modda bilan reaksiya berayotganda tez parchalanadi. 2-fazada ozon don orqali minimal parchalanish bilan erkin o'tadi va maqsadli materiallar bilan reaksiyaga kirisha oladi. Ozon oqimi tezligini 0,02 dan 0,04 m/s gacha oshirish 1-fazada chuqurroq kirib borishga yordam beradi.",
+    "directLeachingTitle": "Qimmatbaho metallarni bevosita ozon eritishi",
+    "directLeachingIntro": "Oldindan ishlov berish qo'llanilishidan tashqari, ozon qimmatbaho metallar uchun bevosita erituvchi agent sifatida xizmat qilishi mumkin. Tadqiqotlar shuni ko'rsatdiki, suyultirilgan xlorid muhitidagi suvli ozon xona haroratida oltin va palladiyni eritishi mumkin.",
+    "directLeachingMechanism": "Eritish jarayoni xlorid ionlari mavjudligida ozon tomonidan oksidlanish orqali metall xlorid komplekslarini (masalan, AuCl₄⁻) hosil qiladi. Kinetika qattiq-suyuqlik interfeysiga ozon massa o'tkazuvchanligidan boshqariladi, erigan ozon konsentratsiyasiga birinchi darajali bog'liqlikni ko'rsatadi.",
+    "directLeachingEconomics": "Ozon ishlab chiqarish uchun elektr energiyasi sarfi eritilgan metallning har bir kilogramiga 4-8 kVt·soat ni tashkil qiladi. Bu jarayonni oltin va platina guruhidagi metallar kabi yuqori qiymatli metallar uchun iqtisodiy jihatdan eng maqbul qiladi. So'nggi tadqiqotlar eski flotatsiya dumlaridan mis va oltin olish uchun ozon/tiosulfat kombinatsiyalangan yondashuvlarini ham o'rgandilar.",
+    "cyanideDestructionTitle": "Kon oqova suvlarida siyanidlarni yo'q qilish",
+    "cyanideDestructionIntro": "Kon sanoatida ozonning eng barqaror qo'llanilishlaridan biri oqova suvlarda siyanidlarni yo'q qilishdir. Siyanid oltin ajratib olish uchun zarur, ammo tozalanmagan holda chiqarilganda jiddiy ekologik va sog'liqni saqlash xavfini keltirib chiqaradi.",
+    "cyanideDestructionProcess": "Ozon siyanidni ikki bosqichli jarayonda oksidlaydi: avval siyanid (CN⁻) siyanatga (CNO⁻) aylanadi, so'ngra qo'shimcha oksidlanish va gidroliz bikarbonot va azotga olib keladi. Reaksiya ozon konsentratsiyasiga nisbatan birinchi darajali kinetikaga va siyanid konsentratsiyasiga nisbatan nol darajali kinetikaga amal qiladi. Stexiometriya bir mol siyanid bir mol ozon bilan reaksiyaga kirishini ko'rsatadi.",
+    "cyanideDestructionResults": "Oltin kon operatsiyalarida o'tkazilgan sanoat sinovlari erkin siyanid va zaif kislota dissotsiatsiyalangan (WAD) siyanid komplekslarining 99% kamayishini namoyish etdi. O'rtacha ozon dozasi siyanidning har bir gramiga 2-3 gramm O₃ ni tashkil qiladi, to'liq oksidlanish odatda 10-30 daqiqada erishiladi.",
+    "cyanideDestructionAdvanced": "MgO/persulfat yoki EDTA-kokos tolasi/mis shlak katalizatorlaridan foydalangan ilg'or katalitik ozonlash tizimlari siyanidni yo'q qilish samaradorligining 98,71% ga erishdi. O₃/H₂O₂ kombinatsiyasi (perokson jarayoni) erkin siyanidni to'liq yo'q qilish uchun eng samarali bo'lib, pH 11,0 da 3 daqiqada deyarli to'liq yo'q qilishga erishdi.",
+    "environmentalBenefitsTitle": "An'anaviy usullarga nisbatan ekologik afzalliklar",
+    "environmentalBenefits1": "Kimyoviy moddalar sarfini kamaytirish: ozon bilan oldindan ishlov berish keyingi eritishda siyanid sarfini sezilarli darajada kamaytirishi mumkin, zarur toksik moddalar miqdorini minimallashtiradi.",
+    "environmentalBenefits2": "Xavfli qo'shimchalarni yo'q qilish: ozon an'anaviy ravishda oltin eritishni yaxshilash uchun ishlatiladigan qo'rg'oshin qo'shimchalarini almashtirishi mumkin, tegishli ekologik xavflarni yo'q qiladi.",
+    "environmentalBenefits3": "Joyida ishlab chiqarish: ozon havo yoki kisloroddan joyida ishlab chiqariladi, xavfli kimyoviy moddalarni tashish va saqlashni yo'q qiladi.",
+    "environmentalBenefits4": "Toksik qoldiqlar yo'qligi: ozon tez kislorodga parchalanadi, ishlov berilgan materiallar yoki oqova suvlarda zararli qoldiqlar qoldirmaydi.",
+    "environmentalBenefits5": "Oqova suvlarni qayta ishlash: ozon bilan ishlov berilgan oqova suvlar ko'pincha jarayonda qayta ishlatilishi mumkin, toza suv iste'molini kamaytiradi.",
+    "industrialApplicationsTitle": "Sanoat qo'llanilishi va joriy etish",
+    "industrialApplicationsIntro": "Bir qancha kon operatsiyalari turli qo'llanilishlar uchun ozon texnologiyalarini muvaffaqiyatli joriy qildilar:",
+    "industrialApp1": "Siyanidni yo'q qilish tizimlari: joyida ozon ishlab chiqarish tizimlari Janubi-sharqiy Osiyo va Janubiy Afrikadagi oltin konlarida o'rnatilgan, erkin siyanidni 85% dan ortiq kamaytirishga erishgan va Xalqaro siyanid boshqaruv kodeksiga (ICMC) muvofiq keladi.",
+    "industrialApp2": "Oldindan ishlov berish inshootlari: ikki marta qiyin oltin rudalarini qayta ishlash uchun tajriba va sanoat miqyosidagi ozon bilan oldindan ishlov berish tizimlari sinovdan o'tkazildi, yaxshilangan oltin ajratib olish va qayta ishlash vaqtini qisqartirishni namoyish etdi.",
+    "industrialApp3": "Kombinatsiyalangan tozalash tizimlari: oqova suvlarni tozalash samaradorligini oshirish uchun ozonni boshqa oksidlovchilar (vodorod peroksid, persulfat) bilan birlashtirgan integratsiyalangan tizimlar joylashtirildi.",
+    "industrialEconomics": "Ozonlash uskunalarga nisbatan yuqori kapital xarajatlarni talab qilsa-da, ekspluatatsiya xarajatlari natriy gipoxlorit kabi an'anaviy kimyoviy oksidlovchilarga nisbatan pastroqdir. Texnologiya dum oqimlarini sozlashni talab qilmaydi, tez va qaytarilmas reaksiyalarni ta'minlaydi va xavfli kimyoviy moddalar bilan ishlashni yo'q qilish orqali operatorlar xavfsizligini oshiradi.",
+    "conclusionTitle": "Xulosalar",
+    "conclusion": "Ozon texnologiyalari qimmatbaho metallarni ajratib olish va kon oqova suvlarini tozalash uchun sezilarli afzalliklarni taklif qiladi. Tadqiqotlar ularning qiyin rudalarni oldindan ishlov berish, oltin va kumush ajratib olishni oshirish va oqova suvlarda siyanidlarni yo'q qilishdagi samaradorligini namoyish etdi. Ekologik me'yorlar qattiqroq bo'lib borayotgani va sanoat barqarorroq amaliyotlarni izlayotgani sababli, kon sanoatida ozon qo'llanilishi kengayishi kutilmoqda. Asosiy afzalliklarga metallarni ajratib olish ko'rsatkichlarini yaxshilash, kimyoviy moddalar sarfini kamaytirish, ekologik ta'sirni kamaytirish va xalqaro ekologik standartlarga muvofiqlik kiradi."
+  },
+  "sourcesTitle": "Manbalar",
+  "sources": [
+    {
+      "title": "Ozone Ice as an Oxygen Release Reagent for Heap Leaching of Gold Ore — Minerals, MDPI, 2021",
+      "url": "https://mdpi-res.com/d_attachment/minerals/minerals-11-01251/article_deploy/minerals-11-01251-v2.pdf"
+    },
+    {
+      "title": "Leaching of gold and palladium with aqueous ozone in dilute chloride media — Hydrometallurgy, ScienceDirect, 2006",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304386X05002847"
+    },
+    {
+      "title": "Cyanide oxidation by ozone in cyanidation tailings: Reaction kinetics — Minerals Engineering, ScienceDirect, 2000",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0892687500000340"
+    },
+    {
+      "title": "The Effective Use of Ozone for Cyanide Destruction in Mining and Mineral Processing — Academia.edu",
+      "url": "https://www.academia.edu/26379027/The_Effective_Use_of_Ozone_for_Cyanide_Destruction_in_Mining_and_Mineral_Processing"
+    },
+    {
+      "title": "Evaluation of ozonation technology for gold recovery and cyanide management during processing of a double refractory gold ore — Journal of the Southern African Institute of Mining and Metallurgy, 2017",
+      "url": "http://www.scielo.org.za/scielo.php?pid=S2225-62532017000800006&script=sci_arttext"
+    },
+    {
+      "title": "Catalytic ozonation of cyanide in gold leaching effluent by EDTA-Coir/copper slag — Process Safety and Environmental Protection, ScienceDirect, 2025",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957582025014831"
+    }
+  ]
+}

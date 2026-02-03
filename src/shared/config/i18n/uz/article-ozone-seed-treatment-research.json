@@ -1,0 +1,66 @@
+{
+  "title": "Urug'larni ekishdan oldin ozon texnologiyasi bilan ishlov berish sinov natijalari",
+  "excerpt": "Ko'p yillik tadqiqotlar shuni ko'rsatdiki: urug'larni ozon-havo aralashmasi bilan ekishdan oldin ishlov berish hosilni 15–20% ga oshiradi, unib chiqishni faollashtiradi va o'simliklarning rivojlanishini minimal xarajatlar bilan tezlashtiradi.",
+  "authors": "Dindorogo V.G., Kirichenko V.V., Petrenkova V.P. (V.Ya. Yuryev nomidagi O'simlikshunoslik instituti), Zavada L.M., Golota V.I., Taran G.V., Pugach S.G., Yakovlev A.V. (Xarkov fizika-texnika instituti MIC)",
+  "body": {
+    "intro": "Ushbu ishda bahorgi va kuzgi don ekinlari urug'larini stressli agroiqlim sharoitlariga chidamliligini oshirish va hosilni ko'paytirish maqsadida ekologik toza ozon-havo aralashmasi bilan ekishdan oldin ishlov berish texnologiyasini sinash natijalari keltirilgan. Texnologiya ko'p yillik ishlab chiqarish sinovlari, laboratoriya va dala tajribalari asosida ishlab chiqilgan.",
+    "problemTitle": "Muammoning dolzarbligi",
+    "problem": "Qishloq xo'jaligi ekinlari hosildorligini oshirish strategik ahamiyatga ega muammo hisoblanadi. Don ekinlarini yetishtirish texnologik jarayonining muhim elementlaridan biri — hosildorlik va o'simlikshunoslik mahsuloti sifatiga ta'sir ko'rsatuvchi ekishdan oldingi urug'larni ishlov berishdir. Hozirgi vaqtda urug'larni ekishdan oldin ishlov berish asosan kimyoviy usullar bilan amalga oshiriladi. Biroq ijobiy natijalarga erishish bilan birga, o'simliklarni himoya qilishning kimyoviy usullarini qo'llash bir qator salbiy oqibatlarga olib keladi: atrof-muhitning ifloslanishi, tuproq va o'simlikshunoslik mahsulotlarida xavfli kimyoviy moddalarning to'planishi, ishlarni bajarishda mehnat sarfi.",
+    "ozoneAdvantage": "Urug'larni ekishdan oldin ishlov berishning turli muqobil texnologiyalarini tahlil qilib, ozon texnologiyalari eng jozibador degan xulosaga kelish mumkin. Bu ozonning urug'larga faollashtiruvchi va dezodorant sifatida kompleks ta'sir ko'rsatishi bilan bog'liq, ozonni qo'llash texnologiyalari esa juda oddiy va ekologik jihatdan xavfsizdir.",
+    "mechanism": "Ozonning urug'larga ta'sir mexanizmi unib chiqish davrida moddalar almashinuvini intensivlashtirish va ozon parchalanishi mahsuloti bo'lgan atomik kislorod ta'sirida murtakdagi biokimyoviy jarayonlarni faollashtirishdan iborat.",
+    "fdaTitle": "FDA sertifikatsiyasi",
+    "fda": "AQSh Oziq-ovqat va dori-darmon ma'muriyati (FDA) buyurtmasi bilan Electric Power Research Institute (EPRI, USA) tomonidan o'tkazilgan tadqiqotlar oziq-ovqat mahsulotlarini ozon bilan ishlov berishda mutagenik yoki kantserogen xususiyatlarga ega bo'lgan hech qanday moddalar hosil bo'lmasligini aniqladi. Shuning uchun FDA ozonni oziq-ovqat sanoatida hech qanday cheklovsiz foydalanish uchun dezinfektant va sanitariya moddasi sifatida sertifikatladi. Ozon «Generally Recognized as Safe» (GRAS) maqomini oldi, bu qishloq xo'jaligi ishlab chiqarishida ozon o'z ichiga olgan gaz aralashmasini qo'llash uchun keng imkoniyatlar ochadi.",
+    "labTitle": "Laboratoriya tajribalari",
+    "labIntro": "Tadqiqotlarning dastlabki bosqichida turli don ekinlari urug'larining unib chiqish energiyasi va unuvchanligini turli ozon konsentratsiyasi va ta'sir dozasi bilan ozon-havo aralashmasi ta'sirida aniqlash bo'yicha laboratoriya tajribalari o'tkazildi. Nazorat sifatida hech qanday ishlov berilmagan urug'lar, standart sifatida esa ishlab chiqarish normasi (2,5 l/t) bilan Vitavaks 200 FF fungitsidi bilan ishlov berilgan urug'lar olindi.",
+    "labResult": "Tajribaning barcha variantlarida unib chiqish energiyasi 1–3% ga oshdi.",
+    "fieldTitle": "Dala tajribalari",
+    "fieldIntro": "Laboratoriya tadqiqotlari bilan bir vaqtda xuddi shu don ekinlarida (Xarkovskaya 105, Xarus, Tur kuzgi bug'doylari; Garne kuzgi tritikalesi) dala tajribalari o'tkazildi. Eng yaxshi variantlar — ozon konsentratsiyasi 1 g/m³ bo'lgan ozon-havo aralashmasi bilan 30 daqiqa davomida ishlov berilgan urug'lar ekilgan variantlar aniq ko'rinib turdi.",
+    "fieldBarley": "Zvershennya navli bahorgi arpa misolida (dala tajribalari, 2000–2003 yy.) turli usullar bilan ishlov berilgan urug'lardan olingan hosil taqqoslandi.",
+    "fieldObservation": "Ekinlar holatini nazorat qilish shuni ko'rsatdiki, don ekinlari urug'larini ozon-havo aralashmasi bilan ekishdan oldin ishlov berilgandan so'ng, boshqa usullar bilan solishtirganda unib chiqishni faollashtirish va o'simliklarning keyingi rivojlanishini tezlashtirish barqaror ta'siri kuzatiladi. Vegetatsiyaning barcha bosqichlarida (unib chiqish, ko'chatlar rivojlanishi, tuplanish, nayga chiqish, boshoqlash) ozon bilan ishlov berilgan urug'lardan o'sgan o'simliklar fungitsid bilan ishlov berilgan variantlarga nisbatan sezilarli ustunliklarga ega edi.",
+    "fieldConclusion": "Ko'p yillik sinovlar shuni ko'rsatdiki, urug'larni ozon-havo aralashmasi bilan ekishdan oldin ishlov berish hosilning sezilarli oshishiga (15–20% ga) yordam beradi.",
+    "productionTitle": "Ishlab chiqarish sinovlari",
+    "productionIntro": "2000–2004 yillarda bir nechta qishloq xo'jaligi korxonalarida don ekinlari urug'larini ozon bilan ekishdan oldin ishlov berishning ishlab chiqarish sinovlari o'tkazildi. Ishlab chiqarish sharoitida ozon bilan ekishdan oldin urug'larni ishlov berish to'da, omborxona va bunkerlarda, to'g'ridan-to'g'ri saqlash joyida, ekishdan 5–15 kun oldin amalga oshirildi.",
+    "productionTriticale": "Amfidiploid 52 navli kuzgi tritikalening ishlab chiqarish sinovlari ozon bilan ishlov berishning sezilarli afzalliklarini ko'rsatdi: uzoq davom etgan yog'ingarsiz davrda quruq tuproqqa ekishda oddiy ishlov berish varianti past dala unuvchanligini berdi — ko'chatlar 25–30 kundan keyin paydo bo'ldi. Ozon bilan ishlov berish variantida ko'chatlar ancha oldin paydo bo'ldi va kam siyraklashgan edi.",
+    "productionWheat": "Xarkovskaya 27 navli bahorgi qattiq bug'doy sinovlari ham ozon texnologiyasining samaradorligini tasdiqladi.",
+    "economicTitle": "Iqtisodiy afzalliklar",
+    "economic": "Keltirilgan ma'lumotlardan ko'rinib turibdiki, urug'larni ozon-havo aralashmasi bilan ekishdan oldin ishlov berish hosilning sezilarli oshishiga yordam beradi. Bunda ozon-havo aralashmasi ishlov berish joyida to'g'ridan-to'g'ri olinadi, bir tonna ishlov berilgan urug'larga taxminan 5 kVt·soat energiya sarflanadi. Urug'larni fungitsid bilan ishlov berish varianti uchun kerakli preparat sarfi bir tonna urug'ga 2,5–3,0 kg ni tashkil etadi. Shunday qilib, atrof-muhitga ekologik yukni kamaytirishdan tashqari, urug'larni ekishdan oldin ozon texnologiyasi an'anaviy texnologiyalarga nisbatan sezilarli iqtisodiy afzalliklarga ega, qo'llashda oddiyroq va ekologik toza mahsulot olish imkonini beradi.",
+    "combinedTitle": "Dorilovchilar bilan muvofiqligi",
+    "combined": "Ozon bilan ishlov berishning kimyoviy urug' himoya usullari bilan muvofiqliigi o'rganildi. Kombinatsiyalangan (ozon-fungitsid) ekishdan oldin urug'larni ishlov berish texnologiyasining optimal rejimlari aniqlandi. Optimal ozon bilan ishlov berish, so'ngra kamaytirilgan (0,5) fungitsid normasi bilan ishlov berish varianti maksimal hosil o'sishini berdi. Bu ayniqsa muhim, chunki urug'larni fungitsid bilan ishlov berish qorakuya kabi xavfli kasallik qo'zg'atuvchilariga qarshi profilaktik choralardir. Kombinatsiyalangan ozon-fungitsid texnologiyasidan foydalanib, fungitsid sarfini sezilarli darajada kamaytirish, tuproqqa texnogen yukni kamaytirish va hosildorlikni oshirish mumkin.",
+    "equipmentTitle": "Uskunalarga qo'yiladigan talablar",
+    "equipment": "Urug'larni ekishdan oldin yangi ozon texnologiyasini keng joriy etish uchun qishloq xo'jaligi ishlab chiqarish sharoitida urug'larni ishlov berishga maksimal darajada moslashtirilgan ishonchli ozonator qurilmalari kerak.",
+    "equipmentRequirements": [
+      "Optimal ozon konsentratsiyasi bilan katta hajmdagi ozon-havo aralashmasini barqaror ishlab chiqarish",
+      "Ozonni asosan atmosfera havasidan sintez qilish (havoni tayyorlash va kislorod bilan boyitish tizimisiz)",
+      "Ozon sintezi reaktorlari uchun havoni sovutish tavsiya etiladi",
+      "Yuqori ishonchlilik va texnik xizmat ko'rsatish va foydalanishda qulaylik"
+    ],
+    "conclusionTitle": "Xulosa",
+    "conclusion": "Don ekinlari urug'larini ozon-havo aralashmasi bilan ekishdan oldin ishlov berish qishloq xo'jaligi korxonalarida barcha agrotexnik usullarni to'g'ri bajarish sharoitida amalga oshirilishi mumkin. Navli ekinlar aprobatsiyasi dalolatnomasi va urug'lar fitoekspertizasi ma'lumotlariga ko'ra kasallik qo'zg'atuvchilari yo'q va tavsiya etilgan o'tish ekinlaridan keyin ekishga mo'ljallangan konditsion urug'lar keyingi fungitsid bilan ishlov berishsiz ozon-havo aralashmasi bilan ekishdan oldin ishlov berishga ruxsat etiladi. Barcha texnologik usullar va talablarga rioya qilingan holda, urug'larni ozon-havo aralashmasi bilan ekishdan oldin ishlov berish kamida 10–15% hosil o'sishini ta'minlaydi.",
+    "methodologyNote": "Laboratoriya va dala tajribalari materiallari, shuningdek ishlab chiqarish sinovlari asosida qishloq xo'jaligi ekinlari urug'larini ozon-havo aralashmasi bilan ekishdan oldin ishlov berish texnologiyasidan foydalanish bo'yicha uslubiy tavsiyalar ishlab chiqilgan va tasdiqlangan."
+  },
+  "tables": {
+    "barleyTitle": "Turli ekishdan oldin urug'larni ishlov berish usullarining Zvershennya navli bahorgi arpa hosiliga ta'siri (dala tajribalari, 2000–2003 yy.)",
+    "barleyHeaders": ["Ishlov berish usuli", "Hosil, t/ga", "Nazoratga nisbatan o'sish"],
+    "barleyRows": [
+      ["Nazorat (ishlov berilmagan)", "3,42", "—"],
+      ["Fungitsid bilan ishlov berish (standart)", "3,58", "+0,16 t/ga"],
+      ["Ozon bilan ishlov berish", "3,89", "+0,47 t/ga"],
+      ["Ozon + 0,5 norma fungitsid", "4,12", "+0,70 t/ga"]
+    ],
+    "barleyNote": "EKF₀,₀₅ = 0,26"
+  },
+  "highlights": {
+    "yieldIncrease": "Hosil 15–20% ga oshadi",
+    "energyCost": "Energiya sarfi: ~5 kVt·soat/t urug'",
+    "optimalMode": "Optimal rejim: 1 g/m³ ozon, 30 daqiqa",
+    "combinedBenefit": "Kombinatsiyalangan texnologiya fungitsid normasini 2 marta kamaytirishga imkon beradi"
+  },
+  "sourcesTitle": "Adabiyotlar",
+  "sources": [
+    { "title": "O'simliklarni himoya qilish ma'lumotnomasi. Kiyev, «Urozhay», 1999. — 743 b." },
+    { "title": "Urug'larni ekishdan oldin ishlov berish nazariyasi va amaliyoti. K.: VASXNILning janubiy bo'limi, 1984. — 133 b." },
+    { "title": "Ozone Gets OK For Use in U.S. Food Industry // EPRI Journal — Vol.22, N 4, 1997." },
+    { "title": "Dindorogo V., Kirichenko V., Petrenkova V., Golota V., Suxomlin E., Zavada L., Pugach S. // Zerno i xleb. №3. 2004. B. 40–41." },
+    { "title": "United States Patent #6544486 B2. Ozone Generator. Golota V. et al. April 8, 2003." }
+  ]
+}

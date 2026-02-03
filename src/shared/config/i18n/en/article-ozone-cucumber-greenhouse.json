@@ -1,0 +1,77 @@
+{
+  "title": "Ozone for Greenhouse Cucumber Cultivation",
+  "excerpt": "Research demonstrated that irrigation with ozonated water stimulates cucumber seedling growth, increases leaf area by 25–30%, improves seed yield, and eliminates nematodes without chemical fumigants.",
+  "body": {
+    "lead": "In recent years, new opportunities for ozone application have emerged due to its exceptional oxidizing properties. Ozonated water is used in chemical, pharmaceutical, and textile industries. Ozone is also finding applications in agriculture — for disinfecting storage facilities and certain types of produce before storage. Research has shown that ozone also has a growth-stimulating effect.",
+    "ozoneProperties": "Ozone is a powerful oxidizer and is not dangerous to humans or the environment. The lifespan of ozone molecules depends on the ambient temperature; as temperature increases, they quickly convert to regular oxygen. In air, ozone molecules can exist for several minutes; in liquid — up to one hour.",
+    "experimentSetup": "Industrial ozone generators with a capacity of 6 g/h were used to produce ozone, utilizing either bottled oxygen or atmospheric oxygen. To mix ozone and water, gas was supplied to the suction port of the recirculation pump in the irrigation water tank.",
+    "firstExperimentTitle": "First Production Experiment (2003)",
+    "firstExperiment": "The first production experiment using ozone in protected cultivation was conducted at a greenhouse facility in 2003. In one of the block's greenhouses, starting from July 16, irrigation was performed with ozonated water, while other greenhouses did not receive ozonated water. The ozone concentration in irrigation water was 0.2 mg/L. Irrigation with ozonated water continued until the end of the crop vegetation period (two months).",
+    "firstExperimentResult": "The effect of ozone application was evident very quickly. Within just two weeks, yields significantly increased. Over two months, the experimental greenhouse produced considerably more product than other greenhouses in the block.",
+    "nematodeEffect": "At the end of the season, the plant root systems were examined. No young nematode galls were found on the roots — only semi-decomposed, yellow galls were present. It can be assumed that ozone, as a strong oxidizer, caused the death of nematodes.",
+    "seedGerminationTitle": "Effect of Ozone on Seed Germination",
+    "seedGermination": "A special experiment studied the effect of ozone on seed germination. Tomato seeds were soaked in water treated with ozone for two hours, then germinated in Petri dishes. Control seeds were soaked for the same time in tap water. As a result, tomato seed germination was 94% in the experimental batch versus 88% in the control.",
+    "cucumberSeedExperiment": "The cucumber seed germination experiment was particularly demonstrative. The germination rate and seedling development in the experimental variant significantly exceeded those of seeds germinated in tap water.",
+    "fullCycleTitle": "Full Cycle Experiment (2007)",
+    "fullCycleIntro": "It was interesting to study the entire plant development process from seeds to the end of vegetation with ozone treatment incorporated into the technology. Such an experiment was conducted in 2007 with specialists from the Kirov Vegetable Research Station of VNIIO RAAS, in greenhouses at the Krasnogorsk Agricultural Complex. Experiments were conducted in year-round glazed greenhouses with an area of 1000 m² using F₁ Topolek cucumber hybrid plants.",
+    "ozoneVariants": "The experiment used ozone produced in two ways: from air (O₃ + air) and from bottled oxygen (O₃ + O₂). Irrigation with ozonated water was performed once daily at a rate of 0.5 L/plant. Water was ozonated for 20–30 minutes and used immediately for irrigation to prevent ozone decomposition.",
+    "seedlingResults": "At the end of the seedling period, before transplanting seedlings to the greenhouse, biometric measurements of the main cucumber plant parameters were conducted. Research showed that plants treated with ozonated water during the seedling period were more robust, taller, and had intensely green leaves — more saturated than the control.",
+    "leafAreaResults": "During crop vegetation, plants irrigated with ozonated water were taller. A significant difference in leaf area was noted: 153 cm² in the O₃ + O₂ variant, 146 cm² in the O₃ + air variant, and 119 cm² in the control.",
+    "rootDevelopment": "Research also revealed differences in cucumber plant root system development. In the O₃ + O₂ variant, root system length was the greatest.",
+    "floweringPhaseTitle": "Effect on Flowering and Fruiting",
+    "floweringPhase": "Biometric measurements were conducted at the beginning of cucumber plant flowering. Ozonated water stimulated stem height growth; stem length in the O₃ + O₂ variant was 119 cm, which was 9 cm more than the control. Ozonated water increased both vegetative plant mass and the number of flowers and fruit set.",
+    "seedProductivity": "Ozonated water also affected seed plant productivity and cucumber seed yield. The highest productivity was obtained in the variant with ozone mixed with bottled oxygen, reaching 37.4 g, which is 12.5 g or 33% higher than the control.",
+    "conclusionTitle": "Conclusions",
+    "conclusion": "Ozonated water has the following effects: in the early stages of cucumber plant development, it stimulates growth, promotes leaf formation and increases leaf surface area; stimulates root growth and increases root mass; during flowering and fruiting phases, positively affects the formation of generative organs; increases seed yield per fruit and improves cucumber seed plant productivity.",
+    "perspectiveNote": "Research on irrigating cucumber plants with ozonated water has demonstrated the promising potential of ozone application in greenhouse production."
+  },
+  "table1Title": "Table 1. Comparative Cucumber Production Characteristics (2003)",
+  "table1": {
+    "headers": ["Parameter", "Experimental Greenhouse (ozone)", "Block Average"],
+    "rows": [
+      ["Yield, kg/m²", "Significantly higher", "Baseline"],
+      ["Standard product output", "Maximum", "Average"],
+      ["Observation period", "2 months (July–September)", "2 months"]
+    ]
+  },
+  "table2Title": "Table 2. Main Cucumber Plant Characteristics (2007)",
+  "table2": {
+    "headers": ["Parameter", "O₃ + O₂", "O₃ + air", "Control"],
+    "rows": [
+      ["Leaf area, cm²", "153", "146", "119"],
+      ["Plant height", "Above control", "Above control", "Baseline"],
+      ["Leaf color", "Intensely green", "Intensely green", "Normal"],
+      ["Root system length", "Maximum", "Average", "Average"]
+    ]
+  },
+  "table3Title": "Table 3. Cucumber Growth and Development at Flowering Phase",
+  "table3": {
+    "headers": ["Parameter", "O₃ + O₂", "O₃ + air", "Control"],
+    "rows": [
+      ["Stem length, cm", "119", "≈110", "110"],
+      ["Number of flowers and fruit set", "Increased", "Increased", "Baseline"],
+      ["Vegetative mass", "Increased", "Increased", "Baseline"]
+    ]
+  },
+  "table4Title": "Table 4. Cucumber Seed Plant Productivity",
+  "table4": {
+    "headers": ["Parameter", "O₃ + O₂", "O₃ + air", "Control"],
+    "rows": [
+      ["Productivity, g", "37.4", "—", "24.9"],
+      ["Increase vs control", "+12.5 g (+33%)", "—", "—"]
+    ]
+  },
+  "keyFindings": [
+    "Tomato seed germination increased from 88% to 94% with ozonated water treatment",
+    "Cucumber leaf area increased by 25–30% (from 119 to 153 cm²)",
+    "Seed plant productivity increased by 33% (from 24.9 to 37.4 g)",
+    "Ozone eliminated nematodes without chemical fumigants",
+    "Seedlings were more robust with intensely green leaf coloration"
+  ],
+  "sourcesTitle": "Sources",
+  "sources": [
+    {
+      "title": "Kirov Vegetable Research Station VNIIO RAAS — Research on ozone application in greenhouse production (2003–2007)"
+    }
+  ]
+}

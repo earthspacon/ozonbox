@@ -6,6 +6,7 @@ import { Layout } from '@/widgets/layout'
 import { getCategoryById } from '@/shared/config/applications-data'
 import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
 import { AppLink } from '@/shared/ui/app-link'
+import { CTASection } from '@/shared/ui/article-components'
 
 interface CategoryPageProps {
   categoryId: string
@@ -91,17 +92,14 @@ export function CategoryPage({ categoryId }: CategoryPageProps) {
       </section>
 
       {/* CTA */}
-      <section className="cta">
-        <div className="container">
-          <h2 className="cta__title">{t('cta.applications.title', { ns: NAMESPACES.common })}</h2>
-          <p className="cta__text">{t('cta.applications.text', { ns: NAMESPACES.common })}</p>
-          <div className="cta__actions">
-            <AppLink href="/contacts" className="btn btn--white btn--large">
-              {t('hero.getConsultation', { ns: NAMESPACES.common })}
-            </AppLink>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        title={t('cta.applications.title', { ns: NAMESPACES.common })}
+        description={t('cta.applications.text', { ns: NAMESPACES.common })}
+        primaryButton={{
+          label: t('hero.getConsultation', { ns: NAMESPACES.common }),
+          href: '/contacts',
+        }}
+      />
     </Layout>
   )
 }

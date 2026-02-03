@@ -184,7 +184,7 @@ export const IconTelegram = (props: IconProps) => (
   <svg viewBox="0 0 64 64" fill="none" {...props}>
     <circle cx="32" cy="32" r="28" stroke="currentColor" strokeWidth="2" />
     <path
-      d="M18 32l8 8 20-20M26 40v10l6-6"
+      d="M18 31l26-10c1-.4 2.5.3 2 2l-4 20c-.3 1.3-1.2 1.6-2.4 1l-6-4.5-3 3c-.3.3-.6.5-1 .5l.5-6 12-11c.5-.5 0-.7-.8-.3l-15 9.5-6.5-2c-1.4-.4-1.4-1.4.3-2.1z"
       stroke="currentColor"
       strokeWidth="2"
       strokeLinecap="round"

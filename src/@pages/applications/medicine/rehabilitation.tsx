@@ -227,7 +227,7 @@ export function RehabilitationPage({ staticData, lang }: RehabilitationPageProps
         }}
         secondaryButton={{
           label: t('cta.call', { ns: NAMESPACES.common }),
-          href: 'tel:+78001234567',
+          href: 'tel:+998942909977',
         }}
       />
     </Layout>

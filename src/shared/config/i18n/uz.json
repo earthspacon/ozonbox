@@ -11,9 +11,9 @@
     "contacts": "Kontaktlar"
   },
   "header": {
-    "phone": "8 (800) 123-45-67",
+    "phone": "+998 94 290 99 77",
     "orderCall": "Qo'ng'iroq buyurtma qilish",
-    "freeCall": "Rossiya bo'ylab bepul qo'ng'iroq"
+    "freeCall": "Bizga qo'ng'iroq qiling"
   },
   "hero": {
     "title": "Ozon — dezinfeksiyaning tabiiy kuchi",
@@ -106,7 +106,7 @@
     "home": {
       "title": "Biznesingizga ozonlashni joriy etishga tayyormisiz?",
       "text": "Bepul maslahat va ehtiyojlaringiz uchun uskunalar narxini hisoblashni oling",
-      "call": "Qo'ng'iroq qilish: 8 (800) 123-45-67"
+      "call": "Qo'ng'iroq qilish: +998 94 290 99 77"
     },
     "technology": {
       "title": "Texnologiya haqida ko'proq bilmoqchimisiz?",
@@ -492,7 +492,7 @@
       "name": "Ismingiz",
       "namePlaceholder": "Sizga qanday murojaat qilaylik?",
       "phone": "Telefon",
-      "phonePlaceholder": "+7 (___) ___-__-__",
+      "phonePlaceholder": "+998 (__) ___ __ __",
       "email": "Email",
       "emailPlaceholder": "your@email.com",
       "industry": "Soha",
@@ -515,30 +515,17 @@
     "info": {
       "phone": {
         "title": "Telefon",
-        "subtitle": "Rossiya bo'ylab bepul qo'ng'iroq"
-      },
-      "email": {
-        "title": "Email",
-        "subtitle": "Bir soat ichida javob beramiz"
-      },
-      "whatsapp": {
-        "title": "WhatsApp",
-        "subtitle": "Savollarga tez javoblar"
+        "subtitle": "Ish vaqtida qo'ng'iroq qiling"
       },
       "telegram": {
         "title": "Telegram",
-        "subtitle": "Yangiliklar va aksiyalar kanali"
+        "subtitle": "24/7 tez aloqa"
       },
       "address": {
         "title": "Manzil",
-        "value": "Moskva, Primernaya ko'chasi, 123",
-        "office": "Ofis 456",
-        "hours": "Dush-Jum: 9:00 - 18:00"
-      },
-      "workingHours": {
-        "title": "Ish vaqti",
-        "weekdays": "Dush-Jum: 9:00 - 18:00",
-        "weekend": "Shan-Yak: oldindan kelishilgan holda"
+        "country": "O'zbekiston",
+        "city": "Samarqand",
+        "street": "Bulungur shoh ko'chasi, 25-uy"
       }
     }
   }

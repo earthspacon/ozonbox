@@ -210,7 +210,7 @@ export function PoolsSpaPage({ staticData, lang }: PoolsSpaPageProps) {
         }}
         secondaryButton={{
           label: t('header.phone', { ns: NAMESPACES.common }),
-          href: 'tel:+78001234567',
+          href: 'tel:+998942909977',
         }}
       />
     </Layout>
