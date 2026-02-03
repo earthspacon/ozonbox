@@ -1,0 +1,38 @@
+{
+  "title": "Reducing Cancer Risk Through Air Purification",
+  "excerpt": "Scientific research shows that cleaning workplace air from carcinogenic compounds (phenol, formaldehyde) can reduce cancer risk by 3–5 times. The role of oxidation technologies in industrial ventilation.",
+  "body": {
+    "lead": "Air quality in industrial facilities directly affects worker health. The International Agency for Research on Cancer (IARC) has classified formaldehyde as a Group 1 carcinogen — a substance with proven ability to cause cancer in humans. Contamination of workplace air with aromatic hydrocarbons significantly increases the risk of developing malignant tumors.",
+    "carcinogensProblemHeading": "Carcinogenic Compounds in Air",
+    "carcinogensProblem": "According to the U.S. Environmental Protection Agency (EPA), exposure to phenol and formaldehyde even at low concentrations (0.01 mg/m³) increases the risk of hematopoietic and lung cancers by 3–5 times. IARC has included the following substances in its list of carcinogenic agents: formaldehyde, benzene, vinyl chloride, benzo[a]pyrene, trichloroethylene, styrene, diesel engine exhaust, butadiene, ethylene oxide, and other compounds.",
+    "industrialExposureHeading": "Industrial Exposure",
+    "industrialExposure": "The highest levels of carcinogen exposure are traditionally recorded in particleboard and plywood production, furniture factories, textile enterprises, foundries, and chemical industry facilities. In enclosed spaces, volatile organic compound (VOC) concentrations can exceed outdoor air levels by 5–10 times.",
+    "oxidationPrincipleHeading": "Oxidation Purification Principle",
+    "oxidationPrinciple": "Oxidative air purification technology is based on natural processes: in the atmosphere, ozone and atomic oxygen continuously oxidize organic pollutants into safe compounds. Ozone (O₃) is an allotropic form of oxygen with high reactivity. When interacting with organic molecules, ozone destroys their structure, converting them into less toxic derivatives or completely oxidizing them to CO₂ and H₂O.",
+    "effectiveCompoundsHeading": "Purification Efficiency",
+    "effectiveCompounds": "Oxidation methods are most effective for purifying air from: unsaturated compounds (olefins, dienes), terpenes, phenols, styrene and its derivatives, benzo[a]pyrene, sulfur compounds, amines, and naphthalene. Purification efficiency for these substances can reach 80–90%. For formaldehyde, aldehydes, alcohols, and ethers, efficiency ranges from 50–80%.",
+    "safeConcentrationsHeading": "Safe Concentrations",
+    "safeConcentrations": "According to hygiene standards, the maximum permissible concentration of ozone in workplace air is 100 µg/m³. Studies show that at concentrations of 30–100 µg/m³, people experience a pleasant freshness of air and an energy boost. In nature, such concentrations are typical for coniferous forests after thunderstorms or coastal areas.",
+    "bactericidalEffectHeading": "Bactericidal Effect",
+    "bactericidalEffect": "In addition to chemical purification, oxidation technologies provide bactericidal effects. Research at textile enterprises showed a reduction in microbial contamination from 3,100–3,500 CFU/m³ to 370–400 CFU/m³ — a level characteristic of clean atmospheric air. Complete suppression of pathogenic microflora was noted, with conditionally pathogenic organisms reduced 15–20 times and fungal and mold spores reduced 20–30 times.",
+    "healthBenefitsHeading": "Worker Health Impact",
+    "healthBenefits": "Statistical analysis of morbidity data at facilities with air purification systems showed: respiratory illness rates (acute respiratory infections, influenza, tonsillitis, pneumonia) decreased by 25–30%. Hypertensive disease incidence decreased 3–5 times, and ischemic heart disease decreased by 10–20%. Ozonated air promotes immune system stimulation: lysozyme activity increases by 30–40%, and skin bactericidal capacity increases by 30%.",
+    "conclusionHeading": "Conclusion",
+    "conclusion": "Modern air purification technologies in ventilation systems can significantly reduce carcinogenic compound concentrations in work areas. This is especially relevant for chemical, textile, furniture manufacturing, and other industries with elevated volatile organic compound levels in the air. Investing in air quality means investing in worker health and occupational disease prevention."
+  },
+  "sourcesTitle": "Sources",
+  "sources": [
+    {
+      "title": "IARC Monographs on the Evaluation of Carcinogenic Risks to Humans: Formaldehyde, Volume 100F",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK304432/"
+    },
+    {
+      "title": "U.S. EPA: Indoor Air Quality and Health",
+      "url": "https://www.epa.gov/indoor-air-quality-iaq"
+    },
+    {
+      "title": "Photocatalytic oxidation for indoor air purification: a literature review. Building and Environment, 2003",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0360132302002123"
+    }
+  ]
+}

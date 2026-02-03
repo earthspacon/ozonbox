@@ -1,0 +1,45 @@
+{
+  "title": "Ventilyatsiya ozonlash tizimlari sanoat ob'ektlarida saraton xavfini kamaytiradi",
+  "excerpt": "Ilmiy tadqiqotlar shuni ko'rsatadiki: ish joyidagi havoni kanserogen birikmalardan (fenol, formaldegid) tozalash saraton xavfini 3–5 marta kamaytirishi mumkin. Sanoat ventilyatsiyasida oksidlash texnologiyalarining roli.",
+  "body": {
+    "lead": "Ishlab chiqarish binolaridagi havo sifati ishchilar salomatligiga bevosita ta'sir qiladi. Xalqaro saraton tadqiqotlari agentligi (IARC) formaldegidni 1-guruh kanserogen sifatida tasniflagan — bu odamlarda saratonni keltirib chiqarish qobiliyati isbotlangan modda. Ish joyidagi havoning aromatik uglevodorodlar bilan ifloslanishi yomon o'smalar rivojlanish xavfini sezilarli darajada oshiradi.",
+    "carcinogensProblemHeading": "Havoda kanserogen birikmalar",
+    "carcinogensProblem": "AQSh Atrof-muhitni muhofaza qilish agentligi (EPA) ma'lumotlariga ko'ra, fenol va formaldegidga hatto past konsentratsiyalarda (0,01 mg/m³) ta'sir qilish qon yaratish organlari va o'pkaning saraton kasalliklari xavfini 3–5 marta oshiradi. IARC quyidagi moddalarni kanserogen xavfli moddalar ro'yxatiga kiritgan: formaldegid, benzol, vinilxlorid, benzopiren, trixloretilen, stirol, dizel dvigatellari chiqindi gazlari, butadien, etilen oksidi va boshqa birikmalar. Bu moddalar uchun xavfsiz dozalar mavjud emas — har qanday aloqa xavfli va yomon o'smalarni keltirib chiqarishi mumkin.",
+    "industrialExposureHeading": "Sanoat ta'siri",
+    "oxidationPrincipleHeading": "Oksidlovchi tozalash printsipi",
+    "oxidationPrinciple": "Havoni oksidlovchi tozalash texnologiyasi tabiiy jarayonlarga asoslanadi: atmosferada ozon va atomar kislorod doimiy ravishda organik ifloslantirgichlarni xavfsiz birikmalarga oksidlaydi. Ozon (O₃) — yuqori reaktsion qobiliyatga ega kislorodning allotropik shakli. Organik molekulalar bilan o'zaro ta'sirlashganda, ozon ularning strukturasini buzadi, kamroq toksik hosilalarga aylantiradi yoki to'liq CO₂ va H₂O ga oksidlaydi. Tabiatda yer sathidagi ozon konsentratsiyalari bir necha mikrogrammdan 100–300 mkg/m³ gacha o'zgaradi — momaqaldiroqdan keyin ignabargli o'rmonlarda yoki dengiz qirg'oqlarida tanish havo yangiligi hissi.",
+    "effectiveCompoundsHeading": "Tozalash samaradorligi",
+    "effectiveCompounds": "Oksidlash usullari quyidagi moddalardan havoni tozalashda eng samarali: to'yinmagan birikmalar (olefinlar, dienlar), terpenlar, fenollar, stirol va uning hosilalari, benzopiren, oltingugurtli birikmalar, aminlar, naftalin. Bu moddalar uchun tozalash samaradorligi 80–90% ga yetishi mumkin. Formaldegid, aldegidlar, spirtlar va efirlar uchun samaradorlik 50–80% ni tashkil etadi. Tadqiqotlar shuni ko'rsatadiki, 1 mol oson transformatsiya qilinadigan uglevodorodlarni oksidlanish uchun 0,2–1,5 mol ozon talab qilinadi, tozalash jarayonlari tez o'tadi. O'rtacha transformatsiya qilinadigan birikmalar uchun allaqachon 2–10 mol ozon talab qilinadi.",
+    "safeConcentrationsHeading": "Xavfsiz konsentratsiyalar",
+    "safeConcentrations": "Gigiena me'yorlariga ko'ra, ish joyidagi havoda ozonning ruxsat etilgan eng yuqori konsentratsiyasi 100 mkg/m³ ni tashkil etadi. Tadqiqotlar shuni ko'rsatadiki, 30–100 mkg/m³ konsentratsiyalarda odamlar havoning yoqimli yangiligini va kuch to'planishini his qiladi. 200–400 mkg/m³ konsentratsiyalarda tomog'da qurilik belgilari sezilishi mumkin, yo'tal paydo bo'lishi mumkin. Tabiatda bunday konsentratsiyalar momaqaldiroqdan keyin ignabargli o'rmonlar yoki dengiz qirg'oqlari uchun xosdir. Havoda ozon hosil bo'lishi va uning molekulyar kislorodga konversiyasi jarayonlari uzluksiz, shuning uchun odam hayoti va salomatligi havoda ozon mavjudligiga bog'liq.",
+    "bactericidalEffectHeading": "Bakteritsid ta'sir",
+    "bactericidalEffect": "Kimyoviy tozalashdan tashqari, oksidlash texnologiyalari bakteritsid ta'sirni ta'minlaydi. To'qimachilik korxonalarida o'tkazilgan tadqiqotlar mikrobli ifloslanishning 3100–3500 KOE/m³ dan 370–400 KOE/m³ gacha kamayganini ko'rsatdi — bu toza atmosfera havosi uchun xos daraja. Patogen mikrofloraning to'liq bostirishi qayd etildi, shartli-patogen organizmlar 15–20 marta, zamburug' va mog'or sporalari 20–30 marta kamaydi. Ozonning bakteritsid xususiyatlari har qanday konsentratsiyalarda, hatto kichik dozalarda ham yaxshi namoyon bo'ladi. 50–100 mkg/m³ konsentratsiyalarda ish joyi havosining samarali dezinfeksiyasi erishiladi.",
+    "healthBenefitsHeading": "Ishchilar salomatligiga ta'sir",
+    "healthBenefits": "Havoni tozalash tizimlari bo'lgan korxonalarda kasallanish ma'lumotlarining statistik tahlili shuni ko'rsatdi: nafas olish organlari kasalliklari (o'tkir respirator infeksiyalar, gripp, angina, pnevmoniya) 25–30% ga kamaydi. Gipertonik kasallik 3–5 marta, yurak ishemik kasalligi 10–20% ga kamaydi. Ozonlangan havo immunitet tizimini stimullashtiradi: lizosim faolligi 30–40% ga, terining bakteritsid qobiliyati 30% ga oshadi, teri yuzalarining bakterial ifloslanishi 2 marta kamayadi. Ozon, fitontsidlar va aeroionlar odam uchun ovqatdagi vitaminlar kabi zarurdir.",
+    "conclusionHeading": "Xulosa",
+    "conclusion": "Ventilyatsiya tizimlarida havoni tozalashning zamonaviy texnologiyalari ish joylarida kanserogen birikmalar konsentratsiyasini sezilarli darajada kamaytirish imkonini beradi. Bu, ayniqsa, kimyo, to'qimachilik, mebel sanoati va havoda uchuvchan organik birikmalar darajasi yuqori bo'lgan boshqa ishlab chiqarishlar uchun dolzarbdir. Ishlab chiqarish binolarida havoni ozonlash elektr va issiqlik energiyasi sarfini qizdirilgan havoni ko'p marta qayta ishlatish orqali 1,5–2 marta kamaytirish va uzluksiz havo tozalash orqali sexdagi ekologik vaziyatni yaxshilash imkonini beradi."
+  },
+  "sourcesTitle": "Manbalar",
+  "sources": [
+    {
+      "title": "IARC Monographs on the Evaluation of Carcinogenic Risks to Humans: Formaldehyde, Volume 100F",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK304432/"
+    },
+    {
+      "title": "Degradation of gaseous volatile organic compounds (VOCs) by a novel UV-ozone technology. Scientific Reports, 2022",
+      "url": "https://www.nature.com/articles/s41598-022-14191-0"
+    },
+    {
+      "title": "Removal of volatile organic compounds (VOCs) from waste air stream using ozone assisted zinc oxide (ZnO) nanoparticles coated on zeolite. Journal of Environmental Health Science and Engineering, 2021",
+      "url": "https://link.springer.com/article/10.1007/s40201-021-00644-7"
+    },
+    {
+      "title": "Active ozone removal technologies for a safe indoor environment: A comprehensive review. Building and Environment, 2020",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0360132320307393"
+    },
+    {
+      "title": "U.S. EPA: Indoor Air Quality and Health",
+      "url": "https://www.epa.gov/indoor-air-quality-iaq"
+    }
+  ]
+}
