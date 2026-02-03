@@ -76,9 +76,9 @@ export function PublicTransportPage() {
           <StatGrid columns={4}>
             <StatCard value="20-40" label="Минут" description="Время обработки одного салона" variant="primary" />
             <StatCard
-              value="12В/24В"
+              value="220В/230В"
               label="Питание"
-              description="Работа от бортовой сети транспорта"
+              description="Работа от электрической сети транспорта"
               variant="accent"
             />
             <StatCard
