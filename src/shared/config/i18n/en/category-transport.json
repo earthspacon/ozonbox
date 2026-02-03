@@ -13,7 +13,314 @@
         "Operation from vehicle power",
         "Passenger comfort",
         "Low operating costs"
-      ]
+      ],
+      "stats": {
+        "time": {
+          "value": "20-40",
+          "label": "minutes",
+          "description": "Full interior treatment cycle"
+        },
+        "efficiency": {
+          "value": "99.9%",
+          "label": "Efficiency",
+          "description": "Virus and bacteria elimination"
+        },
+        "power": {
+          "value": "12/24V",
+          "label": "Power",
+          "description": "Operation from bus power system"
+        },
+        "consumables": {
+          "value": "0",
+          "label": "Consumables",
+          "description": "Electricity only"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text1": "Urban public transport is an environment with high contact intensity between people. Hundreds of passengers pass through the bus interior daily, touching handrails, seats, stop buttons. During epidemics, the risk of infection transmission increases manyfold.",
+          "text2": "Ozonation provides deep disinfection of all interior surfaces, including hard-to-reach areas: upholstery gaps, ventilation system, space under seats. Unlike wiping with disinfectants, ozone gas penetrates everywhere and leaves no chemical residues."
+        },
+        "highlight1": {
+          "title": "For fleet operators:",
+          "text": "Ozonation can be done at the depot at night, between runs, or during technical breaks. One mobile ozonator treats 10-15 buses per shift — significant savings compared to hiring additional cleaning staff."
+        },
+        "sanitationProblems": {
+          "title": "Sanitation issues in public transport",
+          "text": "The passenger bus interior is a favorable environment for microorganism growth. Engine heat, humidity from passenger breathing, and organic contamination create ideal conditions for bacteria, viruses, and fungi.",
+          "items": {
+            "handrails": "Handrails and handles — main source of contact infection transmission",
+            "upholstery": "Fabric seat upholstery absorbs moisture, odors, and microorganisms",
+            "ventilation": "Ventilation system spreads aerosol particles throughout the interior",
+            "flooring": "Floor coverings accumulate dirt and pathogens from shoes",
+            "hardToReach": "Hard-to-reach areas are not treated during regular cleaning"
+          }
+        },
+        "technology": {
+          "title": "Bus ozonation technology",
+          "text": "Bus interior ozonation is a simple procedure that does not require special staff qualifications. The main thing is to follow the treatment regime and safety rules.",
+          "steps": {
+            "preparation": {
+              "title": "Interior preparation",
+              "description": "Close all windows and doors. If necessary, perform preliminary wet cleaning to remove large contaminants."
+            },
+            "placement": {
+              "title": "Ozonator placement",
+              "description": "Install the ozonator in the center of the interior or in the aisle at maximum height. Connect to electrical network (220V/230V) or external power source."
+            },
+            "ozonation": {
+              "title": "Ozonation",
+              "description": "Turn on the ozonator, leave the interior and close the door. Treatment time 20-40 minutes depending on volume and contamination level."
+            },
+            "ventilation": {
+              "title": "Ventilation",
+              "description": "Open all doors and windows, turn on standard ventilation. Ventilate for 15-20 minutes until ozone is completely removed."
+            }
+          },
+          "highlight": "After ventilation, a light fresh smell remains in the interior — ozone completely decomposes to oxygen. The bus is ready to go on route without additional treatment."
+        },
+        "treatmentModes": {
+          "title": "Treatment modes for fleets",
+          "table": {
+            "caption": "Recommended ozonation modes for urban buses",
+            "headers": {
+              "mode": "Treatment mode",
+              "concentration": "Concentration",
+              "time": "Time",
+              "when": "When to apply"
+            },
+            "rows": {
+              "express": {
+                "mode": "Express between runs",
+                "concentration": "10-15 mg/m³",
+                "time": "15-20 min",
+                "when": "At terminal stops, breaks"
+              },
+              "standard": {
+                "mode": "Standard nightly",
+                "concentration": "15-20 mg/m³",
+                "time": "30-40 min",
+                "when": "Daily at depot"
+              },
+              "deep": {
+                "mode": "Deep disinfection",
+                "concentration": "25-30 mg/m³",
+                "time": "60 min",
+                "when": "Weekly or after incidents"
+              },
+              "seasonal": {
+                "mode": "Seasonal treatment",
+                "concentration": "20-25 mg/m³",
+                "time": "90 min",
+                "when": "Before epidemic season"
+              }
+            }
+          },
+          "text": "When choosing a mode, consider route load, season (more intensive treatment during epidemics), interior condition. Regular ozonation reduces the need for deep treatment."
+        },
+        "pathogenEfficiency": {
+          "title": "Efficiency against pathogens",
+          "text": "Ozone destroys a wide range of microorganisms relevant to public transport:",
+          "table": {
+            "caption": "Ozone efficiency against pathogens in bus interior",
+            "headers": {
+              "pathogen": "Pathogen",
+              "time": "Inactivation time",
+              "efficiency": "Efficiency"
+            },
+            "rows": {
+              "flu": {
+                "pathogen": "Influenza A/B viruses",
+                "time": "5-10 min",
+                "efficiency": "99.99%"
+              },
+              "covid": {
+                "pathogen": "Coronaviruses (SARS-CoV-2)",
+                "time": "10-15 min",
+                "efficiency": "99.99%"
+              },
+              "norovirus": {
+                "pathogen": "Norovirus",
+                "time": "15-20 min",
+                "efficiency": "99.9%"
+              },
+              "staph": {
+                "pathogen": "Staphylococcus aureus",
+                "time": "10-15 min",
+                "efficiency": "99.99%"
+              },
+              "ecoli": {
+                "pathogen": "E. coli",
+                "time": "5-10 min",
+                "efficiency": "99.99%"
+              },
+              "candida": {
+                "pathogen": "Candida fungi",
+                "time": "15-20 min",
+                "efficiency": "99.9%"
+              },
+              "mold": {
+                "pathogen": "Mold spores",
+                "time": "30-40 min",
+                "efficiency": "99.9%"
+              }
+            }
+          }
+        },
+        "odorRemoval": {
+          "title": "Interior odor removal",
+          "text": "In addition to disinfection, ozonation effectively removes unpleasant odors that accumulate in the bus interior:",
+          "items": {
+            "sweat": "Sweat and human body odor from high passenger flow",
+            "food": "Food odors from items passengers carry",
+            "tobacco": "Tobacco smoke from clothing of smoking passengers",
+            "musty": "Musty odor from damp upholstery and floor coverings",
+            "ac": "Odors from air conditioning system with accumulated mold",
+            "specific": "Specific odors after transporting certain passenger categories"
+          },
+          "text2": "Ozone oxidizes odor molecules rather than masking them. The result is truly clean air, not a mixture of odors with fragrance. This is especially appreciated by morning route passengers."
+        },
+        "integration": {
+          "title": "Integration into fleet schedule",
+          "options": {
+            "night": {
+              "title": "Night treatment",
+              "description": "Buses are ozonated at the depot from 23:00 to 05:00. One operator treats the entire fleet"
+            },
+            "shiftChange": {
+              "title": "Between shifts",
+              "description": "Express treatment during driver shift changes. 15-20 minutes — and the bus is ready for the next run"
+            },
+            "terminal": {
+              "title": "At terminal stops",
+              "description": "Compact ozonator runs from bus power during terminal stop"
+            },
+            "noDowntime": {
+              "title": "No bus downtime",
+              "description": "Ozonation does not require taking vehicles out of service — treatment during standard breaks"
+            }
+          }
+        },
+        "economics": {
+          "title": "Fleet ozonation economics",
+          "comparison": {
+            "title": "Comparison of bus sanitation methods",
+            "headers": {
+              "parameter": "Parameter",
+              "ozonation": "Ozonation",
+              "manual": "Manual disinfection"
+            },
+            "rows": {
+              "time": {
+                "parameter": "Time per bus",
+                "value1": "20-40 minutes",
+                "value2": "60-90 minutes"
+              },
+              "staff": {
+                "parameter": "Staff",
+                "value1": "1 person per fleet",
+                "value2": "1 person per 3-5 buses"
+              },
+              "consumables": {
+                "parameter": "Consumables",
+                "value1": "Electricity only",
+                "value2": "Disinfectants, rags, gloves"
+              },
+              "coverage": {
+                "parameter": "Surface coverage",
+                "value1": "100%",
+                "value2": "60-70%"
+              },
+              "ventilation": {
+                "parameter": "Ventilation treatment",
+                "value1": "Yes",
+                "value2": "No"
+              },
+              "odorRemoval": {
+                "parameter": "Odor removal",
+                "value1": "Complete",
+                "value2": "Partial (masking)"
+              }
+            }
+          },
+          "highlight": {
+            "title": "Calculation example:",
+            "text": "Fleet of 50 buses. Daily manual treatment requires 5-6 cleaners. With ozonators, 1 operator + 3-4 mobile units handle it. Equipment payback period — 4-6 months due to savings on staff and consumables."
+          }
+        },
+        "equipment": {
+          "title": "Equipment for fleets",
+          "text": "Mobile and wall-mounted ozonators are used for urban bus ozonation:",
+          "items": {
+            "mobile": "Mobile ozonators (5-30 g/h) — carried between buses, universal",
+            "wall": "Wall-mounted ozonators (10-20 g/h) — installed permanently in interior",
+            "power220": "220V/230V power — from electrical network, no external connection needed",
+            "powerDepot": "220V power — for treatment at depot from fixed network",
+            "automation": "Timers and remote control — process automation"
+          },
+          "table": {
+            "caption": "Ozonator selection by bus type",
+            "headers": {
+              "type": "Bus type",
+              "volume": "Interior volume",
+              "capacity": "Capacity",
+              "time": "Treatment time"
+            },
+            "rows": {
+              "small": {
+                "type": "Small class (PAZ)",
+                "volume": "15-20 m³",
+                "capacity": "5-10 g/h",
+                "time": "15-20 min"
+              },
+              "medium": {
+                "type": "Medium class (LiAZ)",
+                "volume": "40-50 m³",
+                "capacity": "10-20 g/h",
+                "time": "20-30 min"
+              },
+              "large": {
+                "type": "Large class (articulated)",
+                "volume": "80-100 m³",
+                "capacity": "20-30 g/h",
+                "time": "30-40 min"
+              },
+              "electric": {
+                "type": "Electric buses",
+                "volume": "50-60 m³",
+                "capacity": "10-20 g/h",
+                "time": "25-35 min"
+              }
+            }
+          }
+        },
+        "compliance": {
+          "title": "Regulatory compliance",
+          "text": "Passenger transport ozonation complies with requirements:",
+          "items": {
+            "sanpin": "SanPiN 2.1.2.2645-10 — requirements for transport sanitary condition",
+            "gost": "GOST R 51617-2014 — passenger transport services",
+            "rospotrebnadzor": "Rospotrebnadzor methodological recommendations for transport disinfection",
+            "regional": "Regional requirements for public transport sanitation"
+          },
+          "highlight": {
+            "title": "Documentation:",
+            "text": "Keep an ozonation log with date, time, bus number, and treatment parameters. This confirms compliance with sanitary norms during inspections."
+          }
+        },
+        "safety": {
+          "title": "Safety rules",
+          "text": "Ozone in high concentrations is harmful to breathe. Follow safety rules:",
+          "items": {
+            "noPeople": "Treatment only when no people are in the interior",
+            "exit": "Leave the bus immediately after turning on the ozonator",
+            "noOpen": "Do not open doors until treatment cycle is complete",
+            "ventilation": "After treatment — mandatory ventilation for 15-20 minutes",
+            "respirator": "If early entry is necessary — use respirator with carbon filter",
+            "storage": "Store ozonator in a ventilated room"
+          }
+        }
+      }
     },
     "railway": {
       "title": "Railway carriages",
@@ -26,7 +333,219 @@
         "Freight car preparation",
         "No chemical residues",
         "Treatment in depot between runs"
-      ]
+      ],
+      "stats": {
+        "time": {
+          "value": "30-60",
+          "label": "minutes",
+          "description": "Compartment car treatment"
+        },
+        "efficiency": {
+          "value": "99.9%",
+          "label": "Efficiency",
+          "description": "Against viruses and bacteria"
+        },
+        "compartments": {
+          "value": "10-12",
+          "label": "compartments",
+          "description": "Simultaneous treatment"
+        },
+        "coverage": {
+          "value": "100%",
+          "label": "Coverage",
+          "description": "Including ventilation and toilets"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Railway carriages are enclosed spaces where passengers spend from several hours to several days. In compartment and open coaches, people sleep on shared bunks, use shared toilets, and breathe recirculated air. This creates ideal conditions for infection spread.",
+          "text2": "Ozonation is the only method that provides complete carriage disinfection, including ventilation systems, mattresses, curtains and hard-to-reach areas. The gas penetrates everywhere that a disinfectant cloth cannot reach."
+        },
+        "highlight1": {
+          "title": "For railway depots:",
+          "text": "Ozonation fits into standard carriage turnover. While a carriage waits for the next run, it is treated. No additional downtime is needed, no special cleaning staff required."
+        },
+        "sanitation": {
+          "title": "Sanitation specifics in trains",
+          "text": "Passenger carriages have specific problems that are difficult to solve with traditional cleaning:",
+          "items": [
+            "Textile elements (mattresses, pillows, curtains) absorb odors and microorganisms",
+            "Ventilation systems recirculate air, spreading pathogens between compartments",
+            "Toilets with limited water are difficult to keep clean",
+            "Carpeting accumulates dust, dirt and organic contamination",
+            "Inter-car vestibules and passages are high-contamination zones",
+            "Open coaches have open space with shared ventilation"
+          ]
+        },
+        "technology": {
+          "title": "Carriage ozonation technology",
+          "text": "Passenger carriage treatment is done in the depot between runs. The method depends on carriage type and objectives.",
+          "steps": [
+            {
+              "title": "Preliminary cleaning",
+              "description": "Remove trash, change bed linens, wet cleaning. Ozone works more effectively on clean surfaces."
+            },
+            {
+              "title": "Carriage sealing",
+              "description": "Close all windows, doors, inter-car passages. Turn off supply ventilation, leave recirculation for ozone distribution."
+            },
+            {
+              "title": "Ozonator placement",
+              "description": "In compartment cars — 2-3 ozonators in the corridor. In open coaches — 3-4 ozonators along the aisle. In toilets — separate units."
+            },
+            {
+              "title": "Ozonation",
+              "description": "Turn on ozonators, leave the carriage, close the door. Treatment time 30-60 minutes depending on contamination level."
+            },
+            {
+              "title": "Ventilation",
+              "description": "Open windows and doors, turn on supply ventilation at full power. Ventilate for 20-30 minutes."
+            }
+          ]
+        },
+        "modes": {
+          "title": "Treatment modes by carriage type",
+          "table": {
+            "caption": "Railway carriage ozonation parameters",
+            "headers": ["Carriage type", "Volume", "Capacity", "Treatment time"],
+            "rows": [
+              ["Compartment (10 compartments)", "120-130 m³", "30-50 g/h", "40-60 min"],
+              ["Open coach", "150-160 m³", "40-60 g/h", "50-70 min"],
+              ["Soft class", "100-110 m³", "20-30 g/h", "30-45 min"],
+              ["Dining car", "80-90 m³", "20-30 g/h", "40-50 min"],
+              ["Commuter train (1 car)", "70-80 m³", "15-25 g/h", "30-40 min"],
+              ["Metro car", "50-60 m³", "10-20 g/h", "20-30 min"]
+            ]
+          },
+          "highlight": "For trains of 10-15 cars, a team method is used: ozonators move sequentially from car to car. While the first cars are ventilating, the last ones are being treated."
+        },
+        "toilets": {
+          "title": "Toilet treatment",
+          "text": "Toilets in trains are a special focus area. Limited water, high usage intensity, specific odors. Traditional cleaning methods do not fully solve the problem.",
+          "items": [
+            "Ozone destroys bacteria in toilets, sinks, floors and walls",
+            "Neutralizes odors at the molecular level, not masking them",
+            "Treats hard-to-reach areas: behind toilets, under sinks",
+            "Eliminates fungus and mold in corners and joints",
+            "Disinfects ventilation grilles and ducts"
+          ],
+          "text2": "Recommended mode: concentration 20-30 mg/m³, time 20-30 minutes. For severe cases — increase time to 45-60 minutes. Compact ozonators of 3-5 g/h are ideal for toilets."
+        },
+        "comparison": {
+          "title": "Comparison with traditional methods",
+          "table": {
+            "title": "Ozonation vs chemical carriage disinfection",
+            "headers": ["Parameter", "Ozonation", "Chemical treatment"],
+            "rows": [
+              {
+                "parameter": "Mattress and textile treatment",
+                "value1": "Yes (without removal)",
+                "value2": "No (replacement only)"
+              },
+              {
+                "parameter": "Ventilation disinfection",
+                "value1": "Yes (automatically)",
+                "value2": "No"
+              },
+              {
+                "parameter": "Odor elimination",
+                "value1": "Complete (oxidation)",
+                "value2": "Partial (masking)"
+              },
+              {
+                "parameter": "Staff per car",
+                "value1": "1 person per 5-10 cars",
+                "value2": "2-3 people per car"
+              },
+              {
+                "parameter": "Consumables",
+                "value1": "Electricity",
+                "value2": "Disinfectants, rags"
+              },
+              {
+                "parameter": "Wet residues",
+                "value1": "No",
+                "value2": "Yes (require drying)"
+              }
+            ]
+          }
+        },
+        "integration": {
+          "title": "Depot integration",
+          "features": [
+            {
+              "title": "Train turnover",
+              "description": "Ozonation during standard turnover. While linens are changed — the car is treated"
+            },
+            {
+              "title": "Night layover",
+              "description": "Trains standing in the depot at night are treated automatically on schedule"
+            },
+            {
+              "title": "Seasonal peaks",
+              "description": "During high passenger traffic periods — enhanced treatment mode"
+            },
+            {
+              "title": "Incident treatment",
+              "description": "After transporting a sick passenger — unscheduled deep disinfection"
+            }
+          ]
+        },
+        "freight": {
+          "title": "Freight car treatment",
+          "text": "Ozonation is used not only for passenger but also for freight cars:",
+          "items": [
+            "Covered cars — removal of odors from previous cargo",
+            "Refrigerated sections — disinfection without chemical residues",
+            "Grain cars — pest control",
+            "Perishable cargo cars — extended storage periods",
+            "Insulated cars — preparation for food transport"
+          ],
+          "highlight": {
+            "title": "For food cargo:",
+            "text": "Ozonation is a safe alternative to chemical fumigation. Ozone decays to oxygen, leaving no toxic residues on car walls and not transferring to cargo."
+          }
+        },
+        "economics": {
+          "title": "Economics for depots",
+          "table": {
+            "caption": "Ozonation efficiency calculation for depot (100 cars)",
+            "headers": ["Indicator", "With ozonation", "Without ozonation"],
+            "rows": [
+              ["Cleaning staff", "3-4 people", "15-20 people"],
+              ["Train treatment time", "2-3 hours", "5-6 hours"],
+              ["Disinfectant costs/month", "~5000 ₽ (electricity)", "~80,000 ₽"],
+              ["Odor complaints", "Rarely", "Regularly"],
+              ["Ventilation treatment", "Every run", "Once a year (repair)"]
+            ]
+          },
+          "text": "Payback period for depot ozonator set — 6-12 months through savings on staff and consumables. Additional benefit — improved passenger reviews of car cleanliness."
+        },
+        "equipment": {
+          "title": "Railway transport equipment",
+          "text": "Industrial ozonators are used for car treatment:",
+          "items": [
+            "Mobile ozone guns (30-100 g/h) — for whole car treatment",
+            "Portable ozonators (10-30 g/h) — for compartments and toilets",
+            "Wall-mounted ozonators (5-20 g/h) — for fixed installation in cars",
+            "Timer systems — for automatic scheduled treatment",
+            "Ozone sensors — for concentration monitoring and safety"
+          ]
+        },
+        "safety": {
+          "title": "Depot safety requirements",
+          "text": "When ozonating cars in the depot, observe safety requirements:",
+          "items": [
+            "Treatment only in absence of people in the car and on adjacent tracks",
+            "Post warning signs \"Ozonation. Entry prohibited\"",
+            "Staff must be trained in ozone work",
+            "When entering car before ventilation — use respirator",
+            "Keep treatment log with car number, time, parameters",
+            "If sharp ozone odor is detected — immediately leave the area"
+          ],
+          "warning": "Ozone MAC — 0.1 mg/m³. Characteristic \"after thunderstorm\" odor is detected at concentrations of 0.02-0.05 mg/m³. If you smell ozone — the car is not ready for passenger boarding."
+        }
+      }
     },
     "shipping-containers": {
       "title": "Shipping containers",
@@ -39,7 +558,403 @@
         "Decay to pure oxygen",
         "Suitable for food cargo",
         "Quarantine odor removal"
-      ]
+      ],
+      "stats": {
+        "cycle": {
+          "value": "12-24",
+          "label": "hours",
+          "description": "Full container fumigation cycle"
+        },
+        "eggs": {
+          "value": "100%",
+          "label": "Eggs and larvae",
+          "description": "Destruction at all stages"
+        },
+        "residues": {
+          "value": "0",
+          "label": "Toxic residues",
+          "description": "Decay to pure oxygen"
+        },
+        "sizes": {
+          "value": "20/40 ft",
+          "label": "Containers",
+          "description": "Standard sizes"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text1": "Shipping containers are the foundation of international trade. Millions of TEU (twenty-foot equivalents) are transported by sea annually with goods of all categories. Containers often require quarantine treatment: to destroy pest insects, mold, bacteria or remove odors from previous cargo.",
+          "text2": "Traditional fumigation with methyl bromide or phosphine leaves toxic residues, requires special permits and long degassing. Ozonation is an eco-friendly alternative: ozone decays to pure oxygen without contaminating cargo or the environment."
+        },
+        "highlight1": {
+          "title": "Important for importers:",
+          "text": "Container ozonation is recognized by phytosanitary services of many countries as an alternative to chemical fumigation. This allows treatment of cargo sensitive to chemical residues: food products, textiles, electronics."
+        },
+        "problems": {
+          "title": "Problems solved by ozonation",
+          "text": "Shipping containers face a number of problems related to long transport and storage:",
+          "items": [
+            "Pest insects — quarantine species imported with cargo from other countries",
+            "Mold and fungi — develop with temperature fluctuations and high humidity",
+            "Bacterial contamination — especially relevant for food cargo",
+            "Odors — from previous cargo (fish, chemicals, fertilizers) or mold",
+            "Quarantine requirements — mandatory treatment before import into the country"
+          ]
+        },
+        "comparison": {
+          "title": "Ozone vs traditional fumigation",
+          "table": {
+            "title": "Comparison of container treatment methods",
+            "headers": {
+              "parameter": "Parameter",
+              "ozonation": "Ozonation",
+              "methyl": "Methyl bromide",
+              "phosphine": "Phosphine"
+            },
+            "rows": {
+              "residues": {
+                "parameter": "Toxic residues",
+                "value1": "No",
+                "value2": "Yes (carcinogen)",
+                "value3": "Yes (highly toxic)"
+              },
+              "time": {
+                "parameter": "Treatment time",
+                "value1": "12-24 hours",
+                "value2": "24-48 hours",
+                "value3": "72-120 hours"
+              },
+              "degassing": {
+                "parameter": "Degassing",
+                "value1": "2-4 hours",
+                "value2": "24-48 hours",
+                "value3": "48-72 hours"
+              },
+              "ozoneLayer": {
+                "parameter": "Impact on ozone layer",
+                "value1": "No",
+                "value2": "Yes (banned in EU)",
+                "value3": "No"
+              },
+              "food": {
+                "parameter": "Food cargo",
+                "value1": "Yes",
+                "value2": "Limited",
+                "value3": "No"
+              },
+              "electronics": {
+                "parameter": "Electronics",
+                "value1": "Yes (with caution)",
+                "value2": "Yes",
+                "value3": "Yes"
+              },
+              "permits": {
+                "parameter": "Special permits",
+                "value1": "No",
+                "value2": "Yes",
+                "value3": "Yes"
+              }
+            }
+          }
+        },
+        "technology": {
+          "title": "Container ozonation technology",
+          "steps": [
+            {
+              "title": "Container inspection",
+              "description": "Check door seal tightness, ventilation openings. If necessary — temporary sealing with tape or film."
+            },
+            {
+              "title": "Parameter calculation",
+              "description": "Determine container volume, target pest type, required ozone concentration. Standard 20-foot container — about 33 m³."
+            },
+            {
+              "title": "Equipment connection",
+              "description": "Install ozonator with gas supply inside container through technical opening or door gap. Seal the entry."
+            },
+            {
+              "title": "Ozonation",
+              "description": "Supply ozone until target concentration is reached (50-100 mg/m³ for insects). Maintain concentration for 12-24 hours."
+            },
+            {
+              "title": "Degassing",
+              "description": "Turn off ozonator, open container doors. Natural or forced ventilation for 2-4 hours."
+            }
+          ],
+          "highlight": "After degassing, ozone concentration drops to safe levels (<0.1 mg/m³). Cargo is ready for unloading and use without additional treatment."
+        },
+        "modes": {
+          "title": "Container treatment modes",
+          "table": {
+            "caption": "Ozonation parameters for various purposes",
+            "headers": {
+              "goal": "Treatment goal",
+              "concentration": "Concentration",
+              "exposure": "Exposure time",
+              "notes": "Notes"
+            },
+            "rows": {
+              "adults": {
+                "goal": "Insects (adults)",
+                "concentration": "30-50 mg/m³",
+                "exposure": "12-18 hours",
+                "notes": "Most species"
+              },
+              "allStages": {
+                "goal": "Insects (all stages)",
+                "concentration": "50-100 mg/m³",
+                "exposure": "18-24 hours",
+                "notes": "Including eggs and larvae"
+              },
+              "mold": {
+                "goal": "Mold and fungi",
+                "concentration": "20-30 mg/m³",
+                "exposure": "8-12 hours",
+                "notes": "From surfaces"
+              },
+              "bacteria": {
+                "goal": "Bacteria",
+                "concentration": "15-25 mg/m³",
+                "exposure": "4-8 hours",
+                "notes": "99.9% inactivation"
+              },
+              "odors": {
+                "goal": "Odor removal",
+                "concentration": "10-20 mg/m³",
+                "exposure": "4-6 hours",
+                "notes": "Odorant neutralization"
+              },
+              "complex": {
+                "goal": "Complex treatment",
+                "concentration": "50-80 mg/m³",
+                "exposure": "24 hours",
+                "notes": "All factors"
+              }
+            }
+          },
+          "text": "For quarantine pests (bark beetles, weevils, flour beetles) maximum mode is recommended: 80-100 mg/m³ for 24 hours. This guarantees destruction of insects at all development stages, including eggs inside wood or grain."
+        },
+        "efficiency": {
+          "title": "Efficiency against pests",
+          "table": {
+            "caption": "Destruction of pest insects with ozone (80 mg/m³, 24 hours)",
+            "headers": {
+              "pest": "Pest",
+              "adults": "Adults",
+              "larvae": "Larvae",
+              "eggs": "Eggs"
+            },
+            "rows": {
+              "breadBeetle": {
+                "pest": "Bread beetle",
+                "adults": "100%",
+                "larvae": "100%",
+                "eggs": "100%"
+              },
+              "grainWeevil": {
+                "pest": "Grain weevil",
+                "adults": "100%",
+                "larvae": "100%",
+                "eggs": "99.9%"
+              },
+              "flourBeetle": {
+                "pest": "Flour beetle",
+                "adults": "100%",
+                "larvae": "100%",
+                "eggs": "100%"
+              },
+              "riceWeevil": {
+                "pest": "Rice weevil",
+                "adults": "100%",
+                "larvae": "100%",
+                "eggs": "99.9%"
+              },
+              "tobaccoBeetle": {
+                "pest": "Tobacco beetle",
+                "adults": "100%",
+                "larvae": "100%",
+                "eggs": "100%"
+              },
+              "woodBeetle": {
+                "pest": "Wood beetle",
+                "adults": "100%",
+                "larvae": "99.9%",
+                "eggs": "99.5%"
+              },
+              "moth": {
+                "pest": "Clothes moth",
+                "adults": "100%",
+                "larvae": "100%",
+                "eggs": "100%"
+              }
+            }
+          },
+          "highlight": {
+            "title": "Mechanism of action:",
+            "text": "Ozone destroys insect cell membranes at the molecular level. Unlike chemical pesticides, resistance to ozone does not develop — this is a fundamental physicochemical effect."
+          }
+        },
+        "types": {
+          "title": "Container types and treatment specifics",
+          "features": [
+            {
+              "title": "Dry containers (DC)",
+              "description": "Standard treatment. 20-foot — 33 m³, 40-foot — 67 m³. Require sealing of ventilation openings."
+            },
+            {
+              "title": "Refrigerated (RF)",
+              "description": "Treatment with refrigeration unit off. Good tightness. Caution with electronics."
+            },
+            {
+              "title": "Ventilated",
+              "description": "Require temporary sealing of all ventilation openings. Higher ozone consumption."
+            },
+            {
+              "title": "Open-top",
+              "description": "Treatment after covering with tarp. Perimeter sealing. Partial leakage possible."
+            }
+          ],
+          "table": {
+            "caption": "Equipment calculation by container size",
+            "headers": {
+              "type": "Container type",
+              "volume": "Volume",
+              "capacity": "Ozonator capacity",
+              "time": "Concentration build-up time"
+            },
+            "rows": {
+              "10ft": {
+                "type": "10 feet",
+                "volume": "16 m³",
+                "capacity": "20-30 g/h",
+                "time": "1-2 hours"
+              },
+              "20ft": {
+                "type": "20 feet",
+                "volume": "33 m³",
+                "capacity": "30-50 g/h",
+                "time": "2-3 hours"
+              },
+              "40ft": {
+                "type": "40 feet",
+                "volume": "67 m³",
+                "capacity": "50-80 g/h",
+                "time": "3-4 hours"
+              },
+              "40ftHC": {
+                "type": "40 feet HC",
+                "volume": "76 m³",
+                "capacity": "60-100 g/h",
+                "time": "3-5 hours"
+              },
+              "45ft": {
+                "type": "45 feet",
+                "volume": "86 m³",
+                "capacity": "80-120 g/h",
+                "time": "4-5 hours"
+              }
+            }
+          }
+        },
+        "applications": {
+          "title": "Application for various cargo",
+          "text": "Ozonation is suitable for most cargo categories:",
+          "items": [
+            "Grains and legumes — destruction of storage pests without chemical residues",
+            "Nuts and dried fruits — preservation of appearance and taste",
+            "Coffee and cocoa — mold neutralization without affecting aroma",
+            "Spices — quarantine treatment before import",
+            "Textiles — removal of warehouse storage odors, mold",
+            "Wood and lumber — destruction of bark beetles and wood borers",
+            "Paper and cardboard — prevention of fungal damage"
+          ],
+          "highlight": {
+            "title": "Limitations:",
+            "text": "Treat cargo with rubber seals with caution (ozone accelerates rubber aging), unprotected electronics, fresh fruits and vegetables (may be damaged at high concentrations)."
+          }
+        },
+        "economics": {
+          "title": "Ozone fumigation economics",
+          "table": {
+            "title": "Cost of treating a 40-foot container",
+            "headers": {
+              "parameter": "Cost item",
+              "ozonation": "Ozonation",
+              "chemical": "Chemical fumigation"
+            },
+            "rows": {
+              "equipment": {
+                "parameter": "Equipment (one-time)",
+                "value1": "150-300 thousand ₽",
+                "value2": "Not required (service)"
+              },
+              "cost": {
+                "parameter": "Treatment cost",
+                "value1": "500-1000 ₽",
+                "value2": "15-25 thousand ₽"
+              },
+              "downtime": {
+                "parameter": "Downtime",
+                "value1": "24-28 hours",
+                "value2": "72-120 hours"
+              },
+              "documentation": {
+                "parameter": "Documentation",
+                "value1": "Treatment certificate",
+                "value2": "Fumigation certificate"
+              },
+              "staff": {
+                "parameter": "Staff",
+                "value1": "1 person (training)",
+                "value2": "Licensed team"
+              }
+            }
+          },
+          "text": "With regular container treatment, ozonator equipment payback is 10-20 treatments. For terminals and logistics companies with high container turnover, savings amount to hundreds of thousands of rubles per month."
+        },
+        "equipment": {
+          "title": "Equipment for containers",
+          "text": "High-capacity industrial ozonators are used for container fumigation:",
+          "items": [
+            "Ozone generators 50-200 g/h — for 20-40 foot containers",
+            "Supply systems — hoses, fittings, sealing gaskets",
+            "Ozone analyzers — real-time concentration monitoring",
+            "Timers and controllers — process automation",
+            "Mobile complexes — on trailer or van base"
+          ],
+          "highlight": {
+            "title": "For terminals:",
+            "text": "Stationary ozonator complexes allow simultaneous treatment of multiple containers. Pipeline system supplies ozone to containers on the site, central control panel manages the process."
+          }
+        },
+        "regulatory": {
+          "title": "Regulatory aspects",
+          "text": "Ozonation as a quarantine treatment method is recognized in many countries:",
+          "items": [
+            "ISPM-15 — allows alternative methods for wood packaging treatment",
+            "EPA (USA) — ozone registered as antimicrobial agent",
+            "EU — ozonation approved for organic products",
+            "Rosselkhoznadzor — accepts ozonation certificates for quarantine control",
+            "SanPiN — ozone approved for food product disinfection"
+          ],
+          "text2": "When exporting/importing, check destination country requirements. In most cases, ozonation is accepted as an alternative to chemical fumigation with proper documentation: treatment certificate indicating concentration and exposure time."
+        },
+        "safety": {
+          "title": "Safety requirements",
+          "items": [
+            "Treatment only on open areas or ventilated hangars",
+            "Fence treatment area, post warning signs",
+            "Personnel — at least 10 m from operating ozonator",
+            "When entering container before degassing — respirator with carbon filter",
+            "Concentration monitoring with analyzer before allowing people",
+            "Emergency shutdown — upon detection of leak or malfunction"
+          ],
+          "highlight": {
+            "title": "Ozone MAC:",
+            "text": "0.1 mg/m³ in work zone. At concentrations above 1 mg/m³ — respiratory irritation. At 10+ mg/m³ — health hazard. Always use analyzers for monitoring."
+          }
+        }
+      }
     },
     "auto-transport": {
       "title": "Road freight",
@@ -52,7 +967,267 @@
         "Compliance with sanitary norms",
         "Quick treatment between runs",
         "Cargo quality preservation"
-      ]
+      ],
+      "stats": {
+        "stat1": {
+          "value": "20-40",
+          "label": "minutes",
+          "description": "Truck body treatment"
+        },
+        "stat2": {
+          "value": "HACCP",
+          "label": "Compliance",
+          "description": "Food transport requirements"
+        },
+        "stat3": {
+          "value": "12/24V",
+          "label": "Power",
+          "description": "Operation from vehicle power"
+        },
+        "stat4": {
+          "value": "10-15",
+          "label": "vehicles per shift",
+          "description": "Handled by 1 operator"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Commercial road transport — from small vans to long-haul trucks — requires regular sanitary treatment. This is especially critical for food transporters: dairy products, meat, vegetables and fruits. Sanitary standards and HACCP requirements mandate maintaining cargo area cleanliness.",
+          "text2": "Ozonation is an effective and economical method of fleet sanitary treatment. One mobile ozonator treats 10-15 trucks per shift, runs from vehicle power, requires no consumables. For logistics companies, this is significant savings compared to chemical treatment."
+        },
+        "highlight1": {
+          "title": "For fleet managers:",
+          "text": "Integrate ozonation into maintenance schedules. While the driver processes paperwork or rests between runs — the truck is treated. This creates no additional downtime."
+        },
+        "types": {
+          "title": "Types of commercial transport",
+          "text": "Ozonation is used for all types of freight road transport:",
+          "items": [
+            "Refrigerators — transport of perishable products with temperature control",
+            "Insulated vans — product delivery without active cooling",
+            "Curtain-sided semi-trailers — universal freight transport",
+            "Solid-body vans — delivery to retail outlets",
+            "Specialized vehicles — bread trucks, milk trucks, meat trucks",
+            "Container carriers — with installed shipping containers"
+          ]
+        },
+        "problems": {
+          "title": "Sanitation problems in freight transport",
+          "text": "Vehicle cargo areas are contaminated from various sources:",
+          "items": [
+            "Odors from previous cargo — fish, meat, chemicals, fertilizers",
+            "Bacterial contamination — from leaking packaging, damaged products",
+            "Mold and fungi — when transporting wet cargo, condensation",
+            "Insects — brought in with cargo or from warehouses",
+            "Dust and dirt — accumulate on floor and body walls",
+            "Packaging residues — cardboard, film, tape, pallet strapping"
+          ],
+          "text2": "Traditional washing and wiping do not fully solve the problem. Water does not kill bacteria, odors return, mold grows again. Disinfection is needed."
+        },
+        "technology": {
+          "title": "Truck treatment technology",
+          "steps": [
+            {
+              "title": "Emptying the body",
+              "description": "Unload cargo, remove trash and packaging residues. For heavy contamination — preliminary wet cleaning."
+            },
+            {
+              "title": "Ozonator placement",
+              "description": "Install ozonator inside the body at maximum height. Connect to electrical network (220V/230V) or external source."
+            },
+            {
+              "title": "Sealing",
+              "description": "Close doors, gates, hatches. For curtain-sided semi-trailers — lower curtain and secure."
+            },
+            {
+              "title": "Ozonation",
+              "description": "Turn on ozonator, start timer. Treatment time 20-40 minutes depending on volume and contamination."
+            },
+            {
+              "title": "Ventilation",
+              "description": "Open doors, turn on refrigerator ventilation (if available). Ventilate for 15-20 minutes."
+            }
+          ],
+          "highlight": "After ventilation, the body is ready for loading. Ozone has decayed to oxygen, no chemical residues, cargo is not at risk of contamination."
+        },
+        "modes": {
+          "title": "Treatment modes by transport type",
+          "table": {
+            "caption": "Road freight ozonation parameters",
+            "headers": ["Transport type", "Body volume", "Capacity", "Treatment time"],
+            "rows": [
+              ["Light-duty van", "8-15 m³", "5-10 g/h", "15-20 min"],
+              ["Medium-duty van", "20-40 m³", "10-20 g/h", "20-30 min"],
+              ["Refrigerator (semi-trailer)", "80-90 m³", "20-30 g/h", "30-40 min"],
+              ["Curtain-sided semi-trailer", "90-100 m³", "20-30 g/h", "35-45 min"],
+              ["Tank truck (milk truck)", "5-20 m³", "10-15 g/h", "20-30 min"],
+              ["Bread van", "15-25 m³", "5-10 g/h", "15-25 min"]
+            ]
+          }
+        },
+        "refrigerators": {
+          "title": "Refrigerator treatment specifics",
+          "text": "Refrigerators and insulated vans require special attention — they transport food products with strict sanitary requirements.",
+          "items": [
+            "Treatment with refrigeration unit off — ozone does not affect refrigerant",
+            "Good insulation tightness increases effectiveness",
+            "Ozone does not damage sandwich panels and plastic lining",
+            "Entire interior surface treated, including ceiling and floor grooves",
+            "Odors absorbed into walls from previous transports are eliminated"
+          ],
+          "highlight": {
+            "title": "For HACCP:",
+            "text": "Record each treatment in a log with date, vehicle number, parameters (time, concentration). This is documentary proof of sanitary compliance during audits."
+          }
+        },
+        "odors": {
+          "title": "Odor elimination",
+          "text": "One of the main problems in freight transport — odors from previous cargo:",
+          "items": [
+            "Fish and seafood — persistent odor, absorbs into walls",
+            "Meat — when packaging is damaged or temperature regime violated",
+            "Onions, garlic — sharp odor, transfers to other cargo",
+            "Chemicals — fertilizers, household chemicals, technical fluids",
+            "Perfumes — strong aromas, incompatible with food cargo"
+          ],
+          "text2": "Ozone oxidizes odor molecules, converting them to neutral compounds. This is not masking, but complete elimination. After treatment, the body smells fresh — \"like after a thunderstorm\".",
+          "table": {
+            "caption": "Odor elimination modes",
+            "headers": ["Odor type", "Concentration", "Treatment time", "Efficiency"],
+            "rows": [
+              ["Light (dust, mustiness)", "10-15 mg/m³", "15-20 min", "100%"],
+              ["Medium (onions, garlic)", "15-20 mg/m³", "20-30 min", "100%"],
+              ["Strong (fish, meat)", "20-30 mg/m³", "30-45 min", "95-100%"],
+              ["Very strong (chemicals)", "25-35 mg/m³", "45-60 min", "90-95%"],
+              ["Stale (mold)", "30-40 mg/m³", "60-90 min", "95-100%"]
+            ]
+          }
+        },
+        "integration": {
+          "title": "Fleet integration",
+          "features": [
+            {
+              "title": "After unloading",
+              "description": "While driver processes paperwork and receives next assignment — vehicle is treated"
+            },
+            {
+              "title": "Before loading",
+              "description": "Preventive treatment before loading sensitive cargo: dairy, meat, vegetables"
+            },
+            {
+              "title": "Night layover",
+              "description": "Vehicles in the depot are treated at night — ready for run in the morning"
+            },
+            {
+              "title": "Cargo change",
+              "description": "When switching from one cargo type to another (fish → dairy) — mandatory treatment"
+            }
+          ]
+        },
+        "economy": {
+          "title": "Fleet economics",
+          "table": {
+            "title": "Fleet sanitary treatment method comparison (50 vehicles)",
+            "headers": ["Indicator", "Ozonation", "Chemical treatment"],
+            "rows": [
+              {
+                "parameter": "Equipment",
+                "value1": "50-150 thousand ₽ (one-time)",
+                "value2": "Not required"
+              },
+              {
+                "parameter": "Cost per vehicle",
+                "value1": "30-50 ₽ (electricity)",
+                "value2": "500-1500 ₽ (service/materials)"
+              },
+              {
+                "parameter": "Staff",
+                "value1": "1 operator",
+                "value2": "3-5 washers"
+              },
+              {
+                "parameter": "Time per vehicle",
+                "value1": "30-40 min (unattended)",
+                "value2": "60-90 min (manual work)"
+              },
+              {
+                "parameter": "Odor elimination",
+                "value1": "Complete",
+                "value2": "Partial"
+              },
+              {
+                "parameter": "Payback",
+                "value1": "2-4 months",
+                "value2": "—"
+              }
+            ]
+          },
+          "text": "When treating 50 vehicles twice a week, savings amount to 100-200 thousand rubles per month. Ozonator payback — 2-4 months. Additional benefit — reduced customer complaints about odors and contamination."
+        },
+        "compliance": {
+          "title": "Compliance with sanitary norms",
+          "text": "Road freight ozonation complies with requirements:",
+          "items": [
+            "SanPiN 2.3.4.050-96 — food product transport",
+            "Technical Regulation TS 021/2011 — food product safety",
+            "HACCP — critical control points in logistics",
+            "ISO 22000 — food safety management systems",
+            "Retail chain requirements for suppliers and carriers"
+          ],
+          "warning": {
+            "title": "Documentation:",
+            "text": "Keep treatment logs for at least 1 year. During HACCP audits, Rospotrebnadzor inspections or customer claims — this is your protection."
+          }
+        },
+        "equipment": {
+          "title": "Fleet equipment",
+          "text": "For commercial transport treatment, the following are used:",
+          "items": [
+            "Mobile ozonators 5-20 g/h — for vans and medium trucks",
+            "Portable ozonators 20-50 g/h — for semi-trailers and large transport",
+            "Wall-mounted ozonators — for fixed installation in body",
+            "220V/230V modifications — for operation from electrical network without external power",
+            "Timer systems — for automatic scheduled treatment"
+          ],
+          "table": {
+            "caption": "Ozonator selection by fleet size",
+            "headers": ["Fleet size", "Recommended equipment", "Set cost"],
+            "rows": [
+              ["5-15 vehicles", "1-2 mobile ozonators 10-20 g/h", "30-60 thousand ₽"],
+              ["15-50 vehicles", "3-5 ozonators 15-30 g/h", "80-150 thousand ₽"],
+              ["50-100 vehicles", "5-10 ozonators + fixed zones", "150-300 thousand ₽"],
+              ["100+ vehicles", "Custom solutions", "Individual"]
+            ]
+          }
+        },
+        "roi": {
+          "title": "ROI for fleet operators",
+          "text": "Return on investment calculation for fleet of 30 trucks:",
+          "items": [
+            "Investment: 100,000 ₽ (3 ozonators at 30-35 thousand ₽)",
+            "Staff savings: 40,000 ₽/month (release of 1-2 cleaners)",
+            "Disinfectant savings: 15,000 ₽/month",
+            "Downtime reduction: 10,000 ₽/month (quick treatment)",
+            "Total savings: ~65,000 ₽/month",
+            "Payback period: 1.5-2 months"
+          ],
+          "highlight": {
+            "title": "Additional benefit:",
+            "text": "Reputational effect. Clean, odor-free trucks — this is customer confidence in transport quality. Large retail chains and producers choose carriers with confirmed sanitary treatment."
+          }
+        },
+        "safety": {
+          "title": "Safety requirements",
+          "items": [
+            "Treatment only with closed body and no people inside",
+            "Do not turn on ozonator in driver cabin",
+            "After treatment — mandatory ventilation before entering body",
+            "If early entry needed — respirator with carbon filter",
+            "Do not direct ozonator output at rubber seals",
+            "Store ozonator in dry ventilated place"
+          ]
+        }
+      }
     }
   }
 }

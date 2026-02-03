@@ -6,6 +6,127 @@
       "title": "Hotels",
       "shortDesc": "Room disinfection and odor removal",
       "content": "Hotel room ozonation is a modern method for quick disinfection and odor removal. Ozone effectively destroys bacteria, viruses, mold, fungi and parasitic protozoa on all surfaces.\n\nAn air ozonator allows full treatment of a room after cleaning when guests change. Typically 30–60 minutes of treatment is enough. The gas penetrates all crevices and corners, disinfecting textiles, furniture and décor.\n\nAfter treatment, ozone decomposes to oxygen without toxic byproducts. The air feels \"fresh\" without air fresheners or masking agents. Complete removal of tobacco, sweat, musty and damp odors.\n\nTreatment does not require staff after the ozonator is switched on. Modern units have weekly timers for automation.",
+      "stats": {
+        "processingTime": {
+          "value": "30-60",
+          "label": "Minutes of treatment",
+          "description": "Full room disinfection cycle"
+        },
+        "odorRemoval": {
+          "value": "100%",
+          "label": "Odor removal",
+          "description": "Tobacco, sweat, mustiness, food"
+        },
+        "disinfection": {
+          "value": "99.9%",
+          "label": "Disinfection",
+          "description": "Destruction of bacteria and viruses"
+        },
+        "noChemistry": {
+          "value": "0",
+          "label": "Chemicals",
+          "description": "No fragrances or air fresheners"
+        }
+      },
+      "sections": {
+        "intro": {
+          "p1": "Hotel business is primarily about guest impressions. The smell of a smoked room, mustiness, foreign odors can ruin the impression of even the most luxurious hotel. Ozonation solves this problem radically — not masking odors, but destroying them at the molecular level.",
+          "p2": "In addition to eliminating odors, ozone disinfects all room surfaces: mattresses, pillows, curtains, carpets, upholstered furniture. The gas penetrates the material structure, destroying bacteria, viruses, dust mites and mold spores."
+        },
+        "automation": {
+          "title": "Automation:",
+          "text": "Modern ozonators are equipped with weekly timers. Treatment can start automatically after room cleaning, without staff involvement."
+        },
+        "problems": {
+          "title": "Problems solved by ozonation",
+          "items": [
+            "Tobacco and hookah odor — complete removal, not masking",
+            "Mustiness and dampness — especially relevant for rooms without natural ventilation",
+            "Sweat and perfume odors from previous guests",
+            "Culinary aromas from room service",
+            "Pet odors (pet-friendly hotels)",
+            "Bacteria and viruses on contact surfaces",
+            "Dust mites in textiles — allergy prevention"
+          ]
+        },
+        "process": {
+          "title": "Room ozonation process",
+          "steps": {
+            "step1": {
+              "title": "Standard cleaning",
+              "description": "Room undergoes regular cleaning: changing linens, wiping surfaces, vacuuming."
+            },
+            "step2": {
+              "title": "Ozonator installation",
+              "description": "Portable ozonator is placed at maximum height (on wardrobe, shelf). Windows and doors are closed."
+            },
+            "step3": {
+              "title": "Ozonation",
+              "description": "Treatment starts. Standard mode: 30-60 minutes at 1 g/h per 25 m³ capacity."
+            },
+            "step4": {
+              "title": "Ventilation",
+              "description": "After treatment — 20-30 minutes ventilation. Ozone decomposes to oxygen, leaving a fresh feeling."
+            }
+          },
+          "table": {
+            "caption": "Hotel room ozonation modes",
+            "headers": ["Situation", "Concentration", "Time", "Result"],
+            "rows": [
+              ["Standard treatment", "5-10 mg/m³", "30 min", "Freshening, light disinfection"],
+              ["After smoker", "15-20 mg/m³", "60-90 min", "Complete odor removal"],
+              ["Heavy contamination", "20-30 mg/m³", "2-3 hours", "Deep deodorization"],
+              ["After infectious guest", "25-35 mg/m³", "2-4 hours", "Complete disinfection"]
+            ]
+          }
+        },
+        "whatIsTreated": {
+          "title": "What is treated with ozone",
+          "intro": "Ozone, being a gas, penetrates all places inaccessible to traditional cleaning:",
+          "items": {
+            "textiles": {
+              "title": "Textiles",
+              "description": "Mattresses, pillows, blankets, curtains, furniture upholstery, carpets"
+            },
+            "furniture": {
+              "title": "Furniture",
+              "description": "Internal cavities of wardrobes, crevices, decorative elements, armrests"
+            },
+            "ventilation": {
+              "title": "Ventilation",
+              "description": "Air ducts, grilles, air conditioning system — source of odors and bacteria"
+            },
+            "bathroom": {
+              "title": "Bathroom",
+              "description": "Tiles, grout, plumbing — places where bacteria and mold accumulate"
+            }
+          }
+        },
+        "benefits": {
+          "title": "Benefits for hotels",
+          "items": [
+            "Higher ratings on Booking, TripAdvisor — reviews about cleanliness and freshness",
+            "Reduced guest complaints about odors — especially in smoking rooms",
+            "Prevention of infection transmission between guests",
+            "Ability to quickly turn over rooms — treatment during time between check-out and check-in",
+            "Reduced costs for air fresheners and fragrances",
+            "Extended textile lifespan — odor removal without dry cleaning"
+          ],
+          "highlight": "Research shows: 87% of guests note \"room freshness\" as an important factor when evaluating a hotel. Ozonation creates a \"just renovated\" room feeling."
+        },
+        "equipment": {
+          "title": "Equipment for hotels",
+          "intro": "For hotels, portable ozonators are recommended, which staff move from room to room after cleaning. This is the optimal solution in terms of price/effectiveness ratio.",
+          "table": {
+            "headers": ["Hotel type", "Recommended equipment", "Quantity"],
+            "rows": [
+              ["Mini-hotel (up to 20 rooms)", "Portable ozonator 5-10 g/h", "1-2 units"],
+              ["Medium hotel (20-100 rooms)", "Portable ozonators 10-20 g/h", "3-5 units"],
+              ["Large hotel (100+ rooms)", "Ozonator fleet + stationary units in common areas", "As calculated"]
+            ]
+          }
+        }
+      },
       "benefits": [
         "Complete removal of tobacco and sweat odors",
         "Disinfection of all surfaces without chemicals",
@@ -30,12 +151,26 @@
         "Automatic operation without staff"
       ],
       "stats": {
-        "processingTime": "60-120",
-        "processingTimeLabel": "Minutes of treatment",
-        "odorRemoval": "100%",
-        "odorRemovalLabel": "Odor removal",
-        "stayIncrease": "+25%",
-        "stayIncreaseLabel": "Stay time"
+        "stat1": {
+          "value": "60-120",
+          "label": "Minutes of treatment",
+          "description": "Full cleaning cycle of the hall"
+        },
+        "stat2": {
+          "value": "100%",
+          "label": "Odor removal",
+          "description": "Tobacco, kitchen, dampness"
+        },
+        "stat3": {
+          "value": "+25%",
+          "label": "Stay time",
+          "description": "Guests stay longer"
+        },
+        "stat4": {
+          "value": "0",
+          "label": "Consumables",
+          "description": "Ozone from air"
+        }
       },
       "problems": [
         "Tobacco and hookah odor — penetrates furniture, curtains, upholstery",
@@ -43,24 +178,170 @@
         "Damp and mold — especially in basements",
         "Ventilation odor — grease buildup in ducts",
         "Restroom odors — enter the hall with poor ventilation",
-        "Bacteria and mold — sources of unpleasant odors"
+        "Bacteria and mold — sources of unpleasant odors",
+        "Household chemical odor — from cleaning agents after cleaning"
       ],
       "zones": {
         "hall": {
           "title": "Dining hall",
-          "desc": "Removal of tobacco, food and perfume odors. Fresh air feeling."
+          "desc": "Removal of tobacco, food and perfume odors. Creating a feeling of freshness and cleanliness for guests."
         },
         "kitchen": {
           "title": "Kitchen",
-          "desc": "Neutralization of grease in ventilation and frying odors."
+          "desc": "Neutralization of grease deposits in ventilation, frying, fish, spice odors."
         },
         "refrigerators": {
           "title": "Cold rooms",
-          "desc": "Disinfection without shutdown. 2–3× longer storage."
+          "desc": "Disinfection without shutdown. 2–3× longer product storage."
         },
         "toilets": {
           "title": "Restrooms",
-          "desc": "Complete odor removal and bacteria destruction."
+          "desc": "Complete odor removal and bacteria destruction on all surfaces."
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Restaurant business is about atmosphere. The smell of a smoky room, stale food or kitchen grease can put off even loyal customers. Research shows that air quality directly affects subconscious perception of service. Ozonation addresses this radically — not masking odors with fragrances but destroying them at the molecular level.",
+          "text2": "Smell is so closely tied to the subconscious that people may not realize why they feel comfortable or not in a venue. They simply say \"liked it\" or \"didn't like it.\" That impression determines whether they return and recommend to friends."
+        },
+        "factHighlight": {
+          "title": "Fact:",
+          "text": "Most Las Vegas casinos use ozonators. Fresh air increases guest stay time and order volume. Ozone also reduces alcohol's effect on the CNS — clients stay alert longer."
+        },
+        "problems": {
+          "title": "Restaurant problems solved by ozonation"
+        },
+        "whyImportant": {
+          "title": "Why odors matter so much",
+          "text": "You can create creative design, hire professional staff, invest in advertising — but an unpleasant smell will negate all efforts. Can a good place smell bad?",
+          "table": {
+            "caption": "Impact of air quality on business metrics",
+            "headers": {
+              "indicator": "Metric",
+              "without": "Without ozonation",
+              "with": "With ozonation"
+            },
+            "rows": {
+              "visitTime": {
+                "indicator": "Average visit time",
+                "without": "45 minutes",
+                "with": "55-60 minutes"
+              },
+              "repeatVisits": {
+                "indicator": "Repeat visits",
+                "without": "35%",
+                "with": "52%"
+              },
+              "cleanlinessRating": {
+                "indicator": "\"Cleanliness\" rating in reviews",
+                "without": "3.8/5",
+                "with": "4.6/5"
+              },
+              "odorComplaints": {
+                "indicator": "Odor complaints",
+                "without": "12% of guests",
+                "with": "<1% of guests"
+              },
+              "avgCheck": {
+                "indicator": "Average check",
+                "without": "Baseline",
+                "with": "+15-20%"
+              }
+            }
+          }
+        },
+        "process": {
+          "title": "Restaurant ozonation process",
+          "steps": {
+            "closure": {
+              "title": "Closure",
+              "description": "Ozonation is done during off-hours when there are no people in the premises."
+            },
+            "preparation": {
+              "title": "Preparation",
+              "description": "Windows and doors are closed, supply ventilation is turned off for maximum ozone concentration."
+            },
+            "ozonation": {
+              "title": "Ozonation",
+              "description": "Ozonator is placed at maximum height. Treatment time: 60-120 minutes depending on volume."
+            },
+            "ventilation": {
+              "title": "Ventilation",
+              "description": "Ventilation is turned on, windows are opened. In 2-3 hours ozone decays to safe levels."
+            }
+          },
+          "automation": {
+            "title": "Automation:",
+            "text": "Modern ozonators have weekly timers. You can set automatic start after closing — by morning the air will be perfectly fresh."
+          }
+        },
+        "zones": {
+          "title": "Application zones in restaurants"
+        },
+        "calculation": {
+          "title": "Equipment calculation",
+          "text": "Ozonator capacity is selected at: 1 g/hour per 25 m³ of room volume.",
+          "table": {
+            "caption": "Calculation examples for different venues",
+            "headers": {
+              "type": "Venue type",
+              "area": "Area",
+              "volume": "Volume",
+              "ozonator": "Ozonator"
+            },
+            "rows": {
+              "smallCafe": {
+                "type": "Small cafe",
+                "area": "40-60 m²",
+                "volume": "120-180 m³",
+                "ozonator": "5-7 g/hour"
+              },
+              "mediumRestaurant": {
+                "type": "Medium restaurant",
+                "area": "100-200 m²",
+                "volume": "300-600 m³",
+                "ozonator": "12-24 g/hour"
+              },
+              "largeRestaurant": {
+                "type": "Large restaurant/banquet hall",
+                "area": "300+ m²",
+                "volume": "900+ m³",
+                "ozonator": "36+ g/hour or multiple units"
+              },
+              "hookahLounge": {
+                "type": "Hookah lounge",
+                "area": "50-100 m²",
+                "volume": "150-300 m³",
+                "ozonator": "6-12 g/hour (daily treatment)"
+              }
+            }
+          }
+        },
+        "additionalUses": {
+          "title": "Additional ozone applications",
+          "items": [
+            "Sterilization of dishes and equipment without chemicals",
+            "Product treatment to extend storage (fish, meat, greens)",
+            "Staff hand disinfection with ozonated water (good for skin)",
+            "Water cleaning in decorative ponds and aquariums",
+            "Post-treatment of tap water to drinking quality",
+            "Mold control in basement premises and storerooms"
+          ],
+          "savings": {
+            "title": "Savings:",
+            "text": "One ozonator can treat both air and water. Compact mobile models serve different rooms and solve different tasks."
+          }
+        },
+        "benefits": {
+          "title": "Business benefits",
+          "items": [
+            "Higher guest loyalty — comfortable atmosphere is memorable",
+            "Higher average check — fresh air stimulates appetite",
+            "Longer stay time — guests don't rush to leave",
+            "Fewer odor complaints — reputation protection on review sites",
+            "No consumables — ozone is produced from air",
+            "Automatic operation — minimal staff involvement"
+          ]
         }
       }
     },
@@ -81,12 +362,162 @@
       "stats": {
         "energySaving": "70-100%",
         "energySavingLabel": "Heating savings",
+        "energySavingDesc": "Cold-water washing",
         "chemistrySaving": "30-50%",
         "chemistrySavingLabel": "Chemical savings",
+        "chemistrySavingDesc": "Less detergent and bleach",
         "linenLife": "+30%",
         "linenLifeLabel": "Linen life",
+        "linenLifeDesc": "Without harsh chemicals and heating",
         "disinfection": "99.9%",
-        "disinfectionLabel": "Disinfection"
+        "disinfectionLabel": "Disinfection",
+        "disinfectionDesc": "Even in cold water"
+      },
+      "sections": {
+        "intro": {
+          "text": "Water ozonation in laundries is an advanced technology that significantly reduces detergent, hot water and energy use, and extends linen life and shortens wash time. Ozone dissolves in water and replaces part of the chemicals, ensuring superior cleaning quality.",
+          "text2": "This is a fundamental change in washing: you replace harsh chemistry with something that works much better. So much better that water and time use can also be reduced while achieving superior results."
+        },
+        "highlight1": {
+          "title": "How it works:",
+          "text": "Ozone is a strong oxidizer. With a small amount of alkali, cold water and detergent you can achieve cleaning and brightness equal to or better than chlorine and hot water."
+        },
+        "economicEffects": {
+          "title": "Economic effects",
+          "comparisonTitle": "Comparison of traditional and ozone washing",
+          "headers": ["Parameter", "Ozone washing", "Traditional"],
+          "rows": [
+            {
+              "parameter": "Water temperature",
+              "value1": "Cold (15-25°C)",
+              "value2": "Hot (60-90°C)"
+            },
+            {
+              "parameter": "Electricity consumption",
+              "value1": "70-100% less",
+              "value2": "Baseline"
+            },
+            {
+              "parameter": "Detergent consumption",
+              "value1": "30-50% less",
+              "value2": "Baseline"
+            },
+            {
+              "parameter": "Water consumption",
+              "value1": "20-40% less",
+              "value2": "Baseline"
+            },
+            {
+              "parameter": "Linen wear",
+              "value1": "Minimal",
+              "value2": "Increased"
+            },
+            {
+              "parameter": "Disinfection",
+              "value1": "99.9%",
+              "value2": "95-98%"
+            }
+          ]
+        },
+        "coldWater": {
+          "title": "Why cold water is more effective",
+          "text": "Washing quality depends on 4 factors: water temperature, chemicals, wash time and mechanical action. Using ozone, you can replace chemistry and temperature with a more effective solution.",
+          "items": [
+            "Ozone creates hydroxyl radicals (OH) at pH 8 in cold water — the same as at high pH with hot water",
+            "The colder the water, the more stable ozone is and the longer it works",
+            "Above 95°C ozone loses effectiveness due to faster decay",
+            "Cold water does not damage fabric fibers — linen lasts longer",
+            "Absence of chlorine bleach with hot water prevents chemical reactions that damage fabric"
+          ]
+        },
+        "process": {
+          "title": "Technological process",
+          "tableCaption": "Comparison of washing components",
+          "tableHeaders": ["Traditional laundry", "Ozone laundry"],
+          "tableRows": [
+            ["Hot water", "Cold water"],
+            ["Alkali", "Ozone"],
+            ["Detergent", "Detergent (less)"],
+            ["Acid (neutralization)", "—"],
+            ["Bleach", "—"]
+          ],
+          "text": "Ozone spontaneously decomposes to oxygen and does not require removal unlike traditional chemicals. This allows reducing the number of rinses by 20-40%."
+        },
+        "benefits": {
+          "title": "Benefits of ozonation in laundries",
+          "items": [
+            {
+              "title": "Energy savings",
+              "description": "70-100% reduction in water heating costs. Complete washing in cold water."
+            },
+            {
+              "title": "Improved disinfection",
+              "description": "Ozone effectively destroys viruses and bacteria even at low temperatures."
+            },
+            {
+              "title": "Softer linen",
+              "description": "No chemicals remain in fibers. Linen becomes softer."
+            },
+            {
+              "title": "Better whitening",
+              "description": "Strong oxidizing properties of ozone ensure brightness without chlorine."
+            }
+          ]
+        },
+        "ozoneClosets": {
+          "title": "Ozone cabinets for dry cleaners",
+          "desc": "Dry cleaners use ozone cabinets — sealed chambers filled with high-concentration ozone. As a gas, ozone penetrates the densest fabrics and hard-to-reach areas.",
+          "steps": [
+            {
+              "title": "Treatment of delicate items",
+              "description": "Theatrical costumes, vintage, fur coats, leather jackets, motorcycle helmets, hockey gear. No mechanical action or heating — minimal risk of damage."
+            },
+            {
+              "title": "Odor removal (deodorization)",
+              "description": "Fire smoke, ingrained tobacco smoke, biological odors, animal odors, mustiness. Ozone destroys the cause of odor at the molecular level."
+            },
+            {
+              "title": "Disinfection",
+              "description": "Destroys cell membranes of bacteria, virus envelopes and fungal spores. Ideal for children's items and bedding."
+            },
+            {
+              "title": "Monetization",
+              "description": "Service is sold as an additional option (upsell) or as a separate VIP service. Cycle cost is minimal."
+            }
+          ]
+        },
+        "equipment": {
+          "title": "Equipment selection",
+          "tableHeaders": ["Laundry type", "Recommended equipment", "Cost"],
+          "tableRows": [
+            ["Small laundry", "Ozone generator 5 g/h", "from 250,000 ₽"],
+            ["Hotel laundry", "Ozone generator 10 g/h", "from 320,000 ₽"],
+            ["Commercial laundry", "Ozone generator 20 g/h", "from 420,000 ₽"],
+            ["Dry cleaner (700L cabinet)", "Ozone cabinet OZ-1S", "from 420,000 ₽"],
+            ["Dry cleaner (1400L cabinet)", "Ozone cabinet OZ-2S", "from 500,000 ₽"]
+          ],
+          "highlightTitle": "Important:",
+          "highlightText": "Ozone generator capacity calculation depends on contamination volume, water quality and equipment specifications. A pilot project may be required for accurate selection."
+        },
+        "limitations": {
+          "title": "Technology limitations",
+          "text": "In some cases, a small amount of hot water will still need to be used. Cold water is not suitable for working with greasy stains (lipstick, shoe polish, ink) due to the physical nature of fat at low temperatures.",
+          "items": [
+            "Heavily soiled linen with greasy stains requires a separate program with hot fill",
+            "Such loads usually make up a very small percentage of total volume",
+            "For the remaining 90%+ of linen, ozone washing in cold water is the optimal solution"
+          ]
+        },
+        "roi": {
+          "title": "ROI and payback",
+          "items": [
+            "50-70% reduction in electricity bills (water heating is the main expense)",
+            "30-50% savings on detergents and bleaches",
+            "30%+ extension of linen life (fewer replacements)",
+            "Reduced wash time — more cycles per day",
+            "Typical payback period: 12-18 months"
+          ]
+        }
       },
       "ozoneClosets": {
         "title": "Ozone cabinets for dry cleaners",
@@ -129,6 +560,8 @@
         "Hard-to-reach areas — crevices, seams, cavities"
       ],
       "modes": {
+        "title": "Treatment modes",
+        "tableHeaders": ["Mode", "Time", "Frequency", "Result"],
         "daily": {
           "title": "Daily prevention",
           "time": "60 minutes",
@@ -146,6 +579,11 @@
           "time": "2-3 hours",
           "frequency": "3-5 days in a row",
           "result": "Complete removal"
+        }
+      },
+      "sections": {
+        "benefits": {
+          "title": "Benefits"
         }
       }
     },
@@ -166,12 +604,16 @@
       "stats": {
         "processingTime": "1-3",
         "processingTimeLabel": "Hours of treatment",
+        "processingTimeDesc": "Night treatment",
         "odorRemoval": "100%",
         "odorRemovalLabel": "Odor removal",
+        "odorRemovalDesc": "Chemical neutralization",
         "stayIncrease": "+30%",
         "stayIncreaseLabel": "Time in store",
+        "stayIncreaseDesc": "Customer comfort",
         "disinfection": "99.9%",
-        "disinfectionLabel": "Disinfection"
+        "disinfectionLabel": "Disinfection",
+        "disinfectionDesc": "Bacteria and mites"
       },
       "businessImpact": {
         "visitTime": {
@@ -197,7 +639,219 @@
         "Room disinfection — infection spread prevention",
         "Mold removal — relevant for basement premises",
         "Marketing advantage — odor-free secondhand store"
-      ]
+      ],
+      "sections": {
+        "intro": {
+          "p1": "The characteristic odor of clothing in secondhand stores comes from mandatory disinfection. Before sale, items are treated with formaldehyde or methyl bromide gas to kill viruses and bacteria. The disinfectants dissipate by the time clothes reach the shelves, but the characteristic smell remains.",
+          "p2": "This odor is the main retail problem in secondhand. It fills the whole store and triggers unpleasant associations with worn clothing. Some customers spend less time in the store because of discomfort, which directly affects sales volume."
+        },
+        "businessProblem": {
+          "title": "Business problem:",
+          "text": "Odor affects perceived product quality. Customers subconsciously pay less for items with an unpleasant smell, even if they are in excellent condition."
+        },
+        "businessImpact": {
+          "title": "Impact of odor on sales",
+          "table": {
+            "caption": "How odor affects business metrics",
+            "headers": {
+              "indicator": "Metric",
+              "without": "With odor",
+              "with": "After ozonation"
+            },
+            "rows": {
+              "visitTime": {
+                "indicator": "Average visit time"
+              },
+              "conversion": {
+                "indicator": "Conversion to purchase"
+              },
+              "avgCheck": {
+                "indicator": "Average check"
+              },
+              "repeatVisits": {
+                "indicator": "Repeat visits"
+              },
+              "odorComplaints": {
+                "indicator": "Negative reviews about odor",
+                "without": "35%",
+                "with": "<5%"
+              }
+            }
+          }
+        },
+        "benefits": {
+          "title": "Benefits of ozonation",
+          "items": {
+            "odorRemoval": {
+              "title": "Complete odor removal",
+              "description": "Ozone neutralizes disinfectant molecules rather than masking them. Result — fresh air."
+            },
+            "noUnloading": {
+              "title": "Treatment without unloading",
+              "description": "All merchandise is treated simultaneously, no need to remove items from hangers."
+            },
+            "additionalDisinfection": {
+              "title": "Additional disinfection",
+              "description": "Ozone destroys bacteria, viruses and dust mites — additional quality guarantee."
+            },
+            "customerComfort": {
+              "title": "Customer comfort",
+              "description": "Pleasant atmosphere in store = more time to choose = more purchases."
+            }
+          }
+        },
+        "process": {
+          "title": "Ozonation process",
+          "steps": {
+            "preparation": {
+              "title": "Room preparation",
+              "description": "Store closes. Windows and doors closed. Supply ventilation turned off for maximum ozone concentration."
+            },
+            "placement": {
+              "title": "Ozonator placement",
+              "description": "Wall-mounted ozonator placed 40-60 cm from ceiling. Mobile — at maximum height."
+            },
+            "ozonation": {
+              "title": "Ozonation",
+              "description": "Treatment mode activated for 1-3 hours depending on room volume."
+            },
+            "ventilation": {
+              "title": "Ventilation or waiting",
+              "description": "For night treatment, ventilation is not needed — ozone dissipates on its own in 2-3 hours. By store opening, only a light freshness smell remains."
+            }
+          }
+        },
+        "calculation": {
+          "title": "Equipment calculation",
+          "text": "Ozonator capacity is selected at: 1 g/hour per 25 m³ of room volume.",
+          "table": {
+            "caption": "Ozonator selection recommendations",
+            "headers": {
+              "area": "Store area",
+              "volume": "Volume",
+              "ozonator": "Ozonator",
+              "time": "Treatment time"
+            },
+            "rows": {
+              "small": {
+                "area": "50-100 m²",
+                "volume": "150-300 m³",
+                "ozonator": "10 g/hour",
+                "time": "1-2 hours"
+              },
+              "medium": {
+                "area": "100-200 m²",
+                "volume": "300-600 m³",
+                "ozonator": "10-20 g/hour",
+                "time": "2-3 hours"
+              },
+              "large": {
+                "area": "200-400 m²",
+                "volume": "600-1200 m³",
+                "ozonator": "20-40 g/hour",
+                "time": "2-3 hours"
+              },
+              "veryLarge": {
+                "area": "400+ m²",
+                "volume": "1200+ m³",
+                "ozonator": "Multiple units",
+                "time": "2-3 hours"
+              }
+            }
+          }
+        },
+        "workMode": {
+          "title": "Operating mode",
+          "items": {
+            "daily": "Daily night treatment — optimal mode",
+            "automatic": "Automatic start on timer after store closing",
+            "ventilation": "By morning ozone completely dissipates, freshness remains",
+            "automation": "No staff involvement required — full automation",
+            "initial": "For strong odor — first 3-5 days treatment for 2-3 hours"
+          },
+          "protection": {
+            "title": "Protective equipment:",
+            "text": "If staff is in the room during ozonation (e.g., to turn on the unit), a respirator or gas mask with charcoal filter is required."
+          }
+        },
+        "economics": {
+          "title": "Solution economics",
+          "table": {
+            "headers": {
+              "expense": "Expense item",
+              "without": "Without ozonation",
+              "with": "With ozonation"
+            },
+            "rows": {
+              "fresheners": {
+                "expense": "Air fresheners",
+                "without": "5-15 thousand ₽/month",
+                "with": "0 ₽"
+              },
+              "electricity": {
+                "expense": "Electricity",
+                "without": "—",
+                "with": "500-1000 ₽/month"
+              },
+              "losses": {
+                "expense": "Losses from dissatisfied customers",
+                "without": "Significant",
+                "with": "Minimal"
+              },
+              "equipment": {
+                "expense": "Equipment cost",
+                "without": "—",
+                "with": "22-35 thousand ₽ (one-time)"
+              }
+            }
+          },
+          "payback": {
+            "title": "Payback:",
+            "text": "With savings of 10 thousand ₽/month on air fresheners, the ozonator pays for itself in 2-3 months. Further operation — only electricity cost."
+          }
+        },
+        "additionalAdvantages": {
+          "title": "Additional advantages",
+          "items": {
+            "0": "Higher product appeal — items perceived as better quality",
+            "1": "Destruction of dust mites — important for allergy sufferers",
+            "2": "Room disinfection — infection spread prevention",
+            "3": "Mold removal — relevant for basement premises",
+            "4": "Marketing advantage — odor-free secondhand store"
+          }
+        },
+        "equipment": {
+          "title": "Recommended equipment",
+          "table": {
+            "headers": {
+              "model": "Model",
+              "capacity": "Capacity",
+              "application": "Application",
+              "cost": "Cost"
+            },
+            "rows": {
+              "model1": {
+                "model": "OZ-A10",
+                "capacity": "10 g/hour",
+                "application": "Stores up to 250 m³",
+                "cost": "from 22,000 ₽"
+              },
+              "model2": {
+                "model": "OZ-A10(N)",
+                "capacity": "10 g/hour",
+                "application": "Wall-mounted installation",
+                "cost": "from 32,000 ₽"
+              },
+              "model3": {
+                "model": "OZ-A20",
+                "capacity": "20 g/hour",
+                "application": "Stores up to 500 m³",
+                "cost": "from 34,000 ₽"
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

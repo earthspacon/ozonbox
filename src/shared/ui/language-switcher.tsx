@@ -6,6 +6,8 @@ import { useEffect, useRef, useState } from 'react'
 
 import { LANG_LS_KEY, LOCALES, TLocale } from '@/shared/config/tolgee'
 
+import { useIsLangInRoute, useLang } from '../lib'
+
 const FLAGS: Record<TLocale, string> = {
   ru: '🇷🇺',
   en: '🇬🇧',
@@ -19,7 +21,8 @@ export function LanguageSwitcher() {
   const [isOpen, setIsOpen] = useState(false)
   const dropdownRef = useRef<HTMLDivElement>(null)
 
-  const currentLang = (tolgee.getLanguage() || 'ru') as TLocale
+  const hasLangInRoute = useIsLangInRoute()
+  const currentLang = useLang()
   const currentLocale = LOCALES[currentLang]
 
   useEffect(() => {
@@ -32,28 +35,19 @@ export function LanguageSwitcher() {
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [])
 
-  const handleLanguageChange = async (lang: TLocale) => {
-    setIsOpen(false)
-    localStorage.setItem(LANG_LS_KEY, lang)
+  const handleLanguageChange = async (newLang: TLocale) => {
+    tolgee.changeLanguage(newLang)
+    localStorage.setItem(LANG_LS_KEY, newLang)
 
-    // Navigate to the same page with new language
-    const { pathname, query } = router
-    const currentPath = pathname
-
-    // Determine the new path
-    let newPath: string
-    if (currentPath.startsWith('/[lang]')) {
-      // We're on a localized page, replace the lang param
-      newPath = currentPath.replace('[lang]', lang)
-    } else if (currentPath === '/') {
-      // Root page, go to localized version
-      newPath = `/${lang}`
+    if (hasLangInRoute) {
+      const segments = router.asPath.split('/')
+      segments[1] = newLang
+      router.replace(segments.join('/'))
     } else {
-      // Other pages, prepend with lang
-      newPath = `/${lang}${currentPath}`
+      router.replace(`/${newLang}${router.asPath}`)
     }
 
-    await router.push({ pathname: newPath, query }, undefined, { shallow: false })
+    setIsOpen(false)
   }
 
   return (

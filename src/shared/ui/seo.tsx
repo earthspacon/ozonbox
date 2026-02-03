@@ -4,7 +4,7 @@ const TITLE_SUFFIX = ' — OzonOxy'
 
 function toMetaString(value: unknown): string {
   if (typeof value === 'string') return value
-  if (value == null) return ''
+  if (value == null || typeof value === 'object') return ''
   return String(value)
 }
 

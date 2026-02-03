@@ -1,4 +1,4 @@
-import { useTranslate } from '@tolgee/react'
+import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
@@ -9,7 +9,6 @@ import {
   ArticleContainer,
   ArticleContent,
   ArticleHero,
-  Breadcrumb,
   Paragraph,
   QuoteBlock,
   SourcesList,
@@ -41,7 +40,7 @@ function parseSources(raw: unknown): { title: string; url: string }[] {
   return []
 }
 
-export function OzoneGrainProtectionPage() {
+export function OzoneGrainProtectionPage({ staticData }: { staticData: TolgeeStaticDataProp }) {
   const { t } = useTranslate()
   const lang = useLang()
   const hasLangInRoute = useIsLangInRoute()
@@ -60,15 +59,21 @@ export function OzoneGrainProtectionPage() {
     )
   }
 
-  const sources = parseSources(t('sources', { ns: ARTICLE_NS, returnObjects: true }))
+  const nsData = (staticData as Record<string, { sources?: unknown }>)[`${lang}:${ARTICLE_NS}`]
+  const sources = parseSources(nsData?.sources)
   const masonQuote = t('body.masonQuote', { ns: ARTICLE_NS, defaultValue: '' })
   const origin = t('body.origin', { ns: ARTICLE_NS, defaultValue: '' })
 
   return (
     <Layout>
       <Seo title={t('title', { ns: ARTICLE_NS })} description={t('excerpt', { ns: ARTICLE_NS })} />
-      <Breadcrumb
-        items={[
+      <ArticleHero
+        title={t('title', { ns: ARTICLE_NS })}
+        description={t('excerpt', { ns: ARTICLE_NS })}
+        image={article.image}
+        imageAlt={t('title', { ns: ARTICLE_NS })}
+        backLink={{ href: backHref, label: t('list.backToArticles', { ns: NAMESPACES.articles }) }}
+        breadcrumbs={[
           { label: t('footer.home', { ns: NAMESPACES.common }), href: '/' },
           {
             label: t('nav.articles', { ns: NAMESPACES.common }),
@@ -76,13 +81,6 @@ export function OzoneGrainProtectionPage() {
           },
           { label: t('title', { ns: ARTICLE_NS }) },
         ]}
-      />
-      <ArticleHero
-        title={t('title', { ns: ARTICLE_NS })}
-        description={t('excerpt', { ns: ARTICLE_NS })}
-        image={article.image}
-        imageAlt={t('title', { ns: ARTICLE_NS })}
-        backLink={{ href: backHref, label: t('list.backToArticles', { ns: NAMESPACES.articles }) }}
       />
       <ArticleContainer>
         <ArticleContent>

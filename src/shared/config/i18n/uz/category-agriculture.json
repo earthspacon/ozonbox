@@ -6,6 +6,28 @@
       "title": "Poultry farming",
       "shortDesc": "Disinfection of eggs, incubators and poultry house premises",
       "content": "Ozonation is a key technology for modern poultry farms. Ozone use covers all production stages: from egg incubation to storage of finished product.\n\nOzone effectively disinfects hatching eggs with 92–98% efficiency, destroying Salmonella, E. coli and other pathogens without damaging the shell. This increases hatchability by 0.8–2.0% and reduces early mortality.\n\nPoultry house ozonation destroys up to 99.9% of bacteria, viruses and fungi in the air and on surfaces. Regular air ozonation reduces flock morbidity and improves weight gain and feed conversion.\n\nOzonated drinking water contains more oxygen and has no pathogenic microflora, which positively affects flock health and productivity.",
+      "stats": {
+        "disinfection": {
+          "value": "92–98%",
+          "label": "Disinfection efficiency",
+          "description": "Pathogen destruction on egg shells"
+        },
+        "hatchability": {
+          "value": "+2%",
+          "label": "Hatchability",
+          "description": "Increased hatchability during incubation"
+        },
+        "moldReduction": {
+          "value": "97%",
+          "label": "Mold reduction",
+          "description": "In feed after ozonation"
+        },
+        "storageExtension": {
+          "value": "4×",
+          "label": "Storage extension",
+          "description": "Chilled meat storage life"
+        }
+      },
       "benefits": [
         "92–98% egg disinfection",
         "Up to 2% higher hatchability",
@@ -13,25 +35,288 @@
         "Clean drinking water without chemicals",
         "Extended poultry meat shelf life",
         "Reduced mortality and morbidity"
-      ]
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Ozonation is a key technology for modern industrial poultry farming. Thanks to ozone's unique antibacterial properties, environmental purity, safety and ease of use, the technology finds application at all production stages: from egg incubation to storage of finished product.",
+          "paragraph2": "Poor microclimate and bacterial contamination in facilities reduce laying hen egg production by 25% and average daily gain by 10%. Ozonation solves these problems without using chemical agents that can enter food products.",
+          "warningLabel": "Important:",
+          "warningText": "Maximum permissible ozone concentration for poultry is up to 1.2 mg/m³ — 12 times higher than for humans (0.1 mg/m³). This allows effective treatment in the presence of birds when regimes are followed."
+        },
+        "applications": {
+          "title": "Ozone applications in poultry farming",
+          "items": [
+            "Egg incubation — stimulation of embryonic development and increased hatchability",
+            "Hatching egg disinfection — poultry disease prevention",
+            "Product processing and storage — improved preservation and nutritional value",
+            "Feed disinfection — reduced microflora and toxins",
+            "Water disinfection and air sanitation — increased poultry productivity",
+            "Poultry farm wastewater treatment"
+          ]
+        },
+        "incubation": {
+          "title": "Egg incubation: increased hatchability",
+          "intro": "Treatment of hatching eggs with ozone (~10 mg/m³) improves their quality and increases hatchability with subsequent high viability. In the confined space of an incubator, there is a risk of oxygen starvation of embryos. Ozone, as a derivative of oxygen, improves the air environment and, penetrating through the shell, nourishes embryos with oxygen.",
+          "stats": {
+            "eggLayers": {
+              "value": "780 → 12",
+              "label": "Pathogenic microflora",
+              "description": "Colony count/cm³ on egg-laying chicken egg shells before and after ozonation"
+            },
+            "meatChickens": {
+              "value": "913 → 24",
+              "label": "Meat chickens",
+              "description": "Colony count/cm³ on meat chicken egg shells before and after ozonation"
+            }
+          },
+          "tableCaption": "Results of hatching egg ozonation",
+          "tableHeaders": ["Bird type", "Hatchability without ozone, %", "Hatchability with ozone, %", "Survival without ozone, %", "Survival with ozone, %"],
+          "tableData": [
+            ["Laying hens", "83.9", "86.4", "97.0", "97.8"],
+            ["Meat chickens", "79.4", "81.8", "93.3", "94.8"]
+          ],
+          "highlight": "VNITIP recommendations: long-term storage of hatching eggs in an ozone environment prevents premature spoilage, reduces shell contamination by 2–7 times, prevents mold development and extends storage life to 10 days."
+        },
+        "airDisinfection": {
+          "title": "Air disinfection on poultry farms",
+          "intro1": "As a result of bird activity, poultry house air becomes contaminated with harmful substances: ammonia (up to 0.3–0.5 mg/l at MPC 0.01 mg/l), hydrogen sulfide, carbon dioxide, organic dust with microflora (up to 30–50 mg/l).",
+          "intro2": "Ozonation in a recirculation system allows air cleaning without significant ventilation and heating costs.",
+          "tableCaption": "Poultry house air cleaning efficiency (ozone concentration 11.3 mg/l)",
+          "tableHeaders": ["Parameter", "Before treatment", "After treatment"],
+          "tableData": [
+            ["Hydrogen sulfide, mg/l", "0.15", "0.0002"],
+            ["Ammonia, mg/l", "0.12", "0.004"],
+            ["Carbon dioxide, mg/l", "14.2", "0.2"],
+            ["Organic dust, mg/l", "18.1", "—"],
+            ["Oxygen, % vol.", "21.2", "21.7"],
+            ["Microflora, colonies/m³", "27,480", "< 200"]
+          ],
+          "highlight": "Periodic ozonation (8–12 hours once every 3–5 days) reduces harmful gas content by 80–85% and bacterial and mold contamination by 80–90%."
+        },
+        "feedDisinfection": {
+          "title": "Feed disinfection",
+          "intro": "Microflora and mold fungi in feed produce toxins that pose a threat to bird health. Ozone treatment of feed significantly reduces microflora and toxins, increases biological value and feed digestibility.",
+          "tableCaption": "Feed ozonation efficiency",
+          "tableHeaders": ["Parameter", "Wheat without ozone", "Wheat with ozone", "Feed without ozone", "Feed with ozone"],
+          "tableData": [
+            ["Microflora, colonies/g", "945", "63", "27,840", "91"],
+            ["Toxins, mg/kg", "5.11", "0.12", "4.87", "0.18"]
+          ]
+        },
+        "storage": {
+          "title": "Extended poultry meat storage",
+          "intro": "Positive effect in meat storage is achieved with daily ozonation for 2 hours at ozone concentration ~6 mg/m³. Poultry meat preservation in chilled form (+4°C) increases 4 times.",
+          "tableTitle": "Poultry meat storage comparison",
+          "tableHeaders": {
+            "0": "Parameter",
+            "1": "With ozone",
+            "2": "Without ozone"
+          },
+          "tableData": [
+            { "parameter": "Maximum storage life", "value1": "18–21 days", "value2": "5–7 days" },
+            { "parameter": "Weight loss", "value1": "7.6%", "value2": "10.9%" },
+            { "parameter": "Carcass color", "value1": "Light yellow", "value2": "Yellow" },
+            { "parameter": "Meat odor", "value1": "Characteristic of fresh", "value2": "Musty, putrid" },
+            { "parameter": "Bacterial contamination after storage", "value1": "65 colonies/ml", "value2": "736 colonies/ml" }
+          ],
+          "highlight": "After 20 days of storage, meat with ozonation maintained initial freshness and tenderness without odor. Without treatment — greenish color and putrid odor after just 5 days."
+        },
+        "modes": {
+          "title": "Ozonation regimes in poultry farming",
+          "tableHeaders": ["Ozonation purpose", "Concentration", "Treatment time", "Frequency"],
+          "tableData": [
+            ["Preventive egg disinfection", "8–12 mg/m³", "60 min", "Once before loading"],
+            ["Disinfection during incubation", "8–12 mg/m³", "30 min", "6 hours after loading"],
+            ["Hatching egg storage", "4–15 mg/m³", "120–180 min", "Once daily"],
+            ["Embryonic development stimulation", "~10 mg/m³", "20 min", "Once daily throughout period"],
+            ["Poultry house air disinfection", "8–12 mg/m³", "5–10 min", "2–3 times daily"],
+            ["Grain storage treatment", "8–12 mg/m³", "60–120 min", "Once daily"],
+            ["Meat treatment during storage", "~6 mg/m³", "120 min", "1–2 times daily"]
+          ]
+        },
+        "benefits": {
+          "title": "Benefits of ozonation in poultry farming",
+          "items": [
+            {
+              "title": "Environmental purity",
+              "description": "Ozone decomposes to oxygen without leaving chemical residues in products"
+            },
+            {
+              "title": "Safety",
+              "description": "Safer than formaldehyde and chlorine, which are carcinogenic or have side effects"
+            },
+            {
+              "title": "Versatility",
+              "description": "Single equipment for eggs, feed, water, air and products"
+            },
+            {
+              "title": "Economy",
+              "description": "Produced on-site from air, requires no reagent storage"
+            }
+          ]
+        }
+      }
     },
     "livestock": {
-      "title": "Livestock farming",
-      "shortDesc": "Farm disinfection, feed treatment and extended meat storage",
-      "content": "In livestock farming, ozonation addresses a range of tasks: from maintaining sanitary conditions to extending meat product shelf life.\n\nAir ozonation in livestock buildings reduces concentrations of pathogens, ammonia and unpleasant odors. This improves microclimate, reduces animal stress and respiratory disease risk.\n\nFor meat storage, ozonation ensures destruction of surface microflora on carcasses while preserving nutritional and sensory quality. Regular cold room ozonation can extend chilled meat shelf life 2–5 times.\n\nOzone concentration of 10 mg/m³ for 2–5 hours ensures complete destruction of mesophilic and psychrotrophic microflora on meat surface at 1–4°C.",
+      "title": "Chorvachilik",
+      "shortDesc": "Fermalarni dezinfeksiya qilish, yem-xashakni qayta ishlash va go'sht mahsulotlarini saqlash muddatini uzaytirish",
+      "content": "Chorvachilikda ozonlash bir qator vazifalarni hal qiladi: binolarning sanitariya holatini saqlashdan tortib go'sht mahsulotlarini saqlash muddatini uzaytirishgacha.\n\nChorvachilik binolaridagi havoni ozonlash patogenlar, ammiak va yoqimsiz hidlar kontsentratsiyasini kamaytiradi. Bu mikroklimanni yaxshilaydi, hayvonlar stressini va nafas olish kasalliklari xavfini kamaytiradi.\n\nGo'sht mahsulotlarini saqlashda ozonlash tana yuzasidagi mikroflorani yo'q qiladi va mahsulotning ozuqaviy va sezgi xususiyatlarini saqlaydi. Muntazam ozonlash sovutgich kameralarida sovutilgan go'shtni saqlash muddatini 2-5 marta uzaytiradi.\n\n1-4°C haroratda 2-5 soat davomida 10 mg/m³ ozon kontsentratsiyasi go'sht yuzasidagi mezofil va psixrotrof mikroflorani to'liq yo'q qiladi.",
+      "stats": {
+        "microfloraReduction": {
+          "value": "80-90%",
+          "label": "Mikroflorani kamaytirish",
+          "description": "Chorvachilik binolaridagi havoda"
+        },
+        "morbidityReduction": {
+          "value": "30-50%",
+          "label": "Kasallanishni kamaytirish",
+          "description": "Chorva hayvonlarida nafas olish infeksiyalari"
+        },
+        "productivityGrowth": {
+          "value": "10-15%",
+          "label": "Unumdorlik o'sishi",
+          "description": "O'rtacha kunlik vazn o'sishi va sut mahsuldorligi"
+        },
+        "antibiotics": {
+          "value": "0",
+          "label": "Antibiotiklar",
+          "description": "Ekologik toza mahsulotlar"
+        }
+      },
       "benefits": [
-        "2–5 times longer meat shelf life",
-        "99.9% cold room disinfection",
-        "Reduced flock morbidity",
-        "Ammonia and odor removal",
-        "Preserved product quality",
-        "Operation at subzero temperatures"
-      ]
+        "Go'shtni saqlash muddati 2-5 marta uzayadi",
+        "Sovutgich kameralarni 99,9% dezinfeksiya qilish",
+        "Chorva hayvonlarida kasallanishni kamaytirish",
+        "Ammiak va yoqimsiz hidlarni yo'q qilish",
+        "Mahsulotning ozuqaviy xususiyatlarini saqlash",
+        "Salbiy haroratlarda ishlash"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Zamonaviy chorvachilik jiddiy muammolarga duch kelmoqda: antibiotiklarga chidamlilikning o'sishi, mahsulotlarning ekologik tozaligiga qo'yiladigan qat'iy talablar va xarajatlarni kamaytirish bilan unumdorlikni oshirish zarurati. Ozonlash bu muammolarni kompleks hal qiladigan texnologiyadir.",
+          "paragraph2": "Chorvachilikda ozon qo'llash kasallanishni 30-50% kamaytirish, unumdorlikni 10-15% oshirish va profilaktik antibiotiklardan foydalanishni to'xtatishga imkon beradi. Bu Yevropa Ittifoqining antibiotiklarni o'sish stimulyatorlari sifatida ishlatishni taqiqlashi kontekstida ayniqsa muhimdir."
+        },
+        "pdkInfo": {
+          "label": "Hayvonlar uchun ozon MPC:",
+          "text": "qoramol va cho'chqalar uchun 1,0 mg/m³ gacha, parrandalar uchun 1,2 mg/m³ gacha. Bu rejimlarga rioya qilgan holda hayvonlar mavjud bo'lganda profilaktik muolajalarni o'tkazishga imkon beradi."
+        },
+        "applications": {
+          "title": "Ozon qo'llash yo'nalishlari",
+          "items": [
+            "Hayvonlar yashaydigan binolarda havoni dezinfeksiya qilish",
+            "Ichimlik suvini dezinfeksiya qilish",
+            "Yem-xashakni qayta ishlash — mikotoksinlar va patogenlarni kamaytirish",
+            "Sut uskunalari va idishlarni dezinfeksiya qilish",
+            "Go'ng va chiqindilarni qayta ishlash",
+            "Tug'ruqxonalarni sanitatsiya qilish"
+          ]
+        },
+        "airDisinfection": {
+          "title": "Binolarda havoni dezinfeksiya qilish",
+          "intro": "Chorvachilik binolaridagi havo ammiak, vodorod sulfidi, chang va mikroorganizmlar bilan ifloslanadi. Ammiak kontsentratsiyasi MPC 0,01 mg/l bo'lsa, 0,02-0,03 mg/l ga yetishi mumkin. Bu unumdorlikni kamaytiradi, kasallanishni oshiradi va xodimlar uchun ish sharoitlarini yomonlashtiradi.",
+          "tableCaption": "Sigirxonada havoni ozonlash samaradorligi",
+          "tableHeaders": ["Ko'rsatkich", "Muolajadan oldin", "Muolajadan keyin", "Kamayish"],
+          "tableData": [
+            ["Ammiak, mg/l", "0,025", "0,005", "80%"],
+            ["Vodorod sulfidi, mg/l", "0,008", "0,001", "87%"],
+            ["Mikroflora, KOE/m³", "85 000", "12 000", "86%"],
+            ["Chang, mg/m³", "4,5", "1,2", "73%"]
+          ],
+          "highlight": "Muntazam ozonlash (kuniga 2-3 marta, 15-20 daqiqa, 0,5-1,0 mg/m³ kontsentratsiyada) qoramol nafas olish kasalliklarini 40-50% kamaytiradi va o'rtacha kunlik vazn o'sishini 8-12% oshiradi."
+        },
+        "waterDisinfection": {
+          "title": "Ichimlik suvini dezinfeksiya qilish",
+          "intro": "Suv sifati hayvonlar salomatligi va unumdorligiga bevosita ta'sir qiladi. Ochiq manbalardan va hatto artezian quduqlaridan olingan suv ko'pincha patogen mikroorganizmlar, temir, marganets va organik birikmalarni o'z ichiga oladi.",
+          "intro2": "Suvni ozonlash quyidagilarni ta'minlaydi:",
+          "items": [
+            "E.coli, salmonella, kampilobakter va boshqa patogenlarni yo'q qilish",
+            "Temir va marganetsni erimaydigan shakllarga oksidlanishi",
+            "Yoqimsiz hidlar va ta'mlarni yo'q qilish",
+            "Hayvonlar tomonidan suvning yaxshiroq hazm bo'lishi",
+            "Oshqozon-ichak kasalliklarining oldini olish"
+          ],
+          "tableCaption": "Chorvachilik uchun suvni ozonlash rejimlari",
+          "tableHeaders": ["Maqsad", "Ozon kontsentratsiyasi", "Aloqa vaqti"],
+          "tableData": [
+            ["Qoramol uchun ichimlik suvi", "0,3-0,5 mg/l", "10-15 min"],
+            ["Cho'chqalar uchun ichimlik suvi", "0,3-0,5 mg/l", "10-15 min"],
+            ["Uskunalarni yuvish suvi", "1,0-2,0 mg/l", "5-10 min"],
+            ["Sutni suyultirish suvi", "0,5-1,0 mg/l", "15-20 min"]
+          ]
+        },
+        "feedTreatment": {
+          "title": "Yem-xashakni qayta ishlash",
+          "intro": "Yem-xashak hayvonlar organizmiga kiruvchi mikotoksinlar va patogen mikroorganizmlarning asosiy manbai hisoblanadi. Yem-xashakni ozonlash quyidagilarga imkon beradi:",
+          "items": [
+            "Zangori zamburug'larning tarkibini 90-95% kamaytirish",
+            "Mikotoksinlarni (aflatoksinlar, zearalenon, DON) yo'q qilish",
+            "Patogen mikroflorani (salmonella, E.coli) yo'q qilish",
+            "Yem-xashakning biologik qiymati va hazm bo'lishini oshirish",
+            "Yem-xashakni saqlash muddatini uzaytirish"
+          ],
+          "highlight": "Tavsiya etilgan yem-xashakni qayta ishlash rejimi: ozon kontsentratsiyasi 10-15 mg/m³, qayta ishlash vaqti namlik va ifloslanish darajasiga qarab 60-120 daqiqa."
+        },
+        "dairyEquipment": {
+          "title": "Sut uskunalarini dezinfeksiya qilish",
+          "intro": "Sut fermalarida ozon sog'ish uskunalari, sovutgich tanklar, sut quvurlari va idishlarni dezinfeksiya qilish uchun ishlatiladi. Bu kimyoviy tozalash vositalaridan foydalanishni to'xtatish va sut mahsulotlarining xavfsizligini ta'minlashga imkon beradi.",
+          "tableCaption": "Sut fermalarida ozon qo'llash",
+          "tableHeaders": ["Muolaja ob'ekti", "Usul", "Samaradorlik"],
+          "tableData": [
+            ["Sog'ish apparatlari", "Ozonlangan suv 2-3 mg/l", "99,9%"],
+            ["Sut tanklari", "Ozonlangan suv + havo", "99,99%"],
+            ["Sut quvurlari", "Ozonlangan suvni aylantirish", "99,9%"],
+            ["Saqlash idishlari", "Gazsimon ozon", "99,99%"]
+          ]
+        },
+        "benefits": {
+          "title": "Chorvachilikda ozonlashning afzalliklari",
+          "items": [
+            {
+              "title": "Antibiotiksiz",
+              "description": "Profilaktik antibiotiklarsiz kasallanishni kamaytirish — ekologik toza mahsulotlar"
+            },
+            {
+              "title": "Unumdorlikni oshirish",
+              "description": "Sharoitlarni yaxshilash hisobiga sut mahsuldorligi 5-10%, o'rtacha kunlik vazn o'sishi 8-15% oshadi"
+            },
+            {
+              "title": "Veterinariya xarajatlarini tejash",
+              "description": "Davolash va kasallikning oldini olish xarajatlarini 30-40% kamaytirish"
+            },
+            {
+              "title": "Ish sharoitlarini yaxshilash",
+              "description": "Ferma xodimlari uchun zararli gazlar va hidlar kontsentratsiyasini kamaytirish"
+            }
+          ]
+        }
+      }
     },
     "vegetable-storage": {
       "title": "Vegetable storage",
       "shortDesc": "Reduced losses of vegetables and fruit during long storage",
       "content": "Vegetable storage ozonation is an effective way to reduce losses during long-term storage. Ozone quickly and thoroughly disinfects air and surfaces, destroying viruses, bacteria, fungi and mold.\n\nOzone breaks down ethylene, which accelerates ripening and shortens storage life. This allows storing ethylene-sensitive produce together with ethylene-producing produce.\n\nFor a 300-ton carrot store, ozonation equipment can reduce losses on average by a factor of 3.\n\nTreatment regime for most vegetables and fruit: 1–2 times per day for 2–4 hours. Special regimes are used for potatoes, cabbage, apples and other crops.",
+      "stats": {
+        "storageExtension": {
+          "value": "1.5–2×",
+          "label": "Storage extension",
+          "description": "Extended product storage life"
+        },
+        "moldReduction": {
+          "value": "90%",
+          "label": "Mold reduction",
+          "description": "Destruction of fungal spores"
+        },
+        "lossReduction": {
+          "value": "30–50%",
+          "label": "Loss reduction",
+          "description": "Reduced product spoilage"
+        },
+        "noChemicals": {
+          "value": "0",
+          "label": "Chemicals",
+          "description": "No preservatives or fungicides"
+        }
+      },
       "benefits": [
         "About 3× lower losses",
         "Mold and rot destruction",
@@ -39,12 +324,118 @@
         "Mold spore germination suppression",
         "Operation at subzero temperatures",
         "Payback in the first season"
-      ]
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Storage losses of vegetables and fruit range from 20 to 40% of total volume. Main causes are mold development, bacterial rot, premature sprouting and wilting. Ozonation solves these problems comprehensively, extending storage life by 1.5–2 times without chemical agents.",
+          "paragraph2": "Unlike fungicides and preservatives, ozone does not accumulate in products, decomposing to oxygen. This is especially important for organic farming and production of eco-friendly food."
+        },
+        "principle": {
+          "title": "Principle of action:",
+          "text": "Ozone destroys mold, yeast and bacteria on vegetable surfaces and in storage air. It also breaks down ethylene — a gas that accelerates ripening and aging of fruits."
+        },
+        "efficiency": {
+          "title": "Effectiveness of vegetable ozonation",
+          "tableCaption": "Storage life extension with ozonation",
+          "tableHeaders": ["Crop", "Without ozone", "With ozone", "Increase"],
+          "tableData": [
+            ["Potatoes", "4–5 months", "6–7.5 months", "+2.5 months"],
+            ["Carrots", "4–6 months", "7–9 months", "+3 months"],
+            ["Cabbage", "4–5 months", "6–8 months", "+2–3 months"],
+            ["Onions", "5–6 months", "8–9 months", "+3 months"],
+            ["Beets", "5–6 months", "8–9 months", "+3 months"],
+            ["Apples", "4–6 months", "7–9 months", "+3 months"]
+          ]
+        },
+        "diseases": {
+          "title": "Storage disease control",
+          "intro": "Main storage diseases of vegetables are caused by fungi and bacteria. Ozone is effective against all major pathogens:",
+          "items": [
+            "Potato late blight — 60–80% reduction in infection",
+            "Gray mold (Botrytis) — 95% spore destruction",
+            "Wet rot — suppression of bacterial development",
+            "Fusarium — 70% reduction in infection",
+            "Fruit penicillium — 90% spore destruction",
+            "Carrot blackleg — prevention of development"
+          ],
+          "highlight": "With regular ozonation (2–3 mg/m³, 4–6 hours daily), potato late blight infection decreases from 15–20% to 3–5%, saving up to 30% of the crop."
+        },
+        "modes": {
+          "title": "Vegetable storage ozonation modes",
+          "tableCaption": "Recommended treatment modes",
+          "tableHeaders": ["Crop", "Concentration", "Treatment time", "Frequency"],
+          "tableData": [
+            ["Potatoes", "2–5 mg/m³", "4–6 hours", "Daily"],
+            ["Carrots", "3–5 mg/m³", "4–8 hours", "Daily"],
+            ["Cabbage", "3–5 mg/m³", "4–6 hours", "Daily"],
+            ["Onions", "5–10 mg/m³", "2–4 hours", "2–3 times per week"],
+            ["Apples", "2–3 mg/m³", "4–6 hours", "Daily"],
+            ["Citrus fruits", "3–5 mg/m³", "4–6 hours", "Daily"]
+          ],
+          "note": "It is important to consider that ozonation mode depends on temperature, humidity and product condition. At high humidity (over 95%), ozone effectiveness increases."
+        },
+        "additionalEffects": {
+          "title": "Additional effects of ozonation",
+          "items": [
+            {
+              "title": "Odor elimination",
+              "description": "Ozone neutralizes odors of decay, mustiness, chemicals in storage"
+            },
+            {
+              "title": "Sprouting suppression",
+              "description": "Slowing sprouting of potatoes and onions without chemical inhibitors"
+            },
+            {
+              "title": "Ethylene breakdown",
+              "description": "Ethylene oxidation slows ripening and aging of fruits"
+            },
+            {
+              "title": "Disinsection",
+              "description": "Destruction of pest insects and their larvae in storage"
+            }
+          ]
+        },
+        "economic": {
+          "title": "Economic effect",
+          "intro": "Implementation of ozonation in vegetable storage provides significant economic benefits:",
+          "tableHeaders": ["Indicator", "With ozone", "Without ozone"],
+          "tableData": [
+            { "parameter": "Potato storage losses", "value1": "5–8%", "value2": "15–25%" },
+            { "parameter": "Carrot storage losses", "value1": "8–12%", "value2": "25–35%" },
+            { "parameter": "Fungicide costs", "value1": "0", "value2": "15–20 rub/t" },
+            { "parameter": "Late season sales", "value1": "At premium price", "value2": "At discount (quality deterioration)" }
+          ],
+          "highlight": "Equipment payback for ozonation of a 1000-ton vegetable storage is 1–2 storage seasons through loss reduction and higher sales prices."
+        }
+      }
     },
     "greenhouses": {
       "title": "Greenhouses and crop production",
       "shortDesc": "Higher yields and plant disease protection",
+      "heroText": "13–35% yield increase, protection from diseases and pests without chemical pesticides. Eco-friendly technology for modern greenhouse operations.",
       "content": "In greenhouse production, ozone is used to disinfect air, plant surfaces and soil. Ozonation increases yields and effectively controls disease without chemical pesticides.\n\nOzone dissolves in water about 15 times better than oxygen. Irrigation with ozonated water increases yields by 13–35% through improved soil quality, greater root mass and reduced root pathogens.\n\nDisinfection of greenhouse soils with concentrated ozone solution effectively suppresses root-knot nematode by 90–98% and stimulates plant growth. Biomass can increase by up to 30%.\n\nGreenhouse air ozonation destroys fungi, bacteria, yeast, viruses and pests. High concentrations are used to prepare the greenhouse for planting when the facility is unoccupied.",
+      "stats": {
+        "yieldIncrease": {
+          "value": "13–35%",
+          "label": "Yield increase",
+          "description": "With ozonated water irrigation"
+        },
+        "nematodeDestruction": {
+          "value": "90–98%",
+          "label": "Nematode destruction",
+          "description": "In greenhouse soils"
+        },
+        "oxygenIncrease": {
+          "value": "30–45%",
+          "label": "More oxygen",
+          "description": "Dissolved in irrigation water"
+        },
+        "biomassGrowth": {
+          "value": "up to 30%",
+          "label": "Biomass growth",
+          "description": "After soil disinfection"
+        }
+      },
       "benefits": [
         "13–35% yield increase",
         "90–98% nematode destruction",
@@ -52,7 +443,128 @@
         "Disease control without chemicals",
         "30–45% more dissolved oxygen in irrigation water",
         "Eco-friendly technology"
-      ]
+      ],
+      "sections": {
+        "applications": {
+          "title": "Ozone applications in greenhouses",
+          "items": [
+            "Ozonated water irrigation — yield increase and growth stimulation",
+            "Greenhouse soil disinfection — nematode and pathogen control",
+            "Air ozonation — destruction of fungi, bacteria, viruses",
+            "Pest protection — eco-friendly alternative to insecticides",
+            "Pre-sowing seed treatment — improved germination and sprouting energy",
+            "Greenhouse preparation for season — complete facility disinfection"
+          ]
+        },
+        "irrigation": {
+          "title": "Ozonated water irrigation",
+          "intro": "Irrigation with ozone-enriched water is one of the most effective technologies for increasing yields. Ozone quickly decomposes to oxygen, saturating the root zone and stimulating plant development.",
+          "tableCaption": "Effect of ozonated water on yield of various crops",
+          "tableHeaders": ["Crop", "O₃ concentration", "Yield increase", "Additional effect"],
+          "tableData": [
+            ["Tomatoes", "0.5–1.0 mg/l", "+18–25%", "Larger fruit size"],
+            ["Cucumbers", "0.5–0.8 mg/l", "+15–22%", "Improved taste"],
+            ["Peppers", "0.5–1.0 mg/l", "+20–28%", "Extended shelf life"],
+            ["Lettuce", "0.3–0.5 mg/l", "+13–18%", "Better appearance"],
+            ["Strawberries", "0.5–0.8 mg/l", "+22–35%", "Increased sugar content"]
+          ],
+          "highlight": "Research shows that regular irrigation with ozonated water increases plant root mass by 15–25%, ensuring better nutrient uptake and stress resistance."
+        },
+        "soilDisinfection": {
+          "title": "Greenhouse soil disinfection",
+          "intro": "Root-knot nematode is one of the main enemies of greenhouse crops. Chemical control methods are ineffective and contaminate the soil. Soil ozonation with concentrated ozone solution effectively suppresses nematodes and stimulates plant development.",
+          "tableCaption": "Effectiveness of ozonation against soil pathogens",
+          "tableHeaders": ["Pathogen", "O₃ concentration", "Treatment time", "Effectiveness"],
+          "tableData": [
+            ["Root-knot nematode", "3–5 mg/l", "30–60 min", "90–98%"],
+            ["Fusarium", "2–3 mg/l", "20–30 min", "95–99%"],
+            ["Verticillium", "2–3 mg/l", "20–30 min", "93–97%"],
+            ["Root rot", "1.5–2.5 mg/l", "15–25 min", "90–95%"],
+            ["Phytophthora", "2–4 mg/l", "20–40 min", "96–99%"]
+          ],
+          "processSteps": [
+            {
+              "title": "Soil preparation",
+              "description": "Loosening soil to ensure ozone penetration. Removing plant residues."
+            },
+            {
+              "title": "Water ozonation",
+              "description": "Preparing ozonated water with concentration of 3–5 mg/l in a special reactor."
+            },
+            {
+              "title": "Soil irrigation",
+              "description": "Uniform application of ozonated water at 10–15 l/m² of greenhouse area."
+            },
+            {
+              "title": "Exposure",
+              "description": "Exposure time of 30–60 minutes for complete pathogen destruction."
+            },
+            {
+              "title": "Planting",
+              "description": "Seedlings can be planted 24–48 hours after treatment."
+            }
+          ]
+        },
+        "airOzonation": {
+          "title": "Air ozonation in greenhouses",
+          "intro": "Air ozonation in greenhouses destroys fungi, bacteria, yeast, viruses and pests. High concentrations are used to prepare the greenhouse for planting when the facility is unoccupied.",
+          "tableCaption": "Air ozonation regimes in greenhouses",
+          "tableHeaders": ["Purpose", "O₃ concentration", "Time", "Note"],
+          "tableData": [
+            ["Disease prevention", "0.1–0.3 mg/m³", "2–4 h/day", "With plants present"],
+            ["Pest control", "1–2 mg/m³", "4–6 hours", "Without people and animals"],
+            ["Greenhouse disinfection", "5–10 mg/m³", "8–12 hours", "Without plants, before season"],
+            ["Mold destruction", "2–3 mg/m³", "4–8 hours", "After harvest"]
+          ],
+          "warning": "Important: When treating the greenhouse with high ozone concentrations (over 1 mg/m³), personnel must be removed and the facility sealed. Ventilation for 30–60 minutes is required after treatment."
+        },
+        "seedTreatment": {
+          "title": "Pre-sowing seed treatment",
+          "intro": "Ozone seed treatment increases germination, sprouting energy and resistance of young plants to diseases. The technology allows avoiding chemical seed dressers.",
+          "tableCaption": "Ozone seed treatment regimes",
+          "tableHeaders": ["Crop", "O₃ concentration", "Treatment time", "Result"],
+          "tableData": [
+            ["Tomatoes", "5–10 mg/m³", "30–60 min", "Germination +8–12%"],
+            ["Cucumbers", "5–8 mg/m³", "20–40 min", "Germination +10–15%"],
+            ["Peppers", "8–12 mg/m³", "40–60 min", "Germination +7–10%"],
+            ["Cabbage", "5–8 mg/m³", "20–30 min", "Germination +12–18%"]
+          ]
+        },
+        "benefits": {
+          "title": "Benefits of ozonation in greenhouses",
+          "items": [
+            {
+              "title": "Environmental purity",
+              "description": "Ozone decomposes to oxygen without forming harmful compounds — products remain environmentally clean"
+            },
+            {
+              "title": "Chemical-free",
+              "description": "Complete replacement or significant reduction of pesticides, fungicides and seed dressers"
+            },
+            {
+              "title": "Yield increase",
+              "description": "13–35% yield increase with regular ozonated water irrigation"
+            },
+            {
+              "title": "Nematode control",
+              "description": "90–98% effectiveness against root-knot nematode without damaging soil microflora"
+            },
+            {
+              "title": "Product quality",
+              "description": "Improved taste, shelf life and appearance of grown products"
+            },
+            {
+              "title": "Economic benefit",
+              "description": "Equipment payback in 1–2 seasons through yield increase and reduced chemical costs"
+            }
+          ]
+        },
+        "intro": {
+          "paragraph1": "In greenhouse operations, ozone is used comprehensively: for air disinfection, plant surfaces, soil and irrigation water. This allows increasing yields and effectively controlling diseases without chemical agents.",
+          "paragraph2": "Ozone dissolves in water 15 times better than oxygen. Irrigation with ozonated water increases yields by 13–35% through improved soil quality, increased root mass and reduced root pathogens.",
+          "scientificFact": "Scientific fact: Ozone is 15 times more soluble in water than oxygen. This allows creating highly enriched irrigation solutions that saturate soil with oxygen and destroy pathogens."
+        }
+      }
     },
     "aquaculture": {
       "title": "Aquaculture (RAS)",
@@ -76,7 +588,30 @@
     "grain-storage": {
       "title": "Grain storage",
       "shortDesc": "Protection from pests and microorganisms without chemicals",
+      "heroText": "Protection from pests and microorganisms without chemicals. 95–99% insect destruction, 40–60% storage loss reduction.",
       "content": "Grain storage is a critical process where pest losses can account for 5 to 50% of world production. Seed and grain ozonation effectively controls pests and prevents mold spread.\n\nOzone affects insects and mites at all life stages. After treatment at 30–60 mg/m³ for 30–60 minutes, mortality of grain weevil, rice weevil and grain borer reaches 95–99%.\n\nGrain disinfection level at exposure from 15 minutes to 1 hour reaches 80–95% for total contamination and 80–90% for mold fungi. Treatment does not impair sensory or nutritional quality.\n\nPre-sowing seed ozonation increases germination and stress resistance. Wheat yield can increase by about 22%, barley by about 17.5%.",
+      "stats": {
+        "pestDestruction": {
+          "value": "95–99%",
+          "label": "Pest destruction",
+          "description": "At all development stages"
+        },
+        "disinfection": {
+          "value": "80–95%",
+          "label": "Disinfection",
+          "description": "Reduced microbial contamination"
+        },
+        "yieldIncrease": {
+          "value": "17–22%",
+          "label": "Yield increase",
+          "description": "With pre-sowing treatment"
+        },
+        "lossReduction": {
+          "value": "40–60%",
+          "label": "Loss reduction",
+          "description": "During grain storage"
+        }
+      },
       "benefits": [
         "95–99% pest destruction",
         "80–95% disinfection",
@@ -84,12 +619,149 @@
         "Preserved nutritional quality",
         "Eco-friendly fumigation alternative",
         "40–60% loss reduction"
-      ]
+      ],
+      "sections": {
+        "applications": {
+          "title": "Ozone application areas",
+          "items": [
+            "Grain disinsection — elimination of storage pests",
+            "Disinfection — reduction of microbial and fungal contamination",
+            "Detoxification — destruction of mycotoxins",
+            "Pre-sowing seed treatment — increased germination",
+            "Grain storage disinfection — preparation for loading",
+            "Grain preservation — extended storage life"
+          ]
+        },
+        "pests": {
+          "title": "Storage pest elimination",
+          "intro": "Ozone affects insects and mites at all life stages: eggs, larvae, pupae and adults. The mechanism is based on oxidation of cuticle lipids and destruction of insect respiratory systems.",
+          "tableCaption": "Ozonation effectiveness against grain pests",
+          "tableHeaders": ["Pest", "O₃ concentration", "Treatment time", "Mortality"],
+          "tableData": [
+            ["Grain weevil", "30–50 mg/m³", "30–60 min", "95–99%"],
+            ["Rice weevil", "30–50 mg/m³", "30–60 min", "96–99%"],
+            ["Grain borer", "40–60 mg/m³", "45–90 min", "95–98%"],
+            ["Flour beetle", "40–60 mg/m³", "60–120 min", "93–97%"],
+            ["Sawtoothed grain beetle", "30–50 mg/m³", "30–60 min", "97–99%"],
+            ["Grain moth", "20–40 mg/m³", "30–45 min", "98–99%"],
+            ["Grain mite", "50–80 mg/m³", "60–120 min", "90–95%"]
+          ],
+          "highlightText": "Unlike chemical fumigation, ozonation leaves no residues in grain. After treatment, ozone quickly decomposes to oxygen, and the product is completely safe for consumption."
+        },
+        "fungi": {
+          "title": "Disinfection and mycotoxin reduction",
+          "intro": "Mold fungi on grain produce dangerous mycotoxins: aflatoxins, zearalenone, deoxynivalenol (DON). Ozonation destroys fungi and partially breaks down already formed toxins.",
+          "tableCaption": "Ozonation effectiveness against fungi and mycotoxins",
+          "tableHeaders": ["Indicator", "O₃ concentration", "Time", "Effectiveness"],
+          "tableData": [
+            ["Total microflora", "20–40 mg/m³", "15–60 min", "80–95%"],
+            ["Mold fungi", "30–50 mg/m³", "30–60 min", "85–95%"],
+            ["Aspergillus (aflatoxins)", "40–60 mg/m³", "45–90 min", "90–95%"],
+            ["Fusarium (DON, zearalenone)", "40–60 mg/m³", "60–120 min", "75–90%"],
+            ["Aflatoxin B1", "50–100 mg/m³", "120–180 min", "60–80%"],
+            ["Zearalenone", "50–100 mg/m³", "120–180 min", "50–70%"]
+          ]
+        },
+        "modes": {
+          "title": "Grain ozonation modes",
+          "intro": "Mode selection depends on treatment goals: prevention, disinsection or disinfection. It is important to consider grain moisture, temperature and storage airtightness.",
+          "tableCaption": "Recommended ozonation modes",
+          "tableHeaders": ["Treatment goal", "O₃ concentration", "Time", "Frequency"],
+          "tableData": [
+            ["Prevention", "10–20 mg/m³", "4–6 hours", "Every 2–4 weeks"],
+            ["Disinsection", "30–60 mg/m³", "1–2 hours", "As needed"],
+            ["Disinfection", "30–50 mg/m³", "1–3 hours", "During loading/unloading"],
+            ["Deep treatment", "60–100 mg/m³", "2–4 hours", "Every 3–6 months"],
+            ["Pre-sowing treatment", "10–30 mg/m³", "30–60 min", "Before sowing"]
+          ],
+          "warningLabel": "Important",
+          "warningText": "When treating grain with moisture above 14%, ozonation effectiveness decreases. Pre-drying or increasing ozone dose by 20–30% is recommended."
+        },
+        "presowing": {
+          "title": "Pre-sowing seed treatment",
+          "intro": "Ozone seed treatment increases germination, germination energy and seedling resistance to adverse conditions. Research confirms significant yield gains.",
+          "tableCaption": "Pre-sowing seed ozonation results",
+          "tableHeaders": ["Crop", "Treatment mode", "Germination increase", "Yield gain"],
+          "tableData": [
+            ["Wheat", "10–20 mg/m³, 30 min", "+5–8%", "+18–22%"],
+            ["Barley", "10–20 mg/m³, 30 min", "+6–10%", "+14–17.5%"],
+            ["Corn", "15–25 mg/m³, 45 min", "+4–7%", "+12–16%"],
+            ["Sunflower", "15–25 mg/m³, 45 min", "+5–8%", "+10–14%"],
+            ["Soybean", "10–20 mg/m³, 30 min", "+6–9%", "+13–18%"],
+            ["Rice", "10–15 mg/m³, 20 min", "+7–12%", "+15–20%"]
+          ]
+        },
+        "worldExperience": {
+          "label": "World experience",
+          "text": "Grain ozonation is used in the USA, Canada, Australia and EU countries as an eco-friendly alternative to phosphine and methyl bromide, banned by the Montreal Protocol."
+        },
+        "technology": {
+          "title": "Grain storage ozonation technology",
+          "steps": [
+            {
+              "title": "Storage preparation",
+              "description": "Cleaning of grain residues and dust. Checking airtightness of gates, hatches and seams."
+            },
+            {
+              "title": "Equipment installation",
+              "description": "Placing ozonator and ozone distribution system. Connection to power supply."
+            },
+            {
+              "title": "Sealing",
+              "description": "Closing all openings, installing warning signs about treatment."
+            },
+            {
+              "title": "Ozone supply",
+              "description": "Starting ozonator, monitoring concentration with sensors. Treatment time 2–6 hours."
+            },
+            {
+              "title": "Holding",
+              "description": "After reaching target concentration, holding for 30–60 minutes without ozone supply."
+            },
+            {
+              "title": "Degassing",
+              "description": "Turning on ventilation to remove residual ozone. Monitoring MPC (0.1 mg/m³)."
+            }
+          ]
+        },
+        "comparison": {
+          "title": "Comparison with chemical fumigation",
+          "tableCaption": "Ozonation vs chemical fumigation",
+          "tableHeaders": ["Parameter", "Ozonation", "Phosphine (PH₃)"],
+          "tableData": [
+            ["Residues in product", "None", "Present (MPC 0.1 mg/kg)"],
+            ["Eco-friendliness", "Complete", "Toxic to environment"],
+            ["Treatment time", "2–6 hours", "3–7 days"],
+            ["Pest resistance", "Not formed", "Increases with each use"],
+            ["Personnel safety", "High (with MPC compliance)", "Low (strong poison)"],
+            ["Effect on grain quality", "Positive", "May reduce germination"],
+            ["Treatment cost", "Medium", "Low–medium"]
+          ]
+        },
+        "benefits": {
+          "title": "Advantages of ozonation in grain storage"
+        }
+      }
     },
     "beekeeping": {
       "title": "Beekeeping",
       "shortDesc": "Hive and comb disinfection and bee disease control",
+      "heroText": "Hive and comb disinfection, bee disease control. Increase in honey yield by 25 kg per season and 39% increase in colony productivity.",
       "content": "Ozonation in beekeeping is used to disinfect hives, frames and combs from bee disease pathogens. Treatment with moderate ozone concentrations has a beneficial effect on colony activity.\n\nRegular ozonation reduces pathogenic microorganisms and humidity in the hive air and improves gas composition. As a result, treated colonies can show about 25 kg more marketable honey per season.\n\nFor chalkbrood (ascosphaerosis) control, ozone at 250 mg/m³ for 1 hour twice daily for 7 days is used. In severe cases, 500 mg/m³ four times daily.\n\nOzone effectively acts on spores of the fungus Ascosphaera apis. Disinfection level reaches 50–77% depending on the treated surface material.",
+      "stats": {
+        "honeyIncrease": { "value": "+25 kg", "label": "Honey yield", "description": "Increase per season per colony" },
+        "productivityGrowth": {
+          "value": "39%",
+          "label": "Productivity growth",
+          "description": "With regular ozonation"
+        },
+        "disinfection": {
+          "value": "50-77%",
+          "label": "Disinfection",
+          "description": "Destruction of Ascosphaera apis spores"
+        },
+        "chemicals": { "value": "0", "label": "Chemicals", "description": "Eco-friendly honey" }
+      },
       "benefits": [
         "About 25 kg more honey per season",
         "About 39% productivity increase",
@@ -97,7 +769,161 @@
         "Comb and equipment disinfection",
         "Improved hive microclimate",
         "Safety for honey and bees"
-      ]
+      ],
+      "paragraphs": {
+        "intro1": "Ozonation in beekeeping is used to disinfect hives, frames and combs from bee disease pathogens. Treatment with moderate ozone concentrations has a beneficial effect on colony activity.",
+        "intro2": "Regular ozonation reduces pathogenic microorganisms, decreases humidity in the hive air and improves gas composition. As a result, treated colonies showed an increase in marketable honey production of 25 kg per season compared to the control group.",
+        "ascospherosis": "Chalkbrood (ascosphaerosis) is one of the most common fungal diseases of bees, caused by Ascosphaera apis. Fungal spores are resistant to traditional disinfection methods but are destroyed by ozone.",
+        "pathogens": "Ozone is effective against a wide range of bee disease pathogens — bacteria, fungi and viruses. This allows using a single technology for comprehensive apiary protection.",
+        "stimulation": "Treatment of hives with moderate ozone concentrations (5-15 mg/m³) in the presence of bees has a stimulating effect: increases colony activity, improves queen egg-laying and accelerates spring development.",
+        "equipment": "Combs and beekeeping equipment can be a source of infection for healthy colonies. Regular ozone disinfection prevents disease spread in the apiary."
+      },
+      "highlightBoxes": {
+        "research": {
+          "label": "Scientific research:",
+          "text": "Experiments conducted at the Beekeeping Research Institute confirmed a 39% increase in colony productivity with regular hive ozonation during the spring-summer period."
+        },
+        "ascospherosis": "Ozone effectively acts on spores of the fungus Ascosphaera apis. Disinfection level reaches 50-77% depending on the treated surface material and ozone concentration.",
+        "warning": {
+          "label": "Important:",
+          "text": "Treatment with high ozone concentrations (over 200 mg/m³) should be performed in the absence of bees. For stimulating bee treatment, concentration should not exceed 10-15 mg/m³."
+        }
+      },
+      "processSteps": [
+        {
+          "title": "Hive preparation",
+          "description": "Removal of bees or planning treatment in the absence of the colony. Closing entrances."
+        },
+        {
+          "title": "Ozonator connection",
+          "description": "Installing ozone supply hose through the upper entrance or special opening in the lid."
+        },
+        {
+          "title": "Ozone treatment",
+          "description": "Ozone supply at specified concentration for 30-90 minutes depending on the goal."
+        },
+        {
+          "title": "Exposure",
+          "description": "After stopping ozone supply, exposure for 15-30 minutes with closed entrances."
+        },
+        {
+          "title": "Ventilation",
+          "description": "Opening entrances for residual ozone exit. Time — 15-30 minutes."
+        },
+        {
+          "title": "Bee return",
+          "description": "Settling the treated hive with a bee colony 1-2 hours after treatment."
+        }
+      ],
+      "sections": {
+        "applications": {
+          "title": "Ozone applications in beekeeping",
+          "items": [
+            "Comb disinfection from chalkbrood (ascosphaerosis) pathogens",
+            "Hive and frame treatment for foulbrood diseases",
+            "Varroosis control in complex therapy",
+            "Improved hive microclimate",
+            "Beekeeping equipment disinfection",
+            "Nosemosis and other infection prevention",
+            "Wintering house and apiary building treatment"
+          ]
+        },
+        "ascospherosis": {
+          "title": "Chalkbrood control",
+          "tableCaption": "Treatment regimes for chalkbrood",
+          "tableHeaders": ["Infection level", "O₃ concentration", "Treatment time", "Frequency"],
+          "tableData": [
+            ["Prevention", "100-150 mg/m³", "30-45 min", "Once a month"],
+            ["Mild form", "200-250 mg/m³", "60 min", "Twice daily, 5-7 days"],
+            ["Moderate form", "250-350 mg/m³", "60 min", "Three times daily, 7-10 days"],
+            ["Severe form", "400-500 mg/m³", "60-90 min", "Four times daily, 10-14 days"]
+          ]
+        },
+        "pathogens": {
+          "title": "Effectiveness against various pathogens",
+          "tableCaption": "Effectiveness of ozonation against bee pathogens",
+          "tableHeaders": ["Pathogen/disease", "O₃ concentration", "Time", "Effectiveness"],
+          "tableData": [
+            ["Ascosphaera apis (chalkbrood)", "250-500 mg/m³", "60 min", "50-77%"],
+            ["Paenibacillus larvae (American foulbrood)", "300-500 mg/m³", "60-90 min", "85-95%"],
+            ["Melissococcus plutonius (European foulbrood)", "250-400 mg/m³", "45-60 min", "90-98%"],
+            ["Nosema apis (nosemosis)", "200-300 mg/m³", "30-45 min", "80-90%"],
+            ["Aspergillus (aspergillosis)", "300-500 mg/m³", "60-90 min", "85-95%"],
+            ["Deformed wing virus", "150-250 mg/m³", "30-45 min", "70-85%"]
+          ]
+        },
+        "stimulation": {
+          "title": "Stimulating effect of ozone",
+          "tableCaption": "Effect of stimulating ozonation on bee colonies",
+          "tableHeaders": ["Indicator", "Control group", "Treated group", "Difference"],
+          "tableData": [
+            ["Honey yield, kg/season", "45-50", "70-75", "+25 kg (+50%)"],
+            ["Colony strength, frames", "8-10", "12-14", "+40%"],
+            ["Queen egg-laying, eggs/day", "1200-1400", "1600-1800", "+30%"],
+            ["Brood rearing", "100%", "135-140%", "+35-40%"],
+            ["Wintering (losses)", "15-20%", "5-8%", "-60%"],
+            ["Swarming", "Frequent", "Rare", "2-3 times reduction"]
+          ]
+        },
+        "equipment": {
+          "title": "Comb and equipment treatment",
+          "tableCaption": "Comb and equipment treatment regimes",
+          "tableHeaders": ["Treatment object", "O₃ concentration", "Time", "Note"],
+          "tableData": [
+            ["Combs (prevention)", "200-300 mg/m³", "30-45 min", "After honey extraction"],
+            ["Combs (disinfection)", "400-600 mg/m³", "60-90 min", "In case of diseases"],
+            ["Empty hives", "300-500 mg/m³", "45-60 min", "Before settling"],
+            ["Metal equipment", "500-700 mg/m³", "30-45 min", "Smokers, hive tools"],
+            ["Protective clothing", "300-400 mg/m³", "30-45 min", "In ozone chamber"],
+            ["Honey containers", "200-300 mg/m³", "20-30 min", "Before filling"]
+          ]
+        },
+        "calendar": {
+          "title": "Seasonal ozonation calendar",
+          "tableCaption": "Recommended treatment schedule",
+          "tableHeaders": ["Period", "Treatment type", "Concentration", "Purpose"],
+          "tableData": [
+            ["Early spring (March)", "Stimulating", "10-15 mg/m³", "Colony activation after wintering"],
+            ["Spring (April-May)", "Preventive", "100-200 mg/m³", "Spring infection prevention"],
+            ["Summer (June-July)", "Stimulating", "10-15 mg/m³", "Honey yield increase"],
+            ["After extraction (August)", "Comb disinfection", "300-500 mg/m³", "Disinfection of freed combs"],
+            ["Autumn (September)", "Preventive", "150-250 mg/m³", "Wintering preparation"],
+            ["Wintering house (November)", "Disinfection", "400-600 mg/m³", "Wintering house treatment before placement"]
+          ]
+        },
+        "technology": {
+          "title": "Hive ozonation technology"
+        },
+        "benefits": {
+          "title": "Benefits of ozonation in beekeeping",
+          "items": [
+            {
+              "title": "Chemical-free",
+              "description": "Ozone leaves no residues in honey and bee products — completely eco-friendly method"
+            },
+            {
+              "title": "Honey yield increase",
+              "description": "Increase in marketable honey by 25 kg per colony per season with regular ozonation"
+            },
+            {
+              "title": "Disease control",
+              "description": "Effectiveness against chalkbrood, foulbrood, nosemosis and other infections"
+            },
+            {
+              "title": "Improved wintering",
+              "description": "2-3 times reduction in colony losses during wintering thanks to bee health improvement"
+            },
+            {
+              "title": "Reduced swarming",
+              "description": "Stimulating ozonation reduces colony tendency to swarm by 2-3 times"
+            },
+            {
+              "title": "Economic benefit",
+              "description": "Equipment payback in 1-2 seasons through increased apiary productivity"
+            }
+          ]
+        }
+      }
     }
   }
 }

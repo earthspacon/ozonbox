@@ -1,13 +1,13 @@
-import Image from 'next/image'
-import { useTranslate } from '@tolgee/react'
+import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
-import { AppLink } from '@/shared/ui/app-link'
+import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
 import {
+  ArticleHero,
   ArticleSection,
   BulletList,
+  CTASection,
   DataTable,
   FeatureCard,
   FeatureGrid,
@@ -17,257 +17,216 @@ import {
   StatCard,
   StatGrid,
 } from '@/shared/ui/article-components'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
+import { IconCheck } from '@/shared/ui/icons'
 import { Seo } from '@/shared/ui/seo'
 
-export function SecondhandPage() {
+interface SecondhandPageProps {
+  staticData: TolgeeStaticDataProp
+  lang: TLocale
+}
+
+interface SubcategoryData {
+  title: string
+  shortDesc: string
+  stats?: {
+    [key: string]: {
+      value: string
+      label: string
+      description: string
+    }
+  }
+  sections?: {
+    [key: string]: {
+      title?: string
+      text?: string
+      intro?: string
+      p1?: string
+      p2?: string
+      items?: string[] | Array<{ title: string; description: string }>
+      tableCaption?: string
+      tableHeaders?: string[]
+      tableData?: string[][]
+      table?: {
+        caption?: string
+        headers?: string[]
+        rows?: string[][]
+      }
+      steps?: Array<{ title: string; description: string }>
+      highlight?: string
+      payback?: {
+        title?: string
+        text?: string
+      }
+      savings?: {
+        title?: string
+        text?: string
+      }
+    }
+  }
+}
+
+export function SecondhandPage({ staticData, lang }: SecondhandPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('horeca')
 
+  // get category data from staticData
+  const categoryData = (staticData as Record<string, { subcategories?: { secondhand?: SubcategoryData } }>)[
+    `${lang}:${ns}`
+  ]
+  const data = categoryData?.subcategories?.secondhand
+
+  const breadcrumbs = [
+    { label: t('nav.applications', { ns: NAMESPACES.common }), href: '/applications' },
+    { label: t('title', { ns }), href: '/applications/horeca' },
+    { label: t('subcategories.secondhand.title', { ns }) },
+  ]
+
   return (
     <Layout>
-      <Seo title={t('subcategories.secondhand.title', { ns })} description={t('subcategories.secondhand.shortDesc', { ns })} />
-      {/* Breadcrumbs */}
-      <div className="bg-bg-light border-border border-b">
-        <div className="container py-4">
-          <nav className="flex items-center gap-2 text-sm">
-            <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
-              {t('nav.applications', { ns: NAMESPACES.common })}
-            </AppLink>
-            <span className="text-text-light">/</span>
-            <AppLink
-              href="/applications/horeca"
-              className="text-text-secondary hover:text-primary transition-colors"
-            >
-              {t('title', { ns })}
-            </AppLink>
-            <span className="text-text-light">/</span>
-            <span className="text-text-primary font-medium">{t('subcategories.secondhand.title', { ns })}</span>
-          </nav>
-        </div>
-      </div>
+      <Seo
+        title={t('subcategories.secondhand.title', { ns })}
+        description={t('subcategories.secondhand.shortDesc', { ns })}
+      />
 
-      {/* Hero Section */}
-      <section className="relative overflow-hidden py-16 md:py-24">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80"
-            alt={t('subcategories.secondhand.title', { ns })}
-            fill
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
-        </div>
-        <div className="relative z-10 container">
-          <AppLink
-            href="/applications/horeca"
-            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
-          >
-            <IconArrowLeft style={{ width: 20, height: 20 }} />
-            <span>{t('title', { ns })}</span>
-          </AppLink>
-          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
-            {t('subcategories.secondhand.title', { ns })}
-          </h1>
-          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
-            {t('subcategories.secondhand.shortDesc', { ns })}
-          </p>
-        </div>
-      </section>
+      <ArticleHero
+        title={t('subcategories.secondhand.title', { ns })}
+        description={t('subcategories.secondhand.shortDesc', { ns })}
+        image="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80"
+        imageAlt={t('subcategories.secondhand.title', { ns })}
+        breadcrumbs={breadcrumbs}
+        backLink={{
+          href: '/applications/horeca',
+          label: t('title', { ns }),
+        }}
+      />
 
       {/* Key Stats */}
       <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
-            <StatCard value="1-3" label="Часа обработки" description="Ночная обработка" variant="primary" />
-            <StatCard value="100%" label="Устранение запаха" description="Химическая нейтрализация" variant="accent" />
-            <StatCard value="+30%" label="Время в магазине" description="Комфорт покупателей" variant="primary" />
-            <StatCard value="99,9%" label="Дезинфекция" description="Бактерии и клещи" variant="accent" />
+            <StatCard
+              value={data?.stats?.processingTime?.value ?? ''}
+              label={data?.stats?.processingTime?.label ?? ''}
+              description={data?.stats?.processingTime?.description ?? ''}
+              variant="primary"
+            />
+            <StatCard
+              value={data?.stats?.odorRemoval?.value ?? ''}
+              label={data?.stats?.odorRemoval?.label ?? ''}
+              description={data?.stats?.odorRemoval?.description ?? ''}
+              variant="accent"
+            />
+            <StatCard
+              value={data?.stats?.stayIncrease?.value ?? ''}
+              label={data?.stats?.stayIncrease?.label ?? ''}
+              description={data?.stats?.stayIncrease?.description ?? ''}
+              variant="primary"
+            />
+            <StatCard
+              value={data?.stats?.disinfection?.value ?? ''}
+              label={data?.stats?.disinfection?.label ?? ''}
+              description={data?.stats?.disinfection?.description ?? ''}
+              variant="accent"
+            />
           </StatGrid>
         </div>
       </section>
 
       {/* Main Content */}
-      <article className="py-12 md:py-16">
+      <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>
-              Специфический запах одежды в магазинах секонд-хенд — следствие обязательной дезинфекции. Перед продажей
-              вещи обрабатываются газом с формальдегидом или бромистым метилом для уничтожения вирусов и бактерий. Сами
-              дезинфицирующие вещества выветриваются к моменту попадания одежды на полки, но характерный запах
-              сохраняется.
-            </Paragraph>
-            <Paragraph>
-              Этот запах — главная проблема ритейла секонд-хенд. Он наполняет весь магазин и вызывает у покупателей
-              неприятные ассоциации с поношенной одеждой. Некоторые покупатели проводят меньше времени в магазине из-за
-              дискомфорта, что напрямую влияет на объём продаж.
-            </Paragraph>
+            <Paragraph>{data?.sections?.intro?.p1 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.p2 ?? ''}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="warning">
-            <strong>Проблема бизнеса:</strong> Запах влияет на восприятие качества товара. Покупатель подсознательно
-            готов заплатить меньше за вещь с неприятным запахом, даже если она в отличном состоянии.
+            <strong>{data?.sections?.businessProblem?.title ?? ''}</strong>{' '}
+            {data?.sections?.businessProblem?.text ?? ''}
           </HighlightBox>
 
-          <ArticleSection title="Влияние запаха на продажи">
+          <ArticleSection title={data?.sections?.businessImpact?.title}>
             <DataTable
-              caption="Как запах влияет на бизнес-показатели"
-              headers={['Показатель', 'С запахом', 'После озонирования']}
-              rows={[
-                ['Среднее время визита', '12 минут', '18-20 минут'],
-                ['Конверсия в покупку', '15%', '22%'],
-                ['Средний чек', 'Базовый', '+15-25%'],
-                ['Повторные визиты', '25%', '40%'],
-                ['Негативные отзывы о запахе', '35%', '<5%'],
-              ]}
+              caption={data?.sections?.businessImpact?.tableCaption}
+              headers={data?.sections?.businessImpact?.tableHeaders ?? []}
+              rows={data?.sections?.businessImpact?.tableData ?? []}
             />
           </ArticleSection>
 
-          <ArticleSection title="Преимущества озонирования">
+          <ArticleSection title={data?.sections?.benefits?.title}>
             <FeatureGrid columns={2}>
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Полное устранение запаха"
-                description="Озон нейтрализует молекулы дезинфектантов, а не маскирует их. Результат — свежий воздух."
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Обработка без выгрузки"
-                description="Вся продукция обрабатывается одновременно, не нужно снимать вещи с вешалок."
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Дополнительная дезинфекция"
-                description="Озон уничтожает бактерии, вирусы и пылевых клещей — дополнительная гарантия качества."
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Комфорт покупателей"
-                description="Приятная атмосфера в магазине = больше времени на выбор = больше покупок."
-              />
+              {((data?.sections?.benefits?.items as Array<{ title: string; description: string }>) ?? []).map(
+                (item, idx) => (
+                  <FeatureCard
+                    key={idx}
+                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                    title={item.title}
+                    description={item.description}
+                  />
+                ),
+              )}
             </FeatureGrid>
           </ArticleSection>
 
-          <ArticleSection title="Процесс озонирования">
-            <ProcessList
-              steps={[
-                {
-                  title: 'Подготовка помещения',
-                  description:
-                    'Магазин закрывается. Окна и двери закрыты. Приточная вентиляция отключена для максимальной концентрации озона.',
-                },
-                {
-                  title: 'Размещение озонатора',
-                  description:
-                    'Настенный озонатор размещается на высоте 40-60 см от потолка. Мобильный — на максимальной высоте.',
-                },
-                {
-                  title: 'Озонирование',
-                  description: 'Включается режим обработки на 1-3 часа в зависимости от объёма помещения.',
-                },
-                {
-                  title: 'Проветривание или ожидание',
-                  description:
-                    'При ночной обработке проветривание не нужно — озон выветрится сам за 2-3 часа. К открытию магазина останется только лёгкий запах свежести.',
-                },
-              ]}
-            />
+          <ArticleSection title={data?.sections?.process?.title}>
+            <ProcessList steps={data?.sections?.process?.steps ?? []} />
           </ArticleSection>
 
-          <ArticleSection title="Расчёт оборудования">
-            <Paragraph>
-              Производительность озонатора выбирается из соотношения: 1 г/час на 25 м³ объёма помещения.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.calculation?.title}>
+            <Paragraph>{data?.sections?.calculation?.text ?? ''}</Paragraph>
             <DataTable
-              caption="Рекомендации по выбору озонатора"
-              headers={['Площадь магазина', 'Объём', 'Озонатор', 'Время обработки']}
-              rows={[
-                ['50-100 м²', '150-300 м³', '10 г/час', '1-2 часа'],
-                ['100-200 м²', '300-600 м³', '10-20 г/час', '2-3 часа'],
-                ['200-400 м²', '600-1200 м³', '20-40 г/час', '2-3 часа'],
-                ['400+ м²', '1200+ м³', 'Несколько приборов', '2-3 часа'],
-              ]}
+              caption={data?.sections?.calculation?.tableCaption}
+              headers={data?.sections?.calculation?.tableHeaders ?? []}
+              rows={data?.sections?.calculation?.tableData ?? []}
             />
           </ArticleSection>
 
-          <ArticleSection title="Режим работы">
-            <BulletList
-              items={[
-                'Ежедневная обработка в ночное время — оптимальный режим',
-                'Автоматический запуск по таймеру после закрытия магазина',
-                'К утру озон полностью выветривается, остаётся свежесть',
-                'Персоналу не требуется участие — полная автоматизация',
-                'При сильном запахе — первые 3-5 дней обработка по 2-3 часа',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.workMode?.title}>
+            <BulletList items={(data?.sections?.workMode?.items as string[]) ?? []} />
 
             <HighlightBox variant="info">
-              <strong>Средства защиты:</strong> Если персонал находится в помещении во время озонирования (например, для
-              включения прибора), необходим респиратор или противогаз с угольным фильтром.
+              <strong>{(data?.sections?.workMode?.highlight as { title?: string } | undefined)?.title ?? ''}</strong>{' '}
+              {(data?.sections?.workMode?.highlight as { text?: string } | undefined)?.text ?? ''}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Экономика решения">
+          <ArticleSection title={data?.sections?.economics?.title}>
             <DataTable
-              headers={['Статья расходов', 'Без озонирования', 'С озонированием']}
-              rows={[
-                ['Ароматизаторы, освежители', '5-15 тыс. ₽/мес', '0 ₽'],
-                ['Электроэнергия', '—', '500-1000 ₽/мес'],
-                ['Потери от недовольных клиентов', 'Значительные', 'Минимальные'],
-                ['Стоимость оборудования', '—', '22-35 тыс. ₽ (разово)'],
-              ]}
+              headers={data?.sections?.economics?.tableHeaders ?? []}
+              rows={data?.sections?.economics?.tableData ?? []}
             />
 
             <HighlightBox variant="success">
-              <strong>Окупаемость:</strong> При экономии 10 тыс. ₽/месяц на ароматизаторах, озонатор окупается за 2-3
-              месяца. Дальнейшая эксплуатация — только стоимость электроэнергии.
+              <strong>{(data?.sections?.economics?.payback as { title?: string } | undefined)?.title ?? ''}</strong>{' '}
+              {(data?.sections?.economics?.payback as { text?: string } | undefined)?.text ?? ''}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Дополнительные преимущества">
-            <BulletList
-              items={[
-                'Повышение привлекательности товара — вещи воспринимаются как более качественные',
-                'Уничтожение пылевых клещей — важно для покупателей с аллергией',
-                'Дезинфекция помещения — профилактика распространения инфекций',
-                'Устранение плесени — актуально для подвальных помещений',
-                'Маркетинговое преимущество — «магазин без запаха секонд-хенда»',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.additionalAdvantages?.title}>
+            <BulletList items={(data?.sections?.additionalAdvantages?.items as string[]) ?? []} />
           </ArticleSection>
 
-          <ArticleSection title="Рекомендуемое оборудование">
+          <ArticleSection title={data?.sections?.equipment?.title}>
             <DataTable
-              headers={['Модель', 'Производительность', 'Применение', 'Стоимость']}
-              rows={[
-                ['ОЗ-А10', '10 г/час', 'Магазины до 250 м³', 'от 22 000 ₽'],
-                ['ОЗ-А10(Н)', '10 г/час', 'Настенная установка', 'от 32 000 ₽'],
-                ['ОЗ-А20', '20 г/час', 'Магазины до 500 м³', 'от 34 000 ₽'],
-              ]}
+              headers={data?.sections?.equipment?.tableHeaders ?? []}
+              rows={data?.sections?.equipment?.tableData ?? []}
             />
           </ArticleSection>
         </div>
       </article>
 
-      {/* CTA Section */}
-      <section className="cta">
-        <div className="container">
-          <h2 className="cta__title">{t('cta.applications.title', { ns: NAMESPACES.common })}</h2>
-          <p className="cta__text">{t('cta.applications.text', { ns: NAMESPACES.common })}</p>
-          <div className="cta__actions">
-            <AppLink href="/contacts" className="btn btn--white btn--large">
-              {t('hero.getConsultation', { ns: NAMESPACES.common })}
-            </AppLink>
-            <a
-              href="tel:+78001234567"
-              className="btn btn--secondary btn--large"
-              style={{ borderColor: 'white', color: 'white' }}
-            >
-              {t('header.phone', { ns: NAMESPACES.common })}
-            </a>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        title={t('cta.applications.title', { ns: NAMESPACES.common })}
+        description={t('cta.applications.text', { ns: NAMESPACES.common })}
+        primaryButton={{
+          label: t('hero.getConsultation', { ns: NAMESPACES.common }),
+          href: '/contacts',
+        }}
+        secondaryButton={{
+          label: t('header.phone', { ns: NAMESPACES.common }),
+          href: 'tel:+78001234567',
+        }}
+      />
     </Layout>
   )
 }

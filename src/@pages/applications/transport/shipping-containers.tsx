@@ -145,17 +145,26 @@ export function ShippingContainersPage({ staticData, lang }: ShippingContainersP
           <ArticleSection title={data?.sections?.comparison?.title}>
             <ComparisonTable
               title={data?.sections?.comparison?.comparisonTitle ?? ''}
-              headers={data?.sections?.comparison?.tableHeaders ?? []}
-              rows={data?.sections?.comparison?.tableData ?? []}
+              headers={
+                (data?.sections?.comparison?.tableHeaders ?? []) as
+                  | [string, string, string]
+                  | [string, string, string, string]
+              }
+              rows={
+                (data?.sections?.comparison?.tableData ?? []) as unknown as Array<{
+                  parameter: string
+                  value1: string
+                  value2: string
+                  value3?: string
+                }>
+              }
             />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.technology?.title}>
             <ProcessList steps={data?.sections?.technology?.steps ?? []} />
 
-            <HighlightBox variant="success">
-              {data?.sections?.technology?.highlight ?? ''}
-            </HighlightBox>
+            <HighlightBox variant="success">{String(data?.sections?.technology?.highlight ?? '')}</HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.modes?.title}>
@@ -215,8 +224,19 @@ export function ShippingContainersPage({ staticData, lang }: ShippingContainersP
           <ArticleSection title={data?.sections?.economics?.title}>
             <ComparisonTable
               title={data?.sections?.economics?.comparisonTitle ?? ''}
-              headers={data?.sections?.economics?.tableHeaders ?? []}
-              rows={data?.sections?.economics?.tableData ?? []}
+              headers={
+                (data?.sections?.economics?.tableHeaders ?? []) as
+                  | [string, string, string]
+                  | [string, string, string, string]
+              }
+              rows={
+                (data?.sections?.economics?.tableData ?? []) as unknown as Array<{
+                  parameter: string
+                  value1: string
+                  value2: string
+                  value3?: string
+                }>
+              }
             />
 
             <Paragraph>{data?.sections?.economics?.text ?? ''}</Paragraph>

@@ -6,6 +6,28 @@
       "title": "Mog'or va zamburug'ga qarshi kurash",
       "shortDesc": "Om borda mog'or o'sishini bostirish va yuqumlilik ochaklarini bartaraf etish",
       "content": "Omborxona binolarida nazoratsiz mog'or o'sishi mahsulotlarning buzilishiga va xodimlarning sog'lig'ining yomonlashishiga olib keladi. Mog'or sporalari va havodagi toksinlar xodimlarning immunitetini zaiflashtiradi.\n\nOmborxona ozonlashi muammoni kompleks hal qiladi: mavjud yuqumlilik ochaklarini yo'q qiladi, yangi mog'or va zamburug' koloniyalarining o'sishini bostiradi, mikroorganizmlar faoliyati tufayli yuzaga keladigan yoqimsiz hidlarni bartaraf etadi.\n\nOzon bakteriya va zamburug' hujayralarining membran tuzilishi bilan o'zaro ta'sir qiladi, ularning to'siq funksiyasini buzadi va hujayra o'limiga olib keladi. Kimyoviy vositalardan farqli o'laroq, gaz barcha yoriqlar va uzoq burchaklarga kirib boradi.\n\nSamarali mog'orga qarshi kurash uchun ishlamaydigan vaqtda 1–3 soat ozonlash tavsiya etiladi. Ozon generatori quvvati xonaning har 25 m³ hajmi uchun taxminan 1 g/soat tanlanadi.",
+      "stats": {
+        "destruction": {
+          "value": "95-99%",
+          "label": "Mog'or yo'q qilish",
+          "description": "Ozon bilan davolashdan keyin"
+        },
+        "treatmentTime": {
+          "value": "1-3 soat",
+          "label": "Davolash vaqti",
+          "description": "Samarali dezinfeksiya uchun"
+        },
+        "lossReduction": {
+          "value": "80%",
+          "label": "Yo'qotishlarni kamaytirish",
+          "description": "Mahsulot buzilishidan"
+        },
+        "chemicals": {
+          "value": "0",
+          "label": "Kimyoviy moddalar",
+          "description": "Ozon O₂ ga parchalanadi"
+        }
+      },
       "benefits": [
         "95–99% mog'or yo'q qilish",
         "Yangi koloniyalarni bostirish",
@@ -13,12 +35,150 @@
         "Mahsulotlarni tushirmasdan davolash",
         "Qiyin joylarga kirish",
         "Kislorodga xavfsiz parchalanadi"
-      ]
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Omborxona binolarida nazoratsiz mog'or o'sishi ombor logistikasining asosiy muammolaridan biridir. Mog'or va boshqa mikroorganizmlar ombor kompleksi ishini juda qiyinlashtiradi: mahsulot va karton qutilarning buzilishi brak foizini oshiradi, mog'or sporalari va havodagi toksinlar ombor xodimlarining immunitetini zaiflashtiradi.",
+          "paragraph2": "Omborxona ozonlashi bir necha muammoni bir vaqtning o'zida hal qiladi: saqlanayotgan mahsulotlarning mog'or va chirish faoliyati natijasida buzilishini bartaraf etadi, noxush hidlarni yo'q qiladi va ombor ishchilarining holatini yaxshilaydi. Mog'or sporalarining bir nechtasining organizmga kirishi immun tizimi tomonidan osonlik bilan bloklanadi, lekin ko'p miqdorda ular o'z faoliyati jarayonida chiqariladigan toksinlar tufayli jiddiy xavf tug'diradi.",
+          "warningLabel": "B2B uchun muhim:",
+          "warningText": "Ozon bakteriya, zamburug' va virus hujayralarining membran tuzilishi bilan o'zaro ta'sir qiladi, ularning to'siq funksiyasini buzadi va o'limga olib keladi. Doza va kontsentratsiyalar ishlanayotgan mahsulot, xona hajmi va texnik sharoitlarga qarab tanlanishi kerak."
+        },
+        "mechanism": {
+          "title": "Ozonning mog'orga ta'sir mexanizmi",
+          "intro": "Ozon zamburug' va mog'or hujayra membranalarini buzadigan kuchli oksidlovchidir. Yuzadagi kimyoviy vositalardan farqli o'laroq, gazli ozon barcha qiyin joylarga: yoriqlar, stelajlar, upakovka, ventilyatsiya tizimlariga kirib boradi.",
+          "items": [
+            "Mog'or sporalari va mitseliy hujayra membranalarini buzish",
+            "Organik moddalarni oksidlash — zamburug'lar uchun ozik muhiti",
+            "Mikotoksinlar va metabolitlarni neytrallash",
+            "Muhitni o'zgartirish orqali yangi koloniyalar o'sishini bostirish",
+            "Molekulyar darajada nam hidni bartaraf etish"
+          ]
+        },
+        "equipment": {
+          "title": "Ombor uchun jarayonlarni hisoblash",
+          "intro": "Ozon generatorining to'g'ri tanlanishi samarali davolashning asosiy omilidir. Omborxona binolari uchun asosiy nisbat ishlatiladi: xona hajmining 25 m³ uchun 1 g/soat ozon ishlab chiqarish.",
+          "tableCaption": "Omborlar uchun jarayonlarni tanlash bo'yicha tavsiyalar",
+          "tableHeaders": ["Ombor hajmi", "Ozon generatori ishlab chiqarishi", "Davolash vaqti"],
+          "tableRows": [
+            ["500 m³ gacha", "20-25 g/soat", "60-90 daqiqa"],
+            ["500-1000 m³", "40-50 g/soat", "60-120 daqiqa"],
+            ["1000-2500 m³", "80-100 g/soat", "90-120 daqiqa"],
+            ["2500-5000 m³", "150-200 g/soat", "120-180 daqiqa"],
+            ["5000 m³ dan yuqori", "Bir necha ustanovka", "120-180 daqiqa"]
+          ],
+          "hvacLabel": "HVAC bilan integratsiya:",
+          "hvacText": "Katta omborlar uchun ventilyatsiya tizimiga integratsiyalangan kanal ozon generatorlarini ishlatish tavsiya etiladi. Bu ozonning barcha hajm bo'ylab tekis tarqalishini va davolashdan keyin avtomatik provetrivaniyeni ta'minlaydi."
+        },
+        "treatmentModes": {
+          "title": "Omborni davolash rejimlari",
+          "intro": "Omborni ozonlash ishlamaydigan vaqtda amalga oshiriladi. Davolash vaqtida xonada shaxsiy himoya vositalarisiz odamlar bo'lmasligi kerak. Ozonlash vaqti va rejimi xona hajmi, ozon generatorlarining ishlab chiqarishi, havo harorati va namligiga bog'liq.",
+          "steps": [
+            "Barcha derazalar va eshiklarni yoping, imkoniyat bo'lsa, ta'minlovchi ventilyatsiyani o'chiring",
+            "Xona hajmiga qarab 40-120 daqiqa muddatga ozon generatorini yoqing",
+            "Davolash tugagandan keyin eshiklar va derazalarni oching, 20-60 daqiqa provetrivaniye qiling",
+            "Provetrivaniyeni tezlashtirish uchun ta'minlovchi ventilyatsiya tizimini yoqing",
+            "Tungi davolash uchun provetrivaniye talab etilmaydi — ozon 2-3 soatda tarqaladi"
+          ],
+          "tableCaption": "Yuqumlilik darajasiga qarab ozonlash rejimlari",
+          "tableHeaders": ["Yuqumlilik darajasi", "Ozon kontsentratsiyasi", "Davolash chastotasi"],
+          "tableRows": [
+            ["Oldini olish", "2-5 mg/m³", "Haftasiga 1-2 marta"],
+            ["O'rtacha", "5-10 mg/m³", "Haftasiga 3-4 marta"],
+            ["Kuchli", "10-20 mg/m³", "Bartaraf etilguncha kunlik"],
+            ["Kritik", "20-30 mg/m³", "Intensiv kurs 7-14 kun"]
+          ]
+        },
+        "humidityControl": {
+          "title": "Namlikni nazorat qilish bilan sinergiya",
+          "intro": "Mog'or 60% dan yuqori namlikda faol rivojlanadi. Mog'orga qarshi kurashning kompleks yo'nalishi ozonlash va havo namligini nazorat qilishni o'z ichiga oladi. Ozon mavjud ochaklarni bartaraf etadi, 45-55% optimal namlikni saqlash esa yangilarining paydo bo'lishining oldini oladi.",
+          "items": [
+            "Nam xonalar uchun havoni quritish tizimlarini o'rnatish",
+            "Sovuq yuzalarda kondensatni nazorat qilish",
+            "Gigrometrlar yordamida namlikni muntazam monitoring qilish",
+            "Havo to'xtashining oldini olish uchun yetarli ventilyatsiyani ta'minlash",
+            "Ozonlash va quritishning birlashgan tizimlari"
+          ]
+        },
+        "economics": {
+          "title": "Iqtisodiy asoslash",
+          "intro": "Omborda ozonlashni joriy etish tez o'zini qoplash bilan investitsiyadir. Mahsulot buzilishidan yo'qotishlarni kamaytirish, kimyoviy davolash xarajatlarini kamaytirish va xodimlarning kasallik ko'rsatkichlarini pasaytirish muhim iqtisodiy ta'sirni shakllantiradi.",
+          "tableCaption": "2000 m³ ombor uchun tipik tejash tuzilishi",
+          "tableHeaders": ["Tejash maqolasi", "Yildagi summa", "ROI dagi ulushi"],
+          "tableRows": [
+            ["Mahsulot buzilishidan yo'qotishlarni kamaytirish", "150 000 — 300 000 ₽", "40-50%"],
+            ["Kimyoviy davolashda tejash", "50 000 — 80 000 ₽", "15-20%"],
+            ["Xodimlarning kasalxona listlarini kamaytirish", "30 000 — 60 000 ₽", "10-15%"],
+            ["Brak va shikoyatlarni kamaytirish", "70 000 — 120 000 ₽", "20-25%"]
+          ],
+          "roiLabel": "ROI:",
+          "roiText": "Ombor uchun ozon generatori jarayonlarining tipik o'zini qoplash muddati 6-12 oyni tashkil qiladi. Shu bilan birga, sanoat ozon generatorlarining xizmat muddati minimal xizmat ko'rsatish xarajatlari bilan 5 yildan boshlanadi."
+        },
+        "standards": {
+          "title": "Talablar va standartlarga mos kelish",
+          "intro": "Omborxona ozonlashi sanitariya normalari va mahsulot saqlash talablariga mos keladi. Ozon mahsulotlarda kimyoviy qoldiqlarni qoldirmaydi, to'liq kislorodga parchalanadi.",
+          "items": [
+            "SanPiN 2.1.6.1032-01 — atmosfera havo sifatiga gigiyena talablari",
+            "GOST R 51232-98 — ichimlik suvi (ovqat omborlari uchun)",
+            "TR TS 021/2011 — ovqat mahsulotlari xavfsizligi talablari",
+            "FZ-52 \"Aholining sanitariya-epidemiologiya farovonligi haqida\"",
+            "A, B, V kategoriyasi omborxona binolariga talablar"
+          ]
+        },
+        "benefits": {
+          "title": "Omborlar uchun ozonlashning afzalliklari",
+          "noUnloading": {
+            "title": "Mahsulotlarni tushirmasdan",
+            "description": "Davolash omborni bo'shatish zaruriyatisiz amalga oshiriladi — ozon ko'pchilik tovarlar uchun xavfsiz"
+          },
+          "penetration": {
+            "title": "Har joyga kirish",
+            "description": "Gaz qiyin joylarga yetadi: yoriqlar, tikishlar, ventilyatsiya, suyuq vositalar kira olmaydigan joylarga"
+          },
+          "automation": {
+            "title": "Avtomatik ishlash",
+            "description": "Zamonaviy ozon generatorlari ishlamaydigan soatlarda mustaqil ishlash uchun taymerlar bilan jihozlangan"
+          },
+          "safeDecay": {
+            "title": "Xavfsiz parchalanish",
+            "description": "Qoldiq ozon zaharlı mahsulotlarni shakllantirmay kislorodga parchalanadi"
+          },
+          "noConsumables": {
+            "title": "Sarf materiallarsiz",
+            "description": "Ishlash uchun faqat havo va elektr zarur — reagentlar yo'q"
+          },
+          "complexAction": {
+            "title": "Kompleks ta'sir",
+            "description": "Bir vaqtning o'zida dezinfeksiya, dezodorizatsiya va zararkunandalarning paydo bo'lishining oldini olish"
+          }
+        }
+      }
     },
     "general-storage": {
       "title": "Umumiy mahsulot saqlash",
       "shortDesc": "Saqlanayotgan mahsulot sifati va ombor sanitariya holatini saqlash",
       "content": "Ombor logistikasi keng mahsulot assortimentini saqlash uchun barqaror saqlash sharoitlarini talab qiladi. Havoni ozonlash dezinfeksiya, dezodorizatsiya va mahsulot buzilishining oldini olish vazifalarini kompleks hal qiladi.\n\nMuntazam ozonlash havoda va yuzalarda bakteriya yukini kamaytiradi, mahsulot saqlash muddatini uzaytiradi, yoqimsiz hidlarni bartaraf etadi va xodimlar uchun qulay sharoitlar yaratadi.\n\nTexnologiya aralash maqsadli omborlar, tarqatish markazlari va turli saqlash talablari bo'lgan mahsulot guruhlarini saqlaydigan logistika markazlari uchun ayniqsa muhim.\n\nOzon universal: bakteriyalar, viruslar, zamburug'lar va zararkunandalarga bir xil samarali. Davolash mahsulotlarni tushirishni talab qilmaydi va taymer orqali avtomatik bajarilishi mumkin.",
+      "stats": {
+        "microfloraReduction": {
+          "value": "80–90%",
+          "label": "Mikroflorani kamaytirish",
+          "description": "Havoda va yuzalarda"
+        },
+        "storageExtension": {
+          "value": "+20–40%",
+          "label": "Saqlashni uzaytirish",
+          "description": "Turli mahsulot kategoriyalari uchun"
+        },
+        "odorElimination": {
+          "value": "99%",
+          "label": "Hidlarni bartaraf etish",
+          "description": "Kimyoviy parchalanish, yashirish emas"
+        },
+        "automation": {
+          "value": "24/7",
+          "label": "Avtomatlashtirish",
+          "description": "Xodimlarsiz taymer asosida ishlash"
+        }
+      },
       "benefits": [
         "80–90% bakteriya yukini kamaytirish",
         "Uzaytirilgan mahsulot saqlash muddati",
@@ -26,7 +186,180 @@
         "Hidni bartaraf etish",
         "Ish sharoitlarini yaxshilash",
         "Xodimlarsiz avtomatik davolash"
-      ]
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Zamonaviy ombor logistikasi saqlanayotgan mahsulotlar sifatiini saqlash uchun kompleks yondashuvni talab qiladi. Havoni ozonlash dezinfeksiya, dezodorizatsiya, zararkunandalarga qarshi kurash va mahsulot buzilishining oldini olish vazifalarini bir vaqtning o'zida hal qiladigan universal texnologiyadir.",
+          "paragraph2": "Logistika operatorlari va ombor majmualari egalari uchun ozonlash yo'qotishlarni kamaytirish, mahsulot saqlash muddatini uzaytirish va kimyoviy vositalarni doimiy qo'llashmasdan sanitariya talablariga mos kelishni ta'minlaydigan sifat standartiga aylanmoqda.",
+          "infoLabel": "Logistika menejerlari uchun:",
+          "infoText": "Ozonlash - bu mahsulotlarni tushirish zarurati bo'lmagan holda katta hajmdagi havoni qayta ishlash. Gaz barcha ombor zonalariga, jumladan palletalar orasidagi va stelajlarning yuqori qatorlaridagi qiyin erishiladigan joylarga kirib boradi."
+        },
+        "warehouseTypes": {
+          "title": "Ombor turlari va tavsiya etilgan yechimlar",
+          "paragraph": "Ozonlashga yondashuv ombor binosi turi, saqlanayotgan mahsulotlar va tovar aylanishi intensivligiga qarab farq qiladi.",
+          "tableCaption": "Ombor binolari turlari bo'yicha tavsiyalar",
+          "tableHeaders": ["Ombor turi", "Tavsiya etilgan uskuna", "Ish rejimi"],
+          "tableData": [
+            ["Tarqatish markazi", "HVAC tizimidagi kanalli ozonatorlar", "Past dozalarda uzluksiz"],
+            ["A sinf (baland saqlash)", "Mobil + devorga o'rnatilgan", "Tun vaqtida zonal qayta ishlash"],
+            ["B sinf (standart)", "Devorga o'rnatilgan ozonatorlar", "Haftasiga 2–3 marta"],
+            ["Sovutgich ombor", "-20°C maxsus modellar", "Defrost qilmasdan jadval bo'yicha"],
+            ["E-commerce ombori", "Partiyalar uchun ozon shkafalari", "Qabul qilishda qayta ishlash"]
+          ]
+        },
+        "calculation": {
+          "title": "Katta maydonlar uchun qoplamani hisoblash",
+          "paragraph": "1000 m² dan boshlab omborlarni samarali qayta ishlash uchun nafaqat xona hajmini, balki shift balandligini, stelajlar mavjudligini, havo almashinuvi intensivligini va saqlanayotgan tovarlar turini hisobga olish kerak.",
+          "tableCaption": "Ozonator unumdorligini hisoblash formulasi",
+          "tableHeaders": ["Parametr", "Qiymat", "Izoh"],
+          "tableData": [
+            ["Asosiy nisbat", "25 m³ uchun 1 g/soat", "Bo'sh xona uchun"],
+            ["To'ldirish koeffitsiyenti", "×1.2–1.5", "Stelajlar mavjud bo'lganda"],
+            ["Shift balandligi >6m", "×1.3", "Qo'shimcha koeffitsiyent"],
+            ["Yuqori namlik >70%", "×1.2", "Ozon tezroq parchalanadi"],
+            ["Harorat 0°C dan past", "×0.8", "Ozon barqarorroq"]
+          ],
+          "exampleLabel": "Hisoblash misoli:",
+          "exampleText": "Ombor 3000 m² × 8 m balandlik = 24000 m³. Asosiy unumdorlik: 24000÷25 = 960 g/soat. Stelajlarni hisobga olgan holda (×1.3): 1248 g/soat. Har biri 250–300 g/soat bo'lgan 4–5 ta ozonator o'rnatish yoki ventilyatsiya tizimiga integratsiya qilish tavsiya etiladi."
+        },
+        "hvacIntegration": {
+          "title": "Ventilyatsiya tizimi bilan integratsiya (HVAC)",
+          "paragraph": "Katta logistika majmualari uchun eng yaxshi yechim ozon uskunalarini mavjud ventilyatsiya va konditsioner tizimiga integratsiya qilishdir.",
+          "numberedItems": [
+            "Kanalli ozonator ta'minot yoki resirkulyatsiya kanaliga o'rnatiladi",
+            "Ozon kontsentratsiyasi sensori ish zonasidagi darajani nazorat qiladi",
+            "Avtomatika rejimlarni boshqaradi: profilaktik (past dozalar) va intensiv (ishlamaydigan vaqt)",
+            "Markazlashtirilgan nazorat uchun BMS (Bino boshqaruvi tizimi) bilan integratsiya",
+            "Atmosferaga chiqarishda ventilyatsiya chiqishidagi ozon yo'q qiluvchi"
+          ],
+          "bulletItems": [
+            "Ozonning butun ombor hajmi bo'ylab teng taqsimlanishi",
+            "Ventilyatsiya tizimi orqali avtomatik shamollatish",
+            "Zonal qayta ishlash imkoniyati",
+            "Integratsiyadan keyin minimal texnik xizmat ko'rsatish xarajatlari",
+            "Mehnatni muhofaza qilish talablariga mos kelish"
+          ]
+        },
+        "frequency": {
+          "title": "Qayta ishlash chastotasi va optimal jadval",
+          "paragraph": "Ozonlash muntazamligi ombor turi, aylanish intensivligi va saqlash sifatiga bo'lgan talablarga bog'liq. Ko'pchilik omborlar uchun haftasiga 2–4 marta ishlamaydigan vaqtda qayta ishlash yetarli.",
+          "tableCaption": "Tavsiya etilgan qayta ishlash chastotasi",
+          "tableHeaders": ["Mahsulot turi", "Chastota", "Davomiylik"],
+          "tableData": [
+            ["Sanoat tovarlari", "Haftasiga 1–2 marta", "60–90 daqiqa"],
+            ["To'qimachilik, kiyim", "Haftasiga 2–3 marta", "60–120 daqiqa"],
+            ["Maishiy kimyoviy moddalar", "Haftasiga 1 marta", "30–60 daqiqa"],
+            ["Elektronika", "Haftasiga 1–2 marta", "30–60 daqiqa"],
+            ["Qurilish materiallari", "Haftasiga 1 marta", "60–90 daqiqa"],
+            ["Tez buziladigan tovarlar", "Kunlik", "120–180 daqiqa"]
+          ],
+          "scheduleLabel": "Optimal jadval:",
+          "scheduleText": "Ozonlashni tun vaqtida (22:00 — 06:00) o'tkazish tavsiya etiladi. To'g'ri tanlangan qayta ishlash vaqti bilan ozon ish kunining boshlanishiga qadar maxsus shamollatish zaruratisiz to'liq tarqaladi."
+        },
+        "pestPrevention": {
+          "title": "Zararkunandalarning oldini olish",
+          "paragraph1": "Ozon ombor zararkunandalarining keng spektriga qarshi samarali: hasharotlar, kemiruvchilar, oqadilar. Muntazam qayta ishlash ularning yashash va ko'payish uchun noqulay muhit yaratadi.",
+          "tableCaption": "Ombor zararkunandalariga qarshi ozon samaradorligi",
+          "tableHeaders": ["Zararkunanda", "Samaradorlik", "Qayta ishlash rejimi"],
+          "tableData": [
+            ["Omborda qo'ng'iz", "95–99%", "30–60 mg/m³, 30–60 min"],
+            ["Un qo'ng'izi", "90–95%", "20–40 mg/m³, 60 min"],
+            ["Tamaki qo'ng'izi", "95–99%", "30–50 mg/m³, 45 min"],
+            ["Chang oqadilari", "99%", "10–20 mg/m³, 30 min"],
+            ["Kemiruvchilar (qo'rqitish)", "80–90%", "5–10 mg/m³, muntazam"]
+          ],
+          "paragraph2": "Zararkunandalar aniqlandi, ozonlash dezinfeksiya choralari kompleksining bir qismi sifatida ishlatiladi. Ozon kuchli zararlanishda professional qayta ishlashni almashtirmaydi, lekin profilaktika va qo'llab-quvvatlovchi qayta ishlash uchun samaralidir."
+        },
+        "airQuality": {
+          "title": "Xodimlar uchun havo sifati",
+          "paragraph": "Ozonlash ombor ishchilarining mehnat sharoitlarini yaxshilaydi: nam hidlarni bartaraf qiladi, chang va allergen kontsentratsiyasini kamaytiradi, havodagi kasallik keltiruvchi mikroorganizmlarni yo'q qiladi.",
+          "comparisonTitle": "Ozonlashni joriy qilishdan oldin va keyin",
+          "comparisonHeaders": ["Ko'rsatkich", "Ozonlash bilan", "Ozonlashsiz"],
+          "comparisonRows": [
+            {
+              "parameter": "Xonadagi hid",
+              "value1": "Yangi havo",
+              "value2": "Namlik, mahsulot hidlari"
+            },
+            {
+              "parameter": "Havodagi mikroflora",
+              "value1": "80–90% ga kamaytirilgan",
+              "value2": "Standart daraja"
+            },
+            {
+              "parameter": "Nafas olish kasalliklari",
+              "value1": "-30–40%",
+              "value2": "Asosiy daraja"
+            },
+            {
+              "parameter": "Allergik reaktsiyalar",
+              "value1": "-50–60%",
+              "value2": "Tez-tez shikoyatlar"
+            },
+            {
+              "parameter": "Subyektiv qulaylik",
+              "value1": "Yuqori",
+              "value2": "O'rta/past"
+            }
+          ],
+          "warningLabel": "Xavfsizlik talablari:",
+          "warningText": "Ish zonasidagi ozonning MPC — 0,1 mg/m³. Qayta ishlash odamlar bo'lmaganda o'tkaziladi. Ozonlash paytida texnik xizmat ko'rsatuvchi xodimlar respirator yoki uglerodli filtri bo'lgan gaz niqobidan foydalanishlari kerak."
+        },
+        "compliance": {
+          "title": "Saqlash talablariga mos kelish",
+          "paragraph": "Ozonlash turli sinflardagi ombor binolariga sanitariya talablariga mos kelishga yordam beradi. Ozon mahsulotlarda kimyoviy qoldiqlarni qoldirmaydi va ko'pchilik materiallar bilan mos keladi.",
+          "bulletItems": [
+            "SanPiN 2.1.2.2645-10 — sanitariya-epidemiologik talablar",
+            "SP 2.2.3670-20 — ish joylari uchun sanitariya qoidalari",
+            "GOST R 51303-2013 — ombor binolari tasnifi",
+            "Ijarachilarning saqlash sifatiga bo'lgan talablari",
+            "Farmatsevtika va oziq-ovqat omborlari uchun sertifikatlash talablari"
+          ]
+        },
+        "economics": {
+          "title": "Joriy etish iqtisodiyoti",
+          "paragraph1": "Ozonlashga sarmoya mahsulot buzilishidan yo'qotishlarni kamaytirish, kimyoviy qayta ishlashda tejash va xodimlar salomatligi ko'rsatkichlarini yaxshilash orqali o'zini qoplaydi.",
+          "tableCaption": "5000 m² ombor uchun ROI kalkulyatori",
+          "tableHeaders": ["Modda", "Ozonlashsiz", "Ozonlash bilan"],
+          "tableData": [
+            ["Mahsulot buzilishidan yo'qotishlar", "500,000 ₽/yil", "150,000 ₽/yil"],
+            ["Kimyoviy qayta ishlash", "120,000 ₽/yil", "20,000 ₽/yil"],
+            ["Kasallik ta'tillari (kunlar)", "45 kun/yil", "25 kun/yil"],
+            ["Sifat bo'yicha shikoyatlar", "80,000 ₽/yil", "20,000 ₽/yil"],
+            ["Ozonlash xarajatlari", "—", "180,000 ₽/yil*"]
+          ],
+          "paragraph2": "* Uskuna amortizatsiyasi, elektr energiyasi va texnik xizmat ko'rsatishni o'z ichiga oladi. Sof tejash: yiliga taxminan 330,000 ₽. Uskuna o'zini qoplash muddati: 8–14 oy."
+        },
+        "benefits": {
+          "title": "Logistika operatorlari uchun afzalliklar",
+          "features": [
+            {
+              "title": "Universal",
+              "description": "Bakteriyalar, viruslar, zamburug'lar, hidlar va zararkunandalarga qarshi bitta usul"
+            },
+            {
+              "title": "Masshtablanuvchanlik",
+              "description": "Kichik ombordan 100,000+ m² logistika majmuasigacha"
+            },
+            {
+              "title": "Avtomatlashtirish",
+              "description": "Xodimlarsiz jadval bo'yicha ishlash, BMS bilan integratsiya"
+            },
+            {
+              "title": "Qoldiqlarsiz",
+              "description": "Ozon kislorodga parchalanadi, mahsulotlarda kimyoviy izlar qoldirmaydi"
+            },
+            {
+              "title": "Tez ishga tushirish",
+              "description": "Omborni to'xtatmasdan 1–2 kun ichida uskunalarni o'rnatish va ishga tushirish"
+            },
+            {
+              "title": "Past OPEX",
+              "description": "Minimal operatsion xarajatlar: faqat elektr energiyasi va havo"
+            }
+          ]
+        }
+      }
     }
   }
 }

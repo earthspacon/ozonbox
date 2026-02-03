@@ -1,14 +1,15 @@
-import Image from 'next/image'
-import { useTranslate } from '@tolgee/react'
+import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
-import { AppLink } from '@/shared/ui/app-link'
+import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { useLang } from '@/shared/lib'
 import {
+  ArticleHero,
   ArticleSection,
   BulletList,
   ComparisonTable,
+  CTASection,
   DataTable,
   FeatureCard,
   FeatureGrid,
@@ -17,237 +18,198 @@ import {
   StatCard,
   StatGrid,
 } from '@/shared/ui/article-components'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
+import { IconCheck } from '@/shared/ui/icons'
 import { Seo } from '@/shared/ui/seo'
 
-export function BottledWaterPage() {
+interface BottledWaterPageProps {
+  staticData: TolgeeStaticDataProp
+  lang: TLocale
+}
+
+interface SubcategoryData {
+  title: string
+  shortDesc: string
+  stats?: {
+    [key: string]: {
+      value: string
+      label: string
+      description: string
+    }
+  }
+  sections?: {
+    [key: string]: {
+      title?: string
+      intro?: string
+      paragraph1?: string
+      paragraph2?: string
+      text?: string
+      text2?: string
+      items?: string[] | Array<{ title: string; description: string }>
+      tableCaption?: string
+      tableHeaders?: string[]
+      tableData?: string[][]
+      steps?: Array<{ title: string; description: string }>
+      note?: string
+      highlight?: string | { title?: string; text?: string }
+      warning?: string | { title: string; text: string }
+      features?: Array<{ title: string; description: string }>
+      rows?: Array<{ parameter: string; value1: string; value2: string }>
+      headers?: string[]
+    }
+  }
+}
+
+export function BottledWaterPage({ staticData, lang }: BottledWaterPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('food-production')
 
+  // get category data from staticData
+  const categoryData = (staticData as Record<string, { subcategories?: { 'bottled-water'?: SubcategoryData } }>)[
+    `${lang}:${ns}`
+  ]
+  const data = categoryData?.subcategories?.['bottled-water']
+
+  const breadcrumbs = [
+    { label: t('nav.applications', { ns: NAMESPACES.common }), href: '/applications' },
+    { label: t('title', { ns }), href: '/applications/food-production' },
+    { label: t('subcategories.bottled-water.title', { ns }) },
+  ]
+
   return (
     <Layout>
-      <Seo title={t('subcategories.bottled-water.title', { ns })} description={t('subcategories.bottled-water.shortDesc', { ns })} />
-      {/* Breadcrumbs */}
-      <div className="bg-bg-light border-border border-b">
-        <div className="container py-4">
-          <nav className="flex items-center gap-2 text-sm">
-            <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
-              {t('nav.applications', { ns: NAMESPACES.common })}
-            </AppLink>
-            <span className="text-text-light">/</span>
-            <AppLink
-              href="/applications/food-production"
-              className="text-text-secondary hover:text-primary transition-colors"
-            >
-              {t('title', { ns })}
-            </AppLink>
-            <span className="text-text-light">/</span>
-            <span className="text-text-primary font-medium">{t('subcategories.bottled-water.title', { ns })}</span>
-          </nav>
-        </div>
-      </div>
+      <Seo
+        title={t('subcategories.bottled-water.title', { ns })}
+        description={t('subcategories.bottled-water.shortDesc', { ns })}
+      />
 
-      {/* Hero Section */}
-      <section className="relative overflow-hidden py-16 md:py-24">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=1920&q=80"
-            alt={t('subcategories.bottled-water.title', { ns })}
-            fill
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
-        </div>
-        <div className="relative z-10 container">
-          <AppLink
-            href="/applications/food-production"
-            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
-          >
-            <IconArrowLeft style={{ width: 20, height: 20 }} />
-            <span>{t('title', { ns })}</span>
-          </AppLink>
-          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
-            {t('subcategories.bottled-water.title', { ns })}
-          </h1>
-          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
-            {t('subcategories.bottled-water.shortDesc', { ns })}
-          </p>
-        </div>
-      </section>
+      <ArticleHero
+        title={t('subcategories.bottled-water.title', { ns })}
+        description={t('subcategories.bottled-water.shortDesc', { ns })}
+        image="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=1920&q=80"
+        imageAlt={t('subcategories.bottled-water.title', { ns })}
+        breadcrumbs={breadcrumbs}
+        backLink={{
+          href: '/applications/food-production',
+          label: t('title', { ns }),
+        }}
+      />
 
       {/* Key Stats */}
       <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value="0,1"
-              label="мг/л озона"
-              description="Максимальная остаточная концентрация по СанПиН"
+              value={data?.stats?.stat1?.value ?? ''}
+              label={data?.stats?.stat1?.label ?? ''}
+              description={data?.stats?.stat1?.description ?? ''}
               variant="primary"
             />
             <StatCard
-              value="99,9%"
-              label="Стерилизация"
-              description="Уничтожение патогенных микроорганизмов"
+              value={data?.stats?.stat2?.value ?? ''}
+              label={data?.stats?.stat2?.label ?? ''}
+              description={data?.stats?.stat2?.description ?? ''}
               variant="accent"
             />
             <StatCard
-              value="1 г/м³"
-              label="Производительность"
-              description="Рекомендуемая доза озонатора на объём воды"
+              value={data?.stats?.stat3?.value ?? ''}
+              label={data?.stats?.stat3?.label ?? ''}
+              description={data?.stats?.stat3?.description ?? ''}
               variant="primary"
             />
-            <StatCard value="9" label="мг/л кислорода" description="Насыщение воды высшей категории" variant="accent" />
+            <StatCard
+              value={data?.stats?.stat4?.value ?? ''}
+              label={data?.stats?.stat4?.label ?? ''}
+              description={data?.stats?.stat4?.description ?? ''}
+              variant="accent"
+            />
           </StatGrid>
         </div>
       </section>
 
       {/* Main Content */}
-      <article className="py-12 md:py-16">
+      <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>
-              Производители питьевой воды часто сталкиваются с ситуацией, когда добытая из проверенной скважины и
-              прошедшая все степени очистки вода портится уже на полках магазинов. Причина — вторичное загрязнение
-              непосредственно на линии розлива при контакте с воздухом, оборудованием и нестерильной тарой.
-            </Paragraph>
-            <Paragraph>
-              Финишное озонирование решает эту проблему комплексно: озон не только обеззараживает воду, но и
-              дезинфицирует оборудование для розлива и стерилизует тару. После закупорки бутылок озон в течение
-              нескольких часов разлагается до кислорода, не оставляя следов и улучшая вкусовые качества воды.
-            </Paragraph>
+            <Paragraph>{data?.sections?.intro?.text ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.text2 ?? ''}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>СанПиН 2.1.4.1116-02:</strong> «Не допускается применение препаратов хлора для обработки питьевых
-            вод, предназначенных для розлива, предпочтительными методами обеззараживания являются озонирование и
-            физические методы обработки, в частности, УФ-облучение.»
+            <strong>{data?.sections?.highlight1?.title ?? ''}</strong> {data?.sections?.highlight1?.text ?? ''}
           </HighlightBox>
 
-          <ArticleSection title="Преимущества финишного озонирования">
-            <BulletList
-              items={[
-                'Стерилизация воды, бутылки, воздуха внутри тары и пробки одновременно',
-                'Среда остаётся стерильной до момента вскрытия упаковки',
-                'Насыщение воды кислородом — обязательное требование для воды высшей категории',
-                'Полный распад озона до кислорода без химических остатков',
-                'Единственный допустимый метод консервации воды для детского питания',
-                'Отсутствие необходимости в дополнительной дезинфекции тары',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.benefits?.title}>
+            <BulletList items={(data?.sections?.benefits?.items as string[]) ?? []} />
           </ArticleSection>
 
-          <ArticleSection title="Нормативные требования">
+          <ArticleSection title={data?.sections?.requirements?.title}>
             <DataTable
-              caption="Требования СанПиН 2.1.4.1116-02 к бутилированной воде"
-              headers={['Показатель', 'Первая категория', 'Высшая категория']}
-              rows={[
-                ['Остаточный озон', '≤ 0,1 мг/л', '≤ 0,1 мг/л'],
-                ['Содержание кислорода', '≥ 5 мг/л', '≥ 9 мг/л'],
-                ['Время контакта озона', '≥ 12 минут', '≥ 12 минут'],
-                ['Использование хлора', 'Запрещено', 'Запрещено'],
-                ['Серебро (детское питание)', 'Допустимо', 'Запрещено'],
-              ]}
+              caption={data?.sections?.requirements?.tableCaption}
+              headers={data?.sections?.requirements?.tableHeaders ?? []}
+              rows={data?.sections?.requirements?.tableData ?? []}
             />
 
             <HighlightBox variant="success">
-              Для воды детского питания озонирование — возможно, единственный вариант консервирования, поскольку
-              использование ионов серебра и диоксида углерода запрещено СанПиН.
+              {typeof data?.sections?.requirements?.highlight === 'object'
+                ? ((data.sections.requirements.highlight as { text?: string }).text ?? '')
+                : ((data?.sections?.requirements?.highlight as string) ?? '')}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Принципиальная схема финишного озонирования">
-            <Paragraph>
-              Установка озонирования размещается непосредственно перед машиной розлива. Система включает генератор
-              кислорода, генератор озона, систему подачи и растворения озона в воде, а также анализатор содержания озона
-              или ОВП-метр для контроля.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.scheme?.title}>
+            <Paragraph>{data?.sections?.scheme?.text ?? ''}</Paragraph>
 
             <DataTable
-              caption="Состав оборудования для финишного озонирования"
-              headers={['Компонент', 'Назначение', 'Характеристики']}
-              rows={[
-                ['Генератор кислорода', 'Подача чистого кислорода', 'Концентрация O₂ ≥ 90%'],
-                ['Генератор озона', 'Выработка озона', '1 г/час на 1 м³/час воды'],
-                ['Эжектор / диффузор', 'Растворение озона в воде', 'Эффективность > 90%'],
-                ['Контактная ёмкость', 'Обеспечение времени контакта', '≥ 12 минут'],
-                ['Анализатор озона', 'Контроль концентрации', '0-2 мг/л'],
-              ]}
+              caption={data?.sections?.scheme?.tableCaption}
+              headers={data?.sections?.scheme?.tableHeaders ?? []}
+              rows={data?.sections?.scheme?.tableData ?? []}
             />
           </ArticleSection>
 
-          <ArticleSection title="Ограничения для минеральной воды">
-            <Paragraph>
-              При озонировании минеральной воды недопустимо содержание примесей, окисляемых озоном: железа, марганца,
-              сероводорода, бромида, природных органических веществ. Реакция озона с бромидом приводит к образованию
-              бромата, норма содержания которого в питьевой воде — 10 мкг/л.
-            </Paragraph>
-            <Paragraph>
-              Растворённые металлы после взаимодействия с озоном переходят в нерастворимые оксиды, что приводит к
-              появлению окраски и осадка в воде. Поэтому перед финишным озонированием вода должна быть предварительно
-              очищена в соответствии с требованиями СанПиН.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.limitations?.title}>
+            <Paragraph>{data?.sections?.limitations?.text ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.limitations?.text2 ?? ''}</Paragraph>
           </ArticleSection>
 
           <ComparisonTable
-            title="Сравнение методов обеззараживания воды"
-            headers={['Параметр', 'Озонирование', 'УФ-обработка']}
-            rows={[
-              { parameter: 'Стерилизация тары', value1: 'Да', value2: 'Нет' },
-              { parameter: 'Насыщение кислородом', value1: 'Да', value2: 'Нет' },
-              { parameter: 'Остаточный эффект', value1: 'Да', value2: 'Нет' },
-              { parameter: 'Дезинфекция оборудования', value1: 'Да', value2: 'Нет' },
-              { parameter: 'Улучшение вкуса', value1: 'Да', value2: 'Нет' },
-              { parameter: 'Требует контакта', value1: '≥ 12 минут', value2: 'Мгновенно' },
-            ]}
+            title={data?.sections?.comparison?.title ?? ''}
+            headers={
+              (data?.sections?.comparison?.headers ?? []) as [string, string, string] | [string, string, string, string]
+            }
+            rows={
+              (data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string }>) ?? []
+            }
           />
 
-          <ArticleSection title="Преимущества озонирования для производителей">
+          <ArticleSection title={data?.sections?.producerBenefits?.title}>
             <FeatureGrid columns={2}>
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Соответствие требованиям"
-                description="Полное соответствие СанПиН 2.1.4.1116-02 и техническим регламентам ЕАЭС"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Увеличение срока хранения"
-                description="Стерильная среда сохраняется до вскрытия упаковки — продукция не портится"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Детское питание"
-                description="Единственный разрешённый метод консервации для воды детского питания"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Экономия на химии"
-                description="Не требуется отдельная дезинфекция тары химическими средствами"
-              />
+              {(
+                (data?.sections?.producerBenefits?.features as Array<{ title: string; description: string }>) ?? []
+              ).map((item, idx) => (
+                <FeatureCard
+                  key={idx}
+                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                  title={item.title}
+                  description={item.description}
+                />
+              ))}
             </FeatureGrid>
           </ArticleSection>
         </div>
       </article>
 
-      {/* CTA Section */}
-      <section className="cta">
-        <div className="container">
-          <h2 className="cta__title">{t('cta.applications.title', { ns: NAMESPACES.common })}</h2>
-          <p className="cta__text">{t('cta.applications.text', { ns: NAMESPACES.common })}</p>
-          <div className="cta__actions">
-            <AppLink href="/contacts" className="btn btn--white btn--large">
-              {t('hero.getConsultation', { ns: NAMESPACES.common })}
-            </AppLink>
-            <a
-              href="tel:+78001234567"
-              className="btn btn--secondary btn--large"
-              style={{ borderColor: 'white', color: 'white' }}
-            >
-              {t('header.phone', { ns: NAMESPACES.common })}
-            </a>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        title={t('cta.applications.title', { ns: NAMESPACES.common })}
+        description={t('cta.applications.text', { ns: NAMESPACES.common })}
+        primaryButton={{
+          label: t('hero.getConsultation', { ns: NAMESPACES.common }),
+          href: '/contacts',
+        }}
+        secondaryButton={{
+          label: t('header.phone', { ns: NAMESPACES.common }),
+          href: 'tel:+78001234567',
+        }}
+      />
     </Layout>
   )
 }

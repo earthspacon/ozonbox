@@ -13,7 +13,163 @@
         "Automatic night treatment",
         "Higher staff productivity",
         "Better company image"
-      ]
+      ],
+      "stats": {
+        "pollution": {
+          "value": "2-5x",
+          "label": "Pollution",
+          "description": "Office air is dirtier than outdoor air"
+        },
+        "sickLeave": {
+          "value": "-40%",
+          "label": "Sick leave",
+          "description": "Reduction in staff illness"
+        },
+        "treatment": {
+          "value": "1-2 h",
+          "label": "Treatment",
+          "description": "Sufficient for complete disinfection"
+        },
+        "residues": {
+          "value": "0",
+          "label": "Residues",
+          "description": "Chemical substances after treatment"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "The office is the face of the company. Polluted air with unpleasant odors harms staff, reduces productivity and loyalty, and damages the company's image with clients and partners.",
+          "text2": "Scientists have found that in most buildings, concentrations of harmful and toxic chemicals in the air are 2–5 times higher than outdoors. In some offices, indoor air pollution levels for certain toxins are up to 70 times higher than outside."
+        },
+        "highlight1": {
+          "title": "Sources of office air pollution:",
+          "text": "benzene, formaldehyde, and ammonia are released from furniture, carpets, office equipment, and finishes. Traditional ventilation and air conditioning strip the air of its natural freshness."
+        },
+        "airQuality": {
+          "title": "The problem of air quality in offices",
+          "text": "Air loses its 'freshness' after passing through air conditioners and heating systems. As a result, ozone and ion levels drop by 90%. The lack of these natural air components has led to complaints of frequent headaches, weakness, and poor well-being — 'sick building syndrome'.",
+          "items": [
+            "Benzene — from paints, carpets, curtains, and furniture upholstery",
+            "Ammonia — from tobacco smoke and cleaning products",
+            "Formaldehyde — from plywood, furniture, particleboard, office partitions",
+            "Trichloroethylene — from paint, glue, furniture, and wallpaper",
+            "Chloroform — from paints, carpets, and curtains"
+          ]
+        },
+        "effectiveness": {
+          "title": "Effectiveness of ozonation",
+          "text": "Studies have shown that adding ozone to air at 15 parts per billion (0.03 mg/m³) produces an effect equivalent to a two-hour walk in fresh air. Staff showed strengthened immune systems, increased blood oxygen levels, and improved blood pressure.",
+          "table": {
+            "caption": "Results of ozone impact studies in offices",
+            "headers": ["Indicator", "Before ozonation", "After ozonation"],
+            "rows": [
+              ["Headache frequency", "Frequent", "Rare"],
+              ["Work capacity", "70%", "100%"],
+              ["Attention concentration", "Reduced", "Normal"],
+              ["ARI incidence", "15-20% per season", "8-10% per season"],
+              ["Atmosphere satisfaction", "45%", "89%"]
+            ]
+          }
+        },
+        "whatDisinfects": {
+          "title": "What ozone disinfects in the office",
+          "text": "Ozone disinfects all surfaces touched by staff and visitors. The gas penetrates crevices and hard-to-reach areas behind equipment and into ventilation systems.",
+          "items": [
+            "Work desks and countertops",
+            "Armrests of chairs and seats",
+            "Keyboards, mice, phones",
+            "Door handles and handrails",
+            "Office equipment and coffee machines",
+            "Meeting rooms and coworking areas",
+            "Ventilation and air conditioning systems"
+          ]
+        },
+        "treatmentMode": {
+          "title": "Office treatment mode",
+          "text": "Ozonation of offices and coworking spaces is conducted at night. Equipment runs automatically on a timer. By the time staff arrive, ozone has dissipated, leaving a light fresh smell.",
+          "steps": [
+            {
+              "title": "Room preparation",
+              "description": "Close all windows and doors. Turn off supply ventilation. Ensure no one is in the room."
+            },
+            {
+              "title": "Starting the ozonator",
+              "description": "Turn on the ozonator for 40–120 minutes depending on room volume. Capacity: 1 g/h per 25 m³."
+            },
+            {
+              "title": "Exposure",
+              "description": "Ozone spreads throughout the room, penetrating all crevices and far corners. Concentration reaches the required level."
+            },
+            {
+              "title": "Ventilation",
+              "description": "2–3 hours after treatment ends, ozone decomposes to safe levels. Active ventilation is not required."
+            }
+          ],
+          "table": {
+            "caption": "Recommended ozonation modes for offices",
+            "headers": ["Room type", "Volume", "Capacity", "Treatment time"],
+            "rows": [
+              ["Office", "up to 50 m³", "2-3 g/h", "60 min"],
+              ["Open space", "100-300 m³", "5-10 g/h", "90 min"],
+              ["Meeting room", "30-50 m³", "2 g/h", "40 min"],
+              ["Coworking", "200-500 m³", "10-20 g/h", "120 min"]
+            ]
+          }
+        },
+        "comparison": {
+          "title": "Comparison of air cleaning methods",
+          "table": {
+            "title": "Ozonation vs other methods",
+            "headers": ["Parameter", "Ozonation", "Chemical cleaning"],
+            "rows": [
+              { "parameter": "Air disinfection", "value1": "Yes", "value2": "No" },
+              { "parameter": "Hard-to-reach areas", "value1": "Yes (gas penetrates everywhere)", "value2": "No" },
+              { "parameter": "Toxin neutralization", "value1": "Yes", "value2": "No" },
+              { "parameter": "Odor elimination", "value1": "Complete", "value2": "Masking" },
+              { "parameter": "Chemical residues", "value1": "No (decomposes to O₂)", "value2": "Yes" },
+              { "parameter": "Recovery time", "value1": "2-3 hours", "value2": "Immediate" }
+            ]
+          }
+        },
+        "benefits": {
+          "title": "Benefits for employers",
+          "features": [
+            {
+              "title": "Reduced sick leave",
+              "description": "30–40% reduction in staff illness during flu season"
+            },
+            {
+              "title": "Increased productivity",
+              "description": "Clean air improves concentration and work capacity"
+            },
+            {
+              "title": "Company image",
+              "description": "Caring for employee health is part of corporate culture"
+            },
+            {
+              "title": "Automation",
+              "description": "Timer-based operation without staff involvement at night"
+            }
+          ]
+        },
+        "toiletOdor": {
+          "title": "Toilet odor elimination",
+          "text": "Toilet odor is one of the most common problems in office buildings. Causes can vary: leaky pipe connections, ventilation 'backflow', uric acid stone formation.",
+          "highlight": {
+            "text": "To eliminate toilet odor, install an ozonator with capacity of 0.5 g/h for 24/7 ozonation or 5 g/h for night treatment. Ozone breaks down odorous organic compounds into simple odorless compounds."
+          }
+        },
+        "safety": {
+          "title": "Safety requirements",
+          "items": [
+            "Treatment is conducted in the absence of people",
+            "Ozone MAC in work zone — 0.1 mg/m³",
+            "Ventilation is not required after night treatment",
+            "Staff opening the room after treatment use respirators",
+            "Equipment runs automatically on a timer"
+          ]
+        }
+      }
     },
     "public-transport": {
       "title": "Public transport",
@@ -39,7 +195,212 @@
         "Treatment of mats and textiles",
         "Mold suppression",
         "Automatic night operation"
-      ]
+      ],
+      "stats": {
+        "stat1": {
+          "value": "2-3 h",
+          "label": "Treatment",
+          "description": "Ozonation time for gym"
+        },
+        "stat2": {
+          "value": "100%",
+          "label": "Odors",
+          "description": "Sweat odor elimination efficiency"
+        },
+        "stat3": {
+          "value": "99.9%",
+          "label": "Fungi",
+          "description": "Destruction of mycosis pathogens"
+        },
+        "stat4": {
+          "value": "60-120",
+          "label": "g/h",
+          "description": "Capacity for large halls"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Gyms, fitness centers and locker rooms are high-risk for infection spread and have specific odors. Ozonation addresses both: it disinfects equipment and completely removes sweat odor, rather than masking it.",
+          "paragraph2": "Ozone destroys bacteria, viruses, mold, fungi and parasitic protozoa on equipment, stands, benches and mats. The gas penetrates material pores for deep disinfection of textiles and soft surfaces."
+        },
+        "warning": {
+          "title": "Fungal infections",
+          "text": "are one of the main problems in sports facilities. Athlete's foot, ringworm, candidiasis are transmitted through shared locker rooms, showers and sports equipment. Ozone destroys fungal spores on all surfaces."
+        },
+        "whatDisinfects": {
+          "title": "What ozone disinfects",
+          "items": [
+            "Exercise machines and sports equipment",
+            "Mats, yoga and fitness mats",
+            "Locker room benches",
+            "Lockers and shelves",
+            "Shower cabins and restrooms",
+            "Textiles: towels, robes (in lockers)",
+            "Ventilation and air conditioning systems",
+            "Stands and spectator areas"
+          ]
+        },
+        "odorProblem": {
+          "title": "Odor problem in gyms",
+          "text": "Sweat odor in gyms is the result of bacterial activity on human skin. Regular cleaning and air fresheners only mask the problem. Ozone breaks down odor molecules and destroys the bacteria that produce them.",
+          "table": {
+            "caption": "Ozone effectiveness against odors",
+            "headers": ["Odor type", "Source", "Elimination time"],
+            "rows": [
+              ["Sweat", "Skin bacteria", "30-60 min"],
+              ["Dampness", "Mold and fungi", "60-90 min"],
+              ["Stale air", "Insufficient ventilation", "40-60 min"],
+              ["Rubber", "Flooring and mats", "90-120 min"]
+            ]
+          }
+        },
+        "process": {
+          "title": "Sports facility treatment mode",
+          "text": "Sports facilities are treated at night when closed to visitors. For large halls and arenas, powerful mobile ozone generators of 60–120 g/h are used.",
+          "steps": [
+            {
+              "title": "Room preparation",
+              "description": "Close all windows and doors. Turn off supply ventilation. Ensure no one is in the hall."
+            },
+            {
+              "title": "Ozone generator placement",
+              "description": "Wall-mounted generator — at least 3 m high. Mobile — at maximum height, e.g., on a referee's platform."
+            },
+            {
+              "title": "Ozonation",
+              "description": "Run the generator for 2–3 hours. Capacity: 1 g/h per 25 m³ of room volume."
+            },
+            {
+              "title": "Ozone decay",
+              "description": "After the generator stops, concentration drops to safe levels in 2–3 hours. A light fresh smell remains."
+            }
+          ]
+        },
+        "equipment": {
+          "title": "Equipment calculation",
+          "table": {
+            "caption": "Recommended ozone generator capacity",
+            "headers": ["Facility type", "Volume", "Capacity", "Time"],
+            "rows": [
+              ["Fitness hall", "200-500 m³", "10-20 g/h", "120 min"],
+              ["Locker room", "50-100 m³", "3-5 g/h", "90 min"],
+              ["Gym", "300-600 m³", "15-25 g/h", "150 min"],
+              ["Sports arena", "2000-5000 m³", "80-200 g/h", "180 min"],
+              ["Pool (air)", "500-1500 m³", "20-60 g/h", "120 min"]
+            ]
+          },
+          "highlight": {
+            "title": "Calculation formula:",
+            "text": "1 g/h ozone capacity per 25 m³ of room volume. For rooms with high contamination or large surface area, increase capacity by 20–30%."
+          }
+        },
+        "specialZones": {
+          "title": "Special attention zones",
+          "features": [
+            {
+              "title": "Locker rooms",
+              "description": "Benches, lockers, floor — main points of fungal infection transmission"
+            },
+            {
+              "title": "Showers",
+              "description": "Humid environment promotes mold and fungi growth"
+            },
+            {
+              "title": "Cardio zone",
+              "description": "Intense sweating, many contact surfaces"
+            },
+            {
+              "title": "Group class hall",
+              "description": "Mats, shared equipment — infection transmission risk"
+            }
+          ]
+        },
+        "pathogens": {
+          "title": "Effectiveness against pathogens",
+          "table": {
+            "caption": "Pathogen inactivation time (concentration 20 mg/m³)",
+            "headers": ["Pathogen", "Inactivation time", "Efficiency"],
+            "rows": [
+              ["Trichophyton (athlete's foot)", "20-30 min", "99.9%"],
+              ["Candida albicans", "15-20 min", "99.9%"],
+              ["Staphylococcus aureus", "10-15 min", "99.99%"],
+              ["Influenza viruses", "5-10 min", "99.99%"],
+              ["Mold (spores)", "30-40 min", "99%"],
+              ["E. coli", "5-10 min", "99.99%"]
+            ]
+          }
+        },
+        "comparison": {
+          "title": "Comparison with traditional cleaning",
+          "tableTitle": "Ozonation vs chemical disinfection",
+          "headers": ["Criterion", "Ozonation", "Chemical treatment"],
+          "rows": [
+            {
+              "parameter": "Sweat odor elimination",
+              "value1": "Complete (molecule breakdown)",
+              "value2": "Masking"
+            },
+            {
+              "parameter": "Mat and textile treatment",
+              "value1": "Deep (gas in pores)",
+              "value2": "Surface only"
+            },
+            {
+              "parameter": "Ventilation systems",
+              "value1": "Yes",
+              "value2": "No"
+            },
+            {
+              "parameter": "Chemical residues",
+              "value1": "No",
+              "value2": "Yes (allergy risk)"
+            },
+            {
+              "parameter": "Recovery time",
+              "value1": "2-3 hours",
+              "value2": "Immediate"
+            },
+            {
+              "parameter": "Consumables",
+              "value1": "No",
+              "value2": "Yes"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Benefits for owners",
+          "features": [
+            {
+              "title": "Reputation",
+              "description": "Clean air and no odors — competitive advantage"
+            },
+            {
+              "title": "Client health",
+              "description": "Reduced risk of fungal and viral infections"
+            },
+            {
+              "title": "Savings",
+              "description": "No costs for chemicals and air fresheners"
+            },
+            {
+              "title": "Automation",
+              "description": "Timer operation without staff involvement"
+            }
+          ]
+        },
+        "safety": {
+          "title": "Safety requirements",
+          "items": [
+            "Treatment only when unoccupied (nighttime)",
+            "Ozone MPC in work zone — 0.1 mg/m³",
+            "Staff should not enter during treatment",
+            "If entry is necessary — use respirator with carbon filter",
+            "After nighttime treatment, ventilation is not required",
+            "By opening time, ozone will fully decompose"
+          ],
+          "highlight": "With properly selected start and end times, ozone will dissipate by the time staff and first visitors arrive. Only a light fresh smell remains, safe for humans."
+        }
+      }
     },
     "shopping-malls": {
       "title": "Shopping malls",

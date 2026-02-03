@@ -19,6 +19,28 @@
       "title": "General goods storage",
       "shortDesc": "Maintaining stored product quality and warehouse sanitary conditions",
       "content": "Warehouse logistics requires stable storage conditions to preserve a wide range of goods. Air ozonation comprehensively addresses disinfection, deodorization and spoilage prevention.\n\nRegular ozonation reduces bacterial load in the air and on surfaces, extends product shelf life, eliminates unpleasant odors and creates comfortable conditions for staff.\n\nThe technology is especially relevant for mixed-purpose warehouses, distribution centers and logistics hubs storing diverse product groups with different storage requirements.\n\nOzone is universal: equally effective against bacteria, viruses, fungi and pests. Treatment does not require unloading and can be run automatically on a timer.",
+      "stats": {
+        "microfloraReduction": {
+          "value": "80–90%",
+          "label": "Microflora reduction",
+          "description": "In air and on surfaces"
+        },
+        "storageExtension": {
+          "value": "+20–40%",
+          "label": "Storage extension",
+          "description": "For various product categories"
+        },
+        "odorElimination": {
+          "value": "99%",
+          "label": "Odor elimination",
+          "description": "Chemical decomposition, not masking"
+        },
+        "automation": {
+          "value": "24/7",
+          "label": "Automation",
+          "description": "Timer-based operation without staff"
+        }
+      },
       "benefits": [
         "80–90% reduction in bacterial load",
         "Extended product shelf life",
@@ -26,7 +48,180 @@
         "Odor elimination",
         "Improved working conditions",
         "Automatic treatment without staff"
-      ]
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Modern warehouse logistics requires a comprehensive approach to maintaining stored goods quality. Air ozonation is a universal technology that simultaneously addresses disinfection, deodorization, pest control and spoilage prevention.",
+          "paragraph2": "For logistics operators and warehouse facility owners, ozonation becomes a quality standard that reduces losses, extends product shelf life and ensures compliance with sanitary requirements without constant use of chemical agents.",
+          "infoLabel": "For logistics managers:",
+          "infoText": "Ozonation is treatment of large air volumes without unloading goods. The gas penetrates all warehouse zones, including hard-to-reach areas between pallets and on upper rack tiers."
+        },
+        "warehouseTypes": {
+          "title": "Warehouse types and recommended solutions",
+          "paragraph": "Ozonation approach varies depending on warehouse facility type, stored products and turnover intensity.",
+          "tableCaption": "Recommendations by warehouse facility type",
+          "tableHeaders": ["Warehouse type", "Recommended equipment", "Operating mode"],
+          "tableData": [
+            ["Distribution center", "Duct ozone generators in HVAC", "Continuous low-dose"],
+            ["Class A (high-rise storage)", "Mobile + wall-mounted", "Night zonal treatment"],
+            ["Class B (standard)", "Wall-mounted ozone generators", "2–3 times per week"],
+            ["Cold storage", "Special models -20°C", "Scheduled without defrosting"],
+            ["E-commerce warehouse", "Ozone cabinets for batches", "Treatment on receipt"]
+          ]
+        },
+        "calculation": {
+          "title": "Coverage calculation for large spaces",
+          "paragraph": "For effective treatment of warehouses from 1000 m², it is necessary to consider not only room volume, but also ceiling height, presence of racks, air exchange intensity and type of stored goods.",
+          "tableCaption": "Ozone generator capacity calculation formula",
+          "tableHeaders": ["Parameter", "Value", "Note"],
+          "tableData": [
+            ["Base ratio", "1 g/h per 25 m³", "For empty room"],
+            ["Occupancy coefficient", "×1.2–1.5", "With racks present"],
+            ["Ceiling height >6m", "×1.3", "Additional coefficient"],
+            ["High humidity >70%", "×1.2", "Ozone decays faster"],
+            ["Temperature below 0°C", "×0.8", "Ozone more stable"]
+          ],
+          "exampleLabel": "Calculation example:",
+          "exampleText": "Warehouse 3000 m² × 8 m height = 24000 m³. Base capacity: 24000÷25 = 960 g/h. With racks (×1.3): 1248 g/h. Installation of 4–5 ozone generators of 250–300 g/h each or integration into ventilation system is recommended."
+        },
+        "hvacIntegration": {
+          "title": "Integration with ventilation system (HVAC)",
+          "paragraph": "For large logistics complexes, optimal solution is integration of ozone equipment into existing ventilation and air conditioning system.",
+          "numberedItems": [
+            "Duct ozone generator installed in supply or recirculation duct",
+            "Ozone concentration sensor monitors level in work zone",
+            "Automation controls modes: preventive (low doses) and intensive (off-hours)",
+            "Integration with BMS (Building Management System) for centralized control",
+            "Ozone destructor at ventilation outlet when discharging to atmosphere"
+          ],
+          "bulletItems": [
+            "Even ozone distribution throughout warehouse volume",
+            "Automatic ventilation through ventilation system",
+            "Zoning treatment capability",
+            "Minimal maintenance costs after integration",
+            "Compliance with occupational safety requirements"
+          ]
+        },
+        "frequency": {
+          "title": "Treatment frequency and optimal schedule",
+          "paragraph": "Ozonation regularity depends on warehouse type, turnover intensity and storage quality requirements. For most warehouses, 2–4 treatments per week during off-hours is sufficient.",
+          "tableCaption": "Recommended treatment frequency",
+          "tableHeaders": ["Product type", "Frequency", "Duration"],
+          "tableData": [
+            ["Industrial goods", "1–2 times per week", "60–90 minutes"],
+            ["Textiles, clothing", "2–3 times per week", "60–120 minutes"],
+            ["Household chemicals", "1 time per week", "30–60 minutes"],
+            ["Electronics", "1–2 times per week", "30–60 minutes"],
+            ["Construction materials", "1 time per week", "60–90 minutes"],
+            ["Perishable goods", "Daily", "120–180 minutes"]
+          ],
+          "scheduleLabel": "Optimal schedule:",
+          "scheduleText": "Ozonation is recommended during night hours (22:00 — 06:00). With properly selected treatment time, ozone will fully dissipate by start of workday without need for special ventilation."
+        },
+        "pestPrevention": {
+          "title": "Pest prevention",
+          "paragraph1": "Ozone is effective against a wide range of warehouse pests: insects, rodents, mites. Regular treatment creates unfavorable environment for their habitation and reproduction.",
+          "tableCaption": "Ozone effectiveness against warehouse pests",
+          "tableHeaders": ["Pest", "Effectiveness", "Treatment mode"],
+          "tableData": [
+            ["Grain weevil", "95–99%", "30–60 mg/m³, 30–60 min"],
+            ["Flour beetle", "90–95%", "20–40 mg/m³, 60 min"],
+            ["Tobacco beetle", "95–99%", "30–50 mg/m³, 45 min"],
+            ["Dust mites", "99%", "10–20 mg/m³, 30 min"],
+            ["Rodents (repellent)", "80–90%", "5–10 mg/m³, regularly"]
+          ],
+          "paragraph2": "When pests are detected, ozonation is used as part of disinfestation measures. Ozone does not replace professional treatment for severe infestation, but is effective for prevention and maintenance treatments."
+        },
+        "airQuality": {
+          "title": "Air quality for staff",
+          "paragraph": "Ozonation improves working conditions for warehouse workers: eliminates musty odors, reduces dust and allergen concentration, destroys pathogenic microorganisms in air.",
+          "comparisonTitle": "Before and after ozonation implementation",
+          "comparisonHeaders": ["Indicator", "With ozonation", "Without ozonation"],
+          "comparisonRows": [
+            {
+              "parameter": "Indoor odor",
+              "value1": "Fresh air",
+              "value2": "Mustiness, product odors"
+            },
+            {
+              "parameter": "Air microflora",
+              "value1": "Reduced by 80–90%",
+              "value2": "Standard level"
+            },
+            {
+              "parameter": "Respiratory diseases",
+              "value1": "-30–40%",
+              "value2": "Base level"
+            },
+            {
+              "parameter": "Allergic reactions",
+              "value1": "-50–60%",
+              "value2": "Frequent complaints"
+            },
+            {
+              "parameter": "Subjective comfort",
+              "value1": "High",
+              "value2": "Medium/low"
+            }
+          ],
+          "warningLabel": "Safety requirements:",
+          "warningText": "MPC of ozone in work zone — 0.1 mg/m³. Treatment is conducted in absence of people. Staff performing maintenance during ozonation must use respirator or gas mask with carbon filter."
+        },
+        "compliance": {
+          "title": "Compliance with storage requirements",
+          "paragraph": "Ozonation helps comply with sanitary requirements for warehouse facilities of various classes. Ozone leaves no chemical residues on goods and is compatible with most materials.",
+          "bulletItems": [
+            "SanPiN 2.1.2.2645-10 — sanitary and epidemiological requirements",
+            "SP 2.2.3670-20 — sanitary rules for workplaces",
+            "GOST R 51303-2013 — warehouse facility classification",
+            "Tenant requirements for storage quality",
+            "Certification requirements for pharmaceutical and food warehouses"
+          ]
+        },
+        "economics": {
+          "title": "Implementation economics",
+          "paragraph1": "Investment in ozonation pays off through reduced losses, savings on chemical treatment and improved staff health indicators.",
+          "tableCaption": "ROI calculator for 5000 m² warehouse",
+          "tableHeaders": ["Item", "Without ozonation", "With ozonation"],
+          "tableData": [
+            ["Product spoilage losses", "500,000 ₽/year", "150,000 ₽/year"],
+            ["Chemical treatment", "120,000 ₽/year", "20,000 ₽/year"],
+            ["Sick leave (days)", "45 days/year", "25 days/year"],
+            ["Quality complaints", "80,000 ₽/year", "20,000 ₽/year"],
+            ["Ozonation costs", "—", "180,000 ₽/year*"]
+          ],
+          "paragraph2": "* Including equipment depreciation, electricity and maintenance. Net savings: about 330,000 ₽/year. Equipment payback period: 8–14 months."
+        },
+        "benefits": {
+          "title": "Benefits for logistics operators",
+          "features": [
+            {
+              "title": "Universality",
+              "description": "One method against bacteria, viruses, fungi, odors and pests"
+            },
+            {
+              "title": "Scalability",
+              "description": "From small warehouse to logistics complex 100,000+ m²"
+            },
+            {
+              "title": "Automation",
+              "description": "Scheduled operation without staff, BMS integration"
+            },
+            {
+              "title": "No residues",
+              "description": "Ozone decays to oxygen, leaving no chemical traces on goods"
+            },
+            {
+              "title": "Quick deployment",
+              "description": "Equipment installation and startup in 1–2 days without warehouse shutdown"
+            },
+            {
+              "title": "Low OPEX",
+              "description": "Minimal operating costs: only electricity and air"
+            }
+          ]
+        }
+      }
     }
   }
 }

@@ -13,11 +13,181 @@
         "Disinfection of hard-to-reach areas",
         "No toxic chemical residues",
         "Complement to standard protocols"
-      ]
+      ],
+      "stats": {
+        "stat1": {
+          "value": "99.99%",
+          "label": "Efficiency",
+          "description": "Destruction of pathogenic microorganisms"
+        },
+        "stat2": {
+          "value": "MRSA",
+          "label": "Kills",
+          "description": "Antibiotic-resistant bacteria"
+        },
+        "stat3": {
+          "value": "20-30 min",
+          "label": "Ozone decay",
+          "description": "To safe oxygen level"
+        },
+        "stat4": {
+          "value": "0",
+          "label": "Residues",
+          "description": "Chemical substances after treatment"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Nosocomial infections (HAI) are one of the most serious problems in modern medicine. According to WHO, 7-10% of hospitalized patients in developed countries and up to 25% in developing countries are infected. Ozonation is an effective method to combat this problem, ensuring pathogen destruction at 99.99%.",
+          "text2": "Unlike chemical disinfectants, ozone leaves no toxic residues, does not cause resistance in microorganisms, and decays to pure oxygen within 20-30 minutes after treatment. This is especially important for patients with weakened immunity."
+        },
+        "highlight1": {
+          "title": "Important:",
+          "text": "Ozone is effective against antibiotic-resistant bacterial strains, including MRSA (methicillin-resistant Staphylococcus aureus) and VRE (vancomycin-resistant enterococci), which pose a particular threat in healthcare facilities."
+        },
+        "problem": {
+          "title": "The problem of nosocomial infections",
+          "text": "Nosocomial infections increase hospitalization time by an average of 8-10 days, increase treatment costs and increase mortality. Main sources of HAI:",
+          "items": [
+            "Contact surfaces: beds, bedside tables, handrails, call buttons",
+            "Medical equipment: monitors, catheters, breathing circuits",
+            "Air environment: aerosol particles from coughing, sneezing, medical procedures",
+            "Ventilation and air conditioning systems",
+            "Textiles: bed linens, curtains, gowns"
+          ]
+        },
+        "operating-rooms": {
+          "title": "Ozonation of operating blocks",
+          "text": "Operating blocks require special sanitary regimes. Traditional cleaning with disinfectants cannot ensure treatment of all surfaces — ozone, being a gas, penetrates equipment crevices, ventilation systems, hard-to-reach areas behind devices.",
+          "table": {
+            "caption": "Ozonation modes for operating rooms",
+            "headers": ["Treatment type", "Concentration", "Treatment time", "Frequency"],
+            "rows": [
+              ["Between operations", "10-15 mg/m³", "30-40 min", "After each operation"],
+              ["Final disinfection", "20-25 mg/m³", "60-90 min", "At end of workday"],
+              ["After infectious cases", "30-40 mg/m³", "120 min", "As indicated"],
+              ["Preventive", "10 mg/m³", "60 min", "Weekly"]
+            ]
+          },
+          "highlight": "After ozonation, 1.5-2 hours of ventilation is sufficient to reduce ozone concentration to a safe level. The room is ready for use without additional treatment."
+        },
+        "wards": {
+          "title": "Disinfection of wards and ICUs",
+          "text": "Intensive care and resuscitation wards are zones with increased risk of infection transmission between patients. The most vulnerable categories are here: patients on mechanical ventilation, after surgery, with immunodeficiency.",
+          "steps": [
+            {
+              "title": "Room preparation",
+              "description": "Removal of patients (if possible) or use of isolated zones. Closing windows and doors, turning off supply ventilation."
+            },
+            {
+              "title": "Ozonation",
+              "description": "Turning on the ozonator for the calculated time. Concentration of 15-20 mg/m³ ensures destruction of most pathogens."
+            },
+            {
+              "title": "Exposure",
+              "description": "Maintaining the set concentration for 30-60 minutes for complete disinfection of all surfaces."
+            },
+            {
+              "title": "Ventilation",
+              "description": "Opening ventilation, airing the room until ozone concentration drops below MAC (0.1 mg/m³)."
+            }
+          ]
+        },
+        "pathogens": {
+          "title": "Effectiveness against pathogens",
+          "text": "Ozone destroys almost all types of pathogenic microorganisms found in healthcare facilities:",
+          "table": {
+            "caption": "Pathogen inactivation time by ozone (concentration 20 mg/m³)",
+            "headers": ["Microorganism", "Inactivation time", "Efficiency"],
+            "rows": [
+              ["Staphylococcus aureus (MRSA)", "10-15 min", "99.99%"],
+              ["Escherichia coli", "5-10 min", "99.99%"],
+              ["Pseudomonas aeruginosa", "15-20 min", "99.99%"],
+              ["Candida albicans", "15-20 min", "99.9%"],
+              ["Aspergillus niger (spores)", "30-40 min", "99.9%"],
+              ["Clostridium difficile (spores)", "40-60 min", "99.9%"],
+              ["Influenza viruses", "5-10 min", "99.99%"],
+              ["Coronaviruses", "10-15 min", "99.99%"]
+            ]
+          }
+        },
+        "comparison": {
+          "title": "Comparison of disinfection methods",
+          "tableTitle": "Ozonation vs traditional methods",
+          "headers": ["Parameter", "Ozonation", "Chemical disinfection"],
+          "rows": [
+            {
+              "parameter": "Surface coverage",
+              "value1": "100% (including hard-to-reach)",
+              "value2": "70-80% (only accessible)"
+            },
+            {
+              "parameter": "Toxic residues",
+              "value1": "No (decays to O₂)",
+              "value2": "Yes (require rinsing)"
+            },
+            {
+              "parameter": "Bacterial resistance",
+              "value1": "Not formed",
+              "value2": "Forms with frequent use"
+            },
+            {
+              "parameter": "Air treatment",
+              "value1": "Yes (air disinfection)",
+              "value2": "No"
+            },
+            {
+              "parameter": "Need for cleaning after",
+              "value1": "No",
+              "value2": "Yes (wiping, rinsing)"
+            },
+            {
+              "parameter": "Safety for staff",
+              "value1": "Yes (with proper protocol)",
+              "value2": "Risk of allergies and irritation"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Advantages of ozonation in medicine",
+          "features": [
+            {
+              "title": "No resistance",
+              "description": "Ozone acts on cell membranes — bacteria cannot develop resistance"
+            },
+            {
+              "title": "Full coverage",
+              "description": "Gas penetrates everywhere: into crevices, behind equipment, into ventilation, under furniture"
+            },
+            {
+              "title": "No residues",
+              "description": "Decays to oxygen — no rinsing required, safe for patients"
+            },
+            {
+              "title": "Compliance with regulations",
+              "description": "Method recommended by Russian sanitary standards for healthcare facilities"
+            }
+          ]
+        },
+        "safety": {
+          "title": "Safety requirements",
+          "text": "When ozonating medical premises, safety requirements must be observed:",
+          "items": [
+            "Treatment is carried out in the absence of people and animals",
+            "The room must be sealed during treatment",
+            "Staff working with ozonators must undergo training",
+            "After treatment — mandatory ventilation to MAC (0.1 mg/m³)",
+            "Use of ozone concentration sensors is recommended",
+            "Keeping a treatment log for control and reporting"
+          ],
+          "warning": "MAC of ozone in the work zone is 0.1 mg/m³. When exceeded, a characteristic \"after thunderstorm\" smell is felt. Modern ozonators are equipped with timers and automatic shutdown systems."
+        }
+      }
     },
     "equipment-sterilization": {
       "title": "Medical equipment sterilization",
       "shortDesc": "Sterilization of instruments and devices",
+      "heroText": "Low-temperature ozone sterilization of endoscopes, plastic products and electronics. Complete treatment of heat-sensitive medical equipment without damage.",
       "content": "Ozone is used to sterilize medical equipment that cannot be treated with high temperatures or harsh chemicals: endoscopes, plastic items, electronics, optics.\n\nLow-temperature ozone sterilization is an alternative to autoclaving for heat-sensitive equipment. The process runs at 25–35°C and 80–90% relative humidity, which is safe for most materials.\n\nEndoscopic equipment is especially demanding. Complex construction with narrow channels creates a risk of incomplete treatment by traditional methods. Ozone gas penetrates all cavities and channels for full sterilization.\n\nThe ozone sterilization cycle includes: pre-humidification, exposure in ozone atmosphere for 30–60 minutes, and degassing. The method is validated for use in healthcare and meets sterilization standards.",
       "benefits": [
         "Low-temperature sterilization",
@@ -26,7 +196,157 @@
         "Endoscope treatment",
         "No damage to optics",
         "Compliance with medical standards"
-      ]
+      ],
+      "stats": {
+        "stat1": {
+          "value": "25-35°C",
+          "label": "Temperature",
+          "description": "Low-temperature sterilization"
+        },
+        "stat2": {
+          "value": "30-60",
+          "label": "Minutes",
+          "description": "Full sterilization cycle"
+        },
+        "stat3": {
+          "value": "99.99%",
+          "label": "Efficiency",
+          "description": "Microorganism destruction"
+        },
+        "stat4": {
+          "value": "0",
+          "label": "Damage",
+          "description": "Safe for sensitive materials"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Modern medical equipment often contains heat-sensitive materials: plastic, electronics, optics that cannot be sterilized in an autoclave. Ozone sterilization is an effective alternative operating at 25-35°C.",
+          "text2": "Ozone is a powerful oxidizer that destroys bacteria, viruses, spores and fungi by breaking down cell membranes. At the same time, it leaves no toxic residues and decomposes into oxygen within 20-30 minutes after treatment."
+        },
+        "highlight1": {
+          "title": "Important:",
+          "text": "Traditional steam sterilization at 121-134°C damages plastic products, electronics and optics. Ozone sterilization allows processing these materials without risk of deformation or failure."
+        },
+        "problem": {
+          "title": "Medical equipment sterilization problems",
+          "text": "Medical equipment requires sterilization after each use. But not all methods are suitable for all types of products:",
+          "items": [
+            "Autoclaving: high temperature damages plastic and electronics",
+            "Ethylene oxide: toxic, requires long degassing (up to 12 hours)",
+            "Plasma sterilization: high equipment cost",
+            "Chemical solutions: metal corrosion, seal damage",
+            "Radiation sterilization: expensive, not suitable for daily use"
+          ]
+        },
+        "endoscopes": {
+          "title": "Endoscope sterilization",
+          "text": "Endoscopes are complex devices with narrow channels, optics and electronics. Their sterilization is a special task that ozone solves effectively.",
+          "table": {
+            "caption": "Ozone sterilization parameters for endoscopes",
+            "headers": ["Endoscope type", "Ozone concentration", "Treatment time", "Features"],
+            "rows": [
+              ["Gastroscopes", "40-60 ppm", "30-40 min", "Channel purging with ozone"],
+              ["Colonoscopes", "40-60 ppm", "40-50 min", "Increased channel length"],
+              ["Bronchoscopes", "50-70 ppm", "35-45 min", "Thin channels, delicate optics"],
+              ["Laparoscopes", "30-50 ppm", "25-35 min", "Compact design"]
+            ]
+          },
+          "highlight": "Ozone penetrates channels with diameter from 1 mm, ensuring sterilization of areas inaccessible to liquid disinfectants. This is critical for preventing nosocomial infections."
+        },
+        "lowtemp": {
+          "title": "Low-temperature sterilization process",
+          "text": "The ozone sterilization cycle consists of several stages, each important for achieving complete sterility:",
+          "steps": [
+            {
+              "title": "Pre-humidification",
+              "description": "Bringing humidity in the chamber to 80-90%. Moisture enhances the bactericidal action of ozone and ensures its penetration into micropores."
+            },
+            {
+              "title": "Ozone saturation",
+              "description": "Ozone supply to concentration of 40-80 ppm. The gas is evenly distributed throughout the chamber and penetrates all equipment cavities."
+            },
+            {
+              "title": "Exposure",
+              "description": "Holding at specified concentration for 30-60 minutes. During this time, ozone destroys cell membranes of all microorganisms."
+            },
+            {
+              "title": "Degassing",
+              "description": "Removal of residual ozone from the chamber. Ozone decomposes into oxygen in 15-20 minutes. Equipment is ready for use."
+            }
+          ]
+        },
+        "materials": {
+          "title": "Compatible materials",
+          "text": "Ozone sterilization is safe for most materials used in medical equipment:",
+          "features": [
+            {
+              "title": "Plastics and polymers",
+              "description": "Polyethylene, polypropylene, polycarbonate, PVC — not damaged during ozone sterilization"
+            },
+            {
+              "title": "Electronics",
+              "description": "Boards, sensors, displays, endoscope cameras — safe treatment without static voltage"
+            },
+            {
+              "title": "Optics",
+              "description": "Lenses, light guides, prisms — ozone does not affect optical properties of elements"
+            },
+            {
+              "title": "Metals and alloys",
+              "description": "Stainless steel, titanium, aluminum — resistant to ozone at standard concentrations"
+            }
+          ]
+        },
+        "comparison": {
+          "title": "Sterilization method comparison",
+          "tableTitle": "Ozone vs traditional methods",
+          "headers": ["Parameter", "Ozone", "Autoclave/Ethylene oxide"],
+          "rows": [
+            {
+              "parameter": "Treatment temperature",
+              "value1": "25-35°C",
+              "value2": "121-134°C / 37-55°C"
+            },
+            {
+              "parameter": "Full cycle time",
+              "value1": "45-90 minutes",
+              "value2": "30-60 min / 3-12 hours"
+            },
+            {
+              "parameter": "Toxic residues",
+              "value1": "No (decomposes to O₂)",
+              "value2": "No / Yes (requires degassing)"
+            },
+            {
+              "parameter": "Plastic compatibility",
+              "value1": "Yes",
+              "value2": "No / Partially"
+            },
+            {
+              "parameter": "Consumables cost",
+              "value1": "Minimal (electricity)",
+              "value2": "Medium / High"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Benefits for healthcare facilities",
+          "items": [
+            "Sterilization of heat-sensitive equipment without damage",
+            "Fast processing cycle — high instrument turnover",
+            "No toxic residues — patient safety",
+            "Low operating cost — minimum consumables",
+            "Penetration into hard-to-reach places — complete channel sterilization",
+            "Compliance with medical device sterilization standards"
+          ],
+          "warning": "When working with ozonators, safety precautions must be observed: ozone is toxic when inhaled. Sterilization chambers must be sealed. Ozone MAC in the work area is 0.1 mg/m³."
+        }
+      },
+      "cta": {
+        "title": "Implement ozone sterilization?",
+        "text": "Get consultation on equipment for sterilization of endoscopes and medical instruments"
+      }
     },
     "dental": {
       "title": "Dental clinics",
@@ -39,11 +359,126 @@
         "Dental equipment cleaning",
         "No chemical odors",
         "Cross-infection prevention"
-      ]
+      ],
+      "stats": {
+        "stat1": {
+          "value": "15-20",
+          "label": "Minutes",
+          "description": "Office disinfection between patients"
+        },
+        "stat2": {
+          "value": "99.9%",
+          "label": "Pathogens",
+          "description": "Destroyed during treatment"
+        },
+        "stat3": {
+          "value": "100%",
+          "label": "Coverage",
+          "description": "Of all surfaces and equipment"
+        },
+        "stat4": {
+          "value": "Ozone therapy",
+          "label": "Treatment",
+          "description": "Of caries and periodontal diseases"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Dental procedures carry a high risk of infection transmission: aerosols from turbine handpieces, contact with blood and saliva, large numbers of patients daily. Ozonation provides rapid and effective office disinfection, as well as therapeutic applications.",
+          "text2": "In addition to room disinfection, ozone is actively used therapeutically: treatment of carious cavities, periodontal disease treatment, root canal disinfection. Ozone therapy is a recognized field of modern dentistry."
+        },
+        "highlight1": {
+          "title": "Dentistry feature:",
+          "text": "When a turbine handpiece operates, fine aerosol containing bacteria and viruses from the patient's oral cavity is formed. This aerosol spreads throughout the office and settles on surfaces."
+        },
+        "applications": {
+          "title": "Ozone applications in dentistry",
+          "items": [
+            "Office disinfection between patient visits",
+            "Final office treatment at end of workday",
+            "Cleaning of water supply systems in dental units",
+            "Ozone therapy: caries treatment without drilling",
+            "Root canal treatment",
+            "Periodontal disease treatment",
+            "Disinfection of removable prostheses"
+          ]
+        },
+        "disinfection": {
+          "title": "Dental office disinfection",
+          "text": "Ozonation allows rapid office disinfection during technical breaks between patients. In 15-20 minutes, ozone destroys pathogens on all surfaces and in the air.",
+          "table": {
+            "caption": "Dental office ozonation modes",
+            "headers": ["Treatment type", "Concentration", "Time", "Frequency"],
+            "rows": [
+              ["Between patients", "5-10 mg/m³", "15-20 min", "After each visit"],
+              ["Lunch break", "10-15 mg/m³", "30-40 min", "Daily"],
+              ["End of workday", "15-20 mg/m³", "60 min", "Daily"],
+              ["After infectious patient", "20-30 mg/m³", "60-90 min", "As indicated"]
+            ]
+          },
+          "highlight": "Ozone penetrates hard-to-reach equipment areas: hoses, handpieces, water supply systems — places where traditional wiping is impossible."
+        },
+        "ozonotherapy": {
+          "title": "Ozone therapy in dentistry",
+          "text": "Therapeutic use of ozone in dentistry is one of the most developed fields of ozone therapy. Ozone has pronounced bactericidal, antiviral and fungicidal effects.",
+          "features": [
+            {
+              "title": "Caries treatment",
+              "description": "At early stages, ozone destroys bacteria and stops caries development without drilling"
+            },
+            {
+              "title": "Canal treatment",
+              "description": "Ozonated water and gas for root canal disinfection before filling"
+            },
+            {
+              "title": "Periodontitis treatment",
+              "description": "Ozone treatment of periodontal pockets reduces inflammation and destroys pathogens"
+            },
+            {
+              "title": "Wound healing",
+              "description": "Accelerated healing after tooth extraction, implantation, surgical interventions"
+            }
+          ],
+          "table": {
+            "caption": "Ozone use in therapeutic dentistry",
+            "headers": ["Indication", "Method", "Effect"],
+            "rows": [
+              ["Initial caries", "Gas 40-60 sec on lesion", "Remineralization, process stop"],
+              ["Deep caries", "Gas + ozonated water", "Cavity sterilization before filling"],
+              ["Pulpitis", "Ozonated water in canal", "Inflammation relief"],
+              ["Periodontitis", "Gas in pockets + irrigation", "80% reduction in bleeding"],
+              ["Stomatitis", "Ozonated water, rinses", "Healing in 3-5 days"]
+            ]
+          }
+        },
+        "waterSystems": {
+          "title": "Water supply system treatment",
+          "text": "Biofilms — bacterial colonies including Legionella and Pseudomonas — form in dental unit pipelines. Ozonated water effectively destroys biofilms and disinfects the system.",
+          "items": [
+            "Flushing ozonated water (2-3 mg/L) through system at end of day",
+            "Biofilm destruction on inner pipeline surfaces",
+            "Tank and filter disinfection",
+            "Improved water quality for irrigation"
+          ]
+        },
+        "benefits": {
+          "title": "Benefits for dental clinics",
+          "items": [
+            "Rapid office turnover — disinfection during breaks",
+            "Cross-infection prevention between patients",
+            "No chemical odors after treatment — patient comfort",
+            "Additional service — ozone therapy as modern treatment method",
+            "Compliance with dental clinic sanitary requirements",
+            "Reduced costs for disinfectants"
+          ],
+          "highlight": "Patients note pleasant office atmosphere after ozonation — fresh air without specific \"hospital\" odors. This increases loyalty and visit comfort."
+        }
+      }
     },
     "rehabilitation": {
       "title": "Rehabilitation centers",
       "shortDesc": "Ozone therapy and sanitary treatment",
+      "heroText": "Comprehensive use of ozone in sanatoriums and rehabilitation centers: ozone therapy for health recovery, pool and spa ozonation, disinfection of wards and procedure rooms.",
       "content": "Rehabilitation centers and sanatoriums use ozone in two ways: ozone therapy as a treatment and recovery method, and room ozonation to maintain sanitary standards.\n\nOzone therapy is used for musculoskeletal, cardiovascular and skin conditions. Methods include: ozone baths, subcutaneous injections, autohemotherapy with ozone, rectal insufflations.\n\nOzonation of wards and procedure rooms is especially important in centers where elderly patients and people with weakened immunity undergo rehabilitation. Ozone reduces the risk of respiratory infection spread between patients.\n\nPools, saunas and spa areas in rehabilitation centers are also treated with ozone. Pool water ozonation reduces chlorine demand, making procedures more comfortable for patients with sensitive skin.",
       "benefits": [
         "Ozone therapy as treatment",
@@ -52,7 +487,156 @@
         "Pool and spa ozonation",
         "Reduced chlorine in water",
         "Integrated rehabilitation approach"
-      ]
+      ],
+      "stats": {
+        "stat1": {
+          "value": "100+",
+          "label": "Indications",
+          "description": "For ozone therapy application"
+        },
+        "stat2": {
+          "value": "70%",
+          "label": "Less chlorine",
+          "description": "In pools with ozonation"
+        },
+        "stat3": {
+          "value": "99.9%",
+          "label": "Pathogens",
+          "description": "Destroyed in water"
+        },
+        "stat4": {
+          "value": "Comfort",
+          "label": "Patients",
+          "description": "Soft water without chlorine odor"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Rehabilitation centers and sanatoriums have unique requirements: on one hand, it is necessary to maintain high sanitary standards, on the other — to create a comfortable environment for patient recovery. Ozone solves both tasks.",
+          "text2": "Ozone therapy is a recognized field of physiotherapy used to treat a wide range of conditions. In parallel, ozone is used for room disinfection and pool water treatment, making it a universal solution for rehabilitation facilities."
+        },
+        "highlight1": {
+          "title": "Comprehensive approach:",
+          "text": "In one center, ozone can be used for therapeutic procedures (ozone therapy), pool water treatment (water ozonation) and room disinfection (air ozonation). This optimizes costs and simplifies logistics."
+        },
+        "ozonotherapy": {
+          "title": "Ozone therapy in rehabilitation",
+          "text": "Ozone therapy is a physiotherapy method based on the therapeutic properties of medical ozone. Used for recovery after injuries, surgeries, and for chronic conditions.",
+          "features": [
+            {
+              "title": "Ozone baths",
+              "description": "Ozone-saturated water has a general strengthening effect, improves blood circulation, relieves muscle tension"
+            },
+            {
+              "title": "Subcutaneous injections",
+              "description": "Introduction of ozone-oxygen mixture into trigger points to relieve pain and inflammation in joint diseases"
+            },
+            {
+              "title": "Autohemotherapy",
+              "description": "Enrichment of patient's blood with ozone followed by reinjection — systemic health effect"
+            },
+            {
+              "title": "Rectal insufflations",
+              "description": "Introduction of ozone-oxygen mixture for treatment of gastrointestinal diseases and general health improvement"
+            }
+          ]
+        },
+        "methods": {
+          "title": "Ozone therapy methods and indications",
+          "text": "Various ozone therapy methods are used depending on indications and patient condition:",
+          "table": {
+            "caption": "Ozone therapy methods in rehabilitation",
+            "headers": ["Method", "Indications", "Treatment course"],
+            "rows": [
+              ["Ozone baths", "Arthritis, arthrosis, varicose veins, cellulite", "10-15 procedures"],
+              ["Subcutaneous injections", "Joint pain, myofascial syndrome", "5-10 procedures"],
+              ["Autohemotherapy (BAHT)", "Immunodeficiency, chronic fatigue, diabetes", "8-12 procedures"],
+              ["Rectal insufflations", "Colitis, dysbiosis, prostatitis", "10-15 procedures"],
+              ["Intravenous infusions", "Ischemia, trophic ulcers, sepsis", "5-8 procedures"]
+            ]
+          }
+        },
+        "spa": {
+          "title": "SPA procedures with ozone",
+          "text": "Ozone is widely used in SPA areas of rehabilitation centers for wellness procedures:",
+          "steps": [
+            {
+              "title": "Ozone capsules",
+              "description": "Patient is placed in a capsule with ozonated air. Ozone penetrates through the skin, improving microcirculation and saturating tissues with oxygen."
+            },
+            {
+              "title": "Hydromassage with ozonated water",
+              "description": "Ozonated water in a hydromassage tub has antiseptic properties and stimulates skin regeneration."
+            },
+            {
+              "title": "Ozone shower",
+              "description": "Spraying the body with fine-dispersed ozonated water. Tones the skin, improves its condition in dermatological problems."
+            },
+            {
+              "title": "Ozonated wraps",
+              "description": "Application of ozonated oil or cream followed by wrapping. Used for body contouring and cellulite treatment."
+            }
+          ],
+          "highlight": "SPA procedures with ozone are especially effective when combined with other rehabilitation methods: massage, physiotherapy, therapeutic exercise. A comprehensive approach accelerates recovery."
+        },
+        "pools": {
+          "title": "Pool ozonation",
+          "text": "Pools in rehabilitation centers require a special approach to water treatment. Ozonation allows reducing chlorine content and creating comfortable conditions for patients:",
+          "items": [
+            "60-70% reduction in chlorine concentration — minimal skin and eye irritation",
+            "No chlorine odor — comfort for patients with respiratory diseases",
+            "Destruction of chlorine-resistant pathogens: cryptosporidia, giardia",
+            "Decomposition of chloramines — main cause of mucosal irritation",
+            "Improved water clarity — aesthetic comfort"
+          ],
+          "table": {
+            "caption": "Pool ozonation parameters",
+            "headers": ["Parameter", "Ozone + chlorine", "Chlorine only"],
+            "rows": [
+              ["Chlorine concentration", "0.3-0.5 mg/L", "1.0-1.5 mg/L"],
+              ["Combined chlorine (chloramines)", "<0.2 mg/L", "up to 1.0 mg/L"],
+              ["Water clarity", "Crystal clear", "Good"]
+            ]
+          }
+        },
+        "disinfection": {
+          "title": "Room disinfection",
+          "text": "Ozonation of wards and procedure rooms is an important component of the sanitary regime in rehabilitation centers:",
+          "items": [
+            "Ward disinfection between patient stays — complete treatment in 40-60 minutes",
+            "Procedure room treatment — elimination of cross-contamination",
+            "Ozonation of massage tables, exercise equipment, physiotherapy devices",
+            "Odor elimination in rooms — fresh air without chemical fragrances",
+            "Ventilation disinfection — reduced risk of respiratory infection spread"
+          ],
+          "warning": "During room ozonation, patients and staff must leave the treated area. After treatment, ventilation is required until ozone concentration drops below MAC (0.1 mg/m³)."
+        },
+        "benefits": {
+          "title": "Benefits of ozone for rehabilitation centers",
+          "features": [
+            {
+              "title": "Comprehensive solution",
+              "description": "One technological approach for therapy, water treatment and disinfection — cost optimization and staff training simplification"
+            },
+            {
+              "title": "Patient comfort",
+              "description": "Soft water without chlorine odor, clean air, pleasant atmosphere — positive stay experience"
+            },
+            {
+              "title": "Medical effectiveness",
+              "description": "Ozone therapy is a proven treatment method with a wide range of indications and minimal contraindications"
+            },
+            {
+              "title": "Environmental friendliness",
+              "description": "Ozone decomposes to oxygen without chemical residues — safe for patients and the environment"
+            }
+          ]
+        }
+      },
+      "cta": {
+        "title": "Implement ozone in your center?",
+        "text": "Get a comprehensive solution for ozone therapy, water treatment and disinfection"
+      }
     },
     "ambulances": {
       "title": "Ambulances",

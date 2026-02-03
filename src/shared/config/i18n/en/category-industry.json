@@ -13,7 +13,217 @@
         "Mineralization to CO₂ and H₂O",
         "Compliance with environmental norms",
         "Lower environmental fees"
-      ]
+      ],
+      "stats": {
+        "efficiency": {
+          "value": "95-99%",
+          "label": "Treatment efficiency",
+          "description": "Removal of oil products from wastewater"
+        },
+        "pdk": {
+          "value": "0.05",
+          "label": "mg/L limit",
+          "description": "Achieving discharge standards"
+        },
+        "ozoneConsumption": {
+          "value": "3-5",
+          "label": "mg O₃/mg OP",
+          "description": "Ozone consumption for destruction"
+        },
+        "secondaryPollution": {
+          "value": "0",
+          "label": "Secondary pollution",
+          "description": "Mineralization to CO₂ and H₂O"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Wastewater from industrial facilities contaminated with oil products represents one of the most serious environmental problems. One liter of oil can pollute up to 1 million liters of water, creating a film that prevents gas exchange and threatens the death of aquatic ecosystems.",
+          "paragraph2": "Ozonation is an advanced method for deep treatment of oil-containing wastewater, ensuring destruction of hydrocarbons to carbon dioxide and water. Unlike traditional methods (flotation, sorption, biological treatment), ozonation provides complete mineralization of pollutants without formation of secondary waste."
+        },
+        "regulations": {
+          "title": "Regulatory requirements",
+          "text": "Maximum allowable concentration of oil products for discharge into fishery water bodies is 0.05 mg/L (GOST 17.1.3.07-82). For discharge into municipal sewerage — 4.0 mg/L. Exceeding the limit entails environmental fees and fines up to 2 million rubles."
+        },
+        "mechanism": {
+          "title": "Mechanism of oil product oxidation by ozone",
+          "paragraph": "Ozone is a powerful oxidizer with an oxidation-reduction potential of 2.07 V (compared to 1.36 V for chlorine). When interacting with oil products, oxidative destruction reactions occur:",
+          "items": [
+            "Cleavage of long-chain hydrocarbons to short-chain",
+            "Oxidation of aromatic compounds with opening of benzene ring",
+            "Formation of intermediate products: aldehydes, ketones, carboxylic acids",
+            "Complete mineralization to CO₂ and H₂O with sufficient ozone dose",
+            "Destruction of polycyclic aromatic hydrocarbons (PAH)"
+          ],
+          "tableCaption": "Kinetics of oil product oxidation by ozone",
+          "tableHeaders": ["Compound class", "Rate constant, M⁻¹·s⁻¹", "Half-life, min"],
+          "tableRows": [
+            ["Aliphatic hydrocarbons", "10² — 10³", "15-30"],
+            ["Aromatic (benzene, toluene)", "10³ — 10⁴", "5-15"],
+            ["Polyaromatic (PAH)", "10⁴ — 10⁵", "1-5"],
+            ["Naphthenic acids", "10³ — 10⁴", "5-10"],
+            ["Phenols", "10⁵ — 10⁶", "<1"]
+          ],
+          "infoBox": {
+            "title": "Oxidative destruction vs. sorption",
+            "text": "Unlike activated carbon, which only concentrates pollutants and requires regeneration or disposal, ozonation destroys oil product molecules, eliminating formation of secondary waste."
+          }
+        },
+        "technology": {
+          "title": "Treatment process scheme",
+          "paragraph": "Industrial ozonation installation for oil-containing wastewater includes several treatment stages to achieve maximum efficiency:",
+          "steps": [
+            {
+              "title": "Preliminary mechanical treatment",
+              "description": "Removal of suspended solids, settling in oil traps. Reduction of oil product concentration to 30-50 mg/L."
+            },
+            {
+              "title": "Flotation with ozone-air mixture",
+              "description": "Supply of ozone-air mixture (5-10 mg/L) through ejectors. Flotation of emulsified oil products."
+            },
+            {
+              "title": "Ozonation contact chamber",
+              "description": "Deep oxidation of dissolved oil products. Ozone dose 3-5 mg per 1 mg of oil products. Contact time 20-30 minutes."
+            },
+            {
+              "title": "Degassing and post-treatment",
+              "description": "Removal of excess ozone and oxidation products. If necessary — filtration through activated carbon."
+            },
+            {
+              "title": "Quality control",
+              "description": "Automatic monitoring of oil product concentration at outlet. Regulation of ozone dose according to sensor readings."
+            }
+          ],
+          "tableCaption": "Ozonation parameters for various oil product concentrations",
+          "tableHeaders": ["Initial OP concentration, mg/L", "Ozone dose, mg/L", "Contact time, min", "Residual concentration, mg/L"],
+          "tableRows": [
+            ["5-10", "15-30", "15-20", "<0.05"],
+            ["10-20", "30-60", "20-30", "<0.05"],
+            ["20-50", "60-150", "30-45", "<0.1"],
+            ["50-100", "150-300", "45-60", "<0.3"],
+            [">100", "Two-stage treatment", "60-90", "<0.5"]
+          ]
+        },
+        "types": {
+          "title": "Types of oil-containing wastewater and treatment features",
+          "paragraph": "Ozonation efficiency depends on the composition and concentration of oil products in wastewater:",
+          "tableCaption": "Characteristics of oil-containing wastewater by industry",
+          "tableHeaders": ["Wastewater source", "Typical OP concentration, mg/L", "Composition features", "Treatment mode"],
+          "tableRows": [
+            ["Refineries, oil depots", "50-500", "Light fractions, benzene, toluene", "Flotation + ozonation"],
+            ["Transport, gas stations", "10-100", "Oils, fuel, surfactants", "Direct ozonation"],
+            ["Machine building", "20-200", "Coolants, emulsions, oils", "De-emulsification + ozonation"],
+            ["Ship repair", "50-300", "Heavy fractions, resins", "Multi-stage treatment"],
+            ["Metallurgy", "10-50", "Technical oils, soot", "Flocculation + ozonation"]
+          ],
+          "successBox": {
+            "title": "Synergistic effect",
+            "text": "Combining ozonation with UV irradiation (O₃/UV process) increases oxidation efficiency by 30-40% due to formation of hydroxyl radicals (•OH) with oxidation potential of 2.80 V."
+          }
+        },
+        "equipment": {
+          "title": "Technical specifications of industrial ozonators",
+          "paragraph": "High-capacity corona discharge ozone generators are used for treatment of oil-containing wastewater:",
+          "tableCaption": "Line of industrial ozonators for wastewater treatment",
+          "tableHeaders": ["Model", "Capacity, g O₃/h", "Wastewater volume, m³/h", "Power consumption, kW"],
+          "tableRows": [
+            ["OZT-100", "100", "3-5", "1.2"],
+            ["OZT-500", "500", "15-25", "5.5"],
+            ["OZT-1000", "1000", "30-50", "10"],
+            ["OZT-2000", "2000", "60-100", "18"],
+            ["OZT-5000", "5000", "150-250", "45"]
+          ],
+          "items": [
+            "Oxygen feed for maximum ozone concentration (up to 12% by mass)",
+            "Cooling system for stable operation under high loads",
+            "Automatic capacity regulation by sensor signal",
+            "Residual ozone destructor with catalytic conversion",
+            "Safety system with emergency shutdown on ozone leak"
+          ]
+        },
+        "economics": {
+          "title": "Environmental and economic indicators",
+          "comparisonTitle": "Comparison of oil-containing wastewater treatment methods",
+          "comparisonHeaders": ["Parameter", "Ozonation", "Traditional methods"],
+          "comparisonRows": [
+            { "parameter": "Treatment efficiency", "value1": "95-99%", "value2": "70-90%" },
+            { "parameter": "Residual OP concentration", "value1": "<0.05 mg/L", "value2": "0.5-5 mg/L" },
+            { "parameter": "Sludge formation", "value1": "None", "value2": "2-5% of volume" },
+            { "parameter": "Reagent consumption", "value1": "Oxygen only", "value2": "Coagulants, sorbents" },
+            { "parameter": "Operating costs", "value1": "15-25 rub/m³", "value2": "30-60 rub/m³" },
+            { "parameter": "Capital costs", "value1": "Medium", "value2": "Low-medium" },
+            { "parameter": "Footprint", "value1": "Minimal", "value2": "Significant" }
+          ],
+          "infoBox": {
+            "title": "Savings calculation",
+            "text": "For discharge of 100 m³/day of wastewater with OP concentration of 20 mg/L, the limit exceedance is 400 times. Discharge fee — up to 50,000 rub/month. Ozonation pays for itself in 8-12 months only on savings from environmental fees."
+          }
+        },
+        "compliance": {
+          "title": "Compliance with regulatory requirements",
+          "paragraph": "Ozonation ensures compliance with current regulations:",
+          "items": [
+            "SanPiN 2.1.5.980-00 — Hygienic requirements for surface water protection",
+            "GOST 17.1.3.07-82 — Rules for water quality control of water bodies",
+            "Ministry of Agriculture Order No. 552 — Water quality standards for fishery water bodies",
+            "Federal Law No. 7-FZ \"On Environmental Protection\"",
+            "Government Decree No. 644 — Rules for cold water supply and wastewater disposal"
+          ],
+          "tableCaption": "Maximum allowable concentrations of oil products for various water use categories",
+          "tableHeaders": ["Water body category", "Limit, mg/L", "Hazard class"],
+          "tableRows": [
+            ["Fishery water bodies, highest category", "0.05", "3"],
+            ["Fishery water bodies, category I", "0.05", "3"],
+            ["Fishery water bodies, category II", "0.05", "3"],
+            ["Domestic and drinking water use", "0.1", "4"],
+            ["Discharge to municipal sewerage", "4.0", "—"]
+          ]
+        },
+        "benefits": {
+          "title": "Advantages of industrial ozonation",
+          "features": [
+            {
+              "title": "Environmental safety",
+              "description": "Complete mineralization of oil products without secondary pollution and waste for disposal"
+            },
+            {
+              "title": "Compliance with limits",
+              "description": "Guaranteed achievement of standards for discharge into fishery water bodies"
+            },
+            {
+              "title": "Process automation",
+              "description": "Automatic regulation of ozone dose according to concentration sensor readings"
+            },
+            {
+              "title": "Reduced fees",
+              "description": "Savings on environmental fees and fines for exceeding limits"
+            },
+            {
+              "title": "Versatility",
+              "description": "Effective treatment of all classes of oil products: aliphatic, aromatic, PAH"
+            },
+            {
+              "title": "Low operating costs",
+              "description": "No consumables — only electricity and oxygen"
+            }
+          ]
+        },
+        "case": {
+          "title": "Case study: Refinery with capacity of 6 million tons/year",
+          "paragraph": "Implementation of ozonation at wastewater treatment facilities of a refinery:",
+          "tableCaption": "Results of ozonation system implementation",
+          "tableHeaders": ["Indicator", "Before implementation", "After implementation", "Effect"],
+          "tableRows": [
+            ["Wastewater volume, m³/day", "5,000", "5,000", "—"],
+            ["OP concentration at inlet, mg/L", "25-40", "25-40", "—"],
+            ["OP concentration at outlet, mg/L", "0.8-1.5", "0.03-0.05", "-96%"],
+            ["Environmental fees, million rub/year", "18.5", "0.2", "-99%"],
+            ["Coagulant consumption, t/year", "120", "0", "-100%"],
+            ["Sludge formation, t/year", "850", "0", "-100%"],
+            ["Payback period", "—", "14 months", "—"]
+          ]
+        }
+      }
     },
     "manufacturing": {
       "title": "Production air treatment",
@@ -26,7 +236,268 @@
         "Oxidation of VOCs",
         "Improved working conditions",
         "Scalable industrial solutions"
-      ]
+      ],
+      "stats": {
+        "stat1": {
+          "value": "80-95%",
+          "label": "Microflora reduction",
+          "description": "In production facility air"
+        },
+        "stat2": {
+          "value": "0.1",
+          "label": "mg/m³ MPC",
+          "description": "Maximum single ozone concentration"
+        },
+        "stat3": {
+          "value": "15-20",
+          "label": "min",
+          "description": "Express treatment time"
+        },
+        "stat4": {
+          "value": "99.9%",
+          "label": "Efficiency",
+          "description": "Against pathogenic microorganisms"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Air quality at production facilities directly affects personnel health, product quality and compliance with sanitary standards. In production facilities, concentrations of microorganisms, dust and harmful substances can far exceed permissible levels.",
+          "paragraph2": "Ozonation is a comprehensive air treatment technology providing disinfection, deodorization and oxidation of volatile organic compounds. Industrial ozone generators with capacity from 10 to 1000 g/h enable treatment of spaces from 100 to 50,000 m³.",
+          "warning": {
+            "title": "Safety requirements:",
+            "text": "Ozone MPC in work zones is 0.1 mg/m³ (maximum single) and 0.03 mg/m³ (shift average) according to GN 2.2.5.3532-18. Facility treatment is conducted in the absence of personnel with subsequent ventilation to residual concentration <0.03 mg/m³."
+          }
+        },
+        "mechanism": {
+          "title": "Mechanism of ozone action on air pollutants",
+          "paragraph": "Ozone is the strongest oxidizer capable of destroying a wide range of production air pollutants:",
+          "bulletList": [
+            "Bacteria, viruses, fungi and spores — oxidative destruction of cell membranes",
+            "Volatile organic compounds (VOCs) — oxidation to CO₂ and H₂O",
+            "Hydrogen sulfide (H₂S) — oxidation to sulfates",
+            "Ammonia (NH₃) — oxidation to nitrates and water",
+            "Odorants — destruction of unsaturated bonds in molecules"
+          ],
+          "table": {
+            "caption": "Ozonation efficiency against microorganisms",
+            "headers": ["Microorganism", "Ozone concentration, mg/m³", "Exposure time, min", "Efficiency"],
+            "rows": [
+              ["E. coli", "0.5-1.0", "15-20", "99.9%"],
+              ["Staphylococcus aureus", "1.0-2.0", "20-30", "99.9%"],
+              ["Aspergillus niger (spores)", "2.0-5.0", "30-60", "99.0%"],
+              ["Influenza virus", "0.5-1.0", "10-15", "99.99%"],
+              ["SARS-CoV-2", "1.0-2.0", "15-20", "99.9%"]
+            ]
+          },
+          "highlight": {
+            "title": "Ozone vs. UV disinfection:",
+            "text": "Unlike UV lamps, effective only in direct radiation zones, ozone spreads throughout the entire facility volume, penetrating hard-to-reach areas: crevices, ventilation systems, equipment interior spaces."
+          }
+        },
+        "applications": {
+          "title": "Industrial ozonation application areas",
+          "paragraph": "The technology is in demand at facilities with high air quality requirements:",
+          "table": {
+            "caption": "Application industries and specific tasks",
+            "headers": ["Industry", "Main tasks", "Treatment mode"],
+            "rows": [
+              ["Food production", "Disinfection, odor removal, extended shelf life", "Daily, night shifts"],
+              ["Pharmaceuticals", "Sterility of clean rooms classes A-D", "After each shift"],
+              ["Packaging facilities", "Disinfection of packaging materials and air", "Continuous low-dose"],
+              ["Textile production", "Odor removal, dust reduction", "Periodic"],
+              ["Wood processing", "Mold control, dust concentration reduction", "Daily"],
+              ["Warehouse facilities", "Mold prevention, disinfection", "Scheduled 2-3 times/week"]
+            ]
+          }
+        },
+        "modes": {
+          "title": "Production facility treatment modes",
+          "steps": [
+            {
+              "title": "Shock disinfection (10-50 mg/m³)",
+              "description": "Used for deep treatment after repairs, mold contamination, sanitization after infection outbreaks. Conducted in the absence of personnel with 60-120 minute exposure."
+            },
+            {
+              "title": "Regular treatment (2-5 mg/m³)",
+              "description": "Preventive ozonation during night shifts or technical breaks. Treatment time 30-60 minutes, ventilation 30-45 minutes."
+            },
+            {
+              "title": "Continuous low-dose ozonation (0.02-0.05 mg/m³)",
+              "description": "Maintaining sanitary conditions in the presence of personnel. Concentration below MPC, constant circulation of ozonated air through ventilation system."
+            },
+            {
+              "title": "Local work zone treatment",
+              "description": "Spot ozonation of areas with high microbial load. Application of mobile ozonators with directed supply."
+            }
+          ],
+          "table": {
+            "caption": "Ozonator capacity calculation for production facilities",
+            "headers": ["Facility volume, m³", "Ozone concentration, mg/m³", "Time to reach mode, min", "Required capacity, g/h"],
+            "rows": [
+              ["100-500", "5", "15-20", "50-100"],
+              ["500-2000", "5", "20-30", "100-300"],
+              ["2000-5000", "5", "30-45", "300-500"],
+              ["5000-10000", "5", "45-60", "500-800"],
+              [">10000", "5", "60-90", "800-1500"]
+            ]
+          }
+        },
+        "ventilation": {
+          "title": "Integration with ventilation systems",
+          "paragraph": "For large production facilities, optimal solution is integration of ozonators with existing ventilation system:",
+          "bulletList": [
+            "Ozone injection into supply air duct — uniform distribution throughout facility",
+            "Recirculation air treatment — microbial load reduction",
+            "Exhaust air ozonation — odor removal before atmospheric discharge",
+            "Local ventilation with ozonation — treatment of high contamination zones"
+          ],
+          "table": {
+            "caption": "Ozonation integration schemes with ventilation",
+            "headers": ["Scheme", "Advantages", "Limitations"],
+            "rows": [
+              ["Injection into supply", "Uniformity, simplicity", "Requires corrosion-resistant ducts"],
+              ["Recirculation", "Energy savings, continuous treatment", "Concentration limitation"],
+              ["Separate circuit", "Mode flexibility, independence", "Additional costs"],
+              ["Mobile units", "Mobility, minimal investment", "Uneven treatment"]
+            ]
+          },
+          "highlight": {
+            "title": "Energy resource savings:",
+            "text": "Disinfection of recirculation air with ozone allows reducing fresh supply air share from 100% to 30-50%, reducing heating/cooling costs by 40-60%."
+          }
+        },
+        "voc": {
+          "title": "Volatile organic compound neutralization",
+          "paragraph": "At facilities using solvents, paints, adhesives, VOC concentrations can exceed MPC by 5-20 times. Ozonation oxidizes organic compounds to safe products:",
+          "table": {
+            "caption": "Oxidation of typical production facility VOCs",
+            "headers": ["Compound", "MPC, mg/m³", "Oxidation rate", "Reaction products"],
+            "rows": [
+              ["Formaldehyde", "0.5", "High", "CO₂, H₂O, formic acid"],
+              ["Benzene", "5.0", "Medium", "CO₂, H₂O, phenols"],
+              ["Toluene", "50", "Medium", "CO₂, H₂O, benzaldehyde"],
+              ["Xylene", "50", "Medium", "CO₂, H₂O, tolualdehyde"],
+              ["Acetone", "200", "Low", "CO₂, H₂O, acetic acid"],
+              ["Styrene", "30", "High", "CO₂, H₂O, benzaldehyde"]
+            ]
+          },
+          "highlight": {
+            "title": "Combined methods:",
+            "text": "For high VOC concentrations, effective combination of ozonation with catalytic oxidation. Ozone activates catalyst at 100-150°C instead of 300-400°C for thermal oxidation."
+          }
+        },
+        "regulatory": {
+          "title": "Compliance with regulatory requirements",
+          "paragraph": "Ozonation helps ensure production compliance with sanitary standards and occupational health requirements:",
+          "bulletList": [
+            "SanPiN 1.2.3685-21 — Hygienic standards and safety requirements",
+            "GOST 12.1.005-88 — General sanitary-hygienic requirements for work zone air",
+            "GN 2.2.5.3532-18 — MPC of harmful substances in work zone air",
+            "SP 2.2.3670-20 — Sanitary-epidemiological requirements for working conditions",
+            "TR TS 021/2011 — Food product safety (for food production)"
+          ],
+          "table": {
+            "caption": "MPC of main work zone air pollutants",
+            "headers": ["Substance", "Max MPC, mg/m³", "Shift avg MPC, mg/m³", "Hazard class"],
+            "rows": [
+              ["Ozone", "0.1", "0.03", "1"],
+              ["Non-toxic dust", "10", "4", "4"],
+              ["Ammonia", "20", "—", "4"],
+              ["Hydrogen sulfide", "10", "—", "2"],
+              ["Formaldehyde", "0.5", "0.05", "2"],
+              ["Hydrocarbons (by C)", "300", "100", "4"]
+            ]
+          }
+        },
+        "safety": {
+          "title": "Safety system for ozonation",
+          "paragraph": "Industrial ozonation systems are equipped with multi-level safety system:",
+          "bulletList": [
+            "Ozone concentration sensors with emergency shutdown at >0.1 mg/m³",
+            "Automatic generation stop when facility doors open",
+            "Light and sound alarms during treatment",
+            "Timer with automatic shutdown after treatment time",
+            "Residual ozone destructor with 99.9% efficiency",
+            "Personnel access lockout during high-concentration treatment"
+          ],
+          "highlight": {
+            "title": "Safety protocol:",
+            "text": "Before personnel entry into treated facility, ozone concentration must be reduced to <0.03 mg/m³. Natural ozone decay time: 20-40 minutes. Forced ventilation reduces time to 10-15 minutes."
+          }
+        },
+        "economics": {
+          "title": "Implementation economic indicators",
+          "comparisonTable": {
+            "title": "Industrial ozonation ROI",
+            "headers": ["Item", "Ozonation", "Alternatives"],
+            "rows": [
+              { "parameter": "Capital costs", "value1": "300-800 thousand rub", "value2": "150-400 thousand rub" },
+              { "parameter": "Annual operation", "value1": "50-120 thousand rub", "value2": "200-500 thousand rub" },
+              { "parameter": "Consumables", "value1": "None", "value2": "Disinfectants, filters" },
+              { "parameter": "Efficiency", "value1": "95-99.9%", "value2": "70-90%" },
+              { "parameter": "Payback period", "value1": "12-18 months", "value2": "—" },
+              { "parameter": "Equipment service life", "value1": "10-15 years", "value2": "3-5 years" }
+            ]
+          },
+          "table": {
+            "caption": "Savings calculation for 2000 m³ production facility",
+            "headers": ["Indicator", "Value", "Comment"],
+            "rows": [
+              ["Equipment cost", "450,000 rub", "200 g/h ozonator + automation"],
+              ["Installation and commissioning", "80,000 rub", "Integration with ventilation"],
+              ["Annual electricity", "18,000 rub", "2.5 kW × 2 h/day × 365 days × 10 rub/kWh"],
+              ["Savings on disinfectants", "180,000 rub/year", "Elimination of chemical treatment"],
+              ["Reduced sick leave", "150,000 rub/year", "30% reduction in illness"],
+              ["Net effect", "312,000 rub/year", "Payback in 18 months"]
+            ]
+          }
+        },
+        "benefits": {
+          "title": "Industrial air ozonation advantages",
+          "items": [
+            {
+              "title": "Comprehensive impact",
+              "description": "Simultaneous disinfection, deodorization and neutralization of harmful substances"
+            },
+            {
+              "title": "Complete coverage",
+              "description": "Treatment of entire facility volume, including hard-to-reach areas"
+            },
+            {
+              "title": "No chemical residues",
+              "description": "Ozone decomposes to oxygen without toxic products"
+            },
+            {
+              "title": "Regulatory compliance",
+              "description": "Ensuring SanPiN and occupational health requirements"
+            },
+            {
+              "title": "Automation",
+              "description": "Scheduled operation without personnel involvement"
+            },
+            {
+              "title": "Minimal costs",
+              "description": "No consumables, only electricity"
+            }
+          ]
+        },
+        "case": {
+          "title": "Case: Food production, packaging facility",
+          "paragraph": "Ozonation system implementation at confectionery production enterprise:",
+          "table": {
+            "caption": "Implementation results over 6 months of operation",
+            "headers": ["Indicator", "Before implementation", "After implementation", "Change"],
+            "rows": [
+              ["Facility volume", "3,500 m³", "3,500 m³", "—"],
+              ["Air microbial contamination", "2,500 CFU/m³", "150 CFU/m³", "-94%"],
+              ["Mold complaint cases", "12 cases/month", "0-1 case/month", "-95%"],
+              ["Product shelf life", "14 days", "21 days", "+50%"],
+              ["Chemical disinfection costs", "35,000 rub/month", "5,000 rub/month", "-86%"],
+              ["Personnel sick leave", "8 days/month", "3 days/month", "-63%"]
+            ]
+          }
+        }
+      }
     }
   }
 }

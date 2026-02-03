@@ -26,7 +26,182 @@
         "Preservation of finishes",
         "Faster recovery of the premises",
         "Savings on major repairs"
-      ]
+      ],
+      "stats": {
+        "stat1": {
+          "value": "24-72 h",
+          "label": "Treatment time",
+          "description": "Depending on damage level"
+        },
+        "stat2": {
+          "value": "40-80",
+          "label": "mg/m³",
+          "description": "Ozone concentration"
+        },
+        "stat3": {
+          "value": "2-3",
+          "label": "Cycles",
+          "description": "For heavy smoke damage"
+        },
+        "stat4": {
+          "value": "100%",
+          "label": "Elimination",
+          "description": "Of smoke odor without renovation"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Fire smoke odor is among the most persistent and difficult to remove. Combustion products penetrate deep into building materials: plaster, concrete, brick, wood. Tiny soot particles are absorbed into textiles, upholstery, carpets, wallpaper. Traditional cleaning and ventilation don't help — the odor keeps coming back.",
+          "text2": "Many property owners after a fire are forced to do a full renovation with replacement of finishes. However, ozonation allows solving the problem faster and cheaper — without demolishing walls and replacing furniture."
+        },
+        "highlight1": {
+          "title": "Why fire smoke odor is so persistent:",
+          "text": "When organic materials burn, polycyclic aromatic hydrocarbons (PAHs), soot, and resins are formed. These substances have microscopic particle sizes (0.1-1 μm) and penetrate deep into the pores of building materials. Regular cleaning only removes the surface layer."
+        },
+        "howOzone": {
+          "title": "How ozone eliminates fire smoke odor",
+          "text": "Ozone is a gas that penetrates everywhere smoke and soot particles have reached. It oxidizes organic compounds at the molecular level, breaking chemical bonds in combustion product molecules. As a result, safe compounds are formed — water and carbon dioxide.",
+          "items": [
+            "Penetrates micropores of concrete, plaster, brick",
+            "Treats wooden structures from inside",
+            "Reaches hidden cavities behind wall cladding",
+            "Passes through textiles and furniture upholstery",
+            "Cleans ventilation systems and ducts",
+            "Treats books, documents, clothing"
+          ]
+        },
+        "process": {
+          "title": "Post-fire room treatment stages",
+          "steps": [
+            {
+              "title": "Preliminary cleaning",
+              "description": "Remove visible soot and smoke residue from all surfaces. Wipe walls, ceilings, floors. Vacuum upholstery and carpets. Remove severely damaged items."
+            },
+            {
+              "title": "Room sealing",
+              "description": "Close all windows and doors. Seal ventilation openings. Seal gaps. This is necessary to maintain high ozone concentration."
+            },
+            {
+              "title": "First ozonation cycle",
+              "description": "Install ozone generator, leave the room. Treatment at 40-80 mg/m³ concentration for 8-24 hours. Ozone must completely fill the room volume."
+            },
+            {
+              "title": "Ventilation and assessment",
+              "description": "Ventilate the room for 2-4 hours until ozone odor completely disappears. Assess the result. If necessary, perform additional wet cleaning."
+            },
+            {
+              "title": "Repeat cycles (if needed)",
+              "description": "For heavy smoke damage, 2-3 treatment cycles with ventilation breaks are required. Each cycle further reduces odor concentration."
+            }
+          ]
+        },
+        "modes": {
+          "title": "Treatment modes depending on damage level",
+          "table": {
+            "caption": "Recommended post-fire ozonation parameters",
+            "headers": ["Damage level", "Concentration", "Cycle time", "Number of cycles"],
+            "rows": [
+              ["Light smoke", "20-40 mg/m³", "4-8 hours", "1"],
+              ["Moderate smoke", "40-60 mg/m³", "12-24 hours", "1-2"],
+              ["Heavy smoke", "60-80 mg/m³", "24-48 hours", "2-3"],
+              ["Very heavy", "80+ mg/m³", "48-72 hours", "3+"]
+            ]
+          },
+          "highlight": {
+            "title": "Important:",
+            "text": "Ozone does not physically remove soot — it only eliminates the odor. Mechanical cleaning is mandatory before ozonation. Also, ozone does not restore damaged materials — charred surfaces require repair."
+          }
+        },
+        "comparison": {
+          "title": "Comparison of fire smoke odor removal methods",
+          "tableTitle": "Ozonation vs other methods",
+          "headers": ["Criterion", "Ozonation", "Major renovation"],
+          "rows": [
+            {
+              "parameter": "Cost",
+              "value1": "Low",
+              "value2": "Very high"
+            },
+            {
+              "parameter": "Completion time",
+              "value1": "1-3 days",
+              "value2": "2-4 weeks"
+            },
+            {
+              "parameter": "Effectiveness",
+              "value1": "95-100%",
+              "value2": "100%"
+            },
+            {
+              "parameter": "Preservation of finishes",
+              "value1": "Yes",
+              "value2": "No (replacement)"
+            },
+            {
+              "parameter": "Preservation of furniture",
+              "value1": "Yes",
+              "value2": "Depends on damage"
+            },
+            {
+              "parameter": "Need for evacuation",
+              "value1": "During treatment",
+              "value2": "For entire repair period"
+            }
+          ]
+        },
+        "whatCanTreat": {
+          "title": "What can be treated with ozone",
+          "items": [
+            {
+              "title": "Building structures",
+              "description": "Walls, ceilings, floors, wooden beams. Ozone penetrates to a depth of several centimeters"
+            },
+            {
+              "title": "Upholstered furniture",
+              "description": "Sofas, armchairs, mattresses, pillows. Ozone treats both filling and upholstery simultaneously"
+            },
+            {
+              "title": "Carpets and textiles",
+              "description": "Carpet coverings, curtains, clothing in closets. Can be treated directly in the room"
+            },
+            {
+              "title": "Books and documents",
+              "description": "Paper media absorb fire smoke odor. Ozonation allows preserving archives"
+            }
+          ]
+        },
+        "whenNotHelp": {
+          "title": "When ozonation won't help",
+          "text": "Ozonation is not a universal solution. There are cases when additional treatment or repair is required:",
+          "items": [
+            "Charred surfaces — require mechanical cleaning or replacement",
+            "Water-soaked materials after firefighting — drying first",
+            "Melted plastic — odor source not eliminated by ozone",
+            "Deeply sooted drywall — may require replacement",
+            "Ventilation systems with accumulated soot — require mechanical cleaning"
+          ],
+          "highlight": {
+            "title": "Recommendation:",
+            "text": "For maximum effect, combine ozonation with professional cleaning. First — mechanical removal of soot, then — ozonation to eliminate ingrained odor."
+          }
+        },
+        "economic": {
+          "title": "Economic effect",
+          "text": "Ozonation allows significant savings on post-fire restoration:",
+          "table": {
+            "caption": "Restoration cost comparison (example for 60 m² apartment)",
+            "headers": ["Expense item", "With ozonation", "Without ozonation"],
+            "rows": [
+              ["Finish removal", "—", "$500"],
+              ["New finishes", "—", "$2,000"],
+              ["Furniture cleaning", "$150", "$150"],
+              ["Ozonation", "$200", "—"],
+              ["New furniture (replacement)", "—", "$1,500"],
+              ["TOTAL", "$350", "$4,150"]
+            ]
+          }
+        }
+      }
     },
     "pet-odors": {
       "title": "Pet odors",
@@ -39,7 +214,180 @@
         "Destruction of bacteria and fungi",
         "Preparation for sale or rental",
         "More effective than enzymatic cleaners"
-      ]
+      ],
+      "stats": {
+        "stat1": {
+          "value": "100%",
+          "label": "Elimination",
+          "description": "Of uric acid crystals"
+        },
+        "stat2": {
+          "value": "4-8 h",
+          "label": "Treatment time",
+          "description": "Standard procedure"
+        },
+        "stat3": {
+          "value": "2-3",
+          "label": "Cycles",
+          "description": "For severe contamination"
+        },
+        "stat4": {
+          "value": "99.9%",
+          "label": "Bacteria",
+          "description": "Additionally destroyed"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Pet odors, especially cat urine, are one of the most common reasons for contacting cleaning companies. This odor is almost impossible to remove with conventional means. Air fresheners only mask the problem, and the odor returns again and again, especially in humid weather.",
+          "text2": "The reason for the persistence of the odor is uric acid. Unlike other components of urine (urea and urochrome), it does not dissolve in water and crystallizes in fabric fibers. When humidity increases, the crystals activate and again release a sharp ammonia smell."
+        },
+        "highlight1": {
+          "title": "Why conventional products don't work:",
+          "text": "Most cleaning products remove water-soluble components of urine, creating an illusion of cleanliness. But uric acid crystals remain in fabric fibers and activate when humidity increases. Ozone chemically breaks down these crystals, making the result permanent."
+        },
+        "howItWorks": {
+          "title": "How ozone eliminates pet odors",
+          "text": "Ozone is a powerful oxidizer that breaks down the molecular structure of uric acid. Being a gas, it penetrates everywhere urine could have reached: upholstery, carpets, mattresses, baseboards, floor cracks.",
+          "items": [
+            "Oxidizes uric acid crystals into safe compounds",
+            "Penetrates porous materials to full depth",
+            "Treats hard-to-reach areas (under furniture, behind baseboards)",
+            "Destroys bacteria causing additional odor",
+            "Neutralizes pheromones animals use to mark territory",
+            "Leaves no chemical residues after treatment"
+          ]
+        },
+        "types": {
+          "title": "Types of pet odors",
+          "table": {
+            "caption": "Characteristics of different odors and treatment methods",
+            "headers": ["Odor source", "Features", "Treatment mode"],
+            "rows": [
+              ["Cat urine", "Most persistent, contains uric acid", "40-60 mg/m³, 6-8 hours, 2-3 cycles"],
+              ["Dog urine", "Less concentrated, easier to remove", "20-40 mg/m³, 4-6 hours, 1-2 cycles"],
+              ["Marks (territory)", "Concentrated, with pheromones", "40-60 mg/m³, 8-12 hours, 2-3 cycles"],
+              ["Fur odor", "Organic, from sebum", "10-20 mg/m³, 2-4 hours, 1 cycle"],
+              ["Litter box odor", "Mixture of urine and feces", "20-40 mg/m³, 4-6 hours, 1-2 cycles"]
+            ]
+          }
+        },
+        "process": {
+          "title": "Ozonation process for pet odor removal",
+          "steps": [
+            {
+              "title": "Source localization",
+              "description": "Identify all places where pets left marks. Use a UV flashlight — urine glows in ultraviolet light. Mark all detected spots."
+            },
+            {
+              "title": "Preliminary cleaning",
+              "description": "Treat visible stains with an enzymatic cleaner. It breaks down organic components of urine. Let dry completely before ozonation."
+            },
+            {
+              "title": "Room preparation",
+              "description": "Remove pets and houseplants. Close windows, doors, ventilation. Raise curtains and drapes for better ozone access."
+            },
+            {
+              "title": "Ozonation",
+              "description": "Place the ozone generator in the center of the room. Run for 4-8 hours at 20-60 mg/m³ concentration. Use a fan for even distribution."
+            },
+            {
+              "title": "Assessment and retreatment",
+              "description": "Ventilate the room for 1-2 hours. Assess the result. For severe contamination, repeat treatment after 24 hours. Usually 2-3 cycles are needed."
+            }
+          ]
+        },
+        "comparison": {
+          "title": "Comparison of odor removal methods",
+          "tableTitle": "Ozonation vs conventional products",
+          "headers": ["Criterion", "Ozonation", "Enzymatic/chemical products"],
+          "rows": [
+            {
+              "parameter": "Principle of action",
+              "value1": "Molecule destruction",
+              "value2": "Enzymatic breakdown"
+            },
+            {
+              "parameter": "Penetration depth",
+              "value1": "Full material thickness",
+              "value2": "Surface only"
+            },
+            {
+              "parameter": "Hard-to-reach areas",
+              "value1": "Yes (gas penetrates everywhere)",
+              "value2": "No (manual treatment only)"
+            },
+            {
+              "parameter": "Effect duration",
+              "value1": "Permanent",
+              "value2": "May require repetition"
+            },
+            {
+              "parameter": "Treatment time",
+              "value1": "4-8 hours (automatic)",
+              "value2": "1-24 hours (manual labor)"
+            },
+            {
+              "parameter": "Disinfection",
+              "value1": "Yes (kills bacteria)",
+              "value2": "Partial"
+            }
+          ]
+        },
+        "specialCases": {
+          "title": "Special treatment cases",
+          "features": [
+            {
+              "title": "Apartment with multiple cats",
+              "description": "Multiple marks around the perimeter. Requires 3-4 ozonation cycles with high concentration"
+            },
+            {
+              "title": "Wooden floor",
+              "description": "Urine soaks into wood. Ozonation is the only way to treat wood without replacement"
+            },
+            {
+              "title": "Preparation for sale/rental",
+              "description": "Buyers are sensitive to odors. Ozonation is mandatory for apartments with pets"
+            },
+            {
+              "title": "Upholstered furniture",
+              "description": "Sofas and armchairs are favorite marking spots. Can be treated locally by covering with film"
+            }
+          ]
+        },
+        "localTreatment": {
+          "title": "Local furniture treatment",
+          "text": "If the odor is localized in a specific piece of furniture, chamber ozonation can be performed:",
+          "items": [
+            "Cover the item with plastic film, creating a \"chamber\"",
+            "Press film edges to the floor for sealing",
+            "Run hose from ozone generator under the film",
+            "Run ozone generator for 2-4 hours",
+            "This creates high ozone concentration directly in the item",
+            "After treatment — ventilate for 30-60 minutes"
+          ],
+          "highlight": {
+            "title": "Tip:",
+            "text": "To enhance effect when treating upholstered furniture, slightly moisten the surface with a spray bottle. Moisture activates uric acid crystals, making them more accessible for oxidation by ozone."
+          }
+        },
+        "prevention": {
+          "title": "Preventing recontamination",
+          "text": "After ozonation, it's important to prevent reappearance of marks:",
+          "items": [
+            "Eliminate the cause of marks (stress, illness, conflict with other animals)",
+            "Use pheromone diffusers to reduce anxiety",
+            "Provide sufficient number of litter boxes (rule N+1, where N is number of cats)",
+            "Clean litter boxes regularly — dirty box provokes marking",
+            "If necessary, spay/neuter the animal",
+            "For quick removal of fresh marks, use enzymatic cleaners"
+          ],
+          "highlight": {
+            "title": "Safety:",
+            "text": "Ozonation is performed with complete absence of animals! Ozone is toxic to pets just as it is to humans. Return animals to the room only after complete ventilation (1-2 hours)."
+          }
+        }
+      }
     },
     "car-interiors": {
       "title": "Car interiors",

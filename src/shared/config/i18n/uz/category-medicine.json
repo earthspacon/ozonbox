@@ -13,7 +13,176 @@
         "Disinfection of hard-to-reach areas",
         "No toxic chemical residues",
         "Complement to standard protocols"
-      ]
+      ],
+      "stats": {
+        "stat1": {
+          "value": "99.99%",
+          "label": "Efficiency",
+          "description": "Destruction of pathogenic microorganisms"
+        },
+        "stat2": {
+          "value": "MRSA",
+          "label": "Kills",
+          "description": "Antibiotic-resistant bacteria"
+        },
+        "stat3": {
+          "value": "20-30 min",
+          "label": "Ozone decay",
+          "description": "To safe oxygen level"
+        },
+        "stat4": {
+          "value": "0",
+          "label": "Residues",
+          "description": "Chemical substances after treatment"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Nosocomial infections (HAI) are one of the most serious problems in modern medicine. According to WHO, 7-10% of hospitalized patients in developed countries and up to 25% in developing countries are infected. Ozonation is an effective method to combat this problem, ensuring pathogen destruction at 99.99%.",
+          "text2": "Unlike chemical disinfectants, ozone leaves no toxic residues, does not cause resistance in microorganisms, and decays to pure oxygen within 20-30 minutes after treatment. This is especially important for patients with weakened immunity."
+        },
+        "highlight1": {
+          "title": "Important:",
+          "text": "Ozone is effective against antibiotic-resistant bacterial strains, including MRSA (methicillin-resistant Staphylococcus aureus) and VRE (vancomycin-resistant enterococci), which pose a particular threat in healthcare facilities."
+        },
+        "problem": {
+          "title": "The problem of nosocomial infections",
+          "text": "Nosocomial infections increase hospitalization time by an average of 8-10 days, increase treatment costs and increase mortality. Main sources of HAI:",
+          "items": [
+            "Contact surfaces: beds, bedside tables, handrails, call buttons",
+            "Medical equipment: monitors, catheters, breathing circuits",
+            "Air environment: aerosol particles from coughing, sneezing, medical procedures",
+            "Ventilation and air conditioning systems",
+            "Textiles: bed linens, curtains, gowns"
+          ]
+        },
+        "operating-rooms": {
+          "title": "Ozonation of operating blocks",
+          "text": "Operating blocks require special sanitary regimes. Traditional cleaning with disinfectants cannot ensure treatment of all surfaces — ozone, being a gas, penetrates equipment crevices, ventilation systems, hard-to-reach areas behind devices.",
+          "table": {
+            "caption": "Ozonation modes for operating rooms",
+            "headers": ["Treatment type", "Concentration", "Treatment time", "Frequency"],
+            "rows": [
+              ["Between operations", "10-15 mg/m³", "30-40 min", "After each operation"],
+              ["Final disinfection", "20-25 mg/m³", "60-90 min", "At end of workday"],
+              ["After infectious cases", "30-40 mg/m³", "120 min", "As indicated"],
+              ["Preventive", "10 mg/m³", "60 min", "Weekly"]
+            ]
+          },
+          "highlight": "After ozonation, 1.5-2 hours of ventilation is sufficient to reduce ozone concentration to a safe level. The room is ready for use without additional treatment."
+        },
+        "wards": {
+          "title": "Disinfection of wards and ICUs",
+          "text": "Intensive care and resuscitation wards are zones with increased risk of infection transmission between patients. The most vulnerable categories are here: patients on mechanical ventilation, after surgery, with immunodeficiency.",
+          "steps": [
+            {
+              "title": "Room preparation",
+              "description": "Removal of patients (if possible) or use of isolated zones. Closing windows and doors, turning off supply ventilation."
+            },
+            {
+              "title": "Ozonation",
+              "description": "Turning on the ozonator for the calculated time. Concentration of 15-20 mg/m³ ensures destruction of most pathogens."
+            },
+            {
+              "title": "Exposure",
+              "description": "Maintaining the set concentration for 30-60 minutes for complete disinfection of all surfaces."
+            },
+            {
+              "title": "Ventilation",
+              "description": "Opening ventilation, airing the room until ozone concentration drops below MAC (0.1 mg/m³)."
+            }
+          ]
+        },
+        "pathogens": {
+          "title": "Effectiveness against pathogens",
+          "text": "Ozone destroys almost all types of pathogenic microorganisms found in healthcare facilities:",
+          "table": {
+            "caption": "Pathogen inactivation time by ozone (concentration 20 mg/m³)",
+            "headers": ["Microorganism", "Inactivation time", "Efficiency"],
+            "rows": [
+              ["Staphylococcus aureus (MRSA)", "10-15 min", "99.99%"],
+              ["Escherichia coli", "5-10 min", "99.99%"],
+              ["Pseudomonas aeruginosa", "15-20 min", "99.99%"],
+              ["Candida albicans", "15-20 min", "99.9%"],
+              ["Aspergillus niger (spores)", "30-40 min", "99.9%"],
+              ["Clostridium difficile (spores)", "40-60 min", "99.9%"],
+              ["Influenza viruses", "5-10 min", "99.99%"],
+              ["Coronaviruses", "10-15 min", "99.99%"]
+            ]
+          }
+        },
+        "comparison": {
+          "title": "Comparison of disinfection methods",
+          "tableTitle": "Ozonation vs traditional methods",
+          "headers": ["Parameter", "Ozonation", "Chemical disinfection"],
+          "rows": [
+            {
+              "parameter": "Surface coverage",
+              "value1": "100% (including hard-to-reach)",
+              "value2": "70-80% (only accessible)"
+            },
+            {
+              "parameter": "Toxic residues",
+              "value1": "No (decays to O₂)",
+              "value2": "Yes (require rinsing)"
+            },
+            {
+              "parameter": "Bacterial resistance",
+              "value1": "Not formed",
+              "value2": "Forms with frequent use"
+            },
+            {
+              "parameter": "Air treatment",
+              "value1": "Yes (air disinfection)",
+              "value2": "No"
+            },
+            {
+              "parameter": "Need for cleaning after",
+              "value1": "No",
+              "value2": "Yes (wiping, rinsing)"
+            },
+            {
+              "parameter": "Safety for staff",
+              "value1": "Yes (with proper protocol)",
+              "value2": "Risk of allergies and irritation"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Advantages of ozonation in medicine",
+          "features": [
+            {
+              "title": "No resistance",
+              "description": "Ozone acts on cell membranes — bacteria cannot develop resistance"
+            },
+            {
+              "title": "Full coverage",
+              "description": "Gas penetrates everywhere: into crevices, behind equipment, into ventilation, under furniture"
+            },
+            {
+              "title": "No residues",
+              "description": "Decays to oxygen — no rinsing required, safe for patients"
+            },
+            {
+              "title": "Compliance with regulations",
+              "description": "Method recommended by Russian sanitary standards for healthcare facilities"
+            }
+          ]
+        },
+        "safety": {
+          "title": "Safety requirements",
+          "text": "When ozonating medical premises, safety requirements must be observed:",
+          "items": [
+            "Treatment is carried out in the absence of people and animals",
+            "The room must be sealed during treatment",
+            "Staff working with ozonators must undergo training",
+            "After treatment — mandatory ventilation to MAC (0.1 mg/m³)",
+            "Use of ozone concentration sensors is recommended",
+            "Keeping a treatment log for control and reporting"
+          ],
+          "warning": "MAC of ozone in the work zone is 0.1 mg/m³. When exceeded, a characteristic \"after thunderstorm\" smell is felt. Modern ozonators are equipped with timers and automatic shutdown systems."
+        }
+      }
     },
     "equipment-sterilization": {
       "title": "Medical equipment sterilization",
@@ -39,20 +208,284 @@
         "Dental equipment cleaning",
         "No chemical odors",
         "Cross-infection prevention"
-      ]
+      ],
+      "stats": {
+        "stat1": {
+          "value": "15-20",
+          "label": "Minutes",
+          "description": "Office disinfection between patients"
+        },
+        "stat2": {
+          "value": "99.9%",
+          "label": "Pathogens",
+          "description": "Destroyed during treatment"
+        },
+        "stat3": {
+          "value": "100%",
+          "label": "Coverage",
+          "description": "Of all surfaces and equipment"
+        },
+        "stat4": {
+          "value": "Ozone therapy",
+          "label": "Treatment",
+          "description": "Of caries and periodontal diseases"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Dental procedures carry a high risk of infection transmission: aerosols from turbine handpieces, contact with blood and saliva, large numbers of patients daily. Ozonation provides rapid and effective office disinfection, as well as therapeutic applications.",
+          "text2": "In addition to room disinfection, ozone is actively used therapeutically: treatment of carious cavities, periodontal disease treatment, root canal disinfection. Ozone therapy is a recognized field of modern dentistry."
+        },
+        "highlight1": {
+          "title": "Dentistry feature:",
+          "text": "When a turbine handpiece operates, fine aerosol containing bacteria and viruses from the patient's oral cavity is formed. This aerosol spreads throughout the office and settles on surfaces."
+        },
+        "applications": {
+          "title": "Ozone applications in dentistry",
+          "items": [
+            "Office disinfection between patient visits",
+            "Final office treatment at end of workday",
+            "Cleaning of water supply systems in dental units",
+            "Ozone therapy: caries treatment without drilling",
+            "Root canal treatment",
+            "Periodontal disease treatment",
+            "Disinfection of removable prostheses"
+          ]
+        },
+        "disinfection": {
+          "title": "Dental office disinfection",
+          "text": "Ozonation allows rapid office disinfection during technical breaks between patients. In 15-20 minutes, ozone destroys pathogens on all surfaces and in the air.",
+          "table": {
+            "caption": "Dental office ozonation modes",
+            "headers": ["Treatment type", "Concentration", "Time", "Frequency"],
+            "rows": [
+              ["Between patients", "5-10 mg/m³", "15-20 min", "After each visit"],
+              ["Lunch break", "10-15 mg/m³", "30-40 min", "Daily"],
+              ["End of workday", "15-20 mg/m³", "60 min", "Daily"],
+              ["After infectious patient", "20-30 mg/m³", "60-90 min", "As indicated"]
+            ]
+          },
+          "highlight": "Ozone penetrates hard-to-reach equipment areas: hoses, handpieces, water supply systems — places where traditional wiping is impossible."
+        },
+        "ozonotherapy": {
+          "title": "Ozone therapy in dentistry",
+          "text": "Therapeutic use of ozone in dentistry is one of the most developed fields of ozone therapy. Ozone has pronounced bactericidal, antiviral and fungicidal effects.",
+          "features": [
+            {
+              "title": "Caries treatment",
+              "description": "At early stages, ozone destroys bacteria and stops caries development without drilling"
+            },
+            {
+              "title": "Canal treatment",
+              "description": "Ozonated water and gas for root canal disinfection before filling"
+            },
+            {
+              "title": "Periodontitis treatment",
+              "description": "Ozone treatment of periodontal pockets reduces inflammation and destroys pathogens"
+            },
+            {
+              "title": "Wound healing",
+              "description": "Accelerated healing after tooth extraction, implantation, surgical interventions"
+            }
+          ],
+          "table": {
+            "caption": "Ozone use in therapeutic dentistry",
+            "headers": ["Indication", "Method", "Effect"],
+            "rows": [
+              ["Initial caries", "Gas 40-60 sec on lesion", "Remineralization, process stop"],
+              ["Deep caries", "Gas + ozonated water", "Cavity sterilization before filling"],
+              ["Pulpitis", "Ozonated water in canal", "Inflammation relief"],
+              ["Periodontitis", "Gas in pockets + irrigation", "80% reduction in bleeding"],
+              ["Stomatitis", "Ozonated water, rinses", "Healing in 3-5 days"]
+            ]
+          }
+        },
+        "waterSystems": {
+          "title": "Water supply system treatment",
+          "text": "Biofilms — bacterial colonies including Legionella and Pseudomonas — form in dental unit pipelines. Ozonated water effectively destroys biofilms and disinfects the system.",
+          "items": [
+            "Flushing ozonated water (2-3 mg/L) through system at end of day",
+            "Biofilm destruction on inner pipeline surfaces",
+            "Tank and filter disinfection",
+            "Improved water quality for irrigation"
+          ]
+        },
+        "benefits": {
+          "title": "Benefits for dental clinics",
+          "items": [
+            "Rapid office turnover — disinfection during breaks",
+            "Cross-infection prevention between patients",
+            "No chemical odors after treatment — patient comfort",
+            "Additional service — ozone therapy as modern treatment method",
+            "Compliance with dental clinic sanitary requirements",
+            "Reduced costs for disinfectants"
+          ],
+          "highlight": "Patients note pleasant office atmosphere after ozonation — fresh air without specific \"hospital\" odors. This increases loyalty and visit comfort."
+        }
+      }
     },
     "rehabilitation": {
-      "title": "Rehabilitation centers",
-      "shortDesc": "Ozone therapy and sanitary treatment",
-      "content": "Rehabilitation centers and sanatoriums use ozone in two ways: ozone therapy as a treatment and recovery method, and room ozonation to maintain sanitary standards.\n\nOzone therapy is used for musculoskeletal, cardiovascular and skin conditions. Methods include: ozone baths, subcutaneous injections, autohemotherapy with ozone, rectal insufflations.\n\nOzonation of wards and procedure rooms is especially important in centers where elderly patients and people with weakened immunity undergo rehabilitation. Ozone reduces the risk of respiratory infection spread between patients.\n\nPools, saunas and spa areas in rehabilitation centers are also treated with ozone. Pool water ozonation reduces chlorine demand, making procedures more comfortable for patients with sensitive skin.",
+      "title": "Reabilitatsiya markazlari",
+      "shortDesc": "Ozonoterapiya va sanitariya ishlov berish",
+      "heroText": "Sanatoriyalar va reabilitatsiya markazlarida ozonning keng qo'llanilishi: sog'liqni tiklash uchun ozonoterapiya, basseyn va SPA ozonlash, palatalar va protsedura xonalarini dezinfeksiya qilish.",
+      "content": "Reabilitatsiya markazlari va sanatoriyalar ozondan ikki yo'nalishda foydalanadi: ozonoterapiya davolash va tiklash usuli sifatida va sanitariya standartlarini saqlash uchun xonalarni ozonlash.\n\nOzonoterapiya muskuloskelet, yurak-qon tomir va teri kasalliklarini davolash uchun qo'llaniladi. Usullar quyidagilarni o'z ichiga oladi: ozon vannalari, teri ostiga in'ektsiyalar, ozon bilan avtogemoterapiya, rektal insufflyatsiyalar.\n\nPalatalar va protsedura xonalarini ozonlash qariyalar va immuniteti zaif bo'lgan odamlar reabilitatsiyadan o'tadigan markazlarda ayniqsa muhimdir. Ozon bemorlar orasida nafas olish infektsiyalarining tarqalish xavfini kamaytiradi.\n\nReabilitatsiya markazlaridagi basseynlar, saunalar va SPA zonalari ham ozon bilan ishlov beriladi. Basseyn suvini ozonlash xlorga bo'lgan ehtiyojni kamaytiradi, bu esa sezgir teriga ega bemorlar uchun protseduralarni qulayroq qiladi.",
       "benefits": [
-        "Ozone therapy as treatment",
-        "Disinfection of wards and procedure rooms",
-        "Protection for immunocompromised patients",
-        "Pool and spa ozonation",
-        "Reduced chlorine in water",
-        "Integrated rehabilitation approach"
-      ]
+        "Davolash usuli sifatida ozonoterapiya",
+        "Palatalar va protsedura xonalarini dezinfeksiya qilish",
+        "Immuniteti zaif bemorlarni himoya qilish",
+        "Basseyn va SPA ni ozonlash",
+        "Suvdagi xlor miqyorini kamaytirish",
+        "Reabilitatsiyaga integratsiyalashgan yondashuv"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "100+",
+          "label": "Ko'rsatmalar",
+          "description": "Ozonoterapiya qo'llash uchun"
+        },
+        "stat2": {
+          "value": "70%",
+          "label": "Kam xlor",
+          "description": "Ozonlash bilan basseynlarda"
+        },
+        "stat3": {
+          "value": "99,9%",
+          "label": "Patogenlar",
+          "description": "Suvda yo'q qilinadi"
+        },
+        "stat4": {
+          "value": "Qulaylik",
+          "label": "Bemorlar",
+          "description": "Xlor hidisiz yumshoq suv"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Reabilitatsiya markazlari va sanatoriyalar noyob talablarga ega: bir tomondan, yuqori sanitariya standartlarini saqlash kerak, ikkinchi tomondan — bemorlarning tiklanishi uchun qulay muhit yaratish kerak. Ozon ikkala vazifani ham hal qiladi.",
+          "text2": "Ozonoterapiya — keng ko'lamli kasalliklarni davolash uchun qo'llaniladigan fizioterapiyaning tan olingan yo'nalishi. Shu bilan birga, ozon xonalarni dezinfeksiya qilish va basseyn suvini tayyorlash uchun ishlatiladi, bu uni reabilitatsiya muassasalari uchun universal yechimga aylantiradi."
+        },
+        "highlight1": {
+          "title": "Keng qamrovli yondashuv:",
+          "text": "Bir markazda ozon davolovchi protseduralar (ozonoterapiya), basseyn suvini tozalash (suvni ozonlash) va xonalarni dezinfeksiya qilish (havoni ozonlash) uchun qo'llanilishi mumkin. Bu xarajatlarni optimallashtiradi va logistikani soddalashtiradi."
+        },
+        "ozonotherapy": {
+          "title": "Reabilitatsiyada ozonoterapiya",
+          "text": "Ozonoterapiya — tibbiy ozonning davolovchi xususiyatlariga asoslangan fizioterapiya usuli. Shikastlanishlar, operatsiyalardan keyin tiklanish va surunkali kasalliklar uchun qo'llaniladi.",
+          "features": [
+            {
+              "title": "Ozon vannalari",
+              "description": "Ozonga to'yingan suv umumiy mustahkamlovchi ta'sir ko'rsatadi, qon aylanishini yaxshilaydi, mushaklarning kuchlanishini kamaytiradi"
+            },
+            {
+              "title": "Teri ostiga in'ektsiyalar",
+              "description": "Bog'lanish kasalliklarida og'riq va yallig'lanishni kamaytirish uchun trigger nuqtalariga ozon-kislorod aralashmasini kiritish"
+            },
+            {
+              "title": "Avtogemoterapiya",
+              "description": "Bemorning qonini ozon bilan boyitish va keyin qayta kiritish — tizimli sog'liqni saqlash ta'siri"
+            },
+            {
+              "title": "Rektal insufflyatsiyalar",
+              "description": "Oshqozon-ichak trakti kasalliklarini davolash va organizmning umumiy sog'lomlashtirish uchun ozon-kislorod aralashmasini kiritish"
+            }
+          ]
+        },
+        "methods": {
+          "title": "Ozonoterapiya usullari va ko'rsatmalar",
+          "text": "Ko'rsatmalar va bemor holatiga qarab turli xil ozonoterapiya usullari qo'llaniladi:",
+          "table": {
+            "caption": "Reabilitatsiyada ozonoterapiya usullari",
+            "headers": ["Usul", "Ko'rsatmalar", "Davolash kursi"],
+            "rows": [
+              ["Ozon vannalari", "Artrit, artroz, varikoz, tsellyulit", "10-15 protsedura"],
+              ["Teri ostiga in'ektsiyalar", "Bog'lanish og'rig'i, miofatsial sindrom", "5-10 protsedura"],
+              ["Avtogemoterapiya (BAXT)", "Immunitet tanqisligi, surunkali charchoq, diabet", "8-12 protsedura"],
+              ["Rektal insufflyatsiyalar", "Kolit, disbioz, prostatit", "10-15 protsedura"],
+              ["Vena ichiga infuziyalar", "Ishemiya, trofik yaralar, sepsis", "5-8 protsedura"]
+            ]
+          }
+        },
+        "spa": {
+          "title": "Ozon bilan SPA protseduralari",
+          "text": "Ozon reabilitatsiya markazlarining SPA zonalarida sog'liqni saqlash protseduralari uchun keng qo'llaniladi:",
+          "steps": [
+            {
+              "title": "Ozon kapsulalari",
+              "description": "Bemor ozonlangan havoga ega kapsulaga joylashtiriladi. Ozon teri orqali o'tib, mikrotsirkulyatsiyani yaxshilaydi va to'qimalarni kislorod bilan to'ydiradi."
+            },
+            {
+              "title": "Ozonlangan suv bilan gidromassaj",
+              "description": "Gidromassaj vannasidagi ozonlangan suv antiseptik xususiyatga ega va teri regeneratsiyasini rag'batlantiradi."
+            },
+            {
+              "title": "Ozon dush",
+              "description": "Tanni mayda disperslangan ozonlangan suv bilan purkash. Terini tonuslaydi, dermatologik muammolarda uning holatini yaxshilaydi."
+            },
+            {
+              "title": "Ozonlangan o'rashlar",
+              "description": "Ozonlangan moy yoki krem qo'llash va keyin o'rash. Tana konturini tuzatish va tsellyulitni davolash uchun qo'llaniladi."
+            }
+          ],
+          "highlight": "Ozon bilan SPA protseduralari boshqa reabilitatsiya usullari bilan birgalikda ayniqsa samarali: massaj, fizioterapiya, davolovchi jismoniy mashqlar. Keng qamrovli yondashuv tiklanishni tezlashtiradi."
+        },
+        "pools": {
+          "title": "Basseynlarni ozonlash",
+          "text": "Reabilitatsiya markazlaridagi basseynlar suvni tayyorlashga maxsus yondashuvni talab qiladi. Ozonlash xlor miqyorini kamaytirish va bemorlar uchun qulay sharoitlar yaratish imkonini beradi:",
+          "items": [
+            "Xlor konsentratsiyasini 60-70% ga kamaytirish — teri va ko'zning minimal qichishishi",
+            "Xlor hidining yo'qligi — nafas olish kasalliklariga ega bemorlar uchun qulaylik",
+            "Xlorga chidamli patogenlarni yo'q qilish: kriptosporidiyalar, lyambliyalar",
+            "Xloraminlarni parchalash — shilliq qavatning qichishishining asosiy sababi",
+            "Suvning shaffofligini yaxshilash — estetik qulaylik"
+          ],
+          "table": {
+            "caption": "Basseynlarni ozonlash parametrlari",
+            "headers": ["Parametr", "Ozon + xlor", "Faqat xlor"],
+            "rows": [
+              ["Xlor konsentratsiyasi", "0,3-0,5 mg/l", "1,0-1,5 mg/l"],
+              ["Bog'langan xlor (xloraminlar)", "<0,2 mg/l", "1,0 mg/l gacha"],
+              ["Suvning shaffofligi", "Kristall aniq", "Yaxshi"]
+            ]
+          }
+        },
+        "disinfection": {
+          "title": "Xonalarni dezinfeksiya qilish",
+          "text": "Palatalar va protsedura xonalarini ozonlash reabilitatsiya markazida sanitariya rejimining muhim tarkibiy qismidir:",
+          "items": [
+            "Bemorlar o'rtasida palatalarni dezinfeksiya qilish — 40-60 daqiqada to'liq ishlov berish",
+            "Protsedura xonalarini ishlov berish — o'zaro ifloslanishni bartaraf etish",
+            "Massaj stollari, trenajorlar, fizioterapiya uskunalarini ozonlash",
+            "Xonalardagi hidlarni bartaraf etish — kimyoviy xushbo'y hidlarsiz yangi havo",
+            "Ventilyatsiyani dezinfeksiya qilish — nafas olish infektsiyalarining tarqalish xavfini kamaytirish"
+          ],
+          "warning": "Xonalarni ozonlash paytida bemorlar va xodimlar ishlov berilayotgan zonani tark etishlari kerak. Ishlov berishdan keyin ozon konsentratsiyasi PDK (0,1 mg/m³) dan pastga tushguncha ventilyatsiya talab qilinadi."
+        },
+        "benefits": {
+          "title": "Reabilitatsiya markazi uchun ozonning afzalliklari",
+          "features": [
+            {
+              "title": "Keng qamrovli yechim",
+              "description": "Terapiya, suvni tayyorlash va dezinfeksiya qilish uchun bitta texnologik yondashuv — xarajatlarni optimallashtirish va xodimlarni o'qitishni soddalashtirish"
+            },
+            {
+              "title": "Bemorlar qulayligi",
+              "description": "Xlor hidisiz yumshoq suv, toza havo, yoqimli muhit — ijobiy qolish tajribasi"
+            },
+            {
+              "title": "Tibbiy samaradorlik",
+              "description": "Ozonoterapiya — keng ko'lamli ko'rsatmalar va minimal kontraindikatsiyalar bilan isbotlangan davolash usuli"
+            },
+            {
+              "title": "Ekologik tozalik",
+              "description": "Ozon kimyoviy qoldiqlarsiz kislorodga parchalanadi — bemorlar va atrof-muhit uchun xavfsiz"
+            }
+          ]
+        }
+      },
+      "cta": {
+        "title": "Markazingizda ozonni joriy qilishni xohlaysizmi?",
+        "text": "Ozonoterapiya, suvni tayyorlash va dezinfeksiya qilish uchun keng qamrovli yechim oling"
+      }
     },
     "ambulances": {
       "title": "Ambulances",

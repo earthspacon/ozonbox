@@ -1,14 +1,14 @@
-import Image from 'next/image'
-import { useTranslate } from '@tolgee/react'
+import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
-import { AppLink } from '@/shared/ui/app-link'
+import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
 import {
+  ArticleHero,
   ArticleSection,
   BulletList,
   ComparisonTable,
+  CTASection,
   DataTable,
   FeatureCard,
   FeatureGrid,
@@ -18,284 +18,207 @@ import {
   StatCard,
   StatGrid,
 } from '@/shared/ui/article-components'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
+import { IconCheck } from '@/shared/ui/icons'
 import { Seo } from '@/shared/ui/seo'
 
-export function LaundriesPage() {
+interface LaundriesPageProps {
+  staticData: TolgeeStaticDataProp
+  lang: TLocale
+}
+
+interface SubcategoryData {
+  title: string
+  shortDesc: string
+  stats?: {
+    [key: string]: {
+      value: string
+      label: string
+      description: string
+    }
+  }
+  sections?: {
+    [key: string]: {
+      title?: string
+      text?: string
+      text2?: string
+      desc?: string
+      comparisonTitle?: string
+      headers?: string[]
+      rows?: Array<{
+        parameter: string
+        value1: string
+        value2: string
+        value3?: string
+      }>
+      items?: string[] | Array<{ title: string; description: string }>
+      steps?: Array<{ title: string; description: string }>
+      tableHeaders?: string[]
+      tableRows?: string[][]
+      tableCaption?: string
+      highlightTitle?: string
+      highlightText?: string
+      intro?: string
+    }
+  }
+}
+
+export function LaundriesPage({ staticData, lang }: LaundriesPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('horeca')
+
+  // get category data from staticData
+  const categoryData = (staticData as Record<string, { subcategories?: { laundries?: SubcategoryData } }>)[
+    `${lang}:${ns}`
+  ]
+  const data = categoryData?.subcategories?.laundries
+
+  const breadcrumbs = [
+    { label: t('nav.applications', { ns: NAMESPACES.common }), href: '/applications' },
+    { label: t('title', { ns }), href: '/applications/horeca' },
+    { label: t('subcategories.laundries.title', { ns }) },
+  ]
 
   return (
     <Layout>
       <Seo title={t('subcategories.laundries.title', { ns })} description={t('subcategories.laundries.shortDesc', { ns })} />
-      {/* Breadcrumbs */}
-      <div className="bg-bg-light border-border border-b">
-        <div className="container py-4">
-          <nav className="flex items-center gap-2 text-sm">
-            <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
-              {t('nav.applications', { ns: NAMESPACES.common })}
-            </AppLink>
-            <span className="text-text-light">/</span>
-            <AppLink
-              href="/applications/horeca"
-              className="text-text-secondary hover:text-primary transition-colors"
-            >
-              {t('title', { ns })}
-            </AppLink>
-            <span className="text-text-light">/</span>
-            <span className="text-text-primary font-medium">{t('subcategories.laundries.title', { ns })}</span>
-          </nav>
-        </div>
-      </div>
 
-      {/* Hero Section */}
-      <section className="relative overflow-hidden py-16 md:py-24">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="https://images.unsplash.com/photo-1545173168-9f1947eebb7f?w=1920&q=80"
-            alt={t('subcategories.laundries.title', { ns })}
-            fill
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
-        </div>
-        <div className="relative z-10 container">
-          <AppLink
-            href="/applications/horeca"
-            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
-          >
-            <IconArrowLeft style={{ width: 20, height: 20 }} />
-            <span>{t('title', { ns })}</span>
-          </AppLink>
-          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
-            {t('subcategories.laundries.title', { ns })}
-          </h1>
-          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
-            {t('subcategories.laundries.shortDesc', { ns })}
-          </p>
-        </div>
-      </section>
+      <ArticleHero
+        title={t('subcategories.laundries.title', { ns })}
+        description={t('subcategories.laundries.shortDesc', { ns })}
+        image="https://images.unsplash.com/photo-1545173168-9f1947eebb7f?w=1920&q=80"
+        imageAlt={t('subcategories.laundries.title', { ns })}
+        breadcrumbs={breadcrumbs}
+        backLink={{
+          href: '/applications/horeca',
+          label: t('title', { ns }),
+        }}
+      />
 
       {/* Key Stats */}
       <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value="70-100%"
-              label="Экономия на нагреве"
-              description="Стирка в холодной воде"
+              value={data?.stats?.energySaving?.value ?? ''}
+              label={data?.stats?.energySaving?.label ?? ''}
+              description={data?.stats?.energySaving?.description ?? ''}
               variant="primary"
             />
             <StatCard
-              value="30-50%"
-              label="Экономия химии"
-              description="Меньше порошка и отбеливателя"
+              value={data?.stats?.chemistrySaving?.value ?? ''}
+              label={data?.stats?.chemistrySaving?.label ?? ''}
+              description={data?.stats?.chemistrySaving?.description ?? ''}
               variant="accent"
             />
             <StatCard
-              value="+30%"
-              label="Срок службы белья"
-              description="Без агрессивной химии и нагрева"
+              value={data?.stats?.linenLife?.value ?? ''}
+              label={data?.stats?.linenLife?.label ?? ''}
+              description={data?.stats?.linenLife?.description ?? ''}
               variant="primary"
             />
-            <StatCard value="99,9%" label="Дезинфекция" description="Даже в холодной воде" variant="accent" />
+            <StatCard
+              value={data?.stats?.disinfection?.value ?? ''}
+              label={data?.stats?.disinfection?.label ?? ''}
+              description={data?.stats?.disinfection?.description ?? ''}
+              variant="accent"
+            />
           </StatGrid>
         </div>
       </section>
 
       {/* Main Content */}
-      <article className="py-12 md:py-16">
+      <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>
-              Озонирование воды в прачечных — прогрессивная технология, которая позволяет существенно снизить затраты на
-              порошки, горячую воду, уменьшить износ белья и время стирки. Озон растворяется в воде и применяется вместо
-              части химических средств, обеспечивая превосходное качество очистки.
-            </Paragraph>
-            <Paragraph>
-              Это фундаментальное нововведение в подходе к стирке: вы заменяете агрессивную химию на то, что работает
-              гораздо лучше. Настолько лучше, что можно также сократить расход воды и времени, достигая при этом
-              превосходных результатов.
-            </Paragraph>
+            <Paragraph>{data?.sections?.intro?.text}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.text2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="success">
-            <strong>Принцип работы:</strong> Озон — мощный окислитель. С небольшим количеством щёлочи, холодной воды и
-            моющего средства можно достичь очистки и яркости, равной или большей, чем с хлором и горячей водой.
+            <strong>{data?.sections?.highlight1?.title}</strong> {data?.sections?.highlight1?.text}
           </HighlightBox>
 
-          <ArticleSection title="Экономические эффекты">
+          <ArticleSection title={data?.sections?.economicEffects?.title}>
             <ComparisonTable
-              title="Сравнение традиционной и озоновой стирки"
-              headers={['Параметр', 'Озоновая стирка', 'Традиционная']}
-              rows={[
-                { parameter: 'Температура воды', value1: 'Холодная (15-25°C)', value2: 'Горячая (60-90°C)' },
-                { parameter: 'Расход электроэнергии', value1: 'На 70-100% меньше', value2: 'Базовый' },
-                { parameter: 'Расход моющих средств', value1: 'На 30-50% меньше', value2: 'Базовый' },
-                { parameter: 'Расход воды', value1: 'На 20-40% меньше', value2: 'Базовый' },
-                { parameter: 'Износ белья', value1: 'Минимальный', value2: 'Повышенный' },
-                { parameter: 'Дезинфекция', value1: '99,9%', value2: '95-98%' },
-              ]}
+              title={data?.sections?.economicEffects?.comparisonTitle}
+              headers={data?.sections?.economicEffects?.headers as [string, string, string] | [string, string, string, string]}
+              rows={data?.sections?.economicEffects?.rows as Array<{
+                parameter: string
+                value1: string
+                value2: string
+                value3?: string
+              }>}
             />
           </ArticleSection>
 
-          <ArticleSection title="Почему холодная вода эффективнее">
-            <Paragraph>
-              Качество стирки зависит от 4 факторов: температуры воды, химических веществ, времени стирки и
-              механического воздействия. Используя озон, можно заменить химию и температуру на более эффективное
-              решение.
-            </Paragraph>
-            <BulletList
-              items={[
-                'Озон создаёт гидроксильные радикалы (OH) при pH 8 в холодной воде — те же, что и при высоком pH с горячей водой',
-                'Чем холоднее вода, тем стабильнее озон и тем дольше он работает',
-                'При температуре выше 95°C озон теряет эффективность из-за ускоренного распада',
-                'Холодная вода не повреждает волокна ткани — бельё служит дольше',
-                'Отсутствие хлорного отбеливателя с горячей водой предотвращает химические реакции, повреждающие ткань',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.coldWater?.title}>
+            <Paragraph>{data?.sections?.coldWater?.text}</Paragraph>
+            <BulletList items={(data?.sections?.coldWater?.items as string[]) ?? []} />
           </ArticleSection>
 
-          <ArticleSection title="Технологический процесс">
+          <ArticleSection title={data?.sections?.process?.title}>
             <DataTable
-              caption="Сравнение компонентов стирки"
-              headers={['Традиционная прачечная', 'Прачечная с озонатором']}
-              rows={[
-                ['Горячая вода', 'Холодная вода'],
-                ['Щёлочь', 'Озон'],
-                ['Моющее средство', 'Моющее средство (меньше)'],
-                ['Кислота (нейтрализация)', '—'],
-                ['Отбеливатель', '—'],
-              ]}
+              caption={data?.sections?.process?.tableCaption}
+              headers={data?.sections?.process?.tableHeaders ?? []}
+              rows={data?.sections?.process?.tableRows ?? []}
             />
-            <Paragraph>
-              Озон самопроизвольно распадается до кислорода и не требует удаления в отличие от традиционных химических
-              веществ. Это позволяет сократить количество полосканий на 20-40%.
-            </Paragraph>
+            <Paragraph>{data?.sections?.process?.text}</Paragraph>
           </ArticleSection>
 
-          <ArticleSection title="Преимущества озонирования в прачечной">
+          <ArticleSection title={data?.sections?.benefits?.title}>
             <FeatureGrid columns={2}>
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Экономия энергии"
-                description="Снижение затрат на подогрев воды на 70-100%. Стирка полностью в холодной воде."
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Улучшенная дезинфекция"
-                description="Озон эффективно уничтожает вирусы и бактерии даже при низкой температуре."
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Мягкое бельё"
-                description="В волокнах не остаются химические вещества. Бельё становится мягче."
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Лучшее отбеливание"
-                description="Сильные окислительные свойства озона обеспечивают яркость без хлора."
-              />
+              {((data?.sections?.benefits?.items as Array<{ title: string; description: string }>) ?? []).map(
+                (item, index) => (
+                  <FeatureCard
+                    key={index}
+                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                    title={item.title}
+                    description={item.description}
+                  />
+                ),
+              )}
             </FeatureGrid>
           </ArticleSection>
 
-          <ArticleSection title="Озоновые шкафы для химчисток">
-            <Paragraph>
-              Для химчисток используются озоновые шкафы — герметичные камеры, заполняемые озоном высокой концентрации.
-              Будучи газом, озон проникает в структуру самых плотных тканей и труднодоступные места.
-            </Paragraph>
-            <ProcessList
-              steps={[
-                {
-                  title: 'Обработка сложных вещей',
-                  description:
-                    'Театральные костюмы, винтаж, меховые шубы, кожаные куртки, мотошлемы, хоккейная форма. Нет механического воздействия и нагрева — минимальный риск повреждения.',
-                },
-                {
-                  title: 'Удаление запахов (дезодорация)',
-                  description:
-                    'Гарь после пожара, въевшийся табачный дым, трупный запах, запахи животных, затхлость. Озон уничтожает причину запаха на молекулярном уровне.',
-                },
-                {
-                  title: 'Дезинфекция',
-                  description:
-                    'Разрушает клеточные мембраны бактерий, оболочки вирусов и споры грибков. Идеально для детских вещей и постельных принадлежностей.',
-                },
-                {
-                  title: 'Монетизация',
-                  description:
-                    'Услуга продаётся как дополнительная опция (upsell) или как отдельный VIP-сервис. Себестоимость цикла минимальна.',
-                },
-              ]}
-            />
+          <ArticleSection title={data?.sections?.ozoneClosets?.title}>
+            <Paragraph>{data?.sections?.ozoneClosets?.desc}</Paragraph>
+            <ProcessList steps={data?.sections?.ozoneClosets?.steps ?? []} />
           </ArticleSection>
 
-          <ArticleSection title="Подбор оборудования">
+          <ArticleSection title={data?.sections?.equipment?.title}>
             <DataTable
-              headers={['Тип прачечной', 'Рекомендуемое оборудование', 'Стоимость']}
-              rows={[
-                ['Небольшая прачечная', 'Озонаторная установка 5 г/час', 'от 250 000 ₽'],
-                ['Гостиничная прачечная', 'Озонаторная установка 10 г/час', 'от 320 000 ₽'],
-                ['Коммерческая прачечная', 'Озонаторная установка 20 г/час', 'от 420 000 ₽'],
-                ['Химчистка (шкаф 700 л)', 'Озоновый шкаф ОЗ-1С', 'от 420 000 ₽'],
-                ['Химчистка (шкаф 1400 л)', 'Озоновый шкаф ОЗ-2С', 'от 500 000 ₽'],
-              ]}
+              headers={data?.sections?.equipment?.tableHeaders ?? []}
+              rows={data?.sections?.equipment?.tableRows ?? []}
             />
 
             <HighlightBox variant="info">
-              <strong>Важно:</strong> Расчёт производительности озонатора зависит от объёма загрязнений, качества воды и
-              характеристик оборудования. Для точного подбора может потребоваться пилотный проект.
+              <strong>{data?.sections?.equipment?.highlightTitle}</strong> {data?.sections?.equipment?.highlightText}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Ограничения технологии">
-            <Paragraph>
-              В некоторых случаях всё равно придётся использовать небольшое количество горячей воды. Холодная вода не
-              подходит для работы с жирными пятнами (помада, крем для обуви, чернила) из-за физической природы жира при
-              низких температурах.
-            </Paragraph>
-            <BulletList
-              items={[
-                'Сильно загрязнённое бельё с жирными пятнами требует отдельной программы с горячей заливкой',
-                'Такие загрузки обычно составляют очень небольшой процент от общего объёма',
-                'Для остальных 90%+ белья озоновая стирка в холодной воде — оптимальное решение',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.limitations?.title}>
+            <Paragraph>{data?.sections?.limitations?.text}</Paragraph>
+            <BulletList items={(data?.sections?.limitations?.items as string[]) ?? []} />
           </ArticleSection>
 
-          <ArticleSection title="ROI и окупаемость">
-            <BulletList
-              items={[
-                'Снижение счетов за электроэнергию на 50-70% (нагрев воды — основная статья расходов)',
-                'Экономия на моющих средствах и отбеливателях — 30-50%',
-                'Продление срока службы белья на 30%+ (меньше замен)',
-                'Сокращение времени стирки — больше циклов в день',
-                'Типичный срок окупаемости: 12-18 месяцев',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.roi?.title}>
+            <BulletList items={(data?.sections?.roi?.items as string[]) ?? []} />
           </ArticleSection>
         </div>
       </article>
 
-      {/* CTA Section */}
-      <section className="cta">
-        <div className="container">
-          <h2 className="cta__title">{t('cta.applications.title', { ns: NAMESPACES.common })}</h2>
-          <p className="cta__text">{t('cta.applications.text', { ns: NAMESPACES.common })}</p>
-          <div className="cta__actions">
-            <AppLink href="/contacts" className="btn btn--white btn--large">
-              {t('hero.getConsultation', { ns: NAMESPACES.common })}
-            </AppLink>
-            <a
-              href="tel:+78001234567"
-              className="btn btn--secondary btn--large"
-              style={{ borderColor: 'white', color: 'white' }}
-            >
-              {t('header.phone', { ns: NAMESPACES.common })}
-            </a>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        title={t('cta.applications.title', { ns: NAMESPACES.common })}
+        description={t('cta.applications.text', { ns: NAMESPACES.common })}
+        primaryButton={{
+          label: t('hero.getConsultation', { ns: NAMESPACES.common }),
+          href: '/contacts',
+        }}
+        secondaryButton={{
+          label: t('header.phone', { ns: NAMESPACES.common }),
+          href: 'tel:+78001234567',
+        }}
+      />
     </Layout>
   )
 }

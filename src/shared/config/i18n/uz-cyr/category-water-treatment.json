@@ -23,7 +23,286 @@
         "disinfectionRate": "99.99%",
         "phRange": "6.5-8.5"
       },
-      "regulations": ["Drinking water standards", "Bottled water standards", "Water quality norms"]
+      "regulations": ["Drinking water standards", "Bottled water standards", "Water quality norms"],
+      "stats": {
+        "disinfection": {
+          "value": "99.99%",
+          "label": "Дезинфекция",
+          "description": "Патогенларни йўқ қилиш"
+        },
+        "byproducts": {
+          "value": "0",
+          "label": "Ён маҳсулотлар",
+          "description": "Канцероген бирикмалар"
+        },
+        "chlorine": {
+          "value": "3000×",
+          "label": "Хлордан кучлироқ",
+          "description": "Бактерицид фаоллик"
+        },
+        "decay": {
+          "value": "O₂",
+          "label": "Парчаланиш",
+          "description": "Фақат тоза кислород"
+        }
+      },
+      "content": {
+        "intro1": "Ичимлик сувини озоңлаш ривожланган мамлакатларда сифат стандартидир. Озон барча турдаги патогенларни йўқ қилади: бактериялар, вируслар, споралар ва протозоонлар цистлари 99.99% самарадорлик билан. Хлорлашдан фарқли ўлароқ, озон канцероген тригалометанлар ва бошқа хавфли ён маҳсулотларни ҳосил қилмайди.",
+        "intro2": "Озон сувни тайёрлашда қўлланиладиган энг кучли оксидловчидир. Бактерицид таъсири бўйича хлорни 3000 марта ошади, қолган озон эса 20-30 дақиқада кислородга парчаланади ва сувда кимёвий из қолдирмайди."
+      },
+      "highlightBox": {
+        "regulation": {
+          "label": "Ичимлик суви стандартлари:",
+          "text": "Хлорлаш ён маҳсулотларининг (галогенли бирикмалар) хавфини ҳисобга олган ҳолда, алтернатив дезинфекция усулларига устуворлик берилиши керак. Озон хавфсизроқ алтернатива сифатида расман тавсия этилади."
+        }
+      },
+      "sections": {
+        "comparison": {
+          "title": "Сувни дезинфекция қилиш усулларини солиштириш",
+          "headers": {
+            "parameter": "Параметр",
+            "ozonation": "Озоңлаш",
+            "chlorination": "Хлорлаш"
+          },
+          "rows": {
+            "bacteria": {
+              "parameter": "Бактерияларга қарши самарадорлик",
+              "value1": "99.99%",
+              "value2": "99.5%"
+            },
+            "viruses": {
+              "parameter": "Вирусларга қарши самарадорлик",
+              "value1": "99.99%",
+              "value2": "90-95%"
+            },
+            "cysts": {
+              "parameter": "Цистларга қарши самарадорлик",
+              "value1": "99.9%",
+              "value2": "< 50%"
+            },
+            "time": {
+              "parameter": "Дезинфекция вақти",
+              "value1": "2-10 дақиқа",
+              "value2": "30-60 дақиқа"
+            },
+            "byproducts": {
+              "parameter": "Ён маҳсулотлар",
+              "value1": "Йўқ (O₂)",
+              "value2": "Тригалометанлар (канцерогенлар)"
+            },
+            "taste": {
+              "parameter": "Таъмга таъсири",
+              "value1": "Яхшилайди",
+              "value2": "Хлор ҳид"
+            },
+            "color": {
+              "parameter": "Рангга таъсири",
+              "value1": "Камайтиради",
+              "value2": "Таъсир қилмайди"
+            },
+            "prolonged": {
+              "parameter": "Узоқ муддатли таъсир",
+              "value1": "Йўқ",
+              "value2": "Ҳа"
+            }
+          }
+        },
+        "technicalParams": {
+          "title": "Озоңлаш техник параметрлари",
+          "caption": "Ичимлик суви учун тавсия этилган параметрлар",
+          "headers": {
+            "parameter": "Параметр",
+            "value": "Қиймат",
+            "document": "Норматив ҳужжат"
+          },
+          "rows": {
+            "ozoneDose": {
+              "parameter": "Озон дозаси",
+              "value": "1-3 mg/L",
+              "document": "Сув сифатига қараб"
+            },
+            "residualOzone": {
+              "parameter": "Қолган озон",
+              "value": "0.1-0.3 mg/L",
+              "document": "Ичимлик суви стандартлари"
+            },
+            "contactTime": {
+              "parameter": "Контакт вақти",
+              "value": "4-10 дақиқа",
+              "document": "10-20°C ҳароратда"
+            },
+            "ph": {
+              "parameter": "Сув pH",
+              "value": "6.5-8.5",
+              "document": "Оптимал диапазон"
+            },
+            "temperature": {
+              "parameter": "Сув ҳарорати",
+              "value": "4-25°C",
+              "document": "Самарали диапазон"
+            },
+            "turbidity": {
+              "parameter": "Манба сувининг лойқалиги",
+              "value": "< 2 NTU",
+              "document": "Тавсия"
+            }
+          },
+          "highlightBox": {
+            "label": "Муҳим:",
+            "text": "1-3 mg/L озон дозаси тўлиқ сув дезинфекциясини таъминлайди. Юқори органик юкда, органик бирикмаларни оксидлаш учун доза 5 mg/L гача оширилади."
+          }
+        },
+        "process": {
+          "title": "Озоңлаш жараёни",
+          "steps": {
+            "preTreatment": {
+              "title": "Олдиндан тозалаш",
+              "description": "Механик аралашмалар ва суюқ моддаларни олиб ташлаш. Самарали озоңлаш учун сувнинг лойқалиги < 2 NTU бўлиши керак."
+            },
+            "generation": {
+              "title": "Озон ишлаб чиқариш",
+              "description": "Тозаланган ҳаво ёки кислороддан корона разряд усули билан озон олиш. Газдаги озон концентратсияси: 8-12% (кислороддан) ёки 2-3% (ҳаводан)."
+            },
+            "dissolution": {
+              "title": "Озон эритish",
+              "description": "Озон-ҳаво аралашмасини эжектор ёки барботер орқали сув билан аралаштириш. Эритish самарадорлиги: 85-95%."
+            },
+            "contactChamber": {
+              "title": "Контакт камераси",
+              "description": "Оксидланиш ва дезинфекция реакцияларини якунлаш учун контакт камерасида сувни 4-10 дақиқа ушлаб туриш."
+            },
+            "degassing": {
+              "title": "Дегазатсия",
+              "description": "Тарқатиш тармогига узатишдан олдин сувдан қолган озонни олиб ташлаш. Қолган концентратсия: < 0.1 mg/L."
+            },
+            "postChlorination": {
+              "title": "Пост-хлорлаш (ихтиёрий)",
+              "description": "Тарқатиш тармогида узоқ муддатли таъсир учун минимал хлор дозаси (0.3-0.5 mg/L) қўшиш."
+            }
+          }
+        },
+        "pathogens": {
+          "title": "Озон ичимлик сувида нимани йўқ қилади",
+          "items": {
+            "bacteria": "Бактериялар: E.coli, сальмонелла, холера вибриони, легионелла — 2 дақиқада 99.99%",
+            "viruses": "Вируслар: гепатит A, ротавируслар, энтеровируслар, норовируслар — 4 дақиқада 99.99%",
+            "protozoa": "Протозоонлар: гиардия, криптоспоридиум (хлорга чидамли!) — 5 дақиқада 99.9%",
+            "spores": "Бактерия споралари: қутуриш, клостридиялар — 10 дақиқада 99%",
+            "organic": "Органик ифлосланишлар: феноллар, пестицидлар, нефт маҳсулотлари — CO₂ ва H₂O га оксидланиш",
+            "metals": "Темир ва марганец: кейинги фильтратсия учун эримайдиган шаклларга оксидланиш"
+          }
+        },
+        "effectiveness": {
+          "title": "Дезинфекция самарадорлиги",
+          "caption": "Патогенларни инактиватсия қилиш вақти (CT қиймати, mg×min/L)",
+          "headers": {
+            "pathogen": "Патоген",
+            "ozone": "Озон",
+            "chlorine": "Хлор",
+            "uv": "UV (mJ/cm²)"
+          },
+          "rows": {
+            "eColi": {
+              "pathogen": "E. coli",
+              "ozone": "0.02",
+              "chlorine": "0.4",
+              "uv": "7"
+            },
+            "polio": {
+              "pathogen": "Полиомиелит вируси",
+              "ozone": "0.3",
+              "chlorine": "1.7",
+              "uv": "30"
+            },
+            "rotavirus": {
+              "pathogen": "Ротавирус",
+              "ozone": "0.4",
+              "chlorine": "3.5",
+              "uv": "40"
+            },
+            "giardia": {
+              "pathogen": "Гиардия (цистлар)",
+              "ozone": "0.6",
+              "chlorine": "50",
+              "uv": "80"
+            },
+            "cryptosporidium": {
+              "pathogen": "Криптоспоридиум",
+              "ozone": "3.0",
+              "chlorine": "> 7200",
+              "uv": "12"
+            }
+          },
+          "highlightBox": "Озон айниқса криптоспоридиумга қарши самарали — диареяга олиб келадиган паразитлар. Улар деярли хлорлашга чидамли (инактиватсия учун 7200 mg×min/L дан кўп хлор керак), лекин озонга заиф."
+        },
+        "benefits": {
+          "title": "Ичимлик сувини озоңлашнинг афзалликлари",
+          "items": {
+            "safety": {
+              "title": "Хавфсизлик",
+              "description": "Канцероген ён маҳсулотларни ҳосил қилмайди. 20-30 дақиқада кислородга парчаланади."
+            },
+            "effectiveness": {
+              "title": "Самарадорлик",
+              "description": "Хлорга чидамли криптоспоридиумни ўз ичига олган ҳолда патогенларнинг 99.99% ни йўқ қилади."
+            },
+            "quality": {
+              "title": "Сифатни яхшилаш",
+              "description": "Ёқимсиз таъм ва ҳидни бартараф этади, сув рангini яхшилайди."
+            },
+            "compliance": {
+              "title": "Нормативларга мувофиқлик",
+              "description": "Ичимлик суви стандартлари ва халқаро стандартларга тўлиқ мос келади."
+            }
+          }
+        },
+        "productivity": {
+          "title": "Озоңлаш тизимларининг унумдорлиги",
+          "caption": "Сувни тайёрлаш учун тавсия этилган ускуналар",
+          "headers": {
+            "capacity": "Станция қуввати",
+            "power": "Озонатор қуввати",
+            "chamber": "Контакт камераси"
+          },
+          "rows": {
+            "row1": {
+              "capacity": "10 m³/h",
+              "power": "20-30 g/h",
+              "chamber": "1-2 m³"
+            },
+            "row2": {
+              "capacity": "50 m³/h",
+              "power": "100-150 g/h",
+              "chamber": "5-10 m³"
+            },
+            "row3": {
+              "capacity": "100 m³/h",
+              "power": "200-300 g/h",
+              "chamber": "10-20 m³"
+            },
+            "row4": {
+              "capacity": "500 m³/h",
+              "power": "1000-1500 g/h",
+              "chamber": "50-100 m³"
+            },
+            "row5": {
+              "capacity": "1000 m³/h",
+              "power": "2000-3000 g/h",
+              "chamber": "100-200 m³"
+            }
+          }
+        },
+        "regulations": {
+          "title": "Норматив базаси",
+          "items": {
+            "item1": "Ичимлик суви стандартлари «Ичимлик суви. Сув сифати учун гигиена талаблари»",
+            "item2": "Идишларда сув стандартлари «Ичимлик суви. Идишларда сув учун гигиена талаблари»",
+            "item3": "ГОСТ Р 51232-98 «Ичимлик суви. Ташкилот ва сифат назорати усулларига умумий талаблар»",
+            "item4": "МУК 4.3.2030-05 «Назорат усуллари. Физик омиллар. Озон ва унинг гигиена тартиби»",
+            "item5": "ГН 2.1.5.1315-03 «Сув объектларидаги кимёвий моддаларнинг максимал рухсат этилган концентратсиялари»"
+          }
+        }
+      }
     },
     "wastewater": {
       "title": "Wastewater",
@@ -46,30 +325,525 @@
         "disinfectionRate": "99.9%",
         "colorReduction": "up to 80%"
       },
-      "regulations": ["Wastewater discharge standards", "Environmental norms", "Water protection regulations"]
+      "regulations": ["Wastewater discharge standards", "Environmental norms", "Water protection regulations"],
+      "stats": {
+        "bpkReduction": {
+          "value": "95%",
+          "label": "БКП камайиши",
+          "description": "Биокимёвий кислород талаби"
+        },
+        "disinfection": {
+          "value": "99.9%",
+          "label": "Дезинфекция",
+          "description": "Патоген микрофлорани олиб ташлаш"
+        },
+        "toxicCompounds": {
+          "value": "0",
+          "label": "Токсик бирикмалар",
+          "description": "Хлорлашдан фарқли ўлароқ"
+        },
+        "colorReduction": {
+          "value": "80%",
+          "label": "Рангни камайтириш",
+          "description": "Сув шаффофлигини яхшилаш"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Чиқинди сувларни озоңлаш — сув ҳавзаларига чиқариш ёки сувни қайта ишлатишдан олдин якуний босқич сифатида қўлланиладиган чуқур тозалашнинг замонавий усули. Озон — мураккаб органик бирикмаларни самарали парчалайдиган кучли оксидловчи бўлиб, токсик хлорорганик бирикмаларни ҳосил қилмасдан дезинфекцияни таъминлайди.",
+          "paragraph2": "Усул феноллар, нефт маҳсулотлари, сирт фаол моддалар (SAS), пестицидлар ва бошқа қийин оксидланадиган органик бирикмаларни ўз ичига олган саноат чиқиндиларини тозалаш учун айниқса самарали. Озоңлашдан кейин сув узоқ дехлорингизсиз сув ҳавзаларига чиқариш учун хавфсиз."
+        },
+        "ecologicalAdvantage": {
+          "label": "Экологик афзаллик:",
+          "text": "Хлорлашдан фарқли ўлароқ, озон сув экотизимлари учун хавфли бўлган токсик хлорорганик бирикмаларни ҳосил қилмайди. Қайта ишлашдан кейин озон кислородга парчаланади ва сувни қўшимча равишда аэратсия қилади."
+        },
+        "comparison": {
+          "title": "Чиқинди сувларни дезинфекция қилиш усулларини солиштириш",
+          "headers": {
+            "parameter": "Параметр",
+            "ozonation": "Озоңлаш",
+            "chlorination": "Хлорлаш"
+          },
+          "rows": {
+            "disinfection": {
+              "parameter": "Дезинфекция самарадорлиги",
+              "value1": "99.9%",
+              "value2": "99%"
+            },
+            "oxidation": {
+              "parameter": "Органик оксидланиш",
+              "value1": "Юқори",
+              "value2": "Паст"
+            },
+            "byproducts": {
+              "parameter": "Ён маҳсулотлар",
+              "value1": "O₂ (хавфсиз)",
+              "value2": "Хлорорганик (токсик)"
+            },
+            "dechlorination": {
+              "parameter": "Дехлорингиз талаб қилинади",
+              "value1": "Йўқ",
+              "value2": "Ҳа"
+            },
+            "codBod": {
+              "parameter": "ХПК/БКП га таъсири",
+              "value1": "50-95% га камайтиради",
+              "value2": "Минимал"
+            },
+            "colorRemoval": {
+              "parameter": "Рангни олиб ташлаш",
+              "value1": "Ҳа (80% гача)",
+              "value2": "Йўқ"
+            },
+            "odorRemoval": {
+              "parameter": "Ҳидни олиб ташлаш",
+              "value1": "Ҳа",
+              "value2": "Яширади"
+            },
+            "safety": {
+              "parameter": "Сув ҳавзалари учун хавфсизлик",
+              "value1": "Юқори",
+              "value2": "Назорат талаб қилади"
+            }
+          }
+        },
+        "technicalParams": {
+          "title": "Чиқинди сувларни озоңлашнинг техник параметрлари",
+          "caption": "Чиқинди турига қараб тавсия этилган озон дозалари",
+          "headers": {
+            "type": "Чиқинди сув тури",
+            "dose": "Озон дозаси, mg/L",
+            "contactTime": "Контакт вақти, мин"
+          },
+          "rows": {
+            "domestic": {
+              "type": "Уй-жой (биологик тозалашдан кейин)",
+              "dose": "5-15",
+              "contactTime": "10-15"
+            },
+            "industrial": {
+              "type": "Саноат (органик)",
+              "dose": "20-50",
+              "contactTime": "15-30"
+            },
+            "oil": {
+              "type": "Нефт ўз ичига олган чиқиндилар",
+              "dose": "30-100",
+              "contactTime": "20-40"
+            },
+            "phenol": {
+              "type": "Фенол ўз ичига олган чиқиндилар",
+              "dose": "15-30",
+              "contactTime": "15-20"
+            },
+            "surfactant": {
+              "type": "Сирт фаол моддалар ўз ичига олган чиқиндилар",
+              "dose": "10-25",
+              "contactTime": "10-20"
+            },
+            "food": {
+              "type": "Озиқ-овқат саноати чиқиндилари",
+              "dose": "10-20",
+              "contactTime": "10-15"
+            }
+          },
+          "highlightBox": {
+            "label": "Озон дозаси ҳисоби:",
+            "text": "1 г БКП (биокимёвий кислород талаби) учун 1-3 г озон, 1 г нефт маҳсулотлари учун 7-10 г озон. Аниқ доза маълум чиқиндилар учун эксперимент равишда аниқланади."
+          }
+        },
+        "process": {
+          "title": "Чиқинди сувларни тозалаш жараёни",
+          "steps": {
+            "mechanical": {
+              "title": "Механик тозалаш",
+              "description": "Қўпол аралашмалар, қум, суюқ моддаларни олиб ташлаш. Озоңлашдан олдин мажбурий босқич."
+            },
+            "biological": {
+              "title": "Биологик тозалаш",
+              "description": "БКП ни 15-30 mg/L гача камайтириш учун аэроб ёки анаэроб биологик тозалаш. Озоңлаш бу босқичдан кейин қўлланилади."
+            },
+            "generation": {
+              "title": "Озон ишлаб чиқариш",
+              "description": "Корона разряд усули билан кислороддан озон олиш. Газдаги озон концентратсияси: 6-12%."
+            },
+            "contactChamber": {
+              "title": "Контакт камераси",
+              "description": "Озон-ҳаво аралашмасини ифлосланиш даражасига қараб 10-30 дақиқа контакт вақти билан барботер тизими орқали чиқиндилар билан аралаштириш."
+            },
+            "clarification": {
+              "title": "Тозалаш",
+              "description": "Оксидланган эримайдиган бирикмаларни олиб ташлаш учун чўктириш ёки фильтратсия."
+            },
+            "qualityControl": {
+              "title": "Сифат назорати",
+              "description": "Чиқариш стандартларига мувофиқлик учун тозаланган сувни таҳлил қилиш: БКП, ХПК, суюқ моддалар, коли-индекс."
+            }
+          }
+        },
+        "pollutants": {
+          "title": "Озоңлаш орқали олиб ташланадиган ифлослантирувчилар",
+          "items": {
+            "phenols": "Феноллар ва нитрофеноллар: CO₂ ва H₂O га оксидланиш, MPC даражасига камайтириш",
+            "oilProducts": "Нефт маҳсулотлари: оддий органик кислоталарга парчаланиш",
+            "surfactants": "Сирт фаол моддалар (SAS): молекуляр структура парчаланиши",
+            "pesticides": "Пестицидлар ва гербицидлар: токсик бўлмаган бирикмаларга оксидланиш",
+            "dyes": "Бўёқлар ва пигментлар: чиқиндиларни тўлиқ рангизлантириш",
+            "pathogens": "Патоген микрофлора: бактериялар, вируслар, гелминт тухумларини инактиватсия қилиш",
+            "ammonium": "Аммоний азот: нитратларга оксидланиш",
+            "hydrogenSulfide": "Водород сульфиди ва меркаптанлар: ёқимсиз ҳидларни бартараф этиш"
+          }
+        },
+        "results": {
+          "title": "Чиқинди сувларни озоңлаш натижалари",
+          "caption": "Уй-жой чиқиндиларини тозалаш самарадорлиги (эксперимент маълумотлари)",
+          "headers": {
+            "parameter": "Параметр",
+            "before": "Озоңлашдан олдин",
+            "after": "Озоңлашдан кейин",
+            "efficiency": "Самарадорлик"
+          },
+          "rows": {
+            "color": {
+              "parameter": "Ранг, даража",
+              "before": "70-100",
+              "after": "10-20",
+              "efficiency": "80-85%"
+            },
+            "turbidity": {
+              "parameter": "Лойқалик, mg/L",
+              "before": "30-50",
+              "after": "5-10",
+              "efficiency": "75-80%"
+            },
+            "bod": {
+              "parameter": "БКП₅, mg/L",
+              "before": "20-30",
+              "after": "3-5",
+              "efficiency": "85-90%"
+            },
+            "cod": {
+              "parameter": "ХПК, mg/L",
+              "before": "50-80",
+              "after": "15-25",
+              "efficiency": "65-70%"
+            },
+            "coliIndex": {
+              "parameter": "Коли-индекс",
+              "before": "10,000",
+              "after": "< 1,000",
+              "efficiency": "> 90%"
+            },
+            "odor": {
+              "parameter": "Ҳид",
+              "before": "Ботқоқ-фекал",
+              "after": "Йўқ",
+              "efficiency": "100%"
+            }
+          },
+          "paragraph": "Маълумотлар контакт камерасида 15 дақиқа контакт вақти билан 50 mg/L озон дозаси билан чиқиндиларни қайта ишлашда олинган. 50 mg/L дан юқори озон дозасида rang, лойқалик ва ҳид йўқолади, коли-индекс норматив қийматларга камайади."
+        },
+        "benefits": {
+          "title": "Чиқинди сувларни озоңлашнинг афзалликлари",
+          "items": {
+            "wasteFree": {
+              "title": "Чиқиндисиз жараён",
+              "description": "Озон ҳаво кислородидан синтез қилинади ва кислородга парчаланади. Реагент сотиб олиш ёки сақлаш талаб қилинмайди."
+            },
+            "universality": {
+              "title": "Универсал",
+              "description": "Ҳар қандай органик ифлослантирувчиларга қарши самарали: феноллар, нефт маҳсулотлари, сирт фаол моддалар, пестицидлар."
+            },
+            "ecologicalSafety": {
+              "title": "Экологик хавфсизлик",
+              "description": "Токсик ён маҳсулотларни ҳосил қилмайди. Сув дехлорингизсиз сув ҳавзаларига чиқариш учун хавфсиз."
+            },
+            "reuse": {
+              "title": "Қайта ишлатиш",
+              "description": "Озоңлашдан кейин сув техник мақсадларда ишлатилиши мумкин: суғориш, ювиш, совутиш."
+            }
+          }
+        },
+        "applications": {
+          "title": "Қўллаш соҳалари",
+          "caption": "Корхона турлари ва чиқинди сувларни озоңлаш хусусиятлари",
+          "headers": {
+            "industry": "Саноат",
+            "pollutants": "Асосий ифлослантирувчилар",
+            "dose": "Озон дозаси, mg/L"
+          },
+          "rows": {
+            "refineries": {
+              "industry": "Нефтни қайта ишлаш заводлари",
+              "pollutants": "Нефт маҳсулотлари, феноллар, сульфидлар",
+              "dose": "50-100"
+            },
+            "chemical": {
+              "industry": "Кимёвий заводлар",
+              "pollutants": "Органик эритувчилар, сирт фаол моддалар",
+              "dose": "30-80"
+            },
+            "food": {
+              "industry": "Озиқ-овқат ишлаб чиқариш",
+              "pollutants": "Ёғлар, оқсиллар, органик кислоталар",
+              "dose": "15-30"
+            },
+            "textile": {
+              "industry": "Тўқимачилик фабрикалари",
+              "pollutants": "Бўёқлар, сирт фаол моддалар",
+              "dose": "20-50"
+            },
+            "paper": {
+              "industry": "Селлюлоза-қоғоз комбинатлари",
+              "pollutants": "Лигнин, смолалар",
+              "dose": "30-60"
+            },
+            "municipal": {
+              "industry": "Шаҳар тозалаш иншоотлари",
+              "pollutants": "Биологик тозалашдан кейин уй-жой чиқиндилари",
+              "dose": "10-20"
+            }
+          }
+        },
+        "regulations": {
+          "title": "Чиқариш учун норматив талаблар",
+          "items": {
+            "item1": "СанПиН 2.1.5.980-00 «Юзаки сувларни ҳимоя қилиш учун гигиена талаблари»",
+            "item2": "Уй-жой ва ичимлик суви учун сув объектларидаги зарарли моддаларнинг МПК",
+            "item3": "Табиий ресурслар вазирлигининг 17.12.2007 йилдаги 333-сонли буюрғи «МПД ишлаб чиқиш методикасини тасдиқлаш тўғрисида»",
+            "item4": "ГОСТ 17.1.3.13-86 «Табиатни ҳимоя қилиш. Гидросфера. Юзаки сувларни ифлосланишдан ҳимоя қилишнинг умумий талаблари»"
+          },
+          "highlightBox": {
+            "label": "Диққат:",
+            "text": "Қонунчилик чиқариладиган чиқинди сувлар сифати учун қатъий талаблар қўйади. Нормага риоя қилмаслик юридик шахслар учун 250,000 рублгача жаримага олиб келади. Озоңлаш норматив кўрсаткичларга кафолатланган еришишни таъминлайди."
+          }
+        }
+      }
     },
     "pools-spa": {
-      "title": "Pools and spa",
-      "shortDesc": "Clean water without chlorine smell or irritation",
-      "heroTitle": "Pool and spa ozonation",
-      "heroDesc": "Crystal-clear water without chlorine smell. No eye or skin irritation even with long exposure.",
-      "content": "Pool water ozonation is a modern method for highest-quality water without chlorine smell or eye and mucous membrane irritation even with long exposure.\n\nOzone acts as both oxidizer and disinfectant. It is more effective than chlorine against bacteria, viruses and spores, and breaks down tough envelopes of microalgae and protozoa. The water gets a pleasant bluish tint.\n\nRecommended ozone dose for pools is 0.7–0.9 g/m³ of circulating water. Contact time in the contact tank is 6–7 minutes. Residual ozone at filter outlet does not exceed 0.1 mg/L.\n\nWhen using ozone with chlorine, chlorine can be kept at 0.1 mg/L instead of the usual 0.7 mg/L. This practically eliminates skin and eye irritation while providing prolonged disinfection.",
+      "title": "Бассейнлар ва SPA",
+      "shortDesc": "Хлор ҳидисиз ва қичишишсиз тоза сув",
+      "heroTitle": "Бассейн ва SPA озоңлаш",
+      "heroDesc": "Хлор ҳидисиз кристал тоза сув. Узоқ вақт сувда бўлишда ҳам кўз ва тери қичишиши йўқ.",
+      "content": "Бассейн сувини озоңлаш - хлор ҳиди ёки кўз ва шиллиқ pardalar қичишиши бўлмасдан eng юқори сифатли сув олиш учун замонавий усул.\n\nОзон ҳам оксидловчи, ҳам дезинфекция воситаси сифатида ишлайди. У бактериялар, вируслар ва спораларга қарши хлордан самаралироқ бўлиб, микроалг ва протозоонларнинг қалин қобиғини бузади. Сув ёқимли кўк рангга эга бўлади.\n\nБассейнлар учун tavsiya этилган озон дозаси - айланиш суви учун 0,7-0,9 g/m³. Контакт идишида контакт вақти - 6-7 дақиқа. Филтр чиқишидаги қолган озон 0,1 mg/L дан ошмайди.\n\nОзонни хлор билан биргаликда ишлатганда, одатдаги 0,7 mg/L ўрнига хлорни 0,1 mg/L darajasida сақлаш мумкин. Бу тери ва кўз қичишишини деярли бартараф этади ва узоқ муддатли дезинфекцияни таъминлайди.",
       "benefits": [
-        "No chlorine smell",
-        "No skin or eye irritation",
-        "Crystal-clear blue water",
-        "About 7× less chlorine use",
-        "More effective than chlorine against viruses",
-        "Compliance with pool water standards"
+        "Хлор ҳиди йўқ",
+        "Тери ёки кўз қичишиши йўқ",
+        "Кристал тоза кўк сув",
+        "Хлор истеъмоли тахминан 7× камайади",
+        "Вирусларга қарши хлордан самаралироқ",
+        "Бассейн суви стандартларига мос келади"
       ],
       "technicalData": {
-        "ozoneDoze": "0.7-0.9 g/m³",
-        "contactTime": "6-7 minutes",
-        "residualOzone": "< 0.1 mg/L",
-        "residualChlorine": "0.1-0.3 mg/L",
-        "phRange": "7.2-7.6"
+        "ozoneDoze": "0,7-0,9 g/m³",
+        "contactTime": "6-7 дақиқа",
+        "residualOzone": "< 0,1 mg/L",
+        "residualChlorine": "0,1-0,3 mg/L",
+        "phRange": "7,2-7,6"
       },
-      "regulations": ["Pool water standards"]
+      "regulations": ["Бассейн суви стандартлари"],
+      "stats": {
+        "chlorineReduction": {
+          "value": "7×",
+          "label": "Камроқ хлор",
+          "description": "Хлор концентратсиясининг пасайиши"
+        },
+        "irritation": {
+          "value": "0",
+          "label": "Қичишиш",
+          "description": "Сузишда кўз ва тери қичишиши"
+        },
+        "bactericidal": {
+          "value": "3000×",
+          "label": "Хлордан кучлироқ",
+          "description": "Бактерицид таъсир"
+        },
+        "waterColor": {
+          "value": "Кўк",
+          "label": "Сuv",
+          "description": "Ёқимли tabiiy ранг"
+        }
+      },
+      "content": {
+        "intro1": "Бассейнларни хлорлаш - анъанавий дезинфекция усули, лекин у муҳим камчиликларни ўз ичига олади: кучли хлор ҳиди, кўз ва шиллиқ pardalar қичишиши, қуруқ тери, соч ва сузиш кийимларининг рангсизланиши. Озоңлаш бу muammolarni деярли бартараф этиб, eng юқори сифатли сув олиш имконини беради.",
+        "intro2": "Озон - eng кучли оксидловчи, бактерицид таъсири бўйича хлорни 3000 марта ошади. У бактериялар, вируслар, споралар ва протозоонларни йўқ қилади, микроалг ҳужайра деворларини бузади. Сув ёқимли кўк рангга эга бўлади."
+      },
+      "highlightBox": {
+        "regulation": {
+          "label": "Бассейн суви стандартлари:",
+          "text": "Озоңлаш бассейн сувини дезинфекция қилишнинг замонавий усули сифатида tavsiya этилади, бу хлор концентратсиясини минимал зарур даражага камайтириш имконини беради."
+        }
+      },
+      "sections": {
+        "comparison": {
+          "title": "Бассейн сувини озоңлашнинг афзалликлари",
+          "headers": {
+            "parameter": "Параметр",
+            "ozone": "Озон + min. хлор",
+            "chlorine": "Фақат хлор"
+          },
+          "rows": {
+            "smell": {
+              "parameter": "Сuv ҳиди",
+              "value1": "Ҳид йўқ",
+              "value2": "Кучли хлор ҳиди"
+            },
+            "eyeIrritation": {
+              "parameter": "Кўз қичишиши",
+              "value1": "Йўқ",
+              "value2": "Ҳа, узоқ вақт таъсирида"
+            },
+            "skinIrritation": {
+              "parameter": "Тери қичишиши",
+              "value1": "Йўқ",
+              "value2": "Қуруқлик, пишиши"
+            },
+            "hair": {
+              "parameter": "Сочга таъсири",
+              "value1": "Минимал",
+              "value2": "Рангсизланиш, қуруқлик"
+            },
+            "color": {
+              "parameter": "Сuv ранги",
+              "value1": "Кўкиш, шаффоф",
+              "value2": "Яшил бўлиши мумкин"
+            },
+            "byproducts": {
+              "parameter": "Ён маҳсулотлар",
+              "value1": "Йўқ (O₂ га парчаланади)",
+              "value2": "Трихлораминлар (заҳарли)"
+            },
+            "viruses": {
+              "parameter": "Вирусларга қарши самарадорлик",
+              "value1": "Жуда юқори",
+              "value2": "Ўртача"
+            }
+          }
+        },
+        "technology": {
+          "title": "Бассейн озоңлаш технологiyasi",
+          "intro": "Озон фильтратсиядан кейин, бассейн идишига қайтишдан олдин айланиш сувига берилади. Бассейнлар учун tavsiya этилган озон дозаси - айланиш суви учун 0,7-0,9 g/m³. Контакт идишида контакт вақти - 6-7 дақиқа.",
+          "caption": "Бассейн озоңлаш параметрлари",
+          "headers": {
+            "parameter": "Параметр",
+            "value": "Қиймат",
+            "note": "Изоҳ"
+          },
+          "rows": {
+            "ozoneDose": {
+              "parameter": "Озон дозаси",
+              "value": "0,7-0,9 g/m³",
+              "note": "Айланиш суви ҳажмига"
+            },
+            "contactTime": {
+              "parameter": "Контакт вақти",
+              "value": "6-7 дақиқа",
+              "note": "Контакт идишида"
+            },
+            "residualOzone": {
+              "parameter": "Чиқишдаги қолган озон",
+              "value": "< 0,1 mg/L",
+              "note": "Идишга киришдан олдин"
+            },
+            "residualChlorine": {
+              "parameter": "Қолган хлор",
+              "value": "0,1-0,3 mg/L",
+              "note": "Узоқ муддатли таъсир учун"
+            },
+            "ph": {
+              "parameter": "Сuv pH",
+              "value": "7,2-7,6",
+              "note": "Оптимал диапазон"
+            }
+          },
+          "highlightBox": "Озонни хлор билан биргаликда ишлатганда, одатдаги 0,7 mg/L ўрнига хлорни 0,1 mg/L даражасида сақлаш мумкин. Бу тери ва кўз қичишишини деярли бартараф этади."
+        },
+        "pathogens": {
+          "title": "Озон бассейн сувида нимани йўқ қилади",
+          "items": {
+            "bacteria": "Бактериялар: E.coli, Pseudomonas aeruginosa, стафилококклар",
+            "viruses": "Вируслар: энтеровируслар, аденовируслар, ротавируслар",
+            "protozoa": "Протозоонлар: Cryptosporidium, Giardia (хлорга чидамли!)",
+            "algae": "Микроалг: қалин ҳужайра деворларини бузади",
+            "organic": "Органик ифлосланишлар: тер, сийдик, косметика, кремлар",
+            "chloramines": "Хлораминлар: зарарли хлорлаш ён маҳсулотларини йўқ қилади"
+          },
+          "note": "Айниқса муҳими, озон Cryptosporidiumга қарши самарали - диареяга олиб келадиган паразитлар. Улар хлорлашга жуда чидамли (йўқ қилиш учун 10 000 mg/L×min хлор керак), лекин озонга заиф."
+        },
+        "poolTypes": {
+          "title": "Турли бассейн турлари учун озоңлаш",
+          "caption": "Tavsiya этилган озоңлаш тизимлари",
+          "headers": {
+            "type": "Бассейн тури",
+            "volume": "Ҳажм",
+            "capacity": "Озонатор қуввати"
+          },
+          "rows": {
+            "private": {
+              "type": "Хусусий бассейн",
+              "volume": "25-60 m³",
+              "capacity": "2-5 g/h"
+            },
+            "fitness": {
+              "type": "Фитнес-клуб бассейни",
+              "volume": "100-300 m³",
+              "capacity": "10-30 g/h"
+            },
+            "hotel": {
+              "type": "Меҳмонхона бассейни",
+              "volume": "200-500 m³",
+              "capacity": "20-50 g/h"
+            },
+            "public": {
+              "type": "Жамоат бассейни",
+              "volume": "500-2000 m³",
+              "capacity": "50-200 g/h"
+            },
+            "waterpark": {
+              "type": "Аквапарк",
+              "volume": "2000+ m³",
+              "capacity": "Индивидуал ҳисоблаш"
+            },
+            "spa": {
+              "type": "SPA, жакuzi",
+              "volume": "2-10 m³",
+              "capacity": "1-3 g/h"
+            }
+          }
+        },
+        "benefits": {
+          "title": "Бассейн эгаллари учун афзалликлар",
+          "items": {
+            "comfort": {
+              "title": "Меҳмонлар қулайлиги",
+              "description": "Хлор ҳиди йўқ, кўз ёки тери қичишиши йўқ. Ёқимли сузиш."
+            },
+            "economy": {
+              "title": "Кимёвий моддалар тежамкорлиги",
+              "description": "Хлор истеъмоли 5-7 марта камайади, реагентлар тежамкорлиги."
+            },
+            "compliance": {
+              "title": "Нормативларга мувофиқлик",
+              "description": "Усул бассейнлар учун санитария қоидалари томонидан tavsiya этилади."
+            },
+            "quality": {
+              "title": "Тоза сув",
+              "description": "Кристал тоза кўк рангли сув - сифат кўрсаткичи."
+            }
+          }
+        },
+        "spa": {
+          "title": "SPA ва жакuzi учун хусусиятлар",
+          "intro": "SPA ва жакuzida юқори сув ҳарорати (32-40°C) бактериялар, жумладан Legionella кўпайиши учун қулай шароит яратади. Озоңлаш бу шароитларда айниқса самарали:",
+          "items": {
+            "legionella": "Legionella йўқ қилиш - хавфли пневмония патогени",
+            "biofilm": "Қувурлар ва nozullardagi биоплёнкани бузиш",
+            "odor": "Кам ишлатиладиган жакuzilarda 'эски сув' ҳидини бартараф этиш",
+            "fungus": "Замбуруғ' инфекцияларини олдини олиш (микозлар)",
+            "comfort": "Узоқ муддатли SPA процедураларида қичишиш йўқ"
+          }
+        }
+      }
     },
     "iron-removal": {
       "title": "Iron and manganese removal",
@@ -97,7 +871,182 @@
         "iron": "2Fe²⁺ + O₃ + H₂O → 2Fe³⁺ + O₂ + 2OH⁻ → Fe(OH)₃↓",
         "manganese": "Mn²⁺ + O₃ + H₂O → MnO₂↓ + 2H⁺ + O₂"
       },
-      "regulations": ["Drinking water standards", "Water quality norms"]
+      "regulations": ["Drinking water standards", "Water quality norms"],
+      "stats": {
+        "ozoneForIron": {
+          "value": "0.43",
+          "label": "mg O₃ / mg Fe",
+          "description": "Ozone dose per iron"
+        },
+        "ozoneForManganese": {
+          "value": "0.87",
+          "label": "mg O₃ / mg Mn",
+          "description": "Ozone dose per manganese"
+        },
+        "residualIron": {
+          "value": "< 0.3",
+          "label": "mg/L Fe",
+          "description": "Residual iron (standard limit)"
+        },
+        "residualManganese": {
+          "value": "< 0.1",
+          "label": "mg/L Mn",
+          "description": "Residual manganese (standard limit)"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Iron and manganese are the most common metallic impurities in natural water, and they are usually present together. Although iron is not toxic, its presence in water leads to deterioration of organoleptic and taste properties, appearance of brown sediment on surfaces in contact with water. Manganese belongs to the category of hazardous substances.",
+          "paragraph2": "Ozonation is especially effective when iron and manganese are present in water as organic complex compounds. Standard iron removal methods (aeration, liming, cation exchange) are ineffective in this case. Ozone oxidizes complex compounds, causing metals to precipitate in insoluble forms.",
+          "regulationLabel": "Drinking water standards:",
+          "regulationText": "Maximum permissible concentration (MPC) of iron in drinking water is 0.3 mg/L, manganese — 0.1 mg/L. Exceeding these limits makes water unsuitable for drinking water supply and technological needs."
+        },
+        "comparison": {
+          "title": "Iron removal methods comparison",
+          "headers": ["Parameter", "Ozonation", "Aeration + filtration"],
+          "rows": [
+            { "parameter": "Fe removal efficiency", "value1": "> 95%", "value2": "80-90%" },
+            { "parameter": "Mn removal efficiency", "value1": "> 95%", "value2": "50-70%" },
+            { "parameter": "Organic complex removal", "value1": "Yes", "value2": "No" },
+            { "parameter": "Color reduction", "value1": "Yes (up to 80%)", "value2": "Partial" },
+            { "parameter": "Works at any pH", "value1": "Yes (6-9)", "value2": "Requires pH > 7.5" },
+            { "parameter": "Disinfection", "value1": "Yes", "value2": "No" },
+            { "parameter": "H₂S removal", "value1": "Yes", "value2": "Partial" },
+            { "parameter": "Reagent requirement", "value1": "No", "value2": "May be required" }
+          ]
+        },
+        "ironChemistry": {
+          "title": "Iron oxidation chemistry with ozone",
+          "reactionLabel": "Iron oxidation reaction:",
+          "reaction1": "2Fe²⁺ + O₃ + H₂O → 2Fe³⁺ + O₂ + 2OH⁻",
+          "reaction2": "Fe³⁺ + 3H₂O → Fe(OH)₃↓ + 3H⁺",
+          "description": "Ozone oxidizes Fe²⁺ to Fe³⁺, which forms insoluble iron hydroxide Fe(OH)₃, easily removed by filtration. The reaction proceeds at pH from 6 to 9.",
+          "table": {
+            "caption": "Stoichiometric ratios for metal oxidation",
+            "headers": ["Metal", "Theoretical ozone dose", "Practical ozone dose", "Note"],
+            "rows": [
+              ["Iron (Fe²⁺)", "0.43 mg O₃ / mg Fe", "1 mg O₃ / mg Fe", "With organics"],
+              ["Manganese (Mn²⁺)", "0.87 mg O₃ / mg Mn", "4 mg O₃ / mg Mn", "With organics"],
+              ["Hydrogen sulfide (H₂S)", "3.0 mg O₃ / mg H₂S", "3-5 mg O₃ / mg H₂S", "To elemental sulfur"]
+            ]
+          }
+        },
+        "manganeseChemistry": {
+          "title": "Manganese oxidation chemistry with ozone",
+          "reactionLabel": "Manganese oxidation reaction:",
+          "reaction": "Mn²⁺ + O₃ + H₂O → MnO₂↓ + 2H⁺ + O₂",
+          "description": "Ozone oxidizes Mn²⁺ to Mn⁴⁺, which forms insoluble manganese dioxide MnO₂. At pH around 8, the reaction proceeds most effectively.",
+          "importantLabel": "Important:",
+          "importantText": "With excess ozone, further oxidation of manganese to Mn⁷⁺ with formation of soluble permanganate MnO₄⁻ (pink water color) is possible. In the presence of organic compounds, permanganate decomposes to MnO₂. For high manganese concentrations, double ozonation is used."
+        },
+        "process": {
+          "title": "Iron removal process",
+          "steps": [
+            {
+              "title": "Source water supply",
+              "description": "Water with elevated iron and manganese content is fed into the contact tank. Pre-filtration from coarse impurities."
+            },
+            {
+              "title": "Ozone generation",
+              "description": "Atmospheric air is cleaned by filter, fed into oxygen concentrator (85-95% O₂), then into ozone generator."
+            },
+            {
+              "title": "Ozonation in contact chamber",
+              "description": "Bubbling ozone-air mixture through water layer or injection through Venturi ejector. Contact time: 5-15 minutes."
+            },
+            {
+              "title": "Precipitation of oxidized metals",
+              "description": "Fe(OH)₃ and MnO₂ precipitate in the contact tank. Periodic tank flushing to remove sediment."
+            },
+            {
+              "title": "Mechanical filtration",
+              "description": "Removal of suspended particles of oxidized metals through sand filter. Pore size: 10-50 μm."
+            },
+            {
+              "title": "Carbon filtration",
+              "description": "Final treatment through activated carbon to remove residual ozone and improve organoleptic properties."
+            }
+          ]
+        },
+        "doubleOzonation": {
+          "title": "Double ozonation (for high Mn concentrations)",
+          "paragraph": "At manganese content above 0.5 mg/L, double ozonation scheme may be required: primary ozonation of source water, filtration, then secondary ozonation of filtrate. This prevents formation of soluble permanganate.",
+          "table": {
+            "caption": "Double ozonation results (Ashton, England)",
+            "headers": ["Parameter", "Before treatment", "After treatment"],
+            "rows": [
+              ["Manganese, mg/L", "0.5", "0.05"],
+              ["Color, degrees", "22", "5"],
+              ["Turbidity, NTU", "15", "< 2"]
+            ]
+          }
+        },
+        "organicComplexes": {
+          "title": "Organic complex problems",
+          "paragraph": "In oil-bearing regions where water contains large amounts of organic impurities, iron and manganese are often present as organic complex compounds. This makes standard iron removal methods ineffective.",
+          "items": [
+            "Aeration doesn't work: organic complexes are not oxidized by air oxygen",
+            "Liming is ineffective: complex compounds do not precipitate when pH is raised",
+            "Cation exchange is difficult: organic complexes do not exchange on ion exchange resins",
+            "Ozone solves the problem: breaks down organic complexes, releasing metals for precipitation"
+          ],
+          "advantageLabel": "Ozone advantage:",
+          "advantageText": "Metal oxidation with ozone proceeds effectively at any pH values found in natural waters (6-9), while manganese oxidation with air oxygen requires pH > 10."
+        },
+        "systemParams": {
+          "title": "Recommended system parameters",
+          "table": {
+            "caption": "Equipment selection by capacity",
+            "headers": ["Capacity, m³/h", "Ozonator power, g/h", "Contact chamber volume, m³"],
+            "rows": [
+              ["1-5", "5-25", "0.2-1"],
+              ["5-20", "25-100", "1-4"],
+              ["20-50", "100-250", "4-10"],
+              ["50-100", "250-500", "10-20"],
+              ["100-500", "500-2500", "20-100"]
+            ]
+          },
+          "noteLabel": "Note:",
+          "noteText": "Ozonator power is calculated for water with Fe content up to 10 mg/L and Mn up to 1 mg/L. For higher concentrations, individual calculation is required."
+        },
+        "benefits": {
+          "title": "Benefits of ozonation for iron removal",
+          "items": [
+            {
+              "title": "Versatility",
+              "description": "Effectively removes iron and manganese of any forms, including organic complexes."
+            },
+            {
+              "title": "Wide pH range",
+              "description": "Works at pH 6-9 without need for water acidity correction."
+            },
+            {
+              "title": "Complex action",
+              "description": "Simultaneously disinfects water, removes color, odors, oxidizes H₂S."
+            },
+            {
+              "title": "No reagents",
+              "description": "Ozone is produced on-site from air. No need to purchase and store chemicals."
+            }
+          ]
+        },
+        "regulations": {
+          "title": "Regulatory requirements",
+          "table": {
+            "caption": "MPC of iron and manganese by standards",
+            "headers": ["Metal", "Drinking water", "Bottled water", "Hazard class"],
+            "rows": [
+              ["Iron (Fe)", "0.3 mg/L", "0.3 mg/L", "III"],
+              ["Manganese (Mn)", "0.1 mg/L", "0.05 mg/L", "III"]
+            ]
+          },
+          "items": [
+            "Drinking water standards «Drinking water. Hygienic requirements for centralized drinking water supply systems water quality»",
+            "Bottled water standards «Drinking water. Hygienic requirements for bottled water quality»",
+            "GOST 2874-82 «Drinking water. Hygienic requirements and quality control»"
+          ]
+        }
+      }
     }
   }
 }

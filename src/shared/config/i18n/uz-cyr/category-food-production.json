@@ -13,7 +13,120 @@
         "No chemical residues",
         "Extended product shelf life",
         "Suitable for baby water"
-      ]
+      ],
+      "stats": {
+        "stat1": {
+          "value": "0.1",
+          "label": "mg/L ozone",
+          "description": "Maximum residual concentration per standards"
+        },
+        "stat2": {
+          "value": "99.9%",
+          "label": "Sterilization",
+          "description": "Destruction of pathogenic microorganisms"
+        },
+        "stat3": {
+          "value": "1 g/m³",
+          "label": "Performance",
+          "description": "Recommended ozone generator dose per water volume"
+        },
+        "stat4": {
+          "value": "9",
+          "label": "mg/L oxygen",
+          "description": "Premium category water saturation"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Drinking water producers often face situations where water extracted from a verified well and passed through all purification stages spoils on store shelves. The cause is secondary contamination directly on the bottling line through contact with air, equipment and non-sterile containers.",
+          "text2": "Final ozonation solves this problem comprehensively: ozone not only disinfects water but also disinfects bottling equipment and sterilizes containers. After capping bottles, ozone decomposes to oxygen within several hours, leaving no traces and improving water taste."
+        },
+        "highlight1": {
+          "title": "Sanitary standards:",
+          "text": "\"Chlorine preparations are not permitted for treating drinking waters intended for bottling; preferred disinfection methods are ozonation and physical treatment methods, in particular UV irradiation.\""
+        },
+        "benefits": {
+          "title": "Advantages of final ozonation",
+          "items": [
+            "Simultaneous sterilization of water, bottle, headspace and cap",
+            "Environment remains sterile until package opening",
+            "Oxygen saturation — mandatory requirement for premium category water",
+            "Complete ozone decay to oxygen without chemical residues",
+            "Only permitted preservation method for baby water",
+            "No need for additional container disinfection"
+          ]
+        },
+        "requirements": {
+          "title": "Regulatory requirements",
+          "table": {
+            "caption": "Requirements for bottled water",
+            "headers": ["Parameter", "First category", "Premium category"],
+            "rows": [
+              ["Residual ozone", "≤ 0.1 mg/L", "≤ 0.1 mg/L"],
+              ["Oxygen content", "≥ 5 mg/L", "≥ 9 mg/L"],
+              ["Ozone contact time", "≥ 12 minutes", "≥ 12 minutes"],
+              ["Chlorine use", "Prohibited", "Prohibited"],
+              ["Silver (baby water)", "Permitted", "Prohibited"]
+            ]
+          },
+          "highlight": {
+            "text": "For baby water, ozonation is possibly the only preservation option, since use of silver ions and carbon dioxide is prohibited by standards."
+          }
+        },
+        "scheme": {
+          "title": "Final ozonation schematic",
+          "text": "Ozonation system is placed directly before the bottling machine. The system includes oxygen generator, ozone generator, ozone delivery and dissolution system, as well as ozone analyzer or ORP meter for control.",
+          "table": {
+            "caption": "Final ozonation equipment composition",
+            "headers": ["Component", "Purpose", "Specifications"],
+            "rows": [
+              ["Oxygen generator", "Pure oxygen supply", "O₂ concentration ≥ 90%"],
+              ["Ozone generator", "Ozone production", "1 g/hour per 1 m³/hour water"],
+              ["Ejector / diffuser", "Ozone dissolution in water", "Efficiency > 90%"],
+              ["Contact tank", "Contact time provision", "≥ 12 minutes"],
+              ["Ozone analyzer", "Concentration control", "0-2 mg/L"]
+            ]
+          }
+        },
+        "limitations": {
+          "title": "Limitations for mineral water",
+          "text": "When ozonating mineral water, impurities oxidizable by ozone are not permitted: iron, manganese, hydrogen sulfide, bromide, natural organic substances. Ozone reaction with bromide leads to bromate formation, the standard content of which in drinking water is 10 μg/L.",
+          "text2": "Dissolved metals after interaction with ozone convert to insoluble oxides, leading to color and sediment in water. Therefore, before final ozonation, water must be pre-treated in accordance with standards."
+        },
+        "comparison": {
+          "title": "Water disinfection method comparison",
+          "headers": ["Parameter", "Ozonation", "UV treatment"],
+          "rows": [
+            { "parameter": "Container sterilization", "value1": "Yes", "value2": "No" },
+            { "parameter": "Oxygen saturation", "value1": "Yes", "value2": "No" },
+            { "parameter": "Residual effect", "value1": "Yes", "value2": "No" },
+            { "parameter": "Equipment disinfection", "value1": "Yes", "value2": "No" },
+            { "parameter": "Taste improvement", "value1": "Yes", "value2": "No" },
+            { "parameter": "Requires contact", "value1": "≥ 12 minutes", "value2": "Instant" }
+          ]
+        },
+        "producerBenefits": {
+          "title": "Ozonation advantages for producers",
+          "features": [
+            {
+              "title": "Regulatory compliance",
+              "description": "Full compliance with standards and technical regulations"
+            },
+            {
+              "title": "Extended shelf life",
+              "description": "Sterile environment maintained until package opening — product does not spoil"
+            },
+            {
+              "title": "Baby water",
+              "description": "Only permitted preservation method for baby water"
+            },
+            {
+              "title": "Chemical savings",
+              "description": "No separate container disinfection with chemicals required"
+            }
+          ]
+        }
+      }
     },
     "dairy": {
       "title": "Dairy production",
@@ -26,7 +139,140 @@
         "Destruction of thermophilic bacteria",
         "Listeriosis prevention",
         "HACCP compliance"
-      ]
+      ],
+      "stats": {
+        "stat1": {
+          "value": "99.9%",
+          "label": "Efficiency",
+          "description": "Equipment and tank disinfection"
+        },
+        "stat2": {
+          "value": "30–50%",
+          "label": "Extended shelf life",
+          "description": "For fermented dairy products"
+        },
+        "stat3": {
+          "value": "2–3",
+          "label": "mg/L ozone",
+          "description": "Concentration for equipment disinfection"
+        },
+        "stat4": {
+          "value": "0",
+          "label": "Chemicals",
+          "description": "Complete elimination of detergents"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "The dairy industry has the highest requirements for microbiological safety. Pathogenic microorganisms — Listeria, Salmonella, E.coli — can survive even after pasteurization, multiplying in milk lines and on equipment surfaces.",
+          "paragraph2": "Ozonation solves this problem comprehensively: disinfecting cooling tanks, milking equipment, milk lines and storage tanks without using chemical detergents. Ozone is effective against thermophilic bacteria resistant to high temperatures."
+        },
+        "haccpHighlight": {
+          "title": "HACCP:",
+          "text": "Ozonation is recognized as a critical control point (CCP) in the hazard analysis system, allowing control of microbiological safety at all stages of dairy production."
+        },
+        "application": {
+          "title": "Ozone application in dairy production",
+          "tableCaption": "Ozonation modes for dairy plant equipment",
+          "tableHeaders": ["Treatment object", "Method", "Concentration", "Efficiency"],
+          "tableData": [
+            ["Milking equipment", "Ozonated water", "2–3 mg/L", "99.9%"],
+            ["Cooling tanks", "Water + air", "3–5 mg/L", "99.99%"],
+            ["Milk lines", "Ozonated water flush", "2–3 mg/L", "99.9%"],
+            ["Storage tanks", "Gaseous ozone", "5–10 mg/m³", "99.99%"],
+            ["Cold rooms", "Gaseous ozone", "3–6 mg/m³", "99.5%"]
+          ]
+        },
+        "advantages": {
+          "title": "Advantages over traditional methods",
+          "items": [
+            "Destruction of thermophilic bacteria resistant to pasteurization",
+            "Listeriosis prevention — critical for soft cheeses and cottage cheese",
+            "No chemical residues on equipment surfaces",
+            "Ability to treat hard-to-reach areas in milk lines",
+            "Disinfection at low temperatures — no heating required",
+            "Process automation — reduced human factor influence"
+          ]
+        },
+        "comparison": {
+          "title": "Comparison of sanitation methods",
+          "headers": ["Parameter", "Ozonation", "Chemical CIP cleaning"],
+          "rows": [
+            {
+              "parameter": "Efficiency against Listeria",
+              "value1": "99.99%",
+              "value2": "95–99%"
+            },
+            {
+              "parameter": "Chemical residues",
+              "value1": "None",
+              "value2": "Rinsing required"
+            },
+            {
+              "parameter": "Thermophilic bacteria",
+              "value1": "Destroyed",
+              "value2": "Partially survive"
+            },
+            {
+              "parameter": "Treatment time",
+              "value1": "15–30 minutes",
+              "value2": "45–90 minutes"
+            },
+            {
+              "parameter": "Water consumption",
+              "value1": "Minimal",
+              "value2": "Significant"
+            },
+            {
+              "parameter": "Eco-friendliness",
+              "value1": "Complete",
+              "value2": "Waste disposal required"
+            }
+          ]
+        },
+        "storage": {
+          "title": "Dairy product storage",
+          "intro": "Ozonation of cold rooms for dairy product storage prevents mold development, suppresses psychrotrophic bacteria growth and extends shelf life of cottage cheese, sour cream, yogurt by 30–50%.",
+          "tableCaption": "Ozonation modes for dairy product storage",
+          "tableHeaders": ["Product", "Temperature", "Concentration", "Shelf life increase"],
+          "tableData": [
+            ["Cottage cheese", "+2...+6°C", "3–4 mg/m³", "+40%"],
+            ["Sour cream", "+2...+6°C", "2–3 mg/m³", "+35%"],
+            ["Yogurt", "+2...+6°C", "2–3 mg/m³", "+30%"],
+            ["Butter", "-6...-12°C", "3–5 mg/m³", "+50%"],
+            ["Soft cheeses", "+4...+8°C", "3–6 mg/m³", "+45%"]
+          ],
+          "highlight": {
+            "text": "In cold storage, ozonation not only suppresses microflora but also prevents off-flavors in products, which is especially important for long-term butter storage."
+          }
+        },
+        "listeriosis": {
+          "title": "Listeriosis prevention",
+          "paragraph1": "Listeria monocytogenes is one of the most dangerous pathogens in the dairy industry. The bacterium can multiply at refrigerator temperature (+4°C), survive in biofilms on equipment surfaces and cause severe diseases with fatal outcomes.",
+          "paragraph2": "Ozone effectively destroys Listeria biofilms and kills bacterial cells. At ozone concentration of 0.5–1.0 mg/L in water, 99.99% inactivation of L. monocytogenes is achieved within 5 minutes of contact."
+        },
+        "benefits": {
+          "title": "Benefits for dairy production",
+          "items": [
+            {
+              "title": "HACCP compliance",
+              "description": "Ozonation is a critical control point in food safety systems"
+            },
+            {
+              "title": "Chemical savings",
+              "description": "Reduction of cleaning and disinfection costs by up to 80%"
+            },
+            {
+              "title": "Extended shelf life",
+              "description": "30–50% longer shelf life for fermented dairy products"
+            },
+            {
+              "title": "Product safety",
+              "description": "Guaranteed destruction of Listeria and thermophilic bacteria"
+            }
+          ]
+        }
+      }
     },
     "meat-sausages": {
       "title": "Meat and sausages",

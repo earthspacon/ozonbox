@@ -134,13 +134,20 @@ export function WastewaterPage({ staticData, lang }: WastewaterPageProps) {
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data?.sections?.ecologicalAdvantage?.label ?? ''}</strong> {data?.sections?.ecologicalAdvantage?.text ?? ''}
+            <strong>{data?.sections?.ecologicalAdvantage?.label ?? ''}</strong>{' '}
+            {data?.sections?.ecologicalAdvantage?.text ?? ''}
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.comparison?.title}>
             <ComparisonTable
-              headers={data?.sections?.comparison?.headers ?? []}
-              rows={(data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string }>) ?? []}
+              headers={
+                (data?.sections?.comparison?.headers ?? []) as
+                  | [string, string, string]
+                  | [string, string, string, string]
+              }
+              rows={
+                (data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string }>) ?? []
+              }
             />
           </ArticleSection>
 
@@ -199,7 +206,8 @@ export function WastewaterPage({ staticData, lang }: WastewaterPageProps) {
             <BulletList items={(data?.sections?.regulations?.items as string[]) ?? []} />
 
             <HighlightBox variant="warning">
-              <strong>{data?.sections?.regulations?.warning?.title ?? ''}</strong> {data?.sections?.regulations?.warning?.text ?? ''}
+              <strong>{data?.sections?.regulations?.warning?.title ?? ''}</strong>{' '}
+              {data?.sections?.regulations?.warning?.text ?? ''}
             </HighlightBox>
           </ArticleSection>
         </div>

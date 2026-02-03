@@ -132,13 +132,24 @@ export function PoolsSpaPage({ staticData, lang }: PoolsSpaPageProps) {
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data?.sections?.highlightBox?.regulation?.label ?? ''}</strong> {data?.sections?.highlightBox?.regulation?.text ?? ''}
+            <strong>
+              {(data?.sections?.highlightBox as { regulation?: { label?: string; text?: string } })?.regulation
+                ?.label ?? ''}
+            </strong>{' '}
+            {(data?.sections?.highlightBox as { regulation?: { label?: string; text?: string } })?.regulation?.text ??
+              ''}
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.comparison?.title}>
             <ComparisonTable
-              headers={data?.sections?.comparison?.headers ?? []}
-              rows={(data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string }>) ?? []}
+              headers={
+                (data?.sections?.comparison?.headers ?? []) as
+                  | [string, string, string]
+                  | [string, string, string, string]
+              }
+              rows={
+                (data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string }>) ?? []
+              }
             />
           </ArticleSection>
 

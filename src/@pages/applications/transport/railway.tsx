@@ -155,9 +155,7 @@ export function RailwayPage({ staticData, lang }: RailwayPageProps) {
               rows={data?.sections?.modes?.tableData ?? []}
             />
 
-            <HighlightBox variant="success">
-              {data?.sections?.modes?.highlight ?? ''}
-            </HighlightBox>
+            <HighlightBox variant="success">{data?.sections?.modes?.highlight ?? ''}</HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.toilets?.title}>
@@ -170,8 +168,19 @@ export function RailwayPage({ staticData, lang }: RailwayPageProps) {
           <ArticleSection title={data?.sections?.comparison?.title}>
             <ComparisonTable
               title={data?.sections?.comparison?.comparisonTitle ?? ''}
-              headers={data?.sections?.comparison?.tableHeaders ?? []}
-              rows={data?.sections?.comparison?.tableData ?? []}
+              headers={
+                (data?.sections?.comparison?.tableHeaders ?? []) as
+                  | [string, string, string]
+                  | [string, string, string, string]
+              }
+              rows={
+                (data?.sections?.comparison?.tableData ?? []) as unknown as Array<{
+                  parameter: string
+                  value1: string
+                  value2: string
+                  value3?: string
+                }>
+              }
             />
           </ArticleSection>
 
@@ -195,8 +204,8 @@ export function RailwayPage({ staticData, lang }: RailwayPageProps) {
             <BulletList items={(data?.sections?.freight?.items as string[]) ?? []} />
 
             <HighlightBox variant="info">
-              <strong>{data?.sections?.freight?.highlight?.title ?? ''}</strong>{' '}
-              {data?.sections?.freight?.highlight?.text ?? ''}
+              <strong>{(data?.sections?.freight?.highlight as { title?: string } | undefined)?.title ?? ''}</strong>{' '}
+              {(data?.sections?.freight?.highlight as { text?: string } | undefined)?.text ?? ''}
             </HighlightBox>
           </ArticleSection>
 
@@ -220,7 +229,16 @@ export function RailwayPage({ staticData, lang }: RailwayPageProps) {
             <BulletList items={(data?.sections?.safety?.items as string[]) ?? []} />
 
             <HighlightBox variant="warning">
-              {data?.sections?.safety?.warning ?? ''}
+              {typeof data?.sections?.safety?.warning === 'string' ? (
+                data.sections.safety.warning
+              ) : (data?.sections?.safety?.warning as { title?: string; text?: string } | undefined) ? (
+                <>
+                  <strong>{(data?.sections?.safety?.warning as { title?: string })?.title ?? ''}</strong>{' '}
+                  {(data?.sections?.safety?.warning as { text?: string })?.text ?? ''}
+                </>
+              ) : (
+                ''
+              )}
             </HighlightBox>
           </ArticleSection>
         </div>

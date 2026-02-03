@@ -39,7 +39,121 @@
         "Dental equipment cleaning",
         "No chemical odors",
         "Cross-infection prevention"
-      ]
+      ],
+      "stats": {
+        "stat1": {
+          "value": "15-20",
+          "label": "Minutes",
+          "description": "Office disinfection between patients"
+        },
+        "stat2": {
+          "value": "99.9%",
+          "label": "Pathogens",
+          "description": "Destroyed during treatment"
+        },
+        "stat3": {
+          "value": "100%",
+          "label": "Coverage",
+          "description": "Of all surfaces and equipment"
+        },
+        "stat4": {
+          "value": "Ozone therapy",
+          "label": "Treatment",
+          "description": "Of caries and periodontal diseases"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Dental procedures carry a high risk of infection transmission: aerosols from turbine handpieces, contact with blood and saliva, large numbers of patients daily. Ozonation provides rapid and effective office disinfection, as well as therapeutic applications.",
+          "text2": "In addition to room disinfection, ozone is actively used therapeutically: treatment of carious cavities, periodontal disease treatment, root canal disinfection. Ozone therapy is a recognized field of modern dentistry."
+        },
+        "highlight1": {
+          "title": "Dentistry feature:",
+          "text": "When a turbine handpiece operates, fine aerosol containing bacteria and viruses from the patient's oral cavity is formed. This aerosol spreads throughout the office and settles on surfaces."
+        },
+        "applications": {
+          "title": "Ozone applications in dentistry",
+          "items": [
+            "Office disinfection between patient visits",
+            "Final office treatment at end of workday",
+            "Cleaning of water supply systems in dental units",
+            "Ozone therapy: caries treatment without drilling",
+            "Root canal treatment",
+            "Periodontal disease treatment",
+            "Disinfection of removable prostheses"
+          ]
+        },
+        "disinfection": {
+          "title": "Dental office disinfection",
+          "text": "Ozonation allows rapid office disinfection during technical breaks between patients. In 15-20 minutes, ozone destroys pathogens on all surfaces and in the air.",
+          "table": {
+            "caption": "Dental office ozonation modes",
+            "headers": ["Treatment type", "Concentration", "Time", "Frequency"],
+            "rows": [
+              ["Between patients", "5-10 mg/m³", "15-20 min", "After each visit"],
+              ["Lunch break", "10-15 mg/m³", "30-40 min", "Daily"],
+              ["End of workday", "15-20 mg/m³", "60 min", "Daily"],
+              ["After infectious patient", "20-30 mg/m³", "60-90 min", "As indicated"]
+            ]
+          },
+          "highlight": "Ozone penetrates hard-to-reach equipment areas: hoses, handpieces, water supply systems — places where traditional wiping is impossible."
+        },
+        "ozonotherapy": {
+          "title": "Ozone therapy in dentistry",
+          "text": "Therapeutic use of ozone in dentistry is one of the most developed fields of ozone therapy. Ozone has pronounced bactericidal, antiviral and fungicidal effects.",
+          "features": [
+            {
+              "title": "Caries treatment",
+              "description": "At early stages, ozone destroys bacteria and stops caries development without drilling"
+            },
+            {
+              "title": "Canal treatment",
+              "description": "Ozonated water and gas for root canal disinfection before filling"
+            },
+            {
+              "title": "Periodontitis treatment",
+              "description": "Ozone treatment of periodontal pockets reduces inflammation and destroys pathogens"
+            },
+            {
+              "title": "Wound healing",
+              "description": "Accelerated healing after tooth extraction, implantation, surgical interventions"
+            }
+          ],
+          "table": {
+            "caption": "Ozone use in therapeutic dentistry",
+            "headers": ["Indication", "Method", "Effect"],
+            "rows": [
+              ["Initial caries", "Gas 40-60 sec on lesion", "Remineralization, process stop"],
+              ["Deep caries", "Gas + ozonated water", "Cavity sterilization before filling"],
+              ["Pulpitis", "Ozonated water in canal", "Inflammation relief"],
+              ["Periodontitis", "Gas in pockets + irrigation", "80% reduction in bleeding"],
+              ["Stomatitis", "Ozonated water, rinses", "Healing in 3-5 days"]
+            ]
+          }
+        },
+        "waterSystems": {
+          "title": "Water supply system treatment",
+          "text": "Biofilms — bacterial colonies including Legionella and Pseudomonas — form in dental unit pipelines. Ozonated water effectively destroys biofilms and disinfects the system.",
+          "items": [
+            "Flushing ozonated water (2-3 mg/L) through system at end of day",
+            "Biofilm destruction on inner pipeline surfaces",
+            "Tank and filter disinfection",
+            "Improved water quality for irrigation"
+          ]
+        },
+        "benefits": {
+          "title": "Benefits for dental clinics",
+          "items": [
+            "Rapid office turnover — disinfection during breaks",
+            "Cross-infection prevention between patients",
+            "No chemical odors after treatment — patient comfort",
+            "Additional service — ozone therapy as modern treatment method",
+            "Compliance with dental clinic sanitary requirements",
+            "Reduced costs for disinfectants"
+          ],
+          "highlight": "Patients note pleasant office atmosphere after ozonation — fresh air without specific \"hospital\" odors. This increases loyalty and visit comfort."
+        }
+      }
     },
     "rehabilitation": {
       "title": "Rehabilitation centers",

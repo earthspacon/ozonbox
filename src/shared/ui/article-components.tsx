@@ -342,24 +342,20 @@ interface BreadcrumbProps {
 
 export function Breadcrumb({ items }: BreadcrumbProps) {
   return (
-    <div className="bg-bg-light border-border border-b">
-      <div className="container py-4">
-        <nav className="flex flex-wrap items-center gap-2 text-sm">
-          {items.map((item, i) => (
-            <span key={i} className="flex items-center gap-2">
-              {i > 0 && <span className="text-text-light">/</span>}
-              {item.href ? (
-                <a href={item.href} className="text-text-secondary hover:text-primary transition-colors">
-                  {item.label}
-                </a>
-              ) : (
-                <span className="text-text-primary font-medium">{item.label}</span>
-              )}
-            </span>
-          ))}
-        </nav>
-      </div>
-    </div>
+    <nav className="flex flex-wrap items-center gap-2 text-sm">
+      {items.map((item, i) => (
+        <span key={i} className="flex items-center gap-2">
+          {i > 0 && <span className="text-white/50">/</span>}
+          {item.href ? (
+            <a href={item.href} className="text-white/80 transition-colors hover:text-white">
+              {item.label}
+            </a>
+          ) : (
+            <span className="font-medium text-white">{item.label}</span>
+          )}
+        </span>
+      ))}
+    </nav>
   )
 }
 
@@ -369,17 +365,32 @@ interface ArticleHeroProps {
   image: string
   imageAlt: string
   backLink?: { href: string; label: string }
+  breadcrumbs?: BreadcrumbItem[]
+  topOffset?: number
 }
 
-export function ArticleHero({ title, description, image, imageAlt, backLink }: ArticleHeroProps) {
+export function ArticleHero({
+  title,
+  description,
+  image,
+  imageAlt,
+  backLink,
+  breadcrumbs,
+  topOffset = 80,
+}: ArticleHeroProps) {
   return (
-    <section className="relative min-h-[280px] overflow-hidden md:min-h-[360px]">
-      <div className="absolute inset-0 z-0">
-        <Image src={image} alt={imageAlt} fill className="object-cover" />
-        <div className="absolute inset-0 bg-black/65" aria-hidden />
+    <section className="flex flex-col" style={{ marginTop: topOffset }}>
+      <div className="container">
+        {breadcrumbs && (
+          <div className="pt-4 md:pt-6">
+            <Breadcrumb items={breadcrumbs} />
+          </div>
+        )}
       </div>
-      <div className="relative z-10 flex min-h-[280px] flex-col justify-end py-12 md:min-h-[360px] md:py-16">
-        <div className="container">
+      <div className="relative min-h-[320px] overflow-hidden md:min-h-[400px]">
+        <Image src={image} alt={imageAlt} fill className="object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/30" aria-hidden />
+        <div className="relative z-10 container flex min-h-[320px] flex-col justify-end pt-8 pb-10 md:min-h-[400px] md:pt-12 md:pb-14">
           {backLink && (
             <a
               href={backLink.href}
@@ -391,10 +402,10 @@ export function ArticleHero({ title, description, image, imageAlt, backLink }: A
               <span>{backLink.label}</span>
             </a>
           )}
-          <h1 className="mb-3 text-3xl font-bold text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)] md:text-4xl lg:text-5xl">
+          <h1 className="mb-4 text-3xl font-bold text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)] md:text-4xl lg:text-5xl">
             {title}
           </h1>
-          <p className="max-w-3xl text-base text-white/95 drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)] md:text-lg lg:text-xl">
+          <p className="max-w-3xl text-base text-white/90 drop-shadow-[0_1px_3px_rgba(0,0,0,0.4)] md:text-lg lg:text-xl">
             {description}
           </p>
         </div>

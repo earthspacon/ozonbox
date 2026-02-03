@@ -5,16 +5,11 @@ import { Layout } from '@/widgets/layout'
 
 import { ARTICLES } from '@/shared/config/articles-data'
 import { NAMESPACES } from '@/shared/config/tolgee'
-import { useIsLangInRoute, useLang } from '@/shared/lib/lang'
 import { AppLink } from '@/shared/ui/app-link'
 import { IconArrowRight } from '@/shared/ui/icons'
 
 export function ArticlesPage() {
   const { t } = useTranslate()
-  const lang = useLang()
-  const hasLangInRoute = useIsLangInRoute()
-  const articleBase = hasLangInRoute ? `/${lang}/articles` : '/articles'
-
   return (
     <Layout>
       <section className="page-header">
@@ -28,7 +23,7 @@ export function ArticlesPage() {
         <div className="container">
           <div className="article-grid">
             {ARTICLES.map((article) => (
-              <AppLink key={article.id} href={`${articleBase}/${article.slug}`} className="article-card">
+              <AppLink key={article.id} href={`/articles/${article.slug}`} className="article-card">
                 <div className="article-card__image">
                   <Image
                     src={article.image}

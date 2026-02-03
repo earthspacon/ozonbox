@@ -1,9 +1,10 @@
 import Image from 'next/image'
-import { useTranslate } from '@tolgee/react'
+import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
+import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { useLang } from '@/shared/lib'
 import { AppLink } from '@/shared/ui/app-link'
 import {
   ArticleSection,
@@ -21,9 +22,58 @@ import {
 import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
 import { Seo } from '@/shared/ui/seo'
 
-export function OfficesPage() {
+interface OfficesPageProps {
+  staticData: TolgeeStaticDataProp
+  lang: TLocale
+}
+
+interface SubcategoryData {
+  title: string
+  shortDesc: string
+  stats?: {
+    [key: string]: {
+      value: string
+      label: string
+      description: string
+    }
+  }
+  sections?: {
+    [key: string]: {
+      title?: string
+      intro?: string
+      paragraph1?: string
+      paragraph2?: string
+      text?: string
+      text2?: string
+      items?: string[] | Array<{ title: string; description: string }>
+      tableCaption?: string
+      tableHeaders?: string[]
+      tableData?: string[][]
+      steps?: Array<{ title: string; description: string }>
+      note?: string
+      highlight?: { title: string; text: string }
+      warning?: { title: string; text: string }
+      table?: {
+        caption?: string
+        headers?: string[]
+        rows?: string[][]
+        title?: string
+      }
+      features?: Array<{ title: string; description: string }>
+    }
+  }
+}
+
+export function OfficesPage({ staticData }: OfficesPageProps) {
   const { t } = useTranslate()
+  const lang = useLang()
   const ns = getCategoryNamespace('disinfection')
+
+  // get category data from staticData
+  const categoryData = (staticData as Record<string, { subcategories?: { offices?: SubcategoryData } }>)[
+    `${lang}:${ns}`
+  ]
+  const data = categoryData?.subcategories?.offices
 
   return (
     <Layout>
@@ -81,24 +131,29 @@ export function OfficesPage() {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value="2-5x"
-              label="Загрязнение"
-              description="Воздух в офисе грязнее уличного"
+              value={data?.stats?.pollution?.value ?? ''}
+              label={data?.stats?.pollution?.label ?? ''}
+              description={data?.stats?.pollution?.description ?? ''}
               variant="primary"
             />
             <StatCard
-              value="-40%"
-              label="Больничные"
-              description="Снижение заболеваемости персонала"
+              value={data?.stats?.sickLeave?.value ?? ''}
+              label={data?.stats?.sickLeave?.label ?? ''}
+              description={data?.stats?.sickLeave?.description ?? ''}
               variant="accent"
             />
             <StatCard
-              value="1-2 ч"
-              label="Обработка"
-              description="Достаточно для полной дезинфекции"
+              value={data?.stats?.treatment?.value ?? ''}
+              label={data?.stats?.treatment?.label ?? ''}
+              description={data?.stats?.treatment?.description ?? ''}
               variant="primary"
             />
-            <StatCard value="0" label="Остатков" description="Химических веществ после обработки" variant="accent" />
+            <StatCard
+              value={data?.stats?.residues?.value ?? ''}
+              label={data?.stats?.residues?.label ?? ''}
+              description={data?.stats?.residues?.description ?? ''}
+              variant="accent"
+            />
           </StatGrid>
         </div>
       </section>
@@ -107,187 +162,90 @@ export function OfficesPage() {
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>
-              Офис — это лицо компании. Загрязнённый воздух с неприятным запахом наносит вред персоналу, снижает
-              трудоспособность и лояльность к работодателю, отрицательно действует на имидж компании среди клиентов и
-              партнёров.
-            </Paragraph>
-            <Paragraph>
-              Учёные выяснили, что в большинстве зданий концентрации вредных и токсичных химических веществ в воздухе в
-              2-5 раз выше, чем на улице. А в некоторых офисах уровень загрязнения воздуха по отдельным токсинам внутри
-              помещения выше, чем снаружи в 70 раз.
-            </Paragraph>
+            <Paragraph>{data?.sections?.intro?.text ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.text2 ?? ''}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="warning">
-            <strong>Источники загрязнения офисного воздуха:</strong> бензол, формальдегид, аммиак выделяются из мебели,
-            ковров, оргтехники и отделочных материалов. Традиционная вентиляция и кондиционирование лишают воздух
-            природной свежести.
+            <strong>{data?.sections?.highlight1?.title ?? ''}</strong> {data?.sections?.highlight1?.text ?? ''}
           </HighlightBox>
 
-          <ArticleSection title="Проблема качества воздуха в офисах">
-            <Paragraph>
-              Воздух теряет свою «свежесть» после прохождения через кондиционеры и нагревательные приборы. В результате
-              уровень содержания озона и ионов снижается на 90%. Последствием недостатка этих природных компонентов
-              воздуха стали жалобы людей на частую головную боль, слабость и плохое самочувствие — «синдром закрытых
-              помещений».
-            </Paragraph>
-            <BulletList
-              items={[
-                'Бензол — из красок, ковров, штор и обивки мебели',
-                'Аммиак — из табачного дыма и моющих средств',
-                'Формальдегид — из фанеры, мебели, ДСП, офисных перегородок',
-                'Трихлорэтилен — из краски, клея, мебели и обоев',
-                'Хлороформ — из красок, ковров и штор',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.airQuality?.title ?? ''}>
+            <Paragraph>{data?.sections?.airQuality?.text ?? ''}</Paragraph>
+            <BulletList items={(data?.sections?.airQuality?.items as string[]) ?? []} />
           </ArticleSection>
 
-          <ArticleSection title="Эффективность озонирования">
-            <Paragraph>
-              Исследования показали, что при добавлении в воздух озона до уровня 15 частиц на миллиард (0,03 мг/м³),
-              полученный эффект соответствует прогулке на свежем воздухе в течение двух часов. У сотрудников наблюдалось
-              укрепление иммунной системы, повышение содержания кислорода в крови, улучшение кровяного давления.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.effectiveness?.title ?? ''}>
+            <Paragraph>{data?.sections?.effectiveness?.text ?? ''}</Paragraph>
 
             <DataTable
-              caption="Результаты исследований воздействия озона в офисах"
-              headers={['Показатель', 'До озонирования', 'После озонирования']}
-              rows={[
-                ['Частота головных болей', 'Часто', 'Редко'],
-                ['Работоспособность', '70%', '100%'],
-                ['Концентрация внимания', 'Сниженная', 'Нормальная'],
-                ['Заболеваемость ОРВИ', '15-20% в сезон', '8-10% в сезон'],
-                ['Удовлетворённость атмосферой', '45%', '89%'],
-              ]}
+              caption={data?.sections?.effectiveness?.table?.caption}
+              headers={data?.sections?.effectiveness?.table?.headers ?? []}
+              rows={data?.sections?.effectiveness?.table?.rows ?? []}
             />
           </ArticleSection>
 
-          <ArticleSection title="Что дезинфицирует озон в офисе">
-            <Paragraph>
-              Озон дезинфицирует все поверхности, к которым прикасаются сотрудники и посетители. Газ проникает в щели и
-              труднодоступные места за оборудованием, в системы вентиляции.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.whatDisinfects?.title ?? ''}>
+            <Paragraph>{data?.sections?.whatDisinfects?.text ?? ''}</Paragraph>
 
-            <BulletList
-              items={[
-                'Рабочие столы и столешницы',
-                'Подлокотники кресел и стулья',
-                'Клавиатуры, мыши, телефоны',
-                'Дверные ручки и перила',
-                'Оргтехника и кофемашины',
-                'Переговорные и коворкинг-зоны',
-                'Системы вентиляции и кондиционирования',
-              ]}
-            />
+            <BulletList items={(data?.sections?.whatDisinfects?.items as string[]) ?? []} />
           </ArticleSection>
 
-          <ArticleSection title="Режим обработки офисов">
-            <Paragraph>
-              Озонирование офисов и коворкингов проводится в ночное время. Оборудование работает автоматически по
-              таймеру. К приходу персонала озон выветривается, оставляя лёгкий запах свежести.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.treatmentMode?.title ?? ''}>
+            <Paragraph>{data?.sections?.treatmentMode?.text ?? ''}</Paragraph>
 
-            <ProcessList
-              steps={[
-                {
-                  title: 'Подготовка помещения',
-                  description:
-                    'Закройте все окна и двери. Отключите приточную вентиляцию. Убедитесь, что в помещении нет людей.',
-                },
-                {
-                  title: 'Запуск озонатора',
-                  description:
-                    'Включите озонатор на 40-120 минут в зависимости от объёма помещения. Производительность: 1 г/ч на 25 м³.',
-                },
-                {
-                  title: 'Экспозиция',
-                  description:
-                    'Озон распространяется по помещению, проникая во все щели и дальние углы. Концентрация достигает необходимого уровня.',
-                },
-                {
-                  title: 'Проветривание',
-                  description:
-                    'Через 2-3 часа после окончания обработки озон разложится до безопасного уровня. Активное проветривание не требуется.',
-                },
-              ]}
-            />
+            <ProcessList steps={data?.sections?.treatmentMode?.steps ?? []} />
 
             <DataTable
-              caption="Рекомендуемые режимы озонирования офисов"
-              headers={['Тип помещения', 'Объём', 'Производительность', 'Время обработки']}
-              rows={[
-                ['Кабинет', 'до 50 м³', '2-3 г/ч', '60 мин'],
-                ['Open space', '100-300 м³', '5-10 г/ч', '90 мин'],
-                ['Переговорная', '30-50 м³', '2 г/ч', '40 мин'],
-                ['Коворкинг', '200-500 м³', '10-20 г/ч', '120 мин'],
-              ]}
+              caption={data?.sections?.treatmentMode?.table?.caption}
+              headers={data?.sections?.treatmentMode?.table?.headers ?? []}
+              rows={data?.sections?.treatmentMode?.table?.rows ?? []}
             />
           </ArticleSection>
 
-          <ArticleSection title="Сравнение методов очистки воздуха">
+          <ArticleSection title={data?.sections?.comparison?.title ?? ''}>
             <ComparisonTable
-              title="Озонирование vs другие методы"
-              headers={['Параметр', 'Озонирование', 'Химическая уборка']}
-              rows={[
-                { parameter: 'Дезинфекция воздуха', value1: 'Да', value2: 'Нет' },
-                { parameter: 'Труднодоступные места', value1: 'Да (газ проникает везде)', value2: 'Нет' },
-                { parameter: 'Нейтрализация токсинов', value1: 'Да', value2: 'Нет' },
-                { parameter: 'Устранение запахов', value1: 'Полное', value2: 'Маскировка' },
-                { parameter: 'Химические остатки', value1: 'Нет (распад на O₂)', value2: 'Да' },
-                { parameter: 'Время восстановления', value1: '2-3 часа', value2: 'Сразу' },
-              ]}
+              title={data?.sections?.comparison?.table?.title}
+              headers={
+                (data?.sections?.comparison?.table?.headers as unknown as [string, string, string]) ?? [
+                  '',
+                  '',
+                  '',
+                ]
+              }
+              rows={
+                (data?.sections?.comparison?.table?.rows as unknown as Array<{
+                  parameter: string
+                  value1: string
+                  value2: string
+                }>) ?? []
+              }
             />
           </ArticleSection>
 
-          <ArticleSection title="Преимущества для работодателя">
+          <ArticleSection title={data?.sections?.benefits?.title ?? ''}>
             <FeatureGrid columns={2}>
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Снижение больничных"
-                description="Уменьшение заболеваемости персонала на 30-40% в сезон ОРВИ"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Рост продуктивности"
-                description="Чистый воздух повышает концентрацию и работоспособность"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Имидж компании"
-                description="Забота о здоровье сотрудников — элемент корпоративной культуры"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Автоматизация"
-                description="Работа по таймеру без участия персонала в ночное время"
-              />
+              {((data?.sections?.benefits?.features as Array<{ title: string; description: string }>) ?? []).map(
+                (feature, index) => (
+                  <FeatureCard
+                    key={index}
+                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                    title={feature.title}
+                    description={feature.description}
+                  />
+                ),
+              )}
             </FeatureGrid>
           </ArticleSection>
 
-          <ArticleSection title="Устранение запаха туалета">
-            <Paragraph>
-              Запах туалета — одна из самых распространённых проблем офисных зданий. Причины могут быть разные:
-              негерметичность соединений труб, «опрокидывание» вентиляции, образование мочевого камня.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.toiletOdor?.title ?? ''}>
+            <Paragraph>{data?.sections?.toiletOdor?.text ?? ''}</Paragraph>
 
-            <HighlightBox variant="info">
-              Для устранения запаха туалета установите озонатор производительностью 0,5 г/ч для круглосуточного
-              озонирования или 5 г/ч для ночной обработки. Озон разлагает пахнущие органические вещества до простейших
-              соединений без запаха.
-            </HighlightBox>
+            <HighlightBox variant="info">{data?.sections?.toiletOdor?.highlight?.text ?? ''}</HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Требования безопасности">
-            <BulletList
-              items={[
-                'Обработка проводится в отсутствие людей',
-                'ПДК озона в рабочей зоне — 0,1 мг/м³',
-                'После обработки ночью проветривание не требуется',
-                'Персонал, открывающий помещение после обработки, использует респиратор',
-                'Оборудование работает по таймеру автоматически',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.safety?.title ?? ''}>
+            <BulletList items={(data?.sections?.safety?.items as string[]) ?? []} />
           </ArticleSection>
         </div>
       </article>

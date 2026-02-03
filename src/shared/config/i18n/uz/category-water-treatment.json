@@ -23,7 +23,286 @@
         "disinfectionRate": "99.99%",
         "phRange": "6.5-8.5"
       },
-      "regulations": ["Drinking water standards", "Bottled water standards", "Water quality norms"]
+      "regulations": ["Drinking water standards", "Bottled water standards", "Water quality norms"],
+      "stats": {
+        "disinfection": {
+          "value": "99.99%",
+          "label": "Dezinfeksiya",
+          "description": "Patogenlarni yo'q qilish"
+        },
+        "byproducts": {
+          "value": "0",
+          "label": "Yon mahsulotlar",
+          "description": "Kantserogen birikmalar"
+        },
+        "chlorine": {
+          "value": "3000×",
+          "label": "Xlordan kuchliroq",
+          "description": "Bakteritsid faollik"
+        },
+        "decay": {
+          "value": "O₂",
+          "label": "Parchalanish",
+          "description": "Faqat toza kislorod"
+        }
+      },
+      "content": {
+        "intro1": "Ichimlik suvini ozonlash rivojlangan mamlakatlarda sifat standartidir. Ozon barcha turdagi patogenlarni yo'q qiladi: bakteriyalar, viruslar, sporalar va protozoonlar sislari 99.99% samaradorlik bilan. Xlorlashdan farqli o'laroq, ozon kantserogen trihalometanlar va boshqa xavfli yon mahsulotlarni hosil qilmaydi.",
+        "intro2": "Ozon suvni tayyorlashda qo'llaniladigan eng kuchli oksidlovchidir. Bakteritsid ta'siri bo'yicha xlorni 3000 marta oshadi, qolgan ozon esa 20-30 daqiqada kislorodga parchalanadi va suvda kimyoviy iz qoldirmaydi."
+      },
+      "highlightBox": {
+        "regulation": {
+          "label": "Ichimlik suvi standartlari:",
+          "text": "Xlorlash yon mahsulotlarining (galogenli birikmalar) xavfini hisobga olgan holda, alternativ dezinfeksiya usullariga ustuvorlik berilishi kerak. Ozon xavfsizroq alternativa sifatida rasman tavsiya etiladi."
+        }
+      },
+      "sections": {
+        "comparison": {
+          "title": "Suvni dezinfeksiya qilish usullarini solishtirish",
+          "headers": {
+            "parameter": "Parametr",
+            "ozonation": "Ozonlash",
+            "chlorination": "Xlorlash"
+          },
+          "rows": {
+            "bacteria": {
+              "parameter": "Bakteriyalarga qarshi samaradorlik",
+              "value1": "99.99%",
+              "value2": "99.5%"
+            },
+            "viruses": {
+              "parameter": "Viruslarga qarshi samaradorlik",
+              "value1": "99.99%",
+              "value2": "90-95%"
+            },
+            "cysts": {
+              "parameter": "Sislarga qarshi samaradorlik",
+              "value1": "99.9%",
+              "value2": "< 50%"
+            },
+            "time": {
+              "parameter": "Dezinfeksiya vaqti",
+              "value1": "2-10 daqiqa",
+              "value2": "30-60 daqiqa"
+            },
+            "byproducts": {
+              "parameter": "Yon mahsulotlar",
+              "value1": "Yo'q (O₂)",
+              "value2": "Trihalometanlar (kantserogenlar)"
+            },
+            "taste": {
+              "parameter": "Ta'mga ta'siri",
+              "value1": "Yaxshilaydi",
+              "value2": "Xlor hid"
+            },
+            "color": {
+              "parameter": "Rangga ta'siri",
+              "value1": "Kamaytiradi",
+              "value2": "Ta'sir qilmaydi"
+            },
+            "prolonged": {
+              "parameter": "Uzoq muddatli ta'sir",
+              "value1": "Yo'q",
+              "value2": "Ha"
+            }
+          }
+        },
+        "technicalParams": {
+          "title": "Ozonlash texnik parametrlari",
+          "caption": "Ichimlik suvi uchun tavsiya etilgan parametrlar",
+          "headers": {
+            "parameter": "Parametr",
+            "value": "Qiymat",
+            "document": "Normativ hujjat"
+          },
+          "rows": {
+            "ozoneDose": {
+              "parameter": "Ozon dozasi",
+              "value": "1-3 mg/L",
+              "document": "Suv sifatiiga qarab"
+            },
+            "residualOzone": {
+              "parameter": "Qolgan ozon",
+              "value": "0.1-0.3 mg/L",
+              "document": "Ichimlik suvi standartlari"
+            },
+            "contactTime": {
+              "parameter": "Kontakt vaqti",
+              "value": "4-10 daqiqa",
+              "document": "10-20°C haroratda"
+            },
+            "ph": {
+              "parameter": "Suv pH",
+              "value": "6.5-8.5",
+              "document": "Optimal diapazon"
+            },
+            "temperature": {
+              "parameter": "Suv harorati",
+              "value": "4-25°C",
+              "document": "Samarali diapazon"
+            },
+            "turbidity": {
+              "parameter": "Manba suvining loyqaligi",
+              "value": "< 2 NTU",
+              "document": "Tavsiya"
+            }
+          },
+          "highlightBox": {
+            "label": "Muhim:",
+            "text": "1-3 mg/L ozon dozasi to'liq suv dezinfeksiyasini ta'minlaydi. Yuqori organik yukda, organik birikmalarni oksidlash uchun doza 5 mg/L gacha oshiriladi."
+          }
+        },
+        "process": {
+          "title": "Ozonlash jarayoni",
+          "steps": {
+            "preTreatment": {
+              "title": "Oldindan tozalash",
+              "description": "Mexanik aralashmalar va suyuq moddalarni olib tashlash. Samarali ozonlash uchun suvning loyqaligi < 2 NTU bo'lishi kerak."
+            },
+            "generation": {
+              "title": "Ozon ishlab chiqarish",
+              "description": "Tozalangan havo yoki kisloroddan korona razryad usuli bilan ozon olish. Gazdagi ozon kontsentratsiyasi: 8-12% (kisloroddan) yoki 2-3% (havodan)."
+            },
+            "dissolution": {
+              "title": "Ozon eritish",
+              "description": "Ozon-havo aralashmasini ejektor yoki barboter orqali suv bilan aralashtirish. Eritish samaradorligi: 85-95%."
+            },
+            "contactChamber": {
+              "title": "Kontakt kamerasi",
+              "description": "Oksidlanish va dezinfeksiya reaktsiyalarini yakunlash uchun kontakt kamerada suvni 4-10 daqiqa ushlab turish."
+            },
+            "degassing": {
+              "title": "Degazatsiya",
+              "description": "Tarqatish tarmog'iga uzatishdan oldin suvdan qolgan ozonni olib tashlash. Qolgan kontsentratsiya: < 0.1 mg/L."
+            },
+            "postChlorination": {
+              "title": "Post-xlorlash (ixtiyoriy)",
+              "description": "Tarqatish tarmog'ida uzoq muddatli ta'sir uchun minimal xlor dozasi (0.3-0.5 mg/L) qo'shish."
+            }
+          }
+        },
+        "pathogens": {
+          "title": "Ozon ichimlik suvida nimani yo'q qiladi",
+          "items": {
+            "bacteria": "Bakteriyalar: E.coli, salmonella, xolera vibrioni, legionella — 2 daqiqada 99.99%",
+            "viruses": "Viruslar: gepatit A, rotaviruslar, enteroviruslar, noroviruslar — 4 daqiqada 99.99%",
+            "protozoa": "Protozoonlar: giardiya, kriptosporidium (xlorga chidamli!) — 5 daqiqada 99.9%",
+            "spores": "Bakteriya sporalari: quturish, klostridiyalar — 10 daqiqada 99%",
+            "organic": "Organik ifloslanishlar: fenollar, pestitsidlar, neft mahsulotlari — CO₂ va H₂O ga oksidlanish",
+            "metals": "Temir va marganets: keyingi filtratsiya uchun erimaydigan shakllarga oksidlanish"
+          }
+        },
+        "effectiveness": {
+          "title": "Dezinfeksiya samaradorligi",
+          "caption": "Patogenlarni inaktivatsiya qilish vaqti (CT qiymati, mg×min/L)",
+          "headers": {
+            "pathogen": "Patogen",
+            "ozone": "Ozon",
+            "chlorine": "Xlor",
+            "uv": "UV (mJ/cm²)"
+          },
+          "rows": {
+            "eColi": {
+              "pathogen": "E. coli",
+              "ozone": "0.02",
+              "chlorine": "0.4",
+              "uv": "7"
+            },
+            "polio": {
+              "pathogen": "Poliomielit virusi",
+              "ozone": "0.3",
+              "chlorine": "1.7",
+              "uv": "30"
+            },
+            "rotavirus": {
+              "pathogen": "Rotavirus",
+              "ozone": "0.4",
+              "chlorine": "3.5",
+              "uv": "40"
+            },
+            "giardia": {
+              "pathogen": "Giardiya (sislar)",
+              "ozone": "0.6",
+              "chlorine": "50",
+              "uv": "80"
+            },
+            "cryptosporidium": {
+              "pathogen": "Kriptosporidium",
+              "ozone": "3.0",
+              "chlorine": "> 7200",
+              "uv": "12"
+            }
+          },
+          "highlightBox": "Ozon ayniqsa kriptosporidiumga qarshi samarali — diareyaga olib keladigan parazitlar. Ular deyarli xlorlashga chidamli (inaktivatsiya uchun 7200 mg×min/L dan ko'p xlor kerak), lekin ozonga zaif."
+        },
+        "benefits": {
+          "title": "Ichimlik suvini ozonlashning afzalliklari",
+          "items": {
+            "safety": {
+              "title": "Xavfsizlik",
+              "description": "Kantserogen yon mahsulotlarni hosil qilmaydi. 20-30 daqiqada kislorodga parchalanadi."
+            },
+            "effectiveness": {
+              "title": "Samaradorlik",
+              "description": "Xlorga chidamli kriptosporidiumni o'z ichiga olgan holda patogenlarning 99.99% ni yo'q qiladi."
+            },
+            "quality": {
+              "title": "Sifatni yaxshilash",
+              "description": "Yoqimsiz ta'm va hidni bartaraf etadi, suv rangini yaxshilaydi."
+            },
+            "compliance": {
+              "title": "Normativlarga muvofiqlik",
+              "description": "Ichimlik suvi standartlari va xalqaro standartlarga to'liq mos keladi."
+            }
+          }
+        },
+        "productivity": {
+          "title": "Ozonlash tizimlarining unumdorligi",
+          "caption": "Suvni tayyorlash uchun tavsiya etilgan uskunalar",
+          "headers": {
+            "capacity": "Stansiya quvvati",
+            "power": "Ozonator quvvati",
+            "chamber": "Kontakt kamerasi"
+          },
+          "rows": {
+            "row1": {
+              "capacity": "10 m³/h",
+              "power": "20-30 g/h",
+              "chamber": "1-2 m³"
+            },
+            "row2": {
+              "capacity": "50 m³/h",
+              "power": "100-150 g/h",
+              "chamber": "5-10 m³"
+            },
+            "row3": {
+              "capacity": "100 m³/h",
+              "power": "200-300 g/h",
+              "chamber": "10-20 m³"
+            },
+            "row4": {
+              "capacity": "500 m³/h",
+              "power": "1000-1500 g/h",
+              "chamber": "50-100 m³"
+            },
+            "row5": {
+              "capacity": "1000 m³/h",
+              "power": "2000-3000 g/h",
+              "chamber": "100-200 m³"
+            }
+          }
+        },
+        "regulations": {
+          "title": "Normativ bazasi",
+          "items": {
+            "item1": "Ichimlik suvi standartlari «Ichimlik suvi. Suv sifati uchun gigiyena talablari»",
+            "item2": "Idishlarda suv standartlari «Ichimlik suvi. Idishlarda suv uchun gigiyena talablari»",
+            "item3": "GOST R 51232-98 «Ichimlik suvi. Tashkilot va sifat nazorati usullariga umumiy talablar»",
+            "item4": "MUK 4.3.2030-05 «Nazorat usullari. Fizik omillar. Ozon va uning gigiyena tartibi»",
+            "item5": "GN 2.1.5.1315-03 «Suv ob'ektlaridagi kimyoviy moddalarning maksimal ruxsat etilgan kontsentratsiyalari»"
+          }
+        }
+      }
     },
     "wastewater": {
       "title": "Wastewater",
@@ -46,30 +325,525 @@
         "disinfectionRate": "99.9%",
         "colorReduction": "up to 80%"
       },
-      "regulations": ["Wastewater discharge standards", "Environmental norms", "Water protection regulations"]
+      "regulations": ["Wastewater discharge standards", "Environmental norms", "Water protection regulations"],
+      "stats": {
+        "bpkReduction": {
+          "value": "95%",
+          "label": "BKP kamayishi",
+          "description": "Biokimyoviy kislorod talabi"
+        },
+        "disinfection": {
+          "value": "99.9%",
+          "label": "Dezinfeksiya",
+          "description": "Patogen mikroflorani olib tashlash"
+        },
+        "toxicCompounds": {
+          "value": "0",
+          "label": "Toksik birikmalar",
+          "description": "Xlorlashdan farqli o'laroq"
+        },
+        "colorReduction": {
+          "value": "80%",
+          "label": "Rangni kamaytirish",
+          "description": "Suv shaffofligini yaxshilash"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Chiqindi suvlarni ozonlash - suv havzalariga chiqarish yoki suvni qayta ishlatishdan oldin yakuniy bosqich sifatida qo'llaniladigan chuqur tozalashning zamonaviy usuli. Ozon - murakkab organik birikmalarni samarali parchalaydigan kuchli oksidlovchi bo'lib, toksik xlororganik birikmalarni hosil qilmasdan dezinfeksiyani ta'minlaydi.",
+          "paragraph2": "Usul fenollar, neft mahsulotlari, sirt faol moddalar (SAS), pestitsidlar va boshqa qiyin oksidlanadigan organik birikmalarni o'z ichiga olgan sanoat chiqindilarini tozalash uchun ayniqsa samarali. Ozonlashdan keyin suv uzun dexloringizsiz suv havzalariga chiqarish uchun xavfsiz."
+        },
+        "ecologicalAdvantage": {
+          "label": "Ekologik afzallik:",
+          "text": "Xlorlashdan farqli o'laroq, ozon suv ekotizimlari uchun xavfli bo'lgan toksik xlororganik birikmalarni hosil qilmaydi. Qayta ishlashdan keyin ozon kislorodga parchalanadi va suvni qo'shimcha ravishda aeratsiya qiladi."
+        },
+        "comparison": {
+          "title": "Chiqindi suvlarni dezinfeksiya qilish usullarini solishtirish",
+          "headers": {
+            "parameter": "Parametr",
+            "ozonation": "Ozonlash",
+            "chlorination": "Xlorlash"
+          },
+          "rows": {
+            "disinfection": {
+              "parameter": "Dezinfeksiya samaradorligi",
+              "value1": "99.9%",
+              "value2": "99%"
+            },
+            "oxidation": {
+              "parameter": "Organik oksidlanish",
+              "value1": "Yuqori",
+              "value2": "Past"
+            },
+            "byproducts": {
+              "parameter": "Yon mahsulotlar",
+              "value1": "O₂ (xavfsiz)",
+              "value2": "Xlororganik (toksik)"
+            },
+            "dechlorination": {
+              "parameter": "Dexloringiz talab qilinadi",
+              "value1": "Yo'q",
+              "value2": "Ha"
+            },
+            "codBod": {
+              "parameter": "XPK/BKP ga ta'siri",
+              "value1": "50-95% ga kamaytiradi",
+              "value2": "Minimal"
+            },
+            "colorRemoval": {
+              "parameter": "Rangni olib tashlash",
+              "value1": "Ha (80% gacha)",
+              "value2": "Yo'q"
+            },
+            "odorRemoval": {
+              "parameter": "Hidni olib tashlash",
+              "value1": "Ha",
+              "value2": "Yashiradi"
+            },
+            "safety": {
+              "parameter": "Suv havzalari uchun xavfsizlik",
+              "value1": "Yuqori",
+              "value2": "Nazorat talab qiladi"
+            }
+          }
+        },
+        "technicalParams": {
+          "title": "Chiqindi suvlarni ozonlashning texnik parametrlari",
+          "caption": "Chiqindi turiga qarab tavsiya etilgan ozon dozalari",
+          "headers": {
+            "type": "Chiqindi suv turi",
+            "dose": "Ozon dozasi, mg/L",
+            "contactTime": "Kontakt vaqti, min"
+          },
+          "rows": {
+            "domestic": {
+              "type": "Uy-joy (biologik tozalashdan keyin)",
+              "dose": "5-15",
+              "contactTime": "10-15"
+            },
+            "industrial": {
+              "type": "Sanoat (organik)",
+              "dose": "20-50",
+              "contactTime": "15-30"
+            },
+            "oil": {
+              "type": "Neft o'z ichiga olgan chiqindilar",
+              "dose": "30-100",
+              "contactTime": "20-40"
+            },
+            "phenol": {
+              "type": "Fenol o'z ichiga olgan chiqindilar",
+              "dose": "15-30",
+              "contactTime": "15-20"
+            },
+            "surfactant": {
+              "type": "Sirt faol moddalar o'z ichiga olgan chiqindilar",
+              "dose": "10-25",
+              "contactTime": "10-20"
+            },
+            "food": {
+              "type": "Oziq-ovqat sanoati chiqindilari",
+              "dose": "10-20",
+              "contactTime": "10-15"
+            }
+          },
+          "highlightBox": {
+            "label": "Ozon dozasi hisobi:",
+            "text": "1 g BKP (biokimyoviy kislorod talabi) uchun 1-3 g ozon, 1 g neft mahsulotlari uchun 7-10 g ozon. Aniq doza ma'lum chiqindilar uchun eksperimental ravishda aniqlanadi."
+          }
+        },
+        "process": {
+          "title": "Chiqindi suvlarni tozalash jarayoni",
+          "steps": {
+            "mechanical": {
+              "title": "Mexanik tozalash",
+              "description": "Qo'pol aralashmalar, qum, suyuq moddalarni olib tashlash. Ozonlashdan oldin majburiy bosqich."
+            },
+            "biological": {
+              "title": "Biologik tozalash",
+              "description": "BKP ni 15-30 mg/L gacha kamaytirish uchun aerobik yoki anaerobik biologik tozalash. Ozonlash bu bosqichdan keyin qo'llaniladi."
+            },
+            "generation": {
+              "title": "Ozon ishlab chiqarish",
+              "description": "Korona razryad usuli bilan kisloroddan ozon olish. Gazdagi ozon kontsentratsiyasi: 6-12%."
+            },
+            "contactChamber": {
+              "title": "Kontakt kamerasi",
+              "description": "Ozon-havo aralashmasini ifloslanish darajasiga qarab 10-30 daqiqa kontakt vaqti bilan barboter tizimi orqali chiqindilar bilan aralashtirish."
+            },
+            "clarification": {
+              "title": "Tozalash",
+              "description": "Oksidlangan erimaydigan birikmalarni olib tashlash uchun cho'ktirish yoki filtratsiya."
+            },
+            "qualityControl": {
+              "title": "Sifat nazorati",
+              "description": "Chiqarish standartlariga muvofiqlik uchun tozalangan suvni tahlil qilish: BKP, XPK, suyuq moddalar, koli-indeks."
+            }
+          }
+        },
+        "pollutants": {
+          "title": "Ozonlash orqali olib tashlanadigan ifloslantiruvchilar",
+          "items": {
+            "phenols": "Fenollar va nitrofenollar: CO₂ va H₂O ga oksidlanish, MPC darajasiga kamaytirish",
+            "oilProducts": "Neft mahsulotlari: oddiy organik kislotalarga parchalanish",
+            "surfactants": "Sirt faol moddalar (SAS): molekulyar struktura parchalanishi",
+            "pesticides": "Pestitsidlar va gerbitsidlar: toksik bo'lmagan birikmalarga oksidlanish",
+            "dyes": "Bo'yoqlar va pigmentlar: chiqindilarni to'liq rangsizlantirish",
+            "pathogens": "Patogen mikroflora: bakteriyalar, viruslar, gelmint tuxumlarini inaktivatsiya qilish",
+            "ammonium": "Ammony azot: nitratlarga oksidlanish",
+            "hydrogenSulfide": "Vodorod sulfidi va merkaptanlar: yoqimsiz hidlarni bartaraf etish"
+          }
+        },
+        "results": {
+          "title": "Chiqindi suvlarni ozonlash natijalari",
+          "caption": "Uy-joy chiqindilarini tozalash samaradorligi (eksperimental ma'lumotlar)",
+          "headers": {
+            "parameter": "Parametr",
+            "before": "Ozonlashdan oldin",
+            "after": "Ozonlashdan keyin",
+            "efficiency": "Samaradorlik"
+          },
+          "rows": {
+            "color": {
+              "parameter": "Rang, daraja",
+              "before": "70-100",
+              "after": "10-20",
+              "efficiency": "80-85%"
+            },
+            "turbidity": {
+              "parameter": "Loyqalik, mg/L",
+              "before": "30-50",
+              "after": "5-10",
+              "efficiency": "75-80%"
+            },
+            "bod": {
+              "parameter": "BKP₅, mg/L",
+              "before": "20-30",
+              "after": "3-5",
+              "efficiency": "85-90%"
+            },
+            "cod": {
+              "parameter": "XPK, mg/L",
+              "before": "50-80",
+              "after": "15-25",
+              "efficiency": "65-70%"
+            },
+            "coliIndex": {
+              "parameter": "Koli-indeks",
+              "before": "10,000",
+              "after": "< 1,000",
+              "efficiency": "> 90%"
+            },
+            "odor": {
+              "parameter": "Hid",
+              "before": "Botqoq-fekal",
+              "after": "Yo'q",
+              "efficiency": "100%"
+            }
+          },
+          "paragraph": "Ma'lumotlar kontakt kamerada 15 daqiqa kontakt vaqti bilan 50 mg/L ozon dozasi bilan chiqindilarni qayta ishlashda olingan. 50 mg/L dan yuqori ozon dozalarida rang, loyqalik va hid yo'qoladi, koli-indeks normativ qiymatlarga kamayadi."
+        },
+        "benefits": {
+          "title": "Chiqindi suvlarni ozonlashning afzalliklari",
+          "items": {
+            "wasteFree": {
+              "title": "Chiqindisiz jarayon",
+              "description": "Ozon havo kislorodidan sintez qilinadi va kislorodga parchalanadi. Reagent sotib olish yoki saqlash talab qilinmaydi."
+            },
+            "universality": {
+              "title": "Universal",
+              "description": "Har qanday organik ifloslantiruvchilarga qarshi samarali: fenollar, neft mahsulotlari, sirt faol moddalar, pestitsidlar."
+            },
+            "ecologicalSafety": {
+              "title": "Ekologik xavfsizlik",
+              "description": "Toksik yon mahsulotlarni hosil qilmaydi. Suv dexloringizsiz suv havzalariga chiqarish uchun xavfsiz."
+            },
+            "reuse": {
+              "title": "Qayta ishlatish",
+              "description": "Ozonlashdan keyin suv texnik maqsadlarda ishlatilishi mumkin: sug'orish, yuvish, sovutish."
+            }
+          }
+        },
+        "applications": {
+          "title": "Qo'llash sohalari",
+          "caption": "Korxona turlari va chiqindi suvlarni ozonlash xususiyatlari",
+          "headers": {
+            "industry": "Sanoat",
+            "pollutants": "Asosiy ifloslantiruvchilar",
+            "dose": "Ozon dozasi, mg/L"
+          },
+          "rows": {
+            "refineries": {
+              "industry": "Neftni qayta ishlash zavodlari",
+              "pollutants": "Neft mahsulotlari, fenollar, sulfidlar",
+              "dose": "50-100"
+            },
+            "chemical": {
+              "industry": "Kimyoviy zavodlar",
+              "pollutants": "Organik erituvchilar, sirt faol moddalar",
+              "dose": "30-80"
+            },
+            "food": {
+              "industry": "Oziq-ovqat ishlab chiqarish",
+              "pollutants": "Yog'lar, oqsillar, organik kislotalar",
+              "dose": "15-30"
+            },
+            "textile": {
+              "industry": "To'qimachilik fabrikalari",
+              "pollutants": "Bo'yoqlar, sirt faol moddalar",
+              "dose": "20-50"
+            },
+            "paper": {
+              "industry": "Sellyuloza-qog'oz kombinatlari",
+              "pollutants": "Lignin, smolalar",
+              "dose": "30-60"
+            },
+            "municipal": {
+              "industry": "Shahar tozalash inshootlari",
+              "pollutants": "Biologik tozalashdan keyin uy-joy chiqindilari",
+              "dose": "10-20"
+            }
+          }
+        },
+        "regulations": {
+          "title": "Chiqarish uchun normativ talablar",
+          "items": {
+            "item1": "SanPiN 2.1.5.980-00 «Yuzaki suvlarni himoya qilish uchun gigiyena talablari»",
+            "item2": "Uy-joy va ichimlik suvi uchun suv ob'ektlaridagi zararli moddalarning MPC",
+            "item3": "Tabiiy resurslar vazirligining 17.12.2007 yildagi 333-sonli buyrug'i «MPD ishlab chiqish metodikasini tasdiqlash to'g'risida»",
+            "item4": "GOST 17.1.3.13-86 «Tabiatni himoya qilish. Gidrosfera. Yuzaki suvlarni ifloslanishdan himoya qilishning umumiy talablari»"
+          },
+          "highlightBox": {
+            "label": "Diqqat:",
+            "text": "Qonunchilik chiqariladigan chiqindi suvlar sifati uchun qat'iy talablar qo'yadi. Normaga rioya qilmaslik yuridik shaxslar uchun 250,000 rublgacha jarimaga olib keladi. Ozonlash normativ ko'rsatkichlarga kafolatlangan erishishni ta'minlaydi."
+          }
+        }
+      }
     },
     "pools-spa": {
-      "title": "Pools and spa",
-      "shortDesc": "Clean water without chlorine smell or irritation",
-      "heroTitle": "Pool and spa ozonation",
-      "heroDesc": "Crystal-clear water without chlorine smell. No eye or skin irritation even with long exposure.",
-      "content": "Pool water ozonation is a modern method for highest-quality water without chlorine smell or eye and mucous membrane irritation even with long exposure.\n\nOzone acts as both oxidizer and disinfectant. It is more effective than chlorine against bacteria, viruses and spores, and breaks down tough envelopes of microalgae and protozoa. The water gets a pleasant bluish tint.\n\nRecommended ozone dose for pools is 0.7–0.9 g/m³ of circulating water. Contact time in the contact tank is 6–7 minutes. Residual ozone at filter outlet does not exceed 0.1 mg/L.\n\nWhen using ozone with chlorine, chlorine can be kept at 0.1 mg/L instead of the usual 0.7 mg/L. This practically eliminates skin and eye irritation while providing prolonged disinfection.",
+      "title": "Basseynlar va SPA",
+      "shortDesc": "Xlor hidsiz va qichishishsiz toza suv",
+      "heroTitle": "Basseyn va SPA ozonlash",
+      "heroDesc": "Xlor hidsiz kristal toza suv. Uzoq vaqt suvda bo'lishda ham ko'z va teri qichishishi yo'q.",
+      "content": "Basseyn suvini ozonlash - xlor hidi yoki ko'z va shilliq pardalar qichishishi bo'lmasdan eng yuqori sifatli suv olish uchun zamonaviy usul.\n\nOzon ham oksidlovchi, ham dezinfeksiya vositasi sifatida ishlaydi. U bakteriyalar, viruslar va sporalarga qarshi xlordan samaraliroq bo'lib, mikroalg va protozoonlarning qalin qobig'ini buzadi. Suv yoqimli ko'k rangga ega bo'ladi.\n\nBasseynlar uchun tavsiya etilgan ozon dozasi - aylanish suvi uchun 0,7-0,9 g/m³. Kontakt idishida kontakt vaqti - 6-7 daqiqa. Filtr chiqishidagi qolgan ozon 0,1 mg/L dan oshmaydi.\n\nOzonni xlor bilan birgalikda ishlatganda, odatdagi 0,7 mg/L o'rniga xlorni 0,1 mg/L darajasida saqlash mumkin. Bu teri va ko'z qichishishini deyarli bartaraf etadi va uzoq muddatli dezinfeksiyani ta'minlaydi.",
       "benefits": [
-        "No chlorine smell",
-        "No skin or eye irritation",
-        "Crystal-clear blue water",
-        "About 7× less chlorine use",
-        "More effective than chlorine against viruses",
-        "Compliance with pool water standards"
+        "Xlor hidi yo'q",
+        "Teri yoki ko'z qichishishi yo'q",
+        "Kristal toza ko'k suv",
+        "Xlor iste'moli taxminan 7× kamayadi",
+        "Viruslarga qarshi xlordan samaraliroq",
+        "Basseyn suvi standartlariga mos keladi"
       ],
       "technicalData": {
-        "ozoneDoze": "0.7-0.9 g/m³",
-        "contactTime": "6-7 minutes",
-        "residualOzone": "< 0.1 mg/L",
-        "residualChlorine": "0.1-0.3 mg/L",
-        "phRange": "7.2-7.6"
+        "ozoneDoze": "0,7-0,9 g/m³",
+        "contactTime": "6-7 daqiqa",
+        "residualOzone": "< 0,1 mg/L",
+        "residualChlorine": "0,1-0,3 mg/L",
+        "phRange": "7,2-7,6"
       },
-      "regulations": ["Pool water standards"]
+      "regulations": ["Basseyn suvi standartlari"],
+      "stats": {
+        "chlorineReduction": {
+          "value": "7×",
+          "label": "Kamroq xlor",
+          "description": "Xlor kontsentratsiyasining pasayishi"
+        },
+        "irritation": {
+          "value": "0",
+          "label": "Qichishish",
+          "description": "Suzishda ko'z va teri qichishishi"
+        },
+        "bactericidal": {
+          "value": "3000×",
+          "label": "Xlordan kuchliroq",
+          "description": "Bakteritsid ta'sir"
+        },
+        "waterColor": {
+          "value": "Ko'k",
+          "label": "Suv",
+          "description": "Yoqimli tabiiy rang"
+        }
+      },
+      "content": {
+        "intro1": "Basseynlarni xlorlash - an'anaviy dezinfeksiya usuli, lekin u muhim kamchiliklarni o'z ichiga oladi: kuchli xlor hidi, ko'z va shilliq pardalar qichishishi, quruq teri, soch va suzish kiyimlarining rangsizlanishi. Ozonlash bu muammolarni deyarli bartaraf etib, eng yuqori sifatli suv olish imkonini beradi.",
+        "intro2": "Ozon - eng kuchli oksidlovchi, bakteritsid ta'siri bo'yicha xlorni 3000 marta oshadi. U bakteriyalar, viruslar, sporalar va protozoonlarni yo'q qiladi, mikroalg hujayra devorlarini buzadi. Suv yoqimli ko'k rangga ega bo'ladi."
+      },
+      "highlightBox": {
+        "regulation": {
+          "label": "Basseyn suvi standartlari:",
+          "text": "Ozonlash basseyn suvini dezinfeksiya qilishning zamonaviy usuli sifatida tavsiya etiladi, bu xlor kontsentratsiyasini minimal zarur darajaga kamaytirish imkonini beradi."
+        }
+      },
+      "sections": {
+        "comparison": {
+          "title": "Basseyn suvini ozonlashning afzalliklari",
+          "headers": {
+            "parameter": "Parametr",
+            "ozone": "Ozon + min. xlor",
+            "chlorine": "Faqat xlor"
+          },
+          "rows": {
+            "smell": {
+              "parameter": "Suv hidi",
+              "value1": "Hid yo'q",
+              "value2": "Kuchli xlor hidi"
+            },
+            "eyeIrritation": {
+              "parameter": "Ko'z qichishishi",
+              "value1": "Yo'q",
+              "value2": "Ha, uzoq vaqt ta'sirida"
+            },
+            "skinIrritation": {
+              "parameter": "Teri qichishishi",
+              "value1": "Yo'q",
+              "value2": "Quruqlik, pishishi"
+            },
+            "hair": {
+              "parameter": "Sochga ta'siri",
+              "value1": "Minimal",
+              "value2": "Rangsizlanish, quruqlik"
+            },
+            "color": {
+              "parameter": "Suv rangi",
+              "value1": "Ko'kish, shaffof",
+              "value2": "Yashil bo'lishi mumkin"
+            },
+            "byproducts": {
+              "parameter": "Yon mahsulotlar",
+              "value1": "Yo'q (O₂ ga parchalanadi)",
+              "value2": "Trichloraminlar (zaharli)"
+            },
+            "viruses": {
+              "parameter": "Viruslarga qarshi samaradorlik",
+              "value1": "Juda yuqori",
+              "value2": "O'rtacha"
+            }
+          }
+        },
+        "technology": {
+          "title": "Basseyn ozonlash texnologiyasi",
+          "intro": "Ozon filtratsiyadan keyin, basseyn idishiga qaytishdan oldin aylanish suviga beriladi. Basseynlar uchun tavsiya etilgan ozon dozasi - aylanish suvi uchun 0,7-0,9 g/m³. Kontakt idishida kontakt vaqti - 6-7 daqiqa.",
+          "caption": "Basseyn ozonlash parametrlari",
+          "headers": {
+            "parameter": "Parametr",
+            "value": "Qiymat",
+            "note": "Izoh"
+          },
+          "rows": {
+            "ozoneDose": {
+              "parameter": "Ozon dozasi",
+              "value": "0,7-0,9 g/m³",
+              "note": "Aylanish suvi hajmiga"
+            },
+            "contactTime": {
+              "parameter": "Kontakt vaqti",
+              "value": "6-7 daqiqa",
+              "note": "Kontakt idishida"
+            },
+            "residualOzone": {
+              "parameter": "Chiqishdagi qolgan ozon",
+              "value": "< 0,1 mg/L",
+              "note": "Idishga kirishdan oldin"
+            },
+            "residualChlorine": {
+              "parameter": "Qolgan xlor",
+              "value": "0,1-0,3 mg/L",
+              "note": "Uzoq muddatli ta'sir uchun"
+            },
+            "ph": {
+              "parameter": "Suv pH",
+              "value": "7,2-7,6",
+              "note": "Optimal diapazon"
+            }
+          },
+          "highlightBox": "Ozonni xlor bilan birgalikda ishlatganda, odatdagi 0,7 mg/L o'rniga xlorni 0,1 mg/L darajasida saqlash mumkin. Bu teri va ko'z qichishishini deyarli bartaraf etadi."
+        },
+        "pathogens": {
+          "title": "Ozon basseyn suvida nimani yo'q qiladi",
+          "items": {
+            "bacteria": "Bakteriyalar: E.coli, Pseudomonas aeruginosa, stafilokokklar",
+            "viruses": "Viruslar: enteroviruslar, adenoviruslar, rotaviruslar",
+            "protozoa": "Protozoonlar: Cryptosporidium, Giardia (xlorga chidamli!)",
+            "algae": "Mikroalg: qalin hujayra devorlarini buzadi",
+            "organic": "Organik ifloslanishlar: ter, siydik, kosmetika, kremlar",
+            "chloramines": "Xloraminlar: zararli xlorlash yon mahsulotlarini yo'q qiladi"
+          },
+          "note": "Ayniqsa muhimi, ozon Cryptosporidiumga qarshi samarali - diareyaga olib keladigan parazitlar. Ular xlorlashga juda chidamli (yo'q qilish uchun 10 000 mg/L×min xlor kerak), lekin ozonga zaif."
+        },
+        "poolTypes": {
+          "title": "Turli basseyn turlari uchun ozonlash",
+          "caption": "Tavsiya etilgan ozonlash tizimlari",
+          "headers": {
+            "type": "Basseyn turi",
+            "volume": "Hajm",
+            "capacity": "Ozonator quvvati"
+          },
+          "rows": {
+            "private": {
+              "type": "Xususiy basseyn",
+              "volume": "25-60 m³",
+              "capacity": "2-5 g/h"
+            },
+            "fitness": {
+              "type": "Fitnes-klub basseyni",
+              "volume": "100-300 m³",
+              "capacity": "10-30 g/h"
+            },
+            "hotel": {
+              "type": "Mehmonxona basseyni",
+              "volume": "200-500 m³",
+              "capacity": "20-50 g/h"
+            },
+            "public": {
+              "type": "Jamoat basseyni",
+              "volume": "500-2000 m³",
+              "capacity": "50-200 g/h"
+            },
+            "waterpark": {
+              "type": "Aquapark",
+              "volume": "2000+ m³",
+              "capacity": "Individual hisoblash"
+            },
+            "spa": {
+              "type": "SPA, jakuzi",
+              "volume": "2-10 m³",
+              "capacity": "1-3 g/h"
+            }
+          }
+        },
+        "benefits": {
+          "title": "Basseyn egalari uchun afzalliklar",
+          "items": {
+            "comfort": {
+              "title": "Mehmonlar qulayligi",
+              "description": "Xlor hidi yo'q, ko'z yoki teri qichishishi yo'q. Yoqimli suzish."
+            },
+            "economy": {
+              "title": "Kimyoviy moddalar tejamkorligi",
+              "description": "Xlor iste'moli 5-7 marta kamayadi, reagentlar tejamkorligi."
+            },
+            "compliance": {
+              "title": "Normativlarga muvofiqlik",
+              "description": "Usul basseynlar uchun sanitariya qoidalari tomonidan tavsiya etiladi."
+            },
+            "quality": {
+              "title": "Toza suv",
+              "description": "Kristal toza ko'k rangli suv - sifat ko'rsatkichi."
+            }
+          }
+        },
+        "spa": {
+          "title": "SPA va jakuzi uchun xususiyatlar",
+          "intro": "SPA va jakuzida yuqori suv harorati (32-40°C) bakteriyalar, jumladan Legionella ko'payishi uchun qulay sharoit yaratadi. Ozonlash bu sharoitlarda ayniqsa samarali:",
+          "items": {
+            "legionella": "Legionella yo'q qilish - xavfli pnevmoniya patogeni",
+            "biofilm": "Quvurlar va nozullardagi bioplyonkani buzish",
+            "odor": "Kam ishlatiladigan jakuzilarda 'eski suv' hidini bartaraf etish",
+            "fungus": "Zamburug' infektsiyalarini oldini olish (mikozlar)",
+            "comfort": "Uzoq muddatli SPA protseduralarida qichishish yo'q"
+          }
+        }
+      }
     },
     "iron-removal": {
       "title": "Iron and manganese removal",
@@ -97,7 +871,182 @@
         "iron": "2Fe²⁺ + O₃ + H₂O → 2Fe³⁺ + O₂ + 2OH⁻ → Fe(OH)₃↓",
         "manganese": "Mn²⁺ + O₃ + H₂O → MnO₂↓ + 2H⁺ + O₂"
       },
-      "regulations": ["Drinking water standards", "Water quality norms"]
+      "regulations": ["Drinking water standards", "Water quality norms"],
+      "stats": {
+        "ozoneForIron": {
+          "value": "0.43",
+          "label": "mg O₃ / mg Fe",
+          "description": "Ozone dose per iron"
+        },
+        "ozoneForManganese": {
+          "value": "0.87",
+          "label": "mg O₃ / mg Mn",
+          "description": "Ozone dose per manganese"
+        },
+        "residualIron": {
+          "value": "< 0.3",
+          "label": "mg/L Fe",
+          "description": "Residual iron (standard limit)"
+        },
+        "residualManganese": {
+          "value": "< 0.1",
+          "label": "mg/L Mn",
+          "description": "Residual manganese (standard limit)"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Iron and manganese are the most common metallic impurities in natural water, and they are usually present together. Although iron is not toxic, its presence in water leads to deterioration of organoleptic and taste properties, appearance of brown sediment on surfaces in contact with water. Manganese belongs to the category of hazardous substances.",
+          "paragraph2": "Ozonation is especially effective when iron and manganese are present in water as organic complex compounds. Standard iron removal methods (aeration, liming, cation exchange) are ineffective in this case. Ozone oxidizes complex compounds, causing metals to precipitate in insoluble forms.",
+          "regulationLabel": "Drinking water standards:",
+          "regulationText": "Maximum permissible concentration (MPC) of iron in drinking water is 0.3 mg/L, manganese — 0.1 mg/L. Exceeding these limits makes water unsuitable for drinking water supply and technological needs."
+        },
+        "comparison": {
+          "title": "Iron removal methods comparison",
+          "headers": ["Parameter", "Ozonation", "Aeration + filtration"],
+          "rows": [
+            { "parameter": "Fe removal efficiency", "value1": "> 95%", "value2": "80-90%" },
+            { "parameter": "Mn removal efficiency", "value1": "> 95%", "value2": "50-70%" },
+            { "parameter": "Organic complex removal", "value1": "Yes", "value2": "No" },
+            { "parameter": "Color reduction", "value1": "Yes (up to 80%)", "value2": "Partial" },
+            { "parameter": "Works at any pH", "value1": "Yes (6-9)", "value2": "Requires pH > 7.5" },
+            { "parameter": "Disinfection", "value1": "Yes", "value2": "No" },
+            { "parameter": "H₂S removal", "value1": "Yes", "value2": "Partial" },
+            { "parameter": "Reagent requirement", "value1": "No", "value2": "May be required" }
+          ]
+        },
+        "ironChemistry": {
+          "title": "Iron oxidation chemistry with ozone",
+          "reactionLabel": "Iron oxidation reaction:",
+          "reaction1": "2Fe²⁺ + O₃ + H₂O → 2Fe³⁺ + O₂ + 2OH⁻",
+          "reaction2": "Fe³⁺ + 3H₂O → Fe(OH)₃↓ + 3H⁺",
+          "description": "Ozone oxidizes Fe²⁺ to Fe³⁺, which forms insoluble iron hydroxide Fe(OH)₃, easily removed by filtration. The reaction proceeds at pH from 6 to 9.",
+          "table": {
+            "caption": "Stoichiometric ratios for metal oxidation",
+            "headers": ["Metal", "Theoretical ozone dose", "Practical ozone dose", "Note"],
+            "rows": [
+              ["Iron (Fe²⁺)", "0.43 mg O₃ / mg Fe", "1 mg O₃ / mg Fe", "With organics"],
+              ["Manganese (Mn²⁺)", "0.87 mg O₃ / mg Mn", "4 mg O₃ / mg Mn", "With organics"],
+              ["Hydrogen sulfide (H₂S)", "3.0 mg O₃ / mg H₂S", "3-5 mg O₃ / mg H₂S", "To elemental sulfur"]
+            ]
+          }
+        },
+        "manganeseChemistry": {
+          "title": "Manganese oxidation chemistry with ozone",
+          "reactionLabel": "Manganese oxidation reaction:",
+          "reaction": "Mn²⁺ + O₃ + H₂O → MnO₂↓ + 2H⁺ + O₂",
+          "description": "Ozone oxidizes Mn²⁺ to Mn⁴⁺, which forms insoluble manganese dioxide MnO₂. At pH around 8, the reaction proceeds most effectively.",
+          "importantLabel": "Important:",
+          "importantText": "With excess ozone, further oxidation of manganese to Mn⁷⁺ with formation of soluble permanganate MnO₄⁻ (pink water color) is possible. In the presence of organic compounds, permanganate decomposes to MnO₂. For high manganese concentrations, double ozonation is used."
+        },
+        "process": {
+          "title": "Iron removal process",
+          "steps": [
+            {
+              "title": "Source water supply",
+              "description": "Water with elevated iron and manganese content is fed into the contact tank. Pre-filtration from coarse impurities."
+            },
+            {
+              "title": "Ozone generation",
+              "description": "Atmospheric air is cleaned by filter, fed into oxygen concentrator (85-95% O₂), then into ozone generator."
+            },
+            {
+              "title": "Ozonation in contact chamber",
+              "description": "Bubbling ozone-air mixture through water layer or injection through Venturi ejector. Contact time: 5-15 minutes."
+            },
+            {
+              "title": "Precipitation of oxidized metals",
+              "description": "Fe(OH)₃ and MnO₂ precipitate in the contact tank. Periodic tank flushing to remove sediment."
+            },
+            {
+              "title": "Mechanical filtration",
+              "description": "Removal of suspended particles of oxidized metals through sand filter. Pore size: 10-50 μm."
+            },
+            {
+              "title": "Carbon filtration",
+              "description": "Final treatment through activated carbon to remove residual ozone and improve organoleptic properties."
+            }
+          ]
+        },
+        "doubleOzonation": {
+          "title": "Double ozonation (for high Mn concentrations)",
+          "paragraph": "At manganese content above 0.5 mg/L, double ozonation scheme may be required: primary ozonation of source water, filtration, then secondary ozonation of filtrate. This prevents formation of soluble permanganate.",
+          "table": {
+            "caption": "Double ozonation results (Ashton, England)",
+            "headers": ["Parameter", "Before treatment", "After treatment"],
+            "rows": [
+              ["Manganese, mg/L", "0.5", "0.05"],
+              ["Color, degrees", "22", "5"],
+              ["Turbidity, NTU", "15", "< 2"]
+            ]
+          }
+        },
+        "organicComplexes": {
+          "title": "Organic complex problems",
+          "paragraph": "In oil-bearing regions where water contains large amounts of organic impurities, iron and manganese are often present as organic complex compounds. This makes standard iron removal methods ineffective.",
+          "items": [
+            "Aeration doesn't work: organic complexes are not oxidized by air oxygen",
+            "Liming is ineffective: complex compounds do not precipitate when pH is raised",
+            "Cation exchange is difficult: organic complexes do not exchange on ion exchange resins",
+            "Ozone solves the problem: breaks down organic complexes, releasing metals for precipitation"
+          ],
+          "advantageLabel": "Ozone advantage:",
+          "advantageText": "Metal oxidation with ozone proceeds effectively at any pH values found in natural waters (6-9), while manganese oxidation with air oxygen requires pH > 10."
+        },
+        "systemParams": {
+          "title": "Recommended system parameters",
+          "table": {
+            "caption": "Equipment selection by capacity",
+            "headers": ["Capacity, m³/h", "Ozonator power, g/h", "Contact chamber volume, m³"],
+            "rows": [
+              ["1-5", "5-25", "0.2-1"],
+              ["5-20", "25-100", "1-4"],
+              ["20-50", "100-250", "4-10"],
+              ["50-100", "250-500", "10-20"],
+              ["100-500", "500-2500", "20-100"]
+            ]
+          },
+          "noteLabel": "Note:",
+          "noteText": "Ozonator power is calculated for water with Fe content up to 10 mg/L and Mn up to 1 mg/L. For higher concentrations, individual calculation is required."
+        },
+        "benefits": {
+          "title": "Benefits of ozonation for iron removal",
+          "items": [
+            {
+              "title": "Versatility",
+              "description": "Effectively removes iron and manganese of any forms, including organic complexes."
+            },
+            {
+              "title": "Wide pH range",
+              "description": "Works at pH 6-9 without need for water acidity correction."
+            },
+            {
+              "title": "Complex action",
+              "description": "Simultaneously disinfects water, removes color, odors, oxidizes H₂S."
+            },
+            {
+              "title": "No reagents",
+              "description": "Ozone is produced on-site from air. No need to purchase and store chemicals."
+            }
+          ]
+        },
+        "regulations": {
+          "title": "Regulatory requirements",
+          "table": {
+            "caption": "MPC of iron and manganese by standards",
+            "headers": ["Metal", "Drinking water", "Bottled water", "Hazard class"],
+            "rows": [
+              ["Iron (Fe)", "0.3 mg/L", "0.3 mg/L", "III"],
+              ["Manganese (Mn)", "0.1 mg/L", "0.05 mg/L", "III"]
+            ]
+          },
+          "items": [
+            "Drinking water standards «Drinking water. Hygienic requirements for centralized drinking water supply systems water quality»",
+            "Bottled water standards «Drinking water. Hygienic requirements for bottled water quality»",
+            "GOST 2874-82 «Drinking water. Hygienic requirements and quality control»"
+          ]
+        }
+      }
     }
   }
 }

@@ -1,14 +1,14 @@
-import Image from 'next/image'
-import { useTranslate } from '@tolgee/react'
+import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
-import { AppLink } from '@/shared/ui/app-link'
+import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
 import {
+  ArticleHero,
   ArticleSection,
   BulletList,
   ComparisonTable,
+  CTASection,
   DataTable,
   FeatureCard,
   FeatureGrid,
@@ -18,85 +18,124 @@ import {
   StatCard,
   StatGrid,
 } from '@/shared/ui/article-components'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
+import { IconCheck } from '@/shared/ui/icons'
 import { Seo } from '@/shared/ui/seo'
 
-export function ManufacturingPage() {
+interface ManufacturingPageProps {
+  staticData: TolgeeStaticDataProp
+  lang: TLocale
+}
+
+interface SubcategoryData {
+  title: string
+  shortDesc: string
+  stats?: {
+    [key: string]: {
+      value: string
+      label: string
+      description: string
+    }
+  }
+  sections?: {
+    [key: string]: {
+      title?: string
+      paragraph?: string
+      intro?: string
+      paragraph1?: string
+      paragraph2?: string
+      text?: string
+      items?: string[] | Array<{ title: string; description: string }>
+      bulletList?: string[]
+      steps?: Array<{ title: string; description: string }>
+      tableCaption?: string
+      tableHeaders?: string[]
+      tableData?: string[][]
+      table?: {
+        caption?: string
+        headers?: string[]
+        rows?: string[][]
+      }
+      highlight?: {
+        title?: string
+        text?: string
+      }
+      comparisonTable?: {
+        title?: string
+        headers?: string[]
+        rows?: Array<{
+          parameter: string
+          value1: string
+          value2: string
+          value3?: string
+        }>
+      }
+      note?: string
+      warning?: { title: string; text: string }
+    }
+  }
+}
+
+export function ManufacturingPage({ staticData, lang }: ManufacturingPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('industry')
 
+  // get category data from staticData
+  const categoryData = (staticData as Record<string, { subcategories?: { manufacturing?: SubcategoryData } }>)[
+    `${lang}:${ns}`
+  ]
+  const data = categoryData?.subcategories?.manufacturing
+
+  const breadcrumbs = [
+    { label: t('nav.applications', { ns: NAMESPACES.common }), href: '/applications' },
+    { label: t('title', { ns }), href: '/applications/industry' },
+    { label: t('subcategories.manufacturing.title', { ns }) },
+  ]
+
   return (
     <Layout>
-      <Seo title={t('subcategories.manufacturing.title', { ns })} description={t('subcategories.manufacturing.shortDesc', { ns })} />
-      {/* Breadcrumbs */}
-      <div className="bg-bg-light border-border border-b">
-        <div className="container py-4">
-          <nav className="flex items-center gap-2 text-sm">
-            <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
-              {t('nav.applications', { ns: NAMESPACES.common })}
-            </AppLink>
-            <span className="text-text-light">/</span>
-            <AppLink
-              href="/applications/industry"
-              className="text-text-secondary hover:text-primary transition-colors"
-            >
-              {t('title', { ns })}
-            </AppLink>
-            <span className="text-text-light">/</span>
-            <span className="text-text-primary font-medium">{t('subcategories.manufacturing.title', { ns })}</span>
-          </nav>
-        </div>
-      </div>
+      <Seo
+        title={t('subcategories.manufacturing.title', { ns })}
+        description={t('subcategories.manufacturing.shortDesc', { ns })}
+      />
 
-      {/* Hero Section */}
-      <section className="relative overflow-hidden py-16 md:py-24">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1920&q=80"
-            alt={t('subcategories.manufacturing.title', { ns })}
-            fill
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
-        </div>
-        <div className="relative z-10 container">
-          <AppLink
-            href="/applications/industry"
-            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
-          >
-            <IconArrowLeft style={{ width: 20, height: 20 }} />
-            <span>{t('title', { ns })}</span>
-          </AppLink>
-          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
-            {t('subcategories.manufacturing.title', { ns })}
-          </h1>
-          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
-            {t('subcategories.manufacturing.shortDesc', { ns })}
-          </p>
-        </div>
-      </section>
+      <ArticleHero
+        title={t('subcategories.manufacturing.title', { ns })}
+        description={t('subcategories.manufacturing.shortDesc', { ns })}
+        image="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1920&q=80"
+        imageAlt={t('subcategories.manufacturing.title', { ns })}
+        breadcrumbs={breadcrumbs}
+        backLink={{
+          href: '/applications/industry',
+          label: t('title', { ns }),
+        }}
+      />
 
       {/* Key Stats */}
       <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value="80-95%"
-              label="Снижение микрофлоры"
-              description="В воздухе производственных помещений"
+              value={data?.stats?.stat1?.value ?? ''}
+              label={data?.stats?.stat1?.label ?? ''}
+              description={data?.stats?.stat1?.description ?? ''}
               variant="primary"
             />
             <StatCard
-              value="0,1"
-              label="мг/м³ ПДК"
-              description="Максимальная разовая концентрация озона"
+              value={data?.stats?.stat2?.value ?? ''}
+              label={data?.stats?.stat2?.label ?? ''}
+              description={data?.stats?.stat2?.description ?? ''}
               variant="accent"
             />
-            <StatCard value="15-20" label="мин" description="Время экспресс-обработки помещения" variant="primary" />
             <StatCard
-              value="99,9%"
-              label="Эффективность"
-              description="Против патогенных микроорганизмов"
+              value={data?.stats?.stat3?.value ?? ''}
+              label={data?.stats?.stat3?.label ?? ''}
+              description={data?.stats?.stat3?.description ?? ''}
+              variant="primary"
+            />
+            <StatCard
+              value={data?.stats?.stat4?.value ?? ''}
+              label={data?.stats?.stat4?.label ?? ''}
+              description={data?.stats?.stat4?.description ?? ''}
               variant="accent"
             />
           </StatGrid>
@@ -107,330 +146,159 @@ export function ManufacturingPage() {
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>
-              Качество воздуха на производственных объектах напрямую влияет на здоровье персонала, качество выпускаемой
-              продукции и соответствие предприятия санитарным нормам. В производственных помещениях концентрация
-              микроорганизмов, пыли и вредных веществ может многократно превышать допустимые значения.
-            </Paragraph>
-            <Paragraph>
-              Озонирование — технология комплексной обработки воздуха, обеспечивающая дезинфекцию, дезодорацию и
-              окисление летучих органических соединений. Промышленные генераторы озона с производительностью от 10 до
-              1000 г/час позволяют обрабатывать помещения объёмом от 100 до 50 000 м³.
-            </Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="warning">
-            <strong>Требования безопасности:</strong> ПДК озона в рабочей зоне — 0,1 мг/м³ (максимальная разовая) и 0,03
-            мг/м³ (среднесменная) согласно ГН 2.2.5.3532-18. Обработка помещений ведётся в отсутствие персонала с
-            последующим проветриванием до остаточной концентрации &lt;0,03 мг/м³.
+            <strong>{data?.sections?.safety?.highlight?.title ?? ''}</strong>{' '}
+            {data?.sections?.safety?.highlight?.text ?? ''}
           </HighlightBox>
 
-          <ArticleSection title="Механизм действия озона на загрязнители воздуха">
-            <Paragraph>
-              Озон — сильнейший окислитель, способный разрушать широкий спектр загрязнителей производственного воздуха:
-            </Paragraph>
-            <BulletList
-              items={[
-                'Бактерии, вирусы, грибки и споры — окислительное разрушение клеточных мембран',
-                'Летучие органические соединения (ЛОС) — окисление до CO₂ и H₂O',
-                'Сероводород (H₂S) — окисление до сульфатов',
-                'Аммиак (NH₃) — окисление до нитратов и воды',
-                'Одоранты — разрушение ненасыщенных связей в молекулах',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.mechanism?.title ?? ''}>
+            <Paragraph>{data?.sections?.mechanism?.paragraph ?? ''}</Paragraph>
+            <BulletList items={(data?.sections?.mechanism?.items as string[]) ?? []} />
 
             <DataTable
-              caption="Эффективность озонирования против микроорганизмов"
-              headers={['Микроорганизм', 'Концентрация озона, мг/м³', 'Время экспозиции, мин', 'Эффективность']}
-              rows={[
-                ['E. coli', '0,5-1,0', '15-20', '99,9%'],
-                ['Staphylococcus aureus', '1,0-2,0', '20-30', '99,9%'],
-                ['Aspergillus niger (споры)', '2,0-5,0', '30-60', '99,0%'],
-                ['Вирус гриппа', '0,5-1,0', '10-15', '99,99%'],
-                ['SARS-CoV-2', '1,0-2,0', '15-20', '99,9%'],
-              ]}
+              caption={data?.sections?.mechanism?.tableCaption}
+              headers={data?.sections?.mechanism?.tableHeaders ?? []}
+              rows={data?.sections?.mechanism?.tableData ?? []}
             />
 
             <HighlightBox variant="info">
-              <strong>Озон vs. УФ-дезинфекция:</strong> В отличие от УФ-ламп, эффективных только в зоне прямого
-              излучения, озон распространяется по всему объёму помещения, проникая в труднодоступные места: щели,
-              системы вентиляции, внутреннее пространство оборудования.
+              <strong>{data?.sections?.mechanism?.highlight?.title ?? ''}</strong>{' '}
+              {data?.sections?.mechanism?.highlight?.text ?? ''}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Области применения промышленного озонирования">
-            <Paragraph>
-              Технология востребована на производствах с повышенными требованиями к качеству воздуха:
-            </Paragraph>
+          <ArticleSection title={data?.sections?.applications?.title ?? ''}>
+            <Paragraph>{data?.sections?.applications?.paragraph ?? ''}</Paragraph>
 
             <DataTable
-              caption="Отрасли применения и специфические задачи"
-              headers={['Отрасль', 'Основные задачи', 'Режим обработки']}
-              rows={[
-                [
-                  'Пищевое производство',
-                  'Дезинфекция, устранение запахов, продление сроков хранения',
-                  'Ежедневно, ночные смены',
-                ],
-                ['Фармацевтика', 'Стерильность чистых помещений классов A-D', 'После каждой смены'],
-                ['Упаковочные цеха', 'Дезинфекция упаковочных материалов и воздуха', 'Непрерывное низкодозовое'],
-                ['Текстильное производство', 'Устранение запахов, снижение пыли', 'Периодическое'],
-                ['Деревообработка', 'Борьба с плесенью, снижение концентрации пыли', 'Ежесуточно'],
-                ['Складские помещения', 'Предотвращение плесени, дезинфекция', 'По графику 2-3 раза/неделю'],
-              ]}
+              caption={data?.sections?.applications?.tableCaption}
+              headers={data?.sections?.applications?.tableHeaders ?? []}
+              rows={data?.sections?.applications?.tableData ?? []}
             />
           </ArticleSection>
 
-          <ArticleSection title="Режимы обработки производственных помещений">
-            <ProcessList
-              steps={[
-                {
-                  title: 'Шоковая дезинфекция (10-50 мг/м³)',
-                  description:
-                    'Применяется для глубокой обработки после ремонта, при заражении плесенью, для санации после вспышек инфекций. Проводится в отсутствие персонала с выдержкой 60-120 минут.',
-                },
-                {
-                  title: 'Регулярная обработка (2-5 мг/м³)',
-                  description:
-                    'Профилактическое озонирование в ночные смены или технологические перерывы. Время обработки 30-60 минут, проветривание 30-45 минут.',
-                },
-                {
-                  title: 'Непрерывное низкодозовое озонирование (0,02-0,05 мг/м³)',
-                  description:
-                    'Поддержание санитарного состояния в присутствии персонала. Концентрация ниже ПДК, постоянная циркуляция озонированного воздуха через систему вентиляции.',
-                },
-                {
-                  title: 'Локальная обработка рабочих зон',
-                  description:
-                    'Точечное озонирование участков с повышенной микробной нагрузкой. Применение мобильных озонаторов с направленной подачей.',
-                },
-              ]}
-            />
+          <ArticleSection title={data?.sections?.modes?.title}>
+            <ProcessList steps={data?.sections?.modes?.steps ?? []} />
 
             <DataTable
-              caption="Расчёт производительности озонатора для производственных помещений"
-              headers={[
-                'Объём помещения, м³',
-                'Концентрация озона, мг/м³',
-                'Время выхода на режим, мин',
-                'Требуемая производительность, г/час',
-              ]}
-              rows={[
-                ['100-500', '5', '15-20', '50-100'],
-                ['500-2000', '5', '20-30', '100-300'],
-                ['2000-5000', '5', '30-45', '300-500'],
-                ['5000-10000', '5', '45-60', '500-800'],
-                ['>10000', '5', '60-90', '800-1500'],
-              ]}
+              caption={data?.sections?.modes?.table?.caption}
+              headers={data?.sections?.modes?.table?.headers ?? []}
+              rows={data?.sections?.modes?.table?.rows ?? []}
             />
           </ArticleSection>
 
-          <ArticleSection title="Интеграция с системами вентиляции">
-            <Paragraph>
-              Для крупных производственных объектов оптимальным решением является интеграция озонаторов с существующей
-              системой вентиляции:
-            </Paragraph>
-            <BulletList
-              items={[
-                'Инжекция озона в приточный воздуховод — равномерное распределение по помещению',
-                'Обработка рециркуляционного воздуха — снижение микробной нагрузки',
-                'Озонирование вытяжного воздуха — устранение запахов перед выбросом в атмосферу',
-                'Местная вентиляция с озонированием — обработка зон повышенного загрязнения',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.ventilation?.title}>
+            <Paragraph>{data?.sections?.ventilation?.paragraph ?? ''}</Paragraph>
+            <BulletList items={data?.sections?.ventilation?.bulletList ?? []} />
 
             <DataTable
-              caption="Схемы интеграции озонирования с вентиляцией"
-              headers={['Схема', 'Преимущества', 'Ограничения']}
-              rows={[
-                ['Инжекция в приток', 'Равномерность, простота', 'Требует коррозионностойких воздуховодов'],
-                ['Рециркуляция', 'Экономия энергии, постоянная обработка', 'Ограничение по концентрации'],
-                ['Отдельный контур', 'Гибкость режимов, независимость', 'Дополнительные затраты'],
-                ['Мобильные установки', 'Мобильность, минимальные вложения', 'Неравномерность обработки'],
-              ]}
+              caption={data?.sections?.ventilation?.table?.caption}
+              headers={data?.sections?.ventilation?.table?.headers ?? []}
+              rows={data?.sections?.ventilation?.table?.rows ?? []}
             />
 
             <HighlightBox variant="success">
-              <strong>Экономия энергоресурсов:</strong> Обеззараживание рециркуляционного воздуха озоном позволяет
-              снизить долю свежего приточного воздуха с 100% до 30-50%, что сокращает затраты на отопление/охлаждение на
-              40-60%.
+              <strong>{data?.sections?.ventilation?.highlight?.title ?? ''}</strong>{' '}
+              {data?.sections?.ventilation?.highlight?.text ?? ''}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Нейтрализация летучих органических соединений">
-            <Paragraph>
-              На производствах с использованием растворителей, красок, клеёв концентрация ЛОС может превышать ПДК в 5-20
-              раз. Озонирование окисляет органические соединения до безопасных продуктов:
-            </Paragraph>
+          <ArticleSection title={data?.sections?.voc?.title}>
+            <Paragraph>{data?.sections?.voc?.paragraph ?? ''}</Paragraph>
 
             <DataTable
-              caption="Окисление типичных ЛОС производственных помещений"
-              headers={['Соединение', 'ПДК, мг/м³', 'Скорость окисления', 'Продукты реакции']}
-              rows={[
-                ['Формальдегид', '0,5', 'Высокая', 'CO₂, H₂O, муравьиная кислота'],
-                ['Бензол', '5,0', 'Средняя', 'CO₂, H₂O, фенолы'],
-                ['Толуол', '50', 'Средняя', 'CO₂, H₂O, бензальдегид'],
-                ['Ксилол', '50', 'Средняя', 'CO₂, H₂O, толуальдегид'],
-                ['Ацетон', '200', 'Низкая', 'CO₂, H₂O, уксусная кислота'],
-                ['Стирол', '30', 'Высокая', 'CO₂, H₂O, бензальдегид'],
-              ]}
+              caption={data?.sections?.voc?.table?.caption}
+              headers={data?.sections?.voc?.table?.headers ?? []}
+              rows={data?.sections?.voc?.table?.rows ?? []}
             />
 
             <HighlightBox variant="info">
-              <strong>Комбинированные методы:</strong> Для высоких концентраций ЛОС эффективно сочетание озонирования с
-              каталитическим окислением. Озон активирует катализатор при температуре 100-150°C вместо 300-400°C для
-              термического окисления.
+              <strong>{data?.sections?.voc?.highlight?.title ?? ''}</strong>{' '}
+              {data?.sections?.voc?.highlight?.text ?? ''}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Соответствие нормативным требованиям">
-            <Paragraph>
-              Озонирование помогает обеспечить соответствие производства санитарным нормам и требованиям охраны труда:
-            </Paragraph>
-            <BulletList
-              items={[
-                'СанПиН 1.2.3685-21 — Гигиенические нормативы и требования к обеспечению безопасности',
-                'ГОСТ 12.1.005-88 — Общие санитарно-гигиенические требования к воздуху рабочей зоны',
-                'ГН 2.2.5.3532-18 — ПДК вредных веществ в воздухе рабочей зоны',
-                'СП 2.2.3670-20 — Санитарно-эпидемиологические требования к условиям труда',
-                'ТР ТС 021/2011 — Безопасность пищевой продукции (для пищевых производств)',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.regulatory?.title}>
+            <Paragraph>{data?.sections?.regulatory?.paragraph ?? ''}</Paragraph>
+            <BulletList items={data?.sections?.regulatory?.bulletList ?? []} />
 
             <DataTable
-              caption="ПДК основных загрязнителей воздуха рабочей зоны"
-              headers={['Вещество', 'ПДК макс., мг/м³', 'ПДК ср.смен., мг/м³', 'Класс опасности']}
-              rows={[
-                ['Озон', '0,1', '0,03', '1'],
-                ['Пыль нетоксичная', '10', '4', '4'],
-                ['Аммиак', '20', '—', '4'],
-                ['Сероводород', '10', '—', '2'],
-                ['Формальдегид', '0,5', '0,05', '2'],
-                ['Углеводороды (по C)', '300', '100', '4'],
-              ]}
+              caption={data?.sections?.regulatory?.table?.caption}
+              headers={data?.sections?.regulatory?.table?.headers ?? []}
+              rows={data?.sections?.regulatory?.table?.rows ?? []}
             />
           </ArticleSection>
 
-          <ArticleSection title="Система безопасности при озонировании">
-            <Paragraph>Промышленные системы озонирования комплектуются многоуровневой системой безопасности:</Paragraph>
-            <BulletList
-              items={[
-                'Датчики концентрации озона с аварийным отключением при превышении 0,1 мг/м³',
-                'Автоматическое прекращение генерации при открытии дверей помещения',
-                'Световая и звуковая сигнализация во время обработки',
-                'Таймер с автоматическим отключением по истечении времени обработки',
-                'Деструктор остаточного озона с эффективностью 99,9%',
-                'Блокировка доступа персонала во время высококонцентрационной обработки',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.safety?.title}>
+            <Paragraph>{data?.sections?.safety?.paragraph ?? ''}</Paragraph>
+            <BulletList items={data?.sections?.safety?.bulletList ?? []} />
 
             <HighlightBox variant="warning">
-              <strong>Протокол безопасности:</strong> Перед входом персонала в обработанное помещение концентрация озона
-              должна быть снижена до &lt;0,03 мг/м³. Время естественного распада озона: 20-40 минут. Принудительная
-              вентиляция сокращает время до 10-15 минут.
+              <strong>{data?.sections?.safety?.highlight?.title ?? ''}</strong>{' '}
+              {data?.sections?.safety?.highlight?.text ?? ''}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Экономические показатели внедрения">
+          <ArticleSection title={data?.sections?.economics?.title}>
             <ComparisonTable
-              title="ROI промышленного озонирования"
-              headers={['Статья', 'Озонирование', 'Альтернативы']}
-              rows={[
-                { parameter: 'Капитальные затраты', value1: '300-800 тыс. руб', value2: '150-400 тыс. руб' },
-                { parameter: 'Эксплуатация в год', value1: '50-120 тыс. руб', value2: '200-500 тыс. руб' },
-                { parameter: 'Расходные материалы', value1: 'Нет', value2: 'Дезинфектанты, фильтры' },
-                { parameter: 'Эффективность', value1: '95-99,9%', value2: '70-90%' },
-                { parameter: 'Срок окупаемости', value1: '12-18 месяцев', value2: '—' },
-                { parameter: 'Срок службы оборудования', value1: '10-15 лет', value2: '3-5 лет' },
-              ]}
+              title={data?.sections?.economics?.comparisonTable?.title}
+              headers={
+                (data?.sections?.economics?.comparisonTable?.headers ?? []) as
+                  | [string, string, string]
+                  | [string, string, string, string]
+              }
+              rows={data?.sections?.economics?.comparisonTable?.rows ?? []}
             />
 
             <DataTable
-              caption="Расчёт экономии для производственного цеха 2000 м³"
-              headers={['Показатель', 'Значение', 'Комментарий']}
-              rows={[
-                ['Стоимость оборудования', '450 000 руб', 'Озонатор 200 г/час + автоматика'],
-                ['Монтаж и пуско-наладка', '80 000 руб', 'Интеграция с вентиляцией'],
-                ['Электроэнергия в год', '18 000 руб', '2,5 кВт × 2 ч/день × 365 дней × 10 руб/кВт·ч'],
-                ['Экономия на дезинфектантах', '180 000 руб/год', 'Отказ от химической обработки'],
-                ['Снижение больничных листов', '150 000 руб/год', 'Сокращение заболеваемости на 30%'],
-                ['Чистый эффект', '312 000 руб/год', 'Окупаемость за 18 месяцев'],
-              ]}
+              caption={data?.sections?.economics?.table?.caption}
+              headers={data?.sections?.economics?.table?.headers ?? []}
+              rows={data?.sections?.economics?.table?.rows ?? []}
             />
           </ArticleSection>
 
-          <ArticleSection title="Преимущества промышленного озонирования воздуха">
+          <ArticleSection title={data?.sections?.benefits?.title}>
             <FeatureGrid columns={2}>
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Комплексное воздействие"
-                description="Одновременная дезинфекция, дезодорация и нейтрализация вредных веществ"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Полное покрытие"
-                description="Обработка всего объёма помещения, включая труднодоступные места"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Без химических остатков"
-                description="Озон распадается до кислорода без токсичных продуктов"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Соответствие нормам"
-                description="Обеспечение требований СанПиН и охраны труда"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Автоматизация"
-                description="Работа по расписанию без участия персонала"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Минимальные затраты"
-                description="Отсутствие расходных материалов, только электроэнергия"
-              />
+              {((data?.sections?.benefits?.items as Array<{ title: string; description: string }>) ?? []).map(
+                (item, index) => (
+                  <FeatureCard
+                    key={index}
+                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                    title={item.title}
+                    description={item.description}
+                  />
+                ),
+              )}
             </FeatureGrid>
           </ArticleSection>
 
-          <ArticleSection title="Кейс: Пищевое производство, упаковочный цех">
-            <Paragraph>Внедрение системы озонирования на предприятии по производству кондитерских изделий:</Paragraph>
+          <ArticleSection title={data?.sections?.case?.title}>
+            <Paragraph>{data?.sections?.case?.paragraph ?? ''}</Paragraph>
             <DataTable
-              caption="Результаты внедрения за 6 месяцев эксплуатации"
-              headers={['Показатель', 'До внедрения', 'После внедрения', 'Изменение']}
-              rows={[
-                ['Объём помещения', '3 500 м³', '3 500 м³', '—'],
-                ['Микробная обсеменённость воздуха', '2 500 КОЕ/м³', '150 КОЕ/м³', '-94%'],
-                ['Количество рекламаций по плесени', '12 случаев/мес', '0-1 случай/мес', '-95%'],
-                ['Срок хранения продукции', '14 дней', '21 день', '+50%'],
-                ['Затраты на химическую дезинфекцию', '35 000 руб/мес', '5 000 руб/мес', '-86%'],
-                ['Больничные листы персонала', '8 дней/мес', '3 дня/мес', '-63%'],
-              ]}
+              caption={data?.sections?.case?.table?.caption}
+              headers={data?.sections?.case?.table?.headers ?? []}
+              rows={data?.sections?.case?.table?.rows ?? []}
             />
           </ArticleSection>
         </div>
       </article>
 
-      {/* CTA Section */}
-      <section className="cta">
-        <div className="container">
-          <h2 className="cta__title">{t('cta.applications.title', { ns: NAMESPACES.common })}</h2>
-          <p className="cta__text">{t('cta.applications.text', { ns: NAMESPACES.common })}</p>
-          <div className="cta__actions">
-            <AppLink href="/contacts" className="btn btn--white btn--large">
-              {t('hero.getConsultation', { ns: NAMESPACES.common })}
-            </AppLink>
-            <a
-              href="tel:+78001234567"
-              className="btn btn--secondary btn--large"
-              style={{ borderColor: 'white', color: 'white' }}
-            >
-              {t('header.phone', { ns: NAMESPACES.common })}
-            </a>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        title={t('cta.applications.title', { ns: NAMESPACES.common })}
+        description={t('cta.applications.text', { ns: NAMESPACES.common })}
+        primaryButton={{
+          label: t('hero.getConsultation', { ns: NAMESPACES.common }),
+          href: '/contacts',
+        }}
+        secondaryButton={{
+          label: t('header.phone', { ns: NAMESPACES.common }),
+          href: 'tel:+78001234567',
+        }}
+      />
     </Layout>
   )
 }

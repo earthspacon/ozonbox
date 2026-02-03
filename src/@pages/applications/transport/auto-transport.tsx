@@ -46,10 +46,12 @@ interface SubcategoryData {
       items?: string[] | Array<{ title: string; description: string }>
       tableCaption?: string
       tableHeaders?: string[]
-      tableData?: string[][]
+      tableData?: (string | number)[][]
       steps?: Array<{ title: string; description: string }>
       note?: string
       warning?: { title: string; text: string }
+      highlight?: string | { title?: string; text?: string }
+      comparisonTitle?: string
     }
   }
 }
@@ -149,7 +151,14 @@ export function AutoTransportPage({ staticData, lang }: AutoTransportPageProps) 
             <ProcessList steps={data?.sections?.technology?.steps ?? []} />
 
             <HighlightBox variant="success">
-              {data?.sections?.technology?.highlight ?? ''}
+              {typeof data?.sections?.technology?.highlight === 'string'
+                ? data.sections.technology.highlight
+                : (data?.sections?.technology?.highlight as { title?: string; text?: string } | undefined) && (
+                    <>
+                      <strong>{(data?.sections?.technology?.highlight as { title?: string }).title ?? ''}</strong>{' '}
+                      {(data?.sections?.technology?.highlight as { text?: string }).text ?? ''}
+                    </>
+                  )}
             </HighlightBox>
           </ArticleSection>
 
@@ -157,7 +166,7 @@ export function AutoTransportPage({ staticData, lang }: AutoTransportPageProps) 
             <DataTable
               caption={data?.sections?.modes?.tableCaption}
               headers={data?.sections?.modes?.tableHeaders ?? []}
-              rows={data?.sections?.modes?.tableData ?? []}
+              rows={(data?.sections?.modes?.tableData ?? []) as (string | number)[][]}
             />
           </ArticleSection>
 
@@ -166,8 +175,10 @@ export function AutoTransportPage({ staticData, lang }: AutoTransportPageProps) 
             <BulletList items={(data?.sections?.refrigerators?.items as string[]) ?? []} />
 
             <HighlightBox variant="info">
-              <strong>{data?.sections?.refrigerators?.highlight?.title ?? ''}</strong>{' '}
-              {data?.sections?.refrigerators?.highlight?.text ?? ''}
+              <strong>
+                {(data?.sections?.refrigerators?.highlight as { title?: string } | undefined)?.title ?? ''}
+              </strong>{' '}
+              {(data?.sections?.refrigerators?.highlight as { text?: string } | undefined)?.text ?? ''}
             </HighlightBox>
           </ArticleSection>
 
@@ -180,7 +191,7 @@ export function AutoTransportPage({ staticData, lang }: AutoTransportPageProps) 
             <DataTable
               caption={data?.sections?.odorRemoval?.tableCaption}
               headers={data?.sections?.odorRemoval?.tableHeaders ?? []}
-              rows={data?.sections?.odorRemoval?.tableData ?? []}
+              rows={(data?.sections?.odorRemoval?.tableData ?? []) as (string | number)[][]}
             />
           </ArticleSection>
 
@@ -202,8 +213,19 @@ export function AutoTransportPage({ staticData, lang }: AutoTransportPageProps) 
           <ArticleSection title={data?.sections?.economics?.title}>
             <ComparisonTable
               title={data?.sections?.economics?.comparisonTitle ?? ''}
-              headers={data?.sections?.economics?.tableHeaders ?? []}
-              rows={data?.sections?.economics?.tableData ?? []}
+              headers={
+                (data?.sections?.economics?.tableHeaders ?? []) as
+                  | [string, string, string]
+                  | [string, string, string, string]
+              }
+              rows={
+                (data?.sections?.economics?.tableData ?? []) as unknown as Array<{
+                  parameter: string
+                  value1: string
+                  value2: string
+                  value3?: string
+                }>
+              }
             />
 
             <Paragraph>{data?.sections?.economics?.text ?? ''}</Paragraph>
@@ -213,9 +235,7 @@ export function AutoTransportPage({ staticData, lang }: AutoTransportPageProps) 
             <Paragraph>{data?.sections?.compliance?.intro ?? ''}</Paragraph>
             <BulletList items={(data?.sections?.compliance?.items as string[]) ?? []} />
 
-            <HighlightBox variant="warning">
-              {data?.sections?.compliance?.warning?.text ?? ''}
-            </HighlightBox>
+            <HighlightBox variant="warning">{data?.sections?.compliance?.warning?.text ?? ''}</HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.equipment?.title}>
@@ -225,7 +245,7 @@ export function AutoTransportPage({ staticData, lang }: AutoTransportPageProps) 
             <DataTable
               caption={data?.sections?.equipment?.tableCaption}
               headers={data?.sections?.equipment?.tableHeaders ?? []}
-              rows={data?.sections?.equipment?.tableData ?? []}
+              rows={(data?.sections?.equipment?.tableData ?? []) as (string | number)[][]}
             />
           </ArticleSection>
 
@@ -234,8 +254,8 @@ export function AutoTransportPage({ staticData, lang }: AutoTransportPageProps) 
             <BulletList items={(data?.sections?.roi?.items as string[]) ?? []} />
 
             <HighlightBox variant="success">
-              <strong>{data?.sections?.roi?.highlight?.title ?? ''}</strong>{' '}
-              {data?.sections?.roi?.highlight?.text ?? ''}
+              <strong>{(data?.sections?.roi?.highlight as { title?: string } | undefined)?.title ?? ''}</strong>{' '}
+              {(data?.sections?.roi?.highlight as { text?: string } | undefined)?.text ?? ''}
             </HighlightBox>
           </ArticleSection>
 

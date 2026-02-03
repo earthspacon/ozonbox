@@ -146,9 +146,7 @@ export function PublicBusesPage({ staticData, lang }: PublicBusesPageProps) {
 
             <ProcessList steps={data?.sections?.technology?.steps ?? []} />
 
-            <HighlightBox variant="success">
-              {data?.sections?.technology?.highlight ?? ''}
-            </HighlightBox>
+            <HighlightBox variant="success">{data?.sections?.technology?.highlight ?? ''}</HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.modes?.title}>
@@ -196,13 +194,24 @@ export function PublicBusesPage({ staticData, lang }: PublicBusesPageProps) {
           <ArticleSection title={data?.sections?.economics?.title}>
             <ComparisonTable
               title={data?.sections?.economics?.comparisonTitle ?? ''}
-              headers={data?.sections?.economics?.tableHeaders ?? []}
-              rows={data?.sections?.economics?.tableData ?? []}
+              headers={
+                (data?.sections?.economics?.tableHeaders ?? []) as
+                  | [string, string, string]
+                  | [string, string, string, string]
+              }
+              rows={
+                (data?.sections?.economics?.tableData ?? []) as unknown as Array<{
+                  parameter: string
+                  value1: string
+                  value2: string
+                  value3?: string
+                }>
+              }
             />
 
             <HighlightBox variant="info">
-              <strong>{data?.sections?.economics?.highlight?.title ?? ''}</strong>{' '}
-              {data?.sections?.economics?.highlight?.text ?? ''}
+              <strong>{(data?.sections?.economics?.highlight as { title?: string } | undefined)?.title ?? ''}</strong>{' '}
+              {(data?.sections?.economics?.highlight as { text?: string } | undefined)?.text ?? ''}
             </HighlightBox>
           </ArticleSection>
 

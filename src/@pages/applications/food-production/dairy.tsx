@@ -3,7 +3,6 @@ import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 import { Layout } from '@/widgets/layout'
 
 import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
-import { useLang } from '@/shared/lib'
 import {
   ArticleHero,
   ArticleSection,
@@ -46,7 +45,8 @@ interface SubcategoryData {
       items?: string[] | Array<{ title: string; description: string }>
       tableCaption?: string
       tableHeaders?: string[]
-      tableData?: string[][]
+      tableData?: (string | number)[][]
+      rows?: Array<{ parameter: string; value1: string; value2: string; value3?: string }>
       highlight?: { title?: string; text: string }
       warning?: { title?: string; text: string }
     }
@@ -58,9 +58,7 @@ export function DairyPage({ staticData, lang }: DairyPageProps) {
   const ns = getCategoryNamespace('food-production')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { dairy?: SubcategoryData } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { dairy?: SubcategoryData } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.dairy
 
   const breadcrumbs = [
@@ -71,10 +69,7 @@ export function DairyPage({ staticData, lang }: DairyPageProps) {
 
   return (
     <Layout>
-      <Seo
-        title={t('subcategories.dairy.title', { ns })}
-        description={t('subcategories.dairy.shortDesc', { ns })}
-      />
+      <Seo title={t('subcategories.dairy.title', { ns })} description={t('subcategories.dairy.shortDesc', { ns })} />
 
       <ArticleHero
         title={t('subcategories.dairy.title', { ns })}
@@ -147,12 +142,17 @@ export function DairyPage({ staticData, lang }: DairyPageProps) {
           <ComparisonTable
             title={data?.sections?.comparison?.title}
             headers={
-              (data?.sections?.comparison?.tableHeaders ??
-                []) as [string, string, string] | [string, string, string, string]
+              (data?.sections?.comparison?.tableHeaders ?? []) as
+                | [string, string, string]
+                | [string, string, string, string]
             }
             rows={
-              (data?.sections?.comparison?.rows ??
-                []) as Array<{ parameter: string; value1: string; value2: string; value3?: string }>
+              (data?.sections?.comparison?.rows ?? []) as Array<{
+                parameter: string
+                value1: string
+                value2: string
+                value3?: string
+              }>
             }
           />
 
