@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
@@ -26,48 +27,12 @@ interface LaundriesPageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      title?: string
-      text?: string
-      text2?: string
-      desc?: string
-      comparisonTitle?: string
-      headers?: string[]
-      rows?: Array<{
-        parameter: string
-        value1: string
-        value2: string
-        value3?: string
-      }>
-      items?: string[] | Array<{ title: string; description: string }>
-      steps?: Array<{ title: string; description: string }>
-      tableHeaders?: string[]
-      tableRows?: string[][]
-      tableCaption?: string
-      highlightTitle?: string
-      highlightText?: string
-      intro?: string
-    }
-  }
-}
-
 export function LaundriesPage({ staticData, lang }: LaundriesPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('horeca')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { laundries?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { laundries?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.laundries

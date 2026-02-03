@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 import Image from 'next/image'
 
@@ -27,49 +28,12 @@ interface GeneralStoragePageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      title?: string
-      paragraph?: string
-      paragraph1?: string
-      paragraph2?: string
-      infoLabel?: string
-      infoText?: string
-      tableCaption?: string
-      tableHeaders?: string[]
-      tableData?: string[][]
-      exampleLabel?: string
-      exampleText?: string
-      numberedItems?: string[]
-      bulletItems?: string[]
-      scheduleLabel?: string
-      scheduleText?: string
-      comparisonTitle?: string
-      comparisonHeaders?: string[]
-      comparisonRows?: Array<{ parameter: string; value1: string; value2: string }>
-      warningLabel?: string
-      warningText?: string
-      features?: Array<{ title: string; description: string }>
-    }
-  }
-}
-
 export function GeneralStoragePage({ staticData, lang }: GeneralStoragePageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('warehouses')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'general-storage'?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { 'general-storage'?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.['general-storage']

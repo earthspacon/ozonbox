@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
@@ -27,42 +28,13 @@ interface ShoppingMallsPageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      title?: string
-      intro?: string
-      paragraph1?: string
-      paragraph2?: string
-      label?: string
-      text?: string
-      items?: string[] | Array<{ title: string; description: string }>
-      tableCaption?: string
-      tableHeaders?: string[]
-      tableData?: string[][]
-      steps?: Array<{ title: string; description: string }>
-      highlight?: string
-      warning?: string
-    }
-  }
-}
-
 export function ShoppingMallsPage({ staticData }: ShoppingMallsPageProps) {
   const { t } = useTranslate()
   const lang = useLang()
   const ns = getCategoryNamespace('disinfection')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'shopping-malls'?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { 'shopping-malls'?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.['shopping-malls']

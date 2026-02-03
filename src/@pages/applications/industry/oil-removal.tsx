@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
@@ -25,48 +26,12 @@ interface OilRemovalPageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      title?: string
-      paragraph?: string
-      intro?: string
-      paragraph1?: string
-      paragraph2?: string
-      text?: string
-      items?: string[] | Array<{ title: string; description: string }>
-      tableCaption?: string
-      tableHeaders?: string[]
-      tableRows?: string[][]
-      tableData?: string[][]
-      steps?: Array<{ title: string; description: string }>
-      comparisonTitle?: string
-      comparisonHeaders?: string[]
-      comparisonRows?: Array<{ parameter: string; value1: string; value2: string }>
-      infoBox?: { title: string; text: string }
-      note?: string
-      warning?: { title: string; text: string }
-      highlight?: { title?: string; text?: string }
-      bulletList?: string[]
-    }
-  }
-}
-
 export function OilRemovalPage({ staticData, lang }: OilRemovalPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('industry')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'oil-removal'?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { 'oil-removal'?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.['oil-removal']

@@ -69,16 +69,39 @@
               "description": "After treatment — 20-30 minutes ventilation. Ozone decomposes to oxygen, leaving a fresh feeling."
             }
           },
-          "table": {
-            "caption": "Hotel room ozonation modes",
-            "headers": ["Situation", "Concentration", "Time", "Result"],
-            "rows": [
-              ["Standard treatment", "5-10 mg/m³", "30 min", "Freshening, light disinfection"],
-              ["After smoker", "15-20 mg/m³", "60-90 min", "Complete odor removal"],
-              ["Heavy contamination", "20-30 mg/m³", "2-3 hours", "Deep deodorization"],
-              ["After infectious guest", "25-35 mg/m³", "2-4 hours", "Complete disinfection"]
+          "tableHeaders": [
+            "Situation",
+            "Concentration",
+            "Time",
+            "Result"
+          ],
+          "tableCaption": "Hotel room ozonation modes",
+          "tableData": [
+            [
+              "Standard treatment",
+              "5-10 mg/m³",
+              "30 min",
+              "Freshening, light disinfection"
+            ],
+            [
+              "After smoker",
+              "15-20 mg/m³",
+              "60-90 min",
+              "Complete odor removal"
+            ],
+            [
+              "Heavy contamination",
+              "20-30 mg/m³",
+              "2-3 hours",
+              "Deep deodorization"
+            ],
+            [
+              "After infectious guest",
+              "25-35 mg/m³",
+              "2-4 hours",
+              "Complete disinfection"
             ]
-          }
+          ]
         },
         "whatIsTreated": {
           "title": "What is treated with ozone",
@@ -117,14 +140,28 @@
         "equipment": {
           "title": "Equipment for hotels",
           "intro": "For hotels, portable ozonators are recommended, which staff move from room to room after cleaning. This is the optimal solution in terms of price/effectiveness ratio.",
-          "table": {
-            "headers": ["Hotel type", "Recommended equipment", "Quantity"],
-            "rows": [
-              ["Mini-hotel (up to 20 rooms)", "Portable ozonator 5-10 g/h", "1-2 units"],
-              ["Medium hotel (20-100 rooms)", "Portable ozonators 10-20 g/h", "3-5 units"],
-              ["Large hotel (100+ rooms)", "Ozonator fleet + stationary units in common areas", "As calculated"]
+          "tableHeaders": [
+            "Hotel type",
+            "Recommended equipment",
+            "Quantity"
+          ],
+          "tableData": [
+            [
+              "Mini-hotel (up to 20 rooms)",
+              "Portable ozonator 5-10 g/h",
+              "1-2 units"
+            ],
+            [
+              "Medium hotel (20-100 rooms)",
+              "Portable ozonators 10-20 g/h",
+              "3-5 units"
+            ],
+            [
+              "Large hotel (100+ rooms)",
+              "Ozonator fleet + stationary units in common areas",
+              "As calculated"
             ]
-          }
+          ]
         }
       },
       "benefits": [
@@ -214,41 +251,38 @@
         "whyImportant": {
           "title": "Why odors matter so much",
           "text": "You can create creative design, hire professional staff, invest in advertising — but an unpleasant smell will negate all efforts. Can a good place smell bad?",
-          "table": {
-            "caption": "Impact of air quality on business metrics",
-            "headers": {
-              "indicator": "Metric",
-              "without": "Without ozonation",
-              "with": "With ozonation"
+          "headers": [
+            "Metric",
+            "Without ozonation",
+            "With ozonation"
+          ],
+          "rows": [
+            {
+              "parameter": "Average visit time",
+              "value1": "45 minutes",
+              "value2": "55-60 minutes"
             },
-            "rows": {
-              "visitTime": {
-                "indicator": "Average visit time",
-                "without": "45 minutes",
-                "with": "55-60 minutes"
-              },
-              "repeatVisits": {
-                "indicator": "Repeat visits",
-                "without": "35%",
-                "with": "52%"
-              },
-              "cleanlinessRating": {
-                "indicator": "\"Cleanliness\" rating in reviews",
-                "without": "3.8/5",
-                "with": "4.6/5"
-              },
-              "odorComplaints": {
-                "indicator": "Odor complaints",
-                "without": "12% of guests",
-                "with": "<1% of guests"
-              },
-              "avgCheck": {
-                "indicator": "Average check",
-                "without": "Baseline",
-                "with": "+15-20%"
-              }
+            {
+              "parameter": "Repeat visits",
+              "value1": "35%",
+              "value2": "52%"
+            },
+            {
+              "parameter": "\"Cleanliness\" rating in reviews",
+              "value1": "3.8/5",
+              "value2": "4.6/5"
+            },
+            {
+              "parameter": "Odor complaints",
+              "value1": "12% of guests",
+              "value2": "<1% of guests"
+            },
+            {
+              "parameter": "Average check",
+              "value1": "Baseline",
+              "value2": "+15-20%"
             }
-          }
+          ]
         },
         "process": {
           "title": "Restaurant ozonation process",
@@ -281,41 +315,39 @@
         "calculation": {
           "title": "Equipment calculation",
           "text": "Ozonator capacity is selected at: 1 g/hour per 25 m³ of room volume.",
-          "table": {
-            "caption": "Calculation examples for different venues",
-            "headers": {
-              "type": "Venue type",
-              "area": "Area",
-              "volume": "Volume",
-              "ozonator": "Ozonator"
-            },
-            "rows": {
-              "smallCafe": {
-                "type": "Small cafe",
-                "area": "40-60 m²",
-                "volume": "120-180 m³",
-                "ozonator": "5-7 g/hour"
-              },
-              "mediumRestaurant": {
-                "type": "Medium restaurant",
-                "area": "100-200 m²",
-                "volume": "300-600 m³",
-                "ozonator": "12-24 g/hour"
-              },
-              "largeRestaurant": {
-                "type": "Large restaurant/banquet hall",
-                "area": "300+ m²",
-                "volume": "900+ m³",
-                "ozonator": "36+ g/hour or multiple units"
-              },
-              "hookahLounge": {
-                "type": "Hookah lounge",
-                "area": "50-100 m²",
-                "volume": "150-300 m³",
-                "ozonator": "6-12 g/hour (daily treatment)"
-              }
-            }
-          }
+          "tableHeaders": [
+            "Venue type",
+            "Area",
+            "Volume",
+            "Ozonator"
+          ],
+          "tableCaption": "Calculation examples for different venues",
+          "tableData": [
+            [
+              "Small cafe",
+              "40-60 m²",
+              "120-180 m³",
+              "5-7 g/hour"
+            ],
+            [
+              "Medium restaurant",
+              "100-200 m²",
+              "300-600 m³",
+              "12-24 g/hour"
+            ],
+            [
+              "Large restaurant/banquet hall",
+              "300+ m²",
+              "900+ m³",
+              "36+ g/hour or multiple units"
+            ],
+            [
+              "Hookah lounge",
+              "50-100 m²",
+              "150-300 m³",
+              "6-12 g/hour (daily treatment)"
+            ]
+          ]
         },
         "additionalUses": {
           "title": "Additional ozone applications",
@@ -385,7 +417,11 @@
         "economicEffects": {
           "title": "Economic effects",
           "comparisonTitle": "Comparison of traditional and ozone washing",
-          "headers": ["Parameter", "Ozone washing", "Traditional"],
+          "headers": [
+            "Parameter",
+            "Ozone washing",
+            "Traditional"
+          ],
           "rows": [
             {
               "parameter": "Water temperature",
@@ -433,13 +469,31 @@
         "process": {
           "title": "Technological process",
           "tableCaption": "Comparison of washing components",
-          "tableHeaders": ["Traditional laundry", "Ozone laundry"],
+          "tableHeaders": [
+            "Traditional laundry",
+            "Ozone laundry"
+          ],
           "tableRows": [
-            ["Hot water", "Cold water"],
-            ["Alkali", "Ozone"],
-            ["Detergent", "Detergent (less)"],
-            ["Acid (neutralization)", "—"],
-            ["Bleach", "—"]
+            [
+              "Hot water",
+              "Cold water"
+            ],
+            [
+              "Alkali",
+              "Ozone"
+            ],
+            [
+              "Detergent",
+              "Detergent (less)"
+            ],
+            [
+              "Acid (neutralization)",
+              "—"
+            ],
+            [
+              "Bleach",
+              "—"
+            ]
           ],
           "text": "Ozone spontaneously decomposes to oxygen and does not require removal unlike traditional chemicals. This allows reducing the number of rinses by 20-40%."
         },
@@ -488,13 +542,37 @@
         },
         "equipment": {
           "title": "Equipment selection",
-          "tableHeaders": ["Laundry type", "Recommended equipment", "Cost"],
+          "tableHeaders": [
+            "Laundry type",
+            "Recommended equipment",
+            "Cost"
+          ],
           "tableRows": [
-            ["Small laundry", "Ozone generator 5 g/h", "from 250,000 ₽"],
-            ["Hotel laundry", "Ozone generator 10 g/h", "from 320,000 ₽"],
-            ["Commercial laundry", "Ozone generator 20 g/h", "from 420,000 ₽"],
-            ["Dry cleaner (700L cabinet)", "Ozone cabinet OZ-1S", "from 420,000 ₽"],
-            ["Dry cleaner (1400L cabinet)", "Ozone cabinet OZ-2S", "from 500,000 ₽"]
+            [
+              "Small laundry",
+              "Ozone generator 5 g/h",
+              "from 250,000 ₽"
+            ],
+            [
+              "Hotel laundry",
+              "Ozone generator 10 g/h",
+              "from 320,000 ₽"
+            ],
+            [
+              "Commercial laundry",
+              "Ozone generator 20 g/h",
+              "from 420,000 ₽"
+            ],
+            [
+              "Dry cleaner (700L cabinet)",
+              "Ozone cabinet OZ-1S",
+              "from 420,000 ₽"
+            ],
+            [
+              "Dry cleaner (1400L cabinet)",
+              "Ozone cabinet OZ-2S",
+              "from 500,000 ₽"
+            ]
           ],
           "highlightTitle": "Important:",
           "highlightText": "Ozone generator capacity calculation depends on contamination volume, water quality and equipment specifications. A pilot project may be required for accurate selection."
@@ -561,7 +639,12 @@
       ],
       "modes": {
         "title": "Treatment modes",
-        "tableHeaders": ["Mode", "Time", "Frequency", "Result"],
+        "tableHeaders": [
+          "Mode",
+          "Time",
+          "Frequency",
+          "Result"
+        ],
         "daily": {
           "title": "Daily prevention",
           "time": "60 minutes",
@@ -651,124 +734,127 @@
         },
         "businessImpact": {
           "title": "Impact of odor on sales",
-          "table": {
-            "caption": "How odor affects business metrics",
-            "headers": {
-              "indicator": "Metric",
-              "without": "With odor",
-              "with": "After ozonation"
+          "headers": [
+            "Metric",
+            "With odor",
+            "After ozonation"
+          ],
+          "rows": [
+            {
+              "parameter": "Average visit time",
+              "value1": "12 minutes",
+              "value2": "18-20 minutes"
             },
-            "rows": {
-              "visitTime": {
-                "indicator": "Average visit time"
-              },
-              "conversion": {
-                "indicator": "Conversion to purchase"
-              },
-              "avgCheck": {
-                "indicator": "Average check"
-              },
-              "repeatVisits": {
-                "indicator": "Repeat visits"
-              },
-              "odorComplaints": {
-                "indicator": "Negative reviews about odor",
-                "without": "35%",
-                "with": "<5%"
-              }
+            {
+              "parameter": "Conversion to purchase",
+              "value1": "15%",
+              "value2": "22%"
+            },
+            {
+              "parameter": "Average check",
+              "value1": "Baseline",
+              "value2": "+15-25%"
+            },
+            {
+              "parameter": "Repeat visits",
+              "value1": "25%",
+              "value2": "40%"
+            },
+            {
+              "parameter": "Negative reviews about odor",
+              "value1": "35%",
+              "value2": "<5%"
             }
-          }
+          ]
         },
         "benefits": {
           "title": "Benefits of ozonation",
-          "items": {
-            "odorRemoval": {
+          "items": [
+            {
               "title": "Complete odor removal",
               "description": "Ozone neutralizes disinfectant molecules rather than masking them. Result — fresh air."
             },
-            "noUnloading": {
+            {
               "title": "Treatment without unloading",
               "description": "All merchandise is treated simultaneously, no need to remove items from hangers."
             },
-            "additionalDisinfection": {
+            {
               "title": "Additional disinfection",
               "description": "Ozone destroys bacteria, viruses and dust mites — additional quality guarantee."
             },
-            "customerComfort": {
+            {
               "title": "Customer comfort",
               "description": "Pleasant atmosphere in store = more time to choose = more purchases."
             }
-          }
+          ]
         },
         "process": {
           "title": "Ozonation process",
-          "steps": {
-            "preparation": {
+          "steps": [
+            {
               "title": "Room preparation",
               "description": "Store closes. Windows and doors closed. Supply ventilation turned off for maximum ozone concentration."
             },
-            "placement": {
+            {
               "title": "Ozonator placement",
               "description": "Wall-mounted ozonator placed 40-60 cm from ceiling. Mobile — at maximum height."
             },
-            "ozonation": {
+            {
               "title": "Ozonation",
               "description": "Treatment mode activated for 1-3 hours depending on room volume."
             },
-            "ventilation": {
+            {
               "title": "Ventilation or waiting",
               "description": "For night treatment, ventilation is not needed — ozone dissipates on its own in 2-3 hours. By store opening, only a light freshness smell remains."
             }
-          }
+          ]
         },
         "calculation": {
           "title": "Equipment calculation",
           "text": "Ozonator capacity is selected at: 1 g/hour per 25 m³ of room volume.",
-          "table": {
-            "caption": "Ozonator selection recommendations",
-            "headers": {
-              "area": "Store area",
-              "volume": "Volume",
-              "ozonator": "Ozonator",
-              "time": "Treatment time"
-            },
-            "rows": {
-              "small": {
-                "area": "50-100 m²",
-                "volume": "150-300 m³",
-                "ozonator": "10 g/hour",
-                "time": "1-2 hours"
-              },
-              "medium": {
-                "area": "100-200 m²",
-                "volume": "300-600 m³",
-                "ozonator": "10-20 g/hour",
-                "time": "2-3 hours"
-              },
-              "large": {
-                "area": "200-400 m²",
-                "volume": "600-1200 m³",
-                "ozonator": "20-40 g/hour",
-                "time": "2-3 hours"
-              },
-              "veryLarge": {
-                "area": "400+ m²",
-                "volume": "1200+ m³",
-                "ozonator": "Multiple units",
-                "time": "2-3 hours"
-              }
-            }
-          }
+          "tableHeaders": [
+            "Store area",
+            "Volume",
+            "Ozonator",
+            "Treatment time"
+          ],
+          "tableCaption": "Ozonator selection recommendations",
+          "tableData": [
+            [
+              "50-100 m²",
+              "150-300 m³",
+              "10 g/hour",
+              "1-2 hours"
+            ],
+            [
+              "100-200 m²",
+              "300-600 m³",
+              "10-20 g/hour",
+              "2-3 hours"
+            ],
+            [
+              "200-400 m²",
+              "600-1200 m³",
+              "20-40 g/hour",
+              "2-3 hours"
+            ],
+            [
+              "400+ m²",
+              "1200+ m³",
+              "Multiple units",
+              "2-3 hours"
+            ]
+          ]
         },
         "workMode": {
           "title": "Operating mode",
-          "items": {
-            "daily": "Daily night treatment — optimal mode",
-            "automatic": "Automatic start on timer after store closing",
-            "ventilation": "By morning ozone completely dissipates, freshness remains",
-            "automation": "No staff involvement required — full automation",
-            "initial": "For strong odor — first 3-5 days treatment for 2-3 hours"
-          },
+          "items": [
+            "Daily night treatment — optimal mode",
+            "Automatic start on timer after store closing",
+            "By morning ozone completely dissipates, freshness remains",
+            "No staff involvement required — full automation",
+            "For strong odor — first 3-5 days treatment for 2-3 hours"
+          ],
           "protection": {
             "title": "Protective equipment:",
             "text": "If staff is in the room during ozonation (e.g., to turn on the unit), a respirator or gas mask with charcoal filter is required."
@@ -776,80 +862,76 @@
         },
         "economics": {
           "title": "Solution economics",
-          "table": {
-            "headers": {
-              "expense": "Expense item",
-              "without": "Without ozonation",
-              "with": "With ozonation"
-            },
-            "rows": {
-              "fresheners": {
-                "expense": "Air fresheners",
-                "without": "5-15 thousand ₽/month",
-                "with": "0 ₽"
-              },
-              "electricity": {
-                "expense": "Electricity",
-                "without": "—",
-                "with": "500-1000 ₽/month"
-              },
-              "losses": {
-                "expense": "Losses from dissatisfied customers",
-                "without": "Significant",
-                "with": "Minimal"
-              },
-              "equipment": {
-                "expense": "Equipment cost",
-                "without": "—",
-                "with": "22-35 thousand ₽ (one-time)"
-              }
-            }
-          },
           "payback": {
             "title": "Payback:",
             "text": "With savings of 10 thousand ₽/month on air fresheners, the ozonator pays for itself in 2-3 months. Further operation — only electricity cost."
-          }
+          },
+          "tableHeaders": [
+            "Expense item",
+            "Without ozonation",
+            "With ozonation"
+          ],
+          "tableData": [
+            [
+              "Air fresheners",
+              "5-15 thousand ₽/month",
+              "0 ₽"
+            ],
+            [
+              "Electricity",
+              "—",
+              "500-1000 ₽/month"
+            ],
+            [
+              "Losses from dissatisfied customers",
+              "Significant",
+              "Minimal"
+            ],
+            [
+              "Equipment cost",
+              "—",
+              "22-35 thousand ₽ (one-time)"
+            ]
+          ]
         },
         "additionalAdvantages": {
           "title": "Additional advantages",
-          "items": {
-            "0": "Higher product appeal — items perceived as better quality",
-            "1": "Destruction of dust mites — important for allergy sufferers",
-            "2": "Room disinfection — infection spread prevention",
-            "3": "Mold removal — relevant for basement premises",
-            "4": "Marketing advantage — odor-free secondhand store"
-          }
+          "items": [
+            "Higher product appeal — items perceived as better quality",
+            "Destruction of dust mites — important for allergy sufferers",
+            "Room disinfection — infection spread prevention",
+            "Mold removal — relevant for basement premises",
+            "Marketing advantage — odor-free secondhand store"
+          ]
         },
         "equipment": {
           "title": "Recommended equipment",
-          "table": {
-            "headers": {
-              "model": "Model",
-              "capacity": "Capacity",
-              "application": "Application",
-              "cost": "Cost"
-            },
-            "rows": {
-              "model1": {
-                "model": "OZ-A10",
-                "capacity": "10 g/hour",
-                "application": "Stores up to 250 m³",
-                "cost": "from 22,000 ₽"
-              },
-              "model2": {
-                "model": "OZ-A10(N)",
-                "capacity": "10 g/hour",
-                "application": "Wall-mounted installation",
-                "cost": "from 32,000 ₽"
-              },
-              "model3": {
-                "model": "OZ-A20",
-                "capacity": "20 g/hour",
-                "application": "Stores up to 500 m³",
-                "cost": "from 34,000 ₽"
-              }
-            }
-          }
+          "tableHeaders": [
+            "Model",
+            "Capacity",
+            "Application",
+            "Cost"
+          ],
+          "tableData": [
+            [
+              "OZ-A10",
+              "10 g/hour",
+              "Stores up to 250 m³",
+              "from 22,000 ₽"
+            ],
+            [
+              "OZ-A10(N)",
+              "10 g/hour",
+              "Wall-mounted installation",
+              "from 32,000 ₽"
+            ],
+            [
+              "OZ-A20",
+              "20 g/hour",
+              "Stores up to 500 m³",
+              "from 34,000 ₽"
+            ]
+          ]
         }
       }
     }

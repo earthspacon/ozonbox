@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
@@ -25,43 +26,12 @@ interface MeatSausagesPageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      title?: string
-      intro?: string
-      paragraph1?: string
-      paragraph2?: string
-      paragraph?: string
-      label?: string
-      text?: string
-      items?: string[] | Array<{ title: string; description: string }>
-      tableCaption?: string
-      tableHeaders?: string[]
-      tableRows?: string[][]
-      tableData?: string[][]
-      rows?: Array<{ parameter: string; value1: string; value2: string; value3?: string }>
-      headers?: string[]
-      recommendedMode?: { label?: string; text: string }
-    }
-  }
-}
-
 export function MeatSausagesPage({ staticData, lang }: MeatSausagesPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('food-production')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'meat-sausages'?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { 'meat-sausages'?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.['meat-sausages']

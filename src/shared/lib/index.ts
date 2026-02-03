@@ -8,3 +8,4 @@ export {
   createGetStaticPropsLang,
   createGetStaticPropsDefault,
 } from './page-static-functions'
+export { ensureArray, convertHeadersObjectToArray, convertRowsObjectToArray, ensureHeadersArray, ensureRowsArray } from './data-utils'

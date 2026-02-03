@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
@@ -25,39 +26,12 @@ interface VegetableStoragePageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      title?: string
-      intro?: string
-      paragraph1?: string
-      paragraph2?: string
-      text?: string
-      items?: string[] | Array<{ title: string; description: string }>
-      tableCaption?: string
-      tableHeaders?: string[] | [string, string, string]
-      tableData?: string[][] | Array<{ parameter: string; value1: string; value2: string }>
-      note?: string
-      highlight?: string
-    }
-  }
-}
-
 export function VegetableStoragePage({ staticData, lang }: VegetableStoragePageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('agriculture')
 
   // Get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'vegetable-storage'?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { 'vegetable-storage'?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.['vegetable-storage']

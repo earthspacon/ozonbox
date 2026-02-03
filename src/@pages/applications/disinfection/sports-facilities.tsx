@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 import Image from 'next/image'
 
@@ -28,45 +29,13 @@ interface SportsFacilitiesPageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      title?: string
-      intro?: string
-      paragraph1?: string
-      paragraph2?: string
-      text?: string
-      items?: string[] | Array<{ title: string; description: string }>
-      tableCaption?: string
-      tableHeaders?: string[]
-      tableData?: string[][]
-      tableTitle?: string
-      headers?: string[]
-      rows?: Array<{ parameter?: string; value1?: string; value2?: string }>
-      steps?: Array<{ title: string; description: string }>
-      note?: string
-      highlight?: string | { title: string; text: string }
-      features?: Array<{ title: string; description: string }>
-    }
-  }
-}
-
 export function SportsFacilitiesPage({ staticData }: SportsFacilitiesPageProps) {
   const { t } = useTranslate()
   const lang = useLang()
   const ns = getCategoryNamespace('disinfection')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'sports-facilities'?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { 'sports-facilities'?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.['sports-facilities']

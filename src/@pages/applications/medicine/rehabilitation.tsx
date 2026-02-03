@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
@@ -25,54 +26,12 @@ interface RehabilitationPageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      title?: string
-      intro?: string
-      paragraph1?: string
-      paragraph2?: string
-      text?: string
-      text2?: string
-      items?: string[] | Array<{ title: string; description: string }>
-      tableCaption?: string
-      tableHeaders?: string[]
-      tableData?: string[][]
-      steps?: Array<{ title: string; description: string }>
-      note?: string
-      warning?: { title: string; text: string }
-      highlight?: string
-      features?: Array<{ title: string; description: string }>
-      table?: {
-        caption?: string
-        headers?: string[]
-        rows?: string[][] | Array<{ parameter?: string; value1?: string; value2?: string }>
-      }
-      tableTitle?: string
-      rows?: Array<{ parameter: string; value1: string; value2: string }>
-    }
-  }
-  cta?: {
-    title?: string
-    text?: string
-  }
-}
-
 export function RehabilitationPage({ staticData, lang }: RehabilitationPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('medicine')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { rehabilitation?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { rehabilitation?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.rehabilitation

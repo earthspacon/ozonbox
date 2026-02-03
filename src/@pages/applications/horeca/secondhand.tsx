@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
@@ -25,52 +26,12 @@ interface SecondhandPageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      title?: string
-      text?: string
-      intro?: string
-      p1?: string
-      p2?: string
-      items?: string[] | Array<{ title: string; description: string }>
-      tableCaption?: string
-      tableHeaders?: string[]
-      tableData?: string[][]
-      table?: {
-        caption?: string
-        headers?: string[]
-        rows?: string[][]
-      }
-      steps?: Array<{ title: string; description: string }>
-      highlight?: string
-      payback?: {
-        title?: string
-        text?: string
-      }
-      savings?: {
-        title?: string
-        text?: string
-      }
-    }
-  }
-}
-
 export function SecondhandPage({ staticData, lang }: SecondhandPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('horeca')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { secondhand?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { secondhand?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.secondhand

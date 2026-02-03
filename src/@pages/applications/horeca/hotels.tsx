@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
@@ -25,40 +26,12 @@ interface HotelsPageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      title?: string
-      intro?: string
-      p1?: string
-      p2?: string
-      text?: string
-      items?: string[] | Array<{ title: string; description: string }>
-      tableCaption?: string
-      tableHeaders?: string[]
-      tableData?: string[][]
-      steps?: Array<{ title: string; description: string }>
-      note?: string
-      highlight?: string
-    }
-  }
-}
-
 export function HotelsPage({ staticData, lang }: HotelsPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('horeca')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { hotels?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { hotels?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.hotels

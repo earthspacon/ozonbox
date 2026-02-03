@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
@@ -25,43 +26,12 @@ interface PoolsSpaPageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      title?: string
-      intro?: string
-      paragraph?: string
-      paragraph1?: string
-      paragraph2?: string
-      text?: string
-      items?: string[] | Array<{ title: string; description: string }>
-      tableCaption?: string
-      tableHeaders?: string[]
-      tableData?: string[][]
-      headers?: string[]
-      rows?: string[][] | Array<{ parameter: string; value1: string; value2: string }>
-      steps?: Array<{ title: string; description: string }>
-      note?: string
-      warning?: { title: string; text: string }
-    }
-  }
-}
-
 export function PoolsSpaPage({ staticData, lang }: PoolsSpaPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('water-treatment')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'pools-spa'?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { 'pools-spa'?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.['pools-spa']

@@ -71,12 +71,37 @@
           },
           "table": {
             "caption": "Xona ozonlash rejimlar",
-            "headers": ["Holat", "Konsentratsiya", "Vaqt", "Natija"],
+            "headers": [
+              "Holat",
+              "Konsentratsiya",
+              "Vaqt",
+              "Natija"
+            ],
             "rows": [
-              ["Standart ishlov berish", "5-10 mg/m³", "30 daqiqa", "Yangilash, yengil dezinfeksiya"],
-              ["Fumonchidan keyin", "15-20 mg/m³", "60-90 daqiqa", "To'liq hidi yo'q qilish"],
-              ["Og'ir ifloslanish", "20-30 mg/m³", "2-3 soat", "Chuqur hidi yo'q qilish"],
-              ["Yuqumli mehmondan keyin", "25-35 mg/m³", "2-4 soat", "To'liq dezinfeksiya"]
+              [
+                "Standart ishlov berish",
+                "5-10 mg/m³",
+                "30 daqiqa",
+                "Yangilash, yengil dezinfeksiya"
+              ],
+              [
+                "Fumonchidan keyin",
+                "15-20 mg/m³",
+                "60-90 daqiqa",
+                "To'liq hidi yo'q qilish"
+              ],
+              [
+                "Og'ir ifloslanish",
+                "20-30 mg/m³",
+                "2-3 soat",
+                "Chuqur hidi yo'q qilish"
+              ],
+              [
+                "Yuqumli mehmondan keyin",
+                "25-35 mg/m³",
+                "2-4 soat",
+                "To'liq dezinfeksiya"
+              ]
             ]
           }
         },
@@ -118,11 +143,27 @@
           "title": "Mehmonxonalar uchun asboblar",
           "intro": "Mehmonxonalar uchun portativ ozonatorlar tavsiya qilinadi, ular xodimlar tozalashdan keyin xonadan xonaga o'tashadilari. Bu narx/samaradorlik nisbati bo'yicha optimal yechimdir.",
           "table": {
-            "headers": ["Mehmonxona turi", "Tavsiya qilingan asbob", "Miqdor"],
+            "headers": [
+              "Mehmonxona turi",
+              "Tavsiya qilingan asbob",
+              "Miqdor"
+            ],
             "rows": [
-              ["Mini-mehmonxona (20 xonagacha)", "Portativ ozonator 5-10 g/soat", "1-2 dona"],
-              ["O'rta mehmonxona (20-100 xona)", "Portativ ozonatorlar 10-20 g/soat", "3-5 dona"],
-              ["Katta mehmonxona (100+ xona)", "Ozonator floti + stasionar qurilmalar umumiy joylar", "Hisob qilingani bo'yicha"]
+              [
+                "Mini-mehmonxona (20 xonagacha)",
+                "Portativ ozonator 5-10 g/soat",
+                "1-2 dona"
+              ],
+              [
+                "O'rta mehmonxona (20-100 xona)",
+                "Portativ ozonatorlar 10-20 g/soat",
+                "3-5 dona"
+              ],
+              [
+                "Katta mehmonxona (100+ xona)",
+                "Ozonator floti + stasionar qurilmalar umumiy joylar",
+                "Hisob qilingani bo'yicha"
+              ]
             ]
           }
         }
@@ -216,38 +257,38 @@
           "text": "Siz ijodiy dizayn yaratib, professional xodimlar ishga olib, reklama uchun sarmoya kiritishingiz mumkin — lekin noqulaylik hidi barcha harakatlarni bekor qiladi. Yaxshi joy yomon hid bilanoq qolishi mumkinmi?",
           "table": {
             "caption": "Havo sifatining biznes ko'rsatkich ta'siriga",
-            "headers": {
-              "indicator": "Ko'rsatkich",
-              "without": "Ozonlashsiz",
-              "with": "Ozonlash bilan"
-            },
-            "rows": {
-              "visitTime": {
-                "indicator": "O'rtacha turiş vaqti",
-                "without": "45 daqiqa",
-                "with": "55-60 daqiqa"
+            "headers": [
+              "Ko'rsatkich",
+              "Ozonlashsiz",
+              "Ozonlash bilan"
+            ],
+            "rows": [
+              {
+                "parameter": "O'rtacha turiş vaqti",
+                "value1": "45 daqiqa",
+                "value2": "55-60 daqiqa"
               },
-              "repeatVisits": {
-                "indicator": "Takroriy tashrif",
-                "without": "35%",
-                "with": "52%"
+              {
+                "parameter": "Takroriy tashrif",
+                "value1": "35%",
+                "value2": "52%"
               },
-              "cleanlinessRating": {
-                "indicator": "Sharhda \"Toza\" reytingi",
-                "without": "3,8/5",
-                "with": "4,6/5"
+              {
+                "parameter": "Sharhda \"Toza\" reytingi",
+                "value1": "3,8/5",
+                "value2": "4,6/5"
               },
-              "odorComplaints": {
-                "indicator": "Hid shikoyatlari",
-                "without": "12% mehmon",
-                "with": "<1% mehmon"
+              {
+                "parameter": "Hid shikoyatlari",
+                "value1": "12% mehmon",
+                "value2": "<1% mehmon"
               },
-              "avgCheck": {
-                "indicator": "O'rtacha hisob",
-                "without": "Bazaviy",
-                "with": "+15-20%"
+              {
+                "parameter": "O'rtacha hisob",
+                "value1": "Bazaviy",
+                "value2": "+15-20%"
               }
-            }
+            ]
           }
         },
         "process": {
@@ -283,38 +324,38 @@
           "text": "Ozonator sig'imi tanlash: xona hajmi uchun soatiga 25 m³ dan 1 g.",
           "table": {
             "caption": "Har xil joylarda hisoblash misollari",
-            "headers": {
-              "type": "Joy turi",
-              "area": "Maydoni",
-              "volume": "Hajmi",
-              "ozonator": "Ozonator"
-            },
-            "rows": {
-              "smallCafe": {
-                "type": "Kichik kofexona",
-                "area": "40-60 m²",
-                "volume": "120-180 m³",
-                "ozonator": "5-7 g/soat"
-              },
-              "mediumRestaurant": {
-                "type": "O'rta restoran",
-                "area": "100-200 m²",
-                "volume": "300-600 m³",
-                "ozonator": "12-24 g/soat"
-              },
-              "largeRestaurant": {
-                "type": "Katta restoran/banket zali",
-                "area": "300+ m²",
-                "volume": "900+ m³",
-                "ozonator": "36+ g/soat yoki bir nechta qurilma"
-              },
-              "hookahLounge": {
-                "type": "Nargila zali",
-                "area": "50-100 m²",
-                "volume": "150-300 m³",
-                "ozonator": "6-12 g/soat (kunlik ishlov berish)"
-              }
-            }
+            "headers": [
+              "Joy turi",
+              "Maydoni",
+              "Hajmi",
+              "Ozonator"
+            ],
+            "rows": [
+              [
+                "Kichik kofexona",
+                "40-60 m²",
+                "120-180 m³",
+                "5-7 g/soat"
+              ],
+              [
+                "O'rta restoran",
+                "100-200 m²",
+                "300-600 m³",
+                "12-24 g/soat"
+              ],
+              [
+                "Katta restoran/banket zali",
+                "300+ m²",
+                "900+ m³",
+                "36+ g/soat yoki bir nechta qurilma"
+              ],
+              [
+                "Nargila zali",
+                "50-100 m²",
+                "150-300 m³",
+                "6-12 g/soat (kunlik ishlov berish)"
+              ]
+            ]
           }
         },
         "additionalUses": {
@@ -385,7 +426,11 @@
         "economicEffects": {
           "title": "Iqtisodiy ta'sirlar",
           "comparisonTitle": "An'anaviy va ozon yuvishining taqqoslash",
-          "headers": ["Parametr", "Ozon yuvish", "An'anaviy"],
+          "headers": [
+            "Parametr",
+            "Ozon yuvish",
+            "An'anaviy"
+          ],
           "rows": [
             {
               "parameter": "Suv harorati",
@@ -433,13 +478,31 @@
         "process": {
           "title": "Texnoloji jarayon",
           "tableCaption": "Yuvish komponentlarining taqqoslash",
-          "tableHeaders": ["An'anaviy kir yuvish", "Ozon kir yuvish"],
+          "tableHeaders": [
+            "An'anaviy kir yuvish",
+            "Ozon kir yuvish"
+          ],
           "tableRows": [
-            ["Issiq suv", "Sovuq suv"],
-            ["Qamira", "Ozon"],
-            ["Tozalantiruvchi", "Tozalantiruvchi (kamroq)"],
-            ["Kislota (neytrallashtirish)", "—"],
-            ["Oqartgich", "—"]
+            [
+              "Issiq suv",
+              "Sovuq suv"
+            ],
+            [
+              "Qamira",
+              "Ozon"
+            ],
+            [
+              "Tozalantiruvchi",
+              "Tozalantiruvchi (kamroq)"
+            ],
+            [
+              "Kislota (neytrallashtirish)",
+              "—"
+            ],
+            [
+              "Oqartgich",
+              "—"
+            ]
           ],
           "text": "Ozon o'z-o'zidan kislorodga parchalanadi va an'anaviy kimyoviy moddalardan farqli o'laroq olib chiqilishni talab qilmaydi. Bu rinselash sonini 20-40% kamaytirishga imkon beradi."
         },
@@ -488,13 +551,37 @@
         },
         "equipment": {
           "title": "Asboblarni tanlash",
-          "tableHeaders": ["Kir yuvish turi", "Tavsiya qilingan asbob", "Narxi"],
+          "tableHeaders": [
+            "Kir yuvish turi",
+            "Tavsiya qilingan asbob",
+            "Narxi"
+          ],
           "tableRows": [
-            ["Kichik kir yuvish", "Ozon generatori 5 g/h", "250.000 ₽ dan"],
-            ["Mehmonxona kir yuvish", "Ozon generatori 10 g/h", "320.000 ₽ dan"],
-            ["Tijorat kir yuvish", "Ozon generatori 20 g/h", "420.000 ₽ dan"],
-            ["Quruq temirlovchi (700L shkaf)", "Ozon shkafi OZ-1S", "420.000 ₽ dan"],
-            ["Quruq temirlovchi (1400L shkaf)", "Ozon shkafi OZ-2S", "500.000 ₽ dan"]
+            [
+              "Kichik kir yuvish",
+              "Ozon generatori 5 g/h",
+              "250.000 ₽ dan"
+            ],
+            [
+              "Mehmonxona kir yuvish",
+              "Ozon generatori 10 g/h",
+              "320.000 ₽ dan"
+            ],
+            [
+              "Tijorat kir yuvish",
+              "Ozon generatori 20 g/h",
+              "420.000 ₽ dan"
+            ],
+            [
+              "Quruq temirlovchi (700L shkaf)",
+              "Ozon shkafi OZ-1S",
+              "420.000 ₽ dan"
+            ],
+            [
+              "Quruq temirlovchi (1400L shkaf)",
+              "Ozon shkafi OZ-2S",
+              "500.000 ₽ dan"
+            ]
           ],
           "highlightTitle": "Muhim:",
           "highlightText": "Ozon generatori sig'imini hisoblash ifloslanish hajmi, suv sifati va asboblar xususiyatlariga bog'liq. Aniq tanlash uchun pilot loyiha talab qilinishi mumkin."
@@ -561,7 +648,12 @@
       ],
       "modes": {
         "title": "Ishlov berish rejim",
-        "tableHeaders": ["Rejim", "Vaqt", "Chastotasi", "Natija"],
+        "tableHeaders": [
+          "Rejim",
+          "Vaqt",
+          "Chastotasi",
+          "Natija"
+        ],
         "daily": {
           "title": "Kunlik oldini olish",
           "time": "60 daqiqa",
@@ -652,123 +744,130 @@
         "businessImpact": {
           "title": "Hidning sotuvlar ta'siriga",
           "table": {
-            "caption": "Hid biznes ko'rsatchlarga qanday ta'sir qiladi",
-            "headers": {
-              "indicator": "Ko'rsatchi",
-              "without": "Hid bilan",
-              "with": "Ozonlashdan keyin"
-            },
-            "rows": {
-              "visitTime": {
-                "indicator": "O'rtacha turiş vaqti"
+            "headers": [
+              "Ko'rsatchi",
+              "Hid bilan",
+              "Ozonlashdan keyin"
+            ],
+            "rows": [
+              {
+                "parameter": "O'rtacha turiş vaqti",
+                "value1": "12 daqiqa",
+                "value2": "18-20 daqiqa"
               },
-              "conversion": {
-                "indicator": "Sotuvga o'tish"
+              {
+                "parameter": "Sotuvga o'tish",
+                "value1": "15%",
+                "value2": "22%"
               },
-              "avgCheck": {
-                "indicator": "O'rtacha hisob"
+              {
+                "parameter": "O'rtacha hisob",
+                "value1": "Bazaviy",
+                "value2": "+15-25%"
               },
-              "repeatVisits": {
-                "indicator": "Takroriy tashrif"
+              {
+                "parameter": "Takroriy tashrif",
+                "value1": "25%",
+                "value2": "40%"
               },
-              "odorComplaints": {
-                "indicator": "Hid haqidagi salbiy sharhlar",
-                "without": "35%",
-                "with": "<5%"
+              {
+                "parameter": "Hid haqidagi salbiy sharhlar",
+                "value1": "35%",
+                "value2": "<5%"
               }
-            }
+            ]
           }
         },
         "benefits": {
           "title": "Ozonlashning foydalari",
-          "items": {
-            "odorRemoval": {
+          "items": [
+            {
               "title": "To'liq hidi yo'q qilish",
               "description": "Ozon dezinfeksiyant molekulalarni maskalamasdan neytrallab. Natija — yangi hava."
             },
-            "noUnloading": {
+            {
               "title": "Tovar yechilmasi",
               "description": "Barcha tovarlar bir vaqtda ishlov beriladi, buyumlarni osilishdan olib chiqish shart emas."
             },
-            "additionalDisinfection": {
+            {
               "title": "Qo'shimcha dezinfeksiya",
               "description": "Ozon bakteriyalar, viruslar va chang chayniqlarini yo'q qiladi — qo'shimcha sifat kafolati."
             },
-            "customerComfort": {
+            {
               "title": "Mijoz qulayligi",
               "description": "Do'konda yoqimli atmosfera = tanlash uchun ko'proq vaqt = ko'proq sotuvlar."
             }
-          }
+          ]
         },
         "process": {
           "title": "Ozonlash jarayoni",
-          "steps": {
-            "preparation": {
+          "steps": [
+            {
               "title": "Xona tayorlash",
               "description": "Do'kon yopiladi. Oynalar va eshiklar yopiladi. Ta'minot ventilatsiyasi maksimal ozon konsentratsiyasi uchun o'chiriladi."
             },
-            "placement": {
+            {
               "title": "Ozonator qo'yish",
               "description": "Devoqaga o'rnatilgan ozonator shiftdan 40-60 sm yuqorida qo'yiladi. Mobil — maksimal balandlikta."
             },
-            "ozonation": {
+            {
               "title": "Ozonlash",
               "description": "Xona hajmiga qarab ishlov berish rejimi 1-3 soatga faollashtiriladi."
             },
-            "ventilation": {
+            {
               "title": "Ventilatsiya yoki kutish",
               "description": "Kecha ishlov berish uchun ventilatsiya kerak emas — ozon o'z-o'zidan 2-3 soatda poyab. Do'kon ochilganda, faqat ringli yangiligi qoladi."
             }
-          }
+          ]
         },
         "calculation": {
           "title": "Asboblar hisoblash",
           "text": "Ozonator sig'imi tanlash: xona hajmi uchun soatiga 25 m³ dan 1 g.",
           "table": {
             "caption": "Ozonator tanlash tafsiyalari",
-            "headers": {
-              "area": "Do'kon maydoni",
-              "volume": "Hajmi",
-              "ozonator": "Ozonator",
-              "time": "Ishlov berish vaqti"
-            },
-            "rows": {
-              "small": {
-                "area": "50-100 m²",
-                "volume": "150-300 m³",
-                "ozonator": "10 g/soat",
-                "time": "1-2 soat"
-              },
-              "medium": {
-                "area": "100-200 m²",
-                "volume": "300-600 m³",
-                "ozonator": "10-20 g/soat",
-                "time": "2-3 soat"
-              },
-              "large": {
-                "area": "200-400 m²",
-                "volume": "600-1200 m³",
-                "ozonator": "20-40 g/soat",
-                "time": "2-3 soat"
-              },
-              "veryLarge": {
-                "area": "400+ m²",
-                "volume": "1200+ m³",
-                "ozonator": "Bir nechta qurilma",
-                "time": "2-3 soat"
-              }
-            }
+            "headers": [
+              "Do'kon maydoni",
+              "Hajmi",
+              "Ozonator",
+              "Ishlov berish vaqti"
+            ],
+            "rows": [
+              [
+                "50-100 m²",
+                "150-300 m³",
+                "10 g/soat",
+                "1-2 soat"
+              ],
+              [
+                "100-200 m²",
+                "300-600 m³",
+                "10-20 g/soat",
+                "2-3 soat"
+              ],
+              [
+                "200-400 m²",
+                "600-1200 m³",
+                "20-40 g/soat",
+                "2-3 soat"
+              ],
+              [
+                "400+ m²",
+                "1200+ m³",
+                "Bir nechta qurilma",
+                "2-3 soat"
+              ]
+            ]
           }
         },
         "workMode": {
           "title": "Ishlash rejimi",
-          "items": {
-            "daily": "Kunlik kecha ishlov berish — optimal rejim",
-            "automatic": "Do'kon yopilganidan keyin taymerda avtomatik boshlash",
-            "ventilation": "Ertalab ozon to'liq poyab, yangiliki qoladi",
-            "automation": "Xodimlarning qatnashmasi shart emas — to'liq avtomatika",
-            "initial": "Kuchli hid uchun — birinchi 3-5 kun 2-3 soatga ishlov berish"
-          },
+          "items": [
+            "Kunlik kecha ishlov berish — optimal rejim",
+            "Do'kon yopilganidan keyin taymerda avtomatik boshlash",
+            "Ertalab ozon to'liq poyab, yangiliki qoladi",
+            "Xodimlarning qatnashmasi shart emas — to'liq avtomatika",
+            "Kuchli hid uchun — birinchi 3-5 kun 2-3 soatga ishlov berish"
+          ],
           "protection": {
             "title": "Himoya asbob:",
             "text": "Agar xodim ozonlash paytida xonada bo'lsa (masalan, qurilmani yoqish uchun), o'rtak filtrli respirator yoki gaz niqob talab qilinadi."
@@ -777,33 +876,33 @@
         "economics": {
           "title": "Yechim iqtisodiyoti",
           "table": {
-            "headers": {
-              "expense": "Xaraja maddasi",
-              "without": "Ozonlashsiz",
-              "with": "Ozonlash bilan"
-            },
-            "rows": {
-              "fresheners": {
-                "expense": "Havo yangilantiruvchilari",
-                "without": "5-15 ming ₽/oy",
-                "with": "0 ₽"
-              },
-              "electricity": {
-                "expense": "Elektr energiyasi",
-                "without": "—",
-                "with": "500-1000 ₽/oy"
-              },
-              "losses": {
-                "expense": "Noqulaylik bilan bezdash miqdor",
-                "without": "Sezilarli",
-                "with": "Minimal"
-              },
-              "equipment": {
-                "expense": "Asboblar narxi",
-                "without": "—",
-                "with": "22-35 ming ₽ (bir marta)"
-              }
-            }
+            "headers": [
+              "Xaraja maddasi",
+              "Ozonlashsiz",
+              "Ozonlash bilan"
+            ],
+            "rows": [
+              [
+                "Havo yangilantiruvchilari",
+                "5-15 ming ₽/oy",
+                "0 ₽"
+              ],
+              [
+                "Elektr energiyasi",
+                "—",
+                "500-1000 ₽/oy"
+              ],
+              [
+                "Noqulaylik bilan bezdash miqdor",
+                "Sezilarli",
+                "Minimal"
+              ],
+              [
+                "Asboblar narxi",
+                "—",
+                "22-35 ming ₽ (bir marta)"
+              ]
+            ]
           },
           "payback": {
             "title": "To'lash:",
@@ -812,43 +911,43 @@
         },
         "additionalAdvantages": {
           "title": "Qo'shimcha afzalliklar",
-          "items": {
-            "0": "Tovarlarning yuqori jozibasi — buyumlar yaxshi sifat deb qabul qilinadi",
-            "1": "Chang chayniqlarining yo'q qilishi — allergiyachi uchun muhimdir",
-            "2": "Xona dezinfeksiyasi — infeksiya uzatishini oldini olish",
-            "3": "Ko'plak yo'q qilish — podval xonalar uchun relevantan",
-            "4": "Marketing afzalligi — hidsi bo'lmagan ikkinchi qo'l do'kon"
-          }
+          "items": [
+            "Tovarlarning yuqori jozibasi — buyumlar yaxshi sifat deb qabul qilinadi",
+            "Chang chayniqlarining yo'q qilishi — allergiyachi uchun muhimdir",
+            "Xona dezinfeksiyasi — infeksiya uzatishini oldini olish",
+            "Ko'plak yo'q qilish — podval xonalar uchun relevantan",
+            "Marketing afzalligi — hidsi bo'lmagan ikkinchi qo'l do'kon"
+          ]
         },
         "equipment": {
           "title": "Tavsiya qilingan asboblar",
           "table": {
-            "headers": {
-              "model": "Model",
-              "capacity": "Sig'im",
-              "application": "Qo'llanish",
-              "cost": "Narxi"
-            },
-            "rows": {
-              "model1": {
-                "model": "OZ-A10",
-                "capacity": "10 g/soat",
-                "application": "250 m³ gacha do'konlar",
-                "cost": "22.000 ₽ dan"
-              },
-              "model2": {
-                "model": "OZ-A10(N)",
-                "capacity": "10 g/soat",
-                "application": "Devoqaga o'rnatish",
-                "cost": "32.000 ₽ dan"
-              },
-              "model3": {
-                "model": "OZ-A20",
-                "capacity": "20 g/soat",
-                "application": "500 m³ gacha do'konlar",
-                "cost": "34.000 ₽ dan"
-              }
-            }
+            "headers": [
+              "Model",
+              "Sig'im",
+              "Qo'llanish",
+              "Narxi"
+            ],
+            "rows": [
+              [
+                "OZ-A10",
+                "10 g/soat",
+                "250 m³ gacha do'konlar",
+                "22.000 ₽ dan"
+              ],
+              [
+                "OZ-A10(N)",
+                "10 g/soat",
+                "Devoqaga o'rnatish",
+                "32.000 ₽ dan"
+              ],
+              [
+                "OZ-A20",
+                "20 g/soat",
+                "500 m³ gacha do'konlar",
+                "34.000 ₽ dan"
+              ]
+            ]
           }
         }
       }

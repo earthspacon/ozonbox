@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
@@ -26,61 +27,12 @@ interface ManufacturingPageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      title?: string
-      paragraph?: string
-      intro?: string
-      paragraph1?: string
-      paragraph2?: string
-      text?: string
-      items?: string[] | Array<{ title: string; description: string }>
-      bulletList?: string[]
-      steps?: Array<{ title: string; description: string }>
-      tableCaption?: string
-      tableHeaders?: string[]
-      tableData?: string[][]
-      table?: {
-        caption?: string
-        headers?: string[]
-        rows?: string[][]
-      }
-      highlight?: {
-        title?: string
-        text?: string
-      }
-      comparisonTable?: {
-        title?: string
-        headers?: string[]
-        rows?: Array<{
-          parameter: string
-          value1: string
-          value2: string
-          value3?: string
-        }>
-      }
-      note?: string
-      warning?: { title: string; text: string }
-    }
-  }
-}
-
 export function ManufacturingPage({ staticData, lang }: ManufacturingPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('industry')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { manufacturing?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { manufacturing?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.manufacturing

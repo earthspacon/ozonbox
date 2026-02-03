@@ -83,38 +83,38 @@
           "title": "Avtoparklar uchun qayta ishlash rejimlari",
           "table": {
             "caption": "Shahar avtobuslarini ozonlashning tavsiya etilgan rejimlari",
-            "headers": {
-              "mode": "Qayta ishlash rejimi",
-              "concentration": "Konsentratsiya",
-              "time": "Vaqt",
-              "when": "Qachon qo'llash kerak"
-            },
-            "rows": {
-              "express": {
-                "mode": "Reyslar orasida ekspress",
-                "concentration": "10-15 mg/m³",
-                "time": "15-20 min",
-                "when": "Oxirgi bekatlarda, tanaffuslar"
-              },
-              "standard": {
-                "mode": "Standart kechki",
-                "concentration": "15-20 mg/m³",
-                "time": "30-40 min",
-                "when": "Har kuni avtoparkda"
-              },
-              "deep": {
-                "mode": "Chuqur dezinfeksiya",
-                "concentration": "25-30 mg/m³",
-                "time": "60 min",
-                "when": "Haftalik yoki voqealaridan keyin"
-              },
-              "seasonal": {
-                "mode": "Mavsumiy qayta ishlash",
-                "concentration": "20-25 mg/m³",
-                "time": "90 min",
-                "when": "Epidemiya mavsumi oldidan"
-              }
-            }
+            "headers": [
+              "Qayta ishlash rejimi",
+              "Konsentratsiya",
+              "Vaqt",
+              "Qachon qo'llash kerak"
+            ],
+            "rows": [
+              [
+                "Reyslar orasida ekspress",
+                "10-15 mg/m³",
+                "15-20 min",
+                "Oxirgi bekatlarda, tanaffuslar"
+              ],
+              [
+                "Standart kechki",
+                "15-20 mg/m³",
+                "30-40 min",
+                "Har kuni avtoparkda"
+              ],
+              [
+                "Chuqur dezinfeksiya",
+                "25-30 mg/m³",
+                "60 min",
+                "Haftalik yoki voqealaridan keyin"
+              ],
+              [
+                "Mavsumiy qayta ishlash",
+                "20-25 mg/m³",
+                "90 min",
+                "Epidemiya mavsumi oldidan"
+              ]
+            ]
           },
           "text": "Rejimni tanlashda marshrut yuklanishini, mavsumni (epidemiya davrida — yanada intensiv qayta ishlash), salon holatini hisobga oling. Muntazam ozonlash chuqur qayta ishlashga bo'lgan ehtiyojni kamaytiradi."
         },
@@ -123,48 +123,48 @@
           "text": "Ozon jamoat transporti uchun muhim bo'lgan mikroorganizmlarning keng spektrini yo'qotadi:",
           "table": {
             "caption": "Avtobus salonida patogenlarga qarshi ozon samaradorligi",
-            "headers": {
-              "pathogen": "Patogen",
-              "time": "Inaktivatsiya vaqti",
-              "efficiency": "Samaradorlik"
-            },
-            "rows": {
-              "flu": {
-                "pathogen": "Gripp A/B viruslari",
-                "time": "5-10 min",
-                "efficiency": "99,99%"
-              },
-              "covid": {
-                "pathogen": "Koronaviruslar (SARS-CoV-2)",
-                "time": "10-15 min",
-                "efficiency": "99,99%"
-              },
-              "norovirus": {
-                "pathogen": "Norovirus",
-                "time": "15-20 min",
-                "efficiency": "99,9%"
-              },
-              "staph": {
-                "pathogen": "Staphylococcus aureus",
-                "time": "10-15 min",
-                "efficiency": "99,99%"
-              },
-              "ecoli": {
-                "pathogen": "E. coli",
-                "time": "5-10 min",
-                "efficiency": "99,99%"
-              },
-              "candida": {
-                "pathogen": "Candida zamburug'lari",
-                "time": "15-20 min",
-                "efficiency": "99,9%"
-              },
-              "mold": {
-                "pathogen": "Mold sporlari",
-                "time": "30-40 min",
-                "efficiency": "99,9%"
-              }
-            }
+            "headers": [
+              "Patogen",
+              "Inaktivatsiya vaqti",
+              "Samaradorlik"
+            ],
+            "rows": [
+              [
+                "Gripp A/B viruslari",
+                "5-10 min",
+                "99,99%"
+              ],
+              [
+                "Koronaviruslar (SARS-CoV-2)",
+                "10-15 min",
+                "99,99%"
+              ],
+              [
+                "Norovirus",
+                "15-20 min",
+                "99,9%"
+              ],
+              [
+                "Staphylococcus aureus",
+                "10-15 min",
+                "99,99%"
+              ],
+              [
+                "E. coli",
+                "5-10 min",
+                "99,99%"
+              ],
+              [
+                "Candida zamburug'lari",
+                "15-20 min",
+                "99,9%"
+              ],
+              [
+                "Mold sporlari",
+                "30-40 min",
+                "99,9%"
+              ]
+            ]
           }
         },
         "odorRemoval": {
@@ -205,43 +205,43 @@
           "title": "Avtopark ozonlash iqtisodiyoti",
           "comparison": {
             "title": "Avtobuslarni sanitariya qayta ishlash usullarini solishtirish",
-            "headers": {
-              "parameter": "Parametr",
-              "ozonation": "Ozonlash",
-              "manual": "Qo'lda dezinfeksiya"
-            },
-            "rows": {
-              "time": {
+            "headers": [
+              "Parametr",
+              "Ozonlash",
+              "Qo'lda dezinfeksiya"
+            ],
+            "rows": [
+              {
                 "parameter": "1 avtobus uchun vaqt",
                 "value1": "20-40 daqiqa",
                 "value2": "60-90 daqiqa"
               },
-              "staff": {
+              {
                 "parameter": "Xodimlar",
                 "value1": "1 kishi park uchun",
                 "value2": "1 kishi 3-5 avtobus uchun"
               },
-              "consumables": {
+              {
                 "parameter": "Sarflar",
                 "value1": "Faqat elektr",
                 "value2": "Dezinfeksiya vositalari, latta, qo'lqoplar"
               },
-              "coverage": {
+              {
                 "parameter": "Sirt qamrovi",
                 "value1": "100%",
                 "value2": "60-70%"
               },
-              "ventilation": {
+              {
                 "parameter": "Shamollatish qayta ishlash",
                 "value1": "Ha",
                 "value2": "Yo'q"
               },
-              "odorRemoval": {
+              {
                 "parameter": "Hidlarni bartaraf etish",
                 "value1": "To'liq",
                 "value2": "Qisman (yashirish)"
               }
-            }
+            ]
           },
           "highlight": {
             "title": "Hisoblash misoli:",
@@ -260,38 +260,38 @@
           },
           "table": {
             "caption": "Avtobus turi bo'yicha ozonator tanlash",
-            "headers": {
-              "type": "Avtobus turi",
-              "volume": "Salon hajmi",
-              "capacity": "Ishlab chiqarish",
-              "time": "Qayta ishlash vaqti"
-            },
-            "rows": {
-              "small": {
-                "type": "Kichik sinf (PAZ)",
-                "volume": "15-20 m³",
-                "capacity": "5-10 g/h",
-                "time": "15-20 min"
-              },
-              "medium": {
-                "type": "O'rta sinf (LiAZ)",
-                "volume": "40-50 m³",
-                "capacity": "10-20 g/h",
-                "time": "20-30 min"
-              },
-              "large": {
-                "type": "Katta sinf (bo'g'inli)",
-                "volume": "80-100 m³",
-                "capacity": "20-30 g/h",
-                "time": "30-40 min"
-              },
-              "electric": {
-                "type": "Elektr avtobuslar",
-                "volume": "50-60 m³",
-                "capacity": "10-20 g/h",
-                "time": "25-35 min"
-              }
-            }
+            "headers": [
+              "Avtobus turi",
+              "Salon hajmi",
+              "Ishlab chiqarish",
+              "Qayta ishlash vaqti"
+            ],
+            "rows": [
+              [
+                "Kichik sinf (PAZ)",
+                "15-20 m³",
+                "5-10 g/h",
+                "15-20 min"
+              ],
+              [
+                "O'rta sinf (LiAZ)",
+                "40-50 m³",
+                "10-20 g/h",
+                "20-30 min"
+              ],
+              [
+                "Katta sinf (bo'g'inli)",
+                "80-100 m³",
+                "20-30 g/h",
+                "30-40 min"
+              ],
+              [
+                "Elektr avtobuslar",
+                "50-60 m³",
+                "10-20 g/h",
+                "25-35 min"
+              ]
+            ]
           }
         },
         "compliance": {
@@ -407,14 +407,49 @@
           "title": "Vagon turlari bo'yicha qayta ishlash rejimlari",
           "table": {
             "caption": "Temir yo'l vagonlarini ozonlash parametrlari",
-            "headers": ["Vagon turi", "Hajm", "Ishlab chiqarish", "Qayta ishlash vaqti"],
+            "headers": [
+              "Vagon turi",
+              "Hajm",
+              "Ishlab chiqarish",
+              "Qayta ishlash vaqti"
+            ],
             "rows": [
-              ["Kupe (10 kupe)", "120-130 m³", "30-50 g/h", "40-60 min"],
-              ["Platskart", "150-160 m³", "40-60 g/h", "50-70 min"],
-              ["SV (yumshoq)", "100-110 m³", "20-30 g/h", "30-45 min"],
-              ["Vagon-restoran", "80-90 m³", "20-30 g/h", "40-50 min"],
-              ["Elektropoyezd (1 vagon)", "70-80 m³", "15-25 g/h", "30-40 min"],
-              ["Metro vagoni", "50-60 m³", "10-20 g/h", "20-30 min"]
+              [
+                "Kupe (10 kupe)",
+                "120-130 m³",
+                "30-50 g/h",
+                "40-60 min"
+              ],
+              [
+                "Platskart",
+                "150-160 m³",
+                "40-60 g/h",
+                "50-70 min"
+              ],
+              [
+                "SV (yumshoq)",
+                "100-110 m³",
+                "20-30 g/h",
+                "30-45 min"
+              ],
+              [
+                "Vagon-restoran",
+                "80-90 m³",
+                "20-30 g/h",
+                "40-50 min"
+              ],
+              [
+                "Elektropoyezd (1 vagon)",
+                "70-80 m³",
+                "15-25 g/h",
+                "30-40 min"
+              ],
+              [
+                "Metro vagoni",
+                "50-60 m³",
+                "10-20 g/h",
+                "20-30 min"
+              ]
             ]
           },
           "highlight": "10-15 vagondan iborat poyezdlarni qayta ishlashda brigada usuli qo'llaniladi: ozonatorlar ketma-ket vagondan vagonga ko'chiriladi. Birinchi vagonlar havolantirilayotganda, oxirgilari qayta ishlanadi."
@@ -435,7 +470,11 @@
           "title": "An'anaviy usullar bilan taqqoslash",
           "table": {
             "title": "Ozonlash vs vagonlarni kimyoviy dezinfeksiya qilish",
-            "headers": ["Parametr", "Ozonlash", "Kimyoviy qayta ishlash"],
+            "headers": [
+              "Parametr",
+              "Ozonlash",
+              "Kimyoviy qayta ishlash"
+            ],
             "rows": [
               {
                 "parameter": "Matras va to'qimalarni qayta ishlash",
@@ -510,13 +549,37 @@
           "title": "Depolar uchun iqtisodiyot",
           "table": {
             "caption": "Depo uchun ozonlash samaradorligini hisoblash (100 vagon)",
-            "headers": ["Ko'rsatkich", "Ozonlash bilan", "Ozonlashsiz"],
+            "headers": [
+              "Ko'rsatkich",
+              "Ozonlash bilan",
+              "Ozonlashsiz"
+            ],
             "rows": [
-              ["Tozalash xodimlari", "3-4 kishi", "15-20 kishi"],
-              ["Poyezdni qayta ishlash vaqti", "2-3 soat", "5-6 soat"],
-              ["Dezinfeksiya vositalari xarajatlari/oy", "~5000 ₽ (elektrik energiya)", "~80 000 ₽"],
-              ["Hidlarga shikoyatlar", "Kamdan-kam", "Muntazam"],
-              ["Ventilyatsiyani qayta ishlash", "Har bir reys", "Yiliga 1 marta (ta'mirlash)"]
+              [
+                "Tozalash xodimlari",
+                "3-4 kishi",
+                "15-20 kishi"
+              ],
+              [
+                "Poyezdni qayta ishlash vaqti",
+                "2-3 soat",
+                "5-6 soat"
+              ],
+              [
+                "Dezinfeksiya vositalari xarajatlari/oy",
+                "~5000 ₽ (elektrik energiya)",
+                "~80 000 ₽"
+              ],
+              [
+                "Hidlarga shikoyatlar",
+                "Kamdan-kam",
+                "Muntazam"
+              ],
+              [
+                "Ventilyatsiyani qayta ishlash",
+                "Har bir reys",
+                "Yiliga 1 marta (ta'mirlash)"
+              ]
             ]
           },
           "text": "Depo uchun ozonatorlar to'plamining o'zini qoplash muddati - xodimlar va iste'mol materiallariga tejash orqali 6-12 oy. Qo'shimcha samara - yo'lovchilarning vagonlarning tozaligi haqidagi sharhlarini yaxshilash."
@@ -605,56 +668,56 @@
           "title": "Ozon vs an'anaviy fumigatsiya",
           "table": {
             "title": "Konteynerlarni qayta ishlash usullarini solishtirish",
-            "headers": {
-              "parameter": "Parametr",
-              "ozonation": "Ozonlash",
-              "methyl": "Metil bromid",
-              "phosphine": "Fosfin"
-            },
-            "rows": {
-              "residues": {
+            "headers": [
+              "Parametr",
+              "Ozonlash",
+              "Metil bromid",
+              "Fosfin"
+            ],
+            "rows": [
+              {
                 "parameter": "Zaharlı qoldiqlar",
                 "value1": "Yo'q",
                 "value2": "Ha (karsingen)",
                 "value3": "Ha (juda zaharli)"
               },
-              "time": {
+              {
                 "parameter": "Qayta ishlash vaqti",
                 "value1": "12-24 soat",
                 "value2": "24-48 soat",
                 "value3": "72-120 soat"
               },
-              "degassing": {
+              {
                 "parameter": "Degassifikatsiya",
                 "value1": "2-4 soat",
                 "value2": "24-48 soat",
                 "value3": "48-72 soat"
               },
-              "ozoneLayer": {
+              {
                 "parameter": "Ozon qatiga ta'siri",
                 "value1": "Yo'q",
                 "value2": "Ha (AB'da taqiqlangan)",
                 "value3": "Yo'q"
               },
-              "food": {
+              {
                 "parameter": "Oziq-ovqat yuklari",
                 "value1": "Ha",
                 "value2": "Cheklangan",
                 "value3": "Yo'q"
               },
-              "electronics": {
+              {
                 "parameter": "Elektronika",
                 "value1": "Ha (ehtiyot bilan)",
                 "value2": "Ha",
                 "value3": "Ha"
               },
-              "permits": {
+              {
                 "parameter": "Maxsus ruxsat",
                 "value1": "Yo'q",
                 "value2": "Ha",
                 "value3": "Ha"
               }
-            }
+            ]
           }
         },
         "technology": {
@@ -687,50 +750,50 @@
           "title": "Konteynerlarni qayta ishlash rejimlari",
           "table": {
             "caption": "Turli maqsadlar uchun ozonlash parametrlari",
-            "headers": {
-              "goal": "Qayta ishlash maqsadi",
-              "concentration": "Konsentratsiya",
-              "exposure": "Ta'sir vaqti",
-              "notes": "Izohlar"
-            },
-            "rows": {
-              "adults": {
-                "goal": "Hasharotlar (kattalar)",
-                "concentration": "30-50 mg/m³",
-                "exposure": "12-18 soat",
-                "notes": "Ko'pchilik turlar"
-              },
-              "allStages": {
-                "goal": "Hasharotlar (barcha bosqichlar)",
-                "concentration": "50-100 mg/m³",
-                "exposure": "18-24 soat",
-                "notes": "Tuxumlar va larva o'z ichiga oladi"
-              },
-              "mold": {
-                "goal": "Mog'or va zambrug'lar",
-                "concentration": "20-30 mg/m³",
-                "exposure": "8-12 soat",
-                "notes": "Yuzalardan"
-              },
-              "bacteria": {
-                "goal": "Bakteriyalar",
-                "concentration": "15-25 mg/m³",
-                "exposure": "4-8 soat",
-                "notes": "99,9% inaktivatsiya"
-              },
-              "odors": {
-                "goal": "Hidlarni bartaraf etish",
-                "concentration": "10-20 mg/m³",
-                "exposure": "4-6 soat",
-                "notes": "Hidli moddalarni neytrallash"
-              },
-              "complex": {
-                "goal": "Murakkab qayta ishlash",
-                "concentration": "50-80 mg/m³",
-                "exposure": "24 soat",
-                "notes": "Barcha omillar"
-              }
-            }
+            "headers": [
+              "Qayta ishlash maqsadi",
+              "Konsentratsiya",
+              "Ta'sir vaqti",
+              "Izohlar"
+            ],
+            "rows": [
+              [
+                "Hasharotlar (kattalar)",
+                "30-50 mg/m³",
+                "12-18 soat",
+                "Ko'pchilik turlar"
+              ],
+              [
+                "Hasharotlar (barcha bosqichlar)",
+                "50-100 mg/m³",
+                "18-24 soat",
+                "Tuxumlar va larva o'z ichiga oladi"
+              ],
+              [
+                "Mog'or va zambrug'lar",
+                "20-30 mg/m³",
+                "8-12 soat",
+                "Yuzalardan"
+              ],
+              [
+                "Bakteriyalar",
+                "15-25 mg/m³",
+                "4-8 soat",
+                "99,9% inaktivatsiya"
+              ],
+              [
+                "Hidlarni bartaraf etish",
+                "10-20 mg/m³",
+                "4-6 soat",
+                "Hidli moddalarni neytrallash"
+              ],
+              [
+                "Murakkab qayta ishlash",
+                "50-80 mg/m³",
+                "24 soat",
+                "Barcha omillar"
+              ]
+            ]
           },
           "text": "Karantinlik zararkunandalar (qorinng yilemlari, dolali, un kurtaklari) uchun maksimal rejim tavsiya qilinadi: 24 soat davomida 80-100 mg/m³. Bu yog'och yoki don ichidagi tuxumlar o'z ichiga olgan barcha rivojlanish bosqichlardagi hasharotlar yo'q qilishni kafolatlaydI."
         },
@@ -738,56 +801,56 @@
           "title": "Zararkunandalarga qarshi samaradorlik",
           "table": {
             "caption": "Ozon bilan zararkunanda hasharotlarini yo'q qilish (80 mg/m³, 24 soat)",
-            "headers": {
-              "pest": "Zararkunanda",
-              "adults": "Kattalar",
-              "larvae": "Larva",
-              "eggs": "Tuxumlar"
-            },
-            "rows": {
-              "breadBeetle": {
-                "pest": "Non qo'nogisi",
-                "adults": "100%",
-                "larvae": "100%",
-                "eggs": "100%"
-              },
-              "grainWeevil": {
-                "pest": "Don dolali",
-                "adults": "100%",
-                "larvae": "100%",
-                "eggs": "99,9%"
-              },
-              "flourBeetle": {
-                "pest": "Un qo'nogisi",
-                "adults": "100%",
-                "larvae": "100%",
-                "eggs": "100%"
-              },
-              "riceWeevil": {
-                "pest": "Jurta dolali",
-                "adults": "100%",
-                "larvae": "100%",
-                "eggs": "99,9%"
-              },
-              "tobaccoBeetle": {
-                "pest": "Tamaki qo'nogisi",
-                "adults": "100%",
-                "larvae": "100%",
-                "eggs": "100%"
-              },
-              "woodBeetle": {
-                "pest": "Yog'och qo'nogisi",
-                "adults": "100%",
-                "larvae": "99,9%",
-                "eggs": "99,5%"
-              },
-              "moth": {
-                "pest": "Kiyim shoshqasI",
-                "adults": "100%",
-                "larvae": "100%",
-                "eggs": "100%"
-              }
-            }
+            "headers": [
+              "Zararkunanda",
+              "Kattalar",
+              "Larva",
+              "Tuxumlar"
+            ],
+            "rows": [
+              [
+                "Non qo'nogisi",
+                "100%",
+                "100%",
+                "100%"
+              ],
+              [
+                "Don dolali",
+                "100%",
+                "100%",
+                "99,9%"
+              ],
+              [
+                "Un qo'nogisi",
+                "100%",
+                "100%",
+                "100%"
+              ],
+              [
+                "Jurta dolali",
+                "100%",
+                "100%",
+                "99,9%"
+              ],
+              [
+                "Tamaki qo'nogisi",
+                "100%",
+                "100%",
+                "100%"
+              ],
+              [
+                "Yog'och qo'nogisi",
+                "100%",
+                "99,9%",
+                "99,5%"
+              ],
+              [
+                "Kiyim shoshqasI",
+                "100%",
+                "100%",
+                "100%"
+              ]
+            ]
           },
           "highlight": {
             "title": "Ta'siri mexanizmi:",
@@ -816,44 +879,44 @@
           ],
           "table": {
             "caption": "Konteyner o'lchamiga qarab uskunalar hisoblash",
-            "headers": {
-              "type": "Konteyner turi",
-              "volume": "Hajm",
-              "capacity": "Ozonator quvvati",
-              "time": "Konsentratsiya ko'tarilish vaqti"
-            },
-            "rows": {
-              "10ft": {
-                "type": "10 fut",
-                "volume": "16 m³",
-                "capacity": "20-30 g/h",
-                "time": "1-2 soat"
-              },
-              "20ft": {
-                "type": "20 fut",
-                "volume": "33 m³",
-                "capacity": "30-50 g/h",
-                "time": "2-3 soat"
-              },
-              "40ft": {
-                "type": "40 fut",
-                "volume": "67 m³",
-                "capacity": "50-80 g/h",
-                "time": "3-4 soat"
-              },
-              "40ftHC": {
-                "type": "40 fut HC",
-                "volume": "76 m³",
-                "capacity": "60-100 g/h",
-                "time": "3-5 soat"
-              },
-              "45ft": {
-                "type": "45 fut",
-                "volume": "86 m³",
-                "capacity": "80-120 g/h",
-                "time": "4-5 soat"
-              }
-            }
+            "headers": [
+              "Konteyner turi",
+              "Hajm",
+              "Ozonator quvvati",
+              "Konsentratsiya ko'tarilish vaqti"
+            ],
+            "rows": [
+              [
+                "10 fut",
+                "16 m³",
+                "20-30 g/h",
+                "1-2 soat"
+              ],
+              [
+                "20 fut",
+                "33 m³",
+                "30-50 g/h",
+                "2-3 soat"
+              ],
+              [
+                "40 fut",
+                "67 m³",
+                "50-80 g/h",
+                "3-4 soat"
+              ],
+              [
+                "40 fut HC",
+                "76 m³",
+                "60-100 g/h",
+                "3-5 soat"
+              ],
+              [
+                "45 fut",
+                "86 m³",
+                "80-120 g/h",
+                "4-5 soat"
+              ]
+            ]
           }
         },
         "applications": {
@@ -877,38 +940,38 @@
           "title": "Ozon fumigatsiyasining iqtisodiyoti",
           "table": {
             "title": "40-futlik konteynerning qayta ishlash xaraji",
-            "headers": {
-              "parameter": "Xaraj elementi",
-              "ozonation": "Ozonlash",
-              "chemical": "Kimyoviy fumigatsiya"
-            },
-            "rows": {
-              "equipment": {
+            "headers": [
+              "Xaraj elementi",
+              "Ozonlash",
+              "Kimyoviy fumigatsiya"
+            ],
+            "rows": [
+              {
                 "parameter": "Uskunalar (bir marta)",
                 "value1": "150-300 ming ₽",
                 "value2": "Talab qilinmaydi (xizmat)"
               },
-              "cost": {
+              {
                 "parameter": "Qayta ishlash xaraji",
                 "value1": "500-1000 ₽",
                 "value2": "15-25 ming ₽"
               },
-              "downtime": {
+              {
                 "parameter": "To'xtash vaqti",
                 "value1": "24-28 soat",
                 "value2": "72-120 soat"
               },
-              "documentation": {
+              {
                 "parameter": "Hujjatlashtirish",
                 "value1": "Qayta ishlash sertifikati",
                 "value2": "Fumigatsiya sertifikati"
               },
-              "staff": {
+              {
                 "parameter": "Xodimlar",
                 "value1": "1 kishi (o'qitish)",
                 "value2": "Lisenziyalashgan brigada"
               }
-            }
+            ]
           },
           "text": "Muntazam konteyner qayta ishlash bilan ozonator uskunalarining o'zini qoplash muddati 10-20 qayta ishlashdir. Terminallari va logistika kompaniyalari uchun yuqori konteyner aylanishi bilan tejamkorlik oyiga yuz minglab rubllarga yetadi."
         },
@@ -1054,14 +1117,49 @@
           "title": "Avtomobil turi bo'yicha qayta ishlash rejimlari",
           "table": {
             "caption": "Avtomobil yuklasining ozonlash parametrlari",
-            "headers": ["Avtomobil turi", "Tana hajmi", "Quvvat", "Qayta ishlash vaqti"],
+            "headers": [
+              "Avtomobil turi",
+              "Tana hajmi",
+              "Quvvat",
+              "Qayta ishlash vaqti"
+            ],
             "rows": [
-              ["Engil van", "8-15 m³", "5-10 g/h", "15-20 min"],
-              ["O'rta van", "20-40 m³", "10-20 g/h", "20-30 min"],
-              ["Sovutilgan (yarim traktor)", "80-90 m³", "20-30 g/h", "30-40 min"],
-              ["Tullo bilan qoplangan yarim traktor", "90-100 m³", "20-30 g/h", "35-45 min"],
-              ["Tank maskina (sut maskina)", "5-20 m³", "10-15 g/h", "20-30 min"],
-              ["Non vani", "15-25 m³", "5-10 g/h", "15-25 min"]
+              [
+                "Engil van",
+                "8-15 m³",
+                "5-10 g/h",
+                "15-20 min"
+              ],
+              [
+                "O'rta van",
+                "20-40 m³",
+                "10-20 g/h",
+                "20-30 min"
+              ],
+              [
+                "Sovutilgan (yarim traktor)",
+                "80-90 m³",
+                "20-30 g/h",
+                "30-40 min"
+              ],
+              [
+                "Tullo bilan qoplangan yarim traktor",
+                "90-100 m³",
+                "20-30 g/h",
+                "35-45 min"
+              ],
+              [
+                "Tank maskina (sut maskina)",
+                "5-20 m³",
+                "10-15 g/h",
+                "20-30 min"
+              ],
+              [
+                "Non vani",
+                "15-25 m³",
+                "5-10 g/h",
+                "15-25 min"
+              ]
             ]
           }
         },
@@ -1093,13 +1191,43 @@
           "text2": "Ozon hid molekulalarini oksidlaydi, ularni neytral birikmalarga aylantirad. Bu yashirish emas, balki to'liq bartaraf etish. Qayta ishlashdan keyin tana yangi sifatida hid qiladi — \"Bo'ron keyin kabi\".",
           "table": {
             "caption": "Hidlarni bartaraf etish rejimlar",
-            "headers": ["Hid turi", "Konsentratsiya", "Qayta ishlash vaqti", "Samaradorlik"],
+            "headers": [
+              "Hid turi",
+              "Konsentratsiya",
+              "Qayta ishlash vaqti",
+              "Samaradorlik"
+            ],
             "rows": [
-              ["Engil (chang, eskirganlik)", "10-15 mg/m³", "15-20 min", "100%"],
-              ["O'rta (piyoz, sarimsoq)", "15-20 mg/m³", "20-30 min", "100%"],
-              ["Kuchli (baliq, go'sht)", "20-30 mg/m³", "30-45 min", "95-100%"],
-              ["Juda kuchli (kimyoviy)", "25-35 mg/m³", "45-60 min", "90-95%"],
-              ["Eskirgan (mog'or)", "30-40 mg/m³", "60-90 min", "95-100%"]
+              [
+                "Engil (chang, eskirganlik)",
+                "10-15 mg/m³",
+                "15-20 min",
+                "100%"
+              ],
+              [
+                "O'rta (piyoz, sarimsoq)",
+                "15-20 mg/m³",
+                "20-30 min",
+                "100%"
+              ],
+              [
+                "Kuchli (baliq, go'sht)",
+                "20-30 mg/m³",
+                "30-45 min",
+                "95-100%"
+              ],
+              [
+                "Juda kuchli (kimyoviy)",
+                "25-35 mg/m³",
+                "45-60 min",
+                "90-95%"
+              ],
+              [
+                "Eskirgan (mog'or)",
+                "30-40 mg/m³",
+                "60-90 min",
+                "95-100%"
+              ]
             ]
           }
         },
@@ -1128,7 +1256,11 @@
           "title": "Avtoparkni iqtisodiyoti",
           "table": {
             "title": "Avtoparkni sanitariya qayta ishlash usullarini solishtirish (50 vositalar)",
-            "headers": ["Ko'rsatkich", "Ozonlash", "Kimyoviy qayta ishlash"],
+            "headers": [
+              "Ko'rsatkich",
+              "Ozonlash",
+              "Kimyoviy qayta ishlash"
+            ],
             "rows": [
               {
                 "parameter": "Uskunalar",
@@ -1191,12 +1323,32 @@
           ],
           "table": {
             "caption": "Avtoparkka o'lchamiga qarab ozonatorlarni tanlash",
-            "headers": ["Avtoparkka o'lcham", "Tavsiya etilgan uskunalar", "To'plam xaraji"],
+            "headers": [
+              "Avtoparkka o'lcham",
+              "Tavsiya etilgan uskunalar",
+              "To'plam xaraji"
+            ],
             "rows": [
-              ["5-15 vositalar", "1-2 mobil ozonatorlar 10-20 g/h", "30-60 ming ₽"],
-              ["15-50 vositalar", "3-5 ozonatorlar 15-30 g/h", "80-150 ming ₽"],
-              ["50-100 vositalar", "5-10 ozonatorlar + doimiy zonalar", "150-300 ming ₽"],
-              ["100+ vositalar", "Shaxsiy yechim", "Shaxsiy"]
+              [
+                "5-15 vositalar",
+                "1-2 mobil ozonatorlar 10-20 g/h",
+                "30-60 ming ₽"
+              ],
+              [
+                "15-50 vositalar",
+                "3-5 ozonatorlar 15-30 g/h",
+                "80-150 ming ₽"
+              ],
+              [
+                "50-100 vositalar",
+                "5-10 ozonatorlar + doimiy zonalar",
+                "150-300 ming ₽"
+              ],
+              [
+                "100+ vositalar",
+                "Shaxsiy yechim",
+                "Shaxsiy"
+              ]
             ]
           }
         },

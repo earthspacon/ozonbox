@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
@@ -27,54 +28,13 @@ interface PublicTransportPageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      title?: string
-      intro?: string
-      text?: string
-      text2?: string
-      paragraph1?: string
-      paragraph2?: string
-      items?: string[] | Array<{ title: string; description: string }>
-      tableCaption?: string
-      tableHeaders?: string[]
-      tableData?: string[][]
-      tableTitle?: string
-      rows?: Array<{
-        parameter: string
-        value1: string
-        value2: string
-      }>
-      steps?: Array<{ title: string; description: string }>
-      note?: string
-      warning?: string
-      options?: {
-        [key: string]: {
-          title: string
-          description: string
-        }
-      }
-    }
-  }
-}
-
 export function PublicTransportPage({ staticData }: PublicTransportPageProps) {
   const { t } = useTranslate()
   const lang = useLang()
   const ns = getCategoryNamespace('disinfection')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'public-transport'?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { 'public-transport'?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.['public-transport']

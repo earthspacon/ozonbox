@@ -83,38 +83,38 @@
           "title": "Treatment modes for fleets",
           "table": {
             "caption": "Recommended ozonation modes for urban buses",
-            "headers": {
-              "mode": "Treatment mode",
-              "concentration": "Concentration",
-              "time": "Time",
-              "when": "When to apply"
-            },
-            "rows": {
-              "express": {
-                "mode": "Express between runs",
-                "concentration": "10-15 mg/m³",
-                "time": "15-20 min",
-                "when": "At terminal stops, breaks"
-              },
-              "standard": {
-                "mode": "Standard nightly",
-                "concentration": "15-20 mg/m³",
-                "time": "30-40 min",
-                "when": "Daily at depot"
-              },
-              "deep": {
-                "mode": "Deep disinfection",
-                "concentration": "25-30 mg/m³",
-                "time": "60 min",
-                "when": "Weekly or after incidents"
-              },
-              "seasonal": {
-                "mode": "Seasonal treatment",
-                "concentration": "20-25 mg/m³",
-                "time": "90 min",
-                "when": "Before epidemic season"
-              }
-            }
+            "headers": [
+              "Treatment mode",
+              "Concentration",
+              "Time",
+              "When to apply"
+            ],
+            "rows": [
+              [
+                "Express between runs",
+                "10-15 mg/m³",
+                "15-20 min",
+                "At terminal stops, breaks"
+              ],
+              [
+                "Standard nightly",
+                "15-20 mg/m³",
+                "30-40 min",
+                "Daily at depot"
+              ],
+              [
+                "Deep disinfection",
+                "25-30 mg/m³",
+                "60 min",
+                "Weekly or after incidents"
+              ],
+              [
+                "Seasonal treatment",
+                "20-25 mg/m³",
+                "90 min",
+                "Before epidemic season"
+              ]
+            ]
           },
           "text": "When choosing a mode, consider route load, season (more intensive treatment during epidemics), interior condition. Regular ozonation reduces the need for deep treatment."
         },
@@ -123,48 +123,48 @@
           "text": "Ozone destroys a wide range of microorganisms relevant to public transport:",
           "table": {
             "caption": "Ozone efficiency against pathogens in bus interior",
-            "headers": {
-              "pathogen": "Pathogen",
-              "time": "Inactivation time",
-              "efficiency": "Efficiency"
-            },
-            "rows": {
-              "flu": {
-                "pathogen": "Influenza A/B viruses",
-                "time": "5-10 min",
-                "efficiency": "99.99%"
-              },
-              "covid": {
-                "pathogen": "Coronaviruses (SARS-CoV-2)",
-                "time": "10-15 min",
-                "efficiency": "99.99%"
-              },
-              "norovirus": {
-                "pathogen": "Norovirus",
-                "time": "15-20 min",
-                "efficiency": "99.9%"
-              },
-              "staph": {
-                "pathogen": "Staphylococcus aureus",
-                "time": "10-15 min",
-                "efficiency": "99.99%"
-              },
-              "ecoli": {
-                "pathogen": "E. coli",
-                "time": "5-10 min",
-                "efficiency": "99.99%"
-              },
-              "candida": {
-                "pathogen": "Candida fungi",
-                "time": "15-20 min",
-                "efficiency": "99.9%"
-              },
-              "mold": {
-                "pathogen": "Mold spores",
-                "time": "30-40 min",
-                "efficiency": "99.9%"
-              }
-            }
+            "headers": [
+              "Pathogen",
+              "Inactivation time",
+              "Efficiency"
+            ],
+            "rows": [
+              [
+                "Influenza A/B viruses",
+                "5-10 min",
+                "99.99%"
+              ],
+              [
+                "Coronaviruses (SARS-CoV-2)",
+                "10-15 min",
+                "99.99%"
+              ],
+              [
+                "Norovirus",
+                "15-20 min",
+                "99.9%"
+              ],
+              [
+                "Staphylococcus aureus",
+                "10-15 min",
+                "99.99%"
+              ],
+              [
+                "E. coli",
+                "5-10 min",
+                "99.99%"
+              ],
+              [
+                "Candida fungi",
+                "15-20 min",
+                "99.9%"
+              ],
+              [
+                "Mold spores",
+                "30-40 min",
+                "99.9%"
+              ]
+            ]
           }
         },
         "odorRemoval": {
@@ -205,43 +205,43 @@
           "title": "Fleet ozonation economics",
           "comparison": {
             "title": "Comparison of bus sanitation methods",
-            "headers": {
-              "parameter": "Parameter",
-              "ozonation": "Ozonation",
-              "manual": "Manual disinfection"
-            },
-            "rows": {
-              "time": {
+            "headers": [
+              "Parameter",
+              "Ozonation",
+              "Manual disinfection"
+            ],
+            "rows": [
+              {
                 "parameter": "Time per bus",
                 "value1": "20-40 minutes",
                 "value2": "60-90 minutes"
               },
-              "staff": {
+              {
                 "parameter": "Staff",
                 "value1": "1 person per fleet",
                 "value2": "1 person per 3-5 buses"
               },
-              "consumables": {
+              {
                 "parameter": "Consumables",
                 "value1": "Electricity only",
                 "value2": "Disinfectants, rags, gloves"
               },
-              "coverage": {
+              {
                 "parameter": "Surface coverage",
                 "value1": "100%",
                 "value2": "60-70%"
               },
-              "ventilation": {
+              {
                 "parameter": "Ventilation treatment",
                 "value1": "Yes",
                 "value2": "No"
               },
-              "odorRemoval": {
+              {
                 "parameter": "Odor removal",
                 "value1": "Complete",
                 "value2": "Partial (masking)"
               }
-            }
+            ]
           },
           "highlight": {
             "title": "Calculation example:",
@@ -260,38 +260,38 @@
           },
           "table": {
             "caption": "Ozonator selection by bus type",
-            "headers": {
-              "type": "Bus type",
-              "volume": "Interior volume",
-              "capacity": "Capacity",
-              "time": "Treatment time"
-            },
-            "rows": {
-              "small": {
-                "type": "Small class (PAZ)",
-                "volume": "15-20 m³",
-                "capacity": "5-10 g/h",
-                "time": "15-20 min"
-              },
-              "medium": {
-                "type": "Medium class (LiAZ)",
-                "volume": "40-50 m³",
-                "capacity": "10-20 g/h",
-                "time": "20-30 min"
-              },
-              "large": {
-                "type": "Large class (articulated)",
-                "volume": "80-100 m³",
-                "capacity": "20-30 g/h",
-                "time": "30-40 min"
-              },
-              "electric": {
-                "type": "Electric buses",
-                "volume": "50-60 m³",
-                "capacity": "10-20 g/h",
-                "time": "25-35 min"
-              }
-            }
+            "headers": [
+              "Bus type",
+              "Interior volume",
+              "Capacity",
+              "Treatment time"
+            ],
+            "rows": [
+              [
+                "Small class (PAZ)",
+                "15-20 m³",
+                "5-10 g/h",
+                "15-20 min"
+              ],
+              [
+                "Medium class (LiAZ)",
+                "40-50 m³",
+                "10-20 g/h",
+                "20-30 min"
+              ],
+              [
+                "Large class (articulated)",
+                "80-100 m³",
+                "20-30 g/h",
+                "30-40 min"
+              ],
+              [
+                "Electric buses",
+                "50-60 m³",
+                "10-20 g/h",
+                "25-35 min"
+              ]
+            ]
           }
         },
         "compliance": {
@@ -407,14 +407,49 @@
           "title": "Treatment modes by carriage type",
           "table": {
             "caption": "Railway carriage ozonation parameters",
-            "headers": ["Carriage type", "Volume", "Capacity", "Treatment time"],
+            "headers": [
+              "Carriage type",
+              "Volume",
+              "Capacity",
+              "Treatment time"
+            ],
             "rows": [
-              ["Compartment (10 compartments)", "120-130 m³", "30-50 g/h", "40-60 min"],
-              ["Open coach", "150-160 m³", "40-60 g/h", "50-70 min"],
-              ["Soft class", "100-110 m³", "20-30 g/h", "30-45 min"],
-              ["Dining car", "80-90 m³", "20-30 g/h", "40-50 min"],
-              ["Commuter train (1 car)", "70-80 m³", "15-25 g/h", "30-40 min"],
-              ["Metro car", "50-60 m³", "10-20 g/h", "20-30 min"]
+              [
+                "Compartment (10 compartments)",
+                "120-130 m³",
+                "30-50 g/h",
+                "40-60 min"
+              ],
+              [
+                "Open coach",
+                "150-160 m³",
+                "40-60 g/h",
+                "50-70 min"
+              ],
+              [
+                "Soft class",
+                "100-110 m³",
+                "20-30 g/h",
+                "30-45 min"
+              ],
+              [
+                "Dining car",
+                "80-90 m³",
+                "20-30 g/h",
+                "40-50 min"
+              ],
+              [
+                "Commuter train (1 car)",
+                "70-80 m³",
+                "15-25 g/h",
+                "30-40 min"
+              ],
+              [
+                "Metro car",
+                "50-60 m³",
+                "10-20 g/h",
+                "20-30 min"
+              ]
             ]
           },
           "highlight": "For trains of 10-15 cars, a team method is used: ozonators move sequentially from car to car. While the first cars are ventilating, the last ones are being treated."
@@ -435,7 +470,11 @@
           "title": "Comparison with traditional methods",
           "table": {
             "title": "Ozonation vs chemical carriage disinfection",
-            "headers": ["Parameter", "Ozonation", "Chemical treatment"],
+            "headers": [
+              "Parameter",
+              "Ozonation",
+              "Chemical treatment"
+            ],
             "rows": [
               {
                 "parameter": "Mattress and textile treatment",
@@ -510,13 +549,37 @@
           "title": "Economics for depots",
           "table": {
             "caption": "Ozonation efficiency calculation for depot (100 cars)",
-            "headers": ["Indicator", "With ozonation", "Without ozonation"],
+            "headers": [
+              "Indicator",
+              "With ozonation",
+              "Without ozonation"
+            ],
             "rows": [
-              ["Cleaning staff", "3-4 people", "15-20 people"],
-              ["Train treatment time", "2-3 hours", "5-6 hours"],
-              ["Disinfectant costs/month", "~5000 ₽ (electricity)", "~80,000 ₽"],
-              ["Odor complaints", "Rarely", "Regularly"],
-              ["Ventilation treatment", "Every run", "Once a year (repair)"]
+              [
+                "Cleaning staff",
+                "3-4 people",
+                "15-20 people"
+              ],
+              [
+                "Train treatment time",
+                "2-3 hours",
+                "5-6 hours"
+              ],
+              [
+                "Disinfectant costs/month",
+                "~5000 ₽ (electricity)",
+                "~80,000 ₽"
+              ],
+              [
+                "Odor complaints",
+                "Rarely",
+                "Regularly"
+              ],
+              [
+                "Ventilation treatment",
+                "Every run",
+                "Once a year (repair)"
+              ]
             ]
           },
           "text": "Payback period for depot ozonator set — 6-12 months through savings on staff and consumables. Additional benefit — improved passenger reviews of car cleanliness."
@@ -605,56 +668,56 @@
           "title": "Ozone vs traditional fumigation",
           "table": {
             "title": "Comparison of container treatment methods",
-            "headers": {
-              "parameter": "Parameter",
-              "ozonation": "Ozonation",
-              "methyl": "Methyl bromide",
-              "phosphine": "Phosphine"
-            },
-            "rows": {
-              "residues": {
+            "headers": [
+              "Parameter",
+              "Ozonation",
+              "Methyl bromide",
+              "Phosphine"
+            ],
+            "rows": [
+              {
                 "parameter": "Toxic residues",
                 "value1": "No",
                 "value2": "Yes (carcinogen)",
                 "value3": "Yes (highly toxic)"
               },
-              "time": {
+              {
                 "parameter": "Treatment time",
                 "value1": "12-24 hours",
                 "value2": "24-48 hours",
                 "value3": "72-120 hours"
               },
-              "degassing": {
+              {
                 "parameter": "Degassing",
                 "value1": "2-4 hours",
                 "value2": "24-48 hours",
                 "value3": "48-72 hours"
               },
-              "ozoneLayer": {
+              {
                 "parameter": "Impact on ozone layer",
                 "value1": "No",
                 "value2": "Yes (banned in EU)",
                 "value3": "No"
               },
-              "food": {
+              {
                 "parameter": "Food cargo",
                 "value1": "Yes",
                 "value2": "Limited",
                 "value3": "No"
               },
-              "electronics": {
+              {
                 "parameter": "Electronics",
                 "value1": "Yes (with caution)",
                 "value2": "Yes",
                 "value3": "Yes"
               },
-              "permits": {
+              {
                 "parameter": "Special permits",
                 "value1": "No",
                 "value2": "Yes",
                 "value3": "Yes"
               }
-            }
+            ]
           }
         },
         "technology": {
@@ -687,50 +750,50 @@
           "title": "Container treatment modes",
           "table": {
             "caption": "Ozonation parameters for various purposes",
-            "headers": {
-              "goal": "Treatment goal",
-              "concentration": "Concentration",
-              "exposure": "Exposure time",
-              "notes": "Notes"
-            },
-            "rows": {
-              "adults": {
-                "goal": "Insects (adults)",
-                "concentration": "30-50 mg/m³",
-                "exposure": "12-18 hours",
-                "notes": "Most species"
-              },
-              "allStages": {
-                "goal": "Insects (all stages)",
-                "concentration": "50-100 mg/m³",
-                "exposure": "18-24 hours",
-                "notes": "Including eggs and larvae"
-              },
-              "mold": {
-                "goal": "Mold and fungi",
-                "concentration": "20-30 mg/m³",
-                "exposure": "8-12 hours",
-                "notes": "From surfaces"
-              },
-              "bacteria": {
-                "goal": "Bacteria",
-                "concentration": "15-25 mg/m³",
-                "exposure": "4-8 hours",
-                "notes": "99.9% inactivation"
-              },
-              "odors": {
-                "goal": "Odor removal",
-                "concentration": "10-20 mg/m³",
-                "exposure": "4-6 hours",
-                "notes": "Odorant neutralization"
-              },
-              "complex": {
-                "goal": "Complex treatment",
-                "concentration": "50-80 mg/m³",
-                "exposure": "24 hours",
-                "notes": "All factors"
-              }
-            }
+            "headers": [
+              "Treatment goal",
+              "Concentration",
+              "Exposure time",
+              "Notes"
+            ],
+            "rows": [
+              [
+                "Insects (adults)",
+                "30-50 mg/m³",
+                "12-18 hours",
+                "Most species"
+              ],
+              [
+                "Insects (all stages)",
+                "50-100 mg/m³",
+                "18-24 hours",
+                "Including eggs and larvae"
+              ],
+              [
+                "Mold and fungi",
+                "20-30 mg/m³",
+                "8-12 hours",
+                "From surfaces"
+              ],
+              [
+                "Bacteria",
+                "15-25 mg/m³",
+                "4-8 hours",
+                "99.9% inactivation"
+              ],
+              [
+                "Odor removal",
+                "10-20 mg/m³",
+                "4-6 hours",
+                "Odorant neutralization"
+              ],
+              [
+                "Complex treatment",
+                "50-80 mg/m³",
+                "24 hours",
+                "All factors"
+              ]
+            ]
           },
           "text": "For quarantine pests (bark beetles, weevils, flour beetles) maximum mode is recommended: 80-100 mg/m³ for 24 hours. This guarantees destruction of insects at all development stages, including eggs inside wood or grain."
         },
@@ -738,56 +801,56 @@
           "title": "Efficiency against pests",
           "table": {
             "caption": "Destruction of pest insects with ozone (80 mg/m³, 24 hours)",
-            "headers": {
-              "pest": "Pest",
-              "adults": "Adults",
-              "larvae": "Larvae",
-              "eggs": "Eggs"
-            },
-            "rows": {
-              "breadBeetle": {
-                "pest": "Bread beetle",
-                "adults": "100%",
-                "larvae": "100%",
-                "eggs": "100%"
-              },
-              "grainWeevil": {
-                "pest": "Grain weevil",
-                "adults": "100%",
-                "larvae": "100%",
-                "eggs": "99.9%"
-              },
-              "flourBeetle": {
-                "pest": "Flour beetle",
-                "adults": "100%",
-                "larvae": "100%",
-                "eggs": "100%"
-              },
-              "riceWeevil": {
-                "pest": "Rice weevil",
-                "adults": "100%",
-                "larvae": "100%",
-                "eggs": "99.9%"
-              },
-              "tobaccoBeetle": {
-                "pest": "Tobacco beetle",
-                "adults": "100%",
-                "larvae": "100%",
-                "eggs": "100%"
-              },
-              "woodBeetle": {
-                "pest": "Wood beetle",
-                "adults": "100%",
-                "larvae": "99.9%",
-                "eggs": "99.5%"
-              },
-              "moth": {
-                "pest": "Clothes moth",
-                "adults": "100%",
-                "larvae": "100%",
-                "eggs": "100%"
-              }
-            }
+            "headers": [
+              "Pest",
+              "Adults",
+              "Larvae",
+              "Eggs"
+            ],
+            "rows": [
+              [
+                "Bread beetle",
+                "100%",
+                "100%",
+                "100%"
+              ],
+              [
+                "Grain weevil",
+                "100%",
+                "100%",
+                "99.9%"
+              ],
+              [
+                "Flour beetle",
+                "100%",
+                "100%",
+                "100%"
+              ],
+              [
+                "Rice weevil",
+                "100%",
+                "100%",
+                "99.9%"
+              ],
+              [
+                "Tobacco beetle",
+                "100%",
+                "100%",
+                "100%"
+              ],
+              [
+                "Wood beetle",
+                "100%",
+                "99.9%",
+                "99.5%"
+              ],
+              [
+                "Clothes moth",
+                "100%",
+                "100%",
+                "100%"
+              ]
+            ]
           },
           "highlight": {
             "title": "Mechanism of action:",
@@ -816,44 +879,44 @@
           ],
           "table": {
             "caption": "Equipment calculation by container size",
-            "headers": {
-              "type": "Container type",
-              "volume": "Volume",
-              "capacity": "Ozonator capacity",
-              "time": "Concentration build-up time"
-            },
-            "rows": {
-              "10ft": {
-                "type": "10 feet",
-                "volume": "16 m³",
-                "capacity": "20-30 g/h",
-                "time": "1-2 hours"
-              },
-              "20ft": {
-                "type": "20 feet",
-                "volume": "33 m³",
-                "capacity": "30-50 g/h",
-                "time": "2-3 hours"
-              },
-              "40ft": {
-                "type": "40 feet",
-                "volume": "67 m³",
-                "capacity": "50-80 g/h",
-                "time": "3-4 hours"
-              },
-              "40ftHC": {
-                "type": "40 feet HC",
-                "volume": "76 m³",
-                "capacity": "60-100 g/h",
-                "time": "3-5 hours"
-              },
-              "45ft": {
-                "type": "45 feet",
-                "volume": "86 m³",
-                "capacity": "80-120 g/h",
-                "time": "4-5 hours"
-              }
-            }
+            "headers": [
+              "Container type",
+              "Volume",
+              "Ozonator capacity",
+              "Concentration build-up time"
+            ],
+            "rows": [
+              [
+                "10 feet",
+                "16 m³",
+                "20-30 g/h",
+                "1-2 hours"
+              ],
+              [
+                "20 feet",
+                "33 m³",
+                "30-50 g/h",
+                "2-3 hours"
+              ],
+              [
+                "40 feet",
+                "67 m³",
+                "50-80 g/h",
+                "3-4 hours"
+              ],
+              [
+                "40 feet HC",
+                "76 m³",
+                "60-100 g/h",
+                "3-5 hours"
+              ],
+              [
+                "45 feet",
+                "86 m³",
+                "80-120 g/h",
+                "4-5 hours"
+              ]
+            ]
           }
         },
         "applications": {
@@ -877,38 +940,38 @@
           "title": "Ozone fumigation economics",
           "table": {
             "title": "Cost of treating a 40-foot container",
-            "headers": {
-              "parameter": "Cost item",
-              "ozonation": "Ozonation",
-              "chemical": "Chemical fumigation"
-            },
-            "rows": {
-              "equipment": {
+            "headers": [
+              "Cost item",
+              "Ozonation",
+              "Chemical fumigation"
+            ],
+            "rows": [
+              {
                 "parameter": "Equipment (one-time)",
                 "value1": "150-300 thousand ₽",
                 "value2": "Not required (service)"
               },
-              "cost": {
+              {
                 "parameter": "Treatment cost",
                 "value1": "500-1000 ₽",
                 "value2": "15-25 thousand ₽"
               },
-              "downtime": {
+              {
                 "parameter": "Downtime",
                 "value1": "24-28 hours",
                 "value2": "72-120 hours"
               },
-              "documentation": {
+              {
                 "parameter": "Documentation",
                 "value1": "Treatment certificate",
                 "value2": "Fumigation certificate"
               },
-              "staff": {
+              {
                 "parameter": "Staff",
                 "value1": "1 person (training)",
                 "value2": "Licensed team"
               }
-            }
+            ]
           },
           "text": "With regular container treatment, ozonator equipment payback is 10-20 treatments. For terminals and logistics companies with high container turnover, savings amount to hundreds of thousands of rubles per month."
         },
@@ -1054,14 +1117,49 @@
           "title": "Treatment modes by transport type",
           "table": {
             "caption": "Road freight ozonation parameters",
-            "headers": ["Transport type", "Body volume", "Capacity", "Treatment time"],
+            "headers": [
+              "Transport type",
+              "Body volume",
+              "Capacity",
+              "Treatment time"
+            ],
             "rows": [
-              ["Light-duty van", "8-15 m³", "5-10 g/h", "15-20 min"],
-              ["Medium-duty van", "20-40 m³", "10-20 g/h", "20-30 min"],
-              ["Refrigerator (semi-trailer)", "80-90 m³", "20-30 g/h", "30-40 min"],
-              ["Curtain-sided semi-trailer", "90-100 m³", "20-30 g/h", "35-45 min"],
-              ["Tank truck (milk truck)", "5-20 m³", "10-15 g/h", "20-30 min"],
-              ["Bread van", "15-25 m³", "5-10 g/h", "15-25 min"]
+              [
+                "Light-duty van",
+                "8-15 m³",
+                "5-10 g/h",
+                "15-20 min"
+              ],
+              [
+                "Medium-duty van",
+                "20-40 m³",
+                "10-20 g/h",
+                "20-30 min"
+              ],
+              [
+                "Refrigerator (semi-trailer)",
+                "80-90 m³",
+                "20-30 g/h",
+                "30-40 min"
+              ],
+              [
+                "Curtain-sided semi-trailer",
+                "90-100 m³",
+                "20-30 g/h",
+                "35-45 min"
+              ],
+              [
+                "Tank truck (milk truck)",
+                "5-20 m³",
+                "10-15 g/h",
+                "20-30 min"
+              ],
+              [
+                "Bread van",
+                "15-25 m³",
+                "5-10 g/h",
+                "15-25 min"
+              ]
             ]
           }
         },
@@ -1093,13 +1191,43 @@
           "text2": "Ozone oxidizes odor molecules, converting them to neutral compounds. This is not masking, but complete elimination. After treatment, the body smells fresh — \"like after a thunderstorm\".",
           "table": {
             "caption": "Odor elimination modes",
-            "headers": ["Odor type", "Concentration", "Treatment time", "Efficiency"],
+            "headers": [
+              "Odor type",
+              "Concentration",
+              "Treatment time",
+              "Efficiency"
+            ],
             "rows": [
-              ["Light (dust, mustiness)", "10-15 mg/m³", "15-20 min", "100%"],
-              ["Medium (onions, garlic)", "15-20 mg/m³", "20-30 min", "100%"],
-              ["Strong (fish, meat)", "20-30 mg/m³", "30-45 min", "95-100%"],
-              ["Very strong (chemicals)", "25-35 mg/m³", "45-60 min", "90-95%"],
-              ["Stale (mold)", "30-40 mg/m³", "60-90 min", "95-100%"]
+              [
+                "Light (dust, mustiness)",
+                "10-15 mg/m³",
+                "15-20 min",
+                "100%"
+              ],
+              [
+                "Medium (onions, garlic)",
+                "15-20 mg/m³",
+                "20-30 min",
+                "100%"
+              ],
+              [
+                "Strong (fish, meat)",
+                "20-30 mg/m³",
+                "30-45 min",
+                "95-100%"
+              ],
+              [
+                "Very strong (chemicals)",
+                "25-35 mg/m³",
+                "45-60 min",
+                "90-95%"
+              ],
+              [
+                "Stale (mold)",
+                "30-40 mg/m³",
+                "60-90 min",
+                "95-100%"
+              ]
             ]
           }
         },
@@ -1128,7 +1256,11 @@
           "title": "Fleet economics",
           "table": {
             "title": "Fleet sanitary treatment method comparison (50 vehicles)",
-            "headers": ["Indicator", "Ozonation", "Chemical treatment"],
+            "headers": [
+              "Indicator",
+              "Ozonation",
+              "Chemical treatment"
+            ],
             "rows": [
               {
                 "parameter": "Equipment",
@@ -1191,12 +1323,32 @@
           ],
           "table": {
             "caption": "Ozonator selection by fleet size",
-            "headers": ["Fleet size", "Recommended equipment", "Set cost"],
+            "headers": [
+              "Fleet size",
+              "Recommended equipment",
+              "Set cost"
+            ],
             "rows": [
-              ["5-15 vehicles", "1-2 mobile ozonators 10-20 g/h", "30-60 thousand ₽"],
-              ["15-50 vehicles", "3-5 ozonators 15-30 g/h", "80-150 thousand ₽"],
-              ["50-100 vehicles", "5-10 ozonators + fixed zones", "150-300 thousand ₽"],
-              ["100+ vehicles", "Custom solutions", "Individual"]
+              [
+                "5-15 vehicles",
+                "1-2 mobile ozonators 10-20 g/h",
+                "30-60 thousand ₽"
+              ],
+              [
+                "15-50 vehicles",
+                "3-5 ozonators 15-30 g/h",
+                "80-150 thousand ₽"
+              ],
+              [
+                "50-100 vehicles",
+                "5-10 ozonators + fixed zones",
+                "150-300 thousand ₽"
+              ],
+              [
+                "100+ vehicles",
+                "Custom solutions",
+                "Individual"
+              ]
             ]
           }
         },

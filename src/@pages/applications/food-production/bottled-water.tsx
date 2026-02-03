@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
@@ -25,45 +26,12 @@ interface BottledWaterPageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      title?: string
-      intro?: string
-      paragraph1?: string
-      paragraph2?: string
-      text?: string
-      text2?: string
-      items?: string[] | Array<{ title: string; description: string }>
-      tableCaption?: string
-      tableHeaders?: string[]
-      tableData?: string[][]
-      steps?: Array<{ title: string; description: string }>
-      note?: string
-      highlight?: string | { title?: string; text?: string }
-      warning?: string | { title: string; text: string }
-      features?: Array<{ title: string; description: string }>
-      rows?: Array<{ parameter: string; value1: string; value2: string }>
-      headers?: string[]
-    }
-  }
-}
-
 export function BottledWaterPage({ staticData, lang }: BottledWaterPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('food-production')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'bottled-water'?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { 'bottled-water'?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.['bottled-water']

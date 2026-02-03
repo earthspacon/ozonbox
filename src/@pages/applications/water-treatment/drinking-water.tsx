@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 import Image from 'next/image'
 
@@ -27,29 +28,12 @@ interface DrinkingWaterPageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      [key: string]: unknown
-    }
-  }
-}
-
 export function DrinkingWaterPage({ staticData, lang }: DrinkingWaterPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('water-treatment')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'drinking-water'?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { 'drinking-water'?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.['drinking-water']

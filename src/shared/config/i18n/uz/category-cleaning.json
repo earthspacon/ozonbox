@@ -60,7 +60,11 @@
         "comparison": {
           "title": "Nima uchun ozon boshqa usullardan ko'proq samarador",
           "tableTitle": "Hidar olib tashlash usullarini solishtirish",
-          "headers": ["Usul", "Ozonlash", "Spreylar/sorberntlar"],
+          "headers": [
+            "Usul",
+            "Ozonlash",
+            "Spreylar/sorberntlar"
+          ],
           "rows": [
             {
               "parameter": "Ishlash printsipi",
@@ -97,21 +101,43 @@
         "factors": {
           "title": "Samaradorlikga ta'sir etuvchi omillar",
           "text": "Ozonlash natijalari to'g'ri tanlangan tedavi rejimiga bog'liq:",
-          "table": {
-            "caption": "Tavsiya etilgan ozonlash parametrlari",
-            "headers": ["Parametr", "Ta'sir", "Tavsiya"],
-            "rows": [
-              ["Ozon konsentratsiyasi", "Yuqori — tezroq natija", "Vazifaga qarab 10-80 mg/m³"],
-              ["Harorat", "Pastroq T ozonning yanada barqarorligini anglatadi", "Optimal 15-25°C"],
-              ["Namlik", "Yuqori namlik parchalanishni tezlashtiradi", "40-60% nisbiy namlik"],
-              ["Tedavi vaqti", "Hid intensivligiga bog'liq", "2 dan 24 soatigacha"],
-              ["Seal qilish", "Siziqlar konsentratsiyani kamaytiradi", "Oynalar, eshiklar, ventillyatsiyani yoping"]
-            ]
-          },
           "highlight": {
             "title": "Muhim:",
             "text": "0-5°C da ozon bir necha kun davomida faol qoladi, 50°C da u 20-30 daqiqada parchalanadi. Bu harorat rejimi bilan tedavi intensivligini nazorat qilish imkonini beradi."
-          }
+          },
+          "tableHeaders": [
+            "Parametr",
+            "Ta'sir",
+            "Tavsiya"
+          ],
+          "tableCaption": "Tavsiya etilgan ozonlash parametrlari",
+          "tableData": [
+            [
+              "Ozon konsentratsiyasi",
+              "Yuqori — tezroq natija",
+              "Vazifaga qarab 10-80 mg/m³"
+            ],
+            [
+              "Harorat",
+              "Pastroq T ozonning yanada barqarorligini anglatadi",
+              "Optimal 15-25°C"
+            ],
+            [
+              "Namlik",
+              "Yuqori namlik parchalanishni tezlashtiradi",
+              "40-60% nisbiy namlik"
+            ],
+            [
+              "Tedavi vaqti",
+              "Hid intensivligiga bog'liq",
+              "2 dan 24 soatigacha"
+            ],
+            [
+              "Seal qilish",
+              "Siziqlar konsentratsiyani kamaytiradi",
+              "Oynalar, eshiklar, ventillyatsiyani yoping"
+            ]
+          ]
         },
         "process": {
           "title": "Xona ozonlash jarayoni",
@@ -259,25 +285,52 @@
         },
         "modes": {
           "title": "Zarar ko'rish darajasiga qarab tedavi rejimlar",
-          "table": {
-            "caption": "Tavsiya etilgan yong'indan keyin ozonlash parametrlari",
-            "headers": ["Zarar ko'rish darajasi", "Konsentratsiya", "Siklasning vaqti", "Siklalar soni"],
-            "rows": [
-              ["Yengil savob", "20-40 mg/m³", "4-8 soat", "1"],
-              ["O'rta savob", "40-60 mg/m³", "12-24 soat", "1-2"],
-              ["Og'ir savob", "60-80 mg/m³", "24-48 soat", "2-3"],
-              ["Juda og'ir", "80+ mg/m³", "48-72 soat", "3+"]
-            ]
-          },
           "highlight": {
             "title": "Muhim:",
             "text": "Ozon fizik ravishda kulilarni olib tasha olmaydi — u faqat hidni yo'q qiladi. Mexanik tozalash ozonlashdan oldin majbur. Shuningdek, ozon zarar ko'lgan materialni tiklama olmaydi — yongan yuzalar tamirlashni talab qiladi."
-          }
+          },
+          "tableHeaders": [
+            "Zarar ko'rish darajasi",
+            "Konsentratsiya",
+            "Siklasning vaqti",
+            "Siklalar soni"
+          ],
+          "tableCaption": "Tavsiya etilgan yong'indan keyin ozonlash parametrlari",
+          "tableData": [
+            [
+              "Yengil savob",
+              "20-40 mg/m³",
+              "4-8 soat",
+              "1"
+            ],
+            [
+              "O'rta savob",
+              "40-60 mg/m³",
+              "12-24 soat",
+              "1-2"
+            ],
+            [
+              "Og'ir savob",
+              "60-80 mg/m³",
+              "24-48 soat",
+              "2-3"
+            ],
+            [
+              "Juda og'ir",
+              "80+ mg/m³",
+              "48-72 soat",
+              "3+"
+            ]
+          ]
         },
         "comparison": {
           "title": "Yong'in savob hidini olib tashlash usullarini solishtirish",
           "tableTitle": "Ozonlash vs boshqa usullar",
-          "headers": ["Mezon", "Ozonlash", "Asosiy remont"],
+          "headers": [
+            "Mezon",
+            "Ozonlash",
+            "Asosiy remont"
+          ],
           "rows": [
             {
               "parameter": "Xarajat",
@@ -350,18 +403,44 @@
         "economic": {
           "title": "Iqtisodiy ta'sir",
           "text": "Ozonlash yong'indan keyin tiklanish xarajatlarida sezilarli tejashni imkon beradi:",
-          "table": {
-            "caption": "Tiklanish xarajatlarini solishtirish (60 m² apartament uchun misol)",
-            "headers": ["Xarajat maddasi", "Ozonlash bilan", "Ozonlashsiz"],
-            "rows": [
-              ["Tugatishni olib tashlash", "—", "$500"],
-              ["Yangi tugatish", "—", "$2,000"],
-              ["Mebelni tozalash", "$150", "$150"],
-              ["Ozonlash", "$200", "—"],
-              ["Yangi mebel (almashtirish)", "—", "$1,500"],
-              ["JAMI", "$350", "$4,150"]
+          "tableHeaders": [
+            "Xarajat maddasi",
+            "Ozonlash bilan",
+            "Ozonlashsiz"
+          ],
+          "tableCaption": "Tiklanish xarajatlarini solishtirish (60 m² apartament uchun misol)",
+          "tableData": [
+            [
+              "Tugatishni olib tashlash",
+              "—",
+              "$500"
+            ],
+            [
+              "Yangi tugatish",
+              "—",
+              "$2,000"
+            ],
+            [
+              "Mebelni tozalash",
+              "$150",
+              "$150"
+            ],
+            [
+              "Ozonlash",
+              "$200",
+              "—"
+            ],
+            [
+              "Yangi mebel (almashtirish)",
+              "—",
+              "$1,500"
+            ],
+            [
+              "JAMI",
+              "$350",
+              "$4,150"
             ]
-          }
+          ]
         }
       }
     },
@@ -422,17 +501,39 @@
         },
         "types": {
           "title": "Hayvon hidlarining turlari",
-          "table": {
-            "caption": "Turli xil hidlarning xususiyatlari va tedavi usullari",
-            "headers": ["Hidar manbasi", "Xususiyatlari", "Tedavi rejimi"],
-            "rows": [
-              ["Mushuk suylasi", "Eng doimiy, uriy kislotani o'z ichiga oladi", "40-60 mg/m³, 6-8 soat, 2-3 sikllar"],
-              ["It suylasi", "Kam konsentrat, olib tashlash osonroq", "20-40 mg/m³, 4-6 soat, 1-2 sikllar"],
-              ["Izlar (hududni belgilash)", "Konsentat, feromon bilan", "40-60 mg/m³, 8-12 soat, 2-3 sikllar"],
-              ["Sochni hidi", "Organik, sebumdan", "10-20 mg/m³, 2-4 soat, 1 siklada"],
-              ["Tualet qutiidagi hid", "Suyla va najas qoldig'i", "20-40 mg/m³, 4-6 soat, 1-2 sikllar"]
+          "tableHeaders": [
+            "Hidar manbasi",
+            "Xususiyatlari",
+            "Tedavi rejimi"
+          ],
+          "tableCaption": "Turli xil hidlarning xususiyatlari va tedavi usullari",
+          "tableData": [
+            [
+              "Mushuk suylasi",
+              "Eng doimiy, uriy kislotani o'z ichiga oladi",
+              "40-60 mg/m³, 6-8 soat, 2-3 sikllar"
+            ],
+            [
+              "It suylasi",
+              "Kam konsentrat, olib tashlash osonroq",
+              "20-40 mg/m³, 4-6 soat, 1-2 sikllar"
+            ],
+            [
+              "Izlar (hududni belgilash)",
+              "Konsentat, feromon bilan",
+              "40-60 mg/m³, 8-12 soat, 2-3 sikllar"
+            ],
+            [
+              "Sochni hidi",
+              "Organik, sebumdan",
+              "10-20 mg/m³, 2-4 soat, 1 siklada"
+            ],
+            [
+              "Tualet qutiidagi hid",
+              "Suyla va najas qoldig'i",
+              "20-40 mg/m³, 4-6 soat, 1-2 sikllar"
             ]
-          }
+          ]
         },
         "process": {
           "title": "Hayvon hidlarini olib tashlash uchun ozonlash jarayoni",
@@ -462,7 +563,11 @@
         "comparison": {
           "title": "Hidar olib tashlash usullarini solishtirish",
           "tableTitle": "Ozonlash vs odiy mahsulotlar",
-          "headers": ["Mezon", "Ozonlash", "Ferment/kimyoviy mahsulotlar"],
+          "headers": [
+            "Mezon",
+            "Ozonlash",
+            "Ferment/kimyoviy mahsulotlar"
+          ],
           "rows": [
             {
               "parameter": "Ishlash printsipi",
@@ -632,18 +737,51 @@
         },
         "modes": {
           "title": "Turli vazifalar uchun tedavi rejimlar",
-          "table": {
-            "caption": "Tavsiya etilgan avtomobil ichini ozonlash parametrlari",
-            "headers": ["Ifloslanish turi", "Konsentratsiya", "Vaqti", "Xususiyatlari"],
-            "rows": [
-              ["Yengil hidlar", "10-20 mg/m³", "20 min", "Oldini oluvchi tozalash"],
-              ["Savob (yengil)", "20-30 mg/m³", "30 min", "Savob ichkiliylini yo'qotgan keyin"],
-              ["Savob (kuchli)", "30-40 mg/m³", "45-60 min", "Muntazam savob ichkiliyli avtomobil"],
-              ["Hayvon hidlari", "30-40 mg/m³", "40-60 min", "Qayta aylantirilish bilan"],
-              ["Suv to'kish keyin", "40-60 mg/m³", "60 min", "Ichini quriturggandan keyin"],
-              ["Konditsioner dezinfektsiyasi", "20-30 mg/m³", "30 min", "Faqat qayta aylantirilish"]
+          "tableHeaders": [
+            "Ifloslanish turi",
+            "Konsentratsiya",
+            "Vaqti",
+            "Xususiyatlari"
+          ],
+          "tableCaption": "Tavsiya etilgan avtomobil ichini ozonlash parametrlari",
+          "tableData": [
+            [
+              "Yengil hidlar",
+              "10-20 mg/m³",
+              "20 min",
+              "Oldini oluvchi tozalash"
+            ],
+            [
+              "Savob (yengil)",
+              "20-30 mg/m³",
+              "30 min",
+              "Savob ichkiliylini yo'qotgan keyin"
+            ],
+            [
+              "Savob (kuchli)",
+              "30-40 mg/m³",
+              "45-60 min",
+              "Muntazam savob ichkiliyli avtomobil"
+            ],
+            [
+              "Hayvon hidlari",
+              "30-40 mg/m³",
+              "40-60 min",
+              "Qayta aylantirilish bilan"
+            ],
+            [
+              "Suv to'kish keyin",
+              "40-60 mg/m³",
+              "60 min",
+              "Ichini quriturggandan keyin"
+            ],
+            [
+              "Konditsioner dezinfektsiyasi",
+              "20-30 mg/m³",
+              "30 min",
+              "Faqat qayta aylantirilish"
             ]
-          }
+          ]
         },
         "service": {
           "title": "Avtomobil yuvash va detailing xizmati sifatida ozonlash",
@@ -681,22 +819,48 @@
             "Nom riski — hidar shikoyatlar reytingni pasaytiradi",
             "Muntazamlik — xizmat shartnomasini imkoniyligi"
           ],
-          "table": {
-            "caption": "Tavsiya etilgan ozonlash chastotasi",
-            "headers": ["Flot turi", "Tavsiya etilgan chastotasi", "Maqsadi"],
-            "rows": [
-              ["Avtomobil ijarashi", "Haftaliga bir marta", "Hidar to'planishni oldini olish"],
-              ["Iqtisodiy taksi", "Har 2 hafta", "Ichidagi toz qilish"],
-              ["Biznes/qulaylik taksi", "Haftaliga bir marta", "Yuqori sifat standardi"],
-              ["Ijaradagi avtomobillar", "Har bir mijozdan keyin", "Keyingi ijaraga tayyorlash"],
-              ["Korporativ transport", "Oyiga bir marta", "Oldini oluvchi tozalash"]
+          "tableHeaders": [
+            "Flot turi",
+            "Tavsiya etilgan chastotasi",
+            "Maqsadi"
+          ],
+          "tableCaption": "Tavsiya etilgan ozonlash chastotasi",
+          "tableData": [
+            [
+              "Avtomobil ijarashi",
+              "Haftaliga bir marta",
+              "Hidar to'planishni oldini olish"
+            ],
+            [
+              "Iqtisodiy taksi",
+              "Har 2 hafta",
+              "Ichidagi toz qilish"
+            ],
+            [
+              "Biznes/qulaylik taksi",
+              "Haftaliga bir marta",
+              "Yuqori sifat standardi"
+            ],
+            [
+              "Ijaradagi avtomobillar",
+              "Har bir mijozdan keyin",
+              "Keyingi ijaraga tayyorlash"
+            ],
+            [
+              "Korporativ transport",
+              "Oyiga bir marta",
+              "Oldini oluvchi tozalash"
             ]
-          }
+          ]
         },
         "comparison": {
           "title": "Alternativ usullar bilan solishtirish",
           "tableTitle": "Ozonlash vs kimyoviy havo toza qilish spreylar",
-          "headers": ["Parametr", "Ozonlash", "Spreylar/deodorantlar"],
+          "headers": [
+            "Parametr",
+            "Ozonlash",
+            "Spreylar/deodorantlar"
+          ],
           "rows": [
             {
               "parameter": "Ishlash printsipi",
@@ -732,21 +896,43 @@
         },
         "interiors": {
           "title": "Turli xil ichidagi turlar bilan ishlash",
-          "table": {
-            "caption": "To'shimma turiga qarab tavsiyalar",
-            "headers": ["Ichidagi turi", "Xususiyatlari", "Tavsiyalar"],
-            "rows": [
-              ["Mato", "Hidlarni yaxshi so'radi", "Tedavi vaqtini 20% ga oshiring"],
-              ["Teri", "Kam so'rilish, olib tashlash osonroq", "Standart rejimi"],
-              ["Sintetik teri", "Natural teriyga o'xshash", "Standart rejimi"],
-              ["Alcantara", "Mikroshua, yaxshi so'radi", "Mato ichidek"],
-              ["Birlashtirilgan", "Turli xil materiallar", "Mato elementlariga e'tibor qaratilishi"]
-            ]
-          },
           "highlight": {
             "title": "Muhim:",
             "text": "Teri ichidagi ozonlashdan keyin, terisini konditsioner bilan tozalash tavsiya etiladi. Ozon natural terini biroz quritishi mumkin, lekin to'g'ri konsentratsiyalarda bu kritik emas."
-          }
+          },
+          "tableHeaders": [
+            "Ichidagi turi",
+            "Xususiyatlari",
+            "Tavsiyalar"
+          ],
+          "tableCaption": "To'shimma turiga qarab tavsiyalar",
+          "tableData": [
+            [
+              "Mato",
+              "Hidlarni yaxshi so'radi",
+              "Tedavi vaqtini 20% ga oshiring"
+            ],
+            [
+              "Teri",
+              "Kam so'rilish, olib tashlash osonroq",
+              "Standart rejimi"
+            ],
+            [
+              "Sintetik teri",
+              "Natural teriyga o'xshash",
+              "Standart rejimi"
+            ],
+            [
+              "Alcantara",
+              "Mikroshua, yaxshi so'radi",
+              "Mato ichidek"
+            ],
+            [
+              "Birlashtirilgan",
+              "Turli xil materiallar",
+              "Mato elementlariga e'tibor qaratilishi"
+            ]
+          ]
         }
       }
     },

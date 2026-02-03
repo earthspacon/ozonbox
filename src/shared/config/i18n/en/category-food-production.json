@@ -58,35 +58,79 @@
         },
         "requirements": {
           "title": "Regulatory requirements",
-          "table": {
-            "caption": "Requirements for bottled water",
-            "headers": ["Parameter", "First category", "Premium category"],
-            "rows": [
-              ["Residual ozone", "≤ 0.1 mg/L", "≤ 0.1 mg/L"],
-              ["Oxygen content", "≥ 5 mg/L", "≥ 9 mg/L"],
-              ["Ozone contact time", "≥ 12 minutes", "≥ 12 minutes"],
-              ["Chlorine use", "Prohibited", "Prohibited"],
-              ["Silver (baby water)", "Permitted", "Prohibited"]
-            ]
-          },
           "highlight": {
             "text": "For baby water, ozonation is possibly the only preservation option, since use of silver ions and carbon dioxide is prohibited by standards."
-          }
+          },
+          "tableHeaders": [
+            "Parameter",
+            "First category",
+            "Premium category"
+          ],
+          "tableCaption": "Requirements for bottled water",
+          "tableData": [
+            [
+              "Residual ozone",
+              "≤ 0.1 mg/L",
+              "≤ 0.1 mg/L"
+            ],
+            [
+              "Oxygen content",
+              "≥ 5 mg/L",
+              "≥ 9 mg/L"
+            ],
+            [
+              "Ozone contact time",
+              "≥ 12 minutes",
+              "≥ 12 minutes"
+            ],
+            [
+              "Chlorine use",
+              "Prohibited",
+              "Prohibited"
+            ],
+            [
+              "Silver (baby water)",
+              "Permitted",
+              "Prohibited"
+            ]
+          ]
         },
         "scheme": {
           "title": "Final ozonation schematic",
           "text": "Ozonation system is placed directly before the bottling machine. The system includes oxygen generator, ozone generator, ozone delivery and dissolution system, as well as ozone analyzer or ORP meter for control.",
-          "table": {
-            "caption": "Final ozonation equipment composition",
-            "headers": ["Component", "Purpose", "Specifications"],
-            "rows": [
-              ["Oxygen generator", "Pure oxygen supply", "O₂ concentration ≥ 90%"],
-              ["Ozone generator", "Ozone production", "1 g/hour per 1 m³/hour water"],
-              ["Ejector / diffuser", "Ozone dissolution in water", "Efficiency > 90%"],
-              ["Contact tank", "Contact time provision", "≥ 12 minutes"],
-              ["Ozone analyzer", "Concentration control", "0-2 mg/L"]
+          "tableHeaders": [
+            "Component",
+            "Purpose",
+            "Specifications"
+          ],
+          "tableCaption": "Final ozonation equipment composition",
+          "tableData": [
+            [
+              "Oxygen generator",
+              "Pure oxygen supply",
+              "O₂ concentration ≥ 90%"
+            ],
+            [
+              "Ozone generator",
+              "Ozone production",
+              "1 g/hour per 1 m³/hour water"
+            ],
+            [
+              "Ejector / diffuser",
+              "Ozone dissolution in water",
+              "Efficiency > 90%"
+            ],
+            [
+              "Contact tank",
+              "Contact time provision",
+              "≥ 12 minutes"
+            ],
+            [
+              "Ozone analyzer",
+              "Concentration control",
+              "0-2 mg/L"
             ]
-          }
+          ]
         },
         "limitations": {
           "title": "Limitations for mineral water",
@@ -95,14 +139,42 @@
         },
         "comparison": {
           "title": "Water disinfection method comparison",
-          "headers": ["Parameter", "Ozonation", "UV treatment"],
+          "headers": [
+            "Parameter",
+            "Ozonation",
+            "UV treatment"
+          ],
           "rows": [
-            { "parameter": "Container sterilization", "value1": "Yes", "value2": "No" },
-            { "parameter": "Oxygen saturation", "value1": "Yes", "value2": "No" },
-            { "parameter": "Residual effect", "value1": "Yes", "value2": "No" },
-            { "parameter": "Equipment disinfection", "value1": "Yes", "value2": "No" },
-            { "parameter": "Taste improvement", "value1": "Yes", "value2": "No" },
-            { "parameter": "Requires contact", "value1": "≥ 12 minutes", "value2": "Instant" }
+            {
+              "parameter": "Container sterilization",
+              "value1": "Yes",
+              "value2": "No"
+            },
+            {
+              "parameter": "Oxygen saturation",
+              "value1": "Yes",
+              "value2": "No"
+            },
+            {
+              "parameter": "Residual effect",
+              "value1": "Yes",
+              "value2": "No"
+            },
+            {
+              "parameter": "Equipment disinfection",
+              "value1": "Yes",
+              "value2": "No"
+            },
+            {
+              "parameter": "Taste improvement",
+              "value1": "Yes",
+              "value2": "No"
+            },
+            {
+              "parameter": "Requires contact",
+              "value1": "≥ 12 minutes",
+              "value2": "Instant"
+            }
           ]
         },
         "producerBenefits": {
@@ -174,13 +246,43 @@
         "application": {
           "title": "Ozone application in dairy production",
           "tableCaption": "Ozonation modes for dairy plant equipment",
-          "tableHeaders": ["Treatment object", "Method", "Concentration", "Efficiency"],
+          "tableHeaders": [
+            "Treatment object",
+            "Method",
+            "Concentration",
+            "Efficiency"
+          ],
           "tableData": [
-            ["Milking equipment", "Ozonated water", "2–3 mg/L", "99.9%"],
-            ["Cooling tanks", "Water + air", "3–5 mg/L", "99.99%"],
-            ["Milk lines", "Ozonated water flush", "2–3 mg/L", "99.9%"],
-            ["Storage tanks", "Gaseous ozone", "5–10 mg/m³", "99.99%"],
-            ["Cold rooms", "Gaseous ozone", "3–6 mg/m³", "99.5%"]
+            [
+              "Milking equipment",
+              "Ozonated water",
+              "2–3 mg/L",
+              "99.9%"
+            ],
+            [
+              "Cooling tanks",
+              "Water + air",
+              "3–5 mg/L",
+              "99.99%"
+            ],
+            [
+              "Milk lines",
+              "Ozonated water flush",
+              "2–3 mg/L",
+              "99.9%"
+            ],
+            [
+              "Storage tanks",
+              "Gaseous ozone",
+              "5–10 mg/m³",
+              "99.99%"
+            ],
+            [
+              "Cold rooms",
+              "Gaseous ozone",
+              "3–6 mg/m³",
+              "99.5%"
+            ]
           ]
         },
         "advantages": {
@@ -196,7 +298,11 @@
         },
         "comparison": {
           "title": "Comparison of sanitation methods",
-          "headers": ["Parameter", "Ozonation", "Chemical CIP cleaning"],
+          "headers": [
+            "Parameter",
+            "Ozonation",
+            "Chemical CIP cleaning"
+          ],
           "rows": [
             {
               "parameter": "Efficiency against Listeria",
@@ -234,13 +340,43 @@
           "title": "Dairy product storage",
           "intro": "Ozonation of cold rooms for dairy product storage prevents mold development, suppresses psychrotrophic bacteria growth and extends shelf life of cottage cheese, sour cream, yogurt by 30–50%.",
           "tableCaption": "Ozonation modes for dairy product storage",
-          "tableHeaders": ["Product", "Temperature", "Concentration", "Shelf life increase"],
+          "tableHeaders": [
+            "Product",
+            "Temperature",
+            "Concentration",
+            "Shelf life increase"
+          ],
           "tableData": [
-            ["Cottage cheese", "+2...+6°C", "3–4 mg/m³", "+40%"],
-            ["Sour cream", "+2...+6°C", "2–3 mg/m³", "+35%"],
-            ["Yogurt", "+2...+6°C", "2–3 mg/m³", "+30%"],
-            ["Butter", "-6...-12°C", "3–5 mg/m³", "+50%"],
-            ["Soft cheeses", "+4...+8°C", "3–6 mg/m³", "+45%"]
+            [
+              "Cottage cheese",
+              "+2...+6°C",
+              "3–4 mg/m³",
+              "+40%"
+            ],
+            [
+              "Sour cream",
+              "+2...+6°C",
+              "2–3 mg/m³",
+              "+35%"
+            ],
+            [
+              "Yogurt",
+              "+2...+6°C",
+              "2–3 mg/m³",
+              "+30%"
+            ],
+            [
+              "Butter",
+              "-6...-12°C",
+              "3–5 mg/m³",
+              "+50%"
+            ],
+            [
+              "Soft cheeses",
+              "+4...+8°C",
+              "3–6 mg/m³",
+              "+45%"
+            ]
           ],
           "highlight": {
             "text": "In cold storage, ozonation not only suppresses microflora but also prevents off-flavors in products, which is especially important for long-term butter storage."
@@ -321,25 +457,91 @@
           "title": "Chilled meat storage",
           "paragraph": "For chilled meat storage, ozonation at 8-10 mg/m³ ensures complete destruction of mesophilic and psychrotrophic microflora on carcass surfaces at 1-4°C. Chilled meat shelf life increases 2-5 times.",
           "tableCaption": "Ozonation regimes for meat storage",
-          "tableHeaders": ["Product", "Temperature", "Concentration", "Treatment time", "Frequency"],
+          "tableHeaders": [
+            "Product",
+            "Temperature",
+            "Concentration",
+            "Treatment time",
+            "Frequency"
+          ],
           "tableRows": [
-            ["Chilled meat", "-1...-4°C", "8-10 mg/m³", "4-5 hours", "Every other day"],
-            ["Frozen meat", "-18°C", "10 mg/m³", "3 hours", "Daily"],
-            ["Poultry (chilled)", "-1...-4°C", "8-10 mg/m³", "2-3 hours", "Daily"],
-            ["Poultry (frozen)", "-18°C", "8-12 mg/m³", "3 hours", "Daily"],
-            ["Offal", "-1...-4°C", "8-10 mg/m³", "3-4 hours", "Daily"]
+            [
+              "Chilled meat",
+              "-1...-4°C",
+              "8-10 mg/m³",
+              "4-5 hours",
+              "Every other day"
+            ],
+            [
+              "Frozen meat",
+              "-18°C",
+              "10 mg/m³",
+              "3 hours",
+              "Daily"
+            ],
+            [
+              "Poultry (chilled)",
+              "-1...-4°C",
+              "8-10 mg/m³",
+              "2-3 hours",
+              "Daily"
+            ],
+            [
+              "Poultry (frozen)",
+              "-18°C",
+              "8-12 mg/m³",
+              "3 hours",
+              "Daily"
+            ],
+            [
+              "Offal",
+              "-1...-4°C",
+              "8-10 mg/m³",
+              "3-4 hours",
+              "Daily"
+            ]
           ]
         },
         "ripeningChambers": {
           "title": "Sausage ripening chambers",
           "paragraph": "In ripening chambers for dry-cured and air-dried sausages, ozone suppresses development of slimy and mold deposits, preventing off-odors. At moderate concentration, ozone does not cause discoloration of casing or filling.",
           "tableCaption": "Ozonation regimes for sausage ripening chambers",
-          "tableHeaders": ["Sausage type", "Concentration", "Treatment time", "Temperature", "Efficiency"],
+          "tableHeaders": [
+            "Sausage type",
+            "Concentration",
+            "Treatment time",
+            "Temperature",
+            "Efficiency"
+          ],
           "tableRows": [
-            ["Dry-cured", "3-8 mg/m³", "3 hours", "+12...+14°C", "96-99%"],
-            ["Cooked-smoked", "3-7 mg/m³", "2 hours", "+10...+12°C", "95-98%"],
-            ["Air-dried", "5-10 mg/m³", "2-3 hours", "+10...+15°C", "96-99%"],
-            ["Semi-smoked", "3-6 mg/m³", "2 hours", "+10...+12°C", "95-98%"]
+            [
+              "Dry-cured",
+              "3-8 mg/m³",
+              "3 hours",
+              "+12...+14°C",
+              "96-99%"
+            ],
+            [
+              "Cooked-smoked",
+              "3-7 mg/m³",
+              "2 hours",
+              "+10...+12°C",
+              "95-98%"
+            ],
+            [
+              "Air-dried",
+              "5-10 mg/m³",
+              "2-3 hours",
+              "+10...+15°C",
+              "96-99%"
+            ],
+            [
+              "Semi-smoked",
+              "3-6 mg/m³",
+              "2 hours",
+              "+10...+12°C",
+              "95-98%"
+            ]
           ],
           "recommendedMode": {
             "label": "Recommended regime:",
@@ -359,14 +561,42 @@
         },
         "comparison": {
           "title": "Comparison of ripening chamber disinfection methods",
-          "headers": ["Parameter", "Ozonation", "Traditional treatment"],
+          "headers": [
+            "Parameter",
+            "Ozonation",
+            "Traditional treatment"
+          ],
           "rows": [
-            { "parameter": "Product unloading", "value1": "Not required", "value2": "Required" },
-            { "parameter": "Chemical residues", "value1": "None", "value2": "Rinsing required" },
-            { "parameter": "Hard-to-reach areas", "value1": "Treated with gas", "value2": "Inaccessible" },
-            { "parameter": "Downtime", "value1": "1-3 hours/day", "value2": "24-48 hours" },
-            { "parameter": "Effect on product", "value1": "None", "value2": "Possible" },
-            { "parameter": "Automation", "value1": "Full", "value2": "Manual work" }
+            {
+              "parameter": "Product unloading",
+              "value1": "Not required",
+              "value2": "Required"
+            },
+            {
+              "parameter": "Chemical residues",
+              "value1": "None",
+              "value2": "Rinsing required"
+            },
+            {
+              "parameter": "Hard-to-reach areas",
+              "value1": "Treated with gas",
+              "value2": "Inaccessible"
+            },
+            {
+              "parameter": "Downtime",
+              "value1": "1-3 hours/day",
+              "value2": "24-48 hours"
+            },
+            {
+              "parameter": "Effect on product",
+              "value1": "None",
+              "value2": "Possible"
+            },
+            {
+              "parameter": "Automation",
+              "value1": "Full",
+              "value2": "Manual work"
+            }
           ]
         },
         "regulations": {
@@ -448,13 +678,49 @@
         "regimes": {
           "title": "Ozonation regimes for different cheese types",
           "tableCaption": "Recommended treatment regimes for cheese ripening chambers",
-          "tableHeaders": ["Cheese type", "Concentration", "Treatment time", "Temperature", "Efficiency"],
+          "tableHeaders": [
+            "Cheese type",
+            "Concentration",
+            "Treatment time",
+            "Temperature",
+            "Efficiency"
+          ],
           "tableRows": [
-            ["Hard cheeses", "2-4 mg/m³", "2 hours", "+10...+12°C", "95-99%"],
-            ["Soft cheeses", "3-6 mg/m³", "1.5 hours", "+8...+10°C", "94-98%"],
-            ["Semi-hard cheeses", "2-4 mg/m³", "1.5-2 hours", "+10...+12°C", "95-98%"],
-            ["Brine cheeses", "2-3 mg/m³", "1 hour", "+6...+8°C", "94-97%"],
-            ["Mold-ripened cheeses", "1-2 mg/m³", "30 minutes", "+8...+10°C", "90-95%"]
+            [
+              "Hard cheeses",
+              "2-4 mg/m³",
+              "2 hours",
+              "+10...+12°C",
+              "95-99%"
+            ],
+            [
+              "Soft cheeses",
+              "3-6 mg/m³",
+              "1.5 hours",
+              "+8...+10°C",
+              "94-98%"
+            ],
+            [
+              "Semi-hard cheeses",
+              "2-4 mg/m³",
+              "1.5-2 hours",
+              "+10...+12°C",
+              "95-98%"
+            ],
+            [
+              "Brine cheeses",
+              "2-3 mg/m³",
+              "1 hour",
+              "+6...+8°C",
+              "94-97%"
+            ],
+            [
+              "Mold-ripened cheeses",
+              "1-2 mg/m³",
+              "30 minutes",
+              "+8...+10°C",
+              "90-95%"
+            ]
           ],
           "warningLabel": "Important for noble mold cheeses:",
           "warningText": "For cheeses like Camembert, Brie, and Roquefort, a gentle ozonation regime (1-2 mg/m³, 30 minutes) is required to control unwanted mold without damaging the cultured mold."
@@ -474,38 +740,120 @@
           "title": "Effect of ozone on the product",
           "paragraph": "Research shows that ozone suppresses microflora growth on cheese surfaces while preserving their organoleptic properties — taste, aroma, texture, and color. The bactericidal effect is particularly pronounced under conditions of high humidity (70-90%) and moderate temperatures (+8...+14°C), typical of ripening chambers.",
           "tableCaption": "Cheese ripening conditions and ozonation parameters",
-          "tableHeaders": ["Parameter", "Hard cheeses", "Soft cheeses", "Optimum for ozone"],
+          "tableHeaders": [
+            "Parameter",
+            "Hard cheeses",
+            "Soft cheeses",
+            "Optimum for ozone"
+          ],
           "tableRows": [
-            ["Temperature", "+10...+14°C", "+8...+12°C", "+8...+14°C"],
-            ["Humidity", "80-90%", "85-95%", "70-90%"],
-            ["Ripening time", "2-12 months", "2-6 weeks", "Any"],
-            ["O₃ concentration", "2-4 mg/m³", "3-6 mg/m³", "2-6 mg/m³"],
-            ["Frequency", "Every 2-3 days", "Daily", "By schedule"]
+            [
+              "Temperature",
+              "+10...+14°C",
+              "+8...+12°C",
+              "+8...+14°C"
+            ],
+            [
+              "Humidity",
+              "80-90%",
+              "85-95%",
+              "70-90%"
+            ],
+            [
+              "Ripening time",
+              "2-12 months",
+              "2-6 weeks",
+              "Any"
+            ],
+            [
+              "O₃ concentration",
+              "2-4 mg/m³",
+              "3-6 mg/m³",
+              "2-6 mg/m³"
+            ],
+            [
+              "Frequency",
+              "Every 2-3 days",
+              "Daily",
+              "By schedule"
+            ]
           ]
         },
         "comparison": {
           "title": "Comparison of mold control methods for cheeses",
-          "headers": ["Parameter", "Ozonation", "Wax/paraffin coating"],
+          "headers": [
+            "Parameter",
+            "Ozonation",
+            "Wax/paraffin coating"
+          ],
           "rows": [
-            { "parameter": "Mold protection", "value1": "95-99%", "value2": "80-90%" },
-            { "parameter": "Effect on taste", "value1": "None", "value2": "Possible" },
-            { "parameter": "Breathable rind", "value1": "Preserved", "value2": "Blocked" },
-            { "parameter": "Additional costs", "value1": "Minimal", "value2": "For materials" },
-            { "parameter": "Manual labor", "value1": "Not required", "value2": "Required" },
-            { "parameter": "Eco-friendliness", "value1": "Complete", "value2": "Wax waste" }
+            {
+              "parameter": "Mold protection",
+              "value1": "95-99%",
+              "value2": "80-90%"
+            },
+            {
+              "parameter": "Effect on taste",
+              "value1": "None",
+              "value2": "Possible"
+            },
+            {
+              "parameter": "Breathable rind",
+              "value1": "Preserved",
+              "value2": "Blocked"
+            },
+            {
+              "parameter": "Additional costs",
+              "value1": "Minimal",
+              "value2": "For materials"
+            },
+            {
+              "parameter": "Manual labor",
+              "value1": "Not required",
+              "value2": "Required"
+            },
+            {
+              "parameter": "Eco-friendliness",
+              "value1": "Complete",
+              "value2": "Wax waste"
+            }
           ]
         },
         "chamberTreatment": {
           "title": "Ripening chamber treatment",
           "paragraph": "For stationary ripening chambers, wall-mounted or ducted ozonators with automatic control are recommended. Ozone is distributed evenly throughout the chamber volume, penetrating hard-to-reach areas including racks and shelves.",
           "tableCaption": "Example treatment regime for cheese ripening chamber (50 m³ volume)",
-          "tableHeaders": ["Parameter", "Value", "Note"],
+          "tableHeaders": [
+            "Parameter",
+            "Value",
+            "Note"
+          ],
           "tableRows": [
-            ["Ozonator capacity", "2-3 g/hour", "1 g/hour per 15-20 m³"],
-            ["Ozone concentration", "3-4 mg/m³", "For hard cheeses"],
-            ["Operating time", "1.5-2 hours", "Daily or every other day"],
-            ["Chamber humidity", "85-90%", "Optimum for ozone"],
-            ["Efficiency", "95-99%", "Mold destruction"]
+            [
+              "Ozonator capacity",
+              "2-3 g/hour",
+              "1 g/hour per 15-20 m³"
+            ],
+            [
+              "Ozone concentration",
+              "3-4 mg/m³",
+              "For hard cheeses"
+            ],
+            [
+              "Operating time",
+              "1.5-2 hours",
+              "Daily or every other day"
+            ],
+            [
+              "Chamber humidity",
+              "85-90%",
+              "Optimum for ozone"
+            ],
+            [
+              "Efficiency",
+              "95-99%",
+              "Mold destruction"
+            ]
           ],
           "successText": "Regular ozonation of ripening chambers (1-2 times per day for 1.5-2 hours) allows eliminating manual cheese wiping and reducing chamber maintenance labor costs by 70-80%."
         },
@@ -599,50 +947,190 @@
           "title": "Ozonation of empty chambers",
           "intro": "Empty chambers are cleaned of snow, ice, product residues and visible mold colonies before ozonation. The snow \"coat\" must be removed. Chamber doors are tightly closed, and connecting air channels are blocked with dampers.",
           "tableCaption": "Ozone decay periods after ozonator shutdown",
-          "tableHeaders": ["Initial concentration", "Final concentration", "Time (up to 400 m³)", "Time (over 400 m³)"],
+          "tableHeaders": [
+            "Initial concentration",
+            "Final concentration",
+            "Time (up to 400 m³)",
+            "Time (over 400 m³)"
+          ],
           "tableData": [
-            ["40 mg/m³", "20 mg/m³", "0.4 hours", "0.2 hours"],
-            ["20 mg/m³", "10 mg/m³", "0.8 hours", "0.4 hours"],
-            ["10 mg/m³", "5 mg/m³", "1.2 hours", "0.6 hours"],
-            ["5 mg/m³", "2.5 mg/m³", "1.6 hours", "0.8 hours"],
-            ["2.5 mg/m³", "0.1 mg/m³", "3.6 hours", "1.8 hours"]
+            [
+              "40 mg/m³",
+              "20 mg/m³",
+              "0.4 hours",
+              "0.2 hours"
+            ],
+            [
+              "20 mg/m³",
+              "10 mg/m³",
+              "0.8 hours",
+              "0.4 hours"
+            ],
+            [
+              "10 mg/m³",
+              "5 mg/m³",
+              "1.2 hours",
+              "0.6 hours"
+            ],
+            [
+              "5 mg/m³",
+              "2.5 mg/m³",
+              "1.6 hours",
+              "0.8 hours"
+            ],
+            [
+              "2.5 mg/m³",
+              "0.1 mg/m³",
+              "3.6 hours",
+              "1.8 hours"
+            ]
           ],
           "warning": "For chambers heavily contaminated with mold and chambers with persistent odors, ozonation duration may be increased to 36, and in some cases — up to 48 hours."
         },
         "loadedChambers": {
           "title": "Ozonation of loaded chambers",
           "intro": "Based on foreign practice data and results of ozonation application at individual cold storage facilities, the following ozone concentrations are recommended for chambers loaded with products:",
-          "tableHeaders": ["Product", "Temperature", "Concentration", "Time", "Frequency"],
+          "tableHeaders": [
+            "Product",
+            "Temperature",
+            "Concentration",
+            "Time",
+            "Frequency"
+          ],
           "animalProductsTableCaption": "Recommended ozonation regimes for animal products",
           "animalProductsTableData": [
-            ["Chilled meat", "-1...-4°C", "8-10 mg/m³", "4-5 h", "Every other day"],
-            ["Frozen meat", "-18°C", "10 mg/m³", "3 h", "Daily"],
-            ["Poultry (chilled)", "-1...-4°C", "8-10 mg/m³", "2-3 h", "Daily"],
-            ["Poultry (frozen)", "-18°C", "8-12 mg/m³", "3 h", "Daily"],
-            ["Sausage products", "+12°C", "3-10 mg/m³", "3-4 h", "Every 2-3 days"],
-            ["Cheeses", "-4...+4°C", "3-4 mg/m³", "5-7 h", "Every 2-3 days"],
-            ["Eggs", "-1.5...+0.5°C", "3-6 mg/m³", "3-5 h", "As odor appears"]
+            [
+              "Chilled meat",
+              "-1...-4°C",
+              "8-10 mg/m³",
+              "4-5 h",
+              "Every other day"
+            ],
+            [
+              "Frozen meat",
+              "-18°C",
+              "10 mg/m³",
+              "3 h",
+              "Daily"
+            ],
+            [
+              "Poultry (chilled)",
+              "-1...-4°C",
+              "8-10 mg/m³",
+              "2-3 h",
+              "Daily"
+            ],
+            [
+              "Poultry (frozen)",
+              "-18°C",
+              "8-12 mg/m³",
+              "3 h",
+              "Daily"
+            ],
+            [
+              "Sausage products",
+              "+12°C",
+              "3-10 mg/m³",
+              "3-4 h",
+              "Every 2-3 days"
+            ],
+            [
+              "Cheeses",
+              "-4...+4°C",
+              "3-4 mg/m³",
+              "5-7 h",
+              "Every 2-3 days"
+            ],
+            [
+              "Eggs",
+              "-1.5...+0.5°C",
+              "3-6 mg/m³",
+              "3-5 h",
+              "As odor appears"
+            ]
           ],
           "vegetableProductsTableCaption": "Recommended ozonation regimes for fruits and vegetables",
           "vegetableProductsTableData": [
-            ["Potatoes", "+2...+3°C", "10-15 mg/m³", "6 h", "Every 10 days"],
-            ["Carrots", "0...-1°C", "15-30 mg/m³", "6 h", "Every 8-10 days"],
-            ["Apples", "0...-2°C", "1-3 mg/m³", "0.5-2 h", "Daily"],
-            ["Onions", "-1...-3°C", "25-30 mg/m³", "5-6 h", "Every 3 days"],
-            ["Grapes", "0...-2°C", "4-6 mg/m³", "3 h", "Daily"]
+            [
+              "Potatoes",
+              "+2...+3°C",
+              "10-15 mg/m³",
+              "6 h",
+              "Every 10 days"
+            ],
+            [
+              "Carrots",
+              "0...-1°C",
+              "15-30 mg/m³",
+              "6 h",
+              "Every 8-10 days"
+            ],
+            [
+              "Apples",
+              "0...-2°C",
+              "1-3 mg/m³",
+              "0.5-2 h",
+              "Daily"
+            ],
+            [
+              "Onions",
+              "-1...-3°C",
+              "25-30 mg/m³",
+              "5-6 h",
+              "Every 3 days"
+            ],
+            [
+              "Grapes",
+              "0...-2°C",
+              "4-6 mg/m³",
+              "3 h",
+              "Daily"
+            ]
           ]
         },
         "comparison": {
           "title": "Comparison of cold storage chamber disinfection methods",
-          "headers": ["Parameter", "Ozonation", "\"Wet\" disinfection"],
+          "headers": [
+            "Parameter",
+            "Ozonation",
+            "\"Wet\" disinfection"
+          ],
           "rows": [
-            { "parameter": "Product unloading", "value1": "Not required", "value2": "Required" },
-            { "parameter": "Chamber warming", "value1": "Not required", "value2": "Required" },
-            { "parameter": "Downtime", "value1": "24 hours", "value2": "5-7 days" },
-            { "parameter": "Energy consumption", "value1": "Minimal", "value2": "Significant" },
-            { "parameter": "Labor costs", "value1": "Minimal", "value2": "High" },
-            { "parameter": "Chemical residues", "value1": "None", "value2": "Rinsing required" },
-            { "parameter": "Hard-to-reach areas treatment", "value1": "Complete", "value2": "Difficult" }
+            {
+              "parameter": "Product unloading",
+              "value1": "Not required",
+              "value2": "Required"
+            },
+            {
+              "parameter": "Chamber warming",
+              "value1": "Not required",
+              "value2": "Required"
+            },
+            {
+              "parameter": "Downtime",
+              "value1": "24 hours",
+              "value2": "5-7 days"
+            },
+            {
+              "parameter": "Energy consumption",
+              "value1": "Minimal",
+              "value2": "Significant"
+            },
+            {
+              "parameter": "Labor costs",
+              "value1": "Minimal",
+              "value2": "High"
+            },
+            {
+              "parameter": "Chemical residues",
+              "value1": "None",
+              "value2": "Rinsing required"
+            },
+            {
+              "parameter": "Hard-to-reach areas treatment",
+              "value1": "Complete",
+              "value2": "Difficult"
+            }
           ]
         },
         "deodorization": {

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 import Image from 'next/image'
 
@@ -26,41 +27,12 @@ interface MoldPreventionPageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      title?: string
-      intro?: string
-      paragraph1?: string
-      paragraph2?: string
-      warningLabel?: string
-      warningText?: string
-      items?: string[] | Array<{ title: string; description: string }>
-      tableCaption?: string
-      tableHeaders?: string[]
-      tableRows?: string[][]
-      hvacLabel?: string
-      hvacText?: string
-      [key: string]: unknown
-    }
-  }
-}
-
 export function MoldPreventionPage({ staticData, lang }: MoldPreventionPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('warehouses')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'mold-prevention'?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { 'mold-prevention'?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.['mold-prevention']

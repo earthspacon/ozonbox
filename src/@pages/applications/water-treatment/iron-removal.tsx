@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 import Image from 'next/image'
 
@@ -27,58 +28,12 @@ interface IronRemovalPageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      title?: string
-      paragraph?: string
-      paragraph1?: string
-      paragraph2?: string
-      text?: string
-      items?: string[] | Array<{ title: string; description: string }>
-      tableCaption?: string
-      tableHeaders?: string[]
-      tableData?: string[][]
-      headers?: string[]
-      rows?: Array<{ parameter: string; value1: string; value2: string; value3?: string }>
-      steps?: Array<{ title: string; description: string }>
-      note?: string
-      warning?: { title: string; text: string }
-      reactionLabel?: string
-      reaction1?: string
-      reaction2?: string
-      reaction?: string
-      description?: string
-      importantLabel?: string
-      importantText?: string
-      advantageLabel?: string
-      advantageText?: string
-      noteLabel?: string
-      noteText?: string
-      table?: {
-        caption?: string
-        headers?: string[]
-        rows?: string[][]
-      }
-    }
-  }
-}
-
 export function IronRemovalPage({ staticData, lang }: IronRemovalPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('water-treatment')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'iron-removal'?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { 'iron-removal'?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.['iron-removal']

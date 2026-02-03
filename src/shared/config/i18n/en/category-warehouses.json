@@ -5,15 +5,154 @@
     "mold-prevention": {
       "title": "Mold and fungus control",
       "shortDesc": "Suppressing mold growth and eliminating contamination hotspots in the warehouse",
-      "content": "Uncontrolled mold growth in warehouse facilities leads to product spoilage and poor employee health. Mold spores and toxins in the air undermine staff immunity, while spoilage of goods and cardboard increases waste.\n\nWarehouse ozonation addresses the problem comprehensively: it destroys existing contamination hotspots, suppresses new mold and fungus colonies, eliminates unpleasant odors from microbial activity.\n\nOzone interacts with the membrane structure of bacterial and fungal cells, disrupting their barrier function and causing cell death. Unlike chemical agents, the gas penetrates all crevices and remote corners, treating hard-to-reach areas.\n\nFor effective mold control, ozonation is recommended for 1–3 hours during off-hours. Ozone generator capacity is selected at approximately 1 g/h per 25 m³ of room volume.",
-      "benefits": [
-        "95–99% mold destruction",
-        "Suppression of new colonies",
-        "Elimination of musty odor",
-        "Treatment without unloading goods",
-        "Penetration into hard-to-reach areas",
-        "Safe decay to oxygen"
-      ]
+      "stats": {
+        "destruction": {
+          "value": "95–99%",
+          "label": "Mold destruction",
+          "description": "Complete elimination of existing mold"
+        },
+        "treatmentTime": {
+          "value": "1–3 h",
+          "label": "Treatment time",
+          "description": "During off-hours"
+        },
+        "lossReduction": {
+          "value": "80–90%",
+          "label": "Loss reduction",
+          "description": "From product spoilage"
+        },
+        "chemicals": {
+          "value": "0",
+          "label": "Chemicals",
+          "description": "Only oxygen after decay"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Uncontrolled mold growth in warehouse facilities leads to product spoilage and poor employee health. Mold spores and toxins in the air undermine staff immunity, while spoilage of goods and cardboard increases waste.",
+          "paragraph2": "Warehouse ozonation addresses the problem comprehensively: it destroys existing contamination hotspots, suppresses new mold and fungus colonies, eliminates unpleasant odors from microbial activity.",
+          "warningLabel": "Key principle:",
+          "warningText": "Ozone interacts with the membrane structure of bacterial and fungal cells, disrupting their barrier function and causing cell death. Unlike chemical agents, the gas penetrates all crevices and remote corners, treating hard-to-reach areas."
+        },
+        "mechanism": {
+          "title": "Mechanism of mold control",
+          "intro": "For effective mold control, ozonation is recommended for 1–3 hours during off-hours. Ozone generator capacity is selected at approximately 1 g/h per 25 m³ of room volume.",
+          "items": [
+            "Ozone molecules attack mold spore membranes",
+            "Cell walls are destroyed at the molecular level",
+            "Fungal colonies cannot regenerate",
+            "Persistent musty odor is eliminated"
+          ]
+        },
+        "equipment": {
+          "title": "Equipment and operation",
+          "intro": "Selection of ozonation equipment depends on warehouse volume and mold contamination severity.",
+          "tableCaption": "Equipment selection guide",
+          "tableHeaders": ["Warehouse volume", "Equipment type", "Capacity"],
+          "tableRows": [
+            ["Up to 500 m³", "Portable ozone generator", "10–20 g/h"],
+            ["500–2000 m³", "Wall-mounted generator", "20–50 g/h"],
+            ["2000–10000 m³", "Multi-unit setup", "50–100 g/h"],
+            ["Over 10000 m³", "HVAC integration", "100+ g/h"]
+          ],
+          "hvacLabel": "Important:",
+          "hvacText": "For large warehouses, integration into HVAC system ensures even ozone distribution and automatic scheduling."
+        },
+        "processModes": {
+          "title": "Treatment modes",
+          "intro": "Ozonation of warehouse is conducted during non-working hours. During treatment, people without protective equipment must not be in the room.",
+          "steps": [
+            {
+              "title": "Close all windows and doors, disable supply ventilation if possible",
+              "description": "This maintains ozone concentration in the treatment zone"
+            },
+            {
+              "title": "Turn on ozone generator for 40–120 minutes depending on room volume",
+              "description": "Time calculation: room volume (m³) ÷ 25 = treatment time (minutes)"
+            },
+            {
+              "title": "After treatment, open doors and windows, ventilate for 20–60 minutes",
+              "description": "Accelerate ventilation by enabling supply ventilation system"
+            },
+            {
+              "title": "For night treatment, ventilation is not required—ozone dissipates in 2–3 hours",
+              "description": "Warehouse is ready for work in the morning"
+            }
+          ],
+          "treatmentTable": "Treatment modes depending on contamination degree",
+          "treatmentHeaders": ["Contamination level", "Ozone concentration", "Treatment frequency"],
+          "treatmentRows": [
+            ["Prophylaxis", "2–5 mg/m³", "1–2 times per week"],
+            ["Moderate", "5–10 mg/m³", "3–4 times per week"],
+            ["Severe", "10–20 mg/m³", "Daily until eliminated"],
+            ["Critical", "20–30 mg/m³", "Intensive course 7–14 days"]
+          ]
+        },
+        "humidity": {
+          "title": "Synergy with humidity control",
+          "intro": "Mold actively develops when humidity exceeds 60%. Comprehensive mold control includes both ozonation and humidity control. Ozone eliminates existing foci, while maintaining optimal humidity of 45–55% prevents new growth.",
+          "items": [
+            "Install air dehumidification systems for humid rooms",
+            "Control condensation on cold surfaces",
+            "Regular humidity monitoring with hygrometers",
+            "Ensure adequate ventilation to prevent air stagnation",
+            "Combined ozonation and dehumidification systems"
+          ]
+        },
+        "economics": {
+          "title": "Economic justification",
+          "intro": "Implementing ozonation in a warehouse is an investment with quick payback. Reduced product spoilage losses, decreased chemical treatment costs and lower staff illness rates create significant economic effect.",
+          "tableCaption": "Typical savings structure for 2000 m³ warehouse",
+          "tableHeaders": ["Savings item", "Annual amount", "ROI share"],
+          "tableRows": [
+            ["Reduced product spoilage", "150,000–300,000 ₽", "40–50%"],
+            ["Chemical treatment savings", "50,000–80,000 ₽", "15–20%"],
+            ["Reduced staff sick leave", "30,000–60,000 ₽", "10–15%"],
+            ["Reduced defects and complaints", "70,000–120,000 ₽", "20–25%"]
+          ],
+          "highlightBox": "ROI: Typical warehouse ozonation equipment payback period is 6–12 months. Industrial ozonators have 5-year lifespan with minimal maintenance costs."
+        },
+        "standards": {
+          "title": "Compliance and safety standards",
+          "intro": "Warehouse ozonation complies with sanitary and epidemiological requirements for facility disinfection.",
+          "items": [
+            "SanPiN 2.2.4.3359-16 — sanitary standards for ozone equipment",
+            "GOST 52649-2006 — safety of ozone generators",
+            "Work zone MPC (maximum permissible concentration): 0.1 mg/m³",
+            "Staff performing maintenance must use respirator",
+            "Treatment conducted in absence of people and animals"
+          ]
+        },
+        "benefits": {
+          "title": "Benefits of warehouse ozonation",
+          "features": [
+            {
+              "title": "Without product unloading",
+              "description": "Treatment is conducted without need to empty warehouse—ozone is safe for most goods"
+            },
+            {
+              "title": "Penetration everywhere",
+              "description": "Gas reaches inaccessible places: cracks, seams, ventilation where liquid agents cannot penetrate"
+            },
+            {
+              "title": "Automatic operation",
+              "description": "Modern ozonators equipped with timers for autonomous operation during non-working hours"
+            },
+            {
+              "title": "Safe decay",
+              "description": "Residual ozone decomposes to oxygen without forming toxic byproducts"
+            },
+            {
+              "title": "No consumables",
+              "description": "Only air and electricity needed—no chemical reagents"
+            },
+            {
+              "title": "Comprehensive action",
+              "description": "Simultaneous disinfection, deodorization and pest prevention"
+            }
+          ]
+        }
+      }
     },
     "general-storage": {
       "title": "General goods storage",

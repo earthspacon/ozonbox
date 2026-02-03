@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
@@ -25,50 +26,12 @@ interface RestaurantsPageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  problems?: string[]
-  sections?: {
-    [key: string]: {
-      title?: string
-      text?: string
-      text2?: string
-      intro?: string
-      items?: string[] | Array<{ title: string; description: string }>
-      tableCaption?: string
-      tableHeaders?: string[]
-      tableData?: string[][]
-      steps?: Array<{ title: string; description: string }>
-      automation?: {
-        title?: string
-        text?: string
-      }
-      savings?: {
-        title?: string
-        text?: string
-      }
-      factHighlight?: {
-        title?: string
-        text?: string
-      }
-    }
-  }
-}
-
 export function RestaurantsPage({ staticData, lang }: RestaurantsPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('horeca')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { restaurants?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { restaurants?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.restaurants

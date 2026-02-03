@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
@@ -24,40 +25,12 @@ interface LivestockPageProps {
   lang: TLocale
 }
 
-interface SubcategoryData {
-  title: string
-  shortDesc: string
-  stats?: {
-    [key: string]: {
-      value: string
-      label: string
-      description: string
-    }
-  }
-  sections?: {
-    [key: string]: {
-      title?: string
-      intro?: string
-      intro2?: string
-      paragraph1?: string
-      paragraph2?: string
-      label?: string
-      text?: string
-      items?: string[] | Array<{ title: string; description: string }>
-      tableCaption?: string
-      tableHeaders?: string[]
-      tableData?: string[][]
-      highlight?: string
-    }
-  }
-}
-
 export function LivestockPage({ staticData, lang }: LivestockPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('agriculture')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { livestock?: SubcategoryData } }>)[
+  const categoryData = (staticData as Record<string, { subcategories?: { livestock?: any } }>)[
     `${lang}:${ns}`
   ]
   const data = categoryData?.subcategories?.livestock
