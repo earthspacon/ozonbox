@@ -1,14 +1,15 @@
-import Image from 'next/image'
-import { useTranslate } from '@tolgee/react'
+import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
-import { AppLink } from '@/shared/ui/app-link'
+import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { useLang } from '@/shared/lib'
 import {
+  ArticleHero,
   ArticleSection,
   BulletList,
   ComparisonTable,
+  CTASection,
   DataTable,
   FeatureCard,
   FeatureGrid,
@@ -17,77 +18,116 @@ import {
   StatCard,
   StatGrid,
 } from '@/shared/ui/article-components'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
+import { IconCheck } from '@/shared/ui/icons'
 import { Seo } from '@/shared/ui/seo'
 
-export function ColdStoragePage() {
+interface ColdStoragePageProps {
+  staticData: TolgeeStaticDataProp
+  lang: TLocale
+}
+
+interface SubcategoryData {
+  title: string
+  shortDesc: string
+  stats?: {
+    [key: string]: {
+      value: string
+      label: string
+      description: string
+    }
+  }
+  sections?: {
+    [key: string]: {
+      title?: string
+      intro?: string
+      paragraph1?: string
+      paragraph2?: string
+      instructionTitle?: string
+      instructionText?: string
+      animalProductsTableCaption?: string
+      vegetableProductsTableCaption?: string
+      tableCaption?: string
+      tableHeaders?: string[]
+      tableData?: string[][]
+      animalProductsTableData?: string[][]
+      vegetableProductsTableData?: string[][]
+      items?: string[] | Array<{ title: string; description: string }>
+      headers?: [string, string, string] | [string, string, string, string]
+      rows?: Array<{ parameter: string; value1: string; value2: string; value3?: string }>
+      warning?: string
+      recommendationTitle?: string
+      recommendationText?: string
+      feature1?: { title: string; description: string }
+      feature2?: { title: string; description: string }
+      feature3?: { title: string; description: string }
+      feature4?: { title: string; description: string }
+    }
+  }
+}
+
+export function ColdStoragePage({ staticData, lang }: ColdStoragePageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('food-production')
 
+  // get category data from staticData
+  const categoryData = (staticData as Record<string, { subcategories?: { 'cold-storage'?: SubcategoryData } }>)[
+    `${lang}:${ns}`
+  ]
+  const data = categoryData?.subcategories?.['cold-storage']
+
+  const breadcrumbs = [
+    { label: t('nav.applications', { ns: NAMESPACES.common }), href: '/applications' },
+    { label: t('title', { ns }), href: '/applications/food-production' },
+    { label: t('subcategories.cold-storage.title', { ns }) },
+  ]
+
   return (
     <Layout>
-      <Seo title={t('subcategories.cold-storage.title', { ns })} description={t('subcategories.cold-storage.shortDesc', { ns })} />
-      {/* Breadcrumbs */}
-      <div className="bg-bg-light border-border border-b">
-        <div className="container py-4">
-          <nav className="flex items-center gap-2 text-sm">
-            <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
-              {t('nav.applications', { ns: NAMESPACES.common })}
-            </AppLink>
-            <span className="text-text-light">/</span>
-            <AppLink
-              href="/applications/food-production"
-              className="text-text-secondary hover:text-primary transition-colors"
-            >
-              {t('title', { ns })}
-            </AppLink>
-            <span className="text-text-light">/</span>
-            <span className="text-text-primary font-medium">{t('subcategories.cold-storage.title', { ns })}</span>
-          </nav>
-        </div>
-      </div>
+      <Seo
+        title={t('subcategories.cold-storage.title', { ns })}
+        description={t('subcategories.cold-storage.shortDesc', { ns })}
+      />
 
-      {/* Hero Section */}
-      <section className="relative overflow-hidden py-16 md:py-24">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=1920&q=80"
-            alt={t('subcategories.cold-storage.title', { ns })}
-            fill
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
-        </div>
-        <div className="relative z-10 container">
-          <AppLink
-            href="/applications/food-production"
-            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
-          >
-            <IconArrowLeft style={{ width: 20, height: 20 }} />
-            <span>{t('title', { ns })}</span>
-          </AppLink>
-          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
-            {t('subcategories.cold-storage.title', { ns })}
-          </h1>
-          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
-            {t('subcategories.cold-storage.shortDesc', { ns })}
-          </p>
-        </div>
-      </section>
+      <ArticleHero
+        title={t('subcategories.cold-storage.title', { ns })}
+        description={t('subcategories.cold-storage.shortDesc', { ns })}
+        image="https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=1920&q=80"
+        imageAlt={t('subcategories.cold-storage.title', { ns })}
+        breadcrumbs={breadcrumbs}
+        backLink={{
+          href: '/applications/food-production',
+          label: t('title', { ns }),
+        }}
+      />
 
       {/* Key Stats */}
       <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value="5x"
-              label="Быстрее"
-              description="Сокращение простоя камер под дезинфекцию"
+              value={data?.stats?.downtimeReduction?.value ?? ''}
+              label={data?.stats?.downtimeReduction?.label ?? ''}
+              description={data?.stats?.downtimeReduction?.description ?? ''}
               variant="primary"
             />
-            <StatCard value="35-40" label="мг/м³" description="Концентрация для пустых камер" variant="accent" />
-            <StatCard value="24" label="часа" description="Время обработки пустых камер" variant="primary" />
-            <StatCard value="0" label="Отепления" description="Обработка при низких температурах" variant="accent" />
+            <StatCard
+              value={data?.stats?.emptyChamberConcentration?.value ?? ''}
+              label={data?.stats?.emptyChamberConcentration?.label ?? ''}
+              description={data?.stats?.emptyChamberConcentration?.description ?? ''}
+              variant="accent"
+            />
+            <StatCard
+              value={data?.stats?.emptyChamberTime?.value ?? ''}
+              label={data?.stats?.emptyChamberTime?.label ?? ''}
+              description={data?.stats?.emptyChamberTime?.description ?? ''}
+              variant="primary"
+            />
+            <StatCard
+              value={data?.stats?.noWarming?.value ?? ''}
+              label={data?.stats?.noWarming?.label ?? ''}
+              description={data?.stats?.noWarming?.description ?? ''}
+              variant="accent"
+            />
           </StatGrid>
         </div>
       </section>
@@ -96,182 +136,105 @@ export function ColdStoragePage() {
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>
-              Дезинфекция и дезодорация холодильников — одно из важнейших санитарно-гигиенических мероприятий,
-              направленных на предупреждение порчи и снижения качества хранящихся пищевых продуктов. Озонирование имеет
-              значительные преимущества перед «мокрым» способом дезинфекции.
-            </Paragraph>
-            <Paragraph>
-              Практика показала, что озонирование холодильных камер и складов позволяет продлить сроки хранения
-              продукции, удалить неприятные запахи и предотвратить формирование плесневых колоний — всё это без
-              отепления камеры и выгрузки продукции.
-            </Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>Инструкция Минторга СССР 1973 г.:</strong> «Дезинфекция и дезодорация в холодильниках способом
-            озонирования» — рабочая концентрация озона для дезинфекции помещений, свободных от грузов: 35-40 мг/м³,
-            продолжительность озонирования 24 часа.
+            <strong>{data?.sections?.intro?.instructionTitle ?? ''}</strong> {data?.sections?.intro?.instructionText ?? ''}
           </HighlightBox>
 
-          <ArticleSection title="Преимущества озонирования холодильников">
-            <BulletList
-              items={[
-                'Возможность дезинфекции камер, загруженных пищевыми продуктами',
-                'Обработка без отепления камеры — эффективность повышается при низких температурах',
-                'Сокращение времени простоя камеры в 5 раз по сравнению с «мокрой» дезинфекцией',
-                'Незаменимо для борьбы с затхлым запахом в холодильниках',
-                'Угнетение бактериальной флоры на стенах, решётках, крюках, поддонах',
-                'Предотвращение плесени на стенах хранилища, ящиках и упаковке',
-                'Экономия электроэнергии — не требуется повторная выработка холода',
-                'Минимальные затраты рабочей силы — автоматизированный процесс',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.benefits?.title}>
+            <BulletList items={(data?.sections?.benefits?.items as string[]) ?? []} />
           </ArticleSection>
 
-          <ArticleSection title="Озонирование камер, свободных от грузов">
-            <Paragraph>
-              Свободные от грузов камеры перед озонированием очищают от снега, льда, остатков продуктов, видимых колоний
-              плесени. Обязательно удаляют снеговую «шубу». Двери камеры плотно закрывают, сообщающиеся воздушные каналы
-              перекрывают шиберами.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.emptyChambers?.title}>
+            <Paragraph>{data?.sections?.emptyChambers?.intro ?? ''}</Paragraph>
 
             <DataTable
-              caption="Периоды распада озона после отключения озонатора"
-              headers={['Начальная концентрация', 'Конечная концентрация', 'Время (до 400 м³)', 'Время (свыше 400 м³)']}
-              rows={[
-                ['40 мг/м³', '20 мг/м³', '0,4 часа', '0,2 часа'],
-                ['20 мг/м³', '10 мг/м³', '0,8 часа', '0,4 часа'],
-                ['10 мг/м³', '5 мг/м³', '1,2 часа', '0,6 часа'],
-                ['5 мг/м³', '2,5 мг/м³', '1,6 часа', '0,8 часа'],
-                ['2,5 мг/м³', '0,1 мг/м³', '3,6 часа', '1,8 часа'],
-              ]}
+              caption={data?.sections?.emptyChambers?.tableCaption}
+              headers={data?.sections?.emptyChambers?.tableHeaders ?? []}
+              rows={data?.sections?.emptyChambers?.tableData ?? []}
             />
 
-            <HighlightBox variant="warning">
-              Для камер, сильно заражённых плесенью, и камер с устойчивыми запахами продолжительность озонирования может
-              быть увеличена до 36, а в отдельных случаях — до 48 часов.
-            </HighlightBox>
+            <HighlightBox variant="warning">{data?.sections?.emptyChambers?.warning ?? ''}</HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Озонирование камер с продукцией">
-            <Paragraph>
-              На основании данных зарубежной практики и результатов применения озонирования на отдельных холодильниках
-              рекомендуются следующие концентрации озона для камер, загруженных продуктами:
-            </Paragraph>
+          <ArticleSection title={data?.sections?.loadedChambers?.title}>
+            <Paragraph>{data?.sections?.loadedChambers?.intro ?? ''}</Paragraph>
 
             <DataTable
-              caption="Рекомендуемые режимы озонирования продукции животного происхождения"
-              headers={['Продукт', 'Температура', 'Концентрация', 'Время', 'Периодичность']}
-              rows={[
-                ['Охлаждённое мясо', '-1...-4°C', '8-10 мг/м³', '4-5 ч', 'Через день'],
-                ['Замороженное мясо', '-18°C', '10 мг/м³', '3 ч', 'Ежедневно'],
-                ['Тушки птицы (охл.)', '-1...-4°C', '8-10 мг/м³', '2-3 ч', 'Ежедневно'],
-                ['Тушки птицы (зам.)', '-18°C', '8-12 мг/м³', '3 ч', 'Ежедневно'],
-                ['Колбасные изделия', '+12°C', '3-10 мг/м³', '3-4 ч', 'Через 2-3 дня'],
-                ['Сыры', '-4...+4°C', '3-4 мг/м³', '5-7 ч', 'Через 2-3 дня'],
-                ['Яйцо', '-1,5...+0,5°C', '3-6 мг/м³', '3-5 ч', 'По мере появления запаха'],
-              ]}
+              caption={data?.sections?.loadedChambers?.animalProductsTableCaption}
+              headers={data?.sections?.loadedChambers?.tableHeaders ?? []}
+              rows={data?.sections?.loadedChambers?.animalProductsTableData ?? []}
             />
 
             <DataTable
-              caption="Рекомендуемые режимы озонирования плодоовощной продукции"
-              headers={['Продукт', 'Температура', 'Концентрация', 'Время', 'Периодичность']}
-              rows={[
-                ['Картофель', '+2...+3°C', '10-15 мг/м³', '6 ч', 'Через 10 дней'],
-                ['Морковь', '0...-1°C', '15-30 мг/м³', '6 ч', 'Через 8-10 дней'],
-                ['Яблоки', '0...-2°C', '1-3 мг/м³', '0,5-2 ч', 'Ежедневно'],
-                ['Лук репчатый', '-1...-3°C', '25-30 мг/м³', '5-6 ч', 'Через 3 дня'],
-                ['Виноград', '0...-2°C', '4-6 мг/м³', '3 ч', 'Ежедневно'],
-              ]}
+              caption={data?.sections?.loadedChambers?.vegetableProductsTableCaption}
+              headers={data?.sections?.loadedChambers?.tableHeaders ?? []}
+              rows={data?.sections?.loadedChambers?.vegetableProductsTableData ?? []}
             />
           </ArticleSection>
 
           <ComparisonTable
-            title="Сравнение методов дезинфекции холодильных камер"
-            headers={['Параметр', 'Озонирование', '«Мокрая» дезинфекция']}
-            rows={[
-              { parameter: 'Выгрузка продукции', value1: 'Не требуется', value2: 'Обязательна' },
-              { parameter: 'Отепление камеры', value1: 'Не требуется', value2: 'Обязательно' },
-              { parameter: 'Время простоя', value1: '24 часа', value2: '5-7 суток' },
-              { parameter: 'Расход электроэнергии', value1: 'Минимальный', value2: 'Значительный' },
-              { parameter: 'Трудозатраты', value1: 'Минимальные', value2: 'Высокие' },
-              { parameter: 'Химические остатки', value1: 'Отсутствуют', value2: 'Требуется промывка' },
-              { parameter: 'Обработка труднодоступных мест', value1: 'Полная', value2: 'Затруднена' },
-            ]}
+            title={data?.sections?.comparison?.title}
+            headers={(data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]) ?? []}
+            rows={(data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string; value3?: string }>) ?? []}
           />
 
-          <ArticleSection title="Дезодорация холодильников">
-            <Paragraph>
-              Озонирование незаменимо для борьбы с затхлым запахом, образующимся в холодильниках и морозильных камерах.
-              При дезодорации камеры выдерживают после отключения озонатора в течение суток без проветривания — озон
-              полностью распадается до кислорода.
-            </Paragraph>
-            <Paragraph>
-              Озон окисляет и разрушает органические соединения, вызывающие неприятные запахи. Это позволяет
-              использовать одну камеру для хранения разных видов продукции поочерёдно без риска переноса запахов.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.deodorization?.title}>
+            <Paragraph>{data?.sections?.deodorization?.paragraph1 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.deodorization?.paragraph2 ?? ''}</Paragraph>
           </ArticleSection>
 
-          <ArticleSection title="Организация процесса озонирования">
-            <Paragraph>
-              В озонируемой камере озонатор устанавливают в середине камеры на столе высотой примерно 1,2 м. При
-              двух-трёх озонаторах их размещают в разных точках камеры для равномерного распределения озона. Вентиляторы
-              воздухоохладителей выключают.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.organization?.title}>
+            <Paragraph>{data?.sections?.organization?.intro ?? ''}</Paragraph>
 
             <HighlightBox variant="success">
-              <strong>Рекомендация ВНИХИ:</strong> Для повышения эффективности озонирования после достижения рабочей
-              концентрации рекомендуется кратковременно включить вентиляторы для перемешивания озоно-воздушной смеси.
+              <strong>{data?.sections?.organization?.recommendationTitle ?? ''}</strong>{' '}
+              {data?.sections?.organization?.recommendationText ?? ''}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Преимущества для холодильных складов">
+          <ArticleSection title={data?.sections?.advantages?.title}>
             <FeatureGrid columns={2}>
               <FeatureCard
                 icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Обработка загруженных камер"
-                description="Дезинфекция без выгрузки продукции и остановки работы склада"
+                title={data?.sections?.advantages?.feature1?.title ?? ''}
+                description={data?.sections?.advantages?.feature1?.description ?? ''}
               />
               <FeatureCard
                 icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Работа при минусовых температурах"
-                description="Эффективность озонирования повышается при низких температурах"
+                title={data?.sections?.advantages?.feature2?.title ?? ''}
+                description={data?.sections?.advantages?.feature2?.description ?? ''}
               />
               <FeatureCard
                 icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Устранение запахов"
-                description="Полная дезодорация камеры без применения химических средств"
+                title={data?.sections?.advantages?.feature3?.title ?? ''}
+                description={data?.sections?.advantages?.feature3?.description ?? ''}
               />
               <FeatureCard
                 icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Экономия ресурсов"
-                description="Сокращение простоя в 5 раз, экономия электроэнергии и труда"
+                title={data?.sections?.advantages?.feature4?.title ?? ''}
+                description={data?.sections?.advantages?.feature4?.description ?? ''}
               />
             </FeatureGrid>
           </ArticleSection>
         </div>
       </article>
 
-      {/* CTA Section */}
-      <section className="cta">
-        <div className="container">
-          <h2 className="cta__title">{t('cta.applications.title', { ns: NAMESPACES.common })}</h2>
-          <p className="cta__text">{t('cta.applications.text', { ns: NAMESPACES.common })}</p>
-          <div className="cta__actions">
-            <AppLink href="/contacts" className="btn btn--white btn--large">
-              {t('hero.getConsultation', { ns: NAMESPACES.common })}
-            </AppLink>
-            <a
-              href="tel:+78001234567"
-              className="btn btn--secondary btn--large"
-              style={{ borderColor: 'white', color: 'white' }}
-            >
-              {t('header.phone', { ns: NAMESPACES.common })}
-            </a>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        title={t('cta.applications.title', { ns: NAMESPACES.common })}
+        description={t('cta.applications.text', { ns: NAMESPACES.common })}
+        primaryButton={{
+          label: t('hero.getConsultation', { ns: NAMESPACES.common }),
+          href: '/contacts',
+        }}
+        secondaryButton={{
+          label: t('header.phone', { ns: NAMESPACES.common }),
+          href: 'tel:+78001234567',
+        }}
+      />
     </Layout>
   )
 }

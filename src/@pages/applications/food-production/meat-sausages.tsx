@@ -1,14 +1,15 @@
-import Image from 'next/image'
-import { useTranslate } from '@tolgee/react'
+import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
-import { AppLink } from '@/shared/ui/app-link'
+import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { useLang } from '@/shared/lib'
 import {
+  ArticleHero,
   ArticleSection,
   BulletList,
   ComparisonTable,
+  CTASection,
   DataTable,
   FeatureCard,
   FeatureGrid,
@@ -17,90 +18,103 @@ import {
   StatCard,
   StatGrid,
 } from '@/shared/ui/article-components'
-import { IconArrowLeft, IconCheck } from '@/shared/ui/icons'
+import { IconCheck } from '@/shared/ui/icons'
 import { Seo } from '@/shared/ui/seo'
 
-export function MeatSausagesPage() {
+interface MeatSausagesPageProps {
+  staticData: TolgeeStaticDataProp
+  lang: TLocale
+}
+
+interface SubcategoryData {
+  title: string
+  shortDesc: string
+  stats?: {
+    [key: string]: {
+      value: string
+      label: string
+      description: string
+    }
+  }
+  sections?: {
+    [key: string]: {
+      title?: string
+      intro?: string
+      paragraph1?: string
+      paragraph2?: string
+      paragraph?: string
+      label?: string
+      text?: string
+      items?: string[] | Array<{ title: string; description: string }>
+      tableCaption?: string
+      tableHeaders?: string[]
+      tableRows?: string[][]
+      tableData?: string[][]
+      rows?: Array<{ parameter: string; value1: string; value2: string; value3?: string }>
+      headers?: string[]
+      recommendedMode?: { label?: string; text: string }
+    }
+  }
+}
+
+export function MeatSausagesPage({ staticData, lang }: MeatSausagesPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('food-production')
+
+  // get category data from staticData
+  const categoryData = (staticData as Record<string, { subcategories?: { 'meat-sausages'?: SubcategoryData } }>)[
+    `${lang}:${ns}`
+  ]
+  const data = categoryData?.subcategories?.['meat-sausages']
+
+  const breadcrumbs = [
+    { label: t('nav.applications', { ns: NAMESPACES.common }), href: '/applications' },
+    { label: t('title', { ns }), href: '/applications/food-production' },
+    { label: t('subcategories.meat-sausages.title', { ns }) },
+  ]
 
   return (
     <Layout>
       <Seo title={t('subcategories.meat-sausages.title', { ns })} description={t('subcategories.meat-sausages.shortDesc', { ns })} />
-      {/* Breadcrumbs */}
-      <div className="bg-bg-light border-border border-b">
-        <div className="container py-4">
-          <nav className="flex items-center gap-2 text-sm">
-            <AppLink href="/applications" className="text-text-secondary hover:text-primary transition-colors">
-              {t('nav.applications', { ns: NAMESPACES.common })}
-            </AppLink>
-            <span className="text-text-light">/</span>
-            <AppLink
-              href="/applications/food-production"
-              className="text-text-secondary hover:text-primary transition-colors"
-            >
-              {t('title', { ns })}
-            </AppLink>
-            <span className="text-text-light">/</span>
-            <span className="text-text-primary font-medium">{t('subcategories.meat-sausages.title', { ns })}</span>
-          </nav>
-        </div>
-      </div>
 
-      {/* Hero Section */}
-      <section className="relative overflow-hidden py-16 md:py-24">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=1920&q=80"
-            alt={t('subcategories.meat-sausages.title', { ns })}
-            fill
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
-        </div>
-        <div className="relative z-10 container">
-          <AppLink
-            href="/applications/food-production"
-            className="mb-6 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-white"
-          >
-            <IconArrowLeft style={{ width: 20, height: 20 }} />
-            <span>{t('title', { ns })}</span>
-          </AppLink>
-          <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
-            {t('subcategories.meat-sausages.title', { ns })}
-          </h1>
-          <p className="max-w-3xl text-xl text-white/80 md:text-2xl">
-            {t('subcategories.meat-sausages.shortDesc', { ns })}
-          </p>
-        </div>
-      </section>
+      <ArticleHero
+        title={t('subcategories.meat-sausages.title', { ns })}
+        description={t('subcategories.meat-sausages.shortDesc', { ns })}
+        image="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=1920&q=80"
+        imageAlt={t('subcategories.meat-sausages.title', { ns })}
+        breadcrumbs={breadcrumbs}
+        backLink={{
+          href: '/applications/food-production',
+          label: t('title', { ns }),
+        }}
+      />
 
       {/* Key Stats */}
       <section className="bg-bg-light py-12">
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value="2-5x"
-              label="Срок хранения"
-              description="Увеличение срока хранения охлаждённого мяса"
+              value={data?.stats?.shelfLife?.value ?? ''}
+              label={data?.stats?.shelfLife?.label ?? ''}
+              description={data?.stats?.shelfLife?.description ?? ''}
               variant="primary"
             />
             <StatCard
-              value="96-99%"
-              label="Обеззараживание"
-              description="Эффективность дезинфекции камер созревания"
+              value={data?.stats?.disinfection?.value ?? ''}
+              label={data?.stats?.disinfection?.label ?? ''}
+              description={data?.stats?.disinfection?.description ?? ''}
               variant="accent"
             />
             <StatCard
-              value="3-8"
-              label="мг/м³ озона"
-              description="Концентрация для камер созревания колбас"
+              value={data?.stats?.concentration?.value ?? ''}
+              label={data?.stats?.concentration?.label ?? ''}
+              description={data?.stats?.concentration?.description ?? ''}
               variant="primary"
             />
             <StatCard
-              value="100%"
-              label="Органолептика"
-              description="Сохранение вкуса, цвета и аромата"
+              value={data?.stats?.organoleptics?.value ?? ''}
+              label={data?.stats?.organoleptics?.label ?? ''}
+              description={data?.stats?.organoleptics?.description ?? ''}
               variant="accent"
             />
           </StatGrid>
@@ -108,158 +122,85 @@ export function MeatSausagesPage() {
       </section>
 
       {/* Main Content */}
-      <article className="py-12 md:py-16">
+      <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>
-              В процессе созревания колбас и хранения мясной продукции активно развиваются бактерии, плесневые грибы и
-              дрожжи. Это приводит к порче продукта, изменению вкуса, потере массы и сокращению срока хранения.
-              Озонирование — эффективный, экологичный и безопасный метод дезинфекции.
-            </Paragraph>
-            <Paragraph>
-              Обеззараживающее действие озона в 15-20 раз, а на споровые формы бактерий примерно в 300-600 раз сильнее
-              действия хлора. При этом озон полностью распадается до кислорода, не оставляя химических остатков на
-              поверхности продукции.
-            </Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>Инструкция Минторга СССР 1977 г.:</strong> Озонирование рекомендовано для приёмки, хранения и
-            выпуска колбасных изделий и копчёностей. Метод позволяет проводить дезинфекцию камер вместе с загруженной
-            продукцией.
+            <strong>{data?.sections?.instruction?.label ?? ''}</strong> {data?.sections?.instruction?.text ?? ''}
           </HighlightBox>
 
-          <ArticleSection title="Хранение охлаждённого мяса">
-            <Paragraph>
-              При хранении охлаждённого мяса озонирование при концентрации 8-10 мг/м³ обеспечивает полное уничтожение
-              мезофильной и холодоустойчивой микрофлоры на поверхности туш при температуре 1-4°C. Срок хранения
-              охлаждённого мяса увеличивается в 2-5 раз.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.storage?.title}>
+            <Paragraph>{data?.sections?.storage?.paragraph ?? ''}</Paragraph>
 
             <DataTable
-              caption="Режимы озонирования при хранении мяса"
-              headers={['Продукт', 'Температура', 'Концентрация', 'Время обработки', 'Периодичность']}
-              rows={[
-                ['Охлаждённое мясо', '-1...-4°C', '8-10 мг/м³', '4-5 часов', 'Через день'],
-                ['Замороженное мясо', '-18°C', '10 мг/м³', '3 часа', 'Ежедневно'],
-                ['Тушки птицы охлаждённые', '-1...-4°C', '8-10 мг/м³', '2-3 часа', 'Ежедневно'],
-                ['Тушки птицы замороженные', '-18°C', '8-12 мг/м³', '3 часа', 'Ежедневно'],
-                ['Субпродукты', '-1...-4°C', '8-10 мг/м³', '3-4 часа', 'Ежедневно'],
-              ]}
+              caption={data?.sections?.storage?.tableCaption}
+              headers={data?.sections?.storage?.tableHeaders ?? []}
+              rows={data?.sections?.storage?.tableRows ?? []}
             />
           </ArticleSection>
 
-          <ArticleSection title="Камеры созревания колбас">
-            <Paragraph>
-              В камерах созревания сырокопчёных и сыровяленых колбас озон подавляет развитие слизистых и плесневых
-              налётов, предотвращает появление посторонних запахов. При умеренной концентрации озон не вызывает
-              обесцвечивания оболочки и фарша.
-            </Paragraph>
+          <ArticleSection title={data?.sections?.ripeningChambers?.title}>
+            <Paragraph>{data?.sections?.ripeningChambers?.paragraph ?? ''}</Paragraph>
 
             <DataTable
-              caption="Режимы озонирования камер созревания колбас"
-              headers={['Тип колбас', 'Концентрация', 'Время обработки', 'Температура', 'Эффективность']}
-              rows={[
-                ['Сырокопчёные', '3-8 мг/м³', '3 часа', '+12...+14°C', '96-99%'],
-                ['Варёно-копчёные', '3-7 мг/м³', '2 часа', '+10...+12°C', '95-98%'],
-                ['Сыровяленые', '5-10 мг/м³', '2-3 часа', '+10...+15°C', '96-99%'],
-                ['Полукопчёные', '3-6 мг/м³', '2 часа', '+10...+12°C', '95-98%'],
-              ]}
+              caption={data?.sections?.ripeningChambers?.tableCaption}
+              headers={data?.sections?.ripeningChambers?.tableHeaders ?? []}
+              rows={data?.sections?.ripeningChambers?.tableRows ?? []}
             />
 
             <HighlightBox variant="success">
-              <strong>Рекомендуемый режим:</strong> Ежедневная обработка в течение 1-3 часов. В период обработки в
-              камере не должно быть персонала. Производительность озонатора: 1 г/час на 20-25 м³ объёма помещения.
+              <strong>{data?.sections?.ripeningChambers?.recommendedMode?.label ?? ''}</strong> {data?.sections?.ripeningChambers?.recommendedMode?.text ?? ''}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Преимущества озонирования">
-            <BulletList
-              items={[
-                'Обеззараживание поверхности продукта — уничтожение бактерий, спор плесени и дрожжей',
-                'Сохранение органолептических свойств — не изменяет вкус и аромат, предотвращает горечь',
-                'Снижение потерь массы — уменьшает усушку за счёт стабилизации микрофлоры',
-                'Дезинфекция камеры вместе с продукцией — обработка возможна при полной загрузке',
-                'Экономия времени и средств — сокращение частоты ручной санитарной обработки',
-                'Автоматизация — обработка по таймеру без участия персонала',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.benefits?.title}>
+            <BulletList items={(data?.sections?.benefits?.items as string[]) ?? []} />
           </ArticleSection>
 
           <ComparisonTable
-            title="Сравнение методов дезинфекции камер созревания"
-            headers={['Параметр', 'Озонирование', 'Традиционная обработка']}
-            rows={[
-              { parameter: 'Выгрузка продукции', value1: 'Не требуется', value2: 'Обязательна' },
-              { parameter: 'Химические остатки', value1: 'Отсутствуют', value2: 'Требуется промывка' },
-              { parameter: 'Труднодоступные места', value1: 'Обрабатываются газом', value2: 'Недоступны' },
-              { parameter: 'Время простоя', value1: '1-3 часа/день', value2: '24-48 часов' },
-              { parameter: 'Влияние на продукт', value1: 'Отсутствует', value2: 'Возможно' },
-              { parameter: 'Автоматизация', value1: 'Полная', value2: 'Ручная работа' },
-            ]}
+            title={data?.sections?.comparison?.title}
+            headers={(data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]) ?? []}
+            rows={(data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string; value3?: string }>) ?? []}
           />
 
-          <ArticleSection title="Нормативная база">
-            <Paragraph>
-              Применение озона для дезинфекции мясной продукции регламентировано рядом нормативных документов с
-              советского периода:
-            </Paragraph>
-            <BulletList
-              items={[
-                '1973 г. — Инструкция «Дезинфекция и дезодорация в холодильниках способом озонирования» (Минторг СССР)',
-                '1977 г. — Инструкция по приёмке, хранению и выпуску колбасных изделий и копчёностей',
-                '1998 г. — Озон внесён в перечень дезинфектантов (рег. №0039-98/21, Минздрав РФ)',
-                'СанПиН 2.3.4.545-96 — Производство колбасных изделий',
-              ]}
-            />
+          <ArticleSection title={data?.sections?.regulations?.title}>
+            <Paragraph>{data?.sections?.regulations?.paragraph ?? ''}</Paragraph>
+            <BulletList items={(data?.sections?.regulations?.items as string[]) ?? []} />
           </ArticleSection>
 
-          <ArticleSection title="Преимущества для мясокомбинатов">
+          <ArticleSection title={data?.sections?.features?.title}>
             <FeatureGrid columns={2}>
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Увеличение срока хранения"
-                description="Продление срока годности охлаждённого мяса в 2-5 раз без заморозки"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Подавление плесени"
-                description="Эффективность 96-99% против плесневых грибов на колбасах"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Экологичность"
-                description="Полный распад озона до кислорода без химических остатков"
-              />
-              <FeatureCard
-                icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title="Непрерывность производства"
-                description="Обработка без выгрузки продукции и остановки процесса"
-              />
+              {((data?.sections?.features?.items as Array<{ title: string; description: string }>) ?? []).map(
+                (item, idx) => (
+                  <FeatureCard
+                    key={idx}
+                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                    title={item.title}
+                    description={item.description}
+                  />
+                ),
+              )}
             </FeatureGrid>
           </ArticleSection>
         </div>
       </article>
 
-      {/* CTA Section */}
-      <section className="cta">
-        <div className="container">
-          <h2 className="cta__title">{t('cta.applications.title', { ns: NAMESPACES.common })}</h2>
-          <p className="cta__text">{t('cta.applications.text', { ns: NAMESPACES.common })}</p>
-          <div className="cta__actions">
-            <AppLink href="/contacts" className="btn btn--white btn--large">
-              {t('hero.getConsultation', { ns: NAMESPACES.common })}
-            </AppLink>
-            <a
-              href="tel:+78001234567"
-              className="btn btn--secondary btn--large"
-              style={{ borderColor: 'white', color: 'white' }}
-            >
-              {t('header.phone', { ns: NAMESPACES.common })}
-            </a>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        title={t('cta.applications.title', { ns: NAMESPACES.common })}
+        description={t('cta.applications.text', { ns: NAMESPACES.common })}
+        primaryButton={{
+          label: t('hero.getConsultation', { ns: NAMESPACES.common }),
+          href: '/contacts',
+        }}
+        secondaryButton={{
+          label: t('header.phone', { ns: NAMESPACES.common }),
+          href: 'tel:+78001234567',
+        }}
+      />
     </Layout>
   )
 }
