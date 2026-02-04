@@ -52,11 +52,6 @@ export function Footer() {
                   {t('nav.articles')}
                 </AppLink>
               </li>
-              <li>
-                <AppLink href="/benefits" className="footer__link">
-                  {t('nav.benefits')}
-                </AppLink>
-              </li>
             </ul>
           </div>
 

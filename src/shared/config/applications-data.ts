@@ -105,7 +105,7 @@ export const APPLICATION_CATEGORIES: ApplicationCategory[] = [
   },
   {
     id: 'warehouses',
-    icon: 'IconFactory',
+    icon: 'IconWarehouse',
     image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80',
     subcategories: [
       { id: 'mold-prevention', image: 'https://images.pexels.com/photos/27111449/pexels-photo-27111449.jpeg' },
@@ -152,6 +152,16 @@ export function getAllCategoryIds(): string[] {
 
 // Featured categories for homepage (top 4)
 export const FEATURED_CATEGORIES = ['medicine', 'agriculture', 'food-production', 'horeca']
+
+// Application category IDs shown on home page (same order as cards)
+export const HOME_APPLICATION_IDS = [
+  'medicine',
+  'agriculture',
+  'food-production',
+  'water-treatment',
+  'warehouses',
+  'disinfection',
+] as const
 
 // All (categoryId, subcategoryId) pairs for static paths
 export function getAllSubcategoryPaths(): { categoryId: string; subcategoryId: string }[] {

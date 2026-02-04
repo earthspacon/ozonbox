@@ -142,6 +142,51 @@
       "horeca": {
         "title": "HoReCa",
         "text": "Hotels, restaurants and cafes use ozonation to create a comfortable environment, eliminate odors and ensure high hygiene standards."
+      },
+      "water-treatment": {
+        "title": "Water Treatment",
+        "text": "Ozone is the most effective and eco-friendly water purification method. Drinking water, wastewater, pools and iron removal."
+      },
+      "warehouses": {
+        "title": "Warehouses",
+        "text": "Ozonation of warehouse facilities prevents mold growth, controls odors and ensures preservation of stored goods."
+      },
+      "disinfection": {
+        "title": "Disinfection",
+        "text": "Deep disinfection of premises and transport: offices, public transport, sports facilities and shopping malls."
+      }
+    }
+  },
+  "homeArticles": {
+    "title": "Articles &",
+    "titleHighlight": "research",
+    "subtitle": "Scientific and practical materials on ozone applications in agriculture, industry and the environment.",
+    "more": "Read more",
+    "viewAll": "View all articles",
+    "items": {
+      "ozoneFoodWarehouseMeat": {
+        "title": "Ozone Applications in Food Warehouses and Meat Storage",
+        "excerpt": "Comprehensive review of ozone technology in cold storage facilities, meat preservation, pathogen control, and adoption by major food service chains. FDA GRAS approved for direct food contact."
+      },
+      "ozoneFoodInteraction": {
+        "title": "Ozone Interaction with Food Products",
+        "excerpt": "Ozone as an oxidizer: effects on nutrients, bactericidal and antifungal activity, role of humidity and ethylene in food processing."
+      },
+      "ozoneGrainProtection": {
+        "title": "Ozone as an environmentally safe protection for grain",
+        "excerpt": "Purdue University research showed that ozone effectively eliminates insects in grain storage facilities without harming grain quality or the environment."
+      },
+      "concentratedOzoneAgriculture": {
+        "title": "Application of Concentrated Ozone in Agriculture",
+        "excerpt": "Compact mobile concentrated ozone generators with capacity up to 10 kg/h enable disinfection of grain, feed, and poultry facilities in minutes instead of hours."
+      },
+      "ozoneVirusDisinfection": {
+        "title": "Ozone Effects on Viruses and Bacteria",
+        "excerpt": "Mechanism of ozone's antiviral and bactericidal action: oxidative destruction of cell membranes, scientific research, and practical applications in disinfection."
+      },
+      "ozoneCovid19Treatment": {
+        "title": "Potential Use of Ozone in COVID-19 Treatment",
+        "excerpt": "Official ISCO3 expert opinion on ozone therapy as adjunct treatment for SARS-CoV-2: disinfection, mechanisms of action, clinical protocols."
       }
     }
   },
@@ -158,6 +203,183 @@
       "title": "FUJITA University, Japan (2020)",
       "text": "Low ozone concentrations reduce virus activity in minimal processing time",
       "stat": "95% in 20 minutes"
+    }
+  },
+  "technology": {
+    "pageTitle": "Ozonation Technology — OZONOXY",
+    "pageDescription": "Learn how ozonation technology works. Comparison of ozone and chlorine. 7 ozonation functions in one device.",
+    "header": {
+      "title": "How ozonation works",
+      "subtitle": "Learn the principle of operation and its advantages over traditional disinfection methods"
+    },
+    "process": {
+      "title": "Operating",
+      "titleHighlight": "principle",
+      "subtitle": "Ozonation is a simple and effective 4-step process",
+      "step1": {
+        "title": "Ozone generation",
+        "text": "The ozone generator creates O₃ molecules from atmospheric oxygen using electrical discharge"
+      },
+      "step2": {
+        "title": "Distribution",
+        "text": "Ozone is distributed throughout the room or dissolved in water, reaching all surfaces"
+      },
+      "step3": {
+        "title": "Disinfection",
+        "text": "Ozone molecules contact microorganisms and destroy their cell membranes"
+      },
+      "step4": {
+        "title": "Decomposition",
+        "text": "After completion, ozone decomposes into ordinary oxygen O₂, leaving no traces"
+      }
+    },
+    "comparison": {
+      "title": "Ozone vs",
+      "titleHighlight": "Chlorine",
+      "subtitle": "Comparison of two disinfection methods by key parameters",
+      "parameter": "Parameter",
+      "ozone": "Ozone",
+      "chlorine": "Chlorine",
+      "efficiency": "Disinfection efficiency",
+      "efficiencyOzone": "300 times higher",
+      "efficiencyChlorine": "Basic",
+      "time": "Bacterial exposure time",
+      "timeOzone": "10-30 seconds",
+      "timeChlorine": "Minutes-hours",
+      "byproducts": "Byproducts",
+      "byproductsOzone": "None (only O₂)",
+      "byproductsChlorine": "Trichloramines, carcinogens",
+      "irritation": "Mucous membrane irritation",
+      "irritationOzone": "No",
+      "irritationChlorine": "Yes",
+      "smell": "Post-treatment smell",
+      "smellOzone": "Freshness",
+      "smellChlorine": "Strong chlorine odor",
+      "ph": "pH dependence",
+      "phOzone": "Minimal",
+      "phChlorine": "High",
+      "viruses": "Effectiveness against viruses",
+      "virusesOzone": "High (all types)",
+      "virusesChlorine": "Low (chlorine-resistant)",
+      "eco": "Environmental friendliness",
+      "ecoOzone": "100% eco-friendly",
+      "ecoChlorine": "Pollutes environment"
+    },
+    "functions": {
+      "title": "7 functions of",
+      "titleHighlight": "ozonation",
+      "subtitle": "One device solves multiple disinfection and treatment tasks",
+      "disinfection": {
+        "title": "Disinfection",
+        "text": "Destruction of bacteria, viruses and microorganisms"
+      },
+      "disinsection": {
+        "title": "Pest control",
+        "text": "Destruction of insects and their larvae"
+      },
+      "deodorization": {
+        "title": "Deodorization",
+        "text": "Elimination of unpleasant odors"
+      },
+      "deratization": {
+        "title": "Rodent control",
+        "text": "Repelling rodents"
+      },
+      "demercurization": {
+        "title": "Demercurization",
+        "text": "Neutralization of mercury vapors"
+      },
+      "mold": {
+        "title": "Mold removal",
+        "text": "Destruction of fungi and spores"
+      },
+      "sterilization": {
+        "title": "Sterilization",
+        "text": "Complete surface sanitization"
+      },
+      "allinone": {
+        "title": "All in one",
+        "text": "One ozonizer replaces 7 different devices"
+      }
+    },
+    "benefits": {
+      "title": "Ozonation",
+      "titleHighlight": "benefits",
+      "subtitle": "Why ozonation is the best choice for your business",
+      "eco": {
+        "title": "Eco-friendliness",
+        "list": {
+          "1": "No chemical reagents required",
+          "2": "Decomposes into pure oxygen O₂",
+          "3": "Leaves no toxic residue",
+          "4": "Safe for the environment"
+        }
+      },
+      "efficiency": {
+        "title": "Effectiveness",
+        "list": {
+          "1": "300 times more powerful than chlorine",
+          "2": "Destroys 99.9% of pathogens",
+          "3": "Works against chlorine-resistant viruses",
+          "4": "Fast action (10-30 seconds)"
+        }
+      },
+      "safety": {
+        "title": "Safety",
+        "list": {
+          "1": "Does not irritate mucous membranes",
+          "2": "Does not cause allergic reactions",
+          "3": "Hypoallergenic for humans and animals",
+          "4": "Complies with SanPiN and GOST"
+        }
+      },
+      "economy": {
+        "title": "Economy",
+        "list": {
+          "1": "3-4 times cheaper than chemical treatment",
+          "2": "Produced on-site from air",
+          "3": "Minimal operating costs",
+          "4": "Long equipment service life"
+        }
+      },
+      "universal": {
+        "title": "Versatility",
+        "list": {
+          "1": "7 functions in one device",
+          "2": "Application in any industry",
+          "3": "Air and water treatment",
+          "4": "Suitable for any premises"
+        }
+      },
+      "auto": {
+        "title": "Autonomy",
+        "list": {
+          "1": "Automatic scheduled operation",
+          "2": "No constant presence required",
+          "3": "Simple and intuitive control",
+          "4": "Remote monitoring"
+        }
+      }
+    },
+    "stats": {
+      "title": "Ozonation",
+      "titleHighlight": "in numbers",
+      "power": {
+        "title": "More effective than chlorine",
+        "text": "Ozone exceeds chlorine in disinfection power"
+      },
+      "europe": {
+        "title": "Of European water",
+        "text": "Is treated with ozone for drinking water supply"
+      },
+      "cheaper": {
+        "title": "Cheaper than chemicals",
+        "text": "Ozonation cost is lower than chemical treatment"
+      },
+      "decay": {
+        "title": "Decomposition time",
+        "text": "Ozone converts to pure oxygen"
+      }
     }
   },
   "aboutPage": {

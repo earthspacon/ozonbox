@@ -238,6 +238,85 @@
         "title": "Hammasi bittada",
         "text": "Bitta ozonator 7 xil qurilmani almashtiradi"
       }
+    },
+    "benefits": {
+      "title": "Ozonlash",
+      "titleHighlight": "afzalliklari",
+      "subtitle": "Nima uchun ozonlash biznesingiz uchun eng yaxshi tanlov",
+      "eco": {
+        "title": "Ekologik tozalik",
+        "list": {
+          "1": "Kimyoviy reagentlar talab qilinmaydi",
+          "2": "Toza kislorod O₂ ga parchalanadi",
+          "3": "Toksik qoldiq qoldirmaydi",
+          "4": "Atrof-muhit uchun xavfsiz"
+        }
+      },
+      "efficiency": {
+        "title": "Samaradorlik",
+        "list": {
+          "1": "Xlordan 300 marta kuchli",
+          "2": "Patogenlarning 99,9% yo'q qiladi",
+          "3": "Xlorga chidamli viruslarga qarshi ishlaydi",
+          "4": "Tez ta'sir (10-30 soniya)"
+        }
+      },
+      "safety": {
+        "title": "Xavfsizlik",
+        "list": {
+          "1": "Shilliq pardani ta'sirlantirmaydi",
+          "2": "Allergik reaktsiyalarni keltirib chiqarmaydi",
+          "3": "Insonlar va hayvonlar uchun gipoallergen",
+          "4": "SanPiN va GOSTga mos"
+        }
+      },
+      "economy": {
+        "title": "Tejamkorlik",
+        "list": {
+          "1": "Kimyoviy ishlov berishdan 3-4 marta arzon",
+          "2": "Joyida havodan ishlab chiqariladi",
+          "3": "Minimal ekspluatatsiya xarajatlari",
+          "4": "Uskunaning uzoq xizmat muddati"
+        }
+      },
+      "universal": {
+        "title": "Universallik",
+        "list": {
+          "1": "Bitta qurilmada 7 funksiya",
+          "2": "Har qanday sohada qo'llash",
+          "3": "Havo va suvni ishlov berish",
+          "4": "Har qanday binolarga mos"
+        }
+      },
+      "auto": {
+        "title": "Avtonomlik",
+        "list": {
+          "1": "Jadval bo'yicha avtomatik ishlash",
+          "2": "Doimiy ishtirok talab qilinmaydi",
+          "3": "Oddiy va intuitiv boshqaruv",
+          "4": "Masofadan monitoring"
+        }
+      }
+    },
+    "stats": {
+      "title": "Ozonlash",
+      "titleHighlight": "raqamlarda",
+      "power": {
+        "title": "Xlordan samaraliroq",
+        "text": "Ozon dezinfeksiya kuchi bo'yicha xlordan ustun"
+      },
+      "europe": {
+        "title": "Yevropa suvining",
+        "text": "Ichimlik suvi ta'minoti uchun ozon bilan ishlov beriladi"
+      },
+      "cheaper": {
+        "title": "Kimyodan arzon",
+        "text": "Ozonlash narxi kimyoviy ishlov berishdan past"
+      },
+      "decay": {
+        "title": "Parchalanish vaqti",
+        "text": "Ozon toza kislorodga aylanadi"
+      }
     }
   },
   "applicationsPage": {
@@ -345,88 +424,6 @@
       "safety": {
         "title": "Xavfsizlik",
         "text": "Xavfli xlor birikmalarini (trixloraminlar) hosil qilmaydi."
-      }
-    }
-  },
-  "benefitsPage": {
-    "pageTitle": "Ozonlash afzalliklari — OZONOXY",
-    "pageDescription": "Ozonlash afzalliklari: ekologik tozalik, samaradorlik, xavfsizlik, tejamkorlik, universallik va avtonom ishlash.",
-    "header": {
-      "title": "Ozonlash afzalliklari",
-      "subtitle": "Nima uchun ozonlash biznesingiz uchun eng yaxshi tanlov"
-    },
-    "eco": {
-      "title": "Ekologik tozalik",
-      "list": {
-        "1": "Kimyoviy reagentlar talab qilinmaydi",
-        "2": "Toza kislorod O₂ ga parchalanadi",
-        "3": "Toksik qoldiq qoldirmaydi",
-        "4": "Atrof-muhit uchun xavfsiz"
-      }
-    },
-    "efficiency": {
-      "title": "Samaradorlik",
-      "list": {
-        "1": "Xlordan 300 marta kuchli",
-        "2": "Patogenlarning 99,9% yo'q qiladi",
-        "3": "Xlorga chidamli viruslarga qarshi ishlaydi",
-        "4": "Tez ta'sir (10-30 soniya)"
-      }
-    },
-    "safety": {
-      "title": "Xavfsizlik",
-      "list": {
-        "1": "Shilliq pardani ta'sirlantirmaydi",
-        "2": "Allergik reaktsiyalarni keltirib chiqarmaydi",
-        "3": "Insonlar va hayvonlar uchun gipoallergen",
-        "4": "SanPiN va GOSTga mos"
-      }
-    },
-    "economy": {
-      "title": "Tejamkorlik",
-      "list": {
-        "1": "Kimyoviy ishlov berishdan 3-4 marta arzon",
-        "2": "Joyida havodan ishlab chiqariladi",
-        "3": "Minimal ekspluatatsiya xarajatlari",
-        "4": "Uskunaning uzoq xizmat muddati"
-      }
-    },
-    "universal": {
-      "title": "Universallik",
-      "list": {
-        "1": "Bitta qurilmada 7 funksiya",
-        "2": "Har qanday sohada qo'llash",
-        "3": "Havo va suvni ishlov berish",
-        "4": "Har qanday binolarga mos"
-      }
-    },
-    "auto": {
-      "title": "Avtonomlik",
-      "list": {
-        "1": "Jadval bo'yicha avtomatik ishlash",
-        "2": "Doimiy ishtirok talab qilinmaydi",
-        "3": "Oddiy va intuitiv boshqaruv",
-        "4": "Masofadan monitoring"
-      }
-    },
-    "stats": {
-      "title": "Ozonlash",
-      "titleHighlight": "raqamlarda",
-      "power": {
-        "title": "Xlordan samaraliroq",
-        "text": "Ozon dezinfeksiya kuchi bo'yicha xlordan ustun"
-      },
-      "europe": {
-        "title": "Yevropa suvining",
-        "text": "Ichimlik suvi ta'minoti uchun ozon bilan ishlov beriladi"
-      },
-      "cheaper": {
-        "title": "Kimyodan arzon",
-        "text": "Ozonlash narxi kimyoviy ishlov berishdan past"
-      },
-      "decay": {
-        "title": "Parchalanish vaqti",
-        "text": "Ozon toza kislorodga aylanadi"
       }
     }
   },

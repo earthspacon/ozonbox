@@ -142,6 +142,51 @@
       "horeca": {
         "title": "HoReCa",
         "text": "Mehmonxonalar, restoranlar va kafelar qulay muhit yaratish, hidlarni yo'q qilish va yuqori gigiyena standartlarini ta'minlash uchun ozonlashdan foydalanadi."
+      },
+      "water-treatment": {
+        "title": "Suvni tozalash",
+        "text": "Ozon suvni tozalashning eng samarali va ekologik toza usuli. Ichimlik suvi, chiqindi suvlari, basseynlar va temir olib tashlash."
+      },
+      "warehouses": {
+        "title": "Omborxonalar",
+        "text": "Omborxona binolarini ozonlash mog'or o'sishini oldini oladi, hidlarni boshqaradi va saqlanayotgan tovarlarni saqlaydi."
+      },
+      "disinfection": {
+        "title": "Dezinfeksiya",
+        "text": "Binolar va transportni chuqur dezinfeksiyalash: ofislar, jamoat transporti, sport inshootlari va savdo markazlari."
+      }
+    }
+  },
+  "homeArticles": {
+    "title": "Maqolalar va",
+    "titleHighlight": "tadqiqotlar",
+    "subtitle": "Qishloq xo'jaligi, sanoat va atrof-muhitda ozondan foydalanish bo'yicha ilmiy va amaliy materiallar.",
+    "more": "O'qish",
+    "viewAll": "Barcha maqolalar",
+    "items": {
+      "ozoneFoodWarehouseMeat": {
+        "title": "Oziq-ovqat omborlarida va go'sht saqlashda ozonni qo'llash",
+        "excerpt": "Sovuq saqlash inshootlarida, go'shtni saqlashda, patogenlarni nazorat qilishda va yirik oziq-ovqat xizmat ko'rsatish tarmoqlari tomonidan qabul qilinishida ozon texnologiyasining keng qamrovli sharhi. FDA GRAS to'g'ridan-to'g'ri oziq-ovqat bilan aloqa qilish uchun tasdiqlangan."
+      },
+      "ozoneFoodInteraction": {
+        "title": "Ozonning oziq-ovqat mahsulotlari bilan o'zaro ta'siri",
+        "excerpt": "Oksidlovchi sifatida ozon: ozuqa moddalarga ta'siri, bakteritsid va zamburug'ga qarshi faollik, oziq-ovqatni qayta ishlashda namlik va etilenning roli."
+      },
+      "ozoneGrainProtection": {
+        "title": "Ozon — donni ekologik xavfsiz himoya qilish",
+        "excerpt": "Purdue universitetining tadqiqotlari shuni ko'rsatadiki: ozon don saqlash inshootlarida hasharotlarni samarali yo'q qiladi, don sifati va atrof-muhitga zarar yetkazmasdan."
+      },
+      "concentratedOzoneAgriculture": {
+        "title": "Qishloq xo'jaligida konsentrlangan ozonni qo'llash",
+        "excerpt": "Soatiga 10 kg gacha sig'imli ixcham mobil konsentrlangan ozon generatorlari don, ozuqa va parranda fermalari dezinfeksiyasini soatlar o'rniga daqiqalarda o'tkazish imkonini beradi."
+      },
+      "ozoneVirusDisinfection": {
+        "title": "Ozonning viruslar va bakteriyalarga ta'siri",
+        "excerpt": "Ozonning antivirus va bakteritsid ta'sir mexanizmi: hujayra membranalarining oksidlanib parchalanishi, ilmiy tadqiqotlar va dezinfeksiyada amaliy qo'llanilishi."
+      },
+      "ozoneCovid19Treatment": {
+        "title": "COVID-19 davolashda ozondan potentsial foydalanish",
+        "excerpt": "ISCO3 ning SARS-CoV-2 uchun qo'shimcha terapiya sifatida ozon terapiyasi bo'yicha rasmiy ekspert xulosasi: dezinfeksiya, ta'sir mexanizmlari, klinik protokollar."
       }
     }
   },
@@ -158,6 +203,183 @@
       "title": "FUJITA universiteti, Yaponiya (2020)",
       "text": "Past ozon kontsentratsiyalari minimal qayta ishlash vaqtida virus faolligini kamaytiradi",
       "stat": "20 daqiqada 95%"
+    }
+  },
+  "technology": {
+    "pageTitle": "Ozonlash texnologiyasi — OZONOXY",
+    "pageDescription": "Ozonlash texnologiyasi qanday ishlashini bilib oling. Ozon va xlorni taqqoslash. Bitta qurilmada 7 ta ozonlash funksiyasi.",
+    "header": {
+      "title": "Ozonlash qanday ishlaydi",
+      "subtitle": "Ishlash tamoyilini va an'anaviy dezinfeksiya usullaridan afzalliklarini bilib oling"
+    },
+    "process": {
+      "title": "Ishlash",
+      "titleHighlight": "tamoyili",
+      "subtitle": "Ozonlash — oddiy va samarali 4 bosqichli jarayon",
+      "step1": {
+        "title": "Ozon hosil qilish",
+        "text": "Ozon generatori elektr razryadi yordamida atmosfera kislorodidan O₃ molekulalarini yaratadi"
+      },
+      "step2": {
+        "title": "Tarqatish",
+        "text": "Ozon xona bo'ylab tarqaladi yoki suvda eriydi, barcha sirtlarga yetib boradi"
+      },
+      "step3": {
+        "title": "Dezinfeksiya",
+        "text": "Ozon molekulalari mikroorganizmlar bilan aloqaga kirib, ularning hujayra membranalarini buzadi"
+      },
+      "step4": {
+        "title": "Parchalanish",
+        "text": "Tugagandan so'ng ozon oddiy kislorod O₂ ga parchalanadi, iz qoldirmaydi"
+      }
+    },
+    "comparison": {
+      "title": "Ozon vs",
+      "titleHighlight": "Xlor",
+      "subtitle": "Ikki dezinfeksiya usulini asosiy parametrlar bo'yicha taqqoslash",
+      "parameter": "Parametr",
+      "ozone": "Ozon",
+      "chlorine": "Xlor",
+      "efficiency": "Dezinfeksiya samaradorligi",
+      "efficiencyOzone": "300 marta yuqori",
+      "efficiencyChlorine": "Asosiy",
+      "time": "Bakteriyalarga ta'sir vaqti",
+      "timeOzone": "10-30 soniya",
+      "timeChlorine": "Daqiqalar-soatlar",
+      "byproducts": "Yon mahsulotlar",
+      "byproductsOzone": "Yo'q (faqat O₂)",
+      "byproductsChlorine": "Trixloraminlar, kantserogenlar",
+      "irritation": "Shilliq pardani ta'sirlantirish",
+      "irritationOzone": "Yo'q",
+      "irritationChlorine": "Ha",
+      "smell": "Ishlov berilgandan keyingi hid",
+      "smellOzone": "Toza",
+      "smellChlorine": "Kuchli xlor hidi",
+      "ph": "pH ga bog'liqlik",
+      "phOzone": "Minimal",
+      "phChlorine": "Yuqori",
+      "viruses": "Viruslarga qarshi samaradorlik",
+      "virusesOzone": "Yuqori (barcha turlari)",
+      "virusesChlorine": "Past (xlorga chidamli)",
+      "eco": "Ekologik tozalik",
+      "ecoOzone": "100% ekologik",
+      "ecoChlorine": "Atrof-muhitni ifloslantiradi"
+    },
+    "functions": {
+      "title": "Ozonlashning 7",
+      "titleHighlight": "funksiyasi",
+      "subtitle": "Bitta qurilma bir nechta dezinfeksiya va ishlov berish vazifalarini hal qiladi",
+      "disinfection": {
+        "title": "Dezinfeksiya",
+        "text": "Bakteriyalar, viruslar va mikroorganizmlarni yo'q qilish"
+      },
+      "disinsection": {
+        "title": "Dezinseksiya",
+        "text": "Hasharotlar va ularning lichinalarini yo'q qilish"
+      },
+      "deodorization": {
+        "title": "Dezodoratsiya",
+        "text": "Yoqimsiz hidlarni bartaraf etish"
+      },
+      "deratization": {
+        "title": "Deratizatsiya",
+        "text": "Kemiruvchilarni quvish"
+      },
+      "demercurization": {
+        "title": "Demerkurizatsiya",
+        "text": "Simob bug'larini neytrallashtirish"
+      },
+      "mold": {
+        "title": "Mog'orni olib tashlash",
+        "text": "Zamburug'lar va sporalarni yo'q qilish"
+      },
+      "sterilization": {
+        "title": "Sterilizatsiya",
+        "text": "Sirtlarni to'liq zararsizlantirish"
+      },
+      "allinone": {
+        "title": "Hammasi bittada",
+        "text": "Bitta ozonator 7 xil qurilmani almashtiradi"
+      }
+    },
+    "benefits": {
+      "title": "Ozonlash",
+      "titleHighlight": "afzalliklari",
+      "subtitle": "Nima uchun ozonlash biznesingiz uchun eng yaxshi tanlov",
+      "eco": {
+        "title": "Ekologik tozalik",
+        "list": {
+          "1": "Kimyoviy reagentlar talab qilinmaydi",
+          "2": "Toza kislorod O₂ ga parchalanadi",
+          "3": "Toksik qoldiq qoldirmaydi",
+          "4": "Atrof-muhit uchun xavfsiz"
+        }
+      },
+      "efficiency": {
+        "title": "Samaradorlik",
+        "list": {
+          "1": "Xlordan 300 marta kuchli",
+          "2": "Patogenlarning 99,9% yo'q qiladi",
+          "3": "Xlorga chidamli viruslarga qarshi ishlaydi",
+          "4": "Tez ta'sir (10-30 soniya)"
+        }
+      },
+      "safety": {
+        "title": "Xavfsizlik",
+        "list": {
+          "1": "Shilliq pardani ta'sirlantirmaydi",
+          "2": "Allergik reaktsiyalarni keltirib chiqarmaydi",
+          "3": "Insonlar va hayvonlar uchun gipoallergen",
+          "4": "SanPiN va GOSTga mos"
+        }
+      },
+      "economy": {
+        "title": "Tejamkorlik",
+        "list": {
+          "1": "Kimyoviy ishlov berishdan 3-4 marta arzon",
+          "2": "Joyida havodan ishlab chiqariladi",
+          "3": "Minimal ekspluatatsiya xarajatlari",
+          "4": "Uskunaning uzoq xizmat muddati"
+        }
+      },
+      "universal": {
+        "title": "Universallik",
+        "list": {
+          "1": "Bitta qurilmada 7 funksiya",
+          "2": "Har qanday sohada qo'llash",
+          "3": "Havo va suvni ishlov berish",
+          "4": "Har qanday binolarga mos"
+        }
+      },
+      "auto": {
+        "title": "Avtonomlik",
+        "list": {
+          "1": "Jadval bo'yicha avtomatik ishlash",
+          "2": "Doimiy ishtirok talab qilinmaydi",
+          "3": "Oddiy va intuitiv boshqaruv",
+          "4": "Masofadan monitoring"
+        }
+      }
+    },
+    "stats": {
+      "title": "Ozonlash",
+      "titleHighlight": "raqamlarda",
+      "power": {
+        "title": "Xlordan samaraliroq",
+        "text": "Ozon dezinfeksiya kuchi bo'yicha xlordan ustun"
+      },
+      "europe": {
+        "title": "Yevropa suvining",
+        "text": "Ichimlik suvi ta'minoti uchun ozon bilan ishlov beriladi"
+      },
+      "cheaper": {
+        "title": "Kimyodan arzon",
+        "text": "Ozonlash narxi kimyoviy ishlov berishdan past"
+      },
+      "decay": {
+        "title": "Parchalanish vaqti",
+        "text": "Ozon toza kislorodga aylanadi"
+      }
     }
   },
   "aboutPage": {

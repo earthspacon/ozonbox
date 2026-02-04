@@ -17,6 +17,7 @@ import {
   IconMedical,
   IconPoultry,
   IconSpray,
+  IconWarehouse,
   IconWater,
 } from '@/shared/ui/icons'
 
@@ -30,6 +31,7 @@ const CATEGORY_ICONS: Record<string, React.ComponentType<{ className?: string }>
   IconDisinfection,
   IconSpray,
   IconFactory,
+  IconWarehouse,
   IconAuto,
 }
 

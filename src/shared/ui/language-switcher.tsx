@@ -8,7 +8,12 @@ import { LANG_LS_KEY, LOCALES, TLocale } from '@/shared/config/tolgee'
 
 import { useIsLangInRoute, useLang } from '../lib'
 
-export function LanguageSwitcher() {
+type LanguageSwitcherProps = {
+  /** when true, dropdown opens above the trigger (e.g. in mobile menu) */
+  openUp?: boolean
+}
+
+export function LanguageSwitcher({ openUp = false }: LanguageSwitcherProps) {
   const tolgee = useTolgee(['language'])
   const router = useRouter()
   const [isOpen, setIsOpen] = useState(false)
@@ -64,7 +69,7 @@ export function LanguageSwitcher() {
       </button>
 
       {isOpen && (
-        <ul className="lang-switcher__dropdown" role="listbox">
+        <ul className={`lang-switcher__dropdown ${openUp ? 'lang-switcher__dropdown--up' : ''}`} role="listbox">
           {Object.values(LOCALES).map((locale) => (
             <li key={locale.id}>
               <button

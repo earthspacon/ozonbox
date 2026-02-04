@@ -3,19 +3,32 @@ import Image from 'next/image'
 
 import { Layout } from '@/widgets/layout'
 
+import { getCategoryById, HOME_APPLICATION_IDS } from '@/shared/config/applications-data'
+import { getArticleById, HOME_ARTICLE_IDS } from '@/shared/config/articles-data'
 import { AppLink } from '@/shared/ui/app-link'
 import { CTASection } from '@/shared/ui/article-components'
 import {
   IconArrowRight,
   IconCheck,
+  IconDisinfection,
   IconEco,
   IconFood,
-  IconHotel,
   IconMedical,
   IconPoultry,
   IconShield,
   IconTimer,
+  IconWarehouse,
+  IconWater,
 } from '@/shared/ui/icons'
+
+const APPLICATION_ICONS: Record<string, typeof IconMedical> = {
+  IconMedical,
+  IconPoultry,
+  IconFood,
+  IconWater,
+  IconWarehouse,
+  IconDisinfection,
+}
 
 export function HomePage() {
   const { t } = useTranslate()
@@ -157,78 +170,33 @@ export function HomePage() {
             <p className="section__subtitle">{t('applications.subtitle')}</p>
           </div>
           <div className="applications-grid">
-            <AppLink href="/applications/medicine" className="application-card fade-in visible">
-              <div className="application-card__image">
-                <Image
-                  src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80"
-                  alt={t('applications.categories.medicine.title')}
-                  width={800}
-                  height={600}
-                />
-              </div>
-              <div className="application-card__overlay">
-                <IconMedical className="application-card__icon" />
-                <h3 className="application-card__title">{t('applications.categories.medicine.title')}</h3>
-                <p className="application-card__text">{t('applications.categories.medicine.text')}</p>
-                <span className="application-card__link">
-                  {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
-                </span>
-              </div>
-            </AppLink>
-            <AppLink href="/applications/agriculture" className="application-card fade-in visible">
-              <div className="application-card__image">
-                <Image
-                  src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=800&q=80"
-                  alt={t('applications.categories.agriculture.title')}
-                  width={800}
-                  height={600}
-                />
-              </div>
-              <div className="application-card__overlay">
-                <IconPoultry className="application-card__icon" />
-                <h3 className="application-card__title">{t('applications.categories.agriculture.title')}</h3>
-                <p className="application-card__text">{t('applications.categories.agriculture.text')}</p>
-                <span className="application-card__link">
-                  {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
-                </span>
-              </div>
-            </AppLink>
-            <AppLink href="/applications/food-production" className="application-card fade-in visible">
-              <div className="application-card__image">
-                <Image
-                  src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80"
-                  alt={t('applications.categories.food-production.title')}
-                  width={800}
-                  height={600}
-                />
-              </div>
-              <div className="application-card__overlay">
-                <IconFood className="application-card__icon" />
-                <h3 className="application-card__title">{t('applications.categories.food-production.title')}</h3>
-                <p className="application-card__text">{t('applications.categories.food-production.text')}</p>
-                <span className="application-card__link">
-                  {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
-                </span>
-              </div>
-            </AppLink>
-            <AppLink href="/applications/horeca" className="application-card fade-in visible">
-              <div className="application-card__image">
-                <Image
-                  src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80"
-                  alt={t('applications.categories.horeca.title')}
-                  width={800}
-                  height={600}
-                />
-              </div>
-              <div className="application-card__overlay">
-                <IconHotel className="application-card__icon" />
-                <h3 className="application-card__title">{t('applications.categories.horeca.title')}</h3>
-                <p className="application-card__text">{t('applications.categories.horeca.text')}</p>
-                <span className="application-card__link">
-                  {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
-                </span>
-              </div>
-            </AppLink>
+            {HOME_APPLICATION_IDS.map((id) => {
+              const category = getCategoryById(id)
+              if (!category) return null
+              const IconComponent = APPLICATION_ICONS[category.icon]
+              return (
+                <AppLink key={id} href={`/applications/${id}`} className="application-card fade-in visible">
+                  <div className="application-card__image">
+                    <Image
+                      src={category.image}
+                      alt={t(`applications.categories.${id}.title`)}
+                      width={800}
+                      height={600}
+                    />
+                  </div>
+                  <div className="application-card__overlay">
+                    <div className="application-card__body">
+                      {IconComponent && <IconComponent className="application-card__icon" />}
+                      <h3 className="application-card__title">{t(`applications.categories.${id}.title`)}</h3>
+                      <p className="application-card__text">{t(`applications.categories.${id}.text`)}</p>
+                    </div>
+                    <span className="application-card__link">
+                      {t('applications.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
+                    </span>
+                  </div>
+                </AppLink>
+              )
+            })}
           </div>
           <div className="mt-8 flex justify-center">
             <AppLink href="/applications" className="btn btn--primary btn--large">
@@ -238,36 +206,50 @@ export function HomePage() {
         </div>
       </section>
 
-      {/* Research Section */}
+      {/* Articles Section */}
       <section className="section section--gray">
         <div className="container">
           <div className="section__header">
             <h2 className="section__title">
-              {t('research.title')} <span className="text-gradient">{t('research.titleHighlight')}</span>
+              {t('homeArticles.title')} <span className="text-gradient">{t('homeArticles.titleHighlight')}</span>
             </h2>
-            <p className="section__subtitle">{t('research.subtitle')}</p>
+            <p className="section__subtitle">{t('homeArticles.subtitle')}</p>
           </div>
-          <div className="research-cards">
-            <div className="research-card fade-in visible">
-              <div className="research-card__icon">
-                <IconShield style={{ width: 32, height: 32 }} />
-              </div>
-              <div className="research-card__content">
-                <h4 className="research-card__title">{t('research.telaviv.title')}</h4>
-                <p className="research-card__text">{t('research.telaviv.text')}</p>
-                <span className="research-card__stat">{t('research.telaviv.stat')}</span>
-              </div>
-            </div>
-            <div className="research-card fade-in visible">
-              <div className="research-card__icon">
-                <IconTimer style={{ width: 32, height: 32 }} />
-              </div>
-              <div className="research-card__content">
-                <h4 className="research-card__title">{t('research.fujita.title')}</h4>
-                <p className="research-card__text">{t('research.fujita.text')}</p>
-                <span className="research-card__stat">{t('research.fujita.stat')}</span>
-              </div>
-            </div>
+          <div className="applications-grid">
+            {HOME_ARTICLE_IDS.map((id) => {
+              const article = getArticleById(id)
+              if (!article) return null
+              return (
+                <AppLink
+                  key={article.id}
+                  href={`/articles/${article.slug}`}
+                  className="application-card fade-in visible"
+                >
+                  <div className="application-card__image">
+                    <Image
+                      src={article.image}
+                      alt={t(`homeArticles.items.${article.id}.title`)}
+                      width={800}
+                      height={600}
+                    />
+                  </div>
+                  <div className="application-card__overlay">
+                    <div className="application-card__body">
+                      <h3 className="application-card__title">{t(`homeArticles.items.${article.id}.title`)}</h3>
+                      <p className="application-card__text">{t(`homeArticles.items.${article.id}.excerpt`)}</p>
+                    </div>
+                    <span className="application-card__link">
+                      {t('homeArticles.more')} <IconArrowRight style={{ width: 16, height: 16 }} />
+                    </span>
+                  </div>
+                </AppLink>
+              )
+            })}
+          </div>
+          <div className="mt-8 flex justify-center">
+            <AppLink href="/articles" className="btn btn--primary btn--large">
+              {t('homeArticles.viewAll')} <IconArrowRight style={{ width: 20, height: 20, marginLeft: '0.5rem' }} />
+            </AppLink>
           </div>
         </div>
       </section>

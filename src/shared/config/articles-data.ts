@@ -143,12 +143,26 @@ export const ARTICLES: ArticleMeta[] = [
   {
     id: 'ozoneFoodWarehouseMeat',
     slug: 'ozone-food-warehouse-meat',
-    image: 'https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=800&q=80',
+    image: 'https://images.pexels.com/photos/13279400/pexels-photo-13279400.jpeg',
     date: '2025-02-04',
     sourceName: 'Scientific review: Ozone applications in food storage and meat preservation',
     sourceUrl: '',
   },
 ]
+
+// Article IDs shown on home page (6 most important), in order
+export const HOME_ARTICLE_IDS = [
+  'ozoneFoodWarehouseMeat',
+  'ozoneFoodInteraction',
+  'ozoneGrainProtection',
+  'concentratedOzoneAgriculture',
+  'ozoneVirusDisinfection',
+  'ozoneCovid19Treatment',
+] as const
+
+export function getArticleById(id: string): ArticleMeta | undefined {
+  return ARTICLES.find((a) => a.id === id)
+}
 
 export function getArticleBySlug(slug: string): ArticleMeta | undefined {
   return ARTICLES.find((a) => a.slug === slug)

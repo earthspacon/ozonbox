@@ -4,14 +4,19 @@ import { Layout } from '@/widgets/layout'
 
 import { CTASection } from '@/shared/ui/article-components'
 import {
+  IconAuto,
   IconCheck,
   IconDisinfection,
+  IconEco,
+  IconEconomy,
   IconMercury,
   IconMold,
   IconOdor,
   IconRat,
+  IconShield,
   IconSpray,
   IconSterilize,
+  IconUniversal,
 } from '@/shared/ui/icons'
 
 export function TechnologyPage() {
@@ -194,6 +199,171 @@ export function TechnologyPage() {
               </div>
               <h4 className="function-card__title">{t('technology.functions.allinone.title')}</h4>
               <p className="function-card__text">{t('technology.functions.allinone.text')}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Benefits */}
+      <section className="section">
+        <div className="container">
+          <div className="section__header">
+            <h2 className="section__title">
+              {t('technology.benefits.title')}{' '}
+              <span className="text-gradient">{t('technology.benefits.titleHighlight')}</span>
+            </h2>
+            <p className="section__subtitle">{t('technology.benefits.subtitle')}</p>
+          </div>
+          <div className="benefits-grid">
+            <div className="benefit-card fade-in visible">
+              <div className="benefit-card__icon">
+                <IconEco style={{ width: 32, height: 32 }} />
+              </div>
+              <h3 className="benefit-card__title">{t('technology.benefits.eco.title')}</h3>
+              <ul className="benefit-card__list">
+                <li>{t('technology.benefits.eco.list.1')}</li>
+                <li>{t('technology.benefits.eco.list.2')}</li>
+                <li>{t('technology.benefits.eco.list.3')}</li>
+                <li>{t('technology.benefits.eco.list.4')}</li>
+              </ul>
+            </div>
+            <div className="benefit-card fade-in visible">
+              <div className="benefit-card__icon">
+                <IconShield style={{ width: 32, height: 32 }} />
+              </div>
+              <h3 className="benefit-card__title">{t('technology.benefits.efficiency.title')}</h3>
+              <ul className="benefit-card__list">
+                <li>{t('technology.benefits.efficiency.list.1')}</li>
+                <li>{t('technology.benefits.efficiency.list.2')}</li>
+                <li>{t('technology.benefits.efficiency.list.3')}</li>
+                <li>{t('technology.benefits.efficiency.list.4')}</li>
+              </ul>
+            </div>
+            <div className="benefit-card fade-in visible">
+              <div className="benefit-card__icon">
+                <IconCheck style={{ width: 32, height: 32 }} />
+              </div>
+              <h3 className="benefit-card__title">{t('technology.benefits.safety.title')}</h3>
+              <ul className="benefit-card__list">
+                <li>{t('technology.benefits.safety.list.1')}</li>
+                <li>{t('technology.benefits.safety.list.2')}</li>
+                <li>{t('technology.benefits.safety.list.3')}</li>
+                <li>{t('technology.benefits.safety.list.4')}</li>
+              </ul>
+            </div>
+            <div className="benefit-card fade-in visible">
+              <div className="benefit-card__icon">
+                <IconEconomy style={{ width: 32, height: 32 }} />
+              </div>
+              <h3 className="benefit-card__title">{t('technology.benefits.economy.title')}</h3>
+              <ul className="benefit-card__list">
+                <li>{t('technology.benefits.economy.list.1')}</li>
+                <li>{t('technology.benefits.economy.list.2')}</li>
+                <li>{t('technology.benefits.economy.list.3')}</li>
+                <li>{t('technology.benefits.economy.list.4')}</li>
+              </ul>
+            </div>
+            <div className="benefit-card fade-in visible">
+              <div className="benefit-card__icon">
+                <IconUniversal style={{ width: 32, height: 32 }} />
+              </div>
+              <h3 className="benefit-card__title">{t('technology.benefits.universal.title')}</h3>
+              <ul className="benefit-card__list">
+                <li>{t('technology.benefits.universal.list.1')}</li>
+                <li>{t('technology.benefits.universal.list.2')}</li>
+                <li>{t('technology.benefits.universal.list.3')}</li>
+                <li>{t('technology.benefits.universal.list.4')}</li>
+              </ul>
+            </div>
+            <div className="benefit-card fade-in visible">
+              <div className="benefit-card__icon">
+                <IconAuto style={{ width: 32, height: 32 }} />
+              </div>
+              <h3 className="benefit-card__title">{t('technology.benefits.auto.title')}</h3>
+              <ul className="benefit-card__list">
+                <li>{t('technology.benefits.auto.list.1')}</li>
+                <li>{t('technology.benefits.auto.list.2')}</li>
+                <li>{t('technology.benefits.auto.list.3')}</li>
+                <li>{t('technology.benefits.auto.list.4')}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Stats */}
+      <section className="section section--gray">
+        <div className="container">
+          <div className="section__header">
+            <h2 className="section__title">
+              {t('technology.stats.title')}{' '}
+              <span className="text-gradient">{t('technology.stats.titleHighlight')}</span>
+            </h2>
+          </div>
+          <div className="features" style={{ marginTop: 0 }}>
+            <div className="feature-card fade-in visible">
+              <div
+                className="feature-card__icon"
+                style={{
+                  fontSize: '2.5rem',
+                  fontWeight: 700,
+                  color: 'var(--color-primary)',
+                  width: 'auto',
+                  height: 'auto',
+                }}
+              >
+                300×
+              </div>
+              <h3 className="feature-card__title">{t('technology.stats.power.title')}</h3>
+              <p className="feature-card__text">{t('technology.stats.power.text')}</p>
+            </div>
+            <div className="feature-card fade-in visible">
+              <div
+                className="feature-card__icon"
+                style={{
+                  fontSize: '2.5rem',
+                  fontWeight: 700,
+                  color: 'var(--color-primary)',
+                  width: 'auto',
+                  height: 'auto',
+                }}
+              >
+                95%
+              </div>
+              <h3 className="feature-card__title">{t('technology.stats.europe.title')}</h3>
+              <p className="feature-card__text">{t('technology.stats.europe.text')}</p>
+            </div>
+            <div className="feature-card fade-in visible">
+              <div
+                className="feature-card__icon"
+                style={{
+                  fontSize: '2.5rem',
+                  fontWeight: 700,
+                  color: 'var(--color-primary)',
+                  width: 'auto',
+                  height: 'auto',
+                }}
+              >
+                3-4×
+              </div>
+              <h3 className="feature-card__title">{t('technology.stats.cheaper.title')}</h3>
+              <p className="feature-card__text">{t('technology.stats.cheaper.text')}</p>
+            </div>
+            <div className="feature-card fade-in visible">
+              <div
+                className="feature-card__icon"
+                style={{
+                  fontSize: '2.5rem',
+                  fontWeight: 700,
+                  color: 'var(--color-primary)',
+                  width: 'auto',
+                  height: 'auto',
+                }}
+              >
+                20 min
+              </div>
+              <h3 className="feature-card__title">{t('technology.stats.decay.title')}</h3>
+              <p className="feature-card__text">{t('technology.stats.decay.text')}</p>
             </div>
           </div>
         </div>

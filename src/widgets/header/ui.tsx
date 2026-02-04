@@ -24,7 +24,6 @@ export function Header() {
     { href: '/technology', label: t('nav.technology') },
     { href: '/applications', label: t('nav.applications') },
     { href: '/articles', label: t('nav.articles') },
-    { href: '/benefits', label: t('nav.benefits') },
     { href: '/about', label: t('nav.about') },
     { href: '/contacts', label: t('nav.contacts') },
   ]
@@ -112,7 +111,7 @@ export function Header() {
           ))}
         </ul>
         <div className="mobile-menu__language">
-          <LanguageSwitcher />
+          <LanguageSwitcher openUp />
         </div>
         <div className="mobile-menu__phone">
           <a href="tel:+998942909977">{t('header.phone')}</a>

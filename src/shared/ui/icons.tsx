@@ -101,6 +101,15 @@ export const IconFactory = (props: IconProps) => (
   </svg>
 )
 
+export const IconWarehouse = (props: IconProps) => (
+  <svg viewBox="0 0 64 64" fill="none" {...props}>
+    <path d="M8 56V24l24-16 24 16v32" stroke="currentColor" strokeWidth="2" />
+    <path d="M8 56h48M8 40h48M8 32h48" stroke="currentColor" strokeWidth="2" />
+    <rect x="14" y="36" width="10" height="12" stroke="currentColor" strokeWidth="2" />
+    <rect x="40" y="36" width="10" height="12" stroke="currentColor" strokeWidth="2" />
+  </svg>
+)
+
 export const IconPhone = (props: IconProps) => (
   <svg viewBox="0 0 64 64" fill="none" {...props}>
     <path
