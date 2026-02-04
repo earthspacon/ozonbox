@@ -1,7 +1,7 @@
 import { useTranslate } from '@tolgee/react'
 
 import { AppLink } from '@/shared/ui/app-link'
-import { IconLocation, IconPhone, IconTelegram } from '@/shared/ui/icons'
+import { IconFacebook, IconLocation, IconPhone, IconTelegram, IconYouTube } from '@/shared/ui/icons'
 import { Logo } from '@/shared/ui/logo'
 
 export function Footer() {
@@ -22,9 +22,27 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__social-link"
-                aria-label="Telegram"
+                aria-label={t('footer.openTelegram')}
               >
                 <IconTelegram />
+              </a>
+              <a
+                href="https://youtube.com/@ozonoxy_ss"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer__social-link"
+                aria-label={t('footer.openYouTube')}
+              >
+                <IconYouTube />
+              </a>
+              <a
+                href="https://www.facebook.com/ozonoxy.ozonoxy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer__social-link"
+                aria-label={t('footer.openFacebook')}
+              >
+                <IconFacebook />
               </a>
             </div>
           </div>

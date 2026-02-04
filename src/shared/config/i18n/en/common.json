@@ -25,6 +25,8 @@
     "copyright": "OZONOXY. All rights reserved.",
     "callUs": "Call us",
     "openTelegram": "Open Telegram",
+    "openYouTube": "Open YouTube channel",
+    "openFacebook": "Open Facebook",
     "viewAddress": "View address"
   },
   "cta": {
@@ -361,6 +363,11 @@
         }
       }
     },
+    "videos": {
+      "title": "Videos",
+      "titleHighlight": "about ozone",
+      "subtitle": "Watch our videos about ozonation technology — play directly on the page"
+    },
     "stats": {
       "title": "Ozonation",
       "titleHighlight": "in numbers",
@@ -431,6 +438,9 @@
           "4": "Staff training"
         }
       }
+    },
+    "followUs": {
+      "title": "Follow us"
     }
   },
   "contactsPage": {
@@ -474,6 +484,14 @@
       "telegram": {
         "title": "Telegram",
         "subtitle": "Quick contact 24/7"
+      },
+      "youtube": {
+        "title": "YouTube",
+        "subtitle": "Videos and updates"
+      },
+      "facebook": {
+        "title": "Facebook",
+        "subtitle": "Follow us"
       },
       "address": {
         "title": "Address",

@@ -63,6 +63,51 @@ export function TechnologyPage() {
         </div>
       </section>
 
+      {/* Videos about ozone */}
+      <section className="section section--gray">
+        <div className="container">
+          <div className="section__header">
+            <h2 className="section__title">
+              {t('technology.videos.title')}{' '}
+              <span className="text-gradient">{t('technology.videos.titleHighlight')}</span>
+            </h2>
+            <p className="section__subtitle">{t('technology.videos.subtitle')}</p>
+          </div>
+          <div className="videos-grid">
+            <div className="video-card fade-in visible">
+              <div className="video-wrapper">
+                <iframe
+                  src="https://www.youtube.com/embed/ngtJz3uA0PM?rel=0"
+                  title="Ozone video 1"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+            <div className="video-card fade-in visible">
+              <div className="video-wrapper">
+                <iframe
+                  src="https://www.youtube.com/embed/UJpH_aJ9tyE?rel=0"
+                  title="Ozone video 2"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+            <div className="video-card fade-in visible">
+              <div className="video-wrapper">
+                <iframe
+                  src="https://www.youtube.com/embed/AFdPT4fK44Q?rel=0"
+                  title="Ozone video 3"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Comparison Table */}
       <section className="section section--gray">
         <div className="container">

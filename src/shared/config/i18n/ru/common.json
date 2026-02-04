@@ -29,6 +29,8 @@
     "copyright": "OZONOXY. Все права защищены.",
     "callUs": "Позвонить нам",
     "openTelegram": "Открыть Telegram",
+    "openYouTube": "Открыть канал YouTube",
+    "openFacebook": "Открыть Facebook",
     "viewAddress": "Посмотреть адрес"
   },
   "cta": {
@@ -365,6 +367,11 @@
         }
       }
     },
+    "videos": {
+      "title": "Видео",
+      "titleHighlight": "об озоне",
+      "subtitle": "Смотрите наши видео о технологии озонирования — воспроизведение прямо на странице"
+    },
     "stats": {
       "title": "Озонирование",
       "titleHighlight": "в цифрах",
@@ -435,6 +442,9 @@
           "4": "Обучение персонала"
         }
       }
+    },
+    "followUs": {
+      "title": "Мы в соцсетях"
     }
   },
   "contactsPage": {
@@ -478,6 +488,14 @@
       "telegram": {
         "title": "Telegram",
         "subtitle": "Быстрая связь 24/7"
+      },
+      "youtube": {
+        "title": "YouTube",
+        "subtitle": "Видео и обновления"
+      },
+      "facebook": {
+        "title": "Facebook",
+        "subtitle": "Подписывайтесь на нас"
       },
       "address": {
         "title": "Адрес",

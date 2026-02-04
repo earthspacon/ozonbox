@@ -2,7 +2,7 @@ import { useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { IconLocation, IconPhone, IconTelegram } from '@/shared/ui/icons'
+import { IconFacebook, IconLocation, IconPhone, IconTelegram, IconYouTube } from '@/shared/ui/icons'
 
 export function ContactsPage() {
   const { t } = useTranslate()
@@ -10,23 +10,10 @@ export function ContactsPage() {
   return (
     <Layout>
       {/* Page Header */}
-      <section className="from-primary/10 to-accent/10 relative mt-16 overflow-hidden bg-gradient-to-br via-white py-16 md:py-24">
-        <div
-          className="pointer-events-none absolute inset-0 opacity-40"
-          style={{
-            backgroundImage: `radial-gradient(circle at 20% 50%, rgba(34, 197, 94, 0.15) 0%, transparent 50%),
-              radial-gradient(circle at 80% 50%, rgba(14, 165, 233, 0.15) 0%, transparent 50%)`,
-          }}
-          aria-hidden
-        />
-        <div className="bg-primary/10 absolute top-1/4 right-0 h-64 w-64 rounded-full blur-3xl" aria-hidden />
-        <div className="bg-accent/10 absolute bottom-1/4 left-0 h-48 w-48 rounded-full blur-3xl" aria-hidden />
-
-        <div className="relative container mx-auto flex flex-col items-center justify-center px-4">
-          <h1 className="mb-4 text-center text-4xl font-bold md:text-5xl">{t('contactsPage.header.title')}</h1>
-          <p className="mx-auto max-w-2xl text-center text-lg text-gray-600 md:text-xl">
-            {t('contactsPage.header.subtitle')}
-          </p>
+      <section className="page-header">
+        <div className="container">
+          <h1 className="page-header__title">{t('contactsPage.header.title')}</h1>
+          <p className="page-header__subtitle">{t('contactsPage.header.subtitle')}</p>
         </div>
       </section>
 
@@ -76,6 +63,35 @@ export function ContactsPage() {
                 {t('contactsPage.info.address.street')}
               </p>
             </div>
+
+            {/* YouTube Card */}
+            <a
+              href="https://youtube.com/@ozonoxy_ss"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group rounded-2xl border border-gray-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:border-[#ff0000]/20 hover:shadow-xl"
+            >
+              <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-[#ff0000]/10 transition-colors group-hover:bg-[#ff0000]/20">
+                <IconYouTube className="h-8 w-8 text-[#ff0000]" />
+              </div>
+              <h3 className="mb-2 text-xl font-semibold">{t('contactsPage.info.youtube.title')}</h3>
+              <p className="mb-2 text-2xl font-bold text-[#ff0000]">@ozonoxy_ss</p>
+              <p className="text-sm text-gray-500">{t('contactsPage.info.youtube.subtitle')}</p>
+            </a>
+
+            {/* Facebook Card */}
+            <a
+              href="https://www.facebook.com/ozonoxy.ozonoxy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group rounded-2xl border border-gray-100 bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:border-[#1877f2]/20 hover:shadow-xl"
+            >
+              <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-[#1877f2]/10 transition-colors group-hover:bg-[#1877f2]/20">
+                <IconFacebook className="h-8 w-8 text-[#1877f2]" />
+              </div>
+              <h3 className="mb-2 text-xl font-semibold">{t('contactsPage.info.facebook.title')}</h3>
+              <p className="text-sm text-gray-500">{t('contactsPage.info.facebook.subtitle')}</p>
+            </a>
           </div>
         </div>
       </section>

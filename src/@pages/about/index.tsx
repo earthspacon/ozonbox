@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { Layout } from '@/widgets/layout'
 
 import { CTASection } from '@/shared/ui/article-components'
-import { IconAuto, IconCheck, IconShield } from '@/shared/ui/icons'
+import { IconAuto, IconCheck, IconFacebook, IconShield, IconTelegram, IconYouTube } from '@/shared/ui/icons'
 
 export function AboutPage() {
   const { t } = useTranslate()
@@ -52,7 +52,7 @@ export function AboutPage() {
             </div>
             <div className="about-content__image slide-in-right visible">
               <Image
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80"
+                src="https://images.pexels.com/photos/9242833/pexels-photo-9242833.jpeg"
                 alt={t('aboutPage.content.title')}
                 width={800}
                 height={600}
@@ -110,6 +110,50 @@ export function AboutPage() {
                 <li>{t('aboutPage.whyUs.service.list.4')}</li>
               </ul>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Follow us */}
+      <section className="section">
+        <div className="container">
+          <h2 className="section__title" style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
+            {t('aboutPage.followUs.title')}
+          </h2>
+          <div className="about-follow">
+            <a
+              href="https://t.me/Ozonoxy01"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="about-follow__link"
+              style={{ background: 'rgba(0, 136, 204, 0.1)', color: '#0088cc' }}
+              aria-label={t('footer.openTelegram')}
+            >
+              <IconTelegram />
+              Telegram
+            </a>
+            <a
+              href="https://youtube.com/@ozonoxy_ss"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="about-follow__link"
+              style={{ background: 'rgba(255, 0, 0, 0.1)', color: '#ff0000' }}
+              aria-label={t('footer.openYouTube')}
+            >
+              <IconYouTube />
+              YouTube
+            </a>
+            <a
+              href="https://www.facebook.com/ozonoxy.ozonoxy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="about-follow__link"
+              style={{ background: 'rgba(24, 119, 242, 0.1)', color: '#1877f2' }}
+              aria-label={t('footer.openFacebook')}
+            >
+              <IconFacebook />
+              Facebook
+            </a>
           </div>
         </div>
       </section>

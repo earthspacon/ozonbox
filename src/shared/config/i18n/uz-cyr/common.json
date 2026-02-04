@@ -25,6 +25,8 @@
     "copyright": "OZONOXY. Барча ҳуқуқлар ҳимойаланган.",
     "callUs": "Бизга қўнғироқ қилинг",
     "openTelegram": "Telegramни очиш",
+    "openYouTube": "YouTube каналини очиш",
+    "openFacebook": "Facebookни очиш",
     "viewAddress": "Манзилни кўриш"
   },
   "cta": {
@@ -361,6 +363,11 @@
         }
       }
     },
+    "videos": {
+      "title": "Видео",
+      "titleHighlight": "озон ҳақида",
+      "subtitle": "Озонлаш технологияси ҳақида видеоларимизни кўринг — саҳифада тўғридан-тўғри ижро этинг"
+    },
     "stats": {
       "title": "Озонлаш",
       "titleHighlight": "рақамларда",
@@ -431,6 +438,9 @@
           "4": "Ходимларни ўқитиш"
         }
       }
+    },
+    "followUs": {
+      "title": "Ижтимоий тармоқларда кузатинг"
     }
   },
   "contactsPage": {
@@ -474,6 +484,14 @@
       "telegram": {
         "title": "Telegram",
         "subtitle": "24/7 тез алоқа"
+      },
+      "youtube": {
+        "title": "YouTube",
+        "subtitle": "Видеолар ва янгиликлар"
+      },
+      "facebook": {
+        "title": "Facebook",
+        "subtitle": "Бизга обуна бўлинг"
       },
       "address": {
         "title": "Манзил",
