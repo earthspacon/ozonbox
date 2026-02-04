@@ -14,7 +14,6 @@ import {
   FeatureGrid,
   HighlightBox,
   Paragraph,
-  ProcessList,
   StatCard,
   StatGrid,
 } from '@/shared/ui/article-components'
@@ -97,12 +96,13 @@ export function BeekeepingPage({ staticData, lang }: BeekeepingPageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data.sections.intro.paragraph1}</Paragraph>
-            <Paragraph>{data.sections.intro.paragraph2}</Paragraph>
+            <Paragraph>{data.paragraphs.intro1}</Paragraph>
+            <Paragraph>{data.paragraphs.intro2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data.sections.dosage.title}</strong> {data.sections.dosage.text}
+            <strong>{data.highlightBoxes.research.label}</strong>{' '}
+            {data.highlightBoxes.research.text}
           </HighlightBox>
 
           <ArticleSection title={data.sections.applications.title}>
@@ -110,20 +110,16 @@ export function BeekeepingPage({ staticData, lang }: BeekeepingPageProps) {
           </ArticleSection>
 
           <ArticleSection title={data.sections.ascospherosis.title}>
-            <Paragraph>{data.sections.ascospherosis.intro}</Paragraph>
-
             <DataTable
               caption={data.sections.ascospherosis.tableCaption}
               headers={data.sections.ascospherosis.tableHeaders}
               rows={data.sections.ascospherosis.tableData}
             />
 
-            <HighlightBox variant="success">{data.sections.ascospherosis.note}</HighlightBox>
+            <HighlightBox variant="success">{data.highlightBoxes.ascospherosis}</HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data.sections.pathogens.title}>
-            <Paragraph>{data.sections.pathogens.intro}</Paragraph>
-
             <DataTable
               caption={data.sections.pathogens.tableCaption}
               headers={data.sections.pathogens.tableHeaders}
@@ -131,18 +127,7 @@ export function BeekeepingPage({ staticData, lang }: BeekeepingPageProps) {
             />
           </ArticleSection>
 
-          <ArticleSection title={data.sections.technology.title}>
-            <ProcessList steps={data.sections.technology.steps} />
-
-            <HighlightBox variant="warning">
-              <strong>{data.sections.technology.warning.title}</strong>{' '}
-              {data.sections.technology.warning.text}
-            </HighlightBox>
-          </ArticleSection>
-
           <ArticleSection title={data.sections.stimulation.title}>
-            <Paragraph>{data.sections.stimulation.intro}</Paragraph>
-
             <DataTable
               caption={data.sections.stimulation.tableCaption}
               headers={data.sections.stimulation.tableHeaders}
@@ -151,8 +136,6 @@ export function BeekeepingPage({ staticData, lang }: BeekeepingPageProps) {
           </ArticleSection>
 
           <ArticleSection title={data.sections.equipment.title}>
-            <Paragraph>{data.sections.equipment.intro}</Paragraph>
-
             <DataTable
               caption={data.sections.equipment.tableCaption}
               headers={data.sections.equipment.tableHeaders}
@@ -180,6 +163,11 @@ export function BeekeepingPage({ staticData, lang }: BeekeepingPageProps) {
               ))}
             </FeatureGrid>
           </ArticleSection>
+
+          <HighlightBox variant="warning">
+            <strong>{data.highlightBoxes.warning.label}</strong>{' '}
+            {data.highlightBoxes.warning.text}
+          </HighlightBox>
         </div>
       </article>
 

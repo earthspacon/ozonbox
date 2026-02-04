@@ -199,46 +199,44 @@
         },
         "economics": {
           "title": "Avtopark ozonlash iqtisodiyoti",
-          "comparison": {
-            "title": "Avtobuslarni sanitariya qayta ishlash usullarini solishtirish",
-            "headers": [
-              "Parametr",
-              "Ozonlash",
-              "Qo'lda dezinfeksiya"
+          "comparisonTitle": "Avtobuslarni sanitariya qayta ishlash usullarini solishtirish",
+          "tableHeaders": [
+            "Parametr",
+            "Ozonlash",
+            "Qo'lda dezinfeksiya"
+          ],
+          "tableData": [
+            [
+              "1 avtobus uchun vaqt",
+              "20-40 daqiqa",
+              "60-90 daqiqa"
             ],
-            "rows": [
-              {
-                "parameter": "1 avtobus uchun vaqt",
-                "value1": "20-40 daqiqa",
-                "value2": "60-90 daqiqa"
-              },
-              {
-                "parameter": "Xodimlar",
-                "value1": "1 kishi park uchun",
-                "value2": "1 kishi 3-5 avtobus uchun"
-              },
-              {
-                "parameter": "Sarflar",
-                "value1": "Faqat elektr",
-                "value2": "Dezinfeksiya vositalari, latta, qo'lqoplar"
-              },
-              {
-                "parameter": "Sirt qamrovi",
-                "value1": "100%",
-                "value2": "60-70%"
-              },
-              {
-                "parameter": "Shamollatish qayta ishlash",
-                "value1": "Ha",
-                "value2": "Yo'q"
-              },
-              {
-                "parameter": "Hidlarni bartaraf etish",
-                "value1": "To'liq",
-                "value2": "Qisman (yashirish)"
-              }
+            [
+              "Xodimlar",
+              "1 kishi park uchun",
+              "1 kishi 3-5 avtobus uchun"
+            ],
+            [
+              "Sarflar",
+              "Faqat elektr",
+              "Dezinfeksiya vositalari, latta, qo'lqoplar"
+            ],
+            [
+              "Sirt qamrovi",
+              "100%",
+              "60-70%"
+            ],
+            [
+              "Shamollatish qayta ishlash",
+              "Ha",
+              "Yo'q"
+            ],
+            [
+              "Hidlarni bartaraf etish",
+              "To'liq",
+              "Qisman (yashirish)"
             ]
-          },
+          ],
           "highlight": {
             "title": "Hisoblash misoli:",
             "text": "50 ta avtobusdan iborat park. Kundalik qo'lda qayta ishlash 5-6 ta tozalovchini talab qiladi. Ozonatorlar bilan 1 operator + 3-4 ta mobil qurilma buni bajaradi. Uskunalar o'zini qoplash muddati — xodimlar va sarflar bo'yicha tejamkorlik tufayli 4-6 oy."

@@ -116,7 +116,7 @@ export function RestaurantsPage({ staticData, lang }: RestaurantsPageProps) {
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.process?.title}>
-            <ProcessList steps={Object.values(data?.sections?.process?.steps)} />
+            <ProcessList steps={data?.sections?.process?.steps || []} />
 
             <HighlightBox variant="info">
               <strong>{data?.sections?.process?.automation?.title}</strong>{' '}

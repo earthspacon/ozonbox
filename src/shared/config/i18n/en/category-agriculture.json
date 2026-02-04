@@ -826,7 +826,7 @@
               "96–99%"
             ]
           ],
-          "processSteps": [
+          "steps": [
             {
               "title": "Soil preparation",
               "description": "Loosening soil to ensure ozone penetration. Removing plant residues."

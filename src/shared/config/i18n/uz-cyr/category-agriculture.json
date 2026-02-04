@@ -1,165 +1,165 @@
 {
-  "title": "Қишлоқ хўжалиги",
-  "description": "Қишлоқ хўжалигида озонлаш ҳосилдорликни оширади, маҳсулотларнинг сақлаш муддатини узайтиради ва биохавфсизликни та'минлайди. Кимйовий пеститсидлар ва консервантларга екологик тоза муқобил.",
+  "title": "Qishloq xo'jaligi",
+  "description": "Qishloq xo'jaligida ozonlash hosildorlikni oshiradi, mahsulotlarning saqlash muddatini uzaytiradi va bioxavfsizlikni ta'minlaydi. Kimyoviy pestitsidlar va konservantlarga ekologik toza muqobil.",
   "subcategories": {
     "poultry": {
-      "title": "Паррандачилик",
-      "shortDesc": "Тухумлар, инкубаторлар ва паррандачилик хоналарини дезинфексийа қилиш",
-      "content": "Озонлаш замонавий паррандачилик фермалари учун асосий технологийа ҳисобланади. Озонни қўллаш ишлаб чиқаришнинг барча босқичларини қамраб олади: тухумни инкубатсийа қилишдан тортиб таййор маҳсулотни сақлашгача.\n\nОзон тухум пўстлоғига зарар йетказмасдан Салмонелла, Е. cоли ва бошқа патогенларни йўқ қилиб, инкубатсийа тухумларини 92–98% самарадорлик билан дезинфексийа қилади. Бу тухумдан жўжа чиқишини 0,8–2,0% га оширади ва ерта ўлимни камайтиради.\n\nПаррандачилик хоналарини озонлаш ҳавода ва йузалардаги бактерийа, вирус ва замбуруғларнинг 99,9% гача қисмини йўқ қилади. Ҳавони мунтазам озонлаш паррандалар касалланишини камайтиради, вазн ортиши ва йем ўзлаштирилишини йахшилайди.\n\nОзонланган ичимлик суви кўпроқ кислородга ега ва патоген микрофлорадан холи бўлиб, бу паррандалар саломатлиги ва маҳсулдорлигига ижобий та'сир кўрсатади.",
+      "title": "Parrandachilik",
+      "shortDesc": "Tuxumlar, inkubatorlar va parrandachilik xonalarini dezinfeksiya qilish",
+      "content": "Ozonlash zamonaviy parrandachilik fermalari uchun asosiy texnologiya hisoblanadi. Ozonni qo'llash ishlab chiqarishning barcha bosqichlarini qamrab oladi: tuxumni inkubatsiya qilishdan tortib tayyor mahsulotni saqlashgacha.\n\nOzon tuxum po'stlog'iga zarar yetkazmasdan Salmonella, E. coli va boshqa patogenlarni yo'q qilib, inkubatsiya tuxumlarini 92–98% samaradorlik bilan dezinfeksiya qiladi. Bu tuxumdan jo'ja chiqishini 0,8–2,0% ga oshiradi va erta o'limni kamaytiradi.\n\nParrandachilik xonalarini ozonlash havoda va yuzalardagi bakteriya, virus va zamburug'larning 99,9% gacha qismini yo'q qiladi. Havoni muntazam ozonlash parrandalar kasallanishini kamaytiradi, vazn ortishi va yem o'zlashtirilishini yaxshilaydi.\n\nOzonlangan ichimlik suvi ko'proq kislorodga ega va patogen mikrofloradan xoli bo'lib, bu parrandalar salomatligi va mahsuldorligiga ijobiy ta'sir ko'rsatadi.",
       "stats": {
         "disinfection": {
           "value": "92–98%",
-          "label": "Дезинфексийа самарадорлиги",
-          "description": "Тухум пўстлоғидаги патогенларни йўқ қилиш"
+          "label": "Dezinfeksiya samaradorligi",
+          "description": "Tuxum po'stlog'idagi patogenlarni yo'q qilish"
         },
         "hatchability": {
           "value": "+2%",
-          "label": "Жўжа чиқиши",
-          "description": "Инкубатсийа пайтида жўжа чиқишининг кўпайиши"
+          "label": "Jo'ja chiqishi",
+          "description": "Inkubatsiya paytida jo'ja chiqishining ko'payishi"
         },
         "moldReduction": {
           "value": "97%",
-          "label": "Замбуруғларнинг камайиши",
-          "description": "Озонлашдан кейин йем таркибида"
+          "label": "Zamburug'larning kamayishi",
+          "description": "Ozonlashdan keyin yem tarkibida"
         },
         "storageExtension": {
           "value": "4×",
-          "label": "Сақлаш муддатини узайтириш",
-          "description": "Совутилган гўштни сақлаш муддати"
+          "label": "Saqlash muddatini uzaytirish",
+          "description": "Sovutilgan go'shtni saqlash muddati"
         }
       },
       "benefits": [
-        "92–98% тухум дезинфексийаси",
-        "Жўжа чиқиши 2% гача йуқори",
-        "Паррандахоналарда 99,9% патогенларни йўқ қилиш",
-        "Кимйовий моддаларсиз тоза ичимлик суви",
-        "Парранда гўштининг сақлаш муддати узайиши",
-        "Ўлим ва касалланиш даражасининг пасайиши"
+        "92–98% tuxum dezinfeksiyasi",
+        "Jo'ja chiqishi 2% gacha yuqori",
+        "Parrandaxonalarda 99,9% patogenlarni yo'q qilish",
+        "Kimyoviy moddalarsiz toza ichimlik suvi",
+        "Parranda go'shtining saqlash muddati uzayishi",
+        "O'lim va kasallanish darajasining pasayishi"
       ],
       "sections": {
         "intro": {
-          "paragraph1": "Озонлаш замонавий саноат паррандачилиги учун асосий технологийа ҳисобланади. Озоннинг нойоб антибактериал хусусийатлари, екологик тозалиги, хавфсизлиги ва фойдаланиш қулайлиги туфайли ушбу технологийа ишлаб чиқаришнинг барча босқичларида қўлланилади: тухумни инкубатсийа қилишдан тортиб таййор маҳсулотни сақлашгача.",
-          "paragraph2": "Бинолардаги йомон микроклимат ва бактериал ифлосланиш тухум қўйадиган товуқларнинг тухум беришини 25% га ва ўртача кунлик вазн ортишини 10% га камайтиради. Озонлаш озиқ-овқат маҳсулотларига кириши мумкин бўлган кимйовий моддаларни ишлатмасдан ушбу муаммоларни ҳал қилади.",
-          "warningLabel": "Муҳим:",
-          "warningText": "Паррандалар учун рухсат етилган максимал озон контсентратсийаси 1,2 мг/м³ гача — бу одамлар учун ме'йордан (0,1 мг/м³) 12 баравар йуқори. Бу режимга риойа қилинганда паррандалар мавжуд бўлган пайтда ҳам самарали ишлов бериш имконини беради."
+          "paragraph1": "Ozonlash zamonaviy sanoat parrandachiligi uchun asosiy texnologiya hisoblanadi. Ozonning noyob antibakterial xususiyatlari, ekologik tozaligi, xavfsizligi va foydalanish qulayligi tufayli ushbu texnologiya ishlab chiqarishning barcha bosqichlarida qo'llaniladi: tuxumni inkubatsiya qilishdan tortib tayyor mahsulotni saqlashgacha.",
+          "paragraph2": "Binolardagi yomon mikroklimat va bakterial ifloslanish tuxum qo'yadigan tovuqlarning tuxum berishini 25% ga va o'rtacha kunlik vazn ortishini 10% ga kamaytiradi. Ozonlash oziq-ovqat mahsulotlariga kirishi mumkin bo'lgan kimyoviy moddalarni ishlatmasdan ushbu muammolarni hal qiladi.",
+          "warningLabel": "Muhim:",
+          "warningText": "Parrandalar uchun ruxsat etilgan maksimal ozon kontsentratsiyasi 1,2 mg/m³ gacha — bu odamlar uchun me'yordan (0,1 mg/m³) 12 baravar yuqori. Bu rejimga rioya qilinganda parrandalar mavjud bo'lgan paytda ham samarali ishlov berish imkonini beradi."
         },
         "applications": {
-          "title": "Паррандачиликда озоннинг қўлланилиши",
+          "title": "Parrandachilikda ozonning qo'llanilishi",
           "items": [
-            "Тухум инкубатсийаси — ембрион ривожланишини рағбатлантириш ва жўжа чиқишини ошириш",
-            "Инкубатсийа тухумларини дезинфексийа қилиш — парранда касалликларининг олдини олиш",
-            "Маҳсулотни қайта ишлаш ва сақлаш — сақлаш муддати ва озуқавий қийматини йахшилаш",
-            "Йемни дезинфексийа қилиш — микрофлора ва токсинларни камайтириш",
-            "Сувни дезинфексийа қилиш ва ҳавони санитарийа қилиш — парранда маҳсулдорлигини ошириш",
-            "Паррандачилик фермаларининг чиқинди сувларини тозалаш"
+            "Tuxum inkubatsiyasi — embrion rivojlanishini rag'batlantirish va jo'ja chiqishini oshirish",
+            "Inkubatsiya tuxumlarini dezinfeksiya qilish — parranda kasalliklarining oldini olish",
+            "Mahsulotni qayta ishlash va saqlash — saqlash muddati va ozuqaviy qiymatini yaxshilash",
+            "Yemni dezinfeksiya qilish — mikroflora va toksinlarni kamaytirish",
+            "Suvni dezinfeksiya qilish va havoni sanitariya qilish — parranda mahsuldorligini oshirish",
+            "Parrandachilik fermalarining chiqindi suvlarini tozalash"
           ]
         },
         "incubation": {
-          "title": "Тухум инкубатсийаси: жўжа чиқишининг кўпайиши",
-          "intro": "Инкубатсийа тухумларига озон (~10 мг/м³) билан ишлов бериш уларнинг сифатини йахшилайди ва кейинчалик йуқори ҳайотчанлик билан жўжа чиқишини оширади. Инкубаторнинг чекланган жойида ембрионларнинг кислород очлиги хавфи мавжуд. Озон кислород ҳосиласи сифатида ҳаво муҳитини йахшилайди ва пўстлоқ орқали кириб, ембрионларни кислород билан озиқлантиради.",
+          "title": "Tuxum inkubatsiyasi: jo'ja chiqishining ko'payishi",
+          "intro": "Inkubatsiya tuxumlariga ozon (~10 mg/m³) bilan ishlov berish ularning sifatini yaxshilaydi va keyinchalik yuqori hayotchanlik bilan jo'ja chiqishini oshiradi. Inkubatorning cheklangan joyida embrionlarning kislorod ochligi xavfi mavjud. Ozon kislorod hosilasi sifatida havo muhitini yaxshilaydi va po'stloq orqali kirib, embrionlarni kislorod bilan oziqlantiradi.",
           "stats": {
             "eggLayers": {
               "value": "780 → 12",
-              "label": "Патоген микрофлора",
-              "description": "Озонлашдан олдин ва кейин тухум қўйадиган товуқ тухуми пўстлоғидаги колонийа сони/см³"
+              "label": "Patogen mikroflora",
+              "description": "Ozonlashdan oldin va keyin tuxum qo'yadigan tovuq tuxumi po'stlog'idagi koloniya soni/sm³"
             },
             "meatChickens": {
               "value": "913 → 24",
-              "label": "Гўшт йўналишидаги жўжалар",
-              "description": "Озонлашдан олдин ва кейин гўшт йўналишидаги товуқ тухуми пўстлоғидаги колонийа сони/см³"
+              "label": "Go'sht yo'nalishidagi jo'jalar",
+              "description": "Ozonlashdan oldin va keyin go'sht yo'nalishidagi tovuq tuxumi po'stlog'idagi koloniya soni/sm³"
             }
           },
-          "tableCaption": "Инкубатсийа тухумларини озонлаш натижалари",
+          "tableCaption": "Inkubatsiya tuxumlarini ozonlash natijalari",
           "tableHeaders": [
-            "Парранда тури",
-            "Озонсиз жўжа чиқиши, %",
-            "Озон билан жўжа чиқиши, %",
-            "Озонсиз йашовчанлик, %",
-            "Озон билан йашовчанлик, %"
+            "Parranda turi",
+            "Ozonsiz jo'ja chiqishi, %",
+            "Ozon bilan jo'ja chiqishi, %",
+            "Ozonsiz yashovchanlik, %",
+            "Ozon bilan yashovchanlik, %"
           ],
           "tableData": [
             [
-              "Тухум қўйувчи товуқлар",
+              "Tuxum qo'yuvchi tovuqlar",
               "83.9",
               "86.4",
               "97.0",
               "97.8"
             ],
             [
-              "Гўшт йўналишидаги товуқлар",
+              "Go'sht yo'nalishidagi tovuqlar",
               "79.4",
               "81.8",
               "93.3",
               "94.8"
             ]
           ],
-          "highlight": "ВНИТИП тавсийалари: инкубатсийа тухумларини озонли муҳитда узоқ муддат сақлаш муддатидан олдин бузилишнинг олдини олади, пўстлоқ ифлосланишини 2–7 баравар камайтиради, моғор ривожланишига йўл қўймайди ва сақлаш муддатини 10 кунгача узайтиради."
+          "highlight": "VNITIP tavsiyalari: inkubatsiya tuxumlarini ozonli muhitda uzoq muddat saqlash muddatidan oldin buzilishning oldini oladi, po'stloq ifloslanishini 2–7 baravar kamaytiradi, mog'or rivojlanishiga yo'l qo'ymaydi va saqlash muddatini 10 kungacha uzaytiradi."
         },
         "airDisinfection": {
-          "title": "Паррандачилик фермаларида ҳавони дезинфексийа қилиш",
-          "intro1": "Паррандалар фаолийати натижасида паррандахона ҳавоси зарарли моддалар билан ифлосланади: аммиак (0,01 мг/л ме'йорда 0,3–0,5 мг/л гача), водород сулфиди, карбонат ангидрид, микрофлорали органик чанг (30–50 мг/л гача).",
-          "intro2": "Ретсиркулйатсийа тизимидаги озонлаш ҳавони сезиларли шамоллатиш ва иситиш харажатларисиз тозалаш имконини беради.",
-          "tableCaption": "Паррандахона ҳавосини тозалаш самарадорлиги (озон контсентратсийаси 11,3 мг/л)",
+          "title": "Parrandachilik fermalarida havoni dezinfeksiya qilish",
+          "intro1": "Parrandalar faoliyati natijasida parrandaxona havosi zararli moddalar bilan ifloslanadi: ammiak (0,01 mg/l me'yorda 0,3–0,5 mg/l gacha), vodorod sulfidi, karbonat angidrid, mikroflorali organik chang (30–50 mg/l gacha).",
+          "intro2": "Retsirkulyatsiya tizimidagi ozonlash havoni sezilarli shamollatish va isitish xarajatlarisiz tozalash imkonini beradi.",
+          "tableCaption": "Parrandaxona havosini tozalash samaradorligi (ozon kontsentratsiyasi 11,3 mg/l)",
           "tableHeaders": [
-            "Кўрсаткич",
-            "Ишлов беришдан олдин",
-            "Ишлов беришдан кейин"
+            "Ko'rsatkich",
+            "Ishlov berishdan oldin",
+            "Ishlov berishdan keyin"
           ],
           "tableData": [
             [
-              "Водород сулфиди, мг/л",
+              "Vodorod sulfidi, mg/l",
               "0.15",
               "0.0002"
             ],
             [
-              "Аммиак, мг/л",
+              "Ammiak, mg/l",
               "0.12",
               "0.004"
             ],
             [
-              "Карбонат ангидрид, мг/л",
+              "Karbonat angidrid, mg/l",
               "14.2",
               "0.2"
             ],
             [
-              "Органик чанг, мг/л",
+              "Organik chang, mg/l",
               "18.1",
               "—"
             ],
             [
-              "Кислород, ҳажмий %",
+              "Kislorod, hajmiy %",
               "21.2",
               "21.7"
             ],
             [
-              "Микрофлора, колонийа/м³",
+              "Mikroflora, koloniya/m³",
               "27,480",
               "< 200"
             ]
           ],
-          "highlight": "Вақти-вақти билан озонлаш (ҳар 3–5 кунда бир марта 8–12 соат давомида) зарарли газлар миқдорини 80–85% га, бактериал ва моғор ифлосланишини еса 80–90% га камайтиради."
+          "highlight": "Vaqti-vaqti bilan ozonlash (har 3–5 kunda bir marta 8–12 soat davomida) zararli gazlar miqdorini 80–85% ga, bakterial va mog'or ifloslanishini esa 80–90% ga kamaytiradi."
         },
         "feedDisinfection": {
-          "title": "Йемни дезинфексийа қилиш",
-          "intro": "Йем таркибидаги микрофлора ва моғор замбуруғлари паррандалар саломатлигига хавф туғдирадиган токсинлар ишлаб чиқаради. Йемни озон билан ишлаш микрофлора ва токсинларни сезиларли даражада камайтиради, озуқавий қийматини ва йемнинг ҳазм бўлишини оширади.",
-          "tableCaption": "Йемни озонлаш самарадорлиги",
+          "title": "Yemni dezinfeksiya qilish",
+          "intro": "Yem tarkibidagi mikroflora va mog'or zamburug'lari parrandalar salomatligiga xavf tug'diradigan toksinlar ishlab chiqaradi. Yemni ozon bilan ishlash mikroflora va toksinlarni sezilarli darajada kamaytiradi, ozuqaviy qiymatini va yemning hazm bo'lishini oshiradi.",
+          "tableCaption": "Yemni ozonlash samaradorligi",
           "tableHeaders": [
-            "Кўрсаткич",
-            "Озонсиз буғдой",
-            "Озон билан буғдой",
-            "Озонсиз йем",
-            "Озон билан йем"
+            "Ko'rsatkich",
+            "Ozonsiz bug'doy",
+            "Ozon bilan bug'doy",
+            "Ozonsiz yem",
+            "Ozon bilan yem"
           ],
           "tableData": [
             [
-              "Микрофлора, колонийа/г",
+              "Mikroflora, koloniya/g",
               "945",
               "63",
               "27,840",
               "91"
             ],
             [
-              "Токсинлар, мг/кг",
+              "Toksinlar, mg/kg",
               "5.11",
               "0.12",
               "4.87",
@@ -168,1820 +168,1819 @@
           ]
         },
         "storage": {
-          "title": "Парранда гўштини сақлаш муддатини узайтириш",
-          "intro": "Гўштни сақлашда ижобий та'сирга озон контсентратсийаси ~6 мг/м³ бўлганда кунига 2 соат озонлаш орқали еришилади. Парранда гўштини совутилган ҳолда (+4°C) сақлаш муддати 4 баравар ошади.",
-          "tableCaption": "Парранда гўштини сақлашни солиштириш",
-          "highlight": "20 кунлик сақлашдан кейин озонланган гўшт ҳидсиз, ўзининг йангилиги ва йумшоқлигини сақлаб қолди. Ишлов берилмаган гўшт еса атиги 5 кундан кейин йашил рангга кириб, сассиқ ҳид чиқара бошлади.",
+          "title": "Parranda go'shtini saqlash muddatini uzaytirish",
+          "intro": "Go'shtni saqlashda ijobiy ta'sirga ozon kontsentratsiyasi ~6 mg/m³ bo'lganda kuniga 2 soat ozonlash orqali erishiladi. Parranda go'shtini sovutilgan holda (+4°C) saqlash muddati 4 baravar oshadi.",
+          "tableCaption": "Parranda go'shtini saqlashni solishtirish",
+          "highlight": "20 kunlik saqlashdan keyin ozonlangan go'sht hidsiz, o'zining yangiligi va yumshoqligini saqlab qoldi. Ishlov berilmagan go'sht esa atigi 5 kundan keyin yashil rangga kirib, sassiq hid chiqara boshladi.",
           "tableHeaders": [
-            "Кўрсаткич",
-            "Озон билан",
-            "Озонсиз"
+            "Ko'rsatkich",
+            "Ozon bilan",
+            "Ozonsiz"
           ],
           "tableData": [
             [
-              "Максимал сақлаш муддати",
-              "18–21 кун",
-              "5–7 кун"
+              "Maksimal saqlash muddati",
+              "18–21 kun",
+              "5–7 kun"
             ],
             [
-              "Вазн йўқотиш",
+              "Vazn yo'qotish",
               "7.6%",
               "10.9%"
             ],
             [
-              "Тана ранги",
-              "Оч сариқ",
-              "Сариқ"
+              "Tana rangi",
+              "Och sariq",
+              "Sariq"
             ],
             [
-              "Гўшт ҳиди",
-              "Йанги гўштга хос",
-              "Моғорлаган, сассиқ"
+              "Go'sht hidi",
+              "Yangi go'shtga xos",
+              "Mog'orlagan, sassiq"
             ],
             [
-              "Сақлашдан кейинги бактериал ифлосланиш",
-              "65 колонийа/мл",
-              "736 колонийа/мл"
+              "Saqlashdan keyingi bakterial ifloslanish",
+              "65 koloniya/ml",
+              "736 koloniya/ml"
             ]
           ]
         },
         "modes": {
-          "title": "Паррандачиликда озонлаш режимлари",
+          "title": "Parrandachilikda ozonlash rejimlari",
           "tableHeaders": [
-            "Озонлаш мақсади",
-            "Контсентратсийа",
-            "Ишлов бериш вақти",
-            "Даврийлиги"
+            "Ozonlash maqsadi",
+            "Kontsentratsiya",
+            "Ishlov berish vaqti",
+            "Davriyligi"
           ],
           "tableData": [
             [
-              "Тухумларни профилактик дезинфексийа қилиш",
-              "8–12 мг/м³",
-              "60 мин",
-              "Йуклашдан олдин бир марта"
+              "Tuxumlarni profilaktik dezinfeksiya qilish",
+              "8–12 mg/m³",
+              "60 min",
+              "Yuklashdan oldin bir marta"
             ],
             [
-              "Инкубатсийа пайтида дезинфексийа қилиш",
-              "8–12 мг/м³",
-              "30 мин",
-              "Йуклашдан 6 соат ўтгач"
+              "Inkubatsiya paytida dezinfeksiya qilish",
+              "8–12 mg/m³",
+              "30 min",
+              "Yuklashdan 6 soat o'tgach"
             ],
             [
-              "Инкубатсийа тухумларини сақлаш",
-              "4–15 мг/м³",
-              "120–180 мин",
-              "Кунига бир марта"
+              "Inkubatsiya tuxumlarini saqlash",
+              "4–15 mg/m³",
+              "120–180 min",
+              "Kuniga bir marta"
             ],
             [
-              "Ембрионал ривожланишни рағбатлантириш",
-              "~10 мг/м³",
-              "20 мин",
-              "Бутун давр давомида кунига бир марта"
+              "Embrional rivojlanishni rag'batlantirish",
+              "~10 mg/m³",
+              "20 min",
+              "Butun davr davomida kuniga bir marta"
             ],
             [
-              "Паррандахона ҳавосини дезинфексийа қилиш",
-              "8–12 мг/м³",
-              "5–10 мин",
-              "Кунига 2–3 марта"
+              "Parrandaxona havosini dezinfeksiya qilish",
+              "8–12 mg/m³",
+              "5–10 min",
+              "Kuniga 2–3 marta"
             ],
             [
-              "Дон омборларини ишлаш",
-              "8–12 мг/м³",
-              "60–120 мин",
-              "Кунига бир марта"
+              "Don omborlarini ishlash",
+              "8–12 mg/m³",
+              "60–120 min",
+              "Kuniga bir marta"
             ],
             [
-              "Гўштни сақлаш пайтида ишлаш",
-              "~6 мг/м³",
-              "120 мин",
-              "Кунига 1–2 марта"
+              "Go'shtni saqlash paytida ishlash",
+              "~6 mg/m³",
+              "120 min",
+              "Kuniga 1–2 marta"
             ]
           ]
         },
         "benefits": {
-          "title": "Паррандачиликда озонлашнинг афзалликлари",
+          "title": "Parrandachilikda ozonlashning afzalliklari",
           "items": [
             {
-              "title": "Екологик тозалик",
-              "description": "Озон маҳсулотларда кимйовий қолдиқларни қолдирмасдан кислородга парчаланади"
+              "title": "Ekologik tozalik",
+              "description": "Ozon mahsulotlarda kimyoviy qoldiqlarni qoldirmasdan kislorodga parchalanadi"
             },
             {
-              "title": "Хавфсизлик",
-              "description": "Кансероген йоки ножўйа та'сирга ега бўлган формалдегид ва хлорга қараганда хавфсизроқ"
+              "title": "Xavfsizlik",
+              "description": "Kanserogen yoki nojo'ya ta'sirga ega bo'lgan formaldegid va xlorga qaraganda xavfsizroq"
             },
             {
-              "title": "Кўп қирралилик",
-              "description": "Тухумлар, йем, сув, ҳаво ва маҳсулотлар учун битта ускуна"
+              "title": "Ko'p qirralilik",
+              "description": "Tuxumlar, yem, suv, havo va mahsulotlar uchun bitta uskuna"
             },
             {
-              "title": "Тежамкорлик",
-              "description": "Ҳаводан жойида ишлаб чиқарилади, реагентларни сақлашни талаб қилмайди"
+              "title": "Tejamkorlik",
+              "description": "Havodan joyida ishlab chiqariladi, reagentlarni saqlashni talab qilmaydi"
             }
           ]
         }
       }
     },
     "livestock": {
-      "title": "Чорвачилик",
-      "shortDesc": "Фермаларни дезинфексийа қилиш, йем-хашакни қайта ишлаш ва гўшт маҳсулотларини сақлаш муддатини узайтириш",
-      "content": "Чорвачиликда озонлаш бир қатор вазифаларни ҳал қилади: биноларнинг санитарийа ҳолатини сақлашдан тортиб гўшт маҳсулотларини сақлаш муддатини узайтиришгача.\n\nЧорвачилик биноларидаги ҳавони озонлаш патогенлар, аммиак ва йоқимсиз ҳидлар контсентратсийасини камайтиради. Бу микроклиманни йахшилайди, ҳайвонлар стрессини ва нафас олиш касалликлари хавфини камайтиради.\n\nГўшт маҳсулотларини сақлашда озонлаш тана йузасидаги микрофлорани йўқ қилади ва маҳсулотнинг озуқавий ва сезги хусусийатларини сақлайди. Мунтазам озонлаш совутгич камераларида совутилган гўштни сақлаш муддатини 2-5 марта узайтиради.\n\n1-4°C ҳароратда 2-5 соат давомида 10 мг/м³ озон контсентратсийаси гўшт йузасидаги мезофил ва психротроф микрофлорани тўлиқ йўқ қилади.",
+      "title": "Chorvachilik",
+      "shortDesc": "Fermalarni dezinfeksiya qilish, yem-xashakni qayta ishlash va go'sht mahsulotlarini saqlash muddatini uzaytirish",
+      "content": "Chorvachilikda ozonlash bir qator vazifalarni hal qiladi: binolarning sanitariya holatini saqlashdan tortib go'sht mahsulotlarini saqlash muddatini uzaytirishgacha.\n\nChorvachilik binolaridagi havoni ozonlash patogenlar, ammiak va yoqimsiz hidlar kontsentratsiyasini kamaytiradi. Bu mikroklimanni yaxshilaydi, hayvonlar stressini va nafas olish kasalliklari xavfini kamaytiradi.\n\nGo'sht mahsulotlarini saqlashda ozonlash tana yuzasidagi mikroflorani yo'q qiladi va mahsulotning ozuqaviy va sezgi xususiyatlarini saqlaydi. Muntazam ozonlash sovutgich kameralarida sovutilgan go'shtni saqlash muddatini 2-5 marta uzaytiradi.\n\n1-4°C haroratda 2-5 soat davomida 10 mg/m³ ozon kontsentratsiyasi go'sht yuzasidagi mezofil va psixrotrof mikroflorani to'liq yo'q qiladi.",
       "stats": {
         "microfloraReduction": {
           "value": "80-90%",
-          "label": "Микрофлорани камайтириш",
-          "description": "Чорвачилик биноларидаги ҳавода"
+          "label": "Mikroflorani kamaytirish",
+          "description": "Chorvachilik binolaridagi havoda"
         },
         "morbidityReduction": {
           "value": "30-50%",
-          "label": "Касалланишни камайтириш",
-          "description": "Чорва ҳайвонларида нафас олиш инфексийалари"
+          "label": "Kasallanishni kamaytirish",
+          "description": "Chorva hayvonlarida nafas olish infeksiyalari"
         },
         "productivityGrowth": {
           "value": "10-15%",
-          "label": "Унумдорлик ўсиши",
-          "description": "Ўртача кунлик вазн ўсиши ва сут маҳсулдорлиги"
+          "label": "Unumdorlik o'sishi",
+          "description": "O'rtacha kunlik vazn o'sishi va sut mahsuldorligi"
         },
         "antibiotics": {
           "value": "0",
-          "label": "Антибиотиклар",
-          "description": "Екологик тоза маҳсулотлар"
+          "label": "Antibiotiklar",
+          "description": "Ekologik toza mahsulotlar"
         }
       },
       "benefits": [
-        "Гўштни сақлаш муддати 2-5 марта узайади",
-        "Совутгич камераларни 99,9% дезинфексийа қилиш",
-        "Чорва ҳайвонларида касалланишни камайтириш",
-        "Аммиак ва йоқимсиз ҳидларни йўқ қилиш",
-        "Маҳсулотнинг озуқавий хусусийатларини сақлаш",
-        "Салбий ҳароратларда ишлаш"
+        "Go'shtni saqlash muddati 2-5 marta uzayadi",
+        "Sovutgich kameralarni 99,9% dezinfeksiya qilish",
+        "Chorva hayvonlarida kasallanishni kamaytirish",
+        "Ammiak va yoqimsiz hidlarni yo'q qilish",
+        "Mahsulotning ozuqaviy xususiyatlarini saqlash",
+        "Salbiy haroratlarda ishlash"
       ],
       "sections": {
         "intro": {
-          "paragraph1": "Замонавий чорвачилик жиддий муаммоларга дуч келмоқда: антибиотикларга чидамлиликнинг ўсиши, маҳсулотларнинг екологик тозалигига қўйиладиган қат'ий талаблар ва харажатларни камайтириш билан унумдорликни ошириш зарурати. Озонлаш бу муаммоларни комплекс ҳал қиладиган технологийадир.",
-          "paragraph2": "Чорвачиликда озон қўллаш касалланишни 30-50% камайтириш, унумдорликни 10-15% ошириш ва профилактик антибиотиклардан фойдаланишни тўхтатишга имкон беради. Бу Йевропа Иттифоқининг антибиотикларни ўсиш стимулйаторлари сифатида ишлатишни тақиқлаши контекстида айниқса муҳимдир."
+          "paragraph1": "Zamonaviy chorvachilik jiddiy muammolarga duch kelmoqda: antibiotiklarga chidamlilikning o'sishi, mahsulotlarning ekologik tozaligiga qo'yiladigan qat'iy talablar va xarajatlarni kamaytirish bilan unumdorlikni oshirish zarurati. Ozonlash bu muammolarni kompleks hal qiladigan texnologiyadir.",
+          "paragraph2": "Chorvachilikda ozon qo'llash kasallanishni 30-50% kamaytirish, unumdorlikni 10-15% oshirish va profilaktik antibiotiklardan foydalanishni to'xtatishga imkon beradi. Bu Yevropa Ittifoqining antibiotiklarni o'sish stimulyatorlari sifatida ishlatishni taqiqlashi kontekstida ayniqsa muhimdir."
         },
         "pdkInfo": {
-          "label": "Ҳайвонлар учун озон МПC:",
-          "text": "қорамол ва чўчқалар учун 1,0 мг/м³ гача, паррандалар учун 1,2 мг/м³ гача. Бу режимларга риойа қилган ҳолда ҳайвонлар мавжуд бўлганда профилактик муолажаларни ўтказишга имкон беради."
+          "label": "Hayvonlar uchun ozon MPC:",
+          "text": "qoramol va cho'chqalar uchun 1,0 mg/m³ gacha, parrandalar uchun 1,2 mg/m³ gacha. Bu rejimlarga rioya qilgan holda hayvonlar mavjud bo'lganda profilaktik muolajalarni o'tkazishga imkon beradi."
         },
         "applications": {
-          "title": "Озон қўллаш йўналишлари",
+          "title": "Ozon qo'llash yo'nalishlari",
           "items": [
-            "Ҳайвонлар йашайдиган биноларда ҳавони дезинфексийа қилиш",
-            "Ичимлик сувини дезинфексийа қилиш",
-            "Йем-хашакни қайта ишлаш — микотоксинлар ва патогенларни камайтириш",
-            "Сут ускуналари ва идишларни дезинфексийа қилиш",
-            "Гўнг ва чиқиндиларни қайта ишлаш",
-            "Туғруқхоналарни санитатсийа қилиш"
+            "Hayvonlar yashaydigan binolarda havoni dezinfeksiya qilish",
+            "Ichimlik suvini dezinfeksiya qilish",
+            "Yem-xashakni qayta ishlash — mikotoksinlar va patogenlarni kamaytirish",
+            "Sut uskunalari va idishlarni dezinfeksiya qilish",
+            "Go'ng va chiqindilarni qayta ishlash",
+            "Tug'ruqxonalarni sanitatsiya qilish"
           ]
         },
         "airDisinfection": {
-          "title": "Биноларда ҳавони дезинфексийа қилиш",
-          "intro": "Чорвачилик биноларидаги ҳаво аммиак, водород сулфиди, чанг ва микроорганизмлар билан ифлосланади. Аммиак контсентратсийаси МПC 0,01 мг/л бўлса, 0,02-0,03 мг/л га йетиши мумкин. Бу унумдорликни камайтиради, касалланишни оширади ва ходимлар учун иш шароитларини йомонлаштиради.",
-          "tableCaption": "Сигирхонада ҳавони озонлаш самарадорлиги",
+          "title": "Binolarda havoni dezinfeksiya qilish",
+          "intro": "Chorvachilik binolaridagi havo ammiak, vodorod sulfidi, chang va mikroorganizmlar bilan ifloslanadi. Ammiak kontsentratsiyasi MPC 0,01 mg/l bo'lsa, 0,02-0,03 mg/l ga yetishi mumkin. Bu unumdorlikni kamaytiradi, kasallanishni oshiradi va xodimlar uchun ish sharoitlarini yomonlashtiradi.",
+          "tableCaption": "Sigirxonada havoni ozonlash samaradorligi",
           "tableHeaders": [
-            "Кўрсаткич",
-            "Муолажадан олдин",
-            "Муолажадан кейин",
-            "Камайиш"
+            "Ko'rsatkich",
+            "Muolajadan oldin",
+            "Muolajadan keyin",
+            "Kamayish"
           ],
           "tableData": [
             [
-              "Аммиак, мг/л",
+              "Ammiak, mg/l",
               "0,025",
               "0,005",
               "80%"
             ],
             [
-              "Водород сулфиди, мг/л",
+              "Vodorod sulfidi, mg/l",
               "0,008",
               "0,001",
               "87%"
             ],
             [
-              "Микрофлора, КОЕ/м³",
+              "Mikroflora, KOE/m³",
               "85 000",
               "12 000",
               "86%"
             ],
             [
-              "Чанг, мг/м³",
+              "Chang, mg/m³",
               "4,5",
               "1,2",
               "73%"
             ]
           ],
-          "highlight": "Мунтазам озонлаш (кунига 2-3 марта, 15-20 дақиқа, 0,5-1,0 мг/м³ контсентратсийада) қорамол нафас олиш касалликларини 40-50% камайтиради ва ўртача кунлик вазн ўсишини 8-12% оширади."
+          "highlight": "Muntazam ozonlash (kuniga 2-3 marta, 15-20 daqiqa, 0,5-1,0 mg/m³ kontsentratsiyada) qoramol nafas olish kasalliklarini 40-50% kamaytiradi va o'rtacha kunlik vazn o'sishini 8-12% oshiradi."
         },
         "waterDisinfection": {
-          "title": "Ичимлик сувини дезинфексийа қилиш",
-          "intro": "Сув сифати ҳайвонлар саломатлиги ва унумдорлигига бевосита та'сир қилади. Очиқ манбалардан ва ҳатто артезиан қудуқларидан олинган сув кўпинча патоген микроорганизмлар, темир, марганетс ва органик бирикмаларни ўз ичига олади.",
-          "intro2": "Сувни озонлаш қуйидагиларни та'минлайди:",
+          "title": "Ichimlik suvini dezinfeksiya qilish",
+          "intro": "Suv sifati hayvonlar salomatligi va unumdorligiga bevosita ta'sir qiladi. Ochiq manbalardan va hatto artezian quduqlaridan olingan suv ko'pincha patogen mikroorganizmlar, temir, marganets va organik birikmalarni o'z ichiga oladi.",
+          "intro2": "Suvni ozonlash quyidagilarni ta'minlaydi:",
           "items": [
-            "Е.cоли, салмонелла, кампилобактер ва бошқа патогенларни йўқ қилиш",
-            "Темир ва марганетсни еримайдиган шаклларга оксидланиши",
-            "Йоқимсиз ҳидлар ва та'мларни йўқ қилиш",
-            "Ҳайвонлар томонидан сувнинг йахшироқ ҳазм бўлиши",
-            "Ошқозон-ичак касалликларининг олдини олиш"
+            "E.coli, salmonella, kampilobakter va boshqa patogenlarni yo'q qilish",
+            "Temir va marganetsni erimaydigan shakllarga oksidlanishi",
+            "Yoqimsiz hidlar va ta'mlarni yo'q qilish",
+            "Hayvonlar tomonidan suvning yaxshiroq hazm bo'lishi",
+            "Oshqozon-ichak kasalliklarining oldini olish"
           ],
-          "tableCaption": "Чорвачилик учун сувни озонлаш режимлари",
+          "tableCaption": "Chorvachilik uchun suvni ozonlash rejimlari",
           "tableHeaders": [
-            "Мақсад",
-            "Озон контсентратсийаси",
-            "Алоқа вақти"
+            "Maqsad",
+            "Ozon kontsentratsiyasi",
+            "Aloqa vaqti"
           ],
           "tableData": [
             [
-              "Қорамол учун ичимлик суви",
-              "0,3-0,5 мг/л",
-              "10-15 мин"
+              "Qoramol uchun ichimlik suvi",
+              "0,3-0,5 mg/l",
+              "10-15 min"
             ],
             [
-              "Чўчқалар учун ичимлик суви",
-              "0,3-0,5 мг/л",
-              "10-15 мин"
+              "Cho'chqalar uchun ichimlik suvi",
+              "0,3-0,5 mg/l",
+              "10-15 min"
             ],
             [
-              "Ускуналарни йувиш суви",
-              "1,0-2,0 мг/л",
-              "5-10 мин"
+              "Uskunalarni yuvish suvi",
+              "1,0-2,0 mg/l",
+              "5-10 min"
             ],
             [
-              "Сутни суйултириш суви",
-              "0,5-1,0 мг/л",
-              "15-20 мин"
+              "Sutni suyultirish suvi",
+              "0,5-1,0 mg/l",
+              "15-20 min"
             ]
           ]
         },
         "feedTreatment": {
-          "title": "Йем-хашакни қайта ишлаш",
-          "intro": "Йем-хашак ҳайвонлар организмига кирувчи микотоксинлар ва патоген микроорганизмларнинг асосий манбаи ҳисобланади. Йем-хашакни озонлаш қуйидагиларга имкон беради:",
+          "title": "Yem-xashakni qayta ishlash",
+          "intro": "Yem-xashak hayvonlar organizmiga kiruvchi mikotoksinlar va patogen mikroorganizmlarning asosiy manbai hisoblanadi. Yem-xashakni ozonlash quyidagilarga imkon beradi:",
           "items": [
-            "Моғор замбуруғларининг таркибини 90-95% камайтириш",
-            "Микотоксинларни (афлатоксинлар, зеараленон, ДОН) йўқ қилиш",
-            "Патоген микрофлорани (салмонелла, Е.cоли) йўқ қилиш",
-            "Йем-хашакнинг биологик қиймати ва ҳазм бўлишини ошириш",
-            "Йем-хашакни сақлаш муддатини узайтириш"
+            "Mog'or zamburug'larining tarkibini 90-95% kamaytirish",
+            "Mikotoksinlarni (aflatoksinlar, zearalenon, DON) yo'q qilish",
+            "Patogen mikroflorani (salmonella, E.coli) yo'q qilish",
+            "Yem-xashakning biologik qiymati va hazm bo'lishini oshirish",
+            "Yem-xashakni saqlash muddatini uzaytirish"
           ],
-          "highlight": "Тавсийа етилган йем-хашакни қайта ишлаш режими: озон контсентратсийаси 10-15 мг/м³, қайта ишлаш вақти намлик ва ифлосланиш даражасига қараб 60-120 дақиқа."
+          "highlight": "Tavsiya etilgan yem-xashakni qayta ishlash rejimi: ozon kontsentratsiyasi 10-15 mg/m³, qayta ishlash vaqti namlik va ifloslanish darajasiga qarab 60-120 daqiqa."
         },
         "dairyEquipment": {
-          "title": "Сут ускуналарини дезинфексийа қилиш",
-          "intro": "Сут фермаларида озон соғиш ускуналари, совутгич танклар, сут қувурлари ва идишларни дезинфексийа қилиш учун ишлатилади. Бу кимйовий тозалаш воситаларидан фойдаланишни тўхтатиш ва сут маҳсулотларининг хавфсизлигини та'минлашга имкон беради.",
-          "tableCaption": "Сут фермаларида озон қўллаш",
+          "title": "Sut uskunalarini dezinfeksiya qilish",
+          "intro": "Sut fermalarida ozon sog'ish uskunalari, sovutgich tanklar, sut quvurlari va idishlarni dezinfeksiya qilish uchun ishlatiladi. Bu kimyoviy tozalash vositalaridan foydalanishni to'xtatish va sut mahsulotlarining xavfsizligini ta'minlashga imkon beradi.",
+          "tableCaption": "Sut fermalarida ozon qo'llash",
           "tableHeaders": [
-            "Муолажа об'екти",
-            "Усул",
-            "Самарадорлик"
+            "Muolaja ob'ekti",
+            "Usul",
+            "Samaradorlik"
           ],
           "tableData": [
             [
-              "Соғиш аппаратлари",
-              "Озонланган сув 2-3 мг/л",
+              "Sog'ish apparatlari",
+              "Ozonlangan suv 2-3 mg/l",
               "99,9%"
             ],
             [
-              "Сут танклари",
-              "Озонланган сув + ҳаво",
+              "Sut tanklari",
+              "Ozonlangan suv + havo",
               "99,99%"
             ],
             [
-              "Сут қувурлари",
-              "Озонланган сувни айлантириш",
+              "Sut quvurlari",
+              "Ozonlangan suvni aylantirish",
               "99,9%"
             ],
             [
-              "Сақлаш идишлари",
-              "Газсимон озон",
+              "Saqlash idishlari",
+              "Gazsimon ozon",
               "99,99%"
             ]
           ]
         },
         "benefits": {
-          "title": "Чорвачиликда озонлашнинг афзалликлари",
+          "title": "Chorvachilikda ozonlashning afzalliklari",
           "items": [
             {
-              "title": "Антибиотиксиз",
-              "description": "Профилактик антибиотикларсиз касалланишни камайтириш — екологик тоза маҳсулотлар"
+              "title": "Antibiotiksiz",
+              "description": "Profilaktik antibiotiklarsiz kasallanishni kamaytirish — ekologik toza mahsulotlar"
             },
             {
-              "title": "Унумдорликни ошириш",
-              "description": "Шароитларни йахшилаш ҳисобига сут маҳсулдорлиги 5-10%, ўртача кунлик вазн ўсиши 8-15% ошади"
+              "title": "Unumdorlikni oshirish",
+              "description": "Sharoitlarni yaxshilash hisobiga sut mahsuldorligi 5-10%, o'rtacha kunlik vazn o'sishi 8-15% oshadi"
             },
             {
-              "title": "Ветеринарийа харажатларини тежаш",
-              "description": "Даволаш ва касалликнинг олдини олиш харажатларини 30-40% камайтириш"
+              "title": "Veterinariya xarajatlarini tejash",
+              "description": "Davolash va kasallikning oldini olish xarajatlarini 30-40% kamaytirish"
             },
             {
-              "title": "Иш шароитларини йахшилаш",
-              "description": "Ферма ходимлари учун зарарли газлар ва ҳидлар контсентратсийасини камайтириш"
+              "title": "Ish sharoitlarini yaxshilash",
+              "description": "Ferma xodimlari uchun zararli gazlar va hidlar kontsentratsiyasini kamaytirish"
             }
           ]
         }
       }
     },
     "vegetable-storage": {
-      "title": "Сабзавотларни сақлаш",
-      "shortDesc": "Узоқ муддатли сақлашда сабзавот ва меваларнинг нобуд бўлишини камайтириш",
-      "content": "Сабзавот омборларини озонлаш — узоқ муддатли сақлаш пайтида нобуд бўлишни камайтиришнинг самарали усули. Озон ҳаво ва йузаларни тез ва йахшилаб дезинфексийа қилади, вируслар, бактерийалар, замбуруғлар ва моғорни йўқ қилади.\n\nОзон пишишни тезлаштирадиган ва сақлаш муддатини қисқартирадиган етиленни парчалайди. Бу етиленга сезгир маҳсулотларни етилен ишлаб чиқарадиган маҳсулотлар билан бирга сақлаш имконини беради.\n\n300 тонналик сабзавот омбори учун озонлаш ускунаси нобуд бўлишни ўртача 3 баравар камайтириши мумкин.\n\nКўпгина сабзавот ва мевалар учун ишлов бериш режими: кунига 1–2 марта 2–4 соат давомида. Картошка, карам, олма ва бошқа екинлар учун махсус режимлар қўлланилади.",
+      "title": "Sabzavotlarni saqlash",
+      "shortDesc": "Uzoq muddatli saqlashda sabzavot va mevalarning nobud bo'lishini kamaytirish",
+      "content": "Sabzavot omborlarini ozonlash — uzoq muddatli saqlash paytida nobud bo'lishni kamaytirishning samarali usuli. Ozon havo va yuzalarni tez va yaxshilab dezinfeksiya qiladi, viruslar, bakteriyalar, zamburug'lar va mog'orni yo'q qiladi.\n\nOzon pishishni tezlashtiradigan va saqlash muddatini qisqartiradigan etilenni parchalaydi. Bu etilenga sezgir mahsulotlarni etilen ishlab chiqaradigan mahsulotlar bilan birga saqlash imkonini beradi.\n\n300 tonnalik sabzavot ombori uchun ozonlash uskunasi nobud bo'lishni o'rtacha 3 baravar kamaytirishi mumkin.\n\nKo'pgina sabzavot va mevalar uchun ishlov berish rejimi: kuniga 1–2 marta 2–4 soat davomida. Kartoshka, karam, olma va boshqa ekinlar uchun maxsus rejimlar qo'llaniladi.",
       "stats": {
         "storageExtension": {
           "value": "1.5–2×",
-          "label": "Сақлаш муддатини узайтириш",
-          "description": "Маҳсулотни сақлаш муддатини узайтириш"
+          "label": "Saqlash muddatini uzaytirish",
+          "description": "Mahsulotni saqlash muddatini uzaytirish"
         },
         "moldReduction": {
           "value": "90%",
-          "label": "Моғорни камайтириш",
-          "description": "Замбуруғ спораларини йўқ қилиш"
+          "label": "Mog'orni kamaytirish",
+          "description": "Zamburug' sporalarini yo'q qilish"
         },
         "lossReduction": {
           "value": "30–50%",
-          "label": "Нобуд бўлишни камайтириш",
-          "description": "Маҳсулот бузилишини камайтириш"
+          "label": "Nobud bo'lishni kamaytirish",
+          "description": "Mahsulot buzilishini kamaytirish"
         },
         "noChemicals": {
           "value": "0",
-          "label": "Кимйовий моддалар",
-          "description": "Консервантлар ва фунгитсидларсиз"
+          "label": "Kimyoviy moddalar",
+          "description": "Konservantlar va fungitsidlarsiz"
         }
       },
       "benefits": [
-        "Нобуд бўлиш тахминан 3 баравар камайади",
-        "Моғор ва чиришни йўқ қилиш",
-        "Узоқроқ сақлаш учун етиленни парчалаш",
-        "Моғор спораларининг униб чиқишини бостириш",
-        "Салбий ҳароратларда ишлаш",
-        "Биринчи мавсумда харажатларни қоплаш"
+        "Nobud bo'lish taxminan 3 baravar kamayadi",
+        "Mog'or va chirishni yo'q qilish",
+        "Uzoqroq saqlash uchun etilenni parchalash",
+        "Mog'or sporalarining unib chiqishini bostirish",
+        "Salbiy haroratlarda ishlash",
+        "Birinchi mavsumda xarajatlarni qoplash"
       ],
       "sections": {
         "intro": {
-          "paragraph1": "Сабзавот ва меваларни сақлашдаги нобуд бўлиш умумий ҳажмнинг 20 дан 40% гача йетади. Асосий сабаблар — моғор ривожланиши, бактериал чириш, муддатидан олдин униб чиқиш ва сўлиш. Озонлаш ушбу муаммоларни комплекс ҳал қилади ва сақлаш муддатини кимйовий моддаларсиз 1,5–2 баравар узайтиради.",
-          "paragraph2": "Фунгитсидлар ва консервантлардан фарқли ўлароқ, озон маҳсулотларда тўпланмайди ва кислородга парчаланади. Бу органик деҳқончилик ва екологик тоза озиқ-овқат маҳсулотларини ишлаб чиқариш учун жуда муҳимдир."
+          "paragraph1": "Sabzavot va mevalarni saqlashdagi nobud bo'lish umumiy hajmning 20 dan 40% gacha yetadi. Asosiy sabablar — mog'or rivojlanishi, bakterial chirish, muddatidan oldin unib chiqish va so'lish. Ozonlash ushbu muammolarni kompleks hal qiladi va saqlash muddatini kimyoviy moddalarsiz 1,5–2 baravar uzaytiradi.",
+          "paragraph2": "Fungitsidlar va konservantlardan farqli o'laroq, ozon mahsulotlarda to'planmaydi va kislorodga parchalanadi. Bu organik dehqonchilik va ekologik toza oziq-ovqat mahsulotlarini ishlab chiqarish uchun juda muhimdir."
         },
         "principle": {
-          "title": "Ишлаш принсипи:",
-          "text": "Озон сабзавот йузаларидаги ва омбор ҳавосидаги моғор, ачитқи ва бактерийаларни йўқ қилади. Шунингдек, у меваларнинг пишиши ва қаришини тезлаштирадиган газ — етиленни парчалайди."
+          "title": "Ishlash prinsipi:",
+          "text": "Ozon sabzavot yuzalaridagi va ombor havosidagi mog'or, achitqi va bakteriyalarni yo'q qiladi. Shuningdek, u mevalarning pishishi va qarishini tezlashtiradigan gaz — etilenni parchalaydi."
         },
         "efficiency": {
-          "title": "Сабзавотларни озонлаш самарадорлиги",
-          "tableCaption": "Озонлаш билан сақлаш муддатини узайтириш",
+          "title": "Sabzavotlarni ozonlash samaradorligi",
+          "tableCaption": "Ozonlash bilan saqlash muddatini uzaytirish",
           "tableHeaders": [
-            "Екин",
-            "Озонсиз",
-            "Озон билан",
-            "Ўсиш"
+            "Ekin",
+            "Ozonsiz",
+            "Ozon bilan",
+            "O'sish"
           ],
           "tableData": [
             [
-              "Картошка",
-              "4–5 ой",
-              "6–7.5 ой",
-              "+2.5 ой"
+              "Kartoshka",
+              "4–5 oy",
+              "6–7.5 oy",
+              "+2.5 oy"
             ],
             [
-              "Сабзи",
-              "4–6 ой",
-              "7–9 ой",
-              "+3 ой"
+              "Sabzi",
+              "4–6 oy",
+              "7–9 oy",
+              "+3 oy"
             ],
             [
-              "Карам",
-              "4–5 ой",
-              "6–8 ой",
-              "+2–3 ой"
+              "Karam",
+              "4–5 oy",
+              "6–8 oy",
+              "+2–3 oy"
             ],
             [
-              "Пийоз",
-              "5–6 ой",
-              "8–9 ой",
-              "+3 ой"
+              "Piyoz",
+              "5–6 oy",
+              "8–9 oy",
+              "+3 oy"
             ],
             [
-              "Лавлаги",
-              "5–6 ой",
-              "8–9 ой",
-              "+3 ой"
+              "Lavlagi",
+              "5–6 oy",
+              "8–9 oy",
+              "+3 oy"
             ],
             [
-              "Олма",
-              "4–6 ой",
-              "7–9 ой",
-              "+3 ой"
+              "Olma",
+              "4–6 oy",
+              "7–9 oy",
+              "+3 oy"
             ]
           ]
         },
         "diseases": {
-          "title": "Сақлаш касалликларига қарши кураш",
-          "intro": "Сабзавотларнинг асосий сақлаш касалликлари замбуруғлар ва бактерийалар томонидан чақирилади. Озон барча асосий патогенларга қарши самаралидир:",
+          "title": "Saqlash kasalliklariga qarshi kurash",
+          "intro": "Sabzavotlarning asosiy saqlash kasalliklari zamburug'lar va bakteriyalar tomonidan chaqiriladi. Ozon barcha asosiy patogenlarga qarshi samaralidir:",
           "items": [
-            "Картошка фитофторози — инфексийани 60–80% га камайтириш",
-            "Кулранг чириш (Ботрйтис) — спорани 95% йўқ қилиш",
-            "Нам чириш — бактериал ривожланишни бостириш",
-            "Фузариоз — инфексийани 70% га камайтириш",
-            "Мева пенитсиллози — спорани 90% йўқ қилиш",
-            "Сабзи қора чириши — ривожланишининг олдини олиш"
+            "Kartoshka fitoftorozi — infeksiyani 60–80% ga kamaytirish",
+            "Kulrang chirish (Botrytis) — sporani 95% yo'q qilish",
+            "Nam chirish — bakterial rivojlanishni bostirish",
+            "Fuzarioz — infeksiyani 70% ga kamaytirish",
+            "Meva penitsillozi — sporani 90% yo'q qilish",
+            "Sabzi qora chirishi — rivojlanishining oldini olish"
           ],
-          "highlight": "Мунтазам озонлаш (кунига 2–3 мг/м³, 4–6 соат) билан картошка фитофторози инфексийаси 15–20% дан 3–5% гача камайади ва ҳосилнинг 30% гача қисмини сақлаб қолади."
+          "highlight": "Muntazam ozonlash (kuniga 2–3 mg/m³, 4–6 soat) bilan kartoshka fitoftorozi infeksiyasi 15–20% dan 3–5% gacha kamayadi va hosilning 30% gacha qismini saqlab qoladi."
         },
         "modes": {
-          "title": "Сабзавот омборларини озонлаш режимлари",
-          "tableCaption": "Тавсийа етилган ишлов бериш режимлари",
+          "title": "Sabzavot omborlarini ozonlash rejimlari",
+          "tableCaption": "Tavsiya etilgan ishlov berish rejimlari",
           "tableHeaders": [
-            "Екин",
-            "Контсентратсийа",
-            "Ишлов бериш вақти",
-            "Даврийлиги"
+            "Ekin",
+            "Kontsentratsiya",
+            "Ishlov berish vaqti",
+            "Davriyligi"
           ],
           "tableData": [
             [
-              "Картошка",
-              "2–5 мг/м³",
-              "4–6 соат",
-              "Ҳар куни"
+              "Kartoshka",
+              "2–5 mg/m³",
+              "4–6 soat",
+              "Har kuni"
             ],
             [
-              "Сабзи",
-              "3–5 мг/м³",
-              "4–8 соат",
-              "Ҳар куни"
+              "Sabzi",
+              "3–5 mg/m³",
+              "4–8 soat",
+              "Har kuni"
             ],
             [
-              "Карам",
-              "3–5 мг/м³",
-              "4–6 соат",
-              "Ҳар куни"
+              "Karam",
+              "3–5 mg/m³",
+              "4–6 soat",
+              "Har kuni"
             ],
             [
-              "Пийоз",
-              "5–10 мг/м³",
-              "2–4 соат",
-              "Ҳафтада 2–3 марта"
+              "Piyoz",
+              "5–10 mg/m³",
+              "2–4 soat",
+              "Haftada 2–3 marta"
             ],
             [
-              "Олма",
-              "2–3 мг/м³",
-              "4–6 соат",
-              "Ҳар куни"
+              "Olma",
+              "2–3 mg/m³",
+              "4–6 soat",
+              "Har kuni"
             ],
             [
-              "Ситрус мевалар",
-              "3–5 мг/м³",
-              "4–6 соат",
-              "Ҳар куни"
+              "Sitrus mevalar",
+              "3–5 mg/m³",
+              "4–6 soat",
+              "Har kuni"
             ]
           ],
-          "note": "Шуни ҳисобга олиш керакки, озонлаш режими ҳарорат, намлик ва маҳсулот ҳолатига боғлиқ. Йуқори намликда (95% дан йуқори) озон самарадорлиги ошади."
+          "note": "Shuni hisobga olish kerakki, ozonlash rejimi harorat, namlik va mahsulot holatiga bog'liq. Yuqori namlikda (95% dan yuqori) ozon samaradorligi oshadi."
         },
         "additionalEffects": {
-          "title": "Озонлашнинг қўшимча еффектлари",
+          "title": "Ozonlashning qo'shimcha effektlari",
           "items": [
             {
-              "title": "Ҳидларни йўқ қилиш",
-              "description": "Озон омбордаги чириш, моғор ва кимйовий ҳидларни нейтраллайди"
+              "title": "Hidlarni yo'q qilish",
+              "description": "Ozon ombordagi chirish, mog'or va kimyoviy hidlarni neytrallaydi"
             },
             {
-              "title": "Униб чиқишни бостириш",
-              "description": "Картошка ва пийознинг кимйовий ингибиторларсиз униб чиқишини секинлаштириш"
+              "title": "Unib chiqishni bostirish",
+              "description": "Kartoshka va piyozning kimyoviy ingibitorlarsiz unib chiqishini sekinlashtirish"
             },
             {
-              "title": "Етиленни парчалаш",
-              "description": "Етилен оксидланиши меваларнинг пишиши ва қаришини секинлаштиради"
+              "title": "Etilenni parchalash",
+              "description": "Etilen oksidlanishi mevalarning pishishi va qarishini sekinlashtiradi"
             },
             {
-              "title": "Дезинсексийа",
-              "description": "Омбордаги зарарли ҳашаротлар ва уларнинг личинкаларини йўқ қилиш"
+              "title": "Dezinseksiya",
+              "description": "Ombordagi zararli hasharotlar va ularning lichinkalarini yo'q qilish"
             }
           ]
         },
         "economic": {
-          "title": "Иқтисодий самарадорлик",
-          "intro": "Сабзавот омборларида озонлашни жорий етиш сезиларли иқтисодий фойда келтиради:",
-          "highlight": "1000 тонналик сабзавот омборини озонлаш ускунаси нобуд бўлишни камайтириш ва йуқори сотув нархлари ҳисобига 1–2 сақлаш мавсумида ўзини оқлайди.",
+          "title": "Iqtisodiy samaradorlik",
+          "intro": "Sabzavot omborlarida ozonlashni joriy etish sezilarli iqtisodiy foyda keltiradi:",
+          "highlight": "1000 tonnalik sabzavot omborini ozonlash uskunasi nobud bo'lishni kamaytirish va yuqori sotuv narxlari hisobiga 1–2 saqlash mavsumida o'zini oqlaydi.",
           "tableHeaders": [
-            "Кўрсаткич",
-            "Озон билан",
-            "Озонсиз"
+            "Ko'rsatkich",
+            "Ozon bilan",
+            "Ozonsiz"
           ],
           "tableData": [
             [
-              "Картошка сақлашдаги нобуд бўлиш",
+              "Kartoshka saqlashdagi nobud bo'lish",
               "5–8%",
               "15–25%"
             ],
             [
-              "Сабзи сақлашдаги нобуд бўлиш",
+              "Sabzi saqlashdagi nobud bo'lish",
               "8–12%",
               "25–35%"
             ],
             [
-              "Фунгитсидлар харажатлари",
+              "Fungitsidlar xarajatlari",
               "0",
-              "15–20 руб/т"
+              "15–20 rub/t"
             ],
             [
-              "Мавсум охиридаги савдо",
-              "Йуқори нархда",
-              "Чегирма билан (сифат йомонлашиши)"
+              "Mavsum oxiridagi savdo",
+              "Yuqori narxda",
+              "Chegirma bilan (sifat yomonlashishi)"
             ]
           ]
         }
       }
     },
     "greenhouses": {
-      "title": "Иссиқхоналар ва деҳқончилик",
-      "shortDesc": "Йуқори ҳосилдорлик ва ўсимликларни касалликлардан ҳимойа қилиш",
-      "heroText": "13–35% ҳосилдорлик ўсиши, кимйовий пеститсидларсиз касаллик ва зараркунандалардан ҳимойа. Замонавий иссиқхона хўжаликлари учун екологик тоза технологийа.",
-      "content": "Иссиқхона ишлаб чиқаришида озон ҳаво, ўсимлик йузалари ва тупроқни дезинфексийа қилиш учун ишлатилади. Озонлаш ҳосилдорликни оширади ва кимйовий пеститсидларсиз касалликларни самарали назорат қилади.\n\nОзон сувда кислородга қараганда тахминан 15 баравар йахши ерийди. Озонланган сув билан суғориш тупроқ сифатини йахшилаш, илдиз массасини ошириш ва илдиз патогенларини камайтириш орқали ҳосилдорликни 13–35% га оширади.\n\nИссиқхона тупроқларини контсентрланган озон еритмаси билан дезинфексийа қилиш илдиз бўртма нематодасини 90–98% га бостиради ва ўсимлик ўсишини рағбатлантиради. Биомасса 30% гача ошиши мумкин.\n\nИссиқхона ҳавосини озонлаш замбуруғлар, бактерийалар, ачитқилар, вируслар ва зараркунандаларни йўқ қилади. Йуқори контсентратсийалар иссиқхонани екишга таййорлашда, бино бўш бўлган пайтда қўлланилади.",
+      "title": "Issiqxonalar va dehqonchilik",
+      "shortDesc": "Yuqori hosildorlik va o'simliklarni kasalliklardan himoya qilish",
+      "heroText": "13–35% hosildorlik o'sishi, kimyoviy pestitsidlarsiz kasallik va zararkunandalardan himoya. Zamonaviy issiqxona xo'jaliklari uchun ekologik toza texnologiya.",
+      "content": "Issiqxona ishlab chiqarishida ozon havo, o'simlik yuzalari va tuproqni dezinfeksiya qilish uchun ishlatiladi. Ozonlash hosildorlikni oshiradi va kimyoviy pestitsidlarsiz kasalliklarni samarali nazorat qiladi.\n\nOzon suvda kislorodga qaraganda taxminan 15 baravar yaxshi eriydi. Ozonlangan suv bilan sug'orish tuproq sifatini yaxshilash, ildiz massasini oshirish va ildiz patogenlarini kamaytirish orqali hosildorlikni 13–35% ga oshiradi.\n\nIssiqxona tuproqlarini kontsentrlangan ozon eritmasi bilan dezinfeksiya qilish ildiz bo'rtma nematodasini 90–98% ga bostiradi va o'simlik o'sishini rag'batlantiradi. Biomassa 30% gacha oshishi mumkin.\n\nIssiqxona havosini ozonlash zamburug'lar, bakteriyalar, achitqilar, viruslar va zararkunandalarni yo'q qiladi. Yuqori kontsentratsiyalar issiqxonani ekishga tayyorlashda, bino bo'sh bo'lgan paytda qo'llaniladi.",
       "stats": {
         "yieldIncrease": {
           "value": "13–35%",
-          "label": "Ҳосилдорлик ўсиши",
-          "description": "Озонланган сув билан суғорганда"
+          "label": "Hosildorlik o'sishi",
+          "description": "Ozonlangan suv bilan sug'organda"
         },
         "nematodeDestruction": {
           "value": "90–98%",
-          "label": "Нематодаларни йўқ қилиш",
-          "description": "Иссиқхона тупроқларида"
+          "label": "Nematodalarni yo'q qilish",
+          "description": "Issiqxona tuproqlarida"
         },
         "oxygenIncrease": {
           "value": "30–45%",
-          "label": "Кўпроқ кислород",
-          "description": "Суғориш сувида ериган"
+          "label": "Ko'proq kislorod",
+          "description": "Sug'orish suvida erigan"
         },
         "biomassGrowth": {
-          "value": "30% гача",
-          "label": "Биомасса ўсиши",
-          "description": "Тупроқни дезинфексийа қилгандан кейин"
+          "value": "30% gacha",
+          "label": "Biomassa o'sishi",
+          "description": "Tuproqni dezinfeksiya qilgandan keyin"
         }
       },
       "benefits": [
-        "13–35% ҳосилдорлик ўсиши",
-        "90–98% нематодаларни йўқ қилиш",
-        "Илдиз массасининг кўпайиши",
-        "Кимйовий моддаларсиз касаллик назорати",
-        "Суғориш сувида 30–45% кўпроқ ериган кислород",
-        "Екологик тоза технологийа"
+        "13–35% hosildorlik o'sishi",
+        "90–98% nematodalarni yo'q qilish",
+        "Ildiz massasining ko'payishi",
+        "Kimyoviy moddalarsiz kasallik nazorati",
+        "Sug'orish suvida 30–45% ko'proq erigan kislorod",
+        "Ekologik toza texnologiya"
       ],
       "sections": {
         "intro": {
-          "paragraph1": "Иссиқхона хўжаликларида озон комплекс қўлланилади: ҳаво, ўсимлик йузалари, тупроқ ва суғориш сувини дезинфексийа қилиш учун. Бу ҳосилдорликни ошириш ва кимйовий моддаларсиз касалликларни самарали назорат қилиш имконини беради.",
-          "paragraph2": "Озон сувда кислородга қараганда 15 баравар йахши ерийди. Озонланган сув билан суғориш тупроқ сифатини йахшилаш, илдиз массасини ошириш ва илдиз патогенларини камайтириш орқали ҳосилдорликни 13–35% га оширади.",
-          "scientificFact": "Илмий факт: Озон сувда кислородга қараганда 15 баравар кўпроқ ерийди. Бу тупроқни кислород билан тўйинтирадиган ва патогенларни йўқ қиладиган юқори даражада бойитилган суғориш еритмаларини яратиш имконини беради."
+          "paragraph1": "Issiqxona xo'jaliklarida ozon kompleks qo'llaniladi: havo, o'simlik yuzalari, tuproq va sug'orish suvini dezinfeksiya qilish uchun. Bu hosildorlikni oshirish va kimyoviy moddalarsiz kasalliklarni samarali nazorat qilish imkonini beradi.",
+          "paragraph2": "Ozon suvda kislorodga qaraganda 15 baravar yaxshi eriydi. Ozonlangan suv bilan sug'orish tuproq sifatini yaxshilash, ildiz massasini oshirish va ildiz patogenlarini kamaytirish orqali hosildorlikni 13–35% ga oshiradi.",
+          "scientificFact": "Ilmiy fakt: Ozon suvda kislorodga qaraganda 15 baravar ko'proq eriydi. Bu tuproqni kislorod bilan to'yintiradigan va patogenlarni yo'q qiladigan yuqori darajada boyitilgan sug'orish eritmalarini yaratish imkonini beradi."
         },
         "applications": {
-          "title": "Иссиқхоналарда озоннинг қўлланилиши",
+          "title": "Issiqxonalarda ozonning qo'llanilishi",
           "items": [
-            "Озонланган сув билан суғориш — ҳосилдорликни ошириш ва ўсишни рағбатлантириш",
-            "Иссиқхона тупроқларини дезинфексийа қилиш — нематода ва патогенларни назорат қилиш",
-            "Ҳавони озонлаш — замбуруғ, бактерийа, вирусларни йўқ қилиш",
-            "Зараркунандалардан ҳимойа — инсектитсидларга екологик тоза муқобил",
-            "Уруғларни екишдан олдин ишлаш — униб чиқишни йахшилаш",
-            "Иссиқхонани мавсумга таййорлаш — бинони тўлиқ дезинфексийа қилиш"
+            "Ozonlangan suv bilan sug'orish — hosildorlikni oshirish va o'sishni rag'batlantirish",
+            "Issiqxona tuproqlarini dezinfeksiya qilish — nematoda va patogenlarni nazorat qilish",
+            "Havoni ozonlash — zamburug', bakteriya, viruslarni yo'q qilish",
+            "Zararkunandalardan himoya — insektitsidlarga ekologik toza muqobil",
+            "Urug'larni ekishdan oldin ishlash — unib chiqishni yaxshilash",
+            "Issiqxonani mavsumga tayyorlash — binoni to'liq dezinfeksiya qilish"
           ]
         },
         "irrigation": {
-          "title": "Озонланган сув билан суғориш",
-          "intro": "Озон билан бойитилган сув билан суғориш ҳосилдорликни оширишнинг енг самарали технологийаларидан биридир. Озон тезда кислородга парчаланади, илдиз зонасини тўйинтиради ва ўсимлик ривожланишини рағбатлантиради.",
-          "tableCaption": "Озонланган сувнинг турли екинлар ҳосилдорлигига та'сири",
+          "title": "Ozonlangan suv bilan sug'orish",
+          "intro": "Ozon bilan boyitilgan suv bilan sug'orish hosildorlikni oshirishning eng samarali texnologiyalaridan biridir. Ozon tezda kislorodga parchalanadi, ildiz zonasini to'yintiradi va o'simlik rivojlanishini rag'batlantiradi.",
+          "tableCaption": "Ozonlangan suvning turli ekinlar hosildorligiga ta'siri",
           "tableHeaders": [
-            "Екин",
-            "О₃ контсентратсийаси",
-            "Ҳосил ўсиши",
-            "Қўшимча еффект"
+            "Ekin",
+            "O₃ kontsentratsiyasi",
+            "Hosil o'sishi",
+            "Qo'shimcha effekt"
           ],
           "tableData": [
             [
-              "Помидор",
-              "0.5–1.0 мг/л",
+              "Pomidor",
+              "0.5–1.0 mg/l",
               "+18–25%",
-              "Мева ҳажми каттароқ"
+              "Meva hajmi kattaroq"
             ],
             [
-              "Бодринг",
-              "0.5–0.8 мг/л",
+              "Bodring",
+              "0.5–0.8 mg/l",
               "+15–22%",
-              "Та'ми йахшиланган"
+              "Ta'mi yaxshilangan"
             ],
             [
-              "Қалампир",
-              "0.5–1.0 мг/л",
+              "Qalampir",
+              "0.5–1.0 mg/l",
               "+20–28%",
-              "Сақлаш муддати узайган"
+              "Saqlash muddati uzaygan"
             ],
             [
-              "Салат барги",
-              "0.3–0.5 мг/л",
+              "Salat bargi",
+              "0.3–0.5 mg/l",
               "+13–18%",
-              "Ташқи кўриниши йахшиланган"
+              "Tashqi ko'rinishi yaxshilangan"
             ],
             [
-              "Қулупнай",
-              "0.5–0.8 мг/л",
+              "Qulupnay",
+              "0.5–0.8 mg/l",
               "+22–35%",
-              "Шакар миқдори ошган"
+              "Shakar miqdori oshgan"
             ]
           ],
-          "highlight": "Тадқиқотлар шуни кўрсатадики, озонланган сув билан мунтазам суғориш ўсимлик илдиз массасини 15–25% га оширади, бу озуқа моддаларининг йахшироқ ўзлаштирилишини ва стрессга чидамлиликни та'минлайди."
+          "highlight": "Tadqiqotlar shuni ko'rsatadiki, ozonlangan suv bilan muntazam sug'orish o'simlik ildiz massasini 15–25% ga oshiradi, bu ozuqa moddalarining yaxshiroq o'zlashtirilishini va stressga chidamlilikni ta'minlaydi."
         },
         "soilDisinfection": {
-          "title": "Иссиқхона тупроқларини дезинфексийа қилиш",
-          "intro": "Илдиз бўртма нематодаси иссиқхона екинларининг асосий душманларидан биридир. Кимйовий кураш усуллари самарасиз ва тупроқни ифлослантиради. Тупроқни контсентрланган озон еритмаси билан озонлаш нематодаларни самарали бостиради ва ўсимлик ривожланишини рағбатлантиради.",
-          "tableCaption": "Тупроқ патогенларига қарши озонлаш самарадорлиги",
+          "title": "Issiqxona tuproqlarini dezinfeksiya qilish",
+          "intro": "Ildiz bo'rtma nematodasi issiqxona ekinlarining asosiy dushmanlaridan biridir. Kimyoviy kurash usullari samarasiz va tuproqni ifloslantiradi. Tuproqni kontsentrlangan ozon eritmasi bilan ozonlash nematodalarni samarali bostiradi va o'simlik rivojlanishini rag'batlantiradi.",
+          "tableCaption": "Tuproq patogenlariga qarshi ozonlash samaradorligi",
           "tableHeaders": [
-            "Патоген",
-            "О₃ контсентратсийаси",
-            "Ишлов бериш вақти",
-            "Самарадорлик"
+            "Patogen",
+            "O₃ kontsentratsiyasi",
+            "Ishlov berish vaqti",
+            "Samaradorlik"
           ],
           "tableData": [
             [
-              "Илдиз бўртма нематодаси",
-              "3–5 мг/л",
-              "30–60 мин",
+              "Ildiz bo'rtma nematodasi",
+              "3–5 mg/l",
+              "30–60 min",
               "90–98%"
             ],
             [
-              "Фузариоз",
-              "2–3 мг/л",
-              "20–30 мин",
+              "Fuzarioz",
+              "2–3 mg/l",
+              "20–30 min",
               "95–99%"
             ],
             [
-              "Вертитсиллиоз",
-              "2–3 мг/л",
-              "20–30 мин",
+              "Vertitsillioz",
+              "2–3 mg/l",
+              "20–30 min",
               "93–97%"
             ],
             [
-              "Илдиз чириши",
-              "1.5–2.5 мг/л",
-              "15–25 мин",
+              "Ildiz chirishi",
+              "1.5–2.5 mg/l",
+              "15–25 min",
               "90–95%"
             ],
             [
-              "Фитофтороз",
-              "2–4 мг/л",
-              "20–40 мин",
+              "Fitoftoroz",
+              "2–4 mg/l",
+              "20–40 min",
               "96–99%"
             ]
           ],
-          "processSteps": [
+          "steps": [
             {
-              "title": "Тупроқни таййорлаш",
-              "description": "Озон кириб боришини та'минлаш учун тупроқни йумшатиш. Ўсимлик қолдиқларини олиб ташлаш."
+              "title": "Tuproqni tayyorlash",
+              "description": "Ozon kirib borishini ta'minlash uchun tuproqni yumshatish. O'simlik qoldiqlarini olib tashlash."
             },
             {
-              "title": "Сувни озонлаш",
-              "description": "Махсус реакторда 3–5 мг/л контсентратсийали озонланган сув таййорлаш."
+              "title": "Suvni ozonlash",
+              "description": "Maxsus reaktorda 3–5 mg/l kontsentratsiyali ozonlangan suv tayyorlash."
             },
             {
-              "title": "Тупроқни суғориш",
-              "description": "Иссиқхонанинг ҳар м² майдонига 10–15 л ҳисобида озонланган сувни бир текисда қуйиш."
+              "title": "Tuproqni sug'orish",
+              "description": "Issiqxonaning har m² maydoniga 10–15 l hisobida ozonlangan suvni bir tekisda quyish."
             },
             {
-              "title": "Експозитсийа",
-              "description": "Патогенларни тўлиқ йўқ қилиш учун 30–60 дақиқа кутиш."
+              "title": "Ekspozitsiya",
+              "description": "Patogenlarni to'liq yo'q qilish uchun 30–60 daqiqa kutish."
             },
             {
-              "title": "Екиш",
-              "description": "Кўчатларни ишлов беришдан 24–48 соат ўтгач екиш мумкин."
+              "title": "Ekish",
+              "description": "Ko'chatlarni ishlov berishdan 24–48 soat o'tgach ekish mumkin."
             }
           ]
         },
         "airOzonation": {
-          "title": "Иссиқхоналарда ҳавони озонлаш",
-          "intro": "Иссиқхона ҳавосини озонлаш замбуруғлар, бактерийалар, ачитқилар, вируслар ва зараркунандаларни йўқ қилади. Йуқори контсентратсийалар иссиқхонани екишга таййорлашда, бино бўш бўлган пайтда қўлланилади.",
-          "tableCaption": "Иссиқхоналарда ҳавони озонлаш режимлари",
+          "title": "Issiqxonalarda havoni ozonlash",
+          "intro": "Issiqxona havosini ozonlash zamburug'lar, bakteriyalar, achitqilar, viruslar va zararkunandalarni yo'q qiladi. Yuqori kontsentratsiyalar issiqxonani ekishga tayyorlashda, bino bo'sh bo'lgan paytda qo'llaniladi.",
+          "tableCaption": "Issiqxonalarda havoni ozonlash rejimlari",
           "tableHeaders": [
-            "Мақсад",
-            "О₃ контсентратсийаси",
-            "Вақт",
-            "Еслатма"
+            "Maqsad",
+            "O₃ kontsentratsiyasi",
+            "Vaqt",
+            "Eslatma"
           ],
           "tableData": [
             [
-              "Касалликлар профилактикаси",
-              "0.1–0.3 мг/м³",
-              "Кунига 2–4 соат",
-              "Ўсимликлар мавжуд бўлганда"
+              "Kasalliklar profilaktikasi",
+              "0.1–0.3 mg/m³",
+              "Kuniga 2–4 soat",
+              "O'simliklar mavjud bo'lganda"
             ],
             [
-              "Зараркунандаларга қарши кураш",
-              "1–2 мг/м³",
-              "4–6 соат",
-              "Одамлар ва ҳайвонларсиз"
+              "Zararkunandalarga qarshi kurash",
+              "1–2 mg/m³",
+              "4–6 soat",
+              "Odamlar va hayvonlarsiz"
             ],
             [
-              "Иссиқхонани дезинфексийа қилиш",
-              "5–10 мг/м³",
-              "8–12 соат",
-              "Ўсимликларсиз, мавсумдан олдин"
+              "Issiqxonani dezinfeksiya qilish",
+              "5–10 mg/m³",
+              "8–12 soat",
+              "O'simliklarsiz, mavsumdan oldin"
             ],
             [
-              "Моғорни йўқ қилиш",
-              "2–3 мг/м³",
-              "4–8 соат",
-              "Ҳосил йиғиб олингандан кейин"
+              "Mog'orni yo'q qilish",
+              "2–3 mg/m³",
+              "4–8 soat",
+              "Hosil yig'ib olingandan keyin"
             ]
           ],
-          "warning": "Муҳим: Иссиқхонани йуқори озон контсентратсийалари (1 мг/м³ дан йуқори) билан ишлаганда ходимлар чиқариб йуборилиши ва бино герметик йопилиши керак. Ишлов беришдан кейин 30–60 дақиқа шамоллатиш талаб қилинади."
+          "warning": "Muhim: Issiqxonani yuqori ozon kontsentratsiyalari (1 mg/m³ dan yuqori) bilan ishlaganda xodimlar chiqarib yuborilishi va bino germetik yopilishi kerak. Ishlov berishdan keyin 30–60 daqiqa shamollatish talab qilinadi."
         },
         "seedTreatment": {
-          "title": "Уруғларни екишдан олдин ишлаш",
-          "intro": "Уруғларни озон билан ишлаш униб чиқишни, униб чиқиш қувватини ва йош ўсимликларнинг касалликларга чидамлилигини оширади. Технологийа кимйовий уруғ дориловчилардан воз кечиш имконини беради.",
-          "tableCaption": "Уруғларни екишдан олдин озонлаш натижалари",
+          "title": "Urug'larni ekishdan oldin ishlash",
+          "intro": "Urug'larni ozon bilan ishlash unib chiqishni, unib chiqish quvvatini va yosh o'simliklarning kasalliklarga chidamliligini oshiradi. Texnologiya kimyoviy urug' dorilovchilardan voz kechish imkonini beradi.",
+          "tableCaption": "Urug'larni ekishdan oldin ozonlash natijalari",
           "tableHeaders": [
-            "Екин",
-            "О₃ контсентратсийаси",
-            "Ишлов бериш вақти",
-            "Натижа"
+            "Ekin",
+            "O₃ kontsentratsiyasi",
+            "Ishlov berish vaqti",
+            "Natija"
           ],
           "tableData": [
             [
-              "Помидор",
-              "5–10 мг/м³",
-              "30–60 мин",
-              "Униб чиқиш +8–12%"
+              "Pomidor",
+              "5–10 mg/m³",
+              "30–60 min",
+              "Unib chiqish +8–12%"
             ],
             [
-              "Бодринг",
-              "5–8 мг/м³",
-              "20–40 мин",
-              "Униб чиқиш +10–15%"
+              "Bodring",
+              "5–8 mg/m³",
+              "20–40 min",
+              "Unib chiqish +10–15%"
             ],
             [
-              "Қалампир",
-              "8–12 мг/м³",
-              "40–60 мин",
-              "Униб чиқиш +7–10%"
+              "Qalampir",
+              "8–12 mg/m³",
+              "40–60 min",
+              "Unib chiqish +7–10%"
             ],
             [
-              "Карам",
-              "5–8 мг/м³",
-              "20–30 мин",
-              "Униб чиқиш +12–18%"
+              "Karam",
+              "5–8 mg/m³",
+              "20–30 min",
+              "Unib chiqish +12–18%"
             ]
           ]
         },
         "benefits": {
-          "title": "Иссиқхоналарда озонлашнинг афзалликлари",
+          "title": "Issiqxonalarda ozonlashning afzalliklari",
           "items": [
             {
-              "title": "Екологик тозалик",
-              "description": "Озон зарарли бирикмалар ҳосил қилмасдан кислородга парчаланади — маҳсулотлар екологик тоза бўлиб қолади"
+              "title": "Ekologik tozalik",
+              "description": "Ozon zararli birikmalar hosil qilmasdan kislorodga parchalanadi — mahsulotlar ekologik toza bo'lib qoladi"
             },
             {
-              "title": "Кимйовий моддаларсиз",
-              "description": "Пеститсидлар, фунгитсидлар ва уруғ дориловчиларни тўлиқ алмаштириш йоки сезиларли даражада камайтириш"
+              "title": "Kimyoviy moddalarsiz",
+              "description": "Pestitsidlar, fungitsidlar va urug' dorilovchilarni to'liq almashtirish yoki sezilarli darajada kamaytirish"
             },
             {
-              "title": "Ҳосилдорлик ўсиши",
-              "description": "Мунтазам озонланган сув билан суғоришда 13–35% ҳосилдорлик ўсиши"
+              "title": "Hosildorlik o'sishi",
+              "description": "Muntazam ozonlangan suv bilan sug'orishda 13–35% hosildorlik o'sishi"
             },
             {
-              "title": "Нематодани назорат қилиш",
-              "description": "Тупроқ микрофлорасига зарар йетказмасдан илдиз бўртма нематодасига қарши 90–98% самарадорлик"
+              "title": "Nematodani nazorat qilish",
+              "description": "Tuproq mikroflorasiga zarar yetkazmasdan ildiz bo'rtma nematodasiga qarshi 90–98% samaradorlik"
             },
             {
-              "title": "Маҳсулот сифати",
-              "description": "Йетиштирилган маҳсулотларнинг та'ми, сақлаш муддати ва ташқи кўриниши йахшиланиши"
+              "title": "Mahsulot sifati",
+              "description": "Yetishtirilgan mahsulotlarning ta'mi, saqlash muddati va tashqi ko'rinishi yaxshilanishi"
             },
             {
-              "title": "Иқтисодий фойда",
-              "description": "Ҳосилдорлик ўсиши ва кимйовий харажатларнинг камайиши ҳисобига ускунанинг 1–2 мавсумда ўзини оқлаши"
+              "title": "Iqtisodiy foyda",
+              "description": "Hosildorlik o'sishi va kimyoviy xarajatlarning kamayishi hisobiga uskunaning 1–2 mavsumda o'zini oqlashi"
             }
           ]
-        },
-        "intro": {
-          "paragraph1": "Иссиқхона хўжаликларида озон комплекс қўлланилади: ҳаво, ўсимлик йузалари, тупроқ ва суғориш сувини дезинфексийа қилиш учун. Бу ҳосилдорликни ошириш ва кимйовий моддаларсиз касалликларни самарали назорат қилиш имконини беради.",
-          "paragraph2": "Озон сувда кислородга қараганда 15 баравар йахши ерийди. Озонланган сув билан суғориш тупроқ сифатини йахшилаш, илдиз массасини ошириш ва илдиз патогенларини камайтириш орқали ҳосилдорликни 13–35% га оширади.",
-          "scientificFact": "Илмий факт: Озон сувда кислородга қараганда 15 баравар кўпроқ ерийди. Бу тупроқни кислород билан тўйинтирадиган ва патогенларни йўқ қиладиган йуқори даражада бойитилган суғориш еритмаларини йаратиш имконини беради."
         }
       }
     },
     "aquaculture": {
-      "title": "Аквакултура (РАС)",
-      "shortDesc": "Балиқ йетиштиришнинг йопиқ тизимларида сувни тозалаш ва балиқ касалликларини назорат қилиш",
+      "title": "Akvakultura (RAS)",
+      "shortDesc": "Baliq yetishtirishning yopiq tizimlarida suvni tozalash va baliq kasalliklarini nazorat qilish",
       "stats": {
         "disinfection": {
-          "value": "99% гача",
-          "label": "Дезинфексийа",
-          "description": "Сувдаги патогенларни йўқ қилиш"
+          "value": "99% gacha",
+          "label": "Dezinfeksiya",
+          "description": "Suvdagi patogenlarni yo'q qilish"
         },
         "cycleSaving": {
           "value": "20-30%",
-          "label": "Тсиклни қисқартириш",
-          "description": "Балиқнинг тезроқ ўсиши"
+          "label": "Tsiklni qisqartirish",
+          "description": "Baliqning tezroq o'sishi"
         },
         "mortalityReduction": {
           "value": "50-70%",
-          "label": "Ўлим даражасининг пасайиши",
-          "description": "Чавоқлар ва катталар орасида"
+          "label": "O'lim darajasining pasayishi",
+          "description": "Chavoqlar va kattalar orasida"
         },
         "waterSaving": {
           "value": "40-60%",
-          "label": "Сувни тежаш",
-          "description": "Йанги сув беришнинг камайиши"
+          "label": "Suvni tejash",
+          "description": "Yangi suv berishning kamayishi"
         }
       },
-      "content": "Балиқчиликда озонлаш ишлаб чиқаришнинг барча босқичларида қўлланилади: сув таййорлашдан тортиб ҳосилни сақлашгача. Озон сувни дезинфексийа қилади, балиқ касалликларини назорат қилади ва сақлаш муддатини узайтиради.\n\nЙопиқ сув та'миноти қурилмаларида (РАС) озонлаш оғир металл ионларини, микросу ўтларни, токсинларни, замбуруғ спораларини, микробларни ва кисталарни йўқ қилади. Сувнинг лойқалиги сезиларли даражада пасайади ва йоқимсиз ҳидлар йўқолади.\n\nОзон патоген организмларнинг: вируслар, бактерийалар ва паразит бир ҳужайралиларнинг 99% гача қисмини йўқ қилади. Бу балиқларнинг касалланиши ва ўлимини камайтиради ва йуқорироқ зичликда сақлаш имконини беради.\n\nТавсийа етилган озон дозаси 1 кг йем учун тахминан 13 г ни ташкил қилади. Тоза сувда балиқлар тезроқ вазн олади ва ишлаб чиқариш тсикли қисқаради.",
+      "content": "Baliqchilikda ozonlash ishlab chiqarishning barcha bosqichlarida qo'llaniladi: suv tayyorlashdan tortib hosilni saqlashgacha. Ozon suvni dezinfeksiya qiladi, baliq kasalliklarini nazorat qiladi va saqlash muddatini uzaytiradi.\n\nYopiq suv ta'minoti qurilmalarida (RAS) ozonlash og'ir metall ionlarini, mikrosu o'tlarni, toksinlarni, zamburug' sporalarini, mikroblarni va kistalarni yo'q qiladi. Suvning loyqaligi sezilarli darajada pasayadi va yoqimsiz hidlar yo'qoladi.\n\nOzon patogen organizmlarning: viruslar, bakteriyalar va parazit bir hujayralilarning 99% gacha qismini yo'q qiladi. Bu baliqlarning kasallanishi va o'limini kamaytiradi va yuqoriroq zichlikda saqlash imkonini beradi.\n\nTavsiya etilgan ozon dozasi 1 kg yem uchun taxminan 13 g ni tashkil qiladi. Toza suvda baliqlar tezroq vazn oladi va ishlab chiqarish tsikli qisqaradi.",
       "benefits": [
-        "99% гача патогенларни дезинфексийа қилиш",
-        "Қисқароқ ишлаб чиқариш тсикли",
-        "Балиқ ўлимининг камайиши",
-        "Йуқори зичликда сақлаш имконийати",
-        "Йанги сувга бўлган талабнинг камайиши",
-        "Сувнинг кислород билан тўйиниши"
+        "99% gacha patogenlarni dezinfeksiya qilish",
+        "Qisqaroq ishlab chiqarish tsikli",
+        "Baliq o'limining kamayishi",
+        "Yuqori zichlikda saqlash imkoniyati",
+        "Yangi suvga bo'lgan talabning kamayishi",
+        "Suvning kislorod bilan to'yinishi"
       ],
       "sections": {
         "intro": {
-          "paragraph1": "Балиқчиликда озонлаш ишлаб чиқаришнинг барча босқичларида қўлланилади: сув таййорлашдан тортиб таййор маҳсулотни сақлашгача. Озон сувни дезинфексийа қилади, балиқ касалликларини назорат қилади ва ишлаб чиқариш тсиклини сезиларли даражада қисқартиради.",
-          "paragraph2": "Йопиқ сув та'миноти қурилмаларида (РАС) озонлаш сувдаги оғир металл ионларини, микросу ўтларни, токсинларни, замбуруғ спораларини, микробларни ва кисталарни йўқ қилади. Сувнинг лойқалиги сезиларли даражада камайади, йоқимсиз ҳидлар йўқолади ва балиқ ўсиши учун мақбул шароитлар йаратилади."
+          "paragraph1": "Baliqchilikda ozonlash ishlab chiqarishning barcha bosqichlarida qo'llaniladi: suv tayyorlashdan tortib tayyor mahsulotni saqlashgacha. Ozon suvni dezinfeksiya qiladi, baliq kasalliklarini nazorat qiladi va ishlab chiqarish tsiklini sezilarli darajada qisqartiradi.",
+          "paragraph2": "Yopiq suv ta'minoti qurilmalarida (RAS) ozonlash suvdagi og'ir metall ionlarini, mikrosu o'tlarni, toksinlarni, zamburug' sporalarini, mikroblarni va kistalarni yo'q qiladi. Suvning loyqaligi sezilarli darajada kamayadi, yoqimsiz hidlar yo'qoladi va baliq o'sishi uchun maqbul sharoitlar yaratiladi."
         },
         "dosage": {
-          "title": "Тавсийа етилган доза:",
-          "text": "1 кг йем учун 13 г озон. Ушбу доза дезинфексийа самарадорлиги ва балиқ хавфсизлиги ўртасидаги оптимал мувозанатни та'минлайди."
+          "title": "Tavsiya etilgan doza:",
+          "text": "1 kg yem uchun 13 g ozon. Ushbu doza dezinfeksiya samaradorligi va baliq xavfsizligi o'rtasidagi optimal muvozanatni ta'minlaydi."
         },
         "advantages": {
-          "title": "РАСда озонлашнинг афзалликлари",
+          "title": "RASda ozonlashning afzalliklari",
           "items": [
-            "Сувни вируслар, бактерийалар ва паразит бир ҳужайралилардан дезинфексийа қилиш",
-            "Органик бирикмалар ва аммиакни оксидлаш",
-            "Сув лойқалиги ва рангини йўқ қилиш",
-            "Йоқимсиз ҳидларни (геосмин, 2-метилизоборнеол) йўқ қилиш",
-            "Филтрлашни йахшилаш учун майда муаллақ заррачаларни коагулйатсийаси",
-            "Сувни ериган кислород билан тўйинтириш",
-            "Йанги сув сарфини 40-60% га камайтириш"
+            "Suvni viruslar, bakteriyalar va parazit bir hujayralilardan dezinfeksiya qilish",
+            "Organik birikmalar va ammiakni oksidlash",
+            "Suv loyqaligi va rangini yo'q qilish",
+            "Yoqimsiz hidlarni (geosmin, 2-metilizoborneol) yo'q qilish",
+            "Filtrlashni yaxshilash uchun mayda muallaq zarrachalarni koagulyatsiyasi",
+            "Suvni erigan kislorod bilan to'yintirish",
+            "Yangi suv sarfini 40-60% ga kamaytirish"
           ]
         },
         "waterQuality": {
-          "title": "Озоннинг сув сифатига та'сири",
-          "intro": "Сув сифати муваффақийатли балиқ йетиштириш учун ҳал қилувчи омил ҳисобланади. Озонлаш ҳам биологик, ҳам кимйовий ифлослантирувчи моддаларни йўқ қилиб, сувни комплекс тозалашни та'минлайди.",
-          "tableCaption": "РАСда сувни озонлаш самарадорлиги",
+          "title": "Ozonning suv sifatiga ta'siri",
+          "intro": "Suv sifati muvaffaqiyatli baliq yetishtirish uchun hal qiluvchi omil hisoblanadi. Ozonlash ham biologik, ham kimyoviy ifloslantiruvchi moddalarni yo'q qilib, suvni kompleks tozalashni ta'minlaydi.",
+          "tableCaption": "RASda suvni ozonlash samaradorligi",
           "tableHeaders": [
-            "Кўрсаткич",
-            "Ишлов беришдан олдин",
-            "Ишлов беришдан кейин",
-            "Йахшиланиш"
+            "Ko'rsatkich",
+            "Ishlov berishdan oldin",
+            "Ishlov berishdan keyin",
+            "Yaxshilanish"
           ],
           "tableData": [
             [
-              "Умумий бактерийалар сони",
-              "10⁵-10⁶ КОЕ/мл",
-              "10²-10³ КОЕ/мл",
+              "Umumiy bakteriyalar soni",
+              "10⁵-10⁶ KOE/ml",
+              "10²-10³ KOE/ml",
               "99-99.9%"
             ],
             [
-              "Сув лойқалиги",
-              "15-25 НТУ",
-              "1-3 НТУ",
+              "Suv loyqaligi",
+              "15-25 NTU",
+              "1-3 NTU",
               "85-95%"
             ],
             [
-              "Аммиак (НҲ₃)",
-              "0.5-1.5 мг/л",
-              "0.05-0.1 мг/л",
+              "Ammiak (NH₃)",
+              "0.5-1.5 mg/l",
+              "0.05-0.1 mg/l",
               "90-95%"
             ],
             [
-              "Нитритлар (НО₂)",
-              "0.3-0.8 мг/л",
-              "0.02-0.05 мг/л",
+              "Nitritlar (NO₂)",
+              "0.3-0.8 mg/l",
+              "0.02-0.05 mg/l",
               "90-95%"
             ],
             [
-              "Сув ранги",
+              "Suv rangi",
               "40-60°",
               "5-10°",
               "80-90%"
             ],
             [
-              "Геосмин",
-              "50-100 нг/л",
-              "< 5 нг/л",
+              "Geosmin",
+              "50-100 ng/l",
+              "< 5 ng/l",
               "> 95%"
             ]
           ],
-          "note": "Тоза озонланган сувда балиқлар тезроқ вазн олади, ишлаб чиқариш тсикли 20-30% га қисқаради ва йем ўзлаштирилиши 10-15% га йахшиланади."
+          "note": "Toza ozonlangan suvda baliqlar tezroq vazn oladi, ishlab chiqarish tsikli 20-30% ga qisqaradi va yem o'zlashtirilishi 10-15% ga yaxshilanadi."
         },
         "pathogens": {
-          "title": "Балиқ касалликларига қарши кураш",
-          "intro": "Озон патоген организмларнинг: вируслар, бактерийалар ва паразит бир ҳужайралиларнинг 99% гача қисмини йўқ қилади. Бу балиқларнинг касалланишини камайтиради, ўлимни пасайтиради ва йуқорироқ зичликда сақлаш имконини беради.",
-          "tableCaption": "Балиқ патогенларига қарши озон самарадорлиги",
+          "title": "Baliq kasalliklariga qarshi kurash",
+          "intro": "Ozon patogen organizmlarning: viruslar, bakteriyalar va parazit bir hujayralilarning 99% gacha qismini yo'q qiladi. Bu baliqlarning kasallanishini kamaytiradi, o'limni pasaytiradi va yuqoriroq zichlikda saqlash imkonini beradi.",
+          "tableCaption": "Baliq patogenlariga qarshi ozon samaradorligi",
           "tableHeaders": [
-            "Патоген",
-            "Касаллик",
-            "О₃ контсентратсийаси",
-            "Самарадорлик"
+            "Patogen",
+            "Kasallik",
+            "O₃ kontsentratsiyasi",
+            "Samaradorlik"
           ],
           "tableData": [
             [
-              "Аеромонас салмониcида",
-              "Фурункулйоз",
-              "0.1-0.3 мг/л",
+              "Aeromonas salmonicida",
+              "Furunkulyoz",
+              "0.1-0.3 mg/l",
               "99.9%"
             ],
             [
-              "Вибрио ангуилларум",
-              "Вибриоз",
-              "0.1-0.2 мг/л",
+              "Vibrio anguillarum",
+              "Vibrioz",
+              "0.1-0.2 mg/l",
               "99.9%"
             ],
             [
-              "Ичтҳйопҳтҳириус",
-              "Ихтиофтириоз",
-              "0.2-0.4 мг/л",
+              "Ichthyophthirius",
+              "Ixtioftirioz",
+              "0.2-0.4 mg/l",
               "99%"
             ],
             [
-              "Сапролегниа",
-              "Сапролегниоз",
-              "0.15-0.3 мг/л",
+              "Saprolegnia",
+              "Saprolegnioz",
+              "0.15-0.3 mg/l",
               "99.5%"
             ],
             [
-              "ВҲС вируси",
-              "Вирусли геморрагик септитсемийа",
-              "0.1-0.2 мг/л",
+              "VHS virusi",
+              "Virusli gemorragik septitsemiya",
+              "0.1-0.2 mg/l",
               "99.99%"
             ],
             [
-              "ИҲН вируси",
-              "Инфексион гемопоетик некроз",
-              "0.1-0.2 мг/л",
+              "IHN virusi",
+              "Infeksion gemopoetik nekroz",
+              "0.1-0.2 mg/l",
               "99.99%"
             ]
           ]
         },
         "fishTypes": {
-          "title": "Турли балиқ турлари учун озонлаш режимлари",
-          "intro": "Турли балиқ турлари қолдиқ озонга нисбатан турлича сезгирликка ега. Ҳар бир тур учун балиқ хавфсизлигини сақлаган ҳолда дезинфексийа самарадорлигини та'минловчи оптимал режимни танлаш муҳимдир.",
-          "tableCaption": "Тавсийа етилган озонлаш режимлари",
+          "title": "Turli baliq turlari uchun ozonlash rejimlari",
+          "intro": "Turli baliq turlari qoldiq ozonga nisbatan turlicha sezgirlikka ega. Har bir tur uchun baliq xavfsizligini saqlagan holda dezinfeksiya samaradorligini ta'minlovchi optimal rejimni tanlash muhimdir.",
+          "tableCaption": "Tavsiya etilgan ozonlash rejimlari",
           "tableHeaders": [
-            "Балиқ тури",
-            "Озон дозаси",
-            "Қолдиқ О₃",
-            "Алоқа вақти"
+            "Baliq turi",
+            "Ozon dozasi",
+            "Qoldiq O₃",
+            "Aloqa vaqti"
           ],
           "tableData": [
             [
-              "Форел",
-              "10-15 г/кг йем",
-              "< 0.01 мг/л",
-              "3-5 мин"
+              "Forel",
+              "10-15 g/kg yem",
+              "< 0.01 mg/l",
+              "3-5 min"
             ],
             [
-              "Осийотр",
-              "12-18 г/кг йем",
-              "< 0.01 мг/л",
-              "3-5 мин"
+              "Osiyotr",
+              "12-18 g/kg yem",
+              "< 0.01 mg/l",
+              "3-5 min"
             ],
             [
-              "Тилапийа",
-              "8-12 г/кг йем",
-              "< 0.02 мг/л",
-              "2-4 мин"
+              "Tilapiya",
+              "8-12 g/kg yem",
+              "< 0.02 mg/l",
+              "2-4 min"
             ],
             [
-              "Сазан",
-              "10-15 г/кг йем",
-              "< 0.01 мг/л",
-              "3-5 мин"
+              "Sazan",
+              "10-15 g/kg yem",
+              "< 0.01 mg/l",
+              "3-5 min"
             ],
             [
-              "Лагам",
-              "8-12 г/кг йем",
-              "< 0.02 мг/л",
-              "2-4 мин"
+              "Lagam",
+              "8-12 g/kg yem",
+              "< 0.02 mg/l",
+              "2-4 min"
             ],
             [
-              "Креветка",
-              "5-8 г/кг йем",
-              "< 0.005 мг/л",
-              "5-10 мин"
+              "Krevetka",
+              "5-8 g/kg yem",
+              "< 0.005 mg/l",
+              "5-10 min"
             ]
           ],
           "warning": {
-            "title": "Огоҳлантириш:",
-            "text": "Балиқ ҳовузидаги сувдаги қолдиқ озон 0.01-0.02 мг/л дан ошмаслиги керак. Назорат қилиш учун ОРП датчиклари ва автоматик дозалаш тизимларидан фойдаланинг."
+            "title": "Ogohlantirish:",
+            "text": "Baliq hovuzidagi suvdagi qoldiq ozon 0.01-0.02 mg/l dan oshmasligi kerak. Nazorat qilish uchun ORP datchiklari va avtomatik dozalash tizimlaridan foydalaning."
           }
         },
         "scheme": {
-          "title": "РАСда озонлаш схемаси",
+          "title": "RASda ozonlash sxemasi",
           "steps": [
             {
-              "title": "Ҳовуздан сув олиш",
-              "description": "Балиқ ҳайот фаолийати маҳсулотлари бўлган сув тозалашга йуборилади"
+              "title": "Hovuzdan suv olish",
+              "description": "Baliq hayot faoliyati mahsulotlari bo'lgan suv tozalashga yuboriladi"
             },
             {
-              "title": "Механик филтрлаш",
-              "description": "Барабанли йоки лентали филтрда йирик муаллақ заррачаларни олиб ташлаш"
+              "title": "Mexanik filtrlash",
+              "description": "Barabanli yoki lentali filtrda yirik muallaq zarrachalarni olib tashlash"
             },
             {
-              "title": "Озон алоқа камераси",
-              "description": "Диффузорлар йоки инжекторлар орқали озон йубориш, алоқа вақти 3-5 дақиқа"
+              "title": "Ozon aloqa kamerasi",
+              "description": "Diffuzorlar yoki injektorlar orqali ozon yuborish, aloqa vaqti 3-5 daqiqa"
             },
             {
-              "title": "Биофилтрлаш",
-              "description": "Биологик филтрда аммиак ва нитритларни йакуний тозалаш"
+              "title": "Biofiltrlash",
+              "description": "Biologik filtrda ammiak va nitritlarni yakuniy tozalash"
             },
             {
-              "title": "Дегазатсийа",
-              "description": "Дегазаторда йоки фаоллаштирилган кўмир орқали қолдиқ озонни олиб ташлаш"
+              "title": "Degazatsiya",
+              "description": "Degazatorda yoki faollashtirilgan ko'mir orqali qoldiq ozonni olib tashlash"
             },
             {
-              "title": "Ҳовузга қайтариш",
-              "description": "Тозаланган сув балиқларга қайтарилади"
+              "title": "Hovuzga qaytarish",
+              "description": "Tozalangan suv baliqlarga qaytariladi"
             }
           ]
         },
         "economic": {
-          "title": "Иқтисодий самарадорлик",
-          "intro": "РАСда озонлашни жорий етиш ўсиш кўрсаткичларини йахшилаш ва оператсион харажатларни камайтириш орқали комплекс иқтисодий фойда келтиради.",
-          "tableCaption": "РАСда озонлашнинг иқтисодий кўрсаткичлари",
+          "title": "Iqtisodiy samaradorlik",
+          "intro": "RASda ozonlashni joriy etish o'sish ko'rsatkichlarini yaxshilash va operatsion xarajatlarni kamaytirish orqali kompleks iqtisodiy foyda keltiradi.",
+          "tableCaption": "RASda ozonlashning iqtisodiy ko'rsatkichlari",
           "tableHeaders": [
-            "Кўрсаткич",
-            "Озонсиз",
-            "Озон билан",
-            "Фойда"
+            "Ko'rsatkich",
+            "Ozonsiz",
+            "Ozon bilan",
+            "Foyda"
           ],
           "tableData": [
             [
-              "Чавоқларнинг йашовчанлиги",
+              "Chavoqlarning yashovchanligi",
               "60-70%",
               "85-95%",
               "+25-35%"
             ],
             [
-              "Йем коеффитсиенти",
+              "Yem koeffitsienti",
               "1.3-1.5",
               "1.1-1.2",
-              "15-20% тежаш"
+              "15-20% tejash"
             ],
             [
-              "Сақлаш зичлиги",
-              "30-40 кг/м³",
-              "50-80 кг/м³",
+              "Saqlash zichligi",
+              "30-40 kg/m³",
+              "50-80 kg/m³",
               "+60-100%"
             ],
             [
-              "Йетиштириш вақти",
-              "12 ой",
-              "9-10 ой",
-              "20-25% қисқариш"
+              "Yetishtirish vaqti",
+              "12 oy",
+              "9-10 oy",
+              "20-25% qisqarish"
             ],
             [
-              "Даволаш харажатлари",
+              "Davolash xarajatlari",
               "100%",
               "20-30%",
-              "70-80% тежаш"
+              "70-80% tejash"
             ],
             [
-              "Йанги сув исте'моли",
+              "Yangi suv iste'moli",
               "100%",
               "40-60%",
-              "40-60% тежаш"
+              "40-60% tejash"
             ]
           ]
         },
         "benefits": {
-          "title": "Балиқчиликда озонлашнинг афзалликлари",
+          "title": "Baliqchilikda ozonlashning afzalliklari",
           "items": [
             {
-              "title": "Тоза сув",
-              "description": "Сувни 99% гача дезинфексийа қилиш, лойқалик, ранг ва йоқимсиз ҳидларни йўқ қилиш"
+              "title": "Toza suv",
+              "description": "Suvni 99% gacha dezinfeksiya qilish, loyqalik, rang va yoqimsiz hidlarni yo'q qilish"
             },
             {
-              "title": "Соғлом балиқ",
-              "description": "Касалланишни 50-70% га камайтириш, ветеринарийа харажатларини пасайтириш"
+              "title": "Sog'lom baliq",
+              "description": "Kasallanishni 50-70% ga kamaytirish, veterinariya xarajatlarini pasaytirish"
             },
             {
-              "title": "Тез ўсиш",
-              "description": "Оптимал шароитлар ҳисобига ишлаб чиқариш тсиклини 20-30% га қисқартириш"
+              "title": "Tez o'sish",
+              "description": "Optimal sharoitlar hisobiga ishlab chiqarish tsiklini 20-30% ga qisqartirish"
             },
             {
-              "title": "Йуқори зичлик",
-              "description": "Балиқлар учун хавфсиз ҳолда сақлаш зичлигини 60-100% га ошириш имконийати"
+              "title": "Yuqori zichlik",
+              "description": "Baliqlar uchun xavfsiz holda saqlash zichligini 60-100% ga oshirish imkoniyati"
             },
             {
-              "title": "Сувни тежаш",
-              "description": "Йахшиланган тозалаш туфайли йанги сув исте'молини 40-60% га камайтириш"
+              "title": "Suvni tejash",
+              "description": "Yaxshilangan tozalash tufayli yangi suv iste'molini 40-60% ga kamaytirish"
             },
             {
-              "title": "Маҳсулот сифати",
-              "description": "Сотиладиган балиқларда бегона та'м ва ҳидларнинг бўлмаслиги"
+              "title": "Mahsulot sifati",
+              "description": "Sotiladigan baliqlarda begona ta'm va hidlarning bo'lmasligi"
             }
           ]
         }
       }
     },
     "grain-storage": {
-      "title": "Донни сақлаш",
-      "shortDesc": "Зараркунандалар ва микроорганизмлардан кимйовий моддаларсиз ҳимойа қилиш",
-      "heroText": "Зараркунандалар ва микроорганизмлардан кимйовий моддаларсиз ҳимойа қилиш. 95–99% ҳашаротларни йўқ қилиш, сақлашдаги нобуд бўлишни 40–60% га камайтириш.",
-      "content": "Донни сақлаш муҳим жарайон бўлиб, унда зараркунандалардан кўриладиган зарар жаҳон ишлаб чиқаришининг 5 дан 50% гача қисмини ташкил қилиши мумкин. Уруғ ва донни озонлаш зараркунандаларни самарали назорат қилади ва моғор тарқалишининг олдини олади.\n\nОзон ҳашаротлар ва каналарга ривожланишнинг барча босқичларида та'сир қилади. 30–60 дақиқа давомида 30–60 мг/м³ билан ишлов беришдан кейин дон қандаласи, гуруч қандаласи ва дон кемирувчисининг ўлими 95–99% га йетади.\n\n15 дақиқадан 1 соатгача бўлган експозитсийада донни дезинфексийа қилиш даражаси умумий ифлосланиш учун 80–95% ва моғор замбуруғлари учун 80–90% га йетади. Ишлов бериш сезги йоки озуқавий сифатни йомонлаштирмайди.\n\nУруғларни екишдан олдин озонлаш униб чиқишни ва стрессга чидамлиликни оширади. Буғдой ҳосилдорлиги тахминан 22% га, арпа еса тахминан 17,5% га ошиши мумкин.",
+      "title": "Donni saqlash",
+      "shortDesc": "Zararkunandalar va mikroorganizmlardan kimyoviy moddalarsiz himoya qilish",
+      "heroText": "Zararkunandalar va mikroorganizmlardan kimyoviy moddalarsiz himoya qilish. 95–99% hasharotlarni yo'q qilish, saqlashdagi nobud bo'lishni 40–60% ga kamaytirish.",
+      "content": "Donni saqlash muhim jarayon bo'lib, unda zararkunandalardan ko'riladigan zarar jahon ishlab chiqarishining 5 dan 50% gacha qismini tashkil qilishi mumkin. Urug' va donni ozonlash zararkunandalarni samarali nazorat qiladi va mog'or tarqalishining oldini oladi.\n\nOzon hasharotlar va kanalarga rivojlanishning barcha bosqichlarida ta'sir qiladi. 30–60 daqiqa davomida 30–60 mg/m³ bilan ishlov berishdan keyin don qandalasi, guruch qandalasi va don kemiruvchisining o'limi 95–99% ga yetadi.\n\n15 daqiqadan 1 soatgacha bo'lgan ekspozitsiyada donni dezinfeksiya qilish darajasi umumiy ifloslanish uchun 80–95% va mog'or zamburug'lari uchun 80–90% ga yetadi. Ishlov berish sezgi yoki ozuqaviy sifatni yomonlashtirmaydi.\n\nUrug'larni ekishdan oldin ozonlash unib chiqishni va stressga chidamlilikni oshiradi. Bug'doy hosildorligi taxminan 22% ga, arpa esa taxminan 17,5% ga oshishi mumkin.",
       "stats": {
         "pestDestruction": {
           "value": "95–99%",
-          "label": "Зараркунандаларни йўқ қилиш",
-          "description": "Ривожланишнинг барча босқичларида"
+          "label": "Zararkunandalarni yo'q qilish",
+          "description": "Rivojlanishning barcha bosqichlarida"
         },
         "disinfection": {
           "value": "80–95%",
-          "label": "Дезинфексийа",
-          "description": "Микробиал ифлосланишнинг камайиши"
+          "label": "Dezinfeksiya",
+          "description": "Mikrobial ifloslanishning kamayishi"
         },
         "yieldIncrease": {
           "value": "17–22%",
-          "label": "Ҳосилдорлик ўсиши",
-          "description": "Екишдан олдин ишлов берилганда"
+          "label": "Hosildorlik o'sishi",
+          "description": "Ekishdan oldin ishlov berilganda"
         },
         "lossReduction": {
           "value": "40–60%",
-          "label": "Нобуд бўлишни камайтириш",
-          "description": "Донни сақлаш пайтида"
+          "label": "Nobud bo'lishni kamaytirish",
+          "description": "Donni saqlash paytida"
         }
       },
       "benefits": [
-        "95–99% зараркунандаларни йўқ қилиш",
-        "80–95% дезинфексийа",
-        "Екиш олдидан ишлов беришда 17–22% ҳосилдорлик ўсиши",
-        "Озуқавий сифатнинг сақланиши",
-        "Фумигатсийага екологик тоза муқобил",
-        "40–60% нобуд бўлишни камайтириш"
+        "95–99% zararkunandalarni yo'q qilish",
+        "80–95% dezinfeksiya",
+        "Ekish oldidan ishlov berishda 17–22% hosildorlik o'sishi",
+        "Ozuqaviy sifatning saqlanishi",
+        "Fumigatsiyaga ekologik toza muqobil",
+        "40–60% nobud bo'lishni kamaytirish"
       ],
       "sections": {
+        "intro": {
+          "paragraph1": "Donni saqlash muhim jarayon bo'lib, unda zararkunandalardan ko'riladigan zarar jahon ishlab chiqarishining 5 dan 50% gacha qismini tashkil qilishi mumkin. Ozonlash zararkunandalarni samarali nazorat qiladi va mog'or tarqalishining oldini oladi.",
+          "paragraph2": "Ozon hasharotlar va kanalarga barcha bosqichlarida ta'sir qiladi. 30–60 daqiqada 95–99% o'limi yetadi. Donni dezinfeksiya qilish darajasi 80–95% ga erishadi va ishlov berish ozuqaviy sifatni yomonlashtirmaydi."
+        },
         "applications": {
-          "title": "Озон қўллаш йўналишлари",
+          "title": "Ozon qo'llash yo'nalishlari",
           "items": [
-            "Дон дезинсексийаси — сақлаш зараркунандаларини йўқ қилиш",
-            "Дезинфексийа — микробиал ва замбуруғли ифлосланишни камайтириш",
-            "Детоксикатсийа — микотоксинларни парчалаш",
-            "Уруғларни екишдан олдин ишлаш — униб чиқишни ошириш",
-            "Дон омборларини дезинфексийа қилиш — йуклашга таййорлаш",
-            "Донни консерватсийа қилиш — сақлаш муддатини узайтириш"
+            "Don dezinseksiyasi — saqlash zararkunandalarini yo'q qilish",
+            "Dezinfeksiya — mikrobial va zamburug'li ifloslanishni kamaytirish",
+            "Detoksikatsiya — mikotoksinlarni parchalash",
+            "Urug'larni ekishdan oldin ishlash — unib chiqishni oshirish",
+            "Don omborlarini dezinfeksiya qilish — yuklashga tayyorlash",
+            "Donni konservatsiya qilish — saqlash muddatini uzaytirish"
           ]
         },
         "pests": {
-          "title": "Сақлаш зараркунандаларини йўқ қилиш",
-          "intro": "Озон ҳашаротлар ва каналарга барча босқичларда: тухум, личинка, ғумбак ва йетук ҳашарот ҳолатида та'сир қилади. Механизм кутикула липидларини оксидлаш ва ҳашаротларнинг нафас олиш тизимини йўқ қилишга асосланган.",
-          "tableCaption": "Дон зараркунандаларига қарши озонлаш самарадорлиги",
+          "title": "Saqlash zararkunandalarini yo'q qilish",
+          "intro": "Ozon hasharotlar va kanalarga barcha bosqichlarda: tuxum, lichinka, g'umbak va yetuk hasharot holatida ta'sir qiladi. Mexanizm kutikula lipidlarini oksidlash va hasharotlarning nafas olish tizimini yo'q qilishga asoslangan.",
+          "tableCaption": "Don zararkunandalariga qarshi ozonlash samaradorligi",
           "tableHeaders": [
-            "Зараркунанда",
-            "О₃ контсентратсийаси",
-            "Ишлов бериш вақти",
-            "Ўлим даражаси"
+            "Zararkunanda",
+            "O₃ kontsentratsiyasi",
+            "Ishlov berish vaqti",
+            "O'lim darajasi"
           ],
           "tableData": [
             [
-              "Дон қандаласи",
-              "30–50 мг/м³",
-              "30–60 мин",
+              "Don qandalasi",
+              "30–50 mg/m³",
+              "30–60 min",
               "95–99%"
             ],
             [
-              "Гуруч қандаласи",
-              "30–50 мг/м³",
-              "30–60 мин",
+              "Guruch qandalasi",
+              "30–50 mg/m³",
+              "30–60 min",
               "96–99%"
             ],
             [
-              "Дон кемирувчиси",
-              "40–60 мг/м³",
-              "45–90 мин",
+              "Don kemiruvchisi",
+              "40–60 mg/m³",
+              "45–90 min",
               "95–98%"
             ],
             [
-              "Ун қўнғизи",
-              "40–60 мг/м³",
-              "60–120 мин",
+              "Un qo'ng'izi",
+              "40–60 mg/m³",
+              "60–120 min",
               "93–97%"
             ],
             [
-              "Суринам унхўри",
-              "30–50 мг/м³",
-              "30–60 мин",
+              "Surinam unxo'ri",
+              "30–50 mg/m³",
+              "30–60 min",
               "97–99%"
             ],
             [
-              "Дон куйаси",
-              "20–40 мг/м³",
-              "30–45 мин",
+              "Don kuyasi",
+              "20–40 mg/m³",
+              "30–45 min",
               "98–99%"
             ],
             [
-              "Дон канаси",
-              "50–80 мг/м³",
-              "60–120 мин",
+              "Don kanasi",
+              "50–80 mg/m³",
+              "60–120 min",
               "90–95%"
             ]
           ],
-          "highlightText": "Кимйовий фумигатсийадан фарқли ўлароқ, озонлаш донда қолдиқ қолдирмайди. Ишлов беришдан кейин озон тезда кислородга парчаланади ва маҳсулот исте'мол учун тўлиқ хавфсиздир."
+          "highlightText": "Kimyoviy fumigatsiyadan farqli o'laroq, ozonlash donda qoldiq qoldirmaydi. Ishlov berishdan keyin ozon tezda kislorodga parchalanadi va mahsulot iste'mol uchun to'liq xavfsizdir."
         },
         "fungi": {
-          "title": "Дезинфексийа ва микотоксинларни камайтириш",
-          "intro": "Дондаги моғор замбуруғлари хавфли микотоксинларни ишлаб чиқаради: афлатоксинлар, зеараленон, деоксиниваленол (ДОН). Озонлаш замбуруғларни йўқ қилади ва аллақачон ҳосил бўлган токсинларни қисман парчалайди.",
-          "tableCaption": "Замбуруғлар ва микотоксинларга қарши озонлаш самарадорлиги",
+          "title": "Dezinfeksiya va mikotoksinlarni kamaytirish",
+          "intro": "Dondagi mog'or zamburug'lari xavfli mikotoksinlarni ishlab chiqaradi: aflatoksinlar, zearalenon, deoksinivalenol (DON). Ozonlash zamburug'larni yo'q qiladi va allaqachon hosil bo'lgan toksinlarni qisman parchalaydi.",
+          "tableCaption": "Zamburug'lar va mikotoksinlarga qarshi ozonlash samaradorligi",
           "tableHeaders": [
-            "Кўрсаткич",
-            "О₃ контсентратсийаси",
-            "Вақт",
-            "Самарадорлик"
+            "Ko'rsatkich",
+            "O₃ kontsentratsiyasi",
+            "Vaqt",
+            "Samaradorlik"
           ],
           "tableData": [
             [
-              "Умумий микрофлора",
-              "20–40 мг/м³",
-              "15–60 мин",
+              "Umumiy mikroflora",
+              "20–40 mg/m³",
+              "15–60 min",
               "80–95%"
             ],
             [
-              "Моғор замбуруғлари",
-              "30–50 мг/м³",
-              "30–60 мин",
+              "Mog'or zamburug'lari",
+              "30–50 mg/m³",
+              "30–60 min",
               "85–95%"
             ],
             [
-              "Аспергилл (афлатоксинлар)",
-              "40–60 мг/м³",
-              "45–90 мин",
+              "Aspergill (aflatoksinlar)",
+              "40–60 mg/m³",
+              "45–90 min",
               "90–95%"
             ],
             [
-              "Фузариум (ДОН, зеараленон)",
-              "40–60 мг/м³",
-              "60–120 мин",
+              "Fuzarium (DON, zearalenon)",
+              "40–60 mg/m³",
+              "60–120 min",
               "75–90%"
             ],
             [
-              "Афлатоксин Б1",
-              "50–100 мг/м³",
-              "120–180 мин",
+              "Aflatoksin B1",
+              "50–100 mg/m³",
+              "120–180 min",
               "60–80%"
             ],
             [
-              "Зеараленон",
-              "50–100 мг/м³",
-              "120–180 мин",
+              "Zearalenon",
+              "50–100 mg/m³",
+              "120–180 min",
               "50–70%"
             ]
           ]
         },
         "modes": {
-          "title": "Донни озонлаш режимлари",
-          "intro": "Режимни танлаш ишлов бериш мақсадларига боғлиқ: профилактика, дезинсексийа йоки дезинфексийа. Доннинг намлиги, ҳарорати ва омборнинг герметиклигини ҳисобга олиш муҳимдир.",
-          "tableCaption": "Тавсийа етилган озонлаш режимлари",
+          "title": "Donni ozonlash rejimlari",
+          "intro": "Rejimni tanlash ishlov berish maqsadlariga bog'liq: profilaktika, dezinseksiya yoki dezinfeksiya. Donning namligi, harorati va omborning germetikligini hisobga olish muhimdir.",
+          "tableCaption": "Tavsiya etilgan ozonlash rejimlari",
           "tableHeaders": [
-            "Ишлов бериш мақсади",
-            "О₃ контсентратсийаси",
-            "Вақт",
-            "Даврийлиги"
+            "Ishlov berish maqsadi",
+            "O₃ kontsentratsiyasi",
+            "Vaqt",
+            "Davriyligi"
           ],
           "tableData": [
             [
-              "Профилактика",
-              "10–20 мг/м³",
-              "4–6 соат",
-              "Ҳар 2–4 ҳафтада"
+              "Profilaktika",
+              "10–20 mg/m³",
+              "4–6 soat",
+              "Har 2–4 haftada"
             ],
             [
-              "Дезинсексийа",
-              "30–60 мг/м³",
-              "1–2 соат",
-              "Заруратга қараб"
+              "Dezinseksiya",
+              "30–60 mg/m³",
+              "1–2 soat",
+              "Zaruratga qarab"
             ],
             [
-              "Дезинфексийа",
-              "30–50 мг/м³",
-              "1–3 соат",
-              "Йуклаш/тушириш пайтида"
+              "Dezinfeksiya",
+              "30–50 mg/m³",
+              "1–3 soat",
+              "Yuklash/tushirish paytida"
             ],
             [
-              "Чуқур ишлов бериш",
-              "60–100 мг/м³",
-              "2–4 соат",
-              "Ҳар 3–6 ойда"
+              "Chuqur ishlov berish",
+              "60–100 mg/m³",
+              "2–4 soat",
+              "Har 3–6 oyda"
             ],
             [
-              "Екиш олдидан ишлов бериш",
-              "10–30 мг/м³",
-              "30–60 мин",
-              "Екишдан олдин"
+              "Ekish oldidan ishlov berish",
+              "10–30 mg/m³",
+              "30–60 min",
+              "Ekishdan oldin"
             ]
           ],
-          "warningLabel": "Муҳим",
-          "warningText": "Намлиги 14% дан йуқори бўлган донни ишлаганда озонлаш самарадорлиги пасайади. Олдиндан қуритиш йоки озон дозасини 20–30% га ошириш тавсийа етилади."
+          "warningLabel": "Muhim",
+          "warningText": "Namligi 14% dan yuqori bo'lgan donni ishlaganda ozonlash samaradorligi pasayadi. Oldindan quritish yoki ozon dozasini 20–30% ga oshirish tavsiya etiladi."
         },
         "presowing": {
-          "title": "Уруғларни екишдан олдин ишлаш",
-          "intro": "Уруғларни озон билан ишлаш униб чиқишни, униб чиқиш қувватини ва кўчатларнинг ноқулай шароитларга чидамлилигини оширади. Тадқиқотлар ҳосилдорликнинг сезиларли даражада ўсишини тасдиқлайди.",
-          "tableCaption": "Екиш олдидан уруғларни озонлаш натижалари",
+          "title": "Urug'larni ekishdan oldin ishlash",
+          "intro": "Urug'larni ozon bilan ishlash unib chiqishni, unib chiqish quvvatini va ko'chatlarning noqulay sharoitlarga chidamliligini oshiradi. Tadqiqotlar hosildorlikning sezilarli darajada o'sishini tasdiqlaydi.",
+          "tableCaption": "Ekish oldidan urug'larni ozonlash natijalari",
           "tableHeaders": [
-            "Екин",
-            "Ишлов бериш режими",
-            "Униб чиқиш ўсиши",
-            "Ҳосил ўсиши"
+            "Ekin",
+            "Ishlov berish rejimi",
+            "Unib chiqish o'sishi",
+            "Hosil o'sishi"
           ],
           "tableData": [
             [
-              "Буғдой",
-              "10–20 мг/м³, 30 мин",
+              "Bug'doy",
+              "10–20 mg/m³, 30 min",
               "+5–8%",
               "+18–22%"
             ],
             [
-              "Арпа",
-              "10–20 мг/м³, 30 мин",
+              "Arpa",
+              "10–20 mg/m³, 30 min",
               "+6–10%",
               "+14–17.5%"
             ],
             [
-              "Маккажўхори",
-              "15–25 мг/м³, 45 мин",
+              "Makkajo'xori",
+              "15–25 mg/m³, 45 min",
               "+4–7%",
               "+12–16%"
             ],
             [
-              "Кунгабоқар",
-              "15–25 мг/м³, 45 мин",
+              "Kungaboqar",
+              "15–25 mg/m³, 45 min",
               "+5–8%",
               "+10–14%"
             ],
             [
-              "Сойа",
-              "10–20 мг/м³, 30 мин",
+              "Soya",
+              "10–20 mg/m³, 30 min",
               "+6–9%",
               "+13–18%"
             ],
             [
-              "Гуруч",
-              "10–15 мг/м³, 20 мин",
+              "Guruch",
+              "10–15 mg/m³, 20 min",
               "+7–12%",
               "+15–20%"
             ]
           ]
         },
         "worldExperience": {
-          "label": "Жаҳон тажрибаси",
-          "text": "Донни озонлаш АҚСҲ, Канада, Австралийа ва Йевропа Иттифоқи мамлакатларида Монреал протоколи томонидан тақиқланган фосфин ва метил бромидга екологик тоза муқобил сифатида қўлланилади."
+          "label": "Jahon tajribasi",
+          "text": "Donni ozonlash AQSH, Kanada, Avstraliya va Yevropa Ittifoqi mamlakatlarida Monreal protokoli tomonidan taqiqlangan fosfin va metil bromidga ekologik toza muqobil sifatida qo'llaniladi."
         },
         "technology": {
-          "title": "Дон омборларини озонлаш технологийаси",
+          "title": "Don omborlarini ozonlash texnologiyasi",
           "steps": [
             {
-              "title": "Омборни таййорлаш",
-              "description": "Дон қолдиқлари ва чангдан тозалаш. Дарвозалар, лйуклар ва чокларнинг герметиклигини текшириш."
+              "title": "Omborni tayyorlash",
+              "description": "Don qoldiqlari va changdan tozalash. Darvozalar, lyuklar va choklarning germetikligini tekshirish."
             },
             {
-              "title": "Ускунани ўрнатиш",
-              "description": "Озонатор ва озон тақсимлаш тизимини жойлаштириш. Електр та'минотига улаш."
+              "title": "Uskunani o'rnatish",
+              "description": "Ozonator va ozon taqsimlash tizimini joylashtirish. Elektr ta'minotiga ulash."
             },
             {
-              "title": "Герметизатсийа",
-              "description": "Барча тешикларни йопиш, ишлов бериш ҳақида огоҳлантирувчи белгиларни ўрнатиш."
+              "title": "Germetizatsiya",
+              "description": "Barcha teshiklarni yopish, ishlov berish haqida ogohlantiruvchi belgilarni o'rnatish."
             },
             {
-              "title": "Озон бериш",
-              "description": "Озонаторни ишга тушириш, датчиклар йордамида контсентратсийани назорат қилиш. Ишлов бериш вақти 2–6 соат."
+              "title": "Ozon berish",
+              "description": "Ozonatorni ishga tushirish, datchiklar yordamida kontsentratsiyani nazorat qilish. Ishlov berish vaqti 2–6 soat."
             },
             {
-              "title": "Ушлаб туриш",
-              "description": "Мақсадли контсентратсийага еришилгандан кейин озон бермасдан 30–60 дақиқа ушлаб туриш."
+              "title": "Ushlab turish",
+              "description": "Maqsadli kontsentratsiyaga erishilgandan keyin ozon bermasdan 30–60 daqiqa ushlab turish."
             },
             {
-              "title": "Дегазатсийа",
-              "description": "Қолдиқ озонни чиқариб йубориш учун шамоллатишни йоқиш. МПC (0,1 мг/м³) назорати."
+              "title": "Degazatsiya",
+              "description": "Qoldiq ozonni chiqarib yuborish uchun shamollatishni yoqish. MPC (0,1 mg/m³) nazorati."
             }
           ]
         },
         "comparison": {
-          "title": "Кимйовий фумигатсийа билан солиштириш",
-          "tableCaption": "Озонлаш кимйовий фумигатсийага қарши",
+          "title": "Kimyoviy fumigatsiya bilan solishtirish",
+          "tableCaption": "Ozonlash kimyoviy fumigatsiyaga qarshi",
           "tableHeaders": [
-            "Кўрсаткич",
-            "Озонлаш",
-            "Фосфин (ПҲ₃)"
+            "Ko'rsatkich",
+            "Ozonlash",
+            "Fosfin (PH₃)"
           ],
           "tableData": [
             [
-              "Маҳсулотдаги қолдиқлар",
-              "Йўқ",
-              "Мавжуд (МПC 0.1 мг/кг)"
+              "Mahsulotdagi qoldiqlar",
+              "Yo'q",
+              "Mavjud (MPC 0.1 mg/kg)"
             ],
             [
-              "Екологик тозалик",
-              "Тўлиқ",
-              "Атроф-муҳит учун токсик"
+              "Ekologik tozalik",
+              "To'liq",
+              "Atrof-muhit uchun toksik"
             ],
             [
-              "Ишлов бериш вақти",
-              "2–6 соат",
-              "3–7 кун"
+              "Ishlov berish vaqti",
+              "2–6 soat",
+              "3–7 kun"
             ],
             [
-              "Зараркунандаларнинг чидамлилиги",
-              "Шаклланмайди",
-              "Ҳар бир фойдаланишда ошади"
+              "Zararkunandalarning chidamliligi",
+              "Shakllanmaydi",
+              "Har bir foydalanishda oshadi"
             ],
             [
-              "Ходимлар хавфсизлиги",
-              "Йуқори (МПCга риойа қилинганда)",
-              "Паст (кучли заҳар)"
+              "Xodimlar xavfsizligi",
+              "Yuqori (MPCga rioya qilinganda)",
+              "Past (kuchli zahar)"
             ],
             [
-              "Дон сифатига та'сири",
-              "Ижобий",
-              "Униб чиқишни камайтириши мумкин"
+              "Don sifatiga ta'siri",
+              "Ijobiy",
+              "Unib chiqishni kamaytirishi mumkin"
             ],
             [
-              "Ишлов бериш нархи",
-              "Ўртача",
-              "Паст–ўртача"
+              "Ishlov berish narxi",
+              "O'rtacha",
+              "Past–o'rtacha"
             ]
           ]
         },
         "benefits": {
-          "title": "Донни сақлашда озонлашнинг афзалликлари",
+          "title": "Donni saqlashda ozonlashning afzalliklari",
           "items": [
             {
-              "title": "Кимйовий моддаларсиз",
-              "description": "Донида қолдиқ йўқ — тўлиқ екологик хавфсизлик ва озиқ-овқат хавфсизлиги"
+              "title": "Kimyoviy moddalarsiz",
+              "description": "Donida qoldiq yo'q — to'liq ekologik xavfsizlik va oziq-ovqat xavfsizligi"
             },
             {
-              "title": "Зараркунандаларни назорат қилиш",
-              "description": "Барча ривожланиш босқичларида 95–99% ҳашаротларни йўқ қилиш чидамлилик шаклланмаган"
+              "title": "Zararkunandalarni nazorat qilish",
+              "description": "Barcha rivojlanish bosqichlarida 95–99% hasharotlarni yo'q qilish chidamlilik shakllanmagan"
             },
             {
-              "title": "Дезинфексийа",
-              "description": "Микробиал ва замбуруғ ифлослантирувчилигини 80–95% камайтириш"
+              "title": "Dezinfeksiya",
+              "description": "Mikrobial va zamburuğ ifloslantiruvchiligini 80–95% kamaytirish"
             },
             {
-              "title": "Ҳосилдорлик ўсиши",
-              "description": "Екиш олдидан ишлов берилганда 17–22% йуқори ҳосил"
+              "title": "Hosildorlik o'sishi",
+              "description": "Ekish oldidan ishlov berilganda 17–22% yuqori hosil"
             },
             {
-              "title": "Харажатларни камайтириш",
-              "description": "Кам операцион харажатлар ва тезроқ ишлов бериш (2-6 соат vs 3-7 кун фумигатсийа учун)"
+              "title": "Xarajatlarni kamaytirish",
+              "description": "Kam operatsion xarajatlar va tezroq ishlov berish (2-6 soat vs 3-7 kun fumigatsiya uchun)"
             },
             {
-              "title": "Иқтисодий фойда",
-              "description": "Нобуд бўлишни камайтириш ҳисобига ускунанинг 1-2 мавсумда ўзини оқлаши"
+              "title": "Iqtisodiy foyda",
+              "description": "Nobud bo'lishni kamaytirish hisobiga uskunaning 1-2 mavsumda o'zini oqlashi"
             }
           ]
         }
       }
     },
     "beekeeping": {
-      "title": "Асаларичилик",
-      "shortDesc": "Уйа ва кишанларни дезинфексийа қилиш ҳамда асалари касалликларини назорат қилиш",
-      "heroText": "Уйа ва кишанларни дезинфексийа қилиш, асалари касалликларини назорат қилиш. Бир мавсумда асал ҳосилини 25 кг га ошириш ва оила маҳсулдорлигини 39% га ошириш.",
-      "content": "Асаларичиликда озонлаш уйа, рамка ва кишанларни асалари касалликлари патогенларидан дезинфексийа қилиш учун ишлатилади. Мўтадил озон контсентратсийалари билан ишлов бериш оила фаоллигига ижобий та'сир кўрсатади.\n\nМунтазам озонлаш уйа ҳавосидаги патоген микроорганизмлар ва намликни камайтиради ҳамда газ таркибини йахшилайди. Натижада, ишлов берилган оилалар бир мавсумда тахминан 25 кг кўпроқ товар асал бериши мумкин.\n\nАскосферозга қарши курашиш учун 7 кун давомида кунига икки марта 1 соат давомида 250 мг/м³ озон ишлатилади. Оғир ҳолатларда кунига тўрт марта 500 мг/м³.\n\nОзон Асcоспҳаера апис замбуруғи спораларига самарали та'сир қилади. Дезинфексийа даражаси ишлов бериладиган йуза материалига қараб 50–77% га йетади.",
+      "title": "Asalarichilik",
+      "shortDesc": "Uya va kishanlarni dezinfeksiya qilish hamda asalari kasalliklarini nazorat qilish",
+      "heroText": "Uya va kishanlarni dezinfeksiya qilish, asalari kasalliklarini nazorat qilish. Bir mavsumda asal hosilini 25 kg ga oshirish va oila mahsuldorligini 39% ga oshirish.",
+      "content": "Asalarichilikda ozonlash uya, ramka va kishanlarni asalari kasalliklari patogenlaridan dezinfeksiya qilish uchun ishlatiladi. Mo'tadil ozon kontsentratsiyalari bilan ishlov berish oila faolligiga ijobiy ta'sir ko'rsatadi.\n\nMuntazam ozonlash uya havosidagi patogen mikroorganizmlar va namlikni kamaytiradi hamda gaz tarkibini yaxshilaydi. Natijada, ishlov berilgan oilalar bir mavsumda taxminan 25 kg ko'proq tovar asal berishi mumkin.\n\nAskosferozga qarshi kurashish uchun 7 kun davomida kuniga ikki marta 1 soat davomida 250 mg/m³ ozon ishlatiladi. Og'ir holatlarda kuniga to'rt marta 500 mg/m³.\n\nOzon Ascosphaera apis zamburug'i sporalariga samarali ta'sir qiladi. Dezinfeksiya darajasi ishlov beriladigan yuza materialiga qarab 50–77% ga yetadi.",
       "stats": {
         "honeyIncrease": {
-          "value": "+25 кг",
-          "label": "Асал ҳосили",
-          "description": "Ҳар бир оиладан бир мавсумда ўсиш"
+          "value": "+25 kg",
+          "label": "Asal hosili",
+          "description": "Har bir oiladan bir mavsumda o'sish"
         },
         "productivityGrowth": {
           "value": "39%",
-          "label": "Маҳсулдорлик ўсиши",
-          "description": "Мунтазам озонлашда"
+          "label": "Mahsuldorlik o'sishi",
+          "description": "Muntazam ozonlashda"
         },
         "disinfection": {
           "value": "50-77%",
-          "label": "Дезинфексийа",
-          "description": "Асcоспҳаера апис спораларини йўқ қилиш"
+          "label": "Dezinfeksiya",
+          "description": "Ascosphaera apis sporalarini yo'q qilish"
         },
         "chemicals": {
           "value": "0",
-          "label": "Кимйовий моддалар",
-          "description": "Екологик тоза асал"
+          "label": "Kimyoviy moddalar",
+          "description": "Ekologik toza asal"
         }
       },
       "benefits": [
-        "Бир мавсумда тахминан 25 кг кўпроқ асал",
-        "Маҳсулдорлик тахминан 39% га ошиши",
-        "Аскосферозни назорат қилиш",
-        "Кишан ва ускуналарни дезинфексийа қилиш",
-        "Уйа микроклиматини йахшилаш",
-        "Асал ва асаларилар учун хавфсизлик"
+        "Bir mavsumda taxminan 25 kg ko'proq asal",
+        "Mahsuldorlik taxminan 39% ga oshishi",
+        "Askosferozni nazorat qilish",
+        "Kishan va uskunalarni dezinfeksiya qilish",
+        "Uya mikroklimatini yaxshilash",
+        "Asal va asalarilar uchun xavfsizlik"
       ],
       "paragraphs": {
-        "intro1": "Асаларичиликда озонлаш уйа, рамка ва кишанларни асалари касалликлари патогенларидан дезинфексийа қилиш учун ишлатилади. Мўтадил озон контсентратсийалари билан ишлов бериш оила фаоллигига ижобий та'сир кўрсатади.",
-        "intro2": "Мунтазам озонлаш патоген микроорганизмларни камайтиради, уйа ҳавосидаги намликни пасайтиради ва газ таркибини йахшилайди. Натижада, ишлов берилган оилалар назорат гуруҳига қараганда бир мавсумда товар асал ишлаб чиқаришни 25 кг га оширди.",
-        "ascospherosis": "Аскосфероз — асалариларнинг енг кенг тарқалган замбуруғли касалликларидан бири бўлиб, Асcоспҳаера апис томонидан чақирилади. Замбуруғ споралари ан'анавий дезинфексийа усулларига чидамли, аммо озон томонидан йўқ қилинади.",
-        "pathogens": "Озон асалари касалликларининг кенг доирасидаги патогенларига — бактерийалар, замбуруғлар ва вирусларга қарши самаралидир. Бу битта технологийадан асаларихонани комплекс ҳимойа қилиш учун фойдаланиш имконини беради.",
-        "stimulation": "Асаларилар мавжуд бўлганда уйаларни мўтадил озон контсентратсийалари (5-15 мг/м³) билан ишлаш рағбатлантирувчи та'сир кўрсатади: оила фаоллигини оширади, онари асалари тухум қўйишини йахшилайди ва баҳорги ривожланишни тезлаштиради.",
-        "equipment": "Кишанлар ва асаларичилик ускуналари соғлом оилалар учун инфексийа манбаи бўлиши мумкин. Мунтазам озон дезинфексийаси асаларихонада касаллик тарқалишининг олдини олади."
+        "intro1": "Asalarichilikda ozonlash uya, ramka va kishanlarni asalari kasalliklari patogenlaridan dezinfeksiya qilish uchun ishlatiladi. Mo'tadil ozon kontsentratsiyalari bilan ishlov berish oila faolligiga ijobiy ta'sir ko'rsatadi.",
+        "intro2": "Muntazam ozonlash patogen mikroorganizmlarni kamaytiradi, uya havosidagi namlikni pasaytiradi va gaz tarkibini yaxshilaydi. Natijada, ishlov berilgan oilalar nazorat guruhiga qaraganda bir mavsumda tovar asal ishlab chiqarishni 25 kg ga oshirdi.",
+        "ascospherosis": "Askosferoz — asalarilarning eng keng tarqalgan zamburug'li kasalliklaridan biri bo'lib, Ascosphaera apis tomonidan chaqiriladi. Zamburug' sporalari an'anaviy dezinfeksiya usullariga chidamli, ammo ozon tomonidan yo'q qilinadi.",
+        "pathogens": "Ozon asalari kasalliklarining keng doirasidagi patogenlariga — bakteriyalar, zamburug'lar va viruslarga qarshi samaralidir. Bu bitta texnologiyadan asalarixonani kompleks himoya qilish uchun foydalanish imkonini beradi.",
+        "stimulation": "Asalarilar mavjud bo'lganda uyalarni mo'tadil ozon kontsentratsiyalari (5-15 mg/m³) bilan ishlash rag'batlantiruvchi ta'sir ko'rsatadi: oila faolligini oshiradi, onari asalari tuxum qo'yishini yaxshilaydi va bahorgi rivojlanishni tezlashtiradi.",
+        "equipment": "Kishanlar va asalarichilik uskunalari sog'lom oilalar uchun infeksiya manbai bo'lishi mumkin. Muntazam ozon dezinfeksiyasi asalarixonada kasallik tarqalishining oldini oladi."
       },
       "highlightBoxes": {
         "research": {
-          "label": "Илмий тадқиқотлар:",
-          "text": "Асаларичилик илмий-тадқиқот институтида ўтказилган тажрибалар баҳор-йоз даврида уйаларни мунтазам озонлаш билан оила маҳсулдорлигининг 39% га ошишини тасдиқлади."
+          "label": "Ilmiy tadqiqotlar:",
+          "text": "Asalarichilik ilmiy-tadqiqot institutida o'tkazilgan tajribalar bahor-yoz davrida uyalarni muntazam ozonlash bilan oila mahsuldorligining 39% ga oshishini tasdiqladi."
         },
-        "ascospherosis": "Озон Асcоспҳаера апис замбуруғи спораларига самарали та'сир қилади. Дезинфексийа даражаси ишлов бериладиган йуза материалига ва озон контсентратсийасига қараб 50-77% га йетади.",
+        "ascospherosis": "Ozon Ascosphaera apis zamburug'i sporalariga samarali ta'sir qiladi. Dezinfeksiya darajasi ishlov beriladigan yuza materialiga va ozon kontsentratsiyasiga qarab 50-77% ga yetadi.",
         "warning": {
-          "label": "Муҳим:",
-          "text": "Йуқори озон контсентратсийалари (200 мг/м³ дан йуқори) билан ишлов бериш асаларилар йўқлигида ўтказилиши керак. Рағбатлантирувчи ишлов бериш учун контсентратсийа 10-15 мг/м³ дан ошмаслиги керак."
+          "label": "Muhim:",
+          "text": "Yuqori ozon kontsentratsiyalari (200 mg/m³ dan yuqori) bilan ishlov berish asalarilar yo'qligida o'tkazilishi kerak. Rag'batlantiruvchi ishlov berish uchun kontsentratsiya 10-15 mg/m³ dan oshmasligi kerak."
         }
       },
       "processSteps": [
         {
-          "title": "Уйани таййорлаш",
-          "description": "Асалариларни кўчириш йоки оила бўлмаган пайтда ишлов беришни режалаштириш. Кириш йўлларини йопиш."
+          "title": "Uyani tayyorlash",
+          "description": "Asalarilarni ko'chirish yoki oila bo'lmagan paytda ishlov berishni rejalashtirish. Kirish yo'llarini yopish."
         },
         {
-          "title": "Озонаторни улаш",
-          "description": "Озон бериш шлангини йуқори кириш йўли йоки қопқоқдаги махсус тешик орқали ўрнатиш."
+          "title": "Ozonatorni ulash",
+          "description": "Ozon berish shlangini yuqori kirish yo'li yoki qopqoqdagi maxsus teshik orqali o'rnatish."
         },
         {
-          "title": "Озон билан ишлов бериш",
-          "description": "Мақсадга қараб белгиланган контсентратсийада 30-90 дақиқа давомида озон бериш."
+          "title": "Ozon bilan ishlov berish",
+          "description": "Maqsadga qarab belgilangan kontsentratsiyada 30-90 daqiqa davomida ozon berish."
         },
         {
-          "title": "Експозитсийа",
-          "description": "Озон беришни тўхтатгандан кейин, йопиқ кириш йўллари билан 15-30 дақиқа кутиш."
+          "title": "Ekspozitsiya",
+          "description": "Ozon berishni to'xtatgandan keyin, yopiq kirish yo'llari bilan 15-30 daqiqa kutish."
         },
         {
-          "title": "Шамоллатиш",
-          "description": "Қолдиқ озон чиқиши учун кириш йўлларини очиш. Вақти — 15-30 дақиқа."
+          "title": "Shamollatish",
+          "description": "Qoldiq ozon chiqishi uchun kirish yo'llarini ochish. Vaqti — 15-30 daqiqa."
         },
         {
-          "title": "Асалариларни қайтариш",
-          "description": "Ишлов берилган уйага асаларилар оиласини ишловдан 1-2 соат ўтгач жойлаштириш."
+          "title": "Asalarilarni qaytarish",
+          "description": "Ishlov berilgan uyaga asalarilar oilasini ishlovdan 1-2 soat o'tgach joylashtirish."
         }
       ],
       "sections": {
         "applications": {
-          "title": "Асаларичиликда озоннинг қўлланилиши",
+          "title": "Asalarichilikda ozonning qo'llanilishi",
           "items": [
-            "Кишанларни аскосфероз патогенларидан дезинфексийа қилиш",
-            "Уйа ва рамкаларни чириш касалликларига қарши ишлаш",
-            "Комплекс терапийада варроозни назорат қилиш",
-            "Уйа микроклиматини йахшилаш",
-            "Асаларичилик ускуналарини дезинфексийа қилиш",
-            "Нозематоз ва бошқа инфексийаларнинг олдини олиш",
-            "Қишловхоналар ва асаларихона биноларини ишлаш"
+            "Kishanlarni askosferoz patogenlaridan dezinfeksiya qilish",
+            "Uya va ramkalarni chirish kasalliklariga qarshi ishlash",
+            "Kompleks terapiyada varroozni nazorat qilish",
+            "Uya mikroklimatini yaxshilash",
+            "Asalarichilik uskunalarini dezinfeksiya qilish",
+            "Nozematoz va boshqa infeksiyalarning oldini olish",
+            "Qishlovxonalar va asalarixona binolarini ishlash"
           ]
         },
         "ascospherosis": {
-          "title": "Аскосферозга қарши кураш",
-          "tableCaption": "Аскосфероз учун ишлов бериш режимлари",
+          "title": "Askosferozga qarshi kurash",
+          "tableCaption": "Askosferoz uchun ishlov berish rejimlari",
           "tableHeaders": [
-            "Инкубатсийа даражаси",
-            "О₃ контсентратсийаси",
-            "Ишлов бериш вақти",
-            "Даврийлиги"
+            "Inkubatsiya darajasi",
+            "O₃ kontsentratsiyasi",
+            "Ishlov berish vaqti",
+            "Davriyligi"
           ],
           "tableData": [
             [
-              "Профилактика",
-              "100-150 мг/м³",
-              "30-45 мин",
-              "Ойига бир марта"
+              "Profilaktika",
+              "100-150 mg/m³",
+              "30-45 min",
+              "Oyiga bir marta"
             ],
             [
-              "Йенгил шакли",
-              "200-250 мг/м³",
-              "60 мин",
-              "Кунига икки марта, 5-7 кун"
+              "Yengil shakli",
+              "200-250 mg/m³",
+              "60 min",
+              "Kuniga ikki marta, 5-7 kun"
             ],
             [
-              "Ўртача шакли",
-              "250-350 мг/м³",
-              "60 мин",
-              "Кунига уч марта, 7-10 кун"
+              "O'rtacha shakli",
+              "250-350 mg/m³",
+              "60 min",
+              "Kuniga uch marta, 7-10 kun"
             ],
             [
-              "Оғир шакли",
-              "400-500 мг/м³",
-              "60-90 мин",
-              "Кунига тўрт марта, 10-14 кун"
+              "Og'ir shakli",
+              "400-500 mg/m³",
+              "60-90 min",
+              "Kuniga to'rt marta, 10-14 kun"
             ]
           ]
         },
         "pathogens": {
-          "title": "Турли патогенларга қарши самарадорлик",
-          "tableCaption": "Асалари патогенларига қарши озонлаш самарадорлиги",
+          "title": "Turli patogenlarga qarshi samaradorlik",
+          "tableCaption": "Asalari patogenlariga qarshi ozonlash samaradorligi",
           "tableHeaders": [
-            "Патоген/касаллик",
-            "О₃ контсентратсийаси",
-            "Вақт",
-            "Самарадорлик"
+            "Patogen/kasallik",
+            "O₃ kontsentratsiyasi",
+            "Vaqt",
+            "Samaradorlik"
           ],
           "tableData": [
             [
-              "Асcоспҳаера апис (аскосфероз)",
-              "250-500 мг/м³",
-              "60 мин",
+              "Ascosphaera apis (askosferoz)",
+              "250-500 mg/m³",
+              "60 min",
               "50-77%"
             ],
             [
-              "Паенибаcиллус ларвае (Америка чириши)",
-              "300-500 мг/м³",
-              "60-90 мин",
+              "Paenibacillus larvae (Amerika chirishi)",
+              "300-500 mg/m³",
+              "60-90 min",
               "85-95%"
             ],
             [
-              "Мелиссоcоccус плутониус (Йевропа чириши)",
-              "250-400 мг/м³",
-              "45-60 мин",
+              "Melissococcus plutonius (Yevropa chirishi)",
+              "250-400 mg/m³",
+              "45-60 min",
               "90-98%"
             ],
             [
-              "Носема апис (нозематоз)",
-              "200-300 мг/м³",
-              "30-45 мин",
+              "Nosema apis (nozematoz)",
+              "200-300 mg/m³",
+              "30-45 min",
               "80-90%"
             ],
             [
-              "Аспергилл (аспергиллоз)",
-              "300-500 мг/м³",
-              "60-90 мин",
+              "Aspergill (aspergilloz)",
+              "300-500 mg/m³",
+              "60-90 min",
               "85-95%"
             ],
             [
-              "Қанот деформатсийаси вируси",
-              "150-250 мг/м³",
-              "30-45 мин",
+              "Qanot deformatsiyasi virusi",
+              "150-250 mg/m³",
+              "30-45 min",
               "70-85%"
             ]
           ]
         },
         "stimulation": {
-          "title": "Озоннинг рағбатлантирувчи та'сири",
-          "tableCaption": "Рағбатлантирувчи озонлашнинг асалари оилаларига та'сири",
+          "title": "Ozonning rag'batlantiruvchi ta'siri",
+          "tableCaption": "Rag'batlantiruvchi ozonlashning asalari oilalariga ta'siri",
           "tableHeaders": [
-            "Кўрсаткич",
-            "Назорат гуруҳи",
-            "Ишлов берилган гуруҳ",
-            "Фарқ"
+            "Ko'rsatkich",
+            "Nazorat guruhi",
+            "Ishlov berilgan guruh",
+            "Farq"
           ],
           "tableData": [
             [
-              "Асал ҳосили, кг/мавсум",
+              "Asal hosili, kg/mavsum",
               "45-50",
               "70-75",
-              "+25 кг (+50%)"
+              "+25 kg (+50%)"
             ],
             [
-              "Оила кучи, рамкалар",
+              "Oila kuchi, ramkalar",
               "8-10",
               "12-14",
               "+40%"
             ],
             [
-              "Онари асалари тухум қўйиши, тухум/кун",
+              "Onari asalari tuxum qo'yishi, tuxum/kun",
               "1200-1400",
               "1600-1800",
               "+30%"
             ],
             [
-              "Насл йетиштириш",
+              "Nasl yetishtirish",
               "100%",
               "135-140%",
               "+35-40%"
             ],
             [
-              "Қишлаш (нобуд бўлиш)",
+              "Qishlash (nobud bo'lish)",
               "15-20%",
               "5-8%",
               "-60%"
             ],
             [
-              "Тўп ажратиш",
-              "Тез-тез",
-              "Камдан-кам",
-              "2-3 баравар камайиш"
+              "To'p ajratish",
+              "Tez-tez",
+              "Kamdan-kam",
+              "2-3 baravar kamayish"
             ]
           ]
         },
         "equipment": {
-          "title": "Кишан ва ускуналарни ишлаш",
-          "tableCaption": "Кишан ва ускуналарни ишлаш режимлари",
+          "title": "Kishan va uskunalarni ishlash",
+          "tableCaption": "Kishan va uskunalarni ishlash rejimlari",
           "tableHeaders": [
-            "Муолажа об'екти",
-            "О₃ контсентратсийаси",
-            "Вақт",
-            "Еслатма"
+            "Muolaja ob'ekti",
+            "O₃ kontsentratsiyasi",
+            "Vaqt",
+            "Eslatma"
           ],
           "tableData": [
             [
-              "Кишанлар (профилактика)",
-              "200-300 мг/м³",
-              "30-45 мин",
-              "Асал олингандан кейин"
+              "Kishanlar (profilaktika)",
+              "200-300 mg/m³",
+              "30-45 min",
+              "Asal olingandan keyin"
             ],
             [
-              "Кишанлар (дезинфексийа)",
-              "400-600 мг/м³",
-              "60-90 мин",
-              "Касалликлар бўлганда"
+              "Kishanlar (dezinfeksiya)",
+              "400-600 mg/m³",
+              "60-90 min",
+              "Kasalliklar bo'lganda"
             ],
             [
-              "Бўш уйалар",
-              "300-500 мг/м³",
-              "45-60 мин",
-              "Жойлаштиришдан олдин"
+              "Bo'sh uyalar",
+              "300-500 mg/m³",
+              "45-60 min",
+              "Joylashtirishdan oldin"
             ],
             [
-              "Металл ускуналар",
-              "500-700 мг/м³",
-              "30-45 мин",
-              "Тутатқичлар, уйа асбоблари"
+              "Metall uskunalar",
+              "500-700 mg/m³",
+              "30-45 min",
+              "Tutatqichlar, uya asboblari"
             ],
             [
-              "Ҳимойа кийимлари",
-              "300-400 мг/м³",
-              "30-45 мин",
-              "Озон камерасида"
+              "Himoya kiyimlari",
+              "300-400 mg/m³",
+              "30-45 min",
+              "Ozon kamerasida"
             ],
             [
-              "Асал идишлари",
-              "200-300 мг/м³",
-              "20-30 мин",
-              "Тўлдиришдан олдин"
+              "Asal idishlari",
+              "200-300 mg/m³",
+              "20-30 min",
+              "To'ldirishdan oldin"
             ]
           ]
         },
         "calendar": {
-          "title": "Мавсумий озонлаш тақвими",
-          "tableCaption": "Тавсийа етилган ишлов бериш жадвали",
+          "title": "Mavsumiy ozonlash taqvimi",
+          "tableCaption": "Tavsiya etilgan ishlov berish jadvali",
           "tableHeaders": [
-            "Давр",
-            "Ишлов бериш тури",
-            "Контсентратсийа",
-            "Мақсад"
+            "Davr",
+            "Ishlov berish turi",
+            "Kontsentratsiya",
+            "Maqsad"
           ],
           "tableData": [
             [
-              "Ерта баҳор (Март)",
-              "Рағбатлантирувчи",
-              "10-15 мг/м³",
-              "Қишлашдан кейин оилани фаоллаштириш"
+              "Erta bahor (Mart)",
+              "Rag'batlantiruvchi",
+              "10-15 mg/m³",
+              "Qishlashdan keyin oilani faollashtirish"
             ],
             [
-              "Баҳор (Апрел-Май)",
-              "Профилактик",
-              "100-200 мг/м³",
-              "Баҳорги инфексийаларнинг олдини олиш"
+              "Bahor (Aprel-May)",
+              "Profilaktik",
+              "100-200 mg/m³",
+              "Bahorgi infeksiyalarning oldini olish"
             ],
             [
-              "Йоз (Ийун-Ийул)",
-              "Рағбатлантирувчи",
-              "10-15 мг/м³",
-              "Асал ҳосилини ошириш"
+              "Yoz (Iyun-Iyul)",
+              "Rag'batlantiruvchi",
+              "10-15 mg/m³",
+              "Asal hosilini oshirish"
             ],
             [
-              "Асал олгандан кейин (Август)",
-              "Кишанларни дезинфексийа қилиш",
-              "300-500 мг/м³",
-              "Бўшаган кишанларни дезинфексийа қилиш"
+              "Asal olgandan keyin (Avgust)",
+              "Kishanlarni dezinfeksiya qilish",
+              "300-500 mg/m³",
+              "Bo'shagan kishanlarni dezinfeksiya qilish"
             ],
             [
-              "Куз (Сентабр)",
-              "Профилактик",
-              "150-250 мг/м³",
-              "Қишлашга таййоргарлик"
+              "Kuz (Sentabr)",
+              "Profilaktik",
+              "150-250 mg/m³",
+              "Qishlashga tayyorgarlik"
             ],
             [
-              "Қишловхона (Нойабр)",
-              "Дезинфексийа",
-              "400-600 мг/м³",
-              "Жойлаштиришдан олдин қишловхонани ишлаш"
+              "Qishlovxona (Noyabr)",
+              "Dezinfeksiya",
+              "400-600 mg/m³",
+              "Joylashtirishdan oldin qishlovxonani ishlash"
             ]
           ]
         },
         "technology": {
-          "title": "Уйаларни озонлаш технологийаси"
+          "title": "Uyalarni ozonlash texnologiyasi"
         },
         "benefits": {
-          "title": "Асаларичиликда озонлашнинг афзалликлари",
+          "title": "Asalarichilikda ozonlashning afzalliklari",
           "items": [
             {
-              "title": "Кимйовий моддаларсиз",
-              "description": "Озон асал ва ари маҳсулотларида қолдиқ қолдирмайди — тўлиқ екологик тоза усул"
+              "title": "Kimyoviy moddalarsiz",
+              "description": "Ozon asal va ari mahsulotlarida qoldiq qoldirmaydi — to'liq ekologik toza usul"
             },
             {
-              "title": "Асал ҳосили ўсиши",
-              "description": "Мунтазам озонлаш билан ҳар бир оиладан бир мавсумда товар асалини 25 кг га ошириш"
+              "title": "Asal hosili o'sishi",
+              "description": "Muntazam ozonlash bilan har bir oiladan bir mavsumda tovar asalini 25 kg ga oshirish"
             },
             {
-              "title": "Касалликларни назорат қилиш",
-              "description": "Аскосфероз, чириш, нозематоз ва бошқа инфексийаларга қарши самарадорлик"
+              "title": "Kasalliklarni nazorat qilish",
+              "description": "Askosferoz, chirish, nozematoz va boshqa infeksiyalarga qarshi samaradorlik"
             },
             {
-              "title": "Қишлашни йахшилаш",
-              "description": "Асаларилар саломатлигини йахшилаш ҳисобига қишлаш даврида оила нобуд бўлишини 2-3 баравар камайтириш"
+              "title": "Qishlashni yaxshilash",
+              "description": "Asalarilar salomatligini yaxshilash hisobiga qishlash davrida oila nobud bo'lishini 2-3 baravar kamaytirish"
             },
             {
-              "title": "Тўп ажратишни камайтириш",
-              "description": "Рағбатлантирувчи озонлаш оиланинг тўп ажратишга мойиллигини 2-3 баравар камайтиради"
+              "title": "To'p ajratishni kamaytirish",
+              "description": "Rag'batlantiruvchi ozonlash oilaning to'p ajratishga moyilligini 2-3 baravar kamaytiradi"
             },
             {
-              "title": "Иқтисодий фойда",
-              "description": "Асаларихона маҳсулдорлигини ошириш ҳисобига ускунанинг 1-2 мавсумда ўзини оқлаши"
+              "title": "Iqtisodiy foyda",
+              "description": "Asalarixona mahsuldorligini oshirish hisobiga uskunaning 1-2 mavsumda o'zini oqlashi"
             }
           ]
         }

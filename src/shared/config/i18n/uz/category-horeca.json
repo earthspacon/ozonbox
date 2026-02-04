@@ -259,54 +259,54 @@
               "Ozonlash bilan"
             ],
             "rows": [
-              {
-                "parameter": "O'rtacha turiş vaqti",
-                "value1": "45 daqiqa",
-                "value2": "55-60 daqiqa"
-              },
-              {
-                "parameter": "Takroriy tashrif",
-                "value1": "35%",
-                "value2": "52%"
-              },
-              {
-                "parameter": "Sharhda \"Toza\" reytingi",
-                "value1": "3,8/5",
-                "value2": "4,6/5"
-              },
-              {
-                "parameter": "Hid shikoyatlari",
-                "value1": "12% mehmon",
-                "value2": "<1% mehmon"
-              },
-              {
-                "parameter": "O'rtacha hisob",
-                "value1": "Bazaviy",
-                "value2": "+15-20%"
-              }
+              [
+                "O'rtacha turiş vaqti",
+                "45 daqiqa",
+                "55-60 daqiqa"
+              ],
+              [
+                "Takroriy tashrif",
+                "35%",
+                "52%"
+              ],
+              [
+                "Sharhda \"Toza\" reytingi",
+                "3,8/5",
+                "4,6/5"
+              ],
+              [
+                "Hid shikoyatlari",
+                "12% mehmon",
+                "<1% mehmon"
+              ],
+              [
+                "O'rtacha hisob",
+                "Bazaviy",
+                "+15-20%"
+              ]
             ]
           }
         },
         "process": {
           "title": "Restoran ozonlash jarayoni",
-          "steps": {
-            "closure": {
+          "steps": [
+            {
               "title": "Yopilish",
               "description": "Ozonlash binoda odamlar bo'lmaganda, ishdan chiqish soatlarida amalga oshiriladi."
             },
-            "preparation": {
+            {
               "title": "Tayorlash",
               "description": "Oynalar va eshiklar yopiladi, ta'minot ventilatsiyasi maksimal ozon konsentratsiyasi uchun o'chiriladi."
             },
-            "ozonation": {
+            {
               "title": "Ozonlash",
               "description": "Ozonator maksimal balandlikka qo'yiladi. Ishlov berish vaqti: hajmiga qarab 60-120 daqiqa."
             },
-            "ventilation": {
+            {
               "title": "Ventilatsiya",
               "description": "Ventilatsiya yoqiladi, oynalar ochiladi. 2-3 soatda ozon xavfsiz darajagacha parchalanadi."
             }
-          },
+          ],
           "automation": {
             "title": "Avtomatika:",
             "text": "Zamonaviy ozonatorlar haftaviy taymerga ega. Siz yopilgandan keyin avtomatik boshlashni o'rnatishingiz mumkin — ertalab havo mutlaqo yangi bo'ladi."

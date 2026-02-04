@@ -826,7 +826,7 @@
               "96–99%"
             ]
           ],
-          "processSteps": [
+          "steps": [
             {
               "title": "Tuproqni tayyorlash",
               "description": "Ozon kirib borishini ta'minlash uchun tuproqni yumshatish. O'simlik qoldiqlarini olib tashlash."

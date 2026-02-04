@@ -259,31 +259,31 @@
               "With ozonation"
             ],
             "rows": [
-              {
-                "parameter": "Average visit time",
-                "value1": "45 minutes",
-                "value2": "55-60 minutes"
-              },
-              {
-                "parameter": "Repeat visits",
-                "value1": "35%",
-                "value2": "52%"
-              },
-              {
-                "parameter": "\"Cleanliness\" rating in reviews",
-                "value1": "3.8/5",
-                "value2": "4.6/5"
-              },
-              {
-                "parameter": "Odor complaints",
-                "value1": "12% of guests",
-                "value2": "<1% of guests"
-              },
-              {
-                "parameter": "Average check",
-                "value1": "Baseline",
-                "value2": "+15-20%"
-              }
+              [
+                "Average visit time",
+                "45 minutes",
+                "55-60 minutes"
+              ],
+              [
+                "Repeat visits",
+                "35%",
+                "52%"
+              ],
+              [
+                "\"Cleanliness\" rating in reviews",
+                "3.8/5",
+                "4.6/5"
+              ],
+              [
+                "Odor complaints",
+                "12% of guests",
+                "<1% of guests"
+              ],
+              [
+                "Average check",
+                "Baseline",
+                "+15-20%"
+              ]
             ]
           }
         },
