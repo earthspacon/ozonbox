@@ -61,27 +61,27 @@ export function DairyPage({ staticData, lang }: DairyPageProps) {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value={data?.stats?.stat1?.value ?? ''}
-              label={data?.stats?.stat1?.label ?? ''}
-              description={data?.stats?.stat1?.description ?? ''}
+              value={data?.stats?.stat1?.value}
+              label={data?.stats?.stat1?.label}
+              description={data?.stats?.stat1?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.stat2?.value ?? ''}
-              label={data?.stats?.stat2?.label ?? ''}
-              description={data?.stats?.stat2?.description ?? ''}
+              value={data?.stats?.stat2?.value}
+              label={data?.stats?.stat2?.label}
+              description={data?.stats?.stat2?.description}
               variant="accent"
             />
             <StatCard
-              value={data?.stats?.stat3?.value ?? ''}
-              label={data?.stats?.stat3?.label ?? ''}
-              description={data?.stats?.stat3?.description ?? ''}
+              value={data?.stats?.stat3?.value}
+              label={data?.stats?.stat3?.label}
+              description={data?.stats?.stat3?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.stat4?.value ?? ''}
-              label={data?.stats?.stat4?.label ?? ''}
-              description={data?.stats?.stat4?.description ?? ''}
+              value={data?.stats?.stat4?.value}
+              label={data?.stats?.stat4?.label}
+              description={data?.stats?.stat4?.description}
               variant="accent"
             />
           </StatGrid>
@@ -92,35 +92,35 @@ export function DairyPage({ staticData, lang }: DairyPageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph1}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data?.sections?.haccpHighlight?.title ?? ''}</strong> {data?.sections?.haccpHighlight?.text ?? ''}
+            <strong>{data?.sections?.haccpHighlight?.title}</strong> {data?.sections?.haccpHighlight?.text}
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.application?.title}>
             <DataTable
               caption={data?.sections?.application?.tableCaption}
-              headers={data?.sections?.application?.tableHeaders ?? []}
-              rows={data?.sections?.application?.tableData ?? []}
+              headers={data?.sections?.application?.tableHeaders}
+              rows={data?.sections?.application?.tableData}
             />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.advantages?.title}>
-            <BulletList items={(data?.sections?.advantages?.items as string[]) ?? []} />
+            <BulletList items={data?.sections?.advantages?.items as string[]} />
           </ArticleSection>
 
           <ComparisonTable
             title={data?.sections?.comparison?.title}
             headers={
-              (data?.sections?.comparison?.tableHeaders ?? []) as
+              data?.sections?.comparison?.tableHeaders as
                 | [string, string, string]
                 | [string, string, string, string]
             }
             rows={
-              (data?.sections?.comparison?.rows ?? []) as Array<{
+              data?.sections?.comparison?.rows as Array<{
                 parameter: string
                 value1: string
                 value2: string
@@ -130,25 +130,25 @@ export function DairyPage({ staticData, lang }: DairyPageProps) {
           />
 
           <ArticleSection title={data?.sections?.storage?.title}>
-            <Paragraph>{data?.sections?.storage?.intro ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.storage?.intro}</Paragraph>
 
             <DataTable
               caption={data?.sections?.storage?.tableCaption}
-              headers={data?.sections?.storage?.tableHeaders ?? []}
-              rows={data?.sections?.storage?.tableData ?? []}
+              headers={data?.sections?.storage?.tableHeaders}
+              rows={data?.sections?.storage?.tableData}
             />
 
-            <HighlightBox variant="success">{data?.sections?.storage?.highlight?.text ?? ''}</HighlightBox>
+            <HighlightBox variant="success">{data?.sections?.storage?.highlight?.text}</HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.listeriosis?.title}>
-            <Paragraph>{data?.sections?.listeriosis?.paragraph1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.listeriosis?.paragraph2 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.listeriosis?.paragraph1}</Paragraph>
+            <Paragraph>{data?.sections?.listeriosis?.paragraph2}</Paragraph>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.benefits?.title}>
             <FeatureGrid columns={2}>
-              {((data?.sections?.benefits?.items as Array<{ title: string; description: string }>) ?? []).map(
+              {(data?.sections?.benefits?.items as Array<{ title: string; description: string }>).map(
                 (item, idx) => (
                   <FeatureCard
                     key={idx}

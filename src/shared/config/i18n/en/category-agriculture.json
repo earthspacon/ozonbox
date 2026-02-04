@@ -172,37 +172,37 @@
           "intro": "Positive effect in meat storage is achieved with daily ozonation for 2 hours at ozone concentration ~6 mg/m³. Poultry meat preservation in chilled form (+4°C) increases 4 times.",
           "tableTitle": "Poultry meat storage comparison",
           "highlight": "After 20 days of storage, meat with ozonation maintained initial freshness and tenderness without odor. Without treatment — greenish color and putrid odor after just 5 days.",
-          "headers": [
+          "tableHeaders": [
             "Parameter",
             "With ozone",
             "Without ozone"
           ],
-          "rows": [
-            {
-              "parameter": "Maximum storage life",
-              "value1": "18–21 days",
-              "value2": "5–7 days"
-            },
-            {
-              "parameter": "Weight loss",
-              "value1": "7.6%",
-              "value2": "10.9%"
-            },
-            {
-              "parameter": "Carcass color",
-              "value1": "Light yellow",
-              "value2": "Yellow"
-            },
-            {
-              "parameter": "Meat odor",
-              "value1": "Characteristic of fresh",
-              "value2": "Musty, putrid"
-            },
-            {
-              "parameter": "Bacterial contamination after storage",
-              "value1": "65 colonies/ml",
-              "value2": "736 colonies/ml"
-            }
+          "tableData": [
+            [
+              "Maximum storage life",
+              "18–21 days",
+              "5–7 days"
+            ],
+            [
+              "Weight loss",
+              "7.6%",
+              "10.9%"
+            ],
+            [
+              "Carcass color",
+              "Light yellow",
+              "Yellow"
+            ],
+            [
+              "Meat odor",
+              "Characteristic of fresh",
+              "Musty, putrid"
+            ],
+            [
+              "Bacterial contamination after storage",
+              "65 colonies/ml",
+              "736 colonies/ml"
+            ]
           ]
         },
         "modes": {
@@ -658,32 +658,32 @@
           "title": "Economic effect",
           "intro": "Implementation of ozonation in vegetable storage provides significant economic benefits:",
           "highlight": "Equipment payback for ozonation of a 1000-ton vegetable storage is 1–2 storage seasons through loss reduction and higher sales prices.",
-          "headers": [
+          "tableHeaders": [
             "Indicator",
             "With ozone",
             "Without ozone"
           ],
-          "rows": [
-            {
-              "parameter": "Potato storage losses",
-              "value1": "5–8%",
-              "value2": "15–25%"
-            },
-            {
-              "parameter": "Carrot storage losses",
-              "value1": "8–12%",
-              "value2": "25–35%"
-            },
-            {
-              "parameter": "Fungicide costs",
-              "value1": "0",
-              "value2": "15–20 rub/t"
-            },
-            {
-              "parameter": "Late season sales",
-              "value1": "At premium price",
-              "value2": "At discount (quality deterioration)"
-            }
+          "tableData": [
+            [
+              "Potato storage losses",
+              "5–8%",
+              "15–25%"
+            ],
+            [
+              "Carrot storage losses",
+              "8–12%",
+              "25–35%"
+            ],
+            [
+              "Fungicide costs",
+              "0",
+              "15–20 rub/t"
+            ],
+            [
+              "Late season sales",
+              "At premium price",
+              "At discount (quality deterioration)"
+            ]
           ]
         }
       }

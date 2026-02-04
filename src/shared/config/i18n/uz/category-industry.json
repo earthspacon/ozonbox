@@ -25,7 +25,7 @@
           "label": "mg/L chegarasi",
           "description": "Oqish standartlarini belgilash"
         },
-        "ozoneConsumption": {
+        "consumption": {
           "value": "3-5",
           "label": "mg O₃/mg OP",
           "description": "Yo'q qilish uchun ozon sarflanishi"
@@ -41,9 +41,29 @@
           "paragraph1": "Neft mahsulotlari bilan ifloslangan sanoat qurillalari chiqindi suvi eng jiddiy ekologik muammolardan biridir. 1 litr neft 1 million litr suvni ifloslantirishi mumkin, bu gaz almashinuvini to'sib turuvchi film yaratib, suv ekosistemalarining o'limiga tahdid tashkil etadi.",
           "paragraph2": "Ozonlash neft mahsulotlari bilan ifloslangan chiqindi suvlarni chuqur tozalashning ilg'or usuli bo'lib, uglerodsizchilar karbon dioksidi va suvga yo'q qilishni ta'minlaydi. An'anaviy usullardan (flotatsiya, sorption, biologik tozalash) farqli o'laroq, ozonlash ifloslantirguvchilarning to'liq mineralizatsiyasini ta'minlaydi va ikkinchi darajali xodisalarning shakllashini oldini oladi."
         },
-        "regulations": {
+        "regulatory": {
           "title": "Normativ talablar",
-          "text": "Baliq ovqatlanish suv havzalariga oqishda neft mahsulotlarining maksimal ruxsat etilgan kontsentratsiyasi 0,05 mg/L (GOST 17.1.3.07-82). Munitsipal fazo tashkil etishga oqishda — 4,0 mg/L. Chegara osish muddati ekologik to'lovlarni va 2 million rublingacha jarimalangan qoidalarni to'plash."
+          "highlight": {
+            "title": "Maksimal ruxsat etilgan kontsentratsiya",
+            "text": "Baliq ovqatlanish suv havzalariga oqishda neft mahsulotlarining maksimal ruxsat etilgan kontsentratsiyasi 0,05 mg/L (GOST 17.1.3.07-82). Munitsipal fazo tashkil etishga oqishda — 4,0 mg/L. Chegara osish muddati ekologik to'lovlarni va 2 million rublingacha jarimalangan qoidalarni to'plash."
+          },
+          "paragraph": "Ozonlash mavjud me'yorlarga muvofiqlikni ta'minlaydi:",
+          "items": [
+            "SanPiN 2.1.5.980-00 — Sirt suvlarini himoya qilish uchun gigienik talablar",
+            "GOST 17.1.3.07-82 — Suv havzalari suv sifatini nazorat qilish qoidalari",
+            "Qishloq xo'jaligi vazirligi buyrugi № 552 — Baliq ovqatlanish suv havzalari uchun suv sifati standartlari",
+            "Federal qonun № 7-FZ \"Muhit himoyasi haqida\"",
+            "Hukumat qarorovi № 644 — Sovuq suv ta'minoti va suv o'tkazishning qoidalari"
+          ],
+          "tableCaption": "Suv havzalarining turli foydalanish kategoriyalari uchun neft mahsulotlarining maksimal ruxsat etilgan kontsentratsiyalari",
+          "tableHeaders": ["Suv havzasi kategoriyasi", "Chegara, mg/L", "Xavf sinfi"],
+          "tableRows": [
+            ["Baliq ovqatlanish suv havzalari, eng yuqori kategoriya", "0,05", "3"],
+            ["Baliq ovqatlanish suv havzalari, I kategoriya", "0,05", "3"],
+            ["Baliq ovqatlanish suv havzalari, II kategoriya", "0,05", "3"],
+            ["Khojaliq va ichimlik suv ta'minoti manbalari", "0,1", "4"],
+            ["Munitsipal tashkil etishga oqish", "4,0", "—"]
+          ]
         },
         "mechanism": {
           "title": "Ozon tomonidan neft mahsulotlarining oksidlash mexanizmi",
@@ -281,7 +301,7 @@
         "mechanism": {
           "title": "Ozon tomonidan ishlab chiqarish hava ifloslantirguvchilariga ta'sir mexanizmi",
           "paragraph": "Ozon ko'plab ishlab chiqarish hava ifloslantirguvchilarni yo'q qiladigan qoida kuchli oksidlovchi:",
-          "bulletList": [
+          "items": [
             "Bakteryalar, viruslar, qo'ziqorinlar va sporalar — klatka membranalarining oksidativ yo'q qilishi",
             "Uchqun organik birkmalar (VOK) — CO₂ va H₂O ga oksidlanishi",
             "Vodorod sulfid (H₂S) — sulfatlarga oksidlanishi",
@@ -360,7 +380,7 @@
         "ventilation": {
           "title": "Ventilatsiya tizimlari bilan integratsiya",
           "paragraph": "Katta ishlab chiqarish qurillalari uchun optimal yechim ozonatorlarni mavjud ventilatsiya tizimi bilan integratsiya qilish:",
-          "bulletList": [
+          "items": [
             "Ozonni ta'minot hava kanalga kiritish — qurilla bo'ylab tekis tarqalishi",
             "Sirkulyatsiya hava tozalashi — mikrobial yük kamaytirilishi",
             "Chiqishi hava ozonlashi — atmosferaga oqishdan oldin hidni olib tashlash",
@@ -404,7 +424,7 @@
         "regulatory": {
           "title": "Normativ talablarga muvofiqlik",
           "paragraph": "Ozonlash ishlab chiqarish sanitariya standartlari va kasb sog'lig'ini himoya talablarining muvofiqligini ta'minlashga yordam beradi:",
-          "bulletList": [
+          "items": [
             "SanPiN 1.2.3685-21 — Gigiyena standartlari va xavfsizlik talablari",
             "GOST 12.1.005-88 — Ish zona havosiga umumiy sanitariya-gigiyena talablari",
             "GN 2.2.5.3532-18 — Ish zona havosida zararli moddalarning MPC",
@@ -427,7 +447,7 @@
         "safety": {
           "title": "Ozonlash uchun xavfsizlik tizimi",
           "paragraph": "Sanoat ozonlash tizimlari ko'p darajali xavfsizlik tizimi bilan ta'chiklanadi:",
-          "bulletList": [
+          "items": [
             "Ozon kontsentratsiyasi datchiklari >0.1 mg/m³ da ta'git to'xtadi",
             "Qurilla eshiklari ochilganda avtomatik shakllanish to'xtashi",
             "Tozalash paytida yorug'lik va ovoz signalizatsiyalar",

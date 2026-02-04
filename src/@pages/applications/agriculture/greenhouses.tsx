@@ -97,56 +97,56 @@ export function GreenhousesPage({ staticData, lang }: GreenhousesPageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.intro?.paragraph1 ?? ''}</Paragraph>
-            <Paragraph>{data?.intro?.paragraph2 ?? ''}</Paragraph>
+            <Paragraph>{data.intro.paragraph1}</Paragraph>
+            <Paragraph>{data.intro.paragraph2}</Paragraph>
           </ArticleSection>
 
-          <HighlightBox variant="info">{data?.intro?.scientificFact ?? ''}</HighlightBox>
+          <HighlightBox variant="info">{data.intro.scientificFact}</HighlightBox>
 
-          <ArticleSection title={data?.sections?.applications?.title}>
-            <BulletList items={(data?.sections?.applications?.items as string[]) ?? []} />
+          <ArticleSection title={data.sections.applications.title}>
+            <BulletList items={data.sections.applications.items} />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.irrigation?.title}>
-            <Paragraph>{data?.sections?.irrigation?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.irrigation.title}>
+            <Paragraph>{data.sections.irrigation.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.irrigation?.tableCaption}
-              headers={data?.sections?.irrigation?.tableHeaders ?? []}
-              rows={data?.sections?.irrigation?.tableData ?? []}
+              caption={data.sections.irrigation.tableCaption}
+              headers={data.sections.irrigation.tableHeaders}
+              rows={data.sections.irrigation.tableData}
             />
 
             <HighlightBox variant="success">
-              {data?.sections?.irrigation?.highlight ?? ''}
+              {data.sections.irrigation.highlight}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.soilDisinfection?.title}>
-            <Paragraph>{data?.sections?.soilDisinfection?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.soilDisinfection.title}>
+            <Paragraph>{data.sections.soilDisinfection.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.soilDisinfection?.tableCaption}
-              headers={data?.sections?.soilDisinfection?.tableHeaders ?? []}
-              rows={data?.sections?.soilDisinfection?.tableData ?? []}
+              caption={data.sections.soilDisinfection.tableCaption}
+              headers={data.sections.soilDisinfection.tableHeaders}
+              rows={data.sections.soilDisinfection.tableData}
             />
 
-            <ProcessList steps={data?.sections?.soilDisinfection?.steps ?? []} />
+            <ProcessList steps={data.sections.soilDisinfection.steps} />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.airOzonation?.title}>
-            <Paragraph>{data?.sections?.airOzonation?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.airOzonation.title}>
+            <Paragraph>{data.sections.airOzonation.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.airOzonation?.tableCaption}
-              headers={data?.sections?.airOzonation?.tableHeaders ?? []}
-              rows={data?.sections?.airOzonation?.tableData ?? []}
+              caption={data.sections.airOzonation.tableCaption}
+              headers={data.sections.airOzonation.tableHeaders}
+              rows={data.sections.airOzonation.tableData}
             />
 
-            {typeof data?.sections?.airOzonation?.warning === 'string' ? (
+            {typeof data.sections.airOzonation.warning === 'string' ? (
               <HighlightBox variant="warning">
                 <strong>{data.sections.airOzonation.warning}</strong>
               </HighlightBox>
-            ) : data?.sections?.airOzonation?.warning ? (
+            ) : data.sections.airOzonation.warning ? (
               <HighlightBox variant="warning">
                 <strong>{data.sections.airOzonation.warning.title}</strong>{' '}
                 {data.sections.airOzonation.warning.text}
@@ -154,28 +154,26 @@ export function GreenhousesPage({ staticData, lang }: GreenhousesPageProps) {
             ) : null}
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.seedTreatment?.title}>
-            <Paragraph>{data?.sections?.seedTreatment?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.seedTreatment.title}>
+            <Paragraph>{data.sections.seedTreatment.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.seedTreatment?.tableCaption}
-              headers={data?.sections?.seedTreatment?.tableHeaders ?? []}
-              rows={data?.sections?.seedTreatment?.tableData ?? []}
+              caption={data.sections.seedTreatment.tableCaption}
+              headers={data.sections.seedTreatment.tableHeaders}
+              rows={data.sections.seedTreatment.tableData}
             />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.benefits?.title}>
+          <ArticleSection title={data.sections.benefits.title}>
             <FeatureGrid columns={2}>
-              {((data?.sections?.benefits?.items as Array<{ title: string; description: string }>) ?? []).map(
-                (item, index) => (
-                  <FeatureCard
-                    key={index}
-                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={item.title}
-                    description={item.description}
-                  />
-                ),
-              )}
+              {data.sections.benefits.items.map((item: { title: string; description: string }, index: number) => (
+                <FeatureCard
+                  key={index}
+                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                  title={item.title}
+                  description={item.description}
+                />
+              ))}
             </FeatureGrid>
           </ArticleSection>
         </div>

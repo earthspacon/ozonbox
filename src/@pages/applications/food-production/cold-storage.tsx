@@ -66,27 +66,27 @@ export function ColdStoragePage({ staticData, lang }: ColdStoragePageProps) {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value={data?.stats?.downtimeReduction?.value ?? ''}
-              label={data?.stats?.downtimeReduction?.label ?? ''}
-              description={data?.stats?.downtimeReduction?.description ?? ''}
+              value={data?.stats?.downtimeReduction?.value}
+              label={data?.stats?.downtimeReduction?.label}
+              description={data?.stats?.downtimeReduction?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.emptyChamberConcentration?.value ?? ''}
-              label={data?.stats?.emptyChamberConcentration?.label ?? ''}
-              description={data?.stats?.emptyChamberConcentration?.description ?? ''}
+              value={data?.stats?.emptyChamberConcentration?.value}
+              label={data?.stats?.emptyChamberConcentration?.label}
+              description={data?.stats?.emptyChamberConcentration?.description}
               variant="accent"
             />
             <StatCard
-              value={data?.stats?.emptyChamberTime?.value ?? ''}
-              label={data?.stats?.emptyChamberTime?.label ?? ''}
-              description={data?.stats?.emptyChamberTime?.description ?? ''}
+              value={data?.stats?.emptyChamberTime?.value}
+              label={data?.stats?.emptyChamberTime?.label}
+              description={data?.stats?.emptyChamberTime?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.noWarming?.value ?? ''}
-              label={data?.stats?.noWarming?.label ?? ''}
-              description={data?.stats?.noWarming?.description ?? ''}
+              value={data?.stats?.noWarming?.value}
+              label={data?.stats?.noWarming?.label}
+              description={data?.stats?.noWarming?.description}
               variant="accent"
             />
           </StatGrid>
@@ -97,63 +97,63 @@ export function ColdStoragePage({ staticData, lang }: ColdStoragePageProps) {
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph1}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data?.sections?.intro?.instructionTitle ?? ''}</strong> {data?.sections?.intro?.instructionText ?? ''}
+            <strong>{data?.sections?.intro?.instructionTitle}</strong> {data?.sections?.intro?.instructionText}
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.benefits?.title}>
-            <BulletList items={(data?.sections?.benefits?.items as string[]) ?? []} />
+            <BulletList items={data?.sections?.benefits?.items as string[]} />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.emptyChambers?.title}>
-            <Paragraph>{data?.sections?.emptyChambers?.intro ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.emptyChambers?.intro}</Paragraph>
 
             <DataTable
               caption={data?.sections?.emptyChambers?.tableCaption}
-              headers={data?.sections?.emptyChambers?.tableHeaders ?? []}
-              rows={data?.sections?.emptyChambers?.tableData ?? []}
+              headers={data?.sections?.emptyChambers?.tableHeaders}
+              rows={data?.sections?.emptyChambers?.tableData}
             />
 
-            <HighlightBox variant="warning">{data?.sections?.emptyChambers?.warning ?? ''}</HighlightBox>
+            <HighlightBox variant="warning">{data?.sections?.emptyChambers?.warning}</HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.loadedChambers?.title}>
-            <Paragraph>{data?.sections?.loadedChambers?.intro ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.loadedChambers?.intro}</Paragraph>
 
             <DataTable
               caption={data?.sections?.loadedChambers?.animalProductsTableCaption}
-              headers={data?.sections?.loadedChambers?.tableHeaders ?? []}
-              rows={data?.sections?.loadedChambers?.animalProductsTableData ?? []}
+              headers={data?.sections?.loadedChambers?.tableHeaders}
+              rows={data?.sections?.loadedChambers?.animalProductsTableData}
             />
 
             <DataTable
               caption={data?.sections?.loadedChambers?.vegetableProductsTableCaption}
-              headers={data?.sections?.loadedChambers?.tableHeaders ?? []}
-              rows={data?.sections?.loadedChambers?.vegetableProductsTableData ?? []}
+              headers={data?.sections?.loadedChambers?.tableHeaders}
+              rows={data?.sections?.loadedChambers?.vegetableProductsTableData}
             />
           </ArticleSection>
 
           <ComparisonTable
             title={data?.sections?.comparison?.title}
-            headers={(data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]) ?? []}
-            rows={(data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string; value3?: string }>) ?? []}
+            headers={data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]}
+            rows={data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string; value3?: string }>}
           />
 
           <ArticleSection title={data?.sections?.deodorization?.title}>
-            <Paragraph>{data?.sections?.deodorization?.paragraph1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.deodorization?.paragraph2 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.deodorization?.paragraph1}</Paragraph>
+            <Paragraph>{data?.sections?.deodorization?.paragraph2}</Paragraph>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.organization?.title}>
-            <Paragraph>{data?.sections?.organization?.intro ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.organization?.intro}</Paragraph>
 
             <HighlightBox variant="success">
-              <strong>{data?.sections?.organization?.recommendationTitle ?? ''}</strong>{' '}
-              {data?.sections?.organization?.recommendationText ?? ''}
+              <strong>{data?.sections?.organization?.recommendationTitle}</strong>{' '}
+              {data?.sections?.organization?.recommendationText}
             </HighlightBox>
           </ArticleSection>
 
@@ -161,23 +161,23 @@ export function ColdStoragePage({ staticData, lang }: ColdStoragePageProps) {
             <FeatureGrid columns={2}>
               <FeatureCard
                 icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title={data?.sections?.advantages?.feature1?.title ?? ''}
-                description={data?.sections?.advantages?.feature1?.description ?? ''}
+                title={data?.sections?.advantages?.feature1?.title}
+                description={data?.sections?.advantages?.feature1?.description}
               />
               <FeatureCard
                 icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title={data?.sections?.advantages?.feature2?.title ?? ''}
-                description={data?.sections?.advantages?.feature2?.description ?? ''}
+                title={data?.sections?.advantages?.feature2?.title}
+                description={data?.sections?.advantages?.feature2?.description}
               />
               <FeatureCard
                 icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title={data?.sections?.advantages?.feature3?.title ?? ''}
-                description={data?.sections?.advantages?.feature3?.description ?? ''}
+                title={data?.sections?.advantages?.feature3?.title}
+                description={data?.sections?.advantages?.feature3?.description}
               />
               <FeatureCard
                 icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                title={data?.sections?.advantages?.feature4?.title ?? ''}
-                description={data?.sections?.advantages?.feature4?.description ?? ''}
+                title={data?.sections?.advantages?.feature4?.title}
+                description={data?.sections?.advantages?.feature4?.description}
               />
             </FeatureGrid>
           </ArticleSection>

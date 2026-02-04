@@ -66,27 +66,27 @@ export function BottledWaterPage({ staticData, lang }: BottledWaterPageProps) {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value={data?.stats?.stat1?.value ?? ''}
-              label={data?.stats?.stat1?.label ?? ''}
-              description={data?.stats?.stat1?.description ?? ''}
+              value={data?.stats?.stat1?.value}
+              label={data?.stats?.stat1?.label}
+              description={data?.stats?.stat1?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.stat2?.value ?? ''}
-              label={data?.stats?.stat2?.label ?? ''}
-              description={data?.stats?.stat2?.description ?? ''}
+              value={data?.stats?.stat2?.value}
+              label={data?.stats?.stat2?.label}
+              description={data?.stats?.stat2?.description}
               variant="accent"
             />
             <StatCard
-              value={data?.stats?.stat3?.value ?? ''}
-              label={data?.stats?.stat3?.label ?? ''}
-              description={data?.stats?.stat3?.description ?? ''}
+              value={data?.stats?.stat3?.value}
+              label={data?.stats?.stat3?.label}
+              description={data?.stats?.stat3?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.stat4?.value ?? ''}
-              label={data?.stats?.stat4?.label ?? ''}
-              description={data?.stats?.stat4?.description ?? ''}
+              value={data?.stats?.stat4?.value}
+              label={data?.stats?.stat4?.label}
+              description={data?.stats?.stat4?.description}
               variant="accent"
             />
           </StatGrid>
@@ -97,62 +97,62 @@ export function BottledWaterPage({ staticData, lang }: BottledWaterPageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.text ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.text2 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.text}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.text2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data?.sections?.highlight1?.title ?? ''}</strong> {data?.sections?.highlight1?.text ?? ''}
+            <strong>{data?.sections?.highlight1?.title}</strong> {data?.sections?.highlight1?.text}
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.benefits?.title}>
-            <BulletList items={(data?.sections?.benefits?.items as string[]) ?? []} />
+            <BulletList items={data?.sections?.benefits?.items as string[]} />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.requirements?.title}>
             <DataTable
               caption={data?.sections?.requirements?.tableCaption}
-              headers={data?.sections?.requirements?.tableHeaders ?? []}
-              rows={data?.sections?.requirements?.tableData ?? []}
+              headers={data?.sections?.requirements?.tableHeaders}
+              rows={data?.sections?.requirements?.tableData}
             />
 
             <HighlightBox variant="success">
               {typeof data?.sections?.requirements?.highlight === 'object'
-                ? ((data.sections.requirements.highlight as { text?: string }).text ?? '')
-                : ((data?.sections?.requirements?.highlight as string) ?? '')}
+                ? (data.sections.requirements.highlight as { text?: string }).text
+                : data?.sections?.requirements?.highlight}
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.scheme?.title}>
-            <Paragraph>{data?.sections?.scheme?.text ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.scheme?.text}</Paragraph>
 
             <DataTable
               caption={data?.sections?.scheme?.tableCaption}
-              headers={data?.sections?.scheme?.tableHeaders ?? []}
-              rows={data?.sections?.scheme?.tableData ?? []}
+              headers={data?.sections?.scheme?.tableHeaders}
+              rows={data?.sections?.scheme?.tableData}
             />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.limitations?.title}>
-            <Paragraph>{data?.sections?.limitations?.text ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.limitations?.text2 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.limitations?.text}</Paragraph>
+            <Paragraph>{data?.sections?.limitations?.text2}</Paragraph>
           </ArticleSection>
 
           <ComparisonTable
-            title={data?.sections?.comparison?.title ?? ''}
+            title={data?.sections?.comparison?.title}
             headers={
-              (data?.sections?.comparison?.headers ?? []) as [string, string, string] | [string, string, string, string]
+              data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]
             }
             rows={
-              (data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string }>) ?? []
+              data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string }>
             }
           />
 
           <ArticleSection title={data?.sections?.producerBenefits?.title}>
             <FeatureGrid columns={2}>
               {(
-                (data?.sections?.producerBenefits?.features as Array<{ title: string; description: string }>) ?? []
-              ).map((item, idx) => (
+                (data?.sections?.producerBenefits?.features as Array<{ title: string; description: string }>) || []
+              ).map((item: { title: string; description: string }, idx: number) => (
                 <FeatureCard
                   key={idx}
                   icon={<IconCheck style={{ width: 24, height: 24 }} />}

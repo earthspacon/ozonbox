@@ -252,7 +252,273 @@
         "Odor and mold removal",
         "No consumables",
         "Process automation"
-      ]
+      ],
+      "stats": {
+        "time": {
+          "value": "20-40",
+          "label": "Minutes",
+          "description": "Treatment time for one cabin"
+        },
+        "power": {
+          "value": "12V/24V",
+          "label": "Power supply",
+          "description": "Operation from vehicle electrical system"
+        },
+        "coverage": {
+          "value": "100%",
+          "label": "Coverage",
+          "description": "All surfaces and hard-to-reach areas"
+        },
+        "consumables": {
+          "value": "0",
+          "label": "Consumables",
+          "description": "No chemical reagents"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Public transport is a high-risk environment for infection transmission. Thousands of passengers touch the same handrails, seats and buttons daily. Ozonation allows quick and effective disinfection of bus, tram and trolleybus interiors between runs or at night.",
+          "text2": "Unlike manual chemical disinfection, ozone penetrates all crevices and hard-to-reach areas, ensuring complete interior treatment. There are no chemical residues that could cause allergies to passengers."
+        },
+        "highlight1": {
+          "title": "Advantage of ozone:",
+          "text": "gas penetrates crevices between seats, under upholstery, into the ventilation system — areas impossible to reach during manual cleaning. After treatment, the cabin is completely free from pathogens."
+        },
+        "whatDisinfects": {
+          "title": "What ozone disinfects in transport",
+          "items": [
+            "Handrails and railings — main passenger contact points",
+            "Seats and backrests — accumulate bacteria and odors",
+            "Windows and walls — dust and aerosol particles settle",
+            "Floor of the cabin — dirt and microorganisms accumulate",
+            "Ventilation system — spreads infections throughout the cabin",
+            "Driver's cabin — protects personnel from diseases"
+          ]
+        },
+        "treatmentMode": {
+          "title": "Transport treatment mode",
+          "steps": [
+            {
+              "title": "Ozonator installation",
+              "description": "Place the ozonator in the passenger cabin at maximum height from the floor. Close all windows and doors."
+            },
+            {
+              "title": "Start treatment",
+              "description": "Turn on the ozonator for 20-40 minutes depending on cabin volume. Leave the vehicle."
+            },
+            {
+              "title": "Ozone exposure",
+              "description": "Ozone spreads throughout the cabin, penetrating all crevices and hard-to-reach areas. Destroys viruses, bacteria, mold."
+            },
+            {
+              "title": "Ventilation",
+              "description": "Open doors and windows, ventilate cabin for 20 minutes. Use vehicle ventilation system to accelerate."
+            }
+          ],
+          "tableHeaders": [
+            "Transport type",
+            "Interior volume",
+            "Capacity",
+            "Time"
+          ],
+          "tableCaption": "Recommended treatment modes",
+          "tableData": [
+            [
+              "Minibus",
+              "15-25 m³",
+              "5-10 g/h",
+              "20 min"
+            ],
+            [
+              "City bus",
+              "40-60 m³",
+              "20-30 g/h",
+              "30 min"
+            ],
+            [
+              "Articulated bus",
+              "80-100 m³",
+              "30-50 g/h",
+              "40 min"
+            ],
+            [
+              "Tram/trolleybus",
+              "50-80 m³",
+              "20-40 g/h",
+              "35 min"
+            ]
+          ]
+        },
+        "organizationOptions": {
+          "title": "Treatment organization options",
+          "text": "Public transport disinfection can be organized in several ways depending on fleet size and operating schedule.",
+          "items": [
+            {
+              "title": "Treatment at depot",
+              "description": "Centralized treatment of entire fleet at night with powerful mobile ozonators"
+            },
+            {
+              "title": "Between runs",
+              "description": "Express treatment at terminal stops with compact ozonators"
+            },
+            {
+              "title": "Stationary installation",
+              "description": "Wall-mounted ozonator in cabin, operating from vehicle power on timer"
+            },
+            {
+              "title": "Mobile team",
+              "description": "Portable ozonators for treating transport on the route"
+            }
+          ]
+        },
+        "powerSupply": {
+          "title": "Power supply from vehicle electrical system",
+          "text": "Ozonators can operate from vehicle electrical system, allowing treatment without external power connection.",
+          "highlight": "Treatment requires no staff participation — just turn on the ozonator and leave. No consumables reduce operating costs.",
+          "tableHeaders": [
+            "Power type",
+            "Application",
+            "Advantages"
+          ],
+          "tableCaption": "Ozonator power supply options",
+          "tableData": [
+            [
+              "12V DC",
+              "Minibus, microbus",
+              "Standard vehicle power"
+            ],
+            [
+              "24V DC",
+              "Buses, trolleybuses",
+              "Increased power"
+            ],
+            [
+              "220V AC",
+              "Depots, parks",
+              "Maximum capacity"
+            ],
+            [
+              "Battery",
+              "Mobile teams",
+              "Autonomy"
+            ]
+          ]
+        },
+        "pathogenEfficiency": {
+          "title": "Effectiveness against pathogens",
+          "tableHeaders": [
+            "Pathogen",
+            "Time at 20 mg/m³",
+            "Effectiveness"
+          ],
+          "tableCaption": "Pathogen inactivation time in transport cabin",
+          "tableData": [
+            [
+              "Coronaviruses (COVID-19)",
+              "10-15 min",
+              "99.9%"
+            ],
+            [
+              "Influenza viruses",
+              "5-10 min",
+              "99.9%"
+            ],
+            [
+              "Staphylococcus aureus",
+              "10-15 min",
+              "99.9%"
+            ],
+            [
+              "E. coli",
+              "5-10 min",
+              "99.9%"
+            ],
+            [
+              "Mold and fungi",
+              "15-20 min",
+              "99%"
+            ],
+            [
+              "Odors (organic)",
+              "20-30 min",
+              "100%"
+            ]
+          ]
+        },
+        "comparison": {
+          "title": "Disinfection method comparison",
+          "tableTitle": "Ozonation vs chemical treatment",
+          "headers": [
+            "Criterion",
+            "Ozonation",
+            "Chemical treatment"
+          ],
+          "rows": [
+            {
+              "parameter": "Treatment time",
+              "value1": "20-40 min + ventilation",
+              "value2": "15-30 min"
+            },
+            {
+              "parameter": "Surface coverage",
+              "value1": "100% (including hidden)",
+              "value2": "60-70% (accessible only)"
+            },
+            {
+              "parameter": "Chemical residues",
+              "value1": "None",
+              "value2": "Yes (can cause allergy)"
+            },
+            {
+              "parameter": "Consumables",
+              "value1": "None",
+              "value2": "Yes (disinfectants)"
+            },
+            {
+              "parameter": "Odor elimination",
+              "value1": "Complete",
+              "value2": "Partial (masking)"
+            },
+            {
+              "parameter": "Staff involvement",
+              "value1": "Minimal",
+              "value2": "Constant"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Benefits for transport companies",
+          "items": [
+            {
+              "title": "Passenger protection",
+              "description": "Reduced risk of infection spread in public transport"
+            },
+            {
+              "title": "Driver protection",
+              "description": "Fewer sick days, stable route operation"
+            },
+            {
+              "title": "No chemicals",
+              "description": "No costs for disinfectants and storage"
+            },
+            {
+              "title": "Automation",
+              "description": "Timer operation without constant monitoring"
+            }
+          ]
+        },
+        "safety": {
+          "title": "Safety requirements",
+          "items": [
+            "Treatment only when cabin is empty",
+            "Driver and staff leave vehicle during treatment",
+            "After treatment — ventilate 20 minutes or operate ventilation system",
+            "Staff use respirator when entering immediately after treatment",
+            "Ozone MPC — 0.1 mg/m³ (smells like 'after thunderstorm')"
+          ],
+          "warning": "When organizing treatment between runs, ensure ventilation time is included in schedule. Passengers must not enter cabin until ozone concentration drops to safe level."
+        }
+      }
     },
     "sports-facilities": {
       "title": "Sports facilities",

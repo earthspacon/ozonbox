@@ -66,27 +66,27 @@ export function PoolsSpaPage({ staticData, lang }: PoolsSpaPageProps) {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value={data?.stats?.chlorineReduction?.value ?? ''}
-              label={data?.stats?.chlorineReduction?.label ?? ''}
-              description={data?.stats?.chlorineReduction?.description ?? ''}
+              value={data?.stats?.chlorineReduction?.value}
+              label={data?.stats?.chlorineReduction?.label}
+              description={data?.stats?.chlorineReduction?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.irritation?.value ?? ''}
-              label={data?.stats?.irritation?.label ?? ''}
-              description={data?.stats?.irritation?.description ?? ''}
+              value={data?.stats?.irritation?.value}
+              label={data?.stats?.irritation?.label}
+              description={data?.stats?.irritation?.description}
               variant="accent"
             />
             <StatCard
-              value={data?.stats?.bactericidal?.value ?? ''}
-              label={data?.stats?.bactericidal?.label ?? ''}
-              description={data?.stats?.bactericidal?.description ?? ''}
+              value={data?.stats?.bactericidal?.value}
+              label={data?.stats?.bactericidal?.label}
+              description={data?.stats?.bactericidal?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.waterColor?.value ?? ''}
-              label={data?.stats?.waterColor?.label ?? ''}
-              description={data?.stats?.waterColor?.description ?? ''}
+              value={data?.stats?.waterColor?.value}
+              label={data?.stats?.waterColor?.label}
+              description={data?.stats?.waterColor?.description}
               variant="accent"
             />
           </StatGrid>
@@ -97,61 +97,57 @@ export function PoolsSpaPage({ staticData, lang }: PoolsSpaPageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph1}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>
-              {(data?.sections?.highlightBox as { regulation?: { label?: string; text?: string } })?.regulation
-                ?.label ?? ''}
-            </strong>{' '}
-            {(data?.sections?.highlightBox as { regulation?: { label?: string; text?: string } })?.regulation?.text ??
-              ''}
+            <strong>{data?.sections?.highlightBox?.regulation?.label}</strong>{' '}
+            {data?.sections?.highlightBox?.regulation?.text}
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.comparison?.title}>
             <ComparisonTable
               headers={
-                (data?.sections?.comparison?.headers ?? []) as
+                (data?.sections?.comparison?.headers as
                   | [string, string, string]
-                  | [string, string, string, string]
+                  | [string, string, string, string]) || []
               }
               rows={
-                (data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string }>) ?? []
+                (data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string }>) || []
               }
             />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.technology?.title}>
-            <Paragraph>{data?.sections?.technology?.intro ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.technology?.intro}</Paragraph>
 
             <DataTable
               caption={data?.sections?.technology?.tableCaption}
-              headers={data?.sections?.technology?.tableHeaders ?? []}
-              rows={data?.sections?.technology?.tableData ?? []}
+              headers={data?.sections?.technology?.tableHeaders || []}
+              rows={data?.sections?.technology?.tableData || []}
             />
 
-            <HighlightBox variant="success">{data?.sections?.technology?.note ?? ''}</HighlightBox>
+            <HighlightBox variant="success">{data?.sections?.technology?.note}</HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.pathogens?.title}>
-            <BulletList items={(data?.sections?.pathogens?.items as string[]) ?? []} />
+            <BulletList items={(data?.sections?.pathogens?.items as string[]) || []} />
 
-            <Paragraph>{data?.sections?.pathogens?.note ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.pathogens?.note}</Paragraph>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.poolTypes?.title}>
             <DataTable
               caption={data?.sections?.poolTypes?.tableCaption}
-              headers={data?.sections?.poolTypes?.tableHeaders ?? []}
-              rows={data?.sections?.poolTypes?.tableData ?? []}
+              headers={data?.sections?.poolTypes?.tableHeaders}
+              rows={data?.sections?.poolTypes?.tableData}
             />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.benefits?.title}>
             <FeatureGrid columns={2}>
-              {((data?.sections?.benefits?.items as Array<{ title: string; description: string }>) ?? []).map(
+              {(data?.sections?.benefits?.items as Array<{ title: string; description: string }>)?.map(
                 (item, idx) => (
                   <FeatureCard
                     key={idx}
@@ -165,8 +161,8 @@ export function PoolsSpaPage({ staticData, lang }: PoolsSpaPageProps) {
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.spa?.title}>
-            <Paragraph>{data?.sections?.spa?.intro ?? ''}</Paragraph>
-            <BulletList items={(data?.sections?.spa?.items as string[]) ?? []} />
+            <Paragraph>{data?.sections?.spa?.intro}</Paragraph>
+            <BulletList items={(data?.sections?.spa?.items as string[]) || []} />
           </ArticleSection>
         </div>
       </article>

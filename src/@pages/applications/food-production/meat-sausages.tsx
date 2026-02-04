@@ -63,27 +63,27 @@ export function MeatSausagesPage({ staticData, lang }: MeatSausagesPageProps) {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value={data?.stats?.shelfLife?.value ?? ''}
-              label={data?.stats?.shelfLife?.label ?? ''}
-              description={data?.stats?.shelfLife?.description ?? ''}
+              value={data?.stats?.shelfLife?.value}
+              label={data?.stats?.shelfLife?.label}
+              description={data?.stats?.shelfLife?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.disinfection?.value ?? ''}
-              label={data?.stats?.disinfection?.label ?? ''}
-              description={data?.stats?.disinfection?.description ?? ''}
+              value={data?.stats?.disinfection?.value}
+              label={data?.stats?.disinfection?.label}
+              description={data?.stats?.disinfection?.description}
               variant="accent"
             />
             <StatCard
-              value={data?.stats?.concentration?.value ?? ''}
-              label={data?.stats?.concentration?.label ?? ''}
-              description={data?.stats?.concentration?.description ?? ''}
+              value={data?.stats?.concentration?.value}
+              label={data?.stats?.concentration?.label}
+              description={data?.stats?.concentration?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.organoleptics?.value ?? ''}
-              label={data?.stats?.organoleptics?.label ?? ''}
-              description={data?.stats?.organoleptics?.description ?? ''}
+              value={data?.stats?.organoleptics?.value}
+              label={data?.stats?.organoleptics?.label}
+              description={data?.stats?.organoleptics?.description}
               variant="accent"
             />
           </StatGrid>
@@ -94,56 +94,56 @@ export function MeatSausagesPage({ staticData, lang }: MeatSausagesPageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph1}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data?.sections?.instruction?.label ?? ''}</strong> {data?.sections?.instruction?.text ?? ''}
+            <strong>{data?.sections?.instruction?.label}</strong> {data?.sections?.instruction?.text}
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.storage?.title}>
-            <Paragraph>{data?.sections?.storage?.paragraph ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.storage?.paragraph}</Paragraph>
 
             <DataTable
               caption={data?.sections?.storage?.tableCaption}
-              headers={data?.sections?.storage?.tableHeaders ?? []}
-              rows={data?.sections?.storage?.tableRows ?? []}
+              headers={data?.sections?.storage?.tableHeaders}
+              rows={data?.sections?.storage?.tableRows}
             />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.ripeningChambers?.title}>
-            <Paragraph>{data?.sections?.ripeningChambers?.paragraph ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.ripeningChambers?.paragraph}</Paragraph>
 
             <DataTable
               caption={data?.sections?.ripeningChambers?.tableCaption}
-              headers={data?.sections?.ripeningChambers?.tableHeaders ?? []}
-              rows={data?.sections?.ripeningChambers?.tableRows ?? []}
+              headers={data?.sections?.ripeningChambers?.tableHeaders}
+              rows={data?.sections?.ripeningChambers?.tableRows}
             />
 
             <HighlightBox variant="success">
-              <strong>{data?.sections?.ripeningChambers?.recommendedMode?.label ?? ''}</strong> {data?.sections?.ripeningChambers?.recommendedMode?.text ?? ''}
+              <strong>{data?.sections?.ripeningChambers?.recommendedMode?.label}</strong> {data?.sections?.ripeningChambers?.recommendedMode?.text}
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.benefits?.title}>
-            <BulletList items={(data?.sections?.benefits?.items as string[]) ?? []} />
+            <BulletList items={data?.sections?.benefits?.items as string[]} />
           </ArticleSection>
 
           <ComparisonTable
             title={data?.sections?.comparison?.title}
-            headers={(data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]) ?? []}
-            rows={(data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string; value3?: string }>) ?? []}
+            headers={data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]}
+            rows={data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string; value3?: string }>}
           />
 
           <ArticleSection title={data?.sections?.regulations?.title}>
-            <Paragraph>{data?.sections?.regulations?.paragraph ?? ''}</Paragraph>
-            <BulletList items={(data?.sections?.regulations?.items as string[]) ?? []} />
+            <Paragraph>{data?.sections?.regulations?.paragraph}</Paragraph>
+            <BulletList items={data?.sections?.regulations?.items as string[]} />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.features?.title}>
             <FeatureGrid columns={2}>
-              {((data?.sections?.features?.items as Array<{ title: string; description: string }>) ?? []).map(
+              {(data?.sections?.features?.items as Array<{ title: string; description: string }>).map(
                 (item, idx) => (
                   <FeatureCard
                     key={idx}

@@ -66,27 +66,27 @@ export function OilRemovalPage({ staticData, lang }: OilRemovalPageProps) {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value={data?.stats?.efficiency?.value ?? ''}
-              label={data?.stats?.efficiency?.label ?? ''}
-              description={data?.stats?.efficiency?.description ?? ''}
+              value={data?.stats?.efficiency?.value}
+              label={data?.stats?.efficiency?.label}
+              description={data?.stats?.efficiency?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.pdk?.value ?? ''}
-              label={data?.stats?.pdk?.label ?? ''}
-              description={data?.stats?.pdk?.description ?? ''}
+              value={data?.stats?.pdk?.value}
+              label={data?.stats?.pdk?.label}
+              description={data?.stats?.pdk?.description}
               variant="accent"
             />
             <StatCard
-              value={data?.stats?.consumption?.value ?? ''}
-              label={data?.stats?.consumption?.label ?? ''}
-              description={data?.stats?.consumption?.description ?? ''}
+              value={data?.stats?.consumption?.value}
+              label={data?.stats?.consumption?.label}
+              description={data?.stats?.consumption?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.secondaryPollution?.value ?? ''}
-              label={data?.stats?.secondaryPollution?.label ?? ''}
-              description={data?.stats?.secondaryPollution?.description ?? ''}
+              value={data?.stats?.secondaryPollution?.value}
+              label={data?.stats?.secondaryPollution?.label}
+              description={data?.stats?.secondaryPollution?.description}
               variant="accent"
             />
           </StatGrid>
@@ -97,68 +97,68 @@ export function OilRemovalPage({ staticData, lang }: OilRemovalPageProps) {
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph1}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="warning">
-            <strong>{data?.sections?.regulatory?.highlight?.title ?? ''}</strong>{' '}
-            {data?.sections?.regulatory?.highlight?.text ?? ''}
+            <strong>{data?.sections?.regulatory?.highlight?.title}</strong>{' '}
+            {data?.sections?.regulatory?.highlight?.text}
           </HighlightBox>
 
-          <ArticleSection title={data?.sections?.mechanism?.title ?? ''}>
-            <Paragraph>{data?.sections?.mechanism?.paragraph ?? ''}</Paragraph>
-            <BulletList items={(data?.sections?.mechanism?.items as string[]) ?? []} />
+          <ArticleSection title={data?.sections?.mechanism?.title}>
+            <Paragraph>{data?.sections?.mechanism?.paragraph}</Paragraph>
+            <BulletList items={data?.sections?.mechanism?.items} />
 
             <DataTable
               caption={data?.sections?.mechanism?.tableCaption}
-              headers={data?.sections?.mechanism?.tableHeaders ?? []}
-              rows={data?.sections?.mechanism?.tableData ?? []}
+              headers={data?.sections?.mechanism?.tableHeaders}
+              rows={data?.sections?.mechanism?.tableRows}
             />
 
             <HighlightBox variant="info">
-              <strong>{data?.sections?.mechanism?.highlight?.title ?? ''}</strong>{' '}
-              {data?.sections?.mechanism?.highlight?.text ?? ''}
+              <strong>{data?.sections?.mechanism?.highlight?.title}</strong>{' '}
+              {data?.sections?.mechanism?.highlight?.text}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.wasteTypes?.title ?? ''}>
-            <Paragraph>{data?.sections?.wasteTypes?.paragraph ?? ''}</Paragraph>
+          <ArticleSection title={data?.sections?.types?.title}>
+            <Paragraph>{data?.sections?.types?.paragraph}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.wasteTypes?.tableCaption}
-              headers={data?.sections?.wasteTypes?.tableHeaders ?? []}
-              rows={data?.sections?.wasteTypes?.tableData ?? []}
+              caption={data?.sections?.types?.tableCaption}
+              headers={data?.sections?.types?.tableHeaders}
+              rows={data?.sections?.types?.tableRows}
             />
 
             <HighlightBox variant="success">
-              <strong>{data?.sections?.wasteTypes?.highlight?.title ?? ''}</strong>{' '}
-              {data?.sections?.wasteTypes?.highlight?.text ?? ''}
+              <strong>{data?.sections?.types?.successBox?.title}</strong>{' '}
+              {data?.sections?.types?.successBox?.text}
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.equipment?.title}>
-            <Paragraph>{data?.sections?.equipment?.paragraph ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.equipment?.paragraph}</Paragraph>
 
             <DataTable
               caption={data?.sections?.equipment?.tableCaption}
-              headers={data?.sections?.equipment?.tableHeaders ?? []}
-              rows={data?.sections?.equipment?.tableRows ?? []}
+              headers={data?.sections?.equipment?.tableHeaders}
+              rows={data?.sections?.equipment?.tableRows}
             />
 
-            <BulletList items={(data?.sections?.equipment?.items as string[]) ?? []} />
+            <BulletList items={data?.sections?.equipment?.items} />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.economics?.title}>
             <ComparisonTable
               title={data?.sections?.economics?.comparisonTitle}
               headers={
-                (data?.sections?.economics?.comparisonHeaders ?? ['', '', '']) as
+                data?.sections?.economics?.comparisonHeaders as
                   | [string, string, string]
                   | [string, string, string, string]
               }
               rows={
-                (data?.sections?.economics?.comparisonRows ?? []) as Array<{
+                data?.sections?.economics?.comparisonRows as Array<{
                   parameter: string
                   value1: string
                   value2: string
@@ -168,43 +168,41 @@ export function OilRemovalPage({ staticData, lang }: OilRemovalPageProps) {
             />
 
             <HighlightBox variant="info">
-              <strong>{data?.sections?.economics?.infoBox?.title ?? ''}:</strong>{' '}
-              {data?.sections?.economics?.infoBox?.text ?? ''}
+              <strong>{data?.sections?.economics?.infoBox?.title}:</strong>{' '}
+              {data?.sections?.economics?.infoBox?.text}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.regulatory?.title}>
-            <Paragraph>{data?.sections?.regulatory?.paragraph ?? ''}</Paragraph>
-            <BulletList items={data?.sections?.regulatory?.bulletList ?? []} />
+          <ArticleSection title={data?.sections?.compliance?.title}>
+            <Paragraph>{data?.sections?.compliance?.paragraph}</Paragraph>
+            <BulletList items={data?.sections?.compliance?.items} />
 
             <DataTable
-              caption={data?.sections?.regulatory?.tableCaption}
-              headers={data?.sections?.regulatory?.tableHeaders ?? []}
-              rows={data?.sections?.regulatory?.tableData ?? []}
+              caption={data?.sections?.compliance?.tableCaption}
+              headers={data?.sections?.compliance?.tableHeaders}
+              rows={data?.sections?.compliance?.tableRows}
             />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.benefits?.title}>
             <FeatureGrid columns={2}>
-              {((data?.sections?.benefits?.items as Array<{ title: string; description: string }>) ?? []).map(
-                (item, idx) => (
-                  <FeatureCard
-                    key={idx}
-                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={item.title}
-                    description={item.description}
-                  />
-                ),
-              )}
+              {data?.sections?.benefits?.features?.map((item: { title: string; description: string }, idx: number) => (
+                <FeatureCard
+                  key={idx}
+                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                  title={item.title}
+                  description={item.description}
+                />
+              ))}
             </FeatureGrid>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.case?.title}>
-            <Paragraph>{data?.sections?.case?.paragraph ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.case?.paragraph}</Paragraph>
             <DataTable
               caption={data?.sections?.case?.tableCaption}
-              headers={data?.sections?.case?.tableHeaders ?? []}
-              rows={data?.sections?.case?.tableData ?? []}
+              headers={data?.sections?.case?.tableHeaders}
+              rows={data?.sections?.case?.tableRows}
             />
           </ArticleSection>
         </div>

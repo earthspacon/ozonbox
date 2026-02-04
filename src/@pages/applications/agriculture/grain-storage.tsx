@@ -66,27 +66,27 @@ export function GrainStoragePage({ staticData, lang }: GrainStoragePageProps) {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value={data?.stats?.pestDestruction?.value ?? ''}
-              label={data?.stats?.pestDestruction?.label ?? ''}
-              description={data?.stats?.pestDestruction?.description ?? ''}
+              value={data.stats.pestDestruction.value}
+              label={data.stats.pestDestruction.label}
+              description={data.stats.pestDestruction.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.disinfection?.value ?? ''}
-              label={data?.stats?.disinfection?.label ?? ''}
-              description={data?.stats?.disinfection?.description ?? ''}
+              value={data.stats.disinfection.value}
+              label={data.stats.disinfection.label}
+              description={data.stats.disinfection.description}
               variant="accent"
             />
             <StatCard
-              value={data?.stats?.yieldIncrease?.value ?? ''}
-              label={data?.stats?.yieldIncrease?.label ?? ''}
-              description={data?.stats?.yieldIncrease?.description ?? ''}
+              value={data.stats.yieldIncrease.value}
+              label={data.stats.yieldIncrease.label}
+              description={data.stats.yieldIncrease.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.lossReduction?.value ?? ''}
-              label={data?.stats?.lossReduction?.label ?? ''}
-              description={data?.stats?.lossReduction?.description ?? ''}
+              value={data.stats.lossReduction.value}
+              label={data.stats.lossReduction.label}
+              description={data.stats.lossReduction.description}
               variant="accent"
             />
           </StatGrid>
@@ -97,91 +97,86 @@ export function GrainStoragePage({ staticData, lang }: GrainStoragePageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
+            <Paragraph>{data.sections.intro.paragraph1}</Paragraph>
+            <Paragraph>{data.sections.intro.paragraph2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data?.sections?.worldExperience?.label ?? ''}</strong> {data?.sections?.worldExperience?.text ?? ''}
+            <strong>{data.sections.worldExperience.label}</strong> {data.sections.worldExperience.text}
           </HighlightBox>
 
-          <ArticleSection title={data?.sections?.applications?.title}>
-            <BulletList items={(data?.sections?.applications?.items as string[]) ?? []} />
+          <ArticleSection title={data.sections.applications.title}>
+            <BulletList items={data.sections.applications.items} />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.pests?.title}>
-            <Paragraph>{data?.sections?.pests?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.pests.title}>
+            <Paragraph>{data.sections.pests.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.pests?.tableCaption}
-              headers={data?.sections?.pests?.tableHeaders ?? []}
-              rows={data?.sections?.pests?.tableData ?? []}
+              caption={data.sections.pests.tableCaption}
+              headers={data.sections.pests.tableHeaders}
+              rows={data.sections.pests.tableData}
             />
 
-            <HighlightBox variant="success">{data?.sections?.pests?.highlightText ?? ''}</HighlightBox>
+            <HighlightBox variant="success">{data.sections.pests.highlightText}</HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.fungi?.title}>
-            <Paragraph>{data?.sections?.fungi?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.fungi.title}>
+            <Paragraph>{data.sections.fungi.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.fungi?.tableCaption}
-              headers={data?.sections?.fungi?.tableHeaders ?? []}
-              rows={data?.sections?.fungi?.tableData ?? []}
+              caption={data.sections.fungi.tableCaption}
+              headers={data.sections.fungi.tableHeaders}
+              rows={data.sections.fungi.tableData}
             />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.modes?.title}>
-            <Paragraph>{data?.sections?.modes?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.modes.title}>
+            <Paragraph>{data.sections.modes.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.modes?.tableCaption}
-              headers={data?.sections?.modes?.tableHeaders ?? []}
-              rows={data?.sections?.modes?.tableData ?? []}
+              caption={data.sections.modes.tableCaption}
+              headers={data.sections.modes.tableHeaders}
+              rows={data.sections.modes.tableData}
             />
 
             <HighlightBox variant="warning">
-              <strong>{data?.sections?.modes?.warningLabel ?? ''}</strong> {data?.sections?.modes?.warningText ?? ''}
+              <strong>{data.sections.modes.warningLabel}</strong> {data.sections.modes.warningText}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.presowing?.title}>
-            <Paragraph>{data?.sections?.presowing?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.presowing.title}>
+            <Paragraph>{data.sections.presowing.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.presowing?.tableCaption}
-              headers={data?.sections?.presowing?.tableHeaders ?? []}
-              rows={data?.sections?.presowing?.tableData ?? []}
+              caption={data.sections.presowing.tableCaption}
+              headers={data.sections.presowing.tableHeaders}
+              rows={data.sections.presowing.tableData}
             />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.technology?.title}>
-            <ProcessList steps={data?.sections?.technology?.steps ?? []} />
+          <ArticleSection title={data.sections.technology.title}>
+            <ProcessList steps={data.sections.technology.steps} />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.comparison?.title}>
+          <ArticleSection title={data.sections.comparison.title}>
             <DataTable
-              caption={data?.sections?.comparison?.tableCaption}
-              headers={data?.sections?.comparison?.tableHeaders ?? []}
-              rows={data?.sections?.comparison?.tableData ?? []}
+              caption={data.sections.comparison.tableCaption}
+              headers={data.sections.comparison.tableHeaders}
+              rows={data.sections.comparison.tableData}
             />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.benefits?.title}>
+          <ArticleSection title={data.sections.benefits.title}>
             <FeatureGrid columns={2}>
-              {((data?.benefits ?? []) as string[]).map((benefit, idx) => {
-                const benefitParts = benefit.split(' — ')
-                const title = benefitParts[0] || benefit
-                const description = benefitParts[1] || ''
-                return (
-                  <FeatureCard
-                    key={idx}
-                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={title}
-                    description={description}
-                  />
-                )
-              })}
+              {data.sections.benefits.items.map((item: { title: string; description: string }, idx: number) => (
+                <FeatureCard
+                  key={idx}
+                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                  title={item.title}
+                  description={item.description}
+                />
+              ))}
             </FeatureGrid>
           </ArticleSection>
         </div>

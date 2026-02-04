@@ -66,27 +66,27 @@ export function BeekeepingPage({ staticData, lang }: BeekeepingPageProps) {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value={data?.stats?.honeyIncrease?.value ?? ''}
-              label={data?.stats?.honeyIncrease?.label ?? ''}
-              description={data?.stats?.honeyIncrease?.description ?? ''}
+              value={data.stats.honeyIncrease.value}
+              label={data.stats.honeyIncrease.label}
+              description={data.stats.honeyIncrease.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.productivityGrowth?.value ?? ''}
-              label={data?.stats?.productivityGrowth?.label ?? ''}
-              description={data?.stats?.productivityGrowth?.description ?? ''}
+              value={data.stats.productivityGrowth.value}
+              label={data.stats.productivityGrowth.label}
+              description={data.stats.productivityGrowth.description}
               variant="accent"
             />
             <StatCard
-              value={data?.stats?.disinfection?.value ?? ''}
-              label={data?.stats?.disinfection?.label ?? ''}
-              description={data?.stats?.disinfection?.description ?? ''}
+              value={data.stats.disinfection.value}
+              label={data.stats.disinfection.label}
+              description={data.stats.disinfection.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.chemicals?.value ?? ''}
-              label={data?.stats?.chemicals?.label ?? ''}
-              description={data?.stats?.chemicals?.description ?? ''}
+              value={data.stats.chemicals.value}
+              label={data.stats.chemicals.label}
+              description={data.stats.chemicals.description}
               variant="accent"
             />
           </StatGrid>
@@ -97,89 +97,87 @@ export function BeekeepingPage({ staticData, lang }: BeekeepingPageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
+            <Paragraph>{data.sections.intro.paragraph1}</Paragraph>
+            <Paragraph>{data.sections.intro.paragraph2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data?.sections?.dosage?.title ?? ''}</strong> {data?.sections?.dosage?.text ?? ''}
+            <strong>{data.sections.dosage.title}</strong> {data.sections.dosage.text}
           </HighlightBox>
 
-          <ArticleSection title={data?.sections?.applications?.title}>
-            <BulletList items={(data?.sections?.applications?.items as string[]) ?? []} />
+          <ArticleSection title={data.sections.applications.title}>
+            <BulletList items={data.sections.applications.items} />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.ascospherosis?.title}>
-            <Paragraph>{data?.sections?.ascospherosis?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.ascospherosis.title}>
+            <Paragraph>{data.sections.ascospherosis.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.ascospherosis?.tableCaption}
-              headers={data?.sections?.ascospherosis?.tableHeaders ?? []}
-              rows={data?.sections?.ascospherosis?.tableData ?? []}
+              caption={data.sections.ascospherosis.tableCaption}
+              headers={data.sections.ascospherosis.tableHeaders}
+              rows={data.sections.ascospherosis.tableData}
             />
 
-            <HighlightBox variant="success">{data?.sections?.ascospherosis?.note ?? ''}</HighlightBox>
+            <HighlightBox variant="success">{data.sections.ascospherosis.note}</HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.pathogens?.title}>
-            <Paragraph>{data?.sections?.pathogens?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.pathogens.title}>
+            <Paragraph>{data.sections.pathogens.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.pathogens?.tableCaption}
-              headers={data?.sections?.pathogens?.tableHeaders ?? []}
-              rows={data?.sections?.pathogens?.tableData ?? []}
+              caption={data.sections.pathogens.tableCaption}
+              headers={data.sections.pathogens.tableHeaders}
+              rows={data.sections.pathogens.tableData}
             />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.technology?.title}>
-            <ProcessList steps={data?.sections?.technology?.steps ?? []} />
+          <ArticleSection title={data.sections.technology.title}>
+            <ProcessList steps={data.sections.technology.steps} />
 
             <HighlightBox variant="warning">
-              <strong>{data?.sections?.technology?.warning?.title ?? ''}</strong>{' '}
-              {data?.sections?.technology?.warning?.text ?? ''}
+              <strong>{data.sections.technology.warning.title}</strong>{' '}
+              {data.sections.technology.warning.text}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.stimulation?.title}>
-            <Paragraph>{data?.sections?.stimulation?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.stimulation.title}>
+            <Paragraph>{data.sections.stimulation.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.stimulation?.tableCaption}
-              headers={data?.sections?.stimulation?.tableHeaders ?? []}
-              rows={data?.sections?.stimulation?.tableData ?? []}
+              caption={data.sections.stimulation.tableCaption}
+              headers={data.sections.stimulation.tableHeaders}
+              rows={data.sections.stimulation.tableData}
             />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.equipment?.title}>
-            <Paragraph>{data?.sections?.equipment?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.equipment.title}>
+            <Paragraph>{data.sections.equipment.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.equipment?.tableCaption}
-              headers={data?.sections?.equipment?.tableHeaders ?? []}
-              rows={data?.sections?.equipment?.tableData ?? []}
+              caption={data.sections.equipment.tableCaption}
+              headers={data.sections.equipment.tableHeaders}
+              rows={data.sections.equipment.tableData}
             />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.calendar?.title}>
+          <ArticleSection title={data.sections.calendar.title}>
             <DataTable
-              caption={data?.sections?.calendar?.tableCaption}
-              headers={data?.sections?.calendar?.tableHeaders ?? []}
-              rows={data?.sections?.calendar?.tableData ?? []}
+              caption={data.sections.calendar.tableCaption}
+              headers={data.sections.calendar.tableHeaders}
+              rows={data.sections.calendar.tableData}
             />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.benefits?.title}>
+          <ArticleSection title={data.sections.benefits.title}>
             <FeatureGrid columns={2}>
-              {((data?.sections?.benefits?.items as Array<{ title: string; description: string }>) ?? []).map(
-                (item, idx) => (
-                  <FeatureCard
-                    key={idx}
-                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={item.title}
-                    description={item.description}
-                  />
-                ),
-              )}
+              {data.sections.benefits.items.map((item: { title: string; description: string }, idx: number) => (
+                <FeatureCard
+                  key={idx}
+                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                  title={item.title}
+                  description={item.description}
+                />
+              ))}
             </FeatureGrid>
           </ArticleSection>
         </div>

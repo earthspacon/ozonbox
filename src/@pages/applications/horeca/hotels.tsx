@@ -31,9 +31,7 @@ export function HotelsPage({ staticData, lang }: HotelsPageProps) {
   const ns = getCategoryNamespace('horeca')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { hotels?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as any)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.hotels
 
   const breadcrumbs = [
@@ -66,27 +64,27 @@ export function HotelsPage({ staticData, lang }: HotelsPageProps) {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value={data?.stats?.processingTime?.value ?? ''}
-              label={data?.stats?.processingTime?.label ?? ''}
-              description={data?.stats?.processingTime?.description ?? ''}
+              value={data?.stats?.processingTime?.value}
+              label={data?.stats?.processingTime?.label}
+              description={data?.stats?.processingTime?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.odorRemoval?.value ?? ''}
-              label={data?.stats?.odorRemoval?.label ?? ''}
-              description={data?.stats?.odorRemoval?.description ?? ''}
+              value={data?.stats?.odorRemoval?.value}
+              label={data?.stats?.odorRemoval?.label}
+              description={data?.stats?.odorRemoval?.description}
               variant="accent"
             />
             <StatCard
-              value={data?.stats?.disinfection?.value ?? ''}
-              label={data?.stats?.disinfection?.label ?? ''}
-              description={data?.stats?.disinfection?.description ?? ''}
+              value={data?.stats?.disinfection?.value}
+              label={data?.stats?.disinfection?.label}
+              description={data?.stats?.disinfection?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.noChemistry?.value ?? ''}
-              label={data?.stats?.noChemistry?.label ?? ''}
-              description={data?.stats?.noChemistry?.description ?? ''}
+              value={data?.stats?.noChemistry?.value}
+              label={data?.stats?.noChemistry?.label}
+              description={data?.stats?.noChemistry?.description}
               variant="accent"
             />
           </StatGrid>
@@ -97,55 +95,53 @@ export function HotelsPage({ staticData, lang }: HotelsPageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.p1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.p2 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.p1}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.p2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data?.sections?.automation?.title ?? ''}</strong> {data?.sections?.automation?.text ?? ''}
+            <strong>{data?.sections?.automation?.title}</strong> {data?.sections?.automation?.text}
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.problems?.title}>
-            <BulletList items={(data?.sections?.problems?.items as string[]) ?? []} />
+            <BulletList items={data?.sections?.problems?.items} />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.process?.title}>
-            <ProcessList steps={data?.sections?.process?.steps ?? []} />
+            <ProcessList steps={data?.sections?.process?.steps} />
 
             <DataTable
               caption={data?.sections?.process?.tableCaption}
-              headers={data?.sections?.process?.tableHeaders ?? []}
-              rows={data?.sections?.process?.tableData ?? []}
+              headers={data?.sections?.process?.tableHeaders}
+              rows={data?.sections?.process?.tableData}
             />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.whatIsTreated?.title}>
-            <Paragraph>{data?.sections?.whatIsTreated?.intro ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.whatIsTreated?.intro}</Paragraph>
             <FeatureGrid columns={2}>
-              {((data?.sections?.whatIsTreated?.items as Array<{ title: string; description: string }>) ?? []).map(
-                (item, idx) => (
-                  <FeatureCard
-                    key={idx}
-                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={item.title}
-                    description={item.description}
-                  />
-                ),
-              )}
+              {data?.sections?.whatIsTreated?.items?.map((item: any, idx: number) => (
+                <FeatureCard
+                  key={idx}
+                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                  title={item.title}
+                  description={item.description}
+                />
+              ))}
             </FeatureGrid>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.benefits?.title}>
-            <BulletList items={(data?.sections?.benefits?.items as string[]) ?? []} />
+            <BulletList items={data?.sections?.benefits?.items} />
 
-            <HighlightBox variant="success">{data?.sections?.benefits?.highlight ?? ''}</HighlightBox>
+            <HighlightBox variant="success">{data?.sections?.benefits?.highlight}</HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.equipment?.title}>
-            <Paragraph>{data?.sections?.equipment?.intro ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.equipment?.intro}</Paragraph>
             <DataTable
-              headers={data?.sections?.equipment?.tableHeaders ?? []}
-              rows={data?.sections?.equipment?.tableData ?? []}
+              headers={data?.sections?.equipment?.tableHeaders}
+              rows={data?.sections?.equipment?.tableData}
             />
           </ArticleSection>
         </div>

@@ -63,27 +63,27 @@ export function CheesePage({ staticData, lang }: CheesePageProps) {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value={data?.stats?.efficiency?.value ?? ''}
-              label={data?.stats?.efficiency?.label ?? ''}
-              description={data?.stats?.efficiency?.description ?? ''}
+              value={data?.stats?.efficiency?.value}
+              label={data?.stats?.efficiency?.label}
+              description={data?.stats?.efficiency?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.concentration?.value ?? ''}
-              label={data?.stats?.concentration?.label ?? ''}
-              description={data?.stats?.concentration?.description ?? ''}
+              value={data?.stats?.concentration?.value}
+              label={data?.stats?.concentration?.label}
+              description={data?.stats?.concentration?.description}
               variant="accent"
             />
             <StatCard
-              value={data?.stats?.tastePreservation?.value ?? ''}
-              label={data?.stats?.tastePreservation?.label ?? ''}
-              description={data?.stats?.tastePreservation?.description ?? ''}
+              value={data?.stats?.tastePreservation?.value}
+              label={data?.stats?.tastePreservation?.label}
+              description={data?.stats?.tastePreservation?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.instructionYear?.value ?? ''}
-              label={data?.stats?.instructionYear?.label ?? ''}
-              description={data?.stats?.instructionYear?.description ?? ''}
+              value={data?.stats?.instructionYear?.value}
+              label={data?.stats?.instructionYear?.label}
+              description={data?.stats?.instructionYear?.description}
               variant="accent"
             />
           </StatGrid>
@@ -94,75 +94,75 @@ export function CheesePage({ staticData, lang }: CheesePageProps) {
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph1}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data?.sections?.instruction?.label ?? ''}</strong> {data?.sections?.instruction?.text ?? ''}
+            <strong>{data?.sections?.instruction?.label}</strong> {data?.sections?.instruction?.text}
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.regimes?.title}>
             <DataTable
               caption={data?.sections?.regimes?.tableCaption}
-              headers={data?.sections?.regimes?.tableHeaders ?? []}
-              rows={data?.sections?.regimes?.tableRows ?? []}
+              headers={data?.sections?.regimes?.tableHeaders}
+              rows={data?.sections?.regimes?.tableRows}
             />
 
             <HighlightBox variant="warning">
-              <strong>{data?.sections?.regimes?.warningLabel ?? ''}</strong>{' '}
-              {data?.sections?.regimes?.warningText ?? ''}
+              <strong>{data?.sections?.regimes?.warningLabel}</strong>{' '}
+              {data?.sections?.regimes?.warningText}
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.benefits?.title}>
-            <BulletList items={(data?.sections?.benefits?.items as string[]) ?? []} />
+            <BulletList items={data?.sections?.benefits?.items as string[]} />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.impact?.title}>
-            <Paragraph>{data?.sections?.impact?.paragraph ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.impact?.paragraph}</Paragraph>
 
             <DataTable
               caption={data?.sections?.impact?.tableCaption}
-              headers={data?.sections?.impact?.tableHeaders ?? []}
-              rows={data?.sections?.impact?.tableRows ?? []}
+              headers={data?.sections?.impact?.tableHeaders}
+              rows={data?.sections?.impact?.tableRows}
             />
           </ArticleSection>
 
           <ComparisonTable
             title={data?.sections?.comparison?.title}
             headers={
-              (data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]) ?? []
+              data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]
             }
             rows={
-              (data?.sections?.comparison?.rows as Array<{
+              data?.sections?.comparison?.rows as Array<{
                 parameter: string
                 value1: string
                 value2: string
                 value3?: string
-              }>) ?? []
+              }>
             }
           />
 
           <ArticleSection title={data?.sections?.chamberTreatment?.title}>
-            <Paragraph>{data?.sections?.chamberTreatment?.paragraph ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.chamberTreatment?.paragraph}</Paragraph>
 
             <DataTable
               caption={data?.sections?.chamberTreatment?.tableCaption}
-              headers={data?.sections?.chamberTreatment?.tableHeaders ?? []}
-              rows={data?.sections?.chamberTreatment?.tableRows ?? []}
+              headers={data?.sections?.chamberTreatment?.tableHeaders}
+              rows={data?.sections?.chamberTreatment?.tableRows}
             />
 
-            <HighlightBox variant="success">{data?.sections?.chamberTreatment?.successText ?? ''}</HighlightBox>
+            <HighlightBox variant="success">{data?.sections?.chamberTreatment?.successText}</HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.regulations?.title}>
-            <BulletList items={(data?.sections?.regulations?.items as string[]) ?? []} />
+            <BulletList items={data?.sections?.regulations?.items as string[]} />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.features?.title}>
             <FeatureGrid columns={2}>
-              {((data?.sections?.features?.items as Array<{ title: string; description: string }>) ?? []).map(
+              {(data?.sections?.features?.items as Array<{ title: string; description: string }>).map(
                 (item, idx) => (
                   <FeatureCard
                     key={idx}

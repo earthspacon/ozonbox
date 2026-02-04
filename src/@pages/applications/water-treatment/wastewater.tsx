@@ -67,27 +67,27 @@ export function WastewaterPage({ staticData, lang }: WastewaterPageProps) {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value={data?.stats?.bpkReduction?.value ?? ''}
-              label={data?.stats?.bpkReduction?.label ?? ''}
-              description={data?.stats?.bpkReduction?.description ?? ''}
+              value={data?.stats?.bpkReduction?.value}
+              label={data?.stats?.bpkReduction?.label}
+              description={data?.stats?.bpkReduction?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.disinfection?.value ?? ''}
-              label={data?.stats?.disinfection?.label ?? ''}
-              description={data?.stats?.disinfection?.description ?? ''}
+              value={data?.stats?.disinfection?.value}
+              label={data?.stats?.disinfection?.label}
+              description={data?.stats?.disinfection?.description}
               variant="accent"
             />
             <StatCard
-              value={data?.stats?.toxicCompounds?.value ?? ''}
-              label={data?.stats?.toxicCompounds?.label ?? ''}
-              description={data?.stats?.toxicCompounds?.description ?? ''}
+              value={data?.stats?.toxicCompounds?.value}
+              label={data?.stats?.toxicCompounds?.label}
+              description={data?.stats?.toxicCompounds?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.colorReduction?.value ?? ''}
-              label={data?.stats?.colorReduction?.label ?? ''}
-              description={data?.stats?.colorReduction?.description ?? ''}
+              value={data?.stats?.colorReduction?.value}
+              label={data?.stats?.colorReduction?.label}
+              description={data?.stats?.colorReduction?.description}
               variant="accent"
             />
           </StatGrid>
@@ -98,85 +98,92 @@ export function WastewaterPage({ staticData, lang }: WastewaterPageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph1}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.paragraph2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data?.sections?.ecologicalAdvantage?.label ?? ''}</strong>{' '}
-            {data?.sections?.ecologicalAdvantage?.text ?? ''}
+            <strong>{data?.sections?.ecologicalAdvantage?.label}</strong>{' '}
+            {data?.sections?.ecologicalAdvantage?.text}
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.comparison?.title}>
             <ComparisonTable
               headers={
-                (data?.sections?.comparison?.headers ?? []) as
+                (data?.sections?.comparison?.headers as
                   | [string, string, string]
-                  | [string, string, string, string]
+                  | [string, string, string, string]) || []
               }
               rows={
-                (data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string }>) ?? []
+                (data?.sections?.comparison?.rows as Array<{
+                  parameter: string
+                  value1: string
+                  value2: string
+                }>) || []
               }
             />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.technicalParameters?.title}>
+          <ArticleSection title={data?.sections?.technicalParams?.title}>
             <DataTable
-              caption={data?.sections?.technicalParameters?.tableCaption}
-              headers={data?.sections?.technicalParameters?.tableHeaders ?? []}
-              rows={data?.sections?.technicalParameters?.tableData ?? []}
+              caption={data?.sections?.technicalParams?.caption}
+              headers={data?.sections?.technicalParams?.headers}
+              rows={data?.sections?.technicalParams?.rows}
             />
 
-            <HighlightBox variant="success">{data?.sections?.technicalParameters?.note ?? ''}</HighlightBox>
+            <HighlightBox variant="success">{data?.sections?.technicalParams?.highlightBox?.text}</HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.process?.title ?? ''}>
-            <ProcessList steps={data?.sections?.process?.steps ?? []} />
+          <ArticleSection title={data?.sections?.process?.title}>
+            <ProcessList steps={data?.sections?.process?.steps} />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.pollutants?.title}>
-            <BulletList items={(data?.sections?.pollutants?.items as string[]) ?? []} />
+            <BulletList items={(data?.sections?.pollutants?.items as string[])} />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.results?.title}>
             <DataTable
-              caption={data?.sections?.results?.tableCaption}
-              headers={data?.sections?.results?.tableHeaders ?? []}
-              rows={data?.sections?.results?.tableData ?? []}
+              caption={data?.sections?.results?.caption}
+              headers={data?.sections?.results?.headers}
+              rows={data?.sections?.results?.rows}
             />
 
-            <Paragraph>{data?.sections?.results?.paragraph ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.results?.paragraph}</Paragraph>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.benefits?.title}>
             <FeatureGrid columns={2}>
-              {((data?.sections?.benefits?.items as Array<{ title: string; description: string }>) ?? []).map(
-                (item, idx) => (
-                  <FeatureCard
-                    key={idx}
-                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={item.title}
-                    description={item.description}
-                  />
-                ),
-              )}
+              {(
+                (data?.sections?.benefits?.items as Array<{
+                  title: string
+                  description: string
+                }>) || []
+              ).map((item: { title: string; description: string }, idx: number) => (
+                <FeatureCard
+                  key={idx}
+                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                  title={item.title}
+                  description={item.description}
+                />
+              ))}
             </FeatureGrid>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.applications?.title ?? ''}>
+          <ArticleSection title={data?.sections?.applications?.title}>
             <DataTable
-              caption={data?.sections?.applications?.tableCaption}
-              headers={data?.sections?.applications?.tableHeaders ?? []}
-              rows={data?.sections?.applications?.tableData ?? []}
+              caption={data?.sections?.applications?.caption}
+              headers={data?.sections?.applications?.headers}
+              rows={data?.sections?.applications?.rows}
             />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.regulations?.title ?? ''}>
-            <BulletList items={(data?.sections?.regulations?.items as string[]) ?? []} />
+          <ArticleSection title={data?.sections?.regulations?.title}>
+            <BulletList items={(data?.sections?.regulations?.items as string[])} />
 
             <HighlightBox variant="warning">
-              <strong>{data?.sections?.regulations?.warning?.title ?? ''}</strong>{' '}
-              {data?.sections?.regulations?.warning?.text ?? ''}
+              <strong>{data?.sections?.regulations?.highlightBox?.label}</strong>{' '}
+              {data?.sections?.regulations?.highlightBox?.text}
             </HighlightBox>
           </ArticleSection>
         </div>

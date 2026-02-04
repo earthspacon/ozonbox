@@ -25,7 +25,7 @@
           "label": "mg/L limit",
           "description": "Achieving discharge standards"
         },
-        "ozoneConsumption": {
+        "consumption": {
           "value": "3-5",
           "label": "mg O₃/mg OP",
           "description": "Ozone consumption for destruction"
@@ -41,9 +41,29 @@
           "paragraph1": "Wastewater from industrial facilities contaminated with oil products represents one of the most serious environmental problems. One liter of oil can pollute up to 1 million liters of water, creating a film that prevents gas exchange and threatens the death of aquatic ecosystems.",
           "paragraph2": "Ozonation is an advanced method for deep treatment of oil-containing wastewater, ensuring destruction of hydrocarbons to carbon dioxide and water. Unlike traditional methods (flotation, sorption, biological treatment), ozonation provides complete mineralization of pollutants without formation of secondary waste."
         },
-        "regulations": {
+        "regulatory": {
           "title": "Regulatory requirements",
-          "text": "Maximum allowable concentration of oil products for discharge into fishery water bodies is 0.05 mg/L (GOST 17.1.3.07-82). For discharge into municipal sewerage — 4.0 mg/L. Exceeding the limit entails environmental fees and fines up to 2 million rubles."
+          "highlight": {
+            "title": "Maximum allowable concentration",
+            "text": "Maximum allowable concentration of oil products for discharge into fishery water bodies is 0.05 mg/L (GOST 17.1.3.07-82). For discharge into municipal sewerage — 4.0 mg/L. Exceeding the limit entails environmental fees and fines up to 2 million rubles."
+          },
+          "paragraph": "Ozonation ensures compliance with current regulations:",
+          "items": [
+            "SanPiN 2.1.5.980-00 — Hygienic requirements for surface water protection",
+            "GOST 17.1.3.07-82 — Rules for water quality control of water bodies",
+            "Ministry of Agriculture Order No. 552 — Water quality standards for fishery water bodies",
+            "Federal Law No. 7-FZ \"On Environmental Protection\"",
+            "Government Decree No. 644 — Rules for cold water supply and wastewater disposal"
+          ],
+          "tableCaption": "Maximum allowable concentrations of oil products for various water use categories",
+          "tableHeaders": ["Water body category", "Limit, mg/L", "Hazard class"],
+          "tableRows": [
+            ["Fishery water bodies, highest category", "0.05", "3"],
+            ["Fishery water bodies, category I", "0.05", "3"],
+            ["Fishery water bodies, category II", "0.05", "3"],
+            ["Domestic and drinking water use", "0.1", "4"],
+            ["Discharge to municipal sewerage", "4.0", "—"]
+          ]
         },
         "mechanism": {
           "title": "Mechanism of oil product oxidation by ozone",
@@ -271,7 +291,7 @@
         "mechanism": {
           "title": "Mechanism of ozone action on air pollutants",
           "paragraph": "Ozone is the strongest oxidizer capable of destroying a wide range of production air pollutants:",
-          "bulletList": [
+          "items": [
             "Bacteria, viruses, fungi and spores — oxidative destruction of cell membranes",
             "Volatile organic compounds (VOCs) — oxidation to CO₂ and H₂O",
             "Hydrogen sulfide (H₂S) — oxidation to sulfates",
@@ -345,7 +365,7 @@
         "ventilation": {
           "title": "Integration with ventilation systems",
           "paragraph": "For large production facilities, optimal solution is integration of ozonators with existing ventilation system:",
-          "bulletList": [
+          "items": [
             "Ozone injection into supply air duct — uniform distribution throughout facility",
             "Recirculation air treatment — microbial load reduction",
             "Exhaust air ozonation — odor removal before atmospheric discharge",
@@ -389,7 +409,7 @@
         "regulatory": {
           "title": "Compliance with regulatory requirements",
           "paragraph": "Ozonation helps ensure production compliance with sanitary standards and occupational health requirements:",
-          "bulletList": [
+          "items": [
             "SanPiN 1.2.3685-21 — Hygienic standards and safety requirements",
             "GOST 12.1.005-88 — General sanitary-hygienic requirements for work zone air",
             "GN 2.2.5.3532-18 — MPC of harmful substances in work zone air",
@@ -412,7 +432,7 @@
         "safety": {
           "title": "Safety system for ozonation",
           "paragraph": "Industrial ozonation systems are equipped with multi-level safety system:",
-          "bulletList": [
+          "items": [
             "Ozone concentration sensors with emergency shutdown at >0.1 mg/m³",
             "Automatic generation stop when facility doors open",
             "Light and sound alarms during treatment",

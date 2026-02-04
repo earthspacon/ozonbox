@@ -33,7 +33,7 @@ export function DentalPage({ staticData, lang }: DentalPageProps) {
   const categoryData = (staticData as Record<string, { subcategories?: { dental?: any } }>)[
     `${lang}:${ns}`
   ]
-  const data = categoryData?.subcategories?.dental
+  const data = categoryData?.subcategories?.dental || {}
 
   const breadcrumbs = [
     { label: t('nav.applications', { ns: NAMESPACES.common }), href: '/applications' },
@@ -65,27 +65,27 @@ export function DentalPage({ staticData, lang }: DentalPageProps) {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value={data?.stats?.stat1?.value ?? ''}
-              label={data?.stats?.stat1?.label ?? ''}
-              description={data?.stats?.stat1?.description ?? ''}
+              value={data.stats?.[0]?.value || ''}
+              label={data.stats?.[0]?.label || ''}
+              description={data.stats?.[0]?.description || ''}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.stat2?.value ?? ''}
-              label={data?.stats?.stat2?.label ?? ''}
-              description={data?.stats?.stat2?.description ?? ''}
+              value={data.stats?.[1]?.value || ''}
+              label={data.stats?.[1]?.label || ''}
+              description={data.stats?.[1]?.description || ''}
               variant="accent"
             />
             <StatCard
-              value={data?.stats?.stat3?.value ?? ''}
-              label={data?.stats?.stat3?.label ?? ''}
-              description={data?.stats?.stat3?.description ?? ''}
+              value={data.stats?.[2]?.value || ''}
+              label={data.stats?.[2]?.label || ''}
+              description={data.stats?.[2]?.description || ''}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.stat4?.value ?? ''}
-              label={data?.stats?.stat4?.label ?? ''}
-              description={data?.stats?.stat4?.description ?? ''}
+              value={data.stats?.[3]?.value || ''}
+              label={data.stats?.[3]?.label || ''}
+              description={data.stats?.[3]?.description || ''}
               variant="accent"
             />
           </StatGrid>
@@ -96,36 +96,36 @@ export function DentalPage({ staticData, lang }: DentalPageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
+            <Paragraph>{data.sections?.intro?.text || ''}</Paragraph>
+            <Paragraph>{data.sections?.intro?.text2 || ''}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data?.sections?.highlight1?.title ?? ''}</strong> {data?.sections?.highlight1?.text ?? ''}
+            <strong>{data.sections?.highlight1?.title || ''}</strong> {data.sections?.highlight1?.text || ''}
           </HighlightBox>
 
-          <ArticleSection title={data?.sections?.applications?.title}>
-            <BulletList items={(data?.sections?.applications?.items as string[]) ?? []} />
+          <ArticleSection title={data.sections?.applications?.title}>
+            <BulletList items={Array.isArray(data.sections?.applications?.items) ? data.sections.applications.items : []} />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.disinfection?.title}>
-            <Paragraph>{data?.sections?.disinfection?.text ?? ''}</Paragraph>
+          <ArticleSection title={data.sections?.disinfection?.title}>
+            <Paragraph>{data.sections?.disinfection?.text || ''}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.disinfection?.table?.caption}
-              headers={data?.sections?.disinfection?.table?.headers ?? []}
-              rows={data?.sections?.disinfection?.table?.rows ?? []}
+              caption={data.sections?.disinfection?.table?.caption}
+              headers={data.sections?.disinfection?.table?.headers || []}
+              rows={(Array.isArray(data.sections?.disinfection?.table?.rows) ? data.sections.disinfection.table.rows : []) as (string | number)[][]}
             />
 
-            <HighlightBox variant="success">{data?.sections?.disinfection?.highlight ?? ''}</HighlightBox>
+            <HighlightBox variant="success">{data.sections?.disinfection?.highlight || ''}</HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.ozonotherapy?.title}>
-            <Paragraph>{data?.sections?.ozonotherapy?.text ?? ''}</Paragraph>
+          <ArticleSection title={data.sections?.ozonotherapy?.title}>
+            <Paragraph>{data.sections?.ozonotherapy?.text || ''}</Paragraph>
 
             <FeatureGrid columns={2}>
-              {((data?.sections?.ozonotherapy?.features as Array<{ title: string; description: string }>) ?? []).map(
-                (item, idx) => (
+              {(Array.isArray(data.sections?.ozonotherapy?.features) ? data.sections.ozonotherapy.features : []).map(
+                (item: { title: string; description: string }, idx: number) => (
                   <FeatureCard
                     key={idx}
                     icon={<IconCheck style={{ width: 24, height: 24 }} />}
@@ -137,21 +137,21 @@ export function DentalPage({ staticData, lang }: DentalPageProps) {
             </FeatureGrid>
 
             <DataTable
-              caption={data?.sections?.ozonotherapy?.table?.caption}
-              headers={data?.sections?.ozonotherapy?.table?.headers ?? []}
-              rows={data?.sections?.ozonotherapy?.table?.rows ?? []}
+              caption={data.sections?.ozonotherapy?.table?.caption}
+              headers={data.sections?.ozonotherapy?.table?.headers || []}
+              rows={(Array.isArray(data.sections?.ozonotherapy?.table?.rows) ? data.sections.ozonotherapy.table.rows : []) as (string | number)[][]}
             />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.waterSystems?.title}>
-            <Paragraph>{data?.sections?.waterSystems?.text ?? ''}</Paragraph>
-            <BulletList items={(data?.sections?.waterSystems?.items as string[]) ?? []} />
+          <ArticleSection title={data.sections?.waterSystems?.title}>
+            <Paragraph>{data.sections?.waterSystems?.text || ''}</Paragraph>
+            <BulletList items={Array.isArray(data.sections?.waterSystems?.items) ? data.sections.waterSystems.items : []} />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.benefits?.title}>
-            <BulletList items={(data?.sections?.benefits?.items as string[]) ?? []} />
+          <ArticleSection title={data.sections?.benefits?.title}>
+            <BulletList items={Array.isArray(data.sections?.benefits?.items) ? data.sections.benefits.items : []} />
 
-            <HighlightBox variant="success">{data?.sections?.benefits?.highlight ?? ''}</HighlightBox>
+            <HighlightBox variant="success">{data.sections?.benefits?.highlight || ''}</HighlightBox>
           </ArticleSection>
         </div>
       </article>

@@ -109,13 +109,13 @@
         },
         "technicalParams": {
           "title": "Ozonation technical parameters",
-          "caption": "Recommended parameters for drinking water",
-          "headers": [
+          "tableCaption": "Recommended parameters for drinking water",
+          "tableHeaders": [
             "Parameter",
             "Value",
             "Regulatory document"
           ],
-          "rows": [
+          "tableData": [
             [
               "Ozone dose",
               "1-3 mg/L",
@@ -147,10 +147,8 @@
               "Recommendation"
             ]
           ],
-          "highlightBox": {
-            "label": "Important:",
-            "text": "Ozone dose of 1-3 mg/L ensures complete water disinfection. At high organic load, the dose is increased to 5 mg/L for oxidation of organic compounds."
-          }
+          "infoLabel": "Important:",
+          "infoText": "Ozone dose of 1-3 mg/L ensures complete water disinfection. At high organic load, the dose is increased to 5 mg/L for oxidation of organic compounds."
         },
         "process": {
           "title": "Ozonation process",
@@ -194,14 +192,14 @@
         },
         "effectiveness": {
           "title": "Disinfection effectiveness",
-          "caption": "Pathogen inactivation time (CT value, mg×min/L)",
-          "headers": [
+          "tableCaption": "Pathogen inactivation time (CT value, mg×min/L)",
+          "tableHeaders": [
             "Pathogen",
             "Ozone",
             "Chlorine",
             "UV (mJ/cm²)"
           ],
-          "rows": [
+          "tableData": [
             [
               "E. coli",
               "0.02",
@@ -258,13 +256,13 @@
         },
         "productivity": {
           "title": "Ozonation system productivity",
-          "caption": "Recommended equipment for water treatment",
-          "headers": [
+          "tableCaption": "Recommended equipment for water treatment",
+          "tableHeaders": [
             "Station capacity",
             "Ozonator power",
             "Contact chamber"
           ],
-          "rows": [
+          "tableData": [
             [
               "10 m³/h",
               "20-30 g/h",
@@ -458,45 +456,45 @@
         },
         "process": {
           "title": "Wastewater treatment process",
-          "steps": {
-            "mechanical": {
+          "steps": [
+            {
               "title": "Mechanical treatment",
               "description": "Removal of coarse impurities, sand, suspended solids. Mandatory stage before ozonation."
             },
-            "biological": {
+            {
               "title": "Biological treatment",
               "description": "Aerobic or anaerobic biological treatment to reduce BOD to 15-30 mg/L. Ozonation is applied after this stage."
             },
-            "generation": {
+            {
               "title": "Ozone generation",
               "description": "Production of ozone from oxygen by corona discharge method. Ozone concentration in gas: 6-12%."
             },
-            "contactChamber": {
+            {
               "title": "Contact chamber",
               "description": "Mixing ozone-air mixture with effluents through bubbling system. Contact time: 10-30 minutes depending on contamination level."
             },
-            "clarification": {
+            {
               "title": "Clarification",
               "description": "Settling or filtration to remove oxidized insoluble compounds."
             },
-            "qualityControl": {
+            {
               "title": "Quality control",
               "description": "Analysis of treated water for compliance with discharge standards: BOD, COD, suspended solids, coliform index."
             }
-          }
+          ]
         },
         "pollutants": {
           "title": "Pollutants removed by ozonation",
-          "items": {
-            "phenols": "Phenols and nitrophenols: oxidation to CO₂ and H₂O, reduction to MPC levels",
-            "oilProducts": "Oil products: destruction to simple organic acids",
-            "surfactants": "Surfactants (SAS): molecular structure breakdown",
-            "pesticides": "Pesticides and herbicides: oxidation to non-toxic compounds",
-            "dyes": "Dyes and pigments: complete effluent decolorization",
-            "pathogens": "Pathogenic microflora: inactivation of bacteria, viruses, helminth eggs",
-            "ammonium": "Ammonium nitrogen: oxidation to nitrates",
-            "hydrogenSulfide": "Hydrogen sulfide and mercaptans: elimination of unpleasant odors"
-          }
+          "items": [
+            "Phenols and nitrophenols: oxidation to CO₂ and H₂O, reduction to MPC levels",
+            "Oil products: destruction to simple organic acids",
+            "Surfactants (SAS): molecular structure breakdown",
+            "Pesticides and herbicides: oxidation to non-toxic compounds",
+            "Dyes and pigments: complete effluent decolorization",
+            "Pathogenic microflora: inactivation of bacteria, viruses, helminth eggs",
+            "Ammonium nitrogen: oxidation to nitrates",
+            "Hydrogen sulfide and mercaptans: elimination of unpleasant odors"
+          ]
         },
         "results": {
           "title": "Wastewater ozonation results",
@@ -508,65 +506,65 @@
             "Efficiency"
           ],
           "rows": [
-            {
-              "parameter": "Color, degrees",
-              "value1": "70-100",
-              "value2": "10-20",
-              "value3": "80-85%"
-            },
-            {
-              "parameter": "Turbidity, mg/L",
-              "value1": "30-50",
-              "value2": "5-10",
-              "value3": "75-80%"
-            },
-            {
-              "parameter": "BOD₅, mg/L",
-              "value1": "20-30",
-              "value2": "3-5",
-              "value3": "85-90%"
-            },
-            {
-              "parameter": "COD, mg/L",
-              "value1": "50-80",
-              "value2": "15-25",
-              "value3": "65-70%"
-            },
-            {
-              "parameter": "Coliform index",
-              "value1": "10,000",
-              "value2": "< 1,000",
-              "value3": "> 90%"
-            },
-            {
-              "parameter": "Odor",
-              "value1": "Swamp-fecal",
-              "value2": "Absent",
-              "value3": "100%"
-            }
+            [
+              "Color, degrees",
+              "70-100",
+              "10-20",
+              "80-85%"
+            ],
+            [
+              "Turbidity, mg/L",
+              "30-50",
+              "5-10",
+              "75-80%"
+            ],
+            [
+              "BOD₅, mg/L",
+              "20-30",
+              "3-5",
+              "85-90%"
+            ],
+            [
+              "COD, mg/L",
+              "50-80",
+              "15-25",
+              "65-70%"
+            ],
+            [
+              "Coliform index",
+              "10,000",
+              "< 1,000",
+              "> 90%"
+            ],
+            [
+              "Odor",
+              "Swamp-fecal",
+              "Absent",
+              "100%"
+            ]
           ],
           "paragraph": "Data obtained when treating effluents with ozone dose of 50 mg/L in contact chamber with contact time of 15 minutes. At ozone doses above 50 mg/L, color, turbidity and odor disappear, coliform index decreases to regulatory values."
         },
         "benefits": {
           "title": "Benefits of wastewater ozonation",
-          "items": {
-            "wasteFree": {
+          "items": [
+            {
               "title": "Waste-free process",
               "description": "Ozone is synthesized from air oxygen and decays back to oxygen. No reagent purchase or storage required."
             },
-            "universality": {
+            {
               "title": "Universality",
               "description": "Effective against any organic pollutants: phenols, oil products, surfactants, pesticides."
             },
-            "ecologicalSafety": {
+            {
               "title": "Ecological safety",
               "description": "Does not form toxic byproducts. Water is safe for discharge to water bodies without dechlorination."
             },
-            "reuse": {
+            {
               "title": "Reuse",
               "description": "After ozonation, water can be used for technical purposes: irrigation, washing, cooling."
             }
-          }
+          ]
         },
         "applications": {
           "title": "Applications",
@@ -611,12 +609,12 @@
         },
         "regulations": {
           "title": "Discharge regulatory requirements",
-          "items": {
-            "item1": "SanPiN 2.1.5.980-00 «Hygienic requirements for surface water protection»",
-            "item2": "MPC of harmful substances in water bodies for domestic and drinking water use",
-            "item3": "Ministry of Natural Resources Order No. 333 dated 17.12.2007 «On approval of MPD development methodology»",
-            "item4": "GOST 17.1.3.13-86 «Nature protection. Hydrosphere. General requirements for surface water protection from pollution»"
-          },
+          "items": [
+            "SanPiN 2.1.5.980-00 «Hygienic requirements for surface water protection»",
+            "MPC of harmful substances in water bodies for domestic and drinking water use",
+            "Ministry of Natural Resources Order No. 333 dated 17.12.2007 «On approval of MPD development methodology»",
+            "GOST 17.1.3.13-86 «Nature protection. Hydrosphere. General requirements for surface water protection from pollution»"
+          ],
           "highlightBox": {
             "label": "Warning:",
             "text": "Legislation imposes strict requirements on discharged effluent quality. Non-compliance entails fines up to 250,000 rubles for legal entities. Ozonation ensures guaranteed achievement of regulatory indicators."
@@ -765,14 +763,14 @@
         },
         "pathogens": {
           "title": "What ozone destroys in pool water",
-          "items": {
-            "bacteria": "Bacteria: E.coli, Pseudomonas aeruginosa, staphylococci",
-            "viruses": "Viruses: enteroviruses, adenoviruses, rotaviruses",
-            "protozoa": "Protozoa: Cryptosporidium, Giardia (chlorine-resistant!)",
-            "algae": "Microalgae: breaks down dense cell walls",
-            "organic": "Organic pollutants: sweat, urine, cosmetics, creams",
-            "chloramines": "Chloramines: destroys harmful chlorination byproducts"
-          },
+          "items": [
+            "Bacteria: E.coli, Pseudomonas aeruginosa, staphylococci",
+            "Viruses: enteroviruses, adenoviruses, rotaviruses",
+            "Protozoa: Cryptosporidium, Giardia (chlorine-resistant!)",
+            "Microalgae: breaks down dense cell walls",
+            "Organic pollutants: sweat, urine, cosmetics, creams",
+            "Chloramines: destroys harmful chlorination byproducts"
+          ],
           "note": "Especially important is that ozone is effective against Cryptosporidium — parasites causing diarrhea. They are extremely resistant to chlorine (requires 10,000 mg/L×min of chlorine for destruction), but vulnerable to ozone."
         },
         "poolTypes": {
@@ -818,35 +816,35 @@
         },
         "benefits": {
           "title": "Benefits for pool owners",
-          "items": {
-            "comfort": {
+          "items": [
+            {
               "title": "Visitor comfort",
               "description": "No chlorine smell, eye or skin irritation. Pleasant swimming."
             },
-            "economy": {
+            {
               "title": "Chemical savings",
               "description": "Chlorine consumption reduced by 5-7 times, reagent savings."
             },
-            "compliance": {
+            {
               "title": "Regulatory compliance",
               "description": "Method recommended by sanitary regulations for pools."
             },
-            "quality": {
+            {
               "title": "Clean water",
               "description": "Crystal-clear blue-tinted water — quality indicator."
             }
-          }
+          ]
         },
         "spa": {
           "title": "Features for SPA and jacuzzi",
           "intro": "In SPA and jacuzzi, elevated water temperature (32-40°C) creates favorable conditions for bacterial growth, including Legionella. Ozonation is especially effective in these conditions:",
-          "items": {
-            "legionella": "Destruction of Legionella — dangerous pneumonia pathogen",
-            "biofilm": "Biofilm breakdown in pipelines and nozzles",
-            "odor": "Elimination of 'stale water' smell in rarely used jacuzzis",
-            "fungus": "Prevention of fungal infections (mycoses)",
-            "comfort": "No irritation during long SPA procedures"
-          }
+          "items": [
+            "Destruction of Legionella — dangerous pneumonia pathogen",
+            "Biofilm breakdown in pipelines and nozzles",
+            "Elimination of 'stale water' smell in rarely used jacuzzis",
+            "Prevention of fungal infections (mycoses)",
+            "No irritation during long SPA procedures"
+          ]
         }
       }
     },

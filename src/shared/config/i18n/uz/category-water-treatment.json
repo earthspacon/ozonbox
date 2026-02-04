@@ -86,13 +86,13 @@
         },
         "technicalParams": {
           "title": "Ozonlash texnik parametrlari",
-          "caption": "Ichimlik suvi uchun tavsiya etilgan parametrlar",
-          "headers": [
+          "tableCaption": "Ichimlik suvi uchun tavsiya etilgan parametrlar",
+          "tableHeaders": [
             "Parametr",
             "Qiymat",
             "Normativ hujjat"
           ],
-          "rows": [
+          "tableData": [
             [
               "Ozon dozasi",
               "1-3 mg/L",
@@ -124,10 +124,8 @@
               "Tavsiya"
             ]
           ],
-          "highlightBox": {
-            "label": "Muhim:",
-            "text": "1-3 mg/L ozon dozasi to'liq suv dezinfeksiyasini ta'minlaydi. Yuqori organik yukda, organik birikmalarni oksidlash uchun doza 5 mg/L gacha oshiriladi."
-          }
+          "infoLabel": "Muhim:",
+          "infoText": "1-3 mg/L ozon dozasi to'liq suv dezinfeksiyasini ta'minlaydi. Yuqori organik yukda, organik birikmalarni oksidlash uchun doza 5 mg/L gacha oshiriladi."
         },
         "process": {
           "title": "Ozonlash jarayoni",
@@ -171,14 +169,14 @@
         },
         "effectiveness": {
           "title": "Dezinfeksiya samaradorligi",
-          "caption": "Patogenlarni inaktivatsiya qilish vaqti (CT qiymati, mg×min/L)",
-          "headers": [
+          "tableCaption": "Patogenlarni inaktivatsiya qilish vaqti (CT qiymati, mg×min/L)",
+          "tableHeaders": [
             "Patogen",
             "Ozon",
             "Xlor",
             "UV (mJ/cm²)"
           ],
-          "rows": [
+          "tableData": [
             [
               "E. coli",
               "0.02",
@@ -235,13 +233,13 @@
         },
         "productivity": {
           "title": "Ozonlash tizimlarining unumdorligi",
-          "caption": "Suvni tayyorlash uchun tavsiya etilgan uskunalar",
-          "headers": [
+          "tableCaption": "Suvni tayyorlash uchun tavsiya etilgan uskunalar",
+          "tableHeaders": [
             "Stansiya quvvati",
             "Ozonator quvvati",
             "Kontakt kamerasi"
           ],
-          "rows": [
+          "tableData": [
             [
               "10 m³/h",
               "20-30 g/h",
@@ -435,45 +433,45 @@
         },
         "process": {
           "title": "Chiqindi suvlarni tozalash jarayoni",
-          "steps": {
-            "mechanical": {
+          "steps": [
+            {
               "title": "Mexanik tozalash",
               "description": "Qo'pol aralashmalar, qum, suyuq moddalarni olib tashlash. Ozonlashdan oldin majburiy bosqich."
             },
-            "biological": {
+            {
               "title": "Biologik tozalash",
               "description": "BKP ni 15-30 mg/L gacha kamaytirish uchun aerobik yoki anaerobik biologik tozalash. Ozonlash bu bosqichdan keyin qo'llaniladi."
             },
-            "generation": {
+            {
               "title": "Ozon ishlab chiqarish",
               "description": "Korona razryad usuli bilan kisloroddan ozon olish. Gazdagi ozon kontsentratsiyasi: 6-12%."
             },
-            "contactChamber": {
+            {
               "title": "Kontakt kamerasi",
               "description": "Ozon-havo aralashmasini ifloslanish darajasiga qarab 10-30 daqiqa kontakt vaqti bilan barboter tizimi orqali chiqindilar bilan aralashtirish."
             },
-            "clarification": {
+            {
               "title": "Tozalash",
               "description": "Oksidlangan erimaydigan birikmalarni olib tashlash uchun cho'ktirish yoki filtratsiya."
             },
-            "qualityControl": {
+            {
               "title": "Sifat nazorati",
               "description": "Chiqarish standartlariga muvofiqlik uchun tozalangan suvni tahlil qilish: BKP, XPK, suyuq moddalar, koli-indeks."
             }
-          }
+          ]
         },
         "pollutants": {
           "title": "Ozonlash orqali olib tashlanadigan ifloslantiruvchilar",
-          "items": {
-            "phenols": "Fenollar va nitrofenollar: CO₂ va H₂O ga oksidlanish, MPC darajasiga kamaytirish",
-            "oilProducts": "Neft mahsulotlari: oddiy organik kislotalarga parchalanish",
-            "surfactants": "Sirt faol moddalar (SAS): molekulyar struktura parchalanishi",
-            "pesticides": "Pestitsidlar va gerbitsidlar: toksik bo'lmagan birikmalarga oksidlanish",
-            "dyes": "Bo'yoqlar va pigmentlar: chiqindilarni to'liq rangsizlantirish",
-            "pathogens": "Patogen mikroflora: bakteriyalar, viruslar, gelmint tuxumlarini inaktivatsiya qilish",
-            "ammonium": "Ammony azot: nitratlarga oksidlanish",
-            "hydrogenSulfide": "Vodorod sulfidi va merkaptanlar: yoqimsiz hidlarni bartaraf etish"
-          }
+          "items": [
+            "Fenollar va nitrofenollar: CO₂ va H₂O ga oksidlanish, MPC darajasiga kamaytirish",
+            "Neft mahsulotlari: oddiy organik kislotalarga parchalanish",
+            "Sirt faol moddalar (SAS): molekulyar struktura parchalanishi",
+            "Pestitsidlar va gerbitsidlar: toksik bo'lmagan birikmalarga oksidlanish",
+            "Bo'yoqlar va pigmentlar: chiqindilarni to'liq rangsizlantirish",
+            "Patogen mikroflora: bakteriyalar, viruslar, gelmint tuxumlarini inaktivatsiya qilish",
+            "Ammony azot: nitratlarga oksidlanish",
+            "Vodorod sulfidi va merkaptanlar: yoqimsiz hidlarni bartaraf etish"
+          ]
         },
         "results": {
           "title": "Chiqindi suvlarni ozonlash natijalari",
@@ -485,65 +483,65 @@
             "Samaradorlik"
           ],
           "rows": [
-            {
-              "parameter": "Rang, daraja",
-              "value1": "70-100",
-              "value2": "10-20",
-              "value3": "80-85%"
-            },
-            {
-              "parameter": "Loyqalik, mg/L",
-              "value1": "30-50",
-              "value2": "5-10",
-              "value3": "75-80%"
-            },
-            {
-              "parameter": "BKP₅, mg/L",
-              "value1": "20-30",
-              "value2": "3-5",
-              "value3": "85-90%"
-            },
-            {
-              "parameter": "XPK, mg/L",
-              "value1": "50-80",
-              "value2": "15-25",
-              "value3": "65-70%"
-            },
-            {
-              "parameter": "Koli-indeks",
-              "value1": "10,000",
-              "value2": "< 1,000",
-              "value3": "> 90%"
-            },
-            {
-              "parameter": "Hid",
-              "value1": "Botqoq-fekal",
-              "value2": "Yo'q",
-              "value3": "100%"
-            }
+            [
+              "Rang, daraja",
+              "70-100",
+              "10-20",
+              "80-85%"
+            ],
+            [
+              "Loyqalik, mg/L",
+              "30-50",
+              "5-10",
+              "75-80%"
+            ],
+            [
+              "BKP₅, mg/L",
+              "20-30",
+              "3-5",
+              "85-90%"
+            ],
+            [
+              "XPK, mg/L",
+              "50-80",
+              "15-25",
+              "65-70%"
+            ],
+            [
+              "Koli-indeks",
+              "10,000",
+              "< 1,000",
+              "> 90%"
+            ],
+            [
+              "Hid",
+              "Botqoq-fekal",
+              "Yo'q",
+              "100%"
+            ]
           ],
           "paragraph": "Ma'lumotlar kontakt kamerada 15 daqiqa kontakt vaqti bilan 50 mg/L ozon dozasi bilan chiqindilarni qayta ishlashda olingan. 50 mg/L dan yuqori ozon dozalarida rang, loyqalik va hid yo'qoladi, koli-indeks normativ qiymatlarga kamayadi."
         },
         "benefits": {
           "title": "Chiqindi suvlarni ozonlashning afzalliklari",
-          "items": {
-            "wasteFree": {
+          "items": [
+            {
               "title": "Chiqindisiz jarayon",
               "description": "Ozon havo kislorodidan sintez qilinadi va kislorodga parchalanadi. Reagent sotib olish yoki saqlash talab qilinmaydi."
             },
-            "universality": {
+            {
               "title": "Universal",
               "description": "Har qanday organik ifloslantiruvchilarga qarshi samarali: fenollar, neft mahsulotlari, sirt faol moddalar, pestitsidlar."
             },
-            "ecologicalSafety": {
+            {
               "title": "Ekologik xavfsizlik",
               "description": "Toksik yon mahsulotlarni hosil qilmaydi. Suv dexloringizsiz suv havzalariga chiqarish uchun xavfsiz."
             },
-            "reuse": {
+            {
               "title": "Qayta ishlatish",
               "description": "Ozonlashdan keyin suv texnik maqsadlarda ishlatilishi mumkin: sug'orish, yuvish, sovutish."
             }
-          }
+          ]
         },
         "applications": {
           "title": "Qo'llash sohalari",
@@ -588,12 +586,12 @@
         },
         "regulations": {
           "title": "Chiqarish uchun normativ talablar",
-          "items": {
-            "item1": "SanPiN 2.1.5.980-00 «Yuzaki suvlarni himoya qilish uchun gigiyena talablari»",
-            "item2": "Uy-joy va ichimlik suvi uchun suv ob'ektlaridagi zararli moddalarning MPC",
-            "item3": "Tabiiy resurslar vazirligining 17.12.2007 yildagi 333-sonli buyrug'i «MPD ishlab chiqish metodikasini tasdiqlash to'g'risida»",
-            "item4": "GOST 17.1.3.13-86 «Tabiatni himoya qilish. Gidrosfera. Yuzaki suvlarni ifloslanishdan himoya qilishning umumiy talablari»"
-          },
+          "items": [
+            "SanPiN 2.1.5.980-00 «Yuzaki suvlarni himoya qilish uchun gigiyena talablari»",
+            "Uy-joy va ichimlik suvi uchun suv ob'ektlaridagi zararli moddalarning MPC",
+            "Tabiiy resurslar vazirligining 17.12.2007 yildagi 333-sonli buyrug'i «MPD ishlab chiqish metodikasini tasdiqlash to'g'risida»",
+            "GOST 17.1.3.13-86 «Tabiatni himoya qilish. Gidrosfera. Yuzaki suvlarni ifloslanishdan himoya qilishning umumiy talablari»"
+          ],
           "highlightBox": {
             "label": "Diqqat:",
             "text": "Qonunchilik chiqariladigan chiqindi suvlar sifati uchun qat'iy talablar qo'yadi. Normaga rioya qilmaslik yuridik shaxslar uchun 250,000 rublgacha jarimaga olib keladi. Ozonlash normativ ko'rsatkichlarga kafolatlangan erishishni ta'minlaydi."
@@ -742,14 +740,14 @@
         },
         "pathogens": {
           "title": "Ozon basseyn suvida nimani yo'q qiladi",
-          "items": {
-            "bacteria": "Bakteriyalar: E.coli, Pseudomonas aeruginosa, stafilokokklar",
-            "viruses": "Viruslar: enteroviruslar, adenoviruslar, rotaviruslar",
-            "protozoa": "Protozoonlar: Cryptosporidium, Giardia (xlorga chidamli!)",
-            "algae": "Mikroalg: qalin hujayra devorlarini buzadi",
-            "organic": "Organik ifloslanishlar: ter, siydik, kosmetika, kremlar",
-            "chloramines": "Xloraminlar: zararli xlorlash yon mahsulotlarini yo'q qiladi"
-          },
+          "items": [
+            "Bakteriyalar: E.coli, Pseudomonas aeruginosa, stafilokokklar",
+            "Viruslar: enteroviruslar, adenoviruslar, rotaviruslar",
+            "Protozoonlar: Cryptosporidium, Giardia (xlorga chidamli!)",
+            "Mikroalg: qalin hujayra devorlarini buzadi",
+            "Organik ifloslanishlar: ter, siydik, kosmetika, kremlar",
+            "Xloraminlar: zararli xlorlash yon mahsulotlarini yo'q qiladi"
+          ],
           "note": "Ayniqsa muhimi, ozon Cryptosporidiumga qarshi samarali - diareyaga olib keladigan parazitlar. Ular xlorlashga juda chidamli (yo'q qilish uchun 10 000 mg/L×min xlor kerak), lekin ozonga zaif."
         },
         "poolTypes": {
@@ -795,35 +793,35 @@
         },
         "benefits": {
           "title": "Basseyn egalari uchun afzalliklar",
-          "items": {
-            "comfort": {
+          "items": [
+            {
               "title": "Mehmonlar qulayligi",
               "description": "Xlor hidi yo'q, ko'z yoki teri qichishishi yo'q. Yoqimli suzish."
             },
-            "economy": {
+            {
               "title": "Kimyoviy moddalar tejamkorligi",
               "description": "Xlor iste'moli 5-7 marta kamayadi, reagentlar tejamkorligi."
             },
-            "compliance": {
+            {
               "title": "Normativlarga muvofiqlik",
               "description": "Usul basseynlar uchun sanitariya qoidalari tomonidan tavsiya etiladi."
             },
-            "quality": {
+            {
               "title": "Toza suv",
               "description": "Kristal toza ko'k rangli suv - sifat ko'rsatkichi."
             }
-          }
+          ]
         },
         "spa": {
           "title": "SPA va jakuzi uchun xususiyatlar",
           "intro": "SPA va jakuzida yuqori suv harorati (32-40°C) bakteriyalar, jumladan Legionella ko'payishi uchun qulay sharoit yaratadi. Ozonlash bu sharoitlarda ayniqsa samarali:",
-          "items": {
-            "legionella": "Legionella yo'q qilish - xavfli pnevmoniya patogeni",
-            "biofilm": "Quvurlar va nozullardagi bioplyonkani buzish",
-            "odor": "Kam ishlatiladigan jakuzilarda 'eski suv' hidini bartaraf etish",
-            "fungus": "Zamburug' infektsiyalarini oldini olish (mikozlar)",
-            "comfort": "Uzoq muddatli SPA protseduralarida qichishish yo'q"
-          }
+          "items": [
+            "Legionella yo'q qilish - xavfli pnevmoniya patogeni",
+            "Quvurlar va nozullardagi bioplyonkani buzish",
+            "Kam ishlatiladigan jakuzilarda 'eski suv' hidini bartaraf etish",
+            "Zamburug' infektsiyalarini oldini olish (mikozlar)",
+            "Uzoq muddatli SPA protseduralarida qichishish yo'q"
+          ]
         }
       }
     },

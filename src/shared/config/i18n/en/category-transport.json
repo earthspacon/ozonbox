@@ -48,201 +48,195 @@
         "sanitationProblems": {
           "title": "Sanitation issues in public transport",
           "text": "The passenger bus interior is a favorable environment for microorganism growth. Engine heat, humidity from passenger breathing, and organic contamination create ideal conditions for bacteria, viruses, and fungi.",
-          "items": {
-            "handrails": "Handrails and handles — main source of contact infection transmission",
-            "upholstery": "Fabric seat upholstery absorbs moisture, odors, and microorganisms",
-            "ventilation": "Ventilation system spreads aerosol particles throughout the interior",
-            "flooring": "Floor coverings accumulate dirt and pathogens from shoes",
-            "hardToReach": "Hard-to-reach areas are not treated during regular cleaning"
-          }
+          "items": [
+            "Handrails and handles — main source of contact infection transmission",
+            "Fabric seat upholstery absorbs moisture, odors, and microorganisms",
+            "Ventilation system spreads aerosol particles throughout the interior",
+            "Floor coverings accumulate dirt and pathogens from shoes",
+            "Hard-to-reach areas are not treated during regular cleaning"
+          ]
         },
         "technology": {
           "title": "Bus ozonation technology",
           "text": "Bus interior ozonation is a simple procedure that does not require special staff qualifications. The main thing is to follow the treatment regime and safety rules.",
-          "steps": {
-            "preparation": {
+          "steps": [
+            {
               "title": "Interior preparation",
               "description": "Close all windows and doors. If necessary, perform preliminary wet cleaning to remove large contaminants."
             },
-            "placement": {
+            {
               "title": "Ozonator placement",
               "description": "Install the ozonator in the center of the interior or in the aisle at maximum height. Connect to electrical network (220V/230V) or external power source."
             },
-            "ozonation": {
+            {
               "title": "Ozonation",
               "description": "Turn on the ozonator, leave the interior and close the door. Treatment time 20-40 minutes depending on volume and contamination level."
             },
-            "ventilation": {
+            {
               "title": "Ventilation",
               "description": "Open all doors and windows, turn on standard ventilation. Ventilate for 15-20 minutes until ozone is completely removed."
             }
-          },
+          ],
           "highlight": "After ventilation, a light fresh smell remains in the interior — ozone completely decomposes to oxygen. The bus is ready to go on route without additional treatment."
         },
         "treatmentModes": {
           "title": "Treatment modes for fleets",
-          "table": {
-            "caption": "Recommended ozonation modes for urban buses",
-            "headers": [
-              "Treatment mode",
-              "Concentration",
-              "Time",
-              "When to apply"
+          "tableHeaders": [
+            "Treatment mode",
+            "Concentration",
+            "Time",
+            "When to apply"
+          ],
+          "tableCaption": "Recommended ozonation modes for urban buses",
+          "tableData": [
+            [
+              "Express between runs",
+              "10-15 mg/m³",
+              "15-20 min",
+              "At terminal stops, breaks"
             ],
-            "rows": [
-              [
-                "Express between runs",
-                "10-15 mg/m³",
-                "15-20 min",
-                "At terminal stops, breaks"
-              ],
-              [
-                "Standard nightly",
-                "15-20 mg/m³",
-                "30-40 min",
-                "Daily at depot"
-              ],
-              [
-                "Deep disinfection",
-                "25-30 mg/m³",
-                "60 min",
-                "Weekly or after incidents"
-              ],
-              [
-                "Seasonal treatment",
-                "20-25 mg/m³",
-                "90 min",
-                "Before epidemic season"
-              ]
+            [
+              "Standard nightly",
+              "15-20 mg/m³",
+              "30-40 min",
+              "Daily at depot"
+            ],
+            [
+              "Deep disinfection",
+              "25-30 mg/m³",
+              "60 min",
+              "Weekly or after incidents"
+            ],
+            [
+              "Seasonal treatment",
+              "20-25 mg/m³",
+              "90 min",
+              "Before epidemic season"
             ]
-          },
+          ],
           "text": "When choosing a mode, consider route load, season (more intensive treatment during epidemics), interior condition. Regular ozonation reduces the need for deep treatment."
         },
         "pathogenEfficiency": {
           "title": "Efficiency against pathogens",
           "text": "Ozone destroys a wide range of microorganisms relevant to public transport:",
-          "table": {
-            "caption": "Ozone efficiency against pathogens in bus interior",
-            "headers": [
-              "Pathogen",
-              "Inactivation time",
-              "Efficiency"
+          "tableCaption": "Ozone efficiency against pathogens in bus interior",
+          "tableHeaders": [
+            "Pathogen",
+            "Inactivation time",
+            "Efficiency"
+          ],
+          "tableData": [
+            [
+              "Influenza A/B viruses",
+              "5-10 min",
+              "99.99%"
             ],
-            "rows": [
-              [
-                "Influenza A/B viruses",
-                "5-10 min",
-                "99.99%"
-              ],
-              [
-                "Coronaviruses (SARS-CoV-2)",
-                "10-15 min",
-                "99.99%"
-              ],
-              [
-                "Norovirus",
-                "15-20 min",
-                "99.9%"
-              ],
-              [
-                "Staphylococcus aureus",
-                "10-15 min",
-                "99.99%"
-              ],
-              [
-                "E. coli",
-                "5-10 min",
-                "99.99%"
-              ],
-              [
-                "Candida fungi",
-                "15-20 min",
-                "99.9%"
-              ],
-              [
-                "Mold spores",
-                "30-40 min",
-                "99.9%"
-              ]
+            [
+              "Coronaviruses (SARS-CoV-2)",
+              "10-15 min",
+              "99.99%"
+            ],
+            [
+              "Norovirus",
+              "15-20 min",
+              "99.9%"
+            ],
+            [
+              "Staphylococcus aureus",
+              "10-15 min",
+              "99.99%"
+            ],
+            [
+              "E. coli",
+              "5-10 min",
+              "99.99%"
+            ],
+            [
+              "Candida fungi",
+              "15-20 min",
+              "99.9%"
+            ],
+            [
+              "Mold spores",
+              "30-40 min",
+              "99.9%"
             ]
-          }
+          ]
         },
         "odorRemoval": {
           "title": "Interior odor removal",
           "text": "In addition to disinfection, ozonation effectively removes unpleasant odors that accumulate in the bus interior:",
-          "items": {
-            "sweat": "Sweat and human body odor from high passenger flow",
-            "food": "Food odors from items passengers carry",
-            "tobacco": "Tobacco smoke from clothing of smoking passengers",
-            "musty": "Musty odor from damp upholstery and floor coverings",
-            "ac": "Odors from air conditioning system with accumulated mold",
-            "specific": "Specific odors after transporting certain passenger categories"
-          },
+          "items": [
+            "Sweat and human body odor from high passenger flow",
+            "Food odors from items passengers carry",
+            "Tobacco smoke from clothing of smoking passengers",
+            "Musty odor from damp upholstery and floor coverings",
+            "Odors from air conditioning system with accumulated mold",
+            "Specific odors after transporting certain passenger categories"
+          ],
           "text2": "Ozone oxidizes odor molecules rather than masking them. The result is truly clean air, not a mixture of odors with fragrance. This is especially appreciated by morning route passengers."
         },
         "integration": {
           "title": "Integration into fleet schedule",
-          "options": {
-            "night": {
+          "items": [
+            {
               "title": "Night treatment",
               "description": "Buses are ozonated at the depot from 23:00 to 05:00. One operator treats the entire fleet"
             },
-            "shiftChange": {
+            {
               "title": "Between shifts",
               "description": "Express treatment during driver shift changes. 15-20 minutes — and the bus is ready for the next run"
             },
-            "terminal": {
+            {
               "title": "At terminal stops",
               "description": "Compact ozonator runs from bus power during terminal stop"
             },
-            "noDowntime": {
+            {
               "title": "No bus downtime",
               "description": "Ozonation does not require taking vehicles out of service — treatment during standard breaks"
             }
-          }
+          ]
         },
         "economics": {
           "title": "Fleet ozonation economics",
-          "comparison": {
-            "title": "Comparison of bus sanitation methods",
-            "headers": [
-              "Parameter",
-              "Ozonation",
-              "Manual disinfection"
-            ],
-            "rows": [
-              {
-                "parameter": "Time per bus",
-                "value1": "20-40 minutes",
-                "value2": "60-90 minutes"
-              },
-              {
-                "parameter": "Staff",
-                "value1": "1 person per fleet",
-                "value2": "1 person per 3-5 buses"
-              },
-              {
-                "parameter": "Consumables",
-                "value1": "Electricity only",
-                "value2": "Disinfectants, rags, gloves"
-              },
-              {
-                "parameter": "Surface coverage",
-                "value1": "100%",
-                "value2": "60-70%"
-              },
-              {
-                "parameter": "Ventilation treatment",
-                "value1": "Yes",
-                "value2": "No"
-              },
-              {
-                "parameter": "Odor removal",
-                "value1": "Complete",
-                "value2": "Partial (masking)"
-              }
-            ]
-          },
+          "comparisonTitle": "Comparison of bus sanitation methods",
+          "tableHeaders": [
+            "Parameter",
+            "Ozonation",
+            "Manual disinfection"
+          ],
+          "tableData": [
+            {
+              "parameter": "Time per bus",
+              "value1": "20-40 minutes",
+              "value2": "60-90 minutes"
+            },
+            {
+              "parameter": "Staff",
+              "value1": "1 person per fleet",
+              "value2": "1 person per 3-5 buses"
+            },
+            {
+              "parameter": "Consumables",
+              "value1": "Electricity only",
+              "value2": "Disinfectants, rags, gloves"
+            },
+            {
+              "parameter": "Surface coverage",
+              "value1": "100%",
+              "value2": "60-70%"
+            },
+            {
+              "parameter": "Ventilation treatment",
+              "value1": "Yes",
+              "value2": "No"
+            },
+            {
+              "parameter": "Odor removal",
+              "value1": "Complete",
+              "value2": "Partial (masking)"
+            }
+          ],
           "highlight": {
             "title": "Calculation example:",
             "text": "Fleet of 50 buses. Daily manual treatment requires 5-6 cleaners. With ozonators, 1 operator + 3-4 mobile units handle it. Equipment payback period — 4-6 months due to savings on staff and consumables."
@@ -251,58 +245,56 @@
         "equipment": {
           "title": "Equipment for fleets",
           "text": "Mobile and wall-mounted ozonators are used for urban bus ozonation:",
-          "items": {
-            "mobile": "Mobile ozonators (5-30 g/h) — carried between buses, universal",
-            "wall": "Wall-mounted ozonators (10-20 g/h) — installed permanently in interior",
-            "power220": "220V/230V power — from electrical network, no external connection needed",
-            "powerDepot": "220V power — for treatment at depot from fixed network",
-            "automation": "Timers and remote control — process automation"
-          },
-          "table": {
-            "caption": "Ozonator selection by bus type",
-            "headers": [
-              "Bus type",
-              "Interior volume",
-              "Capacity",
-              "Treatment time"
+          "items": [
+            "Mobile ozonators (5-30 g/h) — carried between buses, universal",
+            "Wall-mounted ozonators (10-20 g/h) — installed permanently in interior",
+            "220V/230V power — from electrical network, no external connection needed",
+            "220V power — for treatment at depot from fixed network",
+            "Timers and remote control — process automation"
+          ],
+          "tableCaption": "Ozonator selection by bus type",
+          "tableHeaders": [
+            "Bus type",
+            "Interior volume",
+            "Capacity",
+            "Treatment time"
+          ],
+          "tableData": [
+            [
+              "Small class (PAZ)",
+              "15-20 m³",
+              "5-10 g/h",
+              "15-20 min"
             ],
-            "rows": [
-              [
-                "Small class (PAZ)",
-                "15-20 m³",
-                "5-10 g/h",
-                "15-20 min"
-              ],
-              [
-                "Medium class (LiAZ)",
-                "40-50 m³",
-                "10-20 g/h",
-                "20-30 min"
-              ],
-              [
-                "Large class (articulated)",
-                "80-100 m³",
-                "20-30 g/h",
-                "30-40 min"
-              ],
-              [
-                "Electric buses",
-                "50-60 m³",
-                "10-20 g/h",
-                "25-35 min"
-              ]
+            [
+              "Medium class (LiAZ)",
+              "40-50 m³",
+              "10-20 g/h",
+              "20-30 min"
+            ],
+            [
+              "Large class (articulated)",
+              "80-100 m³",
+              "20-30 g/h",
+              "30-40 min"
+            ],
+            [
+              "Electric buses",
+              "50-60 m³",
+              "10-20 g/h",
+              "25-35 min"
             ]
-          }
+          ]
         },
         "compliance": {
           "title": "Regulatory compliance",
           "text": "Passenger transport ozonation complies with requirements:",
-          "items": {
-            "sanpin": "SanPiN 2.1.2.2645-10 — requirements for transport sanitary condition",
-            "gost": "GOST R 51617-2014 — passenger transport services",
-            "rospotrebnadzor": "Rospotrebnadzor methodological recommendations for transport disinfection",
-            "regional": "Regional requirements for public transport sanitation"
-          },
+          "items": [
+            "SanPiN 2.1.2.2645-10 — requirements for transport sanitary condition",
+            "GOST R 51617-2014 — passenger transport services",
+            "Rospotrebnadzor methodological recommendations for transport disinfection",
+            "Regional requirements for public transport sanitation"
+          ],
           "highlight": {
             "title": "Documentation:",
             "text": "Keep an ozonation log with date, time, bus number, and treatment parameters. This confirms compliance with sanitary norms during inspections."
@@ -311,14 +303,14 @@
         "safety": {
           "title": "Safety rules",
           "text": "Ozone in high concentrations is harmful to breathe. Follow safety rules:",
-          "items": {
-            "noPeople": "Treatment only when no people are in the interior",
-            "exit": "Leave the bus immediately after turning on the ozonator",
-            "noOpen": "Do not open doors until treatment cycle is complete",
-            "ventilation": "After treatment — mandatory ventilation for 15-20 minutes",
-            "respirator": "If early entry is necessary — use respirator with carbon filter",
-            "storage": "Store ozonator in a ventilated room"
-          }
+          "items": [
+            "Treatment only when no people are in the interior",
+            "Leave the bus immediately after turning on the ozonator",
+            "Do not open doors until treatment cycle is complete",
+            "After treatment — mandatory ventilation for 15-20 minutes",
+            "If early entry is necessary — use respirator with carbon filter",
+            "Store ozonator in a ventilated room"
+          ]
         }
       }
     },

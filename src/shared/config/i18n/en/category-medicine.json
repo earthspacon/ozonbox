@@ -14,28 +14,28 @@
         "No toxic chemical residues",
         "Complement to standard protocols"
       ],
-      "stats": {
-        "stat1": {
+      "stats": [
+        {
           "value": "99.99%",
           "label": "Efficiency",
           "description": "Destruction of pathogenic microorganisms"
         },
-        "stat2": {
+        {
           "value": "MRSA",
           "label": "Kills",
           "description": "Antibiotic-resistant bacteria"
         },
-        "stat3": {
+        {
           "value": "20-30 min",
           "label": "Ozone decay",
           "description": "To safe oxygen level"
         },
-        "stat4": {
+        {
           "value": "0",
           "label": "Residues",
           "description": "Chemical substances after treatment"
         }
-      },
+      ],
       "sections": {
         "intro": {
           "text": "Nosocomial infections (HAI) are one of the most serious problems in modern medicine. According to WHO, 7-10% of hospitalized patients in developed countries and up to 25% in developing countries are infected. Ozonation is an effective method to combat this problem, ensuring pathogen destruction at 99.99%.",
@@ -197,28 +197,28 @@
         "No damage to optics",
         "Compliance with medical standards"
       ],
-      "stats": {
-        "stat1": {
+      "stats": [
+        {
           "value": "25-35°C",
           "label": "Temperature",
           "description": "Low-temperature sterilization"
         },
-        "stat2": {
+        {
           "value": "30-60",
           "label": "Minutes",
           "description": "Full sterilization cycle"
         },
-        "stat3": {
+        {
           "value": "99.99%",
           "label": "Efficiency",
           "description": "Microorganism destruction"
         },
-        "stat4": {
+        {
           "value": "0",
           "label": "Damage",
           "description": "Safe for sensitive materials"
         }
-      },
+      ],
       "sections": {
         "intro": {
           "text": "Modern medical equipment often contains heat-sensitive materials: plastic, electronics, optics that cannot be sterilized in an autoclave. Ozone sterilization is an effective alternative operating at 25-35°C.",
@@ -360,28 +360,28 @@
         "No chemical odors",
         "Cross-infection prevention"
       ],
-      "stats": {
-        "stat1": {
+      "stats": [
+        {
           "value": "15-20",
           "label": "Minutes",
           "description": "Office disinfection between patients"
         },
-        "stat2": {
+        {
           "value": "99.9%",
           "label": "Pathogens",
           "description": "Destroyed during treatment"
         },
-        "stat3": {
+        {
           "value": "100%",
           "label": "Coverage",
           "description": "Of all surfaces and equipment"
         },
-        "stat4": {
+        {
           "value": "Ozone therapy",
           "label": "Treatment",
           "description": "Of caries and periodontal diseases"
         }
-      },
+      ],
       "sections": {
         "intro": {
           "text": "Dental procedures carry a high risk of infection transmission: aerosols from turbine handpieces, contact with blood and saliva, large numbers of patients daily. Ozonation provides rapid and effective office disinfection, as well as therapeutic applications.",
@@ -488,28 +488,28 @@
         "Reduced chlorine in water",
         "Integrated rehabilitation approach"
       ],
-      "stats": {
-        "stat1": {
+      "stats": [
+        {
           "value": "100+",
           "label": "Indications",
           "description": "For ozone therapy application"
         },
-        "stat2": {
+        {
           "value": "70%",
           "label": "Less chlorine",
           "description": "In pools with ozonation"
         },
-        "stat3": {
+        {
           "value": "99.9%",
           "label": "Pathogens",
           "description": "Destroyed in water"
         },
-        "stat4": {
+        {
           "value": "Comfort",
           "label": "Patients",
           "description": "Soft water without chlorine odor"
         }
-      },
+      ],
       "sections": {
         "intro": {
           "text": "Rehabilitation centers and sanatoriums have unique requirements: on one hand, it is necessary to maintain high sanitary standards, on the other — to create a comfortable environment for patient recovery. Ozone solves both tasks.",

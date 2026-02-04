@@ -31,11 +31,7 @@ export function MoldPreventionPage({ staticData, lang }: MoldPreventionPageProps
   const { t } = useTranslate()
   const ns = getCategoryNamespace('warehouses')
 
-  // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'mold-prevention'?: any } }>)[
-    `${lang}:${ns}`
-  ]
-  const data = categoryData?.subcategories?.['mold-prevention']
+  const data = (staticData as any)[`${lang}:${ns}`]?.subcategories?.['mold-prevention']
 
   return (
     <Layout>
@@ -136,98 +132,59 @@ export function MoldPreventionPage({ staticData, lang }: MoldPreventionPageProps
             {t('subcategories.mold-prevention.sections.intro.warningText', { ns })}
           </HighlightBox>
 
-          <ArticleSection title={data?.sections?.mechanism?.title}>
-            <Paragraph>{data?.sections?.mechanism?.intro ?? ''}</Paragraph>
-            <BulletList items={(data?.sections?.mechanism?.items as string[]) ?? []} />
+          <ArticleSection title={data.sections.mechanism.title}>
+            <Paragraph>{data.sections.mechanism.intro}</Paragraph>
+            <BulletList items={data.sections.mechanism.items} />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.equipment?.title}>
-            <Paragraph>{data?.sections?.equipment?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.equipment.title}>
+            <Paragraph>{data.sections.equipment.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.equipment?.tableCaption}
-              headers={data?.sections?.equipment?.tableHeaders ?? []}
-              rows={data?.sections?.equipment?.tableRows ?? []}
+              caption={data.sections.equipment.tableCaption}
+              headers={data.sections.equipment.tableHeaders}
+              rows={data.sections.equipment.tableRows}
             />
 
             <HighlightBox variant="info">
-              <strong>{data?.sections?.equipment?.hvacLabel ?? ''}</strong> {data?.sections?.equipment?.hvacText ?? ''}
+              <strong>{data.sections.equipment.hvacLabel}</strong> {data.sections.equipment.hvacText}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title="Режимы обработки склада">
-            <Paragraph>
-              Озонирование склада производится в нерабочее время. Во время обработки в помещении не должны находиться
-              люди без средств индивидуальной защиты. Время и режим озонирования зависит от объёма помещения,
-              производительности озонаторов, температуры и влажности воздуха.
-            </Paragraph>
+          <ArticleSection title={data.sections.processModes.title}>
+            <Paragraph>{data.sections.processModes.intro}</Paragraph>
 
-            <NumberedList
-              items={[
-                'Закройте все окна и двери, по возможности отключите приточную вентиляцию',
-                'Включите озонатор на 40-120 минут в зависимости от объёма помещения',
-                'После окончания обработки откройте двери и окна, проветривайте 20-60 минут',
-                'Для ускорения проветривания включите систему приточной вентиляции',
-                'При ночной обработке проветривание не требуется — озон выветрится за 2-3 часа',
-              ]}
-            />
+            <NumberedList items={data.sections.processModes.steps.map((step: any) => step.description)} />
 
             <DataTable
-              caption="Режимы озонирования в зависимости от степени заражения"
-              headers={['Степень заражения', 'Концентрация озона', 'Частота обработки']}
-              rows={[
-                ['Профилактика', '2-5 мг/м³', '1-2 раза в неделю'],
-                ['Умеренное', '5-10 мг/м³', '3-4 раза в неделю'],
-                ['Сильное', '10-20 мг/м³', 'Ежедневно до устранения'],
-                ['Критическое', '20-30 мг/м³', 'Интенсивный курс 7-14 дней'],
-              ]}
+              caption={data.sections.processModes.treatmentTable}
+              headers={data.sections.processModes.treatmentHeaders}
+              rows={data.sections.processModes.treatmentRows}
             />
           </ArticleSection>
 
-          <ArticleSection title="Синергия с контролем влажности">
-            <Paragraph>
-              Плесень активно развивается при влажности выше 60%. Комплексный подход к борьбе с плесенью включает как
-              озонирование, так и контроль влажности воздуха. Озон устраняет существующие очаги, а поддержание
-              оптимальной влажности 45-55% предотвращает появление новых.
-            </Paragraph>
-            <BulletList
-              items={[
-                'Установка систем осушения воздуха для влажных помещений',
-                'Контроль конденсата на холодных поверхностях',
-                'Регулярный мониторинг влажности с помощью гигрометров',
-                'Обеспечение достаточной вентиляции для предотвращения застоя воздуха',
-                'Комбинированные системы озонирования и осушения',
-              ]}
-            />
+          <ArticleSection title={data.sections.humidity.title}>
+            <Paragraph>{data.sections.humidity.intro}</Paragraph>
+            <BulletList items={data.sections.humidity.items} />
           </ArticleSection>
 
-          <ArticleSection title="Экономическое обоснование">
-            <Paragraph>
-              Внедрение озонирования на складе — инвестиция с быстрой окупаемостью. Снижение потерь от порчи продукции,
-              уменьшение расходов на химическую обработку и снижение заболеваемости персонала формируют значительный
-              экономический эффект.
-            </Paragraph>
+          <ArticleSection title={data.sections.economics.title}>
+            <Paragraph>{data.sections.economics.intro}</Paragraph>
 
             <DataTable
-              caption="Типичная структура экономии на складе 2000 м³"
-              headers={['Статья экономии', 'Сумма в год', 'Доля в ROI']}
-              rows={[
-                ['Снижение потерь от порчи товаров', '150 000 — 300 000 ₽', '40-50%'],
-                ['Экономия на химической обработке', '50 000 — 80 000 ₽', '15-20%'],
-                ['Снижение больничных листов персонала', '30 000 — 60 000 ₽', '10-15%'],
-                ['Уменьшение брака и рекламаций', '70 000 — 120 000 ₽', '20-25%'],
-              ]}
+              caption={data.sections.economics.tableCaption}
+              headers={data.sections.economics.tableHeaders}
+              rows={data.sections.economics.tableRows}
             />
 
             <HighlightBox variant="success">
-              <strong>ROI:</strong> Типичный срок окупаемости озонаторного оборудования для склада составляет 6-12
-              месяцев. При этом срок службы промышленных озонаторов — от 5 лет при минимальных затратах на обслуживание.
+              <strong>ROI:</strong> {data.sections.economics.highlightBox}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.standards?.title}>
-            <Paragraph>{data?.sections?.standards?.intro ?? ''}</Paragraph>
-            <BulletList items={(data?.sections?.standards?.items as string[]) ?? []} />
+          <ArticleSection title={data.sections.standards.title}>
+            <Paragraph>{data.sections.standards.intro}</Paragraph>
+            <BulletList items={data.sections.standards.items} />
           </ArticleSection>
 
           <ArticleSection title="Преимущества озонирования для складов">

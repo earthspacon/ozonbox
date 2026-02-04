@@ -66,27 +66,27 @@ export function AquaculturePage({ staticData, lang }: AquaculturePageProps) {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value={data?.stats?.disinfection?.value ?? ''}
-              label={data?.stats?.disinfection?.label ?? ''}
-              description={data?.stats?.disinfection?.description ?? ''}
+              value={data.stats.disinfection.value}
+              label={data.stats.disinfection.label}
+              description={data.stats.disinfection.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.cycleSaving?.value ?? ''}
-              label={data?.stats?.cycleSaving?.label ?? ''}
-              description={data?.stats?.cycleSaving?.description ?? ''}
+              value={data.stats.cycleSaving.value}
+              label={data.stats.cycleSaving.label}
+              description={data.stats.cycleSaving.description}
               variant="accent"
             />
             <StatCard
-              value={data?.stats?.mortalityReduction?.value ?? ''}
-              label={data?.stats?.mortalityReduction?.label ?? ''}
-              description={data?.stats?.mortalityReduction?.description ?? ''}
+              value={data.stats.mortalityReduction.value}
+              label={data.stats.mortalityReduction.label}
+              description={data.stats.mortalityReduction.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.waterSaving?.value ?? ''}
-              label={data?.stats?.waterSaving?.label ?? ''}
-              description={data?.stats?.waterSaving?.description ?? ''}
+              value={data.stats.waterSaving.value}
+              label={data.stats.waterSaving.label}
+              description={data.stats.waterSaving.description}
               variant="accent"
             />
           </StatGrid>
@@ -97,81 +97,79 @@ export function AquaculturePage({ staticData, lang }: AquaculturePageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
+            <Paragraph>{data.sections.intro.paragraph1}</Paragraph>
+            <Paragraph>{data.sections.intro.paragraph2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data?.sections?.dosage?.title ?? ''}</strong> {data?.sections?.dosage?.text ?? ''}
+            <strong>{data.sections.dosage.title}</strong> {data.sections.dosage.text}
           </HighlightBox>
 
-          <ArticleSection title={data?.sections?.advantages?.title}>
-            <BulletList items={(data?.sections?.advantages?.items as string[]) ?? []} />
+          <ArticleSection title={data.sections.advantages.title}>
+            <BulletList items={data.sections.advantages.items} />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.waterQuality?.title}>
-            <Paragraph>{data?.sections?.waterQuality?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.waterQuality.title}>
+            <Paragraph>{data.sections.waterQuality.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.waterQuality?.tableCaption}
-              headers={data?.sections?.waterQuality?.tableHeaders ?? []}
-              rows={data?.sections?.waterQuality?.tableData ?? []}
+              caption={data.sections.waterQuality.tableCaption}
+              headers={data.sections.waterQuality.tableHeaders}
+              rows={data.sections.waterQuality.tableData}
             />
 
-            <HighlightBox variant="success">{data?.sections?.waterQuality?.note ?? ''}</HighlightBox>
+            <HighlightBox variant="success">{data.sections.waterQuality.note}</HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.pathogens?.title}>
-            <Paragraph>{data?.sections?.pathogens?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.pathogens.title}>
+            <Paragraph>{data.sections.pathogens.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.pathogens?.tableCaption}
-              headers={data?.sections?.pathogens?.tableHeaders ?? []}
-              rows={data?.sections?.pathogens?.tableData ?? []}
+              caption={data.sections.pathogens.tableCaption}
+              headers={data.sections.pathogens.tableHeaders}
+              rows={data.sections.pathogens.tableData}
             />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.fishTypes?.title}>
-            <Paragraph>{data?.sections?.fishTypes?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.fishTypes.title}>
+            <Paragraph>{data.sections.fishTypes.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.fishTypes?.tableCaption}
-              headers={data?.sections?.fishTypes?.tableHeaders ?? []}
-              rows={data?.sections?.fishTypes?.tableData ?? []}
+              caption={data.sections.fishTypes.tableCaption}
+              headers={data.sections.fishTypes.tableHeaders}
+              rows={data.sections.fishTypes.tableData}
             />
 
             <HighlightBox variant="warning">
-              <strong>{data?.sections?.fishTypes?.warning?.title ?? ''}</strong>{' '}
-              {data?.sections?.fishTypes?.warning?.text ?? ''}
+              <strong>{data.sections.fishTypes.warning.title}</strong>{' '}
+              {data.sections.fishTypes.warning.text}
             </HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.scheme?.title}>
-            <ProcessList steps={data?.sections?.scheme?.steps ?? []} />
+          <ArticleSection title={data.sections.scheme.title}>
+            <ProcessList steps={data.sections.scheme.steps} />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.economic?.title}>
-            <Paragraph>{data?.sections?.economic?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.economic.title}>
+            <Paragraph>{data.sections.economic.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.economic?.tableCaption}
-              headers={data?.sections?.economic?.tableHeaders ?? []}
-              rows={data?.sections?.economic?.tableData ?? []}
+              caption={data.sections.economic.tableCaption}
+              headers={data.sections.economic.tableHeaders}
+              rows={data.sections.economic.tableData}
             />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.benefits?.title}>
+          <ArticleSection title={data.sections.benefits.title}>
             <FeatureGrid columns={2}>
-              {((data?.sections?.benefits?.items as Array<{ title: string; description: string }>) ?? []).map(
-                (item, idx) => (
-                  <FeatureCard
-                    key={idx}
-                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={item.title}
-                    description={item.description}
-                  />
-                ),
-              )}
+              {data.sections.benefits.items.map((item: { title: string; description: string }, idx: number) => (
+                <FeatureCard
+                  key={idx}
+                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                  title={item.title}
+                  description={item.description}
+                />
+              ))}
             </FeatureGrid>
           </ArticleSection>
         </div>

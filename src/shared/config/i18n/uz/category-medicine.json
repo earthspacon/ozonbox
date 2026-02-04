@@ -14,28 +14,28 @@
         "Toksik kimyoviy qoldiqlar yo'q",
         "Standart protokollarni to'ldirish"
       ],
-      "stats": {
-        "stat1": {
+      "stats": [
+        {
           "value": "99,99%",
           "label": "Samaradorlik",
           "description": "Patogen mikroorganizmlarni yo'q qilish"
         },
-        "stat2": {
+        {
           "value": "MRSA",
           "label": "Yo'q qiladi",
           "description": "Antibiotiklaraga chidamli bakteriyalar"
         },
-        "stat3": {
+        {
           "value": "20-30 daqiqa",
           "label": "Ozon parchalanishi",
           "description": "Xavfsiz kislorod darajasigacha"
         },
-        "stat4": {
+        {
           "value": "0",
           "label": "Qoldiqlar",
           "description": "Ishlov berishdan keyin kimyoviy moddalar"
         }
-      },
+      ],
       "sections": {
         "intro": {
           "text": "Nosokomial infektsiyalar (HAI) zamonaviy tibbiyotning eng jiddiy muammolaridan biridir. JUON ma'lumotiga ko'ra, rivojlangan mamlakatlarda hospitalga yotqan bemorlarning 7-10 foizi va rivojlanayotgan mamlakatlarda 25 foizigacha yuqumli. Ozonlash bu muammoni hal qilishning samarali usuli bo'lib, 99,99% patogenlari yo'q qilishni ta'minlaydi.",

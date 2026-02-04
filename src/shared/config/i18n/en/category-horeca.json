@@ -51,24 +51,24 @@
         },
         "process": {
           "title": "Room ozonation process",
-          "steps": {
-            "step1": {
+          "steps": [
+            {
               "title": "Standard cleaning",
               "description": "Room undergoes regular cleaning: changing linens, wiping surfaces, vacuuming."
             },
-            "step2": {
+            {
               "title": "Ozonator installation",
               "description": "Portable ozonator is placed at maximum height (on wardrobe, shelf). Windows and doors are closed."
             },
-            "step3": {
+            {
               "title": "Ozonation",
               "description": "Treatment starts. Standard mode: 30-60 minutes at 1 g/h per 25 m³ capacity."
             },
-            "step4": {
+            {
               "title": "Ventilation",
               "description": "After treatment — 20-30 minutes ventilation. Ozone decomposes to oxygen, leaving a fresh feeling."
             }
-          },
+          ],
           "tableHeaders": [
             "Situation",
             "Concentration",
@@ -106,24 +106,24 @@
         "whatIsTreated": {
           "title": "What is treated with ozone",
           "intro": "Ozone, being a gas, penetrates all places inaccessible to traditional cleaning:",
-          "items": {
-            "textiles": {
+          "items": [
+            {
               "title": "Textiles",
               "description": "Mattresses, pillows, blankets, curtains, furniture upholstery, carpets"
             },
-            "furniture": {
+            {
               "title": "Furniture",
               "description": "Internal cavities of wardrobes, crevices, decorative elements, armrests"
             },
-            "ventilation": {
+            {
               "title": "Ventilation",
               "description": "Air ducts, grilles, air conditioning system — source of odors and bacteria"
             },
-            "bathroom": {
+            {
               "title": "Bathroom",
               "description": "Tiles, grout, plumbing — places where bacteria and mold accumulate"
             }
-          }
+          ]
         },
         "benefits": {
           "title": "Benefits for hotels",
@@ -251,59 +251,62 @@
         "whyImportant": {
           "title": "Why odors matter so much",
           "text": "You can create creative design, hire professional staff, invest in advertising — but an unpleasant smell will negate all efforts. Can a good place smell bad?",
-          "headers": [
-            "Metric",
-            "Without ozonation",
-            "With ozonation"
-          ],
-          "rows": [
-            {
-              "parameter": "Average visit time",
-              "value1": "45 minutes",
-              "value2": "55-60 minutes"
-            },
-            {
-              "parameter": "Repeat visits",
-              "value1": "35%",
-              "value2": "52%"
-            },
-            {
-              "parameter": "\"Cleanliness\" rating in reviews",
-              "value1": "3.8/5",
-              "value2": "4.6/5"
-            },
-            {
-              "parameter": "Odor complaints",
-              "value1": "12% of guests",
-              "value2": "<1% of guests"
-            },
-            {
-              "parameter": "Average check",
-              "value1": "Baseline",
-              "value2": "+15-20%"
-            }
-          ]
+          "table": {
+            "caption": "Impact of air quality on business metrics",
+            "headers": [
+              "Metric",
+              "Without ozonation",
+              "With ozonation"
+            ],
+            "rows": [
+              {
+                "parameter": "Average visit time",
+                "value1": "45 minutes",
+                "value2": "55-60 minutes"
+              },
+              {
+                "parameter": "Repeat visits",
+                "value1": "35%",
+                "value2": "52%"
+              },
+              {
+                "parameter": "\"Cleanliness\" rating in reviews",
+                "value1": "3.8/5",
+                "value2": "4.6/5"
+              },
+              {
+                "parameter": "Odor complaints",
+                "value1": "12% of guests",
+                "value2": "<1% of guests"
+              },
+              {
+                "parameter": "Average check",
+                "value1": "Baseline",
+                "value2": "+15-20%"
+              }
+            ]
+          }
         },
         "process": {
           "title": "Restaurant ozonation process",
-          "steps": {
-            "closure": {
+          "steps": [
+            {
               "title": "Closure",
               "description": "Ozonation is done during off-hours when there are no people in the premises."
             },
-            "preparation": {
+            {
               "title": "Preparation",
               "description": "Windows and doors are closed, supply ventilation is turned off for maximum ozone concentration."
             },
-            "ozonation": {
+            {
               "title": "Ozonation",
               "description": "Ozonator is placed at maximum height. Treatment time: 60-120 minutes depending on volume."
             },
-            "ventilation": {
+            {
               "title": "Ventilation",
               "description": "Ventilation is turned on, windows are opened. In 2-3 hours ozone decays to safe levels."
             }
-          },
+          ],
           "automation": {
             "title": "Automation:",
             "text": "Modern ozonators have weekly timers. You can set automatic start after closing — by morning the air will be perfectly fresh."
@@ -315,39 +318,41 @@
         "calculation": {
           "title": "Equipment calculation",
           "text": "Ozonator capacity is selected at: 1 g/hour per 25 m³ of room volume.",
-          "tableHeaders": [
-            "Venue type",
-            "Area",
-            "Volume",
-            "Ozonator"
-          ],
-          "tableCaption": "Calculation examples for different venues",
-          "tableData": [
-            [
-              "Small cafe",
-              "40-60 m²",
-              "120-180 m³",
-              "5-7 g/hour"
+          "table": {
+            "caption": "Calculation examples for different venues",
+            "headers": [
+              "Venue type",
+              "Area",
+              "Volume",
+              "Ozonator"
             ],
-            [
-              "Medium restaurant",
-              "100-200 m²",
-              "300-600 m³",
-              "12-24 g/hour"
-            ],
-            [
-              "Large restaurant/banquet hall",
-              "300+ m²",
-              "900+ m³",
-              "36+ g/hour or multiple units"
-            ],
-            [
-              "Hookah lounge",
-              "50-100 m²",
-              "150-300 m³",
-              "6-12 g/hour (daily treatment)"
+            "rows": [
+              [
+                "Small cafe",
+                "40-60 m²",
+                "120-180 m³",
+                "5-7 g/hour"
+              ],
+              [
+                "Medium restaurant",
+                "100-200 m²",
+                "300-600 m³",
+                "12-24 g/hour"
+              ],
+              [
+                "Large restaurant/banquet hall",
+                "300+ m²",
+                "900+ m³",
+                "36+ g/hour or multiple units"
+              ],
+              [
+                "Hookah lounge",
+                "50-100 m²",
+                "150-300 m³",
+                "6-12 g/hour (daily treatment)"
+              ]
             ]
-          ]
+          }
         },
         "additionalUses": {
           "title": "Additional ozone applications",
@@ -622,14 +627,23 @@
         "No consumables",
         "Decay to oxygen in 2–3 hours"
       ],
-      "stats": {
-        "processingTime": "60-120",
-        "processingTimeLabel": "Minutes of treatment",
-        "odorRemoval": "100%",
-        "odorRemovalLabel": "Odor removal",
-        "ventilationTime": "2-3",
-        "ventilationTimeLabel": "Hours ventilation"
-      },
+      "stats": [
+        {
+          "value": "60-120",
+          "label": "Minutes of treatment",
+          "description": "Full treatment cycle"
+        },
+        {
+          "value": "100%",
+          "label": "Odor removal",
+          "description": "Chemical neutralization"
+        },
+        {
+          "value": "2-3",
+          "label": "Hours ventilation",
+          "description": "Ozone decomposition"
+        }
+      ],
       "odorSources": [
         "Textiles (curtains, upholstery, cushions) — main odor reservoir",
         "Upholstered furniture — tars penetrate filling",

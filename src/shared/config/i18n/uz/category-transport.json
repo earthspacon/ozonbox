@@ -48,158 +48,154 @@
         "sanitationProblems": {
           "title": "Jamoat transportida sanitariya muammolari",
           "text": "Yo'lovchi avtobus salonida mikroorganizmlar ko'payish uchun qulay muhit. Dvigatel issiqligi, yo'lovchilarning nafas olishidan namlik, organik ifloslanish bakteriyalar, viruslar va zamburug'lar uchun ideal sharoit yaratadi.",
-          "items": {
-            "handrails": "Tutqichlar va dastalar — kontaktli infektsiya uzatishning asosiy manbai",
-            "upholstery": "Mato o'rindiq qoplamasi namlik, hidlar va mikroorganizmlarni yutadi",
-            "ventilation": "Shamollatish tizimi aerosol zarralarni butun salon bo'ylab tarqatadi",
-            "flooring": "Pol qoplamalari kirlash va patogenlarni poyabzal bilan to'playdi",
-            "hardToReach": "Qiyin erishiladigan joylar oddiy tozalash paytida qayta ishlanmaydi"
-          }
+          "items": [
+            "Tutqichlar va dastalar — kontaktli infektsiya uzatishning asosiy manbai",
+            "Mato o'rindiq qoplamasi namlik, hidlar va mikroorganizmlarni yutadi",
+            "Shamollatish tizimi aerosol zarralarni butun salon bo'ylab tarqatadi",
+            "Pol qoplamalari kirlash va patogenlarni poyabzal bilan to'playdi",
+            "Qiyin erishiladigan joylar oddiy tozalash paytida qayta ishlanmaydi"
+          ]
         },
         "technology": {
           "title": "Avtobuslarni ozonlash texnologiyasi",
           "text": "Avtobus salonini ozonlash — maxsus xodim malakasini talab qilmaydigan oddiy protsedura. Asosiy narsa — qayta ishlash rejimini va xavfsizlik qoidalarini kuzatishdir.",
-          "steps": {
-            "preparation": {
+          "steps": [
+            {
               "title": "Salonni tayyorlash",
               "description": "Barcha derazalar va eshiklarni yoping. Kerak bo'lsa, yirik ifloslanishlarni olib tashlash uchun dastlabki nam tozalashni o'tkazing."
             },
-            "placement": {
+            {
               "title": "Ozonator joylashtirish",
               "description": "Ozonatorni salon markaziga yoki yo'lakda maksimal balandlikka o'rnating. Elektr tarmog'iga (220V/230V) yoki tashqi quvvat manbaiga ulang."
             },
-            "ozonation": {
+            {
               "title": "Ozonlash",
               "description": "Ozonatorni yoqing, salondan chiqing va eshikni yoping. Qayta ishlash vaqti hajm va ifloslanish darajasiga qarab 20-40 daqiqa."
             },
-            "ventilation": {
+            {
               "title": "Havolantirish",
               "description": "Barcha eshiklar va derazalarni oching, standart shamollatishni yoqing. Ozon to'liq chiqarilguncha 15-20 daqiqa havolantiring."
             }
-          },
+          ],
           "highlight": "Havolantirishdan keyin salonda yengil yangi hid qoladi — ozon to'liq kislorodga parchalanadi. Avtobus qo'shimcha qayta ishlashsiz liniyaga chiqishga tayyor."
         },
         "treatmentModes": {
           "title": "Avtoparklar uchun qayta ishlash rejimlari",
-          "table": {
-            "caption": "Shahar avtobuslarini ozonlashning tavsiya etilgan rejimlari",
-            "headers": [
-              "Qayta ishlash rejimi",
-              "Konsentratsiya",
-              "Vaqt",
-              "Qachon qo'llash kerak"
+          "tableHeaders": [
+            "Qayta ishlash rejimi",
+            "Konsentratsiya",
+            "Vaqt",
+            "Qachon qo'llash kerak"
+          ],
+          "tableCaption": "Shahar avtobuslarini ozonlashning tavsiya etilgan rejimlari",
+          "tableData": [
+            [
+              "Reyslar orasida ekspress",
+              "10-15 mg/m³",
+              "15-20 min",
+              "Oxirgi bekatlarda, tanaffuslar"
             ],
-            "rows": [
-              [
-                "Reyslar orasida ekspress",
-                "10-15 mg/m³",
-                "15-20 min",
-                "Oxirgi bekatlarda, tanaffuslar"
-              ],
-              [
-                "Standart kechki",
-                "15-20 mg/m³",
-                "30-40 min",
-                "Har kuni avtoparkda"
-              ],
-              [
-                "Chuqur dezinfeksiya",
-                "25-30 mg/m³",
-                "60 min",
-                "Haftalik yoki voqealaridan keyin"
-              ],
-              [
-                "Mavsumiy qayta ishlash",
-                "20-25 mg/m³",
-                "90 min",
-                "Epidemiya mavsumi oldidan"
-              ]
+            [
+              "Standart kechki",
+              "15-20 mg/m³",
+              "30-40 min",
+              "Har kuni avtoparkda"
+            ],
+            [
+              "Chuqur dezinfeksiya",
+              "25-30 mg/m³",
+              "60 min",
+              "Haftalik yoki voqealaridan keyin"
+            ],
+            [
+              "Mavsumiy qayta ishlash",
+              "20-25 mg/m³",
+              "90 min",
+              "Epidemiya mavsumi oldidan"
             ]
-          },
+          ],
           "text": "Rejimni tanlashda marshrut yuklanishini, mavsumni (epidemiya davrida — yanada intensiv qayta ishlash), salon holatini hisobga oling. Muntazam ozonlash chuqur qayta ishlashga bo'lgan ehtiyojni kamaytiradi."
         },
         "pathogenEfficiency": {
           "title": "Patogenlarga qarshi samaradorlik",
           "text": "Ozon jamoat transporti uchun muhim bo'lgan mikroorganizmlarning keng spektrini yo'qotadi:",
-          "table": {
-            "caption": "Avtobus salonida patogenlarga qarshi ozon samaradorligi",
-            "headers": [
-              "Patogen",
-              "Inaktivatsiya vaqti",
-              "Samaradorlik"
+          "tableCaption": "Avtobus salonida patogenlarga qarshi ozon samaradorligi",
+          "tableHeaders": [
+            "Patogen",
+            "Inaktivatsiya vaqti",
+            "Samaradorlik"
+          ],
+          "tableData": [
+            [
+              "Gripp A/B viruslari",
+              "5-10 min",
+              "99,99%"
             ],
-            "rows": [
-              [
-                "Gripp A/B viruslari",
-                "5-10 min",
-                "99,99%"
-              ],
-              [
-                "Koronaviruslar (SARS-CoV-2)",
-                "10-15 min",
-                "99,99%"
-              ],
-              [
-                "Norovirus",
-                "15-20 min",
-                "99,9%"
-              ],
-              [
-                "Staphylococcus aureus",
-                "10-15 min",
-                "99,99%"
-              ],
-              [
-                "E. coli",
-                "5-10 min",
-                "99,99%"
-              ],
-              [
-                "Candida zamburug'lari",
-                "15-20 min",
-                "99,9%"
-              ],
-              [
-                "Mold sporlari",
-                "30-40 min",
-                "99,9%"
-              ]
+            [
+              "Koronaviruslar (SARS-CoV-2)",
+              "10-15 min",
+              "99,99%"
+            ],
+            [
+              "Norovirus",
+              "15-20 min",
+              "99,9%"
+            ],
+            [
+              "Staphylococcus aureus",
+              "10-15 min",
+              "99,99%"
+            ],
+            [
+              "E. coli",
+              "5-10 min",
+              "99,99%"
+            ],
+            [
+              "Candida zamburug'lari",
+              "15-20 min",
+              "99,9%"
+            ],
+            [
+              "Mold sporlari",
+              "30-40 min",
+              "99,9%"
             ]
-          }
+          ]
         },
         "odorRemoval": {
           "title": "Salondagi hidlarni bartaraf etish",
           "text": "Dezinfeksiyadan tashqari, ozonlash avtobus salonida to'planadigan yoqimsiz hidlarni samarali bartaraf etadi:",
-          "items": {
-            "sweat": "Yuqori yo'lovchi oqimidan ter va inson tanasi hidi",
-            "food": "Yo'lovchilar tashib yurgan ovqat hidlari",
-            "tobacco": "Chekuvchi yo'lovchilarning kiyimidan tamaki tutuni",
-            "musty": "Nam qoplamalar va pol qoplamalaridan eskirgan hid",
-            "ac": "To'plangan mold bilan konditsioner tizimidan hidlar",
-            "specific": "Muayyan yo'lovchi kategoriyalarini tashishdan keyin o'ziga xos hidlar"
-          },
+          "items": [
+            "Yuqori yo'lovchi oqimidan ter va inson tanasi hidi",
+            "Yo'lovchilar tashib yurgan ovqat hidlari",
+            "Chekuvchi yo'lovchilarning kiyimidan tamaki tutuni",
+            "Nam qoplamalar va pol qoplamalaridan eskirgan hid",
+            "To'plangan mold bilan konditsioner tizimidan hidlar",
+            "Muayyan yo'lovchi kategoriyalarini tashishdan keyin o'ziga xos hidlar"
+          ],
           "text2": "Ozon hid molekulalarini oksidlaydi, ularni yashirmaydi. Natija — haqiqatan ham toza havo, hidlar va xushbo'y moddalar aralashmasi emas. Buni ayniqsa ertalabki reys yo'lovchilari qadrlaydi."
         },
         "integration": {
           "title": "Avtopark jadvaliga integratsiya",
-          "options": {
-            "night": {
+          "items": [
+            {
               "title": "Kechki qayta ishlash",
               "description": "Avtobuslar avtoparkda 23:00 dan 05:00 gacha ozonlanadi. Bitta operator butun parkni qayta ishlaydi"
             },
-            "shiftChange": {
+            {
               "title": "Smenalar orasida",
               "description": "Haydovchilar smenasini almashtirish paytida ekspress qayta ishlash. 15-20 daqiqa — va avtobus keyingi reysga tayyor"
             },
-            "terminal": {
+            {
               "title": "Oxirgi bekatlarda",
               "description": "Kichik ozonator oxirgi bekatda to'xtash paytida avtobus quvvat tizimidan ishlaydi"
             },
-            "noDowntime": {
+            {
               "title": "Avtobuslar to'xtamasdan",
               "description": "Ozonlash transportni ekspluatatsiyadan chiqarishni talab qilmaydi — standart tanaffuslarda qayta ishlash"
             }
-          }
+          ]
         },
         "economics": {
           "title": "Avtopark ozonlash iqtisodiyoti",
@@ -251,13 +247,13 @@
         "equipment": {
           "title": "Avtoparklar uchun uskunalar",
           "text": "Shahar avtobuslarini ozonlash uchun mobil va devor o'rnatilgan ozonatorlar qo'llaniladi:",
-          "items": {
-            "mobile": "Mobil ozonatorlar (5-30 g/h) — avtobuslar orasida ko'chiriladi, universal",
-            "wall": "Devor o'rnatilgan ozonatorlar (10-20 g/h) — salonda doimiy o'rnatiladi",
-            "power220": "220V/230V quvvat — elektr tarmog'idan, tashqi ulanish kerak emas",
-            "powerDepot": "220V quvvat — avtoparkda qayta ishlash uchun statsionar tarmoqdan",
-            "automation": "Taymerlar va masofadan boshqarish — jarayonni avtomatlashtirish"
-          },
+          "items": [
+            "Mobil ozonatorlar (5-30 g/h) — avtobuslar orasida ko'chiriladi, universal",
+            "Devor o'rnatilgan ozonatorlar (10-20 g/h) — salonda doimiy o'rnatiladi",
+            "220V/230V quvvat — elektr tarmog'idan, tashqi ulanish kerak emas",
+            "220V quvvat — avtoparkda qayta ishlash uchun statsionar tarmoqdan",
+            "Taymerlar va masofadan boshqarish — jarayonni avtomatlashtirish"
+          ],
           "table": {
             "caption": "Avtobus turi bo'yicha ozonator tanlash",
             "headers": [
@@ -297,12 +293,12 @@
         "compliance": {
           "title": "Normativlarga moslik",
           "text": "Yo'lovchi transportini ozonlash quyidagi talablarga javob beradi:",
-          "items": {
-            "sanpin": "SanPiN 2.1.2.2645-10 — transport sanitariya holati talablari",
-            "gost": "GOST R 51617-2014 — yo'lovchi transport xizmatlari",
-            "rospotrebnadzor": "Rospotrebnadzor transportni dezinfeksiya qilish bo'yicha metodik tavsiyalar",
-            "regional": "Jamoat transportini sanitariya qayta ishlash bo'yicha mintaqaviy talablar"
-          },
+          "items": [
+            "SanPiN 2.1.2.2645-10 — transport sanitariya holati talablari",
+            "GOST R 51617-2014 — yo'lovchi transport xizmatlari",
+            "Rospotrebnadzor transportni dezinfeksiya qilish bo'yicha metodik tavsiyalar",
+            "Jamoat transportini sanitariya qayta ishlash bo'yicha mintaqaviy talablar"
+          ],
           "highlight": {
             "title": "Hujjatlashtirish:",
             "text": "Sana, vaqt, avtobus raqami va qayta ishlash parametrlarini ko'rsatgan holda ozonlash jurnalini yuriting. Bu tekshiruvlar paytida sanitariya me'yorlariga rioya qilishni tasdiqlaydi."
@@ -311,14 +307,14 @@
         "safety": {
           "title": "Xavfsizlik qoidalari",
           "text": "Yuqori konsentratsiyadagi ozon nafas olish uchun zararli. Xavfsizlik qoidalariga rioya qiling:",
-          "items": {
-            "noPeople": "Qayta ishlash faqat salonda odamlar bo'lmaganda o'tkaziladi",
-            "exit": "Ozonatorni yoqgandan so'ng darhol avtobusdan chiqing",
-            "noOpen": "Qayta ishlash davri tugaguncha eshiklar ochilmaydi",
-            "ventilation": "Qayta ishlashdan keyin — majburiy havolantirish 15-20 daqiqa",
-            "respirator": "Agar erta kirish kerak bo'lsa — ko'mir filtri bilan respirator ishlating",
-            "storage": "Ozonatorni havolantiriladigan xonada saqlang"
-          }
+          "items": [
+            "Qayta ishlash faqat salonda odamlar bo'lmaganda o'tkaziladi",
+            "Ozonatorni yoqgandan so'ng darhol avtobusdan chiqing",
+            "Qayta ishlash davri tugaguncha eshiklar ochilmaydi",
+            "Qayta ishlashdan keyin — majburiy havolantirish 15-20 daqiqa",
+            "Agar erta kirish kerak bo'lsa — ko'mir filtri bilan respirator ishlating",
+            "Ozonatorni havolantiriladigan xonada saqlang"
+          ]
         }
       }
     },

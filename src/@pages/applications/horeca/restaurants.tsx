@@ -30,10 +30,7 @@ export function RestaurantsPage({ staticData, lang }: RestaurantsPageProps) {
   const { t } = useTranslate()
   const ns = getCategoryNamespace('horeca')
 
-  // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { restaurants?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as any)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.restaurants
 
   const breadcrumbs = [
@@ -66,27 +63,27 @@ export function RestaurantsPage({ staticData, lang }: RestaurantsPageProps) {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value={data?.stats?.stat1?.value ?? ''}
-              label={data?.stats?.stat1?.label ?? ''}
-              description={data?.stats?.stat1?.description ?? ''}
+              value={data?.stats?.stat1?.value}
+              label={data?.stats?.stat1?.label}
+              description={data?.stats?.stat1?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.stat2?.value ?? ''}
-              label={data?.stats?.stat2?.label ?? ''}
-              description={data?.stats?.stat2?.description ?? ''}
+              value={data?.stats?.stat2?.value}
+              label={data?.stats?.stat2?.label}
+              description={data?.stats?.stat2?.description}
               variant="accent"
             />
             <StatCard
-              value={data?.stats?.stat3?.value ?? ''}
-              label={data?.stats?.stat3?.label ?? ''}
-              description={data?.stats?.stat3?.description ?? ''}
+              value={data?.stats?.stat3?.value}
+              label={data?.stats?.stat3?.label}
+              description={data?.stats?.stat3?.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.stat4?.value ?? ''}
-              label={data?.stats?.stat4?.label ?? ''}
-              description={data?.stats?.stat4?.description ?? ''}
+              value={data?.stats?.stat4?.value}
+              label={data?.stats?.stat4?.label}
+              description={data?.stats?.stat4?.description}
               variant="accent"
             />
           </StatGrid>
@@ -97,71 +94,71 @@ export function RestaurantsPage({ staticData, lang }: RestaurantsPageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.text ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.text2 ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.text}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.text2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="success">
-            <strong>{data?.sections?.factHighlight?.title ?? ''}</strong> {data?.sections?.factHighlight?.text ?? ''}
+            <strong>{data?.sections?.factHighlight?.title}</strong> {data?.sections?.factHighlight?.text}
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.problems?.title}>
-            <BulletList items={(data?.problems ?? []) as string[]} />
+            <BulletList items={data?.problems} />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.importance?.title}>
-            <Paragraph>{data?.sections?.importance?.text ?? ''}</Paragraph>
+          <ArticleSection title={data?.sections?.whyImportant?.title}>
+            <Paragraph>{data?.sections?.whyImportant?.text}</Paragraph>
             <DataTable
-              caption={data?.sections?.importance?.tableCaption}
-              headers={data?.sections?.importance?.tableHeaders ?? []}
-              rows={data?.sections?.importance?.tableData ?? []}
+              caption={data?.sections?.whyImportant?.table?.caption}
+              headers={data?.sections?.whyImportant?.table?.headers}
+              rows={data?.sections?.whyImportant?.table?.rows}
             />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.process?.title}>
-            <ProcessList steps={data?.sections?.process?.steps ?? []} />
+            <ProcessList steps={Object.values(data?.sections?.process?.steps)} />
 
             <HighlightBox variant="info">
-              <strong>{data?.sections?.process?.automation?.title ?? ''}</strong>{' '}
-              {data?.sections?.process?.automation?.text ?? ''}
+              <strong>{data?.sections?.process?.automation?.title}</strong>{' '}
+              {data?.sections?.process?.automation?.text}
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.zones?.title}>
             <FeatureGrid columns={2}>
-              {((data?.sections?.zones?.items as Array<{ title: string; description: string }>) ?? []).map(
-                (item, idx) => (
+              {Object.values(data?.sections?.zones || {})
+                .filter((item) => typeof item === 'object' && item && 'title' in item)
+                .map((item: any, idx: number) => (
                   <FeatureCard
                     key={idx}
                     icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={item.title}
-                    description={item.description}
+                    title={(item as any).title}
+                    description={(item as any).desc}
                   />
-                ),
-              )}
+                ))}
             </FeatureGrid>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.calculation?.title}>
-            <Paragraph>{data?.sections?.calculation?.text ?? ''}</Paragraph>
+            <Paragraph>{data?.sections?.calculation?.text}</Paragraph>
             <DataTable
-              caption={data?.sections?.calculation?.tableCaption}
-              headers={data?.sections?.calculation?.tableHeaders ?? []}
-              rows={data?.sections?.calculation?.tableData ?? []}
+              caption={data?.sections?.calculation?.table?.caption}
+              headers={data?.sections?.calculation?.table?.headers}
+              rows={data?.sections?.calculation?.table?.rows}
             />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.additionalUses?.title}>
-            <BulletList items={(data?.sections?.additionalUses?.items ?? []) as string[]} />
+            <BulletList items={data?.sections?.additionalUses?.items} />
 
             <HighlightBox variant="success">
-              <strong>{data?.sections?.additionalUses?.savings?.title ?? ''}</strong>{' '}
-              {data?.sections?.additionalUses?.savings?.text ?? ''}
+              <strong>{data?.sections?.additionalUses?.savings?.title}</strong>{' '}
+              {data?.sections?.additionalUses?.savings?.text}
             </HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.benefits?.title}>
-            <BulletList items={(data?.sections?.benefits?.items ?? []) as string[]} />
+            <BulletList items={data?.sections?.benefits?.items} />
           </ArticleSection>
         </div>
       </article>

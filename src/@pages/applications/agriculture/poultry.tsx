@@ -66,27 +66,27 @@ export function PoultryPage({ staticData, lang }: PoultryPageProps) {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value={data?.stats?.disinfection?.value ?? ''}
-              label={data?.stats?.disinfection?.label ?? ''}
-              description={data?.stats?.disinfection?.description ?? ''}
+              value={data.stats.disinfection.value}
+              label={data.stats.disinfection.label}
+              description={data.stats.disinfection.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.hatchability?.value ?? ''}
-              label={data?.stats?.hatchability?.label ?? ''}
-              description={data?.stats?.hatchability?.description ?? ''}
+              value={data.stats.hatchability.value}
+              label={data.stats.hatchability.label}
+              description={data.stats.hatchability.description}
               variant="accent"
             />
             <StatCard
-              value={data?.stats?.moldReduction?.value ?? ''}
-              label={data?.stats?.moldReduction?.label ?? ''}
-              description={data?.stats?.moldReduction?.description ?? ''}
+              value={data.stats.moldReduction.value}
+              label={data.stats.moldReduction.label}
+              description={data.stats.moldReduction.description}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.storageExtension?.value ?? ''}
-              label={data?.stats?.storageExtension?.label ?? ''}
-              description={data?.stats?.storageExtension?.description ?? ''}
+              value={data.stats.storageExtension.value}
+              label={data.stats.storageExtension.label}
+              description={data.stats.storageExtension.description}
               variant="accent"
             />
           </StatGrid>
@@ -97,105 +97,97 @@ export function PoultryPage({ staticData, lang }: PoultryPageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
+            <Paragraph>{data.sections.intro.paragraph1}</Paragraph>
+            <Paragraph>{data.sections.intro.paragraph2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data?.sections?.intro?.warningLabel ?? ''}</strong> {data?.sections?.intro?.warningText ?? ''}
+            <strong>{data.sections.intro.warningLabel}</strong> {data.sections.intro.warningText}
           </HighlightBox>
 
-          <ArticleSection title={data?.sections?.applications?.title}>
-            <NumberedList items={(data?.sections?.applications?.items as string[]) ?? []} />
+          <ArticleSection title={data.sections.applications.title}>
+            <NumberedList items={data.sections.applications.items} />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.incubation?.title}>
-            <Paragraph>{data?.sections?.incubation?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.incubation.title}>
+            <Paragraph>{data.sections.incubation.intro}</Paragraph>
 
             <StatGrid columns={2}>
               <StatCard
-                value={data?.sections?.incubation?.stats?.eggLayers?.value ?? ''}
-                label={data?.sections?.incubation?.stats?.eggLayers?.label ?? ''}
-                description={data?.sections?.incubation?.stats?.eggLayers?.description ?? ''}
+                value={data.sections.incubation.stats.eggLayers.value}
+                label={data.sections.incubation.stats.eggLayers.label}
+                description={data.sections.incubation.stats.eggLayers.description}
                 variant="neutral"
               />
               <StatCard
-                value={data?.sections?.incubation?.stats?.meatChickens?.value ?? ''}
-                label={data?.sections?.incubation?.stats?.meatChickens?.label ?? ''}
-                description={data?.sections?.incubation?.stats?.meatChickens?.description ?? ''}
+                value={data.sections.incubation.stats.meatChickens.value}
+                label={data.sections.incubation.stats.meatChickens.label}
+                description={data.sections.incubation.stats.meatChickens.description}
                 variant="neutral"
               />
             </StatGrid>
 
             <DataTable
-              caption={data?.sections?.incubation?.tableCaption}
-              headers={data?.sections?.incubation?.tableHeaders ?? []}
-              rows={data?.sections?.incubation?.tableData as string[][] ?? []}
+              caption={data.sections.incubation.tableCaption}
+              headers={data.sections.incubation.tableHeaders}
+              rows={data.sections.incubation.tableData}
             />
 
-            <HighlightBox variant="success">{data?.sections?.incubation?.highlight ?? ''}</HighlightBox>
+            <HighlightBox variant="success">{data.sections.incubation.highlight}</HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.airDisinfection?.title}>
-            <Paragraph>{data?.sections?.airDisinfection?.intro1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.airDisinfection?.intro2 ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.airDisinfection.title}>
+            <Paragraph>{data.sections.airDisinfection.intro1}</Paragraph>
+            <Paragraph>{data.sections.airDisinfection.intro2}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.airDisinfection?.tableCaption}
-              headers={data?.sections?.airDisinfection?.tableHeaders ?? []}
-              rows={data?.sections?.airDisinfection?.tableData as string[][] ?? []}
+              caption={data.sections.airDisinfection.tableCaption}
+              headers={data.sections.airDisinfection.tableHeaders}
+              rows={data.sections.airDisinfection.tableData}
             />
 
-            <HighlightBox variant="info">{data?.sections?.airDisinfection?.highlight ?? ''}</HighlightBox>
+            <HighlightBox variant="info">{data.sections.airDisinfection.highlight}</HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.feedDisinfection?.title}>
-            <Paragraph>{data?.sections?.feedDisinfection?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.feedDisinfection.title}>
+            <Paragraph>{data.sections.feedDisinfection.intro}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.feedDisinfection?.tableCaption}
-              headers={data?.sections?.feedDisinfection?.tableHeaders ?? []}
-              rows={data?.sections?.feedDisinfection?.tableData as string[][] ?? []}
+              caption={data.sections.feedDisinfection.tableCaption}
+              headers={data.sections.feedDisinfection.tableHeaders}
+              rows={data.sections.feedDisinfection.tableData}
             />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.storage?.title}>
-            <Paragraph>{data?.sections?.storage?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections.storage.title}>
+            <Paragraph>{data.sections.storage.intro}</Paragraph>
 
             <ComparisonTable
-              title={data?.sections?.storage?.tableTitle}
-              headers={(data?.sections?.storage?.tableHeaders ?? []) as [string, string, string]}
-              rows={
-                (data?.sections?.storage?.tableData as Array<{
-                  parameter: string
-                  value1: string
-                  value2: string
-                }>) ?? []
-              }
+              title={data.sections.storage.tableTitle}
+              headers={data.sections.storage.tableHeaders}
+              rows={data.sections.storage.tableData}
             />
 
-            <HighlightBox variant="success">{data?.sections?.storage?.highlight ?? ''}</HighlightBox>
+            <HighlightBox variant="success">{data.sections.storage.highlight}</HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.modes?.title}>
+          <ArticleSection title={data.sections.modes.title}>
             <DataTable
-              headers={data?.sections?.modes?.tableHeaders ?? []}
-              rows={data?.sections?.modes?.tableData as string[][] ?? []}
+              headers={data.sections.modes.tableHeaders}
+              rows={data.sections.modes.tableData}
             />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.benefits?.title}>
+          <ArticleSection title={data.sections.benefits.title}>
             <FeatureGrid columns={2}>
-              {((data?.sections?.benefits?.items as Array<{ title: string; description: string }>) ?? []).map(
-                (item, idx) => (
-                  <FeatureCard
-                    key={idx}
-                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={item.title}
-                    description={item.description}
-                  />
-                ),
-              )}
+              {data.sections.benefits.items.map((item: { title: string; description: string }, idx: number) => (
+                <FeatureCard
+                  key={idx}
+                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                  title={item.title}
+                  description={item.description}
+                />
+              ))}
             </FeatureGrid>
           </ArticleSection>
         </div>

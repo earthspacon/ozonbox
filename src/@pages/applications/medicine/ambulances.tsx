@@ -34,7 +34,7 @@ export function AmbulancesPage({ staticData, lang }: AmbulancesPageProps) {
   const categoryData = (staticData as Record<string, { subcategories?: { ambulances?: any } }>)[
     `${lang}:${ns}`
   ]
-  const data = categoryData?.subcategories?.ambulances
+  const data = categoryData?.subcategories?.ambulances || {}
 
   const breadcrumbs = [
     { label: t('nav.applications', { ns: NAMESPACES.common }), href: '/applications' },
@@ -63,27 +63,27 @@ export function AmbulancesPage({ staticData, lang }: AmbulancesPageProps) {
         <div className="container">
           <StatGrid columns={4}>
             <StatCard
-              value={data?.stats?.stat1?.value ?? ''}
-              label={data?.stats?.stat1?.label ?? ''}
-              description={data?.stats?.stat1?.description ?? ''}
+              value={data.stats?.[0]?.value || ''}
+              label={data.stats?.[0]?.label || ''}
+              description={data.stats?.[0]?.description || ''}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.stat2?.value ?? ''}
-              label={data?.stats?.stat2?.label ?? ''}
-              description={data?.stats?.stat2?.description ?? ''}
+              value={data.stats?.[1]?.value || ''}
+              label={data.stats?.[1]?.label || ''}
+              description={data.stats?.[1]?.description || ''}
               variant="accent"
             />
             <StatCard
-              value={data?.stats?.stat3?.value ?? ''}
-              label={data?.stats?.stat3?.label ?? ''}
-              description={data?.stats?.stat3?.description ?? ''}
+              value={data.stats?.[2]?.value || ''}
+              label={data.stats?.[2]?.label || ''}
+              description={data.stats?.[2]?.description || ''}
               variant="primary"
             />
             <StatCard
-              value={data?.stats?.stat4?.value ?? ''}
-              label={data?.stats?.stat4?.label ?? ''}
-              description={data?.stats?.stat4?.description ?? ''}
+              value={data.stats?.[3]?.value || ''}
+              label={data.stats?.[3]?.label || ''}
+              description={data.stats?.[3]?.description || ''}
               variant="accent"
             />
           </StatGrid>
@@ -94,43 +94,43 @@ export function AmbulancesPage({ staticData, lang }: AmbulancesPageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
+            <Paragraph>{data.sections?.intro?.text || ''}</Paragraph>
+            <Paragraph>{data.sections?.intro?.text2 || ''}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data?.sections?.dosage?.title ?? ''}</strong> {data?.sections?.dosage?.text ?? ''}
+            <strong>{data.sections?.dosage?.title || ''}</strong> {data.sections?.dosage?.text || ''}
           </HighlightBox>
 
-          <ArticleSection title={data?.sections?.problem?.title ?? ''}>
-            <Paragraph>{data?.sections?.problem?.paragraph ?? ''}</Paragraph>
-            <BulletList items={(data?.sections?.problem?.items as string[]) ?? []} />
+          <ArticleSection title={data.sections?.problem?.title || ''}>
+            <Paragraph>{data.sections?.problem?.paragraph || ''}</Paragraph>
+            <BulletList items={Array.isArray(data.sections?.problem?.items) ? data.sections.problem.items : []} />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.process?.title ?? ''}>
-            <Paragraph>{data?.sections?.process?.paragraph ?? ''}</Paragraph>
+          <ArticleSection title={data.sections?.process?.title || ''}>
+            <Paragraph>{data.sections?.process?.paragraph || ''}</Paragraph>
 
-            <ProcessList steps={data?.sections?.process?.steps ?? []} />
+            <ProcessList steps={Array.isArray(data.sections?.process?.steps) ? data.sections.process.steps : []} />
 
-            <HighlightBox variant="success">{data?.sections?.process?.note ?? ''}</HighlightBox>
+            <HighlightBox variant="success">{data.sections?.process?.note || ''}</HighlightBox>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.modes?.title}>
-            <Paragraph>{data?.sections?.modes?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections?.modes?.title}>
+            <Paragraph>{data.sections?.modes?.intro || ''}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.modes?.tableCaption}
-              headers={data?.sections?.modes?.tableHeaders ?? []}
-              rows={data?.sections?.modes?.tableData ?? []}
+              caption={data.sections?.modes?.tableCaption}
+              headers={data.sections?.modes?.tableHeaders || []}
+              rows={(Array.isArray(data.sections?.modes?.tableData) ? data.sections.modes.tableData : []) as (string | number)[][]}
             />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.equipment?.title ?? ''}>
-            <Paragraph>{data?.sections?.equipment?.intro ?? ''}</Paragraph>
+          <ArticleSection title={data.sections?.equipment?.title || ''}>
+            <Paragraph>{data.sections?.equipment?.intro || ''}</Paragraph>
 
             <FeatureGrid columns={2}>
-              {((data?.sections?.equipment?.items as Array<{ title: string; description: string }>) ?? []).map(
-                (item, idx) => (
+              {(Array.isArray(data.sections?.equipment?.items) ? data.sections.equipment.items : []).map(
+                (item: { title: string; description: string }, idx: number) => (
                   <FeatureCard
                     key={idx}
                     icon={<IconCheck style={{ width: 24, height: 24 }} />}
@@ -142,18 +142,18 @@ export function AmbulancesPage({ staticData, lang }: AmbulancesPageProps) {
             </FeatureGrid>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.comparison?.title ?? ''}>
+          <ArticleSection title={data.sections?.comparison?.title || ''}>
             <DataTable
-              caption={data?.sections?.comparison?.tableCaption}
-              headers={data?.sections?.comparison?.tableHeaders ?? []}
-              rows={data?.sections?.comparison?.tableData ?? []}
+              caption={data.sections?.comparison?.tableCaption}
+              headers={data.sections?.comparison?.tableHeaders || []}
+              rows={(Array.isArray(data.sections?.comparison?.tableData) ? data.sections.comparison.tableData : []) as (string | number)[][]}
             />
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.benefits?.title ?? ''}>
-            <BulletList items={(data?.sections?.benefits?.items as string[]) ?? []} />
+          <ArticleSection title={data.sections?.benefits?.title || ''}>
+            <BulletList items={Array.isArray(data.sections?.benefits?.items) ? data.sections.benefits.items : []} />
 
-            <HighlightBox variant="warning">{data?.sections?.benefits?.warning?.text ?? ''}</HighlightBox>
+            <HighlightBox variant="warning">{data.sections?.benefits?.warning?.text || ''}</HighlightBox>
           </ArticleSection>
         </div>
       </article>
