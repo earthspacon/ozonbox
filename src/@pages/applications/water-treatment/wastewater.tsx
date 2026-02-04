@@ -32,9 +32,7 @@ export function WastewaterPage({ staticData, lang }: WastewaterPageProps) {
   const ns = getCategoryNamespace('water-treatment')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { wastewater?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { wastewater?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.wastewater
 
   const breadcrumbs = [
@@ -103,16 +101,14 @@ export function WastewaterPage({ staticData, lang }: WastewaterPageProps) {
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data?.sections?.ecologicalAdvantage?.label}</strong>{' '}
-            {data?.sections?.ecologicalAdvantage?.text}
+            <strong>{data?.sections?.ecologicalAdvantage?.label}</strong> {data?.sections?.ecologicalAdvantage?.text}
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.comparison?.title}>
             <ComparisonTable
               headers={
-                (data?.sections?.comparison?.headers as
-                  | [string, string, string]
-                  | [string, string, string, string]) || []
+                (data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]) ||
+                []
               }
               rows={
                 (data?.sections?.comparison?.rows as Array<{
@@ -139,7 +135,7 @@ export function WastewaterPage({ staticData, lang }: WastewaterPageProps) {
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.pollutants?.title}>
-            <BulletList items={(data?.sections?.pollutants?.items as string[])} />
+            <BulletList items={data?.sections?.pollutants?.items as string[]} />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.results?.title}>
@@ -179,7 +175,7 @@ export function WastewaterPage({ staticData, lang }: WastewaterPageProps) {
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.regulations?.title}>
-            <BulletList items={(data?.sections?.regulations?.items as string[])} />
+            <BulletList items={data?.sections?.regulations?.items as string[]} />
 
             <HighlightBox variant="warning">
               <strong>{data?.sections?.regulations?.highlightBox?.label}</strong>{' '}

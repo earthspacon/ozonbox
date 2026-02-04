@@ -119,8 +119,7 @@ export function RestaurantsPage({ staticData, lang }: RestaurantsPageProps) {
             <ProcessList steps={data?.sections?.process?.steps || []} />
 
             <HighlightBox variant="info">
-              <strong>{data?.sections?.process?.automation?.title}</strong>{' '}
-              {data?.sections?.process?.automation?.text}
+              <strong>{data?.sections?.process?.automation?.title}</strong> {data?.sections?.process?.automation?.text}
             </HighlightBox>
           </ArticleSection>
 

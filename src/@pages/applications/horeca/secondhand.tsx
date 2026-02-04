@@ -31,9 +31,7 @@ export function SecondhandPage({ staticData, lang }: SecondhandPageProps) {
   const ns = getCategoryNamespace('horeca')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { secondhand?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { secondhand?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.secondhand
 
   const breadcrumbs = [
@@ -143,7 +141,13 @@ export function SecondhandPage({ staticData, lang }: SecondhandPageProps) {
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.workMode?.title}>
-            <BulletList items={Array.isArray(data?.sections?.workMode?.items) ? data?.sections?.workMode?.items : Object.values((data?.sections?.workMode?.items as Record<string, string>) ?? {}) ?? []} />
+            <BulletList
+              items={
+                Array.isArray(data?.sections?.workMode?.items)
+                  ? data?.sections?.workMode?.items
+                  : (Object.values((data?.sections?.workMode?.items as Record<string, string>) ?? {}) ?? [])
+              }
+            />
 
             <HighlightBox variant="info">
               <strong>{(data?.sections?.workMode?.highlight as { title?: string } | undefined)?.title ?? ''}</strong>{' '}

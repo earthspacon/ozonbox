@@ -72,9 +72,7 @@ export function ConcentratedOzoneAgriculturePage({ staticData }: { staticData: T
         <ArticleContent>
           <Paragraph>{t('body.lead', { ns: ARTICLE_NS })}</Paragraph>
 
-          <HighlightBox variant="success">
-            {t('body.generatorSection', { ns: ARTICLE_NS })}
-          </HighlightBox>
+          <HighlightBox variant="success">{t('body.generatorSection', { ns: ARTICLE_NS })}</HighlightBox>
 
           <ArticleSection title={t('body.applicationsTitle', { ns: ARTICLE_NS })}>
             <BulletList

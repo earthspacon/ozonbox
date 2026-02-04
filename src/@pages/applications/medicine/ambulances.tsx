@@ -31,9 +31,7 @@ export function AmbulancesPage({ staticData, lang }: AmbulancesPageProps) {
   const ns = getCategoryNamespace('medicine')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { ambulances?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { ambulances?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.ambulances || {}
 
   const breadcrumbs = [
@@ -44,7 +42,10 @@ export function AmbulancesPage({ staticData, lang }: AmbulancesPageProps) {
 
   return (
     <Layout>
-      <Seo title={t('subcategories.ambulances.title', { ns })} description={t('subcategories.ambulances.shortDesc', { ns })} />
+      <Seo
+        title={t('subcategories.ambulances.title', { ns })}
+        description={t('subcategories.ambulances.shortDesc', { ns })}
+      />
 
       <ArticleHero
         title={t('subcategories.ambulances.title', { ns })}
@@ -121,7 +122,12 @@ export function AmbulancesPage({ staticData, lang }: AmbulancesPageProps) {
             <DataTable
               caption={data.sections?.modes?.tableCaption}
               headers={data.sections?.modes?.tableHeaders || []}
-              rows={(Array.isArray(data.sections?.modes?.tableData) ? data.sections.modes.tableData : []) as (string | number)[][]}
+              rows={
+                (Array.isArray(data.sections?.modes?.tableData) ? data.sections.modes.tableData : []) as (
+                  | string
+                  | number
+                )[][]
+              }
             />
           </ArticleSection>
 
@@ -146,7 +152,12 @@ export function AmbulancesPage({ staticData, lang }: AmbulancesPageProps) {
             <DataTable
               caption={data.sections?.comparison?.tableCaption}
               headers={data.sections?.comparison?.tableHeaders || []}
-              rows={(Array.isArray(data.sections?.comparison?.tableData) ? data.sections.comparison.tableData : []) as (string | number)[][]}
+              rows={
+                (Array.isArray(data.sections?.comparison?.tableData) ? data.sections.comparison.tableData : []) as (
+                  | string
+                  | number
+                )[][]
+              }
             />
           </ArticleSection>
 

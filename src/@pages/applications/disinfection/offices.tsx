@@ -35,9 +35,7 @@ export function OfficesPage({ staticData }: OfficesPageProps) {
   const ns = getCategoryNamespace('disinfection')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { offices?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { offices?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.offices
 
   return (

@@ -31,9 +31,7 @@ export function RehabilitationPage({ staticData, lang }: RehabilitationPageProps
   const ns = getCategoryNamespace('medicine')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { rehabilitation?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { rehabilitation?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.rehabilitation || {}
 
   const breadcrumbs = [
@@ -128,7 +126,12 @@ export function RehabilitationPage({ staticData, lang }: RehabilitationPageProps
             <DataTable
               caption={data.sections?.methods?.table?.caption}
               headers={data.sections?.methods?.table?.headers || []}
-              rows={(Array.isArray(data.sections?.methods?.table?.rows) ? data.sections.methods.table.rows : []) as (string | number)[][]}
+              rows={
+                (Array.isArray(data.sections?.methods?.table?.rows) ? data.sections.methods.table.rows : []) as (
+                  | string
+                  | number
+                )[][]
+              }
             />
           </ArticleSection>
 
@@ -148,14 +151,21 @@ export function RehabilitationPage({ staticData, lang }: RehabilitationPageProps
             <DataTable
               caption={data.sections?.pools?.table?.caption}
               headers={data.sections?.pools?.table?.headers || []}
-              rows={(Array.isArray(data.sections?.pools?.table?.rows) ? data.sections.pools.table.rows : []) as (string | number)[][]}
+              rows={
+                (Array.isArray(data.sections?.pools?.table?.rows) ? data.sections.pools.table.rows : []) as (
+                  | string
+                  | number
+                )[][]
+              }
             />
           </ArticleSection>
 
           <ArticleSection title={data.sections?.disinfection?.title}>
             <Paragraph>{data.sections?.disinfection?.text || ''}</Paragraph>
 
-            <BulletList items={Array.isArray(data.sections?.disinfection?.items) ? data.sections.disinfection.items : []} />
+            <BulletList
+              items={Array.isArray(data.sections?.disinfection?.items) ? data.sections.disinfection.items : []}
+            />
 
             <HighlightBox variant="warning">{data.sections?.disinfection?.warning || ''}</HighlightBox>
           </ArticleSection>

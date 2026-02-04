@@ -58,9 +58,9 @@ export function OzoneSeedTreatmentResearchPage({ staticData }: { staticData: Tol
     )
   }
 
-  const nsData = (
-    staticData as Record<string, { sources?: Source[]; tables?: TableData; highlights?: Highlights }>
-  )[`${lang}:${ARTICLE_NS}`]
+  const nsData = (staticData as Record<string, { sources?: Source[]; tables?: TableData; highlights?: Highlights }>)[
+    `${lang}:${ARTICLE_NS}`
+  ]
   const sources = nsData?.sources ?? []
   const tables = nsData?.tables
   const highlights = nsData?.highlights

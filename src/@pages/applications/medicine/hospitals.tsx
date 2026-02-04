@@ -32,9 +32,7 @@ export function HospitalsPage({ staticData, lang }: HospitalsPageProps) {
   const ns = getCategoryNamespace('medicine')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { hospitals?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { hospitals?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.hospitals || {}
 
   const breadcrumbs = [
@@ -117,12 +115,14 @@ export function HospitalsPage({ staticData, lang }: HospitalsPageProps) {
             <DataTable
               caption={data.sections?.['operating-rooms']?.table?.caption}
               headers={data.sections?.['operating-rooms']?.table?.headers || []}
-              rows={(Array.isArray(data.sections?.['operating-rooms']?.table?.rows) ? data.sections['operating-rooms'].table.rows : []) as (string | number)[][]}
+              rows={
+                (Array.isArray(data.sections?.['operating-rooms']?.table?.rows)
+                  ? data.sections['operating-rooms'].table.rows
+                  : []) as (string | number)[][]
+              }
             />
 
-            <HighlightBox variant="success">
-              {data.sections?.['operating-rooms']?.highlight || ''}
-            </HighlightBox>
+            <HighlightBox variant="success">{data.sections?.['operating-rooms']?.highlight || ''}</HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data.sections?.wards?.title}>
@@ -137,7 +137,12 @@ export function HospitalsPage({ staticData, lang }: HospitalsPageProps) {
             <DataTable
               caption={data.sections?.pathogens?.table?.caption}
               headers={data.sections?.pathogens?.table?.headers || []}
-              rows={(Array.isArray(data.sections?.pathogens?.table?.rows) ? data.sections.pathogens.table.rows : []) as (string | number)[][]}
+              rows={
+                (Array.isArray(data.sections?.pathogens?.table?.rows) ? data.sections.pathogens.table.rows : []) as (
+                  | string
+                  | number
+                )[][]
+              }
             />
           </ArticleSection>
 
@@ -150,7 +155,11 @@ export function HospitalsPage({ staticData, lang }: HospitalsPageProps) {
                   | [string, string, string, string]
               }
               rows={
-                (Array.isArray(data.sections?.comparison?.rows) ? data.sections.comparison.rows : []) as Array<{ parameter: string; value1: string; value2: string }>
+                (Array.isArray(data.sections?.comparison?.rows) ? data.sections.comparison.rows : []) as Array<{
+                  parameter: string
+                  value1: string
+                  value2: string
+                }>
               }
             />
           </ArticleSection>

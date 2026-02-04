@@ -132,23 +132,22 @@ export function VegetableStoragePage({ staticData, lang }: VegetableStoragePageP
 
           <ArticleSection title={data.sections.additionalEffects.title}>
             <FeatureGrid columns={2}>
-              {data.sections.additionalEffects.items.map((item: { title: string; description: string }, index: number) => (
-                <FeatureCard
-                  key={index}
-                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                  title={item.title}
-                  description={item.description}
-                />
-              ))}
+              {data.sections.additionalEffects.items.map(
+                (item: { title: string; description: string }, index: number) => (
+                  <FeatureCard
+                    key={index}
+                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                    title={item.title}
+                    description={item.description}
+                  />
+                ),
+              )}
             </FeatureGrid>
           </ArticleSection>
 
           <ArticleSection title={data.sections.economic.title}>
             <Paragraph>{data.sections.economic.intro}</Paragraph>
-            <ComparisonTable
-              headers={data.sections.economic.tableHeaders}
-              rows={data.sections.economic.tableData}
-            />
+            <ComparisonTable headers={data.sections.economic.tableHeaders} rows={data.sections.economic.tableData} />
 
             <HighlightBox variant="success">{data.sections.economic.highlight}</HighlightBox>
           </ArticleSection>

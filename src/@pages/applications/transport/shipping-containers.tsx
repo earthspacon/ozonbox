@@ -111,7 +111,9 @@ export function ShippingContainersPage({ staticData, lang }: ShippingContainersP
           <ArticleSection title={data?.sections?.comparison?.title}>
             <ComparisonTable
               title={data?.sections?.comparison?.comparisonTitle}
-              headers={data?.sections?.comparison?.tableHeaders as [string, string, string] | [string, string, string, string]}
+              headers={
+                data?.sections?.comparison?.tableHeaders as [string, string, string] | [string, string, string, string]
+              }
               rows={data?.sections?.comparison?.tableData}
             />
           </ArticleSection>
@@ -140,8 +142,7 @@ export function ShippingContainersPage({ staticData, lang }: ShippingContainersP
             />
 
             <HighlightBox variant="info">
-              <strong>{data?.sections?.efficiency?.highlight?.title}</strong>
-              {' '}
+              <strong>{data?.sections?.efficiency?.highlight?.title}</strong>{' '}
               {data?.sections?.efficiency?.highlight?.text}
             </HighlightBox>
           </ArticleSection>
@@ -170,8 +171,7 @@ export function ShippingContainersPage({ staticData, lang }: ShippingContainersP
             <BulletList items={data?.sections?.applications?.items} />
 
             <HighlightBox variant="warning">
-              <strong>{data?.sections?.applications?.warning?.title}</strong>
-              {' '}
+              <strong>{data?.sections?.applications?.warning?.title}</strong>{' '}
               {data?.sections?.applications?.warning?.text}
             </HighlightBox>
           </ArticleSection>
@@ -179,7 +179,9 @@ export function ShippingContainersPage({ staticData, lang }: ShippingContainersP
           <ArticleSection title={data?.sections?.economics?.title}>
             <ComparisonTable
               title={data?.sections?.economics?.comparisonTitle}
-              headers={data?.sections?.economics?.tableHeaders as [string, string, string] | [string, string, string, string]}
+              headers={
+                data?.sections?.economics?.tableHeaders as [string, string, string] | [string, string, string, string]
+              }
               rows={data?.sections?.economics?.tableData}
             />
 
@@ -191,8 +193,7 @@ export function ShippingContainersPage({ staticData, lang }: ShippingContainersP
             <BulletList items={data?.sections?.equipment?.items} />
 
             <HighlightBox variant="success">
-              <strong>{data?.sections?.equipment?.highlight?.title}</strong>
-              {' '}
+              <strong>{data?.sections?.equipment?.highlight?.title}</strong>{' '}
               {data?.sections?.equipment?.highlight?.text}
             </HighlightBox>
           </ArticleSection>
@@ -208,9 +209,7 @@ export function ShippingContainersPage({ staticData, lang }: ShippingContainersP
             <BulletList items={data?.sections?.safety?.items} />
 
             <HighlightBox variant="warning">
-              <strong>{data?.sections?.safety?.warning?.title}</strong>
-              {' '}
-              {data?.sections?.safety?.warning?.text}
+              <strong>{data?.sections?.safety?.warning?.title}</strong> {data?.sections?.safety?.warning?.text}
             </HighlightBox>
           </ArticleSection>
         </div>

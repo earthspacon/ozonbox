@@ -34,9 +34,7 @@ export function ShoppingMallsPage({ staticData }: ShoppingMallsPageProps) {
   const ns = getCategoryNamespace('disinfection')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'shopping-malls'?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { 'shopping-malls'?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.['shopping-malls']
 
   const breadcrumbs = [
@@ -148,9 +146,7 @@ export function ShoppingMallsPage({ staticData }: ShoppingMallsPageProps) {
               rows={data?.sections?.equipment?.tableData ?? []}
             />
 
-            <HighlightBox variant="success">
-              {data?.sections?.equipment?.highlight ?? ''}
-            </HighlightBox>
+            <HighlightBox variant="success">{data?.sections?.equipment?.highlight ?? ''}</HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.pathogens?.title}>
@@ -199,9 +195,7 @@ export function ShoppingMallsPage({ staticData }: ShoppingMallsPageProps) {
             <Paragraph>{data?.sections?.safety?.intro ?? ''}</Paragraph>
             <BulletList items={(data?.sections?.safety?.items as string[]) ?? []} />
 
-            <HighlightBox variant="warning">
-              {data?.sections?.safety?.warning ?? ''}
-            </HighlightBox>
+            <HighlightBox variant="warning">{data?.sections?.safety?.warning ?? ''}</HighlightBox>
           </ArticleSection>
         </div>
       </article>

@@ -86,16 +86,16 @@ export function OzoneDriedFruitsStoragePage({ staticData }: { staticData: Tolgee
           </ArticleSection>
 
           <ArticleSection title={t('body.sectionApplications', { ns: ARTICLE_NS })}>
-            <h3 className="mb-3 mt-6 text-lg font-semibold">{t('body.appNuts', { ns: ARTICLE_NS })}</h3>
+            <h3 className="mt-6 mb-3 text-lg font-semibold">{t('body.appNuts', { ns: ARTICLE_NS })}</h3>
             <Paragraph>{t('body.appNutsText', { ns: ARTICLE_NS })}</Paragraph>
 
-            <h3 className="mb-3 mt-6 text-lg font-semibold">{t('body.appRaisins', { ns: ARTICLE_NS })}</h3>
+            <h3 className="mt-6 mb-3 text-lg font-semibold">{t('body.appRaisins', { ns: ARTICLE_NS })}</h3>
             <Paragraph>{t('body.appRaisinsText', { ns: ARTICLE_NS })}</Paragraph>
 
-            <h3 className="mb-3 mt-6 text-lg font-semibold">{t('body.appDates', { ns: ARTICLE_NS })}</h3>
+            <h3 className="mt-6 mb-3 text-lg font-semibold">{t('body.appDates', { ns: ARTICLE_NS })}</h3>
             <Paragraph>{t('body.appDatesText', { ns: ARTICLE_NS })}</Paragraph>
 
-            <h3 className="mb-3 mt-6 text-lg font-semibold">{t('body.appDriedApricots', { ns: ARTICLE_NS })}</h3>
+            <h3 className="mt-6 mb-3 text-lg font-semibold">{t('body.appDriedApricots', { ns: ARTICLE_NS })}</h3>
             <Paragraph>{t('body.appDriedApricotsText', { ns: ARTICLE_NS })}</Paragraph>
           </ArticleSection>
 

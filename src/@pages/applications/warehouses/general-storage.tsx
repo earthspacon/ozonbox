@@ -152,8 +152,7 @@ export function GeneralStoragePage({ staticData, lang }: GeneralStoragePageProps
             />
 
             <HighlightBox variant="success">
-              <strong>{data.sections.calculation.exampleLabel}</strong>{' '}
-              {data.sections.calculation.exampleText}
+              <strong>{data.sections.calculation.exampleLabel}</strong> {data.sections.calculation.exampleText}
             </HighlightBox>
           </ArticleSection>
 
@@ -175,8 +174,7 @@ export function GeneralStoragePage({ staticData, lang }: GeneralStoragePageProps
             />
 
             <HighlightBox variant="info">
-              <strong>{data.sections.frequency.scheduleLabel}</strong>{' '}
-              {data.sections.frequency.scheduleText}
+              <strong>{data.sections.frequency.scheduleLabel}</strong> {data.sections.frequency.scheduleText}
             </HighlightBox>
           </ArticleSection>
 
@@ -202,8 +200,7 @@ export function GeneralStoragePage({ staticData, lang }: GeneralStoragePageProps
             />
 
             <HighlightBox variant="warning">
-              <strong>{data.sections.airQuality.warningLabel}</strong>{' '}
-              {data.sections.airQuality.warningText}
+              <strong>{data.sections.airQuality.warningLabel}</strong> {data.sections.airQuality.warningText}
             </HighlightBox>
           </ArticleSection>
 
@@ -227,16 +224,14 @@ export function GeneralStoragePage({ staticData, lang }: GeneralStoragePageProps
 
           <ArticleSection title={data.sections.benefits.title}>
             <FeatureGrid columns={2}>
-              {data.sections.benefits.features.map(
-                (feature: { title: string; description: string }, index: number) => (
-                  <FeatureCard
-                    key={index}
-                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={feature.title}
-                    description={feature.description}
-                  />
-                ),
-              )}
+              {data.sections.benefits.features.map((feature: { title: string; description: string }, index: number) => (
+                <FeatureCard
+                  key={index}
+                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                  title={feature.title}
+                  description={feature.description}
+                />
+              ))}
             </FeatureGrid>
           </ArticleSection>
         </div>

@@ -118,9 +118,7 @@ export function DairyPage({ staticData, lang }: DairyPageProps) {
             <ComparisonTable
               title={data.sections.comparison.title}
               headers={
-                data.sections.comparison.tableHeaders as
-                  | [string, string, string]
-                  | [string, string, string, string]
+                data.sections.comparison.tableHeaders as [string, string, string] | [string, string, string, string]
               }
               rows={
                 data.sections.comparison.rows as Array<{
@@ -155,16 +153,14 @@ export function DairyPage({ staticData, lang }: DairyPageProps) {
           {data?.sections?.benefits?.items && (
             <ArticleSection title={data.sections.benefits.title}>
               <FeatureGrid columns={2}>
-                {(data.sections.benefits.items as Array<{ title: string; description: string }>).map(
-                  (item, idx) => (
-                    <FeatureCard
-                      key={idx}
-                      icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                      title={item.title}
-                      description={item.description}
-                    />
-                  ),
-                )}
+                {(data.sections.benefits.items as Array<{ title: string; description: string }>).map((item, idx) => (
+                  <FeatureCard
+                    key={idx}
+                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                    title={item.title}
+                    description={item.description}
+                  />
+                ))}
               </FeatureGrid>
             </ArticleSection>
           )}

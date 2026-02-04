@@ -31,9 +31,7 @@ export function BottledWaterPage({ staticData, lang }: BottledWaterPageProps) {
   const ns = getCategoryNamespace('food-production')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'bottled-water'?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { 'bottled-water'?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.['bottled-water']
 
   const breadcrumbs = [
@@ -140,12 +138,8 @@ export function BottledWaterPage({ staticData, lang }: BottledWaterPageProps) {
 
           <ComparisonTable
             title={data?.sections?.comparison?.title}
-            headers={
-              data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]
-            }
-            rows={
-              data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string }>
-            }
+            headers={data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]}
+            rows={data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string }>}
           />
 
           <ArticleSection title={data?.sections?.producerBenefits?.title}>

@@ -23,11 +23,7 @@
         "disinfectionRate": "99.99%",
         "phRange": "6.5-8.5"
       },
-      "regulations": [
-        "Drinking water standards",
-        "Bottled water standards",
-        "Water quality norms"
-      ],
+      "regulations": ["Drinking water standards", "Bottled water standards", "Water quality norms"],
       "stats": {
         "disinfection": {
           "value": "99.99%",
@@ -59,11 +55,7 @@
       "sections": {
         "comparison": {
           "title": "Water disinfection methods comparison",
-          "headers": [
-            "Parameter",
-            "Ozonation",
-            "Chlorination"
-          ],
+          "headers": ["Parameter", "Ozonation", "Chlorination"],
           "rows": [
             {
               "parameter": "Effectiveness against bacteria",
@@ -110,42 +102,14 @@
         "technicalParams": {
           "title": "Ozonation technical parameters",
           "tableCaption": "Recommended parameters for drinking water",
-          "tableHeaders": [
-            "Parameter",
-            "Value",
-            "Regulatory document"
-          ],
+          "tableHeaders": ["Parameter", "Value", "Regulatory document"],
           "tableData": [
-            [
-              "Ozone dose",
-              "1-3 mg/L",
-              "Depending on water quality"
-            ],
-            [
-              "Residual ozone",
-              "0.1-0.3 mg/L",
-              "Drinking water standards"
-            ],
-            [
-              "Contact time",
-              "4-10 minutes",
-              "At temperature 10-20°C"
-            ],
-            [
-              "Water pH",
-              "6.5-8.5",
-              "Optimal range"
-            ],
-            [
-              "Water temperature",
-              "4-25°C",
-              "Effective range"
-            ],
-            [
-              "Source water turbidity",
-              "< 2 NTU",
-              "Recommendation"
-            ]
+            ["Ozone dose", "1-3 mg/L", "Depending on water quality"],
+            ["Residual ozone", "0.1-0.3 mg/L", "Drinking water standards"],
+            ["Contact time", "4-10 minutes", "At temperature 10-20°C"],
+            ["Water pH", "6.5-8.5", "Optimal range"],
+            ["Water temperature", "4-25°C", "Effective range"],
+            ["Source water turbidity", "< 2 NTU", "Recommendation"]
           ],
           "infoLabel": "Important:",
           "infoText": "Ozone dose of 1-3 mg/L ensures complete water disinfection. At high organic load, the dose is increased to 5 mg/L for oxidation of organic compounds."
@@ -193,43 +157,13 @@
         "effectiveness": {
           "title": "Disinfection effectiveness",
           "tableCaption": "Pathogen inactivation time (CT value, mg×min/L)",
-          "tableHeaders": [
-            "Pathogen",
-            "Ozone",
-            "Chlorine",
-            "UV (mJ/cm²)"
-          ],
+          "tableHeaders": ["Pathogen", "Ozone", "Chlorine", "UV (mJ/cm²)"],
           "tableData": [
-            [
-              "E. coli",
-              "0.02",
-              "0.4",
-              "7"
-            ],
-            [
-              "Poliovirus",
-              "0.3",
-              "1.7",
-              "30"
-            ],
-            [
-              "Rotavirus",
-              "0.4",
-              "3.5",
-              "40"
-            ],
-            [
-              "Giardia (cysts)",
-              "0.6",
-              "50",
-              "80"
-            ],
-            [
-              "Cryptosporidium",
-              "3.0",
-              "> 7200",
-              "12"
-            ]
+            ["E. coli", "0.02", "0.4", "7"],
+            ["Poliovirus", "0.3", "1.7", "30"],
+            ["Rotavirus", "0.4", "3.5", "40"],
+            ["Giardia (cysts)", "0.6", "50", "80"],
+            ["Cryptosporidium", "3.0", "> 7200", "12"]
           ],
           "highlightBox": "Ozone is especially effective against cryptosporidium — parasites causing diarrhea. They are practically resistant to chlorination (requires more than 7200 mg×min/L of chlorine for inactivation), but vulnerable to ozone."
         },
@@ -257,37 +191,13 @@
         "productivity": {
           "title": "Ozonation system productivity",
           "tableCaption": "Recommended equipment for water treatment",
-          "tableHeaders": [
-            "Station capacity",
-            "Ozonator power",
-            "Contact chamber"
-          ],
+          "tableHeaders": ["Station capacity", "Ozonator power", "Contact chamber"],
           "tableData": [
-            [
-              "10 m³/h",
-              "20-30 g/h",
-              "1-2 m³"
-            ],
-            [
-              "50 m³/h",
-              "100-150 g/h",
-              "5-10 m³"
-            ],
-            [
-              "100 m³/h",
-              "200-300 g/h",
-              "10-20 m³"
-            ],
-            [
-              "500 m³/h",
-              "1000-1500 g/h",
-              "50-100 m³"
-            ],
-            [
-              "1000 m³/h",
-              "2000-3000 g/h",
-              "100-200 m³"
-            ]
+            ["10 m³/h", "20-30 g/h", "1-2 m³"],
+            ["50 m³/h", "100-150 g/h", "5-10 m³"],
+            ["100 m³/h", "200-300 g/h", "10-20 m³"],
+            ["500 m³/h", "1000-1500 g/h", "50-100 m³"],
+            ["1000 m³/h", "2000-3000 g/h", "100-200 m³"]
           ]
         },
         "regulations": {
@@ -323,11 +233,7 @@
         "disinfectionRate": "99.9%",
         "colorReduction": "up to 80%"
       },
-      "regulations": [
-        "Wastewater discharge standards",
-        "Environmental norms",
-        "Water protection regulations"
-      ],
+      "regulations": ["Wastewater discharge standards", "Environmental norms", "Water protection regulations"],
       "stats": {
         "bpkReduction": {
           "value": "95%",
@@ -361,11 +267,7 @@
         },
         "comparison": {
           "title": "Effluent disinfection methods comparison",
-          "headers": [
-            "Parameter",
-            "Ozonation",
-            "Chlorination"
-          ],
+          "headers": ["Parameter", "Ozonation", "Chlorination"],
           "rows": [
             {
               "parameter": "Disinfection effectiveness",
@@ -412,42 +314,14 @@
         "technicalParams": {
           "title": "Wastewater ozonation technical parameters",
           "caption": "Recommended ozone doses depending on effluent type",
-          "headers": [
-            "Wastewater type",
-            "Ozone dose, mg/L",
-            "Contact time, min"
-          ],
+          "headers": ["Wastewater type", "Ozone dose, mg/L", "Contact time, min"],
           "rows": [
-            [
-              "Domestic (after biological treatment)",
-              "5-15",
-              "10-15"
-            ],
-            [
-              "Industrial (organic)",
-              "20-50",
-              "15-30"
-            ],
-            [
-              "Oil-containing effluents",
-              "30-100",
-              "20-40"
-            ],
-            [
-              "Phenol-containing effluents",
-              "15-30",
-              "15-20"
-            ],
-            [
-              "Surfactant-containing effluents",
-              "10-25",
-              "10-20"
-            ],
-            [
-              "Food industry effluents",
-              "10-20",
-              "10-15"
-            ]
+            ["Domestic (after biological treatment)", "5-15", "10-15"],
+            ["Industrial (organic)", "20-50", "15-30"],
+            ["Oil-containing effluents", "30-100", "20-40"],
+            ["Phenol-containing effluents", "15-30", "15-20"],
+            ["Surfactant-containing effluents", "10-25", "10-20"],
+            ["Food industry effluents", "10-20", "10-15"]
           ],
           "highlightBox": {
             "label": "Ozone dose calculation:",
@@ -499,49 +373,14 @@
         "results": {
           "title": "Wastewater ozonation results",
           "caption": "Domestic effluent treatment effectiveness (experimental data)",
-          "headers": [
-            "Parameter",
-            "Before ozonation",
-            "After ozonation",
-            "Efficiency"
-          ],
+          "headers": ["Parameter", "Before ozonation", "After ozonation", "Efficiency"],
           "rows": [
-            [
-              "Color, degrees",
-              "70-100",
-              "10-20",
-              "80-85%"
-            ],
-            [
-              "Turbidity, mg/L",
-              "30-50",
-              "5-10",
-              "75-80%"
-            ],
-            [
-              "BOD₅, mg/L",
-              "20-30",
-              "3-5",
-              "85-90%"
-            ],
-            [
-              "COD, mg/L",
-              "50-80",
-              "15-25",
-              "65-70%"
-            ],
-            [
-              "Coliform index",
-              "10,000",
-              "< 1,000",
-              "> 90%"
-            ],
-            [
-              "Odor",
-              "Swamp-fecal",
-              "Absent",
-              "100%"
-            ]
+            ["Color, degrees", "70-100", "10-20", "80-85%"],
+            ["Turbidity, mg/L", "30-50", "5-10", "75-80%"],
+            ["BOD₅, mg/L", "20-30", "3-5", "85-90%"],
+            ["COD, mg/L", "50-80", "15-25", "65-70%"],
+            ["Coliform index", "10,000", "< 1,000", "> 90%"],
+            ["Odor", "Swamp-fecal", "Absent", "100%"]
           ],
           "paragraph": "Data obtained when treating effluents with ozone dose of 50 mg/L in contact chamber with contact time of 15 minutes. At ozone doses above 50 mg/L, color, turbidity and odor disappear, coliform index decreases to regulatory values."
         },
@@ -569,42 +408,14 @@
         "applications": {
           "title": "Applications",
           "caption": "Enterprise types and wastewater ozonation features",
-          "headers": [
-            "Industry",
-            "Main pollutants",
-            "Ozone dose, mg/L"
-          ],
+          "headers": ["Industry", "Main pollutants", "Ozone dose, mg/L"],
           "rows": [
-            [
-              "Oil refineries",
-              "Oil products, phenols, sulfides",
-              "50-100"
-            ],
-            [
-              "Chemical plants",
-              "Organic solvents, surfactants",
-              "30-80"
-            ],
-            [
-              "Food production",
-              "Fats, proteins, organic acids",
-              "15-30"
-            ],
-            [
-              "Textile factories",
-              "Dyes, surfactants",
-              "20-50"
-            ],
-            [
-              "Pulp and paper mills",
-              "Lignin, resins",
-              "30-60"
-            ],
-            [
-              "Municipal treatment plants",
-              "Domestic effluents after biological treatment",
-              "10-20"
-            ]
+            ["Oil refineries", "Oil products, phenols, sulfides", "50-100"],
+            ["Chemical plants", "Organic solvents, surfactants", "30-80"],
+            ["Food production", "Fats, proteins, organic acids", "15-30"],
+            ["Textile factories", "Dyes, surfactants", "20-50"],
+            ["Pulp and paper mills", "Lignin, resins", "30-60"],
+            ["Municipal treatment plants", "Domestic effluents after biological treatment", "10-20"]
           ]
         },
         "regulations": {
@@ -646,9 +457,7 @@
         "residualChlorine": "0.1-0.3 mg/L",
         "phRange": "7.2-7.6"
       },
-      "regulations": [
-        "Pool water standards"
-      ],
+      "regulations": ["Pool water standards"],
       "stats": {
         "chlorineReduction": {
           "value": "7×",
@@ -680,11 +489,7 @@
       "sections": {
         "comparison": {
           "title": "Benefits of pool water ozonation",
-          "headers": [
-            "Parameter",
-            "Ozone + min. chlorine",
-            "Chlorine only"
-          ],
+          "headers": ["Parameter", "Ozone + min. chlorine", "Chlorine only"],
           "rows": [
             {
               "parameter": "Water smell",
@@ -727,37 +532,13 @@
           "title": "Pool ozonation technology",
           "intro": "Ozone is fed into circulating water after filtration, before returning to the pool basin. Recommended ozone dose for pools is 0.7–0.9 g/m³ of circulating water. Contact time in the contact tank is 6–7 minutes.",
           "tableCaption": "Pool ozonation parameters",
-          "tableHeaders": [
-            "Parameter",
-            "Value",
-            "Note"
-          ],
+          "tableHeaders": ["Parameter", "Value", "Note"],
           "tableData": [
-            [
-              "Ozone dose",
-              "0.7-0.9 g/m³",
-              "Per circulating water volume"
-            ],
-            [
-              "Contact time",
-              "6-7 minutes",
-              "In contact tank"
-            ],
-            [
-              "Residual ozone at outlet",
-              "< 0.1 mg/L",
-              "Before entering basin"
-            ],
-            [
-              "Residual chlorine",
-              "0.1-0.3 mg/L",
-              "For prolonged effect"
-            ],
-            [
-              "Water pH",
-              "7.2-7.6",
-              "Optimal range"
-            ]
+            ["Ozone dose", "0.7-0.9 g/m³", "Per circulating water volume"],
+            ["Contact time", "6-7 minutes", "In contact tank"],
+            ["Residual ozone at outlet", "< 0.1 mg/L", "Before entering basin"],
+            ["Residual chlorine", "0.1-0.3 mg/L", "For prolonged effect"],
+            ["Water pH", "7.2-7.6", "Optimal range"]
           ],
           "note": "When using ozone with chlorine, chlorine can be kept at 0.1 mg/L instead of the usual 0.7 mg/L. This practically eliminates skin and eye irritation."
         },
@@ -776,42 +557,14 @@
         "poolTypes": {
           "title": "Ozonation for different pool types",
           "tableCaption": "Recommended ozonation systems",
-          "tableHeaders": [
-            "Pool type",
-            "Volume",
-            "Ozonator capacity"
-          ],
+          "tableHeaders": ["Pool type", "Volume", "Ozonator capacity"],
           "tableData": [
-            [
-              "Private pool",
-              "25-60 m³",
-              "2-5 g/h"
-            ],
-            [
-              "Fitness club pool",
-              "100-300 m³",
-              "10-30 g/h"
-            ],
-            [
-              "Hotel pool",
-              "200-500 m³",
-              "20-50 g/h"
-            ],
-            [
-              "Public pool",
-              "500-2000 m³",
-              "50-200 g/h"
-            ],
-            [
-              "Water park",
-              "2000+ m³",
-              "Individual calculation"
-            ],
-            [
-              "SPA, jacuzzi",
-              "2-10 m³",
-              "1-3 g/h"
-            ]
+            ["Private pool", "25-60 m³", "2-5 g/h"],
+            ["Fitness club pool", "100-300 m³", "10-30 g/h"],
+            ["Hotel pool", "200-500 m³", "20-50 g/h"],
+            ["Public pool", "500-2000 m³", "50-200 g/h"],
+            ["Water park", "2000+ m³", "Individual calculation"],
+            ["SPA, jacuzzi", "2-10 m³", "1-3 g/h"]
           ]
         },
         "benefits": {
@@ -874,10 +627,7 @@
         "iron": "2Fe²⁺ + O₃ + H₂O → 2Fe³⁺ + O₂ + 2OH⁻ → Fe(OH)₃↓",
         "manganese": "Mn²⁺ + O₃ + H₂O → MnO₂↓ + 2H⁺ + O₂"
       },
-      "regulations": [
-        "Drinking water standards",
-        "Water quality norms"
-      ],
+      "regulations": ["Drinking water standards", "Water quality norms"],
       "stats": {
         "ozoneForIron": {
           "value": "0.43",
@@ -909,11 +659,7 @@
         },
         "comparison": {
           "title": "Iron removal methods comparison",
-          "headers": [
-            "Parameter",
-            "Ozonation",
-            "Aeration + filtration"
-          ],
+          "headers": ["Parameter", "Ozonation", "Aeration + filtration"],
           "rows": [
             {
               "parameter": "Fe removal efficiency",
@@ -965,31 +711,11 @@
           "description": "Ozone oxidizes Fe²⁺ to Fe³⁺, which forms insoluble iron hydroxide Fe(OH)₃, easily removed by filtration. The reaction proceeds at pH from 6 to 9.",
           "table": {
             "caption": "Stoichiometric ratios for metal oxidation",
-            "headers": [
-              "Metal",
-              "Theoretical ozone dose",
-              "Practical ozone dose",
-              "Note"
-            ],
+            "headers": ["Metal", "Theoretical ozone dose", "Practical ozone dose", "Note"],
             "rows": [
-              [
-                "Iron (Fe²⁺)",
-                "0.43 mg O₃ / mg Fe",
-                "1 mg O₃ / mg Fe",
-                "With organics"
-              ],
-              [
-                "Manganese (Mn²⁺)",
-                "0.87 mg O₃ / mg Mn",
-                "4 mg O₃ / mg Mn",
-                "With organics"
-              ],
-              [
-                "Hydrogen sulfide (H₂S)",
-                "3.0 mg O₃ / mg H₂S",
-                "3-5 mg O₃ / mg H₂S",
-                "To elemental sulfur"
-              ]
+              ["Iron (Fe²⁺)", "0.43 mg O₃ / mg Fe", "1 mg O₃ / mg Fe", "With organics"],
+              ["Manganese (Mn²⁺)", "0.87 mg O₃ / mg Mn", "4 mg O₃ / mg Mn", "With organics"],
+              ["Hydrogen sulfide (H₂S)", "3.0 mg O₃ / mg H₂S", "3-5 mg O₃ / mg H₂S", "To elemental sulfur"]
             ]
           }
         },
@@ -1035,27 +761,11 @@
           "paragraph": "At manganese content above 0.5 mg/L, double ozonation scheme may be required: primary ozonation of source water, filtration, then secondary ozonation of filtrate. This prevents formation of soluble permanganate.",
           "table": {
             "caption": "Double ozonation results (Ashton, England)",
-            "headers": [
-              "Parameter",
-              "Before treatment",
-              "After treatment"
-            ],
+            "headers": ["Parameter", "Before treatment", "After treatment"],
             "rows": [
-              [
-                "Manganese, mg/L",
-                "0.5",
-                "0.05"
-              ],
-              [
-                "Color, degrees",
-                "22",
-                "5"
-              ],
-              [
-                "Turbidity, NTU",
-                "15",
-                "< 2"
-              ]
+              ["Manganese, mg/L", "0.5", "0.05"],
+              ["Color, degrees", "22", "5"],
+              ["Turbidity, NTU", "15", "< 2"]
             ]
           }
         },
@@ -1075,37 +785,13 @@
           "title": "Recommended system parameters",
           "table": {
             "caption": "Equipment selection by capacity",
-            "headers": [
-              "Capacity, m³/h",
-              "Ozonator power, g/h",
-              "Contact chamber volume, m³"
-            ],
+            "headers": ["Capacity, m³/h", "Ozonator power, g/h", "Contact chamber volume, m³"],
             "rows": [
-              [
-                "1-5",
-                "5-25",
-                "0.2-1"
-              ],
-              [
-                "5-20",
-                "25-100",
-                "1-4"
-              ],
-              [
-                "20-50",
-                "100-250",
-                "4-10"
-              ],
-              [
-                "50-100",
-                "250-500",
-                "10-20"
-              ],
-              [
-                "100-500",
-                "500-2500",
-                "20-100"
-              ]
+              ["1-5", "5-25", "0.2-1"],
+              ["5-20", "25-100", "1-4"],
+              ["20-50", "100-250", "4-10"],
+              ["50-100", "250-500", "10-20"],
+              ["100-500", "500-2500", "20-100"]
             ]
           },
           "noteLabel": "Note:",
@@ -1136,25 +822,10 @@
           "title": "Regulatory requirements",
           "table": {
             "caption": "MPC of iron and manganese by standards",
-            "headers": [
-              "Metal",
-              "Drinking water",
-              "Bottled water",
-              "Hazard class"
-            ],
+            "headers": ["Metal", "Drinking water", "Bottled water", "Hazard class"],
             "rows": [
-              [
-                "Iron (Fe)",
-                "0.3 mg/L",
-                "0.3 mg/L",
-                "III"
-              ],
-              [
-                "Manganese (Mn)",
-                "0.1 mg/L",
-                "0.05 mg/L",
-                "III"
-              ]
+              ["Iron (Fe)", "0.3 mg/L", "0.3 mg/L", "III"],
+              ["Manganese (Mn)", "0.1 mg/L", "0.05 mg/L", "III"]
             ]
           },
           "items": [

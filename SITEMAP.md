@@ -27,11 +27,13 @@ npm run build
 ```
 
 The build script is configured in `package.json`:
+
 ```json
 "build": "next build && next-sitemap"
 ```
 
 This ensures:
+
 1. Next.js builds your static site to the `out/` directory
 2. next-sitemap scans the `out/` directory and generates:
    - `sitemap.xml` - XML sitemap for search engines
@@ -40,6 +42,7 @@ This ensures:
 ## Generated Files
 
 After running `npm run build`, you'll find:
+
 - `out/sitemap.xml` - The main sitemap
 - `out/robots.txt` - Robots configuration
 
@@ -65,6 +68,7 @@ To customize the sitemap:
 ## Verification
 
 After building, you can verify:
+
 - Open `out/sitemap.xml` in your browser or text editor
 - Check `out/robots.txt` for proper configuration
 - Ensure your site URL is correctly set in both files

@@ -85,18 +85,40 @@
   "sourcesTitle": "Адабиётлар",
   "sources": [
     { "title": "WHO. Responding to community spread of COVID-19. Interim guidance, March 2020" },
-    { "title": "Ghebreyesus T. WHO Director-General's opening remarks at the media briefing on COVID-19 — 11 March 2020" },
-    { "title": "Lai C.C. et al. Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and coronavirus disease-2019 (COVID-19): The epidemic and the challenges // Int J Antimicrob Agents. 2020" },
-    { "title": "Li X. et al. Evolutionary history, potential intermediate animal host, and cross-species analyses of SARS-CoV-2 // J Med Virol. 2020" },
-    { "title": "Hudson J.B. et al. Development of a Practical Method for Using Ozone Gas as a Virus Decontaminating Agent // Ozone: Science & Engineering. 2009;31:216-223" },
-    { "title": "Roy D. et al. Mechanism of enteroviral inactivation by ozone // Appl Environ Microbiol. 1981;41(3):718-723" },
-    { "title": "Murray B.K. et al. Virion disruption by ozone-mediated reactive oxygen species // J Virol Methods. 2008;153(1):74-77" },
+    {
+      "title": "Ghebreyesus T. WHO Director-General's opening remarks at the media briefing on COVID-19 — 11 March 2020"
+    },
+    {
+      "title": "Lai C.C. et al. Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and coronavirus disease-2019 (COVID-19): The epidemic and the challenges // Int J Antimicrob Agents. 2020"
+    },
+    {
+      "title": "Li X. et al. Evolutionary history, potential intermediate animal host, and cross-species analyses of SARS-CoV-2 // J Med Virol. 2020"
+    },
+    {
+      "title": "Hudson J.B. et al. Development of a Practical Method for Using Ozone Gas as a Virus Decontaminating Agent // Ozone: Science & Engineering. 2009;31:216-223"
+    },
+    {
+      "title": "Roy D. et al. Mechanism of enteroviral inactivation by ozone // Appl Environ Microbiol. 1981;41(3):718-723"
+    },
+    {
+      "title": "Murray B.K. et al. Virion disruption by ozone-mediated reactive oxygen species // J Virol Methods. 2008;153(1):74-77"
+    },
     { "title": "Bocci V. Ozone: A new medical drug. Netherlands: Springer; 2011" },
-    { "title": "Bocci V., Paulesu L. Studies on the biological effects of ozone 1. Induction of interferon gamma on human leucocytes // Haematologica. 1990;75(6):510-515" },
-    { "title": "Pecorelli A. et al. NRF2 activation is involved in ozonated human serum upregulation of HO-1 in endothelial cells // Toxicol Appl Pharmacol. 2013;267(1):30-40" },
-    { "title": "Imai Y. et al. Identification of oxidative stress and Toll-like receptor 4 signaling as a key pathway of acute lung injury // Cell. 2008;133(2):235-249" },
+    {
+      "title": "Bocci V., Paulesu L. Studies on the biological effects of ozone 1. Induction of interferon gamma on human leucocytes // Haematologica. 1990;75(6):510-515"
+    },
+    {
+      "title": "Pecorelli A. et al. NRF2 activation is involved in ozonated human serum upregulation of HO-1 in endothelial cells // Toxicol Appl Pharmacol. 2013;267(1):30-40"
+    },
+    {
+      "title": "Imai Y. et al. Identification of oxidative stress and Toll-like receptor 4 signaling as a key pathway of acute lung injury // Cell. 2008;133(2):235-249"
+    },
     { "title": "Schwartz-Tapia A., Martínez-Sánchez G. et al. Madrid Declaration on Ozone Therapy. ISCO3. 2015" },
-    { "title": "Maslennikov O.V. et al. Ozone therapy in Practice. Health Manual, Ministry Health Service of The Russian Federation. 2008" },
-    { "title": "Amatore D. et al. Glutathione increase by the n-butanoyl glutathione derivative inhibits viral replication // FASEB Bioadv. 2019;1(5):296-305" }
+    {
+      "title": "Maslennikov O.V. et al. Ozone therapy in Practice. Health Manual, Ministry Health Service of The Russian Federation. 2008"
+    },
+    {
+      "title": "Amatore D. et al. Glutathione increase by the n-butanoyl glutathione derivative inhibits viral replication // FASEB Bioadv. 2019;1(5):296-305"
+    }
   ]
 }

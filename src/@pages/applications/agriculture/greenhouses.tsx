@@ -31,9 +31,7 @@ export function GreenhousesPage({ staticData, lang }: GreenhousesPageProps) {
   const ns = getCategoryNamespace('agriculture')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { greenhouses?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { greenhouses?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.greenhouses
 
   const breadcrumbs = [
@@ -116,9 +114,7 @@ export function GreenhousesPage({ staticData, lang }: GreenhousesPageProps) {
               rows={data.sections.irrigation.tableData}
             />
 
-            <HighlightBox variant="success">
-              {data.sections.irrigation.highlight}
-            </HighlightBox>
+            <HighlightBox variant="success">{data.sections.irrigation.highlight}</HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data.sections.soilDisinfection.title}>
@@ -148,8 +144,7 @@ export function GreenhousesPage({ staticData, lang }: GreenhousesPageProps) {
               </HighlightBox>
             ) : data.sections.airOzonation.warning ? (
               <HighlightBox variant="warning">
-                <strong>{data.sections.airOzonation.warning.title}</strong>{' '}
-                {data.sections.airOzonation.warning.text}
+                <strong>{data.sections.airOzonation.warning.title}</strong> {data.sections.airOzonation.warning.text}
               </HighlightBox>
             ) : null}
           </ArticleSection>

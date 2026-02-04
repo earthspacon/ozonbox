@@ -31,9 +31,7 @@ export function AquaculturePage({ staticData, lang }: AquaculturePageProps) {
   const ns = getCategoryNamespace('agriculture')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { aquaculture?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { aquaculture?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.aquaculture
 
   const breadcrumbs = [
@@ -141,8 +139,7 @@ export function AquaculturePage({ staticData, lang }: AquaculturePageProps) {
             />
 
             <HighlightBox variant="warning">
-              <strong>{data.sections.fishTypes.warning.title}</strong>{' '}
-              {data.sections.fishTypes.warning.text}
+              <strong>{data.sections.fishTypes.warning.title}</strong> {data.sections.fishTypes.warning.text}
             </HighlightBox>
           </ArticleSection>
 

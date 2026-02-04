@@ -32,9 +32,7 @@ export function ManufacturingPage({ staticData, lang }: ManufacturingPageProps) 
   const ns = getCategoryNamespace('industry')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { manufacturing?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { manufacturing?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.manufacturing
 
   const breadcrumbs = [
@@ -103,8 +101,7 @@ export function ManufacturingPage({ staticData, lang }: ManufacturingPageProps) 
           </ArticleSection>
 
           <HighlightBox variant="warning">
-            <strong>{data?.sections?.safety?.highlight?.title}</strong>{' '}
-            {data?.sections?.safety?.highlight?.text}
+            <strong>{data?.sections?.safety?.highlight?.title}</strong> {data?.sections?.safety?.highlight?.text}
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.mechanism?.title}>
@@ -169,8 +166,7 @@ export function ManufacturingPage({ staticData, lang }: ManufacturingPageProps) 
             />
 
             <HighlightBox variant="info">
-              <strong>{data?.sections?.voc?.highlight?.title}</strong>{' '}
-              {data?.sections?.voc?.highlight?.text}
+              <strong>{data?.sections?.voc?.highlight?.title}</strong> {data?.sections?.voc?.highlight?.text}
             </HighlightBox>
           </ArticleSection>
 
@@ -190,8 +186,7 @@ export function ManufacturingPage({ staticData, lang }: ManufacturingPageProps) 
             <BulletList items={data?.sections?.safety?.items} />
 
             <HighlightBox variant="warning">
-              <strong>{data?.sections?.safety?.highlight?.title}</strong>{' '}
-              {data?.sections?.safety?.highlight?.text}
+              <strong>{data?.sections?.safety?.highlight?.title}</strong> {data?.sections?.safety?.highlight?.text}
             </HighlightBox>
           </ArticleSection>
 

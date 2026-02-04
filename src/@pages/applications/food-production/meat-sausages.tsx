@@ -31,9 +31,7 @@ export function MeatSausagesPage({ staticData, lang }: MeatSausagesPageProps) {
   const ns = getCategoryNamespace('food-production')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'meat-sausages'?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { 'meat-sausages'?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.['meat-sausages']
 
   const breadcrumbs = [
@@ -44,7 +42,10 @@ export function MeatSausagesPage({ staticData, lang }: MeatSausagesPageProps) {
 
   return (
     <Layout>
-      <Seo title={t('subcategories.meat-sausages.title', { ns })} description={t('subcategories.meat-sausages.shortDesc', { ns })} />
+      <Seo
+        title={t('subcategories.meat-sausages.title', { ns })}
+        description={t('subcategories.meat-sausages.shortDesc', { ns })}
+      />
 
       <ArticleHero
         title={t('subcategories.meat-sausages.title', { ns })}
@@ -122,7 +123,8 @@ export function MeatSausagesPage({ staticData, lang }: MeatSausagesPageProps) {
             />
 
             <HighlightBox variant="success">
-              <strong>{data?.sections?.ripeningChambers?.recommendedMode?.label}</strong> {data?.sections?.ripeningChambers?.recommendedMode?.text}
+              <strong>{data?.sections?.ripeningChambers?.recommendedMode?.label}</strong>{' '}
+              {data?.sections?.ripeningChambers?.recommendedMode?.text}
             </HighlightBox>
           </ArticleSection>
 
@@ -133,7 +135,14 @@ export function MeatSausagesPage({ staticData, lang }: MeatSausagesPageProps) {
           <ComparisonTable
             title={data?.sections?.comparison?.title}
             headers={data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]}
-            rows={data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string; value3?: string }>}
+            rows={
+              data?.sections?.comparison?.rows as Array<{
+                parameter: string
+                value1: string
+                value2: string
+                value3?: string
+              }>
+            }
           />
 
           <ArticleSection title={data?.sections?.regulations?.title}>
@@ -143,16 +152,14 @@ export function MeatSausagesPage({ staticData, lang }: MeatSausagesPageProps) {
 
           <ArticleSection title={data?.sections?.features?.title}>
             <FeatureGrid columns={2}>
-              {(data?.sections?.features?.items as Array<{ title: string; description: string }>).map(
-                (item, idx) => (
-                  <FeatureCard
-                    key={idx}
-                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={item.title}
-                    description={item.description}
-                  />
-                ),
-              )}
+              {(data?.sections?.features?.items as Array<{ title: string; description: string }>).map((item, idx) => (
+                <FeatureCard
+                  key={idx}
+                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                  title={item.title}
+                  description={item.description}
+                />
+              ))}
             </FeatureGrid>
           </ArticleSection>
         </div>

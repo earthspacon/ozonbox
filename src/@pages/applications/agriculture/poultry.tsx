@@ -31,9 +31,7 @@ export function PoultryPage({ staticData, lang }: PoultryPageProps) {
   const ns = getCategoryNamespace('agriculture')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { poultry?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { poultry?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.poultry
 
   const breadcrumbs = [
@@ -172,10 +170,7 @@ export function PoultryPage({ staticData, lang }: PoultryPageProps) {
           </ArticleSection>
 
           <ArticleSection title={data.sections.modes.title}>
-            <DataTable
-              headers={data.sections.modes.tableHeaders}
-              rows={data.sections.modes.tableData}
-            />
+            <DataTable headers={data.sections.modes.tableHeaders} rows={data.sections.modes.tableData} />
           </ArticleSection>
 
           <ArticleSection title={data.sections.benefits.title}>

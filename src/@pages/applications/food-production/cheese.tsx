@@ -31,9 +31,7 @@ export function CheesePage({ staticData, lang }: CheesePageProps) {
   const ns = getCategoryNamespace('food-production')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { cheese?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { cheese?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.cheese
 
   const breadcrumbs = [
@@ -110,8 +108,7 @@ export function CheesePage({ staticData, lang }: CheesePageProps) {
             />
 
             <HighlightBox variant="warning">
-              <strong>{data?.sections?.regimes?.warningLabel}</strong>{' '}
-              {data?.sections?.regimes?.warningText}
+              <strong>{data?.sections?.regimes?.warningLabel}</strong> {data?.sections?.regimes?.warningText}
             </HighlightBox>
           </ArticleSection>
 
@@ -131,9 +128,7 @@ export function CheesePage({ staticData, lang }: CheesePageProps) {
 
           <ComparisonTable
             title={data?.sections?.comparison?.title}
-            headers={
-              data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]
-            }
+            headers={data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]}
             rows={
               data?.sections?.comparison?.rows as Array<{
                 parameter: string
@@ -162,16 +157,14 @@ export function CheesePage({ staticData, lang }: CheesePageProps) {
 
           <ArticleSection title={data?.sections?.features?.title}>
             <FeatureGrid columns={2}>
-              {(data?.sections?.features?.items as Array<{ title: string; description: string }>).map(
-                (item, idx) => (
-                  <FeatureCard
-                    key={idx}
-                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={item.title}
-                    description={item.description}
-                  />
-                ),
-              )}
+              {(data?.sections?.features?.items as Array<{ title: string; description: string }>).map((item, idx) => (
+                <FeatureCard
+                  key={idx}
+                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                  title={item.title}
+                  description={item.description}
+                />
+              ))}
             </FeatureGrid>
           </ArticleSection>
         </div>

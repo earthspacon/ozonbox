@@ -28,9 +28,7 @@ export function TobaccoHookahPage({ staticData, lang }: TobaccoHookahPageProps) 
   const ns = getCategoryNamespace('horeca')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'tobacco-hookah'?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { 'tobacco-hookah'?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.['tobacco-hookah']
 
   const breadcrumbs = [
@@ -41,7 +39,10 @@ export function TobaccoHookahPage({ staticData, lang }: TobaccoHookahPageProps) 
 
   return (
     <Layout>
-      <Seo title={t('subcategories.tobacco-hookah.title', { ns })} description={t('subcategories.tobacco-hookah.shortDesc', { ns })} />
+      <Seo
+        title={t('subcategories.tobacco-hookah.title', { ns })}
+        description={t('subcategories.tobacco-hookah.shortDesc', { ns })}
+      />
 
       <ArticleHero
         title={t('subcategories.tobacco-hookah.title', { ns })}

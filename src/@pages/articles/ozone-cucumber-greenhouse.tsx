@@ -43,7 +43,19 @@ export function OzoneCucumberGreenhousePage({ staticData }: { staticData: Tolgee
     )
   }
 
-  const nsData = (staticData as Record<string, { sources?: Source[]; keyFindings?: string[]; table1?: TableData; table2?: TableData; table3?: TableData; table4?: TableData }>)[`${lang}:${ARTICLE_NS}`]
+  const nsData = (
+    staticData as Record<
+      string,
+      {
+        sources?: Source[]
+        keyFindings?: string[]
+        table1?: TableData
+        table2?: TableData
+        table3?: TableData
+        table4?: TableData
+      }
+    >
+  )[`${lang}:${ARTICLE_NS}`]
   const sources = nsData?.sources ?? []
   const keyFindings = nsData?.keyFindings ?? []
   const table1 = nsData?.table1
@@ -77,10 +89,10 @@ export function OzoneCucumberGreenhousePage({ staticData }: { staticData: Tolgee
 
           <ArticleSection title={t('body.firstExperimentTitle', { ns: ARTICLE_NS })}>
             <Paragraph>{t('body.firstExperiment', { ns: ARTICLE_NS })}</Paragraph>
-            <HighlightBox variant="success">
-              {t('body.firstExperimentResult', { ns: ARTICLE_NS })}
-            </HighlightBox>
-            {table1 && <DataTable headers={table1.headers} rows={table1.rows} caption={t('table1Title', { ns: ARTICLE_NS })} />}
+            <HighlightBox variant="success">{t('body.firstExperimentResult', { ns: ARTICLE_NS })}</HighlightBox>
+            {table1 && (
+              <DataTable headers={table1.headers} rows={table1.rows} caption={t('table1Title', { ns: ARTICLE_NS })} />
+            )}
             <Paragraph>{t('body.nematodeEffect', { ns: ARTICLE_NS })}</Paragraph>
           </ArticleSection>
 
@@ -94,15 +106,21 @@ export function OzoneCucumberGreenhousePage({ staticData }: { staticData: Tolgee
             <Paragraph>{t('body.ozoneVariants', { ns: ARTICLE_NS })}</Paragraph>
             <Paragraph>{t('body.seedlingResults', { ns: ARTICLE_NS })}</Paragraph>
             <Paragraph>{t('body.leafAreaResults', { ns: ARTICLE_NS })}</Paragraph>
-            {table2 && <DataTable headers={table2.headers} rows={table2.rows} caption={t('table2Title', { ns: ARTICLE_NS })} />}
+            {table2 && (
+              <DataTable headers={table2.headers} rows={table2.rows} caption={t('table2Title', { ns: ARTICLE_NS })} />
+            )}
             <Paragraph>{t('body.rootDevelopment', { ns: ARTICLE_NS })}</Paragraph>
           </ArticleSection>
 
           <ArticleSection title={t('body.floweringPhaseTitle', { ns: ARTICLE_NS })}>
             <Paragraph>{t('body.floweringPhase', { ns: ARTICLE_NS })}</Paragraph>
-            {table3 && <DataTable headers={table3.headers} rows={table3.rows} caption={t('table3Title', { ns: ARTICLE_NS })} />}
+            {table3 && (
+              <DataTable headers={table3.headers} rows={table3.rows} caption={t('table3Title', { ns: ARTICLE_NS })} />
+            )}
             <Paragraph>{t('body.seedProductivity', { ns: ARTICLE_NS })}</Paragraph>
-            {table4 && <DataTable headers={table4.headers} rows={table4.rows} caption={t('table4Title', { ns: ARTICLE_NS })} />}
+            {table4 && (
+              <DataTable headers={table4.headers} rows={table4.rows} caption={t('table4Title', { ns: ARTICLE_NS })} />
+            )}
           </ArticleSection>
 
           <ArticleSection title={t('body.conclusionTitle', { ns: ARTICLE_NS })}>

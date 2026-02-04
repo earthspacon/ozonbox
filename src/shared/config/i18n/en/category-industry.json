@@ -115,7 +115,12 @@
             }
           ],
           "tableCaption": "Ozonation parameters for various oil product concentrations",
-          "tableHeaders": ["Initial OP concentration, mg/L", "Ozone dose, mg/L", "Contact time, min", "Residual concentration, mg/L"],
+          "tableHeaders": [
+            "Initial OP concentration, mg/L",
+            "Ozone dose, mg/L",
+            "Contact time, min",
+            "Residual concentration, mg/L"
+          ],
           "tableRows": [
             ["5-10", "15-30", "15-20", "<0.05"],
             ["10-20", "30-60", "20-30", "<0.05"],
@@ -128,7 +133,12 @@
           "title": "Types of oil-containing wastewater and treatment features",
           "paragraph": "Ozonation efficiency depends on the composition and concentration of oil products in wastewater:",
           "tableCaption": "Characteristics of oil-containing wastewater by industry",
-          "tableHeaders": ["Wastewater source", "Typical OP concentration, mg/L", "Composition features", "Treatment mode"],
+          "tableHeaders": [
+            "Wastewater source",
+            "Typical OP concentration, mg/L",
+            "Composition features",
+            "Treatment mode"
+          ],
           "tableRows": [
             ["Refineries, oil depots", "50-500", "Light fractions, benzene, toluene", "Flotation + ozonation"],
             ["Transport, gas stations", "10-100", "Oils, fuel, surfactants", "Direct ozonation"],
@@ -352,7 +362,12 @@
           ],
           "table": {
             "caption": "Ozonator capacity calculation for production facilities",
-            "headers": ["Facility volume, m³", "Ozone concentration, mg/m³", "Time to reach mode, min", "Required capacity, g/h"],
+            "headers": [
+              "Facility volume, m³",
+              "Ozone concentration, mg/m³",
+              "Time to reach mode, min",
+              "Required capacity, g/h"
+            ],
             "rows": [
               ["100-500", "5", "15-20", "50-100"],
               ["500-2000", "5", "20-30", "100-300"],

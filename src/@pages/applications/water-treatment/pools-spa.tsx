@@ -31,9 +31,7 @@ export function PoolsSpaPage({ staticData, lang }: PoolsSpaPageProps) {
   const ns = getCategoryNamespace('water-treatment')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'pools-spa'?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { 'pools-spa'?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.['pools-spa']
 
   const breadcrumbs = [
@@ -109,9 +107,8 @@ export function PoolsSpaPage({ staticData, lang }: PoolsSpaPageProps) {
           <ArticleSection title={data?.sections?.comparison?.title}>
             <ComparisonTable
               headers={
-                (data?.sections?.comparison?.headers as
-                  | [string, string, string]
-                  | [string, string, string, string]) || []
+                (data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]) ||
+                []
               }
               rows={
                 (data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string }>) || []
@@ -147,16 +144,14 @@ export function PoolsSpaPage({ staticData, lang }: PoolsSpaPageProps) {
 
           <ArticleSection title={data?.sections?.benefits?.title}>
             <FeatureGrid columns={2}>
-              {(data?.sections?.benefits?.items as Array<{ title: string; description: string }>)?.map(
-                (item, idx) => (
-                  <FeatureCard
-                    key={idx}
-                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={item.title}
-                    description={item.description}
-                  />
-                ),
-              )}
+              {(data?.sections?.benefits?.items as Array<{ title: string; description: string }>)?.map((item, idx) => (
+                <FeatureCard
+                  key={idx}
+                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                  title={item.title}
+                  description={item.description}
+                />
+              ))}
             </FeatureGrid>
           </ArticleSection>
 

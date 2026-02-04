@@ -59,38 +59,14 @@
         "effectiveness": {
           "title": "Ozonlashning samaradorligi",
           "text": "Tadqiqotlar ko'rsatadiki, havoga 15 milliardga ozon (0,03 mg/m³) qo'shilsa, yangi havoda ikki soat yurgan kabi ta'sir beradi. Ishchilar immunitet tizimini kuchaytirildi, qon kislorodi darajalari oshdi va qon bosimi yaxshilandi.",
-          "tableHeaders": [
-            "Ko'rsatgich",
-            "Ozonlashdan oldin",
-            "Ozonlashdan keyin"
-          ],
+          "tableHeaders": ["Ko'rsatgich", "Ozonlashdan oldin", "Ozonlashdan keyin"],
           "tableCaption": "Ofiislarda ozonlash ta'sirining tadqiqot natijalari",
           "tableData": [
-            [
-              "Bosh og'rish chastotasi",
-              "Tez-tez",
-              "Nadirdir"
-            ],
-            [
-              "Ish qobiliyati",
-              "70%",
-              "100%"
-            ],
-            [
-              "Diqqat kontsentratsiyasi",
-              "Pasaygan",
-              "Normal"
-            ],
-            [
-              "ARK kasalliklari",
-              "Har mavsumda 15-20%",
-              "Har mavsumda 8-10%"
-            ],
-            [
-              "Muhit qoniqish",
-              "45%",
-              "89%"
-            ]
+            ["Bosh og'rish chastotasi", "Tez-tez", "Nadirdir"],
+            ["Ish qobiliyati", "70%", "100%"],
+            ["Diqqat kontsentratsiyasi", "Pasaygan", "Normal"],
+            ["ARK kasalliklari", "Har mavsumda 15-20%", "Har mavsumda 8-10%"],
+            ["Muhit qoniqish", "45%", "89%"]
           ]
         },
         "whatDisinfects": {
@@ -127,47 +103,18 @@
               "description": "Davomi tugagach 2-3 soat keyin ozon xavfsiz darajaga tushadi. Faol ventilatsiya talab qilinmaydi."
             }
           ],
-          "tableHeaders": [
-            "Xona turi",
-            "Hajmi",
-            "Quvvat",
-            "Davomi"
-          ],
+          "tableHeaders": ["Xona turi", "Hajmi", "Quvvat", "Davomi"],
           "tableCaption": "Ofiislarga tavsiya etilgan ozonlash rejimlar",
           "tableData": [
-            [
-              "Ofis",
-              "50 m³ gacha",
-              "2-3 g/h",
-              "60 min"
-            ],
-            [
-              "Ochiq makon",
-              "100-300 m³",
-              "5-10 g/h",
-              "90 min"
-            ],
-            [
-              "Jalgasha xonasi",
-              "30-50 m³",
-              "2 g/h",
-              "40 min"
-            ],
-            [
-              "Kovorking",
-              "200-500 m³",
-              "10-20 g/h",
-              "120 min"
-            ]
+            ["Ofis", "50 m³ gacha", "2-3 g/h", "60 min"],
+            ["Ochiq makon", "100-300 m³", "5-10 g/h", "90 min"],
+            ["Jalgasha xonasi", "30-50 m³", "2 g/h", "40 min"],
+            ["Kovorking", "200-500 m³", "10-20 g/h", "120 min"]
           ]
         },
         "comparison": {
           "title": "Havo tozalash usullarining taqqoslashi",
-          "headers": [
-            "Parametr",
-            "Ozonlash",
-            "Kimyoviy tozalash"
-          ],
+          "headers": ["Parametr", "Ozonlash", "Kimyoviy tozalash"],
           "rows": [
             {
               "parameter": "Havo dezinfeksiyasi",
@@ -315,38 +262,13 @@
               "description": "Eshiklar va oynalarni oching, 20 daqiqa ventilatsiya qiling. Tezlatish uchun mashinaning ventilatsiya tizimini yoqing."
             }
           ],
-          "tableHeaders": [
-            "Transport turi",
-            "Ichki hajmi",
-            "Quvvat",
-            "Vaqti"
-          ],
+          "tableHeaders": ["Transport turi", "Ichki hajmi", "Quvvat", "Vaqti"],
           "tableCaption": "Tavsiya etilgan davomi rejimlar",
           "tableData": [
-            [
-              "Minibus",
-              "15-25 m³",
-              "5-10 g/h",
-              "20 min"
-            ],
-            [
-              "Shahar avtobusi",
-              "40-60 m³",
-              "20-30 g/h",
-              "30 min"
-            ],
-            [
-              "Shunga o'rnatilgan avtobusi",
-              "80-100 m³",
-              "30-50 g/h",
-              "40 min"
-            ],
-            [
-              "Tramvay/trolleybus",
-              "50-80 m³",
-              "20-40 g/h",
-              "35 min"
-            ]
+            ["Minibus", "15-25 m³", "5-10 g/h", "20 min"],
+            ["Shahar avtobusi", "40-60 m³", "20-30 g/h", "30 min"],
+            ["Shunga o'rnatilgan avtobusi", "80-100 m³", "30-50 g/h", "40 min"],
+            ["Tramvay/trolleybus", "50-80 m³", "20-40 g/h", "35 min"]
           ]
         },
         "organizationOptions": {
@@ -375,84 +297,32 @@
           "title": "Transport quvvati ta'minoti",
           "text": "Ozonlashtirgichlar mashinaning quvvatida ishlashi mumkin, tashqi quvvat ulanishisiz davomiga imkon beradi.",
           "highlight": "Davomi hechqanday ishchi ishtirokini talab qilmaydi — ozonlashtirgichni yoqing va chiqib ket. Hechqanday sarflama mahsulotlar harakat xarajatini kamaytiradi.",
-          "tableHeaders": [
-            "Quvvat turi",
-            "Ijro",
-            "Afzalliklari"
-          ],
+          "tableHeaders": ["Quvvat turi", "Ijro", "Afzalliklari"],
           "tableCaption": "Ozonlashtirgichlar uchun quvvat ta'minoti variantlari",
           "tableData": [
-            [
-              "12V DC",
-              "Minibus, mikrobuslar",
-              "Standart mashinaning quvvati"
-            ],
-            [
-              "24V DC",
-              "Avtobuslar, trolleybuslar",
-              "Yuqori quvvat"
-            ],
-            [
-              "220V AC",
-              "Depolar, parklar",
-              "Maksimal quvvat"
-            ],
-            [
-              "Batareya",
-              "Mobil xizmat",
-              "Avtonomiya"
-            ]
+            ["12V DC", "Minibus, mikrobuslar", "Standart mashinaning quvvati"],
+            ["24V DC", "Avtobuslar, trolleybuslar", "Yuqori quvvat"],
+            ["220V AC", "Depolar, parklar", "Maksimal quvvat"],
+            ["Batareya", "Mobil xizmat", "Avtonomiya"]
           ]
         },
         "pathogenEfficiency": {
           "title": "Patogenlarga qarshi samaradorligi",
-          "tableHeaders": [
-            "Patogen",
-            "Vaqti 20 mg/m³ da",
-            "Samaradorligi"
-          ],
+          "tableHeaders": ["Patogen", "Vaqti 20 mg/m³ da", "Samaradorligi"],
           "tableCaption": "Transport ichida patogen inaktivatsiya vaqti",
           "tableData": [
-            [
-              "Koronaviruslar (COVID-19)",
-              "10-15 min",
-              "99.9%"
-            ],
-            [
-              "Gripp viruslari",
-              "5-10 min",
-              "99.9%"
-            ],
-            [
-              "Stafilo aureusi",
-              "10-15 min",
-              "99.9%"
-            ],
-            [
-              "E. coli",
-              "5-10 min",
-              "99.9%"
-            ],
-            [
-              "Ko'k va xamirlar",
-              "15-20 min",
-              "99%"
-            ],
-            [
-              "Hidlar (organik)",
-              "20-30 min",
-              "100%"
-            ]
+            ["Koronaviruslar (COVID-19)", "10-15 min", "99.9%"],
+            ["Gripp viruslari", "5-10 min", "99.9%"],
+            ["Stafilo aureusi", "10-15 min", "99.9%"],
+            ["E. coli", "5-10 min", "99.9%"],
+            ["Ko'k va xamirlar", "15-20 min", "99%"],
+            ["Hidlar (organik)", "20-30 min", "100%"]
           ]
         },
         "comparison": {
           "title": "Dezinfeksiya usuli taqqoslashi",
           "tableTitle": "Ozonlash va kimyoviy davomi",
-          "headers": [
-            "Mezon",
-            "Ozonlash",
-            "Kimyoviy davomi"
-          ],
+          "headers": ["Mezon", "Ozonlash", "Kimyoviy davomi"],
           "rows": [
             {
               "parameter": "Davomi vaqti",
@@ -579,33 +449,13 @@
         "odorProblem": {
           "title": "Sport zallarida hid muammosi",
           "text": "Sport zallarida ter hidi odam terida bakteriya faolligining natijasi. Muntazam tozalash va havo yangilantiruvchilar faqat muammoni niqob qiladi. Ozon hid molekulalarini buzadi va ularni ishlab chiqaradigan bakteriyalarni yo'q qiladi.",
-          "tableHeaders": [
-            "Hid turi",
-            "Manba",
-            "Yo'q qilish vaqti"
-          ],
+          "tableHeaders": ["Hid turi", "Manba", "Yo'q qilish vaqti"],
           "tableCaption": "Hidlarga qarshi ozon samaradorligi",
           "tableData": [
-            [
-              "Ter",
-              "Teri bakteriyalari",
-              "30-60 min"
-            ],
-            [
-              "Namlik",
-              "Ko'k va xamirlar",
-              "60-90 min"
-            ],
-            [
-              "Qadim havo",
-              "Ventilatsiya yetersizligi",
-              "40-60 min"
-            ],
-            [
-              "Rezina",
-              "Pol va mat'lar",
-              "90-120 min"
-            ]
+            ["Ter", "Teri bakteriyalari", "30-60 min"],
+            ["Namlik", "Ko'k va xamirlar", "60-90 min"],
+            ["Qadim havo", "Ventilatsiya yetersizligi", "40-60 min"],
+            ["Rezina", "Pol va mat'lar", "90-120 min"]
           ]
         },
         "process": {
@@ -636,44 +486,14 @@
             "title": "Hisoblash formulasi:",
             "text": "xona hajmiga qarab 25 m³ uchun soatiga 1 g ozon quvvat. Yuqori ifloslanimligi yoki katta sirt maydoniga ega xonalar uchun, quvvatni 20-30% oshiring."
           },
-          "tableHeaders": [
-            "Zal turi",
-            "Hajmi",
-            "Quvvat",
-            "Davomi"
-          ],
+          "tableHeaders": ["Zal turi", "Hajmi", "Quvvat", "Davomi"],
           "tableCaption": "Tavsiya etilgan ozonlashtirgich quvvati",
           "tableData": [
-            [
-              "Fitnes zali",
-              "200-500 m³",
-              "10-20 g/h",
-              "120 min"
-            ],
-            [
-              "Loker xonasi",
-              "50-100 m³",
-              "3-5 g/h",
-              "90 min"
-            ],
-            [
-              "Sport zali",
-              "300-600 m³",
-              "15-25 g/h",
-              "150 min"
-            ],
-            [
-              "Sport arenasi",
-              "2000-5000 m³",
-              "80-200 g/h",
-              "180 min"
-            ],
-            [
-              "Yuzma havuzi",
-              "500-1500 m³",
-              "20-60 g/h",
-              "120 min"
-            ]
+            ["Fitnes zali", "200-500 m³", "10-20 g/h", "120 min"],
+            ["Loker xonasi", "50-100 m³", "3-5 g/h", "90 min"],
+            ["Sport zali", "300-600 m³", "15-25 g/h", "150 min"],
+            ["Sport arenasi", "2000-5000 m³", "80-200 g/h", "180 min"],
+            ["Yuzma havuzi", "500-1500 m³", "20-60 g/h", "120 min"]
           ]
         },
         "specialZones": {
@@ -699,53 +519,21 @@
         },
         "pathogens": {
           "title": "Patogenlarga qarshi samaradorligi",
-          "tableHeaders": [
-            "Patogen",
-            "Inaktivatsiya vaqti",
-            "Samaradorligi"
-          ],
+          "tableHeaders": ["Patogen", "Inaktivatsiya vaqti", "Samaradorligi"],
           "tableCaption": "Patogen inaktivatsiya vaqti (konsentratsiya 20 mg/m³)",
           "tableData": [
-            [
-              "Trichophyton (atlettik oyoqlari)",
-              "20-30 min",
-              "99.9%"
-            ],
-            [
-              "Kandidiya albikans",
-              "15-20 min",
-              "99.9%"
-            ],
-            [
-              "Stafilo aureusi",
-              "10-15 min",
-              "99.99%"
-            ],
-            [
-              "Gripp viruslari",
-              "5-10 min",
-              "99.99%"
-            ],
-            [
-              "Ko'k (sporlari)",
-              "30-40 min",
-              "99%"
-            ],
-            [
-              "E. coli",
-              "5-10 min",
-              "99.99%"
-            ]
+            ["Trichophyton (atlettik oyoqlari)", "20-30 min", "99.9%"],
+            ["Kandidiya albikans", "15-20 min", "99.9%"],
+            ["Stafilo aureusi", "10-15 min", "99.99%"],
+            ["Gripp viruslari", "5-10 min", "99.99%"],
+            ["Ko'k (sporlari)", "30-40 min", "99%"],
+            ["E. coli", "5-10 min", "99.99%"]
           ]
         },
         "comparison": {
           "title": "An'anaviy tozalash bilan taqqoslash",
           "tableTitle": "Ozonlash va kimyoviy dezinfeksiya",
-          "headers": [
-            "Mezon",
-            "Ozonlash",
-            "Kimyoviy davomi"
-          ],
+          "headers": ["Mezon", "Ozonlash", "Kimyoviy davomi"],
           "rows": [
             {
               "parameter": "Ter hidini yo'q qilish",
@@ -873,32 +661,12 @@
           "title": "Markazda hid muammosi",
           "intro": "Savdo markazlari ko'p hid manbalari: restoran xonalari, restoran xonalari, xush hid do'konlar, saqlanuvchi joylar. Ozon samarali barcha bu hidlarni neytral qiladi, niqob qilmasdan, balki hid moddalarining molekulalarini yo'q qiladi.",
           "tableCaption": "Hid manbalari va yechimlar",
-          "tableHeaders": [
-            "Zona",
-            "Hid manba",
-            "Yechim"
-          ],
+          "tableHeaders": ["Zona", "Hid manba", "Yechim"],
           "tableData": [
-            [
-              "Restoran xonasi",
-              "Tayyorlash, yog', ziravorlar",
-              "Tungi ozonlash + to'rttik ozonlashtirgichlar"
-            ],
-            [
-              "Restoran xonalari",
-              "Organik moddalar",
-              "Uzluksiz kam konsentratsiyali ozonlash"
-            ],
-            [
-              "Atrium",
-              "Hid aralashi, havo tukunchiligi",
-              "Ventilatsiya integratsiyasi"
-            ],
-            [
-              "Avtomobil to'xtashi",
-              "Ehtirot gazlar",
-              "Ehtirot ozonlashtirgichlar"
-            ]
+            ["Restoran xonasi", "Tayyorlash, yog', ziravorlar", "Tungi ozonlash + to'rttik ozonlashtirgichlar"],
+            ["Restoran xonalari", "Organik moddalar", "Uzluksiz kam konsentratsiyali ozonlash"],
+            ["Atrium", "Hid aralashi, havo tukunchiligi", "Ventilatsiya integratsiyasi"],
+            ["Avtomobil to'xtashi", "Ehtirot gazlar", "Ehtirot ozonlashtirgichlar"]
           ]
         },
         "organization": {
@@ -944,85 +712,27 @@
         "equipment": {
           "title": "Jihoz hisoblash",
           "tableCaption": "Markaz zonalari uchun tavsiya etilgan quvvat",
-          "tableHeaders": [
-            "Zona",
-            "Maydon",
-            "Quvvat",
-            "Rejimi"
-          ],
+          "tableHeaders": ["Zona", "Maydon", "Quvvat", "Rejimi"],
           "tableData": [
-            [
-              "Savdo galareylari",
-              "1000-5000 m²",
-              "50-200 g/h",
-              "Tungi davomi"
-            ],
-            [
-              "Restoran xonasi",
-              "500-1500 m²",
-              "20-60 g/h",
-              "Yopilgach kunli"
-            ],
-            [
-              "Restoran xonalari",
-              "20-50 m²",
-              "1-2 g/h",
-              "Uzluksiz yoki tsikllar"
-            ],
-            [
-              "Saqlanuvchi",
-              "100-300 m²",
-              "5-15 g/h",
-              "Haftada 2-3 marta"
-            ],
-            [
-              "Avtomobil to'xtashi",
-              "5000-20000 m²",
-              "100-500 g/h",
-              "Ventilatsiya integratsiyasi"
-            ]
+            ["Savdo galareylari", "1000-5000 m²", "50-200 g/h", "Tungi davomi"],
+            ["Restoran xonasi", "500-1500 m²", "20-60 g/h", "Yopilgach kunli"],
+            ["Restoran xonalari", "20-50 m²", "1-2 g/h", "Uzluksiz yoki tsikllar"],
+            ["Saqlanuvchi", "100-300 m²", "5-15 g/h", "Haftada 2-3 marta"],
+            ["Avtomobil to'xtashi", "5000-20000 m²", "100-500 g/h", "Ventilatsiya integratsiyasi"]
           ],
           "highlight": "Katta savdo markazlari uchun, to'liq ozonlash tizimi dizayni tavsiya etiladi, binoni arxitekturasi, ventilatsiya tizimlar va ishlash rejimini hisobga olgan. Biz sozlama yechimlarni ishlab chiqamiz."
         },
         "pathogens": {
           "title": "Patogenlarga qarshi samaradorligi",
           "tableCaption": "Tutish sirtlarida inaktivatsiya vaqti",
-          "tableHeaders": [
-            "Patogen",
-            "Vaqti (20 mg/m³)",
-            "Samaradorligi"
-          ],
+          "tableHeaders": ["Patogen", "Vaqti (20 mg/m³)", "Samaradorligi"],
           "tableData": [
-            [
-              "Koronaviruslar",
-              "10-15 min",
-              "99.9%"
-            ],
-            [
-              "Gripp viruslari",
-              "5-10 min",
-              "99.9%"
-            ],
-            [
-              "Norovirus",
-              "15-20 min",
-              "99.9%"
-            ],
-            [
-              "Stafilo aureusi",
-              "10-15 min",
-              "99.99%"
-            ],
-            [
-              "E. coli",
-              "5-10 min",
-              "99.99%"
-            ],
-            [
-              "Ko'k",
-              "30-40 min",
-              "99%"
-            ]
+            ["Koronaviruslar", "10-15 min", "99.9%"],
+            ["Gripp viruslari", "5-10 min", "99.9%"],
+            ["Norovirus", "15-20 min", "99.9%"],
+            ["Stafilo aureusi", "10-15 min", "99.99%"],
+            ["E. coli", "5-10 min", "99.99%"],
+            ["Ko'k", "30-40 min", "99%"]
           ]
         },
         "benefits": {
@@ -1047,11 +757,7 @@
         "comparison": {
           "title": "Dezinfeksiya usuli taqqoslashi",
           "tableTitle": "Savdo markazi davomi usullari",
-          "headers": [
-            "Mezon",
-            "Ozonlash",
-            "Kimyoviy davomi"
-          ],
+          "headers": ["Mezon", "Ozonlash", "Kimyoviy davomi"],
           "rows": [
             {
               "parameter": "Havo davomi",

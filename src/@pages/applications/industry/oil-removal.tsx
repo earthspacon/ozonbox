@@ -31,9 +31,7 @@ export function OilRemovalPage({ staticData, lang }: OilRemovalPageProps) {
   const ns = getCategoryNamespace('industry')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'oil-removal'?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { 'oil-removal'?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.['oil-removal']
 
   const breadcrumbs = [
@@ -132,8 +130,7 @@ export function OilRemovalPage({ staticData, lang }: OilRemovalPageProps) {
             />
 
             <HighlightBox variant="success">
-              <strong>{data?.sections?.types?.successBox?.title}</strong>{' '}
-              {data?.sections?.types?.successBox?.text}
+              <strong>{data?.sections?.types?.successBox?.title}</strong> {data?.sections?.types?.successBox?.text}
             </HighlightBox>
           </ArticleSection>
 
@@ -168,8 +165,7 @@ export function OilRemovalPage({ staticData, lang }: OilRemovalPageProps) {
             />
 
             <HighlightBox variant="info">
-              <strong>{data?.sections?.economics?.infoBox?.title}:</strong>{' '}
-              {data?.sections?.economics?.infoBox?.text}
+              <strong>{data?.sections?.economics?.infoBox?.title}:</strong> {data?.sections?.economics?.infoBox?.text}
             </HighlightBox>
           </ArticleSection>
 

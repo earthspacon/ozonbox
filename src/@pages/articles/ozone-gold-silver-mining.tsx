@@ -68,17 +68,13 @@ export function OzoneGoldSilverMiningPage({ staticData }: { staticData: TolgeeSt
 
           <ArticleSection title={t('body.refractoryOresTitle', { ns: ARTICLE_NS })}>
             <Paragraph>{t('body.refractoryOresIntro', { ns: ARTICLE_NS })}</Paragraph>
-            <HighlightBox variant="success">
-              {t('body.refractoryOresResults', { ns: ARTICLE_NS })}
-            </HighlightBox>
+            <HighlightBox variant="success">{t('body.refractoryOresResults', { ns: ARTICLE_NS })}</HighlightBox>
             <Paragraph>{t('body.refractoryOresMechanism', { ns: ARTICLE_NS })}</Paragraph>
           </ArticleSection>
 
           <ArticleSection title={t('body.heapLeachingTitle', { ns: ARTICLE_NS })}>
             <Paragraph>{t('body.heapLeachingIntro', { ns: ARTICLE_NS })}</Paragraph>
-            <HighlightBox variant="info">
-              {t('body.heapLeachingResults', { ns: ARTICLE_NS })}
-            </HighlightBox>
+            <HighlightBox variant="info">{t('body.heapLeachingResults', { ns: ARTICLE_NS })}</HighlightBox>
             <Paragraph>{t('body.heapLeachingPhases', { ns: ARTICLE_NS })}</Paragraph>
           </ArticleSection>
 
@@ -91,9 +87,7 @@ export function OzoneGoldSilverMiningPage({ staticData }: { staticData: TolgeeSt
           <ArticleSection title={t('body.cyanideDestructionTitle', { ns: ARTICLE_NS })}>
             <Paragraph>{t('body.cyanideDestructionIntro', { ns: ARTICLE_NS })}</Paragraph>
             <Paragraph>{t('body.cyanideDestructionProcess', { ns: ARTICLE_NS })}</Paragraph>
-            <HighlightBox variant="success">
-              {t('body.cyanideDestructionResults', { ns: ARTICLE_NS })}
-            </HighlightBox>
+            <HighlightBox variant="success">{t('body.cyanideDestructionResults', { ns: ARTICLE_NS })}</HighlightBox>
             <Paragraph>{t('body.cyanideDestructionAdvanced', { ns: ARTICLE_NS })}</Paragraph>
           </ArticleSection>
 
@@ -125,9 +119,7 @@ export function OzoneGoldSilverMiningPage({ staticData }: { staticData: TolgeeSt
             <Paragraph>{t('body.conclusion', { ns: ARTICLE_NS })}</Paragraph>
           </ArticleSection>
 
-          {sources.length > 0 ? (
-            <SourcesList items={sources} title={t('sourcesTitle', { ns: ARTICLE_NS })} />
-          ) : null}
+          {sources.length > 0 ? <SourcesList items={sources} title={t('sourcesTitle', { ns: ARTICLE_NS })} /> : null}
         </ArticleContent>
       </ArticleContainer>
     </Layout>

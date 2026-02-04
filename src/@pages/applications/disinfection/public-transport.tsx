@@ -34,9 +34,7 @@ export function PublicTransportPage({ staticData }: PublicTransportPageProps) {
   const ns = getCategoryNamespace('disinfection')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'public-transport'?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { 'public-transport'?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.['public-transport']
 
   const breadcrumbs = [
@@ -126,16 +124,16 @@ export function PublicTransportPage({ staticData }: PublicTransportPageProps) {
             <Paragraph>{data?.sections?.organizationOptions?.text}</Paragraph>
 
             <FeatureGrid columns={2}>
-              {((data?.sections?.organizationOptions?.items as Array<{ title: string; description: string }>) || []).map(
-                (item: { title: string; description: string }, idx: number) => (
-                  <FeatureCard
-                    key={idx}
-                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={item.title}
-                    description={item.description}
-                  />
-                ),
-              )}
+              {(
+                (data?.sections?.organizationOptions?.items as Array<{ title: string; description: string }>) || []
+              ).map((item: { title: string; description: string }, idx: number) => (
+                <FeatureCard
+                  key={idx}
+                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                  title={item.title}
+                  description={item.description}
+                />
+              ))}
             </FeatureGrid>
           </ArticleSection>
 
@@ -162,13 +160,7 @@ export function PublicTransportPage({ staticData }: PublicTransportPageProps) {
           <ArticleSection title={data?.sections?.comparison?.title}>
             <ComparisonTable
               title={data?.sections?.comparison?.tableTitle}
-              headers={
-                (data?.sections?.comparison?.headers || []).slice(0, 3) as [
-                  string,
-                  string,
-                  string,
-                ]
-              }
+              headers={(data?.sections?.comparison?.headers || []).slice(0, 3) as [string, string, string]}
               rows={data?.sections?.comparison?.rows}
             />
           </ArticleSection>

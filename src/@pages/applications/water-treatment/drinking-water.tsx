@@ -134,10 +134,7 @@ export function DrinkingWaterPage({ staticData, lang }: DrinkingWaterPageProps) 
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.comparison?.title}>
-            <ComparisonTable
-              headers={data?.sections?.comparison?.headers}
-              rows={data?.sections?.comparison?.rows}
-            />
+            <ComparisonTable headers={data?.sections?.comparison?.headers} rows={data?.sections?.comparison?.rows} />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.technicalParams?.title}>
@@ -148,8 +145,7 @@ export function DrinkingWaterPage({ staticData, lang }: DrinkingWaterPageProps) 
             />
 
             <HighlightBox variant="info">
-              <strong>{data?.sections?.technicalParams?.infoLabel}</strong>{' '}
-              {data?.sections?.technicalParams?.infoText}
+              <strong>{data?.sections?.technicalParams?.infoLabel}</strong> {data?.sections?.technicalParams?.infoText}
             </HighlightBox>
           </ArticleSection>
 
@@ -168,9 +164,7 @@ export function DrinkingWaterPage({ staticData, lang }: DrinkingWaterPageProps) 
               rows={data?.sections?.effectiveness?.tableData}
             />
 
-            <HighlightBox variant="success">
-              {data?.sections?.effectiveness?.highlightBox}
-            </HighlightBox>
+            <HighlightBox variant="success">{data?.sections?.effectiveness?.highlightBox}</HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.benefits?.title}>

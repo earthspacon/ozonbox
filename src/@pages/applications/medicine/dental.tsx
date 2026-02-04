@@ -30,9 +30,7 @@ export function DentalPage({ staticData, lang }: DentalPageProps) {
   const ns = getCategoryNamespace('medicine')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { dental?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { dental?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.dental || {}
 
   const breadcrumbs = [
@@ -43,10 +41,7 @@ export function DentalPage({ staticData, lang }: DentalPageProps) {
 
   return (
     <Layout>
-      <Seo
-        title={t('subcategories.dental.title', { ns })}
-        description={t('subcategories.dental.shortDesc', { ns })}
-      />
+      <Seo title={t('subcategories.dental.title', { ns })} description={t('subcategories.dental.shortDesc', { ns })} />
 
       <ArticleHero
         title={t('subcategories.dental.title', { ns })}
@@ -105,7 +100,9 @@ export function DentalPage({ staticData, lang }: DentalPageProps) {
           </HighlightBox>
 
           <ArticleSection title={data.sections?.applications?.title}>
-            <BulletList items={Array.isArray(data.sections?.applications?.items) ? data.sections.applications.items : []} />
+            <BulletList
+              items={Array.isArray(data.sections?.applications?.items) ? data.sections.applications.items : []}
+            />
           </ArticleSection>
 
           <ArticleSection title={data.sections?.disinfection?.title}>
@@ -114,7 +111,11 @@ export function DentalPage({ staticData, lang }: DentalPageProps) {
             <DataTable
               caption={data.sections?.disinfection?.table?.caption}
               headers={data.sections?.disinfection?.table?.headers || []}
-              rows={(Array.isArray(data.sections?.disinfection?.table?.rows) ? data.sections.disinfection.table.rows : []) as (string | number)[][]}
+              rows={
+                (Array.isArray(data.sections?.disinfection?.table?.rows)
+                  ? data.sections.disinfection.table.rows
+                  : []) as (string | number)[][]
+              }
             />
 
             <HighlightBox variant="success">{data.sections?.disinfection?.highlight || ''}</HighlightBox>
@@ -139,13 +140,19 @@ export function DentalPage({ staticData, lang }: DentalPageProps) {
             <DataTable
               caption={data.sections?.ozonotherapy?.table?.caption}
               headers={data.sections?.ozonotherapy?.table?.headers || []}
-              rows={(Array.isArray(data.sections?.ozonotherapy?.table?.rows) ? data.sections.ozonotherapy.table.rows : []) as (string | number)[][]}
+              rows={
+                (Array.isArray(data.sections?.ozonotherapy?.table?.rows)
+                  ? data.sections.ozonotherapy.table.rows
+                  : []) as (string | number)[][]
+              }
             />
           </ArticleSection>
 
           <ArticleSection title={data.sections?.waterSystems?.title}>
             <Paragraph>{data.sections?.waterSystems?.text || ''}</Paragraph>
-            <BulletList items={Array.isArray(data.sections?.waterSystems?.items) ? data.sections.waterSystems.items : []} />
+            <BulletList
+              items={Array.isArray(data.sections?.waterSystems?.items) ? data.sections.waterSystems.items : []}
+            />
           </ArticleSection>
 
           <ArticleSection title={data.sections?.benefits?.title}>

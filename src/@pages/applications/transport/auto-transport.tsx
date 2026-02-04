@@ -123,8 +123,7 @@ export function AutoTransportPage({ staticData, lang }: AutoTransportPageProps) 
                 data.sections.technology.highlight
               ) : (
                 <>
-                  <strong>{data?.sections?.technology?.highlight?.title}</strong>
-                  {' '}
+                  <strong>{data?.sections?.technology?.highlight?.title}</strong>{' '}
                   {data?.sections?.technology?.highlight?.text}
                 </>
               )}
@@ -144,8 +143,7 @@ export function AutoTransportPage({ staticData, lang }: AutoTransportPageProps) 
             <BulletList items={data?.sections?.refrigerators?.items} />
 
             <HighlightBox variant="info">
-              <strong>{data?.sections?.refrigerators?.highlight?.title}</strong>
-              {' '}
+              <strong>{data?.sections?.refrigerators?.highlight?.title}</strong>{' '}
               {data?.sections?.refrigerators?.highlight?.text}
             </HighlightBox>
           </ArticleSection>
@@ -165,21 +163,25 @@ export function AutoTransportPage({ staticData, lang }: AutoTransportPageProps) 
 
           <ArticleSection title={data?.sections?.integration?.title}>
             <FeatureGrid columns={2}>
-              {(data?.sections?.integration?.features || []).map((item: { title: string; description: string }, idx: number) => (
-                <FeatureCard
-                  key={idx}
-                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                  title={item.title}
-                  description={item.description}
-                />
-              ))}
+              {(data?.sections?.integration?.features || []).map(
+                (item: { title: string; description: string }, idx: number) => (
+                  <FeatureCard
+                    key={idx}
+                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                    title={item.title}
+                    description={item.description}
+                  />
+                ),
+              )}
             </FeatureGrid>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.economics?.title}>
             <ComparisonTable
               title={data?.sections?.economics?.comparisonTitle}
-              headers={data?.sections?.economics?.tableHeaders as [string, string, string] | [string, string, string, string]}
+              headers={
+                data?.sections?.economics?.tableHeaders as [string, string, string] | [string, string, string, string]
+              }
               rows={data?.sections?.economics?.tableData}
             />
 
@@ -209,9 +211,7 @@ export function AutoTransportPage({ staticData, lang }: AutoTransportPageProps) 
             <BulletList items={data?.sections?.roi?.items} />
 
             <HighlightBox variant="success">
-              <strong>{data?.sections?.roi?.highlight?.title}</strong>
-              {' '}
-              {data?.sections?.roi?.highlight?.text}
+              <strong>{data?.sections?.roi?.highlight?.title}</strong> {data?.sections?.roi?.highlight?.text}
             </HighlightBox>
           </ArticleSection>
 

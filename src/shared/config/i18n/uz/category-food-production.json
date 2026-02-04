@@ -61,75 +61,27 @@
           "highlight": {
             "text": "Chaqaloq suvi uchun ozonatsiya mumkin bo'lgan bitta konservatsiya varianti bo'lishi mumkin, chunki kumush ionlar va uglerod dioksidning standartlar bo'yicha ishlatilishi taqiqlangan."
           },
-          "tableHeaders": [
-            "Parametr",
-            "Birinchi kategoriya",
-            "Premium kategoriya"
-          ],
+          "tableHeaders": ["Parametr", "Birinchi kategoriya", "Premium kategoriya"],
           "tableCaption": "Shisha suv uchun talablar",
           "tableData": [
-            [
-              "Qolgan ozone",
-              "≤ 0,1 mg/L",
-              "≤ 0,1 mg/L"
-            ],
-            [
-              "Kislorod miqdori",
-              "≥ 5 mg/L",
-              "≥ 9 mg/L"
-            ],
-            [
-              "Ozone ta'sir vaqti",
-              "≥ 12 daqiqa",
-              "≥ 12 daqiqa"
-            ],
-            [
-              "Xlorin ishlatilishi",
-              "Taqiqlangan",
-              "Taqiqlangan"
-            ],
-            [
-              "Kumush (chaqaloq suvi)",
-              "Ruxsat etilgan",
-              "Taqiqlangan"
-            ]
+            ["Qolgan ozone", "≤ 0,1 mg/L", "≤ 0,1 mg/L"],
+            ["Kislorod miqdori", "≥ 5 mg/L", "≥ 9 mg/L"],
+            ["Ozone ta'sir vaqti", "≥ 12 daqiqa", "≥ 12 daqiqa"],
+            ["Xlorin ishlatilishi", "Taqiqlangan", "Taqiqlangan"],
+            ["Kumush (chaqaloq suvi)", "Ruxsat etilgan", "Taqiqlangan"]
           ]
         },
         "scheme": {
           "title": "Finali ozonatsiya sxemasi",
           "text": "Ozonatsiya tizimi to'ldirish mashinasining to'g'ri oldiga o'rnatiladi. Tizim kislorod generatori, ozone generatori, ozone yetkazish va eritish tizimi, shuningdek ozone analizatori yoki nazorat qilish uchun ORP metrini o'z ichiga oladi.",
-          "tableHeaders": [
-            "Komponent",
-            "Maqsadi",
-            "Texnik xususiyatlari"
-          ],
+          "tableHeaders": ["Komponent", "Maqsadi", "Texnik xususiyatlari"],
           "tableCaption": "Finali ozonatsiya uskunalarining tarkibi",
           "tableData": [
-            [
-              "Kislorod generatori",
-              "Sof kislorod yetkazish",
-              "O₂ kontsentratsiyasi ≥ 90%"
-            ],
-            [
-              "Ozone generatori",
-              "Ozone ishlab chiqarish",
-              "Soat bilan 1 m³/soat suvga 1 g"
-            ],
-            [
-              "Ejyunior / diffuzor",
-              "Suvda ozonning erish",
-              "Samaradorlik > 90%"
-            ],
-            [
-              "Ta'sir tanki",
-              "Ta'sir vaqtini ta'minlash",
-              "≥ 12 daqiqa"
-            ],
-            [
-              "Ozone analizatori",
-              "Kontsentratsiyani nazorat qilish",
-              "0-2 mg/L"
-            ]
+            ["Kislorod generatori", "Sof kislorod yetkazish", "O₂ kontsentratsiyasi ≥ 90%"],
+            ["Ozone generatori", "Ozone ishlab chiqarish", "Soat bilan 1 m³/soat suvga 1 g"],
+            ["Ejyunior / diffuzor", "Suvda ozonning erish", "Samaradorlik > 90%"],
+            ["Ta'sir tanki", "Ta'sir vaqtini ta'minlash", "≥ 12 daqiqa"],
+            ["Ozone analizatori", "Kontsentratsiyani nazorat qilish", "0-2 mg/L"]
           ]
         },
         "limitations": {
@@ -139,11 +91,7 @@
         },
         "comparison": {
           "title": "Suv dezinfeksiya usullarining taqqoslanishi",
-          "headers": [
-            "Parametr",
-            "Ozonatsiya",
-            "UV ishlov berish"
-          ],
+          "headers": ["Parametr", "Ozonatsiya", "UV ishlov berish"],
           "rows": [
             {
               "parameter": "Konteyner sterilizatsiyasi",
@@ -246,43 +194,13 @@
         "application": {
           "title": "Sut ishlab chiqarishda ozonning qo'llanilishi",
           "tableCaption": "Sut zaveh uskunalari uchun ozonatsiya rejimi",
-          "tableHeaders": [
-            "Ishlov berish ob'ekti",
-            "Usul",
-            "Kontsentratsiya",
-            "Samaradorlik"
-          ],
+          "tableHeaders": ["Ishlov berish ob'ekti", "Usul", "Kontsentratsiya", "Samaradorlik"],
           "tableData": [
-            [
-              "Sut chiqarish uskunasi",
-              "Ozonatsiyalangan suv",
-              "2–3 mg/L",
-              "99,9%"
-            ],
-            [
-              "Sovutish taniklari",
-              "Suv + hava",
-              "3–5 mg/L",
-              "99,99%"
-            ],
-            [
-              "Sut liniyalari",
-              "Ozonatsiyalangan suv shuying",
-              "2–3 mg/L",
-              "99,9%"
-            ],
-            [
-              "Saqlash taniklari",
-              "Gazsimon ozone",
-              "5–10 mg/m³",
-              "99,99%"
-            ],
-            [
-              "Sovuq xonalar",
-              "Gazsimon ozone",
-              "3–6 mg/m³",
-              "99,5%"
-            ]
+            ["Sut chiqarish uskunasi", "Ozonatsiyalangan suv", "2–3 mg/L", "99,9%"],
+            ["Sovutish taniklari", "Suv + hava", "3–5 mg/L", "99,99%"],
+            ["Sut liniyalari", "Ozonatsiyalangan suv shuying", "2–3 mg/L", "99,9%"],
+            ["Saqlash taniklari", "Gazsimon ozone", "5–10 mg/m³", "99,99%"],
+            ["Sovuq xonalar", "Gazsimon ozone", "3–6 mg/m³", "99,5%"]
           ]
         },
         "advantages": {
@@ -298,11 +216,7 @@
         },
         "comparison": {
           "title": "Sanitatsiya usullarini taqqoslash",
-          "headers": [
-            "Parametr",
-            "Ozonatsiya",
-            "Kimyoviy CIP tozalash"
-          ],
+          "headers": ["Parametr", "Ozonatsiya", "Kimyoviy CIP tozalash"],
           "rows": [
             {
               "parameter": "Listeria ga nisbatan samaradorlik",
@@ -340,43 +254,13 @@
           "title": "Sut mahsulotlarini saqlash",
           "intro": "Sut mahsulotlarini saqlash uchun sovuq xonalarini ozonatsiya qilish ko'plakni rivojlanishini oldini oladi, psikhrofillik bakteriyalarni bosgiradi va pog'ona pishloq, shora krema, yogurtning saqlash muddatini 30–50% uzaytiradi.",
           "tableCaption": "Sut mahsulotlarini saqlash uchun ozonatsiya rejimi",
-          "tableHeaders": [
-            "Mahsulot",
-            "Harorat",
-            "Kontsentratsiya",
-            "Saqlash muddatini uzaytirish"
-          ],
+          "tableHeaders": ["Mahsulot", "Harorat", "Kontsentratsiya", "Saqlash muddatini uzaytirish"],
           "tableData": [
-            [
-              "Pog'ona pishloq",
-              "+2...+6°C",
-              "3–4 mg/m³",
-              "+40%"
-            ],
-            [
-              "Shora krema",
-              "+2...+6°C",
-              "2–3 mg/m³",
-              "+35%"
-            ],
-            [
-              "Yogurt",
-              "+2...+6°C",
-              "2–3 mg/m³",
-              "+30%"
-            ],
-            [
-              "Sariyog'",
-              "-6...-12°C",
-              "3–5 mg/m³",
-              "+50%"
-            ],
-            [
-              "Yumshoq pishloq",
-              "+4...+8°C",
-              "3–6 mg/m³",
-              "+45%"
-            ]
+            ["Pog'ona pishloq", "+2...+6°C", "3–4 mg/m³", "+40%"],
+            ["Shora krema", "+2...+6°C", "2–3 mg/m³", "+35%"],
+            ["Yogurt", "+2...+6°C", "2–3 mg/m³", "+30%"],
+            ["Sariyog'", "-6...-12°C", "3–5 mg/m³", "+50%"],
+            ["Yumshoq pishloq", "+4...+8°C", "3–6 mg/m³", "+45%"]
           ],
           "highlight": {
             "text": "Sovuq saqlashda ozonatsiya mikroflora o'sishini bosgirmasdan, mahsulotdagi noxush ta'mlarni ham oldini oladi, bu ayniqsa uzun muddat sariyog' saqlashda muhim."
@@ -457,91 +341,25 @@
           "title": "Sovuq go'sht saqlash",
           "paragraph": "Sovuq go'sht saqlash uchun 8-10 mg/m³ da ozonatsiya 1-4°C da karkas sirtidagi mezofil va psikhrofillik mikroflora butunlay yo'q qilishni ta'minlaydi. Sovuq go'sht saqlash muddati 2-5 baravar uzayadi.",
           "tableCaption": "Go'sht saqlash uchun ozonatsiya rejimi",
-          "tableHeaders": [
-            "Mahsulot",
-            "Harorat",
-            "Kontsentratsiya",
-            "Ishlov berish vaqti",
-            "Chastotasi"
-          ],
+          "tableHeaders": ["Mahsulot", "Harorat", "Kontsentratsiya", "Ishlov berish vaqti", "Chastotasi"],
           "tableRows": [
-            [
-              "Sovuq go'sht",
-              "-1...-4°C",
-              "8-10 mg/m³",
-              "4-5 soat",
-              "Har ikki kunning"
-            ],
-            [
-              "Muzlatilgan go'sht",
-              "-18°C",
-              "10 mg/m³",
-              "3 soat",
-              "Kuniga"
-            ],
-            [
-              "Murjon (sovuq)",
-              "-1...-4°C",
-              "8-10 mg/m³",
-              "2-3 soat",
-              "Kuniga"
-            ],
-            [
-              "Murjon (muzlatilgan)",
-              "-18°C",
-              "8-12 mg/m³",
-              "3 soat",
-              "Kuniga"
-            ],
-            [
-              "Ichki organlar",
-              "-1...-4°C",
-              "8-10 mg/m³",
-              "3-4 soat",
-              "Kuniga"
-            ]
+            ["Sovuq go'sht", "-1...-4°C", "8-10 mg/m³", "4-5 soat", "Har ikki kunning"],
+            ["Muzlatilgan go'sht", "-18°C", "10 mg/m³", "3 soat", "Kuniga"],
+            ["Murjon (sovuq)", "-1...-4°C", "8-10 mg/m³", "2-3 soat", "Kuniga"],
+            ["Murjon (muzlatilgan)", "-18°C", "8-12 mg/m³", "3 soat", "Kuniga"],
+            ["Ichki organlar", "-1...-4°C", "8-10 mg/m³", "3-4 soat", "Kuniga"]
           ]
         },
         "ripeningChambers": {
           "title": "Kolbasa pishish kameralari",
           "paragraph": "Quruq so'lgan va havo quritish kolbasi uchun pishish kameralarida ozone slimy va ko'plak cho'kmasining rivojlanishini bosgiradi, noxush hidilar paydo bo'lishini oldini oladi. O'rtacha kontsentratsiyada ozone qobiq yoki to'ldirilish rangini o'zgartirsа ham, ta'sir qilmaydi.",
           "tableCaption": "Kolbasa pishish kameralari uchun ozonatsiya rejimi",
-          "tableHeaders": [
-            "Kolbasa turi",
-            "Kontsentratsiya",
-            "Ishlov berish vaqti",
-            "Harorat",
-            "Samaradorlik"
-          ],
+          "tableHeaders": ["Kolbasa turi", "Kontsentratsiya", "Ishlov berish vaqti", "Harorat", "Samaradorlik"],
           "tableRows": [
-            [
-              "Quruq so'lgan",
-              "3-8 mg/m³",
-              "3 soat",
-              "+12...+14°C",
-              "96-99%"
-            ],
-            [
-              "Pishirilgan-tutun qilingan",
-              "3-7 mg/m³",
-              "2 soat",
-              "+10...+12°C",
-              "95-98%"
-            ],
-            [
-              "Hava quritish",
-              "5-10 mg/m³",
-              "2-3 soat",
-              "+10...+15°C",
-              "96-99%"
-            ],
-            [
-              "Yarim tutun qilingan",
-              "3-6 mg/m³",
-              "2 soat",
-              "+10...+12°C",
-              "95-98%"
-            ]
+            ["Quruq so'lgan", "3-8 mg/m³", "3 soat", "+12...+14°C", "96-99%"],
+            ["Pishirilgan-tutun qilingan", "3-7 mg/m³", "2 soat", "+10...+12°C", "95-98%"],
+            ["Hava quritish", "5-10 mg/m³", "2-3 soat", "+10...+15°C", "96-99%"],
+            ["Yarim tutun qilingan", "3-6 mg/m³", "2 soat", "+10...+12°C", "95-98%"]
           ],
           "recommendedMode": {
             "label": "Tavsiya etilgan rejim:",
@@ -561,11 +379,7 @@
         },
         "comparison": {
           "title": "Pishish kameras dezinfeksiya usullari taqqoslanishi",
-          "headers": [
-            "Parametr",
-            "Ozonatsiya",
-            "Eski usul"
-          ],
+          "headers": ["Parametr", "Ozonatsiya", "Eski usul"],
           "rows": [
             {
               "parameter": "Mahsulotni ochirib olish",
@@ -678,49 +492,13 @@
         "regimes": {
           "title": "Har xil turdagi pishloq uchun ozonatsiya rejimi",
           "tableCaption": "Pishloq pishish kameralari uchun tavsiya etilgan ishlov berish rejimi",
-          "tableHeaders": [
-            "Pishloq turi",
-            "Kontsentratsiya",
-            "Ishlov berish vaqti",
-            "Harorat",
-            "Samaradorlik"
-          ],
+          "tableHeaders": ["Pishloq turi", "Kontsentratsiya", "Ishlov berish vaqti", "Harorat", "Samaradorlik"],
           "tableRows": [
-            [
-              "Qat'iy pishloqlar",
-              "2-4 mg/m³",
-              "2 soat",
-              "+10...+12°C",
-              "95-99%"
-            ],
-            [
-              "Yumshoq pishloqlar",
-              "3-6 mg/m³",
-              "1,5 soat",
-              "+8...+10°C",
-              "94-98%"
-            ],
-            [
-              "Yarim qat'iy pishloqlar",
-              "2-4 mg/m³",
-              "1,5-2 soat",
-              "+10...+12°C",
-              "95-98%"
-            ],
-            [
-              "Sho'rvali pishloqlar",
-              "2-3 mg/m³",
-              "1 soat",
-              "+6...+8°C",
-              "94-97%"
-            ],
-            [
-              "Ko'plak pishirilgan pishloqlar",
-              "1-2 mg/m³",
-              "30 daqiqa",
-              "+8...+10°C",
-              "90-95%"
-            ]
+            ["Qat'iy pishloqlar", "2-4 mg/m³", "2 soat", "+10...+12°C", "95-99%"],
+            ["Yumshoq pishloqlar", "3-6 mg/m³", "1,5 soat", "+8...+10°C", "94-98%"],
+            ["Yarim qat'iy pishloqlar", "2-4 mg/m³", "1,5-2 soat", "+10...+12°C", "95-98%"],
+            ["Sho'rvali pishloqlar", "2-3 mg/m³", "1 soat", "+6...+8°C", "94-97%"],
+            ["Ko'plak pishirilgan pishloqlar", "1-2 mg/m³", "30 daqiqa", "+8...+10°C", "90-95%"]
           ],
           "warningLabel": "Asiliy ko'plak pishloqlari uchun muhim:",
           "warningText": "Camembert, Brie va Roquefort kabi pishloqlar uchun, ehtiyotli ozonatsiya rejimi (1-2 mg/m³, 30 daqiqa) noxush ko'plakni nazorat qilish bilan ko'plak ko'lmi halak qilmasligi kerak."
@@ -740,52 +518,18 @@
           "title": "Ozonning mahsulotga ta'siri",
           "paragraph": "Tekshiruv ozonning pishloq sirtida mikroflora o'sishini bosgirishi shuningdek ularning organoleptik xususiyatlarini saqlanib qolishini ko'rsatadi — ta'm, hidi, tekstura va rang. Bakteritsid ta'sir ayniqsa yuqori nam holata (70-90%) va o'rtacha haroratda (+8...+14°C), pishirish kameralarining tipik holati sharoitida aytiladi.",
           "tableCaption": "Pishloq pishish shartlari va ozonatsiya parametrlari",
-          "tableHeaders": [
-            "Parametr",
-            "Qat'iy pishloqlar",
-            "Yumshoq pishloqlar",
-            "Ozone uchun optimal"
-          ],
+          "tableHeaders": ["Parametr", "Qat'iy pishloqlar", "Yumshoq pishloqlar", "Ozone uchun optimal"],
           "tableRows": [
-            [
-              "Harorat",
-              "+10...+14°C",
-              "+8...+12°C",
-              "+8...+14°C"
-            ],
-            [
-              "Namlik",
-              "80-90%",
-              "85-95%",
-              "70-90%"
-            ],
-            [
-              "Pishirish vaqti",
-              "2-12 oy",
-              "2-6 hafta",
-              "Har qanday"
-            ],
-            [
-              "O₃ kontsentratsiya",
-              "2-4 mg/m³",
-              "3-6 mg/m³",
-              "2-6 mg/m³"
-            ],
-            [
-              "Chastota",
-              "Har 2-3 kunning",
-              "Kuniga",
-              "Jadvalni bo'yicha"
-            ]
+            ["Harorat", "+10...+14°C", "+8...+12°C", "+8...+14°C"],
+            ["Namlik", "80-90%", "85-95%", "70-90%"],
+            ["Pishirish vaqti", "2-12 oy", "2-6 hafta", "Har qanday"],
+            ["O₃ kontsentratsiya", "2-4 mg/m³", "3-6 mg/m³", "2-6 mg/m³"],
+            ["Chastota", "Har 2-3 kunning", "Kuniga", "Jadvalni bo'yicha"]
           ]
         },
         "comparison": {
           "title": "Pishloqlardagi ko'plak nazorat usullari taqqoslanishi",
-          "headers": [
-            "Parametr",
-            "Ozonatsiya",
-            "Mum/parafin qoplamasi"
-          ],
+          "headers": ["Parametr", "Ozonatsiya", "Mum/parafin qoplamasi"],
           "rows": [
             {
               "parameter": "Ko'plak himoyasi",
@@ -823,37 +567,13 @@
           "title": "Pishish kameras ishlov berish",
           "paragraph": "Statsionar pishish kameralari uchun, devorasiga o'rnatilgan yoki quvur orqali ozonatorlar avtomatik nazorat bilan tavsiya etiladi. Ozone kamera hajmi bo'ylab tekis taqsimlani, erishilmasa joylar o'z ichiga olgan polka va javonlari penetratsiya qiladi.",
           "tableCaption": "Pishloq pishish kamerasi uchun ishlov berish rejimining misoli (50 m³ hajmi)",
-          "tableHeaders": [
-            "Parametr",
-            "Qiymati",
-            "Eslatma"
-          ],
+          "tableHeaders": ["Parametr", "Qiymati", "Eslatma"],
           "tableRows": [
-            [
-              "Ozonator imkoniyati",
-              "2-3 g/soat",
-              "15-20 m³ uchun soat bilan 1 g"
-            ],
-            [
-              "Ozone kontsentratsiya",
-              "3-4 mg/m³",
-              "Qat'iy pishloqlar uchun"
-            ],
-            [
-              "Faoliyat vaqti",
-              "1,5-2 soat",
-              "Kuniga yoki har ikki kunning"
-            ],
-            [
-              "Kamera namligi",
-              "85-90%",
-              "Ozone uchun optimal"
-            ],
-            [
-              "Samaradorlik",
-              "95-99%",
-              "Ko'plakni yo'q qilish"
-            ]
+            ["Ozonator imkoniyati", "2-3 g/soat", "15-20 m³ uchun soat bilan 1 g"],
+            ["Ozone kontsentratsiya", "3-4 mg/m³", "Qat'iy pishloqlar uchun"],
+            ["Faoliyat vaqti", "1,5-2 soat", "Kuniga yoki har ikki kunning"],
+            ["Kamera namligi", "85-90%", "Ozone uchun optimal"],
+            ["Samaradorlik", "95-99%", "Ko'plakni yo'q qilish"]
           ],
           "successText": "Pishish kameralarini muntazam ozonatsiya qilish (kuniga 1-2 marta 1,5-2 soatda) pishloqni qo'lda silkitish va kamera texamatini mehnat xarajatlarini 70-80% kamaytirish imkonini beradi."
         },
@@ -954,147 +674,40 @@
             "Vaqt (400 m³ dan ko'p)"
           ],
           "tableData": [
-            [
-              "40 mg/m³",
-              "20 mg/m³",
-              "0,4 soat",
-              "0,2 soat"
-            ],
-            [
-              "20 mg/m³",
-              "10 mg/m³",
-              "0,8 soat",
-              "0,4 soat"
-            ],
-            [
-              "10 mg/m³",
-              "5 mg/m³",
-              "1,2 soat",
-              "0,6 soat"
-            ],
-            [
-              "5 mg/m³",
-              "2,5 mg/m³",
-              "1,6 soat",
-              "0,8 soat"
-            ],
-            [
-              "2,5 mg/m³",
-              "0,1 mg/m³",
-              "3,6 soat",
-              "1,8 soat"
-            ]
+            ["40 mg/m³", "20 mg/m³", "0,4 soat", "0,2 soat"],
+            ["20 mg/m³", "10 mg/m³", "0,8 soat", "0,4 soat"],
+            ["10 mg/m³", "5 mg/m³", "1,2 soat", "0,6 soat"],
+            ["5 mg/m³", "2,5 mg/m³", "1,6 soat", "0,8 soat"],
+            ["2,5 mg/m³", "0,1 mg/m³", "3,6 soat", "1,8 soat"]
           ],
           "warning": "Ko'plak va tiklanmagan hidilar bilan og'ir kontaminarlangan kameralar uchun ozonatsiya davomiyligi 36 ga orttirilishi mumkin, ba'zi hollarda — 48 soat gacha."
         },
         "loadedChambers": {
           "title": "Yuklangan kameralarni ozonatsiya qilish",
           "intro": "Xorijiy amaliyot ma'lumotlari va individual sovuq saklash jarayonlarida ozonatsiya tatbiqi natijalariga asosan, mahsulot bilan yuklangan kameralar uchun quyidagi ozone kontsentratsiyalari tavsiya etiladi:",
-          "tableHeaders": [
-            "Mahsulot",
-            "Harorat",
-            "Kontsentratsiya",
-            "Vaqt",
-            "Chastotasi"
-          ],
+          "tableHeaders": ["Mahsulot", "Harorat", "Kontsentratsiya", "Vaqt", "Chastotasi"],
           "animalProductsTableCaption": "Hayvonot mahsulotlari uchun tavsiya etilgan ozonatsiya rejimi",
           "animalProductsTableData": [
-            [
-              "Sovuq go'sht",
-              "-1...-4°C",
-              "8-10 mg/m³",
-              "4-5 s",
-              "Har ikki kunning"
-            ],
-            [
-              "Muzlatilgan go'sht",
-              "-18°C",
-              "10 mg/m³",
-              "3 s",
-              "Kuniga"
-            ],
-            [
-              "Murjon (sovuq)",
-              "-1...-4°C",
-              "8-10 mg/m³",
-              "2-3 s",
-              "Kuniga"
-            ],
-            [
-              "Murjon (muzlatilgan)",
-              "-18°C",
-              "8-12 mg/m³",
-              "3 s",
-              "Kuniga"
-            ],
-            [
-              "Kolbasa mahsulotlari",
-              "+12°C",
-              "3-10 mg/m³",
-              "3-4 s",
-              "Har 2-3 kunning"
-            ],
-            [
-              "Pishloq",
-              "-4...+4°C",
-              "3-4 mg/m³",
-              "5-7 s",
-              "Har 2-3 kunning"
-            ],
-            [
-              "Tuxumlar",
-              "-1,5...+0,5°C",
-              "3-6 mg/m³",
-              "3-5 s",
-              "Hid paydo bo'lganda"
-            ]
+            ["Sovuq go'sht", "-1...-4°C", "8-10 mg/m³", "4-5 s", "Har ikki kunning"],
+            ["Muzlatilgan go'sht", "-18°C", "10 mg/m³", "3 s", "Kuniga"],
+            ["Murjon (sovuq)", "-1...-4°C", "8-10 mg/m³", "2-3 s", "Kuniga"],
+            ["Murjon (muzlatilgan)", "-18°C", "8-12 mg/m³", "3 s", "Kuniga"],
+            ["Kolbasa mahsulotlari", "+12°C", "3-10 mg/m³", "3-4 s", "Har 2-3 kunning"],
+            ["Pishloq", "-4...+4°C", "3-4 mg/m³", "5-7 s", "Har 2-3 kunning"],
+            ["Tuxumlar", "-1,5...+0,5°C", "3-6 mg/m³", "3-5 s", "Hid paydo bo'lganda"]
           ],
           "vegetableProductsTableCaption": "Mevalar va sabzavotlar uchun tavsiya etilgan ozonatsiya rejimi",
           "vegetableProductsTableData": [
-            [
-              "Kartoshka",
-              "+2...+3°C",
-              "10-15 mg/m³",
-              "6 s",
-              "Har 10 kunning"
-            ],
-            [
-              "Sabzi",
-              "0...-1°C",
-              "15-30 mg/m³",
-              "6 s",
-              "Har 8-10 kunning"
-            ],
-            [
-              "Olma",
-              "0...-2°C",
-              "1-3 mg/m³",
-              "0,5-2 s",
-              "Kuniga"
-            ],
-            [
-              "Piyoz",
-              "-1...-3°C",
-              "25-30 mg/m³",
-              "5-6 s",
-              "Har 3 kunning"
-            ],
-            [
-              "Angu",
-              "0...-2°C",
-              "4-6 mg/m³",
-              "3 s",
-              "Kuniga"
-            ]
+            ["Kartoshka", "+2...+3°C", "10-15 mg/m³", "6 s", "Har 10 kunning"],
+            ["Sabzi", "0...-1°C", "15-30 mg/m³", "6 s", "Har 8-10 kunning"],
+            ["Olma", "0...-2°C", "1-3 mg/m³", "0,5-2 s", "Kuniga"],
+            ["Piyoz", "-1...-3°C", "25-30 mg/m³", "5-6 s", "Har 3 kunning"],
+            ["Angu", "0...-2°C", "4-6 mg/m³", "3 s", "Kuniga"]
           ]
         },
         "comparison": {
           "title": "Sovuq saklash kameras dezinfeksiya usullari taqqoslanishi",
-          "headers": [
-            "Parametr",
-            "Ozonatsiya",
-            "\"Ho'l\" dezinfeksiya"
-          ],
+          "headers": ["Parametr", "Ozonatsiya", "\"Ho'l\" dezinfeksiya"],
           "rows": [
             {
               "parameter": "Mahsulotni ochirib olish",

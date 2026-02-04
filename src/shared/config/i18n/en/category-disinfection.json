@@ -59,38 +59,14 @@
         "effectiveness": {
           "title": "Effectiveness of ozonation",
           "text": "Studies have shown that adding ozone to air at 15 parts per billion (0.03 mg/m³) produces an effect equivalent to a two-hour walk in fresh air. Staff showed strengthened immune systems, increased blood oxygen levels, and improved blood pressure.",
-          "tableHeaders": [
-            "Indicator",
-            "Before ozonation",
-            "After ozonation"
-          ],
+          "tableHeaders": ["Indicator", "Before ozonation", "After ozonation"],
           "tableCaption": "Results of ozone impact studies in offices",
           "tableData": [
-            [
-              "Headache frequency",
-              "Frequent",
-              "Rare"
-            ],
-            [
-              "Work capacity",
-              "70%",
-              "100%"
-            ],
-            [
-              "Attention concentration",
-              "Reduced",
-              "Normal"
-            ],
-            [
-              "ARI incidence",
-              "15-20% per season",
-              "8-10% per season"
-            ],
-            [
-              "Atmosphere satisfaction",
-              "45%",
-              "89%"
-            ]
+            ["Headache frequency", "Frequent", "Rare"],
+            ["Work capacity", "70%", "100%"],
+            ["Attention concentration", "Reduced", "Normal"],
+            ["ARI incidence", "15-20% per season", "8-10% per season"],
+            ["Atmosphere satisfaction", "45%", "89%"]
           ]
         },
         "whatDisinfects": {
@@ -127,47 +103,18 @@
               "description": "2–3 hours after treatment ends, ozone decomposes to safe levels. Active ventilation is not required."
             }
           ],
-          "tableHeaders": [
-            "Room type",
-            "Volume",
-            "Capacity",
-            "Treatment time"
-          ],
+          "tableHeaders": ["Room type", "Volume", "Capacity", "Treatment time"],
           "tableCaption": "Recommended ozonation modes for offices",
           "tableData": [
-            [
-              "Office",
-              "up to 50 m³",
-              "2-3 g/h",
-              "60 min"
-            ],
-            [
-              "Open space",
-              "100-300 m³",
-              "5-10 g/h",
-              "90 min"
-            ],
-            [
-              "Meeting room",
-              "30-50 m³",
-              "2 g/h",
-              "40 min"
-            ],
-            [
-              "Coworking",
-              "200-500 m³",
-              "10-20 g/h",
-              "120 min"
-            ]
+            ["Office", "up to 50 m³", "2-3 g/h", "60 min"],
+            ["Open space", "100-300 m³", "5-10 g/h", "90 min"],
+            ["Meeting room", "30-50 m³", "2 g/h", "40 min"],
+            ["Coworking", "200-500 m³", "10-20 g/h", "120 min"]
           ]
         },
         "comparison": {
           "title": "Comparison of air cleaning methods",
-          "headers": [
-            "Parameter",
-            "Ozonation",
-            "Chemical cleaning"
-          ],
+          "headers": ["Parameter", "Ozonation", "Chemical cleaning"],
           "rows": [
             {
               "parameter": "Air disinfection",
@@ -315,38 +262,13 @@
               "description": "Open doors and windows, ventilate cabin for 20 minutes. Use vehicle ventilation system to accelerate."
             }
           ],
-          "tableHeaders": [
-            "Transport type",
-            "Interior volume",
-            "Capacity",
-            "Time"
-          ],
+          "tableHeaders": ["Transport type", "Interior volume", "Capacity", "Time"],
           "tableCaption": "Recommended treatment modes",
           "tableData": [
-            [
-              "Minibus",
-              "15-25 m³",
-              "5-10 g/h",
-              "20 min"
-            ],
-            [
-              "City bus",
-              "40-60 m³",
-              "20-30 g/h",
-              "30 min"
-            ],
-            [
-              "Articulated bus",
-              "80-100 m³",
-              "30-50 g/h",
-              "40 min"
-            ],
-            [
-              "Tram/trolleybus",
-              "50-80 m³",
-              "20-40 g/h",
-              "35 min"
-            ]
+            ["Minibus", "15-25 m³", "5-10 g/h", "20 min"],
+            ["City bus", "40-60 m³", "20-30 g/h", "30 min"],
+            ["Articulated bus", "80-100 m³", "30-50 g/h", "40 min"],
+            ["Tram/trolleybus", "50-80 m³", "20-40 g/h", "35 min"]
           ]
         },
         "organizationOptions": {
@@ -375,84 +297,32 @@
           "title": "Power supply from vehicle electrical system",
           "text": "Ozonators can operate from vehicle electrical system, allowing treatment without external power connection.",
           "highlight": "Treatment requires no staff participation — just turn on the ozonator and leave. No consumables reduce operating costs.",
-          "tableHeaders": [
-            "Power type",
-            "Application",
-            "Advantages"
-          ],
+          "tableHeaders": ["Power type", "Application", "Advantages"],
           "tableCaption": "Ozonator power supply options",
           "tableData": [
-            [
-              "12V DC",
-              "Minibus, microbus",
-              "Standard vehicle power"
-            ],
-            [
-              "24V DC",
-              "Buses, trolleybuses",
-              "Increased power"
-            ],
-            [
-              "220V AC",
-              "Depots, parks",
-              "Maximum capacity"
-            ],
-            [
-              "Battery",
-              "Mobile teams",
-              "Autonomy"
-            ]
+            ["12V DC", "Minibus, microbus", "Standard vehicle power"],
+            ["24V DC", "Buses, trolleybuses", "Increased power"],
+            ["220V AC", "Depots, parks", "Maximum capacity"],
+            ["Battery", "Mobile teams", "Autonomy"]
           ]
         },
         "pathogenEfficiency": {
           "title": "Effectiveness against pathogens",
-          "tableHeaders": [
-            "Pathogen",
-            "Time at 20 mg/m³",
-            "Effectiveness"
-          ],
+          "tableHeaders": ["Pathogen", "Time at 20 mg/m³", "Effectiveness"],
           "tableCaption": "Pathogen inactivation time in transport cabin",
           "tableData": [
-            [
-              "Coronaviruses (COVID-19)",
-              "10-15 min",
-              "99.9%"
-            ],
-            [
-              "Influenza viruses",
-              "5-10 min",
-              "99.9%"
-            ],
-            [
-              "Staphylococcus aureus",
-              "10-15 min",
-              "99.9%"
-            ],
-            [
-              "E. coli",
-              "5-10 min",
-              "99.9%"
-            ],
-            [
-              "Mold and fungi",
-              "15-20 min",
-              "99%"
-            ],
-            [
-              "Odors (organic)",
-              "20-30 min",
-              "100%"
-            ]
+            ["Coronaviruses (COVID-19)", "10-15 min", "99.9%"],
+            ["Influenza viruses", "5-10 min", "99.9%"],
+            ["Staphylococcus aureus", "10-15 min", "99.9%"],
+            ["E. coli", "5-10 min", "99.9%"],
+            ["Mold and fungi", "15-20 min", "99%"],
+            ["Odors (organic)", "20-30 min", "100%"]
           ]
         },
         "comparison": {
           "title": "Disinfection method comparison",
           "tableTitle": "Ozonation vs chemical treatment",
-          "headers": [
-            "Criterion",
-            "Ozonation",
-            "Chemical treatment"
-          ],
+          "headers": ["Criterion", "Ozonation", "Chemical treatment"],
           "rows": [
             {
               "parameter": "Treatment time",
@@ -579,33 +449,13 @@
         "odorProblem": {
           "title": "Odor problem in gyms",
           "text": "Sweat odor in gyms is the result of bacterial activity on human skin. Regular cleaning and air fresheners only mask the problem. Ozone breaks down odor molecules and destroys the bacteria that produce them.",
-          "tableHeaders": [
-            "Odor type",
-            "Source",
-            "Elimination time"
-          ],
+          "tableHeaders": ["Odor type", "Source", "Elimination time"],
           "tableCaption": "Ozone effectiveness against odors",
           "tableData": [
-            [
-              "Sweat",
-              "Skin bacteria",
-              "30-60 min"
-            ],
-            [
-              "Dampness",
-              "Mold and fungi",
-              "60-90 min"
-            ],
-            [
-              "Stale air",
-              "Insufficient ventilation",
-              "40-60 min"
-            ],
-            [
-              "Rubber",
-              "Flooring and mats",
-              "90-120 min"
-            ]
+            ["Sweat", "Skin bacteria", "30-60 min"],
+            ["Dampness", "Mold and fungi", "60-90 min"],
+            ["Stale air", "Insufficient ventilation", "40-60 min"],
+            ["Rubber", "Flooring and mats", "90-120 min"]
           ]
         },
         "process": {
@@ -636,44 +486,14 @@
             "title": "Calculation formula:",
             "text": "1 g/h ozone capacity per 25 m³ of room volume. For rooms with high contamination or large surface area, increase capacity by 20–30%."
           },
-          "tableHeaders": [
-            "Facility type",
-            "Volume",
-            "Capacity",
-            "Time"
-          ],
+          "tableHeaders": ["Facility type", "Volume", "Capacity", "Time"],
           "tableCaption": "Recommended ozone generator capacity",
           "tableData": [
-            [
-              "Fitness hall",
-              "200-500 m³",
-              "10-20 g/h",
-              "120 min"
-            ],
-            [
-              "Locker room",
-              "50-100 m³",
-              "3-5 g/h",
-              "90 min"
-            ],
-            [
-              "Gym",
-              "300-600 m³",
-              "15-25 g/h",
-              "150 min"
-            ],
-            [
-              "Sports arena",
-              "2000-5000 m³",
-              "80-200 g/h",
-              "180 min"
-            ],
-            [
-              "Pool (air)",
-              "500-1500 m³",
-              "20-60 g/h",
-              "120 min"
-            ]
+            ["Fitness hall", "200-500 m³", "10-20 g/h", "120 min"],
+            ["Locker room", "50-100 m³", "3-5 g/h", "90 min"],
+            ["Gym", "300-600 m³", "15-25 g/h", "150 min"],
+            ["Sports arena", "2000-5000 m³", "80-200 g/h", "180 min"],
+            ["Pool (air)", "500-1500 m³", "20-60 g/h", "120 min"]
           ]
         },
         "specialZones": {
@@ -699,53 +519,21 @@
         },
         "pathogens": {
           "title": "Effectiveness against pathogens",
-          "tableHeaders": [
-            "Pathogen",
-            "Inactivation time",
-            "Efficiency"
-          ],
+          "tableHeaders": ["Pathogen", "Inactivation time", "Efficiency"],
           "tableCaption": "Pathogen inactivation time (concentration 20 mg/m³)",
           "tableData": [
-            [
-              "Trichophyton (athlete's foot)",
-              "20-30 min",
-              "99.9%"
-            ],
-            [
-              "Candida albicans",
-              "15-20 min",
-              "99.9%"
-            ],
-            [
-              "Staphylococcus aureus",
-              "10-15 min",
-              "99.99%"
-            ],
-            [
-              "Influenza viruses",
-              "5-10 min",
-              "99.99%"
-            ],
-            [
-              "Mold (spores)",
-              "30-40 min",
-              "99%"
-            ],
-            [
-              "E. coli",
-              "5-10 min",
-              "99.99%"
-            ]
+            ["Trichophyton (athlete's foot)", "20-30 min", "99.9%"],
+            ["Candida albicans", "15-20 min", "99.9%"],
+            ["Staphylococcus aureus", "10-15 min", "99.99%"],
+            ["Influenza viruses", "5-10 min", "99.99%"],
+            ["Mold (spores)", "30-40 min", "99%"],
+            ["E. coli", "5-10 min", "99.99%"]
           ]
         },
         "comparison": {
           "title": "Comparison with traditional cleaning",
           "tableTitle": "Ozonation vs chemical disinfection",
-          "headers": [
-            "Criterion",
-            "Ozonation",
-            "Chemical treatment"
-          ],
+          "headers": ["Criterion", "Ozonation", "Chemical treatment"],
           "rows": [
             {
               "parameter": "Sweat odor elimination",
@@ -873,32 +661,12 @@
           "title": "Odor problem in malls",
           "intro": "Shopping malls combine many odor sources: food courts, restrooms, perfume stores, storage areas. Ozone effectively neutralizes all these odors, not masking them, but destroying the molecules of odorous substances.",
           "tableCaption": "Odor sources and solutions",
-          "tableHeaders": [
-            "Zone",
-            "Odor source",
-            "Solution"
-          ],
+          "tableHeaders": ["Zone", "Odor source", "Solution"],
           "tableData": [
-            [
-              "Food court",
-              "Food preparation, grease, spices",
-              "Night ozonation + duct ozone generators"
-            ],
-            [
-              "Restrooms",
-              "Organic substances",
-              "Continuous low-concentration ozonation"
-            ],
-            [
-              "Atrium",
-              "Odor mixing, stuffiness",
-              "Ventilation integration"
-            ],
-            [
-              "Parking",
-              "Exhaust fumes",
-              "Duct ozone generators in exhaust"
-            ]
+            ["Food court", "Food preparation, grease, spices", "Night ozonation + duct ozone generators"],
+            ["Restrooms", "Organic substances", "Continuous low-concentration ozonation"],
+            ["Atrium", "Odor mixing, stuffiness", "Ventilation integration"],
+            ["Parking", "Exhaust fumes", "Duct ozone generators in exhaust"]
           ]
         },
         "organization": {
@@ -944,85 +712,27 @@
         "equipment": {
           "title": "Equipment calculation",
           "tableCaption": "Recommended capacity for mall zones",
-          "tableHeaders": [
-            "Zone",
-            "Area",
-            "Capacity",
-            "Mode"
-          ],
+          "tableHeaders": ["Zone", "Area", "Capacity", "Mode"],
           "tableData": [
-            [
-              "Shopping gallery",
-              "1000-5000 m²",
-              "50-200 g/h",
-              "Night treatment"
-            ],
-            [
-              "Food court",
-              "500-1500 m²",
-              "20-60 g/h",
-              "Daily after closing"
-            ],
-            [
-              "Restroom",
-              "20-50 m²",
-              "1-2 g/h",
-              "Continuous or cycles"
-            ],
-            [
-              "Storage",
-              "100-300 m²",
-              "5-15 g/h",
-              "2-3 times per week"
-            ],
-            [
-              "Parking",
-              "5000-20000 m²",
-              "100-500 g/h",
-              "Ventilation integration"
-            ]
+            ["Shopping gallery", "1000-5000 m²", "50-200 g/h", "Night treatment"],
+            ["Food court", "500-1500 m²", "20-60 g/h", "Daily after closing"],
+            ["Restroom", "20-50 m²", "1-2 g/h", "Continuous or cycles"],
+            ["Storage", "100-300 m²", "5-15 g/h", "2-3 times per week"],
+            ["Parking", "5000-20000 m²", "100-500 g/h", "Ventilation integration"]
           ],
           "highlight": "For large shopping malls, comprehensive ozonation system design is recommended, taking into account building architecture, ventilation systems and operating mode. We develop custom solutions."
         },
         "pathogens": {
           "title": "Effectiveness against pathogens",
           "tableCaption": "Inactivation time on contact surfaces",
-          "tableHeaders": [
-            "Pathogen",
-            "Time (20 mg/m³)",
-            "Effectiveness"
-          ],
+          "tableHeaders": ["Pathogen", "Time (20 mg/m³)", "Effectiveness"],
           "tableData": [
-            [
-              "Coronaviruses",
-              "10-15 min",
-              "99.9%"
-            ],
-            [
-              "Influenza viruses",
-              "5-10 min",
-              "99.9%"
-            ],
-            [
-              "Norovirus",
-              "15-20 min",
-              "99.9%"
-            ],
-            [
-              "Staphylococcus aureus",
-              "10-15 min",
-              "99.99%"
-            ],
-            [
-              "E. coli",
-              "5-10 min",
-              "99.99%"
-            ],
-            [
-              "Mold",
-              "30-40 min",
-              "99%"
-            ]
+            ["Coronaviruses", "10-15 min", "99.9%"],
+            ["Influenza viruses", "5-10 min", "99.9%"],
+            ["Norovirus", "15-20 min", "99.9%"],
+            ["Staphylococcus aureus", "10-15 min", "99.99%"],
+            ["E. coli", "5-10 min", "99.99%"],
+            ["Mold", "30-40 min", "99%"]
           ]
         },
         "benefits": {
@@ -1047,11 +757,7 @@
         "comparison": {
           "title": "Disinfection approach comparison",
           "tableTitle": "Shopping mall treatment methods",
-          "headers": [
-            "Criterion",
-            "Ozonation",
-            "Chemical treatment"
-          ],
+          "headers": ["Criterion", "Ozonation", "Chemical treatment"],
           "rows": [
             {
               "parameter": "Air treatment",

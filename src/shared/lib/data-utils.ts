@@ -37,11 +37,7 @@ export function convertHeadersObjectToArray(
 
   // Convert object to array in the expected order
   const keys = Object.keys(headers)
-  const result = [
-    headers[keys[0]] ?? '',
-    headers[keys[1]] ?? '',
-    headers[keys[2]] ?? '',
-  ]
+  const result = [headers[keys[0]] ?? '', headers[keys[1]] ?? '', headers[keys[2]] ?? '']
 
   if (keys[3] && headers[keys[3]]) {
     result.push(headers[keys[3]])
@@ -74,10 +70,7 @@ export function ensureHeadersArray(headers: Record<string, string> | string[] | 
  */
 export function convertRowsObjectToArray(
   rows:
-    | Record<
-        string,
-        { parameter?: string; value1?: string; value2?: string; value3?: string }
-      >
+    | Record<string, { parameter?: string; value1?: string; value2?: string; value3?: string }>
     | Array<{ parameter?: string; value1?: string; value2?: string; value3?: string }>
     | string[][]
     | undefined,

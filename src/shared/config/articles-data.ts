@@ -89,8 +89,7 @@ export const ARTICLES: ArticleMeta[] = [
     slug: 'ozone-seed-treatment-research',
     image: 'https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=800&q=80',
     date: '2025-02-04',
-    sourceName:
-      'Институт растениеводства им. В.Я. Юрьева УААН, ННЦ «Харьковский физико-технический институт»',
+    sourceName: 'Институт растениеводства им. В.Я. Юрьева УААН, ННЦ «Харьковский физико-технический институт»',
     sourceUrl: 'https://www.kaufmanntec.ru/publics/2/',
   },
   {

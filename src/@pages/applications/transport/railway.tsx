@@ -134,21 +134,25 @@ export function RailwayPage({ staticData, lang }: RailwayPageProps) {
           <ArticleSection title={data?.sections?.comparison?.title}>
             <ComparisonTable
               title={data?.sections?.comparison?.comparisonTitle}
-              headers={data?.sections?.comparison?.tableHeaders as [string, string, string] | [string, string, string, string]}
+              headers={
+                data?.sections?.comparison?.tableHeaders as [string, string, string] | [string, string, string, string]
+              }
               rows={data?.sections?.comparison?.tableData}
             />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.integration?.title}>
             <FeatureGrid columns={2}>
-              {(data?.sections?.integration?.features || []).map((item: { title: string; description: string }, idx: number) => (
-                <FeatureCard
-                  key={idx}
-                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                  title={item.title}
-                  description={item.description}
-                />
-              ))}
+              {(data?.sections?.integration?.features || []).map(
+                (item: { title: string; description: string }, idx: number) => (
+                  <FeatureCard
+                    key={idx}
+                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                    title={item.title}
+                    description={item.description}
+                  />
+                ),
+              )}
             </FeatureGrid>
           </ArticleSection>
 
@@ -157,9 +161,7 @@ export function RailwayPage({ staticData, lang }: RailwayPageProps) {
             <BulletList items={data?.sections?.freight?.items} />
 
             <HighlightBox variant="info">
-              <strong>{data?.sections?.freight?.highlight?.title}</strong>
-              {' '}
-              {data?.sections?.freight?.highlight?.text}
+              <strong>{data?.sections?.freight?.highlight?.title}</strong> {data?.sections?.freight?.highlight?.text}
             </HighlightBox>
           </ArticleSection>
 
@@ -187,9 +189,7 @@ export function RailwayPage({ staticData, lang }: RailwayPageProps) {
                 data.sections.safety.warning
               ) : (
                 <>
-                  <strong>{data?.sections?.safety?.warning?.title}</strong>
-                  {' '}
-                  {data?.sections?.safety?.warning?.text}
+                  <strong>{data?.sections?.safety?.warning?.title}</strong> {data?.sections?.safety?.warning?.text}
                 </>
               )}
             </HighlightBox>

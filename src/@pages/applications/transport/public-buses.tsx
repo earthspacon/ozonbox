@@ -32,9 +32,7 @@ export function PublicBusesPage({ staticData, lang }: PublicBusesPageProps) {
   const ns = getCategoryNamespace('transport')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'public-buses'?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { 'public-buses'?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.['public-buses']
 
   const breadcrumbs = [
@@ -165,9 +163,7 @@ export function PublicBusesPage({ staticData, lang }: PublicBusesPageProps) {
             <ComparisonTable
               title={data?.sections?.economics?.comparisonTitle}
               headers={
-                data?.sections?.economics?.tableHeaders as
-                  | [string, string, string]
-                  | [string, string, string, string]
+                data?.sections?.economics?.tableHeaders as [string, string, string] | [string, string, string, string]
               }
               rows={
                 data?.sections?.economics?.tableData as unknown as Array<{

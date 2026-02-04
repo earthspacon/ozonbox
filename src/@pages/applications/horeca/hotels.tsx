@@ -42,10 +42,7 @@ export function HotelsPage({ staticData, lang }: HotelsPageProps) {
 
   return (
     <Layout>
-      <Seo
-        title={t('subcategories.hotels.title', { ns })}
-        description={t('subcategories.hotels.shortDesc', { ns })}
-      />
+      <Seo title={t('subcategories.hotels.title', { ns })} description={t('subcategories.hotels.shortDesc', { ns })} />
 
       <ArticleHero
         title={t('subcategories.hotels.title', { ns })}
@@ -139,10 +136,7 @@ export function HotelsPage({ staticData, lang }: HotelsPageProps) {
 
           <ArticleSection title={data?.sections?.equipment?.title}>
             <Paragraph>{data?.sections?.equipment?.intro}</Paragraph>
-            <DataTable
-              headers={data?.sections?.equipment?.tableHeaders}
-              rows={data?.sections?.equipment?.tableData}
-            />
+            <DataTable headers={data?.sections?.equipment?.tableHeaders} rows={data?.sections?.equipment?.tableData} />
           </ArticleSection>
         </div>
       </article>

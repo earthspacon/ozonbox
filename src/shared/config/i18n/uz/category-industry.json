@@ -141,8 +141,18 @@
           ],
           "tableRows": [
             ["Refinery, neft depolar", "50-500", "Yengil fraktsiyalar, benzol, toluol", "Flotatsiya + ozonlash"],
-            ["Tashish, benzin stantsiyalari", "10-100", "Moylashgan maslovlarni, yoqilg'i, Yuzaktivsiz moddalari", "To'g'ridan-to'g'ri ozonlash"],
-            ["Mashina qurilish", "20-200", "Sovitish suyuqliqlari, emulsiyalar, moylashgan maslovlarni", "Demulsifikatsiya + ozonlash"],
+            [
+              "Tashish, benzin stantsiyalari",
+              "10-100",
+              "Moylashgan maslovlarni, yoqilg'i, Yuzaktivsiz moddalari",
+              "To'g'ridan-to'g'ri ozonlash"
+            ],
+            [
+              "Mashina qurilish",
+              "20-200",
+              "Sovitish suyuqliqlari, emulsiyalar, moylashgan maslovlarni",
+              "Demulsifikatsiya + ozonlash"
+            ],
             ["Kemir ta'mirlash", "50-300", "Og'ir fraktsiyalar, smaolalar", "Ko'p bosqichli tozalash"],
             ["Metalurjiya", "10-50", "Texnik moylashgan maslovlarni, fumar", "Flokulyatsiya + ozonlash"]
           ],
@@ -331,7 +341,11 @@
             "caption": "Qo'llanish sanoatlari va maxsus vazifalari",
             "headers": ["Sanoat", "Asosiy vazifalar", "Tozalash rejimi"],
             "rows": [
-              ["Oziq-ovqat ishlab chiqarish", "Dezinfeksiya, hidni olib tashlash, mahsulot qo'l davrini uzoqartirish", "Kunlik, kechki smena"],
+              [
+                "Oziq-ovqat ishlab chiqarish",
+                "Dezinfeksiya, hidni olib tashlash, mahsulot qo'l davrini uzoqartirish",
+                "Kunlik, kechki smena"
+              ],
               ["Farmatsevtik", "Toza xonalarning A-D sinifini sterillik", "Har smena keyin"],
               ["Qadoqlash qurillalari", "Qadoqlash materiallari va hava dezinfeksiyasi", "Doimiy past-doza"],
               ["Matoli ishlab chiqarish", "Hidni olib tashlash, changning kamaytirilishi", "Davriy"],

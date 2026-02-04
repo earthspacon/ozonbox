@@ -58,9 +58,13 @@
   "sourcesTitle": "Adabiyotlar",
   "sources": [
     { "title": "O'simliklarni himoya qilish ma'lumotnomasi. Kiyev, «Urozhay», 1999. — 743 b." },
-    { "title": "Urug'larni ekishdan oldin ishlov berish nazariyasi va amaliyoti. K.: VASXNILning janubiy bo'limi, 1984. — 133 b." },
+    {
+      "title": "Urug'larni ekishdan oldin ishlov berish nazariyasi va amaliyoti. K.: VASXNILning janubiy bo'limi, 1984. — 133 b."
+    },
     { "title": "Ozone Gets OK For Use in U.S. Food Industry // EPRI Journal — Vol.22, N 4, 1997." },
-    { "title": "Dindorogo V., Kirichenko V., Petrenkova V., Golota V., Suxomlin E., Zavada L., Pugach S. // Zerno i xleb. №3. 2004. B. 40–41." },
+    {
+      "title": "Dindorogo V., Kirichenko V., Petrenkova V., Golota V., Suxomlin E., Zavada L., Pugach S. // Zerno i xleb. №3. 2004. B. 40–41."
+    },
     { "title": "United States Patent #6544486 B2. Ozone Generator. Golota V. et al. April 8, 2003." }
   ]
 }

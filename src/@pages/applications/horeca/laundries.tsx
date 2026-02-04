@@ -32,9 +32,7 @@ export function LaundriesPage({ staticData, lang }: LaundriesPageProps) {
   const ns = getCategoryNamespace('horeca')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { laundries?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { laundries?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.laundries
 
   const breadcrumbs = [
@@ -45,7 +43,10 @@ export function LaundriesPage({ staticData, lang }: LaundriesPageProps) {
 
   return (
     <Layout>
-      <Seo title={t('subcategories.laundries.title', { ns })} description={t('subcategories.laundries.shortDesc', { ns })} />
+      <Seo
+        title={t('subcategories.laundries.title', { ns })}
+        description={t('subcategories.laundries.shortDesc', { ns })}
+      />
 
       <ArticleHero
         title={t('subcategories.laundries.title', { ns })}
@@ -106,13 +107,17 @@ export function LaundriesPage({ staticData, lang }: LaundriesPageProps) {
           <ArticleSection title={data?.sections?.economicEffects?.title}>
             <ComparisonTable
               title={data?.sections?.economicEffects?.comparisonTitle}
-              headers={data?.sections?.economicEffects?.headers as [string, string, string] | [string, string, string, string]}
-              rows={data?.sections?.economicEffects?.rows as Array<{
-                parameter: string
-                value1: string
-                value2: string
-                value3?: string
-              }>}
+              headers={
+                data?.sections?.economicEffects?.headers as [string, string, string] | [string, string, string, string]
+              }
+              rows={
+                data?.sections?.economicEffects?.rows as Array<{
+                  parameter: string
+                  value1: string
+                  value2: string
+                  value3?: string
+                }>
+              }
             />
           </ArticleSection>
 

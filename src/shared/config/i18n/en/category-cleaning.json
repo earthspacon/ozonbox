@@ -60,11 +60,7 @@
         "comparison": {
           "title": "Why ozone is more effective than other methods",
           "tableTitle": "Comparison of odor removal methods",
-          "headers": [
-            "Method",
-            "Ozonation",
-            "Fresheners/sorbents"
-          ],
+          "headers": ["Method", "Ozonation", "Fresheners/sorbents"],
           "rows": [
             {
               "parameter": "Principle of action",
@@ -105,38 +101,14 @@
             "title": "Important:",
             "text": "At 0-5°C ozone remains active for several days, while at 50°C it decays in 20-30 minutes. This allows regulating treatment intensity with temperature mode."
           },
-          "tableHeaders": [
-            "Parameter",
-            "Impact",
-            "Recommendation"
-          ],
+          "tableHeaders": ["Parameter", "Impact", "Recommendation"],
           "tableCaption": "Recommended ozonation parameters",
           "tableData": [
-            [
-              "Ozone concentration",
-              "Higher — faster result",
-              "10-80 mg/m³ depending on task"
-            ],
-            [
-              "Temperature",
-              "Lower T means more stable ozone",
-              "Optimal 15-25°C"
-            ],
-            [
-              "Humidity",
-              "High humidity accelerates decay",
-              "40-60% relative humidity"
-            ],
-            [
-              "Treatment time",
-              "Depends on odor intensity",
-              "From 2 to 24 hours"
-            ],
-            [
-              "Sealing",
-              "Leaks reduce concentration",
-              "Close windows, doors, ventilation"
-            ]
+            ["Ozone concentration", "Higher — faster result", "10-80 mg/m³ depending on task"],
+            ["Temperature", "Lower T means more stable ozone", "Optimal 15-25°C"],
+            ["Humidity", "High humidity accelerates decay", "40-60% relative humidity"],
+            ["Treatment time", "Depends on odor intensity", "From 2 to 24 hours"],
+            ["Sealing", "Leaks reduce concentration", "Close windows, doors, ventilation"]
           ]
         },
         "process": {
@@ -289,48 +261,19 @@
             "title": "Important:",
             "text": "Ozone does not physically remove soot — it only eliminates the odor. Mechanical cleaning is mandatory before ozonation. Also, ozone does not restore damaged materials — charred surfaces require repair."
           },
-          "tableHeaders": [
-            "Damage level",
-            "Concentration",
-            "Cycle time",
-            "Number of cycles"
-          ],
+          "tableHeaders": ["Damage level", "Concentration", "Cycle time", "Number of cycles"],
           "tableCaption": "Recommended post-fire ozonation parameters",
           "tableData": [
-            [
-              "Light smoke",
-              "20-40 mg/m³",
-              "4-8 hours",
-              "1"
-            ],
-            [
-              "Moderate smoke",
-              "40-60 mg/m³",
-              "12-24 hours",
-              "1-2"
-            ],
-            [
-              "Heavy smoke",
-              "60-80 mg/m³",
-              "24-48 hours",
-              "2-3"
-            ],
-            [
-              "Very heavy",
-              "80+ mg/m³",
-              "48-72 hours",
-              "3+"
-            ]
+            ["Light smoke", "20-40 mg/m³", "4-8 hours", "1"],
+            ["Moderate smoke", "40-60 mg/m³", "12-24 hours", "1-2"],
+            ["Heavy smoke", "60-80 mg/m³", "24-48 hours", "2-3"],
+            ["Very heavy", "80+ mg/m³", "48-72 hours", "3+"]
           ]
         },
         "comparison": {
           "title": "Comparison of fire smoke odor removal methods",
           "tableTitle": "Ozonation vs other methods",
-          "headers": [
-            "Criterion",
-            "Ozonation",
-            "Major renovation"
-          ],
+          "headers": ["Criterion", "Ozonation", "Major renovation"],
           "rows": [
             {
               "parameter": "Cost",
@@ -403,43 +346,15 @@
         "economic": {
           "title": "Economic effect",
           "text": "Ozonation allows significant savings on post-fire restoration:",
-          "tableHeaders": [
-            "Expense item",
-            "With ozonation",
-            "Without ozonation"
-          ],
+          "tableHeaders": ["Expense item", "With ozonation", "Without ozonation"],
           "tableCaption": "Restoration cost comparison (example for 60 m² apartment)",
           "tableData": [
-            [
-              "Finish removal",
-              "—",
-              "$500"
-            ],
-            [
-              "New finishes",
-              "—",
-              "$2,000"
-            ],
-            [
-              "Furniture cleaning",
-              "$150",
-              "$150"
-            ],
-            [
-              "Ozonation",
-              "$200",
-              "—"
-            ],
-            [
-              "New furniture (replacement)",
-              "—",
-              "$1,500"
-            ],
-            [
-              "TOTAL",
-              "$350",
-              "$4,150"
-            ]
+            ["Finish removal", "—", "$500"],
+            ["New finishes", "—", "$2,000"],
+            ["Furniture cleaning", "$150", "$150"],
+            ["Ozonation", "$200", "—"],
+            ["New furniture (replacement)", "—", "$1,500"],
+            ["TOTAL", "$350", "$4,150"]
           ]
         }
       }
@@ -501,38 +416,14 @@
         },
         "types": {
           "title": "Types of pet odors",
-          "tableHeaders": [
-            "Odor source",
-            "Features",
-            "Treatment mode"
-          ],
+          "tableHeaders": ["Odor source", "Features", "Treatment mode"],
           "tableCaption": "Characteristics of different odors and treatment methods",
           "tableData": [
-            [
-              "Cat urine",
-              "Most persistent, contains uric acid",
-              "40-60 mg/m³, 6-8 hours, 2-3 cycles"
-            ],
-            [
-              "Dog urine",
-              "Less concentrated, easier to remove",
-              "20-40 mg/m³, 4-6 hours, 1-2 cycles"
-            ],
-            [
-              "Marks (territory)",
-              "Concentrated, with pheromones",
-              "40-60 mg/m³, 8-12 hours, 2-3 cycles"
-            ],
-            [
-              "Fur odor",
-              "Organic, from sebum",
-              "10-20 mg/m³, 2-4 hours, 1 cycle"
-            ],
-            [
-              "Litter box odor",
-              "Mixture of urine and feces",
-              "20-40 mg/m³, 4-6 hours, 1-2 cycles"
-            ]
+            ["Cat urine", "Most persistent, contains uric acid", "40-60 mg/m³, 6-8 hours, 2-3 cycles"],
+            ["Dog urine", "Less concentrated, easier to remove", "20-40 mg/m³, 4-6 hours, 1-2 cycles"],
+            ["Marks (territory)", "Concentrated, with pheromones", "40-60 mg/m³, 8-12 hours, 2-3 cycles"],
+            ["Fur odor", "Organic, from sebum", "10-20 mg/m³, 2-4 hours, 1 cycle"],
+            ["Litter box odor", "Mixture of urine and feces", "20-40 mg/m³, 4-6 hours, 1-2 cycles"]
           ]
         },
         "process": {
@@ -563,11 +454,7 @@
         "comparison": {
           "title": "Comparison of odor removal methods",
           "tableTitle": "Ozonation vs conventional products",
-          "headers": [
-            "Criterion",
-            "Ozonation",
-            "Enzymatic/chemical products"
-          ],
+          "headers": ["Criterion", "Ozonation", "Enzymatic/chemical products"],
           "rows": [
             {
               "parameter": "Principle of action",
@@ -737,50 +624,15 @@
         },
         "modes": {
           "title": "Treatment modes for different tasks",
-          "tableHeaders": [
-            "Type of contamination",
-            "Concentration",
-            "Time",
-            "Features"
-          ],
+          "tableHeaders": ["Type of contamination", "Concentration", "Time", "Features"],
           "tableCaption": "Recommended car interior ozonation parameters",
           "tableData": [
-            [
-              "Light odors",
-              "10-20 mg/m³",
-              "20 min",
-              "Preventive treatment"
-            ],
-            [
-              "Tobacco smoke (light)",
-              "20-30 mg/m³",
-              "30 min",
-              "After smoking passenger"
-            ],
-            [
-              "Tobacco smoke (strong)",
-              "30-40 mg/m³",
-              "45-60 min",
-              "Smoker's car"
-            ],
-            [
-              "Pet odors",
-              "30-40 mg/m³",
-              "40-60 min",
-              "With recirculation on"
-            ],
-            [
-              "After flooding",
-              "40-60 mg/m³",
-              "60 min",
-              "After interior drying"
-            ],
-            [
-              "AC disinfection",
-              "20-30 mg/m³",
-              "30 min",
-              "Recirculation only"
-            ]
+            ["Light odors", "10-20 mg/m³", "20 min", "Preventive treatment"],
+            ["Tobacco smoke (light)", "20-30 mg/m³", "30 min", "After smoking passenger"],
+            ["Tobacco smoke (strong)", "30-40 mg/m³", "45-60 min", "Smoker's car"],
+            ["Pet odors", "30-40 mg/m³", "40-60 min", "With recirculation on"],
+            ["After flooding", "40-60 mg/m³", "60 min", "After interior drying"],
+            ["AC disinfection", "20-30 mg/m³", "30 min", "Recirculation only"]
           ]
         },
         "service": {
@@ -819,48 +671,20 @@
             "Reputation risks — odor complaints lower ratings",
             "Regularity — possibility of service contracts"
           ],
-          "tableHeaders": [
-            "Fleet type",
-            "Recommended frequency",
-            "Purpose"
-          ],
+          "tableHeaders": ["Fleet type", "Recommended frequency", "Purpose"],
           "tableCaption": "Recommended ozonation frequency",
           "tableData": [
-            [
-              "Car-sharing",
-              "Once a week",
-              "Prevent odor accumulation"
-            ],
-            [
-              "Economy taxi",
-              "Once every 2 weeks",
-              "Maintain interior freshness"
-            ],
-            [
-              "Business/comfort taxi",
-              "Once a week",
-              "High quality standard"
-            ],
-            [
-              "Rental cars",
-              "After each customer",
-              "Preparation for next rental"
-            ],
-            [
-              "Corporate transport",
-              "Once a month",
-              "Preventive treatment"
-            ]
+            ["Car-sharing", "Once a week", "Prevent odor accumulation"],
+            ["Economy taxi", "Once every 2 weeks", "Maintain interior freshness"],
+            ["Business/comfort taxi", "Once a week", "High quality standard"],
+            ["Rental cars", "After each customer", "Preparation for next rental"],
+            ["Corporate transport", "Once a month", "Preventive treatment"]
           ]
         },
         "comparison": {
           "title": "Comparison with alternative methods",
           "tableTitle": "Ozonation vs chemical air fresheners",
-          "headers": [
-            "Parameter",
-            "Ozonation",
-            "Fresheners/neutralizers"
-          ],
+          "headers": ["Parameter", "Ozonation", "Fresheners/neutralizers"],
           "rows": [
             {
               "parameter": "Principle of action",
@@ -900,38 +724,14 @@
             "title": "Important:",
             "text": "After ozonating a leather interior, it's recommended to treat the leather with conditioner. Ozone can slightly dry natural leather, though at correct concentrations this is not critical."
           },
-          "tableHeaders": [
-            "Interior type",
-            "Features",
-            "Recommendations"
-          ],
+          "tableHeaders": ["Interior type", "Features", "Recommendations"],
           "tableCaption": "Recommendations by upholstery type",
           "tableData": [
-            [
-              "Fabric",
-              "Absorbs odors well",
-              "Increase treatment time by 20%"
-            ],
-            [
-              "Leather",
-              "Less absorption, easier to treat",
-              "Standard mode"
-            ],
-            [
-              "Synthetic leather",
-              "Similar to natural leather",
-              "Standard mode"
-            ],
-            [
-              "Alcantara",
-              "Microfiber, absorbs well",
-              "Same as fabric interior"
-            ],
-            [
-              "Combined",
-              "Different materials",
-              "Focus on fabric elements"
-            ]
+            ["Fabric", "Absorbs odors well", "Increase treatment time by 20%"],
+            ["Leather", "Less absorption, easier to treat", "Standard mode"],
+            ["Synthetic leather", "Similar to natural leather", "Standard mode"],
+            ["Alcantara", "Microfiber, absorbs well", "Same as fabric interior"],
+            ["Combined", "Different materials", "Focus on fabric elements"]
           ]
         }
       }

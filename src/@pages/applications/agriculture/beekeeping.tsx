@@ -30,9 +30,7 @@ export function BeekeepingPage({ staticData, lang }: BeekeepingPageProps) {
   const ns = getCategoryNamespace('agriculture')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { beekeeping?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { beekeeping?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.beekeeping
 
   const breadcrumbs = [
@@ -101,8 +99,7 @@ export function BeekeepingPage({ staticData, lang }: BeekeepingPageProps) {
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data.highlightBoxes.research.label}</strong>{' '}
-            {data.highlightBoxes.research.text}
+            <strong>{data.highlightBoxes.research.label}</strong> {data.highlightBoxes.research.text}
           </HighlightBox>
 
           <ArticleSection title={data.sections.applications.title}>
@@ -165,8 +162,7 @@ export function BeekeepingPage({ staticData, lang }: BeekeepingPageProps) {
           </ArticleSection>
 
           <HighlightBox variant="warning">
-            <strong>{data.highlightBoxes.warning.label}</strong>{' '}
-            {data.highlightBoxes.warning.text}
+            <strong>{data.highlightBoxes.warning.label}</strong> {data.highlightBoxes.warning.text}
           </HighlightBox>
         </div>
       </article>

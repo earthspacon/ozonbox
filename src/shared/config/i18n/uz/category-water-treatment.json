@@ -36,11 +36,7 @@
       "sections": {
         "comparison": {
           "title": "Suvni dezinfeksiya qilish usullarini solishtirish",
-          "headers": [
-            "Parametr",
-            "Ozonlash",
-            "Xlorlash"
-          ],
+          "headers": ["Parametr", "Ozonlash", "Xlorlash"],
           "rows": [
             {
               "parameter": "Bakteriyalarga qarshi samaradorlik",
@@ -87,42 +83,14 @@
         "technicalParams": {
           "title": "Ozonlash texnik parametrlari",
           "tableCaption": "Ichimlik suvi uchun tavsiya etilgan parametrlar",
-          "tableHeaders": [
-            "Parametr",
-            "Qiymat",
-            "Normativ hujjat"
-          ],
+          "tableHeaders": ["Parametr", "Qiymat", "Normativ hujjat"],
           "tableData": [
-            [
-              "Ozon dozasi",
-              "1-3 mg/L",
-              "Suv sifatiiga qarab"
-            ],
-            [
-              "Qolgan ozon",
-              "0.1-0.3 mg/L",
-              "Ichimlik suvi standartlari"
-            ],
-            [
-              "Kontakt vaqti",
-              "4-10 daqiqa",
-              "10-20°C haroratda"
-            ],
-            [
-              "Suv pH",
-              "6.5-8.5",
-              "Optimal diapazon"
-            ],
-            [
-              "Suv harorati",
-              "4-25°C",
-              "Samarali diapazon"
-            ],
-            [
-              "Manba suvining loyqaligi",
-              "< 2 NTU",
-              "Tavsiya"
-            ]
+            ["Ozon dozasi", "1-3 mg/L", "Suv sifatiiga qarab"],
+            ["Qolgan ozon", "0.1-0.3 mg/L", "Ichimlik suvi standartlari"],
+            ["Kontakt vaqti", "4-10 daqiqa", "10-20°C haroratda"],
+            ["Suv pH", "6.5-8.5", "Optimal diapazon"],
+            ["Suv harorati", "4-25°C", "Samarali diapazon"],
+            ["Manba suvining loyqaligi", "< 2 NTU", "Tavsiya"]
           ],
           "infoLabel": "Muhim:",
           "infoText": "1-3 mg/L ozon dozasi to'liq suv dezinfeksiyasini ta'minlaydi. Yuqori organik yukda, organik birikmalarni oksidlash uchun doza 5 mg/L gacha oshiriladi."
@@ -170,43 +138,13 @@
         "effectiveness": {
           "title": "Dezinfeksiya samaradorligi",
           "tableCaption": "Patogenlarni inaktivatsiya qilish vaqti (CT qiymati, mg×min/L)",
-          "tableHeaders": [
-            "Patogen",
-            "Ozon",
-            "Xlor",
-            "UV (mJ/cm²)"
-          ],
+          "tableHeaders": ["Patogen", "Ozon", "Xlor", "UV (mJ/cm²)"],
           "tableData": [
-            [
-              "E. coli",
-              "0.02",
-              "0.4",
-              "7"
-            ],
-            [
-              "Poliomielit virusi",
-              "0.3",
-              "1.7",
-              "30"
-            ],
-            [
-              "Rotavirus",
-              "0.4",
-              "3.5",
-              "40"
-            ],
-            [
-              "Giardiya (sislar)",
-              "0.6",
-              "50",
-              "80"
-            ],
-            [
-              "Kriptosporidium",
-              "3.0",
-              "> 7200",
-              "12"
-            ]
+            ["E. coli", "0.02", "0.4", "7"],
+            ["Poliomielit virusi", "0.3", "1.7", "30"],
+            ["Rotavirus", "0.4", "3.5", "40"],
+            ["Giardiya (sislar)", "0.6", "50", "80"],
+            ["Kriptosporidium", "3.0", "> 7200", "12"]
           ],
           "highlightBox": "Ozon ayniqsa kriptosporidiumga qarshi samarali — diareyaga olib keladigan parazitlar. Ular deyarli xlorlashga chidamli (inaktivatsiya uchun 7200 mg×min/L dan ko'p xlor kerak), lekin ozonga zaif."
         },
@@ -234,37 +172,13 @@
         "productivity": {
           "title": "Ozonlash tizimlarining unumdorligi",
           "tableCaption": "Suvni tayyorlash uchun tavsiya etilgan uskunalar",
-          "tableHeaders": [
-            "Stansiya quvvati",
-            "Ozonator quvvati",
-            "Kontakt kamerasi"
-          ],
+          "tableHeaders": ["Stansiya quvvati", "Ozonator quvvati", "Kontakt kamerasi"],
           "tableData": [
-            [
-              "10 m³/h",
-              "20-30 g/h",
-              "1-2 m³"
-            ],
-            [
-              "50 m³/h",
-              "100-150 g/h",
-              "5-10 m³"
-            ],
-            [
-              "100 m³/h",
-              "200-300 g/h",
-              "10-20 m³"
-            ],
-            [
-              "500 m³/h",
-              "1000-1500 g/h",
-              "50-100 m³"
-            ],
-            [
-              "1000 m³/h",
-              "2000-3000 g/h",
-              "100-200 m³"
-            ]
+            ["10 m³/h", "20-30 g/h", "1-2 m³"],
+            ["50 m³/h", "100-150 g/h", "5-10 m³"],
+            ["100 m³/h", "200-300 g/h", "10-20 m³"],
+            ["500 m³/h", "1000-1500 g/h", "50-100 m³"],
+            ["1000 m³/h", "2000-3000 g/h", "100-200 m³"]
           ]
         },
         "regulations": {
@@ -300,11 +214,7 @@
         "disinfectionRate": "99.9%",
         "colorReduction": "80% gacha"
       },
-      "regulations": [
-        "Chiqindi suv chiqarish standartlari",
-        "Ekologik me'yorlar",
-        "Suv himoya qoidalari"
-      ],
+      "regulations": ["Chiqindi suv chiqarish standartlari", "Ekologik me'yorlar", "Suv himoya qoidalari"],
       "stats": {
         "bpkReduction": {
           "value": "95%",
@@ -338,11 +248,7 @@
         },
         "comparison": {
           "title": "Chiqindi suvlarni dezinfeksiya qilish usullarini solishtirish",
-          "headers": [
-            "Parametr",
-            "Ozonlash",
-            "Xlorlash"
-          ],
+          "headers": ["Parametr", "Ozonlash", "Xlorlash"],
           "rows": [
             {
               "parameter": "Dezinfeksiya samaradorligi",
@@ -389,42 +295,14 @@
         "technicalParams": {
           "title": "Chiqindi suvlarni ozonlashning texnik parametrlari",
           "caption": "Chiqindi turiga qarab tavsiya etilgan ozon dozalari",
-          "headers": [
-            "Chiqindi suv turi",
-            "Ozon dozasi, mg/L",
-            "Kontakt vaqti, min"
-          ],
+          "headers": ["Chiqindi suv turi", "Ozon dozasi, mg/L", "Kontakt vaqti, min"],
           "rows": [
-            [
-              "Uy-joy (biologik tozalashdan keyin)",
-              "5-15",
-              "10-15"
-            ],
-            [
-              "Sanoat (organik)",
-              "20-50",
-              "15-30"
-            ],
-            [
-              "Neft o'z ichiga olgan chiqindilar",
-              "30-100",
-              "20-40"
-            ],
-            [
-              "Fenol o'z ichiga olgan chiqindilar",
-              "15-30",
-              "15-20"
-            ],
-            [
-              "Sirt faol moddalar o'z ichiga olgan chiqindilar",
-              "10-25",
-              "10-20"
-            ],
-            [
-              "Oziq-ovqat sanoati chiqindilari",
-              "10-20",
-              "10-15"
-            ]
+            ["Uy-joy (biologik tozalashdan keyin)", "5-15", "10-15"],
+            ["Sanoat (organik)", "20-50", "15-30"],
+            ["Neft o'z ichiga olgan chiqindilar", "30-100", "20-40"],
+            ["Fenol o'z ichiga olgan chiqindilar", "15-30", "15-20"],
+            ["Sirt faol moddalar o'z ichiga olgan chiqindilar", "10-25", "10-20"],
+            ["Oziq-ovqat sanoati chiqindilari", "10-20", "10-15"]
           ],
           "highlightBox": {
             "label": "Ozon dozasi hisobi:",
@@ -476,49 +354,14 @@
         "results": {
           "title": "Chiqindi suvlarni ozonlash natijalari",
           "caption": "Uy-joy chiqindilarini tozalash samaradorligi (eksperimental ma'lumotlar)",
-          "headers": [
-            "Parametr",
-            "Ozonlashdan oldin",
-            "Ozonlashdan keyin",
-            "Samaradorlik"
-          ],
+          "headers": ["Parametr", "Ozonlashdan oldin", "Ozonlashdan keyin", "Samaradorlik"],
           "rows": [
-            [
-              "Rang, daraja",
-              "70-100",
-              "10-20",
-              "80-85%"
-            ],
-            [
-              "Loyqalik, mg/L",
-              "30-50",
-              "5-10",
-              "75-80%"
-            ],
-            [
-              "BKP₅, mg/L",
-              "20-30",
-              "3-5",
-              "85-90%"
-            ],
-            [
-              "XPK, mg/L",
-              "50-80",
-              "15-25",
-              "65-70%"
-            ],
-            [
-              "Koli-indeks",
-              "10,000",
-              "< 1,000",
-              "> 90%"
-            ],
-            [
-              "Hid",
-              "Botqoq-fekal",
-              "Yo'q",
-              "100%"
-            ]
+            ["Rang, daraja", "70-100", "10-20", "80-85%"],
+            ["Loyqalik, mg/L", "30-50", "5-10", "75-80%"],
+            ["BKP₅, mg/L", "20-30", "3-5", "85-90%"],
+            ["XPK, mg/L", "50-80", "15-25", "65-70%"],
+            ["Koli-indeks", "10,000", "< 1,000", "> 90%"],
+            ["Hid", "Botqoq-fekal", "Yo'q", "100%"]
           ],
           "paragraph": "Ma'lumotlar kontakt kamerada 15 daqiqa kontakt vaqti bilan 50 mg/L ozon dozasi bilan chiqindilarni qayta ishlashda olingan. 50 mg/L dan yuqori ozon dozalarida rang, loyqalik va hid yo'qoladi, koli-indeks normativ qiymatlarga kamayadi."
         },
@@ -546,42 +389,14 @@
         "applications": {
           "title": "Qo'llash sohalari",
           "caption": "Korxona turlari va chiqindi suvlarni ozonlash xususiyatlari",
-          "headers": [
-            "Sanoat",
-            "Asosiy ifloslantiruvchilar",
-            "Ozon dozasi, mg/L"
-          ],
+          "headers": ["Sanoat", "Asosiy ifloslantiruvchilar", "Ozon dozasi, mg/L"],
           "rows": [
-            [
-              "Neftni qayta ishlash zavodlari",
-              "Neft mahsulotlari, fenollar, sulfidlar",
-              "50-100"
-            ],
-            [
-              "Kimyoviy zavodlar",
-              "Organik erituvchilar, sirt faol moddalar",
-              "30-80"
-            ],
-            [
-              "Oziq-ovqat ishlab chiqarish",
-              "Yog'lar, oqsillar, organik kislotalar",
-              "15-30"
-            ],
-            [
-              "To'qimachilik fabrikalari",
-              "Bo'yoqlar, sirt faol moddalar",
-              "20-50"
-            ],
-            [
-              "Sellyuloza-qog'oz kombinatlari",
-              "Lignin, smolalar",
-              "30-60"
-            ],
-            [
-              "Shahar tozalash inshootlari",
-              "Biologik tozalashdan keyin uy-joy chiqindilari",
-              "10-20"
-            ]
+            ["Neftni qayta ishlash zavodlari", "Neft mahsulotlari, fenollar, sulfidlar", "50-100"],
+            ["Kimyoviy zavodlar", "Organik erituvchilar, sirt faol moddalar", "30-80"],
+            ["Oziq-ovqat ishlab chiqarish", "Yog'lar, oqsillar, organik kislotalar", "15-30"],
+            ["To'qimachilik fabrikalari", "Bo'yoqlar, sirt faol moddalar", "20-50"],
+            ["Sellyuloza-qog'oz kombinatlari", "Lignin, smolalar", "30-60"],
+            ["Shahar tozalash inshootlari", "Biologik tozalashdan keyin uy-joy chiqindilari", "10-20"]
           ]
         },
         "regulations": {
@@ -623,9 +438,7 @@
         "residualChlorine": "0,1-0,3 mg/L",
         "phRange": "7,2-7,6"
       },
-      "regulations": [
-        "Basseyn suvi standartlari"
-      ],
+      "regulations": ["Basseyn suvi standartlari"],
       "stats": {
         "chlorineReduction": {
           "value": "7×",
@@ -657,11 +470,7 @@
       "sections": {
         "comparison": {
           "title": "Basseyn suvini ozonlashning afzalliklari",
-          "headers": [
-            "Parametr",
-            "Ozon + min. xlor",
-            "Faqat xlor"
-          ],
+          "headers": ["Parametr", "Ozon + min. xlor", "Faqat xlor"],
           "rows": [
             {
               "parameter": "Suv hidi",
@@ -704,37 +513,13 @@
           "title": "Basseyn ozonlash texnologiyasi",
           "intro": "Ozon filtratsiyadan keyin, basseyn idishiga qaytishdan oldin aylanish suviga beriladi. Basseynlar uchun tavsiya etilgan ozon dozasi - aylanish suvi uchun 0,7-0,9 g/m³. Kontakt idishida kontakt vaqti - 6-7 daqiqa.",
           "tableCaption": "Basseyn ozonlash parametrlari",
-          "tableHeaders": [
-            "Parametr",
-            "Qiymat",
-            "Izoh"
-          ],
+          "tableHeaders": ["Parametr", "Qiymat", "Izoh"],
           "tableData": [
-            [
-              "Ozon dozasi",
-              "0,7-0,9 g/m³",
-              "Aylanish suvi hajmiga"
-            ],
-            [
-              "Kontakt vaqti",
-              "6-7 daqiqa",
-              "Kontakt idishida"
-            ],
-            [
-              "Chiqishdagi qolgan ozon",
-              "< 0,1 mg/L",
-              "Idishga kirishdan oldin"
-            ],
-            [
-              "Qolgan xlor",
-              "0,1-0,3 mg/L",
-              "Uzoq muddatli ta'sir uchun"
-            ],
-            [
-              "Suv pH",
-              "7,2-7,6",
-              "Optimal diapazon"
-            ]
+            ["Ozon dozasi", "0,7-0,9 g/m³", "Aylanish suvi hajmiga"],
+            ["Kontakt vaqti", "6-7 daqiqa", "Kontakt idishida"],
+            ["Chiqishdagi qolgan ozon", "< 0,1 mg/L", "Idishga kirishdan oldin"],
+            ["Qolgan xlor", "0,1-0,3 mg/L", "Uzoq muddatli ta'sir uchun"],
+            ["Suv pH", "7,2-7,6", "Optimal diapazon"]
           ],
           "note": "Ozonni xlor bilan birgalikda ishlatganda, odatdagi 0,7 mg/L o'rniga xlorni 0,1 mg/L darajasida saqlash mumkin. Bu teri va ko'z qichishishini deyarli bartaraf etadi."
         },
@@ -753,42 +538,14 @@
         "poolTypes": {
           "title": "Turli basseyn turlari uchun ozonlash",
           "tableCaption": "Tavsiya etilgan ozonlash tizimlari",
-          "tableHeaders": [
-            "Basseyn turi",
-            "Hajm",
-            "Ozonator quvvati"
-          ],
+          "tableHeaders": ["Basseyn turi", "Hajm", "Ozonator quvvati"],
           "tableData": [
-            [
-              "Xususiy basseyn",
-              "25-60 m³",
-              "2-5 g/h"
-            ],
-            [
-              "Fitnes-klub basseyni",
-              "100-300 m³",
-              "10-30 g/h"
-            ],
-            [
-              "Mehmonxona basseyni",
-              "200-500 m³",
-              "20-50 g/h"
-            ],
-            [
-              "Jamoat basseyni",
-              "500-2000 m³",
-              "50-200 g/h"
-            ],
-            [
-              "Aquapark",
-              "2000+ m³",
-              "Individual hisoblash"
-            ],
-            [
-              "SPA, jakuzi",
-              "2-10 m³",
-              "1-3 g/h"
-            ]
+            ["Xususiy basseyn", "25-60 m³", "2-5 g/h"],
+            ["Fitnes-klub basseyni", "100-300 m³", "10-30 g/h"],
+            ["Mehmonxona basseyni", "200-500 m³", "20-50 g/h"],
+            ["Jamoat basseyni", "500-2000 m³", "50-200 g/h"],
+            ["Aquapark", "2000+ m³", "Individual hisoblash"],
+            ["SPA, jakuzi", "2-10 m³", "1-3 g/h"]
           ]
         },
         "benefits": {
@@ -851,10 +608,7 @@
         "iron": "2Fe²⁺ + O₃ + H₂O → 2Fe³⁺ + O₂ + 2OH⁻ → Fe(OH)₃↓",
         "manganese": "Mn²⁺ + O₃ + H₂O → MnO₂↓ + 2H⁺ + O₂"
       },
-      "regulations": [
-        "Ichimlik suvi standartlari",
-        "Suv sifat me'yorlari"
-      ],
+      "regulations": ["Ichimlik suvi standartlari", "Suv sifat me'yorlari"],
       "stats": {
         "ozoneForIron": {
           "value": "0,43",
@@ -886,11 +640,7 @@
         },
         "comparison": {
           "title": "Temir olib tashlash usullarini solishtirish",
-          "headers": [
-            "Parametr",
-            "Ozonlash",
-            "Aeratsiya + filtratsiya"
-          ],
+          "headers": ["Parametr", "Ozonlash", "Aeratsiya + filtratsiya"],
           "rows": [
             {
               "parameter": "Fe olib tashlash samaradorligi",
@@ -942,31 +692,11 @@
           "description": "Ozon Fe²⁺ ni Fe³⁺ ga oksidlaydi, bu erimaydigan temir gidroksid Fe(OH)₃ hosil qiladi, filtrlash orqali osonlik bilan olib tashlanadi. Reaktsiya pH 6 dan 9 gacha bo'lgan diapazonida yuz beradi.",
           "table": {
             "caption": "Metal oksidlanishi uchun stoixiometrik nisbatlar",
-            "headers": [
-              "Metal",
-              "Nazariy ozon dozasi",
-              "Amaliy ozon dozasi",
-              "Izoh"
-            ],
+            "headers": ["Metal", "Nazariy ozon dozasi", "Amaliy ozon dozasi", "Izoh"],
             "rows": [
-              [
-                "Temir (Fe²⁺)",
-                "0,43 mg O₃ / mg Fe",
-                "1 mg O₃ / mg Fe",
-                "Organik moddalar bilan"
-              ],
-              [
-                "Marganets (Mn²⁺)",
-                "0,87 mg O₃ / mg Mn",
-                "4 mg O₃ / mg Mn",
-                "Organik moddalar bilan"
-              ],
-              [
-                "Vodorod sulfidi (H₂S)",
-                "3,0 mg O₃ / mg H₂S",
-                "3-5 mg O₃ / mg H₂S",
-                "Elementar sulfuriga"
-              ]
+              ["Temir (Fe²⁺)", "0,43 mg O₃ / mg Fe", "1 mg O₃ / mg Fe", "Organik moddalar bilan"],
+              ["Marganets (Mn²⁺)", "0,87 mg O₃ / mg Mn", "4 mg O₃ / mg Mn", "Organik moddalar bilan"],
+              ["Vodorod sulfidi (H₂S)", "3,0 mg O₃ / mg H₂S", "3-5 mg O₃ / mg H₂S", "Elementar sulfuriga"]
             ]
           }
         },
@@ -1012,27 +742,11 @@
           "paragraph": "Marganets miqdori 0,5 mg/L dan yuqori bo'lganda, qo'sh ozonlash sxemasi talab qilinishi mumkin: manba suvining birlamchi ozonlashi, filtratsiya, undan so'ng filtratning ikkilamchi ozonlashi. Bu eriydigan permanganat hosil bo'lishini oldini oladi.",
           "table": {
             "caption": "Qo'sh ozonlash natijalari (Ashton, Angliya)",
-            "headers": [
-              "Parametr",
-              "Tozalashdan oldin",
-              "Tozalashdan keyin"
-            ],
+            "headers": ["Parametr", "Tozalashdan oldin", "Tozalashdan keyin"],
             "rows": [
-              [
-                "Marganets, mg/L",
-                "0,5",
-                "0,05"
-              ],
-              [
-                "Rang, daraja",
-                "22",
-                "5"
-              ],
-              [
-                "Loyqalik, NTU",
-                "15",
-                "< 2"
-              ]
+              ["Marganets, mg/L", "0,5", "0,05"],
+              ["Rang, daraja", "22", "5"],
+              ["Loyqalik, NTU", "15", "< 2"]
             ]
           }
         },
@@ -1052,37 +766,13 @@
           "title": "Tavsiya etilgan tizim parametrlari",
           "table": {
             "caption": "Unumdorlikka qarab uskunalar tanlash",
-            "headers": [
-              "Unumadorlik, m³/h",
-              "Ozonator quvvati, g/h",
-              "Kontakt kamerasi hajmi, m³"
-            ],
+            "headers": ["Unumadorlik, m³/h", "Ozonator quvvati, g/h", "Kontakt kamerasi hajmi, m³"],
             "rows": [
-              [
-                "1-5",
-                "5-25",
-                "0,2-1"
-              ],
-              [
-                "5-20",
-                "25-100",
-                "1-4"
-              ],
-              [
-                "20-50",
-                "100-250",
-                "4-10"
-              ],
-              [
-                "50-100",
-                "250-500",
-                "10-20"
-              ],
-              [
-                "100-500",
-                "500-2500",
-                "20-100"
-              ]
+              ["1-5", "5-25", "0,2-1"],
+              ["5-20", "25-100", "1-4"],
+              ["20-50", "100-250", "4-10"],
+              ["50-100", "250-500", "10-20"],
+              ["100-500", "500-2500", "20-100"]
             ]
           },
           "noteLabel": "Izoh:",
@@ -1113,25 +803,10 @@
           "title": "Normativ talablar",
           "table": {
             "caption": "Standartlarga qarab temir va marganetsning MRC",
-            "headers": [
-              "Metal",
-              "Ichimlik suvi",
-              "Shisha suv",
-              "Xavf sinfi"
-            ],
+            "headers": ["Metal", "Ichimlik suvi", "Shisha suv", "Xavf sinfi"],
             "rows": [
-              [
-                "Temir (Fe)",
-                "0,3 mg/L",
-                "0,3 mg/L",
-                "III"
-              ],
-              [
-                "Marganets (Mn)",
-                "0,1 mg/L",
-                "0,05 mg/L",
-                "III"
-              ]
+              ["Temir (Fe)", "0,3 mg/L", "0,3 mg/L", "III"],
+              ["Marganets (Mn)", "0,1 mg/L", "0,05 mg/L", "III"]
             ]
           },
           "items": [

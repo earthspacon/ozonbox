@@ -32,9 +32,9 @@ export function EquipmentSterilizationPage({ staticData, lang }: EquipmentSteril
   const ns = getCategoryNamespace('medicine')
 
   // get category data from staticData
-  const categoryData = (
-    staticData as Record<string, { subcategories?: { 'equipment-sterilization'?: any } }>
-  )[`${lang}:${ns}`]
+  const categoryData = (staticData as Record<string, { subcategories?: { 'equipment-sterilization'?: any } }>)[
+    `${lang}:${ns}`
+  ]
   const data = categoryData?.subcategories?.['equipment-sterilization'] || {}
 
   const breadcrumbs = [
@@ -117,7 +117,12 @@ export function EquipmentSterilizationPage({ staticData, lang }: EquipmentSteril
             <DataTable
               caption={data.sections?.endoscopes?.table?.caption}
               headers={data.sections?.endoscopes?.table?.headers || []}
-              rows={(Array.isArray(data.sections?.endoscopes?.table?.rows) ? data.sections.endoscopes.table.rows : []) as (string | number)[][]}
+              rows={
+                (Array.isArray(data.sections?.endoscopes?.table?.rows) ? data.sections.endoscopes.table.rows : []) as (
+                  | string
+                  | number
+                )[][]
+              }
             />
 
             <HighlightBox variant="success">{data.sections?.endoscopes?.highlight || ''}</HighlightBox>
@@ -154,7 +159,11 @@ export function EquipmentSterilizationPage({ staticData, lang }: EquipmentSteril
                   | [string, string, string, string]
               }
               rows={
-                (Array.isArray(data.sections?.comparison?.rows) ? data.sections.comparison.rows : []) as Array<{ parameter: string; value1: string; value2: string }>
+                (Array.isArray(data.sections?.comparison?.rows) ? data.sections.comparison.rows : []) as Array<{
+                  parameter: string
+                  value1: string
+                  value2: string
+                }>
               }
             />
           </ArticleSection>

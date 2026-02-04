@@ -30,9 +30,7 @@ export function LivestockPage({ staticData, lang }: LivestockPageProps) {
   const ns = getCategoryNamespace('agriculture')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { livestock?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { livestock?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.livestock
 
   const breadcrumbs = [

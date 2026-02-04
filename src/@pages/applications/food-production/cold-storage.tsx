@@ -31,9 +31,7 @@ export function ColdStoragePage({ staticData, lang }: ColdStoragePageProps) {
   const ns = getCategoryNamespace('food-production')
 
   // get category data from staticData
-  const categoryData = (staticData as Record<string, { subcategories?: { 'cold-storage'?: any } }>)[
-    `${lang}:${ns}`
-  ]
+  const categoryData = (staticData as Record<string, { subcategories?: { 'cold-storage'?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.['cold-storage']
 
   const breadcrumbs = [
@@ -140,7 +138,14 @@ export function ColdStoragePage({ staticData, lang }: ColdStoragePageProps) {
           <ComparisonTable
             title={data?.sections?.comparison?.title}
             headers={data?.sections?.comparison?.headers as [string, string, string] | [string, string, string, string]}
-            rows={data?.sections?.comparison?.rows as Array<{ parameter: string; value1: string; value2: string; value3?: string }>}
+            rows={
+              data?.sections?.comparison?.rows as Array<{
+                parameter: string
+                value1: string
+                value2: string
+                value3?: string
+              }>
+            }
           />
 
           <ArticleSection title={data?.sections?.deodorization?.title}>
