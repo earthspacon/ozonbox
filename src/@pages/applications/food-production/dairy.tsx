@@ -100,66 +100,74 @@ export function DairyPage({ staticData, lang }: DairyPageProps) {
             <strong>{data?.sections?.haccpHighlight?.title}</strong> {data?.sections?.haccpHighlight?.text}
           </HighlightBox>
 
-          <ArticleSection title={data?.sections?.application?.title}>
-            <DataTable
-              caption={data?.sections?.application?.tableCaption}
-              headers={data?.sections?.application?.tableHeaders}
-              rows={data?.sections?.application?.tableData}
-            />
-          </ArticleSection>
+          {data?.sections?.application && (
+            <ArticleSection title={data.sections.application.title}>
+              <DataTable
+                caption={data.sections.application.tableCaption}
+                headers={data.sections.application.tableHeaders || []}
+                rows={data.sections.application.tableData || []}
+              />
+            </ArticleSection>
+          )}
 
           <ArticleSection title={data?.sections?.advantages?.title}>
             <BulletList items={data?.sections?.advantages?.items as string[]} />
           </ArticleSection>
 
-          <ComparisonTable
-            title={data?.sections?.comparison?.title}
-            headers={
-              data?.sections?.comparison?.tableHeaders as
-                | [string, string, string]
-                | [string, string, string, string]
-            }
-            rows={
-              data?.sections?.comparison?.rows as Array<{
-                parameter: string
-                value1: string
-                value2: string
-                value3?: string
-              }>
-            }
-          />
-
-          <ArticleSection title={data?.sections?.storage?.title}>
-            <Paragraph>{data?.sections?.storage?.intro}</Paragraph>
-
-            <DataTable
-              caption={data?.sections?.storage?.tableCaption}
-              headers={data?.sections?.storage?.tableHeaders}
-              rows={data?.sections?.storage?.tableData}
+          {data?.sections?.comparison?.tableHeaders && (
+            <ComparisonTable
+              title={data.sections.comparison.title}
+              headers={
+                data.sections.comparison.tableHeaders as
+                  | [string, string, string]
+                  | [string, string, string, string]
+              }
+              rows={
+                data.sections.comparison.rows as Array<{
+                  parameter: string
+                  value1: string
+                  value2: string
+                  value3?: string
+                }>
+              }
             />
+          )}
 
-            <HighlightBox variant="success">{data?.sections?.storage?.highlight?.text}</HighlightBox>
-          </ArticleSection>
+          {data?.sections?.storage && (
+            <ArticleSection title={data.sections.storage.title}>
+              <Paragraph>{data.sections.storage.intro}</Paragraph>
+
+              <DataTable
+                caption={data.sections.storage.tableCaption}
+                headers={data.sections.storage.tableHeaders || []}
+                rows={data.sections.storage.tableData || []}
+              />
+
+              <HighlightBox variant="success">{data.sections.storage.highlight?.text}</HighlightBox>
+            </ArticleSection>
+          )}
 
           <ArticleSection title={data?.sections?.listeriosis?.title}>
             <Paragraph>{data?.sections?.listeriosis?.paragraph1}</Paragraph>
             <Paragraph>{data?.sections?.listeriosis?.paragraph2}</Paragraph>
           </ArticleSection>
 
-          <ArticleSection title={data?.sections?.benefits?.title}>
-            <FeatureGrid columns={2}>
-              {(data?.sections?.benefits?.items as Array<{ title: string; description: string }>).map(
-                (item, idx) => (
-                  <FeatureCard
-                    key={idx}
-                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={item.title}
-                    description={item.description}
-                  />
-                ),
-              )}
-            </FeatureGrid>
-          </ArticleSection>
+          {data?.sections?.benefits?.items && (
+            <ArticleSection title={data.sections.benefits.title}>
+              <FeatureGrid columns={2}>
+                {(data.sections.benefits.items as Array<{ title: string; description: string }>).map(
+                  (item, idx) => (
+                    <FeatureCard
+                      key={idx}
+                      icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                      title={item.title}
+                      description={item.description}
+                    />
+                  ),
+                )}
+              </FeatureGrid>
+            </ArticleSection>
+          )}
         </div>
       </article>
 

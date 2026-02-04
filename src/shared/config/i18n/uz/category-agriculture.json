@@ -170,39 +170,39 @@
         "storage": {
           "title": "Parranda go'shtini saqlash muddatini uzaytirish",
           "intro": "Go'shtni saqlashda ijobiy ta'sirga ozon kontsentratsiyasi ~6 mg/m³ bo'lganda kuniga 2 soat ozonlash orqali erishiladi. Parranda go'shtini sovutilgan holda (+4°C) saqlash muddati 4 baravar oshadi.",
-          "tableTitle": "Parranda go'shtini saqlashni solishtirish",
+          "tableCaption": "Parranda go'shtini saqlashni solishtirish",
           "highlight": "20 kunlik saqlashdan keyin ozonlangan go'sht hidsiz, o'zining yangiligi va yumshoqligini saqlab qoldi. Ishlov berilmagan go'sht esa atigi 5 kundan keyin yashil rangga kirib, sassiq hid chiqara boshladi.",
-          "headers": [
+          "tableHeaders": [
             "Ko'rsatkich",
             "Ozon bilan",
             "Ozonsiz"
           ],
-          "rows": [
-            {
-              "parameter": "Maksimal saqlash muddati",
-              "value1": "18–21 kun",
-              "value2": "5–7 kun"
-            },
-            {
-              "parameter": "Vazn yo'qotish",
-              "value1": "7.6%",
-              "value2": "10.9%"
-            },
-            {
-              "parameter": "Tana rangi",
-              "value1": "Och sariq",
-              "value2": "Sariq"
-            },
-            {
-              "parameter": "Go'sht hidi",
-              "value1": "Yangi go'shtga xos",
-              "value2": "Mog'orlagan, sassiq"
-            },
-            {
-              "parameter": "Saqlashdan keyingi bakterial ifloslanish",
-              "value1": "65 koloniya/ml",
-              "value2": "736 koloniya/ml"
-            }
+          "tableData": [
+            [
+              "Maksimal saqlash muddati",
+              "18–21 kun",
+              "5–7 kun"
+            ],
+            [
+              "Vazn yo'qotish",
+              "7.6%",
+              "10.9%"
+            ],
+            [
+              "Tana rangi",
+              "Och sariq",
+              "Sariq"
+            ],
+            [
+              "Go'sht hidi",
+              "Yangi go'shtga xos",
+              "Mog'orlagan, sassiq"
+            ],
+            [
+              "Saqlashdan keyingi bakterial ifloslanish",
+              "65 koloniya/ml",
+              "736 koloniya/ml"
+            ]
           ]
         },
         "modes": {

@@ -397,54 +397,52 @@
         },
         "modes": {
           "title": "Treatment modes by carriage type",
-          "table": {
-            "caption": "Railway carriage ozonation parameters",
-            "headers": [
-              "Carriage type",
-              "Volume",
-              "Capacity",
-              "Treatment time"
+          "highlight": "For trains of 10-15 cars, a team method is used: ozonators move sequentially from car to car. While the first cars are ventilating, the last ones are being treated.",
+          "tableCaption": "Railway carriage ozonation parameters",
+          "tableHeaders": [
+            "Carriage type",
+            "Volume",
+            "Capacity",
+            "Treatment time"
+          ],
+          "tableData": [
+            [
+              "Compartment (10 compartments)",
+              "120-130 m³",
+              "30-50 g/h",
+              "40-60 min"
             ],
-            "rows": [
-              [
-                "Compartment (10 compartments)",
-                "120-130 m³",
-                "30-50 g/h",
-                "40-60 min"
-              ],
-              [
-                "Open coach",
-                "150-160 m³",
-                "40-60 g/h",
-                "50-70 min"
-              ],
-              [
-                "Soft class",
-                "100-110 m³",
-                "20-30 g/h",
-                "30-45 min"
-              ],
-              [
-                "Dining car",
-                "80-90 m³",
-                "20-30 g/h",
-                "40-50 min"
-              ],
-              [
-                "Commuter train (1 car)",
-                "70-80 m³",
-                "15-25 g/h",
-                "30-40 min"
-              ],
-              [
-                "Metro car",
-                "50-60 m³",
-                "10-20 g/h",
-                "20-30 min"
-              ]
+            [
+              "Open coach",
+              "150-160 m³",
+              "40-60 g/h",
+              "50-70 min"
+            ],
+            [
+              "Soft class",
+              "100-110 m³",
+              "20-30 g/h",
+              "30-45 min"
+            ],
+            [
+              "Dining car",
+              "80-90 m³",
+              "20-30 g/h",
+              "40-50 min"
+            ],
+            [
+              "Commuter train (1 car)",
+              "70-80 m³",
+              "15-25 g/h",
+              "30-40 min"
+            ],
+            [
+              "Metro car",
+              "50-60 m³",
+              "10-20 g/h",
+              "20-30 min"
             ]
-          },
-          "highlight": "For trains of 10-15 cars, a team method is used: ozonators move sequentially from car to car. While the first cars are ventilating, the last ones are being treated."
+          ]
         },
         "toilets": {
           "title": "Toilet treatment",
@@ -460,46 +458,44 @@
         },
         "comparison": {
           "title": "Comparison with traditional methods",
-          "table": {
-            "title": "Ozonation vs chemical carriage disinfection",
-            "headers": [
-              "Parameter",
-              "Ozonation",
-              "Chemical treatment"
-            ],
-            "rows": [
-              {
-                "parameter": "Mattress and textile treatment",
-                "value1": "Yes (without removal)",
-                "value2": "No (replacement only)"
-              },
-              {
-                "parameter": "Ventilation disinfection",
-                "value1": "Yes (automatically)",
-                "value2": "No"
-              },
-              {
-                "parameter": "Odor elimination",
-                "value1": "Complete (oxidation)",
-                "value2": "Partial (masking)"
-              },
-              {
-                "parameter": "Staff per car",
-                "value1": "1 person per 5-10 cars",
-                "value2": "2-3 people per car"
-              },
-              {
-                "parameter": "Consumables",
-                "value1": "Electricity",
-                "value2": "Disinfectants, rags"
-              },
-              {
-                "parameter": "Wet residues",
-                "value1": "No",
-                "value2": "Yes (require drying)"
-              }
-            ]
-          }
+          "tableHeaders": [
+            "Parameter",
+            "Ozonation",
+            "Chemical treatment"
+          ],
+          "tableData": [
+            {
+              "parameter": "Mattress and textile treatment",
+              "value1": "Yes (without removal)",
+              "value2": "No (replacement only)"
+            },
+            {
+              "parameter": "Ventilation disinfection",
+              "value1": "Yes (automatically)",
+              "value2": "No"
+            },
+            {
+              "parameter": "Odor elimination",
+              "value1": "Complete (oxidation)",
+              "value2": "Partial (masking)"
+            },
+            {
+              "parameter": "Staff per car",
+              "value1": "1 person per 5-10 cars",
+              "value2": "2-3 people per car"
+            },
+            {
+              "parameter": "Consumables",
+              "value1": "Electricity",
+              "value2": "Disinfectants, rags"
+            },
+            {
+              "parameter": "Wet residues",
+              "value1": "No",
+              "value2": "Yes (require drying)"
+            }
+          ],
+          "comparisonTitle": "Ozonation vs chemical carriage disinfection"
         },
         "integration": {
           "title": "Depot integration",
@@ -539,42 +535,40 @@
         },
         "economics": {
           "title": "Economics for depots",
-          "table": {
-            "caption": "Ozonation efficiency calculation for depot (100 cars)",
-            "headers": [
-              "Indicator",
-              "With ozonation",
-              "Without ozonation"
+          "text": "Payback period for depot ozonator set — 6-12 months through savings on staff and consumables. Additional benefit — improved passenger reviews of car cleanliness.",
+          "tableCaption": "Ozonation efficiency calculation for depot (100 cars)",
+          "tableHeaders": [
+            "Indicator",
+            "With ozonation",
+            "Without ozonation"
+          ],
+          "tableData": [
+            [
+              "Cleaning staff",
+              "3-4 people",
+              "15-20 people"
             ],
-            "rows": [
-              [
-                "Cleaning staff",
-                "3-4 people",
-                "15-20 people"
-              ],
-              [
-                "Train treatment time",
-                "2-3 hours",
-                "5-6 hours"
-              ],
-              [
-                "Disinfectant costs/month",
-                "~5000 ₽ (electricity)",
-                "~80,000 ₽"
-              ],
-              [
-                "Odor complaints",
-                "Rarely",
-                "Regularly"
-              ],
-              [
-                "Ventilation treatment",
-                "Every run",
-                "Once a year (repair)"
-              ]
+            [
+              "Train treatment time",
+              "2-3 hours",
+              "5-6 hours"
+            ],
+            [
+              "Disinfectant costs/month",
+              "~5000 ₽ (electricity)",
+              "~80,000 ₽"
+            ],
+            [
+              "Odor complaints",
+              "Rarely",
+              "Regularly"
+            ],
+            [
+              "Ventilation treatment",
+              "Every run",
+              "Once a year (repair)"
             ]
-          },
-          "text": "Payback period for depot ozonator set — 6-12 months through savings on staff and consumables. Additional benefit — improved passenger reviews of car cleanliness."
+          ]
         },
         "equipment": {
           "title": "Railway transport equipment",
@@ -658,59 +652,57 @@
         },
         "comparison": {
           "title": "Ozone vs traditional fumigation",
-          "table": {
-            "title": "Comparison of container treatment methods",
-            "headers": [
-              "Parameter",
-              "Ozonation",
-              "Methyl bromide",
-              "Phosphine"
-            ],
-            "rows": [
-              {
-                "parameter": "Toxic residues",
-                "value1": "No",
-                "value2": "Yes (carcinogen)",
-                "value3": "Yes (highly toxic)"
-              },
-              {
-                "parameter": "Treatment time",
-                "value1": "12-24 hours",
-                "value2": "24-48 hours",
-                "value3": "72-120 hours"
-              },
-              {
-                "parameter": "Degassing",
-                "value1": "2-4 hours",
-                "value2": "24-48 hours",
-                "value3": "48-72 hours"
-              },
-              {
-                "parameter": "Impact on ozone layer",
-                "value1": "No",
-                "value2": "Yes (banned in EU)",
-                "value3": "No"
-              },
-              {
-                "parameter": "Food cargo",
-                "value1": "Yes",
-                "value2": "Limited",
-                "value3": "No"
-              },
-              {
-                "parameter": "Electronics",
-                "value1": "Yes (with caution)",
-                "value2": "Yes",
-                "value3": "Yes"
-              },
-              {
-                "parameter": "Special permits",
-                "value1": "No",
-                "value2": "Yes",
-                "value3": "Yes"
-              }
-            ]
-          }
+          "tableHeaders": [
+            "Parameter",
+            "Ozonation",
+            "Methyl bromide",
+            "Phosphine"
+          ],
+          "tableData": [
+            {
+              "parameter": "Toxic residues",
+              "value1": "No",
+              "value2": "Yes (carcinogen)",
+              "value3": "Yes (highly toxic)"
+            },
+            {
+              "parameter": "Treatment time",
+              "value1": "12-24 hours",
+              "value2": "24-48 hours",
+              "value3": "72-120 hours"
+            },
+            {
+              "parameter": "Degassing",
+              "value1": "2-4 hours",
+              "value2": "24-48 hours",
+              "value3": "48-72 hours"
+            },
+            {
+              "parameter": "Impact on ozone layer",
+              "value1": "No",
+              "value2": "Yes (banned in EU)",
+              "value3": "No"
+            },
+            {
+              "parameter": "Food cargo",
+              "value1": "Yes",
+              "value2": "Limited",
+              "value3": "No"
+            },
+            {
+              "parameter": "Electronics",
+              "value1": "Yes (with caution)",
+              "value2": "Yes",
+              "value3": "Yes"
+            },
+            {
+              "parameter": "Special permits",
+              "value1": "No",
+              "value2": "Yes",
+              "value3": "Yes"
+            }
+          ],
+          "comparisonTitle": "Comparison of container treatment methods"
         },
         "technology": {
           "title": "Container ozonation technology",
@@ -740,114 +732,110 @@
         },
         "modes": {
           "title": "Container treatment modes",
-          "table": {
-            "caption": "Ozonation parameters for various purposes",
-            "headers": [
-              "Treatment goal",
-              "Concentration",
-              "Exposure time",
-              "Notes"
+          "text": "For quarantine pests (bark beetles, weevils, flour beetles) maximum mode is recommended: 80-100 mg/m³ for 24 hours. This guarantees destruction of insects at all development stages, including eggs inside wood or grain.",
+          "tableCaption": "Ozonation parameters for various purposes",
+          "tableHeaders": [
+            "Treatment goal",
+            "Concentration",
+            "Exposure time",
+            "Notes"
+          ],
+          "tableData": [
+            [
+              "Insects (adults)",
+              "30-50 mg/m³",
+              "12-18 hours",
+              "Most species"
             ],
-            "rows": [
-              [
-                "Insects (adults)",
-                "30-50 mg/m³",
-                "12-18 hours",
-                "Most species"
-              ],
-              [
-                "Insects (all stages)",
-                "50-100 mg/m³",
-                "18-24 hours",
-                "Including eggs and larvae"
-              ],
-              [
-                "Mold and fungi",
-                "20-30 mg/m³",
-                "8-12 hours",
-                "From surfaces"
-              ],
-              [
-                "Bacteria",
-                "15-25 mg/m³",
-                "4-8 hours",
-                "99.9% inactivation"
-              ],
-              [
-                "Odor removal",
-                "10-20 mg/m³",
-                "4-6 hours",
-                "Odorant neutralization"
-              ],
-              [
-                "Complex treatment",
-                "50-80 mg/m³",
-                "24 hours",
-                "All factors"
-              ]
+            [
+              "Insects (all stages)",
+              "50-100 mg/m³",
+              "18-24 hours",
+              "Including eggs and larvae"
+            ],
+            [
+              "Mold and fungi",
+              "20-30 mg/m³",
+              "8-12 hours",
+              "From surfaces"
+            ],
+            [
+              "Bacteria",
+              "15-25 mg/m³",
+              "4-8 hours",
+              "99.9% inactivation"
+            ],
+            [
+              "Odor removal",
+              "10-20 mg/m³",
+              "4-6 hours",
+              "Odorant neutralization"
+            ],
+            [
+              "Complex treatment",
+              "50-80 mg/m³",
+              "24 hours",
+              "All factors"
             ]
-          },
-          "text": "For quarantine pests (bark beetles, weevils, flour beetles) maximum mode is recommended: 80-100 mg/m³ for 24 hours. This guarantees destruction of insects at all development stages, including eggs inside wood or grain."
+          ]
         },
         "efficiency": {
           "title": "Efficiency against pests",
-          "table": {
-            "caption": "Destruction of pest insects with ozone (80 mg/m³, 24 hours)",
-            "headers": [
-              "Pest",
-              "Adults",
-              "Larvae",
-              "Eggs"
-            ],
-            "rows": [
-              [
-                "Bread beetle",
-                "100%",
-                "100%",
-                "100%"
-              ],
-              [
-                "Grain weevil",
-                "100%",
-                "100%",
-                "99.9%"
-              ],
-              [
-                "Flour beetle",
-                "100%",
-                "100%",
-                "100%"
-              ],
-              [
-                "Rice weevil",
-                "100%",
-                "100%",
-                "99.9%"
-              ],
-              [
-                "Tobacco beetle",
-                "100%",
-                "100%",
-                "100%"
-              ],
-              [
-                "Wood beetle",
-                "100%",
-                "99.9%",
-                "99.5%"
-              ],
-              [
-                "Clothes moth",
-                "100%",
-                "100%",
-                "100%"
-              ]
-            ]
-          },
           "highlight": {
             "title": "Mechanism of action:",
             "text": "Ozone destroys insect cell membranes at the molecular level. Unlike chemical pesticides, resistance to ozone does not develop — this is a fundamental physicochemical effect."
-          }
+          },
+          "tableCaption": "Destruction of pest insects with ozone (80 mg/m³, 24 hours)",
+          "tableHeaders": [
+            "Pest",
+            "Adults",
+            "Larvae",
+            "Eggs"
+          ],
+          "tableData": [
+            [
+              "Bread beetle",
+              "100%",
+              "100%",
+              "100%"
+            ],
+            [
+              "Grain weevil",
+              "100%",
+              "100%",
+              "99.9%"
+            ],
+            [
+              "Flour beetle",
+              "100%",
+              "100%",
+              "100%"
+            ],
+            [
+              "Rice weevil",
+              "100%",
+              "100%",
+              "99.9%"
+            ],
+            [
+              "Tobacco beetle",
+              "100%",
+              "100%",
+              "100%"
+            ],
+            [
+              "Wood beetle",
+              "100%",
+              "99.9%",
+              "99.5%"
+            ],
+            [
+              "Clothes moth",
+              "100%",
+              "100%",
+              "100%"
+            ]
+          ]
         },
         "types": {
           "title": "Container types and treatment specifics",
@@ -869,47 +857,45 @@
               "description": "Treatment after covering with tarp. Perimeter sealing. Partial leakage possible."
             }
           ],
-          "table": {
-            "caption": "Equipment calculation by container size",
-            "headers": [
-              "Container type",
-              "Volume",
-              "Ozonator capacity",
-              "Concentration build-up time"
+          "tableCaption": "Equipment calculation by container size",
+          "tableHeaders": [
+            "Container type",
+            "Volume",
+            "Ozonator capacity",
+            "Concentration build-up time"
+          ],
+          "tableData": [
+            [
+              "10 feet",
+              "16 m³",
+              "20-30 g/h",
+              "1-2 hours"
             ],
-            "rows": [
-              [
-                "10 feet",
-                "16 m³",
-                "20-30 g/h",
-                "1-2 hours"
-              ],
-              [
-                "20 feet",
-                "33 m³",
-                "30-50 g/h",
-                "2-3 hours"
-              ],
-              [
-                "40 feet",
-                "67 m³",
-                "50-80 g/h",
-                "3-4 hours"
-              ],
-              [
-                "40 feet HC",
-                "76 m³",
-                "60-100 g/h",
-                "3-5 hours"
-              ],
-              [
-                "45 feet",
-                "86 m³",
-                "80-120 g/h",
-                "4-5 hours"
-              ]
+            [
+              "20 feet",
+              "33 m³",
+              "30-50 g/h",
+              "2-3 hours"
+            ],
+            [
+              "40 feet",
+              "67 m³",
+              "50-80 g/h",
+              "3-4 hours"
+            ],
+            [
+              "40 feet HC",
+              "76 m³",
+              "60-100 g/h",
+              "3-5 hours"
+            ],
+            [
+              "45 feet",
+              "86 m³",
+              "80-120 g/h",
+              "4-5 hours"
             ]
-          }
+          ]
         },
         "applications": {
           "title": "Application for various cargo",
@@ -930,42 +916,40 @@
         },
         "economics": {
           "title": "Ozone fumigation economics",
-          "table": {
-            "title": "Cost of treating a 40-foot container",
-            "headers": [
-              "Cost item",
-              "Ozonation",
-              "Chemical fumigation"
-            ],
-            "rows": [
-              {
-                "parameter": "Equipment (one-time)",
-                "value1": "150-300 thousand ₽",
-                "value2": "Not required (service)"
-              },
-              {
-                "parameter": "Treatment cost",
-                "value1": "500-1000 ₽",
-                "value2": "15-25 thousand ₽"
-              },
-              {
-                "parameter": "Downtime",
-                "value1": "24-28 hours",
-                "value2": "72-120 hours"
-              },
-              {
-                "parameter": "Documentation",
-                "value1": "Treatment certificate",
-                "value2": "Fumigation certificate"
-              },
-              {
-                "parameter": "Staff",
-                "value1": "1 person (training)",
-                "value2": "Licensed team"
-              }
-            ]
-          },
-          "text": "With regular container treatment, ozonator equipment payback is 10-20 treatments. For terminals and logistics companies with high container turnover, savings amount to hundreds of thousands of rubles per month."
+          "text": "With regular container treatment, ozonator equipment payback is 10-20 treatments. For terminals and logistics companies with high container turnover, savings amount to hundreds of thousands of rubles per month.",
+          "tableHeaders": [
+            "Cost item",
+            "Ozonation",
+            "Chemical fumigation"
+          ],
+          "tableData": [
+            {
+              "parameter": "Equipment (one-time)",
+              "value1": "150-300 thousand ₽",
+              "value2": "Not required (service)"
+            },
+            {
+              "parameter": "Treatment cost",
+              "value1": "500-1000 ₽",
+              "value2": "15-25 thousand ₽"
+            },
+            {
+              "parameter": "Downtime",
+              "value1": "24-28 hours",
+              "value2": "72-120 hours"
+            },
+            {
+              "parameter": "Documentation",
+              "value1": "Treatment certificate",
+              "value2": "Fumigation certificate"
+            },
+            {
+              "parameter": "Staff",
+              "value1": "1 person (training)",
+              "value2": "Licensed team"
+            }
+          ],
+          "comparisonTitle": "Cost of treating a 40-foot container"
         },
         "equipment": {
           "title": "Equipment for containers",
@@ -1107,53 +1091,51 @@
         },
         "modes": {
           "title": "Treatment modes by transport type",
-          "table": {
-            "caption": "Road freight ozonation parameters",
-            "headers": [
-              "Transport type",
-              "Body volume",
-              "Capacity",
-              "Treatment time"
+          "tableCaption": "Road freight ozonation parameters",
+          "tableHeaders": [
+            "Transport type",
+            "Body volume",
+            "Capacity",
+            "Treatment time"
+          ],
+          "tableData": [
+            [
+              "Light-duty van",
+              "8-15 m³",
+              "5-10 g/h",
+              "15-20 min"
             ],
-            "rows": [
-              [
-                "Light-duty van",
-                "8-15 m³",
-                "5-10 g/h",
-                "15-20 min"
-              ],
-              [
-                "Medium-duty van",
-                "20-40 m³",
-                "10-20 g/h",
-                "20-30 min"
-              ],
-              [
-                "Refrigerator (semi-trailer)",
-                "80-90 m³",
-                "20-30 g/h",
-                "30-40 min"
-              ],
-              [
-                "Curtain-sided semi-trailer",
-                "90-100 m³",
-                "20-30 g/h",
-                "35-45 min"
-              ],
-              [
-                "Tank truck (milk truck)",
-                "5-20 m³",
-                "10-15 g/h",
-                "20-30 min"
-              ],
-              [
-                "Bread van",
-                "15-25 m³",
-                "5-10 g/h",
-                "15-25 min"
-              ]
+            [
+              "Medium-duty van",
+              "20-40 m³",
+              "10-20 g/h",
+              "20-30 min"
+            ],
+            [
+              "Refrigerator (semi-trailer)",
+              "80-90 m³",
+              "20-30 g/h",
+              "30-40 min"
+            ],
+            [
+              "Curtain-sided semi-trailer",
+              "90-100 m³",
+              "20-30 g/h",
+              "35-45 min"
+            ],
+            [
+              "Tank truck (milk truck)",
+              "5-20 m³",
+              "10-15 g/h",
+              "20-30 min"
+            ],
+            [
+              "Bread van",
+              "15-25 m³",
+              "5-10 g/h",
+              "15-25 min"
             ]
-          }
+          ]
         },
         "refrigerators": {
           "title": "Refrigerator treatment specifics",
@@ -1181,47 +1163,45 @@
             "Perfumes — strong aromas, incompatible with food cargo"
           ],
           "text2": "Ozone oxidizes odor molecules, converting them to neutral compounds. This is not masking, but complete elimination. After treatment, the body smells fresh — \"like after a thunderstorm\".",
-          "table": {
-            "caption": "Odor elimination modes",
-            "headers": [
-              "Odor type",
-              "Concentration",
-              "Treatment time",
-              "Efficiency"
+          "tableCaption": "Odor elimination modes",
+          "tableHeaders": [
+            "Odor type",
+            "Concentration",
+            "Treatment time",
+            "Efficiency"
+          ],
+          "tableData": [
+            [
+              "Light (dust, mustiness)",
+              "10-15 mg/m³",
+              "15-20 min",
+              "100%"
             ],
-            "rows": [
-              [
-                "Light (dust, mustiness)",
-                "10-15 mg/m³",
-                "15-20 min",
-                "100%"
-              ],
-              [
-                "Medium (onions, garlic)",
-                "15-20 mg/m³",
-                "20-30 min",
-                "100%"
-              ],
-              [
-                "Strong (fish, meat)",
-                "20-30 mg/m³",
-                "30-45 min",
-                "95-100%"
-              ],
-              [
-                "Very strong (chemicals)",
-                "25-35 mg/m³",
-                "45-60 min",
-                "90-95%"
-              ],
-              [
-                "Stale (mold)",
-                "30-40 mg/m³",
-                "60-90 min",
-                "95-100%"
-              ]
+            [
+              "Medium (onions, garlic)",
+              "15-20 mg/m³",
+              "20-30 min",
+              "100%"
+            ],
+            [
+              "Strong (fish, meat)",
+              "20-30 mg/m³",
+              "30-45 min",
+              "95-100%"
+            ],
+            [
+              "Very strong (chemicals)",
+              "25-35 mg/m³",
+              "45-60 min",
+              "90-95%"
+            ],
+            [
+              "Stale (mold)",
+              "30-40 mg/m³",
+              "60-90 min",
+              "95-100%"
             ]
-          }
+          ]
         },
         "integration": {
           "title": "Fleet integration",
@@ -1312,36 +1292,34 @@
             "220V/230V modifications — for operation from electrical network without external power",
             "Timer systems — for automatic scheduled treatment"
           ],
-          "table": {
-            "caption": "Ozonator selection by fleet size",
-            "headers": [
-              "Fleet size",
-              "Recommended equipment",
-              "Set cost"
+          "tableCaption": "Ozonator selection by fleet size",
+          "tableHeaders": [
+            "Fleet size",
+            "Recommended equipment",
+            "Set cost"
+          ],
+          "tableData": [
+            [
+              "5-15 vehicles",
+              "1-2 mobile ozonators 10-20 g/h",
+              "30-60 thousand ₽"
             ],
-            "rows": [
-              [
-                "5-15 vehicles",
-                "1-2 mobile ozonators 10-20 g/h",
-                "30-60 thousand ₽"
-              ],
-              [
-                "15-50 vehicles",
-                "3-5 ozonators 15-30 g/h",
-                "80-150 thousand ₽"
-              ],
-              [
-                "50-100 vehicles",
-                "5-10 ozonators + fixed zones",
-                "150-300 thousand ₽"
-              ],
-              [
-                "100+ vehicles",
-                "Custom solutions",
-                "Individual"
-              ]
+            [
+              "15-50 vehicles",
+              "3-5 ozonators 15-30 g/h",
+              "80-150 thousand ₽"
+            ],
+            [
+              "50-100 vehicles",
+              "5-10 ozonators + fixed zones",
+              "150-300 thousand ₽"
+            ],
+            [
+              "100+ vehicles",
+              "Custom solutions",
+              "Individual"
             ]
-          }
+          ]
         },
         "roi": {
           "title": "ROI for fleet operators",
