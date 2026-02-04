@@ -112,6 +112,7 @@
         "storage": {
           "title": "Parranda go'shtini saqlash muddatini uzaytirish",
           "intro": "Go'shtni saqlashda ijobiy ta'sirga ozon kontsentratsiyasi ~6 mg/m³ bo'lganda kuniga 2 soat ozonlash orqali erishiladi. Parranda go'shtini sovutilgan holda (+4°C) saqlash muddati 4 baravar oshadi.",
+          "tableTitle": "Parranda go'shtini saqlashni solishtirish",
           "tableCaption": "Parranda go'shtini saqlashni solishtirish",
           "highlight": "20 kunlik saqlashdan keyin ozonlangan go'sht hidsiz, o'zining yangiligi va yumshoqligini saqlab qoldi. Ishlov berilmagan go'sht esa atigi 5 kundan keyin yashil rangga kirib, sassiq hid chiqara boshladi.",
           "tableHeaders": ["Ko'rsatkich", "Ozon bilan", "Ozonsiz"],

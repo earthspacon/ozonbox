@@ -112,7 +112,7 @@ export function OzoneVocStudyPage({ staticData }: { staticData: TolgeeStaticData
 
             {figure1 && (
               <ImageWithCaption
-                src="/images/placeholder-figure1-limonene-ozone-reaction.png"
+                src="/images/articles/lemon-reaction.png"
                 alt={figure1.caption}
                 caption={figure1.caption}
               />

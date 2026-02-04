@@ -161,9 +161,13 @@ export function PoultryPage({ staticData, lang }: PoultryPageProps) {
             <Paragraph>{data.sections.storage.intro}</Paragraph>
 
             <ComparisonTable
-              title={data.sections.storage.tableTitle}
-              headers={data.sections.storage.tableHeaders}
-              rows={data.sections.storage.tableData}
+              title={data.sections.storage.tableTitle ?? data.sections.storage.tableCaption}
+              headers={data.sections.storage.tableHeaders as [string, string, string]}
+              rows={(data.sections.storage.tableData as string[][]).map((row) => ({
+                parameter: row[0],
+                value1: row[1],
+                value2: row[2],
+              }))}
             />
 
             <HighlightBox variant="success">{data.sections.storage.highlight}</HighlightBox>

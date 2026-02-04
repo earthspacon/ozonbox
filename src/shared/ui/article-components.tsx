@@ -366,20 +366,30 @@ interface BreadcrumbProps {
 
 export function Breadcrumb({ items }: BreadcrumbProps) {
   return (
-    <nav className="inline-flex flex-wrap items-center gap-2 rounded-full bg-white/95 px-4 py-2.5 text-sm shadow-lg backdrop-blur-sm">
+    <nav className="inline-flex max-w-full flex-nowrap items-center gap-2 overflow-hidden rounded-full bg-white/95 px-4 py-2.5 text-sm shadow-lg backdrop-blur-sm">
       {items.map((item, i) => (
-        <span key={i} className="flex items-center gap-2">
+        <span key={i} className={`flex items-center gap-2 ${i === items.length - 1 ? 'min-w-0' : 'flex-shrink-0'}`}>
           {i > 0 && (
-            <svg className="text-text-light h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg
+              className="text-text-light h-4 w-4 flex-shrink-0"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
           )}
           {item.href ? (
-            <a href={item.href} className="text-text-secondary hover:text-primary font-medium transition-colors">
+            <a
+              href={item.href}
+              className={`text-text-secondary hover:text-primary font-medium transition-colors ${i === items.length - 1 ? 'min-w-0 truncate' : ''}`}
+            >
               {item.label}
             </a>
           ) : (
-            <span className="text-primary font-semibold">{item.label}</span>
+            <span className={`text-primary font-semibold ${i === items.length - 1 ? 'min-w-0 truncate' : ''}`}>
+              {item.label}
+            </span>
           )}
         </span>
       ))}
