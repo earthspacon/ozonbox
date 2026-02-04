@@ -170,7 +170,7 @@ export function BeekeepingPage({ staticData, lang }: BeekeepingPageProps) {
 
           <ArticleSection title={data.sections.benefits.title}>
             <FeatureGrid columns={2}>
-              {data.sections.benefits.items.map((item: { title: string; description: string }, idx: number) => (
+              {(data.sections.benefits.items || []).map((item: { title: string; description: string }, idx: number) => (
                 <FeatureCard
                   key={idx}
                   icon={<IconCheck style={{ width: 24, height: 24 }} />}

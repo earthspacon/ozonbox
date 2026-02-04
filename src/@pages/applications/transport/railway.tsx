@@ -141,7 +141,7 @@ export function RailwayPage({ staticData, lang }: RailwayPageProps) {
 
           <ArticleSection title={data?.sections?.integration?.title}>
             <FeatureGrid columns={2}>
-              {data?.sections?.integration?.features?.map((item: { title: string; description: string }, idx: number) => (
+              {(data?.sections?.integration?.features || []).map((item: { title: string; description: string }, idx: number) => (
                 <FeatureCard
                   key={idx}
                   icon={<IconCheck style={{ width: 24, height: 24 }} />}

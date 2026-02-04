@@ -103,7 +103,7 @@ export function RestaurantsPage({ staticData, lang }: RestaurantsPageProps) {
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.problems?.title}>
-            <BulletList items={data?.problems} />
+            <BulletList items={data?.problems || []} />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.whyImportant?.title}>
@@ -127,13 +127,13 @@ export function RestaurantsPage({ staticData, lang }: RestaurantsPageProps) {
           <ArticleSection title={data?.sections?.zones?.title}>
             <FeatureGrid columns={2}>
               {Object.values(data?.sections?.zones || {})
-                .filter((item) => typeof item === 'object' && item && 'title' in item)
+                .filter((item: any) => typeof item === 'object' && item && 'title' in item)
                 .map((item: any, idx: number) => (
                   <FeatureCard
                     key={idx}
                     icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={(item as any).title}
-                    description={(item as any).desc}
+                    title={item.title}
+                    description={item.desc || item.description}
                   />
                 ))}
             </FeatureGrid>

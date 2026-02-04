@@ -134,10 +134,7 @@ export function IronRemovalPage({ staticData, lang }: IronRemovalPageProps) {
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.comparison?.title}>
-            <ComparisonTable
-              headers={data?.sections?.comparison?.headers}
-              rows={data?.sections?.comparison?.rows}
-            />
+            <ComparisonTable headers={data?.sections?.comparison?.headers} rows={data?.sections?.comparison?.rows} />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.ironChemistry?.title}>
@@ -208,8 +205,7 @@ export function IronRemovalPage({ staticData, lang }: IronRemovalPageProps) {
             />
 
             <Paragraph>
-              <strong>{data?.sections?.systemParams?.noteLabel}</strong>{' '}
-              {data?.sections?.systemParams?.noteText}
+              <strong>{data?.sections?.systemParams?.noteLabel}</strong> {data?.sections?.systemParams?.noteText}
             </Paragraph>
           </ArticleSection>
 
