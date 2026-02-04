@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+
+# Host
+Host: https://ozonoxy.com.uz
+
+# Sitemaps
+Sitemap: https://ozonoxy.com.uz/sitemap.xml
