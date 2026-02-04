@@ -724,6 +724,11 @@
         "Ekologik toza texnologiya"
       ],
       "sections": {
+        "intro": {
+          "paragraph1": "Issiqxona xo'jaliklarida ozon kompleks qo'llaniladi: havo, o'simlik yuzalari, tuproq va sug'orish suvini dezinfeksiya qilish uchun. Bu hosildorlikni oshirish va kimyoviy moddalarsiz kasalliklarni samarali nazorat qilish imkonini beradi.",
+          "paragraph2": "Ozon suvda kislorodga qaraganda 15 baravar yaxshi eriydi. Ozonlangan suv bilan sug'orish tuproq sifatini yaxshilash, ildiz massasini oshirish va ildiz patogenlarini kamaytirish orqali hosildorlikni 13–35% ga oshiradi.",
+          "scientificFact": "Ilmiy fakt: Ozon suvda kislorodga qaraganda 15 baravar ko'proq eriydi. Bu tuproqni kislorod bilan to'yintiradigan va patogenlarni yo'q qiladigan yuqori darajada boyitilgan sug'orish eritmalarini yaratish imkonini beradi."
+        },
         "applications": {
           "title": "Issiqxonalarda ozonning qo'llanilishi",
           "items": [
@@ -947,11 +952,6 @@
               "description": "Hosildorlik o'sishi va kimyoviy xarajatlarning kamayishi hisobiga uskunaning 1–2 mavsumda o'zini oqlashi"
             }
           ]
-        },
-        "intro": {
-          "paragraph1": "Issiqxona xo'jaliklarida ozon kompleks qo'llaniladi: havo, o'simlik yuzalari, tuproq va sug'orish suvini dezinfeksiya qilish uchun. Bu hosildorlikni oshirish va kimyoviy moddalarsiz kasalliklarni samarali nazorat qilish imkonini beradi.",
-          "paragraph2": "Ozon suvda kislorodga qaraganda 15 baravar yaxshi eriydi. Ozonlangan suv bilan sug'orish tuproq sifatini yaxshilash, ildiz massasini oshirish va ildiz patogenlarini kamaytirish orqali hosildorlikni 13–35% ga oshiradi.",
-          "scientificFact": "Ilmiy fakt: Ozon suvda kislorodga qaraganda 15 baravar ko'proq eriydi. Bu tuproqni kislorod bilan to'yintiradigan va patogenlarni yo'q qiladigan yuqori darajada boyitilgan sug'orish eritmalarini yaratish imkonini beradi."
         }
       }
     },
@@ -1307,6 +1307,10 @@
         "40–60% nobud bo'lishni kamaytirish"
       ],
       "sections": {
+        "intro": {
+          "paragraph1": "Donni saqlash muhim jarayon bo'lib, unda zararkunandalardan ko'riladigan zarar jahon ishlab chiqarishining 5 dan 50% gacha qismini tashkil qilishi mumkin. Ozonlash zararkunandalarni samarali nazorat qiladi va mog'or tarqalishining oldini oladi.",
+          "paragraph2": "Ozon hasharotlar va kanalarga barcha bosqichlarida ta'sir qiladi. 30–60 daqiqada 95–99% o'limi yetadi. Donni dezinfeksiya qilish darajasi 80–95% ga erishadi va ishlov berish ozuqaviy sifatni yomonlashtirmaydi."
+        },
         "applications": {
           "title": "Ozon qo'llash yo'nalishlari",
           "items": [
