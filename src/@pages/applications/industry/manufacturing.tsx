@@ -51,7 +51,7 @@ export function ManufacturingPage({ staticData, lang }: ManufacturingPageProps) 
       <ArticleHero
         title={t('subcategories.manufacturing.title', { ns })}
         description={t('subcategories.manufacturing.shortDesc', { ns })}
-        image="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1920&q=80"
+        image="https://images.pexels.com/photos/221012/pexels-photo-221012.jpeg"
         imageAlt={t('subcategories.manufacturing.title', { ns })}
         breadcrumbs={breadcrumbs}
         backLink={{

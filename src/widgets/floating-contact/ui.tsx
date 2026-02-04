@@ -13,7 +13,7 @@ export function FloatingContact() {
         <IconTelegram />
       </a>
       <a href="tel:+998942909977" className="floating-contact__btn floating-contact__btn--phone" aria-label="Позвонить">
-        <IconPhone />
+        <IconPhone fill="#fff" />
       </a>
     </div>
   )

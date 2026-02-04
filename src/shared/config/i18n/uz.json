@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "OzonOxy — Biznes uchun ozonlash va dezinfeksiya",
+    "title": "OZONOXY — Biznes uchun ozonlash va dezinfeksiya",
     "description": "Parrandachilik, oziq-ovqat sanoati, HoReCa va tibbiyot uchun professional ozonlash tizimlari. Xlordan 300 marta samaraliroq. Bepul maslahat."
   },
   "nav": {
@@ -12,7 +12,7 @@
   },
   "header": {
     "phone": "+998 94 290 99 77",
-    "orderCall": "Qo'ng'iroq buyurtma qilish",
+    "contact": "Bog'lanish",
     "freeCall": "Bizga qo'ng'iroq qiling"
   },
   "hero": {
@@ -137,11 +137,13 @@
     "home": "Bosh sahifa",
     "applicationsTitle": "Qo'llanilishi",
     "contactsTitle": "Kontaktlar",
-    "copyright": "OzonOxy. Barcha huquqlar himoyalangan.",
-    "dev": "Sayt ishlab chiqaruvchi — OzonOxy"
+    "copyright": "OZONOXY. Barcha huquqlar himoyalangan.",
+    "callUs": "Bizga qo'ng'iroq qiling",
+    "openTelegram": "Telegramni ochish",
+    "viewAddress": "Manzilni ko'rish"
   },
   "technology": {
-    "pageTitle": "Ozonlash texnologiyasi — OzonOxy",
+    "pageTitle": "Ozonlash texnologiyasi — OZONOXY",
     "pageDescription": "Ozonlash texnologiyasi qanday ishlashini bilib oling. Ozon va xlorni taqqoslash. Bitta qurilmada 7 ta ozonlash funksiyasi.",
     "header": {
       "title": "Ozonlash qanday ishlaydi",
@@ -239,7 +241,7 @@
     }
   },
   "applicationsPage": {
-    "pageTitle": "Ozonlash qo'llanilishi — OzonOxy",
+    "pageTitle": "Ozonlash qo'llanilishi — OZONOXY",
     "pageDescription": "Parrandachilik, oziq-ovqat sanoati, mehmonxonalar, tibbiyot va suv tozalashda ozonlash qo'llanilishi. Aniq natijalar va afzalliklar.",
     "header": {
       "title": "Qo'llanilish sohalari",
@@ -347,7 +349,7 @@
     }
   },
   "benefitsPage": {
-    "pageTitle": "Ozonlash afzalliklari — OzonOxy",
+    "pageTitle": "Ozonlash afzalliklari — OZONOXY",
     "pageDescription": "Ozonlash afzalliklari: ekologik tozalik, samaradorlik, xavfsizlik, tejamkorlik, universallik va avtonom ishlash.",
     "header": {
       "title": "Ozonlash afzalliklari",
@@ -429,15 +431,15 @@
     }
   },
   "aboutPage": {
-    "pageTitle": "Kompaniya haqida — OzonOxy",
-    "pageDescription": "OzonOxy haqida — biznes uchun professional ozonlash tizimlari. Maslahatlar, uskunalar tanlash, texnik yordam.",
+    "pageTitle": "Kompaniya haqida — OZONOXY",
+    "pageDescription": "OZONOXY haqida — biznes uchun professional ozonlash tizimlari. Maslahatlar, uskunalar tanlash, texnik yordam.",
     "header": {
       "title": "Kompaniya haqida",
       "subtitle": "Biznesingiz uchun professional ozonlash tizimlari"
     },
     "content": {
       "title": "Biz —",
-      "titleHighlight": "OzonOxy",
+      "titleHighlight": "OZONOXY",
       "p1": "Biz ozon texnologiyalari sohasidagi mutaxassislar jamoasimiz. Bizning vazifamiz — dezinfeksiyani xavfsiz, samarali va har qanday hajmdagi biznes uchun qulay qilish.",
       "p2": "Biz kelajak atrof-muhit va inson sog'lig'iga zarar bermaydigan ekologik texnologiyalarga tegishli deb ishonamiz. Ozonlash aynan shunday texnologiya.",
       "services": {
@@ -480,8 +482,8 @@
     }
   },
   "contactsPage": {
-    "pageTitle": "Kontaktlar — OzonOxy",
-    "pageDescription": "OzonOxy bilan bog'laning — ozonlash tizimlari bo'yicha bepul maslahat oling. Telefon, email, qayta aloqa formasi.",
+    "pageTitle": "Kontaktlar — OZONOXY",
+    "pageDescription": "OZONOXY bilan bog'laning — ozonlash tizimlari bo'yicha bepul maslahat oling. Telefon, email, qayta aloqa formasi.",
     "header": {
       "title": "Kontaktlar",
       "subtitle": "Bepul maslahat uchun biz bilan bog'laning"

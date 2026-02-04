@@ -50,7 +50,7 @@ export function OilRemovalPage({ staticData, lang }: OilRemovalPageProps) {
       <ArticleHero
         title={t('subcategories.oil-removal.title', { ns })}
         description={t('subcategories.oil-removal.shortDesc', { ns })}
-        image="https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=1920&q=80"
+        image="https://images.pexels.com/photos/27490881/pexels-photo-27490881.jpeg"
         imageAlt={t('subcategories.oil-removal.title', { ns })}
         breadcrumbs={breadcrumbs}
         backLink={{

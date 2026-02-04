@@ -14,7 +14,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>OzonOxy — Озонирование и дезинфекция для бизнеса</title>
+        <title>OZONOXY — Озонирование и дезинфекция для бизнеса</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div className={inter.className}>

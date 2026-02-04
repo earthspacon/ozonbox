@@ -53,6 +53,12 @@
         }
       },
       "sections": {
+        "intro": {
+          "paragraph1": "Drinking water ozonation is the standard method of disinfection in developed countries: the majority of tap water in Europe is treated with ozone. Ozone destroys bacteria, viruses, protozoan cysts and spores with very high efficiency (up to 99.99%) and is significantly more effective than chlorine, especially against chlorine-resistant pathogens such as Cryptosporidium.",
+          "paragraph2": "Unlike chlorination, ozonation does not form carcinogenic byproducts such as trihalomethanes. It improves the taste and odor of water and reduces color. Residual ozone decays to oxygen within 20–30 minutes, leaving no chemical traces. Recommended residual ozone in drinking water at the consumer tap is 0.1–0.3 mg/L; systems must include proper contact time and, where required, degassing before distribution.",
+          "warningLabel": "Important:",
+          "warningText": "Residual ozone in drinking water must not exceed 0.1–0.3 mg/L at the point of use. Ozonation equipment must be designed and operated in accordance with drinking water standards, with adequate contact time and degassing so that water supplied to the distribution network meets regulatory limits."
+        },
         "comparison": {
           "title": "Water disinfection methods comparison",
           "headers": ["Parameter", "Ozonation", "Chlorination"],

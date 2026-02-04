@@ -8,13 +8,6 @@ import { LANG_LS_KEY, LOCALES, TLocale } from '@/shared/config/tolgee'
 
 import { useIsLangInRoute, useLang } from '../lib'
 
-const FLAGS: Record<TLocale, string> = {
-  ru: '🇷🇺',
-  en: '🇬🇧',
-  uz: '🇺🇿',
-  'uz-cyr': '🇺🇿',
-}
-
 export function LanguageSwitcher() {
   const tolgee = useTolgee(['language'])
   const router = useRouter()
@@ -58,7 +51,6 @@ export function LanguageSwitcher() {
         aria-expanded={isOpen}
         aria-haspopup="listbox"
       >
-        <span className="lang-switcher__flag">{FLAGS[currentLang]}</span>
         <span className="lang-switcher__label">{currentLocale?.shortLabel || currentLang.toUpperCase()}</span>
         <svg
           className={`lang-switcher__arrow ${isOpen ? 'lang-switcher__arrow--open' : ''}`}
@@ -81,8 +73,7 @@ export function LanguageSwitcher() {
                 role="option"
                 aria-selected={currentLang === locale.id}
               >
-                <span className="lang-switcher__flag">{FLAGS[locale.id]}</span>
-                <span>{locale.fullLabel}</span>
+                {locale.shortLabel}
               </button>
             </li>
           ))}

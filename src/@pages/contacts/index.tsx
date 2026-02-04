@@ -10,8 +10,19 @@ export function ContactsPage() {
   return (
     <Layout>
       {/* Page Header */}
-      <section className="from-primary/5 to-accent/5 bg-gradient-to-br via-transparent py-16 md:py-24">
-        <div className="container mx-auto px-4">
+      <section className="from-primary/10 to-accent/10 relative mt-16 overflow-hidden bg-gradient-to-br via-white py-16 md:py-24">
+        <div
+          className="pointer-events-none absolute inset-0 opacity-40"
+          style={{
+            backgroundImage: `radial-gradient(circle at 20% 50%, rgba(34, 197, 94, 0.15) 0%, transparent 50%),
+              radial-gradient(circle at 80% 50%, rgba(14, 165, 233, 0.15) 0%, transparent 50%)`,
+          }}
+          aria-hidden
+        />
+        <div className="bg-primary/10 absolute top-1/4 right-0 h-64 w-64 rounded-full blur-3xl" aria-hidden />
+        <div className="bg-accent/10 absolute bottom-1/4 left-0 h-48 w-48 rounded-full blur-3xl" aria-hidden />
+
+        <div className="relative container mx-auto flex flex-col items-center justify-center px-4">
           <h1 className="mb-4 text-center text-4xl font-bold md:text-5xl">{t('contactsPage.header.title')}</h1>
           <p className="mx-auto max-w-2xl text-center text-lg text-gray-600 md:text-xl">
             {t('contactsPage.header.subtitle')}

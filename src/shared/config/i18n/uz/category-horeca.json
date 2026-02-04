@@ -311,18 +311,26 @@
         "Shaxsiy bo'lmagan kirlarni niqobsiz ishlov berish"
       ],
       "stats": {
-        "energySaving": "70-100%",
-        "energySavingLabel": "Qizitish tejashi",
-        "energySavingDesc": "Sovuq suvda yuvish",
-        "chemistrySaving": "30-50%",
-        "chemistrySavingLabel": "Kimyoviy tejashi",
-        "chemistrySavingDesc": "Kamroq tozalantiruvchi va oqartgich",
-        "linenLife": "+30%",
-        "linenLifeLabel": "Kir hayoti",
-        "linenLifeDesc": "Qat'iy kimyoviy va qizitmasdan",
-        "disinfection": "99.9%",
-        "disinfectionLabel": "Dezinfeksiya",
-        "disinfectionDesc": "Hatto sovuq suvda ham"
+        "energySaving": {
+          "value": "70-100%",
+          "label": "Qizitish tejashi",
+          "description": "Sovuq suvda yuvish suv qizitish xarajatlarini olib tashlaydi; ozon sovuq suvda eng samarali ishlaydi."
+        },
+        "chemistrySaving": {
+          "value": "30-50%",
+          "label": "Kimyoviy tejashi",
+          "description": "Kamroq tozalantiruvchi va oqartgich; ozon kimyoviyning bir qismini almashtiradi va yuvish sifatini yaxshilaydi."
+        },
+        "linenLife": {
+          "value": "+30%",
+          "label": "Kir hayoti",
+          "description": "Qat'iy kimyoviy va qizitmasdan; sovuq suv va xlorsiz tolalarning eskirishi kamayadi."
+        },
+        "disinfection": {
+          "value": "99.9%",
+          "label": "Dezinfeksiya",
+          "description": "Sovuq suvda ham bakteriya va viruslarni samarali kamaytirish."
+        }
       },
       "sections": {
         "intro": {
@@ -496,12 +504,21 @@
         "2–3 soatda kislorodga parchalanishi"
       ],
       "stats": {
-        "processingTime": "60-120",
-        "processingTimeLabel": "Ishlov berish daqiqlari",
-        "odorRemoval": "100%",
-        "odorRemovalLabel": "Hidi yo'q qilish",
-        "ventilationTime": "2-3",
-        "ventilationTimeLabel": "Ventilatsiya soatlari"
+        "stat1": {
+          "value": "60-120",
+          "label": "Ishlov berish daqiqlari",
+          "description": "To'liq ishlov berish siklsi"
+        },
+        "stat2": {
+          "value": "100%",
+          "label": "Hidi yo'q qilish",
+          "description": "Kimyoviy neytrallashtirish"
+        },
+        "stat3": {
+          "value": "2-3",
+          "label": "Ventilatsiya soatlari",
+          "description": "Ozon parchalanishi"
+        }
       },
       "odorSources": [
         "To'qimalar (pardalar, qaplotlash, yostiqlar) — asosiy hidi xonjiragi",
@@ -510,31 +527,48 @@
         "Ventilatsiya kanallar — ifloslanish to'planishi",
         "Qo'l yetmaydigan joylar — teschaliklar, tikishlar, bo'shliklari"
       ],
-      "modes": {
-        "title": "Ishlov berish rejim",
-        "tableHeaders": ["Rejim", "Vaqt", "Chastotasi", "Natija"],
-        "daily": {
-          "title": "Kunlik oldini olish",
-          "time": "60 daqiqa",
-          "frequency": "Har kecha",
-          "result": "Yangilikiini saqlash"
-        },
-        "intensive": {
-          "title": "Shoshqaloq kechdan keyin",
-          "time": "90-120 daqiqa",
-          "frequency": "Kerak bo'lganda",
-          "result": "Chuqur tozalash"
-        },
-        "deepClean": {
-          "title": "Eskilashgan hidi",
-          "time": "2-3 soat",
-          "frequency": "Ketma-ket 3-5 kun",
-          "result": "To'liq yo'q qilish"
-        }
-      },
       "sections": {
+        "intro": {
+          "paragraph1": "O'qib turgan, eskilashgan sigareta va nargila hidi tashrif qiluvchilarni bezdirtsa oladi. Hatto nargila zallarida mehmonlar yangi nargila aromasi yoqsa ham, muammo bor: tutun mebel va qaplotlashga sutkaga kirganda, aromat qo'shimchalar tez poyab, faqat noqulaylik tutun va qatron hidi qoladi.",
+          "paragraph2": "Ozonlash bunday hidlarni maskalamasdan, balki kimyoviy yo'q qilishning yagona samarali usuli. Ozon hid molekulalarni suv va karbon dioksidga yoki hidsiz oksidlash mahsulotlariga oksidlaydi. Tabaka va nargila tutuni tar o'z ichiga oladi, ular to'qimlarga penetratsiya qiladi: to'qimalar, yog'och, qaplotlash, plita, gilam. Vaqt o'tishi bilan bu moddalar to'planadi va doimiy noqulaylik hidi yaratadi."
+        },
         "benefits": {
-          "title": "Foydalari"
+          "title": "Nargila zallari uchun ozonlashning foydalari",
+          "items": [
+            {
+              "title": "Kimyoviy yo'q qilish, maskallash emas",
+              "description": "Ozon hid molekulalarni molekulyar darajada yo'q qiladi, manbani to'liq bartaraf etadi, uni xushbo'y bilan niqob qilmaydi."
+            },
+            {
+              "title": "Qo'l yetmaydigan joylarni penetratsiya",
+              "description": "Gaz bo'lgani uchun, ozon to'qimalar, mebel to'ldiruvchisi, plita materiallar va ventilatsiya kanallariga chuqur kirib boradi, bu yerda tutun zarralari to'planadi."
+            },
+            {
+              "title": "To'qimalar va mebel ishlov berish",
+              "description": "Ozon barcha porli materiallarni, jumladan pardalar, qaplotlash, yostiqlar va gilamlarni zarar yetkazmasdan samarali ishlov beradi."
+            },
+            {
+              "title": "Taymer bilan avtomatik ishlash",
+              "description": "Zamonaviy ozonatorlarni ishdan chiqish soatlarida avtomatik ishga tushirishni dasturlash mumkin, xodimlarning qatnashmasi bo'lmasdan ochilish vaqtida yangi havo ta'minlaydi."
+            },
+            {
+              "title": "Iste'mol vositalari talab qilmaydi",
+              "description": "Ozon havadan istehso qilinadi, bu qimmat havo yangilantiruvchilari, xushbo'y yoki kimyoviy dezodorantlarni talab qilmaydi."
+            },
+            {
+              "title": "Xavfsiz parchalanish",
+              "description": "Ozon tabiiy ravishda 2-3 soat ichida kislorodga parchalanadi, faqat zararli qoldiqlar yoki yon mahsulotlarsiz yangi havo qoldiradi."
+            }
+          ]
+        },
+        "modes": {
+          "title": "Ishlov berish rejimlari",
+          "tableHeaders": ["Rejim", "Vaqt", "Chastotasi", "Natija"],
+          "tableData": [
+            ["Kunlik oldini olish", "60 daqiqa", "Har kecha", "Yangilikiini saqlash"],
+            ["Shoshqaloq kechdan keyin", "90-120 daqiqa", "Kerak bo'lganda", "Chuqur tozalash"],
+            ["Eskilashgan hidi", "2-3 soat", "Ketma-ket 3-5 kun", "To'liq yo'q qilish"]
+          ]
         }
       }
     },
@@ -553,18 +587,26 @@
         "Kechuning avtomatik ishlov berish"
       ],
       "stats": {
-        "processingTime": "1-3",
-        "processingTimeLabel": "Ishlov berish soatlari",
-        "processingTimeDesc": "Kecha ishlov berish",
-        "odorRemoval": "100%",
-        "odorRemovalLabel": "Hidi yo'q qilish",
-        "odorRemovalDesc": "Kimyoviy neytrallashtirish",
-        "stayIncrease": "+30%",
-        "stayIncreaseLabel": "Do'konda vaqt",
-        "stayIncreaseDesc": "Mijoz qulayligi",
-        "disinfection": "99.9%",
-        "disinfectionLabel": "Dezinfeksiya",
-        "disinfectionDesc": "Bakteriyalar va chayniqlar"
+        "processingTime": {
+          "value": "1-3",
+          "label": "Ishlov berish soatlari",
+          "description": "Kecha ishlov berish"
+        },
+        "odorRemoval": {
+          "value": "100%",
+          "label": "Hidi yo'q qilish",
+          "description": "Kimyoviy neytrallashtirish"
+        },
+        "stayIncrease": {
+          "value": "+30%",
+          "label": "Do'konda vaqt",
+          "description": "Mijoz qulayligi"
+        },
+        "disinfection": {
+          "value": "99.9%",
+          "label": "Dezinfeksiya",
+          "description": "Bakteriyalar va chayniqlar"
+        }
       },
       "businessImpact": {
         "visitTime": {
@@ -602,36 +644,15 @@
         },
         "businessImpact": {
           "title": "Hidning sotuvlar ta'siriga",
-          "table": {
-            "headers": ["Ko'rsatchi", "Hid bilan", "Ozonlashdan keyin"],
-            "rows": [
-              {
-                "parameter": "O'rtacha turiş vaqti",
-                "value1": "12 daqiqa",
-                "value2": "18-20 daqiqa"
-              },
-              {
-                "parameter": "Sotuvga o'tish",
-                "value1": "15%",
-                "value2": "22%"
-              },
-              {
-                "parameter": "O'rtacha hisob",
-                "value1": "Bazaviy",
-                "value2": "+15-25%"
-              },
-              {
-                "parameter": "Takroriy tashrif",
-                "value1": "25%",
-                "value2": "40%"
-              },
-              {
-                "parameter": "Hid haqidagi salbiy sharhlar",
-                "value1": "35%",
-                "value2": "<5%"
-              }
-            ]
-          }
+          "tableCaption": "Hidning sotuvlar ta'siriga",
+          "tableHeaders": ["Ko'rsatchi", "Hid bilan", "Ozonlashdan keyin"],
+          "tableData": [
+            ["O'rtacha turiş vaqti", "12 daqiqa", "18-20 daqiqa"],
+            ["Sotuvga o'tish", "15%", "22%"],
+            ["O'rtacha hisob", "Bazaviy", "+15-25%"],
+            ["Takroriy tashrif", "25%", "40%"],
+            ["Hid haqidagi salbiy sharhlar", "35%", "<5%"]
+          ]
         },
         "benefits": {
           "title": "Ozonlashning foydalari",
@@ -678,16 +699,14 @@
         "calculation": {
           "title": "Asboblar hisoblash",
           "text": "Ozonator sig'imi tanlash: xona hajmi uchun soatiga 25 m³ dan 1 g.",
-          "table": {
-            "caption": "Ozonator tanlash tafsiyalari",
-            "headers": ["Do'kon maydoni", "Hajmi", "Ozonator", "Ishlov berish vaqti"],
-            "rows": [
-              ["50-100 m²", "150-300 m³", "10 g/soat", "1-2 soat"],
-              ["100-200 m²", "300-600 m³", "10-20 g/soat", "2-3 soat"],
-              ["200-400 m²", "600-1200 m³", "20-40 g/soat", "2-3 soat"],
-              ["400+ m²", "1200+ m³", "Bir nechta qurilma", "2-3 soat"]
-            ]
-          }
+          "tableCaption": "Ozonator tanlash tafsiyalari",
+          "tableHeaders": ["Do'kon maydoni", "Hajmi", "Ozonator", "Ishlov berish vaqti"],
+          "tableData": [
+            ["50-100 m²", "150-300 m³", "10 g/soat", "1-2 soat"],
+            ["100-200 m²", "300-600 m³", "10-20 g/soat", "2-3 soat"],
+            ["200-400 m²", "600-1200 m³", "20-40 g/soat", "2-3 soat"],
+            ["400+ m²", "1200+ m³", "Bir nechta qurilma", "2-3 soat"]
+          ]
         },
         "workMode": {
           "title": "Ishlash rejimi",
@@ -698,22 +717,20 @@
             "Xodimlarning qatnashmasi shart emas — to'liq avtomatika",
             "Kuchli hid uchun — birinchi 3-5 kun 2-3 soatga ishlov berish"
           ],
-          "protection": {
+          "highlight": {
             "title": "Himoya asbob:",
             "text": "Agar xodim ozonlash paytida xonada bo'lsa (masalan, qurilmani yoqish uchun), o'rtak filtrli respirator yoki gaz niqob talab qilinadi."
           }
         },
         "economics": {
           "title": "Yechim iqtisodiyoti",
-          "table": {
-            "headers": ["Xaraja maddasi", "Ozonlashsiz", "Ozonlash bilan"],
-            "rows": [
-              ["Havo yangilantiruvchilari", "5-15 ming ₽/oy", "0 ₽"],
-              ["Elektr energiyasi", "—", "500-1000 ₽/oy"],
-              ["Noqulaylik bilan bezdash miqdor", "Sezilarli", "Minimal"],
-              ["Asboblar narxi", "—", "22-35 ming ₽ (bir marta)"]
-            ]
-          },
+          "tableHeaders": ["Xaraja maddasi", "Ozonlashsiz", "Ozonlash bilan"],
+          "tableData": [
+            ["Havo yangilantiruvchilari", "5-15 ming ₽/oy", "0 ₽"],
+            ["Elektr energiyasi", "—", "500-1000 ₽/oy"],
+            ["Noqulaylik bilan bezdash miqdor", "Sezilarli", "Minimal"],
+            ["Asboblar narxi", "—", "22-35 ming ₽ (bir marta)"]
+          ],
           "payback": {
             "title": "To'lash:",
             "text": "Havo yangilantiruvchilarda oy uchun 10 ming ₽ tejash bilan ozonator 2-3 oyda o'z narxini to'laydi. Keyingi ishlash — faqat energiya narxi."
@@ -731,14 +748,12 @@
         },
         "equipment": {
           "title": "Tavsiya qilingan asboblar",
-          "table": {
-            "headers": ["Model", "Sig'im", "Qo'llanish", "Narxi"],
-            "rows": [
-              ["OZ-A10", "10 g/soat", "250 m³ gacha do'konlar", "22.000 ₽ dan"],
-              ["OZ-A10(N)", "10 g/soat", "Devoqaga o'rnatish", "32.000 ₽ dan"],
-              ["OZ-A20", "20 g/soat", "500 m³ gacha do'konlar", "34.000 ₽ dan"]
-            ]
-          }
+          "tableHeaders": ["Model", "Sig'im", "Qo'llanish", "Narxi"],
+          "tableData": [
+            ["OZ-A10", "10 g/soat", "250 m³ gacha do'konlar", "22.000 ₽ dan"],
+            ["OZ-A10(N)", "10 g/soat", "Devoqaga o'rnatish", "32.000 ₽ dan"],
+            ["OZ-A20", "20 g/soat", "500 m³ gacha do'konlar", "34.000 ₽ dan"]
+          ]
         }
       }
     }

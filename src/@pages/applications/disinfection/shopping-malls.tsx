@@ -53,7 +53,7 @@ export function ShoppingMallsPage({ staticData }: ShoppingMallsPageProps) {
       <ArticleHero
         title={t('subcategories.shopping-malls.title', { ns })}
         description={t('subcategories.shopping-malls.shortDesc', { ns })}
-        image="https://images.unsplash.com/photo-1519558260268-cde7e03a0152?w=1920&q=80"
+        image="https://images.pexels.com/photos/13425897/pexels-photo-13425897.jpeg"
         imageAlt={t('subcategories.shopping-malls.title', { ns })}
         breadcrumbs={breadcrumbs}
         backLink={{

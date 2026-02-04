@@ -49,7 +49,7 @@ export function BeekeepingPage({ staticData, lang }: BeekeepingPageProps) {
       <ArticleHero
         title={t('subcategories.beekeeping.title', { ns })}
         description={t('subcategories.beekeeping.shortDesc', { ns })}
-        image="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1920&q=80"
+        image="https://images.unsplash.com/photo-1647427062468-74ff21e8934f?w=1920&q=80"
         imageAlt={t('subcategories.beekeeping.title', { ns })}
         breadcrumbs={breadcrumbs}
         backLink={{

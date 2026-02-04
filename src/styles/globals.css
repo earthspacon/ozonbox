@@ -30,7 +30,7 @@
 }
 
 /* ===================================
-   OzonOxy - Main Stylesheet
+   OZONOXY - Main Stylesheet
    =================================== */
 
 /* CSS Variables / Design Tokens */
@@ -251,32 +251,22 @@ p {
 }
 
 .header__inner {
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   height: 100%;
   width: 100%;
-  max-width: var(--container-max);
+  /* max-width: var(--container-max); */
   margin: 0 auto;
   padding: 0 var(--container-padding);
-}
-
-.header__logo {
-  display: flex;
-  align-items: center;
-}
-
-.header__logo svg,
-.header__logo img {
-  height: 40px;
-  width: auto;
 }
 
 .header__nav {
   display: flex;
   align-items: center;
   gap: var(--spacing-6);
-  margin: 0 var(--spacing-8) 0 auto;
+  /* margin: 0 var(--spacing-8) 0 auto; */
 }
 
 .header__nav-list {
@@ -345,7 +335,8 @@ p {
 .header__phone-icon {
   width: 18px;
   height: 18px;
-  color: var(--color-primary);
+  color: #fff;
+  fill: #fff;
   flex-shrink: 0;
 }
 
@@ -409,21 +400,56 @@ p {
   padding: var(--spacing-4) 0;
   border-top: 1px solid var(--color-border);
   display: flex;
+  align-items: center;
   justify-content: center;
+  min-height: 2.75rem;
+}
+
+.mobile-menu .lang-switcher {
+  display: block;
 }
 
 .mobile-menu__phone {
   margin-top: var(--spacing-6);
   padding: var(--spacing-4);
-  background: var(--color-bg-light);
-  border-radius: var(--radius-lg);
+  background: var(--color-bg-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
   text-align: center;
+  box-shadow: var(--shadow-md);
+  transition:
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+
+.mobile-menu__phone:active {
+  transform: scale(0.98);
+  box-shadow: var(--shadow-sm);
 }
 
 .mobile-menu__phone a {
-  font-size: var(--font-size-xl);
-  font-weight: 700;
+  display: block;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
   color: var(--color-primary);
+  text-decoration: none;
+  margin-bottom: var(--spacing-1);
+  transition: color var(--transition-fast);
+}
+
+.mobile-menu__phone a:hover {
+  color: var(--color-primary-dark);
+}
+
+.mobile-menu__call-btn {
+  width: 100%;
+  max-width: 280px;
+  font-size: var(--font-size-base);
+}
+
+.mobile-menu__call-hint {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
 }
 
 /* ===================================
@@ -913,7 +939,7 @@ p {
 
 .footer__logo svg,
 .footer__logo img {
-  height: 40px;
+  height: 50px;
   filter: brightness(0) invert(1);
 }
 
@@ -1042,6 +1068,7 @@ p {
 .floating-contact__btn svg {
   width: 24px;
   height: 24px;
+  color: #fff;
 }
 
 /* ===================================
@@ -1572,6 +1599,10 @@ p {
     display: flex;
   }
 
+  .header__inner {
+    justify-content: space-between;
+  }
+
   .features {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1765,18 +1796,6 @@ p {
 
 .lang-switcher__label {
   display: inline;
-}
-
-@media (max-width: 1199px) {
-  .lang-switcher__trigger {
-    padding: var(--spacing-2);
-    gap: var(--spacing-1);
-    min-width: auto;
-  }
-
-  .lang-switcher__arrow {
-    display: none;
-  }
 }
 
 .lang-switcher__arrow {

@@ -50,7 +50,7 @@ export function GreenhousesPage({ staticData, lang }: GreenhousesPageProps) {
       <ArticleHero
         title={t('subcategories.greenhouses.title', { ns })}
         description={t('subcategories.greenhouses.shortDesc', { ns })}
-        image="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1920&q=80"
+        image="https://images.unsplash.com/photo-1566218246241-934ad8b38ea6?w=1920&q=80"
         imageAlt={t('subcategories.greenhouses.title', { ns })}
         breadcrumbs={breadcrumbs}
         backLink={{

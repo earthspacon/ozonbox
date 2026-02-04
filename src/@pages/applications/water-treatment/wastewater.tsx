@@ -51,7 +51,7 @@ export function WastewaterPage({ staticData, lang }: WastewaterPageProps) {
       <ArticleHero
         title={t('subcategories.wastewater.title', { ns })}
         description={t('subcategories.wastewater.shortDesc', { ns })}
-        image="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=1920&q=80"
+        image="https://images.pexels.com/photos/5131191/pexels-photo-5131191.jpeg"
         imageAlt={t('subcategories.wastewater.title', { ns })}
         breadcrumbs={breadcrumbs}
         backLink={{

@@ -39,7 +39,7 @@ export function HomePage() {
         </div>
         <div className="container">
           <div className="hero__content fade-in visible">
-            <h1 className="hero__title">{t('hero.title')}</h1>
+            <h1 className="hero__title mt-5 md:mt-0">{t('hero.title')}</h1>
             <p className="hero__subtitle">{t('hero.subtitle')}</p>
             <div className="hero__actions">
               <AppLink href="/technology" className="btn btn--white btn--large">

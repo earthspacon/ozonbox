@@ -49,7 +49,7 @@ export function LivestockPage({ staticData, lang }: LivestockPageProps) {
       <ArticleHero
         title={t('subcategories.livestock.title', { ns })}
         description={t('subcategories.livestock.shortDesc', { ns })}
-        image="https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=1920&q=80"
+        image="https://images.unsplash.com/photo-1636998980792-63f27ddea4e3?w=1920&q=80"
         imageAlt={t('subcategories.livestock.title', { ns })}
         breadcrumbs={breadcrumbs}
         backLink={{

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-const TITLE_SUFFIX = ' — OzonOxy'
+const TITLE_SUFFIX = ' — OZONOXY'
 
 function toMetaString(value: unknown): string {
   if (typeof value === 'string') return value

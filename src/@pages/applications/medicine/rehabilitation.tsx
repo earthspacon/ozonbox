@@ -50,7 +50,7 @@ export function RehabilitationPage({ staticData, lang }: RehabilitationPageProps
       <ArticleHero
         title={t('subcategories.rehabilitation.title', { ns })}
         description={t('subcategories.rehabilitation.shortDesc', { ns })}
-        image="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1920&q=80"
+        image="https://images.pexels.com/photos/25596776/pexels-photo-25596776.jpeg"
         imageAlt={t('subcategories.rehabilitation.title', { ns })}
         breadcrumbs={breadcrumbs}
         backLink={{

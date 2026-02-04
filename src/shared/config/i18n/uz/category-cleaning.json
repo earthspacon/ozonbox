@@ -49,12 +49,12 @@
           "title": "Ozon qaysi hidlarni yo'q qiladi",
           "text": "Ozonlash deyarli har qanday organik va norganik hidlarga samarador:",
           "items": [
-            "Savob chigiti — devori, mebeling, tekstilga o'rappilangan",
+            "Yonish chigiti — devori, mebeling, tekstilga o'rappilangan",
             "Remontdan keyin chiqqan hid — bo'ya, elim, cho'zilgan shiftlar, yangi mebel",
             "Namlik va kokat — nam xonalarda, yer ostida, suv to'ki keyin",
             "Ovqat hidlari — bulg'angan mahsulotlar, baliq, asar-masalalar",
             "Uy hidlari — ter, eski kir, uy kimyoviy moddalar",
-            "Celebratsiya hidlari — alkogol, ovqat, savob"
+            "Celebratsiya hidlari — alkogol, ovqat, tutun"
           ]
         },
         "comparison": {
@@ -141,7 +141,7 @@
           "items": [
             {
               "title": "Uy ijarachilardan keyin",
-              "description": "Avvalgi egalari, hayvonlar, savob ichkiligi hidlarini olib tashlash. Sotish yoki ijaraga tayyorlash"
+              "description": "Avvalgi egalari, hayvonlar, tutun ichkiligi hidlarini olib tashlash. Sotish yoki ijaraga tayyorlash"
             },
             {
               "title": "Remont keyin ofis",
@@ -149,7 +149,7 @@
             },
             {
               "title": "Mehmonxona xonasi",
-              "description": "Mehmonlar o'rtasida tez tedavi. Savob, parfyum, ovqat hidlarini olib tashlash"
+              "description": "Mehmonlar o'rtasida tez tedavi. Tutun, parfyum, ovqat hidlarini olib tashlash"
             },
             {
               "title": "Sovuq saqlash",
@@ -177,15 +177,15 @@
     },
     "fire-smoke": {
       "title": "Yong'in oqibati",
-      "shortDesc": "Savob va kulilar hidini olib tashlash",
-      "content": "Yong'in savob hidi eng qiyin olib tashlanishi kerak hidlardan biridir. Savob va kuliy zarralar gips, beton, yog'och, tekstilga kirib oladi va mebel, qalipchalarni sharbatiga solib ketadi. Odiy tozalash bu hidni olib tasha olmaydi — u doimiy qaytib keladi.\n\nOzonlash yong'in hidini asosiy remontasiz to'liq yo'q qilishning yagona usuli. Ozon molekulyar darajada barcha materiallarga kirib oladi va kuliy va yonish mahsulotlarini oksidlashi, ularning kimyoviy tuzilishini buzadi.\n\nYong'indan keyin tedavi yuqori ozon konsentratsiyasini (40-80 mg/m³) va uzoq ekspozitsiyani (ziyonning darajasiga qarab 24 dan 72 soatgacha) talab qiladi. Ventillyatsiya bilan bir necha siklni amalga oshirish tavsiya etiladi.\n\nOzonlashdan oldin ko'rinib turadigan kulilarni tozalang, yuzalarni silang va noqolgan zarar ko'lmagan narsalarni olib tashlang. Ozon fizik ravishda kulilarni olib tasha olmaydi — u faqat hidni yo'q qiladi.",
+      "shortDesc": "Yonish va tutun hidini yo'qotish",
+      "content": "Yong'in tutun hidi eng qiyin olib tashlanishi kerak hidlardan biridir. Tutun va kuliy zarralar gips, beton, yog'och, tekstilga kirib oladi va mebel, qalipchalarni sharbatiga solib ketadi. Odiy tozalash bu hidni olib tasha olmaydi — u doimiy qaytib keladi.\n\nOzonlash yong'in hidini asosiy remontasiz to'liq yo'q qilishning yagona usuli. Ozon molekulyar darajada barcha materiallarga kirib oladi va kuliy va yonish mahsulotlarini oksidlashi, ularning kimyoviy tuzilishini buzadi.\n\nYong'indan keyin tedavi yuqori ozon konsentratsiyasini (40-80 mg/m³) va uzoq ekspozitsiyani (ziyonning darajasiga qarab 24 dan 72 soatgacha) talab qiladi. Ventillyatsiya bilan bir necha siklni amalga oshirish tavsiya etiladi.\n\nOzonlashdan oldin ko'rinib turadigan kulilarni tozalang, yuzalarni silang va noqolgan zarar ko'lmagan narsalarni olib tashlang. Ozon fizik ravishda kulilarni olib tasha olmaydi — u faqat hidni yo'q qiladi.",
       "benefits": [
         "Hidarni remontasiz olib tashlash",
         "Devor va shiftlarga kirib olish",
         "Butun xonani bir vaqtda tozalash",
         "Tugatishni saqlab qolish",
         "Xonani tezroq tiklash",
-        "Asosiy tamirlash xarajatlarini tejasch"
+        "Asosiy tamirlash xarajatlarini tejash"
       ],
       "stats": {
         "stat1": {
@@ -201,26 +201,26 @@
         "stat3": {
           "value": "2-3",
           "label": "Sikllar",
-          "description": "Og'ir savob ziyonida"
+          "description": "Og'ir tutun ziyonida"
         },
         "stat4": {
           "value": "100%",
           "label": "Yo'q qilish",
-          "description": "Savob hidining remontasiz"
+          "description": "Tutun hidining remontasiz"
         }
       },
       "sections": {
         "intro": {
-          "text": "Yong'in savob hidi eng doimiy va qiyin olib tashlanishi kerak hidlardan biridir. Yonish mahsulotlari bino materiallari chuquriga kirib oladi: gips, beton, g'isht, yog'och. Mayda kuliy zarralar tekstilga, mebel, qalipchalar, devorgil qogozga so'riladi. Odiy tozalash va ventillyatsiya yordam bermaydi — hidar doimiy qaytib keladi.",
+          "text": "Yong'in tutun hidi eng doimiy va qiyin olib tashlanishi kerak hidlardan biridir. Yonish mahsulotlari bino materiallari chuquriga kirib oladi: gips, beton, g'isht, yog'och. Mayda kuliy zarralar tekstilga, mebel, qalipchalar, devorgil qogozga so'riladi. Odiy tozalash va ventillyatsiya yordam bermaydi — hidar doimiy qaytib keladi.",
           "text2": "Koʻp xonalar yong'inder keyin tugatishni almashtirish bilan to'liq remontga majbur. Shunga qaramay, ozonlash muammoni tezroq va arzonroq hal qila oladi — devorlarni buzish va mebelni almashtirish keraksiz."
         },
         "highlight1": {
-          "title": "Nima uchun yong'in savob hidini doimiy:",
-          "text": "Organik material yonganda, poliktsiklik aromatik uglevodorodlar (PAH), kuliy va qolyatmalar hosil bo'ladi. Ushbu moddalar mikroskopiк zarralarning o'lchamiga ega (0,1-1 μm) va bino materiallari porlari chuqurida kirib oladi. Odiy tozalash faqat sirtni olib tashlaydi."
+          "title": "Nima uchun yong'in tutun hidini doimiy:",
+          "text": "Organik material yonganda, poliktsiklik aromatik uglevodorodlar (PAH), kuliy va qolyatmalar hosil bo'ladi. Ushbu moddalar mikroskopik zarralarning o'lchamiga ega (0,1-1 μm) va bino materiallari porlari chuqurida kirib oladi. Odiy tozalash faqat sirtni olib tashlaydi."
         },
         "howOzone": {
-          "title": "Ozon yong'in savob hidini qanday yo'q qiladi",
-          "text": "Ozon savob va kuliy zarralarning ergan barcha yerga kirib oladigan gaz. U yonish mahsulot molekulalarida kimyoviy bog'lanishlarni buzib organik birikmalari molekulyar darajada oksidlashi. Natijada xavfsiz birikmalari hosil bo'ladi — suv va karbon dioksid.",
+          "title": "Ozon yong'in tutun hidini qanday yo'q qiladi",
+          "text": "Ozon tutun va kuliy zarralarning ergan barcha yerga kirib oladigan gaz. U yonish mahsulot molekulalarida kimyoviy bog'lanishlarni buzib organik birikmalari molekulyar darajada oksidlashi. Natijada xavfsiz birikmalari hosil bo'ladi — suv va karbon dioksid.",
           "items": [
             "Beton, gips, g'isht miksro porlariga kirib oladi",
             "Yog'och tuzilmalarini ichidan tozaladi",
@@ -235,7 +235,7 @@
           "steps": [
             {
               "title": "Dastlabki tozalash",
-              "description": "Barcha yuzalardan ko'rinib turadigan kuliy va savob qoldiqlarini olib tashlang. Devorni, shiftni, polli silang. Mebel va qalipchalarni so'rilang. Og'ir zarar ko'lgan narsalarni olib tashlang."
+              "description": "Barcha yuzalardan ko'rinib turadigan kuliy va tutun qoldiqlarini olib tashlang. Devorni, shiftni, polli silang. Mebel va qalipchalarni so'rilang. Og'ir zarar ko'lgan narsalarni olib tashlang."
             },
             {
               "title": "Xonani seal qilish",
@@ -251,7 +251,7 @@
             },
             {
               "title": "Sikllarni takrorlash (zarur bo'lsa)",
-              "description": "Og'ir savob ziyonida 2-3 ta ventillyatsiya tantanasiz tedavi siklasi talab qilindi. Har bir siklasi hidarning konsentratsiyasini yanada kamaytiradi."
+              "description": "Og'ir tutun ziyonida 2-3 ta ventillyatsiya tantanasiz tedavi siklasi talab qilindi. Har bir siklasi hidarning konsentratsiyasini yanada kamaytiradi."
             }
           ]
         },
@@ -264,14 +264,14 @@
           "tableHeaders": ["Zarar ko'rish darajasi", "Konsentratsiya", "Siklasning vaqti", "Siklalar soni"],
           "tableCaption": "Tavsiya etilgan yong'indan keyin ozonlash parametrlari",
           "tableData": [
-            ["Yengil savob", "20-40 mg/m³", "4-8 soat", "1"],
-            ["O'rta savob", "40-60 mg/m³", "12-24 soat", "1-2"],
-            ["Og'ir savob", "60-80 mg/m³", "24-48 soat", "2-3"],
+            ["Yengil tutun", "20-40 mg/m³", "4-8 soat", "1"],
+            ["O'rta tutun", "40-60 mg/m³", "12-24 soat", "1-2"],
+            ["Og'ir tutun", "60-80 mg/m³", "24-48 soat", "2-3"],
             ["Juda og'ir", "80+ mg/m³", "48-72 soat", "3+"]
           ]
         },
         "comparison": {
-          "title": "Yong'in savob hidini olib tashlash usullarini solishtirish",
+          "title": "Yong'in tutun hidini olib tashlash usullarini solishtirish",
           "tableTitle": "Ozonlash vs boshqa usullar",
           "headers": ["Mezon", "Ozonlash", "Asosiy remont"],
           "rows": [
@@ -324,7 +324,7 @@
             },
             {
               "title": "Kitoblar va hujjatlar",
-              "description": "Qog'oz media yong'in savob hidini so'radi. Ozonlash arxivlarni saqlib qolish imkonini beradi"
+              "description": "Qog'oz media yong'in tutun hidini so'radi. Ozonlash arxivlarni saqlib qolish imkonini beradi"
             }
           ]
         },
@@ -546,11 +546,11 @@
     "car-interiors": {
       "title": "Avtomobil ichining tozalashi",
       "shortDesc": "Avtomobillarning dezinfektsiyasi va dehidli bilan tozalashi",
-      "content": "Avtomobil ichini ozonlash avtomobil yuvish stansiyalari va detailing markazlarida keng tarqalgan xizmat. Vaqt o'tgan sari hidlar to'planadi: savob, to'kilgan ichimliklar, ovqat, ter, hayvonlar. Ular o'rindiq to'shimmasiga, qalipchaga, shiftga va konditsioner kanallariga kirib oladi.\n\nOzon barcha ichidagi materiallarga, shu jumladan ventillyatsiya va konditsionerga kirib oladi. Bu ayniqsa muhim, chunki bakteriya va zamburuq ko'pincha kanallarda to'planadi va konditsioner yoqilgan vaqtda hid chiqaradi.\n\nStandart avtomobil ozonlashi 30-60 daqiqada amalga oshiriladi. Ozon generatori ichida qo'yiladi, ventillyatsiya tizimi bilan ish qilish uchun qayta aylantirilish yoqiladi. Ozon konsentratsiyasi: 20-40 mg/m³. Tedavidan keyin 15-30 daqiqada ventillyatsiya qiling.\n\nIshlatilgan avtomobillarni ozonlash \"avvalgi egasining hidi\" ni olib tashlashga yordam beradi. Dilerlik va avtomobil ijarashi uchun muntazam ozonlash flotlarni toza va gigienik qilib saqlaydi.",
+      "content": "Avtomobil ichini ozonlash avtomobil yuvish stansiyalari va detailing markazlarida keng tarqalgan xizmat. Vaqt o'tgan sari hidlar to'planadi: tutun, to'kilgan ichimliklar, ovqat, ter, hayvonlar. Ular o'rindiq to'shimmasiga, qalipchaga, shiftga va konditsioner kanallariga kirib oladi.\n\nOzon barcha ichidagi materiallarga, shu jumladan ventillyatsiya va konditsionerga kirib oladi. Bu ayniqsa muhim, chunki bakteriya va zamburuq ko'pincha kanallarda to'planadi va konditsioner yoqilgan vaqtda hid chiqaradi.\n\nStandart avtomobil ozonlashi 30-60 daqiqada amalga oshiriladi. Ozon generatori ichida qo'yiladi, ventillyatsiya tizimi bilan ish qilish uchun qayta aylantirilish yoqiladi. Ozon konsentratsiyasi: 20-40 mg/m³. Tedavidan keyin 15-30 daqiqada ventillyatsiya qiling.\n\nIshlatilgan avtomobillarni ozonlash \"avvalgi egasining hidi\" ni olib tashlashga yordam beradi. Dilerlik va avtomobil ijarashi uchun muntazam ozonlash flotlarni toza va gigienik qilib saqlaydi.",
       "benefits": [
         "30-60 daqiqada tozalash",
         "Konditsioner tizimini dezinfektsiya",
-        "Savob hidini olib tashlash",
+        "Tutun hidini olib tashlash",
         "Sotishga tayyorlash",
         "Kimyoviy qoldiqlar yo'q",
         "Bakteriya va zamburuqlari yo'q qilish"
@@ -579,7 +579,7 @@
       },
       "sections": {
         "intro": {
-          "text": "Avtomobil ichini o'rindiqlar, qalipchalar, shiftlar, ventillyatsiya va konditsioner tizimi kabi tekstil elementlariga tez hidlar to'planadi: savob chigiti, ter, ovqat, ichimliklar, hayvonlar.",
+          "text": "Avtomobil ichini o'rindiqlar, qalipchalar, shiftlar, ventillyatsiya va konditsioner tizimi kabi tekstil elementlariga tez hidlar to'planadi: tutun chigiti, ter, ovqat, ichimliklar, hayvonlar.",
           "text2": "Quruq tozalash axlatni va doglarni olib tashlaydi, lekin doimiy hidlarni har doim hal qila olmaydi. Havo toza qilish spreylar va deodorantlar muammoni yashirinadi. Ozonlash konditsioner kanallaridagi hidlar bilan, hidar molekulalarini to'liq yo'q qilish usuli."
         },
         "highlight1": {
@@ -589,12 +589,12 @@
         "problems": {
           "title": "Ozonlash qanday muammolarni hal qiladi",
           "items": [
-            "Savob hidi — to'shimma, shiftga, plastikga o'rappilangan",
+            "Tutun hidi — to'shimma, shiftga, plastikga o'rappilangan",
             "Avvalgi egasining hidi — ishlatilib bo'lgan avtomobil xarid qilishda",
             "Ovqat va ichimlik hidlari — to'kilgan qahva, tez ovqat, bulg'angan mahsulotlar",
             "Hayvon hidlari — so'ch, saliqa, izlar",
             "Nam va kokat hidi — suv to'kish keyin yoki uzoq saqlashdan",
-            "Konditsionerdagi bakteriya — yoqilgan vaqtda yoqimsiz hid sababи"
+            "Konditsionerdagi bakteriya — yoqilgan vaqtda yoqimsiz hid sababi"
           ]
         },
         "process": {
@@ -628,8 +628,8 @@
           "tableCaption": "Tavsiya etilgan avtomobil ichini ozonlash parametrlari",
           "tableData": [
             ["Yengil hidlar", "10-20 mg/m³", "20 min", "Oldini oluvchi tozalash"],
-            ["Savob (yengil)", "20-30 mg/m³", "30 min", "Savob ichkiliylini yo'qotgan keyin"],
-            ["Savob (kuchli)", "30-40 mg/m³", "45-60 min", "Muntazam savob ichkiliyli avtomobil"],
+            ["Tutun (yengil)", "20-30 mg/m³", "30 min", "Tutun ichkiliylini yo'qotgan keyin"],
+            ["Tutun (kuchli)", "30-40 mg/m³", "45-60 min", "Muntazam tutun ichkiliyli avtomobil"],
             ["Hayvon hidlari", "30-40 mg/m³", "40-60 min", "Qayta aylantirilish bilan"],
             ["Suv to'kish keyin", "40-60 mg/m³", "60 min", "Ichini quriturggandan keyin"],
             ["Konditsioner dezinfektsiyasi", "20-30 mg/m³", "30 min", "Faqat qayta aylantirilish"]
@@ -666,7 +666,7 @@
           "text": "Taksi va avtomobil ijarasha flotlari muntazam ozonlash uchun ideal mijozlar:",
           "items": [
             "Yuqori aylanma — har kun ko'p turli yo'lovchilar",
-            "Hidar to'planishi — yo'lovchilarning ovqati, ichimliklari, parfyumи, savobi",
+            "Hidar to'planishi — yo'lovchilarning ovqati, ichimliklari, parfyumi, tutuni",
             "Gigienik talablari — ayniqsa pandemiyadan keyin dolzarb",
             "Nom riski — hidar shikoyatlar reytingni pasaytiradi",
             "Muntazamlik — xizmat shartnomasini imkoniyligi"
@@ -747,7 +747,164 @@
         "Kokat oldini olish",
         "Suv to'kish keyin tozalash",
         "Tekstilning uzoq umri"
-      ]
+      ],
+      "stats": {
+        "stat1": { "value": "99%", "label": "Qoq", "description": "Ozonlashda o'ladi" },
+        "stat2": { "value": "2-4 soat", "label": "Tedavi", "description": "Lokal kamera tedavisi" },
+        "stat3": { "value": "100%", "label": "Chuqurlik", "description": "Tolalarga kirish" },
+        "stat4": { "value": "+50%", "label": "Chekka", "description": "Quruq tozalashga qo'shimcha" }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Qalipcha va mebel to'shirma xonada ifloslanishning asosiy to'plagichidir. Tekstil tolalari chang, zamburuq sporsini, bakteriyalarni, teri zarhalmi, ter va to'kilishlarni so'radi. Vaqt o'tgan sari xarakterli nam hidi hosil bo'ladi, changyutgich yoki quruq tozalash ham olib tasha olmaydi.",
+          "paragraph2": "Quruq tozalash ifloslik va doglarni olib tashlaydi, lekin material qatlamida yashovchu chuqur hidlar va mikroorganizmlarga har doim yordam bermaydi. Ozonlash nam tozalashdan keyin to'liq dehidli va dezinfektsiyani ta'minlovchi ideal to'ldiruvchidir."
+        },
+        "highlight1": {
+          "title": "Nima uchun qalipchalar hid qiladi:",
+          "text": "Bir gramm qalipcha changida 100 000 gacha chang qoqi yashaydi. Ularning chiqindilari kuchli allergen. Bakteriyalar organik ifloslanishlarni parchalab, hidli birikmalar chiqaradi. Ozon ham qoqlarni, ham bakteriyalarni yo'q qiladi, hid sababini bartaraf etadi."
+        },
+        "items": {
+          "title": "Ozon bilan nima tedavi qilinadi",
+          "items": [
+            "Qalipchalar va qalipcha yopishmalari — pol, devor, qo'lda ishlangan",
+            "Mebel to'shirma — divanlar, kreslolar, puflar, banketkalar",
+            "Matraslar va yostiqlar — ortopediklar ham",
+            "Pardalar va parda — reyka dan olmasdan",
+            "Yumshoq o'yinchoqlar — bolalar uchun xavfsiz",
+            "Avtomobil o'rindig'lari — alohida xizmat sifatida"
+          ]
+        },
+        "methods": {
+          "title": "Tekstil ozonlash usullari",
+          "paragraph": "Ikki asosiy usul bor: butun xonani tedavi qilish va ma'lum narsani lokal kamera tedavisi.",
+          "tableTitle": "Tekstil ozonlash usullarini taqqoslash",
+          "headers": ["Parametr", "Xona tedavisi", "Kamera tedavisi"],
+          "rows": [
+            {
+              "parameter": "Qo'llanma",
+              "value1": "Barcha tekstil yuzalari bir vaqtda",
+              "value2": "Bitta mebel/qalipcha"
+            },
+            { "parameter": "Ozon konsentratsiyasi", "value1": "20-40 mg/m³", "value2": "40-80 mg/m³" },
+            { "parameter": "Tedavi vaqti", "value1": "4-8 soat", "value2": "2-4 soat" },
+            { "parameter": "Ozon sarfi", "value1": "Yuqori (katta hajm)", "value2": "Past (kichik hajm)" },
+            { "parameter": "Samaradorlik", "value1": "Bir xil", "value2": "Lokal maksimal" },
+            { "parameter": "Qachon ishlatish", "value1": "Umumiy xona dehidli", "value2": "Kuchli lokal hid" }
+          ]
+        },
+        "chamber": {
+          "title": "Kamera tedavisi texnikasi",
+          "steps": [
+            {
+              "title": "Narsani tayyorlash",
+              "description": "Kerak bo'lsa oldindan quruq tozalash yoki changyutish. To'liq quriting. Ifloslanishlarni faollashtirish uchun yuzani purkagich bilan biroz namlang."
+            },
+            {
+              "title": "Kamera yaratish",
+              "description": "Narsani polietilen plyonka bilan qoplang. Chetlarini polga mahkam bosib, havo o'tkazmaydigan \"kamera\" hosil qiling. Ozonator shlangi uchun kichik teshik qoldiring."
+            },
+            {
+              "title": "Ozonatorni ulash",
+              "description": "Shlangni plyonka ostiga kiriting. Ozon chiqib ketmasligi uchun mahkamlang. Ozonatorni yoqing. Plyonka gaz tushishi natijasida biroz shishishi kerak."
+            },
+            {
+              "title": "Ekspozitsiya",
+              "description": "Hid intensivligiga qarab 2-4 soat ushlab turing. Kuchli ifloslanishda — 8 soatgacha. Bir xil tedavi uchun yostiqlarni vaqti-vaqti bilan aylantirish mumkin."
+            },
+            {
+              "title": "Yakunlash",
+              "description": "Ozonatorni o'chiring. Plyonkani olib tashlang. Narsani 30-60 daqiqa ventilyatsiya qiling. Ozon to'liq parchalanadi, iz qoldirmaydi."
+            }
+          ],
+          "highlight": {
+            "title": "Maslahat:",
+            "text": "Siydik dog'lari bo'lgan mebel yoki qalipchani tedavi qilganda samarani oshirish uchun avval iflos joylarni fermentli tozalagich bilan tedavi qiling. Keyin quriting va ozonlashni o'tkazing."
+          }
+        },
+        "afterCleaning": {
+          "title": "Quruq tozalashdan keyin ozonlash",
+          "paragraph": "Ozonlash professional quruq tozalashning ideal yakuniy bosqichi:",
+          "items": [
+            "Tozalashda ishlatiladigan kimyoviy moddalar hidini olib tashlaydi",
+            "Nam tedavidan keyin qolishi mumkin bo'lgan bakteriyalarni yo'q qiladi",
+            "Quruq tozalash bartaraf eta olmagan chuqur hidlarni olib tashlaydi",
+            "Nam joylarda kokat rivojlanishining oldini oladi",
+            "Allergenlarni neytrallashtiradi (qoq, spora, gulchang)",
+            "Quruq tozalash xizmatining qimmatini oshiradi"
+          ],
+          "tableCaption": "Kompleks xizmat: quruq tozalash + ozonlash",
+          "tableHeaders": ["Bosqich", "Nima qilinadi", "Natija"],
+          "tableRows": [
+            ["1. Quruq tozalash", "Chang, jun, yirik axlat olib tashlash", "Nam tedaviga tayyorlash"],
+            ["2. Nam tozalash", "Doglar va ifloslanishlarni olib tashlash", "Toza yuzа"],
+            ["3. Quritish", "10-15% namlikka quritish", "Kokat oldini olish"],
+            ["4. Ozonlash", "Dehidli va dezinfektsiya", "Yangi hid, mikroblar yo'q qilindi"]
+          ]
+        },
+        "afterFlood": {
+          "title": "Suv to'kishdan keyin ozonlash",
+          "paragraph": "Suv to'kish tez harakat talab qiladigan maxsus holat. Nam tekstil kokat uchun ideal muhit. Ozonlash buning oldini oladi:",
+          "items": [
+            "Avval qalipcha va mebelni imkon qadar quriting (quritgichlar, ventilyatorlar)",
+            "Qolgan namlik 15-20% dan oshmasligi kerak",
+            "Nam hidning birinchi belgilarida ozonlashni o'tkazing",
+            "Ozon konsentratsiyasi: kokat oldini olish uchun 40-60 mg/m³",
+            "To'liq dezinfektsiya uchun tedavi vaqti: 6-12 soat",
+            "Kokat topilsa — ozonlashdan oldin ingibitor bilan tedavi qiling"
+          ],
+          "highlight": {
+            "title": "Muhim:",
+            "text": "Agar kokat allaqachon yuzada ko'rinsa, faqat ozonlash yetarli emas. Avval kokatni mexanik olib tashlang va antiseptik bilan tedavi qiling. Ozon qolgan sporlar va hidni yo'q qiladi, lekin mitseliyni jismonan olib tashlamaydi."
+          }
+        },
+        "benefitsCompanies": {
+          "title": "Tozalash kompaniyalari uchun afzalliklar",
+          "features": [
+            {
+              "title": "O'rtacha chekni oshirish",
+              "description": "Quruq tozalashdan keyin ozonlash — xizmat narxiga qo'shimcha 30-50%"
+            },
+            {
+              "title": "Murakkab holatlarni hal qilish",
+              "description": "Quruq tozalash bartaraf eta olmaydigan hidlarni ozon olib tashlaydi"
+            },
+            { "title": "Tez o'zini oqlash", "description": "Ozonator muntazam ishlatilganda 1-2 oyda o'zini oqlaydi" },
+            {
+              "title": "Raqobat ustunligi",
+              "description": "Barcha quruq tozalashlar ozonlash taklif qilmaydi — bozorda ajralib turing"
+            }
+          ]
+        },
+        "modes": {
+          "title": "Tavsiya etiladigan tedavi rejimlari",
+          "tableCaption": "Turli tekstil turlari uchun ozonlash parametrlari",
+          "tableHeaders": ["Mahsulot turi", "Usul", "Konsentratsiya", "Vaqt"],
+          "tableRows": [
+            ["Qalipcha (zaif hid)", "Xona", "20-30 mg/m³", "4-6 soat"],
+            ["Qalipcha (kuchli hid)", "Kamera", "40-60 mg/m³", "4-8 soat"],
+            ["Divan", "Kamera", "40-60 mg/m³", "3-4 soat"],
+            ["Matras", "Kamera", "30-50 mg/m³", "2-4 soat"],
+            ["Pardalar (reykada)", "Xona", "20-40 mg/m³", "4-6 soat"],
+            ["Yumshoq o'yinchoqlar", "Kamera (paketda)", "30-40 mg/m³", "1-2 soat"]
+          ]
+        },
+        "materials": {
+          "title": "Materiallar uchun xavfsizlik",
+          "paragraph": "Ozon tavsiya etilgan konsentratsiyalarga rioya qilganda ko'pchilik tekstil materiallari uchun xavfsiz:",
+          "items": [
+            "Tabiiy matolar (paxta, zig'ir, jun) — xavfsiz",
+            "Sintetik matolar (poliester, neylon) — xavfsiz",
+            "Tabiiy teri — xavfsiz, lekin keyin konditsioner tavsiya etiladi",
+            "Lateks va rezin — yuqori konsentratsiyada uzoq tedavi tavsiya etilmaydi",
+            "Bo'yalgan matolar — xavfsiz, ozon tavsiya rejimlarda rangni o'zgartirmaydi",
+            "Nozik matolar (ipak, viskoza) — standart konsentratsiyalarda xavfsiz"
+          ],
+          "highlight": {
+            "title": "Eslatma:",
+            "text": "Ozon muntazam yuqori konsentratsiyali tedavilarda rezin va lateksning qarishini biroz tezlashtirishi mumkin. Rezinli elementli mebel uchun standart rejimlardan foydalaning."
+          }
+        }
+      }
     }
   }
 }

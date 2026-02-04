@@ -43,7 +43,7 @@ export const ARTICLES: ArticleMeta[] = [
   {
     id: 'grainDryingOzone',
     slug: 'grain-drying-ozone',
-    image: 'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=800&q=80',
+    image: 'https://images.pexels.com/photos/5538163/pexels-photo-5538163.jpeg',
     date: '2025-01-20',
     sourceName:
       'В.В. Лунин, В.Г. Самойлович, С.Н. Ткаченко, И.С. Ткаченко. Озон и другие экологически чистые окислители: Наука и технологии (30-й Всероссийский семинар)',

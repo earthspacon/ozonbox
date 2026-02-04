@@ -34,6 +34,12 @@
         }
       },
       "sections": {
+        "intro": {
+          "paragraph1": "Ichimlik suvini ozonlash rivojlangan mamlakatlarda dezinfeksiyaning standart usuli hisoblanadi: Yevropada suv ta'minotidagi suvning asosiy qismi ozon bilan ishlov beriladi. Ozon bakteriyalar, viruslar, protozoon sislari va sporalarni juda yuqori samaradorlikda (99,99% gacha) yo'q qiladi va xlordan, xususan xlorga chidamli kriptosporidiya kabi patogenlarga nisbatan ancha samaraliroq.",
+          "paragraph2": "Xlorlashdan farqli o'laroq, ozonlash trihalometanlar kabi kantserogen yon mahsulotlar hosil qilmaydi. Suvning ta'mini va hidini yaxshilaydi, rangni kamaytiradi. Qolgan ozon 20–30 daqiqada kislorodga parchalanadi va kimyoviy iz qoldirmaydi. Ichimlik suvida iste'molchi nuqtasida tavsiya etilgan qolgan ozon 0,1–0,3 mg/L; tizimlarda tarqatishdan oldin etarli kontakt vaqti va kerak bo'lsa degazatsiya ta'minlanishi kerak.",
+          "warningLabel": "Muhim:",
+          "warningText": "Ichimlik suvida iste'molchi nuqtasida qolgan ozon 0,1–0,3 mg/L dan oshmasligi kerak. Ozonlash uskunalari ichimlik suvi standartlariga muvofiq loyihalanishi va ishlatilishi kerak, tarqatish tarmog'iga beriladigan suv normalariga javob berishi uchun etarli kontakt vaqti va degazatsiya ta'minlangan bo'lishi kerak."
+        },
         "comparison": {
           "title": "Suvni dezinfeksiya qilish usullarini solishtirish",
           "headers": ["Parametr", "Ozonlash", "Xlorlash"],

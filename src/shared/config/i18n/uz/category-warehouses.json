@@ -121,6 +121,7 @@
             ["Xodimlarning kasalxona listlarini kamaytirish", "30 000 — 60 000 ₽", "10-15%"],
             ["Brak va shikoyatlarni kamaytirish", "70 000 — 120 000 ₽", "20-25%"]
           ],
+          "highlightBox": "ROI: Ombor uchun ozon generatori jarayonlarining tipik o'zini qoplash muddati 6-12 oyni tashkil qiladi. Shu bilan birga, sanoat ozon generatorlarining xizmat muddati minimal xizmat ko'rsatish xarajatlari bilan 5 yildan boshlanadi.",
           "roiLabel": "ROI:",
           "roiText": "Ombor uchun ozon generatori jarayonlarining tipik o'zini qoplash muddati 6-12 oyni tashkil qiladi. Shu bilan birga, sanoat ozon generatorlarining xizmat muddati minimal xizmat ko'rsatish xarajatlari bilan 5 yildan boshlanadi."
         },

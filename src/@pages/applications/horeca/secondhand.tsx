@@ -50,7 +50,7 @@ export function SecondhandPage({ staticData, lang }: SecondhandPageProps) {
       <ArticleHero
         title={t('subcategories.secondhand.title', { ns })}
         description={t('subcategories.secondhand.shortDesc', { ns })}
-        image="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80"
+        image="https://images.pexels.com/photos/6068975/pexels-photo-6068975.jpeg"
         imageAlt={t('subcategories.secondhand.title', { ns })}
         breadcrumbs={breadcrumbs}
         backLink={{

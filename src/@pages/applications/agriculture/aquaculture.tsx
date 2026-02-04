@@ -50,7 +50,7 @@ export function AquaculturePage({ staticData, lang }: AquaculturePageProps) {
       <ArticleHero
         title={t('subcategories.aquaculture.title', { ns })}
         description={t('subcategories.aquaculture.shortDesc', { ns })}
-        image="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1920&q=80"
+        image="https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?w=1920&q=80"
         imageAlt={t('subcategories.aquaculture.title', { ns })}
         breadcrumbs={breadcrumbs}
         backLink={{

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "OzonOxy — Biznes uchun ozonlash va dezinfeksiya",
+    "title": "OZONOXY — Biznes uchun ozonlash va dezinfeksiya",
     "description": "Parranda parvarishlash, oziq-ovqat sanoati, HoReCa va tibbiyot uchun professional ozonlash tizimlari. Xlordan 300 marta samaraliroq. Bepul konsultatsiya."
   },
   "nav": {
@@ -13,7 +13,7 @@
   },
   "header": {
     "phone": "+998 94 290 99 77",
-    "orderCall": "Qo'ng'iroq buyurtma qilish",
+    "contact": "Bog'lanish",
     "freeCall": "Bizga qo'ng'iroq qiling"
   },
   "footer": {
@@ -22,8 +22,10 @@
     "home": "Bosh sahifa",
     "applicationsTitle": "Qo'llanilishi",
     "contactsTitle": "Aloqa",
-    "copyright": "OzonOxy. Barcha huquqlar himoyalangan.",
-    "dev": "Sayt yaratish — OzonOxy"
+    "copyright": "OZONOXY. Barcha huquqlar himoyalangan.",
+    "callUs": "Bizga qo'ng'iroq qiling",
+    "openTelegram": "Telegramni ochish",
+    "viewAddress": "Manzilni ko'rish"
   },
   "cta": {
     "consultation": "Konsultatsiya olish",
@@ -159,15 +161,15 @@
     }
   },
   "aboutPage": {
-    "pageTitle": "Kompaniya haqida — OzonOxy",
-    "pageDescription": "OzonOxy haqida — biznes uchun professional ozonlash tizimlari. Konsultatsiyalar, uskunalarni tanlash, texnik yordam.",
+    "pageTitle": "Kompaniya haqida — OZONOXY",
+    "pageDescription": "OZONOXY haqida — biznes uchun professional ozonlash tizimlari. Konsultatsiyalar, uskunalarni tanlash, texnik yordam.",
     "header": {
       "title": "Kompaniya haqida",
       "subtitle": "Biznesingiz uchun professional ozonlash tizimlari"
     },
     "content": {
       "title": "Biz",
-      "titleHighlight": "OzonOxy",
+      "titleHighlight": "OZONOXY",
       "p1": "Biz ozon texnologiyalari bo'yicha mutaxassislar jamoasimiz. Bizning missiyamiz — dezinfeksiyani har qanday o'lchamdagi bizneslar uchun xavfsiz, samarali va qulay qilish.",
       "p2": "Biz kelajak ekologik toza texnologiyalarga tegishli ekanligiga ishonamiz, ular atrof-muhit va inson salomatligiga zarar yetkazmaydi. Ozonlash aynan shunday texnologiyadir.",
       "services": {
@@ -206,6 +208,56 @@
           "3": "O'rnatish va sozlash",
           "4": "Xodimlarni o'qitish"
         }
+      }
+    }
+  },
+  "contactsPage": {
+    "pageTitle": "Kontaktlar — OZONOXY",
+    "pageDescription": "OZONOXY bilan bog'laning — ozonlash tizimlari bo'yicha bepul maslahat oling. Telefon, email, qayta aloqa formasi.",
+    "header": {
+      "title": "Kontaktlar",
+      "subtitle": "Bepul maslahat uchun biz bilan bog'laning"
+    },
+    "form": {
+      "title": "So'rov qoldiring",
+      "subtitle": "Formani to'ldiring va biz 30 daqiqa ichida siz bilan bog'lanamiz",
+      "name": "Ismingiz",
+      "namePlaceholder": "Sizga qanday murojaat qilaylik?",
+      "phone": "Telefon",
+      "phonePlaceholder": "+998 (__) ___ __ __",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "industry": "Soha",
+      "industryPlaceholder": "Sohani tanlang",
+      "industryOptions": {
+        "poultry": "Parrandachilik",
+        "food": "Oziq-ovqat sanoati",
+        "horeca": "HoReCa (mehmonxonalar, restoranlar)",
+        "medical": "Tibbiy muassasalar",
+        "water": "Suv tozalash",
+        "other": "Boshqa"
+      },
+      "message": "Xabar",
+      "messagePlaceholder": "Vazifangiz haqida ayting...",
+      "submit": "So'rov yuborish",
+      "submitting": "Yuborilmoqda...",
+      "privacy": "Tugmani bosish orqali siz maxfiylik siyosatiga rozilik bildirasiz",
+      "success": "So'rovingiz uchun rahmat! Biz tez orada siz bilan bog'lanamiz."
+    },
+    "info": {
+      "phone": {
+        "title": "Telefon",
+        "subtitle": "Ish vaqtida qo'ng'iroq qiling"
+      },
+      "telegram": {
+        "title": "Telegram",
+        "subtitle": "24/7 tez aloqa"
+      },
+      "address": {
+        "title": "Manzil",
+        "country": "O'zbekiston",
+        "city": "Samarqand",
+        "street": "Bulungur shoh ko'chasi, 25-uy"
       }
     }
   }

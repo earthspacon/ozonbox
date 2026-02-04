@@ -47,7 +47,7 @@ export function TobaccoHookahPage({ staticData, lang }: TobaccoHookahPageProps) 
       <ArticleHero
         title={t('subcategories.tobacco-hookah.title', { ns })}
         description={t('subcategories.tobacco-hookah.shortDesc', { ns })}
-        image="https://images.unsplash.com/photo-1527661591475-527312dd65f5?w=1920&q=80"
+        image="https://images.pexels.com/photos/31346733/pexels-photo-31346733.jpeg"
         imageAlt={t('subcategories.tobacco-hookah.title', { ns })}
         breadcrumbs={breadcrumbs}
         backLink={{
@@ -57,60 +57,69 @@ export function TobaccoHookahPage({ staticData, lang }: TobaccoHookahPageProps) 
       />
 
       {/* Key Stats */}
-      <section className="bg-bg-light py-12">
-        <div className="container">
-          <StatGrid columns={3}>
-            <StatCard
-              value={data?.stats?.stat1?.value ?? ''}
-              label={data?.stats?.stat1?.label ?? ''}
-              description={data?.stats?.stat1?.description ?? ''}
-              variant="primary"
-            />
-            <StatCard
-              value={data?.stats?.stat2?.value ?? ''}
-              label={data?.stats?.stat2?.label ?? ''}
-              description={data?.stats?.stat2?.description ?? ''}
-              variant="accent"
-            />
-            <StatCard
-              value={data?.stats?.stat3?.value ?? ''}
-              label={data?.stats?.stat3?.label ?? ''}
-              description={data?.stats?.stat3?.description ?? ''}
-              variant="primary"
-            />
-          </StatGrid>
-        </div>
-      </section>
+      {data?.stats && (
+        <section className="bg-bg-light py-12">
+          <div className="container">
+            <StatGrid columns={3}>
+              {data.stats.stat1 && (
+                <StatCard
+                  value={data.stats.stat1.value ?? ''}
+                  label={data.stats.stat1.label ?? ''}
+                  description={data.stats.stat1.description ?? ''}
+                  variant="primary"
+                />
+              )}
+              {data.stats.stat2 && (
+                <StatCard
+                  value={data.stats.stat2.value ?? ''}
+                  label={data.stats.stat2.label ?? ''}
+                  description={data.stats.stat2.description ?? ''}
+                  variant="accent"
+                />
+              )}
+              {data.stats.stat3 && (
+                <StatCard
+                  value={data.stats.stat3.value ?? ''}
+                  label={data.stats.stat3.label ?? ''}
+                  description={data.stats.stat3.description ?? ''}
+                  variant="primary"
+                />
+              )}
+            </StatGrid>
+          </div>
+        </section>
+      )}
 
       {/* Main Content */}
       <article className="py-12 md:py-16">
         <div className="container max-w-4xl">
-          <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.paragraph1 ?? ''}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.paragraph2 ?? ''}</Paragraph>
-          </ArticleSection>
+          {data?.sections?.intro && (
+            <ArticleSection>
+              {data.sections.intro.paragraph1 && <Paragraph>{data.sections.intro.paragraph1}</Paragraph>}
+              {data.sections.intro.paragraph2 && <Paragraph>{data.sections.intro.paragraph2}</Paragraph>}
+            </ArticleSection>
+          )}
 
-          <ArticleSection title={data?.sections?.benefits?.title ?? ''}>
-            <FeatureGrid columns={2}>
-              {((data?.sections?.benefits?.items as Array<{ title: string; description: string }>) ?? []).map(
-                (item, idx) => (
+          {data?.sections?.benefits && data.sections.benefits.items && data.sections.benefits.items.length > 0 && (
+            <ArticleSection title={data.sections.benefits.title ?? ''}>
+              <FeatureGrid columns={2}>
+                {(data.sections.benefits.items as Array<{ title: string; description: string }>).map((item, idx) => (
                   <FeatureCard
                     key={idx}
                     icon={<IconCheck style={{ width: 24, height: 24 }} />}
                     title={item.title}
                     description={item.description}
                   />
-                ),
-              )}
-            </FeatureGrid>
-          </ArticleSection>
+                ))}
+              </FeatureGrid>
+            </ArticleSection>
+          )}
 
-          <ArticleSection title={data?.sections?.modes?.title ?? ''}>
-            <DataTable
-              headers={data?.sections?.modes?.tableHeaders ?? []}
-              rows={data?.sections?.modes?.tableData ?? []}
-            />
-          </ArticleSection>
+          {data?.sections?.modes && data.sections.modes.tableData && data.sections.modes.tableData.length > 0 && (
+            <ArticleSection title={data.sections.modes.title ?? ''}>
+              <DataTable headers={data.sections.modes.tableHeaders ?? []} rows={data.sections.modes.tableData ?? []} />
+            </ArticleSection>
+          )}
         </div>
       </article>
 

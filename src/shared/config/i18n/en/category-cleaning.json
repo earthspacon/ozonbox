@@ -747,7 +747,164 @@
         "Mold prevention",
         "Post-flood treatment",
         "Longer life of textiles"
-      ]
+      ],
+      "stats": {
+        "stat1": { "value": "99%", "label": "Mites", "description": "Killed by ozonation" },
+        "stat2": { "value": "2-4 h", "label": "Treatment", "description": "Local chamber treatment" },
+        "stat3": { "value": "100%", "label": "Depth", "description": "Penetration into fibers" },
+        "stat4": { "value": "+50%", "label": "To bill", "description": "Extra to dry cleaning" }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Carpets and upholstery are the main dirt reservoirs in a room. Textile fibers absorb dust, fungal spores, bacteria, skin particles, sweat and spills. Over time a characteristic musty odor forms that vacuuming or even dry cleaning cannot remove.",
+          "paragraph2": "Dry cleaning removes dirt and stains but does not always handle deep odors and microorganisms in the material. Ozonation is the ideal complement, providing full deodorization and disinfection after wet cleaning."
+        },
+        "highlight1": {
+          "title": "Why carpets smell:",
+          "text": "Up to 100,000 dust mites live in one gram of carpet dust. Their droppings are a strong allergen. Bacteria break down organic matter and release odorous compounds. Ozone destroys both mites and bacteria, eliminating the cause of odor."
+        },
+        "items": {
+          "title": "What is treated with ozone",
+          "items": [
+            "Carpets and carpeting — floor, wall, hand-made",
+            "Upholstered furniture — sofas, armchairs, poufs, benches",
+            "Mattresses and pillows — including orthopedic",
+            "Curtains and drapes — without removing from the rail",
+            "Soft toys — safe for children's items",
+            "Car seats — as a separate service"
+          ]
+        },
+        "methods": {
+          "title": "Textile ozonation methods",
+          "paragraph": "There are two main methods: whole-room treatment and local chamber treatment of a specific item.",
+          "tableTitle": "Comparison of textile ozonation methods",
+          "headers": ["Parameter", "Room treatment", "Chamber treatment"],
+          "rows": [
+            {
+              "parameter": "Scope",
+              "value1": "All textile surfaces at once",
+              "value2": "Single item of furniture/carpet"
+            },
+            { "parameter": "Ozone concentration", "value1": "20-40 mg/m³", "value2": "40-80 mg/m³" },
+            { "parameter": "Treatment time", "value1": "4-8 hours", "value2": "2-4 hours" },
+            { "parameter": "Ozone consumption", "value1": "High (large volume)", "value2": "Low (small volume)" },
+            { "parameter": "Effectiveness", "value1": "Uniform", "value2": "Maximum locally" },
+            { "parameter": "When to use", "value1": "General room deodorization", "value2": "Strong local odor" }
+          ]
+        },
+        "chamber": {
+          "title": "Chamber treatment technique",
+          "steps": [
+            {
+              "title": "Item preparation",
+              "description": "If needed, do preliminary dry cleaning or vacuuming. Allow to dry completely. Lightly mist the surface with a sprayer to activate soiling."
+            },
+            {
+              "title": "Creating the chamber",
+              "description": "Cover the item with plastic film. Seal the edges to the floor to form an airtight \"chamber\". Leave a small opening for the ozone generator hose."
+            },
+            {
+              "title": "Connecting the generator",
+              "description": "Insert the hose under the film. Secure so ozone does not escape. Turn on the generator. The film should inflate slightly from the gas flow."
+            },
+            {
+              "title": "Exposure",
+              "description": "Hold for 2-4 hours depending on odor intensity. For heavy soiling — up to 8 hours. You can turn pillows periodically for even treatment."
+            },
+            {
+              "title": "Finishing",
+              "description": "Turn off the generator. Remove the film. Ventilate the item for 30-60 minutes. Ozone fully decays, leaving no trace."
+            }
+          ],
+          "highlight": {
+            "title": "Tip:",
+            "text": "To boost effect on furniture or carpet with urine stains, pretreat soiled areas with an enzymatic cleaner. Then dry and run ozonation."
+          }
+        },
+        "afterCleaning": {
+          "title": "Ozonation after dry cleaning",
+          "paragraph": "Ozonation is the ideal final step of professional dry cleaning:",
+          "items": [
+            "Removes odor of chemicals used in cleaning",
+            "Kills bacteria that may remain after wet treatment",
+            "Eliminates deep odors that dry cleaning did not remove",
+            "Prevents mold in damp spots",
+            "Deactivates allergens (mites, spores, pollen)",
+            "Increases perceived value of the dry cleaning service"
+          ],
+          "tableCaption": "Combined service: dry cleaning + ozonation",
+          "tableHeaders": ["Step", "Action", "Result"],
+          "tableRows": [
+            ["1. Dry cleaning", "Removal of dust, hair, large debris", "Preparation for wet treatment"],
+            ["2. Wet cleaning", "Removal of stains and soiling", "Clean surface"],
+            ["3. Drying", "Drying to 10-15% moisture", "Mold prevention"],
+            ["4. Ozonation", "Deodorization and disinfection", "Fresh smell, germs eliminated"]
+          ]
+        },
+        "afterFlood": {
+          "title": "Ozonation after flooding",
+          "paragraph": "Flooding is a special case requiring quick action. Wet textiles are an ideal environment for mold. Ozonation prevents it:",
+          "items": [
+            "First dry carpets and furniture as much as possible (dehumidifiers, fans)",
+            "Residual moisture should not exceed 15-20%",
+            "Run ozonation at the first signs of musty odor",
+            "Ozone concentration: 40-60 mg/m³ for mold prevention",
+            "Treatment time: 6-12 hours for full disinfection",
+            "If mold is found — treat with inhibitor before ozonation"
+          ],
+          "highlight": {
+            "title": "Important:",
+            "text": "If mold is already visible on the surface, ozonation alone is not enough. First remove mold mechanically and treat with antiseptic. Ozone will destroy remaining spores and odor but will not remove the mycelium physically."
+          }
+        },
+        "benefitsCompanies": {
+          "title": "Benefits for cleaning companies",
+          "features": [
+            {
+              "title": "Higher average ticket",
+              "description": "Ozonation after dry cleaning adds 30-50% to the service price"
+            },
+            {
+              "title": "Handling difficult cases",
+              "description": "Odors that dry cleaning cannot remove are eliminated by ozone"
+            },
+            { "title": "Fast payback", "description": "Generator pays for itself in 1-2 months with regular use" },
+            {
+              "title": "Competitive edge",
+              "description": "Not all dry cleaners offer ozonation — stand out on the market"
+            }
+          ]
+        },
+        "modes": {
+          "title": "Recommended treatment modes",
+          "tableCaption": "Ozonation parameters for different textile types",
+          "tableHeaders": ["Item type", "Method", "Concentration", "Time"],
+          "tableRows": [
+            ["Carpet (light odor)", "Room", "20-30 mg/m³", "4-6 hours"],
+            ["Carpet (strong odor)", "Chamber", "40-60 mg/m³", "4-8 hours"],
+            ["Sofa", "Chamber", "40-60 mg/m³", "3-4 hours"],
+            ["Mattress", "Chamber", "30-50 mg/m³", "2-4 hours"],
+            ["Curtains (on rail)", "Room", "20-40 mg/m³", "4-6 hours"],
+            ["Soft toys", "Chamber (in bag)", "30-40 mg/m³", "1-2 hours"]
+          ]
+        },
+        "materials": {
+          "title": "Safety for materials",
+          "paragraph": "Ozone is safe for most textile materials when recommended concentrations are followed:",
+          "items": [
+            "Natural fabrics (cotton, linen, wool) — safe",
+            "Synthetic fabrics (polyester, nylon) — safe",
+            "Natural leather — safe, but conditioning afterward is recommended",
+            "Latex and rubber — long treatment at high concentrations not recommended",
+            "Dyed fabrics — safe, ozone does not bleach at recommended settings",
+            "Delicate fabrics (silk, viscose) — safe at standard concentrations"
+          ],
+          "highlight": {
+            "title": "Note:",
+            "text": "Ozone may slightly accelerate aging of rubber and latex with repeated high-concentration treatments. For furniture with rubber elements use standard modes."
+          }
+        }
+      }
     }
   }
 }

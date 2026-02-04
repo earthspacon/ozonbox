@@ -6,7 +6,7 @@ import { Layout } from '@/widgets/layout'
 import { getCategoryById } from '@/shared/config/applications-data'
 import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
 import { AppLink } from '@/shared/ui/app-link'
-import { CTASection } from '@/shared/ui/article-components'
+import { ArticleHero, CTASection } from '@/shared/ui/article-components'
 
 interface CategoryPageProps {
   categoryId: string
@@ -31,32 +31,17 @@ export function CategoryPage({ categoryId }: CategoryPageProps) {
 
   return (
     <Layout>
-      {/* Breadcrumb */}
-      <section className="section" style={{ paddingBottom: 0 }}>
-        <div className="container">
-          <nav className="breadcrumb">
-            <AppLink href="/" className="breadcrumb__link">
-              {t('footer.home', { ns: NAMESPACES.common })}
-            </AppLink>
-            <span className="breadcrumb__separator">/</span>
-            <AppLink href="/applications" className="breadcrumb__link">
-              {t('nav.applications', { ns: NAMESPACES.common })}
-            </AppLink>
-            <span className="breadcrumb__separator">/</span>
-            <span className="breadcrumb__current">{t('title', { ns })}</span>
-          </nav>
-        </div>
-      </section>
-
-      {/* Category Hero */}
-      <section className="article-hero">
-        <div className="article-hero__image">
-          <Image src={category.image} alt={t('title', { ns })} fill />
-        </div>
-        <div className="article-hero__overlay">
-          <h1 className="article-hero__title">{t('title', { ns })}</h1>
-        </div>
-      </section>
+      <ArticleHero
+        title={t('title', { ns })}
+        description={t('description', { ns })}
+        image={category.image}
+        imageAlt={t('title', { ns })}
+        breadcrumbs={[
+          { label: t('footer.home', { ns: NAMESPACES.common }), href: '/' },
+          { label: t('nav.applications', { ns: NAMESPACES.common }), href: '/applications' },
+          { label: t('title', { ns }) },
+        ]}
+      />
 
       {/* Category Content */}
       <section className="section">

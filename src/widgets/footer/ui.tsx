@@ -64,27 +64,27 @@ export function Footer() {
             <h4>{t('footer.applicationsTitle')}</h4>
             <ul className="footer__links">
               <li>
-                <AppLink href="/applications#poultry" className="footer__link">
+                <AppLink href="/applications/agriculture" className="footer__link">
                   {t('applications.poultry.title')}
                 </AppLink>
               </li>
               <li>
-                <AppLink href="/applications#food" className="footer__link">
+                <AppLink href="/applications/food-production" className="footer__link">
                   {t('applications.food.title')}
                 </AppLink>
               </li>
               <li>
-                <AppLink href="/applications#horeca" className="footer__link">
+                <AppLink href="/applications/horeca" className="footer__link">
                   {t('applications.horeca.title')}
                 </AppLink>
               </li>
               <li>
-                <AppLink href="/applications#medical" className="footer__link">
+                <AppLink href="/applications/medicine" className="footer__link">
                   {t('applications.medical.title')}
                 </AppLink>
               </li>
               <li>
-                <AppLink href="/applications#water" className="footer__link">
+                <AppLink href="/applications/water-treatment" className="footer__link">
                   {t('applications.water.title')}
                 </AppLink>
               </li>
@@ -93,24 +93,30 @@ export function Footer() {
 
           <div className="footer__column">
             <h4>{t('footer.contactsTitle')}</h4>
-            <div className="footer__contact-item">
+            <a href="tel:+998942909977" className="footer__contact-item" aria-label={t('footer.callUs')}>
               <IconPhone />
               <span>
                 {t('header.phone')}
                 <br />
                 {t('header.freeCall')}
               </span>
-            </div>
-            <div className="footer__contact-item">
+            </a>
+            <a
+              href="https://t.me/Ozonoxy01"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer__contact-item"
+              aria-label={t('footer.openTelegram')}
+            >
               <IconTelegram />
               <span>@Ozonoxy01</span>
-            </div>
-            <div className="footer__contact-item">
+            </a>
+            <AppLink href="/contacts" className="footer__contact-item" aria-label={t('footer.viewAddress')}>
               <IconLocation />
               <span>
                 {t('contactsPage.info.address.country')}, {t('contactsPage.info.address.city')}
               </span>
-            </div>
+            </AppLink>
           </div>
         </div>
 
@@ -118,7 +124,6 @@ export function Footer() {
           <span>
             &copy; {new Date().getFullYear()} {t('footer.copyright')}
           </span>
-          <span>{t('footer.dev')}</span>
         </div>
       </div>
     </footer>

@@ -53,7 +53,7 @@ export function EquipmentSterilizationPage({ staticData, lang }: EquipmentSteril
       <ArticleHero
         title={t('subcategories.equipment-sterilization.title', { ns })}
         description={data.heroText || t('subcategories.equipment-sterilization.shortDesc', { ns })}
-        image="https://images.unsplash.com/photo-1581093458791-9d42e3c7e117?w=1920&q=80"
+        image="https://images.pexels.com/photos/13697729/pexels-photo-13697729.jpeg"
         imageAlt={t('subcategories.equipment-sterilization.title', { ns })}
         breadcrumbs={breadcrumbs}
         backLink={{
