@@ -658,32 +658,32 @@
           "title": "Iqtisodiy samaradorlik",
           "intro": "Sabzavot omborlarida ozonlashni joriy etish sezilarli iqtisodiy foyda keltiradi:",
           "highlight": "1000 tonnalik sabzavot omborini ozonlash uskunasi nobud bo'lishni kamaytirish va yuqori sotuv narxlari hisobiga 1–2 saqlash mavsumida o'zini oqlaydi.",
-          "headers": [
+          "tableHeaders": [
             "Ko'rsatkich",
             "Ozon bilan",
             "Ozonsiz"
           ],
-          "rows": [
-            {
-              "parameter": "Kartoshka saqlashdagi nobud bo'lish",
-              "value1": "5–8%",
-              "value2": "15–25%"
-            },
-            {
-              "parameter": "Sabzi saqlashdagi nobud bo'lish",
-              "value1": "8–12%",
-              "value2": "25–35%"
-            },
-            {
-              "parameter": "Fungitsidlar xarajatlari",
-              "value1": "0",
-              "value2": "15–20 rub/t"
-            },
-            {
-              "parameter": "Mavsum oxiridagi savdo",
-              "value1": "Yuqori narxda",
-              "value2": "Chegirma bilan (sifat yomonlashishi)"
-            }
+          "tableData": [
+            [
+              "Kartoshka saqlashdagi nobud bo'lish",
+              "5–8%",
+              "15–25%"
+            ],
+            [
+              "Sabzi saqlashdagi nobud bo'lish",
+              "8–12%",
+              "25–35%"
+            ],
+            [
+              "Fungitsidlar xarajatlari",
+              "0",
+              "15–20 rub/t"
+            ],
+            [
+              "Mavsum oxiridagi savdo",
+              "Yuqori narxda",
+              "Chegirma bilan (sifat yomonlashishi)"
+            ]
           ]
         }
       }
@@ -1597,7 +1597,33 @@
           ]
         },
         "benefits": {
-          "title": "Donni saqlashda ozonlashning afzalliklari"
+          "title": "Donni saqlashda ozonlashning afzalliklari",
+          "items": [
+            {
+              "title": "Kimyoviy moddalarsiz",
+              "description": "Donida qoldiq yo'q — to'liq ekologik xavfsizlik va oziq-ovqat xavfsizligi"
+            },
+            {
+              "title": "Zararkunandalarni nazorat qilish",
+              "description": "Barcha rivojlanish bosqichlarida 95–99% hasharotlarni yo'q qilish chidamlilik shakllanmagan"
+            },
+            {
+              "title": "Dezinfeksiya",
+              "description": "Mikrobial va zamburuğ ifloslantiruvchiligini 80–95% kamaytirish"
+            },
+            {
+              "title": "Hosildorlik o'sishi",
+              "description": "Ekish oldidan ishlov berilganda 17–22% yuqori hosil"
+            },
+            {
+              "title": "Xarajatlarni kamaytirish",
+              "description": "Kam operatsion xarajatlar va tezroq ishlov berish (2-6 soat vs 3-7 kun fumigatsiya uchun)"
+            },
+            {
+              "title": "Iqtisodiy foyda",
+              "description": "Nobud bo'lishni kamaytirish hisobiga uskunaning 1-2 mavsumda o'zini oqlashi"
+            }
+          ]
         }
       }
     },

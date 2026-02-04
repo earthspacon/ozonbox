@@ -677,7 +677,7 @@
             [
               "Fungicide costs",
               "0",
-              "15–20 rub/t"
+              "15–20 per ton"
             ],
             [
               "Late season sales",
@@ -724,6 +724,11 @@
         "Eco-friendly technology"
       ],
       "sections": {
+        "intro": {
+          "paragraph1": "In greenhouse operations, ozone is used comprehensively: for air disinfection, plant surfaces, soil and irrigation water. This allows increasing yields and effectively controlling diseases without chemical agents.",
+          "paragraph2": "Ozone dissolves in water 15 times better than oxygen. Irrigation with ozonated water increases yields by 13–35% through improved soil quality, increased root mass and reduced root pathogens.",
+          "scientificFact": "Scientific fact: Ozone is 15 times more soluble in water than oxygen. This allows creating highly enriched irrigation solutions that saturate soil with oxygen and destroy pathogens."
+        },
         "applications": {
           "title": "Ozone applications in greenhouses",
           "items": [
@@ -947,11 +952,6 @@
               "description": "Equipment payback in 1–2 seasons through yield increase and reduced chemical costs"
             }
           ]
-        },
-        "intro": {
-          "paragraph1": "In greenhouse operations, ozone is used comprehensively: for air disinfection, plant surfaces, soil and irrigation water. This allows increasing yields and effectively controlling diseases without chemical agents.",
-          "paragraph2": "Ozone dissolves in water 15 times better than oxygen. Irrigation with ozonated water increases yields by 13–35% through improved soil quality, increased root mass and reduced root pathogens.",
-          "scientificFact": "Scientific fact: Ozone is 15 times more soluble in water than oxygen. This allows creating highly enriched irrigation solutions that saturate soil with oxygen and destroy pathogens."
         }
       }
     },
@@ -1597,7 +1597,33 @@
           ]
         },
         "benefits": {
-          "title": "Advantages of ozonation in grain storage"
+          "title": "Advantages of ozonation in grain storage",
+          "items": [
+            {
+              "title": "Chemical-free",
+              "description": "No residues in grain — complete ecological safety and food security"
+            },
+            {
+              "title": "Pest control",
+              "description": "95–99% destruction of insects at all development stages without resistance"
+            },
+            {
+              "title": "Disinfection",
+              "description": "80–95% reduction of microbial and fungal contamination"
+            },
+            {
+              "title": "Yield increase",
+              "description": "17–22% higher yields with pre-sowing seed treatment"
+            },
+            {
+              "title": "Cost savings",
+              "description": "Lower operational costs and faster treatment (2-6 hours vs 3-7 days for fumigation)"
+            },
+            {
+              "title": "Economic benefit",
+              "description": "Equipment payback in 1-2 seasons through loss reduction"
+            }
+          ]
         }
       }
     },

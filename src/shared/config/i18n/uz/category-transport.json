@@ -1051,8 +1051,8 @@
       },
       "sections": {
         "intro": {
-          "text": "Tijorat avtomobil transporti — kichik vanlardan uzun masofali yuk mashinalarigacha — muntazam sanitariya qayta ishlashni talab qiladi. Bu ayniqsa oziq-ovqat tashishtiruvchilar uchun muhim: sut mahsulotlari, go'sht, sabzavot va mevalar. Sanitariya standartlari va HACCP talablari yuk hududining tozaligini saqlab qolishini to'g'ri qiladi.",
-          "text2": "Ozonlash avtoparkni santariya qayta ishlashning samarali va iqtisodiy usuli. Bitta mobil ozonator bir smenada 10-15 ta yuk mashinasini qayta ishlaydi, avtomobil quvvatdan ishlaydi, hech qanday sarflarni talab qilmaydi. Logistika kompaniyalari uchun bu kimyoviy qayta ishlash bilan solishtirganda katta tejamkorlik."
+          "paragraph1": "Tijorat avtomobil transporti — kichik vanlardan uzun masofali yuk mashinalarigacha — muntazam sanitariya qayta ishlashni talab qiladi. Bu ayniqsa oziq-ovqat tashishtiruvchilar uchun muhim: sut mahsulotlari, go'sht, sabzavot va mevalar. Sanitariya standartlari va HACCP talablari yuk hududining tozaligini saqlab qolishini to'g'ri qiladi.",
+          "paragraph2": "Ozonlash avtoparkni santariya qayta ishlashning samarali va iqtisodiy usuli. Bitta mobil ozonator bir smenada 10-15 ta yuk mashinasini qayta ishlaydi, avtomobil quvvatdan ishlaydi, hech qanday sarflarni talab qilmaydi. Logistika kompaniyalari uchun bu kimyoviy qayta ishlash bilan solishtirganda katta tejamkorlik."
         },
         "highlight1": {
           "title": "Avtoparkni boshqaruvchi uchun:",
@@ -1174,7 +1174,7 @@
             "text": "Har bir qayta ishlashni sana, avtomobil raqami, parametrlari (vaqt, konsentratsiya) ko'rsatgan jurnalga yozib qo'ying. Bu tekshiruvlar paytida sanitariya mosligining hujjatli isboti."
           }
         },
-        "odors": {
+        "odorRemoval": {
           "title": "Hidlarni bartaraf etish",
           "text": "Avtomobil transportida asosiy muammolardan biri — oldingi yuklardan hidalar:",
           "items": [
@@ -1248,48 +1248,47 @@
             }
           ]
         },
-        "economy": {
+        "economics": {
           "title": "Avtoparkni iqtisodiyoti",
-          "table": {
-            "title": "Avtoparkni sanitariya qayta ishlash usullarini solishtirish (50 vositalar)",
-            "headers": [
-              "Ko'rsatkich",
-              "Ozonlash",
-              "Kimyoviy qayta ishlash"
+          "comparisonTitle": "Avtoparkni sanitariya qayta ishlash usullarini solishtirish (50 vositalar)",
+          "tableHeaders": [
+            "Ko'rsatkich",
+            "Ozonlash",
+            "Kimyoviy qayta ishlash"
+          ],
+          "tableCaption": "Avtoparkni sanitariya qayta ishlash usullarini solishtirish (50 vositalar)",
+          "tableData": [
+            [
+              "Uskunalar",
+              "50-150 ming ₽ (bir marta)",
+              "Talab qilinmaydi"
             ],
-            "rows": [
-              {
-                "parameter": "Uskunalar",
-                "value1": "50-150 ming ₽ (bir marta)",
-                "value2": "Talab qilinmaydi"
-              },
-              {
-                "parameter": "Bir avtomobil uchun xaraj",
-                "value1": "30-50 ₽ (elektrik energiya)",
-                "value2": "500-1500 ₽ (xizmat/materiallar)"
-              },
-              {
-                "parameter": "Xodimlar",
-                "value1": "1 operator",
-                "value2": "3-5 yuvish xodimlari"
-              },
-              {
-                "parameter": "Bir avtomobil uchun vaqt",
-                "value1": "30-40 min (nazorat qilmasdan)",
-                "value2": "60-90 min (qo'lda ishlash)"
-              },
-              {
-                "parameter": "Hidlarni bartaraf etish",
-                "value1": "To'liq",
-                "value2": "Qisman"
-              },
-              {
-                "parameter": "O'zini qoplash muddati",
-                "value1": "2-4 oy",
-                "value2": "—"
-              }
+            [
+              "Bir avtomobil uchun xaraj",
+              "30-50 ₽ (elektrik energiya)",
+              "500-1500 ₽ (xizmat/materiallar)"
+            ],
+            [
+              "Xodimlar",
+              "1 operator",
+              "3-5 yuvish xodimlari"
+            ],
+            [
+              "Bir avtomobil uchun vaqt",
+              "30-40 min (nazorat qilmasdan)",
+              "60-90 min (qo'lda ishlash)"
+            ],
+            [
+              "Hidlarni bartaraf etish",
+              "To'liq",
+              "Qisman"
+            ],
+            [
+              "O'zini qoplash muddati",
+              "2-4 oy",
+              "—"
             ]
-          },
+          ],
           "text": "Haftada ikki marta 50 ta avtomobilni qayta ishlashda tejamkorlik oyiga 100-200 ming rubl. Ozonator o'zini qoplash — 2-4 oy. Qo'shimcha foyda — hidlar va ifloslanishga shikoyatlarnigga kamaytirish."
         },
         "compliance": {

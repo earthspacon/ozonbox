@@ -1047,8 +1047,8 @@
       },
       "sections": {
         "intro": {
-          "text": "Commercial road transport — from small vans to long-haul trucks — requires regular sanitary treatment. This is especially critical for food transporters: dairy products, meat, vegetables and fruits. Sanitary standards and HACCP requirements mandate maintaining cargo area cleanliness.",
-          "text2": "Ozonation is an effective and economical method of fleet sanitary treatment. One mobile ozonator treats 10-15 trucks per shift, runs from vehicle power, requires no consumables. For logistics companies, this is significant savings compared to chemical treatment."
+          "paragraph1": "Commercial road transport — from small vans to long-haul trucks — requires regular sanitary treatment. This is especially critical for food transporters: dairy products, meat, vegetables and fruits. Sanitary standards and HACCP requirements mandate maintaining cargo area cleanliness.",
+          "paragraph2": "Ozonation is an effective and economical method of fleet sanitary treatment. One mobile ozonator treats 10-15 trucks per shift, runs from vehicle power, requires no consumables. For logistics companies, this is significant savings compared to chemical treatment."
         },
         "highlight1": {
           "title": "For fleet managers:",
@@ -1170,7 +1170,7 @@
             "text": "Record each treatment in a log with date, vehicle number, parameters (time, concentration). This is documentary proof of sanitary compliance during audits."
           }
         },
-        "odors": {
+        "odorRemoval": {
           "title": "Odor elimination",
           "text": "One of the main problems in freight transport — odors from previous cargo:",
           "items": [
@@ -1244,48 +1244,47 @@
             }
           ]
         },
-        "economy": {
+        "economics": {
           "title": "Fleet economics",
-          "table": {
-            "title": "Fleet sanitary treatment method comparison (50 vehicles)",
-            "headers": [
-              "Indicator",
-              "Ozonation",
-              "Chemical treatment"
+          "comparisonTitle": "Fleet sanitary treatment method comparison (50 vehicles)",
+          "tableHeaders": [
+            "Indicator",
+            "Ozonation",
+            "Chemical treatment"
+          ],
+          "tableCaption": "Fleet sanitary treatment method comparison (50 vehicles)",
+          "tableData": [
+            [
+              "Equipment",
+              "50-150 thousand ₽ (one-time)",
+              "Not required"
             ],
-            "rows": [
-              {
-                "parameter": "Equipment",
-                "value1": "50-150 thousand ₽ (one-time)",
-                "value2": "Not required"
-              },
-              {
-                "parameter": "Cost per vehicle",
-                "value1": "30-50 ₽ (electricity)",
-                "value2": "500-1500 ₽ (service/materials)"
-              },
-              {
-                "parameter": "Staff",
-                "value1": "1 operator",
-                "value2": "3-5 washers"
-              },
-              {
-                "parameter": "Time per vehicle",
-                "value1": "30-40 min (unattended)",
-                "value2": "60-90 min (manual work)"
-              },
-              {
-                "parameter": "Odor elimination",
-                "value1": "Complete",
-                "value2": "Partial"
-              },
-              {
-                "parameter": "Payback",
-                "value1": "2-4 months",
-                "value2": "—"
-              }
+            [
+              "Cost per vehicle",
+              "30-50 ₽ (electricity)",
+              "500-1500 ₽ (service/materials)"
+            ],
+            [
+              "Staff",
+              "1 operator",
+              "3-5 washers"
+            ],
+            [
+              "Time per vehicle",
+              "30-40 min (unattended)",
+              "60-90 min (manual work)"
+            ],
+            [
+              "Odor elimination",
+              "Complete",
+              "Partial"
+            ],
+            [
+              "Payback",
+              "2-4 months",
+              "—"
             ]
-          },
+          ],
           "text": "When treating 50 vehicles twice a week, savings amount to 100-200 thousand rubles per month. Ozonator payback — 2-4 months. Additional benefit — reduced customer complaints about odors and contamination."
         },
         "compliance": {

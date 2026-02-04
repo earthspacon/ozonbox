@@ -703,40 +703,40 @@
         "technology": {
           "title": "Basseyn ozonlash texnologiyasi",
           "intro": "Ozon filtratsiyadan keyin, basseyn idishiga qaytishdan oldin aylanish suviga beriladi. Basseynlar uchun tavsiya etilgan ozon dozasi - aylanish suvi uchun 0,7-0,9 g/m³. Kontakt idishida kontakt vaqti - 6-7 daqiqa.",
-          "caption": "Basseyn ozonlash parametrlari",
-          "headers": [
+          "tableCaption": "Basseyn ozonlash parametrlari",
+          "tableHeaders": [
             "Parametr",
             "Qiymat",
             "Izoh"
           ],
-          "rows": [
-            {
-              "parameter": "Ozon dozasi",
-              "value1": "0,7-0,9 g/m³",
-              "value2": "Aylanish suvi hajmiga"
-            },
-            {
-              "parameter": "Kontakt vaqti",
-              "value1": "6-7 daqiqa",
-              "value2": "Kontakt idishida"
-            },
-            {
-              "parameter": "Chiqishdagi qolgan ozon",
-              "value1": "< 0,1 mg/L",
-              "value2": "Idishga kirishdan oldin"
-            },
-            {
-              "parameter": "Qolgan xlor",
-              "value1": "0,1-0,3 mg/L",
-              "value2": "Uzoq muddatli ta'sir uchun"
-            },
-            {
-              "parameter": "Suv pH",
-              "value1": "7,2-7,6",
-              "value2": "Optimal diapazon"
-            }
+          "tableData": [
+            [
+              "Ozon dozasi",
+              "0,7-0,9 g/m³",
+              "Aylanish suvi hajmiga"
+            ],
+            [
+              "Kontakt vaqti",
+              "6-7 daqiqa",
+              "Kontakt idishida"
+            ],
+            [
+              "Chiqishdagi qolgan ozon",
+              "< 0,1 mg/L",
+              "Idishga kirishdan oldin"
+            ],
+            [
+              "Qolgan xlor",
+              "0,1-0,3 mg/L",
+              "Uzoq muddatli ta'sir uchun"
+            ],
+            [
+              "Suv pH",
+              "7,2-7,6",
+              "Optimal diapazon"
+            ]
           ],
-          "highlightBox": "Ozonni xlor bilan birgalikda ishlatganda, odatdagi 0,7 mg/L o'rniga xlorni 0,1 mg/L darajasida saqlash mumkin. Bu teri va ko'z qichishishini deyarli bartaraf etadi."
+          "note": "Ozonni xlor bilan birgalikda ishlatganda, odatdagi 0,7 mg/L o'rniga xlorni 0,1 mg/L darajasida saqlash mumkin. Bu teri va ko'z qichishishini deyarli bartaraf etadi."
         },
         "pathogens": {
           "title": "Ozon basseyn suvida nimani yo'q qiladi",
@@ -752,13 +752,13 @@
         },
         "poolTypes": {
           "title": "Turli basseyn turlari uchun ozonlash",
-          "caption": "Tavsiya etilgan ozonlash tizimlari",
-          "headers": [
+          "tableCaption": "Tavsiya etilgan ozonlash tizimlari",
+          "tableHeaders": [
             "Basseyn turi",
             "Hajm",
             "Ozonator quvvati"
           ],
-          "rows": [
+          "tableData": [
             [
               "Xususiy basseyn",
               "25-60 m³",

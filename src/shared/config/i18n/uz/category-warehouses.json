@@ -93,38 +93,34 @@
           "hvacLabel": "HVAC bilan integratsiya:",
           "hvacText": "Katta omborlar uchun ventilyatsiya tizimiga integratsiyalangan kanal ozon generatorlarini ishlatish tavsiya etiladi. Bu ozonning barcha hajm bo'ylab tekis tarqalishini va davolashdan keyin avtomatik provetrivaniyeni ta'minlaydi."
         },
-        "treatmentModes": {
+        "processModes": {
           "title": "Omborni davolash rejimlari",
           "intro": "Omborni ozonlash ishlamaydigan vaqtda amalga oshiriladi. Davolash vaqtida xonada shaxsiy himoya vositalarisiz odamlar bo'lmasligi kerak. Ozonlash vaqti va rejimi xona hajmi, ozon generatorlarining ishlab chiqarishi, havo harorati va namligiga bog'liq.",
           "steps": [
             {
-              "title": "Step 1",
-              "description": "Barcha derazalar va eshiklarni yoping, imkoniyat bo'lsa, ta'minlovchi ventilyatsiyani o'chiring"
+              "title": "Barcha derazalar va eshiklarni yoping, imkoniyat bo'lsa, ta'minlovchi ventilyatsiyani o'chiring",
+              "description": "Bu ozonning zonda saqlanishini ta'minlaydi"
             },
             {
-              "title": "Step 2",
-              "description": "Xona hajmiga qarab 40-120 daqiqa muddatga ozon generatorini yoqing"
+              "title": "Xona hajmiga qarab 40-120 daqiqa muddatga ozon generatorini yoqing",
+              "description": "Vaqt hisoblash: xona hajmi (m³) ÷ 25 = davolash vaqti (daqiqalar)"
             },
             {
-              "title": "Step 3",
-              "description": "Davolash tugagandan keyin eshiklar va derazalarni oching, 20-60 daqiqa provetrivaniye qiling"
+              "title": "Davolash tugagandan keyin eshiklar va derazalarni oching, 20-60 daqiqa provetrivaniye qiling",
+              "description": "Ta'minlovchi ventilyatsiya tizimini yoqib provetrivaniyeni tezlashtiring"
             },
             {
-              "title": "Step 4",
-              "description": "Provetrivaniyeni tezlashtirish uchun ta'minlovchi ventilyatsiya tizimini yoqing"
-            },
-            {
-              "title": "Step 5",
-              "description": "Tungi davolash uchun provetrivaniye talab etilmaydi — ozon 2-3 soatda tarqaladi"
+              "title": "Tungi davolash uchun provetrivaniye talab etilmaydi — ozon 2-3 soatda tarqaladi",
+              "description": "Ombor ertalab ishga tayyorligi"
             }
           ],
-          "tableCaption": "Yuqumlilik darajasiga qarab ozonlash rejimlari",
-          "tableHeaders": [
+          "treatmentTable": "Yuqumlilik darajasiga qarab ozonlash rejimlari",
+          "treatmentHeaders": [
             "Yuqumlilik darajasi",
             "Ozon kontsentratsiyasi",
             "Davolash chastotasi"
           ],
-          "tableRows": [
+          "treatmentRows": [
             [
               "Oldini olish",
               "2-5 mg/m³",
@@ -147,7 +143,7 @@
             ]
           ]
         },
-        "humidityControl": {
+        "humidity": {
           "title": "Namlikni nazorat qilish bilan sinergiya",
           "intro": "Mog'or 60% dan yuqori namlikda faol rivojlanadi. Mog'orga qarshi kurashning kompleks yo'nalishi ozonlash va havo namligini nazorat qilishni o'z ichiga oladi. Ozon mavjud ochaklarni bartaraf etadi, 45-55% optimal namlikni saqlash esa yangilarining paydo bo'lishining oldini oladi.",
           "items": [
@@ -205,30 +201,32 @@
         },
         "benefits": {
           "title": "Omborlar uchun ozonlashning afzalliklari",
-          "noUnloading": {
-            "title": "Mahsulotlarni tushirmasdan",
-            "description": "Davolash omborni bo'shatish zaruriyatisiz amalga oshiriladi — ozon ko'pchilik tovarlar uchun xavfsiz"
-          },
-          "penetration": {
-            "title": "Har joyga kirish",
-            "description": "Gaz qiyin joylarga yetadi: yoriqlar, tikishlar, ventilyatsiya, suyuq vositalar kira olmaydigan joylarga"
-          },
-          "automation": {
-            "title": "Avtomatik ishlash",
-            "description": "Zamonaviy ozon generatorlari ishlamaydigan soatlarda mustaqil ishlash uchun taymerlar bilan jihozlangan"
-          },
-          "safeDecay": {
-            "title": "Xavfsiz parchalanish",
-            "description": "Qoldiq ozon zaharlı mahsulotlarni shakllantirmay kislorodga parchalanadi"
-          },
-          "noConsumables": {
-            "title": "Sarf materiallarsiz",
-            "description": "Ishlash uchun faqat havo va elektr zarur — reagentlar yo'q"
-          },
-          "complexAction": {
-            "title": "Kompleks ta'sir",
-            "description": "Bir vaqtning o'zida dezinfeksiya, dezodorizatsiya va zararkunandalarning paydo bo'lishining oldini olish"
-          }
+          "features": [
+            {
+              "title": "Mahsulotlarni tushirmasdan",
+              "description": "Davolash omborni bo'shatish zaruriyatisiz amalga oshiriladi — ozon ko'pchilik tovarlar uchun xavfsiz"
+            },
+            {
+              "title": "Har joyga kirish",
+              "description": "Gaz qiyin joylarga yetadi: yoriqlar, tikishlar, ventilyatsiya, suyuq vositalar kira olmaydigan joylarga"
+            },
+            {
+              "title": "Avtomatik ishlash",
+              "description": "Zamonaviy ozon generatorlari ishlamaydigan soatlarda mustaqil ishlash uchun taymerlar bilan jihozlangan"
+            },
+            {
+              "title": "Xavfsiz parchalanish",
+              "description": "Qoldiq ozon zaharlı mahsulotlarni shakllantirmay kislorodga parchalanadi"
+            },
+            {
+              "title": "Sarf materiallarsiz",
+              "description": "Ishlash uchun faqat havo va elektr zarur — reagentlar yo'q"
+            },
+            {
+              "title": "Kompleks ta'sir",
+              "description": "Bir vaqtning o'zida dezinfeksiya, dezodorizatsiya va zararkunandalarning paydo bo'lishining oldini olish"
+            }
+          ]
         }
       }
     },

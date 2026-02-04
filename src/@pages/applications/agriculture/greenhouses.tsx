@@ -97,11 +97,11 @@ export function GreenhousesPage({ staticData, lang }: GreenhousesPageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data.intro.paragraph1}</Paragraph>
-            <Paragraph>{data.intro.paragraph2}</Paragraph>
+            <Paragraph>{data.sections.intro.paragraph1}</Paragraph>
+            <Paragraph>{data.sections.intro.paragraph2}</Paragraph>
           </ArticleSection>
 
-          <HighlightBox variant="info">{data.intro.scientificFact}</HighlightBox>
+          <HighlightBox variant="info">{data.sections.intro.scientificFact}</HighlightBox>
 
           <ArticleSection title={data.sections.applications.title}>
             <BulletList items={data.sections.applications.items} />
