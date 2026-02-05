@@ -4,8 +4,8 @@
   "subcategories": {
     "poultry": {
       "title": "Parrandachilik",
-      "shortDesc": "Tuxumlar, inkubatorlar va parrandachilik xonalarini dezinfeksiya qilish",
-      "content": "Ozonlash zamonaviy parrandachilik fermalari uchun asosiy texnologiya hisoblanadi. Ozonni qo'llash ishlab chiqarishning barcha bosqichlarini qamrab oladi: tuxumni inkubatsiya qilishdan tortib tayyor mahsulotni saqlashgacha.\n\nOzon tuxum po'stlog'iga zarar yetkazmasdan Salmonella, E. coli va boshqa patogenlarni yo'q qilib, inkubatsiya tuxumlarini 92–98% samaradorlik bilan dezinfeksiya qiladi. Bu tuxumdan jo'ja chiqishini 0,8–2,0% ga oshiradi va erta o'limni kamaytiradi.\n\nParrandachilik xonalarini ozonlash havoda va yuzalardagi bakteriya, virus va zamburug'larning 99,9% gacha qismini yo'q qiladi. Havoni muntazam ozonlash parrandalar kasallanishini kamaytiradi, vazn ortishi va yem o'zlashtirilishini yaxshilaydi.\n\nOzonlangan ichimlik suvi ko'proq kislorodga ega va patogen mikrofloradan xoli bo'lib, bu parrandalar salomatligi va mahsuldorligiga ijobiy ta'sir ko'rsatadi.",
+      "shortDesc": "Tuxumlar, inkubatorlar, so'yish, binolar, havo kanallari va chiqindi suvlarni dezinfeksiya qilish",
+      "content": "Ozonlash zamonaviy parrandachilik fermalari uchun asosiy texnologiya hisoblanadi. Ozonni qo'llash ishlab chiqarishning barcha bosqichlarini qamrab oladi: tuxumni inkubatsiya qilishdan so'yish, saqlash va chiqindi suvlarni tozalashgacha.\n\nOzon tuxum po'stlog'iga zarar yetkazmasdan Salmonella, E. coli va boshqa patogenlarni yo'q qilib, inkubatsiya tuxumlarini 92–98% samaradorlik bilan dezinfeksiya qiladi. Bu tuxumdan jo'ja chiqishini 0,8–2,0% ga oshiradi va erta o'limni kamaytiradi.\n\nSo'yish va kesish paytida ozon tanalar, sovutish suvi va havoni ishlaydi; bo'sh parrandaxonalarda tsikllar orasida to'liq dezinfeksiya ta'minlaydi. Ozon inkubatorlarda (ichida va tashqarida), hid va zararli gazlarni (ammiak, vodorod sulfidi) bartaraf etishda, havo kanallari va ventilyatsiyani tozalashda, kanalizatsiya va texnologik suvni dezinfeksiya qilishda qo'llaniladi.\n\nParrandachilik xonalarini ozonlash havoda va yuzalardagi bakteriya, virus va zamburug'larning 99,9% gacha qismini yo'q qiladi. Ozonlangan ichimlik suvi ko'proq kislorodga ega va patogen mikrofloradan xoli bo'lib, bu parrandalar salomatligi va mahsuldorligiga ijobiy ta'sir ko'rsatadi.",
       "stats": {
         "disinfection": {
           "value": "92–98%",
@@ -44,15 +44,34 @@
           "warningText": "Parrandalar uchun ruxsat etilgan maksimal ozon kontsentratsiyasi 1,2 mg/m³ gacha — bu odamlar uchun me'yordan (0,1 mg/m³) 12 baravar yuqori. Bu rejimga rioya qilinganda parrandalar mavjud bo'lgan paytda ham samarali ishlov berish imkonini beradi."
         },
         "applications": {
-          "title": "Parrandachilikda ozonning qo'llanilishi",
+          "title": "Паррандачиликда озоннинг қўлланиши",
           "items": [
-            "Tuxum inkubatsiyasi — embrion rivojlanishini rag'batlantirish va jo'ja chiqishini oshirish",
-            "Inkubatsiya tuxumlarini dezinfeksiya qilish — parranda kasalliklarining oldini olish",
-            "Mahsulotni qayta ishlash va saqlash — saqlash muddati va ozuqaviy qiymatini yaxshilash",
-            "Yemni dezinfeksiya qilish — mikroflora va toksinlarni kamaytirish",
-            "Suvni dezinfeksiya qilish va havoni sanitariya qilish — parranda mahsuldorligini oshirish",
-            "Parrandachilik fermalarining chiqindi suvlarini tozalash"
+            "Тухум инкубацияси — эмбрион ривоjlанишини рағбатлантириш ва жўжа чиқишини ошириш",
+            "Инкубация тухумларини дезинфекция қилиш — парранда касалликларининг олдини олиш",
+            "Сўиш ва кесиш — қайта ишлаш пайтида танани, ускуналар ва ҳавони дезинфекция қилиш",
+            "Бинолар ва ускуналарни дезинфекция ва стерилизация қилиш — заллар, жиҳозлар, сиртлар",
+            "Инкубаторлар — камеранинг ичида ва ташқарида (заллар, жиҳозлар, тухум сақлаш)",
+            "Ҳид ва зарарли газларни бартараф этиш — аммиак, водород сульфиди, ЛОС",
+            "Парранда йўқ пайтда фермани дезинфекция қилиш — цикллар ўртасида тўлиқ ишлов",
+            "Ҳаво каналлари ва вентиляцияни тозалаш — патогенлар ва чангни олиб ташлаш",
+            "Канализация ва чиқинди сувларни тозалаш — технологик сув ва каналларни дезинфекция қилиш",
+            "Емни дезинфекция қилиш — микрофлора ва токсинларни камайтириш",
+            "Сувни дезинфекция қилиш ва ҳавони санитария қилиш — парранда маҳсулдорлигини ошириш",
+            "Парранда гўштини сақлаш — сақлаш муддатини узайтириш"
           ]
+        },
+        "slaughterProcessing": {
+          "title": "Сўиш ва кесиш пайтида озон",
+          "intro": "Сўиш ва кесиш пайтида парранда таналари, ускуналар, совутиш суви ва ҳаво бактериялар (Salmonella, Campylobacter, E. coli) билан кучли ифлосланади. Таналар ва контакт сиртлари ўртасидаги ўзаро ифлосланиш маҳсулотни қайтариш ва озиқ-овқат орқали юқадиган касалликлар хавфини оширади.",
+          "problems": "Муаммолар: ичакларни олиб ташлашдан кейин таналарда юқори бактериал юк; совутиш идишлари ва конвейерларда биоплёнка ва патогенлар; ифлосланган технологик сув; кесиш ва қадоқлаш жойларида микроорганизмларнинг ҳавода тарқалиши.",
+          "application": "Озон FDA ва USDA томонидан паррандани қайта ишлаш учун тасдиқланган. Газ ҳолатида (тана сиртлари ва хона ҳавоси учун) ва сувда эритилган ҳолда (совутиш суви, тана ювиш, ускуна ювиш) қўлланилади. Оддий режимлар: таналарда 4–8 ppm газ озон 4–10 дақиқа; озониланган совутиш суви бактериал сонини камайтиради ва сувни қайта ишлатиш имкони беради. 8 ppm ва 10 дақиқа таъсирда тадқиқотлар бактериялар ~10⁵ дан ~10² КОЕ/г гача камайиши ва тана сиртида Salmonellaning тўлиқ йўқ қилинишини кўрсатади.",
+          "benefits": "Афзалликлар: кимёвий қолдиқлар йўқ; совутилган гўшт сақлаш муддати узаяди (масалан, озонсиз 14 кун ўрнига 20-кунгача қабул қилинадиган сифат); ўзаро ифлосланиш камаяди; совутиш ва ювиш сувини қайта ишлатиш стандартларига мослаштириш имкони."
+        },
+        "premisesDisinfection": {
+          "title": "Бинолар ва ускуналарни дезинфекция ва стерилизация қилиш",
+          "intro": "Паррандахоналар, сўиш заллари, қадоқлаш жойлари ва ускуналар касаллик тарқалиши ва маҳсулот ифлосланишининг олдини олиш учун патогенлардан холи бўлиши керак. Анъанавий усуллар (формальдегид билан фумигация, хлор) саломатлик ва атроф-муҳит хавфларини келтиради.",
+          "application": "Озон биноларни дезинфекция ва стерилизация қилиш учун газ ва сувда эритилган ҳолда ишлатилади. Газ озон (масалан, ёпиқ хоналарда 1–2 соат давомида 10–20 мг/м³) сиртлар, ёриқлар ва ускуналарга етади. Озониланган сув пол, девор, конвейер ва асбобларни ювиш учун ишлатилади. Озон бактериялар, вируслар, замбурғлар ва спорларни қолдиқсиз йўқ қилади.",
+          "benefits": "Афзалликлар: заҳарли қолдиқлар йўқ; формальдегидга хавфсиз альтернатива; кенг спектрли антимикроб ҳаракат; инкубаториялар, ем секслари, қайта ишлаш заллари, омборлар ва транспортда қўллаш мумкин."
         },
         "incubation": {
           "title": "Tuxum inkubatsiyasi: jo'ja chiqishining ko'payishi",
@@ -83,6 +102,12 @@
           ],
           "highlight": "VNITIP tavsiyalari: inkubatsiya tuxumlarini ozonli muhitda uzoq muddat saqlash muddatidan oldin buzilishning oldini oladi, po'stloq ifloslanishini 2–7 baravar kamaytiradi, mog'or rivojlanishiga yo'l qo'ymaydi va saqlash muddatini 10 kungacha uzaytiradi."
         },
+        "incubatorsExtended": {
+          "title": "Инкубаторларда озон: ичида ва ташқарида",
+          "intro": "Инкубаторлар ва жўжа чиқариш секслари тухум ифлосланиши ва жўжалар касалланишининг олдини олиш учун қатъий гигиенани талаб қилади. Озон ҳам инкубация камералари ичида, ҳам атрофдаги жойларда қўлланилади.",
+          "inside": "Инкубатор ичида: озон паст концентратсияда (масалан, 18 кунлик инкубация давомида 3 кунлик циклларда соатига 1 дақиқа 0,05 ppm ёки ~0,1 мг/м³) ишлаб чиқарилади. Тухум поʻстлоғидаги бактериал юкни камаятиради, эмбрионлар учун ҳаво сифати ва кислород мавжудлигини яхшилайди, нақлов вақти қисқариши мумкин. Озон кимёвий қолдиқсиз формальдегид фумигациясига альтернатива ҳисобланади.",
+          "outside": "Ташқарида (инкубатория заллари, жиҳозлар, тухум сақлаш): озон инкубатория залларини, инкубация ва чиқариш жиҳозларини, тухум сақлаш хоналарини ва троллейбусларни дезинфекция қилиш учун ишлатилади. Газ озон (одамлар/парранда йўқ пайтда 30–60 дақиқа давомида 8–12 мг/м³) ёки сиртларни ювиш учун озониланган сув Salmonella, E. coli ва замбурғларни камаятиради. Инкубация тухумларини озон атмосферасида сақлаш (4–15 мг/м³, кунига 2–3 соат) сақлаш муддатини узайтиради ва юклашдан олдин поʻстлоқ ифлосланишини камаятиради."
+        },
         "airDisinfection": {
           "title": "Parrandachilik fermalarida havoni dezinfeksiya qilish",
           "intro1": "Parrandalar faoliyati natijasida parrandaxona havosi zararli moddalar bilan ifloslanadi: ammiak (0,01 mg/l me'yorda 0,3–0,5 mg/l gacha), vodorod sulfidi, karbonat angidrid, mikroflorali organik chang (30–50 mg/l gacha).",
@@ -98,6 +123,31 @@
             ["Mikroflora, koloniya/m³", "27,480", "< 200"]
           ],
           "highlight": "Vaqti-vaqti bilan ozonlash (har 3–5 kunda bir marta 8–12 soat davomida) zararli gazlar miqdorini 80–85% ga, bakterial va mog'or ifloslanishini esa 80–90% ga kamaytiradi."
+        },
+        "odorAndGases": {
+          "title": "Ҳид ва зарарли газларни бартараф этиш",
+          "intro": "Паррандахона ҳавоси аммиак, водород сульфиди, карбонат ангидрид, учивчи органик бирикмалар (ЛОС) ва органик чанг тўплади. Бу нафас олиш стресси, маҳсулдорлик пасайиши ва ходимлар ҳамда қўшнилар учун ноқулайлик келтиради.",
+          "problems": "Аммиак (коʻпинча МРКдан 10–50 баравар юқори) нафас йўлларини қизиқтиради ва инфекцияларга сезувчанликни оширади. Водород сульфиди заҳарли ва ҳидли. Юқори CO₂ ва чанг ҳаво сифатини ямонлаштиради. Органик чанг микроорганизмлар ва аллергенларни олиб юради.",
+          "application": "Озон аммиак, водород сульфиди ва кўплаб ЛОСни оксидлайди. Ресиркуляция ёки тозалаш тизимларида озон бу бирикмаларни кам зарарли маҳсулотларга (азот, сульфатлар, CO₂, сув) парчалайди. Мавжуд маълумотлар (масалан, 11,3 мг/л озон) кескин тушишни кўрсатади: водород сульфиди 0,15 дан 0,0002 мг/л гача, аммиак 0,12 дан 0,004 мг/л гача, микрофлора ўн минглардан 200 КОЕ/м³ дан камгача.",
+          "benefits": "Афзалликлар: ҳид ва газ концентратсиялари камаяди; парранда фаровонлиги ва маҳсулдорлиги яхшиланади; нафас йўллари касалликлари хавфи пасаяди; иш шаройити яхшиланади. Парранда мавжуд бўлганда озон қўллашда хавфсиз концентратсия чегаралари (масалан, 1,2 мг/м³ гача) кузатилиши керак."
+        },
+        "emptyHouseDisinfection": {
+          "title": "Парранда йўқ пайтда фермани дезинфекция қилиш",
+          "intro": "Цикллар ўртасида паррандахонани патогенлар циклини узиш ва кейинги подага ўтказмаслик учун пухта тозалаш ва дезинфекция қилиш керак. Тўшақ, чанг, гўнг ва органикани аввал олиб ташлаш керак; шундан кейингина дезинфекция самарали бўлади.",
+          "application": "Механик тозалаш ва ювишдан кейин бўш паррандахонага юқори концентратсияда (масалан, 15–30 мг/м³ ва ундан юқори) газ озон 2–4 соат давомида минимал вентиляция билан берилади, озон барча сиртлар, ёриқлар, озуқа ва сув идишлари ва вентиляция каналларига етиши учун. Озон бактериялар, вируслар, замбурғлар ва спорларни йўқ қилади. Бошқа дезинфектантлар билан бирга ёки мустақил ишлатилиши мумкин. Ҳаволashдан кейин қолдиқ қолмайди.",
+          "benefits": "Афзалликлар: формальдегид ва бошқа заҳарли фумигантларсиз; кенг спектрли патогенларга қарши самарали; қийин эришиладиган жойларга кириб бориш; кимёвий қолдиқлар йўқ; озон парчалангач ва вентиляциядан кейин кейинги пода учун хавфсиз."
+        },
+        "airDucts": {
+          "title": "Ҳаво каналлари ва вентиляцияни тозалаш ва дезинфекция қилиш",
+          "intro": "Паррандахоналардаги вентиляция каналларида чанг, пат, микроорганизмлар ва баъзан биоплёнка тўпланади. Ифлосланган каналлар патогенлар ва ҳидларни тарқатади ва вентиляция самарадорлигини пасайтиради.",
+          "application": "Озон вентиляция тизимига (масалан, асосий канал ёки ресиркуляция контури орқали) бўш паррандахонани дезинфекция қилиш пайтида ёки парранда йўқ пайтда даврий равишда киритилиши мумкин. Газ озон каналлар орқали оқади ва ички сиртлардаги органик модда, бактериялар, замбурғлар ва вирусларни оксидлайди. Энг яхши таъсир учун каналларни аввал механик тозалаш керак; кейин озон ишлови (масалан, 1–2 соат давомида 10–20 мг/м³) тизимни санитария қилади. Озон қайта ишлаш ва қадоқлаш жойларидаги HVAC тизимларида ҳавода ифлосланишни камайтириш учун ҳам ишлатилиши мумкин.",
+          "benefits": "Афзалликлар: кириш қийин бўлган канал сиртларини дезинфекция қилиш; вентиляция орқали патогенлар тарқалиши камаяди; чанг ва ҳид камаяди; ҳаво сифати яхшиланади; каналларни ювиш учун кимёвий воситалар керак эмас."
+        },
+        "sewageCanals": {
+          "title": "Канализация ва чиқинди сувларни тозалаш",
+          "intro": "Паррандачилик фермалари ва сўиш секслари ювиш, совутиш суви, ичакларни олиб ташлаш ва гўнг билан ишлашдан чиқинди сувлар ҳосил қилади. Бу сув органик модда, азот, бактериялар ва патогенлар билан бой ва чиқариш ёки қайта ишлатишдан олдин тозаланиши керак.",
+          "application": "Озон парранда технологик сувини дезинфекция қилиш ва канализация оқимлари ва очиқ каналларни тозалаш учун ишлатилади. Озонлаш (масалан, 5–15 мг/л озон, 10–30 дақиқа алоқа) бактерияларни (Salmonella, E. coli дахил), вируслар ва паразитларни инактивация қилади, ХПК ва БПК ни камаятиради, ҳид ва рангни олиб ташлайди. Элек ва фильтрлаш (масалан, диатомит) билан бирлаштирилганда озонлаш совутиш суви, тана ювиш суви ва оқимларни қайта ишлатиш стандартларига мослаштириш имкони беради (тадқиқотларда — микробал юк 99,9% камайиши, ХПК/қаттиқ моддалар 65–87% камайиши). Гўнг суюқлиги ёки канал суви учун озон патогенлар ва ҳидни камаятиради.",
+          "benefits": "Афзалликлар: хлор ҳосилаларисиз кучли дезинфекция; сувни қайта ишлатиш имкони (масалан, совутгичларда); ҳид ва органик юк камаяди; чиқариш нормаларига мослик; кимёвий дезинфектантларга нисбатан атроф-муҳитга дўст."
         },
         "feedDisinfection": {
           "title": "Yemni dezinfeksiya qilish",
@@ -133,6 +183,15 @@
             ["Inkubatsiya tuxumlarini saqlash", "4–15 mg/m³", "120–180 min", "Kuniga bir marta"],
             ["Embrional rivojlanishni rag'batlantirish", "~10 mg/m³", "20 min", "Butun davr davomida kuniga bir marta"],
             ["Parrandaxona havosini dezinfeksiya qilish", "8–12 mg/m³", "5–10 min", "Kuniga 2–3 marta"],
+            [
+              "So'yish/kesish xonasi havo va tanalar",
+              "4–8 ppm (gaz), 1–5 ppm (suv)",
+              "4–10 min (tana), doimiy (suv)",
+              "Qayta ishlash paytida"
+            ],
+            ["Bo'sh parrandaxonani dezinfeksiya qilish", "15–30 mg/m³", "2–4 soat", "Tsikllar orasida"],
+            ["Havo kanali/ventilyatsiyani dezinfeksiya qilish", "10–20 mg/m³", "1–2 soat", "Parrandaxona bo'sh paytda"],
+            ["Oqova/texnologik suvni dezinfeksiya qilish", "5–15 mg/l", "10–30 min", "Doimiy yoki partiyalab"],
             ["Don omborlarini ishlash", "8–12 mg/m³", "60–120 min", "Kuniga bir marta"],
             ["Go'shtni saqlash paytida ishlash", "~6 mg/m³", "120 min", "Kuniga 1–2 marta"]
           ]

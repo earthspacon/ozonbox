@@ -1,0 +1,29 @@
+# dependencies
+node_modules
+
+# build / output
+.next
+out
+build
+dist
+
+# lock files
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# generated / auto-generated
+next-env.d.ts
+*.tsbuildinfo
+public/sitemap*.xml
+
+# misc
+.DS_Store
+.vercel
+.env*
+*.pem
+
+# IDE / editor
+.idea
+.vscode
+.cursor

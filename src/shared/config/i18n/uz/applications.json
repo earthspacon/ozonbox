@@ -46,6 +46,10 @@
     "transport": {
       "title": "Transport",
       "description": "Transport vositalarini ozonlash yo'lovchi tashish va yuk konteynerlarining sanitariya xavfsizligini ta'minlaydi."
+    },
+    "mining-metals": {
+      "title": "Kon sanoati va metallar",
+      "description": "Oltin va boshqa metallar qazib olishda ozon: rudalarni oldindan ishlov berish, eritishni yaxshilash, siyanidlarni yo'q qilish, metallarni saqlash va sirt tozalash."
     }
   }
 }

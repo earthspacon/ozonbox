@@ -107,6 +107,19 @@ export function PoultryPage({ staticData, lang }: PoultryPageProps) {
             <NumberedList items={data.sections.applications.items} />
           </ArticleSection>
 
+          <ArticleSection title={data.sections.slaughterProcessing.title}>
+            <Paragraph>{data.sections.slaughterProcessing.intro}</Paragraph>
+            <Paragraph>{data.sections.slaughterProcessing.problems}</Paragraph>
+            <Paragraph>{data.sections.slaughterProcessing.application}</Paragraph>
+            <HighlightBox variant="success">{data.sections.slaughterProcessing.benefits}</HighlightBox>
+          </ArticleSection>
+
+          <ArticleSection title={data.sections.premisesDisinfection.title}>
+            <Paragraph>{data.sections.premisesDisinfection.intro}</Paragraph>
+            <Paragraph>{data.sections.premisesDisinfection.application}</Paragraph>
+            <HighlightBox variant="success">{data.sections.premisesDisinfection.benefits}</HighlightBox>
+          </ArticleSection>
+
           <ArticleSection title={data.sections.incubation.title}>
             <Paragraph>{data.sections.incubation.intro}</Paragraph>
 
@@ -134,6 +147,12 @@ export function PoultryPage({ staticData, lang }: PoultryPageProps) {
             <HighlightBox variant="success">{data.sections.incubation.highlight}</HighlightBox>
           </ArticleSection>
 
+          <ArticleSection title={data.sections.incubatorsExtended.title}>
+            <Paragraph>{data.sections.incubatorsExtended.intro}</Paragraph>
+            <Paragraph>{data.sections.incubatorsExtended.inside}</Paragraph>
+            <Paragraph>{data.sections.incubatorsExtended.outside}</Paragraph>
+          </ArticleSection>
+
           <ArticleSection title={data.sections.airDisinfection.title}>
             <Paragraph>{data.sections.airDisinfection.intro1}</Paragraph>
             <Paragraph>{data.sections.airDisinfection.intro2}</Paragraph>
@@ -145,6 +164,31 @@ export function PoultryPage({ staticData, lang }: PoultryPageProps) {
             />
 
             <HighlightBox variant="info">{data.sections.airDisinfection.highlight}</HighlightBox>
+          </ArticleSection>
+
+          <ArticleSection title={data.sections.odorAndGases.title}>
+            <Paragraph>{data.sections.odorAndGases.intro}</Paragraph>
+            <Paragraph>{data.sections.odorAndGases.problems}</Paragraph>
+            <Paragraph>{data.sections.odorAndGases.application}</Paragraph>
+            <HighlightBox variant="success">{data.sections.odorAndGases.benefits}</HighlightBox>
+          </ArticleSection>
+
+          <ArticleSection title={data.sections.emptyHouseDisinfection.title}>
+            <Paragraph>{data.sections.emptyHouseDisinfection.intro}</Paragraph>
+            <Paragraph>{data.sections.emptyHouseDisinfection.application}</Paragraph>
+            <HighlightBox variant="success">{data.sections.emptyHouseDisinfection.benefits}</HighlightBox>
+          </ArticleSection>
+
+          <ArticleSection title={data.sections.airDucts.title}>
+            <Paragraph>{data.sections.airDucts.intro}</Paragraph>
+            <Paragraph>{data.sections.airDucts.application}</Paragraph>
+            <HighlightBox variant="success">{data.sections.airDucts.benefits}</HighlightBox>
+          </ArticleSection>
+
+          <ArticleSection title={data.sections.sewageCanals.title}>
+            <Paragraph>{data.sections.sewageCanals.intro}</Paragraph>
+            <Paragraph>{data.sections.sewageCanals.application}</Paragraph>
+            <HighlightBox variant="success">{data.sections.sewageCanals.benefits}</HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data.sections.feedDisinfection.title}>

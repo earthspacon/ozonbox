@@ -1,0 +1,386 @@
+{
+  "title": "Mining & metals",
+  "description": "Ozone in gold and metal mining: ore pretreatment, leaching enhancement, cyanide destruction, and metal storage and surface cleaning. Eco-friendly technology for mineral processing and metalworking.",
+  "subcategories": {
+    "extraction-and-metals": {
+      "title": "Extraction and metals processing",
+      "shortDesc": "Ozone in gold mining: refractory ore pretreatment, leaching enhancement, cyanide destruction, and metal cleaning",
+      "content": "Ozone is used in mining and metallurgy for pretreatment of refractory gold-bearing ores, heap leaching enhancement, cyanide destruction in wastewater, and metal surface cleaning. Industrial trials and deployment are underway in South Africa, Chile, Canada, and Southeast Asia.\n\nOzone pretreatment of refractory ores before cyanidation oxidizes sulfide minerals (pyrite, arsenopyrite), releasing gold and improving recovery from 53% to 88% (gold) and 26% to 78% (silver) in Mexican ore studies. Ozone is also used to destroy cyanide in tailings: 99% reduction of free and WAD cyanide at 2–3 g O₃ per gram CN.",
+      "stats": {
+        "goldRecovery": {
+          "value": "53→88%",
+          "label": "Gold recovery",
+          "description": "With ozone pretreatment of refractory ores"
+        },
+        "cyanideReduction": {
+          "value": "up to 99%",
+          "label": "Cyanide reduction",
+          "description": "In mineral processing wastewater"
+        },
+        "cycleTime": {
+          "value": "40→24 h",
+          "label": "Leaching time",
+          "description": "Shorter with ozone pretreatment"
+        },
+        "waterReuse": {
+          "value": "up to 85%",
+          "label": "Water reuse",
+          "description": "After ozone treatment of effluents"
+        }
+      },
+      "benefits": [
+        "Higher gold and silver recovery from refractory ores",
+        "Cyanide destruction up to 99% without hazardous residues",
+        "Shorter leaching cycles",
+        "Compliance with International Cyanide Management Code (ICMC)",
+        "Metal surface cleaning and passivation",
+        "Eco-friendly alternative to hypochlorite and peroxide"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Ozone (O₃) is a strong oxidant used in mining and metallurgy: pretreatment of refractory gold-bearing ores before cyanidation, heap leaching enhancement via oxygen supply, cyanide destruction in wastewater and tailings, and cleaning and passivation of metal surfaces during storage and processing.",
+          "paragraph2": "Industrial trials in South Africa, Chile, Canada, and Southeast Asia have demonstrated 85–99% reduction of free and WAD cyanide when using on-site ozone generation. The technology complies with the International Cyanide Management Code (ICMC) and allows reuse of treated water in the process."
+        },
+        "dosage": {
+          "title": "Typical dosages:",
+          "text": "Cyanide destruction: 2–3 g O₃ per gram CN (free and WAD). Thiocyanates: 3–4 g O₃ per gram SCN⁻. Refractory ore pretreatment: ozone concentration and contact time depend on ore type; full sulfide oxidation can reduce subsequent leaching time from 40 to 24 hours."
+        },
+        "advantages": {
+          "title": "Advantages of ozone in mining and metallurgy",
+          "items": [
+            "Oxidation of sulfide minerals in refractory ores — release of gold and silver",
+            "Heap leaching enhancement by increasing dissolved oxygen concentration",
+            "Complete cyanide destruction to cyanate, then bicarbonate and nitrogen",
+            "On-site ozone generation from air — no storage or transport of hazardous reagents",
+            "Cleaning and passivation of metal surfaces during storage and processing",
+            "Lower operating costs than hypochlorite at comparable effectiveness"
+          ]
+        },
+        "refractoryOre": {
+          "title": "Ozone pretreatment of refractory ores",
+          "intro": "Refractory gold ores contain gold locked in sulfide minerals (pyrite, arsenopyrite, pyrrhotite), which limits recovery by conventional cyanidation. Ozone pretreatment oxidizes sulfides and improves gold and silver extraction.",
+          "tableCaption": "Results of ozone pretreatment of refractory ores (studies)",
+          "tableHeaders": ["Parameter", "Without ozone", "With ozone", "Change"],
+          "tableData": [
+            ["Gold recovery", "53%", "88%", "+35%"],
+            ["Silver recovery", "26%", "78%", "+52%"],
+            ["Leaching time", "40 h", "24 h", "−40%"],
+            ["Ore type", "Double refractory (Mexico)", "Direct ozone pretreatment", "—"]
+          ],
+          "note": "Sulfide oxidation by ozone releases gold for subsequent cyanidation and can reduce cyanide consumption in the leaching stage."
+        },
+        "cyanideDestruction": {
+          "title": "Cyanide destruction in wastewater",
+          "intro": "Ozone oxidizes free cyanide (CN⁻) to cyanate (CNO⁻), then with further oxidation and hydrolysis to bicarbonate and nitrogen. Typical reaction time 10–30 minutes. Industrial trials at gold operations in South Africa and Southeast Asia showed >99% reduction of free and WAD cyanide at 2–3 g O₃ per gram CN.",
+          "tableCaption": "Effectiveness of ozone cyanide destruction",
+          "tableHeaders": ["Parameter", "Before treatment", "After treatment", "O₃ dose"],
+          "tableData": [
+            ["Free cyanide", "50–200 mg/L", "< 0.5 mg/L", "2–3 g O₃/g CN"],
+            ["WAD cyanide", "100–400 mg/L", "< 1 mg/L", "2–3 g O₃/g CN"],
+            ["Thiocyanate (SCN⁻)", "—", "requires 3–4 g O₃/g", "Higher than for CN⁻"],
+            ["Contact time", "—", "10–30 min", "—"]
+          ]
+        },
+        "scheme": {
+          "title": "Ozone in the gold mining cycle",
+          "steps": [
+            {
+              "title": "Crushing and grinding",
+              "description": "Ore preparation for pretreatment or leaching"
+            },
+            {
+              "title": "Ozone pretreatment (refractory ores)",
+              "description": "Oxidation of sulfide minerals by ozone before cyanidation to improve gold and silver recovery"
+            },
+            {
+              "title": "Leaching (heap or tank)",
+              "description": "Cyanidation; in heap leaching, ozone or ozone ice can serve as an oxygen source to accelerate the process"
+            },
+            {
+              "title": "Cyanide destruction in tailings",
+              "description": "Ozonation of wastewater and slurry to destroy free and WAD cyanide to safe levels (ICMC)"
+            },
+            {
+              "title": "Water reuse",
+              "description": "Ozone-treated water can be returned to the process, reducing fresh water consumption"
+            }
+          ]
+        },
+        "economic": {
+          "title": "Economics and deployment",
+          "intro": "Capital costs for ozone systems are higher than for some chemical oxidants, but operating costs are often lower (e.g. vs. sodium hypochlorite). The technology does not require tailings stream changes, provides fast and irreversible reaction, and improves operator safety by eliminating handling of hazardous chemicals.",
+          "tableCaption": "Ozone vs chemical cyanide oxidants",
+          "tableHeaders": ["Parameter", "Ozone", "Hypochlorite", "Hydrogen peroxide"],
+          "tableData": [
+            ["CN reduction (typical)", "> 99%", "> 99%", "90–98%"],
+            ["Hazardous residues", "None", "Chlorine, chlorates", "Minimal"],
+            ["On-site generation", "Yes (from air)", "No", "Partial"],
+            ["ICMC compliance", "Yes", "Yes", "Yes"]
+          ]
+        },
+        "benefits": {
+          "title": "Benefits of ozonation in mining and metallurgy",
+          "items": [
+            {
+              "title": "Higher recovery",
+              "description": "Improved gold and silver recovery from refractory ores by 35–52% in studies"
+            },
+            {
+              "title": "Cyanide safety",
+              "description": "99% destruction of free and WAD cyanide, compliance with international ICMC standards"
+            },
+            {
+              "title": "Eco-friendly",
+              "description": "Ozone decomposes to oxygen, leaves no toxic residues in water or tailings"
+            },
+            {
+              "title": "Metal cleaning",
+              "description": "Cleaning and passivation of metal surfaces during storage and processing without aggressive chemistry"
+            }
+          ]
+        }
+      },
+      "sourcesTitle": "Sources",
+      "sources": [
+        {
+          "title": "Evaluation of ozonation technology for gold recovery and cyanide management — J. Southern African Inst. Mining and Metallurgy, 2017",
+          "url": "http://www.scielo.org.za/scielo.php?pid=S2225-62532017000800006&script=sci_arttext"
+        },
+        {
+          "title": "The Effective Use of Ozone for Cyanide Destruction in Mining and Mineral Processing — Academia.edu",
+          "url": "https://www.academia.edu/26379027/"
+        },
+        {
+          "title": "Ozone application in different industries: A review — ScienceDirect, 2022",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1385894722056686"
+        }
+      ]
+    },
+    "gold-mining-global": {
+      "title": "Ozone in gold mining: global practices (South Africa, Chile, Canada)",
+      "shortDesc": "Ozone technology at gold operations in South Africa, Chile, Canada, and Southeast Asia: refractory ore pretreatment, cyanide destruction, ICMC compliance.",
+      "content": "Ozone technologies are increasingly used in gold mining in South Africa, Chile, Canada, and Southeast Asia. Industrial trials and deployment cover pretreatment of refractory and double refractory ores, heap leaching enhancement, and cyanide destruction in wastewater and tailings in line with the International Cyanide Management Code (ICMC).",
+      "stats": {
+        "regions": { "value": "4+", "label": "Regions", "description": "South Africa, Chile, Canada, Southeast Asia" },
+        "cyanideReduction": { "value": "85–99%", "label": "Cyanide reduction", "description": "With on-site ozone" },
+        "recoveryImprovement": {
+          "value": "53→88%",
+          "label": "Gold recovery",
+          "description": "With ozone pretreatment of ores"
+        },
+        "icmcCompliance": {
+          "value": "Yes",
+          "label": "ICMC compliance",
+          "description": "International Cyanide Management Code"
+        }
+      },
+      "benefits": [
+        "Cyanide destruction in tailings 85–99%",
+        "Improved gold recovery from refractory and double refractory ores",
+        "Heap leaching enhancement (ozone ice, oxygen)",
+        "ICMC compliance and return of treated water to process",
+        "Industrial trials in South Africa, Chile, Canada, and Asia"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Ozone technologies are increasingly used in gold mining in South Africa, Chile, Canada, and Southeast Asia. Industrial trials and deployment cover pretreatment of refractory and double refractory ores, heap leaching enhancement, and cyanide destruction in wastewater and tailings in line with the International Cyanide Management Code (ICMC).",
+          "paragraph2": "Industrial trials in South Africa and Southeast Asia showed 85–99% reduction of free and WAD cyanide when using on-site ozone generation. A dose of 2–3 g O₃ per gram cyanide achieves full oxidation within 10–30 minutes. The technology complies with ICMC and allows treated water to be returned to the process."
+        },
+        "southAfrica": {
+          "title": "South Africa: cyanides and refractory ores",
+          "intro": "In South Africa, ozone is used at gold operations for cyanide destruction in tailings and for improved gold recovery from refractory and double refractory ores. The Journal of the Southern African Institute of Mining and Metallurgy has published evaluations of ozonation technology for processing double refractory gold ore: improved gold recovery and cyanide management.",
+          "trials": "Industrial trials in South Africa and Southeast Asia showed 85–99% reduction of free and WAD cyanide when using on-site ozone generation. A dose of 2–3 g O₃ per gram cyanide achieves full oxidation within 10–30 minutes. The technology complies with ICMC and allows treated water to be returned to the process."
+        },
+        "chileCanada": {
+          "title": "Chile and Canada: gold–copper ores and heap leaching",
+          "intro": "In Chile, ozone and combined technologies are considered in the context of processing ores with high cyanide-soluble copper (SART process and analogues). In Canada, research focuses on heap leaching and refractory ore pretreatment.",
+          "details": "Increasing dissolved oxygen from 8.2 to 12 mg/L at high cyanide concentrations (60 mg/L) doubles gold leaching rate. Ozone ice as an oxygen source in column experiments increased gold recovery by 4.1% versus control. These results support the use of ozone in heap leaching in major gold-producing regions."
+        },
+        "refractory": {
+          "title": "Refractory ore pretreatment: deployment",
+          "intro": "Pilot and industrial ozone pretreatment systems for refractory gold ores have been tested at double refractory ore processing sites. Studies on Mexican ores showed gold recovery increasing from 53% to 88% and silver from 26% to 78%, with leaching time reduced from 40 to 24 hours.",
+          "adoption": "Oxidation of sulfide minerals (pyrite, arsenopyrite) by ozone releases gold for subsequent cyanidation and reduces cyanide consumption. As environmental standards tighten and the share of refractory ores in processing grows, ozone pretreatment deployment is expected to expand at operations in South Africa, Chile, Canada, and Asia."
+        },
+        "benefits": {
+          "title": "Conclusions",
+          "items": [
+            {
+              "title": "Cyanides",
+              "description": "85–99% reduction of free and WAD cyanide, ICMC compliance, water return to process."
+            },
+            {
+              "title": "Refractory ores",
+              "description": "Higher gold and silver recovery with ozone pretreatment (53→88%, 26→78%), shorter leaching time."
+            },
+            {
+              "title": "Heap leaching",
+              "description": "Ozone ice and oxygen increase leaching rate; data from Chile and Canada."
+            },
+            {
+              "title": "Deployment",
+              "description": "Further expansion expected as share of refractory ores and environmental requirements increase."
+            }
+          ]
+        }
+      },
+      "sourcesTitle": "Sources",
+      "sources": [
+        {
+          "title": "Evaluation of ozonation technology for gold recovery and cyanide management — J. Southern African Inst. Mining and Metallurgy, 2017",
+          "url": "http://www.scielo.org.za/scielo.php?pid=S2225-62532017000800006&script=sci_arttext"
+        },
+        {
+          "title": "Ozone Ice as an Oxygen Release Reagent for Heap Leaching of Gold Ore — Minerals, MDPI, 2021",
+          "url": "https://mdpi-res.com/d_attachment/minerals/minerals-11-01251/article_deploy/minerals-11-01251-v2.pdf"
+        },
+        {
+          "title": "The Effective Use of Ozone for Cyanide Destruction in Mining and Mineral Processing — Academia.edu",
+          "url": "https://www.academia.edu/26379027/"
+        }
+      ]
+    },
+    "cyanide-destruction": {
+      "title": "Ozone cyanide destruction in mining",
+      "shortDesc": "Mechanism of ozone oxidation of cyanides (CN⁻ → CNO⁻ → bicarbonate and nitrogen), dosing 2–3 g O₃/g CN, 99% reduction of free and WAD cyanide. Comparison with hypochlorite and peroxide, water reuse.",
+      "content": "Ozone is an effective oxidant for cyanide destruction at gold mining operations. The process oxidizes free cyanide to cyanate, then with further oxidation and hydrolysis to bicarbonate and nitrogen. Typical reaction time is 10–30 minutes. Industrial trials in South Africa and Southeast Asia showed >99% reduction of free and WAD cyanide at 2–3 g O₃ per gram CN.",
+      "stats": {
+        "cyanideReduction": {
+          "value": "up to 99%",
+          "label": "Cyanide reduction",
+          "description": "Free and WAD at 2–3 g O₃/g CN"
+        },
+        "reactionTime": { "value": "10–30 min", "label": "Reaction time", "description": "Full oxidation to cyanate" },
+        "waterReuse": { "value": "up to 85%", "label": "Water reuse", "description": "After ozone treatment" },
+        "icmcCompliance": { "value": "Yes", "label": "ICMC compliance", "description": "No hazardous residues" }
+      },
+      "benefits": [
+        "Complete oxidation CN⁻ → CNO⁻ → bicarbonate and nitrogen",
+        "Dose 2–3 g O₃ per gram CN, thiocyanates 3–4 g O₃/g SCN⁻",
+        "No hazardous residues (unlike hypochlorite)",
+        "On-site ozone generation from air",
+        "Water reuse up to 85%"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Ozone is an effective oxidant for cyanide destruction at gold mining operations. The process oxidizes free cyanide to cyanate, then with further oxidation and hydrolysis to bicarbonate and nitrogen. Typical reaction time is 10–30 minutes.",
+          "paragraph2": "Industrial trials in South Africa and Southeast Asia showed >99% reduction of free and WAD cyanide at 2–3 g O₃ per gram CN. Ozone-treated water can be returned to the process, reducing fresh water consumption by up to 85%."
+        },
+        "mechanism": {
+          "title": "Mechanism of ozone oxidation of cyanides",
+          "intro": "Ozone oxidizes free cyanide (CN⁻) in a two-stage process. In the first stage CN⁻ is converted to cyanate (CNO⁻). With further oxidation and hydrolysis, cyanate is converted to bicarbonate and nitrogen — non-toxic products.",
+          "process": "The reaction follows first-order kinetics in ozone concentration and zero-order in cyanide concentration. Stoichiometry: one mole of cyanide reacts with one mole of ozone for the CN⁻ → CNO⁻ step. Thiocyanate complexes (SCN⁻) require higher doses — 3–4 g O₃ per gram SCN⁻."
+        },
+        "dosing": {
+          "title": "Dosing and results",
+          "intro": "Average ozone dose for destruction of free and WAD cyanide is 2–3 g O₃ per gram CN. Full oxidation is typically achieved in 10–30 minutes with proper ozone concentration and contact time.",
+          "results": "Industrial trials at gold operations demonstrated 99% or greater reduction of free cyanide and weak acid dissociable (WAD) cyanide complexes. Ozone-treated water can be returned to the process, reducing fresh water consumption by up to 85%."
+        },
+        "comparison": {
+          "title": "Comparison with hypochlorite and peroxide",
+          "intro": "Compared with chemical oxidants (sodium hypochlorite, hydrogen peroxide), ozone leaves no hazardous residues (chlorine, chlorates), is generated on-site from air, and often has lower operating costs at comparable effectiveness. The technology complies with the International Cyanide Management Code (ICMC) and allows tailings to be sent for underground backfill without further treatment."
+        },
+        "industrial": {
+          "title": "Industrial deployment",
+          "intro": "Ozone cyanide destruction systems are installed at gold mines in Southeast Asia and South Africa. Free cyanide reduction of 85–99% or more is achieved with ICMC compliance. Integrated systems combining ozone with peroxide or persulfate improve treatment efficiency for complex effluents."
+        },
+        "benefits": {
+          "title": "Benefits of ozone cyanide destruction",
+          "items": [
+            {
+              "title": "Effectiveness",
+              "description": "99% reduction of free and WAD cyanide at 2–3 g O₃/g CN, ICMC compliance."
+            },
+            { "title": "Safety", "description": "No hazardous residues, on-site generation, water reuse." },
+            { "title": "Economics", "description": "Often lower operating costs than hypochlorite." },
+            { "title": "Deployment", "description": "Expansion as environmental standards tighten." }
+          ]
+        }
+      }
+    },
+    "sourcesTitle": "Sources",
+    "sources": [
+      {
+        "title": "The Effective Use of Ozone for Cyanide Destruction in Mining and Mineral Processing — Academia.edu",
+        "url": "https://www.academia.edu/26379027/"
+      },
+      {
+        "title": "Cyanide oxidation by ozone in cyanidation tailings: Reaction kinetics — Minerals Engineering, 2000",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0892687500000340"
+      }
+    ],
+    "metal-storage-surface": {
+      "title": "Ozone for metal storage and surface treatment",
+      "shortDesc": "Cleaning and passivation of metal surfaces with ozone: organic removal, oxide film formation, applications in semiconductors, optics, and aerospace. Corrosion considerations.",
+      "content": "Ozone is used for cleaning and passivation of metal surfaces during storage and processing. Its high oxidation capability allows removal of organic contaminants, carbon-containing films and fingerprints, formation of quality oxide films, and improved corrosion resistance. Applications span semiconductor manufacturing, optics, aerospace, and metalworking.",
+      "stats": {
+        "cleaning": {
+          "value": "Yes",
+          "label": "Surface cleaning",
+          "description": "Removal of organics and carbon-containing films"
+        },
+        "passivation": { "value": "Yes", "label": "Passivation", "description": "Formation of protective oxide films" },
+        "industries": {
+          "value": "4+",
+          "label": "Industries",
+          "description": "Semiconductors, optics, aerospace, metalworking"
+        },
+        "corrosion": { "value": "Consider", "label": "Corrosion", "description": "Regime selection for environment" }
+      },
+      "benefits": [
+        "Removal of organic contaminants and fingerprints",
+        "Clean substrates for deposition and bonding",
+        "Passivation of metals for corrosion resistance",
+        "Applications in semiconductors, optics, aerospace"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Ozone is used for cleaning and passivation of metal surfaces during storage and processing. Its high oxidation capability allows removal of organic contaminants, carbon-containing films and fingerprints, formation of quality oxide films, and improved corrosion resistance.",
+          "paragraph2": "Applications span semiconductor manufacturing, optics, aerospace, and metalworking. Methods include ozone gas treatment with UV irradiation, immersion in ozone-diluted water, and direct exposure to gaseous ozone."
+        },
+        "cleaning": {
+          "title": "Metal surface cleaning",
+          "intro": "Ozone surface treatment methods use high oxidation capability to achieve several goals: reducing carbon-related contamination on surfaces, preparing clean substrates for thin-film deposition, forming quality oxide films, and passivating metals to increase corrosion resistance.",
+          "methods": "Methods include ozone gas treatment with UV irradiation, immersion in ozone-diluted water, and direct exposure to gaseous ozone. Industrial applications cover semiconductor wafer cleaning, optical component cleaning, aerospace parts, and removal of organic residues and fingerprints."
+        },
+        "passivation": {
+          "title": "Metal passivation",
+          "intro": "Ozone promotes formation of protective oxide films on metal surfaces, improving corrosion resistance. Combined with UV, ozone effectively removes organics and prepares surfaces for subsequent coating or storage without corrosion."
+        },
+        "applications": {
+          "title": "Industrial applications",
+          "intro": "Ozone surface cleaning and activation with UV and ozone are used in semiconductor manufacturing, optical component production, aerospace, and metal product storage. Treatment provides clean substrates for deposition, removal of organic residues, and surface preparation for bonding or coating."
+        },
+        "corrosion": {
+          "title": "Effect of ozone on corrosion",
+          "intro": "The effect of dissolved ozone on corrosion of metals and alloys depends on water chemistry, pH, and temperature. In some conditions ozone has no significant effect on mild steel passivation; in others it may increase corrosion of copper and copper-nickel alloys. For industrial use, regime and medium composition must be selected accordingly."
+        },
+        "benefits": {
+          "title": "Benefits of ozone metal treatment",
+          "items": [
+            {
+              "title": "Cleaning",
+              "description": "Removal of organics, carbon films, fingerprints; clean substrates for deposition."
+            },
+            { "title": "Passivation", "description": "Protective oxide films, improved corrosion resistance." },
+            { "title": "Industries", "description": "Semiconductors, optics, aerospace, metalworking, storage." },
+            {
+              "title": "Regimes",
+              "description": "Selection with regard to corrosion effects in the specific environment."
+            }
+          ]
+        }
+      },
+      "sourcesTitle": "Sources",
+      "sources": [
+        {
+          "title": "Surface treatment methods using ozone — JST, Japan",
+          "url": "https://www.jstage.jst.go.jp/article/jvsj2/56/8/56_13-RV-012/_article"
+        },
+        {
+          "title": "Ozone application in different industries: A review — ScienceDirect, 2022",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1385894722056686"
+        }
+      ]
+    }
+  }
+}

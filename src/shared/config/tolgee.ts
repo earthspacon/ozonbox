@@ -54,6 +54,7 @@ export const NAMESPACES = {
   categoryWarehouses: 'category-warehouses',
   categoryIndustry: 'category-industry',
   categoryTransport: 'category-transport',
+  categoryMiningMetals: 'category-mining-metals',
 } as const
 
 export type TNamespace = (typeof NAMESPACES)[keyof typeof NAMESPACES]
@@ -71,6 +72,7 @@ export function getCategoryNamespace(categoryId: string): TNamespace {
     warehouses: NAMESPACES.categoryWarehouses,
     industry: NAMESPACES.categoryIndustry,
     transport: NAMESPACES.categoryTransport,
+    'mining-metals': NAMESPACES.categoryMiningMetals,
   }
   return nsMap[categoryId] || NAMESPACES.common
 }

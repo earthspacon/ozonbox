@@ -132,6 +132,29 @@ export const APPLICATION_CATEGORIES: ApplicationCategory[] = [
       { id: 'auto-transport', image: 'https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=800&q=80' },
     ],
   },
+  {
+    id: 'mining-metals',
+    icon: 'IconFactory',
+    image: 'https://images.unsplash.com/photo-1718752773195-c19c1c329156?w=800&q=80',
+    subcategories: [
+      {
+        id: 'extraction-and-metals',
+        image: 'https://images.pexels.com/photos/5139216/pexels-photo-5139216.jpeg',
+      },
+      {
+        id: 'gold-mining-global',
+        image: 'https://images.pexels.com/photos/6804254/pexels-photo-6804254.jpeg',
+      },
+      {
+        id: 'cyanide-destruction',
+        image: 'https://images.pexels.com/photos/4523602/pexels-photo-4523602.jpeg',
+      },
+      {
+        id: 'metal-storage-surface',
+        image: 'https://waykenrm.com/wp-content/uploads/2022/06/metal-surface-finishing.jpg',
+      },
+    ],
+  },
 ]
 
 // Get category by ID

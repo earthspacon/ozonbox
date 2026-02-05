@@ -4,8 +4,8 @@
   "subcategories": {
     "poultry": {
       "title": "Poultry farming",
-      "shortDesc": "Disinfection of eggs, incubators and poultry house premises",
-      "content": "Ozonation is a key technology for modern poultry farms. Ozone use covers all production stages: from egg incubation to storage of finished product.\n\nOzone effectively disinfects hatching eggs with 92–98% efficiency, destroying Salmonella, E. coli and other pathogens without damaging the shell. This increases hatchability by 0.8–2.0% and reduces early mortality.\n\nPoultry house ozonation destroys up to 99.9% of bacteria, viruses and fungi in the air and on surfaces. Regular air ozonation reduces flock morbidity and improves weight gain and feed conversion.\n\nOzonated drinking water contains more oxygen and has no pathogenic microflora, which positively affects flock health and productivity.",
+      "shortDesc": "Disinfection of eggs, incubators, slaughter, premises, air ducts and wastewater",
+      "content": "Ozonation is a key technology for modern poultry farms. Ozone use covers all production stages: from egg incubation to slaughter, storage and wastewater treatment.\n\nOzone effectively disinfects hatching eggs with 92–98% efficiency, destroying Salmonella, E. coli and other pathogens without damaging the shell. This increases hatchability by 0.8–2.0% and reduces early mortality.\n\nDuring slaughter and cutting, ozone treats carcasses, chill water and air; in empty houses it provides full disinfection between flocks. Ozone is used in incubators (inside and outside), for odor and harmful gas removal (ammonia, hydrogen sulfide), for air duct and ventilation cleaning, and for sewage and process water disinfection.\n\nPoultry house ozonation destroys up to 99.9% of bacteria, viruses and fungi in the air and on surfaces. Ozonated drinking water contains more oxygen and has no pathogenic microflora, which positively affects flock health and productivity.",
       "stats": {
         "disinfection": {
           "value": "92–98%",
@@ -48,11 +48,30 @@
           "items": [
             "Egg incubation — stimulation of embryonic development and increased hatchability",
             "Hatching egg disinfection — poultry disease prevention",
-            "Product processing and storage — improved preservation and nutritional value",
+            "Slaughter and cutting — carcass, equipment and air disinfection during processing",
+            "Premises disinfection and sterilization — halls, equipment, surfaces",
+            "Incubators — inside chambers and outside (halls, equipment, egg storage)",
+            "Odor and harmful gas removal — ammonia, hydrogen sulfide, VOCs",
+            "Empty-house disinfection — full disinfection when birds are absent",
+            "Air duct and ventilation cleaning — pathogen and dust removal",
+            "Sewage and wastewater treatment — disinfection of process water and canals",
             "Feed disinfection — reduced microflora and toxins",
             "Water disinfection and air sanitation — increased poultry productivity",
-            "Poultry farm wastewater treatment"
+            "Poultry meat storage — extended shelf life"
           ]
+        },
+        "slaughterProcessing": {
+          "title": "Ozone during slaughter and cutting",
+          "intro": "During slaughter and cutting, poultry carcasses, equipment, chill water and air become heavily contaminated with bacteria (Salmonella, Campylobacter, E. coli). Cross-contamination between carcasses and contact surfaces increases the risk of product recalls and foodborne illness.",
+          "problems": "Problems: high bacterial load on carcasses after evisceration; biofilm and pathogens in chill tanks and on conveyors; contaminated process water; airborne spread of microorganisms in cutting and packaging areas.",
+          "application": "Ozone is FDA- and USDA-approved for poultry processing. It is applied in gaseous form (to carcass surfaces and room air) and in aqueous form (chill water, carcass rinse, equipment wash). Typical regimes: 4–8 ppm gaseous ozone for 4–10 minutes on carcasses; ozonated chill water reduces bacterial counts and allows water reuse. At 8 ppm for 10 minutes, studies report bacterial counts dropping from ~10⁵ to ~10² CFU/g and complete Salmonella elimination on carcass surface.",
+          "benefits": "Benefits: no chemical residues; extended chilled meat shelf life (e.g. acceptable quality to day 20 vs day 14 without ozone); reduced cross-contamination; possibility of reconditioning chill and rinse water to meet recycling standards."
+        },
+        "premisesDisinfection": {
+          "title": "Disinfection and sterilization of premises",
+          "intro": "Poultry houses, slaughter halls, packing areas and equipment must be kept free of pathogens to prevent disease spread and product contamination. Traditional methods (formaldehyde fumigation, chlorine) pose health and environmental risks.",
+          "application": "Ozone is used for disinfection and sterilization of premises in both gaseous and aqueous form. Gaseous ozone (e.g. 10–20 mg/m³ for 1–2 hours in sealed rooms) reaches surfaces, cracks and equipment. Ozonated water is used for washing floors, walls, conveyors and tools. Ozone destroys bacteria, viruses, fungi and spores without leaving residues.",
+          "benefits": "Benefits: no toxic residues; safe alternative to formaldehyde; broad-spectrum antimicrobial action; can be applied to hatcheries, feed mills, processing halls, warehouses and transport."
         },
         "incubation": {
           "title": "Egg incubation: increased hatchability",
@@ -83,6 +102,12 @@
           ],
           "highlight": "VNITIP recommendations: long-term storage of hatching eggs in an ozone environment prevents premature spoilage, reduces shell contamination by 2–7 times, prevents mold development and extends storage life to 10 days."
         },
+        "incubatorsExtended": {
+          "title": "Ozone in incubators: inside and outside",
+          "intro": "Incubators and hatcheries require strict hygiene to prevent egg contamination and chick infections. Ozone is used both inside the incubation chambers and in the surrounding areas.",
+          "inside": "Inside the incubator: ozone is generated at low concentration (e.g. 0.05 ppm or ~0.1 mg/m³ for 1 minute per hour in 3-day cycles) throughout the 18-day incubation. It reduces bacterial load on eggshells, improves air quality and oxygen availability for embryos, and can shorten pipping time. Ozone serves as an alternative to formaldehyde fumigation without chemical residues.",
+          "outside": "Outside (incubator halls, equipment, egg storage): ozone is used to disinfect incubator halls, setter and hatcher equipment, egg storage rooms and transport trolleys. Gaseous ozone (8–12 mg/m³ for 30–60 minutes when the room is empty) or ozonated water for washing surfaces reduces Salmonella, E. coli and fungi. Storing hatching eggs in an ozone atmosphere (4–15 mg/m³, 2–3 hours daily) extends storage life and reduces shell contamination before setting."
+        },
         "airDisinfection": {
           "title": "Air disinfection on poultry farms",
           "intro1": "As a result of bird activity, poultry house air becomes contaminated with harmful substances: ammonia (up to 0.3–0.5 mg/l at MPC 0.01 mg/l), hydrogen sulfide, carbon dioxide, organic dust with microflora (up to 30–50 mg/l).",
@@ -98,6 +123,31 @@
             ["Microflora, colonies/m³", "27,480", "< 200"]
           ],
           "highlight": "Periodic ozonation (8–12 hours once every 3–5 days) reduces harmful gas content by 80–85% and bacterial and mold contamination by 80–90%."
+        },
+        "odorAndGases": {
+          "title": "Removal of odors and harmful gases",
+          "intro": "Poultry house air accumulates ammonia, hydrogen sulfide, carbon dioxide, volatile organic compounds (VOCs) and organic dust. These cause respiratory stress, reduce productivity and create nuisance for workers and neighbours.",
+          "problems": "Ammonia (often 10–50× above MPC) irritates respiratory tracts and increases susceptibility to infections. Hydrogen sulfide is toxic and odorous. High CO₂ and dust worsen air quality. Organic dust carries microorganisms and allergens.",
+          "application": "Ozone oxidizes ammonia, hydrogen sulfide and many VOCs. In recirculation or treatment systems, ozone breaks down these compounds into less harmful products (e.g. nitrogen, sulfate, CO₂, water). The existing data (e.g. 11.3 mg/l ozone) show sharp drops: hydrogen sulfide from 0.15 to 0.0002 mg/l, ammonia from 0.12 to 0.004 mg/l, with microflora falling from tens of thousands to under 200 CFU/m³.",
+          "benefits": "Benefits: reduced odor and gas concentrations; improved bird welfare and productivity; lower respiratory disease risk; better working conditions. Ozone application must follow safe concentration limits for birds (e.g. up to 1.2 mg/m³) when used in their presence."
+        },
+        "emptyHouseDisinfection": {
+          "title": "Disinfection when the house is empty",
+          "intro": "Between flocks, the poultry house must be thoroughly cleaned and disinfected to break the cycle of pathogens and prevent carry-over to the next flock. Litter, dust, manure and organic matter must be removed first; only then can disinfection be effective.",
+          "application": "After mechanical cleaning and washing, gaseous ozone is applied to the empty house at high concentration (e.g. 15–30 mg/m³ or more) for 2–4 hours with minimal ventilation so that ozone reaches all surfaces, cracks, feeders, drinkers and ventilation ducts. Ozone destroys bacteria, viruses, fungi and spores. It can be used alone or as a complement to other disinfectants. No residues remain after aeration.",
+          "benefits": "Benefits: no formaldehyde or other toxic fumigants; effective against a broad spectrum of pathogens; penetration into hard-to-reach areas; no chemical residues; safe for the next flock after ozone decay and ventilation."
+        },
+        "airDucts": {
+          "title": "Cleaning and disinfection of air ducts",
+          "intro": "Ventilation ducts in poultry houses accumulate dust, feathers, microorganisms and sometimes biofilm. Contaminated ducts spread pathogens and odours and reduce ventilation efficiency.",
+          "application": "Ozone can be introduced into the ventilation system (e.g. via the main duct or recirculation loop) during empty-house disinfection or periodically when birds are absent. Gaseous ozone flows through the ducts and oxidizes organic matter, bacteria, fungi and viruses on inner surfaces. For best effect, ducts should be mechanically cleaned first; then ozone treatment (e.g. 10–20 mg/m³ for 1–2 hours) sanitizes the system. Ozone can also be used in HVAC systems in processing and packing areas to reduce airborne contamination.",
+          "benefits": "Benefits: disinfection of inaccessible duct surfaces; reduced spread of pathogens via ventilation; lower dust and odour; improved air quality; no need for chemical duct cleaners."
+        },
+        "sewageCanals": {
+          "title": "Sewage and wastewater treatment",
+          "intro": "Poultry farms and slaughterhouses produce wastewater from washing, chill water, evisceration and manure handling. This water is rich in organic matter, nitrogen, bacteria and pathogens and must be treated before discharge or reuse.",
+          "application": "Ozone is used to disinfect poultry process water and to treat sewage and open canals. Ozonation (e.g. 5–15 mg/l ozone, 10–30 minutes contact) inactivates bacteria (including Salmonella, E. coli), viruses and parasites, reduces COD and BOD, and removes odour and colour. Combined with screening and filtration (e.g. diatomaceous earth), ozonation can recondition chill water, carcass rinse and overflow to meet recycling standards (e.g. 99.9% reduction in microbial load, 65–87% reduction in COD/total solids reported in studies). For manure slurry or canal water, ozone reduces pathogens and odour.",
+          "benefits": "Benefits: strong disinfection without chlorine by-products; possibility of water reuse (e.g. in chillers); reduced odour and organic load; compliance with discharge limits; environmentally friendly compared to chemical disinfectants."
         },
         "feedDisinfection": {
           "title": "Feed disinfection",
@@ -138,6 +188,15 @@
             ["Hatching egg storage", "4–15 mg/m³", "120–180 min", "Once daily"],
             ["Embryonic development stimulation", "~10 mg/m³", "20 min", "Once daily throughout period"],
             ["Poultry house air disinfection", "8–12 mg/m³", "5–10 min", "2–3 times daily"],
+            [
+              "Slaughter/cutting room air and carcass",
+              "4–8 ppm (gas), 1–5 ppm (water)",
+              "4–10 min (carcass), continuous (water)",
+              "During processing"
+            ],
+            ["Empty-house disinfection", "15–30 mg/m³", "2–4 h", "Between flocks"],
+            ["Air duct / ventilation disinfection", "10–20 mg/m³", "1–2 h", "When house empty"],
+            ["Sewage / process water disinfection", "5–15 mg/l", "10–30 min", "Continuous or batch"],
             ["Grain storage treatment", "8–12 mg/m³", "60–120 min", "Once daily"],
             ["Meat treatment during storage", "~6 mg/m³", "120 min", "1–2 times daily"]
           ]

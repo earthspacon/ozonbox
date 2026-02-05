@@ -46,6 +46,10 @@
     "transport": {
       "title": "Transport",
       "description": "Ozonation of vehicles ensures sanitary safety of passenger transportation and cargo containers."
+    },
+    "mining-metals": {
+      "title": "Mining & metals",
+      "description": "Ozone in gold and metal mining: ore pretreatment, leaching enhancement, cyanide destruction, and metal storage and surface cleaning."
     }
   }
 }

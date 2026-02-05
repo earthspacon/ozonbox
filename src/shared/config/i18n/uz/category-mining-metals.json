@@ -1,0 +1,411 @@
+{
+  "title": "Kon sanoati va metallar",
+  "description": "Oltin va boshqa metallar qazib olishda, siyanidlarni yo'q qilishda, metallarni saqlash va tozalashda ozon qo'llanilishi. Kon va metallni qayta ishlash uchun ekologik toza texnologiya.",
+  "subcategories": {
+    "extraction-and-metals": {
+      "title": "Qazib olish va metallarni qayta ishlash",
+      "shortDesc": "Oltin qazib olishda ozon: qiyin rudalarni oldindan ishlov berish, eritishni yaxshilash, siyanidlarni yo'q qilish va metallarni tozalash",
+      "content": "Ozon kon sanoati va metallurgiyada qiyin oltin rudalarini oldindan ishlov berish, uyum eritishni kuchaytirish, oqova suvlarda siyanidlarni yo'q qilish va metall sirtlarini tozalash uchun ishlatiladi. Janubiy Afrika, Chili, Kanada va Janubi-Sharqiy Osiyoda sanoat sinovlari va joriy etish ishlari olib borilmoqda.\n\nSianidlashdan oldin qiyin rudalarni ozon bilan oldindan ishlov berish sulfid minerallarini (pirit, arsenopirit) oksidlaydi, oltin va kumush ajratib olishni oshiradi: Meksika rudalarida tadqiqotlar bo'yicha 53% dan 88% gacha (oltin) va 26% dan 78% gacha (kumush). Ozon, shuningdek, dumlarda siyanidlarni yo'q qilish uchun ishlatiladi: 2–3 g O₃/g CN da erkin va WAD siyanid 99% ga kamayadi.",
+      "stats": {
+        "goldRecovery": {
+          "value": "53→88%",
+          "label": "Oltin ajratib olish",
+          "description": "Qiyin rudalarni ozon bilan oldindan ishlov berishda"
+        },
+        "cyanideReduction": {
+          "value": "99% gacha",
+          "label": "Siyanid kamayishi",
+          "description": "Kon oqova suvlarida"
+        },
+        "cycleTime": {
+          "value": "40→24 soat",
+          "label": "Eritish vaqti",
+          "description": "Ozon oldindan ishlov berishda qisqaradi"
+        },
+        "waterReuse": {
+          "value": "85% gacha",
+          "label": "Suvni qayta ishlatish",
+          "description": "Ozon bilan tozalangandan keyin"
+        }
+      },
+      "benefits": [
+        "Qiyin rudalardan oltin va kumush ajratib olishni oshirish",
+        "Xavfli qoldiqlarsiz siyanidlarni 99% gacha yo'q qilish",
+        "Eritish tsikllarini qisqartirish",
+        "Xalqaro siyanid boshqaruv kodeksiga (ICMC) muvofiqlik",
+        "Metall sirtlarini tozalash va passivlash",
+        "Gipoxlorit va peroksidga ekologik toza alternativa"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Ozon (O₃) kon sanoati va metallurgiyada qo'llaniladigan kuchli oksidlovchi: sianidlashdan oldin qiyin oltin rudalarini oldindan ishlov berish, kislorod bilan uyum eritishni kuchaytirish, oqova suvlar va dumlarda siyanidlarni yo'q qilish, shuningdek saqlash va qayta ishlashda metall sirtlarini tozalash va passivlash.",
+          "paragraph2": "Janubiy Afrika, Chili, Kanada va Janubi-Sharqiy Osiyoda joyida ozon ishlab chiqarishdan foydalanilganda erkin va WAD siyanid 85–99% ga kamayishi sanoat sinovlarida ko'rsatilgan. Texnologiya Xalqaro siyanid boshqaruv kodeksiga (ICMC) muvofiq va tozalangan suvni jarayonda qayta ishlatishga imkon beradi."
+        },
+        "dosage": {
+          "title": "Odatiy dozalar:",
+          "text": "Siyanidni yo'q qilish: 1 g CN (erkin va WAD) uchun 2–3 g O₃. Tiosianatlar: 1 g SCN⁻ uchun 3–4 g O₃. Qiyin rudalarni oldindan ishlov berish: ozon konsentratsiyasi va aloqa vaqti ruda turiga bog'liq; to'liq sulfid oksidlanishi keyingi eritish vaqtini 40 soatdan 24 soatgacha qisqartirishi mumkin."
+        },
+        "advantages": {
+          "title": "Kon sanoati va metallurgiyada ozonning afzalliklari",
+          "items": [
+            "Qiyin rudalardagi sulfid minerallarini oksidlash — oltin va kumushni chiqarish",
+            "Erigan kislorod konsentratsiyasini oshirish orqali uyum eritishni kuchaytirish",
+            "Siyanidni to'liq siyanatga, keyin bikarbonat va azotga yo'q qilish",
+            "Havodan joyida ozon ishlab chiqarish — xavfli reagentlarni saqlash va tashish shart emas",
+            "Saqlash va qayta ishlashda metall sirtlarini tozalash va passivlash",
+            "Gipoxloritga nisbatan pastroq ekspluatatsiya xarajatlari"
+          ]
+        },
+        "refractoryOre": {
+          "title": "Qiyin rudalarni ozon bilan oldindan ishlov berish",
+          "intro": "Qiyin oltin rudalari oltin sulfid minerallarida (pirit, arsenopirit, pirrotin) yopilgan bo'lib, an'anaviy sianidlashda ajratib olishni cheklaydi. Ozon bilan oldindan ishlov berish sulfidlarni oksidlaydi va oltin va kumush ajratib olishni yaxshilaydi.",
+          "tableCaption": "Qiyin rudalarni ozon bilan oldindan ishlov berish natijalari (tadqiqotlar)",
+          "tableHeaders": ["Ko'rsatkich", "Ozonsiz", "Ozon bilan", "O'zgarish"],
+          "tableData": [
+            ["Oltin ajratib olish", "53%", "88%", "+35%"],
+            ["Kumush ajratib olish", "26%", "78%", "+52%"],
+            ["Eritish vaqti", "40 soat", "24 soat", "−40%"],
+            ["Ruda turi", "Ikkilamchi qiyin (Meksika)", "To'g'ridan-to'g'ri ozon oldindan ishlov", "—"]
+          ],
+          "note": "Ozon bilan sulfid oksidlanishi keyingi sianidlash uchun oltinni chiqaradi va eritish bosqichida siyanid sarfini kamaytirishi mumkin."
+        },
+        "cyanideDestruction": {
+          "title": "Oqova suvlarda siyanidlarni yo'q qilish",
+          "intro": "Ozon erkin siyanidni (CN⁻) siyanatga (CNO⁻) oksidlaydi, keyin qo'shimcha oksidlanish va gidroliz orqali bikarbonat va azotga aylantiradi. Odatiy reaksiya vaqti 10–30 daqiqa. Janubiy Afrika va Janubi-Sharqiy Osiyodagi oltin konlarida sanoat sinovlari 2–3 g O₃/g CN da erkin va WAD siyanidning 99% dan ortiq kamayishini ko'rsatdi.",
+          "tableCaption": "Ozon siyanid yo'q qilish samaradorligi",
+          "tableHeaders": ["Parametr", "Ishlovdan oldin", "Ishlovdan keyin", "O₃ dozasi"],
+          "tableData": [
+            ["Erkin siyanid", "50–200 mg/l", "< 0,5 mg/l", "2–3 g O₃/g CN"],
+            ["WAD siyanid", "100–400 mg/l", "< 1 mg/l", "2–3 g O₃/g CN"],
+            ["Tiosianat (SCN⁻)", "—", "3–4 g O₃/g kerak", "CN⁻ dan yuqori"],
+            ["Aloqa vaqti", "—", "10–30 min", "—"]
+          ]
+        },
+        "scheme": {
+          "title": "Oltin qazib olish tsiklida ozon",
+          "steps": [
+            {
+              "title": "Rudani maydalash va unlash",
+              "description": "Oldindan ishlov yoki eritish uchun rudani tayyorlash"
+            },
+            {
+              "title": "Ozon oldindan ishlov (qiyin rudalar)",
+              "description": "Oltin va kumush ajratib olishni yaxshilash uchun sianidlashdan oldin ozon bilan sulfid minerallarini oksidlash"
+            },
+            {
+              "title": "Eritish (uyum yoki idishda)",
+              "description": "Sianidlash; uyum eritishda ozon yoki ozon muzi jarayonni tezlashtirish uchun kislorod manbai bo'lishi mumkin"
+            },
+            {
+              "title": "Dumlarda siyanidlarni yo'q qilish",
+              "description": "Erkin va WAD siyanidni xavfsiz darajaga (ICMC) yo'q qilish uchun oqova suv va pulpani ozonlash"
+            },
+            {
+              "title": "Suvni qayta ishlatish",
+              "description": "Ozon bilan tozalangan suv jarayonga qaytarilishi mumkin, yangi suv iste'molini kamaytiradi"
+            }
+          ]
+        },
+        "economic": {
+          "title": "Iqtisodiyot va joriy etish",
+          "intro": "Ozon tizimlari uchun kapital xarajatlar ba'zi kimyoviy oksidlovchilarga qaraganda yuqori, ammo ekspluatatsiya xarajatlari ko'pincha pastroq (masalan, natriy gipoxloritga nisbatan). Texnologiya dum oqimlarini o'zgartirishni talab qilmaydi, tez va qaytarilmas reaksiyani ta'minlaydi va xavfli kimyoviy moddalar bilan ishlashni bartaraf etish orqali operator xavfsizligini oshiradi.",
+          "tableCaption": "Ozon va kimyoviy siyanid oksidlovchilari",
+          "tableHeaders": ["Parametr", "Ozon", "Gipoxlorit", "Vodorod peroksidi"],
+          "tableData": [
+            ["CN kamayishi (odatiy)", "> 99%", "> 99%", "90–98%"],
+            ["Xavfli qoldiqlar", "Yo'q", "Xlor, xloratlar", "Minimal"],
+            ["Joyida ishlab chiqarish", "Ha (havodan)", "Yo'q", "Qisman"],
+            ["ICMC muvofiqlik", "Ha", "Ha", "Ha"]
+          ]
+        },
+        "benefits": {
+          "title": "Kon sanoati va metallurgiyada ozonlashning afzalliklari",
+          "items": [
+            {
+              "title": "Yuqori ajratib olish",
+              "description": "Tadqiqotlarda qiyin rudalardan oltin va kumush ajratib olish 35–52% ga yaxshilandi"
+            },
+            {
+              "title": "Siyanid xavfsizligi",
+              "description": "Erkin va WAD siyanidni 99% yo'q qilish, xalqaro ICMC standartlariga muvofiqlik"
+            },
+            {
+              "title": "Ekologik toza",
+              "description": "Ozon kislorodga parchalanadi, suv va dumlarda zaharli qoldiqlar qoldirmaydi"
+            },
+            {
+              "title": "Metall tozalash",
+              "description": "Saqlash va qayta ishlashda metall sirtlarini agressiv kimyosiz tozalash va passivlash"
+            }
+          ]
+        }
+      }
+    },
+    "sourcesTitle": "Manbalar",
+    "sources": [
+      {
+        "title": "Evaluation of ozonation technology for gold recovery and cyanide management — J. Southern African Inst. Mining and Metallurgy, 2017",
+        "url": "http://www.scielo.org.za/scielo.php?pid=S2225-62532017000800006&script=sci_arttext"
+      },
+      {
+        "title": "The Effective Use of Ozone for Cyanide Destruction in Mining and Mineral Processing — Academia.edu",
+        "url": "https://www.academia.edu/26379027/"
+      },
+      {
+        "title": "Ozone application in different industries: A review — ScienceDirect, 2022",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1385894722056686"
+      }
+    ],
+    "gold-mining-global": {
+      "title": "Oltin qazib olishda ozon: global amaliyot (Janubiy Afrika, Chili, Kanada)",
+      "shortDesc": "Janubiy Afrika, Chili, Kanada va Janubi-Sharqiy Osiyodagi oltin konlarida ozon texnologiyalari: qiyin rudalarni oldindan ishlov berish, siyanidlarni yo'q qilish, ICMC ga muvofiqlik.",
+      "content": "Ozon texnologiyalari Janubiy Afrika, Chili, Kanada va Janubi-Sharqiy Osiyoda oltin qazib olishda tobora ko'proq qo'llanilmoqda. Sanoat sinovlari va joriy etish qiyin va ikki marta qiyin rudalarni oldindan ishlov berish, uyum eritishni kuchaytirish va Xalqaro siyanid boshqaruv kodeksiga (ICMC) muvofiq oqova suvlar va dumlarda siyanidlarni yo'q qilishni qamrab oladi.",
+      "stats": {
+        "regions": {
+          "value": "4+",
+          "label": "Hududlar",
+          "description": "Janubiy Afrika, Chili, Kanada, Janubi-Sharqiy Osiyo"
+        },
+        "cyanideReduction": { "value": "85–99%", "label": "Siyanid kamayishi", "description": "Joyida ozon bilan" },
+        "recoveryImprovement": {
+          "value": "53→88%",
+          "label": "Oltin ajratib olish",
+          "description": "Rudalarni ozon bilan oldindan ishlov berishda"
+        },
+        "icmcCompliance": {
+          "value": "Ha",
+          "label": "ICMC muvofiqlik",
+          "description": "Xalqaro siyanid boshqaruv kodeksi"
+        }
+      },
+      "benefits": [
+        "Dumlarda siyanidlarni 85–99% yo'q qilish",
+        "Qiyin va ikki marta qiyin rudalardan oltin ajratib olishni yaxshilash",
+        "Uyum eritishni kuchaytirish (ozon muzi, kislorod)",
+        "ICMC ga muvofiqlik va tozalangan suvni jarayonga qaytarish",
+        "Janubiy Afrika, Chili, Kanada va Osiyoda sanoat sinovlari"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Ozon texnologiyalari Janubiy Afrika, Chili, Kanada va Janubi-Sharqiy Osiyoda oltin qazib olishda tobora ko'proq qo'llanilmoqda. Sanoat sinovlari va joriy etish qiyin va ikki marta qiyin rudalarni oldindan ishlov berish, uyum eritishni kuchaytirish va Xalqaro siyanid boshqaruv kodeksiga (ICMC) muvofiq oqova suvlar va dumlarda siyanidlarni yo'q qilishni qamrab oladi.",
+          "paragraph2": "Janubiy Afrika va Janubi-Sharqiy Osiyodagi sanoat sinovlari joyida ozon ishlab chiqarishdan foydalanilganda erkin va WAD siyanid 85–99% ga kamayishini ko'rsatdi. 1 g siyanid uchun 2–3 g O₃ dozasi 10–30 daqiqa ichida to'liq oksidlanishni ta'minlaydi. Texnologiya ICMC talablariga javob beradi va tozalangan suvni jarayonga qaytarishga imkon beradi."
+        },
+        "southAfrica": {
+          "title": "Janubiy Afrika: siyanidlar va qiyin rudalar",
+          "intro": "Janubiy Afrikada ozon oltin konlarida dumlarda siyanidlarni yo'q qilish va qiyin va ikki marta qiyin rudalardan oltin ajratib olishni yaxshilash uchun ishlatiladi. Janubiy Afrika kon va metallurgiya instituti jurnali ikki marta qiyin oltin rudasini qayta ishlashda ozonlash texnologiyasini baholashni nashr etdi: yaxshilangan oltin ajratib olish va siyanid boshqaruvi.",
+          "trials": "Janubiy Afrika va Janubi-Sharqiy Osiyodagi sanoat sinovlari joyida ozon ishlab chiqarishdan foydalanilganda erkin va WAD siyanid 85–99% ga kamayishini ko'rsatdi. 1 g siyanid uchun 2–3 g O₃ dozasi 10–30 daqiqa ichida to'liq oksidlanishni ta'minlaydi. Texnologiya ICMC talablariga javob beradi va tozalangan suvni jarayonga qaytarishga imkon beradi."
+        },
+        "chileCanada": {
+          "title": "Chili va Kanada: oltin-mis rudalari va uyum eritish",
+          "intro": "Chilida ozon va kombinatsiyalangan texnologiyalar siyanidda eriydigan mis miqdori yuqori rudalarni qayta ishlash kontekstida ko'rib chiqiladi (SART jarayoni va analoglar). Kanadada tadqiqotlar uyum eritish va qiyin rudalarni oldindan ishlov berishga qaratilgan.",
+          "details": "Yuqori siyanid konsentratsiyalarida (60 mg/l) erigan kislorodni 8,2 dan 12 mg/l gacha oshirish oltin eritish tezligini ikki baravar oshiradi. Ustunli eksperimentlarda ozon muzi kislorod manbai sifatida oltin ajratib olishni nazoratga nisbatan 4,1% ga oshirdi. Bu natijalar yirik oltin ishlab chiqaruvchi hududlarda uyum eritishda ozondan foydalanishni qo'llab-quvvatlaydi."
+        },
+        "refractory": {
+          "title": "Qiyin rudalarni oldindan ishlov berish: joriy etish",
+          "intro": "Qiyin oltin rudalari uchun pilot va sanoat ozon oldindan ishlov berish tizimlari ikki marta qiyin rudalarni qayta ishlash ob'ektlarida sinovdan o'tkazildi. Meksika rudalarida tadqiqotlar oltin ajratib olishni 53% dan 88% ga va kumushni 26% dan 78% ga oshirishni, eritish vaqtini 40 soatdan 24 soatgacha qisqartirishni ko'rsatdi.",
+          "adoption": "Ozon bilan sulfid minerallarini (pirit, arsenopirit) oksidlanish keyingi sianidlash uchun oltinni chiqaradi va siyanid sarfini kamaytiradi. Ekologik standartlar qattiqlashishi va qayta ishlashda qiyin rudalarning ulushi oshishi bilan Janubiy Afrika, Chili, Kanada va Osiyodagi korxonalarda ozon oldindan ishlov berishni joriy etish kengayishi kutilmoqda."
+        },
+        "benefits": {
+          "title": "Xulosalar",
+          "items": [
+            {
+              "title": "Siyanidlar",
+              "description": "Erkin va WAD siyanidni 85–99% kamaytirish, ICMC muvofiqlik, suvni jarayonga qaytarish."
+            },
+            {
+              "title": "Qiyin rudalar",
+              "description": "Ozon oldindan ishlov berishda oltin va kumush ajratib olish oshishi (53→88%, 26→78%), qisqaroq eritish vaqti."
+            },
+            {
+              "title": "Uyum eritish",
+              "description": "Ozon muzi va kislorod eritish tezligini oshiradi; Chili va Kanada ma'lumotlari."
+            },
+            {
+              "title": "Joriy etish",
+              "description": "Qiyin rudalarning ulushi va ekologik talablar oshishi bilan keyingi kengayish kutilmoqda."
+            }
+          ]
+        }
+      },
+      "sourcesTitle": "Manbalar",
+      "sources": [
+        {
+          "title": "Evaluation of ozonation technology for gold recovery and cyanide management — J. Southern African Inst. Mining and Metallurgy, 2017",
+          "url": "http://www.scielo.org.za/scielo.php?pid=S2225-62532017000800006&script=sci_arttext"
+        },
+        {
+          "title": "Ozone Ice as an Oxygen Release Reagent for Heap Leaching of Gold Ore — Minerals, MDPI, 2021",
+          "url": "https://mdpi-res.com/d_attachment/minerals/minerals-11-01251/article_deploy/minerals-11-01251-v2.pdf"
+        },
+        {
+          "title": "The Effective Use of Ozone for Cyanide Destruction in Mining and Mineral Processing — Academia.edu",
+          "url": "https://www.academia.edu/26379027/"
+        }
+      ]
+    },
+    "cyanide-destruction": {
+      "title": "Kon sanoatida ozon bilan siyanidlarni yo'q qilish",
+      "shortDesc": "Ozon bilan siyanidlarni oksidlanish mexanizmi (CN⁻ → CNO⁻ → bikarbonat va azot), doza 2–3 g O₃/g CN, erkin va WAD siyanid 99% kamayishi. Gipoxlorit va peroksid bilan solishtirish, suvni qayta ishlatish.",
+      "content": "Ozon oltin konlarida siyanidlarni yo'q qilish uchun samarali oksidlovchi hisoblanadi. Jarayon erkin siyanidni siyanatga oksidlaydi, keyin qo'shimcha oksidlanish va gidroliz orqali bikarbonat va azotga aylantiradi. Odatiy reaksiya vaqti 10–30 daqiqa. Janubiy Afrika va Janubi-Sharqiy Osiyodagi sanoat sinovlari 1 g CN uchun 2–3 g O₃ da erkin va WAD siyanidning 99% dan ortiq kamayishini ko'rsatdi.",
+      "stats": {
+        "cyanideReduction": {
+          "value": "99% gacha",
+          "label": "Siyanid kamayishi",
+          "description": "2–3 g O₃/g CN da erkin va WAD"
+        },
+        "reactionTime": {
+          "value": "10–30 daqiqa",
+          "label": "Reaksiya vaqti",
+          "description": "Siyanatgacha to'liq oksidlanish"
+        },
+        "waterReuse": {
+          "value": "85% gacha",
+          "label": "Suvni qayta ishlatish",
+          "description": "Ozon ishlovidan keyin"
+        },
+        "icmcCompliance": { "value": "Ha", "label": "ICMC muvofiqlik", "description": "Xavfli qoldiqlar yo'q" }
+      },
+      "benefits": [
+        "CN⁻ → CNO⁻ → bikarbonat va azotgacha to'liq oksidlanish",
+        "1 g CN uchun 2–3 g O₃ dozasi, tiosianatlar 3–4 g O₃/g SCN⁻",
+        "Xavfli qoldiqlar yo'q (gipoxloritdan farqli)",
+        "Havodan joyida ozon ishlab chiqarish",
+        "Suvni 85% gacha qayta ishlatish"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Ozon oltin konlarida siyanidlarni yo'q qilish uchun samarali oksidlovchi hisoblanadi. Jarayon erkin siyanidni siyanatga oksidlaydi, keyin qo'shimcha oksidlanish va gidroliz orqali bikarbonat va azotga aylantiradi. Odatiy reaksiya vaqti 10–30 daqiqa.",
+          "paragraph2": "Janubiy Afrika va Janubi-Sharqiy Osiyodagi sanoat sinovlari 1 g CN uchun 2–3 g O₃ da erkin va WAD siyanidning 99% dan ortiq kamayishini ko'rsatdi. Ozon bilan ishlov berilgan suv jarayonga qaytarilishi mumkin, yangi suv iste'molini 85% gacha kamaytiradi."
+        },
+        "mechanism": {
+          "title": "Ozon bilan siyanidlarni oksidlanish mexanizmi",
+          "intro": "Ozon erkin siyanidni (CN⁻) ikki bosqichli jarayonda oksidlaydi. Birinchi bosqichda CN⁻ siyanatga (CNO⁻) aylanadi. Keyingi oksidlanish va gidroliz bilan siyanat bikarbonat va azotga — zaharsiz mahsulotlarga aylanadi.",
+          "process": "Reaksiya ozon konsentratsiyasiga nisbatan birinchi darajali va siyanid konsentratsiyasiga nisbatan nol darajali kinetikaga amal qiladi. Stexiometriya: bir mol siyanid CN⁻ → CNO⁻ bosqichi uchun bir mol ozon bilan reaksiyaga kirishadi. Tiosianat komplekslari (SCN⁻) yuqoriroq dozalarni talab qiladi — 1 g SCN⁻ uchun 3–4 g O₃."
+        },
+        "dosing": {
+          "title": "Dozalar va natijalar",
+          "intro": "Erkin va WAD siyanidni yo'q qilish uchun o'rtacha ozon dozasi 1 g CN uchun 2–3 g O₃. To'liq oksidlanish odatda to'g'ri ozon konsentratsiyasi va aloqa vaqti bilan 10–30 daqiqada erishiladi.",
+          "results": "Oltin konlarida sanoat sinovlari erkin siyanid va zaif kislota dissotsiatsiyalangan (WAD) siyanid komplekslarining 99% yoki undan ortiq kamayishini ko'rsatdi. Ozon bilan ishlov berilgan suv jarayonga qaytarilishi mumkin, yangi suv iste'molini 85% gacha kamaytiradi."
+        },
+        "comparison": {
+          "title": "Gipoxlorit va peroksid bilan solishtirish",
+          "intro": "Kimyoviy oksidlovchilar (natriy gipoxlorit, vodorod peroksidi) bilan solishtirganda ozon xavfli qoldiqlar (xlor, xloratlar) qoldirmaydi, havodan joyida ishlab chiqariladi va ko'pincha teng samaradorlikda pastroq ekspluatatsiya xarajatlariga ega. Texnologiya Xalqaro siyanid boshqaruv kodeksiga (ICMC) muvofiq va dumlarni qo'shimcha ishlovsiz er osti to'ldirishga yuborishga imkon beradi."
+        },
+        "industrial": {
+          "title": "Sanoatda joriy etish",
+          "intro": "Ozon siyanid yo'q qilish tizimlari Janubi-Sharqiy Osiyo va Janubiy Afrikadagi oltin konlarida o'rnatilgan. Erkin siyanid 85–99% yoki undan ortiq kamayishi ICMC ga muvofiqlik bilan erishiladi. Ozonni peroksid yoki persulfat bilan birlashtirgan integratsiyalangan tizimlar murakkab oqimlar uchun tozalash samaradorligini oshiradi."
+        },
+        "benefits": {
+          "title": "Ozon siyanid yo'q qilishning afzalliklari",
+          "items": [
+            {
+              "title": "Samaradorlik",
+              "description": "2–3 g O₃/g CN da erkin va WAD siyanidni 99% kamaytirish, ICMC muvofiqlik."
+            },
+            {
+              "title": "Xavfsizlik",
+              "description": "Xavfli qoldiqlar yo'q, joyida ishlab chiqarish, suvni qayta ishlatish."
+            },
+            {
+              "title": "Iqtisodiyot",
+              "description": "Gipoxloritga nisbatan ko'pincha pastroq ekspluatatsiya xarajatlari."
+            },
+            { "title": "Joriy etish", "description": "Ekologik standartlar qattiqlashishi bilan kengayish." }
+          ]
+        }
+      },
+      "sourcesTitle": "Manbalar",
+      "sources": [
+        {
+          "title": "The Effective Use of Ozone for Cyanide Destruction in Mining and Mineral Processing — Academia.edu",
+          "url": "https://www.academia.edu/26379027/"
+        },
+        {
+          "title": "Cyanide oxidation by ozone in cyanidation tailings: Reaction kinetics — Minerals Engineering, 2000",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0892687500000340"
+        }
+      ]
+    },
+    "metal-storage-surface": {
+      "title": "Metallarni saqlash va sirt ishlovida ozon",
+      "shortDesc": "Ozon bilan metall sirtlarini tozalash va passivlash: organikani olib tashlash, oksid plyonkalar hosil qilish, yarimo'tkazgichlar, optika va aerokosmik sanoatda qo'llanilishi. Korroziyaga ta'siri.",
+      "content": "Ozon metall sirtlarini saqlash va qayta ishlashda tozalash va passivlash uchun ishlatiladi. Yuqori oksidlanish qobiliyati organik ifloslanishlar, uglerodli plyonkalar va barmoq izlarini olib tashlash, sifatli oksid plyonkalar hosil qilish va korroziyaga chidamlilikni oshirishga imkon beradi. Qo'llanilish yarimo'tkazgichlar ishlab chiqarish, optika, aerokosmik sanoat va metallni qayta ishlashni qamrab oladi.",
+      "stats": {
+        "cleaning": {
+          "value": "Ha",
+          "label": "Sirt tozalash",
+          "description": "Organika va uglerodli plyonkalarni olib tashlash"
+        },
+        "passivation": {
+          "value": "Ha",
+          "label": "Passivlash",
+          "description": "Himoya qiluvchi oksid plyonkalar hosil qilish"
+        },
+        "industries": {
+          "value": "4+",
+          "label": "Tarmoqlar",
+          "description": "Yarimo'tkazgichlar, optika, aerokosmika, metallni qayta ishlash"
+        },
+        "corrosion": { "value": "Hisobga olish", "label": "Korroziya", "description": "Muhit uchun rejim tanlash" }
+      },
+      "benefits": [
+        "Organik ifloslanishlar va barmoq izlarini olib tashlash",
+        "Qatlam va yopishtirish uchun toza substratlar",
+        "Korroziyaga chidamlilik uchun metallarni passivlash",
+        "Yarimo'tkazgichlar, optika, aerokosmikada qo'llanilishi"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Ozon metall sirtlarini saqlash va qayta ishlashda tozalash va passivlash uchun ishlatiladi. Yuqori oksidlanish qobiliyati organik ifloslanishlar, uglerodli plyonkalar va barmoq izlarini olib tashlash, sifatli oksid plyonkalar hosil qilish va korroziyaga chidamlilikni oshirishga imkon beradi.",
+          "paragraph2": "Qo'llanilish yarimo'tkazgichlar ishlab chiqarish, optika, aerokosmik sanoat va metallni qayta ishlashni qamrab oladi. Usullar UV nurlanish bilan ozon gazini ishlov berish, ozon qo'shilgan suvga cho'ktirish va gazsimon ozonga to'g'ridan-to'g'ri ta'sir qilishni o'z ichiga oladi."
+        },
+        "cleaning": {
+          "title": "Metall sirtlarini tozalash",
+          "intro": "Ozon sirt ishlov usullari bir nechta maqsadlarga erishish uchun yuqori oksidlanish qobiliyatidan foydalanadi: sirtlardagi uglerod bilan bog'liq ifloslanishlarni kamaytirish, yupqa plyonkalar qatlami uchun toza substratlarni tayyorlash, sifatli oksid plyonkalar hosil qilish va metallarni korroziyaga chidamlilikni oshirish uchun passivlash.",
+          "methods": "Usullar UV nurlanish bilan ozon gazini ishlov berish, ozon qo'shilgan suvga cho'ktirish va gazsimon ozonga to'g'ridan-to'g'ri ta'sir qilishni o'z ichiga oladi. Sanoat qo'llanilishi yarimo'tkazgich plastinkalarni tozalash, optik komponentlarni tozalash, aerokosmik qismlar va organik qoldiqlar va barmoq izlarini olib tashlashni qamrab oladi."
+        },
+        "passivation": {
+          "title": "Metall passivlash",
+          "intro": "Ozon metall sirtlarida himoya qiluvchi oksid plyonkalar hosil qilishni rag'batlantiradi, korroziyaga chidamlilikni oshiradi. UV bilan birga ozon organikani samarali olib tashlaydi va keyingi qoplash yoki korroziyasiz saqlash uchun sirtlarni tayyorlaydi."
+        },
+        "applications": {
+          "title": "Sanoat qo'llanilishi",
+          "intro": "UV va ozon bilan ozon sirt tozalash va aktivlash yarimo'tkazgichlar ishlab chiqarish, optik komponentlar ishlab chiqarish, aerokosmik sanoat va metall mahsulotlarni saqlashda qo'llaniladi. Ishlov qatlam uchun toza substratlarni ta'minlaydi, organik qoldiqlarni olib tashlaydi va yopishtirish yoki qoplash uchun sirtni tayyorlaydi."
+        },
+        "corrosion": {
+          "title": "Ozonning korroziyaga ta'siri",
+          "intro": "Erigan ozonning metallar va qotishmalar korroziyasiga ta'siri suv kimyosi, pH va haroratga bog'liq. Ba'zi sharoitlarda ozon yumshoq po'lat passivlashiga sezilarli ta'sir ko'rsatmaydi; boshqalarda mis va mis-nikel qotishmalarining korroziyasini oshirishi mumkin. Sanoatda ishlatish uchun rejim va muhit tarkibini shunga mos tanlash kerak."
+        },
+        "benefits": {
+          "title": "Ozon metall ishlovining afzalliklari",
+          "items": [
+            {
+              "title": "Tozalash",
+              "description": "Organikani, uglerod plyonkalarini, barmoq izlarini olib tashlash; qatlam uchun toza substratlar."
+            },
+            {
+              "title": "Passivlash",
+              "description": "Himoya qiluvchi oksid plyonkalar, korroziyaga chidamlilikni oshirish."
+            },
+            {
+              "title": "Tarmoqlar",
+              "description": "Yarimo'tkazgichlar, optika, aerokosmika, metallni qayta ishlash, saqlash."
+            },
+            { "title": "Rejimlar", "description": "Aniq muhitda korroziyaga ta'sirini hisobga olgan holda tanlash." }
+          ]
+        }
+      },
+      "sourcesTitle": "Manbalar",
+      "sources": [
+        {
+          "title": "Surface treatment methods using ozone — JST, Japan",
+          "url": "https://www.jstage.jst.go.jp/article/jvsj2/56/8/56_13-RV-012/_article"
+        },
+        {
+          "title": "Ozone application in different industries: A review — ScienceDirect, 2022",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1385894722056686"
+        }
+      ]
+    }
+  }
+}
