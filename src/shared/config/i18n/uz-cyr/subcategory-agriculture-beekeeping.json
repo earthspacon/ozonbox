@@ -1,357 +1,357 @@
 {
-  "title": "Qishloq xo'jaligi",
-  "description": "Qishloq xo'jaligida ozonlash hosildorlikni oshiradi, mahsulotlarning saqlash muddatini uzaytiradi va bioxavfsizlikni ta'minlaydi. Kimyoviy pestitsidlar va konservantlarga ekologik toza muqobil.",
+  "title": "Қишлоқ хўжалиги",
+  "description": "Қишлоқ хўжалигида озонлаш ҳосилдорликни оширади, маҳсулотларнинг сақлаш муддатини узайтиради ва биохавфсизликни та'минлайди. Кимйовий пеститсидлар ва консервантларга екологик тоза муқобил.",
   "subcategories": {
     "beekeeping": {
-      "title": "Asalarichilik",
-      "shortDesc": "Uya va kishanlarni dezinfeksiya qilish hamda asalari kasalliklarini nazorat qilish",
-      "heroText": "Uya va kishanlarni dezinfeksiya qilish, asalari kasalliklarini nazorat qilish. Bir mavsumda asal hosilini 25 kg ga oshirish va oila mahsuldorligini 39% ga oshirish.",
-      "content": "Asalarichilikda ozonlash uya, ramka va kishanlarni asalari kasalliklari patogenlaridan dezinfeksiya qilish uchun ishlatiladi. Mo'tadil ozon kontsentratsiyalari bilan ishlov berish oila faolligiga ijobiy ta'sir ko'rsatadi.\n\nMuntazam ozonlash uya havosidagi patogen mikroorganizmlar va namlikni kamaytiradi hamda gaz tarkibini yaxshilaydi. Natijada, ishlov berilgan oilalar bir mavsumda taxminan 25 kg ko'proq tovar asal berishi mumkin.\n\nAskosferozga qarshi kurashish uchun 7 kun davomida kuniga ikki marta 1 soat davomida 250 mg/m³ ozon ishlatiladi. Og'ir holatlarda kuniga to'rt marta 500 mg/m³.\n\nOzon Ascosphaera apis zamburug'i sporalariga samarali ta'sir qiladi. Dezinfeksiya darajasi ishlov beriladigan yuza materialiga qarab 50–77% ga yetadi.",
+      "title": "Асаларичилик",
+      "shortDesc": "Уйа ва кишанларни дезинфексийа қилиш ҳамда асалари касалликларини назорат қилиш",
+      "heroText": "Уйа ва кишанларни дезинфексийа қилиш, асалари касалликларини назорат қилиш. Бир мавсумда асал ҳосилини 25 кг га ошириш ва оила маҳсулдорлигини 39% га ошириш.",
+      "content": "Асаларичиликда озонлаш уйа, рамка ва кишанларни асалари касалликлари патогенларидан дезинфексийа қилиш учун ишлатилади. Мўтадил озон концентрациялари билан ишлов бериш оила фаоллигига ижобий та'сир кўрсатади.\n\nМунтазам озонлаш уйа ҳавосидаги патоген микроорганизмлар ва намликни камайтиради ҳамда газ таркибини йахшилайди. Натижада, ишлов берилган оилалар бир мавсумда тахминан 25 кг кўпроқ товар асал бериши мумкин.\n\nАскосферозга қарши курашиш учун 7 кун давомида кунига икки марта 1 соат давомида 250 мг/м³ озон ишлатилади. Оғир ҳолатларда кунига тўрт марта 500 мг/м³.\n\nОзон Аскосфера апис замбуруғи спораларига самарали та'сир қилади. Дезинфексийа даражаси ишлов бериладиган йуза материалига қараб 50–77% га йетади.",
       "stats": {
         "honeyIncrease": {
-          "value": "+25 kg",
-          "label": "Asal hosili",
-          "description": "Har bir oiladan bir mavsumda o'sish"
+          "value": "+25 кг",
+          "label": "Асал ҳосили",
+          "description": "Ҳар бир оиладан бир мавсумда ўсиш"
         },
         "productivityGrowth": {
           "value": "39%",
-          "label": "Mahsuldorlik o'sishi",
-          "description": "Muntazam ozonlashda"
+          "label": "Маҳсулдорлик ўсиши",
+          "description": "Мунтазам озонлашда"
         },
         "disinfection": {
           "value": "50-77%",
-          "label": "Dezinfeksiya",
-          "description": "Ascosphaera apis sporalarini yo'q qilish"
+          "label": "Дезинфексийа",
+          "description": "Аскосфера апис спораларини йўқ қилиш"
         },
         "chemicals": {
           "value": "0",
-          "label": "Kimyoviy moddalar",
-          "description": "Ekologik toza asal"
+          "label": "Кимйовий моддалар",
+          "description": "Екологик тоза асал"
         }
       },
       "benefits": [
-        "Bir mavsumda taxminan 25 kg ko'proq asal",
-        "Mahsuldorlik taxminan 39% ga oshishi",
-        "Askosferozni nazorat qilish",
-        "Kishan va uskunalarni dezinfeksiya qilish",
-        "Uya mikroklimatini yaxshilash",
-        "Asal va asalarilar uchun xavfsizlik"
+        "Бир мавсумда тахминан 25 кг кўпроқ асал",
+        "Маҳсулдорлик тахминан 39% га ошиши",
+        "Аскосферозни назорат қилиш",
+        "Кишан ва ускуналарни дезинфексийа қилиш",
+        "Уйа микроклиматини йахшилаш",
+        "Асал ва асаларилар учун хавфсизлик"
       ],
       "paragraphs": {
-        "intro1": "Asalarichilikda ozonlash uya, ramka va kishanlarni asalari kasalliklari patogenlaridan dezinfeksiya qilish uchun ishlatiladi. Mo'tadil ozon kontsentratsiyalari bilan ishlov berish oila faolligiga ijobiy ta'sir ko'rsatadi.",
-        "intro2": "Muntazam ozonlash patogen mikroorganizmlarni kamaytiradi, uya havosidagi namlikni pasaytiradi va gaz tarkibini yaxshilaydi. Natijada, ishlov berilgan oilalar nazorat guruhiga qaraganda bir mavsumda tovar asal ishlab chiqarishni 25 kg ga oshirdi.",
-        "ascospherosis": "Askosferoz — asalarilarning eng keng tarqalgan zamburug'li kasalliklaridan biri bo'lib, Ascosphaera apis tomonidan chaqiriladi. Zamburug' sporalari an'anaviy dezinfeksiya usullariga chidamli, ammo ozon tomonidan yo'q qilinadi.",
-        "pathogens": "Ozon asalari kasalliklarining keng doirasidagi patogenlariga — bakteriyalar, zamburug'lar va viruslarga qarshi samaralidir. Bu bitta texnologiyadan asalarixonani kompleks himoya qilish uchun foydalanish imkonini beradi.",
-        "stimulation": "Asalarilar mavjud bo'lganda uyalarni mo'tadil ozon kontsentratsiyalari (5-15 mg/m³) bilan ishlash rag'batlantiruvchi ta'sir ko'rsatadi: oila faolligini oshiradi, onari asalari tuxum qo'yishini yaxshilaydi va bahorgi rivojlanishni tezlashtiradi.",
-        "equipment": "Kishanlar va asalarichilik uskunalari sog'lom oilalar uchun infeksiya manbai bo'lishi mumkin. Muntazam ozon dezinfeksiyasi asalarixonada kasallik tarqalishining oldini oladi."
+        "intro1": "Асаларичиликда озонлаш уйа, рамка ва кишанларни асалари касалликлари патогенларидан дезинфексийа қилиш учун ишлатилади. Мўтадил озон концентрациялари билан ишлов бериш оила фаоллигига ижобий та'сир кўрсатади.",
+        "intro2": "Мунтазам озонлаш патоген микроорганизмларни камайтиради, уйа ҳавосидаги намликни пасайтиради ва газ таркибини йахшилайди. Натижада, ишлов берилган оилалар назорат гуруҳига қараганда бир мавсумда товар асал ишлаб чиқаришни 25 кг га оширди.",
+        "ascospherosis": "Аскосфероз — асалариларнинг енг кенг тарқалган замбуруғли касалликларидан бири бўлиб, Аскосфера апис томонидан чақирилади. Замбуруғ споралари ан'анавий дезинфексийа усулларига чидамли, аммо озон томонидан йўқ қилинади.",
+        "pathogens": "Озон асалари касалликларининг кенг доирасидаги патогенларига — бактерийалар, замбуруғлар ва вирусларга қарши самаралидир. Бу битта технологийадан асаларихонани комплекс ҳимойа қилиш учун фойдаланиш имконини беради.",
+        "stimulation": "Асаларилар мавжуд бўлганда уйаларни мўтадил озон концентрациялари (5-15 мг/м³) билан ишлаш рағбатлантирувчи та'сир кўрсатади: оила фаоллигини оширади, онари асалари тухум қўйишини йахшилайди ва баҳорги ривожланишни тезлаштиради.",
+        "equipment": "Кишанлар ва асаларичилик ускуналари соғлом оилалар учун инфексийа манбаи бўлиши мумкин. Мунтазам озон дезинфексийаси асаларихонада касаллик тарқалишининг олдини олади."
       },
       "highlightBoxes": {
         "research": {
-          "label": "Ilmiy tadqiqotlar:",
-          "text": "Asalarichilik ilmiy-tadqiqot institutida o'tkazilgan tajribalar bahor-yoz davrida uyalarni muntazam ozonlash bilan oila mahsuldorligining 39% ga oshishini tasdiqladi."
+          "label": "Илмий тадқиқотлар:",
+          "text": "Асаларичилик илмий-тадқиқот институтида ўтказилган тажрибалар баҳор-йоз даврида уйаларни мунтазам озонлаш билан оила маҳсулдорлигининг 39% га ошишини тасдиқлади."
         },
-        "ascospherosis": "Ozon Ascosphaera apis zamburug'i sporalariga samarali ta'sir qiladi. Dezinfeksiya darajasi ishlov beriladigan yuza materialiga va ozon kontsentratsiyasiga qarab 50-77% ga yetadi.",
+        "ascospherosis": "Озон Аскосфера апис замбуруғи спораларига самарали та'сир қилади. Дезинфексийа даражаси ишлов бериладиган йуза материалига ва озон концентрациясига қараб 50-77% га йетади.",
         "warning": {
-          "label": "Muhim:",
-          "text": "Yuqori ozon kontsentratsiyalari (200 mg/m³ dan yuqori) bilan ishlov berish asalarilar yo'qligida o'tkazilishi kerak. Rag'batlantiruvchi ishlov berish uchun kontsentratsiya 10-15 mg/m³ dan oshmasligi kerak."
+          "label": "Муҳим:",
+          "text": "Йуқори озон концентрациялари (200 мг/м³ дан йуқори) билан ишлов бериш асаларилар йўқлигида ўтказилиши керак. Рағбатлантирувчи ишлов бериш учун концентрация 10-15 мг/м³ дан ошмаслиги керак."
         }
       },
       "processSteps": [
         {
-          "title": "Uyani tayyorlash",
-          "description": "Asalarilarni ko'chirish yoki oila bo'lmagan paytda ishlov berishni rejalashtirish. Kirish yo'llarini yopish."
+          "title": "Уйани таййорлаш",
+          "description": "Асалариларни кўчириш йоки оила бўлмаган пайтда ишлов беришни режалаштириш. Кириш йўлларини йопиш."
         },
         {
-          "title": "Ozonatorni ulash",
-          "description": "Ozon berish shlangini yuqori kirish yo'li yoki qopqoqdagi maxsus teshik orqali o'rnatish."
+          "title": "Озонаторни улаш",
+          "description": "Озон бериш шлангини йуқори кириш йўли йоки қопқоқдаги махсус тешик орқали ўрнатиш."
         },
         {
-          "title": "Ozon bilan ishlov berish",
-          "description": "Maqsadga qarab belgilangan kontsentratsiyada 30-90 daqiqa davomida ozon berish."
+          "title": "Озон билан ишлов бериш",
+          "description": "Мақсадга қараб белгиланган концентрацияда 30-90 дақиқа давомида озон бериш."
         },
         {
-          "title": "Ekspozitsiya",
-          "description": "Ozon berishni to'xtatgandan keyin, yopiq kirish yo'llari bilan 15-30 daqiqa kutish."
+          "title": "Експозитсийа",
+          "description": "Озон беришни тўхтатгандан кейин, йопиқ кириш йўллари билан 15-30 дақиқа кутиш."
         },
         {
-          "title": "Shamollatish",
-          "description": "Qoldiq ozon chiqishi uchun kirish yo'llarini ochish. Vaqti — 15-30 daqiqa."
+          "title": "Шамоллатиш",
+          "description": "Қолдиқ озон чиқиши учун кириш йўлларини очиш. Вақти — 15-30 дақиқа."
         },
         {
-          "title": "Asalarilarni qaytarish",
-          "description": "Ishlov berilgan uyaga asalarilar oilasini ishlovdan 1-2 soat o'tgach joylashtirish."
+          "title": "Асалариларни қайтариш",
+          "description": "Ишлов берилган уйага асаларилар оиласини ишловдан 1-2 соат ўтгач жойлаштириш."
         }
       ],
       "sections": {
         "applications": {
-          "title": "Asalarichilikda ozonning qo'llanilishi",
+          "title": "Асаларичиликда озоннинг қўлланилиши",
           "items": [
-            "Kishanlarni askosferoz patogenlaridan dezinfeksiya qilish",
-            "Uya va ramkalarni chirish kasalliklariga qarshi ishlash",
-            "Kompleks terapiyada varroozni nazorat qilish",
-            "Uya mikroklimatini yaxshilash",
-            "Asalarichilik uskunalarini dezinfeksiya qilish",
-            "Nozematoz va boshqa infeksiyalarning oldini olish",
-            "Qishlovxonalar va asalarixona binolarini ishlash"
+            "Кишанларни аскосфероз патогенларидан дезинфексийа қилиш",
+            "Уйа ва рамкаларни чириш касалликларига қарши ишлаш",
+            "Комплекс терапийада варроозни назорат қилиш",
+            "Уйа микроклиматини йахшилаш",
+            "Асаларичилик ускуналарини дезинфексийа қилиш",
+            "Нозематоз ва бошқа инфексийаларнинг олдини олиш",
+            "Қишловхоналар ва асаларихона биноларини ишлаш"
           ]
         },
         "ascospherosis": {
-          "title": "Askosferozga qarshi kurash",
-          "tableCaption": "Askosferoz uchun ishlov berish rejimlari",
+          "title": "Аскосферозга қарши кураш",
+          "tableCaption": "Аскосфероз учун ишлов бериш режимлари",
           "tableHeaders": [
-            "Inkubatsiya darajasi",
-            "O₃ kontsentratsiyasi",
-            "Ishlov berish vaqti",
-            "Davriyligi"
+            "Инкубатсийа даражаси",
+            "О₃ концентрацияси",
+            "Ишлов бериш вақти",
+            "Даврийлиги"
           ],
           "tableData": [
             [
-              "Profilaktika",
-              "100-150 mg/m³",
-              "30-45 min",
-              "Oyiga bir marta"
+              "Профилактика",
+              "100-150 мг/м³",
+              "30-45 мин",
+              "Ойига бир марта"
             ],
             [
-              "Yengil shakli",
-              "200-250 mg/m³",
-              "60 min",
-              "Kuniga ikki marta, 5-7 kun"
+              "Йенгил шакли",
+              "200-250 мг/м³",
+              "60 мин",
+              "Кунига икки марта, 5-7 кун"
             ],
             [
-              "O'rtacha shakli",
-              "250-350 mg/m³",
-              "60 min",
-              "Kuniga uch marta, 7-10 kun"
+              "Ўртача шакли",
+              "250-350 мг/м³",
+              "60 мин",
+              "Кунига уч марта, 7-10 кун"
             ],
             [
-              "Og'ir shakli",
-              "400-500 mg/m³",
-              "60-90 min",
-              "Kuniga to'rt marta, 10-14 kun"
+              "Оғир шакли",
+              "400-500 мг/м³",
+              "60-90 мин",
+              "Кунига тўрт марта, 10-14 кун"
             ]
           ]
         },
         "pathogens": {
-          "title": "Turli patogenlarga qarshi samaradorlik",
-          "tableCaption": "Asalari patogenlariga qarshi ozonlash samaradorligi",
+          "title": "Турли патогенларга қарши самарадорлик",
+          "tableCaption": "Асалари патогенларига қарши озонлаш самарадорлиги",
           "tableHeaders": [
-            "Patogen/kasallik",
-            "O₃ kontsentratsiyasi",
-            "Vaqt",
-            "Samaradorlik"
+            "Патоген/касаллик",
+            "О₃ концентрацияси",
+            "Вақт",
+            "Самарадорлик"
           ],
           "tableData": [
             [
-              "Ascosphaera apis (askosferoz)",
-              "250-500 mg/m³",
-              "60 min",
+              "Аскосфера апис (аскосфероз)",
+              "250-500 мг/м³",
+              "60 мин",
               "50-77%"
             ],
             [
-              "Paenibacillus larvae (Amerika chirishi)",
-              "300-500 mg/m³",
-              "60-90 min",
+              "Паенибаcиллус ларвае (Америка чириши)",
+              "300-500 мг/м³",
+              "60-90 мин",
               "85-95%"
             ],
             [
-              "Melissococcus plutonius (Yevropa chirishi)",
-              "250-400 mg/m³",
-              "45-60 min",
+              "Мелиссоcоccус плутониус (Йевропа чириши)",
+              "250-400 мг/м³",
+              "45-60 мин",
               "90-98%"
             ],
             [
-              "Nosema apis (nozematoz)",
-              "200-300 mg/m³",
-              "30-45 min",
+              "Носема апис (нозематоз)",
+              "200-300 мг/м³",
+              "30-45 мин",
               "80-90%"
             ],
             [
-              "Aspergill (aspergilloz)",
-              "300-500 mg/m³",
-              "60-90 min",
+              "Аспергилл (аспергиллоз)",
+              "300-500 мг/м³",
+              "60-90 мин",
               "85-95%"
             ],
             [
-              "Qanot deformatsiyasi virusi",
-              "150-250 mg/m³",
-              "30-45 min",
+              "Қанот деформатсийаси вируси",
+              "150-250 мг/м³",
+              "30-45 мин",
               "70-85%"
             ]
           ]
         },
         "stimulation": {
-          "title": "Ozonning rag'batlantiruvchi ta'siri",
-          "tableCaption": "Rag'batlantiruvchi ozonlashning asalari oilalariga ta'siri",
+          "title": "Озоннинг рағбатлантирувчи та'сири",
+          "tableCaption": "Рағбатлантирувчи озонлашнинг асалари оилаларига та'сири",
           "tableHeaders": [
-            "Ko'rsatkich",
-            "Nazorat guruhi",
-            "Ishlov berilgan guruh",
-            "Farq"
+            "Кўрсаткич",
+            "Назорат гуруҳи",
+            "Ишлов берилган гуруҳ",
+            "Фарқ"
           ],
           "tableData": [
             [
-              "Asal hosili, kg/mavsum",
+              "Асал ҳосили, кг/мавсум",
               "45-50",
               "70-75",
-              "+25 kg (+50%)"
+              "+25 кг (+50%)"
             ],
             [
-              "Oila kuchi, ramkalar",
+              "Оила кучи, рамкалар",
               "8-10",
               "12-14",
               "+40%"
             ],
             [
-              "Onari asalari tuxum qo'yishi, tuxum/kun",
+              "Онари асалари тухум қўйиши, тухум/кун",
               "1200-1400",
               "1600-1800",
               "+30%"
             ],
             [
-              "Nasl yetishtirish",
+              "Насл йетиштириш",
               "100%",
               "135-140%",
               "+35-40%"
             ],
             [
-              "Qishlash (nobud bo'lish)",
+              "Қишлаш (нобуд бўлиш)",
               "15-20%",
               "5-8%",
               "-60%"
             ],
             [
-              "To'p ajratish",
-              "Tez-tez",
-              "Kamdan-kam",
-              "2-3 baravar kamayish"
+              "Тўп ажратиш",
+              "Тез-тез",
+              "Камдан-кам",
+              "2-3 баравар камайиш"
             ]
           ]
         },
         "equipment": {
-          "title": "Kishan va uskunalarni ishlash",
-          "tableCaption": "Kishan va uskunalarni ishlash rejimlari",
+          "title": "Кишан ва ускуналарни ишлаш",
+          "tableCaption": "Кишан ва ускуналарни ишлаш режимлари",
           "tableHeaders": [
-            "Muolaja ob'ekti",
-            "O₃ kontsentratsiyasi",
-            "Vaqt",
-            "Eslatma"
+            "Муолажа об'екти",
+            "О₃ концентрацияси",
+            "Вақт",
+            "Еслатма"
           ],
           "tableData": [
             [
-              "Kishanlar (profilaktika)",
-              "200-300 mg/m³",
-              "30-45 min",
-              "Asal olingandan keyin"
+              "Кишанлар (профилактика)",
+              "200-300 мг/м³",
+              "30-45 мин",
+              "Асал олингандан кейин"
             ],
             [
-              "Kishanlar (dezinfeksiya)",
-              "400-600 mg/m³",
-              "60-90 min",
-              "Kasalliklar bo'lganda"
+              "Кишанлар (дезинфексийа)",
+              "400-600 мг/м³",
+              "60-90 мин",
+              "Касалликлар бўлганда"
             ],
             [
-              "Bo'sh uyalar",
-              "300-500 mg/m³",
-              "45-60 min",
-              "Joylashtirishdan oldin"
+              "Бўш уйалар",
+              "300-500 мг/м³",
+              "45-60 мин",
+              "Жойлаштиришдан олдин"
             ],
             [
-              "Metall uskunalar",
-              "500-700 mg/m³",
-              "30-45 min",
-              "Tutatqichlar, uya asboblari"
+              "Металл ускуналар",
+              "500-700 мг/м³",
+              "30-45 мин",
+              "Тутатқичлар, уйа асбоблари"
             ],
             [
-              "Himoya kiyimlari",
-              "300-400 mg/m³",
-              "30-45 min",
-              "Ozon kamerasida"
+              "Ҳимойа кийимлари",
+              "300-400 мг/м³",
+              "30-45 мин",
+              "Озон камерасида"
             ],
             [
-              "Asal idishlari",
-              "200-300 mg/m³",
-              "20-30 min",
-              "To'ldirishdan oldin"
+              "Асал идишлари",
+              "200-300 мг/м³",
+              "20-30 мин",
+              "Тўлдиришдан олдин"
             ]
           ]
         },
         "calendar": {
-          "title": "Mavsumiy ozonlash taqvimi",
-          "tableCaption": "Tavsiya etilgan ishlov berish jadvali",
+          "title": "Мавсумий озонлаш тақвими",
+          "tableCaption": "Тавсийа етилган ишлов бериш жадвали",
           "tableHeaders": [
-            "Davr",
-            "Ishlov berish turi",
-            "Kontsentratsiya",
-            "Maqsad"
+            "Давр",
+            "Ишлов бериш тури",
+            "Контсентратсийа",
+            "Мақсад"
           ],
           "tableData": [
             [
-              "Erta bahor (Mart)",
-              "Rag'batlantiruvchi",
-              "10-15 mg/m³",
-              "Qishlashdan keyin oilani faollashtirish"
+              "Ерта баҳор (Март)",
+              "Рағбатлантирувчи",
+              "10-15 мг/м³",
+              "Қишлашдан кейин оилани фаоллаштириш"
             ],
             [
-              "Bahor (Aprel-May)",
-              "Profilaktik",
-              "100-200 mg/m³",
-              "Bahorgi infeksiyalarning oldini olish"
+              "Баҳор (Апрел-Май)",
+              "Профилактик",
+              "100-200 мг/м³",
+              "Баҳорги инфексийаларнинг олдини олиш"
             ],
             [
-              "Yoz (Iyun-Iyul)",
-              "Rag'batlantiruvchi",
-              "10-15 mg/m³",
-              "Asal hosilini oshirish"
+              "Йоз (Ийун-Ийул)",
+              "Рағбатлантирувчи",
+              "10-15 мг/м³",
+              "Асал ҳосилини ошириш"
             ],
             [
-              "Asal olgandan keyin (Avgust)",
-              "Kishanlarni dezinfeksiya qilish",
-              "300-500 mg/m³",
-              "Bo'shagan kishanlarni dezinfeksiya qilish"
+              "Асал олгандан кейин (Август)",
+              "Кишанларни дезинфексийа қилиш",
+              "300-500 мг/м³",
+              "Бўшаган кишанларни дезинфексийа қилиш"
             ],
             [
-              "Kuz (Sentabr)",
-              "Profilaktik",
-              "150-250 mg/m³",
-              "Qishlashga tayyorgarlik"
+              "Куз (Сентабр)",
+              "Профилактик",
+              "150-250 мг/м³",
+              "Қишлашга таййоргарлик"
             ],
             [
-              "Qishlovxona (Noyabr)",
-              "Dezinfeksiya",
-              "400-600 mg/m³",
-              "Joylashtirishdan oldin qishlovxonani ishlash"
+              "Қишловхона (Нойабр)",
+              "Дезинфексийа",
+              "400-600 мг/м³",
+              "Жойлаштиришдан олдин қишловхонани ишлаш"
             ]
           ]
         },
         "technology": {
-          "title": "Uyalarni ozonlash texnologiyasi"
+          "title": "Уйаларни озонлаш технологийаси"
         },
         "benefits": {
-          "title": "Asalarichilikda ozonlashning afzalliklari",
+          "title": "Асаларичиликда озонлашнинг афзалликлари",
           "items": [
             {
-              "title": "Kimyoviy moddalarsiz",
-              "description": "Ozon asal va ari mahsulotlarida qoldiq qoldirmaydi — to'liq ekologik toza usul"
+              "title": "Кимйовий моддаларсиз",
+              "description": "Озон асал ва ари маҳсулотларида қолдиқ қолдирмайди — тўлиқ екологик тоза усул"
             },
             {
-              "title": "Asal hosili o'sishi",
-              "description": "Muntazam ozonlash bilan har bir oiladan bir mavsumda tovar asalini 25 kg ga oshirish"
+              "title": "Асал ҳосили ўсиши",
+              "description": "Мунтазам озонлаш билан ҳар бир оиладан бир мавсумда товар асалини 25 кг га ошириш"
             },
             {
-              "title": "Kasalliklarni nazorat qilish",
-              "description": "Askosferoz, chirish, nozematoz va boshqa infeksiyalarga qarshi samaradorlik"
+              "title": "Касалликларни назорат қилиш",
+              "description": "Аскосфероз, чириш, нозематоз ва бошқа инфексийаларга қарши самарадорлик"
             },
             {
-              "title": "Qishlashni yaxshilash",
-              "description": "Asalarilar salomatligini yaxshilash hisobiga qishlash davrida oila nobud bo'lishini 2-3 baravar kamaytirish"
+              "title": "Қишлашни йахшилаш",
+              "description": "Асаларилар саломатлигини йахшилаш ҳисобига қишлаш даврида оила нобуд бўлишини 2-3 баравар камайтириш"
             },
             {
-              "title": "To'p ajratishni kamaytirish",
-              "description": "Rag'batlantiruvchi ozonlash oilaning to'p ajratishga moyilligini 2-3 baravar kamaytiradi"
+              "title": "Тўп ажратишни камайтириш",
+              "description": "Рағбатлантирувчи озонлаш оиланинг тўп ажратишга мойиллигини 2-3 баравар камайтиради"
             },
             {
-              "title": "Iqtisodiy foyda",
-              "description": "Asalarixona mahsuldorligini oshirish hisobiga uskunaning 1-2 mavsumda o'zini oqlashi"
+              "title": "Иқтисодий фойда",
+              "description": "Асаларихона маҳсулдорлигини ошириш ҳисобига ускунанинг 1-2 мавсумда ўзини оқлаши"
             }
           ]
         }

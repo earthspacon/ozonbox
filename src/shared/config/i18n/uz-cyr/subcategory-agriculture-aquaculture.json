@@ -1,318 +1,318 @@
 {
-  "title": "Qishloq xo'jaligi",
-  "description": "Qishloq xo'jaligida ozonlash hosildorlikni oshiradi, mahsulotlarning saqlash muddatini uzaytiradi va bioxavfsizlikni ta'minlaydi. Kimyoviy pestitsidlar va konservantlarga ekologik toza muqobil.",
+  "title": "Қишлоқ хўжалиги",
+  "description": "Қишлоқ хўжалигида озонлаш ҳосилдорликни оширади, маҳсулотларнинг сақлаш муддатини узайтиради ва биохавфсизликни та'минлайди. Кимйовий пеститсидлар ва консервантларга екологик тоза муқобил.",
   "subcategories": {
     "aquaculture": {
-      "title": "Akvakultura (RAS)",
-      "shortDesc": "Baliq yetishtirishning yopiq tizimlarida suvni tozalash va baliq kasalliklarini nazorat qilish",
+      "title": "Аквакултура (РАС)",
+      "shortDesc": "Балиқ йетиштиришнинг йопиқ тизимларида сувни тозалаш ва балиқ касалликларини назорат қилиш",
       "stats": {
         "disinfection": {
-          "value": "99% gacha",
-          "label": "Dezinfeksiya",
-          "description": "Suvdagi patogenlarni yo'q qilish"
+          "value": "99% гача",
+          "label": "Дезинфексийа",
+          "description": "Сувдаги патогенларни йўқ қилиш"
         },
         "cycleSaving": {
           "value": "20-30%",
-          "label": "Tsiklni qisqartirish",
-          "description": "Baliqning tezroq o'sishi"
+          "label": "Тсиклни қисқартириш",
+          "description": "Балиқнинг тезроқ ўсиши"
         },
         "mortalityReduction": {
           "value": "50-70%",
-          "label": "O'lim darajasining pasayishi",
-          "description": "Chavoqlar va kattalar orasida"
+          "label": "Ўлим даражасининг пасайиши",
+          "description": "Чавоқлар ва катталар орасида"
         },
         "waterSaving": {
           "value": "40-60%",
-          "label": "Suvni tejash",
-          "description": "Yangi suv berishning kamayishi"
+          "label": "Сувни тежаш",
+          "description": "Йанги сув беришнинг камайиши"
         }
       },
-      "content": "Baliqchilikda ozonlash ishlab chiqarishning barcha bosqichlarida qo'llaniladi: suv tayyorlashdan tortib hosilni saqlashgacha. Ozon suvni dezinfeksiya qiladi, baliq kasalliklarini nazorat qiladi va saqlash muddatini uzaytiradi.\n\nYopiq suv ta'minoti qurilmalarida (RAS) ozonlash og'ir metall ionlarini, mikrosu o'tlarni, toksinlarni, zamburug' sporalarini, mikroblarni va kistalarni yo'q qiladi. Suvning loyqaligi sezilarli darajada pasayadi va yoqimsiz hidlar yo'qoladi.\n\nOzon patogen organizmlarning: viruslar, bakteriyalar va parazit bir hujayralilarning 99% gacha qismini yo'q qiladi. Bu baliqlarning kasallanishi va o'limini kamaytiradi va yuqoriroq zichlikda saqlash imkonini beradi.\n\nTavsiya etilgan ozon dozasi 1 kg yem uchun taxminan 13 g ni tashkil qiladi. Toza suvda baliqlar tezroq vazn oladi va ishlab chiqarish tsikli qisqaradi.",
+      "content": "Балиқчиликда озонлаш ишлаб чиқаришнинг барча босқичларида қўлланилади: сув таййорлашдан тортиб ҳосилни сақлашгача. Озон сувни дезинфексийа қилади, балиқ касалликларини назорат қилади ва сақлаш муддатини узайтиради.\n\nЙопиқ сув та'миноти қурилмаларида (РАС) озонлаш оғир металл ионларини, микросу ўтларни, токсинларни, замбуруғ спораларини, микробларни ва кисталарни йўқ қилади. Сувнинг лойқалиги сезиларли даражада пасайади ва йоқимсиз ҳидлар йўқолади.\n\nОзон патоген организмларнинг: вируслар, бактерийалар ва паразит бир ҳужайралиларнинг 99% гача қисмини йўқ қилади. Бу балиқларнинг касалланиши ва ўлимини камайтиради ва йуқорироқ зичликда сақлаш имконини беради.\n\nТавсийа етилган озон дозаси 1 кг йем учун тахминан 13 г ни ташкил қилади. Тоза сувда балиқлар тезроқ вазн олади ва ишлаб чиқариш тсикли қисқаради.",
       "benefits": [
-        "99% gacha patogenlarni dezinfeksiya qilish",
-        "Qisqaroq ishlab chiqarish tsikli",
-        "Baliq o'limining kamayishi",
-        "Yuqori zichlikda saqlash imkoniyati",
-        "Yangi suvga bo'lgan talabning kamayishi",
-        "Suvning kislorod bilan to'yinishi"
+        "99% гача патогенларни дезинфексийа қилиш",
+        "Қисқароқ ишлаб чиқариш тсикли",
+        "Балиқ ўлимининг камайиши",
+        "Йуқори зичликда сақлаш имконийати",
+        "Йанги сувга бўлган талабнинг камайиши",
+        "Сувнинг кислород билан тўйиниши"
       ],
       "sections": {
         "intro": {
-          "paragraph1": "Baliqchilikda ozonlash ishlab chiqarishning barcha bosqichlarida qo'llaniladi: suv tayyorlashdan tortib tayyor mahsulotni saqlashgacha. Ozon suvni dezinfeksiya qiladi, baliq kasalliklarini nazorat qiladi va ishlab chiqarish tsiklini sezilarli darajada qisqartiradi.",
-          "paragraph2": "Yopiq suv ta'minoti qurilmalarida (RAS) ozonlash suvdagi og'ir metall ionlarini, mikrosu o'tlarni, toksinlarni, zamburug' sporalarini, mikroblarni va kistalarni yo'q qiladi. Suvning loyqaligi sezilarli darajada kamayadi, yoqimsiz hidlar yo'qoladi va baliq o'sishi uchun maqbul sharoitlar yaratiladi."
+          "paragraph1": "Балиқчиликда озонлаш ишлаб чиқаришнинг барча босқичларида қўлланилади: сув таййорлашдан тортиб таййор маҳсулотни сақлашгача. Озон сувни дезинфексийа қилади, балиқ касалликларини назорат қилади ва ишлаб чиқариш тсиклини сезиларли даражада қисқартиради.",
+          "paragraph2": "Йопиқ сув та'миноти қурилмаларида (РАС) озонлаш сувдаги оғир металл ионларини, микросу ўтларни, токсинларни, замбуруғ спораларини, микробларни ва кисталарни йўқ қилади. Сувнинг лойқалиги сезиларли даражада камайади, йоқимсиз ҳидлар йўқолади ва балиқ ўсиши учун мақбул шароитлар йаратилади."
         },
         "dosage": {
-          "title": "Tavsiya etilgan doza:",
-          "text": "1 kg yem uchun 13 g ozon. Ushbu doza dezinfeksiya samaradorligi va baliq xavfsizligi o'rtasidagi optimal muvozanatni ta'minlaydi."
+          "title": "Тавсийа етилган доза:",
+          "text": "1 кг йем учун 13 г озон. Ушбу доза дезинфексийа самарадорлиги ва балиқ хавфсизлиги ўртасидаги оптимал мувозанатни та'минлайди."
         },
         "advantages": {
-          "title": "RASda ozonlashning afzalliklari",
+          "title": "РАСда озонлашнинг афзалликлари",
           "items": [
-            "Suvni viruslar, bakteriyalar va parazit bir hujayralilardan dezinfeksiya qilish",
-            "Organik birikmalar va ammiakni oksidlash",
-            "Suv loyqaligi va rangini yo'q qilish",
-            "Yoqimsiz hidlarni (geosmin, 2-metilizoborneol) yo'q qilish",
-            "Filtrlashni yaxshilash uchun mayda muallaq zarrachalarni koagulyatsiyasi",
-            "Suvni erigan kislorod bilan to'yintirish",
-            "Yangi suv sarfini 40-60% ga kamaytirish"
+            "Сувни вируслар, бактерийалар ва паразит бир ҳужайралилардан дезинфексийа қилиш",
+            "Органик бирикмалар ва аммиакни оксидлаш",
+            "Сув лойқалиги ва рангини йўқ қилиш",
+            "Йоқимсиз ҳидларни (геосмин, 2-метилизоборнеол) йўқ қилиш",
+            "Филтрлашни йахшилаш учун майда муаллақ заррачаларни коагулйатсийаси",
+            "Сувни ериган кислород билан тўйинтириш",
+            "Йанги сув сарфини 40-60% га камайтириш"
           ]
         },
         "waterQuality": {
-          "title": "Ozonning suv sifatiga ta'siri",
-          "intro": "Suv sifati muvaffaqiyatli baliq yetishtirish uchun hal qiluvchi omil hisoblanadi. Ozonlash ham biologik, ham kimyoviy ifloslantiruvchi moddalarni yo'q qilib, suvni kompleks tozalashni ta'minlaydi.",
-          "tableCaption": "RASda suvni ozonlash samaradorligi",
+          "title": "Озоннинг сув сифатига та'сири",
+          "intro": "Сув сифати муваффақийатли балиқ йетиштириш учун ҳал қилувчи омил ҳисобланади. Озонлаш ҳам биологик, ҳам кимйовий ифлослантирувчи моддаларни йўқ қилиб, сувни комплекс тозалашни та'минлайди.",
+          "tableCaption": "РАСда сувни озонлаш самарадорлиги",
           "tableHeaders": [
-            "Ko'rsatkich",
-            "Ishlov berishdan oldin",
-            "Ishlov berishdan keyin",
-            "Yaxshilanish"
+            "Кўрсаткич",
+            "Ишлов беришдан олдин",
+            "Ишлов беришдан кейин",
+            "Йахшиланиш"
           ],
           "tableData": [
             [
-              "Umumiy bakteriyalar soni",
-              "10⁵-10⁶ KOE/ml",
-              "10²-10³ KOE/ml",
+              "Умумий бактерийалар сони",
+              "10⁵-10⁶ КОЕ/мл",
+              "10²-10³ КОЕ/мл",
               "99-99.9%"
             ],
             [
-              "Suv loyqaligi",
-              "15-25 NTU",
-              "1-3 NTU",
+              "Сув лойқалиги",
+              "15-25 НТУ",
+              "1-3 НТУ",
               "85-95%"
             ],
             [
-              "Ammiak (NH₃)",
-              "0.5-1.5 mg/l",
-              "0.05-0.1 mg/l",
+              "Аммиак (НҲ₃)",
+              "0.5-1.5 мг/л",
+              "0.05-0.1 мг/л",
               "90-95%"
             ],
             [
-              "Nitritlar (NO₂)",
-              "0.3-0.8 mg/l",
-              "0.02-0.05 mg/l",
+              "Нитритлар (НО₂)",
+              "0.3-0.8 мг/л",
+              "0.02-0.05 мг/л",
               "90-95%"
             ],
             [
-              "Suv rangi",
+              "Сув ранги",
               "40-60°",
               "5-10°",
               "80-90%"
             ],
             [
-              "Geosmin",
-              "50-100 ng/l",
-              "< 5 ng/l",
+              "Геосмин",
+              "50-100 нг/л",
+              "< 5 нг/л",
               "> 95%"
             ]
           ],
-          "note": "Toza ozonlangan suvda baliqlar tezroq vazn oladi, ishlab chiqarish tsikli 20-30% ga qisqaradi va yem o'zlashtirilishi 10-15% ga yaxshilanadi."
+          "note": "Тоза озонланган сувда балиқлар тезроқ вазн олади, ишлаб чиқариш тсикли 20-30% га қисқаради ва йем ўзлаштирилиши 10-15% га йахшиланади."
         },
         "pathogens": {
-          "title": "Baliq kasalliklariga qarshi kurash",
-          "intro": "Ozon patogen organizmlarning: viruslar, bakteriyalar va parazit bir hujayralilarning 99% gacha qismini yo'q qiladi. Bu baliqlarning kasallanishini kamaytiradi, o'limni pasaytiradi va yuqoriroq zichlikda saqlash imkonini beradi.",
-          "tableCaption": "Baliq patogenlariga qarshi ozon samaradorligi",
+          "title": "Балиқ касалликларига қарши кураш",
+          "intro": "Озон патоген организмларнинг: вируслар, бактерийалар ва паразит бир ҳужайралиларнинг 99% гача қисмини йўқ қилади. Бу балиқларнинг касалланишини камайтиради, ўлимни пасайтиради ва йуқорироқ зичликда сақлаш имконини беради.",
+          "tableCaption": "Балиқ патогенларига қарши озон самарадорлиги",
           "tableHeaders": [
-            "Patogen",
-            "Kasallik",
-            "O₃ kontsentratsiyasi",
-            "Samaradorlik"
+            "Патоген",
+            "Касаллик",
+            "О₃ концентрацияси",
+            "Самарадорлик"
           ],
           "tableData": [
             [
-              "Aeromonas salmonicida",
-              "Furunkulyoz",
-              "0.1-0.3 mg/l",
+              "Аеромонас салмониcида",
+              "Фурункулйоз",
+              "0.1-0.3 мг/л",
               "99.9%"
             ],
             [
-              "Vibrio anguillarum",
-              "Vibrioz",
-              "0.1-0.2 mg/l",
+              "Вибрио ангуилларум",
+              "Вибриоз",
+              "0.1-0.2 мг/л",
               "99.9%"
             ],
             [
-              "Ichthyophthirius",
-              "Ixtioftirioz",
-              "0.2-0.4 mg/l",
+              "Ичтҳйопҳтҳириус",
+              "Ихтиофтириоз",
+              "0.2-0.4 мг/л",
               "99%"
             ],
             [
-              "Saprolegnia",
-              "Saprolegnioz",
-              "0.15-0.3 mg/l",
+              "Сапролегниа",
+              "Сапролегниоз",
+              "0.15-0.3 мг/л",
               "99.5%"
             ],
             [
-              "VHS virusi",
-              "Virusli gemorragik septitsemiya",
-              "0.1-0.2 mg/l",
+              "ВҲС вируси",
+              "Вирусли геморрагик септитсемийа",
+              "0.1-0.2 мг/л",
               "99.99%"
             ],
             [
-              "IHN virusi",
-              "Infeksion gemopoetik nekroz",
-              "0.1-0.2 mg/l",
+              "ИҲН вируси",
+              "Инфексион гемопоетик некроз",
+              "0.1-0.2 мг/л",
               "99.99%"
             ]
           ]
         },
         "fishTypes": {
-          "title": "Turli baliq turlari uchun ozonlash rejimlari",
-          "intro": "Turli baliq turlari qoldiq ozonga nisbatan turlicha sezgirlikka ega. Har bir tur uchun baliq xavfsizligini saqlagan holda dezinfeksiya samaradorligini ta'minlovchi optimal rejimni tanlash muhimdir.",
-          "tableCaption": "Tavsiya etilgan ozonlash rejimlari",
+          "title": "Турли балиқ турлари учун озонлаш режимлари",
+          "intro": "Турли балиқ турлари қолдиқ озонга нисбатан турлича сезгирликка ега. Ҳар бир тур учун балиқ хавфсизлигини сақлаган ҳолда дезинфексийа самарадорлигини та'минловчи оптимал режимни танлаш муҳимдир.",
+          "tableCaption": "Тавсийа етилган озонлаш режимлари",
           "tableHeaders": [
-            "Baliq turi",
-            "Ozon dozasi",
-            "Qoldiq O₃",
-            "Aloqa vaqti"
+            "Балиқ тури",
+            "Озон дозаси",
+            "Қолдиқ О₃",
+            "Алоқа вақти"
           ],
           "tableData": [
             [
-              "Forel",
-              "10-15 g/kg yem",
-              "< 0.01 mg/l",
-              "3-5 min"
+              "Форел",
+              "10-15 г/кг йем",
+              "< 0.01 мг/л",
+              "3-5 мин"
             ],
             [
-              "Osiyotr",
-              "12-18 g/kg yem",
-              "< 0.01 mg/l",
-              "3-5 min"
+              "Осийотр",
+              "12-18 г/кг йем",
+              "< 0.01 мг/л",
+              "3-5 мин"
             ],
             [
-              "Tilapiya",
-              "8-12 g/kg yem",
-              "< 0.02 mg/l",
-              "2-4 min"
+              "Тилапийа",
+              "8-12 г/кг йем",
+              "< 0.02 мг/л",
+              "2-4 мин"
             ],
             [
-              "Sazan",
-              "10-15 g/kg yem",
-              "< 0.01 mg/l",
-              "3-5 min"
+              "Сазан",
+              "10-15 г/кг йем",
+              "< 0.01 мг/л",
+              "3-5 мин"
             ],
             [
-              "Lagam",
-              "8-12 g/kg yem",
-              "< 0.02 mg/l",
-              "2-4 min"
+              "Лагам",
+              "8-12 г/кг йем",
+              "< 0.02 мг/л",
+              "2-4 мин"
             ],
             [
-              "Krevetka",
-              "5-8 g/kg yem",
-              "< 0.005 mg/l",
-              "5-10 min"
+              "Креветка",
+              "5-8 г/кг йем",
+              "< 0.005 мг/л",
+              "5-10 мин"
             ]
           ],
           "warning": {
-            "title": "Ogohlantirish:",
-            "text": "Baliq hovuzidagi suvdagi qoldiq ozon 0.01-0.02 mg/l dan oshmasligi kerak. Nazorat qilish uchun ORP datchiklari va avtomatik dozalash tizimlaridan foydalaning."
+            "title": "Огоҳлантириш:",
+            "text": "Балиқ ҳовузидаги сувдаги қолдиқ озон 0.01-0.02 мг/л дан ошмаслиги керак. Назорат қилиш учун ОРП датчиклари ва автоматик дозалаш тизимларидан фойдаланинг."
           }
         },
         "scheme": {
-          "title": "RASda ozonlash sxemasi",
+          "title": "РАСда озонлаш схемаси",
           "steps": [
             {
-              "title": "Hovuzdan suv olish",
-              "description": "Baliq hayot faoliyati mahsulotlari bo'lgan suv tozalashga yuboriladi"
+              "title": "Ҳовуздан сув олиш",
+              "description": "Балиқ ҳайот фаолийати маҳсулотлари бўлган сув тозалашга йуборилади"
             },
             {
-              "title": "Mexanik filtrlash",
-              "description": "Barabanli yoki lentali filtrda yirik muallaq zarrachalarni olib tashlash"
+              "title": "Механик филтрлаш",
+              "description": "Барабанли йоки лентали филтрда йирик муаллақ заррачаларни олиб ташлаш"
             },
             {
-              "title": "Ozon aloqa kamerasi",
-              "description": "Diffuzorlar yoki injektorlar orqali ozon yuborish, aloqa vaqti 3-5 daqiqa"
+              "title": "Озон алоқа камераси",
+              "description": "Диффузорлар йоки инжекторлар орқали озон йубориш, алоқа вақти 3-5 дақиқа"
             },
             {
-              "title": "Biofiltrlash",
-              "description": "Biologik filtrda ammiak va nitritlarni yakuniy tozalash"
+              "title": "Биофилтрлаш",
+              "description": "Биологик филтрда аммиак ва нитритларни йакуний тозалаш"
             },
             {
-              "title": "Degazatsiya",
-              "description": "Degazatorda yoki faollashtirilgan ko'mir orqali qoldiq ozonni olib tashlash"
+              "title": "Дегазатсийа",
+              "description": "Дегазаторда йоки фаоллаштирилган кўмир орқали қолдиқ озонни олиб ташлаш"
             },
             {
-              "title": "Hovuzga qaytarish",
-              "description": "Tozalangan suv baliqlarga qaytariladi"
+              "title": "Ҳовузга қайтариш",
+              "description": "Тозаланган сув балиқларга қайтарилади"
             }
           ]
         },
         "economic": {
-          "title": "Iqtisodiy samaradorlik",
-          "intro": "RASda ozonlashni joriy etish o'sish ko'rsatkichlarini yaxshilash va operatsion xarajatlarni kamaytirish orqali kompleks iqtisodiy foyda keltiradi.",
-          "tableCaption": "RASda ozonlashning iqtisodiy ko'rsatkichlari",
+          "title": "Иқтисодий самарадорлик",
+          "intro": "РАСда озонлашни жорий етиш ўсиш кўрсаткичларини йахшилаш ва оператсион харажатларни камайтириш орқали комплекс иқтисодий фойда келтиради.",
+          "tableCaption": "РАСда озонлашнинг иқтисодий кўрсаткичлари",
           "tableHeaders": [
-            "Ko'rsatkich",
-            "Ozonsiz",
-            "Ozon bilan",
-            "Foyda"
+            "Кўрсаткич",
+            "Озонсиз",
+            "Озон билан",
+            "Фойда"
           ],
           "tableData": [
             [
-              "Chavoqlarning yashovchanligi",
+              "Чавоқларнинг йашовчанлиги",
               "60-70%",
               "85-95%",
               "+25-35%"
             ],
             [
-              "Yem koeffitsienti",
+              "Йем коеффитсиенти",
               "1.3-1.5",
               "1.1-1.2",
-              "15-20% tejash"
+              "15-20% тежаш"
             ],
             [
-              "Saqlash zichligi",
-              "30-40 kg/m³",
-              "50-80 kg/m³",
+              "Сақлаш зичлиги",
+              "30-40 кг/м³",
+              "50-80 кг/м³",
               "+60-100%"
             ],
             [
-              "Yetishtirish vaqti",
-              "12 oy",
-              "9-10 oy",
-              "20-25% qisqarish"
+              "Йетиштириш вақти",
+              "12 ой",
+              "9-10 ой",
+              "20-25% қисқариш"
             ],
             [
-              "Davolash xarajatlari",
+              "Даволаш харажатлари",
               "100%",
               "20-30%",
-              "70-80% tejash"
+              "70-80% тежаш"
             ],
             [
-              "Yangi suv iste'moli",
+              "Йанги сув исте'моли",
               "100%",
               "40-60%",
-              "40-60% tejash"
+              "40-60% тежаш"
             ]
           ]
         },
         "benefits": {
-          "title": "Baliqchilikda ozonlashning afzalliklari",
+          "title": "Балиқчиликда озонлашнинг афзалликлари",
           "items": [
             {
-              "title": "Toza suv",
-              "description": "Suvni 99% gacha dezinfeksiya qilish, loyqalik, rang va yoqimsiz hidlarni yo'q qilish"
+              "title": "Тоза сув",
+              "description": "Сувни 99% гача дезинфексийа қилиш, лойқалик, ранг ва йоқимсиз ҳидларни йўқ қилиш"
             },
             {
-              "title": "Sog'lom baliq",
-              "description": "Kasallanishni 50-70% ga kamaytirish, veterinariya xarajatlarini pasaytirish"
+              "title": "Соғлом балиқ",
+              "description": "Касалланишни 50-70% га камайтириш, ветеринарийа харажатларини пасайтириш"
             },
             {
-              "title": "Tez o'sish",
-              "description": "Optimal sharoitlar hisobiga ishlab chiqarish tsiklini 20-30% ga qisqartirish"
+              "title": "Тез ўсиш",
+              "description": "Оптимал шароитлар ҳисобига ишлаб чиқариш тсиклини 20-30% га қисқартириш"
             },
             {
-              "title": "Yuqori zichlik",
-              "description": "Baliqlar uchun xavfsiz holda saqlash zichligini 60-100% ga oshirish imkoniyati"
+              "title": "Йуқори зичлик",
+              "description": "Балиқлар учун хавфсиз ҳолда сақлаш зичлигини 60-100% га ошириш имконийати"
             },
             {
-              "title": "Suvni tejash",
-              "description": "Yaxshilangan tozalash tufayli yangi suv iste'molini 40-60% ga kamaytirish"
+              "title": "Сувни тежаш",
+              "description": "Йахшиланган тозалаш туфайли йанги сув исте'молини 40-60% га камайтириш"
             },
             {
-              "title": "Mahsulot sifati",
-              "description": "Sotiladigan baliqlarda begona ta'm va hidlarning bo'lmasligi"
+              "title": "Маҳсулот сифати",
+              "description": "Сотиладиган балиқларда бегона та'м ва ҳидларнинг бўлмаслиги"
             }
           ]
         }

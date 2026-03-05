@@ -1,34 +1,34 @@
 {
-  "title": "Qishloq xo'jaligi",
-  "description": "Qishloq xo'jaligida ozonlash hosildorlikni oshiradi, mahsulotlarning saqlash muddatini uzaytiradi va bioxavfsizlikni ta'minlaydi. Kimyoviy pestitsidlar va konservantlarga ekologik toza muqobil.",
+  "title": "Қишлоқ хўжалиги",
+  "description": "Қишлоқ хўжалигида озонлаш ҳосилдорликни оширади, маҳсулотларнинг сақлаш муддатини узайтиради ва биохавфсизликни та'минлайди. Кимйовий пеститсидлар ва консервантларга екологик тоза муқобил.",
   "subcategories": {
     "poultry": {
-      "title": "Parrandachilik",
-      "shortDesc": "Tuxumlar, inkubatorlar, so'yish, binolar, havo kanallari va chiqindi suvlarni dezinfeksiya qilish"
+      "title": "Паррандачилик",
+      "shortDesc": "Тухумлар, инкубаторлар, сўйиш, бинолар, ҳаво каналлари ва чиқинди сувларни дезинфексийа қилиш"
     },
     "livestock": {
-      "title": "Chorvachilik",
-      "shortDesc": "Fermalarni dezinfeksiya qilish, yem-xashakni qayta ishlash va go'sht mahsulotlarini saqlash muddatini uzaytirish"
+      "title": "Чорвачилик",
+      "shortDesc": "Фермаларни дезинфексийа қилиш, йем-хашакни қайта ишлаш ва гўшт маҳсулотларини сақлаш муддатини узайтириш"
     },
     "vegetable-storage": {
-      "title": "Sabzavotlarni saqlash",
-      "shortDesc": "Uzoq muddatli saqlashda sabzavot va mevalarning nobud bo'lishini kamaytirish"
+      "title": "Сабзавотларни сақлаш",
+      "shortDesc": "Узоқ муддатли сақлашда сабзавот ва меваларнинг нобуд бўлишини камайтириш"
     },
     "greenhouses": {
-      "title": "Issiqxonalar va dehqonchilik",
-      "shortDesc": "Yuqori hosildorlik va o'simliklarni kasalliklardan himoya qilish"
+      "title": "Иссиқхоналар ва деҳқончилик",
+      "shortDesc": "Йуқори ҳосилдорлик ва ўсимликларни касалликлардан ҳимойа қилиш"
     },
     "aquaculture": {
-      "title": "Akvakultura (RAS)",
-      "shortDesc": "Baliq yetishtirishning yopiq tizimlarida suvni tozalash va baliq kasalliklarini nazorat qilish"
+      "title": "Аквакултура (РАС)",
+      "shortDesc": "Балиқ йетиштиришнинг йопиқ тизимларида сувни тозалаш ва балиқ касалликларини назорат қилиш"
     },
     "grain-storage": {
-      "title": "Donni saqlash",
-      "shortDesc": "Zararkunandalar va mikroorganizmlardan kimyoviy moddalarsiz himoya qilish"
+      "title": "Донни сақлаш",
+      "shortDesc": "Зараркунандалар ва микроорганизмлардан кимйовий моддаларсиз ҳимойа қилиш"
     },
     "beekeeping": {
-      "title": "Asalarichilik",
-      "shortDesc": "Uya va kishanlarni dezinfeksiya qilish hamda asalari kasalliklarini nazorat qilish"
+      "title": "Асаларичилик",
+      "shortDesc": "Уйа ва кишанларни дезинфексийа қилиш ҳамда асалари касалликларини назорат қилиш"
     }
   }
 }

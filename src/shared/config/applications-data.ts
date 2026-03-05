@@ -55,6 +55,7 @@ export const APPLICATION_CATEGORIES: ApplicationCategory[] = [
       { id: 'meat-sausages', image: 'https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=800&q=80' },
       { id: 'cheese', image: 'https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=800&q=80' },
       { id: 'cold-storage', image: 'https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=800&q=80' },
+      { id: 'retail-supermarkets', image: 'https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=800&q=80' },
     ],
   },
   {

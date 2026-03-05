@@ -1,0 +1,98 @@
+{
+  "title": "Food production",
+  "description": "Ozonation at food facilities ensures product safety, extends shelf life and meets HACCP requirements.",
+  "subcategories": {
+    "retail-supermarkets": {
+      "title": "Ozone in supermarkets, adoption by major chains",
+      "shortDesc": "Storage and hygiene standard in developed countries; benefits vs chemicals; Walmart, Bustanica, Japan and South Korea networks",
+      "content": "In developed countries — the US, Western Europe, Japan and South Korea — ozone has long been a standard for food storage, room disinfection and treatment of fruit and vegetables in supermarkets and hypermarkets. Major retail chains use ozone systems to extend shelf life, reduce waste and meet strict hygiene requirements without chemical residues.",
+      "benefits": [
+        "No chemical residues on products",
+        "Extended shelf life",
+        "FDA GRAS and international compliance",
+        "Disinfection of cold rooms and display cases",
+        "Treatment of fruit and vegetables",
+        "Reduced spoilage and waste"
+      ],
+      "stats": {
+        "standardAdoption": {
+          "value": "FDA",
+          "label": "GRAS",
+          "description": "Ozone is FDA-approved for direct contact with food"
+        },
+        "fdaGras": {
+          "value": "0",
+          "label": "residues",
+          "description": "Ozone breaks down to oxygen, leaving no traces"
+        },
+        "noResidues": {
+          "value": "—",
+          "label": "Chemistry",
+          "description": "No rinse required unlike chlorine and other oxidizers"
+        },
+        "shelfLife": {
+          "value": "+",
+          "label": "Shelf life",
+          "description": "Extended storage through suppression of microbes and ethylene"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "In supermarkets and hypermarkets ozone is used to disinfect cold rooms, storage areas and display cases, to treat fruit and vegetables, and to suppress ethylene and microbial spoilage. In the US, EU, Japan and South Korea, major retail chains have been using such solutions for many years — from global giants to regional premium networks.",
+          "paragraph2": "Ozonation helps cut spoilage losses, extend product shelf life without preservatives and meet strict hygiene requirements without chlorine or other chemical disinfectants that leave residues on surfaces and products."
+        },
+        "benefitsVsOther": {
+          "title": "Benefits of ozone compared to other methods",
+          "intro": "Compared with chlorine-based and other chemical agents, as well as manual washing, ozone offers several advantages:",
+          "items": [
+            "No chemical residues — ozone breaks down to oxygen and does not require rinsing; products and surfaces can be used after brief ventilation.",
+            "Safety for staff and customers — no exposure to aggressive chemicals; when exposure limits are observed, working in treated areas is safe after the generator is off.",
+            "Extended shelf life — suppression of bacteria, mold and ethylene slows spoilage of fruit, vegetables and prepared products.",
+            "Labour and time savings — automated ozone delivery to chambers and storage zones reduces the need for manual disinfection.",
+            "Environmental profile — no toxic by-products; ozone is generated on-site from air or oxygen."
+          ]
+        },
+        "standards": {
+          "title": "Official standards and regulations",
+          "intro": "Use of ozone in the food industry and retail is governed by national and international documents. Some explicitly permit or recommend ozonation:",
+          "items": [
+            "FDA (USA): ozone is permitted for contact with food (GRAS — Generally Recognized as Safe); allowed for storage, washing of fruit and vegetables, and room disinfection.",
+            "Japan and South Korea: national rules and guidelines govern ozone use in retail and storage; major chains must comply with strict microbiological safety requirements.",
+            "EU: use of ozone in the food chain is regulated; in several countries ozone is used for water treatment, room disinfection and shelf-life extension.",
+            "International guidelines (e.g. Codex, retail industry standards) often include ozone as an acceptable or preferred method when concentrations and protocols are followed."
+          ],
+          "highlight": "Standards may be mandatory (by law or contract with a chain) or advisory. In any case, adoption of ozone in supermarkets and warehouses is based on proven effectiveness and recognized status in developed countries."
+        },
+        "adopters": {
+          "title": "Who uses it: major chains and well-known brands",
+          "intro": "Ozone is already used by leading retail and food companies worldwide. Examples:",
+          "items": [
+            "Walmart (USA and international) — use of ozone in logistics and food storage, room disinfection and shelf-life extension in line with internal quality standards.",
+            "Bustanica (UAE) — one of the world's largest vertical farms under the Emirates brand; ozone is used to protect harvest and product quality in storage and supply.",
+            "Major chains in Japan and South Korea — supermarkets and hypermarkets use ozonation in cold rooms, warehouses and sales areas to meet national regulations and reduce waste.",
+            "Regional and premium chains in Europe and the US — disinfection of chambers and display cases, treatment of fruit and vegetables with ozone to extend shelf life without chemical residues."
+          ]
+        },
+        "advantages": {
+          "title": "Practical benefits for supermarkets",
+          "feature1": {
+            "title": "Disinfection without residues",
+            "description": "Treatment of chambers, display cases and storage areas without chlorine or chemicals; after ventilation the area is ready for use"
+          },
+          "feature2": {
+            "title": "Extended shelf life",
+            "description": "Suppression of microbes and ethylene slows spoilage of fruit, vegetables and prepared products"
+          },
+          "feature3": {
+            "title": "Regulatory compliance",
+            "description": "Meets FDA GRAS and national requirements in the US, Japan, South Korea and the EU"
+          },
+          "feature4": {
+            "title": "Proven by major chains",
+            "description": "Technology used by Walmart, Bustanica and chains in Japan and South Korea"
+          }
+        }
+      }
+    }
+  }
+}
