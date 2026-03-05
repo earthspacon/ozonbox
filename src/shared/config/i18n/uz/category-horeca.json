@@ -5,7 +5,7 @@
     "hotels": {
       "title": "Mehmonxonalar",
       "shortDesc": "Xona dezinfeksiyasi va hidi yo'q qilish",
-      "content": "Mehmonxona xonasini ozonlash tez dezinfeksiya va hidi yo'q qilish uchun zamonaviy usuldir. Ozon bacteria, viruslar, ko'plak, xamirlar va parazit protozoalarni barcha sirtlarda samarali yo'q qiladi.\n\nHava ozonatori bemorlar o'zgartirilganda tozalab turib xonani to'liq ishlov berish imkonini beradi. Odatiy ravishda 30–60 daqiqa ishlov berish yetarli. Gaz barcha teschalik va burchaklarga penetratsiya qiladi, to'qimalar, mebel va dekoratsiyalarni dezinfeksiya qiladi.\n\nIshlov berishdan keyin ozon toksik mahsulotlarsiz kislorodga parchalanadi. Hava \"yangi\" ko'rinadi, havo yangilantiruvchisiz yoki niqob qiluvchi vositalarsiz. Tabak, ter, changa qo'zg'algan va namlik hidlarning to'liq yo'q qilishi.\n\nIshlov berish ozonator yoqilgandan keyin xodimlarni talab qilmaydi. Zamonaviy qurilmalar avtomatika uchun haftaviy taymerega ega.",
+      "content": "Mehmonxona xonasini ozonlash tez dezinfeksiya va hidi yo'q qilish uchun zamonaviy usuldir. Ozon bacteria, viruslar, ko'plak, zamburug'lar va parazit protozoalarni barcha sirtlarda samarali yo'q qiladi.\n\nHava ozonatori bemorlar o'zgartirilganda tozalab turib xonani to'liq ishlov berish imkonini beradi. Odatiy ravishda 30–60 daqiqa ishlov berish yetarli. Gaz barcha teschalik va burchaklarga kirib boradi, to'qimalar, mebel va dekoratsiyalarni dezinfeksiya qiladi.\n\nIshlov berishdan keyin ozon toksik mahsulotlarsiz kislorodga parchalanadi. Hava \"yangi\" ko'rinadi, havo yangilantiruvchisiz yoki niqob qiluvchi vositalarsiz. Tabak, ter, changa qo'zg'algan va namlik hidlarning to'liq yo'q qilishi.\n\nIshlov berish ozonator yoqilgandan keyin xodimlarni talab qilmaydi. Zamonaviy qurilmalar avtomatika uchun haftaviy taymerega ega.",
       "stats": {
         "processingTime": {
           "value": "30-60",
@@ -31,7 +31,7 @@
       "sections": {
         "intro": {
           "p1": "Mehmonxona biznesi asosan mehmon taassurotlari haqida. Fumonlash xonasining hidlari, changa qo'zg'algan, chuqur hidlar hatto eng shoh mehmonxonaning taassurotini buzishi mumkin. Ozonlash bu muammoni radikalyadi hal qiladi — hidlarni niqob qilish emas, balki ularni molekulyar darajada yo'q qilish.",
-          "p2": "Hidlarni yo'q qilishdan tashqari, ozon barcha xona sirtlarini dezinfeksiya qiladi: saltalar, yostiqlar, pardalar, gilam, qaplotilgan mebel. Gaz material tuzilmasiga penetratsiya qiladi, bakteriyalar, viruslar, chang qumurtqalari va ko'plak sporsini yo'q qiladi."
+          "p2": "Hidlarni yo'q qilishdan tashqari, ozon barcha xona sirtlarini dezinfeksiya qiladi: saltalar, yostiqlar, pardalar, gilam, qaplotilgan mebel. Gaz material tuzilmasiga kirib boradi, bakteriyalar, viruslar, chang qumurtqalari va ko'plak sporsini yo'q qiladi."
         },
         "automation": {
           "title": "Avtomatika:",
@@ -80,7 +80,7 @@
         },
         "whatIsTreated": {
           "title": "Ozon bilan nima ishlov beriladi",
-          "intro": "Ozon gaz bo'lgarki, muntazam tozalashga kirishmaydigan barcha joylarni penetratsiya qiladi:",
+          "intro": "Ozon gaz bo'lgarki, muntazam tozalashga kirishmaydigan barcha joylarni kirib boradi:",
           "items": [
             {
               "title": "To'qimalar",
@@ -141,7 +141,7 @@
       "shortDesc": "Oshxona va tabak hidlarining yo'q qilishi",
       "heroTitle": "Restoran va kofexona ozonlashi",
       "heroDesc": "Oshxona, tabak va nargila hidlarining yo'q qilishi. Yangi hava mehmon qulayligini va ishtahani yaxshilaydi.",
-      "content": "Restoran biznesi atmosferasi haqida. Fumonlash xonasining hidlari, eski oziq yoki oshxona yog'i hatto sadoqli mijozlarni ham bezdirtsa oladi. Tadqiqotlar ko'rsatadi: havo sifati xizmatning ongli emas fikriga bevosita ta'sir qiladi.\n\nHid ongli his bilan shunchalik bog'langan, ya'ni odamlar joyda o'zlarini qulaylik-qulaysizlik haqidagi sababni tushunmasliklari mumkin. Ular oddiygina \"yoqdi\" yoki \"yoqmadi\" deyshadi. Bu taassurat ularning qaytib kelmalarini aniqlaydi.\n\nOzonlash bu muammoni radikalyadi hal qiladi — hidlarni xushbo'y bilan niqob qilish emas, balki ularni molekulyar darajada yo'q qilish. Ishchi soatlarida binolarni muntazam ozonlash noqulaylik hidlarini sezilarli kamaytiraydi.\n\nOzon gaz va kuchli oksidlovchi. U qo'l yetmaydigan joylar, material tuzilma va porylar penetratsiya qiladi, bu yerda hid manbalar sorblanga va hid molekulalarni suv va karbon dioksidga oksidlaydi.",
+      "content": "Restoran biznesi atmosferasi haqida. Fumonlash xonasining hidlari, eski oziq yoki oshxona yog'i hatto sadoqli mijozlarni ham bezdirtsa oladi. Tadqiqotlar ko'rsatadi: havo sifati xizmatning ongli emas fikriga bevosita ta'sir qiladi.\n\nHid ongli his bilan shunchalik bog'langan, ya'ni odamlar joyda o'zlarini qulaylik-qulaysizlik haqidagi sababni tushunmasliklari mumkin. Ular oddiygina \"yoqdi\" yoki \"yoqmadi\" deyshadi. Bu taassurat ularning qaytib kelmalarini aniqlaydi.\n\nOzonlash bu muammoni radikalyadi hal qiladi — hidlarni xushbo'y bilan niqob qilish emas, balki ularni molekulyar darajada yo'q qilish. Ishchi soatlarida binolarni muntazam ozonlash noqulaylik hidlarini sezilarli kamaytiraydi.\n\nOzon gaz va kuchli oksidlovchi. U qo'l yetmaydigan joylar, material tuzilma va porylar kirib boradi, bu yerda hid manbalar sorblanga va hid molekulalarni suv va karbon dioksidga oksidlaydi.",
       "benefits": [
         "Mehmon sadoqatining kuchayishi",
         "O'rtacha hisob 15–20% yuqoriroq",
@@ -173,7 +173,7 @@
         }
       },
       "problems": [
-        "Tabak va nargila hidi — mebel, pardalar, qaplotlashga penetratsiya qiladi",
+        "Tabak va nargila hidi — mebel, pardalar, qaplotlashga kirib boradi",
         "Oshxona hidlari — yog', ziravor, baliq, sarimsoq",
         "Namlik va ko'plak — ayniqsa podvalda",
         "Ventilatsiya hidi — kanalarda yog' to'planishi",
@@ -276,7 +276,7 @@
             "Xodimlarning qo'li ozonlashtirilgan suv bilan dezinfeksiyasi (teri uchun yaxshi)",
             "Dekorativ hovuzlarda va akvariumlarda suv toza qilish",
             "Kranidagi suvning ichimlik sifatiga ishlov berish",
-            "Podval xonalari va qomorlarda ko'plak nazoratı"
+            "Podval xonalari va yerto'larda ko'plak nazorati"
           ],
           "savings": {
             "title": "Tejash:",
@@ -425,7 +425,7 @@
         },
         "ozoneClosets": {
           "title": "Quruq temirlash uchun ozon shkafi",
-          "desc": "Quruq temirlovchilar ozon shkaflaridan foydalanadi — yuqori konsentratsiyada ozon bilan to'ldirilgan mo'hlangan kameralar. Gaz bo'lgani uchun, ozon eng zichlik to'qimlarga va qo'l yetmaydigan joylarga penetratsiya qiladi.",
+          "desc": "Quruq temirlovchilar ozon shkaflaridan foydalanadi — yuqori konsentratsiyada ozon bilan to'ldirilgan mo'hlangan kameralar. Gaz bo'lgani uchun, ozon eng zichlik to'qimlarga va qo'l yetmaydigan joylarga kirib boradi.",
           "steps": [
             {
               "title": "Nozik buyumlarni ishlov berish",
@@ -480,7 +480,7 @@
       },
       "ozoneClosets": {
         "title": "Quruq temirlash uchun ozon shkafi",
-        "desc": "Quruq temirlovchilar ozon shkaflaridan foydalanadi — yuqori konsentratsiyada ozon bilan to'ldirilgan mo'hlangan kameralar. Gaz bo'lgani uchun, ozon eng zichlik to'qimlarga va qo'l yetmaydigan joylarga penetratsiya qiladi.",
+        "desc": "Quruq temirlovchilar ozon shkaflaridan foydalanadi — yuqori konsentratsiyada ozon bilan to'ldirilgan mo'hlangan kameralar. Gaz bo'lgani uchun, ozon eng zichlik to'qimlarga va qo'l yetmaydigan joylarga kirib boradi.",
         "features": [
           "Nozik buyumlarni ishlov berish: teatr kostyumlari, antikvar, turali palto, charm jaketlar",
           "Hidi yo'q qilish: olov tutuni, tabaka, biologik hidlar, hayvon hidlari",
@@ -494,7 +494,7 @@
       "shortDesc": "O'qib turgan hidi yo'q qilish",
       "heroTitle": "Nargila zali va tabak ozonlashi",
       "heroDesc": "O'qib turgan hidi kimyoviy yo'q qilish. Maskalamasdan — to'liq neytrallashtirish 60–120 daqiqada.",
-      "content": "O'qib turgan, eskilashgan sigareta va nargila hidi tashrif qiluvchilarni bezdirtsa oladi. Hatto nargila zallarida mehmonlar yangi nargila aromasi yoqsa ham, muammo bor: tutun mebel va qaplotlashga sutkaga kirganda, aromat qo'shimchalar tez poyab, faqat noqulaylik tutun va qatron hidi qoladi.\n\nOzonlash bunday hidlarni maskalamasdan, balki kimyoviy yo'q qilishning yagona samarali usuli. Ozon hid molekulalarni suv va karbon dioksidga yoki hidsi bo'lmagan oksidlash mahsulotlariga oksidlaydi.\n\nTabaka va nargila tutuni tar o'z ichiga oladi, ular to'qimlarga penetratsiya qiladi: to'qimalar, yog'och, qaplotlash, plita, gilam. Vaqt o'tishi bilan bu moddalar to'planadi va doimiy noqulaylik hidi yaratadi.\n\nMuntazam ozonlash ishdan chiqish soatlarida hava yangi qoladi. To'g'ri boshlash va tugash vaqti bilan, ozon xodimlar kelishidan oldin poyab.",
+      "content": "O'qib turgan, eskilashgan sigareta va nargila hidi tashrif qiluvchilarni bezdirtsa oladi. Hatto nargila zallarida mehmonlar yangi nargila aromasi yoqsa ham, muammo bor: tutun mebel va qaplotlashga sutkaga kirganda, aromat qo'shimchalar tez poyab, faqat noqulaylik tutun va qatron hidi qoladi.\n\nOzonlash bunday hidlarni maskalamasdan, balki kimyoviy yo'q qilishning yagona samarali usuli. Ozon hid molekulalarni suv va karbon dioksidga yoki hidsi bo'lmagan oksidlash mahsulotlariga oksidlaydi.\n\nTabaka va nargila tutuni tar o'z ichiga oladi, ular to'qimlarga kirib boradi: to'qimalar, yog'och, qaplotlash, plita, gilam. Vaqt o'tishi bilan bu moddalar to'planadi va doimiy noqulaylik hidi yaratadi.\n\nMuntazam ozonlash ishdan chiqish soatlarida hava yangi qoladi. To'g'ri boshlash va tugash vaqti bilan, ozon xodimlar kelishidan oldin poyab.",
       "benefits": [
         "Kimyoviy yo'q qilish, maskallash emas",
         "Qo'l yetmaydigan joylarni penetratsiya",
@@ -522,7 +522,7 @@
       },
       "odorSources": [
         "To'qimalar (pardalar, qaplotlash, yostiqlar) — asosiy hidi xonjiragi",
-        "Qaplotilgan mebel — qatron tolalarni penetratsiya qiladi",
+        "Qaplotilgan mebel — qatron tolalarni kirib boradi",
         "Plita materiallar — ayniqsa meskitlilar",
         "Ventilatsiya kanallar — ifloslanish to'planishi",
         "Qo'l yetmaydigan joylar — teschaliklar, tikishlar, bo'shliklari"
@@ -530,7 +530,7 @@
       "sections": {
         "intro": {
           "paragraph1": "O'qib turgan, eskilashgan sigareta va nargila hidi tashrif qiluvchilarni bezdirtsa oladi. Hatto nargila zallarida mehmonlar yangi nargila aromasi yoqsa ham, muammo bor: tutun mebel va qaplotlashga sutkaga kirganda, aromat qo'shimchalar tez poyab, faqat noqulaylik tutun va qatron hidi qoladi.",
-          "paragraph2": "Ozonlash bunday hidlarni maskalamasdan, balki kimyoviy yo'q qilishning yagona samarali usuli. Ozon hid molekulalarni suv va karbon dioksidga yoki hidsiz oksidlash mahsulotlariga oksidlaydi. Tabaka va nargila tutuni tar o'z ichiga oladi, ular to'qimlarga penetratsiya qiladi: to'qimalar, yog'och, qaplotlash, plita, gilam. Vaqt o'tishi bilan bu moddalar to'planadi va doimiy noqulaylik hidi yaratadi."
+          "paragraph2": "Ozonlash bunday hidlarni maskalamasdan, balki kimyoviy yo'q qilishning yagona samarali usuli. Ozon hid molekulalarni suv va karbon dioksidga yoki hidsiz oksidlash mahsulotlariga oksidlaydi. Tabaka va nargila tutuni tar o'z ichiga oladi, ular to'qimlarga kirib boradi: to'qimalar, yog'och, qaplotlash, plita, gilam. Vaqt o'tishi bilan bu moddalar to'planadi va doimiy noqulaylik hidi yaratadi."
         },
         "benefits": {
           "title": "Nargila zallari uchun ozonlashning foydalari",

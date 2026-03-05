@@ -61,7 +61,7 @@
             ["Baliq ovqatlanish suv havzalari, eng yuqori kategoriya", "0,05", "3"],
             ["Baliq ovqatlanish suv havzalari, I kategoriya", "0,05", "3"],
             ["Baliq ovqatlanish suv havzalari, II kategoriya", "0,05", "3"],
-            ["Khojaliq va ichimlik suv ta'minoti manbalari", "0,1", "4"],
+            ["Xo'jalik va ichimlik suv ta'minoti manbalari", "0,1", "4"],
             ["Munitsipal tashkil etishga oqish", "4,0", "—"]
           ]
         },
@@ -331,7 +331,7 @@
           },
           "highlight": {
             "title": "Ozon vs. UV dezinfeksiya:",
-            "text": "UV lampalardan farqli o'laroq, faqat to'g'ridan-to'g'ri nurlanish joylarida samarali, ozon butun qurilla hajmiga tarqaladi, qiyin qo'lga kiradigan joylarni: treshchinaalarni, ventilatsiya tizimlarini, qurilla ichki joylarini penetratsiya qiladi."
+            "text": "UV lampalardan farqli o'laroq, faqat to'g'ridan-to'g'ri nurlanish joylarida samarali, ozon butun qurilla hajmiga tarqaladi, qiyin qo'lga kiradigan joylarni: treshchinaalarni, ventilatsiya tizimlarini, qurilla ichki joylarini kirib boradi."
           }
         },
         "applications": {

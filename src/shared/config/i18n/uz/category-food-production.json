@@ -1,6 +1,6 @@
 {
   "title": "Oziq-ovqat ishlab chiqarish",
-  "description": "Oziq-ovqat zavehlarin ozonatsiya qo'llanilishi mahsulot xavfsizligini ta'minlaydi, saqlash muddatini uzaytiradi va HACCP talablariga javob beradi. Kimyoviy konservantlarga eco-dostviy muqobil.",
+  "description": "Oziq-ovqat zavehlarin ozonatsiya qo'llanilishi mahsulot xavfsizligini ta'minlaydi, saqlash muddatini uzaytiradi va HACCP talablariga javob beradi. Kimyoviy konservantlarga ekologik toza muqobil.",
   "subcategories": {
     "bottled-water": {
       "title": "Shisha suvda ozonatsiya",
@@ -38,7 +38,7 @@
       },
       "sections": {
         "intro": {
-          "text": "Ichimlik suvi ishlab chiqaruvchilar ko'pincha shunchaki quyosh ostida turgan suv mavjud qiladi - tekshirilgan quyudan ajratilgan va barcha tozalash bosqichlaridan o'tgan suv do'konida xarab bo'ladi. Sababi - bortni shmyot shuyu orqali bevosita kontakt qilish natijasida ikkinchi darajali kontaminatsiya.",
+          "text": "Ichimlik suvi ishlab chiqaruvchilar ko'pincha shunchaki quyosh ostida turgan suv mavjud qiladi - tekshirilgan quyudan ajratilgan va barcha tozalash bosqichlaridan o'tgan suv do'konida buziladi. Sababi - bortni shmyot shuyu orqali bevosita kontakt qilish natijasida ikkinchi darajali kontaminatsiya.",
           "text2": "Finali ozonatsiya bu muammoni keng ko'lamda hal qiladi: ozone faqat suvni dezinfeksiya qilmaydi, balki quvurli uskunasi va konteynerlarni ham sterilizatsiya qiladi. Qopqo'lash shisha qo'yilgandan keyin ozone bir necha soat ichida kislorod holatiga aylanib ketadi, iz qoldirib ketmaydi va suv ta'mni yaxshilaydi."
         },
         "highlight1": {
@@ -134,7 +134,7 @@
             },
             {
               "title": "Saqlash muddati uzaygan",
-              "description": "Muhit qopqoq ochilmaguncha steril holatda qoladi — mahsulot xarab bo'lmaydi"
+              "description": "Muhit qopqoq ochilmaguncha steril holatda qoladi — mahsulot buzilmaydi"
             },
             {
               "title": "Chaqaloq suvi",
@@ -330,7 +330,7 @@
       },
       "sections": {
         "intro": {
-          "paragraph1": "Kolbasa pishtirilishi va go'sht saqlashda bakteriyalar, ko'plak fungalari va xamirturush mikroorganizmalar faol rivojlanadi. Bu mahsulotning xarab bo'lishiga, ta'm o'zgarishiga, massa yo'qolishiga va saqlash muddatining qisqarishi bilan natijalanad. Ozonatsiya samarali, eco-dostviy va xavfsiz dezinfeksiya usuli.",
+          "paragraph1": "Kolbasa pishtirilishi va go'sht saqlashda bakteriyalar, ko'plak fungalari va xamirturush mikroorganizmalar faol rivojlanadi. Bu mahsulotning buzilishiga, ta'm o'zgarishiga, massa yo'qolishiga va saqlash muddatining qisqarishi bilan natijalanad. Ozonatsiya samarali, ekologik toza va xavfsiz dezinfeksiya usuli.",
           "paragraph2": "Ozonning dezinfeksiya ta'siri xlorin bilan taqqoslaganda 15-20 baravar kuchlidir, sporasini hosil qiluvchi bakteriyalarga nisbatan taxminan 300-600 baravar kuchlidir. Shu bilan birga ozone mahsulot sirtida kimyoviy qoldiqlar qoldirmasdan butunlay kislorod holatiga aylanadi."
         },
         "instruction": {
@@ -352,7 +352,7 @@
         },
         "ripeningChambers": {
           "title": "Kolbasa pishish kameralari",
-          "paragraph": "Quruq so'lgan va havo quritish kolbasi uchun pishish kameralarida ozone slimy va ko'plak cho'kmasining rivojlanishini bosgiradi, noxush hidilar paydo bo'lishini oldini oladi. O'rtacha kontsentratsiyada ozone qobiq yoki to'ldirilish rangini o'zgartirsа ham, ta'sir qilmaydi.",
+          "paragraph": "Quruq so'lgan va havo quritish kolbasi uchun pishish kameralarida ozone slimy va ko'plak cho'kmasining rivojlanishini bosgiradi, noxush hidilar paydo bo'lishini oldini oladi. O'rtacha kontsentratsiyada ozone qobiq yoki to'ldirilish rangini o'zgartirsa ham, ta'sir qilmaydi.",
           "tableCaption": "Kolbasa pishish kameralari uchun ozonatsiya rejimi",
           "tableHeaders": ["Kolbasa turi", "Kontsentratsiya", "Ishlov berish vaqti", "Harorat", "Samaradorlik"],
           "tableRows": [
@@ -370,7 +370,7 @@
           "title": "Ozonatsiyaning foydalari",
           "items": [
             "Mahsulot sirtini dezinfeksiya qilish — bakteriyalar, ko'plak sporalari va xamirturush yo'q qilish",
-            "Organoleptik xususiyatlari saqlanib qoladi — ta'm va hidni o'zgartirsа ham, achchiklikni oldini oladi",
+            "Organoleptik xususiyatlari saqlanib qoladi — ta'm va hidni o'zgartirsa ham, achchiklikni oldini oladi",
             "Massa yo'qolishini kamaytirish — mikroflora stabilizatsiyasi orqali qisqarishni kamaytirish",
             "Kamera dezinfeksiyasi yuklangan mahsulot bilan — to'liq yuklashda ishlov berish mumkin",
             "Vaqt va xarajatlarni tejash — qo'lda sanitatsiya chastotasini kamaytirish",
@@ -448,8 +448,8 @@
     },
     "cheese": {
       "title": "Pishloq ishlab chiqarish",
-      "shortDesc": "Pishloq pishishi va ko'plaksiz saklash",
-      "content": "Pishloq ishlab chiqarishda ozonatsiya pishloq sirtida noxush ko'plak rivojlanishini oldini olish masalasini hal qiladi pishloq pishtirilishi va saklashda. Texnologiya kamera mikroflorali nazorat qiladi, faqat pishirish jarayoniga ta'sir qilmasda.\n\nQat'iy pishloqlar uchun 2–4 mg/m³ ozone tavsiya etiladi; yumshoq pishloqlar uchun 3–6 mg/m³ 8–12°C va 85–90% nam holata. 1,5–2 soatli ishlov berish 94–99% dezinfeksiya samaradorligini beradi.\n\nOzone pishloq qobigida ko'plakni oldini oladi, pishirish biokimyosini buzmasda. To'g'ri dozo rang, tuzilish yoki ta'mga ta'sir qilmasda. Ozonatsiya sanoat yo'riqlamalarida qat'iy pishloq saklash uchun tavsiya etilgan.",
+      "shortDesc": "Pishloq pishishi va ko'plaksiz saqlash",
+      "content": "Pishloq ishlab chiqarishda ozonatsiya pishloq sirtida noxush ko'plak rivojlanishini oldini olish masalasini hal qiladi pishloq pishirilishi va saqlashda. Texnologiya kamera mikroflorali nazorat qiladi, faqat pishirish jarayoniga ta'sir qilmasda.\n\nQat'iy pishloqlar uchun 2–4 mg/m³ ozone tavsiya etiladi; yumshoq pishloqlar uchun 3–6 mg/m³ 8–12°C va 85–90% nam holata. 1,5–2 soatli ishlov berish 94–99% dezinfeksiya samaradorligini beradi.\n\nOzone pishloq qobigida ko'plakni oldini oladi, pishirish biokimyosini buzmasda. To'g'ri dozo rang, tuzilish yoki ta'mga ta'sir qilmasda. Ozonatsiya sanoat yo'riqlamalarida qat'iy pishloq saqlash uchun tavsiya etilgan.",
       "benefits": [
         "95–99% ko'plakni oldini olish",
         "Pishirish jarayoni saqlanib qoladi",
@@ -482,12 +482,12 @@
       },
       "sections": {
         "intro": {
-          "paragraph1": "Pishloq ishlab chiqarishda ozonatsiya pishloq pishtirilishi va saklashda pishloq sirtida noxush ko'plak rivojlanishini oldini olish masalasini hal qiladi. Texnologiya kamera mikroflorali nazorat qiladi, biokimyoviy pishirish jarayoniga ta'sir qilmasda.",
-          "paragraph2": "Ozone pishloq qobigida ko'plak rivojlanishini oldini oladi, pishloq ichidagi foydali mikroflora balansi buzmasda. To'g'ri dozo rang, tuzilish, ta'm yoki pishloqning aromatini o'zgartirsа ham."
+          "paragraph1": "Pishloq ishlab chiqarishda ozonatsiya pishloq pishirilishi va saqlashda pishloq sirtida noxush ko'plak rivojlanishini oldini olish masalasini hal qiladi. Texnologiya kamera mikroflorali nazorat qiladi, biokimyoviy pishirish jarayoniga ta'sir qilmasda.",
+          "paragraph2": "Ozone pishloq qobigida ko'plak rivojlanishini oldini oladi, pishloq ichidagi foydali mikroflora balansi buzmasda. To'g'ri dozo rang, tuzilish, ta'm yoki pishloqning aromatini o'zgartirsa ham."
         },
         "instruction": {
-          "label": "RFSSR Savdo Vazirligi 1975 vaqtiy yo'riqlamasi:",
-          "text": "Ozonatsiya qat'iy pishloqning saklashda tavsiya etiladi. Usul pishloq sirtidagi ko'plakni kimyoviy konservantlarni ishlatmasdan nazorat qilish imkonini beradi."
+          "label": "RFSSR Savdo Vazirligi 1975 vaqtincha yo'riqnomasi:",
+          "text": "Ozonatsiya qat'iy pishloqning saqlashda tavsiya etiladi. Usul pishloq sirtidagi ko'plakni kimyoviy konservantlarni ishlatmasdan nazorat qilish imkonini beradi."
         },
         "regimes": {
           "title": "Har xil turdagi pishloq uchun ozonatsiya rejimi",
@@ -507,7 +507,7 @@
           "title": "Pishloq ishlab chiqarishda ozonatsiyaning foydalari",
           "items": [
             "Pishloq qobigida noxush ko'plak rivojlanishini oldini olish",
-            "Pishirish jarayonini saqlanib qoldi — ozone pishloq ichiga penetratsiya qilmaydi",
+            "Pishirish jarayonini saqlanib qoldi — ozone pishloq ichiga kirib bormaydi",
             "Mahsulotning qisqarishi kamaytirish mikroflora stabilizatsiyasi orqali",
             "Pishloqni pishish kamerasidan ochirib olmasdan ishlov berish",
             "GOST R 54607-2011 \"Pishloqlar. Umumiy texnik xususiyatlari\" ga muvofiqlik",
@@ -565,7 +565,7 @@
         },
         "chamberTreatment": {
           "title": "Pishish kameras ishlov berish",
-          "paragraph": "Statsionar pishish kameralari uchun, devorasiga o'rnatilgan yoki quvur orqali ozonatorlar avtomatik nazorat bilan tavsiya etiladi. Ozone kamera hajmi bo'ylab tekis taqsimlani, erishilmasa joylar o'z ichiga olgan polka va javonlari penetratsiya qiladi.",
+          "paragraph": "Statsionar pishish kameralari uchun, devorasiga o'rnatilgan yoki quvur orqali ozonatorlar avtomatik nazorat bilan tavsiya etiladi. Ozone kamera hajmi bo'ylab tekis taqsimlani, erishilmasa joylar o'z ichiga olgan polka va javonlari kirib boradi.",
           "tableCaption": "Pishloq pishish kamerasi uchun ishlov berish rejimining misoli (50 m³ hajmi)",
           "tableHeaders": ["Parametr", "Qiymati", "Eslatma"],
           "tableRows": [
@@ -581,7 +581,7 @@
           "title": "Qonuniy hujjatlar",
           "items": [
             "GOST R 54607-2011 — Pishloqlar. Umumiy texnik xususiyatlari",
-            "Qat'iy pishloq saklash kameralarini ozonatsiya qilish vaqtiy yo'riqlamasi (1975)",
+            "Qat'iy pishloq saqlash kameralarini ozonatsiya qilish vaqtincha yo'riqnomasi (1975)",
             "Ozonni dezinfektant sifatida ishlatish haqidagi uslubiy tavsiyalar (1976)",
             "SanPiN 2.3.4.545-96 — Sut va sut mahsulotlarini ishlab chiqarish"
           ]
@@ -610,9 +610,9 @@
       }
     },
     "cold-storage": {
-      "title": "Sovuq saklash",
+      "title": "Sovuq saqlash",
       "shortDesc": "Sovuq ombor dezinfeksiyasi va deodoratsiyasi",
-      "content": "Sovuq xonalari va omborlarini ozonatsiya qilish oziq-ovqat saqlash muddatini uzaytirish va hidilarni bartaraf qilish uchun isbotlangan texnologiya. U \"ho'l\" dezinfeksiya usullariga nisbatan katta afzalliklarga ega.\n\nİşlov berish kamerani issiqmasdan yoki mahsulotni ochirib olmasdan bajarilishi mumkin. Massa haroratida ozonatsiya samaradorroq. Kamera faoliyatni to'xtash eski usullarga nisbatan taxminan 5 baravar kamaytirish bilan o'tadi.\n\nBo'sh kameralar uchun 35–40 mg/m³ 24 soat tavsiya etiladi. Yuklangan kameralar uchun 2–10 mg/m³ mahsulot turiga ko'ra. Ozone bakteriya flora bosgiradi, ko'plakni oldini oladi va xira hidni bartaraf qiladi.",
+      "content": "Sovuq xonalari va omborlarini ozonatsiya qilish oziq-ovqat saqlash muddatini uzaytirish va hidilarni bartaraf qilish uchun isbotlangan texnologiya. U \"ho'l\" dezinfeksiya usullariga nisbatan katta afzalliklarga ega.\n\nIshlov berish kamerani issiqmasdan yoki mahsulotni ochirib olmasdan bajarilishi mumkin. Massa haroratida ozonatsiya samaradorroq. Kamera faoliyatni to'xtash eski usullarga nisbatan taxminan 5 baravar kamaytirish bilan o'tadi.\n\nBo'sh kameralar uchun 35–40 mg/m³ 24 soat tavsiya etiladi. Yuklangan kameralar uchun 2–10 mg/m³ mahsulot turiga ko'ra. Ozone bakteriya flora bosgiradi, ko'plakni oldini oladi va xira hidni bartaraf qiladi.",
       "benefits": [
         "Yuklangan kameralarni ishlov berish",
         "Minus haroratda ishlash",
@@ -645,18 +645,18 @@
       },
       "sections": {
         "intro": {
-          "paragraph1": "Sovuq saklash jarayonlarining dezinfeksiyasi va deodoratsiyasi axlatlanish va sifatning pasayishini oldini olish maqsadida saqlangan oziq-ovqat mahsulotlarning xavfsizligini ta'minlashning eng muhim sanitarliq va gigienik choralaridan biridir. Ozonatsiya \"ho'l\" dezinfeksiya usullariga nisbatan katta afzalliklarga ega.",
-          "paragraph2": "Amaliyot sovuq saklash kameralari va omborlarini ozonatsiya qilish mahsulot saqlash muddatini uzaytirish, noxush hidilarni bartaraf qilish va ko'plak koloniyalari rivojlanishini oldini olish imkonini beradi — bu kamerani issiqmasdan yoki mahsulotlarni ochirib olmasdan.",
+          "paragraph1": "Sovuq saqlash jarayonlarining dezinfeksiyasi va deodoratsiyasi axlatlanish va sifatning pasayishini oldini olish maqsadida saqlangan oziq-ovqat mahsulotlarning xavfsizligini ta'minlashning eng muhim sanitarliq va gigienik choralaridan biridir. Ozonatsiya \"ho'l\" dezinfeksiya usullariga nisbatan katta afzalliklarga ega.",
+          "paragraph2": "Amaliyot sovuq saqlash kameralari va omborlarini ozonatsiya qilish mahsulot saqlash muddatini uzaytirish, noxush hidilarni bartaraf qilish va ko'plak koloniyalari rivojlanishini oldini olish imkonini beradi — bu kamerani issiqmasdan yoki mahsulotlarni ochirib olmasdan.",
           "instructionTitle": "SSRQ Savdo Vazirligi 1973 yo'riqlamasi:",
-          "instructionText": "\"Sovuq saklash jarayonida ozonatsiya orqali dezinfeksiya va deodoratsiya\" — bo'sh kameralarni dezinfeksiya qilish uchun ishlash ozone kontsentratsiyasi: 35-40 mg/m³, ozonatsiya davomiyligi 24 soat."
+          "instructionText": "\"Sovuq saqlash jarayonida ozonatsiya orqali dezinfeksiya va deodoratsiya\" — bo'sh kameralarni dezinfeksiya qilish uchun ishlash ozone kontsentratsiyasi: 35-40 mg/m³, ozonatsiya davomiyligi 24 soat."
         },
         "benefits": {
-          "title": "Sovuq saklashni ozonatsiyaning afzalliklari",
+          "title": "Sovuq saqlashni ozonatsiyaning afzalliklari",
           "items": [
             "Oziq-ovqat mahsulotlar bilan yuklangan kameralarni dezinfeksiya qilish imkoniyati",
             "Kamerani issiqmasdan ishlov berish — samaradorlik massa haroratida oshadi",
             "Kamera faoliyatni to'xtashni \"ho'l\" dezinfeksiyaga nisbatan 5 baravar qisqarishi",
-            "Sovuq saklashda xira hidni qarshiga olish uchun lazim",
+            "Sovuq saqlashda xira hidni qarshiga olish uchun lazim",
             "Devorlarda, tora panjalarda, ilmaklar va pallatalarda bakteriya flora bosgirish",
             "Saqlash devorlari, qutilar va qadoqlashda ko'plakni oldini olish",
             "Energiya tejash — qayta sovutish shart emas",
@@ -684,7 +684,7 @@
         },
         "loadedChambers": {
           "title": "Yuklangan kameralarni ozonatsiya qilish",
-          "intro": "Xorijiy amaliyot ma'lumotlari va individual sovuq saklash jarayonlarida ozonatsiya tatbiqi natijalariga asosan, mahsulot bilan yuklangan kameralar uchun quyidagi ozone kontsentratsiyalari tavsiya etiladi:",
+          "intro": "Xorijiy amaliyot ma'lumotlari va individual sovuq saqlash jarayonlarida ozonatsiya tatbiqi natijalariga asosan, mahsulot bilan yuklangan kameralar uchun quyidagi ozone kontsentratsiyalari tavsiya etiladi:",
           "tableHeaders": ["Mahsulot", "Harorat", "Kontsentratsiya", "Vaqt", "Chastotasi"],
           "animalProductsTableCaption": "Hayvonot mahsulotlari uchun tavsiya etilgan ozonatsiya rejimi",
           "animalProductsTableData": [
@@ -706,7 +706,7 @@
           ]
         },
         "comparison": {
-          "title": "Sovuq saklash kameras dezinfeksiya usullari taqqoslanishi",
+          "title": "Sovuq saqlash kameralari dezinfeksiya usullari taqqoslanishi",
           "headers": ["Parametr", "Ozonatsiya", "\"Ho'l\" dezinfeksiya"],
           "rows": [
             {
@@ -747,8 +747,8 @@
           ]
         },
         "deodorization": {
-          "title": "Sovuq saklash deodoratsiyasi",
-          "paragraph1": "Ozonatsiya sovuq saklash va muzlatgichlar kameralarida paydo bo'ladigan xira hidga qarshiga olish uchun lazim. Deodoratsiya paytida, kameralar ozonator to'xtashdan keyin ventilatsiyasiz 24 soat saqlanadi — ozone butunlay kislorod holatiga aylanadi.",
+          "title": "Sovuq saqlash deodoratsiyasi",
+          "paragraph1": "Ozonatsiya sovuq saqlash va muzlatgichlar kameralarida paydo bo'ladigan xira hidga qarshiga olish uchun lazim. Deodoratsiya paytida, kameralar ozonator to'xtashdan keyin ventilatsiyasiz 24 soat saqlanadi — ozone butunlay kislorod holatiga aylanadi.",
           "paragraph2": "Ozone noxush hidlarni keltirib chiqaradigan organik tarkiblar oksidlaydi va yo'q qiladi. Bu bir kamerani alohida mahsulotlar saqlash uchun birma-bir ishlatish imkonini beradi, hidning o'tish xavfisiz."
         },
         "organization": {
@@ -758,7 +758,7 @@
           "recommendationText": "Ishlash kontsentratsiyasiga erishgandan keyin ozonatsiya samaradorligini oshirish uchun, ozone-hava aralashmasini aralashtirishni qisqa vaqtga ventilatorlarni yoqish tavsiya etiladi."
         },
         "advantages": {
-          "title": "Sovuq saklash omborlari uchun afzalliklari",
+          "title": "Sovuq saqlash omborlari uchun afzalliklari",
           "feature1": {
             "title": "Yuklangan kameralarni ishlov berish",
             "description": "Mahsulotlarni ochirib olmasdan va omborning faoliyatini to'xtamasdan dezinfeksiya qilish"

@@ -1,17 +1,17 @@
 {
   "title": "Dezinfeksiya",
-  "description": "Ozonlash ta'minovchi binolar va transportni chuqur dezinfeksiya qiladi, bakteriyalarni, viruslarni, xamirlarni va sporalarni yo'q qiladi, kimyoviy qoldiqsiz. Gaz barcha qiyin-erishiladigan joylarni penetratsiya qiladi.",
+  "description": "Ozonlash ta'minovchi binolar va transportni chuqur dezinfeksiya qiladi, bakteriyalarni, viruslarni, zamburug'larni va sporalarni yo'q qiladi, kimyoviy qoldiqsiz. Gaz barcha qiyin-erishiladigan joylarni kirib boradi.",
   "subcategories": {
     "offices": {
       "title": "Ofis binolari",
       "shortDesc": "Viruslardan salomatli ish muhiti",
-      "content": "Ofis kompaniyaning yüzi. Ifloslangan havo va noxush hidlar ishchilarni zararlab, ish unumiyligi va loyalligini kamaytirib, kompaniyaning tasviri va hamkorlari bilan munosabatlariga salbiy ta'sir ko'rsatadi.\n\nKo'pchilik binolarda havoda toksik moddalarning konsentratsiyasi tashqarida 2-5 marta yuqori. Benzol, formaldegid va ammiak mebeldan, kovradan, ofis jihozlari va tamomlardan chiqadi. Ozonlash bu ifloslantiruvchilarni samarali zaiflashtiradl.\n\nOzon barcha ishchilar va tashrif buyuruvchilar tegadigan sirtlarni dezinfeksiya qiladi: ish stoqlari, stul quloqlari, ofis jihozlari, kofе mashinalar. U sirtlar orqali viruslarni uzatishni kamaytiradi, hidlarni yo'q qiladi va havoyi yangilaydi.\n\nDavomi tungi vaqtda taymer bilan o'tkaziladi. 1-2 soat ozonlash odatda etarli. Ozon generatori quvvati: xona hajmiga qarab 25 m³ uchun soatiga 1 g. Ishchilar kelguniga keyin, ozon dispersiya bo'ladi, yengil yangi hid qoladi.",
+      "content": "Ofis kompaniyaning yuzi. Ifloslangan havo va noxush hidlar ishchilarni zararlab, ish unumdorlik va loyalligini kamaytirib, kompaniyaning tasviri va hamkorlari bilan munosabatlariga salbiy ta'sir ko'rsatadi.\n\nKo'pchilik binolarda havoda toksik moddalarning konsentratsiyasi tashqarida 2-5 marta yuqori. Benzol, formaldegid va ammiak mebeldan, kovradan, ofis jihozlari va tamomlardan chiqadi. Ozonlash bu ifloslantiruvchilarni samarali zaiflashtiradi.\n\nOzon barcha ishchilar va tashrif buyuruvchilar tegadigan sirtlarni dezinfeksiya qiladi: ish stoqlari, stul quloqlari, ofis jihozlari, kofe mashinalar. U sirtlar orqali viruslarni uzatishni kamaytiradi, hidlarni yo'q qiladi va havoyi yangilaydi.\n\nDavomi tungi vaqtda taymer bilan o'tkaziladi. 1-2 soat ozonlash odatda etarli. Ozon generatori quvvati: xona hajmiga qarab 25 m³ uchun soatiga 1 g. Ishchilar kelguniga keyin, ozon dispersiya bo'ladi, yengil yangi hid qoladi.",
       "benefits": [
         "Infeksiyaning tarqalishini oldini olish",
         "Havoda toksik moddalarni neytral qilish",
         "Ish sirtlarining dezinfeksiyasi",
         "Avtomatik tungi davomi",
-        "Ishchilarning unumiyligi oshishi",
+        "Ishchilarning unumdorlik oshishi",
         "Kompaniyaning yaxshi tasviri"
       ],
       "stats": {
@@ -38,7 +38,7 @@
       },
       "sections": {
         "intro": {
-          "text": "Ofis kompaniyaning yüzi. Ifloslangan havo va noxush hidlar ishchilarni zararlab, ish unumiyligi va loyalligini kamaytirib, kompaniyaning tasviri va hamkorlari bilan munosabatlariga salbiy ta'sir ko'rsatadi.",
+          "text": "Ofis kompaniyaning yuzi. Ifloslangan havo va noxush hidlar ishchilarni zararlab, ish unumdorlik va loyalligini kamaytirib, kompaniyaning tasviri va hamkorlari bilan munosabatlariga salbiy ta'sir ko'rsatadi.",
           "text2": "Olimlar topdilar-ki, ko'pchilik binolarda havoda zararli va toksik kimyoviy moddalarning konsentratsiyasi tashqarida 2-5 marta yuqori. Ba'zi ofiislarda ichki havo ifloslanimligi ba'zi toksik moddalar uchun tashqarida 70 marta yuqori bo'ladi."
         },
         "highlight1": {
@@ -71,14 +71,14 @@
         },
         "whatDisinfects": {
           "title": "Ozon ofisda nima dezinfeksiya qiladi",
-          "text": "Ozon barcha ishchilar va tashrif buyuruvchilar tegadigan sirtlarni dezinfeksiya qiladi. Gaz chuqur bo'lmalarni va jihozning orqasi, ventilatsiya tizimidagi qiyin erishiladigan joylarni penetratsiya qiladi.",
+          "text": "Ozon barcha ishchilar va tashrif buyuruvchilar tegadigan sirtlarni dezinfeksiya qiladi. Gaz chuqur bo'lmalarni va jihozning orqasi, ventilatsiya tizimidagi qiyin erishiladigan joylarni kirib boradi.",
           "items": [
             "Ish stoqlari va hisob-kitoblar",
             "Stul va o'rindiqlar quloqlari",
             "Klaviatura, sichqon, telefonlar",
             "Eshik tutgichlari va qo'l yog'diri",
-            "Ofis jihozlari va kofе mashinalar",
-            "Jalgasha xonalari va kovorking joylar",
+            "Ofis jihozlari va kofe mashinalar",
+            "Yig'ilish xonalari va kovorking joylar",
             "Ventilatsiya va konditsionerlash tizimlar"
           ]
         },
@@ -96,7 +96,7 @@
             },
             {
               "title": "Ekspozitsiya",
-              "description": "Ozon xona bo'ylab tarqalib, barcha chuqur bo'lmalar va uzoq burchaklarni penetratsiya qiladi. Konsentratsiya kerakli darajaga erishadi."
+              "description": "Ozon xona bo'ylab tarqalib, barcha chuqur bo'lmalar va uzoq burchaklarni kirib boradi. Konsentratsiya kerakli darajaga erishadi."
             },
             {
               "title": "Ventilatsiya",
@@ -108,7 +108,7 @@
           "tableData": [
             ["Ofis", "50 m³ gacha", "2-3 g/h", "60 min"],
             ["Ochiq makon", "100-300 m³", "5-10 g/h", "90 min"],
-            ["Jalgasha xonasi", "30-50 m³", "2 g/h", "40 min"],
+            ["Yig'ilish xonasi", "30-50 m³", "2 g/h", "40 min"],
             ["Kovorking", "200-500 m³", "10-20 g/h", "120 min"]
           ]
         },
@@ -123,7 +123,7 @@
             },
             {
               "parameter": "Qiyin erishiladigan joylar",
-              "value1": "Ha (gaz hamma yerga penetratsiya qiladi)",
+              "value1": "Ha (gaz hamma yerga kirib boradi)",
               "value2": "Yo'q"
             },
             {
@@ -191,7 +191,7 @@
     "public-transport": {
       "title": "Jamoaviy transport",
       "shortDesc": "Avtobuslar, tramvaylar va trolleybuslarning dezinfeksiyasi",
-      "content": "Jamoaviy transport infeksiya uzatishning yuqori xavf muhiti. Ozonlash tez va samarali avtobuslar, tramvaylar va trolleybuslarning ichki bo'lmalarini dezinfeksiya qiladi bir muddatlar orasida yoki tungi vaqtda.\n\nOzon barcha yo'lovchilar tegadigan sirtlarni dezinfeksiya qiladi: qo'l tutgichlari, o'rindiqlar, oynalar va devarlar. Gaz barcha chuqur bo'lmalar va qiyin erishiladigan joylarni penetratsiya qiladi to'liq ichki muomalasini ta'minlash. Hidlar va ko'k o'tishi ham bosiladi.\n\nDavomi: 20-40 daqiqa ichki bo'lma hajmiga qarab. Davomi keyin, 20 daqiqa ventilatsiya qiling yoki ozonni dispersiya qilish uchun mashinaning ventilatsiya tizimini yoqing.\n\nJihoz mashinaning quvvatiidan ishlashi mumkin (12V yoki 24V). Hechqanday ishchi qolishi kerak emas — ozonlashtirgichni yoqing va chiqib ket. Hechqanday sarflama mahsulotlar operatsion xarajatlarni kamaytiradi.",
+      "content": "Jamoaviy transport infeksiya uzatishning yuqori xavf muhiti. Ozonlash tez va samarali avtobuslar, tramvaylar va trolleybuslarning ichki bo'lmalarini dezinfeksiya qiladi bir muddatlar orasida yoki tungi vaqtda.\n\nOzon barcha yo'lovchilar tegadigan sirtlarni dezinfeksiya qiladi: qo'l tutgichlari, o'rindiqlar, oynalar va devarlar. Gaz barcha chuqur bo'lmalar va qiyin erishiladigan joylarni kirib boradi to'liq ichki muomalasini ta'minlash. Hidlar va ko'k o'tishi ham bosiladi.\n\nDavomi: 20-40 daqiqa ichki bo'lma hajmiga qarab. Davomi keyin, 20 daqiqa ventilatsiya qiling yoki ozonni dispersiya qilish uchun mashinaning ventilatsiya tizimini yoqing.\n\nJihoz mashinaning quvvatiidan ishlashi mumkin (12V yoki 24V). Hechqanday ishchi qolishi kerak emas — ozonlashtirgichni yoqing va chiqib ket. Hechqanday sarflama mahsulotlar operatsion xarajatlarni kamaytiradi.",
       "benefits": [
         "20-40 daqiqada tez davomi",
         "Barcha ichki sirtlarining dezinfeksiyasi",
@@ -225,11 +225,11 @@
       "sections": {
         "intro": {
           "text": "Jamoaviy transport infeksiya uzatishning yuqori xavf muhiti. Minglab yo'lovchilar har kuni bir xil sirtlarga tegasdi: qo'l tutgichlari, o'rindiqlar va tugmachalar. Ozonlash tez va samarali avtobuslar, tramvaylar va trolleybuslarning ichki bo'lmalarini dezinfeksiya qiladi bir muddatlar orasida yoki tungi vaqtda.",
-          "text2": "Qo'lbola dezinfeksiyasidan farqli o'laroq, ozon barcha chuqur bo'lmalar va qiyin erishiladigan joylarni penetratsiya qiladi, to'liq ichki muomalasini ta'minlash. Hechqanday kimyoviy qoldiq qolmaydi, bu yo'lovchilarda allergiya sabablashmasdan."
+          "text2": "Qo'lbola dezinfeksiyasidan farqli o'laroq, ozon barcha chuqur bo'lmalar va qiyin erishiladigan joylarni kirib boradi, to'liq ichki muomalasini ta'minlash. Hechqanday kimyoviy qoldiq qolmaydi, bu yo'lovchilarda allergiya sabablashmasdan."
         },
         "highlight1": {
           "title": "Ozonlashning afzalligi:",
-          "text": "gaz o'rindiqlar orasidagi chuqur bo'lmalarni, obivka ostiga, ventilatsiya tizimiga penetratsiya qiladi — qo'lbola tozalashi bilan erishmasa bo'ladigan joylar. Davomi keyin ichki bo'lma barcha patogenlardan azod."
+          "text": "gaz o'rindiqlar orasidagi chuqur bo'lmalarni, obivka ostiga, ventilatsiya tizimiga kirib boradi — qo'lbola tozalashi bilan erishmasa bo'ladigan joylar. Davomi keyin ichki bo'lma barcha patogenlardan azod."
         },
         "whatDisinfects": {
           "title": "Transport ichida ozon nima dezinfeksiya qiladi",
@@ -255,7 +255,7 @@
             },
             {
               "title": "Ozon ekspozitsiyasi",
-              "description": "Ozon ichki bo'lma bo'ylab tarqalib, barcha chuqur bo'lmalar va qiyin erishiladigan joylarni penetratsiya qiladi. Viruslar, bakteriyalar, ko'k yo'q qiladi."
+              "description": "Ozon ichki bo'lma bo'ylab tarqalib, barcha chuqur bo'lmalar va qiyin erishiladigan joylarni kirib boradi. Viruslar, bakteriyalar, ko'k yo'q qiladi."
             },
             {
               "title": "Ventilatsiya",
@@ -315,7 +315,7 @@
             ["Gripp viruslari", "5-10 min", "99.9%"],
             ["Stafilo aureusi", "10-15 min", "99.9%"],
             ["E. coli", "5-10 min", "99.9%"],
-            ["Ko'k va xamirlar", "15-20 min", "99%"],
+            ["Ko'k va mog'or", "15-20 min", "99%"],
             ["Hidlar (organik)", "20-30 min", "100%"]
           ]
         },
@@ -393,7 +393,7 @@
     "sports-facilities": {
       "title": "Sport zallari",
       "shortDesc": "Zallar va loker xonalarining dezinfeksiyasi",
-      "content": "Sport zallar, fitnes markazlar va loker xonalari infeksiya tarqalishi va maxsus hidlar uchun yuqori xavf. Ozonlash ikkala muammoni hal qiladi: jihoz dezinfeksiya qiladi va ter hidini yo'q qiladi.\n\nOzon bakteriyalar, viruslar, ko'k, xamirlar va parazit protozoalarni jihoz, turn, stol va mat'lardan yo'q qiladi. Gaz material porlarini penetratsiya qiladi chuqur dezinfeksiya uchun.\n\nSport joylar tungi vaqtda davoladi. 2-3 soat, xona hajmiga qarab 25 m³ uchun soatiga 1 g. Katta zallar va arenalar uchun, mobil ozonlashtirgichlar 60-120 g/h ishlatasdi.\n\nOzonlashtirgich o'chgach, ozon 2-3 soat xavfsiz darajaga tushadi. Faqat yengil yangi hid qoladi. Ishchilar davomi paytida kirishlari kerak emas.",
+      "content": "Sport zallar, fitnes markazlar va loker xonalari infeksiya tarqalishi va maxsus hidlar uchun yuqori xavf. Ozonlash ikkala muammoni hal qiladi: jihoz dezinfeksiya qiladi va ter hidini yo'q qiladi.\n\nOzon bakteriyalar, viruslar, ko'k, zamburug'lar va parazit protozoalarni jihoz, turn, stol va mat'lardan yo'q qiladi. Gaz material porlarini kirib boradi chuqur dezinfeksiya uchun.\n\nSport joylar tungi vaqtda ishlov beriladi. 2-3 soat, xona hajmiga qarab 25 m³ uchun soatiga 1 g. Katta zallar va arenalar uchun mobil ozonlashtirgichlar 60-120 g/h ishlatiladi.\n\nOzonlashtirgich o'chgach, ozon 2-3 soat xavfsiz darajaga tushadi. Faqat yengil yangi hid qoladi. Ishchilar davomi paytida kirishlari kerak emas.",
       "benefits": [
         "Samarali ter hidini yo'q qilish",
         "Sport jihoziining dezinfeksiyasi",
@@ -427,11 +427,11 @@
       "sections": {
         "intro": {
           "paragraph1": "Sport zallar, fitnes markazlar va loker xonalari infeksiya tarqalishi va maxsus hidlar uchun yuqori xavf. Ozonlash ikkala muammoni hal qiladi: jihoz dezinfeksiya qiladi va ter hidini butunlay yo'q qiladi, niqob qilmasdan.",
-          "paragraph2": "Ozon bakteriyalar, viruslar, ko'k, xamirlar va parazit protozoalarni jihoz, turn, stol va mat'lardan yo'q qiladi. Gaz material porlarini penetratsiya qiladi to'qimaning va yumshoq sirtlarning chuqur dezinfeksiyasini ta'minlash."
+          "paragraph2": "Ozon bakteriyalar, viruslar, ko'k, zamburug'lar va parazit protozoalarni jihoz, turn, stol va mat'lardan yo'q qiladi. Gaz material porlarini kirib boradi to'qimaning va yumshoq sirtlarning chuqur dezinfeksiyasini ta'minlash."
         },
         "warning": {
           "title": "Xamir infeksiyalari",
-          "text": "sport zallari uchun asosiy muammolardan biri. Atlettik oyoqlari, halqa xamir, kandidiyasiz loker xonalari, shower va sport jihozlari orqali uzatiladi. Ozon barcha sirtlarda xamir sporlarini yo'q qiladi."
+          "text": "sport zallari uchun asosiy muammolardan biri. Atlettik oyoqlari, qotma, kandidiyasiz loker xonalari, shower va sport jihozlari orqali uzatiladi. Ozon barcha sirtlarda mog'or sporlarini yo'q qiladi."
         },
         "whatDisinfects": {
           "title": "Ozon nima dezinfeksiya qiladi",
@@ -453,7 +453,7 @@
           "tableCaption": "Hidlarga qarshi ozon samaradorligi",
           "tableData": [
             ["Ter", "Teri bakteriyalari", "30-60 min"],
-            ["Namlik", "Ko'k va xamirlar", "60-90 min"],
+            ["Namlik", "Ko'k va mog'or", "60-90 min"],
             ["Qadim havo", "Ventilatsiya yetersizligi", "40-60 min"],
             ["Rezina", "Pol va mat'lar", "90-120 min"]
           ]
@@ -501,11 +501,11 @@
           "features": [
             {
               "title": "Loker xonalari",
-              "description": "Stol, shikastlar, pol — xamir infeksiya uzatishning asosiy nuqtalari"
+              "description": "Stol, shikastlar, pol — zamburug' infeksiyasini uzatishning asosiy nuqtalari"
             },
             {
               "title": "Shower bo'lmalari",
-              "description": "Namlik muhiti ko'k va xamir o'tishini rag'batlantiradi"
+              "description": "Namlik muhiti ko'k va mog'or o'sishini rag'batlantiradi"
             },
             {
               "title": "Kardio zona",
@@ -639,7 +639,7 @@
       "sections": {
         "intro": {
           "paragraph1": "Savdo markazlari massaviy jami bo'lgan joylari, ko'p tashrif buyuruvchilar oqimi. Minglab odamlar har kuni bir xil sirtlarga tegasdi: eskalatorlar, qo'l tutgichlari, lift tugmachalari, eshik tutgichlari. Ozonlash havo sifatini saqlaydi, hidlarni yo'q qiladi va infeksiya tarqalishini oldini olishga yordam beradi.",
-          "paragraph2": "Muntazam ozonlash ishning bo'sh vaqtida barcha sirtlarni dezinfeksiya qiladi, qiyin erishiladigan joylar va texnik zonalarni o'z ichiga olgan. Gaz barcha xonalarni penetratsiya qiladi, butun markazni keng davolashni ta'minlash."
+          "paragraph2": "Muntazam ozonlash ishning bo'sh vaqtida barcha sirtlarni dezinfeksiya qiladi, qiyin erishiladigan joylar va texnik zonalarni o'z ichiga olgan. Gaz barcha xonalarni kirib boradi, butun markazni keng davolashni ta'minlash."
         },
         "comfort": {
           "label": "Tashrif buyuruvchi farovonligi",

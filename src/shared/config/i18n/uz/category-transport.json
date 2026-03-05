@@ -5,7 +5,7 @@
     "public-buses": {
       "title": "Avtobuslar",
       "shortDesc": "Yo'lovchi avtobuslarini dezinfeksiya qilish",
-      "content": "Yo'lovchi avtobuslarini kundalik ozonlash infektsiya xavfini kamaytiradi, yoqimsiz hidlarni olib tashlaydi va yo'lovchilar uchun qulay muhit yaratadi. Qayta ishlash reyslar orasida yoki depoda kechasi o'tkaziladi.\n\nOzon barcha ichki sirtlarni dezinfeksiya qiladi: tutqichlar, o'rindiqlar, devorlar, pol va shiftga. Gaz o'rindiq qoplamasi, pol qoplamalari va ventilyatsiyaga kirib boradi — bakteriyalar va viruslar to'planishi mumkin bo'lgan hamma joyga.\n\nQayta ishlash: derazalar va eshiklarni yopiq holda 20-40 daqiqa. Generator ichkariga maksimal balandlikka o'rnatilib qo'yiladi. Qayta ishlashdan keyin 15-20 daqiqa havolantiring yoki ventilatsiya tizimini ishlating. Jarayon avtomatlashtirilib bo'ladi.\n\nUskunalar avtobusning quvvatidan (12V yoki 24V) yoki depoda 220V dan ishlashi mumkin. Mobil generatorlar bir necha avtobuslarni qayta islashi mumkin. Sarflar yo'q bo'lgani uchun operatsiya xarajatlari kam.",
+      "content": "Yo'lovchi avtobuslarini kundalik ozonlash infektsiya xavfini kamaytiradi, yoqimsiz hidlarni olib tashlaydi va yo'lovchilar uchun qulay muhit yaratadi. Qayta ishlash reyslar orasida yoki depoda kechasi o'tkaziladi.\n\nOzon barcha ichki sirtlarni dezinfeksiya qiladi: tutqichlar, o'rindiqlar, devorlar, pol va shiftga. Gaz o'rindiq qoplamasi, pol qoplamalari va ventilyatsiyaga kirib boradi — bakteriyalar va viruslar to'planishi mumkin bo'lgan hamma joyga.\n\nQayta ishlash: derazalar va eshiklarni yopiq holda 20-40 daqiqa. Generator ichkariga maksimal balandlikka o'rnatilib qo'yiladi. Qayta ishlashdan keyin 15-20 daqiqa shamollating yoki ventilatsiya tizimini ishlating. Jarayon avtomatlashtirilib bo'ladi.\n\nUskunalar avtobusning quvvatidan (12V yoki 24V) yoki depoda 220V dan ishlashi mumkin. Mobil generatorlar bir necha avtobuslarni qayta islashi mumkin. Sarflar yo'q bo'lgani uchun operatsiya xarajatlari kam.",
       "benefits": [
         "Infektsiyani oldini olish",
         "Salon hidlarini bartaraf etish",
@@ -74,7 +74,7 @@
             },
             {
               "title": "Havolantirish",
-              "description": "Barcha eshiklar va derazalarni oching, standart shamollatishni yoqing. Ozon to'liq chiqarilguncha 15-20 daqiqa havolantiring."
+              "description": "Barcha eshiklar va derazalarni oching, standart shamollatishni yoqing. Ozon to'liq chiqarilguncha 15-20 daqiqa shamollating."
             }
           ],
           "highlight": "Havolantirishdan keyin salonda yengil yangi hid qoladi — ozon to'liq kislorodga parchalanadi. Avtobus qo'shimcha qayta ishlashsiz liniyaga chiqishga tayyor."
@@ -281,7 +281,7 @@
             },
             {
               "title": "Havolantirish",
-              "description": "Derazalar va eshiklarni oching, kiruvchi ventilyatsiyani to'liq quvvatda yoqing. 20-30 daqiqa havolantiring."
+              "description": "Derazalar va eshiklarni oching, kiruvchi ventilyatsiyani to'liq quvvatda yoqing. 20-30 daqiqa shamollating."
             }
           ]
         },
@@ -797,7 +797,7 @@
             },
             {
               "title": "Havolantirish",
-              "description": "Eshiklar, sovutish mashinasining ventilyatsiyasini yoqing (agar bo'lsa). 15-20 daqiqa havolantiring."
+              "description": "Eshiklar, sovutish mashinasining ventilyatsiyasini yoqing (agar bo'lsa). 15-20 daqiqa shamollating."
             }
           ],
           "highlight": "Havolantirishdan keyin tana yuklashga tayyor. Ozon kislorodga parchalanadi, kimyoviy qoldiqlar yo'q, yuk ifloslanish xatari yo'q."

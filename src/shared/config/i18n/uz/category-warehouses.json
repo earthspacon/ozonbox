@@ -67,7 +67,7 @@
             ["5000 m³ dan yuqori", "Bir necha ustanovka", "120-180 daqiqa"]
           ],
           "hvacLabel": "HVAC bilan integratsiya:",
-          "hvacText": "Katta omborlar uchun ventilyatsiya tizimiga integratsiyalangan kanal ozon generatorlarini ishlatish tavsiya etiladi. Bu ozonning barcha hajm bo'ylab tekis tarqalishini va davolashdan keyin avtomatik provetrivaniyeni ta'minlaydi."
+          "hvacText": "Katta omborlar uchun ventilyatsiya tizimiga integratsiyalangan kanal ozon generatorlarini ishlatish tavsiya etiladi. Bu ozonning barcha hajm bo'ylab tekis tarqalishini va davolashdan keyin avtomatik shamollatishni ta'minlaydi."
         },
         "processModes": {
           "title": "Omborni davolash rejimlari",
@@ -83,7 +83,7 @@
             },
             {
               "title": "Davolash tugagandan keyin eshiklar va derazalarni oching, 20-60 daqiqa provetrivaniye qiling",
-              "description": "Ta'minlovchi ventilyatsiya tizimini yoqib provetrivaniyeni tezlashtiring"
+              "description": "Ta'minlovchi ventilyatsiya tizimini yoqib shamollatishni tezlashtiring"
             },
             {
               "title": "Tungi davolash uchun provetrivaniye talab etilmaydi — ozon 2-3 soatda tarqaladi",

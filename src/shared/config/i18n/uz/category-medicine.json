@@ -5,7 +5,7 @@
     "hospitals": {
       "title": "Kasalxonalar va operatsiya xonalari",
       "shortDesc": "Palatalar va operatsiya blokalarining sterilizatsiyasi",
-      "content": "Kasalxona ozonlashi yuqori darajadagi sterillikni ta'minlaydi, bu nosokomial infektsiyalarni oldini olish uchun juda muhimdir. Ozon bakteriya, viruslar, sporalar va xamirlarni 99,99% samara bilan yo'q qiladi.\n\nOperatsiya bloklar maxsus sanitarya rejimlarini talab qiladi. Operatsiyadan keyin ozonlash barcha sirtlarning, shu jumladan qiyin yorgan joylarning chuqur dezinfeksiyasini ta'minlaydi: uskunaning teschasida, ventilyatsiya tizimlarida, shponka qo'zg'atuvchilarda.\n\nRezistansiya xonalari va qayta tiklash xonalari bemorlar o'rtasida infeksiya uzatish xavfining yuqori zonalaridir. Muntazam ozonlash havoda va sirtlarda mikrob yükini kamaytiradi, standart tozalash protokollarini to'ldiradi.\n\nOzon antibiotiklaraga chidamli bakteriyalarga, shu jumladan MRSA va VRE ga karshi samarali, bu sog'liqni saqlashda jiddiy xavf. Ishlov berishdan keyin ozon kislorodga parchalanadi, toksik qoldiqlar qolmaydi, bu bemor xavfsizligi uchun muhimdir.",
+      "content": "Kasalxona ozonlashi yuqori darajadagi sterillikni ta'minlaydi, bu nosokomial infektsiyalarni oldini olish uchun juda muhimdir. Ozon bakteriya, viruslar, sporalar va zamburug'larni 99,99% samara bilan yo'q qiladi.\n\nOperatsiya bloklar maxsus sanitarya rejimlarini talab qiladi. Operatsiyadan keyin ozonlash barcha sirtlarning, shu jumladan qiyin erishiladigan joylarning chuqur dezinfeksiyasini ta'minlaydi: uskunaning teschasida, ventilyatsiya tizimlarida, shponka qo'zg'atuvchilarda.\n\nRezistansiya xonalari va qayta tiklash xonalari bemorlar o'rtasida infeksiya uzatish xavfining yuqori zonalaridir. Muntazam ozonlash havoda va sirtlarda mikrob yükini kamaytiradi, standart tozalash protokollarini to'ldiradi.\n\nOzon antibiotiklaraga chidamli bakteriyalarga, shu jumladan MRSA va VRE ga karshi samarali, bu sog'liqni saqlashda jiddiy xavf. Ishlov berishdan keyin ozon kislorodga parchalanadi, toksik qoldiqlar qolmaydi, bu bemor xavfsizligi uchun muhimdir.",
       "benefits": [
         "99,99% patogenlarga qarshi samaradorlik",
         "Nosokomial infektsiyalarga qarshi kurash",
@@ -58,7 +58,7 @@
         },
         "operating-rooms": {
           "title": "Operatsiya blokalarini ozonlash",
-          "text": "Operatsiya bloklar maxsus sanitarya rejimlarini talab qiladi. Dezinfektantlar bilan an'anaviy tozalash barcha sirtlarni ishlov berish imkonini bermaydi — ozon gaz bo'lgani uchun uskunaning teschasiga, ventilyatsiya tizimlariga, uskunaning orqasidagi qiyin yorgan joylariga penetratsiya qiladi.",
+          "text": "Operatsiya bloklar maxsus sanitarya rejimlarini talab qiladi. Dezinfektantlar bilan an'anaviy tozalash barcha sirtlarni ishlov berish imkonini bermaydi — ozon gaz bo'lgani uchun uskunaning teschasiga, ventilyatsiya tizimlariga, uskunaning orqasidagi qiyin erishiladigan joylariga kirib boradi.",
           "table": {
             "caption": "Operatsiya xonalari uchun ozonlash rejimi",
             "headers": ["Ishlov berish turi", "Kontsentratsiya", "Ishlov berish vaqti", "Chastotasi"],
@@ -118,7 +118,7 @@
           "rows": [
             {
               "parameter": "Sirtni qoplamishi",
-              "value1": "100% (qiyin yorgan joylar o'z ichiga olib)",
+              "value1": "100% (qiyin erishiladigan joylar o'z ichiga olib)",
               "value2": "70-80% (faqat erishiladigan)"
             },
             {
@@ -157,7 +157,7 @@
             },
             {
               "title": "To'liq qoplamishi",
-              "description": "Gaz hamma yerga penetratsiya qiladi: teschasiga, uskunaning orqasiga, ventilyatsiyaga, mebel ostiga"
+              "description": "Gaz hamma yerga kirib boradi: teschasiga, uskunaning orqasiga, ventilyatsiyaga, mebel ostiga"
             },
             {
               "title": "Qoldiqlar yo'q",
@@ -188,11 +188,11 @@
       "title": "Tibbiy uskunalarni sterilizatsiya qilish",
       "shortDesc": "Asboblar va qurilmalarni sterilizatsiya qilish",
       "heroText": "Issiqlikka sezgir endoskoplar, plastik mahsulotlar va elektronikaning past haroratda ozon sterilizatsiyasi. Zarar bermaydigan ishlov berish bilan issiqlikka sezgir tibbiy uskunalarning to'liq davolash.",
-      "content": "Ozon yuqori harorat yoki qattiq kimyoviy moddalar bilan ishlov berilmasa bo'lmaydigan tibbiy uskunalarni sterilizatsiya qilish uchun ishlatiladi: endoskoplar, plastik buyumlar, elektronika, optika.\n\nPast haroratda ozon sterilizatsiyasi issiqlikka sezgir uskunalar uchun avtoklavning alternatividir. Jarayon 25–35°C va 80–90% nisbiy namlik sharoitida o'tadi, bu ko'pchilik materiallar uchun xavfsizdir.\n\nEndoskopik uskunalar ayniqsa talabchii. Tor kanallar bilan murakkab yasalish an'anaviy usullar bilan to'liq ishlov berish xavfini yaratadi. Ozon gazi barcha bo'shliqlar va kanallarni penetratsiya qiladi to'liq sterilizatsiyani ta'minlash uchun.\n\nOzon sterilizatsiya siklki o'z ichiga oladi: ishlov berishdan oldin namlanish, ozon atmosferasida 30–60 daqiqa davomida ekspoze va gazni chiqarish. Usul sog'liqni saqlashda foydalanish uchun tasdiqlanadi va sterilizatsiya standartlariga javob beradi.",
+      "content": "Ozon yuqori harorat yoki qattiq kimyoviy moddalar bilan ishlov berilmasa bo'lmaydigan tibbiy uskunalarni sterilizatsiya qilish uchun ishlatiladi: endoskoplar, plastik buyumlar, elektronika, optika.\n\nPast haroratda ozon sterilizatsiyasi issiqlikka sezgir uskunalar uchun avtoklavning alternatividir. Jarayon 25–35°C va 80–90% nisbiy namlik sharoitida o'tadi, bu ko'pchilik materiallar uchun xavfsizdir.\n\nEndoskopik uskunalar ayniqsa talabchii. Tor kanallar bilan murakkab yasalish an'anaviy usullar bilan to'liq ishlov berish xavfini yaratadi. Ozon gazi barcha bo'shliqlar va kanallarni kirib boradi to'liq sterilizatsiyani ta'minlash uchun.\n\nOzon sterilizatsiya siklki o'z ichiga oladi: ishlov berishdan oldin namlanish, ozon atmosferasida 30–60 daqiqa davomida ekspoze va gazni chiqarish. Usul sog'liqni saqlashda foydalanish uchun tasdiqlanadi va sterilizatsiya standartlariga javob beradi.",
       "benefits": [
         "Past haroratda sterilizatsiya",
         "Plastik va elektronika uchun xavfsiz",
-        "Tor kanallarga penetratsiya",
+        "Tor kanallarga kirib boradi",
         "Endoskop ishlov berish",
         "Optikada shikast yo'q",
         "Tibbiy standartlarga muvofiqlik"
@@ -222,7 +222,7 @@
       "sections": {
         "intro": {
           "text": "Zamonaviy tibbiy uskunalar ko'pincha issiqlikka sezgir materiallarni o'z ichiga oladi: plastik, elektronika, optika, ularni autoklav ichida sterilizatsiya qilish mumkin emas. Ozon sterilizatsiyasi 25-35°C da ishlayotgan samarali alternativdir.",
-          "text2": "Ozon hujayra membranalarini buzish orqali bakteriya, viruslar, sporalar va xamirlarni yo'q qiluvchi kuchli oksidizer. Shu bilan birga, toksik qoldiqlar qoldirmaydi va ishlov berishdan keyin 20-30 daqiqada kislorodga parchalanadi."
+          "text2": "Ozon hujayra membranalarini buzish orqali bakteriya, viruslar, sporalar va zamburug'larni yo'q qiluvchi kuchli oksidizer. Shu bilan birga, toksik qoldiqlar qoldirmaydi va ishlov berishdan keyin 20-30 daqiqada kislorodga parchalanadi."
         },
         "highlight1": {
           "title": "Muhim:",
@@ -252,7 +252,7 @@
               ["Laparoscoplar", "30-50 ppm", "25-35 daqiqa", "Kompakt dizayn"]
             ]
           },
-          "highlight": "Ozon 1 mm diametrli kanallarni penetratsiya qiladi, shuning uchun suyuq dezinfektantlar uchun ochiq bo'lmagan joylarning sterilizatsiyasini ta'minlaydi. Bu nosokomial infektsiyalarni oldini olish uchun kritikaldir."
+          "highlight": "Ozon 1 mm diametrli kanallarni kirib boradi, shuning uchun suyuq dezinfektantlar uchun ochiq bo'lmagan joylarning sterilizatsiyasini ta'minlaydi. Bu nosokomial infektsiyalarni oldini olish uchun kritikaldir."
         },
         "lowtemp": {
           "title": "Past haroratda sterilizatsiya jarayoni",
@@ -260,11 +260,11 @@
           "steps": [
             {
               "title": "Ishlov berishdan oldin namlanish",
-              "description": "Kamerada namlikni 80-90% ga ko'tarish. Namlik ozonning bakteritsid ta'sirini kuchaytiradi va uning mikroparlarga penetratsiyasini ta'minlaydi."
+              "description": "Kamerada namlikni 80-90% ga ko'tarish. Namlik ozonning bakteritsid ta'sirini kuchaytiradi va uning mikroparlarga kirib borishini ta'minlaydi."
             },
             {
               "title": "Ozon saturatsiyasi",
-              "description": "40-80 ppm kontsentratsiyasiga ozon ta'minoti. Gaz kamera bo'ylab tekis tarqalib va barcha uskunalar bo'shliqlariga penetratsiya qiladi."
+              "description": "40-80 ppm kontsentratsiyasiga ozon ta'minoti. Gaz kamera bo'ylab tekis tarqalib va barcha uskunalar bo'shliqlariga kirib boradi."
             },
             {
               "title": "Ekspoze",
@@ -337,7 +337,7 @@
             "Tez ishlov berish sikli — uskunalar o'tmashi yuqori",
             "Toksik qoldiqlar yo'q — bemor xavfsizligi",
             "Kam operatsion xaraji — minimal iste-foydalanish",
-            "Qiyin yorgan joylarni penetratsiya — to'liq kanal sterilizatsiyasi",
+            "Qiyin erishiladigan joylarga kirib boradi — to'liq kanal sterilizatsiyasi",
             "Tibbiy qurilmalarni sterilizatsiya qilish standartlariga muvofiqlik"
           ],
           "warning": "Ozonatorlar bilan ishlashda xavfsizlik ehtiyotchaligi kuzatilishi kerak: ozon inhale qilinganda toksikdir. Sterilizatsiya kamerlari muhr tutilishi kerak. Ish sohada ozonning PDK 0,1 mg/m³."
@@ -351,7 +351,7 @@
     "dental": {
       "title": "Stomatologiya klinikalar",
       "shortDesc": "Kabinetlar va asboblarni sterilizatsiya qilish",
-      "content": "Stomatologiya protseduralar potentsial patogen mikroorganizmlar bilan aerosolni yaratadi. Bemorlar o'rtasida dento-laboratoriyalarni ozonlash hava va barcha sirtlarning dezinfeksiyasini ta'minlaydi, o'zaro infeksiya xavfini kamaytiradi.\n\nZamonaviy stomatologiya ozonni nafaqat xona dezinfeksiyasi uchun, balki terapiyaviy maqsadda ham ishlatadi: karixlarni davolash, periodontal kasalliklarni davolash, ildiz kanalini dezinfeksiya qilish.\n\nHar bir bemordan keyin stomatologiya kabinetini ozonlash 15–20 daqiqani oladi va tanaffuslar paytida o'tkazilishi mumkin. Gaz uskunaning qiyin yorgan qismlariga penetratsiya qiladi: shlanglarga, quloq qismiga, suv liniyalariga.\n\nIshlov berish tezligi va dezinfeksiyadan keyin kimyoviy hidlarning yo'qligi stomatologiya klinikalar uchun ayniqsa muhimdir. Ozon 20–30 daqiqada kislorodga parchalanadi, engil yangi hid qoladi. Bemorlar yoqimli atmosferani qayd etadi.",
+      "content": "Stomatologiya protseduralar potentsial patogen mikroorganizmlar bilan aerosolni yaratadi. Bemorlar o'rtasida dento-laboratoriyalarni ozonlash hava va barcha sirtlarning dezinfeksiyasini ta'minlaydi, o'zaro infeksiya xavfini kamaytiradi.\n\nZamonaviy stomatologiya ozonni nafaqat xona dezinfeksiyasi uchun, balki terapiyaviy maqsadda ham ishlatadi: karixlarni davolash, periodontal kasalliklarni davolash, ildiz kanalini dezinfeksiya qilish.\n\nHar bir bemordan keyin stomatologiya kabinetini ozonlash 15–20 daqiqani oladi va tanaffuslar paytida o'tkazilishi mumkin. Gaz uskunaning qiyin erishiladigan qismlariga kirib boradi: shlanglarga, quloq qismiga, suv liniyalariga.\n\nIshlov berish tezligi va dezinfeksiyadan keyin kimyoviy hidlarning yo'qligi stomatologiya klinikalar uchun ayniqsa muhimdir. Ozon 20–30 daqiqada kislorodga parchalanadi, engil yangi hid qoladi. Bemorlar yoqimli atmosferani qayd etadi.",
       "benefits": [
         "Har bir bemordan keyin dezinfeksiya",
         "15–20 daqiqada ishlov berish",
@@ -416,7 +416,7 @@
               ["Yuqumli bemordan keyin", "20-30 mg/m³", "60-90 daqiqa", "Ko'rsatilganda"]
             ]
           },
-          "highlight": "Ozon uskunalarning qiyin yorgan joylariga penetratsiya qiladi: shlanglarga, quloq qismiga, suv ta'minot tizimiga — an'anaviy silkitish imkonsiz bo'lgan joylar."
+          "highlight": "Ozon uskunalarning qiyin erishiladigan joylariga kirib boradi: shlanglarga, quloq qismiga, suv ta'minot tizimiga — an'anaviy silkitish imkonsiz bo'lgan joylar."
         },
         "ozonotherapy": {
           "title": "Stomatologiyada ozon terapiyasi",
@@ -641,7 +641,7 @@
     "ambulances": {
       "title": "Shifoxona mashinalar",
       "shortDesc": "Tibbiy transportni tez dezinfeksiya qilish",
-      "content": "Shifoxona mashinalar turli yuqumli kasalliklar bilan bemorlarni tashiladi. Qo'ng'iroqlar o'rtasida tez va samarali dezinfeksiya infeksiya tarqalishini oldini olish uchun juda muhimdir.\n\nShifoxona mashinasining ichining ozonlashi 20–30 daqiqani oladi va barcha sirtlarning to'liq dezinfeksiyasini ta'minlaydi: dandalanlar, uskunalar, qo'l tutgichlari, pol, devarlar va shponka. Gaz o'rindiq obivkasi va qiyin yorgan joylarni penetratsiya qiladi.\n\nDezinfektantlar bilan an'anaviy silkitish gaz dezinfeksiyasi kabi ishlov berish darajasiga erishmasa. Ozon qo'lda silkitish imkonsiz joylarni erishadi va havoda patogenlarni yo'q qiladi.\n\nShifoxona mashinalari uchun mobil ozon generatorlari 12V yoki 24V mashinaning quvvatida ishlaydi. Uskunalar juda kompakt va kabinada saqlansa bo'ladi. Ishlov berishdan keyin 10–15 daqiqada ventilyatsiya qiling. Mashinа keyingi qo'ng'iroqqa tayyor.",
+      "content": "Shifoxona mashinalar turli yuqumli kasalliklar bilan bemorlarni tashiladi. Qo'ng'iroqlar o'rtasida tez va samarali dezinfeksiya infeksiya tarqalishini oldini olish uchun juda muhimdir.\n\nShifoxona mashinasining ichining ozonlashi 20–30 daqiqani oladi va barcha sirtlarning to'liq dezinfeksiyasini ta'minlaydi: dandalanlar, uskunalar, qo'l tutgichlari, pol, devarlar va shponka. Gaz o'rindiq obivkasi va qiyin erishiladigan joylarni kirib boradi.\n\nDezinfektantlar bilan an'anaviy silkitish gaz dezinfeksiyasi kabi ishlov berish darajasiga erishmasa. Ozon qo'lda silkitish imkonsiz joylarni erishadi va havoda patogenlarni yo'q qiladi.\n\nShifoxona mashinalari uchun mobil ozon generatorlari 12V yoki 24V mashinaning quvvatida ishlaydi. Uskunalar juda kompakt va kabinada saqlansa bo'ladi. Ishlov berishdan keyin 10–15 daqiqada ventilyatsiya qiling. Mashina keyingi qo'ng'iroqqa tayyor.",
       "benefits": [
         "20–30 daqiqada tez dezinfeksiya",
         "Barcha sirtlarning to'liq ishlov berish",

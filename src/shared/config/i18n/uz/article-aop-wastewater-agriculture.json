@@ -39,7 +39,7 @@
   "tables": {
     "table1": {
       "caption": "1-jadval. Oddiy va katalitik ozonlashdan 2 va 6 soatdan keyin CFA (klofibrik kislota) mineralizatsiya darajasi",
-      "headers": ["Katalizator", "Mineralizatsiya 2s, %", "Mineralizatsiya 6s, %", "Metalllar cho'kishi"],
+      "headers": ["Katalizator", "Mineralizatsiya 2 soat, %", "Mineralizatsiya 6 soat, %", "Metalllar cho'kishi"],
       "rows": [
         ["Katalizatorsiz (O₃)", "8", "15", "—"],
         ["Gidrotalsit Mg-Al", "35", "58", "Past"],

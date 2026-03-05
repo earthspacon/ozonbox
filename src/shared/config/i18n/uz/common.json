@@ -1,7 +1,11 @@
 {
+  "breadcrumb": {
+    "home": "Bosh sahifa",
+    "applications": "Qo'llanilishi"
+  },
   "meta": {
     "title": "OZONOXY — Biznes uchun ozonlash va dezinfeksiya",
-    "description": "Parranda parvarishlash, oziq-ovqat sanoati, HoReCa va tibbiyot uchun professional ozonlash tizimlari. Xlordan 300 marta samaraliroq. Bepul konsultatsiya."
+    "description": "Parrandachilik, oziq-ovqat sanoati, HoReCa va tibbiyot uchun professional ozonlash tizimlari. Xlordan 300 marta samaraliroq. Konsultatsiya bepul."
   },
   "nav": {
     "technology": "Texnologiya",
@@ -92,7 +96,7 @@
   },
   "aboutOzone": {
     "title": "Ozon nima",
-    "titleHighlight": "ekanligi",
+    "titleHighlight": "ozon",
     "p1": "Ozon (O₃) — uch atomli kislorod molekulasi, kuchli tabiiy oksidlovchi. Atmosfera kislorodidan elektr razryadi yordamida hosil bo'ladi.",
     "p2": "Mikroorganizmlar bilan aloqada ozon ularning hujayra membranalarini yo'q qiladi, so'ng oddiy kislorodga (O₂) parchalanadi, zararli kimyoviy qoldiqlarni qoldirmaydi.",
     "list": {
@@ -100,12 +104,12 @@
       "onsite": "Joyda havodan ishlab chiqariladi",
       "safe": "Parchalanishdan keyin odamlar va hayvonlar uchun xavfsiz"
     },
-    "moreAbout": "Texnologiya haqida ko'proq"
+    "moreAbout": "Texnologiya haqida batafsil"
   },
   "applications": {
     "title": "Qo'llash",
     "titleHighlight": "sohalari",
-    "subtitle": "Ozonlash turli sohalarda dezinfeksiya, sanitariya va mahsulot sifatini oshirish uchun ishlatiladi",
+    "subtitle": "Ozonlash turli sohalarda dezinfeksiya, tozalash va mahsulot sifatini oshirish uchun qo'llaniladi",
     "more": "Batafsil",
     "viewAll": "Barcha qo'llash sohalari",
     "poultry": {
@@ -131,7 +135,7 @@
     "categories": {
       "medicine": {
         "title": "Tibbiyot",
-        "text": "Tibbiy muassasalar uchun ozonlash eng yuqori darajadagi sterillikni ta'minlaydi, SanPiN talablariga javob beradi. Barcha turdagi patogenlarga qarshi samarali, shu jumladan xlorga chidamli viruslarga."
+        "text": "Tibbiy muassasalar uchun ozonlash SanPiN talablariga mos eng yuqori sterillikni beradi. Barcha patogenlar, jumladan xlorga chidamli viruslarga qarshi samarali."
       },
       "agriculture": {
         "title": "Qishloq xo'jaligi",
@@ -147,11 +151,11 @@
       },
       "water-treatment": {
         "title": "Suvni tozalash",
-        "text": "Ozon suvni tozalashning eng samarali va ekologik toza usuli. Ichimlik suvi, chiqindi suvlari, basseynlar va temir olib tashlash."
+        "text": "Ozon suvni tozalashning eng samarali va ekologik toza usuli. Ichimlik suvi, oqova suvlar, basseynlar va temir olib tashlash."
       },
       "warehouses": {
-        "title": "Omborxonalar",
-        "text": "Omborxona binolarini ozonlash mog'or o'sishini oldini oladi, hidlarni boshqaradi va saqlanayotgan tovarlarni saqlaydi."
+        "title": "Omborlar",
+        "text": "Ombor binolarini ozonlash mog'or o'sishini oldini oladi, hidlarni kamaytiradi va tovarlarning saqlanishini ta'minlaydi."
       },
       "disinfection": {
         "title": "Dezinfeksiya",
@@ -399,8 +403,8 @@
     "content": {
       "title": "Biz",
       "titleHighlight": "OZONOXY",
-      "p1": "Biz ozon texnologiyalari bo'yicha mutaxassislar jamoasimiz. Bizning missiyamiz — dezinfeksiyani har qanday o'lchamdagi bizneslar uchun xavfsiz, samarali va qulay qilish.",
-      "p2": "Biz kelajak ekologik toza texnologiyalarga tegishli ekanligiga ishonamiz, ular atrof-muhit va inson salomatligiga zarar yetkazmaydi. Ozonlash aynan shunday texnologiyadir.",
+      "p1": "Biz ozon texnologiyalari bo'yicha mutaxassislar jamoasimiz. Missiyamiz — dezinfeksiyani har qanday biznes uchun xavfsiz, samarali va arzon qilish.",
+      "p2": "Kelajak ekologik toza texnologiyalarga tegishli — ular atrof-muhit va odam salomatligiga zarar bermaydi. Ozonlash aynan shunday texnologiya.",
       "services": {
         "consulting": "Joriy etish bo'yicha konsultatsiya",
         "equipment": "Uskunalarni tanlash",
@@ -444,10 +448,10 @@
     }
   },
   "contactsPage": {
-    "pageTitle": "Kontaktlar — OZONOXY",
-    "pageDescription": "OZONOXY bilan bog'laning — ozonlash tizimlari bo'yicha bepul maslahat oling. Telefon, email, qayta aloqa formasi.",
+    "pageTitle": "Aloqa — OZONOXY",
+    "pageDescription": "OZONOXY bilan bog'laning — ozonlash tizimlari bo'yicha bepul konsultatsiya. Telefon, email, murojaat formasi.",
     "header": {
-      "title": "Kontaktlar",
+      "title": "Aloqa",
       "subtitle": "Bepul maslahat uchun biz bilan bog'laning"
     },
     "form": {
