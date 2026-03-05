@@ -1,0 +1,109 @@
+{
+  "title": "HoReCa",
+  "description": "Mehmonxonalar, restoranlar, kir yuvish xonalari va boshqa mehmonxona muassasalari qulay muhit yaratish, hidlarni yo'q qilish va yuqori gigiyena standartlarini saqlash uchun ozonlashdan foydalanadi.",
+  "subcategories": {
+    "tobacco-hookah": {
+      "title": "Nargila zallari va tabak",
+      "shortDesc": "O'qib turgan hidi yo'q qilish",
+      "heroTitle": "Nargila zali va tabak ozonlashi",
+      "heroDesc": "O'qib turgan hidi kimyoviy yo'q qilish. Maskalamasdan — to'liq neytrallashtirish 60–120 daqiqada.",
+      "content": "O'qib turgan, eskilashgan sigareta va nargila hidi tashrif qiluvchilarni bezdirtsa oladi. Hatto nargila zallarida mehmonlar yangi nargila aromasi yoqsa ham, muammo bor: tutun mebel va qaplotlashga sutkaga kirganda, aromat qo'shimchalar tez poyab, faqat noqulaylik tutun va qatron hidi qoladi.\n\nOzonlash bunday hidlarni maskalamasdan, balki kimyoviy yo'q qilishning yagona samarali usuli. Ozon hid molekulalarni suv va karbon dioksidga yoki hidsi bo'lmagan oksidlash mahsulotlariga oksidlaydi.\n\nTabaka va nargila tutuni tar o'z ichiga oladi, ular to'qimlarga kirib boradi: to'qimalar, yog'och, qaplotlash, plita, gilam. Vaqt o'tishi bilan bu moddalar to'planadi va doimiy noqulaylik hidi yaratadi.\n\nMuntazam ozonlash ishdan chiqish soatlarida hava yangi qoladi. To'g'ri boshlash va tugash vaqti bilan, ozon xodimlar kelishidan oldin poyab.",
+      "benefits": [
+        "Kimyoviy yo'q qilish, maskallash emas",
+        "Qo'l yetmaydigan joylarni penetratsiya",
+        "To'qimalar va mebel ishlov berish",
+        "Taymer bilan avtomatik ishlash",
+        "Isteʼmol vositalari yo'q",
+        "2–3 soatda kislorodga parchalanishi"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "60-120",
+          "label": "Ishlov berish daqiqlari",
+          "description": "To'liq ishlov berish siklsi"
+        },
+        "stat2": {
+          "value": "100%",
+          "label": "Hidi yo'q qilish",
+          "description": "Kimyoviy neytrallashtirish"
+        },
+        "stat3": {
+          "value": "2-3",
+          "label": "Ventilatsiya soatlari",
+          "description": "Ozon parchalanishi"
+        }
+      },
+      "odorSources": [
+        "To'qimalar (pardalar, qaplotlash, yostiqlar) — asosiy hidi xonjiragi",
+        "Qaplotilgan mebel — qatron tolalarni kirib boradi",
+        "Plita materiallar — ayniqsa meskitlilar",
+        "Ventilatsiya kanallar — ifloslanish to'planishi",
+        "Qo'l yetmaydigan joylar — teschaliklar, tikishlar, bo'shliklari"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "O'qib turgan, eskilashgan sigareta va nargila hidi tashrif qiluvchilarni bezdirtsa oladi. Hatto nargila zallarida mehmonlar yangi nargila aromasi yoqsa ham, muammo bor: tutun mebel va qaplotlashga sutkaga kirganda, aromat qo'shimchalar tez poyab, faqat noqulaylik tutun va qatron hidi qoladi.",
+          "paragraph2": "Ozonlash bunday hidlarni maskalamasdan, balki kimyoviy yo'q qilishning yagona samarali usuli. Ozon hid molekulalarni suv va karbon dioksidga yoki hidsiz oksidlash mahsulotlariga oksidlaydi. Tabaka va nargila tutuni tar o'z ichiga oladi, ular to'qimlarga kirib boradi: to'qimalar, yog'och, qaplotlash, plita, gilam. Vaqt o'tishi bilan bu moddalar to'planadi va doimiy noqulaylik hidi yaratadi."
+        },
+        "benefits": {
+          "title": "Nargila zallari uchun ozonlashning foydalari",
+          "items": [
+            {
+              "title": "Kimyoviy yo'q qilish, maskallash emas",
+              "description": "Ozon hid molekulalarni molekulyar darajada yo'q qiladi, manbani to'liq bartaraf etadi, uni xushbo'y bilan niqob qilmaydi."
+            },
+            {
+              "title": "Qo'l yetmaydigan joylarni penetratsiya",
+              "description": "Gaz bo'lgani uchun, ozon to'qimalar, mebel to'ldiruvchisi, plita materiallar va ventilatsiya kanallariga chuqur kirib boradi, bu yerda tutun zarralari to'planadi."
+            },
+            {
+              "title": "To'qimalar va mebel ishlov berish",
+              "description": "Ozon barcha porli materiallarni, jumladan pardalar, qaplotlash, yostiqlar va gilamlarni zarar yetkazmasdan samarali ishlov beradi."
+            },
+            {
+              "title": "Taymer bilan avtomatik ishlash",
+              "description": "Zamonaviy ozonatorlarni ishdan chiqish soatlarida avtomatik ishga tushirishni dasturlash mumkin, xodimlarning qatnashmasi bo'lmasdan ochilish vaqtida yangi havo ta'minlaydi."
+            },
+            {
+              "title": "Iste'mol vositalari talab qilmaydi",
+              "description": "Ozon havadan istehso qilinadi, bu qimmat havo yangilantiruvchilari, xushbo'y yoki kimyoviy dezodorantlarni talab qilmaydi."
+            },
+            {
+              "title": "Xavfsiz parchalanish",
+              "description": "Ozon tabiiy ravishda 2-3 soat ichida kislorodga parchalanadi, faqat zararli qoldiqlar yoki yon mahsulotlarsiz yangi havo qoldiradi."
+            }
+          ]
+        },
+        "modes": {
+          "title": "Ishlov berish rejimlari",
+          "tableHeaders": [
+            "Rejim",
+            "Vaqt",
+            "Chastotasi",
+            "Natija"
+          ],
+          "tableData": [
+            [
+              "Kunlik oldini olish",
+              "60 daqiqa",
+              "Har kecha",
+              "Yangilikiini saqlash"
+            ],
+            [
+              "Shoshqaloq kechdan keyin",
+              "90-120 daqiqa",
+              "Kerak bo'lganda",
+              "Chuqur tozalash"
+            ],
+            [
+              "Eskilashgan hidi",
+              "2-3 soat",
+              "Ketma-ket 3-5 kun",
+              "To'liq yo'q qilish"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

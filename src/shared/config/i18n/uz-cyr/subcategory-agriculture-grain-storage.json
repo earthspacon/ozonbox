@@ -1,0 +1,366 @@
+{
+  "title": "Qishloq xo'jaligi",
+  "description": "Qishloq xo'jaligida ozonlash hosildorlikni oshiradi, mahsulotlarning saqlash muddatini uzaytiradi va bioxavfsizlikni ta'minlaydi. Kimyoviy pestitsidlar va konservantlarga ekologik toza muqobil.",
+  "subcategories": {
+    "grain-storage": {
+      "title": "Donni saqlash",
+      "shortDesc": "Zararkunandalar va mikroorganizmlardan kimyoviy moddalarsiz himoya qilish",
+      "heroText": "Zararkunandalar va mikroorganizmlardan kimyoviy moddalarsiz himoya qilish. 95–99% hasharotlarni yo'q qilish, saqlashdagi nobud bo'lishni 40–60% ga kamaytirish.",
+      "content": "Donni saqlash muhim jarayon bo'lib, unda zararkunandalardan ko'riladigan zarar jahon ishlab chiqarishining 5 dan 50% gacha qismini tashkil qilishi mumkin. Urug' va donni ozonlash zararkunandalarni samarali nazorat qiladi va mog'or tarqalishining oldini oladi.\n\nOzon hasharotlar va kanalarga rivojlanishning barcha bosqichlarida ta'sir qiladi. 30–60 daqiqa davomida 30–60 mg/m³ bilan ishlov berishdan keyin don qandalasi, guruch qandalasi va don kemiruvchisining o'limi 95–99% ga yetadi.\n\n15 daqiqadan 1 soatgacha bo'lgan ekspozitsiyada donni dezinfeksiya qilish darajasi umumiy ifloslanish uchun 80–95% va mog'or zamburug'lari uchun 80–90% ga yetadi. Ishlov berish sezgi yoki ozuqaviy sifatni yomonlashtirmaydi.\n\nUrug'larni ekishdan oldin ozonlash unib chiqishni va stressga chidamlilikni oshiradi. Bug'doy hosildorligi taxminan 22% ga, arpa esa taxminan 17,5% ga oshishi mumkin.",
+      "stats": {
+        "pestDestruction": {
+          "value": "95–99%",
+          "label": "Zararkunandalarni yo'q qilish",
+          "description": "Rivojlanishning barcha bosqichlarida"
+        },
+        "disinfection": {
+          "value": "80–95%",
+          "label": "Dezinfeksiya",
+          "description": "Mikrobial ifloslanishning kamayishi"
+        },
+        "yieldIncrease": {
+          "value": "17–22%",
+          "label": "Hosildorlik o'sishi",
+          "description": "Ekishdan oldin ishlov berilganda"
+        },
+        "lossReduction": {
+          "value": "40–60%",
+          "label": "Nobud bo'lishni kamaytirish",
+          "description": "Donni saqlash paytida"
+        }
+      },
+      "benefits": [
+        "95–99% zararkunandalarni yo'q qilish",
+        "80–95% dezinfeksiya",
+        "Ekish oldidan ishlov berishda 17–22% hosildorlik o'sishi",
+        "Ozuqaviy sifatning saqlanishi",
+        "Fumigatsiyaga ekologik toza muqobil",
+        "40–60% nobud bo'lishni kamaytirish"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Donni saqlash muhim jarayon bo'lib, unda zararkunandalardan ko'riladigan zarar jahon ishlab chiqarishining 5 dan 50% gacha qismini tashkil qilishi mumkin. Ozonlash zararkunandalarni samarali nazorat qiladi va mog'or tarqalishining oldini oladi.",
+          "paragraph2": "Ozon hasharotlar va kanalarga barcha bosqichlarida ta'sir qiladi. 30–60 daqiqada 95–99% o'limi yetadi. Donni dezinfeksiya qilish darajasi 80–95% ga erishadi va ishlov berish ozuqaviy sifatni yomonlashtirmaydi."
+        },
+        "applications": {
+          "title": "Ozon qo'llash yo'nalishlari",
+          "items": [
+            "Don dezinseksiyasi — saqlash zararkunandalarini yo'q qilish",
+            "Dezinfeksiya — mikrobial va zamburug'li ifloslanishni kamaytirish",
+            "Detoksikatsiya — mikotoksinlarni parchalash",
+            "Urug'larni ekishdan oldin ishlash — unib chiqishni oshirish",
+            "Don omborlarini dezinfeksiya qilish — yuklashga tayyorlash",
+            "Donni konservatsiya qilish — saqlash muddatini uzaytirish"
+          ]
+        },
+        "pests": {
+          "title": "Saqlash zararkunandalarini yo'q qilish",
+          "intro": "Ozon hasharotlar va kanalarga barcha bosqichlarda: tuxum, lichinka, g'umbak va yetuk hasharot holatida ta'sir qiladi. Mexanizm kutikula lipidlarini oksidlash va hasharotlarning nafas olish tizimini yo'q qilishga asoslangan.",
+          "tableCaption": "Don zararkunandalariga qarshi ozonlash samaradorligi",
+          "tableHeaders": [
+            "Zararkunanda",
+            "O₃ kontsentratsiyasi",
+            "Ishlov berish vaqti",
+            "O'lim darajasi"
+          ],
+          "tableData": [
+            [
+              "Don qandalasi",
+              "30–50 mg/m³",
+              "30–60 min",
+              "95–99%"
+            ],
+            [
+              "Guruch qandalasi",
+              "30–50 mg/m³",
+              "30–60 min",
+              "96–99%"
+            ],
+            [
+              "Don kemiruvchisi",
+              "40–60 mg/m³",
+              "45–90 min",
+              "95–98%"
+            ],
+            [
+              "Un qo'ng'izi",
+              "40–60 mg/m³",
+              "60–120 min",
+              "93–97%"
+            ],
+            [
+              "Surinam unxo'ri",
+              "30–50 mg/m³",
+              "30–60 min",
+              "97–99%"
+            ],
+            [
+              "Don kuyasi",
+              "20–40 mg/m³",
+              "30–45 min",
+              "98–99%"
+            ],
+            [
+              "Don kanasi",
+              "50–80 mg/m³",
+              "60–120 min",
+              "90–95%"
+            ]
+          ],
+          "highlightText": "Kimyoviy fumigatsiyadan farqli o'laroq, ozonlash donda qoldiq qoldirmaydi. Ishlov berishdan keyin ozon tezda kislorodga parchalanadi va mahsulot iste'mol uchun to'liq xavfsizdir."
+        },
+        "fungi": {
+          "title": "Dezinfeksiya va mikotoksinlarni kamaytirish",
+          "intro": "Dondagi mog'or zamburug'lari xavfli mikotoksinlarni ishlab chiqaradi: aflatoksinlar, zearalenon, deoksinivalenol (DON). Ozonlash zamburug'larni yo'q qiladi va allaqachon hosil bo'lgan toksinlarni qisman parchalaydi.",
+          "tableCaption": "Zamburug'lar va mikotoksinlarga qarshi ozonlash samaradorligi",
+          "tableHeaders": [
+            "Ko'rsatkich",
+            "O₃ kontsentratsiyasi",
+            "Vaqt",
+            "Samaradorlik"
+          ],
+          "tableData": [
+            [
+              "Umumiy mikroflora",
+              "20–40 mg/m³",
+              "15–60 min",
+              "80–95%"
+            ],
+            [
+              "Mog'or zamburug'lari",
+              "30–50 mg/m³",
+              "30–60 min",
+              "85–95%"
+            ],
+            [
+              "Aspergill (aflatoksinlar)",
+              "40–60 mg/m³",
+              "45–90 min",
+              "90–95%"
+            ],
+            [
+              "Fuzarium (DON, zearalenon)",
+              "40–60 mg/m³",
+              "60–120 min",
+              "75–90%"
+            ],
+            [
+              "Aflatoksin B1",
+              "50–100 mg/m³",
+              "120–180 min",
+              "60–80%"
+            ],
+            [
+              "Zearalenon",
+              "50–100 mg/m³",
+              "120–180 min",
+              "50–70%"
+            ]
+          ]
+        },
+        "modes": {
+          "title": "Donni ozonlash rejimlari",
+          "intro": "Rejimni tanlash ishlov berish maqsadlariga bog'liq: profilaktika, dezinseksiya yoki dezinfeksiya. Donning namligi, harorati va omborning germetikligini hisobga olish muhimdir.",
+          "tableCaption": "Tavsiya etilgan ozonlash rejimlari",
+          "tableHeaders": [
+            "Ishlov berish maqsadi",
+            "O₃ kontsentratsiyasi",
+            "Vaqt",
+            "Davriyligi"
+          ],
+          "tableData": [
+            [
+              "Profilaktika",
+              "10–20 mg/m³",
+              "4–6 soat",
+              "Har 2–4 haftada"
+            ],
+            [
+              "Dezinseksiya",
+              "30–60 mg/m³",
+              "1–2 soat",
+              "Zaruratga qarab"
+            ],
+            [
+              "Dezinfeksiya",
+              "30–50 mg/m³",
+              "1–3 soat",
+              "Yuklash/tushirish paytida"
+            ],
+            [
+              "Chuqur ishlov berish",
+              "60–100 mg/m³",
+              "2–4 soat",
+              "Har 3–6 oyda"
+            ],
+            [
+              "Ekish oldidan ishlov berish",
+              "10–30 mg/m³",
+              "30–60 min",
+              "Ekishdan oldin"
+            ]
+          ],
+          "warningLabel": "Muhim",
+          "warningText": "Namligi 14% dan yuqori bo'lgan donni ishlaganda ozonlash samaradorligi pasayadi. Oldindan quritish yoki ozon dozasini 20–30% ga oshirish tavsiya etiladi."
+        },
+        "presowing": {
+          "title": "Urug'larni ekishdan oldin ishlash",
+          "intro": "Urug'larni ozon bilan ishlash unib chiqishni, unib chiqish quvvatini va ko'chatlarning noqulay sharoitlarga chidamliligini oshiradi. Tadqiqotlar hosildorlikning sezilarli darajada o'sishini tasdiqlaydi.",
+          "tableCaption": "Ekish oldidan urug'larni ozonlash natijalari",
+          "tableHeaders": [
+            "Ekin",
+            "Ishlov berish rejimi",
+            "Unib chiqish o'sishi",
+            "Hosil o'sishi"
+          ],
+          "tableData": [
+            [
+              "Bug'doy",
+              "10–20 mg/m³, 30 min",
+              "+5–8%",
+              "+18–22%"
+            ],
+            [
+              "Arpa",
+              "10–20 mg/m³, 30 min",
+              "+6–10%",
+              "+14–17.5%"
+            ],
+            [
+              "Makkajo'xori",
+              "15–25 mg/m³, 45 min",
+              "+4–7%",
+              "+12–16%"
+            ],
+            [
+              "Kungaboqar",
+              "15–25 mg/m³, 45 min",
+              "+5–8%",
+              "+10–14%"
+            ],
+            [
+              "Soya",
+              "10–20 mg/m³, 30 min",
+              "+6–9%",
+              "+13–18%"
+            ],
+            [
+              "Guruch",
+              "10–15 mg/m³, 20 min",
+              "+7–12%",
+              "+15–20%"
+            ]
+          ]
+        },
+        "worldExperience": {
+          "label": "Jahon tajribasi",
+          "text": "Donni ozonlash AQSH, Kanada, Avstraliya va Yevropa Ittifoqi mamlakatlarida Monreal protokoli tomonidan taqiqlangan fosfin va metil bromidga ekologik toza muqobil sifatida qo'llaniladi."
+        },
+        "technology": {
+          "title": "Don omborlarini ozonlash texnologiyasi",
+          "steps": [
+            {
+              "title": "Omborni tayyorlash",
+              "description": "Don qoldiqlari va changdan tozalash. Darvozalar, lyuklar va choklarning germetikligini tekshirish."
+            },
+            {
+              "title": "Uskunani o'rnatish",
+              "description": "Ozonator va ozon taqsimlash tizimini joylashtirish. Elektr ta'minotiga ulash."
+            },
+            {
+              "title": "Germetizatsiya",
+              "description": "Barcha teshiklarni yopish, ishlov berish haqida ogohlantiruvchi belgilarni o'rnatish."
+            },
+            {
+              "title": "Ozon berish",
+              "description": "Ozonatorni ishga tushirish, datchiklar yordamida kontsentratsiyani nazorat qilish. Ishlov berish vaqti 2–6 soat."
+            },
+            {
+              "title": "Ushlab turish",
+              "description": "Maqsadli kontsentratsiyaga erishilgandan keyin ozon bermasdan 30–60 daqiqa ushlab turish."
+            },
+            {
+              "title": "Degazatsiya",
+              "description": "Qoldiq ozonni chiqarib yuborish uchun shamollatishni yoqish. MPC (0,1 mg/m³) nazorati."
+            }
+          ]
+        },
+        "comparison": {
+          "title": "Kimyoviy fumigatsiya bilan solishtirish",
+          "tableCaption": "Ozonlash kimyoviy fumigatsiyaga qarshi",
+          "tableHeaders": [
+            "Ko'rsatkich",
+            "Ozonlash",
+            "Fosfin (PH₃)"
+          ],
+          "tableData": [
+            [
+              "Mahsulotdagi qoldiqlar",
+              "Yo'q",
+              "Mavjud (MPC 0.1 mg/kg)"
+            ],
+            [
+              "Ekologik tozalik",
+              "To'liq",
+              "Atrof-muhit uchun toksik"
+            ],
+            [
+              "Ishlov berish vaqti",
+              "2–6 soat",
+              "3–7 kun"
+            ],
+            [
+              "Zararkunandalarning chidamliligi",
+              "Shakllanmaydi",
+              "Har bir foydalanishda oshadi"
+            ],
+            [
+              "Xodimlar xavfsizligi",
+              "Yuqori (MPCga rioya qilinganda)",
+              "Past (kuchli zahar)"
+            ],
+            [
+              "Don sifatiga ta'siri",
+              "Ijobiy",
+              "Unib chiqishni kamaytirishi mumkin"
+            ],
+            [
+              "Ishlov berish narxi",
+              "O'rtacha",
+              "Past–o'rtacha"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "Donni saqlashda ozonlashning afzalliklari",
+          "items": [
+            {
+              "title": "Kimyoviy moddalarsiz",
+              "description": "Donida qoldiq yo'q — to'liq ekologik xavfsizlik va oziq-ovqat xavfsizligi"
+            },
+            {
+              "title": "Zararkunandalarni nazorat qilish",
+              "description": "Barcha rivojlanish bosqichlarida 95–99% hasharotlarni yo'q qilish chidamlilik shakllanmagan"
+            },
+            {
+              "title": "Dezinfeksiya",
+              "description": "Mikrobial va zamburuğ ifloslantiruvchiligini 80–95% kamaytirish"
+            },
+            {
+              "title": "Hosildorlik o'sishi",
+              "description": "Ekish oldidan ishlov berilganda 17–22% yuqori hosil"
+            },
+            {
+              "title": "Xarajatlarni kamaytirish",
+              "description": "Kam operatsion xarajatlar va tezroq ishlov berish (2-6 soat vs 3-7 kun fumigatsiya uchun)"
+            },
+            {
+              "title": "Iqtisodiy foyda",
+              "description": "Nobud bo'lishni kamaytirish hisobiga uskunaning 1-2 mavsumda o'zini oqlashi"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "title": "Tozalash",
+  "description": "Tozalash kompaniyalari uchun professional ozonlash: chuqur hidlarni olib tashlash, yong'in sodir bo'lgandan keyin tozalash, hayvon hidlarini olib tashlash, avtomobillarni ozonlash va qalipcha va mebel yuzalarini chuqur tozalash.",
+  "subcategories": {
+    "fire-smoke": {
+      "title": "Yong'in oqibati",
+      "shortDesc": "Yonish va tutun hidini yo'qotish",
+      "content": "Yong'in tutun hidi eng qiyin olib tashlanishi kerak hidlardan biridir. Tutun va kuliy zarralar gips, beton, yog'och, tekstilga kirib oladi va mebel, qalipchalarni sharbatiga solib ketadi. Odiy tozalash bu hidni olib tasha olmaydi — u doimiy qaytib keladi.\n\nOzonlash yong'in hidini asosiy remontasiz to'liq yo'q qilishning yagona usuli. Ozon molekulyar darajada barcha materiallarga kirib oladi va kuliy va yonish mahsulotlarini oksidlashi, ularning kimyoviy tuzilishini buzadi.\n\nYong'indan keyin tedavi yuqori ozon konsentratsiyasini (40-80 mg/m³) va uzoq ekspozitsiyani (ziyonning darajasiga qarab 24 dan 72 soatgacha) talab qiladi. Ventillyatsiya bilan bir necha siklni amalga oshirish tavsiya etiladi.\n\nOzonlashdan oldin ko'rinib turadigan kulilarni tozalang, yuzalarni silang va noqolgan zarar ko'lmagan narsalarni olib tashlang. Ozon fizik ravishda kulilarni olib tasha olmaydi — u faqat hidni yo'q qiladi.",
+      "benefits": [
+        "Hidarni remontasiz olib tashlash",
+        "Devor va shiftlarga kirib olish",
+        "Butun xonani bir vaqtda tozalash",
+        "Tugatishni saqlab qolish",
+        "Xonani tezroq tiklash",
+        "Asosiy tamirlash xarajatlarini tejash"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "24-72 h",
+          "label": "Ishlov berish vaqti",
+          "description": "Zarar ko'rish darajasiga qarab"
+        },
+        "stat2": {
+          "value": "40-80",
+          "label": "mg/m³",
+          "description": "Ozon konsentratsiyasi"
+        },
+        "stat3": {
+          "value": "2-3",
+          "label": "Sikllar",
+          "description": "Og'ir tutun ziyonida"
+        },
+        "stat4": {
+          "value": "100%",
+          "label": "Yo'q qilish",
+          "description": "Tutun hidining remontasiz"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Yong'in tutun hidi eng doimiy va qiyin olib tashlanishi kerak hidlardan biridir. Yonish mahsulotlari bino materiallari chuquriga kirib oladi: gips, beton, g'isht, yog'och. Mayda kuliy zarralar tekstilga, mebel, qalipchalar, devorgil qogozga so'riladi. Oddiy tozalash va ventillyatsiya yordam bermaydi — hid doimiy qaytib keladi.",
+          "text2": "Koʻp xonalar yong'inder keyin tugatishni almashtirish bilan to'liq remontga majbur. Shunga qaramay, ozonlash muammoni tezroq va arzonroq hal qila oladi — devorlarni buzish va mebelni almashtirish keraksiz."
+        },
+        "highlight1": {
+          "title": "Nima uchun yong'in tutun hidini doimiy:",
+          "text": "Organik material yonganda, poliktsiklik aromatik uglevodorodlar (PAH), kuliy va qolyatmalar hosil bo'ladi. Ushbu moddalar mikroskopik zarralarning o'lchamiga ega (0,1-1 μm) va bino materiallari porlari chuqurida kirib oladi. Odiy tozalash faqat sirtni olib tashlaydi."
+        },
+        "howOzone": {
+          "title": "Ozon yong'in tutun hidini qanday yo'q qiladi",
+          "text": "Ozon tutun va kuliy zarralarning ergan barcha yerga kirib oladigan gaz. U yonish mahsulot molekulalarida kimyoviy bog'lanishlarni buzib organik birikmalari molekulyar darajada oksidlashi. Natijada xavfsiz birikmalari hosil bo'ladi — suv va karbon dioksid.",
+          "items": [
+            "Beton, gips, g'isht miksro porlariga kirib oladi",
+            "Yog'och tuzilmalarini ichidan tozaladi",
+            "Devor palastra ortida yashirin bo'shliqlarni eradi",
+            "Tekstil va mebel to'shiruviga o'tadi",
+            "Ventillyatsiya tizimini va kanallarini tozaladi",
+            "Kitoblar, hujjatlar, kiyimlarni tozaladi"
+          ]
+        },
+        "process": {
+          "title": "Yong'indan keyin xona tedavisi bosqichlari",
+          "steps": [
+            {
+              "title": "Dastlabki tozalash",
+              "description": "Barcha yuzalardan ko'rinib turadigan kuliy va tutun qoldiqlarini olib tashlang. Devorni, shiftni, polli silang. Mebel va qalipchalarni so'rilang. Og'ir zarar ko'lgan narsalarni olib tashlang."
+            },
+            {
+              "title": "Xonani seal qilish",
+              "description": "Barcha oynalar va eshiklarni yoping. Ventillyatsiya ochiqlarini seal qiling. Siziqlarni seal qiling. Bu yuqori ozon konsentratsiyasini saqlab qolish uchun zarur."
+            },
+            {
+              "title": "Birinchi ozonlash siklasi",
+              "description": "Ozon generatorini o'rnating, xonani tark eting. 40-80 mg/m³ konsentratsiyada 8-24 soat tedavisi. Ozon xona hajmini to'liq qamrab olishi kerak."
+            },
+            {
+              "title": "Ventillyatsiya va baholash",
+              "description": "Xonani 2-4 soat ventillyatsiya qiling, ozon hidi to'liq yo'q bo'lguniga qadar. Natijani baholang. Zaruratda qo'shimcha nam tozalashni amalga oshiring."
+            },
+            {
+              "title": "Sikllarni takrorlash (zarur bo'lsa)",
+              "description": "Og'ir tutun ziyonida 2-3 ta ventillyatsiya tantanasiz tedavi siklasi talab qilindi. Har bir siklasi hidarning konsentratsiyasini yanada kamaytiradi."
+            }
+          ]
+        },
+        "modes": {
+          "title": "Zarar ko'rish darajasiga qarab tedavi rejimlar",
+          "highlight": {
+            "title": "Muhim:",
+            "text": "Ozon fizik ravishda kulilarni olib tasha olmaydi — u faqat hidni yo'q qiladi. Mexanik tozalash ozonlashdan oldin majbur. Shuningdek, ozon zarar ko'lgan materialni tiklama olmaydi — yongan yuzalar tamirlashni talab qiladi."
+          },
+          "tableHeaders": [
+            "Zarar ko'rish darajasi",
+            "Konsentratsiya",
+            "Siklasning vaqti",
+            "Siklalar soni"
+          ],
+          "tableCaption": "Tavsiya etilgan yong'indan keyin ozonlash parametrlari",
+          "tableData": [
+            [
+              "Yengil tutun",
+              "20-40 mg/m³",
+              "4-8 soat",
+              "1"
+            ],
+            [
+              "O'rta tutun",
+              "40-60 mg/m³",
+              "12-24 soat",
+              "1-2"
+            ],
+            [
+              "Og'ir tutun",
+              "60-80 mg/m³",
+              "24-48 soat",
+              "2-3"
+            ],
+            [
+              "Juda og'ir",
+              "80+ mg/m³",
+              "48-72 soat",
+              "3+"
+            ]
+          ]
+        },
+        "comparison": {
+          "title": "Yong'in tutun hidini olib tashlash usullarini solishtirish",
+          "tableTitle": "Ozonlash vs boshqa usullar",
+          "headers": [
+            "Mezon",
+            "Ozonlash",
+            "Asosiy remont"
+          ],
+          "rows": [
+            {
+              "parameter": "Xarajat",
+              "value1": "Past",
+              "value2": "Juda yuqori"
+            },
+            {
+              "parameter": "Tugatish vaqti",
+              "value1": "1-3 kun",
+              "value2": "2-4 hafta"
+            },
+            {
+              "parameter": "Samaradorlik",
+              "value1": "95-100%",
+              "value2": "100%"
+            },
+            {
+              "parameter": "Tugatishni saqlab qolish",
+              "value1": "Ha",
+              "value2": "Yo'q (almashtirish)"
+            },
+            {
+              "parameter": "Mebelni saqlab qolish",
+              "value1": "Ha",
+              "value2": "Zarar ko'rish darajasiga bog'liq"
+            },
+            {
+              "parameter": "Evakuatsiya kerak bo'lsa",
+              "value1": "Ishlov berish paytida",
+              "value2": "Butun tamirlash davomida"
+            }
+          ]
+        },
+        "whatCanTreat": {
+          "title": "Ozon bilan qanday narsalarni tozalash mumkin",
+          "items": [
+            {
+              "title": "Bino tuzilmalari",
+              "description": "Devor, shift, pol, yog'och bravalar. Ozon bir necha santimetrlikligi chuqurida kirib oladi"
+            },
+            {
+              "title": "Mebel to'shirma",
+              "description": "Divanlar, kreslo, o'rindiqlar, yostiq. Ozon to'shirma va to'shiruvini bir vaqtda tozaladi"
+            },
+            {
+              "title": "Qalipcha va tekstil",
+              "description": "Qalipcha qoplami, pardalar, xona giyomlari. Xonada to'g'ridan-to'g'ri tozalash mumkin"
+            },
+            {
+              "title": "Kitoblar va hujjatlar",
+              "description": "Qog'oz media yong'in tutun hidini so'radi. Ozonlash arxivlarni saqlib qolish imkonini beradi"
+            }
+          ]
+        },
+        "whenNotHelp": {
+          "title": "Ozonlash qachon yordam bermaydi",
+          "text": "Ozonlash universal yechim emas. Qo'shimcha tedavi yoki tamirlash talab qiladigan holatlar bor:",
+          "items": [
+            "Yongan yuzalar — mexanik tozalash yoki almashtirish talab qiladi",
+            "Suvga botgan materiallar o'chirilishdan keyin — qurituv avval talab",
+            "Erigan plastik — hidar manbasi ozon bilan yo'q qilinmaydi",
+            "Chuqur kuliy bo'lgan gypsoplastik — almashtirish talab qilishi mumkin",
+            "Kuliy bilan to'la ventillyatsiya tizimi — mexanik tozalash talab"
+          ],
+          "highlight": {
+            "title": "Tavsiya:",
+            "text": "Maksimal ta'sir uchun ozonlashni professional tozalash bilan birlash. Avval — kulilarni mexanik olib tashlash, keyin — chuqur hidni yo'q qilish uchun ozonlash."
+          }
+        },
+        "economic": {
+          "title": "Iqtisodiy ta'sir",
+          "text": "Ozonlash yong'indan keyin tiklanish xarajatlarida sezilarli tejashni imkon beradi:",
+          "tableHeaders": [
+            "Xarajat maddasi",
+            "Ozonlash bilan",
+            "Ozonlashsiz"
+          ],
+          "tableCaption": "Tiklanish xarajatlarini solishtirish (60 m² apartament uchun misol)",
+          "tableData": [
+            [
+              "Tugatishni olib tashlash",
+              "—",
+              "$500"
+            ],
+            [
+              "Yangi tugatish",
+              "—",
+              "$2,000"
+            ],
+            [
+              "Mebelni tozalash",
+              "$150",
+              "$150"
+            ],
+            [
+              "Ozonlash",
+              "$200",
+              "—"
+            ],
+            [
+              "Yangi mebel (almashtirish)",
+              "—",
+              "$1,500"
+            ],
+            [
+              "JAMI",
+              "$350",
+              "$4,150"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

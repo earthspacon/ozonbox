@@ -1,0 +1,97 @@
+{
+  "title": "Mining & metals",
+  "description": "Ozone in gold and metal mining: ore pretreatment, leaching enhancement, cyanide destruction, and metal storage and surface cleaning. Eco-friendly technology for mineral processing and metalworking.",
+  "subcategories": {
+    "gold-mining-global": {
+      "title": "Ozone in gold mining: global practices (South Africa, Chile, Canada)",
+      "shortDesc": "Ozone technology at gold operations in South Africa, Chile, Canada, and Southeast Asia: refractory ore pretreatment, cyanide destruction, ICMC compliance.",
+      "content": "Ozone technologies are increasingly used in gold mining in South Africa, Chile, Canada, and Southeast Asia. Industrial trials and deployment cover pretreatment of refractory and double refractory ores, heap leaching enhancement, and cyanide destruction in wastewater and tailings in line with the International Cyanide Management Code (ICMC).",
+      "stats": {
+        "regions": {
+          "value": "4+",
+          "label": "Regions",
+          "description": "South Africa, Chile, Canada, Southeast Asia"
+        },
+        "cyanideReduction": {
+          "value": "85–99%",
+          "label": "Cyanide reduction",
+          "description": "With on-site ozone"
+        },
+        "recoveryImprovement": {
+          "value": "53→88%",
+          "label": "Gold recovery",
+          "description": "With ozone pretreatment of ores"
+        },
+        "icmcCompliance": {
+          "value": "Yes",
+          "label": "ICMC compliance",
+          "description": "International Cyanide Management Code"
+        }
+      },
+      "benefits": [
+        "Cyanide destruction in tailings 85–99%",
+        "Improved gold recovery from refractory and double refractory ores",
+        "Heap leaching enhancement (ozone ice, oxygen)",
+        "ICMC compliance and return of treated water to process",
+        "Industrial trials in South Africa, Chile, Canada, and Asia"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Ozone technologies are increasingly used in gold mining in South Africa, Chile, Canada, and Southeast Asia. Industrial trials and deployment cover pretreatment of refractory and double refractory ores, heap leaching enhancement, and cyanide destruction in wastewater and tailings in line with the International Cyanide Management Code (ICMC).",
+          "paragraph2": "Industrial trials in South Africa and Southeast Asia showed 85–99% reduction of free and WAD cyanide when using on-site ozone generation. A dose of 2–3 g O₃ per gram cyanide achieves full oxidation within 10–30 minutes. The technology complies with ICMC and allows treated water to be returned to the process."
+        },
+        "southAfrica": {
+          "title": "South Africa: cyanides and refractory ores",
+          "intro": "In South Africa, ozone is used at gold operations for cyanide destruction in tailings and for improved gold recovery from refractory and double refractory ores. The Journal of the Southern African Institute of Mining and Metallurgy has published evaluations of ozonation technology for processing double refractory gold ore: improved gold recovery and cyanide management.",
+          "trials": "Industrial trials in South Africa and Southeast Asia showed 85–99% reduction of free and WAD cyanide when using on-site ozone generation. A dose of 2–3 g O₃ per gram cyanide achieves full oxidation within 10–30 minutes. The technology complies with ICMC and allows treated water to be returned to the process."
+        },
+        "chileCanada": {
+          "title": "Chile and Canada: gold–copper ores and heap leaching",
+          "intro": "In Chile, ozone and combined technologies are considered in the context of processing ores with high cyanide-soluble copper (SART process and analogues). In Canada, research focuses on heap leaching and refractory ore pretreatment.",
+          "details": "Increasing dissolved oxygen from 8.2 to 12 mg/L at high cyanide concentrations (60 mg/L) doubles gold leaching rate. Ozone ice as an oxygen source in column experiments increased gold recovery by 4.1% versus control. These results support the use of ozone in heap leaching in major gold-producing regions."
+        },
+        "refractory": {
+          "title": "Refractory ore pretreatment: deployment",
+          "intro": "Pilot and industrial ozone pretreatment systems for refractory gold ores have been tested at double refractory ore processing sites. Studies on Mexican ores showed gold recovery increasing from 53% to 88% and silver from 26% to 78%, with leaching time reduced from 40 to 24 hours.",
+          "adoption": "Oxidation of sulfide minerals (pyrite, arsenopyrite) by ozone releases gold for subsequent cyanidation and reduces cyanide consumption. As environmental standards tighten and the share of refractory ores in processing grows, ozone pretreatment deployment is expected to expand at operations in South Africa, Chile, Canada, and Asia."
+        },
+        "benefits": {
+          "title": "Conclusions",
+          "items": [
+            {
+              "title": "Cyanides",
+              "description": "85–99% reduction of free and WAD cyanide, ICMC compliance, water return to process."
+            },
+            {
+              "title": "Refractory ores",
+              "description": "Higher gold and silver recovery with ozone pretreatment (53→88%, 26→78%), shorter leaching time."
+            },
+            {
+              "title": "Heap leaching",
+              "description": "Ozone ice and oxygen increase leaching rate; data from Chile and Canada."
+            },
+            {
+              "title": "Deployment",
+              "description": "Further expansion expected as share of refractory ores and environmental requirements increase."
+            }
+          ]
+        }
+      },
+      "sourcesTitle": "Sources",
+      "sources": [
+        {
+          "title": "Evaluation of ozonation technology for gold recovery and cyanide management — J. Southern African Inst. Mining and Metallurgy, 2017",
+          "url": "http://www.scielo.org.za/scielo.php?pid=S2225-62532017000800006&script=sci_arttext"
+        },
+        {
+          "title": "Ozone Ice as an Oxygen Release Reagent for Heap Leaching of Gold Ore — Minerals, MDPI, 2021",
+          "url": "https://mdpi-res.com/d_attachment/minerals/minerals-11-01251/article_deploy/minerals-11-01251-v2.pdf"
+        },
+        {
+          "title": "The Effective Use of Ozone for Cyanide Destruction in Mining and Mineral Processing — Academia.edu",
+          "url": "https://www.academia.edu/26379027/"
+        }
+      ]
+    }
+  }
+}

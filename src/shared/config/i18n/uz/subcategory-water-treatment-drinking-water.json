@@ -1,0 +1,289 @@
+{
+  "title": "Suvni tozalash",
+  "description": "Ozon eng samarali va ekologik toza suvni tozalash usuli. Yevropada ichimlik suvining 95% ozon bilan ishlov beriladi. Xlor kabi xavfli yon mahsulotlar hosil qilmaydi.",
+  "subcategories": {
+    "drinking-water": {
+      "title": "Ichimlik suvi",
+      "shortDesc": "Kimyoviy moddalar yoki yon mahsulotlarsiz dezinfeksiya",
+      "stats": {
+        "disinfection": {
+          "value": "99.99%",
+          "label": "Dezinfeksiya",
+          "description": "Patogenlarni yo'q qilish"
+        },
+        "byproducts": {
+          "value": "0",
+          "label": "Yon mahsulotlar",
+          "description": "Kantserogen birikmalar"
+        },
+        "chlorine": {
+          "value": "3000×",
+          "label": "Xlordan kuchliroq",
+          "description": "Bakteritsid faollik"
+        },
+        "decay": {
+          "value": "O₂",
+          "label": "Parchalanish",
+          "description": "Faqat toza kislorod"
+        }
+      },
+      "highlightBox": {
+        "regulation": {
+          "label": "Ichimlik suvi standartlari:",
+          "text": "Xlorlash yon mahsulotlarining (galogenli birikmalar) xavfini hisobga olgan holda, alternativ dezinfeksiya usullariga ustuvorlik berilishi kerak. Ozon xavfsizroq alternativa sifatida rasman tavsiya etiladi."
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Ichimlik suvini ozonlash rivojlangan mamlakatlarda dezinfeksiyaning standart usuli hisoblanadi: Yevropada suv ta'minotidagi suvning asosiy qismi ozon bilan ishlov beriladi. Ozon bakteriyalar, viruslar, protozoon sislari va sporalarni juda yuqori samaradorlikda (99,99% gacha) yo'q qiladi va xlordan, xususan xlorga chidamli kriptosporidiya kabi patogenlarga nisbatan ancha samaraliroq.",
+          "paragraph2": "Xlorlashdan farqli o'laroq, ozonlash trihalometanlar kabi kantserogen yon mahsulotlar hosil qilmaydi. Suvning ta'mini va hidini yaxshilaydi, rangni kamaytiradi. Qolgan ozon 20–30 daqiqada kislorodga parchalanadi va kimyoviy iz qoldirmaydi. Ichimlik suvida iste'molchi nuqtasida tavsiya etilgan qolgan ozon 0,1–0,3 mg/L; tizimlarda tarqatishdan oldin etarli kontakt vaqti va kerak bo'lsa degazatsiya ta'minlanishi kerak.",
+          "warningLabel": "Muhim:",
+          "warningText": "Ichimlik suvida iste'molchi nuqtasida qolgan ozon 0,1–0,3 mg/L dan oshmasligi kerak. Ozonlash uskunalari ichimlik suvi standartlariga muvofiq loyihalanishi va ishlatilishi kerak, tarqatish tarmog'iga beriladigan suv normalariga javob berishi uchun etarli kontakt vaqti va degazatsiya ta'minlangan bo'lishi kerak."
+        },
+        "comparison": {
+          "title": "Suvni dezinfeksiya qilish usullarini solishtirish",
+          "headers": [
+            "Parametr",
+            "Ozonlash",
+            "Xlorlash"
+          ],
+          "rows": [
+            {
+              "parameter": "Bakteriyalarga qarshi samaradorlik",
+              "value1": "99.99%",
+              "value2": "99.5%"
+            },
+            {
+              "parameter": "Viruslarga qarshi samaradorlik",
+              "value1": "99.99%",
+              "value2": "90-95%"
+            },
+            {
+              "parameter": "Sislarga qarshi samaradorlik",
+              "value1": "99.9%",
+              "value2": "< 50%"
+            },
+            {
+              "parameter": "Dezinfeksiya vaqti",
+              "value1": "2-10 daqiqa",
+              "value2": "30-60 daqiqa"
+            },
+            {
+              "parameter": "Yon mahsulotlar",
+              "value1": "Yo'q (O₂)",
+              "value2": "Trihalometanlar (kantserogenlar)"
+            },
+            {
+              "parameter": "Ta'mga ta'siri",
+              "value1": "Yaxshilaydi",
+              "value2": "Xlor hid"
+            },
+            {
+              "parameter": "Rangga ta'siri",
+              "value1": "Kamaytiradi",
+              "value2": "Ta'sir qilmaydi"
+            },
+            {
+              "parameter": "Uzoq muddatli ta'sir",
+              "value1": "Yo'q",
+              "value2": "Ha"
+            }
+          ]
+        },
+        "technicalParams": {
+          "title": "Ozonlash texnik parametrlari",
+          "tableCaption": "Ichimlik suvi uchun tavsiya etilgan parametrlar",
+          "tableHeaders": [
+            "Parametr",
+            "Qiymat",
+            "Normativ hujjat"
+          ],
+          "tableData": [
+            [
+              "Ozon dozasi",
+              "1-3 mg/L",
+              "Suv sifatiga qarab"
+            ],
+            [
+              "Qolgan ozon",
+              "0.1-0.3 mg/L",
+              "Ichimlik suvi standartlari"
+            ],
+            [
+              "Kontakt vaqti",
+              "4-10 daqiqa",
+              "10-20°C haroratda"
+            ],
+            [
+              "Suv pH",
+              "6.5-8.5",
+              "Optimal diapazon"
+            ],
+            [
+              "Suv harorati",
+              "4-25°C",
+              "Samarali diapazon"
+            ],
+            [
+              "Manba suvining loyqaligi",
+              "< 2 NTU",
+              "Tavsiya"
+            ]
+          ],
+          "infoLabel": "Muhim:",
+          "infoText": "1-3 mg/L ozon dozasi to'liq suv dezinfeksiyasini ta'minlaydi. Yuqori organik yukda, organik birikmalarni oksidlash uchun doza 5 mg/L gacha oshiriladi."
+        },
+        "process": {
+          "title": "Ozonlash jarayoni",
+          "steps": [
+            {
+              "title": "Oldindan tozalash",
+              "description": "Mexanik aralashmalar va suyuq moddalarni olib tashlash. Samarali ozonlash uchun suvning loyqaligi < 2 NTU bo'lishi kerak."
+            },
+            {
+              "title": "Ozon ishlab chiqarish",
+              "description": "Tozalangan havo yoki kisloroddan korona razryad usuli bilan ozon olish. Gazdagi ozon kontsentratsiyasi: 8-12% (kisloroddan) yoki 2-3% (havodan)."
+            },
+            {
+              "title": "Ozon eritish",
+              "description": "Ozon-havo aralashmasini ejektor yoki barboter orqali suv bilan aralashtirish. Eritish samaradorligi: 85-95%."
+            },
+            {
+              "title": "Kontakt kamerasi",
+              "description": "Oksidlanish va dezinfeksiya reaktsiyalarini yakunlash uchun kontakt kamerada suvni 4-10 daqiqa ushlab turish."
+            },
+            {
+              "title": "Degazatsiya",
+              "description": "Tarqatish tarmog'iga uzatishdan oldin suvdan qolgan ozonni olib tashlash. Qolgan kontsentratsiya: < 0.1 mg/L."
+            },
+            {
+              "title": "Post-xlorlash (ixtiyoriy)",
+              "description": "Tarqatish tarmog'ida uzoq muddatli ta'sir uchun minimal xlor dozasi (0.3-0.5 mg/L) qo'shish."
+            }
+          ]
+        },
+        "pathogens": {
+          "title": "Ozon ichimlik suvida nimani yo'q qiladi",
+          "items": [
+            "Bakteriyalar: E.coli, salmonella, xolera vibrioni, legionella — 2 daqiqada 99.99%",
+            "Viruslar: gepatit A, rotaviruslar, enteroviruslar, noroviruslar — 4 daqiqada 99.99%",
+            "Protozoonlar: giardiya, kriptosporidium (xlorga chidamli!) — 5 daqiqada 99.9%",
+            "Bakteriya sporalari: quturish, klostridiyalar — 10 daqiqada 99%",
+            "Organik ifloslanishlar: fenollar, pestitsidlar, neft mahsulotlari — CO₂ va H₂O ga oksidlanish",
+            "Temir va marganets: keyingi filtratsiya uchun erimaydigan shakllarga oksidlanish"
+          ]
+        },
+        "effectiveness": {
+          "title": "Dezinfeksiya samaradorligi",
+          "tableCaption": "Patogenlarni inaktivatsiya qilish vaqti (CT qiymati, mg×min/L)",
+          "tableHeaders": [
+            "Patogen",
+            "Ozon",
+            "Xlor",
+            "UV (mJ/cm²)"
+          ],
+          "tableData": [
+            [
+              "E. coli",
+              "0.02",
+              "0.4",
+              "7"
+            ],
+            [
+              "Poliomielit virusi",
+              "0.3",
+              "1.7",
+              "30"
+            ],
+            [
+              "Rotavirus",
+              "0.4",
+              "3.5",
+              "40"
+            ],
+            [
+              "Giardiya (sislar)",
+              "0.6",
+              "50",
+              "80"
+            ],
+            [
+              "Kriptosporidium",
+              "3.0",
+              "> 7200",
+              "12"
+            ]
+          ],
+          "highlightBox": "Ozon ayniqsa kriptosporidiumga qarshi samarali — diareyaga olib keladigan parazitlar. Ular deyarli xlorlashga chidamli (inaktivatsiya uchun 7200 mg×min/L dan ko'p xlor kerak), lekin ozonga zaif."
+        },
+        "benefits": {
+          "title": "Ichimlik suvini ozonlashning afzalliklari",
+          "items": [
+            {
+              "title": "Xavfsizlik",
+              "description": "Kantserogen yon mahsulotlarni hosil qilmaydi. 20-30 daqiqada kislorodga parchalanadi."
+            },
+            {
+              "title": "Samaradorlik",
+              "description": "Xlorga chidamli kriptosporidiumni o'z ichiga olgan holda patogenlarning 99.99% ni yo'q qiladi."
+            },
+            {
+              "title": "Sifatni yaxshilash",
+              "description": "Yoqimsiz ta'm va hidni bartaraf etadi, suv rangini yaxshilaydi."
+            },
+            {
+              "title": "Normativlarga muvofiqlik",
+              "description": "Ichimlik suvi standartlari va xalqaro standartlarga to'liq mos keladi."
+            }
+          ]
+        },
+        "productivity": {
+          "title": "Ozonlash tizimlarining unumdorligi",
+          "tableCaption": "Suvni tayyorlash uchun tavsiya etilgan uskunalar",
+          "tableHeaders": [
+            "Stansiya quvvati",
+            "Ozonator quvvati",
+            "Kontakt kamerasi"
+          ],
+          "tableData": [
+            [
+              "10 m³/h",
+              "20-30 g/h",
+              "1-2 m³"
+            ],
+            [
+              "50 m³/h",
+              "100-150 g/h",
+              "5-10 m³"
+            ],
+            [
+              "100 m³/h",
+              "200-300 g/h",
+              "10-20 m³"
+            ],
+            [
+              "500 m³/h",
+              "1000-1500 g/h",
+              "50-100 m³"
+            ],
+            [
+              "1000 m³/h",
+              "2000-3000 g/h",
+              "100-200 m³"
+            ]
+          ]
+        },
+        "regulations": {
+          "title": "Normativ bazasi",
+          "items": [
+            "Ichimlik suvi standartlari «Ichimlik suvi. Suv sifati uchun gigiyena talablari»",
+            "Idishlarda suv standartlari «Ichimlik suvi. Idishlarda suv uchun gigiyena talablari»",
+            "GOST R 51232-98 «Ichimlik suvi. Tashkilot va sifat nazorati usullariga umumiy talablar»",
+            "MUK 4.3.2030-05 «Nazorat usullari. Fizik omillar. Ozon va uning gigiyena tartibi»",
+            "GN 2.1.5.1315-03 «Suv ob'ektlaridagi kimyoviy moddalarning maksimal ruxsat etilgan kontsentratsiyalari»"
+          ]
+        }
+      }
+    }
+  }
+}

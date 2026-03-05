@@ -81,6 +81,10 @@ export function getArticleNamespace(slug: string): string {
   return `article-${slug}`
 }
 
+export function getSubcategoryNamespace(categoryId: string, subcategoryId: string): string {
+  return `subcategory-${categoryId}-${subcategoryId}`
+}
+
 export const tolgee = Tolgee().use(DevTools()).use(FormatSimple()).use(FormatIcu()).init({
   availableLanguages: LOCALES_LIST,
   defaultLanguage: DEFAULT_LOCALE,

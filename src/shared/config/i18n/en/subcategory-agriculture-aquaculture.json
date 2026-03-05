@@ -1,0 +1,322 @@
+{
+  "title": "Agriculture",
+  "description": "Ozonation in agriculture increases yields, extends product shelf life and ensures biosecurity. An eco-friendly alternative to chemical pesticides and preservatives.",
+  "subcategories": {
+    "aquaculture": {
+      "title": "Aquaculture (RAS)",
+      "shortDesc": "Water treatment and fish disease control in recirculating aquaculture systems",
+      "stats": {
+        "disinfection": {
+          "value": "Up to 99%",
+          "label": "Disinfection",
+          "description": "Pathogen destruction in water"
+        },
+        "cycleSaving": {
+          "value": "20-30%",
+          "label": "Cycle shortening",
+          "description": "Faster fish growth"
+        },
+        "mortalityReduction": {
+          "value": "50-70%",
+          "label": "Mortality reduction",
+          "description": "Among juveniles and adults"
+        },
+        "waterSaving": {
+          "value": "40-60%",
+          "label": "Water savings",
+          "description": "Reduced fresh water supply"
+        }
+      },
+      "content": "In fish farming, ozonation is used at all production stages: from water preparation to storage of harvest. Ozone disinfects water, controls fish diseases and extends storage life.\n\nIn recirculating aquaculture systems (RAS), ozonation removes heavy metal ions, microalgae, toxins, fungal spores, microbes and cysts. Water turbidity drops significantly and unpleasant odors disappear.\n\nOzone destroys up to 99% of pathogenic organisms: viruses, bacteria and parasitic protozoa. This reduces fish morbidity and mortality and allows higher stocking density.\n\nRecommended ozone dose is about 13 g per 1 kg of feed. In clean water, fish gain weight faster and the production cycle shortens.",
+      "benefits": [
+        "Up to 99% pathogen disinfection",
+        "Shorter production cycle",
+        "Reduced fish mortality",
+        "Higher stocking density possible",
+        "Reduced fresh water demand",
+        "Water oxygen saturation"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "In fish farming, ozonation is used at all production stages: from water preparation to storage of finished product. Ozone disinfects water, controls fish diseases and significantly shortens the production cycle.",
+          "paragraph2": "In recirculating aquaculture systems (RAS), ozonation removes heavy metal ions, microalgae, toxins, fungal spores, microbes and cysts from water. Water turbidity is significantly reduced, unpleasant odors disappear, and optimal conditions for fish growth are created."
+        },
+        "dosage": {
+          "title": "Recommended dosage:",
+          "text": "13 g of ozone per 1 kg of feed. This dosage achieves an optimal balance between disinfection effectiveness and fish safety."
+        },
+        "advantages": {
+          "title": "Advantages of ozonation in RAS",
+          "items": [
+            "Water disinfection from viruses, bacteria and parasitic protozoa",
+            "Oxidation of organic compounds and ammonia",
+            "Removal of water turbidity and color",
+            "Elimination of unpleasant odors (geosmin, 2-methylisoborneol)",
+            "Coagulation of fine suspended particles for improved filtration",
+            "Saturation of water with dissolved oxygen",
+            "Reduction of fresh water consumption by 40-60%"
+          ]
+        },
+        "waterQuality": {
+          "title": "Effect of ozone on water quality",
+          "intro": "Water quality is a critical factor for successful fish farming. Ozonation provides comprehensive water treatment, eliminating both biological and chemical contaminants.",
+          "tableCaption": "Effectiveness of water ozonation in RAS",
+          "tableHeaders": [
+            "Parameter",
+            "Before treatment",
+            "After treatment",
+            "Improvement"
+          ],
+          "tableData": [
+            [
+              "Total bacterial count",
+              "10⁵-10⁶ CFU/ml",
+              "10²-10³ CFU/ml",
+              "99-99.9%"
+            ],
+            [
+              "Water turbidity",
+              "15-25 NTU",
+              "1-3 NTU",
+              "85-95%"
+            ],
+            [
+              "Ammonia (NH₃)",
+              "0.5-1.5 mg/l",
+              "0.05-0.1 mg/l",
+              "90-95%"
+            ],
+            [
+              "Nitrites (NO₂)",
+              "0.3-0.8 mg/l",
+              "0.02-0.05 mg/l",
+              "90-95%"
+            ],
+            [
+              "Water color",
+              "40-60°",
+              "5-10°",
+              "80-90%"
+            ],
+            [
+              "Geosmin",
+              "50-100 ng/l",
+              "< 5 ng/l",
+              "> 95%"
+            ]
+          ],
+          "note": "In clean ozonated water, fish gain weight faster, the production cycle is shortened by 20-30%, and feed conversion improves by 10-15%."
+        },
+        "pathogens": {
+          "title": "Fish disease control",
+          "intro": "Ozone destroys up to 99% of pathogenic organisms: viruses, bacteria and parasitic protozoa. This reduces fish morbidity, decreases mortality and allows higher stocking density.",
+          "tableCaption": "Effectiveness of ozone against fish pathogens",
+          "tableHeaders": [
+            "Pathogen",
+            "Disease",
+            "O₃ concentration",
+            "Effectiveness"
+          ],
+          "tableData": [
+            [
+              "Aeromonas salmonicida",
+              "Furunculosis",
+              "0.1-0.3 mg/l",
+              "99.9%"
+            ],
+            [
+              "Vibrio anguillarum",
+              "Vibriosis",
+              "0.1-0.2 mg/l",
+              "99.9%"
+            ],
+            [
+              "Ichthyophthirius",
+              "Ichthyophthiriasis",
+              "0.2-0.4 mg/l",
+              "99%"
+            ],
+            [
+              "Saprolegnia",
+              "Saprolegniasis",
+              "0.15-0.3 mg/l",
+              "99.5%"
+            ],
+            [
+              "VHS virus",
+              "Viral hemorrhagic septicemia",
+              "0.1-0.2 mg/l",
+              "99.99%"
+            ],
+            [
+              "IHN virus",
+              "Infectious hematopoietic necrosis",
+              "0.1-0.2 mg/l",
+              "99.99%"
+            ]
+          ]
+        },
+        "fishTypes": {
+          "title": "Ozonation regimes for different fish species",
+          "intro": "Different fish species have different sensitivity to residual ozone. It is important to select an optimal regime for each species, ensuring disinfection effectiveness while maintaining fish safety.",
+          "tableCaption": "Recommended ozonation regimes",
+          "tableHeaders": [
+            "Fish species",
+            "Ozone dose",
+            "Residual O₃",
+            "Contact time"
+          ],
+          "tableData": [
+            [
+              "Trout",
+              "10-15 g/kg feed",
+              "< 0.01 mg/l",
+              "3-5 min"
+            ],
+            [
+              "Sturgeon",
+              "12-18 g/kg feed",
+              "< 0.01 mg/l",
+              "3-5 min"
+            ],
+            [
+              "Tilapia",
+              "8-12 g/kg feed",
+              "< 0.02 mg/l",
+              "2-4 min"
+            ],
+            [
+              "Carp",
+              "10-15 g/kg feed",
+              "< 0.01 mg/l",
+              "3-5 min"
+            ],
+            [
+              "Catfish",
+              "8-12 g/kg feed",
+              "< 0.02 mg/l",
+              "2-4 min"
+            ],
+            [
+              "Shrimp",
+              "5-8 g/kg feed",
+              "< 0.005 mg/l",
+              "5-10 min"
+            ]
+          ],
+          "warning": {
+            "title": "Warning:",
+            "text": "Residual ozone in fish tank water should not exceed 0.01-0.02 mg/l. Use ORP sensors and automatic dosing systems for control."
+          }
+        },
+        "scheme": {
+          "title": "Ozonation scheme in RAS",
+          "steps": [
+            {
+              "title": "Water intake from tank",
+              "description": "Water with fish waste products is directed to treatment"
+            },
+            {
+              "title": "Mechanical filtration",
+              "description": "Removal of large suspended particles on drum or belt filter"
+            },
+            {
+              "title": "Ozone contact chamber",
+              "description": "Ozone injection through diffusers or injectors, contact time 3-5 minutes"
+            },
+            {
+              "title": "Biofiltration",
+              "description": "Final treatment for ammonia and nitrites in biological filter"
+            },
+            {
+              "title": "Degassing",
+              "description": "Removal of residual ozone in degasser or through activated carbon"
+            },
+            {
+              "title": "Return to tank",
+              "description": "Treated water returns to fish"
+            }
+          ]
+        },
+        "economic": {
+          "title": "Economic effect",
+          "intro": "Implementation of ozonation in RAS provides comprehensive economic benefits through improved growing performance and reduced operating costs.",
+          "tableCaption": "Economic indicators of ozonation in RAS",
+          "tableHeaders": [
+            "Indicator",
+            "Without ozone",
+            "With ozone",
+            "Benefit"
+          ],
+          "tableData": [
+            [
+              "Juvenile survival",
+              "60-70%",
+              "85-95%",
+              "+25-35%"
+            ],
+            [
+              "Feed conversion",
+              "1.3-1.5",
+              "1.1-1.2",
+              "15-20% savings"
+            ],
+            [
+              "Stocking density",
+              "30-40 kg/m³",
+              "50-80 kg/m³",
+              "+60-100%"
+            ],
+            [
+              "Growing time",
+              "12 months",
+              "9-10 months",
+              "20-25% reduction"
+            ],
+            [
+              "Treatment costs",
+              "100%",
+              "20-30%",
+              "70-80% savings"
+            ],
+            [
+              "Fresh water consumption",
+              "100%",
+              "40-60%",
+              "40-60% savings"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "Advantages of ozonation in fish farming",
+          "items": [
+            {
+              "title": "Clean water",
+              "description": "Up to 99% water disinfection, removal of turbidity, color and unpleasant odors"
+            },
+            {
+              "title": "Healthy fish",
+              "description": "50-70% reduction in morbidity, lower veterinary costs"
+            },
+            {
+              "title": "Fast growth",
+              "description": "20-30% reduction in production cycle due to optimal conditions"
+            },
+            {
+              "title": "High density",
+              "description": "Ability to increase stocking density by 60-100% without risk to fish"
+            },
+            {
+              "title": "Water savings",
+              "description": "40-60% reduction in fresh water consumption thanks to improved treatment"
+            },
+            {
+              "title": "Product quality",
+              "description": "No off-flavors or odors in market fish"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

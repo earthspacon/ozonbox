@@ -2,14 +2,14 @@ import { GetStaticProps } from 'next'
 
 import { ShoppingMallsPage } from '@/@pages/applications/disinfection/shopping-malls'
 
-import { DEFAULT_LOCALE, getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { DEFAULT_LOCALE, getSubcategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
 import { loadNamespaces, withTolgee } from '@/shared/lib'
 
 export const getStaticProps: GetStaticProps = async () => {
   const staticData = await loadNamespaces(DEFAULT_LOCALE as TLocale, [
     NAMESPACES.common,
     NAMESPACES.applications,
-    getCategoryNamespace('disinfection'),
+    getSubcategoryNamespace('disinfection', 'shopping-malls'),
   ])
   return { props: { staticData, lang: DEFAULT_LOCALE } }
 }

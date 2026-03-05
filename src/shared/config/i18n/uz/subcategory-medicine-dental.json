@@ -1,0 +1,182 @@
+{
+  "title": "Tibbiyot",
+  "description": "Tibbiyotda ozon terapiyasi va ozonlash: operatsiya xonalari va palatalarni sterilizatsiya qilish, tibbiy uskunalarni dezinfeksiya qilish, stomatologiya kabinetlarini, reabilitatsiya markazlarini va tez yordam mashinalarini davolash.",
+  "subcategories": {
+    "dental": {
+      "title": "Stomatologiya klinikalar",
+      "shortDesc": "Kabinetlar va asboblarni sterilizatsiya qilish",
+      "content": "Stomatologiya protseduralar potentsial patogen mikroorganizmlar bilan aerosolni yaratadi. Bemorlar o'rtasida dento-laboratoriyalarni ozonlash hava va barcha sirtlarning dezinfeksiyasini ta'minlaydi, o'zaro infeksiya xavfini kamaytiradi.\n\nZamonaviy stomatologiya ozonni nafaqat xona dezinfeksiyasi uchun, balki terapiyaviy maqsadda ham ishlatadi: karixlarni davolash, periodontal kasalliklarni davolash, ildiz kanalini dezinfeksiya qilish.\n\nHar bir bemordan keyin stomatologiya kabinetini ozonlash 15–20 daqiqani oladi va tanaffuslar paytida o'tkazilishi mumkin. Gaz uskunaning qiyin erishiladigan qismlariga kirib boradi: shlanglarga, quloq qismiga, suv liniyalariga.\n\nIshlov berish tezligi va dezinfeksiyadan keyin kimyoviy hidlarning yo'qligi stomatologiya klinikalar uchun ayniqsa muhimdir. Ozon 20–30 daqiqada kislorodga parchalanadi, engil yangi hid qoladi. Bemorlar yoqimli atmosferani qayd etadi.",
+      "benefits": [
+        "Har bir bemordan keyin dezinfeksiya",
+        "15–20 daqiqada ishlov berish",
+        "Ozonning terapiyaviy qo'llanilishi",
+        "Stomatologiya uskunalarni tozalash",
+        "Kimyoviy hidlar yo'q",
+        "O'zaro infeksiya oldini olish"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "15-20",
+          "label": "Daqiqa",
+          "description": "Bemorlar o'rtasida kabinet dezinfeksiyasi"
+        },
+        "stat2": {
+          "value": "99,9%",
+          "label": "Patogenlar",
+          "description": "Ishlov berish paytida yo'q qilindi"
+        },
+        "stat3": {
+          "value": "100%",
+          "label": "Qoplamishi",
+          "description": "Barcha sirtlar va uskunalardan"
+        },
+        "stat4": {
+          "value": "Ozon terapiyasi",
+          "label": "Davolash",
+          "description": "Karixlar va periodontal kasalliklarni"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Stomatologiya protseduralar infeksiya uzatish yuqori xavfini tashkil qiladi: turbin quloq qismlaridan aerosollar, qon va saliuva bilan aloqa, kuniga ko'p miqdordagi bemorlar. Ozonlash kabinet dezinfeksiyasini tez va samarali, shuningdek terapiyaviy tatbiqlashni ta'minlaydi.",
+          "text2": "Xona dezinfeksiyasiga qo'shimcha ravishda, ozon faol ravishda terapiyaviy maqsadda ishlatiladi: karix bo'shliqlarini davolash, periodontal kasalliklarni davolash, ildiz kanalini dezinfeksiya qilish. Ozon terapiyasi zamonaviy stomatologiyaning tan olingan sohasi."
+        },
+        "highlight1": {
+          "title": "Stomatologiya xususiyati:",
+          "text": "Turbin quloq qismi ishlayotganda, bemor og'iz bo'shligidan bakteriya va viruslar o'z ichiga olgan yupqa aerosollar hosil bo'ladi. Bu aerosollar kabinetda tarqalib, sirtlarga to'planadi."
+        },
+        "applications": {
+          "title": "Stomatologiyada ozonning qo'llanilishi",
+          "items": [
+            "Bemor tashrif o'rtasida kabinet dezinfeksiyasi",
+            "Ish kunining oxirida kabinet oxirgi ishlov berish",
+            "Stomatologiya qurilmalarida suv ta'minot tizimini tozalash",
+            "Ozon terapiyasi: burg'ulashsiz karix davolash",
+            "Ildiz kanali davolash",
+            "Periodontal kasalliklarni davolash",
+            "Olinadigan protezlarni dezinfeksiya qilish"
+          ]
+        },
+        "disinfection": {
+          "title": "Stomatologiya kabinetini dezinfeksiya qilish",
+          "text": "Ozonlash bemorlar o'rtasida texnik tanaffuslar paytida tez kabinet dezinfeksiyasiga imkon beradi. 15-20 daqiqada ozon barcha sirtlar va havoda patogenlarni yo'q qiladi.",
+          "table": {
+            "caption": "Stomatologiya kabinet ozonlash rejimi",
+            "headers": [
+              "Ishlov berish turi",
+              "Kontsentratsiya",
+              "Vaqt",
+              "Chastotasi"
+            ],
+            "rows": [
+              [
+                "Bemorlar o'rtasida",
+                "5-10 mg/m³",
+                "15-20 daqiqa",
+                "Har bir tashrif keyin"
+              ],
+              [
+                "Tushlik tanaffusi",
+                "10-15 mg/m³",
+                "30-40 daqiqa",
+                "Kuniga"
+              ],
+              [
+                "Ish kunining oxiri",
+                "15-20 mg/m³",
+                "60 daqiqa",
+                "Kuniga"
+              ],
+              [
+                "Yuqumli bemordan keyin",
+                "20-30 mg/m³",
+                "60-90 daqiqa",
+                "Ko'rsatilganda"
+              ]
+            ]
+          },
+          "highlight": "Ozon uskunalarning qiyin erishiladigan joylariga kirib boradi: shlanglarga, quloq qismiga, suv ta'minot tizimiga — an'anaviy silkitish imkonsiz bo'lgan joylar."
+        },
+        "ozonotherapy": {
+          "title": "Stomatologiyada ozon terapiyasi",
+          "text": "Stomatologiyada ozonning terapiyaviy qo'llanilishi ozon terapiyasining eng rivojlangan sohalaridan biridir. Ozon o'ziga xos bakteritsid, antivirusli va fungitsid ta'sirlarga ega.",
+          "features": [
+            {
+              "title": "Karix davolash",
+              "description": "Boshlang'ich bosqichlarida ozon bakteriyalarni yo'q qiladi va burg'ulashsiz karixning rivojlanishini to'xtatadi"
+            },
+            {
+              "title": "Kanal davolash",
+              "description": "Ozonlangan suv va gaz to'ldirish oldidan ildiz kanalini dezinfeksiya qilish uchun"
+            },
+            {
+              "title": "Periodontitis davolash",
+              "description": "Periodontal cho'nchalarni ozon davolash yallig'lanishni kamaytiradi va patogenlarni yo'q qiladi"
+            },
+            {
+              "title": "Yaraning sohaylash",
+              "description": "Tish chiqarish, implantatsiya, chirurgik amaliyotlardan keyin tezlashtirilgan sohaylash"
+            }
+          ],
+          "table": {
+            "caption": "Terapiyaviy stomatologiyada ozonning qo'llanilishi",
+            "headers": [
+              "Ko'rsatma",
+              "Usul",
+              "Ta'sir"
+            ],
+            "rows": [
+              [
+                "Boshlang'ich karix",
+                "Gaz 40-60 soniyali o'suvga",
+                "Minerallashtirish, jarayonni to'xtash"
+              ],
+              [
+                "Chuqur karix",
+                "Gaz + ozonlangan suv",
+                "Qalinlik sterilizatsiyasi to'ldirish oldin"
+              ],
+              [
+                "Pulpit",
+                "Ozonlangan suv kanalda",
+                "Yallig'lanishning yengillanishi"
+              ],
+              [
+                "Periodontitis",
+                "Gaz cho'nchada + irrigatsiya",
+                "Qoniy oqishning 80% qisqarilishi"
+              ],
+              [
+                "Stomatit",
+                "Ozonlangan suv, cho'mish",
+                "3-5 kunning sohaylashi"
+              ]
+            ]
+          }
+        },
+        "waterSystems": {
+          "title": "Suv ta'minot tizimi ishlov berish",
+          "text": "Biofilmlar — Legionella va Pseudomonas o'z ichiga olgan bakteriya koloniyalari — stomatologiya qurilmasining quvur liniyalariga shakllanadi. Ozonlangan suv samarali biofilmlarni yo'q qiladi va tizimni dezinfeksiya qiladi.",
+          "items": [
+            "Kunning oxirida ozonlangan suvni tizimdan (2-3 mg/L) to'kirish",
+            "Quvur sirtidagi biofilmlarni yo'q qilish",
+            "Tank va filtrni dezinfeksiya qilish",
+            "Irrigatsiya uchun suv sifatini yaxshilash"
+          ]
+        },
+        "benefits": {
+          "title": "Stomatologiya klinikalar uchun foyda",
+          "items": [
+            "Tez kabinet o'zgartirish — tanaffuslar paytida dezinfeksiya",
+            "Bemorlar o'rtasida o'zaro infeksiyaning oldini olish",
+            "Ishlov berishdan keyin kimyoviy hidlar yo'q — bemor qulayligi",
+            "Qo'shimcha xizmat — zamonaviy davolash usuli sifatida ozon terapiyasi",
+            "Stomatologiya klinika sanitarya talablariga muvofiqlik",
+            "Dezinfektantlar xaraji kamayishi"
+          ],
+          "highlight": "Bemorlar ozonlashdan keyin kabinetning yoqimli atmosferasini qayd etadi — ma'yus \"kasalxona\" hidi yo'q yangi hava. Bu loyallikni va tashrif qulayligini oshiradi."
+        }
+      }
+    }
+  }
+}

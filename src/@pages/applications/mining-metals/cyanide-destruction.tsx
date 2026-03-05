@@ -3,7 +3,7 @@ import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { getSubcategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
 import {
   ArticleHero,
   ArticleSection,
@@ -28,7 +28,7 @@ interface CyanideDestructionPageProps {
 
 export function CyanideDestructionPage({ staticData, lang }: CyanideDestructionPageProps) {
   const { t } = useTranslate()
-  const ns = getCategoryNamespace('mining-metals')
+  const ns = getSubcategoryNamespace('mining-metals', 'cyanide-destruction')
 
   const categoryData = (staticData as Record<string, { subcategories?: Record<string, any> }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.[SUBCATEGORY_ID]

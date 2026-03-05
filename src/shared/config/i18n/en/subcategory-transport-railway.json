@@ -1,0 +1,288 @@
+{
+  "title": "Transport",
+  "description": "Ozonation of vehicles ensures sanitary safety of passenger transport, disinfection of cargo containers and an eco-friendly alternative to chemical fumigation.",
+  "subcategories": {
+    "railway": {
+      "title": "Railway carriages",
+      "shortDesc": "Treatment of passenger and freight cars",
+      "content": "Railway carriage ozonation is used to disinfect compartments, open coaches and toilets, and to treat freight cars between runs. It effectively removes odors and destroys pathogens.\n\nPassenger cars have high occupancy and limited ventilation. Ozonation in the depot between runs provides deep disinfection of all surfaces and textiles: shelves, curtains, carpeting.\n\nToilet treatment with ozone is especially effective: the gas neutralizes odors at the molecular level and destroys bacteria in hard-to-reach areas. The result is clean, fresh spaces without harsh chemicals.\n\nFreight cars are ozonated to remove odors from previous cargo and to prepare for sensitive goods. Ozonation is an eco-friendly alternative to chemical treatment and leaves no residues on walls.",
+      "benefits": [
+        "Disinfection of compartments and coaches",
+        "Deep toilet treatment",
+        "Textile odor removal",
+        "Freight car preparation",
+        "No chemical residues",
+        "Treatment in depot between runs"
+      ],
+      "stats": {
+        "time": {
+          "value": "30-60",
+          "label": "minutes",
+          "description": "Compartment car treatment"
+        },
+        "efficiency": {
+          "value": "99.9%",
+          "label": "Efficiency",
+          "description": "Against viruses and bacteria"
+        },
+        "compartments": {
+          "value": "10-12",
+          "label": "compartments",
+          "description": "Simultaneous treatment"
+        },
+        "coverage": {
+          "value": "100%",
+          "label": "Coverage",
+          "description": "Including ventilation and toilets"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Railway carriages are enclosed spaces where passengers spend from several hours to several days. In compartment and open coaches, people sleep on shared bunks, use shared toilets, and breathe recirculated air. This creates ideal conditions for infection spread.",
+          "text2": "Ozonation is the only method that provides complete carriage disinfection, including ventilation systems, mattresses, curtains and hard-to-reach areas. The gas penetrates everywhere that a disinfectant cloth cannot reach."
+        },
+        "highlight1": {
+          "title": "For railway depots:",
+          "text": "Ozonation fits into standard carriage turnover. While a carriage waits for the next run, it is treated. No additional downtime is needed, no special cleaning staff required."
+        },
+        "sanitation": {
+          "title": "Sanitation specifics in trains",
+          "text": "Passenger carriages have specific problems that are difficult to solve with traditional cleaning:",
+          "items": [
+            "Textile elements (mattresses, pillows, curtains) absorb odors and microorganisms",
+            "Ventilation systems recirculate air, spreading pathogens between compartments",
+            "Toilets with limited water are difficult to keep clean",
+            "Carpeting accumulates dust, dirt and organic contamination",
+            "Inter-car vestibules and passages are high-contamination zones",
+            "Open coaches have open space with shared ventilation"
+          ]
+        },
+        "technology": {
+          "title": "Carriage ozonation technology",
+          "text": "Passenger carriage treatment is done in the depot between runs. The method depends on carriage type and objectives.",
+          "steps": [
+            {
+              "title": "Preliminary cleaning",
+              "description": "Remove trash, change bed linens, wet cleaning. Ozone works more effectively on clean surfaces."
+            },
+            {
+              "title": "Carriage sealing",
+              "description": "Close all windows, doors, inter-car passages. Turn off supply ventilation, leave recirculation for ozone distribution."
+            },
+            {
+              "title": "Ozonator placement",
+              "description": "In compartment cars — 2-3 ozonators in the corridor. In open coaches — 3-4 ozonators along the aisle. In toilets — separate units."
+            },
+            {
+              "title": "Ozonation",
+              "description": "Turn on ozonators, leave the carriage, close the door. Treatment time 30-60 minutes depending on contamination level."
+            },
+            {
+              "title": "Ventilation",
+              "description": "Open windows and doors, turn on supply ventilation at full power. Ventilate for 20-30 minutes."
+            }
+          ]
+        },
+        "modes": {
+          "title": "Treatment modes by carriage type",
+          "highlight": "For trains of 10-15 cars, a team method is used: ozonators move sequentially from car to car. While the first cars are ventilating, the last ones are being treated.",
+          "tableCaption": "Railway carriage ozonation parameters",
+          "tableHeaders": [
+            "Carriage type",
+            "Volume",
+            "Capacity",
+            "Treatment time"
+          ],
+          "tableData": [
+            [
+              "Compartment (10 compartments)",
+              "120-130 m³",
+              "30-50 g/h",
+              "40-60 min"
+            ],
+            [
+              "Open coach",
+              "150-160 m³",
+              "40-60 g/h",
+              "50-70 min"
+            ],
+            [
+              "Soft class",
+              "100-110 m³",
+              "20-30 g/h",
+              "30-45 min"
+            ],
+            [
+              "Dining car",
+              "80-90 m³",
+              "20-30 g/h",
+              "40-50 min"
+            ],
+            [
+              "Commuter train (1 car)",
+              "70-80 m³",
+              "15-25 g/h",
+              "30-40 min"
+            ],
+            [
+              "Metro car",
+              "50-60 m³",
+              "10-20 g/h",
+              "20-30 min"
+            ]
+          ]
+        },
+        "toilets": {
+          "title": "Toilet treatment",
+          "text": "Toilets in trains are a special focus area. Limited water, high usage intensity, specific odors. Traditional cleaning methods do not fully solve the problem.",
+          "items": [
+            "Ozone destroys bacteria in toilets, sinks, floors and walls",
+            "Neutralizes odors at the molecular level, not masking them",
+            "Treats hard-to-reach areas: behind toilets, under sinks",
+            "Eliminates fungus and mold in corners and joints",
+            "Disinfects ventilation grilles and ducts"
+          ],
+          "text2": "Recommended mode: concentration 20-30 mg/m³, time 20-30 minutes. For severe cases — increase time to 45-60 minutes. Compact ozonators of 3-5 g/h are ideal for toilets."
+        },
+        "comparison": {
+          "title": "Comparison with traditional methods",
+          "tableHeaders": [
+            "Parameter",
+            "Ozonation",
+            "Chemical treatment"
+          ],
+          "tableData": [
+            {
+              "parameter": "Mattress and textile treatment",
+              "value1": "Yes (without removal)",
+              "value2": "No (replacement only)"
+            },
+            {
+              "parameter": "Ventilation disinfection",
+              "value1": "Yes (automatically)",
+              "value2": "No"
+            },
+            {
+              "parameter": "Odor elimination",
+              "value1": "Complete (oxidation)",
+              "value2": "Partial (masking)"
+            },
+            {
+              "parameter": "Staff per car",
+              "value1": "1 person per 5-10 cars",
+              "value2": "2-3 people per car"
+            },
+            {
+              "parameter": "Consumables",
+              "value1": "Electricity",
+              "value2": "Disinfectants, rags"
+            },
+            {
+              "parameter": "Wet residues",
+              "value1": "No",
+              "value2": "Yes (require drying)"
+            }
+          ],
+          "comparisonTitle": "Ozonation vs chemical carriage disinfection"
+        },
+        "integration": {
+          "title": "Depot integration",
+          "features": [
+            {
+              "title": "Train turnover",
+              "description": "Ozonation during standard turnover. While linens are changed — the car is treated"
+            },
+            {
+              "title": "Night layover",
+              "description": "Trains standing in the depot at night are treated automatically on schedule"
+            },
+            {
+              "title": "Seasonal peaks",
+              "description": "During high passenger traffic periods — enhanced treatment mode"
+            },
+            {
+              "title": "Incident treatment",
+              "description": "After transporting a sick passenger — unscheduled deep disinfection"
+            }
+          ]
+        },
+        "freight": {
+          "title": "Freight car treatment",
+          "text": "Ozonation is used not only for passenger but also for freight cars:",
+          "items": [
+            "Covered cars — removal of odors from previous cargo",
+            "Refrigerated sections — disinfection without chemical residues",
+            "Grain cars — pest control",
+            "Perishable cargo cars — extended storage periods",
+            "Insulated cars — preparation for food transport"
+          ],
+          "highlight": {
+            "title": "For food cargo:",
+            "text": "Ozonation is a safe alternative to chemical fumigation. Ozone decays to oxygen, leaving no toxic residues on car walls and not transferring to cargo."
+          }
+        },
+        "economics": {
+          "title": "Economics for depots",
+          "text": "Payback period for depot ozonator set — 6-12 months through savings on staff and consumables. Additional benefit — improved passenger reviews of car cleanliness.",
+          "tableCaption": "Ozonation efficiency calculation for depot (100 cars)",
+          "tableHeaders": [
+            "Indicator",
+            "With ozonation",
+            "Without ozonation"
+          ],
+          "tableData": [
+            [
+              "Cleaning staff",
+              "3-4 people",
+              "15-20 people"
+            ],
+            [
+              "Train treatment time",
+              "2-3 hours",
+              "5-6 hours"
+            ],
+            [
+              "Disinfectant costs/month",
+              "~5000 ₽ (electricity)",
+              "~80,000 ₽"
+            ],
+            [
+              "Odor complaints",
+              "Rarely",
+              "Regularly"
+            ],
+            [
+              "Ventilation treatment",
+              "Every run",
+              "Once a year (repair)"
+            ]
+          ]
+        },
+        "equipment": {
+          "title": "Railway transport equipment",
+          "text": "Industrial ozonators are used for car treatment:",
+          "items": [
+            "Mobile ozone guns (30-100 g/h) — for whole car treatment",
+            "Portable ozonators (10-30 g/h) — for compartments and toilets",
+            "Wall-mounted ozonators (5-20 g/h) — for fixed installation in cars",
+            "Timer systems — for automatic scheduled treatment",
+            "Ozone sensors — for concentration monitoring and safety"
+          ]
+        },
+        "safety": {
+          "title": "Depot safety requirements",
+          "text": "When ozonating cars in the depot, observe safety requirements:",
+          "items": [
+            "Treatment only in absence of people in the car and on adjacent tracks",
+            "Post warning signs \"Ozonation. Entry prohibited\"",
+            "Staff must be trained in ozone work",
+            "When entering car before ventilation — use respirator",
+            "Keep treatment log with car number, time, parameters",
+            "If sharp ozone odor is detected — immediately leave the area"
+          ],
+          "warning": "Ozone MAC — 0.1 mg/m³. Characteristic \"after thunderstorm\" odor is detected at concentrations of 0.02-0.05 mg/m³. If you smell ozone — the car is not ready for passenger boarding."
+        }
+      }
+    }
+  }
+}

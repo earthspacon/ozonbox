@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { getSubcategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
 import { useLang } from '@/shared/lib'
 import { AppLink } from '@/shared/ui/app-link'
 import {
@@ -32,7 +32,7 @@ interface OfficesPageProps {
 export function OfficesPage({ staticData }: OfficesPageProps) {
   const { t } = useTranslate()
   const lang = useLang()
-  const ns = getCategoryNamespace('disinfection')
+  const ns = getSubcategoryNamespace('disinfection', 'offices')
 
   // get category data from staticData
   const categoryData = (staticData as Record<string, { subcategories?: { offices?: any } }>)[`${lang}:${ns}`]

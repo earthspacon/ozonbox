@@ -2,7 +2,7 @@ import { GetStaticPaths, GetStaticProps } from 'next'
 
 import { PublicBusesPage } from '@/@pages/applications/transport/public-buses'
 
-import { getCategoryNamespace, LOCALES_LIST, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { getSubcategoryNamespace, LOCALES_LIST, NAMESPACES, TLocale } from '@/shared/config/tolgee'
 import { loadNamespaces, withTolgee } from '@/shared/lib'
 
 export const getStaticPaths: GetStaticPaths = async () => {
@@ -15,7 +15,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const staticData = await loadNamespaces(lang, [
     NAMESPACES.common,
     NAMESPACES.applications,
-    getCategoryNamespace('transport'),
+    getSubcategoryNamespace('transport', 'public-buses'),
   ])
   return { props: { staticData, lang } }
 }

@@ -1,0 +1,214 @@
+{
+  "title": "Agriculture",
+  "description": "Ozonation in agriculture increases yields, extends product shelf life and ensures biosecurity. An eco-friendly alternative to chemical pesticides and preservatives.",
+  "subcategories": {
+    "vegetable-storage": {
+      "title": "Vegetable storage",
+      "shortDesc": "Reduced losses of vegetables and fruit during long storage",
+      "content": "Vegetable storage ozonation is an effective way to reduce losses during long-term storage. Ozone quickly and thoroughly disinfects air and surfaces, destroying viruses, bacteria, fungi and mold.\n\nOzone breaks down ethylene, which accelerates ripening and shortens storage life. This allows storing ethylene-sensitive produce together with ethylene-producing produce.\n\nFor a 300-ton carrot store, ozonation equipment can reduce losses on average by a factor of 3.\n\nTreatment regime for most vegetables and fruit: 1–2 times per day for 2–4 hours. Special regimes are used for potatoes, cabbage, apples and other crops.",
+      "stats": {
+        "storageExtension": {
+          "value": "1.5–2×",
+          "label": "Storage extension",
+          "description": "Extended product storage life"
+        },
+        "moldReduction": {
+          "value": "90%",
+          "label": "Mold reduction",
+          "description": "Destruction of fungal spores"
+        },
+        "lossReduction": {
+          "value": "30–50%",
+          "label": "Loss reduction",
+          "description": "Reduced product spoilage"
+        },
+        "noChemicals": {
+          "value": "0",
+          "label": "Chemicals",
+          "description": "No preservatives or fungicides"
+        }
+      },
+      "benefits": [
+        "About 3× lower losses",
+        "Mold and rot destruction",
+        "Ethylene breakdown for longer storage",
+        "Mold spore germination suppression",
+        "Operation at subzero temperatures",
+        "Payback in the first season"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Storage losses of vegetables and fruit range from 20 to 40% of total volume. Main causes are mold development, bacterial rot, premature sprouting and wilting. Ozonation solves these problems comprehensively, extending storage life by 1.5–2 times without chemical agents.",
+          "paragraph2": "Unlike fungicides and preservatives, ozone does not accumulate in products, decomposing to oxygen. This is especially important for organic farming and production of eco-friendly food."
+        },
+        "principle": {
+          "title": "Principle of action:",
+          "text": "Ozone destroys mold, yeast and bacteria on vegetable surfaces and in storage air. It also breaks down ethylene — a gas that accelerates ripening and aging of fruits."
+        },
+        "efficiency": {
+          "title": "Effectiveness of vegetable ozonation",
+          "tableCaption": "Storage life extension with ozonation",
+          "tableHeaders": [
+            "Crop",
+            "Without ozone",
+            "With ozone",
+            "Increase"
+          ],
+          "tableData": [
+            [
+              "Potatoes",
+              "4–5 months",
+              "6–7.5 months",
+              "+2.5 months"
+            ],
+            [
+              "Carrots",
+              "4–6 months",
+              "7–9 months",
+              "+3 months"
+            ],
+            [
+              "Cabbage",
+              "4–5 months",
+              "6–8 months",
+              "+2–3 months"
+            ],
+            [
+              "Onions",
+              "5–6 months",
+              "8–9 months",
+              "+3 months"
+            ],
+            [
+              "Beets",
+              "5–6 months",
+              "8–9 months",
+              "+3 months"
+            ],
+            [
+              "Apples",
+              "4–6 months",
+              "7–9 months",
+              "+3 months"
+            ]
+          ]
+        },
+        "diseases": {
+          "title": "Storage disease control",
+          "intro": "Main storage diseases of vegetables are caused by fungi and bacteria. Ozone is effective against all major pathogens:",
+          "items": [
+            "Potato late blight — 60–80% reduction in infection",
+            "Gray mold (Botrytis) — 95% spore destruction",
+            "Wet rot — suppression of bacterial development",
+            "Fusarium — 70% reduction in infection",
+            "Fruit penicillium — 90% spore destruction",
+            "Carrot blackleg — prevention of development"
+          ],
+          "highlight": "With regular ozonation (2–3 mg/m³, 4–6 hours daily), potato late blight infection decreases from 15–20% to 3–5%, saving up to 30% of the crop."
+        },
+        "modes": {
+          "title": "Vegetable storage ozonation modes",
+          "tableCaption": "Recommended treatment modes",
+          "tableHeaders": [
+            "Crop",
+            "Concentration",
+            "Treatment time",
+            "Frequency"
+          ],
+          "tableData": [
+            [
+              "Potatoes",
+              "2–5 mg/m³",
+              "4–6 hours",
+              "Daily"
+            ],
+            [
+              "Carrots",
+              "3–5 mg/m³",
+              "4–8 hours",
+              "Daily"
+            ],
+            [
+              "Cabbage",
+              "3–5 mg/m³",
+              "4–6 hours",
+              "Daily"
+            ],
+            [
+              "Onions",
+              "5–10 mg/m³",
+              "2–4 hours",
+              "2–3 times per week"
+            ],
+            [
+              "Apples",
+              "2–3 mg/m³",
+              "4–6 hours",
+              "Daily"
+            ],
+            [
+              "Citrus fruits",
+              "3–5 mg/m³",
+              "4–6 hours",
+              "Daily"
+            ]
+          ],
+          "note": "It is important to consider that ozonation mode depends on temperature, humidity and product condition. At high humidity (over 95%), ozone effectiveness increases."
+        },
+        "additionalEffects": {
+          "title": "Additional effects of ozonation",
+          "items": [
+            {
+              "title": "Odor elimination",
+              "description": "Ozone neutralizes odors of decay, mustiness, chemicals in storage"
+            },
+            {
+              "title": "Sprouting suppression",
+              "description": "Slowing sprouting of potatoes and onions without chemical inhibitors"
+            },
+            {
+              "title": "Ethylene breakdown",
+              "description": "Ethylene oxidation slows ripening and aging of fruits"
+            },
+            {
+              "title": "Disinsection",
+              "description": "Destruction of pest insects and their larvae in storage"
+            }
+          ]
+        },
+        "economic": {
+          "title": "Economic effect",
+          "intro": "Implementation of ozonation in vegetable storage provides significant economic benefits:",
+          "highlight": "Equipment payback for ozonation of a 1000-ton vegetable storage is 1–2 storage seasons through loss reduction and higher sales prices.",
+          "tableHeaders": [
+            "Indicator",
+            "With ozone",
+            "Without ozone"
+          ],
+          "tableData": [
+            [
+              "Potato storage losses",
+              "5–8%",
+              "15–25%"
+            ],
+            [
+              "Carrot storage losses",
+              "8–12%",
+              "25–35%"
+            ],
+            [
+              "Fungicide costs",
+              "0",
+              "15–20 per ton"
+            ],
+            [
+              "Late season sales",
+              "At premium price",
+              "At discount (quality deterioration)"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

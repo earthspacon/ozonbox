@@ -1,0 +1,253 @@
+{
+  "title": "Tibbiyot",
+  "description": "Tibbiyotda ozon terapiyasi va ozonlash: operatsiya xonalari va palatalarni sterilizatsiya qilish, tibbiy uskunalarni dezinfeksiya qilish, stomatologiya kabinetlarini, reabilitatsiya markazlarini va tez yordam mashinalarini davolash.",
+  "subcategories": {
+    "hospitals": {
+      "title": "Kasalxonalar va operatsiya xonalari",
+      "shortDesc": "Palatalar va operatsiya blokalarining sterilizatsiyasi",
+      "content": "Kasalxona ozonlashi yuqori darajadagi sterillikni ta'minlaydi, bu nosokomial infektsiyalarni oldini olish uchun juda muhimdir. Ozon bakteriya, viruslar, sporalar va zamburug'larni 99,99% samara bilan yo'q qiladi.\n\nOperatsiya bloklar maxsus sanitarya rejimlarini talab qiladi. Operatsiyadan keyin ozonlash barcha sirtlarning, shu jumladan qiyin erishiladigan joylarning chuqur dezinfeksiyasini ta'minlaydi: uskunaning teschasida, ventilyatsiya tizimlarida, shponka qo'zg'atuvchilarda.\n\nRezistansiya xonalari va qayta tiklash xonalari bemorlar o'rtasida infeksiya uzatish xavfining yuqori zonalaridir. Muntazam ozonlash havoda va sirtlarda mikrob yükini kamaytiradi, standart tozalash protokollarini to'ldiradi.\n\nOzon antibiotiklaraga chidamli bakteriyalarga, shu jumladan MRSA va VRE ga karshi samarali, bu sog'liqni saqlashda jiddiy xavf. Ishlov berishdan keyin ozon kislorodga parchalanadi, toksik qoldiqlar qolmaydi, bu bemor xavfsizligi uchun muhimdir.",
+      "benefits": [
+        "99,99% patogenlarga qarshi samaradorlik",
+        "Nosokomial infektsiyalarga qarshi kurash",
+        "Antibiotiklaraga chidamli bakteriyalarni yo'q qilish",
+        "Qiyin yorgan joylarni dezinfeksiya qilish",
+        "Toksik kimyoviy qoldiqlar yo'q",
+        "Standart protokollarni to'ldirish"
+      ],
+      "stats": [
+        {
+          "value": "99,99%",
+          "label": "Samaradorlik",
+          "description": "Patogen mikroorganizmlarni yo'q qilish"
+        },
+        {
+          "value": "MRSA",
+          "label": "Yo'q qiladi",
+          "description": "Antibiotiklaraga chidamli bakteriyalar"
+        },
+        {
+          "value": "20-30 daqiqa",
+          "label": "Ozon parchalanishi",
+          "description": "Xavfsiz kislorod darajasigacha"
+        },
+        {
+          "value": "0",
+          "label": "Qoldiqlar",
+          "description": "Ishlov berishdan keyin kimyoviy moddalar"
+        }
+      ],
+      "sections": {
+        "intro": {
+          "text": "Nosokomial infektsiyalar (HAI) zamonaviy tibbiyotning eng jiddiy muammolaridan biridir. JUON ma'lumotiga ko'ra, rivojlangan mamlakatlarda hospitalga yotqan bemorlarning 7-10 foizi va rivojlanayotgan mamlakatlarda 25 foizigacha yuqumli. Ozonlash bu muammoni hal qilishning samarali usuli bo'lib, 99,99% patogenlari yo'q qilishni ta'minlaydi.",
+          "text2": "Kimyoviy dezinfektantlardan farqli o'laroq, ozon toksik qoldiqlar qoldirmaydi, mikroorganizmlar ichida qarshilikni keltirib chiqarmaydi va ishlov berishdan keyin 20-30 daqiqada sof kislorodga parchalanadi. Bu immuniteti zaif bemorlar uchun ayniqsa muhimdir."
+        },
+        "highlight1": {
+          "title": "Muhim:",
+          "text": "Ozon antibiotiklaraga chidamli bakteriya shtammlariga, shu jumladan MRSA (metitsillinaga chidamli Staphylococcus aureus) va VRE (vankomisinaga chidamli enterokokklar) ga karshi samarali bo'lib, bu sog'liqni saqlash muassasalarida alohida xavf tashkil qiladi."
+        },
+        "problem": {
+          "title": "Nosokomial infektsiyalar muammosi",
+          "text": "Nosokomial infektsiyalar o'rtacha 8-10 kunning davolanish vaqtini, davolanish xarajatlarini va o'lim ortini oshiradi. HAI ning asosiy manbalari:",
+          "items": [
+            "Aloqa sirtlari: to'shaklar, yon stol, qo'l tutgichlari, qo'ng'iroq tugmachalari",
+            "Tibbiy uskunalar: monitorlar, kateterlar, nafas olish sxemalari",
+            "Havo muhiti: yo'tal paytida, hapira paytida, tibbiy protseduralardan aerosolaning zarralar",
+            "Ventilyatsiya va konditsioner tizimlar",
+            "To'qimalar: to'shak laypari, pardalar, liboslar"
+          ]
+        },
+        "operating-rooms": {
+          "title": "Operatsiya blokalarini ozonlash",
+          "text": "Operatsiya bloklar maxsus sanitarya rejimlarini talab qiladi. Dezinfektantlar bilan an'anaviy tozalash barcha sirtlarni ishlov berish imkonini bermaydi — ozon gaz bo'lgani uchun uskunaning teschasiga, ventilyatsiya tizimlariga, uskunaning orqasidagi qiyin erishiladigan joylariga kirib boradi.",
+          "table": {
+            "caption": "Operatsiya xonalari uchun ozonlash rejimi",
+            "headers": [
+              "Ishlov berish turi",
+              "Kontsentratsiya",
+              "Ishlov berish vaqti",
+              "Chastotasi"
+            ],
+            "rows": [
+              [
+                "Operatsiyalar orasida",
+                "10-15 mg/m³",
+                "30-40 daqiqa",
+                "Har bir operatsiyadan keyin"
+              ],
+              [
+                "Yakuniy dezinfeksiya",
+                "20-25 mg/m³",
+                "60-90 daqiqa",
+                "Ish kunining oxirida"
+              ],
+              [
+                "Yuqumli holatlardan keyin",
+                "30-40 mg/m³",
+                "120 daqiqa",
+                "Ko'rsatilgan joyda"
+              ],
+              [
+                "Profilaktika",
+                "10 mg/m³",
+                "60 daqiqa",
+                "Haftasiga bir"
+              ]
+            ]
+          },
+          "highlight": "Ozonlashdan keyin ozon kontsentratsiyasini xavfsiz darajaga tushirish uchun 1,5-2 soat ventilyatsiyasi yetarli. Xona qo'shimcha ishlov berishsiz foydalanishga tayyor."
+        },
+        "wards": {
+          "title": "Palatalar va RRR larini dezinfeksiya qilish",
+          "text": "Reanimatsiya va qayta tiklash palatalaringiz bemorlar o'rtasida infeksiya uzatish xavfining orttirilgan zonalaridir. Eng zaif toifalar bu erda: mexanik ventilyatsiyada bo'lgan bemorlar, operatsiyadan keyin, immun tanqisligi bo'lgan.",
+          "steps": [
+            {
+              "title": "Xona tayorlash",
+              "description": "Bemorlarni olib tashlash (iloji bo'lsa) yoki ajratilgan zonalardan foydalanish. Oynalar va eshiklarni yopish, ta'minot ventilyatsiyasini o'chirish."
+            },
+            {
+              "title": "Ozonlash",
+              "description": "Ozonatori hisoblangan vaqt uchun yoqish. 15-20 mg/m³ kontsentratsiya ko'pchilik patogenlarni yo'q qilishni ta'minlaydi."
+            },
+            {
+              "title": "Ekspoze",
+              "description": "Barcha sirtlarni to'liq dezinfeksiya qilish uchun 30-60 daqiqa davomida o'rnatilgan kontsentratsiyani saqlash."
+            },
+            {
+              "title": "Ventilyatsiya",
+              "description": "Ventilyatsiyani oching, ozon kontsentratsiyasi PDK (0,1 mg/m³) dan pastga tushguncha xonani shamol berish."
+            }
+          ]
+        },
+        "pathogens": {
+          "title": "Patogenlarga qarshi samaradorlik",
+          "text": "Ozon sog'liqni saqlash muassasalarida topilgan deyarli barcha patogen mikroorganizmlarni yo'q qiladi:",
+          "table": {
+            "caption": "Ozon tomonidan patogen inaktivatsiya vaqti (kontsentratsiya 20 mg/m³)",
+            "headers": [
+              "Mikroorganizm",
+              "Inaktivatsiya vaqti",
+              "Samaradorlik"
+            ],
+            "rows": [
+              [
+                "Staphylococcus aureus (MRSA)",
+                "10-15 daqiqa",
+                "99,99%"
+              ],
+              [
+                "Escherichia coli",
+                "5-10 daqiqa",
+                "99,99%"
+              ],
+              [
+                "Pseudomonas aeruginosa",
+                "15-20 daqiqa",
+                "99,99%"
+              ],
+              [
+                "Candida albicans",
+                "15-20 daqiqa",
+                "99,9%"
+              ],
+              [
+                "Aspergillus niger (sporalar)",
+                "30-40 daqiqa",
+                "99,9%"
+              ],
+              [
+                "Clostridium difficile (sporalar)",
+                "40-60 daqiqa",
+                "99,9%"
+              ],
+              [
+                "Gripp viruslar",
+                "5-10 daqiqa",
+                "99,99%"
+              ],
+              [
+                "Koronaviruslar",
+                "10-15 daqiqa",
+                "99,99%"
+              ]
+            ]
+          }
+        },
+        "comparison": {
+          "title": "Dezinfeksiya usullarini taqqoslash",
+          "tableTitle": "Ozonlash vs an'anaviy usullar",
+          "headers": [
+            "Parametr",
+            "Ozonlash",
+            "Kimyoviy dezinfeksiya"
+          ],
+          "rows": [
+            {
+              "parameter": "Sirtni qoplamishi",
+              "value1": "100% (qiyin erishiladigan joylar o'z ichiga olib)",
+              "value2": "70-80% (faqat erishiladigan)"
+            },
+            {
+              "parameter": "Toksik qoldiqlar",
+              "value1": "Yo'q (O₂ ga parchalanadi)",
+              "value2": "Ha (shuning uchun cho'mishni talab qiladi)"
+            },
+            {
+              "parameter": "Bakteriya qarshiligi",
+              "value1": "Shakllanmadi",
+              "value2": "Tez-tez foydalanish bilan shakllanadi"
+            },
+            {
+              "parameter": "Hava ishlov berish",
+              "value1": "Ha (hava dezinfeksiyasi)",
+              "value2": "Yo'q"
+            },
+            {
+              "parameter": "Keyin tozalash kerakmi",
+              "value1": "Yo'q",
+              "value2": "Ha (silkitish, cho'mish)"
+            },
+            {
+              "parameter": "Xodimlar uchun xavfsizlik",
+              "value1": "Ha (to'g'ri protokol bilan)",
+              "value2": "Allergiya va irritatsiya xavfi"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Tibbiyotda ozonlashning afzalliklari",
+          "features": [
+            {
+              "title": "Qarshilik yo'q",
+              "description": "Ozon hujaira membranalariga ta'sir qiladi — bakteriyalar qarshilik rivojlantira olmaydi"
+            },
+            {
+              "title": "To'liq qoplamishi",
+              "description": "Gaz hamma yerga kirib boradi: teschasiga, uskunaning orqasiga, ventilyatsiyaga, mebel ostiga"
+            },
+            {
+              "title": "Qoldiqlar yo'q",
+              "description": "Kislorodga parchalanadi — cho'mish kerak emas, bemorlar uchun xavfsiz"
+            },
+            {
+              "title": "Qonunlar bilan muvofiqlik",
+              "description": "Usul sog'liqni saqlash muassasalari uchun Rossiya sanitarya standartlari tomonidan tavsiya etiladi"
+            }
+          ]
+        },
+        "safety": {
+          "title": "Xavfsizlik talablari",
+          "text": "Tibbiy binolarni ozonlashda xavfsizlik talablarini kuzatish kerak:",
+          "items": [
+            "Ishlov berish odamlar va hayvonlar yo'q vaqtida o'tkaziladi",
+            "Xona ishlov berish paytida muhr tutilishi kerak",
+            "Ozonatorlar bilan ishlayotgan xodimlar o'qitish o'tkazishlari kerak",
+            "Ishlov berishdan keyin — PDK (0,1 mg/m³) gacha majburiy ventilyatsiya",
+            "Ozon kontsentratsiyasi sensorlaridan foydalanish tavsiya etiladi",
+            "Nazorat va hisobot uchun ishlov berish jurnali yuritish"
+          ],
+          "warning": "Ish zonasida ozonning PDK 0,1 mg/m³. Ortsa, xarakterli \"chaqindan keyin\" hidi seziladi. Zamonaviy ozonatorlar taymer va avtomatik o'chirish tizimiga ega."
+        }
+      }
+    }
+  }
+}

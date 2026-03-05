@@ -1,0 +1,94 @@
+{
+  "title": "Mining & metals",
+  "description": "Ozone in gold and metal mining: ore pretreatment, leaching enhancement, cyanide destruction, and metal storage and surface cleaning. Eco-friendly technology for mineral processing and metalworking.",
+  "subcategories": {
+    "metal-storage-surface": {
+      "title": "Ozone for metal storage and surface treatment",
+      "shortDesc": "Cleaning and passivation of metal surfaces with ozone: organic removal, oxide film formation, applications in semiconductors, optics, and aerospace. Corrosion considerations.",
+      "content": "Ozone is used for cleaning and passivation of metal surfaces during storage and processing. Its high oxidation capability allows removal of organic contaminants, carbon-containing films and fingerprints, formation of quality oxide films, and improved corrosion resistance. Applications span semiconductor manufacturing, optics, aerospace, and metalworking.",
+      "stats": {
+        "cleaning": {
+          "value": "Yes",
+          "label": "Surface cleaning",
+          "description": "Removal of organics and carbon-containing films"
+        },
+        "passivation": {
+          "value": "Yes",
+          "label": "Passivation",
+          "description": "Formation of protective oxide films"
+        },
+        "industries": {
+          "value": "4+",
+          "label": "Industries",
+          "description": "Semiconductors, optics, aerospace, metalworking"
+        },
+        "corrosion": {
+          "value": "Consider",
+          "label": "Corrosion",
+          "description": "Regime selection for environment"
+        }
+      },
+      "benefits": [
+        "Removal of organic contaminants and fingerprints",
+        "Clean substrates for deposition and bonding",
+        "Passivation of metals for corrosion resistance",
+        "Applications in semiconductors, optics, aerospace"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Ozone is used for cleaning and passivation of metal surfaces during storage and processing. Its high oxidation capability allows removal of organic contaminants, carbon-containing films and fingerprints, formation of quality oxide films, and improved corrosion resistance.",
+          "paragraph2": "Applications span semiconductor manufacturing, optics, aerospace, and metalworking. Methods include ozone gas treatment with UV irradiation, immersion in ozone-diluted water, and direct exposure to gaseous ozone."
+        },
+        "cleaning": {
+          "title": "Metal surface cleaning",
+          "intro": "Ozone surface treatment methods use high oxidation capability to achieve several goals: reducing carbon-related contamination on surfaces, preparing clean substrates for thin-film deposition, forming quality oxide films, and passivating metals to increase corrosion resistance.",
+          "methods": "Methods include ozone gas treatment with UV irradiation, immersion in ozone-diluted water, and direct exposure to gaseous ozone. Industrial applications cover semiconductor wafer cleaning, optical component cleaning, aerospace parts, and removal of organic residues and fingerprints."
+        },
+        "passivation": {
+          "title": "Metal passivation",
+          "intro": "Ozone promotes formation of protective oxide films on metal surfaces, improving corrosion resistance. Combined with UV, ozone effectively removes organics and prepares surfaces for subsequent coating or storage without corrosion."
+        },
+        "applications": {
+          "title": "Industrial applications",
+          "intro": "Ozone surface cleaning and activation with UV and ozone are used in semiconductor manufacturing, optical component production, aerospace, and metal product storage. Treatment provides clean substrates for deposition, removal of organic residues, and surface preparation for bonding or coating."
+        },
+        "corrosion": {
+          "title": "Effect of ozone on corrosion",
+          "intro": "The effect of dissolved ozone on corrosion of metals and alloys depends on water chemistry, pH, and temperature. In some conditions ozone has no significant effect on mild steel passivation; in others it may increase corrosion of copper and copper-nickel alloys. For industrial use, regime and medium composition must be selected accordingly."
+        },
+        "benefits": {
+          "title": "Benefits of ozone metal treatment",
+          "items": [
+            {
+              "title": "Cleaning",
+              "description": "Removal of organics, carbon films, fingerprints; clean substrates for deposition."
+            },
+            {
+              "title": "Passivation",
+              "description": "Protective oxide films, improved corrosion resistance."
+            },
+            {
+              "title": "Industries",
+              "description": "Semiconductors, optics, aerospace, metalworking, storage."
+            },
+            {
+              "title": "Regimes",
+              "description": "Selection with regard to corrosion effects in the specific environment."
+            }
+          ]
+        }
+      },
+      "sourcesTitle": "Sources",
+      "sources": [
+        {
+          "title": "Surface treatment methods using ozone — JST, Japan",
+          "url": "https://www.jstage.jst.go.jp/article/jvsj2/56/8/56_13-RV-012/_article"
+        },
+        {
+          "title": "Ozone application in different industries: A review — ScienceDirect, 2022",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1385894722056686"
+        }
+      ]
+    }
+  }
+}

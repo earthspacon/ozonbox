@@ -1,0 +1,215 @@
+{
+  "title": "HoReCa",
+  "description": "Hotels, restaurants, laundries and other hospitality venues use ozonation to create a comfortable environment, eliminate odors and maintain high hygiene standards.",
+  "subcategories": {
+    "restaurants": {
+      "title": "Restaurants and cafes",
+      "shortDesc": "Removal of kitchen and tobacco odors",
+      "heroTitle": "Restaurant and cafe ozonation",
+      "heroDesc": "Removal of kitchen, tobacco and hookah odors. Fresh air improves guest comfort and appetite.",
+      "content": "Restaurant business is about atmosphere. The smell of a smoky room, stale food or kitchen grease can put off even loyal customers. Research shows that air quality directly affects subconscious perception of service.\n\nSmell is so closely tied to the subconscious that people may not realize why they feel comfortable or not in a venue. They simply say \"liked it\" or \"didn't like it.\" That impression determines whether they return.\n\nOzonation addresses this radically — not masking odors with fragrances but destroying them at the molecular level. Regular ozonation of premises during off-hours significantly reduces unpleasant odors.\n\nOzone is a gas and a strong oxidizer. It penetrates hard-to-reach areas, material structure and pores where odor sources are sorbed, and oxidizes odor molecules to water and carbon dioxide.",
+      "benefits": [
+        "Higher guest loyalty",
+        "15–20% higher average check",
+        "Longer stay time",
+        "Fewer odor complaints",
+        "No consumables",
+        "Automatic operation without staff"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "60-120",
+          "label": "Minutes of treatment",
+          "description": "Full cleaning cycle of the hall"
+        },
+        "stat2": {
+          "value": "100%",
+          "label": "Odor removal",
+          "description": "Tobacco, kitchen, dampness"
+        },
+        "stat3": {
+          "value": "+25%",
+          "label": "Stay time",
+          "description": "Guests stay longer"
+        },
+        "stat4": {
+          "value": "0",
+          "label": "Consumables",
+          "description": "Ozone from air"
+        }
+      },
+      "problems": [
+        "Tobacco and hookah odor — penetrates furniture, curtains, upholstery",
+        "Kitchen odors — grease, spices, fish, garlic",
+        "Damp and mold — especially in basements",
+        "Ventilation odor — grease buildup in ducts",
+        "Restroom odors — enter the hall with poor ventilation",
+        "Bacteria and mold — sources of unpleasant odors",
+        "Household chemical odor — from cleaning agents after cleaning"
+      ],
+      "zones": {
+        "hall": {
+          "title": "Dining hall",
+          "desc": "Removal of tobacco, food and perfume odors. Creating a feeling of freshness and cleanliness for guests."
+        },
+        "kitchen": {
+          "title": "Kitchen",
+          "desc": "Neutralization of grease deposits in ventilation, frying, fish, spice odors."
+        },
+        "refrigerators": {
+          "title": "Cold rooms",
+          "desc": "Disinfection without shutdown. 2–3× longer product storage."
+        },
+        "toilets": {
+          "title": "Restrooms",
+          "desc": "Complete odor removal and bacteria destruction on all surfaces."
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Restaurant business is about atmosphere. The smell of a smoky room, stale food or kitchen grease can put off even loyal customers. Research shows that air quality directly affects subconscious perception of service. Ozonation addresses this radically — not masking odors with fragrances but destroying them at the molecular level.",
+          "text2": "Smell is so closely tied to the subconscious that people may not realize why they feel comfortable or not in a venue. They simply say \"liked it\" or \"didn't like it.\" That impression determines whether they return and recommend to friends."
+        },
+        "factHighlight": {
+          "title": "Fact:",
+          "text": "Most Las Vegas casinos use ozonators. Fresh air increases guest stay time and order volume. Ozone also reduces alcohol's effect on the CNS — clients stay alert longer."
+        },
+        "problems": {
+          "title": "Restaurant problems solved by ozonation"
+        },
+        "whyImportant": {
+          "title": "Why odors matter so much",
+          "text": "You can create creative design, hire professional staff, invest in advertising — but an unpleasant smell will negate all efforts. Can a good place smell bad?",
+          "table": {
+            "caption": "Impact of air quality on business metrics",
+            "headers": [
+              "Metric",
+              "Without ozonation",
+              "With ozonation"
+            ],
+            "rows": [
+              [
+                "Average visit time",
+                "45 minutes",
+                "55-60 minutes"
+              ],
+              [
+                "Repeat visits",
+                "35%",
+                "52%"
+              ],
+              [
+                "\"Cleanliness\" rating in reviews",
+                "3.8/5",
+                "4.6/5"
+              ],
+              [
+                "Odor complaints",
+                "12% of guests",
+                "<1% of guests"
+              ],
+              [
+                "Average check",
+                "Baseline",
+                "+15-20%"
+              ]
+            ]
+          }
+        },
+        "process": {
+          "title": "Restaurant ozonation process",
+          "steps": [
+            {
+              "title": "Closure",
+              "description": "Ozonation is done during off-hours when there are no people in the premises."
+            },
+            {
+              "title": "Preparation",
+              "description": "Windows and doors are closed, supply ventilation is turned off for maximum ozone concentration."
+            },
+            {
+              "title": "Ozonation",
+              "description": "Ozonator is placed at maximum height. Treatment time: 60-120 minutes depending on volume."
+            },
+            {
+              "title": "Ventilation",
+              "description": "Ventilation is turned on, windows are opened. In 2-3 hours ozone decays to safe levels."
+            }
+          ],
+          "automation": {
+            "title": "Automation:",
+            "text": "Modern ozonators have weekly timers. You can set automatic start after closing — by morning the air will be perfectly fresh."
+          }
+        },
+        "zones": {
+          "title": "Application zones in restaurants"
+        },
+        "calculation": {
+          "title": "Equipment calculation",
+          "text": "Ozonator capacity is selected at: 1 g/hour per 25 m³ of room volume.",
+          "table": {
+            "caption": "Calculation examples for different venues",
+            "headers": [
+              "Venue type",
+              "Area",
+              "Volume",
+              "Ozonator"
+            ],
+            "rows": [
+              [
+                "Small cafe",
+                "40-60 m²",
+                "120-180 m³",
+                "5-7 g/hour"
+              ],
+              [
+                "Medium restaurant",
+                "100-200 m²",
+                "300-600 m³",
+                "12-24 g/hour"
+              ],
+              [
+                "Large restaurant/banquet hall",
+                "300+ m²",
+                "900+ m³",
+                "36+ g/hour or multiple units"
+              ],
+              [
+                "Hookah lounge",
+                "50-100 m²",
+                "150-300 m³",
+                "6-12 g/hour (daily treatment)"
+              ]
+            ]
+          }
+        },
+        "additionalUses": {
+          "title": "Additional ozone applications",
+          "items": [
+            "Sterilization of dishes and equipment without chemicals",
+            "Product treatment to extend storage (fish, meat, greens)",
+            "Staff hand disinfection with ozonated water (good for skin)",
+            "Water cleaning in decorative ponds and aquariums",
+            "Post-treatment of tap water to drinking quality",
+            "Mold control in basement premises and storerooms"
+          ],
+          "savings": {
+            "title": "Savings:",
+            "text": "One ozonator can treat both air and water. Compact mobile models serve different rooms and solve different tasks."
+          }
+        },
+        "benefits": {
+          "title": "Business benefits",
+          "items": [
+            "Higher guest loyalty — comfortable atmosphere is memorable",
+            "Higher average check — fresh air stimulates appetite",
+            "Longer stay time — guests don't rush to leave",
+            "Fewer odor complaints — reputation protection on review sites",
+            "No consumables — ozone is produced from air",
+            "Automatic operation — minimal staff involvement"
+          ]
+        }
+      }
+    }
+  }
+}

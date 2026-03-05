@@ -1,0 +1,207 @@
+{
+  "title": "Cleaning",
+  "description": "Professional ozonation for cleaning companies: removal of ingrained odors, post-fire treatment, pet odor removal, vehicle ozonation and deep cleaning of carpets and upholstery.",
+  "subcategories": {
+    "odor-removal": {
+      "title": "Odor removal",
+      "shortDesc": "Removal of ingrained and persistent odors",
+      "content": "Ozonation is the most effective method for removing ingrained odors in premises. Unlike air fresheners and deodorizers, ozone does not mask odors but fully breaks down odor molecules into safe compounds: water and carbon dioxide.\n\nAs a gas, ozone penetrates everywhere: crevices, material pores, upholstery, carpets and even ventilation systems. This allows treating all surfaces at once, including areas inaccessible to manual cleaning.\n\nOzonation effectiveness depends on odor intensity, room volume, temperature and humidity. Lower temperature means more stable ozone and longer activity. At 0–5°C ozone can remain active for days; at 50°C it decays in 20–30 minutes.\n\nAfter treatment, ozone fully decays to oxygen with no chemical residues. The room is ready for use after 30–60 minutes of ventilation.",
+      "benefits": [
+        "Complete breakdown of odor molecules",
+        "Penetration into porous materials",
+        "Treatment of hard-to-reach areas",
+        "No chemical residues",
+        "Results in 4–10 hours",
+        "Permanent effect"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "100%",
+          "label": "Destruction",
+          "description": "Of odor molecules, not masking"
+        },
+        "stat2": {
+          "value": "4-10 h",
+          "label": "Treatment time",
+          "description": "Depending on intensity"
+        },
+        "stat3": {
+          "value": "30 min",
+          "label": "Ventilation",
+          "description": "Until room is fully ready"
+        },
+        "stat4": {
+          "value": "0",
+          "label": "Chemicals",
+          "description": "Only oxygen after decay"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Unpleasant odors in premises are not just discomfort. Most synthetic and organic odors contain toxic substances: benzene, formaldehyde, ammonia, trichloroethylene. They are carcinogenic and mutagenic, causing headaches, fatigue, blood pressure spikes.",
+          "text2": "Traditional odor control methods — fresheners, fragrances, sorbents — only mask the problem or slowly absorb molecules from the air. Ozonation works differently: ozone actively oxidizes odorous substances, breaking them down into safe compounds — water and carbon dioxide."
+        },
+        "highlight1": {
+          "title": "Principle of action:",
+          "text": "Ozone (O₃) is the strongest oxidizer, 3000 times more effective than chlorine. It attacks odor molecules at the chemical level, irreversibly destroying their structure. After the reaction, the odor disappears forever until a new source appears."
+        },
+        "odors": {
+          "title": "What odors ozone eliminates",
+          "text": "Ozonation is effective against almost any organic and inorganic odors:",
+          "items": [
+            "Tobacco smoke — ingrained in walls, furniture, textiles",
+            "Post-renovation odor — paint, glue, stretch ceilings, new furniture",
+            "Mustiness and mold — in damp rooms, basements, after flooding",
+            "Food odors — spoiled products, fish, spices",
+            "Household odors — sweat, stale laundry, household chemicals",
+            "Party odor — alcohol, food, tobacco"
+          ]
+        },
+        "comparison": {
+          "title": "Why ozone is more effective than other methods",
+          "tableTitle": "Comparison of odor removal methods",
+          "headers": [
+            "Method",
+            "Ozonation",
+            "Fresheners/sorbents"
+          ],
+          "rows": [
+            {
+              "parameter": "Principle of action",
+              "value1": "Molecule destruction",
+              "value2": "Masking/absorption"
+            },
+            {
+              "parameter": "Surface coverage",
+              "value1": "100% including hidden",
+              "value2": "Air only"
+            },
+            {
+              "parameter": "Ingrained odors",
+              "value1": "Complete elimination",
+              "value2": "Not removed"
+            },
+            {
+              "parameter": "Effect duration",
+              "value1": "Permanent",
+              "value2": "Temporary"
+            },
+            {
+              "parameter": "Chemical residues",
+              "value1": "No (only O₂)",
+              "value2": "Yes (fragrances)"
+            },
+            {
+              "parameter": "Disinfection",
+              "value1": "Yes (bonus)",
+              "value2": "No"
+            }
+          ]
+        },
+        "factors": {
+          "title": "Factors affecting effectiveness",
+          "text": "Ozonation results depend on properly selected treatment mode:",
+          "highlight": {
+            "title": "Important:",
+            "text": "At 0-5°C ozone remains active for several days, while at 50°C it decays in 20-30 minutes. This allows regulating treatment intensity with temperature mode."
+          },
+          "tableHeaders": [
+            "Parameter",
+            "Impact",
+            "Recommendation"
+          ],
+          "tableCaption": "Recommended ozonation parameters",
+          "tableData": [
+            [
+              "Ozone concentration",
+              "Higher — faster result",
+              "10-80 mg/m³ depending on task"
+            ],
+            [
+              "Temperature",
+              "Lower T means more stable ozone",
+              "Optimal 15-25°C"
+            ],
+            [
+              "Humidity",
+              "High humidity accelerates decay",
+              "40-60% relative humidity"
+            ],
+            [
+              "Treatment time",
+              "Depends on odor intensity",
+              "From 2 to 24 hours"
+            ],
+            [
+              "Sealing",
+              "Leaks reduce concentration",
+              "Close windows, doors, ventilation"
+            ]
+          ]
+        },
+        "process": {
+          "title": "Room ozonation process",
+          "steps": [
+            {
+              "title": "Room preparation",
+              "description": "Perform standard cleaning, remove visible contamination sources. Remove houseplants, take out pets. Close windows and turn off supply ventilation."
+            },
+            {
+              "title": "Parameter calculation",
+              "description": "Determine room volume and required ozone concentration. For weak odors: 10-20 mg/m³, for medium: 20-40 mg/m³, for strong: 40-80 mg/m³."
+            },
+            {
+              "title": "Ozonation",
+              "description": "Install ozone generator, leave room, start treatment for calculated time. Use a fan for even ozone distribution."
+            },
+            {
+              "title": "Exposure",
+              "description": "Keep ozone in room from 30 minutes to several hours after generator shutdown. Ozone continues working until it decays."
+            },
+            {
+              "title": "Ventilation",
+              "description": "Open windows and doors, turn on exhaust ventilation. Ventilate until characteristic ozone smell disappears (15-60 minutes)."
+            }
+          ]
+        },
+        "scenarios": {
+          "title": "Typical application scenarios",
+          "items": [
+            {
+              "title": "Apartment after tenants",
+              "description": "Removal of previous owners', animals', smoking odors. Preparation for sale or rental"
+            },
+            {
+              "title": "Office after renovation",
+              "description": "Elimination of paint, glue, new furniture, plastic finish odors. Safety for employees"
+            },
+            {
+              "title": "Hotel room",
+              "description": "Quick treatment between guests. Removal of tobacco, perfume, food odors"
+            },
+            {
+              "title": "Cold storage",
+              "description": "Elimination of spoiled products, fish, meat odors. Disinfection before loading"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Benefits for cleaning companies",
+          "text": "Ozonation is an additional service with high profitability. Equipment pays for itself in 2-3 months:",
+          "items": [
+            "Low costs — ozone generators require no consumables",
+            "Ease of use — install, turn on, leave",
+            "Wide range of tasks — from apartments to industrial facilities",
+            "Measurable results — client immediately feels the difference",
+            "Equipment lifespan — 5-10 years with proper operation",
+            "Rental possibility — additional income source"
+          ],
+          "highlight": {
+            "title": "Safety:",
+            "text": "Ozonation is performed with no people or animals present. Concentrations above 0.1 mg/m³ are dangerous for lungs. Staff must be trained. Use of ozone concentration sensors is recommended."
+          }
+        }
+      }
+    }
+  }
+}

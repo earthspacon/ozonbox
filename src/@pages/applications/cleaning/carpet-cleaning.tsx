@@ -3,7 +3,7 @@ import { useTranslate } from '@tolgee/react'
 import { Layout } from '@/widgets/layout'
 
 import { getSubcategoryById } from '@/shared/config/applications-data'
-import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
+import { getSubcategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
 import {
   ArticleHero,
   ArticleSection,
@@ -26,7 +26,7 @@ const PO = 'subcategories.carpet-cleaning'
 
 export function CarpetCleaningPage() {
   const { t } = useTranslate()
-  const ns = getCategoryNamespace('cleaning')
+  const ns = getSubcategoryNamespace('cleaning', 'carpet-cleaning')
   const subcategory = getSubcategoryById('cleaning', 'carpet-cleaning')
 
   return (

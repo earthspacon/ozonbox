@@ -1,0 +1,177 @@
+{
+  "title": "HoReCa",
+  "description": "Hotels, restaurants, laundries and other hospitality venues use ozonation to create a comfortable environment, eliminate odors and maintain high hygiene standards.",
+  "subcategories": {
+    "hotels": {
+      "title": "Hotels",
+      "shortDesc": "Room disinfection and odor removal",
+      "content": "Hotel room ozonation is a modern method for quick disinfection and odor removal. Ozone effectively destroys bacteria, viruses, mold, fungi and parasitic protozoa on all surfaces.\n\nAn air ozonator allows full treatment of a room after cleaning when guests change. Typically 30–60 minutes of treatment is enough. The gas penetrates all crevices and corners, disinfecting textiles, furniture and décor.\n\nAfter treatment, ozone decomposes to oxygen without toxic byproducts. The air feels \"fresh\" without air fresheners or masking agents. Complete removal of tobacco, sweat, musty and damp odors.\n\nTreatment does not require staff after the ozonator is switched on. Modern units have weekly timers for automation.",
+      "stats": {
+        "processingTime": {
+          "value": "30-60",
+          "label": "Minutes of treatment",
+          "description": "Full room disinfection cycle"
+        },
+        "odorRemoval": {
+          "value": "100%",
+          "label": "Odor removal",
+          "description": "Tobacco, sweat, mustiness, food"
+        },
+        "disinfection": {
+          "value": "99.9%",
+          "label": "Disinfection",
+          "description": "Destruction of bacteria and viruses"
+        },
+        "noChemistry": {
+          "value": "0",
+          "label": "Chemicals",
+          "description": "No fragrances or air fresheners"
+        }
+      },
+      "sections": {
+        "intro": {
+          "p1": "Hotel business is primarily about guest impressions. The smell of a smoked room, mustiness, foreign odors can ruin the impression of even the most luxurious hotel. Ozonation solves this problem radically — not masking odors, but destroying them at the molecular level.",
+          "p2": "In addition to eliminating odors, ozone disinfects all room surfaces: mattresses, pillows, curtains, carpets, upholstered furniture. The gas penetrates the material structure, destroying bacteria, viruses, dust mites and mold spores."
+        },
+        "automation": {
+          "title": "Automation:",
+          "text": "Modern ozonators are equipped with weekly timers. Treatment can start automatically after room cleaning, without staff involvement."
+        },
+        "problems": {
+          "title": "Problems solved by ozonation",
+          "items": [
+            "Tobacco and hookah odor — complete removal, not masking",
+            "Mustiness and dampness — especially relevant for rooms without natural ventilation",
+            "Sweat and perfume odors from previous guests",
+            "Culinary aromas from room service",
+            "Pet odors (pet-friendly hotels)",
+            "Bacteria and viruses on contact surfaces",
+            "Dust mites in textiles — allergy prevention"
+          ]
+        },
+        "process": {
+          "title": "Room ozonation process",
+          "steps": [
+            {
+              "title": "Standard cleaning",
+              "description": "Room undergoes regular cleaning: changing linens, wiping surfaces, vacuuming."
+            },
+            {
+              "title": "Ozonator installation",
+              "description": "Portable ozonator is placed at maximum height (on wardrobe, shelf). Windows and doors are closed."
+            },
+            {
+              "title": "Ozonation",
+              "description": "Treatment starts. Standard mode: 30-60 minutes at 1 g/h per 25 m³ capacity."
+            },
+            {
+              "title": "Ventilation",
+              "description": "After treatment — 20-30 minutes ventilation. Ozone decomposes to oxygen, leaving a fresh feeling."
+            }
+          ],
+          "tableHeaders": [
+            "Situation",
+            "Concentration",
+            "Time",
+            "Result"
+          ],
+          "tableCaption": "Hotel room ozonation modes",
+          "tableData": [
+            [
+              "Standard treatment",
+              "5-10 mg/m³",
+              "30 min",
+              "Freshening, light disinfection"
+            ],
+            [
+              "After smoker",
+              "15-20 mg/m³",
+              "60-90 min",
+              "Complete odor removal"
+            ],
+            [
+              "Heavy contamination",
+              "20-30 mg/m³",
+              "2-3 hours",
+              "Deep deodorization"
+            ],
+            [
+              "After infectious guest",
+              "25-35 mg/m³",
+              "2-4 hours",
+              "Complete disinfection"
+            ]
+          ]
+        },
+        "whatIsTreated": {
+          "title": "What is treated with ozone",
+          "intro": "Ozone, being a gas, penetrates all places inaccessible to traditional cleaning:",
+          "items": [
+            {
+              "title": "Textiles",
+              "description": "Mattresses, pillows, blankets, curtains, furniture upholstery, carpets"
+            },
+            {
+              "title": "Furniture",
+              "description": "Internal cavities of wardrobes, crevices, decorative elements, armrests"
+            },
+            {
+              "title": "Ventilation",
+              "description": "Air ducts, grilles, air conditioning system — source of odors and bacteria"
+            },
+            {
+              "title": "Bathroom",
+              "description": "Tiles, grout, plumbing — places where bacteria and mold accumulate"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Benefits for hotels",
+          "items": [
+            "Higher ratings on Booking, TripAdvisor — reviews about cleanliness and freshness",
+            "Reduced guest complaints about odors — especially in smoking rooms",
+            "Prevention of infection transmission between guests",
+            "Ability to quickly turn over rooms — treatment during time between check-out and check-in",
+            "Reduced costs for air fresheners and fragrances",
+            "Extended textile lifespan — odor removal without dry cleaning"
+          ],
+          "highlight": "Research shows: 87% of guests note \"room freshness\" as an important factor when evaluating a hotel. Ozonation creates a \"just renovated\" room feeling."
+        },
+        "equipment": {
+          "title": "Equipment for hotels",
+          "intro": "For hotels, portable ozonators are recommended, which staff move from room to room after cleaning. This is the optimal solution in terms of price/effectiveness ratio.",
+          "tableHeaders": [
+            "Hotel type",
+            "Recommended equipment",
+            "Quantity"
+          ],
+          "tableData": [
+            [
+              "Mini-hotel (up to 20 rooms)",
+              "Portable ozonator 5-10 g/h",
+              "1-2 units"
+            ],
+            [
+              "Medium hotel (20-100 rooms)",
+              "Portable ozonators 10-20 g/h",
+              "3-5 units"
+            ],
+            [
+              "Large hotel (100+ rooms)",
+              "Ozonator fleet + stationary units in common areas",
+              "As calculated"
+            ]
+          ]
+        }
+      },
+      "benefits": [
+        "Complete removal of tobacco and sweat odors",
+        "Disinfection of all surfaces without chemicals",
+        "Quick treatment in 30–60 minutes",
+        "Automatic operation on timer",
+        "Ozone decay to pure oxygen",
+        "Fresh air feeling"
+      ]
+    }
+  }
+}

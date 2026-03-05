@@ -1,0 +1,109 @@
+{
+  "title": "HoReCa",
+  "description": "Hotels, restaurants, laundries and other hospitality venues use ozonation to create a comfortable environment, eliminate odors and maintain high hygiene standards.",
+  "subcategories": {
+    "tobacco-hookah": {
+      "title": "Hookah lounges and tobacco",
+      "shortDesc": "Removal of ingrained smoke odor",
+      "heroTitle": "Hookah lounge and tobacco ozonation",
+      "heroDesc": "Chemical removal of ingrained smoke odor. Not masking — full neutralization in 60–120 minutes.",
+      "content": "Ingrained, aged cigarette and hookah odor can put off visitors. Even in hookah lounges where guests like fresh hookah aroma, there is a problem: when smoke soaks into furniture and upholstery, aromatic additives evaporate quickly, leaving only unpleasant smoke and tar odor.\n\nOzonation is the only effective method for chemically removing such odors rather than masking them with fragrances. Ozone oxidizes odor molecules to water and carbon dioxide or to odorless oxidation products.\n\nTobacco and hookah smoke contain tars that penetrate porous materials: fabrics, wood, upholstery, ceiling tiles, carpets. Over time these substances accumulate and create a persistent unpleasant odor.\n\nRegular ozonation during off-hours keeps the air fresh. With correct start and end times, ozone dissipates before staff arrive.",
+      "benefits": [
+        "Chemical removal, not odor masking",
+        "Penetration into hard-to-reach areas",
+        "Treatment of textiles and furniture",
+        "Automatic operation on timer",
+        "No consumables",
+        "Decay to oxygen in 2–3 hours"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "60-120",
+          "label": "Minutes of treatment",
+          "description": "Full treatment cycle"
+        },
+        "stat2": {
+          "value": "100%",
+          "label": "Odor removal",
+          "description": "Chemical neutralization"
+        },
+        "stat3": {
+          "value": "2-3",
+          "label": "Hours ventilation",
+          "description": "Ozone decomposition"
+        }
+      },
+      "odorSources": [
+        "Textiles (curtains, upholstery, cushions) — main odor reservoir",
+        "Upholstered furniture — tars penetrate filling",
+        "Ceiling materials — especially porous types",
+        "Ventilation ducts — pollutant buildup",
+        "Hard-to-reach areas — crevices, seams, cavities"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Ingrained, aged cigarette and hookah odor can put off visitors. Even in hookah lounges where guests like fresh hookah aroma, there is a problem: when smoke soaks into furniture and upholstery, aromatic additives evaporate quickly, leaving only unpleasant smoke and tar odor.",
+          "paragraph2": "Ozonation is the only effective method for chemically removing such odors rather than masking them with fragrances. Ozone oxidizes odor molecules to water and carbon dioxide or to odorless oxidation products. Tobacco and hookah smoke contain tars that penetrate porous materials: fabrics, wood, upholstery, ceiling tiles, carpets. Over time these substances accumulate and create a persistent unpleasant odor."
+        },
+        "benefits": {
+          "title": "Benefits of ozonation for hookah lounges",
+          "items": [
+            {
+              "title": "Chemical removal, not masking",
+              "description": "Ozone destroys odor molecules at the molecular level, completely eliminating the source rather than covering it up with fragrances."
+            },
+            {
+              "title": "Penetration into hard-to-reach areas",
+              "description": "As a gas, ozone penetrates deep into fabrics, furniture padding, ceiling materials, and ventilation ducts where smoke particles accumulate."
+            },
+            {
+              "title": "Treatment of textiles and furniture",
+              "description": "Ozone effectively treats all porous materials including curtains, upholstery, cushions, and carpets without causing damage."
+            },
+            {
+              "title": "Automatic operation on timer",
+              "description": "Modern ozonators can be programmed to run automatically during off-hours, ensuring fresh air by opening time without staff involvement."
+            },
+            {
+              "title": "No consumables required",
+              "description": "Ozone is generated from air, eliminating the need for expensive air fresheners, fragrances, or chemical deodorizers."
+            },
+            {
+              "title": "Safe decomposition",
+              "description": "Ozone naturally decomposes to oxygen within 2-3 hours, leaving only fresh air with no harmful residues or byproducts."
+            }
+          ]
+        },
+        "modes": {
+          "title": "Treatment modes",
+          "tableHeaders": [
+            "Mode",
+            "Time",
+            "Frequency",
+            "Result"
+          ],
+          "tableData": [
+            [
+              "Daily prevention",
+              "60 minutes",
+              "Every night",
+              "Maintain freshness"
+            ],
+            [
+              "After busy evening",
+              "90-120 minutes",
+              "As needed",
+              "Deep cleaning"
+            ],
+            [
+              "Aged odor",
+              "2-3 hours",
+              "3-5 days in a row",
+              "Complete removal"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

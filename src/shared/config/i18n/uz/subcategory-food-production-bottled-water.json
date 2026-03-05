@@ -1,0 +1,204 @@
+{
+  "title": "Oziq-ovqat ishlab chiqarish",
+  "description": "Oziq-ovqat zavehlarin ozonatsiya qo'llanilishi mahsulot xavfsizligini ta'minlaydi, saqlash muddatini uzaytiradi va HACCP talablariga javob beradi. Kimyoviy konservantlarga ekologik toza muqobil.",
+  "subcategories": {
+    "bottled-water": {
+      "title": "Shisha suvda ozonatsiya",
+      "shortDesc": "Ichimlik suvining finali ozonatsiyasi",
+      "content": "Finali ozonatsiya shisha ichimlik suvining ishlab chiqarish jarayonida asosiy bosqich hisoblanadi. Texnologiya suv, qadoq va uskunani to'ldirish oldidan sterilizatsiya qiladi va ikkinchi darajali mikrobiologik kontaminatsiyasini oldini oladi.\n\nBugungi sanitar standartlari bo'yicha ozonatsiya ichimlik suvining dezinfeksiyasi uchun afzal usuldir. Shisha suvda xlorin ishlatilishi taqiqlanadi. Ozon butunlay kislorod holatiga aylanadi, suvni kislorod bilan to'yinadi va uning ta'mni yaxshilaydi.\n\nQolgan ozone 0,1 mg/L dan ko'p bo'lmasa va ta'sir vaqti kamida 12 daqiqaga teng bo'lsa, suv, shisha, yuqori qism va qopqoq to'liq sterilizatsiya qilinadi. Mahsulot qopqoq ochilmaguncha steril holatda qoladi.",
+      "benefits": [
+        "Ichimlik suvining standartlariga muvofiqlik",
+        "Suv va qadoqning bir vaqtda sterilizatsiyasi",
+        "Kislorod bilan to'yinish 9 mg/L gacha",
+        "Kimyoviy qoldiqlar yo'q",
+        "Mahsulotning saqlash muddati uzaygan",
+        "Chaqaloq suvi uchun mos"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "0.1",
+          "label": "mg/L ozone",
+          "description": "Standartlar bo'yicha maksimal qolgan kontsentratsiya"
+        },
+        "stat2": {
+          "value": "99.9%",
+          "label": "Sterilizatsiya",
+          "description": "Patogen mikroorganizmalarni yo'q qilish"
+        },
+        "stat3": {
+          "value": "1 g/m³",
+          "label": "Unumdorlik",
+          "description": "Suv hajmiga nisbatan tavsiya etilgan ozone generator dozo"
+        },
+        "stat4": {
+          "value": "9",
+          "label": "mg/L kislorod",
+          "description": "Premium kategoriyali suv to'yinish"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Ichimlik suvi ishlab chiqaruvchilar ko'pincha shunchaki quyosh ostida turgan suv mavjud qiladi - tekshirilgan quyudan ajratilgan va barcha tozalash bosqichlaridan o'tgan suv do'konida buziladi. Sababi - bortni shmyot shuyu orqali bevosita kontakt qilish natijasida ikkinchi darajali kontaminatsiya.",
+          "text2": "Finali ozonatsiya bu muammoni keng ko'lamda hal qiladi: ozone faqat suvni dezinfeksiya qilmaydi, balki quvurli uskunasi va konteynerlarni ham sterilizatsiya qiladi. Qopqo'lash shisha qo'yilgandan keyin ozone bir necha soat ichida kislorod holatiga aylanib ketadi, iz qoldirib ketmaydi va suv ta'mni yaxshilaydi."
+        },
+        "highlight1": {
+          "title": "Sanitar standartlar:",
+          "text": "\"Shisha qadoqlash uchun mo'ljalangan ichimlik suvini ishlov berish uchun xlorin tayyorlamalari ishlatilmaydi; afzal dezinfeksiya usullari ozonatsiya va fizik ishlov berish usullaridir, xususan UV nurlashtirilishi.\""
+        },
+        "benefits": {
+          "title": "Finali ozonatsiyaning afzalliklari",
+          "items": [
+            "Suv, shisha, yuqori qism va qopqoqning bir vaqtda sterilizatsiyasi",
+            "Muhit qopqoq ochilmaguncha steril holatda qoladi",
+            "Kislorod bilan to'yinish — premium kategoriyali suv uchun majbur talabi",
+            "Ozonning kimyoviy qoldiqsiz butunlay kislorod holatiga aylanishi",
+            "Chaqaloq suvi uchun yagona ruxsat etilgan konservatsiya usuli",
+            "Qadoqni alohida dezinfeksiya qilish shart emas"
+          ]
+        },
+        "requirements": {
+          "title": "Qonuniy talablar",
+          "highlight": {
+            "text": "Chaqaloq suvi uchun ozonatsiya mumkin bo'lgan bitta konservatsiya varianti bo'lishi mumkin, chunki kumush ionlar va uglerod dioksidning standartlar bo'yicha ishlatilishi taqiqlangan."
+          },
+          "tableHeaders": [
+            "Parametr",
+            "Birinchi kategoriya",
+            "Premium kategoriya"
+          ],
+          "tableCaption": "Shisha suv uchun talablar",
+          "tableData": [
+            [
+              "Qolgan ozone",
+              "≤ 0,1 mg/L",
+              "≤ 0,1 mg/L"
+            ],
+            [
+              "Kislorod miqdori",
+              "≥ 5 mg/L",
+              "≥ 9 mg/L"
+            ],
+            [
+              "Ozone ta'sir vaqti",
+              "≥ 12 daqiqa",
+              "≥ 12 daqiqa"
+            ],
+            [
+              "Xlorin ishlatilishi",
+              "Taqiqlangan",
+              "Taqiqlangan"
+            ],
+            [
+              "Kumush (chaqaloq suvi)",
+              "Ruxsat etilgan",
+              "Taqiqlangan"
+            ]
+          ]
+        },
+        "scheme": {
+          "title": "Finali ozonatsiya sxemasi",
+          "text": "Ozonatsiya tizimi to'ldirish mashinasining to'g'ri oldiga o'rnatiladi. Tizim kislorod generatori, ozone generatori, ozone yetkazish va eritish tizimi, shuningdek ozone analizatori yoki nazorat qilish uchun ORP metrini o'z ichiga oladi.",
+          "tableHeaders": [
+            "Komponent",
+            "Maqsadi",
+            "Texnik xususiyatlari"
+          ],
+          "tableCaption": "Finali ozonatsiya uskunalarining tarkibi",
+          "tableData": [
+            [
+              "Kislorod generatori",
+              "Sof kislorod yetkazish",
+              "O₂ kontsentratsiyasi ≥ 90%"
+            ],
+            [
+              "Ozone generatori",
+              "Ozone ishlab chiqarish",
+              "Soat bilan 1 m³/soat suvga 1 g"
+            ],
+            [
+              "Ejyunior / diffuzor",
+              "Suvda ozonning erish",
+              "Samaradorlik > 90%"
+            ],
+            [
+              "Ta'sir tanki",
+              "Ta'sir vaqtini ta'minlash",
+              "≥ 12 daqiqa"
+            ],
+            [
+              "Ozone analizatori",
+              "Kontsentratsiyani nazorat qilish",
+              "0-2 mg/L"
+            ]
+          ]
+        },
+        "limitations": {
+          "title": "Mineral suvning cheklovlari",
+          "text": "Mineral suvini ozonatsiya qilishda ozone oksidlenishi mumkin bo'lgan aralashmalari taqiqlangan: temir, mangon, suvodrod sulfid, bromid, tabiiy organik moddalar. Ozonning bromid bilan reaksiyasi bromat hosil qiladi, buning ichimlik suvida standart miqdori 10 μg/L.",
+          "text2": "Ozone bilan o'zaro ta'siri natijasida eritilib ketgan metallar erimagan oksidlarga aylana, bu suvda rang va cho'kma hosil qiladi. Shuning uchun finali ozonatsiyadan oldin suv standartlar bo'yicha oldindan ishlov berilishi kerak."
+        },
+        "comparison": {
+          "title": "Suv dezinfeksiya usullarining taqqoslanishi",
+          "headers": [
+            "Parametr",
+            "Ozonatsiya",
+            "UV ishlov berish"
+          ],
+          "rows": [
+            {
+              "parameter": "Konteyner sterilizatsiyasi",
+              "value1": "Ha",
+              "value2": "Yo'q"
+            },
+            {
+              "parameter": "Kislorod bilan to'yinish",
+              "value1": "Ha",
+              "value2": "Yo'q"
+            },
+            {
+              "parameter": "Qolgan ta'sir",
+              "value1": "Ha",
+              "value2": "Yo'q"
+            },
+            {
+              "parameter": "Uskunani dezinfeksiya qilish",
+              "value1": "Ha",
+              "value2": "Yo'q"
+            },
+            {
+              "parameter": "Ta'mni yaxshilash",
+              "value1": "Ha",
+              "value2": "Yo'q"
+            },
+            {
+              "parameter": "Aloqa vaqtini talab qiladi",
+              "value1": "≥ 12 daqiqa",
+              "value2": "Bir zumada"
+            }
+          ]
+        },
+        "producerBenefits": {
+          "title": "Ishlab chiqaruvchilar uchun ozonatsiyaning afzalliklari",
+          "features": [
+            {
+              "title": "Qonuniy muvofiqlik",
+              "description": "Standartlar va texnik qoidalarga to'liq muvofiqlik"
+            },
+            {
+              "title": "Saqlash muddati uzaygan",
+              "description": "Muhit qopqoq ochilmaguncha steril holatda qoladi — mahsulot buzilmaydi"
+            },
+            {
+              "title": "Chaqaloq suvi",
+              "description": "Chaqaloq suvi uchun yagona ruxsat etilgan konservatsiya usuli"
+            },
+            {
+              "title": "Kimyoviy moddalarni tejash",
+              "description": "Qadoqni kimyoviy moddalar bilan alohida dezinfeksiya qilish shart emas"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

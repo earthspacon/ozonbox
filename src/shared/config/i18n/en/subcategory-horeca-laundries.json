@@ -1,0 +1,245 @@
+{
+  "title": "HoReCa",
+  "description": "Hotels, restaurants, laundries and other hospitality venues use ozonation to create a comfortable environment, eliminate odors and maintain high hygiene standards.",
+  "subcategories": {
+    "laundries": {
+      "title": "Commercial laundries",
+      "shortDesc": "Cold-water washing with full disinfection",
+      "heroTitle": "Laundry ozonation",
+      "heroDesc": "Cold-water washing with full disinfection. Up to 70% savings on energy and chemicals.",
+      "content": "Water ozonation in laundries is an advanced technology that significantly reduces detergent, hot water and energy use, and extends linen life and shortens wash time. Ozone dissolves in water and replaces part of the chemicals.\n\nThis is a fundamental change in washing: you replace harsh chemistry with something that works much better. So much better that water and time use can also be reduced.\n\nOzone is a strong oxidizer. With a small amount of alkali, cold water and detergent you can achieve cleaning and brightness equal to or better than chlorine and hot water.\n\nThe colder the water, the more stable ozone is and the longer it works. Above 95°C ozone loses effectiveness due to faster decay.",
+      "benefits": [
+        "70–100% savings on water heating",
+        "30–50% savings on detergents",
+        "20–40% less water use",
+        "Full disinfection at low temperatures",
+        "Up to 30% longer linen life",
+        "Treatment of delicate items without damage"
+      ],
+      "stats": {
+        "energySaving": {
+          "value": "70-100%",
+          "label": "Heating savings",
+          "description": "Cold-water washing eliminates water heating costs; ozone works best in cold water."
+        },
+        "chemistrySaving": {
+          "value": "30-50%",
+          "label": "Chemical savings",
+          "description": "Less detergent and bleach; ozone replaces part of the chemistry while improving wash quality."
+        },
+        "linenLife": {
+          "value": "+30%",
+          "label": "Linen life",
+          "description": "Without harsh chemicals and heating; cold water and no chlorine reduce fiber damage."
+        },
+        "disinfection": {
+          "value": "99.9%",
+          "label": "Disinfection",
+          "description": "Effective bacteria and virus reduction even in cold water."
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Water ozonation in laundries is an advanced technology that significantly reduces detergent, hot water and energy use, and extends linen life and shortens wash time. Ozone dissolves in water and replaces part of the chemicals, ensuring superior cleaning quality.",
+          "text2": "This is a fundamental change in washing: you replace harsh chemistry with something that works much better. So much better that water and time use can also be reduced while achieving superior results."
+        },
+        "highlight1": {
+          "title": "How it works:",
+          "text": "Ozone is a strong oxidizer. With a small amount of alkali, cold water and detergent you can achieve cleaning and brightness equal to or better than chlorine and hot water."
+        },
+        "economicEffects": {
+          "title": "Economic effects",
+          "comparisonTitle": "Comparison of traditional and ozone washing",
+          "headers": [
+            "Parameter",
+            "Ozone washing",
+            "Traditional"
+          ],
+          "rows": [
+            {
+              "parameter": "Water temperature",
+              "value1": "Cold (15-25°C)",
+              "value2": "Hot (60-90°C)"
+            },
+            {
+              "parameter": "Electricity consumption",
+              "value1": "70-100% less",
+              "value2": "Baseline"
+            },
+            {
+              "parameter": "Detergent consumption",
+              "value1": "30-50% less",
+              "value2": "Baseline"
+            },
+            {
+              "parameter": "Water consumption",
+              "value1": "20-40% less",
+              "value2": "Baseline"
+            },
+            {
+              "parameter": "Linen wear",
+              "value1": "Minimal",
+              "value2": "Increased"
+            },
+            {
+              "parameter": "Disinfection",
+              "value1": "99.9%",
+              "value2": "95-98%"
+            }
+          ]
+        },
+        "coldWater": {
+          "title": "Why cold water is more effective",
+          "text": "Washing quality depends on 4 factors: water temperature, chemicals, wash time and mechanical action. Using ozone, you can replace chemistry and temperature with a more effective solution.",
+          "items": [
+            "Ozone creates hydroxyl radicals (OH) at pH 8 in cold water — the same as at high pH with hot water",
+            "The colder the water, the more stable ozone is and the longer it works",
+            "Above 95°C ozone loses effectiveness due to faster decay",
+            "Cold water does not damage fabric fibers — linen lasts longer",
+            "Absence of chlorine bleach with hot water prevents chemical reactions that damage fabric"
+          ]
+        },
+        "process": {
+          "title": "Technological process",
+          "tableCaption": "Comparison of washing components",
+          "tableHeaders": [
+            "Traditional laundry",
+            "Ozone laundry"
+          ],
+          "tableRows": [
+            [
+              "Hot water",
+              "Cold water"
+            ],
+            [
+              "Alkali",
+              "Ozone"
+            ],
+            [
+              "Detergent",
+              "Detergent (less)"
+            ],
+            [
+              "Acid (neutralization)",
+              "—"
+            ],
+            [
+              "Bleach",
+              "—"
+            ]
+          ],
+          "text": "Ozone spontaneously decomposes to oxygen and does not require removal unlike traditional chemicals. This allows reducing the number of rinses by 20-40%."
+        },
+        "benefits": {
+          "title": "Benefits of ozonation in laundries",
+          "items": [
+            {
+              "title": "Energy savings",
+              "description": "70-100% reduction in water heating costs. Complete washing in cold water."
+            },
+            {
+              "title": "Improved disinfection",
+              "description": "Ozone effectively destroys viruses and bacteria even at low temperatures."
+            },
+            {
+              "title": "Softer linen",
+              "description": "No chemicals remain in fibers. Linen becomes softer."
+            },
+            {
+              "title": "Better whitening",
+              "description": "Strong oxidizing properties of ozone ensure brightness without chlorine."
+            }
+          ]
+        },
+        "ozoneClosets": {
+          "title": "Ozone cabinets for dry cleaners",
+          "desc": "Dry cleaners use ozone cabinets — sealed chambers filled with high-concentration ozone. As a gas, ozone penetrates the densest fabrics and hard-to-reach areas.",
+          "steps": [
+            {
+              "title": "Treatment of delicate items",
+              "description": "Theatrical costumes, vintage, fur coats, leather jackets, motorcycle helmets, hockey gear. No mechanical action or heating — minimal risk of damage."
+            },
+            {
+              "title": "Odor removal (deodorization)",
+              "description": "Fire smoke, ingrained tobacco smoke, biological odors, animal odors, mustiness. Ozone destroys the cause of odor at the molecular level."
+            },
+            {
+              "title": "Disinfection",
+              "description": "Destroys cell membranes of bacteria, virus envelopes and fungal spores. Ideal for children's items and bedding."
+            },
+            {
+              "title": "Monetization",
+              "description": "Service is sold as an additional option (upsell) or as a separate VIP service. Cycle cost is minimal."
+            }
+          ]
+        },
+        "equipment": {
+          "title": "Equipment selection",
+          "tableHeaders": [
+            "Laundry type",
+            "Recommended equipment",
+            "Cost"
+          ],
+          "tableRows": [
+            [
+              "Small laundry",
+              "Ozone generator 5 g/h",
+              "from 250,000 ₽"
+            ],
+            [
+              "Hotel laundry",
+              "Ozone generator 10 g/h",
+              "from 320,000 ₽"
+            ],
+            [
+              "Commercial laundry",
+              "Ozone generator 20 g/h",
+              "from 420,000 ₽"
+            ],
+            [
+              "Dry cleaner (700L cabinet)",
+              "Ozone cabinet OZ-1S",
+              "from 420,000 ₽"
+            ],
+            [
+              "Dry cleaner (1400L cabinet)",
+              "Ozone cabinet OZ-2S",
+              "from 500,000 ₽"
+            ]
+          ],
+          "highlightTitle": "Important:",
+          "highlightText": "Ozone generator capacity calculation depends on contamination volume, water quality and equipment specifications. A pilot project may be required for accurate selection."
+        },
+        "limitations": {
+          "title": "Technology limitations",
+          "text": "In some cases, a small amount of hot water will still need to be used. Cold water is not suitable for working with greasy stains (lipstick, shoe polish, ink) due to the physical nature of fat at low temperatures.",
+          "items": [
+            "Heavily soiled linen with greasy stains requires a separate program with hot fill",
+            "Such loads usually make up a very small percentage of total volume",
+            "For the remaining 90%+ of linen, ozone washing in cold water is the optimal solution"
+          ]
+        },
+        "roi": {
+          "title": "ROI and payback",
+          "items": [
+            "50-70% reduction in electricity bills (water heating is the main expense)",
+            "30-50% savings on detergents and bleaches",
+            "30%+ extension of linen life (fewer replacements)",
+            "Reduced wash time — more cycles per day",
+            "Typical payback period: 12-18 months"
+          ]
+        }
+      },
+      "ozoneClosets": {
+        "title": "Ozone cabinets for dry cleaners",
+        "desc": "Dry cleaners use ozone cabinets — sealed chambers filled with high-concentration ozone. As a gas, ozone penetrates the densest fabrics and hard-to-reach areas.",
+        "features": [
+          "Treatment of delicate items: theatrical costumes, vintage, fur coats, leather jackets",
+          "Odor removal: fire smoke, tobacco, biological odors, pet odors",
+          "Disinfection: destroys bacteria, viruses and fungal spores",
+          "Monetization: sold as VIP service at minimal cost"
+        ]
+      }
+    }
+  }
+}

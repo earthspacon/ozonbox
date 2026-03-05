@@ -1,0 +1,366 @@
+{
+  "title": "Agriculture",
+  "description": "Ozonation in agriculture increases yields, extends product shelf life and ensures biosecurity. An eco-friendly alternative to chemical pesticides and preservatives.",
+  "subcategories": {
+    "grain-storage": {
+      "title": "Grain storage",
+      "shortDesc": "Protection from pests and microorganisms without chemicals",
+      "heroText": "Protection from pests and microorganisms without chemicals. 95–99% insect destruction, 40–60% storage loss reduction.",
+      "content": "Grain storage is a critical process where pest losses can account for 5 to 50% of world production. Seed and grain ozonation effectively controls pests and prevents mold spread.\n\nOzone affects insects and mites at all life stages. After treatment at 30–60 mg/m³ for 30–60 minutes, mortality of grain weevil, rice weevil and grain borer reaches 95–99%.\n\nGrain disinfection level at exposure from 15 minutes to 1 hour reaches 80–95% for total contamination and 80–90% for mold fungi. Treatment does not impair sensory or nutritional quality.\n\nPre-sowing seed ozonation increases germination and stress resistance. Wheat yield can increase by about 22%, barley by about 17.5%.",
+      "stats": {
+        "pestDestruction": {
+          "value": "95–99%",
+          "label": "Pest destruction",
+          "description": "At all development stages"
+        },
+        "disinfection": {
+          "value": "80–95%",
+          "label": "Disinfection",
+          "description": "Reduced microbial contamination"
+        },
+        "yieldIncrease": {
+          "value": "17–22%",
+          "label": "Yield increase",
+          "description": "With pre-sowing treatment"
+        },
+        "lossReduction": {
+          "value": "40–60%",
+          "label": "Loss reduction",
+          "description": "During grain storage"
+        }
+      },
+      "benefits": [
+        "95–99% pest destruction",
+        "80–95% disinfection",
+        "17–22% yield increase with pre-sowing treatment",
+        "Preserved nutritional quality",
+        "Eco-friendly fumigation alternative",
+        "40–60% loss reduction"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Grain storage is a critical process where pest losses can account for 5 to 50% of world production. Ozone-based grain treatment effectively controls pests and prevents mold spread without using chemicals.",
+          "paragraph2": "Ozone affects insects and mites at all life stages. After treatment at 30–60 mg/m³ for 30–60 minutes, mortality reaches 95–99%. Grain disinfection level reaches 80–95% for total contamination and treatment does not impair sensory or nutritional quality."
+        },
+        "applications": {
+          "title": "Ozone application areas",
+          "items": [
+            "Grain disinsection — elimination of storage pests",
+            "Disinfection — reduction of microbial and fungal contamination",
+            "Detoxification — destruction of mycotoxins",
+            "Pre-sowing seed treatment — increased germination",
+            "Grain storage disinfection — preparation for loading",
+            "Grain preservation — extended storage life"
+          ]
+        },
+        "pests": {
+          "title": "Storage pest elimination",
+          "intro": "Ozone affects insects and mites at all life stages: eggs, larvae, pupae and adults. The mechanism is based on oxidation of cuticle lipids and destruction of insect respiratory systems.",
+          "tableCaption": "Ozonation effectiveness against grain pests",
+          "tableHeaders": [
+            "Pest",
+            "O₃ concentration",
+            "Treatment time",
+            "Mortality"
+          ],
+          "tableData": [
+            [
+              "Grain weevil",
+              "30–50 mg/m³",
+              "30–60 min",
+              "95–99%"
+            ],
+            [
+              "Rice weevil",
+              "30–50 mg/m³",
+              "30–60 min",
+              "96–99%"
+            ],
+            [
+              "Grain borer",
+              "40–60 mg/m³",
+              "45–90 min",
+              "95–98%"
+            ],
+            [
+              "Flour beetle",
+              "40–60 mg/m³",
+              "60–120 min",
+              "93–97%"
+            ],
+            [
+              "Sawtoothed grain beetle",
+              "30–50 mg/m³",
+              "30–60 min",
+              "97–99%"
+            ],
+            [
+              "Grain moth",
+              "20–40 mg/m³",
+              "30–45 min",
+              "98–99%"
+            ],
+            [
+              "Grain mite",
+              "50–80 mg/m³",
+              "60–120 min",
+              "90–95%"
+            ]
+          ],
+          "highlightText": "Unlike chemical fumigation, ozonation leaves no residues in grain. After treatment, ozone quickly decomposes to oxygen, and the product is completely safe for consumption."
+        },
+        "fungi": {
+          "title": "Disinfection and mycotoxin reduction",
+          "intro": "Mold fungi on grain produce dangerous mycotoxins: aflatoxins, zearalenone, deoxynivalenol (DON). Ozonation destroys fungi and partially breaks down already formed toxins.",
+          "tableCaption": "Ozonation effectiveness against fungi and mycotoxins",
+          "tableHeaders": [
+            "Indicator",
+            "O₃ concentration",
+            "Time",
+            "Effectiveness"
+          ],
+          "tableData": [
+            [
+              "Total microflora",
+              "20–40 mg/m³",
+              "15–60 min",
+              "80–95%"
+            ],
+            [
+              "Mold fungi",
+              "30–50 mg/m³",
+              "30–60 min",
+              "85–95%"
+            ],
+            [
+              "Aspergillus (aflatoxins)",
+              "40–60 mg/m³",
+              "45–90 min",
+              "90–95%"
+            ],
+            [
+              "Fusarium (DON, zearalenone)",
+              "40–60 mg/m³",
+              "60–120 min",
+              "75–90%"
+            ],
+            [
+              "Aflatoxin B1",
+              "50–100 mg/m³",
+              "120–180 min",
+              "60–80%"
+            ],
+            [
+              "Zearalenone",
+              "50–100 mg/m³",
+              "120–180 min",
+              "50–70%"
+            ]
+          ]
+        },
+        "modes": {
+          "title": "Grain ozonation modes",
+          "intro": "Mode selection depends on treatment goals: prevention, disinsection or disinfection. It is important to consider grain moisture, temperature and storage airtightness.",
+          "tableCaption": "Recommended ozonation modes",
+          "tableHeaders": [
+            "Treatment goal",
+            "O₃ concentration",
+            "Time",
+            "Frequency"
+          ],
+          "tableData": [
+            [
+              "Prevention",
+              "10–20 mg/m³",
+              "4–6 hours",
+              "Every 2–4 weeks"
+            ],
+            [
+              "Disinsection",
+              "30–60 mg/m³",
+              "1–2 hours",
+              "As needed"
+            ],
+            [
+              "Disinfection",
+              "30–50 mg/m³",
+              "1–3 hours",
+              "During loading/unloading"
+            ],
+            [
+              "Deep treatment",
+              "60–100 mg/m³",
+              "2–4 hours",
+              "Every 3–6 months"
+            ],
+            [
+              "Pre-sowing treatment",
+              "10–30 mg/m³",
+              "30–60 min",
+              "Before sowing"
+            ]
+          ],
+          "warningLabel": "Important",
+          "warningText": "When treating grain with moisture above 14%, ozonation effectiveness decreases. Pre-drying or increasing ozone dose by 20–30% is recommended."
+        },
+        "presowing": {
+          "title": "Pre-sowing seed treatment",
+          "intro": "Ozone seed treatment increases germination, germination energy and seedling resistance to adverse conditions. Research confirms significant yield gains.",
+          "tableCaption": "Pre-sowing seed ozonation results",
+          "tableHeaders": [
+            "Crop",
+            "Treatment mode",
+            "Germination increase",
+            "Yield gain"
+          ],
+          "tableData": [
+            [
+              "Wheat",
+              "10–20 mg/m³, 30 min",
+              "+5–8%",
+              "+18–22%"
+            ],
+            [
+              "Barley",
+              "10–20 mg/m³, 30 min",
+              "+6–10%",
+              "+14–17.5%"
+            ],
+            [
+              "Corn",
+              "15–25 mg/m³, 45 min",
+              "+4–7%",
+              "+12–16%"
+            ],
+            [
+              "Sunflower",
+              "15–25 mg/m³, 45 min",
+              "+5–8%",
+              "+10–14%"
+            ],
+            [
+              "Soybean",
+              "10–20 mg/m³, 30 min",
+              "+6–9%",
+              "+13–18%"
+            ],
+            [
+              "Rice",
+              "10–15 mg/m³, 20 min",
+              "+7–12%",
+              "+15–20%"
+            ]
+          ]
+        },
+        "worldExperience": {
+          "label": "World experience",
+          "text": "Grain ozonation is used in the USA, Canada, Australia and EU countries as an eco-friendly alternative to phosphine and methyl bromide, banned by the Montreal Protocol."
+        },
+        "technology": {
+          "title": "Grain storage ozonation technology",
+          "steps": [
+            {
+              "title": "Storage preparation",
+              "description": "Cleaning of grain residues and dust. Checking airtightness of gates, hatches and seams."
+            },
+            {
+              "title": "Equipment installation",
+              "description": "Placing ozonator and ozone distribution system. Connection to power supply."
+            },
+            {
+              "title": "Sealing",
+              "description": "Closing all openings, installing warning signs about treatment."
+            },
+            {
+              "title": "Ozone supply",
+              "description": "Starting ozonator, monitoring concentration with sensors. Treatment time 2–6 hours."
+            },
+            {
+              "title": "Holding",
+              "description": "After reaching target concentration, holding for 30–60 minutes without ozone supply."
+            },
+            {
+              "title": "Degassing",
+              "description": "Turning on ventilation to remove residual ozone. Monitoring MPC (0.1 mg/m³)."
+            }
+          ]
+        },
+        "comparison": {
+          "title": "Comparison with chemical fumigation",
+          "tableCaption": "Ozonation vs chemical fumigation",
+          "tableHeaders": [
+            "Parameter",
+            "Ozonation",
+            "Phosphine (PH₃)"
+          ],
+          "tableData": [
+            [
+              "Residues in product",
+              "None",
+              "Present (MPC 0.1 mg/kg)"
+            ],
+            [
+              "Eco-friendliness",
+              "Complete",
+              "Toxic to environment"
+            ],
+            [
+              "Treatment time",
+              "2–6 hours",
+              "3–7 days"
+            ],
+            [
+              "Pest resistance",
+              "Not formed",
+              "Increases with each use"
+            ],
+            [
+              "Personnel safety",
+              "High (with MPC compliance)",
+              "Low (strong poison)"
+            ],
+            [
+              "Effect on grain quality",
+              "Positive",
+              "May reduce germination"
+            ],
+            [
+              "Treatment cost",
+              "Medium",
+              "Low–medium"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "Advantages of ozonation in grain storage",
+          "items": [
+            {
+              "title": "Chemical-free",
+              "description": "No residues in grain — complete ecological safety and food security"
+            },
+            {
+              "title": "Pest control",
+              "description": "95–99% destruction of insects at all development stages without resistance"
+            },
+            {
+              "title": "Disinfection",
+              "description": "80–95% reduction of microbial and fungal contamination"
+            },
+            {
+              "title": "Yield increase",
+              "description": "17–22% higher yields with pre-sowing seed treatment"
+            },
+            {
+              "title": "Cost savings",
+              "description": "Lower operational costs and faster treatment (2-6 hours vs 3-7 days for fumigation)"
+            },
+            {
+              "title": "Economic benefit",
+              "description": "Equipment payback in 1-2 seasons through loss reduction"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

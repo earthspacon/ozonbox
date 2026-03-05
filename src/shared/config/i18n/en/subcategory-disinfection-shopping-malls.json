@@ -1,0 +1,291 @@
+{
+  "title": "Disinfection",
+  "description": "Ozonation provides deep disinfection of premises and transport, destroying bacteria, viruses, fungi and spores without chemical residues. The gas penetrates all hard-to-reach areas.",
+  "subcategories": {
+    "shopping-malls": {
+      "title": "Shopping malls",
+      "shortDesc": "Clean air for visitors",
+      "content": "Shopping malls are high-traffic spaces with dense visitor flow. Ozonation maintains air quality, removes odors and helps prevent infection spread.\n\nRegular ozone treatment during off-hours disinfects all surfaces: escalators, handrails, elevators, benches, restrooms. The gas reaches all areas, including back-of-house and technical zones.\n\nOzone effectively removes odors from food courts, restrooms and storage areas. It neutralizes chemical pollutants from finishes and merchandise. The air becomes fresh and pleasant for visitors.\n\nLarge malls use high-capacity industrial ozone generators or systems integrated with ventilation. Treatment is automated with timers and sensors.",
+      "benefits": [
+        "Infection prevention in crowded spaces",
+        "Improved air quality",
+        "Food court odor removal",
+        "Disinfection of contact surfaces",
+        "Visitor comfort",
+        "Ventilation system integration"
+      ],
+      "stats": {
+        "visitors": {
+          "value": "1000+",
+          "label": "Visitors",
+          "description": "Daily flow in large malls"
+        },
+        "protection": {
+          "value": "24/7",
+          "label": "Protection",
+          "description": "Integration into ventilation system"
+        },
+        "odors": {
+          "value": "100%",
+          "label": "Odors",
+          "description": "Food court odor elimination"
+        },
+        "chemicals": {
+          "value": "0",
+          "label": "Chemicals",
+          "description": "Eco-friendly treatment"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Shopping malls are places of mass gatherings with intense visitor flow. Thousands of people touch the same surfaces daily: escalators, handrails, elevator buttons, door handles. Ozonation maintains air quality, eliminates odors and provides infection prevention.",
+          "paragraph2": "Regular ozone treatment during off-hours disinfects all surfaces, including hard-to-reach areas and technical zones. The gas penetrates all rooms, ensuring comprehensive treatment of the entire facility."
+        },
+        "comfort": {
+          "label": "Visitor comfort",
+          "text": "directly affects time spent in the mall and purchase volume. Clean fresh air without foreign odors is an important element of a positive shopping experience."
+        },
+        "zones": {
+          "title": "Treatment zones in shopping malls",
+          "items": [
+            "Shopping galleries and atriums — main visitor gathering areas",
+            "Escalators and elevators — contact surfaces with maximum load",
+            "Food courts — sources of odors and food contamination",
+            "Restrooms — critical hygiene zones",
+            "Storage and technical rooms — often ignored during cleaning",
+            "Ventilation systems — distribute air throughout the mall",
+            "Parking lots — accumulate exhaust fumes and odors"
+          ]
+        },
+        "odorProblem": {
+          "title": "Odor problem in malls",
+          "intro": "Shopping malls combine many odor sources: food courts, restrooms, perfume stores, storage areas. Ozone effectively neutralizes all these odors, not masking them, but destroying the molecules of odorous substances.",
+          "tableCaption": "Odor sources and solutions",
+          "tableHeaders": [
+            "Zone",
+            "Odor source",
+            "Solution"
+          ],
+          "tableData": [
+            [
+              "Food court",
+              "Food preparation, grease, spices",
+              "Night ozonation + duct ozone generators"
+            ],
+            [
+              "Restrooms",
+              "Organic substances",
+              "Continuous low-concentration ozonation"
+            ],
+            [
+              "Atrium",
+              "Odor mixing, stuffiness",
+              "Ventilation integration"
+            ],
+            [
+              "Parking",
+              "Exhaust fumes",
+              "Duct ozone generators in exhaust"
+            ]
+          ]
+        },
+        "organization": {
+          "title": "Ozonation organization options",
+          "night": {
+            "title": "Night treatment",
+            "description": "Mobile ozone generators treat the mall after closing. Maximum effectiveness."
+          },
+          "ventilation": {
+            "title": "Ventilation integration",
+            "description": "Duct ozone generators in HVAC system. Continuous air quality maintenance."
+          },
+          "zonal": {
+            "title": "Zonal treatment",
+            "description": "Wall-mounted ozone generators in problem zones: restrooms, food court, parking."
+          },
+          "combined": {
+            "title": "Combined approach",
+            "description": "Combination of all methods for maximum effect"
+          }
+        },
+        "treatmentMode": {
+          "title": "Treatment mode",
+          "steps": [
+            {
+              "title": "Night disinfection",
+              "description": "After mall closing, mobile ozone generators are started. Treatment 2-4 hours depending on area. By opening, ozone completely decomposes."
+            },
+            {
+              "title": "Food court",
+              "description": "Daily treatment after cafes close. Elimination of cooking odors, disinfection of tables and chairs."
+            },
+            {
+              "title": "Restrooms",
+              "description": "Low-power ozone generators work continuously at safe concentration or turn on automatically during breaks."
+            },
+            {
+              "title": "Ventilation",
+              "description": "Duct ozone generators supply ozone to air ducts, ensuring supply air disinfection."
+            }
+          ]
+        },
+        "equipment": {
+          "title": "Equipment calculation",
+          "tableCaption": "Recommended capacity for mall zones",
+          "tableHeaders": [
+            "Zone",
+            "Area",
+            "Capacity",
+            "Mode"
+          ],
+          "tableData": [
+            [
+              "Shopping gallery",
+              "1000-5000 m²",
+              "50-200 g/h",
+              "Night treatment"
+            ],
+            [
+              "Food court",
+              "500-1500 m²",
+              "20-60 g/h",
+              "Daily after closing"
+            ],
+            [
+              "Restroom",
+              "20-50 m²",
+              "1-2 g/h",
+              "Continuous or cycles"
+            ],
+            [
+              "Storage",
+              "100-300 m²",
+              "5-15 g/h",
+              "2-3 times per week"
+            ],
+            [
+              "Parking",
+              "5000-20000 m²",
+              "100-500 g/h",
+              "Ventilation integration"
+            ]
+          ],
+          "highlight": "For large shopping malls, comprehensive ozonation system design is recommended, taking into account building architecture, ventilation systems and operating mode. We develop custom solutions."
+        },
+        "pathogens": {
+          "title": "Effectiveness against pathogens",
+          "tableCaption": "Inactivation time on contact surfaces",
+          "tableHeaders": [
+            "Pathogen",
+            "Time (20 mg/m³)",
+            "Effectiveness"
+          ],
+          "tableData": [
+            [
+              "Coronaviruses",
+              "10-15 min",
+              "99.9%"
+            ],
+            [
+              "Influenza viruses",
+              "5-10 min",
+              "99.9%"
+            ],
+            [
+              "Norovirus",
+              "15-20 min",
+              "99.9%"
+            ],
+            [
+              "Staphylococcus aureus",
+              "10-15 min",
+              "99.99%"
+            ],
+            [
+              "E. coli",
+              "5-10 min",
+              "99.99%"
+            ],
+            [
+              "Mold",
+              "30-40 min",
+              "99%"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "Benefits for management companies",
+          "safety": {
+            "title": "Visitor safety",
+            "description": "Reduced risk of infection spread in crowded areas"
+          },
+          "comfort": {
+            "title": "Comfortable atmosphere",
+            "description": "Clean air without odors increases visitor stay time"
+          },
+          "compliance": {
+            "title": "Regulatory compliance",
+            "description": "Meeting sanitary requirements for public places"
+          },
+          "savings": {
+            "title": "Chemical savings",
+            "description": "Reduced costs for disinfectants and air fresheners"
+          }
+        },
+        "comparison": {
+          "title": "Disinfection approach comparison",
+          "tableTitle": "Shopping mall treatment methods",
+          "headers": [
+            "Criterion",
+            "Ozonation",
+            "Chemical treatment"
+          ],
+          "rows": [
+            {
+              "parameter": "Air treatment",
+              "value1": "Yes",
+              "value2": "No"
+            },
+            {
+              "parameter": "Ventilation systems",
+              "value1": "Yes",
+              "value2": "No"
+            },
+            {
+              "parameter": "Hard-to-reach areas",
+              "value1": "Yes (gas)",
+              "value2": "No"
+            },
+            {
+              "parameter": "Odor elimination",
+              "value1": "Complete",
+              "value2": "Masking"
+            },
+            {
+              "parameter": "Chemical residues",
+              "value1": "No",
+              "value2": "Yes"
+            },
+            {
+              "parameter": "Automation",
+              "value1": "Full",
+              "value2": "Partial"
+            }
+          ]
+        },
+        "safety": {
+          "title": "Safety for visitors",
+          "intro": "With proper organization, ozonation is absolutely safe for visitors and shopping mall staff.",
+          "items": [
+            "Main treatment — at night when the mall is closed",
+            "Ventilation integration — at safe concentrations",
+            "Restrooms — automatic shutdown when visitors enter",
+            "Concentration sensors — real-time ozone level monitoring",
+            "By opening, ozone completely decomposes into oxygen"
+          ],
+          "warning": "MPC of ozone for work zone — 0.1 mg/m³. With ventilation integration, concentration is maintained at 0.03-0.05 mg/m³ — this is safe and provides a 'fresh air' effect."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "title": "Suvni tozalash",
+  "description": "Ozon eng samarali va ekologik toza suvni tozalash usuli. Yevropada ichimlik suvining 95% ozon bilan ishlov beriladi. Xlor kabi xavfli yon mahsulotlar hosil qilmaydi.",
+  "subcategories": {
+    "pools-spa": {
+      "title": "Basseynlar va SPA",
+      "shortDesc": "Xlor hidsiz va qichishishsiz toza suv",
+      "heroTitle": "Basseyn va SPA ozonlash",
+      "heroDesc": "Xlor hidsiz kristal toza suv. Uzoq vaqt suvda bo'lishda ham ko'z va teri qichishishi yo'q.",
+      "content": {
+        "intro1": "Basseynlarni xlorlash - an'anaviy dezinfeksiya usuli, lekin u muhim kamchiliklarni o'z ichiga oladi: kuchli xlor hidi, ko'z va shilliq pardalar qichishishi, quruq teri, soch va suzish kiyimlarining rangsizlanishi. Ozonlash bu muammolarni deyarli bartaraf etib, eng yuqori sifatli suv olish imkonini beradi.",
+        "intro2": "Ozon - eng kuchli oksidlovchi, bakteritsid ta'siri bo'yicha xlorni 3000 marta oshadi. U bakteriyalar, viruslar, sporalar va protozoonlarni yo'q qiladi, mikroalg hujayra devorlarini buzadi. Suv yoqimli ko'k rangga ega bo'ladi."
+      },
+      "benefits": [
+        "Xlor hidi yo'q",
+        "Teri yoki ko'z qichishishi yo'q",
+        "Kristal toza ko'k suv",
+        "Xlor iste'moli taxminan 7× kamayadi",
+        "Viruslarga qarshi xlordan samaraliroq",
+        "Basseyn suvi standartlariga mos keladi"
+      ],
+      "technicalData": {
+        "ozoneDoze": "0,7-0,9 g/m³",
+        "contactTime": "6-7 daqiqa",
+        "residualOzone": "< 0,1 mg/L",
+        "residualChlorine": "0,1-0,3 mg/L",
+        "phRange": "7,2-7,6"
+      },
+      "regulations": [
+        "Basseyn suvi standartlari"
+      ],
+      "stats": {
+        "chlorineReduction": {
+          "value": "7×",
+          "label": "Kamroq xlor",
+          "description": "Xlor kontsentratsiyasining pasayishi"
+        },
+        "irritation": {
+          "value": "0",
+          "label": "Qichishish",
+          "description": "Suzishda ko'z va teri qichishishi"
+        },
+        "bactericidal": {
+          "value": "3000×",
+          "label": "Xlordan kuchliroq",
+          "description": "Bakteritsid ta'sir"
+        },
+        "waterColor": {
+          "value": "Ko'k",
+          "label": "Suv",
+          "description": "Yoqimli tabiiy rang"
+        }
+      },
+      "highlightBox": {
+        "regulation": {
+          "label": "Basseyn suvi standartlari:",
+          "text": "Ozonlash basseyn suvini dezinfeksiya qilishning zamonaviy usuli sifatida tavsiya etiladi, bu xlor kontsentratsiyasini minimal zarur darajaga kamaytirish imkonini beradi."
+        }
+      },
+      "sections": {
+        "comparison": {
+          "title": "Basseyn suvini ozonlashning afzalliklari",
+          "headers": [
+            "Parametr",
+            "Ozon + min. xlor",
+            "Faqat xlor"
+          ],
+          "rows": [
+            {
+              "parameter": "Suv hidi",
+              "value1": "Hid yo'q",
+              "value2": "Kuchli xlor hidi"
+            },
+            {
+              "parameter": "Ko'z qichishishi",
+              "value1": "Yo'q",
+              "value2": "Ha, uzoq vaqt ta'sirida"
+            },
+            {
+              "parameter": "Teri qichishishi",
+              "value1": "Yo'q",
+              "value2": "Quruqlik, pishishi"
+            },
+            {
+              "parameter": "Sochga ta'siri",
+              "value1": "Minimal",
+              "value2": "Rangsizlanish, quruqlik"
+            },
+            {
+              "parameter": "Suv rangi",
+              "value1": "Ko'kish, shaffof",
+              "value2": "Yashil bo'lishi mumkin"
+            },
+            {
+              "parameter": "Yon mahsulotlar",
+              "value1": "Yo'q (O₂ ga parchalanadi)",
+              "value2": "Trichloraminlar (zaharli)"
+            },
+            {
+              "parameter": "Viruslarga qarshi samaradorlik",
+              "value1": "Juda yuqori",
+              "value2": "O'rtacha"
+            }
+          ]
+        },
+        "technology": {
+          "title": "Basseyn ozonlash texnologiyasi",
+          "intro": "Ozon filtratsiyadan keyin, basseyn idishiga qaytishdan oldin aylanish suviga beriladi. Basseynlar uchun tavsiya etilgan ozon dozasi - aylanish suvi uchun 0,7-0,9 g/m³. Kontakt idishida kontakt vaqti - 6-7 daqiqa.",
+          "tableCaption": "Basseyn ozonlash parametrlari",
+          "tableHeaders": [
+            "Parametr",
+            "Qiymat",
+            "Izoh"
+          ],
+          "tableData": [
+            [
+              "Ozon dozasi",
+              "0,7-0,9 g/m³",
+              "Aylanish suvi hajmiga"
+            ],
+            [
+              "Kontakt vaqti",
+              "6-7 daqiqa",
+              "Kontakt idishida"
+            ],
+            [
+              "Chiqishdagi qolgan ozon",
+              "< 0,1 mg/L",
+              "Idishga kirishdan oldin"
+            ],
+            [
+              "Qolgan xlor",
+              "0,1-0,3 mg/L",
+              "Uzoq muddatli ta'sir uchun"
+            ],
+            [
+              "Suv pH",
+              "7,2-7,6",
+              "Optimal diapazon"
+            ]
+          ],
+          "note": "Ozonni xlor bilan birgalikda ishlatganda, odatdagi 0,7 mg/L o'rniga xlorni 0,1 mg/L darajasida saqlash mumkin. Bu teri va ko'z qichishishini deyarli bartaraf etadi."
+        },
+        "pathogens": {
+          "title": "Ozon basseyn suvida nimani yo'q qiladi",
+          "items": [
+            "Bakteriyalar: E.coli, Pseudomonas aeruginosa, stafilokokklar",
+            "Viruslar: enteroviruslar, adenoviruslar, rotaviruslar",
+            "Protozoonlar: Cryptosporidium, Giardia (xlorga chidamli!)",
+            "Mikroalg: qalin hujayra devorlarini buzadi",
+            "Organik ifloslanishlar: ter, siydik, kosmetika, kremlar",
+            "Xloraminlar: zararli xlorlash yon mahsulotlarini yo'q qiladi"
+          ],
+          "note": "Ayniqsa muhimi, ozon Cryptosporidiumga qarshi samarali - diareyaga olib keladigan parazitlar. Ular xlorlashga juda chidamli (yo'q qilish uchun 10 000 mg/L×min xlor kerak), lekin ozonga zaif."
+        },
+        "poolTypes": {
+          "title": "Turli basseyn turlari uchun ozonlash",
+          "tableCaption": "Tavsiya etilgan ozonlash tizimlari",
+          "tableHeaders": [
+            "Basseyn turi",
+            "Hajm",
+            "Ozonator quvvati"
+          ],
+          "tableData": [
+            [
+              "Xususiy basseyn",
+              "25-60 m³",
+              "2-5 g/h"
+            ],
+            [
+              "Fitnes-klub basseyni",
+              "100-300 m³",
+              "10-30 g/h"
+            ],
+            [
+              "Mehmonxona basseyni",
+              "200-500 m³",
+              "20-50 g/h"
+            ],
+            [
+              "Jamoat basseyni",
+              "500-2000 m³",
+              "50-200 g/h"
+            ],
+            [
+              "Aquapark",
+              "2000+ m³",
+              "Individual hisoblash"
+            ],
+            [
+              "SPA, jakuzi",
+              "2-10 m³",
+              "1-3 g/h"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "Basseyn egalari uchun afzalliklar",
+          "items": [
+            {
+              "title": "Mehmonlar qulayligi",
+              "description": "Xlor hidi yo'q, ko'z yoki teri qichishishi yo'q. Yoqimli suzish."
+            },
+            {
+              "title": "Kimyoviy moddalar tejamkorligi",
+              "description": "Xlor iste'moli 5-7 marta kamayadi, reagentlar tejamkorligi."
+            },
+            {
+              "title": "Normativlarga muvofiqlik",
+              "description": "Usul basseynlar uchun sanitariya qoidalari tomonidan tavsiya etiladi."
+            },
+            {
+              "title": "Toza suv",
+              "description": "Kristal toza ko'k rangli suv - sifat ko'rsatkichi."
+            }
+          ]
+        },
+        "spa": {
+          "title": "SPA va jakuzi uchun xususiyatlar",
+          "intro": "SPA va jakuzida yuqori suv harorati (32-40°C) bakteriyalar, jumladan Legionella ko'payishi uchun qulay sharoit yaratadi. Ozonlash bu sharoitlarda ayniqsa samarali:",
+          "items": [
+            "Legionella yo'q qilish - xavfli pnevmoniya patogeni",
+            "Quvurlar va nozullardagi bioplyonkani buzish",
+            "Kam ishlatiladigan jakuzilarda 'eski suv' hidini bartaraf etish",
+            "Zamburug' infektsiyalarini oldini olish (mikozlar)",
+            "Uzoq muddatli SPA protseduralarida qichishish yo'q"
+          ]
+        }
+      }
+    }
+  }
+}

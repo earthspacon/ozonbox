@@ -1,0 +1,323 @@
+{
+  "title": "Suvni tozalash",
+  "description": "Ozon eng samarali va ekologik toza suvni tozalash usuli. Yevropada ichimlik suvining 95% ozon bilan ishlov beriladi. Xlor kabi xavfli yon mahsulotlar hosil qilmaydi.",
+  "subcategories": {
+    "iron-removal": {
+      "title": "Temir va marganetsni olib tashlash",
+      "shortDesc": "Suvdan temir va marganetsni olib tashlash",
+      "heroTitle": "Ozonlash orqali temir va marganetsni olib tashlash",
+      "heroDesc": "Ozonlash orqali temir va marganetsni olib tashlash — organik metal komplekslari bilan qiyin holatlar uchun samarali",
+      "content": "Temir va marganets tabiiy suvdagi eng keng tarqalgan metallik ifloslantiruvchilardir. Ozonlash samarali olib tashlash usuli bo'lib, ayniqsa metallar organik komplekslar shaklidagi bo'lganda.\n\nStandart temir olib tashlash usullari (aeratsiya, kalijdosh, kation almashinuvi) organik birikmalar bilan samarasiz. Ozon komplekslarni oksidlaydi, temir va marganetsni cho'ktiradi va keyingi filtratsiya uchun tayyorlaydi.\n\nKerakli ozon dozasi: taxminan 1 mg temir uchun 1 mg ozon va 1 mg marganets uchun 4 mg ozon. Oksidlanish tabiiy suvlar uchun har qanday pH da samarali. Ozon Fe²⁺ ni Fe³⁺ ga aylantiradi, bu qiyin erimaydigan Fe(OH)₃ precipitat hosil qiladi va filtrlash orqali osonlik bilan olib tashlanadi.\n\nTexnologiyaga kontakt idishida ozonlash va undan keyin mexanik va uglerod filtratsiyasi kiradi. Yuqori marganets uchun metal precipitatning to'liq so'chishini ta'minlash uchun qo'sh ozonlash qo'llaniladi.",
+      "benefits": [
+        "Temir va marganetsni precipitatga oksidlash",
+        "Har qanday pH da samarali",
+        "Organik komplekslarni olib tashlash",
+        "Suvning rangini olib tashlash",
+        "Ta'm va hidni yaxshilash",
+        "Metal miqdor standartlariga muvofiqlik"
+      ],
+      "technicalData": {
+        "ozoneDozeForIron": "0,43-1 mg O₃ / mg Fe",
+        "ozoneDozeForManganese": "0,87-4 mg O₃ / mg Mn",
+        "ironPDK": "< 0,3 mg/L",
+        "manganesePDK": "< 0,1 mg/L",
+        "phRange": "6-9",
+        "contactTime": "5-15 daqiqa"
+      },
+      "chemicalReactions": {
+        "iron": "2Fe²⁺ + O₃ + H₂O → 2Fe³⁺ + O₂ + 2OH⁻ → Fe(OH)₃↓",
+        "manganese": "Mn²⁺ + O₃ + H₂O → MnO₂↓ + 2H⁺ + O₂"
+      },
+      "regulations": [
+        "Ichimlik suvi standartlari",
+        "Suv sifat me'yorlari"
+      ],
+      "stats": {
+        "ozoneForIron": {
+          "value": "0,43",
+          "label": "mg O₃ / mg Fe",
+          "description": "Temirga ozon dozasi"
+        },
+        "ozoneForManganese": {
+          "value": "0,87",
+          "label": "mg O₃ / mg Mn",
+          "description": "Marganetsga ozon dozasi"
+        },
+        "residualIron": {
+          "value": "< 0,3",
+          "label": "mg/L Fe",
+          "description": "Qolgan temir (standart limit)"
+        },
+        "residualManganese": {
+          "value": "< 0,1",
+          "label": "mg/L Mn",
+          "description": "Qolgan marganets (standart limit)"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Temir va marganets tabiiy suvdagi eng keng tarqalgan metallik ifloslantiruvchilar bo'lib, ular odatda bir-biri bilan mavjud. Temir toksik bo'lmasa ham, uning suvdagi mavjudligi organoleptik va ta'm xususiyatlarining yomonlashuviga olib keladi, suv bilan aloqa qilayotgan sirtlarda jigarrang cho'ktirmaning paydo bo'lishiga. Marganets zararli moddalar toifasiga mansub.",
+          "paragraph2": "Ozonlash ayniqsa temir va marganets suvda organik kompleks birikmalar shaklidagi bo'lganda samarali. Standart temir olib tashlash usullari (aeratsiya, kalijdosh qo'shish, kation almashinuvi) bu holatda samarasiz. Ozon kompleks birikmalarni oksidlaydi va metallarni erimaydigan shaklda cho'ktiradi.",
+          "regulationLabel": "Ichimlik suvi standartlari:",
+          "regulationText": "Ichimlik suvida temirning maksimal ruxsat etilgan kontsentratsiyasi (MRC) 0,3 mg/L, marganets — 0,1 mg/L. Bu limitlarni oshirish suv ichimlik suvi ta'minoti va texnologik ehtiyojlar uchun mo'lkusiz bo'ladi."
+        },
+        "comparison": {
+          "title": "Temir olib tashlash usullarini solishtirish",
+          "headers": [
+            "Parametr",
+            "Ozonlash",
+            "Aeratsiya + filtratsiya"
+          ],
+          "rows": [
+            {
+              "parameter": "Fe olib tashlash samaradorligi",
+              "value1": "> 95%",
+              "value2": "80-90%"
+            },
+            {
+              "parameter": "Mn olib tashlash samaradorligi",
+              "value1": "> 95%",
+              "value2": "50-70%"
+            },
+            {
+              "parameter": "Organik kompleks olib tashlash",
+              "value1": "Ha",
+              "value2": "Yo'q"
+            },
+            {
+              "parameter": "Rang kamaytirish",
+              "value1": "Ha (80% gacha)",
+              "value2": "Qisman"
+            },
+            {
+              "parameter": "Har qanday pH da ishlaydi",
+              "value1": "Ha (6-9)",
+              "value2": "pH > 7,5 talab qiladi"
+            },
+            {
+              "parameter": "Dezinfeksiya",
+              "value1": "Ha",
+              "value2": "Yo'q"
+            },
+            {
+              "parameter": "H₂S olib tashlash",
+              "value1": "Ha",
+              "value2": "Qisman"
+            },
+            {
+              "parameter": "Reagent talab qilinishi",
+              "value1": "Yo'q",
+              "value2": "Talab qilinishi mumkin"
+            }
+          ]
+        },
+        "ironChemistry": {
+          "title": "Ozon bilan temir oksidlanishining kimyosi",
+          "reactionLabel": "Temir oksidlanish reaktsiyasi:",
+          "reaction1": "2Fe²⁺ + O₃ + H₂O → 2Fe³⁺ + O₂ + 2OH⁻",
+          "reaction2": "Fe³⁺ + 3H₂O → Fe(OH)₃↓ + 3H⁺",
+          "description": "Ozon Fe²⁺ ni Fe³⁺ ga oksidlaydi, bu erimaydigan temir gidroksid Fe(OH)₃ hosil qiladi, filtrlash orqali osonlik bilan olib tashlanadi. Reaktsiya pH 6 dan 9 gacha bo'lgan diapazonida yuz beradi.",
+          "table": {
+            "caption": "Metal oksidlanishi uchun stoixiometrik nisbatlar",
+            "headers": [
+              "Metal",
+              "Nazariy ozon dozasi",
+              "Amaliy ozon dozasi",
+              "Izoh"
+            ],
+            "rows": [
+              [
+                "Temir (Fe²⁺)",
+                "0,43 mg O₃ / mg Fe",
+                "1 mg O₃ / mg Fe",
+                "Organik moddalar bilan"
+              ],
+              [
+                "Marganets (Mn²⁺)",
+                "0,87 mg O₃ / mg Mn",
+                "4 mg O₃ / mg Mn",
+                "Organik moddalar bilan"
+              ],
+              [
+                "Vodorod sulfidi (H₂S)",
+                "3,0 mg O₃ / mg H₂S",
+                "3-5 mg O₃ / mg H₂S",
+                "Elementar sulfuriga"
+              ]
+            ]
+          }
+        },
+        "manganeseChemistry": {
+          "title": "Ozon bilan marganets oksidlanishining kimyosi",
+          "reactionLabel": "Marganets oksidlanish reaktsiyasi:",
+          "reaction": "Mn²⁺ + O₃ + H₂O → MnO₂↓ + 2H⁺ + O₂",
+          "description": "Ozon Mn²⁺ ni Mn⁴⁺ ga oksidlaydi, bu erimaydigan marganets dioksid MnO₂ hosil qiladi. pH 8 atrofida reaktsiya eng samarali yuz beradi.",
+          "importantLabel": "Muhim:",
+          "importantText": "Ozonning ortiqchasi bilan marganetsning Mn⁷⁺ ga yanada oksidlanishi mumkin bo'lib, eriydigan permanganat MnO₄⁻ (pushti suv rangi) hosil qiladi. Organik birikmalarning mavjudligi holatida permanganat MnO₂ ga parchalanadi. Yuqori marganets kontsentratsiyasi uchun qo'sh ozonlash qo'llaniladi."
+        },
+        "process": {
+          "title": "Temir olib tashlash jarayoni",
+          "steps": [
+            {
+              "title": "Manba suvining ta'minoti",
+              "description": "Temir va marganets miqdori ko'paygan suv kontakt idishiga beriladi. Qo'pol aralashmalardan oldindan filtratsiya."
+            },
+            {
+              "title": "Ozon ishlab chiqarish",
+              "description": "Atmosfera havosi filtr orqali tozalanadi, kislorod kontsentratori (85-95% O₂) orqali o'tkaziladi, undan ozon generatoriga kiritiladi."
+            },
+            {
+              "title": "Kontakt kamerada ozonlash",
+              "description": "Ozon-havo aralashmasini suv qatori orqali barboter yoki Venturi ejektor orqali ineksiya. Kontakt vaqti: 5-15 daqiqa."
+            },
+            {
+              "title": "Oksidlangan metallarning cho'ktirilishi",
+              "description": "Fe(OH)₃ va MnO₂ kontakt idishida cho'ktiradi. Cho'ktirmani olib tashlash uchun idishni davriy ravishda yuvish."
+            },
+            {
+              "title": "Mexanik filtratsiya",
+              "description": "Qum filtr orqali oksidlangan metallarning suyuq moddalarni olib tashlash. Pore o'lchami: 10-50 μm."
+            },
+            {
+              "title": "Uglerod filtratsiyasi",
+              "description": "Faol uglerod orqali yakuniy tozalash, qolgan ozonni olib tashlash va organoleptik xususiyatlarni yaxshilash."
+            }
+          ]
+        },
+        "doubleOzonation": {
+          "title": "Qo'sh ozonlash (yuqori Mn kontsentratsiyasi uchun)",
+          "paragraph": "Marganets miqdori 0,5 mg/L dan yuqori bo'lganda, qo'sh ozonlash sxemasi talab qilinishi mumkin: manba suvining birlamchi ozonlashi, filtratsiya, undan so'ng filtratning ikkilamchi ozonlashi. Bu eriydigan permanganat hosil bo'lishini oldini oladi.",
+          "table": {
+            "caption": "Qo'sh ozonlash natijalari (Ashton, Angliya)",
+            "headers": [
+              "Parametr",
+              "Tozalashdan oldin",
+              "Tozalashdan keyin"
+            ],
+            "rows": [
+              [
+                "Marganets, mg/L",
+                "0,5",
+                "0,05"
+              ],
+              [
+                "Rang, daraja",
+                "22",
+                "5"
+              ],
+              [
+                "Loyqalik, NTU",
+                "15",
+                "< 2"
+              ]
+            ]
+          }
+        },
+        "organicComplexes": {
+          "title": "Organik kompleks muammolari",
+          "paragraph": "Suv katta miqdorda organik ifloslantiruvchilarni o'z ichiga olgan neft bo'yicha bogatli mintaqalarda, temir va marganets ko'pincha organik kompleks birikmalar shaklidagi bo'ladi. Bu standart temir olib tashlash usullarini samarasiz qiladi.",
+          "items": [
+            "Aeratsiya ishlarmaydi: organik komplekslar havo kislorodi bilan oksidlanmaydi",
+            "Kalijdosh qo'shish samarasiz: kompleks birikmalar pH ko'paytirilganda cho'ktirmaydi",
+            "Kation almashinuvi qiyin: organik komplekslar ion almashtirish amullarida almashalmaydi",
+            "Ozon muammoni hal qiladi: organik komplekslarni buzadi, metallarni cho'ktirish uchun chiqaradi"
+          ],
+          "advantageLabel": "Ozonning afzalligi:",
+          "advantageText": "Metal oksidlanishi ozon bilan tabiiy suvlarda topilgan har qanday pH qiymatlarda (6-9) samarali yuz beradi, havo kislorodi bilan marganets oksidlanishi esa pH > 10 talab qiladi."
+        },
+        "systemParams": {
+          "title": "Tavsiya etilgan tizim parametrlari",
+          "table": {
+            "caption": "Unumdorlikka qarab uskunalar tanlash",
+            "headers": [
+              "Unumadorlik, m³/h",
+              "Ozonator quvvati, g/h",
+              "Kontakt kamerasi hajmi, m³"
+            ],
+            "rows": [
+              [
+                "1-5",
+                "5-25",
+                "0,2-1"
+              ],
+              [
+                "5-20",
+                "25-100",
+                "1-4"
+              ],
+              [
+                "20-50",
+                "100-250",
+                "4-10"
+              ],
+              [
+                "50-100",
+                "250-500",
+                "10-20"
+              ],
+              [
+                "100-500",
+                "500-2500",
+                "20-100"
+              ]
+            ]
+          },
+          "noteLabel": "Izoh:",
+          "noteText": "Ozonator quvvati Fe miqdori 10 mg/L gacha va Mn 1 mg/L gacha bo'lgan suv uchun hisoblanadi. Yuqori kontsentratsiyalar uchun individual hisoblash talab qilinadi."
+        },
+        "benefits": {
+          "title": "Temir olib tashlash uchun ozonlashning afzalliklari",
+          "items": [
+            {
+              "title": "Versatilik",
+              "description": "Temir va marganetsni organik komplekslarni o'z ichiga olgan har qanday shaklda samarali olib tashlaydi."
+            },
+            {
+              "title": "Keng pH diapazon",
+              "description": "pH 6-9 da suv kislotasini to'g'rilash talab qilinmasdan ishlaydi."
+            },
+            {
+              "title": "Murakkab ta'sir",
+              "description": "Bir vaqtda suvni dezinfeksiya qiladi, rangni, hidlarni olib tashlaydi, H₂S ni oksidlaydi."
+            },
+            {
+              "title": "Reagent talab qilinmaydi",
+              "description": "Ozon havodan joy oldin ishlab chiqariladi. Kimyoviy moddalarni sotib olish va saqlash talab qilinmaydi."
+            }
+          ]
+        },
+        "regulations": {
+          "title": "Normativ talablar",
+          "table": {
+            "caption": "Standartlarga qarab temir va marganetsning MRC",
+            "headers": [
+              "Metal",
+              "Ichimlik suvi",
+              "Shisha suv",
+              "Xavf sinfi"
+            ],
+            "rows": [
+              [
+                "Temir (Fe)",
+                "0,3 mg/L",
+                "0,3 mg/L",
+                "III"
+              ],
+              [
+                "Marganets (Mn)",
+                "0,1 mg/L",
+                "0,05 mg/L",
+                "III"
+              ]
+            ]
+          },
+          "items": [
+            "Ichimlik suvi standartlari «Ichimlik suvi. Markaziy ichimlik suvi ta'minoti tizimlari suv sifati uchun gigiyena talablari»",
+            "Shisha suv standartlari «Ichimlik suvi. Shisha suvning sifati uchun gigiyena talablari»",
+            "GOST 2874-82 «Ichimlik suvi. Gigiyena talablari va sifat nazorati»"
+          ]
+        }
+      }
+    }
+  }
+}

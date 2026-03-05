@@ -1,0 +1,199 @@
+{
+  "title": "Medicine",
+  "description": "Ozone therapy and ozonation in medicine: sterilization of operating rooms and wards, disinfection of medical equipment, treatment of dental offices, rehabilitation centers and ambulances.",
+  "subcategories": {
+    "equipment-sterilization": {
+      "title": "Medical equipment sterilization",
+      "shortDesc": "Sterilization of instruments and devices",
+      "heroText": "Low-temperature ozone sterilization of endoscopes, plastic products and electronics. Complete treatment of heat-sensitive medical equipment without damage.",
+      "content": "Ozone is used to sterilize medical equipment that cannot be treated with high temperatures or harsh chemicals: endoscopes, plastic items, electronics, optics.\n\nLow-temperature ozone sterilization is an alternative to autoclaving for heat-sensitive equipment. The process runs at 25–35°C and 80–90% relative humidity, which is safe for most materials.\n\nEndoscopic equipment is especially demanding. Complex construction with narrow channels creates a risk of incomplete treatment by traditional methods. Ozone gas penetrates all cavities and channels for full sterilization.\n\nThe ozone sterilization cycle includes: pre-humidification, exposure in ozone atmosphere for 30–60 minutes, and degassing. The method is validated for use in healthcare and meets sterilization standards.",
+      "benefits": [
+        "Low-temperature sterilization",
+        "Safe for plastic and electronics",
+        "Penetration into narrow channels",
+        "Endoscope treatment",
+        "No damage to optics",
+        "Compliance with medical standards"
+      ],
+      "stats": [
+        {
+          "value": "25-35°C",
+          "label": "Temperature",
+          "description": "Low-temperature sterilization"
+        },
+        {
+          "value": "30-60",
+          "label": "Minutes",
+          "description": "Full sterilization cycle"
+        },
+        {
+          "value": "99.99%",
+          "label": "Efficiency",
+          "description": "Microorganism destruction"
+        },
+        {
+          "value": "0",
+          "label": "Damage",
+          "description": "Safe for sensitive materials"
+        }
+      ],
+      "sections": {
+        "intro": {
+          "text": "Modern medical equipment often contains heat-sensitive materials: plastic, electronics, optics that cannot be sterilized in an autoclave. Ozone sterilization is an effective alternative operating at 25-35°C.",
+          "text2": "Ozone is a powerful oxidizer that destroys bacteria, viruses, spores and fungi by breaking down cell membranes. At the same time, it leaves no toxic residues and decomposes into oxygen within 20-30 minutes after treatment."
+        },
+        "highlight1": {
+          "title": "Important:",
+          "text": "Traditional steam sterilization at 121-134°C damages plastic products, electronics and optics. Ozone sterilization allows processing these materials without risk of deformation or failure."
+        },
+        "problem": {
+          "title": "Medical equipment sterilization problems",
+          "text": "Medical equipment requires sterilization after each use. But not all methods are suitable for all types of products:",
+          "items": [
+            "Autoclaving: high temperature damages plastic and electronics",
+            "Ethylene oxide: toxic, requires long degassing (up to 12 hours)",
+            "Plasma sterilization: high equipment cost",
+            "Chemical solutions: metal corrosion, seal damage",
+            "Radiation sterilization: expensive, not suitable for daily use"
+          ]
+        },
+        "endoscopes": {
+          "title": "Endoscope sterilization",
+          "text": "Endoscopes are complex devices with narrow channels, optics and electronics. Their sterilization is a special task that ozone solves effectively.",
+          "table": {
+            "caption": "Ozone sterilization parameters for endoscopes",
+            "headers": [
+              "Endoscope type",
+              "Ozone concentration",
+              "Treatment time",
+              "Features"
+            ],
+            "rows": [
+              [
+                "Gastroscopes",
+                "40-60 ppm",
+                "30-40 min",
+                "Channel purging with ozone"
+              ],
+              [
+                "Colonoscopes",
+                "40-60 ppm",
+                "40-50 min",
+                "Increased channel length"
+              ],
+              [
+                "Bronchoscopes",
+                "50-70 ppm",
+                "35-45 min",
+                "Thin channels, delicate optics"
+              ],
+              [
+                "Laparoscopes",
+                "30-50 ppm",
+                "25-35 min",
+                "Compact design"
+              ]
+            ]
+          },
+          "highlight": "Ozone penetrates channels with diameter from 1 mm, ensuring sterilization of areas inaccessible to liquid disinfectants. This is critical for preventing nosocomial infections."
+        },
+        "lowtemp": {
+          "title": "Low-temperature sterilization process",
+          "text": "The ozone sterilization cycle consists of several stages, each important for achieving complete sterility:",
+          "steps": [
+            {
+              "title": "Pre-humidification",
+              "description": "Bringing humidity in the chamber to 80-90%. Moisture enhances the bactericidal action of ozone and ensures its penetration into micropores."
+            },
+            {
+              "title": "Ozone saturation",
+              "description": "Ozone supply to concentration of 40-80 ppm. The gas is evenly distributed throughout the chamber and penetrates all equipment cavities."
+            },
+            {
+              "title": "Exposure",
+              "description": "Holding at specified concentration for 30-60 minutes. During this time, ozone destroys cell membranes of all microorganisms."
+            },
+            {
+              "title": "Degassing",
+              "description": "Removal of residual ozone from the chamber. Ozone decomposes into oxygen in 15-20 minutes. Equipment is ready for use."
+            }
+          ]
+        },
+        "materials": {
+          "title": "Compatible materials",
+          "text": "Ozone sterilization is safe for most materials used in medical equipment:",
+          "features": [
+            {
+              "title": "Plastics and polymers",
+              "description": "Polyethylene, polypropylene, polycarbonate, PVC — not damaged during ozone sterilization"
+            },
+            {
+              "title": "Electronics",
+              "description": "Boards, sensors, displays, endoscope cameras — safe treatment without static voltage"
+            },
+            {
+              "title": "Optics",
+              "description": "Lenses, light guides, prisms — ozone does not affect optical properties of elements"
+            },
+            {
+              "title": "Metals and alloys",
+              "description": "Stainless steel, titanium, aluminum — resistant to ozone at standard concentrations"
+            }
+          ]
+        },
+        "comparison": {
+          "title": "Sterilization method comparison",
+          "tableTitle": "Ozone vs traditional methods",
+          "headers": [
+            "Parameter",
+            "Ozone",
+            "Autoclave/Ethylene oxide"
+          ],
+          "rows": [
+            {
+              "parameter": "Treatment temperature",
+              "value1": "25-35°C",
+              "value2": "121-134°C / 37-55°C"
+            },
+            {
+              "parameter": "Full cycle time",
+              "value1": "45-90 minutes",
+              "value2": "30-60 min / 3-12 hours"
+            },
+            {
+              "parameter": "Toxic residues",
+              "value1": "No (decomposes to O₂)",
+              "value2": "No / Yes (requires degassing)"
+            },
+            {
+              "parameter": "Plastic compatibility",
+              "value1": "Yes",
+              "value2": "No / Partially"
+            },
+            {
+              "parameter": "Consumables cost",
+              "value1": "Minimal (electricity)",
+              "value2": "Medium / High"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Benefits for healthcare facilities",
+          "items": [
+            "Sterilization of heat-sensitive equipment without damage",
+            "Fast processing cycle — high instrument turnover",
+            "No toxic residues — patient safety",
+            "Low operating cost — minimum consumables",
+            "Penetration into hard-to-reach places — complete channel sterilization",
+            "Compliance with medical device sterilization standards"
+          ],
+          "warning": "When working with ozonators, safety precautions must be observed: ozone is toxic when inhaled. Sterilization chambers must be sealed. Ozone MAC in the work area is 0.1 mg/m³."
+        }
+      },
+      "cta": {
+        "title": "Implement ozone sterilization?",
+        "text": "Get consultation on equipment for sterilization of endoscopes and medical instruments"
+      }
+    }
+  }
+}

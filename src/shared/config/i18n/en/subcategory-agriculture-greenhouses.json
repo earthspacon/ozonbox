@@ -1,0 +1,273 @@
+{
+  "title": "Agriculture",
+  "description": "Ozonation in agriculture increases yields, extends product shelf life and ensures biosecurity. An eco-friendly alternative to chemical pesticides and preservatives.",
+  "subcategories": {
+    "greenhouses": {
+      "title": "Greenhouses and crop production",
+      "shortDesc": "Higher yields and plant disease protection",
+      "heroText": "13–35% yield increase, protection from diseases and pests without chemical pesticides. Eco-friendly technology for modern greenhouse operations.",
+      "content": "In greenhouse production, ozone is used to disinfect air, plant surfaces and soil. Ozonation increases yields and effectively controls disease without chemical pesticides.\n\nOzone dissolves in water about 15 times better than oxygen. Irrigation with ozonated water increases yields by 13–35% through improved soil quality, greater root mass and reduced root pathogens.\n\nDisinfection of greenhouse soils with concentrated ozone solution effectively suppresses root-knot nematode by 90–98% and stimulates plant growth. Biomass can increase by up to 30%.\n\nGreenhouse air ozonation destroys fungi, bacteria, yeast, viruses and pests. High concentrations are used to prepare the greenhouse for planting when the facility is unoccupied.",
+      "stats": {
+        "yieldIncrease": {
+          "value": "13–35%",
+          "label": "Yield increase",
+          "description": "With ozonated water irrigation"
+        },
+        "nematodeDestruction": {
+          "value": "90–98%",
+          "label": "Nematode destruction",
+          "description": "In greenhouse soils"
+        },
+        "oxygenIncrease": {
+          "value": "30–45%",
+          "label": "More oxygen",
+          "description": "Dissolved in irrigation water"
+        },
+        "biomassGrowth": {
+          "value": "up to 30%",
+          "label": "Biomass growth",
+          "description": "After soil disinfection"
+        }
+      },
+      "benefits": [
+        "13–35% yield increase",
+        "90–98% nematode destruction",
+        "Increased root mass",
+        "Disease control without chemicals",
+        "30–45% more dissolved oxygen in irrigation water",
+        "Eco-friendly technology"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "In greenhouse operations, ozone is used comprehensively: for air disinfection, plant surfaces, soil and irrigation water. This allows increasing yields and effectively controlling diseases without chemical agents.",
+          "paragraph2": "Ozone dissolves in water 15 times better than oxygen. Irrigation with ozonated water increases yields by 13–35% through improved soil quality, increased root mass and reduced root pathogens.",
+          "scientificFact": "Scientific fact: Ozone is 15 times more soluble in water than oxygen. This allows creating highly enriched irrigation solutions that saturate soil with oxygen and destroy pathogens."
+        },
+        "applications": {
+          "title": "Ozone applications in greenhouses",
+          "items": [
+            "Ozonated water irrigation — yield increase and growth stimulation",
+            "Greenhouse soil disinfection — nematode and pathogen control",
+            "Air ozonation — destruction of fungi, bacteria, viruses",
+            "Pest protection — eco-friendly alternative to insecticides",
+            "Pre-sowing seed treatment — improved germination and sprouting energy",
+            "Greenhouse preparation for season — complete facility disinfection"
+          ]
+        },
+        "irrigation": {
+          "title": "Ozonated water irrigation",
+          "intro": "Irrigation with ozone-enriched water is one of the most effective technologies for increasing yields. Ozone quickly decomposes to oxygen, saturating the root zone and stimulating plant development.",
+          "tableCaption": "Effect of ozonated water on yield of various crops",
+          "tableHeaders": [
+            "Crop",
+            "O₃ concentration",
+            "Yield increase",
+            "Additional effect"
+          ],
+          "tableData": [
+            [
+              "Tomatoes",
+              "0.5–1.0 mg/l",
+              "+18–25%",
+              "Larger fruit size"
+            ],
+            [
+              "Cucumbers",
+              "0.5–0.8 mg/l",
+              "+15–22%",
+              "Improved taste"
+            ],
+            [
+              "Peppers",
+              "0.5–1.0 mg/l",
+              "+20–28%",
+              "Extended shelf life"
+            ],
+            [
+              "Lettuce",
+              "0.3–0.5 mg/l",
+              "+13–18%",
+              "Better appearance"
+            ],
+            [
+              "Strawberries",
+              "0.5–0.8 mg/l",
+              "+22–35%",
+              "Increased sugar content"
+            ]
+          ],
+          "highlight": "Research shows that regular irrigation with ozonated water increases plant root mass by 15–25%, ensuring better nutrient uptake and stress resistance."
+        },
+        "soilDisinfection": {
+          "title": "Greenhouse soil disinfection",
+          "intro": "Root-knot nematode is one of the main enemies of greenhouse crops. Chemical control methods are ineffective and contaminate the soil. Soil ozonation with concentrated ozone solution effectively suppresses nematodes and stimulates plant development.",
+          "tableCaption": "Effectiveness of ozonation against soil pathogens",
+          "tableHeaders": [
+            "Pathogen",
+            "O₃ concentration",
+            "Treatment time",
+            "Effectiveness"
+          ],
+          "tableData": [
+            [
+              "Root-knot nematode",
+              "3–5 mg/l",
+              "30–60 min",
+              "90–98%"
+            ],
+            [
+              "Fusarium",
+              "2–3 mg/l",
+              "20–30 min",
+              "95–99%"
+            ],
+            [
+              "Verticillium",
+              "2–3 mg/l",
+              "20–30 min",
+              "93–97%"
+            ],
+            [
+              "Root rot",
+              "1.5–2.5 mg/l",
+              "15–25 min",
+              "90–95%"
+            ],
+            [
+              "Phytophthora",
+              "2–4 mg/l",
+              "20–40 min",
+              "96–99%"
+            ]
+          ],
+          "steps": [
+            {
+              "title": "Soil preparation",
+              "description": "Loosening soil to ensure ozone penetration. Removing plant residues."
+            },
+            {
+              "title": "Water ozonation",
+              "description": "Preparing ozonated water with concentration of 3–5 mg/l in a special reactor."
+            },
+            {
+              "title": "Soil irrigation",
+              "description": "Uniform application of ozonated water at 10–15 l/m² of greenhouse area."
+            },
+            {
+              "title": "Exposure",
+              "description": "Exposure time of 30–60 minutes for complete pathogen destruction."
+            },
+            {
+              "title": "Planting",
+              "description": "Seedlings can be planted 24–48 hours after treatment."
+            }
+          ]
+        },
+        "airOzonation": {
+          "title": "Air ozonation in greenhouses",
+          "intro": "Air ozonation in greenhouses destroys fungi, bacteria, yeast, viruses and pests. High concentrations are used to prepare the greenhouse for planting when the facility is unoccupied.",
+          "tableCaption": "Air ozonation regimes in greenhouses",
+          "tableHeaders": [
+            "Purpose",
+            "O₃ concentration",
+            "Time",
+            "Note"
+          ],
+          "tableData": [
+            [
+              "Disease prevention",
+              "0.1–0.3 mg/m³",
+              "2–4 h/day",
+              "With plants present"
+            ],
+            [
+              "Pest control",
+              "1–2 mg/m³",
+              "4–6 hours",
+              "Without people and animals"
+            ],
+            [
+              "Greenhouse disinfection",
+              "5–10 mg/m³",
+              "8–12 hours",
+              "Without plants, before season"
+            ],
+            [
+              "Mold destruction",
+              "2–3 mg/m³",
+              "4–8 hours",
+              "After harvest"
+            ]
+          ],
+          "warning": "Important: When treating the greenhouse with high ozone concentrations (over 1 mg/m³), personnel must be removed and the facility sealed. Ventilation for 30–60 minutes is required after treatment."
+        },
+        "seedTreatment": {
+          "title": "Pre-sowing seed treatment",
+          "intro": "Ozone seed treatment increases germination, sprouting energy and resistance of young plants to diseases. The technology allows avoiding chemical seed dressers.",
+          "tableCaption": "Ozone seed treatment regimes",
+          "tableHeaders": [
+            "Crop",
+            "O₃ concentration",
+            "Treatment time",
+            "Result"
+          ],
+          "tableData": [
+            [
+              "Tomatoes",
+              "5–10 mg/m³",
+              "30–60 min",
+              "Germination +8–12%"
+            ],
+            [
+              "Cucumbers",
+              "5–8 mg/m³",
+              "20–40 min",
+              "Germination +10–15%"
+            ],
+            [
+              "Peppers",
+              "8–12 mg/m³",
+              "40–60 min",
+              "Germination +7–10%"
+            ],
+            [
+              "Cabbage",
+              "5–8 mg/m³",
+              "20–30 min",
+              "Germination +12–18%"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "Benefits of ozonation in greenhouses",
+          "items": [
+            {
+              "title": "Environmental purity",
+              "description": "Ozone decomposes to oxygen without forming harmful compounds — products remain environmentally clean"
+            },
+            {
+              "title": "Chemical-free",
+              "description": "Complete replacement or significant reduction of pesticides, fungicides and seed dressers"
+            },
+            {
+              "title": "Yield increase",
+              "description": "13–35% yield increase with regular ozonated water irrigation"
+            },
+            {
+              "title": "Nematode control",
+              "description": "90–98% effectiveness against root-knot nematode without damaging soil microflora"
+            },
+            {
+              "title": "Product quality",
+              "description": "Improved taste, shelf life and appearance of grown products"
+            },
+            {
+              "title": "Economic benefit",
+              "description": "Equipment payback in 1–2 seasons through yield increase and reduced chemical costs"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

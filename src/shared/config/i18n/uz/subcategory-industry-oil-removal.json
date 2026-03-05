@@ -1,0 +1,483 @@
+{
+  "title": "Sanoat",
+  "description": "Sanoat ozonlash: chiqindi suvlarni tozalash, ishlab chiqarish joylarida havoni tozalash va ekologik standartlarga muvofiqlik. Katta korxonalar uchun yuqori quvvatli yechimlar.",
+  "subcategories": {
+    "oil-removal": {
+      "title": "Neft mahsulotlari bilan ifloslangan chiqindi suvlarni tozalash",
+      "shortDesc": "Sanoat chiqindi suvlaridan neft mahsulotlarini olib tashlash uchun ozonlash",
+      "content": "Ozonlash sanoat zavotlaridan neft mahsulotlari bilan ifloslangan chiqindi suvlarni tozalashning juda samarali usuli hisoblanadi. Teknologiya reagentlar yoki ikkinchi darajali ifloslantirishsiz oqish standartlarini belgilaydi.\n\nChiqindi suvlardagi neft mahsulotlari jiddiy ekologik tahdid tashkil etadi: 1 litr neft 1 million litr suvni ifloslantirishi mumkin. Baliq ovqatlanish suv havzalariga oqishda neft mahsulotlarining maksimal ruxsat etilgan kontsentratsiyasi 0,05 mg/L.\n\nOzon neft mahsulotlarini karbon dioksidi va suv bilan oksidlash orqali ifloslantiruvchilarni chuqur yo'q qilishni ta'minlaydi. Neft mahsulotlarining dastlabki kontsentrasiyasi 5–50 mg/L bo'lsa, tozalash samaradorligi 95–99% ga yetadi.\n\nTeknologiya refineryalarida, transportni tashkil etishda, kemir tikishda, metalurjik zavotlarida va neft o'z mavjudligiga ega bo'lgan barcha zavotlarda qo'llaniladi.",
+      "benefits": [
+        "95–99% tozalash samaradorligi",
+        "0,05 mg/L oqish chegarasiga erishish",
+        "Ikkinchi darajali ifloslantirish yo'q",
+        "CO₂ va H₂O ga mineralizatsiya",
+        "Ekologik me'yorlarga muvofiqlik",
+        "Pastroq ekologik to'lovlar"
+      ],
+      "stats": {
+        "efficiency": {
+          "value": "95-99%",
+          "label": "Tozalash samaradorligi",
+          "description": "Chiqindi suvlardan neft mahsulotlarini olib tashlash"
+        },
+        "pdk": {
+          "value": "0.05",
+          "label": "mg/L chegarasi",
+          "description": "Oqish standartlarini belgilash"
+        },
+        "consumption": {
+          "value": "3-5",
+          "label": "mg O₃/mg OP",
+          "description": "Yo'q qilish uchun ozon sarflanishi"
+        },
+        "secondaryPollution": {
+          "value": "0",
+          "label": "Ikkinchi darajali ifloslantirish",
+          "description": "CO₂ va H₂O ga mineralizatsiya"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Neft mahsulotlari bilan ifloslangan sanoat qurillalari chiqindi suvi eng jiddiy ekologik muammolardan biridir. 1 litr neft 1 million litr suvni ifloslantirishi mumkin, bu gaz almashinuvini to'sib turuvchi film yaratib, suv ekosistemalarining o'limiga tahdid tashkil etadi.",
+          "paragraph2": "Ozonlash neft mahsulotlari bilan ifloslangan chiqindi suvlarni chuqur tozalashning ilg'or usuli bo'lib, uglerodsizchilar karbon dioksidi va suvga yo'q qilishni ta'minlaydi. An'anaviy usullardan (flotatsiya, sorption, biologik tozalash) farqli o'laroq, ozonlash ifloslantirguvchilarning to'liq mineralizatsiyasini ta'minlaydi va ikkinchi darajali xodisalarning shakllashini oldini oladi."
+        },
+        "regulatory": {
+          "title": "Normativ talablar",
+          "highlight": {
+            "title": "Maksimal ruxsat etilgan kontsentratsiya",
+            "text": "Baliq ovqatlanish suv havzalariga oqishda neft mahsulotlarining maksimal ruxsat etilgan kontsentratsiyasi 0,05 mg/L (GOST 17.1.3.07-82). Munitsipal fazo tashkil etishga oqishda — 4,0 mg/L. Chegara osish muddati ekologik to'lovlarni va 2 million rublingacha jarimalangan qoidalarni to'plash."
+          },
+          "paragraph": "Ozonlash mavjud me'yorlarga muvofiqlikni ta'minlaydi:",
+          "items": [
+            "SanPiN 2.1.5.980-00 — Sirt suvlarini himoya qilish uchun gigienik talablar",
+            "GOST 17.1.3.07-82 — Suv havzalari suv sifatini nazorat qilish qoidalari",
+            "Qishloq xo'jaligi vazirligi buyrugi № 552 — Baliq ovqatlanish suv havzalari uchun suv sifati standartlari",
+            "Federal qonun № 7-FZ \"Muhit himoyasi haqida\"",
+            "Hukumat qarorovi № 644 — Sovuq suv ta'minoti va suv o'tkazishning qoidalari"
+          ],
+          "tableCaption": "Suv havzalarining turli foydalanish kategoriyalari uchun neft mahsulotlarining maksimal ruxsat etilgan kontsentratsiyalari",
+          "tableHeaders": [
+            "Suv havzasi kategoriyasi",
+            "Chegara, mg/L",
+            "Xavf sinfi"
+          ],
+          "tableRows": [
+            [
+              "Baliq ovqatlanish suv havzalari, eng yuqori kategoriya",
+              "0,05",
+              "3"
+            ],
+            [
+              "Baliq ovqatlanish suv havzalari, I kategoriya",
+              "0,05",
+              "3"
+            ],
+            [
+              "Baliq ovqatlanish suv havzalari, II kategoriya",
+              "0,05",
+              "3"
+            ],
+            [
+              "Xo'jalik va ichimlik suv ta'minoti manbalari",
+              "0,1",
+              "4"
+            ],
+            [
+              "Munitsipal tashkil etishga oqish",
+              "4,0",
+              "—"
+            ]
+          ]
+        },
+        "mechanism": {
+          "title": "Ozon tomonidan neft mahsulotlarining oksidlash mexanizmi",
+          "paragraph": "Ozon 2,07 V oksidlash-redutsiya potensiali bilan kuchli oksidlovchi (xloringacha 1,36 V bilan taqqoslaganda). Neft mahsulotlari bilan o'zaro ta'sir qilganda, oksidativ yo'q qilish reaktsiyalari sodir bo'ladi:",
+          "items": [
+            "Uzoq-zanjirli uglevodoklarni qisqa-zanjirli yo'q qilish",
+            "Benzol halqasini ochish bilan aromatik birikmalarin oksidlanishi",
+            "Oraliq mahsulotlarning shakllashishi: aldegidlar, ketonlar, karbonil kislotalar",
+            "Etarli ozon dozasi bilan CO₂ va H₂O ga to'liq mineralizatsiya",
+            "Politsiklik aromatik uglevodoklarning (PAU) yo'q qilishi"
+          ],
+          "tableCaption": "Ozon tomonidan neft mahsulotlarining oksidlanishining kinetikasi",
+          "tableHeaders": [
+            "Birikma sinfi",
+            "Tezlik konstantasi, M⁻¹·s⁻¹",
+            "Yarim hayoti, min"
+          ],
+          "tableRows": [
+            [
+              "Alifatik uglevodoklarni",
+              "10² — 10³",
+              "15-30"
+            ],
+            [
+              "Aromatik (benzol, toluol)",
+              "10³ — 10⁴",
+              "5-15"
+            ],
+            [
+              "Poliaromatik (PAU)",
+              "10⁴ — 10⁵",
+              "1-5"
+            ],
+            [
+              "Naftnik kislotalar",
+              "10³ — 10⁴",
+              "5-10"
+            ],
+            [
+              "Fenollar",
+              "10⁵ — 10⁶",
+              "<1"
+            ]
+          ],
+          "infoBox": {
+            "title": "Oksidativ yo'q qilish vs. sorption",
+            "text": "Faollashtirilgan ko'mir ifloslantirguvchilarni faqat to'plash va regeneratsiya yoki o'chirishni talab qiladigan ozonlash, neft mahsulotlari molekulalarini yo'q qiladi va ikkinchi darajali xodisalarning shakllashini oldini oladi."
+          }
+        },
+        "technology": {
+          "title": "Tozalash jarayoni sxemasi",
+          "paragraph": "Neft mahsulotlari bilan ifloslangan chiqindi suvlarni ozonlashning sanoat o'rnatilmasi maksimal samaradorlikka erishish uchun bir necha tozalash bosqichlarini o'z ichiga oladi:",
+          "steps": [
+            {
+              "title": "Dastlabki mexanik tozalash",
+              "description": "Osilgan qatiq moddalarni olib tashlash, neft tuzoqlarida cho'kish. Neft mahsulotlarining kontsentrasiyasi 30-50 mg/L ga kamayishi."
+            },
+            {
+              "title": "Ozon-hava aralashmasi bilan flotatsiya",
+              "description": "Ozon-hava aralashmasi etajetorlar orqali ta'minot (5-10 mg/L). Emulsiyalashtirilgan neft mahsulotlarining flotatsiyasi."
+            },
+            {
+              "title": "Ozonlash kontakt kamerad",
+              "description": "Echimlashtirilgan neft mahsulotlarinin chuqur oksidlanishi. Ozon doze neft mahsulotlari 1 mg ga 3-5 mg. Kontakt vaqti 20-30 minut."
+            },
+            {
+              "title": "Degaza qilish va keyingi tozalash",
+              "description": "Ortiqcha ozon va oksidlash mahsulotlarini olib tashlash. Agar zarur bo'lsa — faollashtirilgan ko'mir orqali filtrlash."
+            },
+            {
+              "title": "Sifat nazorati",
+              "description": "Chiqish joyidagi neft mahsulotlarining kontsentrasiyasining avtomatik monitoringi. Sensor o'qilmalari bo'yicha ozon dozasining regulyatsiyasi."
+            }
+          ],
+          "tableCaption": "Turli neft mahsulotlarining kontsentratsiyas uchun ozonlash parametrlari",
+          "tableHeaders": [
+            "Dastlabki OP kontsentratsiyasi, mg/L",
+            "Ozon dozasi, mg/L",
+            "Kontakt vaqti, min",
+            "Qolgan kontsentratsiya, mg/L"
+          ],
+          "tableRows": [
+            [
+              "5-10",
+              "15-30",
+              "15-20",
+              "<0.05"
+            ],
+            [
+              "10-20",
+              "30-60",
+              "20-30",
+              "<0.05"
+            ],
+            [
+              "20-50",
+              "60-150",
+              "30-45",
+              "<0.1"
+            ],
+            [
+              "50-100",
+              "150-300",
+              "45-60",
+              "<0.3"
+            ],
+            [
+              ">100",
+              "Ikki bosqichli tozalash",
+              "60-90",
+              "<0.5"
+            ]
+          ]
+        },
+        "types": {
+          "title": "Neft mahsulotlari bilan ifloslangan chiqindi suvlarining turli sxemalari va tozalash xususiyatlari",
+          "paragraph": "Ozonlashning samaradorligi chiqindi suvlardagi neft mahsulotlarining tarkibi va kontsentratsiyas bog'liq:",
+          "tableCaption": "Sanoat bo'yicha neft mahsulotlari bilan ifloslangan chiqindi suvlarning xususiyatlari",
+          "tableHeaders": [
+            "Chiqindi suv manbasi",
+            "Tipik OP kontsentratsiyasi, mg/L",
+            "Tarkib xususiyatlari",
+            "Tozalash rejimi"
+          ],
+          "tableRows": [
+            [
+              "Refinery, neft depolar",
+              "50-500",
+              "Yengil fraktsiyalar, benzol, toluol",
+              "Flotatsiya + ozonlash"
+            ],
+            [
+              "Tashish, benzin stantsiyalari",
+              "10-100",
+              "Moylashgan maslovlarni, yoqilg'i, Yuzaktivsiz moddalari",
+              "To'g'ridan-to'g'ri ozonlash"
+            ],
+            [
+              "Mashina qurilish",
+              "20-200",
+              "Sovitish suyuqliqlari, emulsiyalar, moylashgan maslovlarni",
+              "Demulsifikatsiya + ozonlash"
+            ],
+            [
+              "Kemir ta'mirlash",
+              "50-300",
+              "Og'ir fraktsiyalar, smaolalar",
+              "Ko'p bosqichli tozalash"
+            ],
+            [
+              "Metalurjiya",
+              "10-50",
+              "Texnik moylashgan maslovlarni, fumar",
+              "Flokulyatsiya + ozonlash"
+            ]
+          ],
+          "successBox": {
+            "title": "Sinergik ta'sir",
+            "text": "Ozonlashni UV nurlanish bilan (O₃/UV jarayoni) birlashtirib, oksidlash samaradorligi 30-40% ga ortadi, chunki 2,80 V oksidlash potensiali bilan gidroksel radikallarning (•OH) shakllashushi."
+          }
+        },
+        "equipment": {
+          "title": "Sanoat ozonatorlarining texnik xarakteristikasi",
+          "paragraph": "Neft mahsulotlari bilan ifloslangan chiqindi suvlarni tozalash uchun yuqori quvvatli korona ekstremum ozon generatorlari qo'llaniladi:",
+          "tableCaption": "Chiqindi suvlarni tozalash uchun sanoat ozonatorlarining liniyasi",
+          "tableHeaders": [
+            "Model",
+            "Qabiliyet, g O₃/soat",
+            "Chiqindi suv hajmi, m³/soat",
+            "Energiya sarflanishi, kW"
+          ],
+          "tableRows": [
+            [
+              "OZT-100",
+              "100",
+              "3-5",
+              "1.2"
+            ],
+            [
+              "OZT-500",
+              "500",
+              "15-25",
+              "5.5"
+            ],
+            [
+              "OZT-1000",
+              "1000",
+              "30-50",
+              "10"
+            ],
+            [
+              "OZT-2000",
+              "2000",
+              "60-100",
+              "18"
+            ],
+            [
+              "OZT-5000",
+              "5000",
+              "150-250",
+              "45"
+            ]
+          ],
+          "items": [
+            "Maksimal ozon kontsentratsiyas uchun kislorod etakzalash (massa bo'yicha 12% gacha)",
+            "Yuqori yuki ostida barqaror ishlash uchun sovitish tizimi",
+            "Sensor signali bo'yicha avtomatik qabiliyet regulyatsiyasi",
+            "Katalitik konversiyasi bilan qolgan ozon destruktor",
+            "Ozon oziqlash bo'lsa zav to'xtatish tizimi"
+          ]
+        },
+        "economics": {
+          "title": "Ekologik va iqtisodiy ko'rsatkichlar",
+          "comparisonTitle": "Neft mahsulotlari bilan ifloslangan chiqindi suvlarni tozalash usullarning taqqoslashi",
+          "comparisonHeaders": [
+            "Parametr",
+            "Ozonlash",
+            "An'anaviy usullar"
+          ],
+          "comparisonRows": [
+            {
+              "parameter": "Tozalash samaradorligi",
+              "value1": "95-99%",
+              "value2": "70-90%"
+            },
+            {
+              "parameter": "Qolgan OP kontsentratsiyasi",
+              "value1": "<0.05 mg/L",
+              "value2": "0.5-5 mg/L"
+            },
+            {
+              "parameter": "Cho'kma shakllashishi",
+              "value1": "Yo'q",
+              "value2": "Hajmning 2-5%"
+            },
+            {
+              "parameter": "Reagent sarflanishi",
+              "value1": "Faqat kislorod",
+              "value2": "Koagulyantlar, sorptsivar"
+            },
+            {
+              "parameter": "Ishlash xarajatlari",
+              "value1": "15-25 rub/m³",
+              "value2": "30-60 rub/m³"
+            },
+            {
+              "parameter": "Modal xarajatlari",
+              "value1": "O'rta",
+              "value2": "Past-o'rta"
+            },
+            {
+              "parameter": "Joyi egallab turish",
+              "value1": "Minimal",
+              "value2": "Sezilarli"
+            }
+          ],
+          "infoBox": {
+            "title": "Tejashgan hisoblash",
+            "text": "100 m³/kun chiqindi suv oqishi va 20 mg/L OP kontsentratsiyas uchun chegara osish 400 marta bo'ladi. Oqish to'lovi — oyiga 50 000 rubli gacha. Ozonlash faqat ekologik to'lovlardagi tejashgan orqali 8-12 oyda o'zi qopladi."
+          }
+        },
+        "compliance": {
+          "title": "Normativ talablarga muvofiqlik",
+          "paragraph": "Ozonlash hozirgi qoidalarga muvofiqlikni ta'minlaydi:",
+          "items": [
+            "SanPiN 2.1.5.980-00 — Suv havzalarini himoya qilishning gigiyenak talablari",
+            "GOST 17.1.3.07-82 — Suv havzalarini suvning sifatini nazorat qilish qoidalari",
+            "Qishloq xo'jaligi vazirligi buyrug'i № 552 — Baliq ovqatlanish suv havzalari uchun suv sifat standartlari",
+            "Federal qonuni № 7-FZ \"Ekologik himoya haqida\"",
+            "Hukumat farmonî № 644 — Muzlatilgan suv ta'minoti va chiqindi suvlarini o'chiritish qoidalari"
+          ],
+          "tableCaption": "Turli suv foydalanish kategoriyalari uchun neft mahsulotlarining maksimal ruxsat etilgan kontsentratsiyas",
+          "tableHeaders": [
+            "Suv havzasi kategoriyasi",
+            "Chegara, mg/L",
+            "Xatar sinfi"
+          ],
+          "tableRows": [
+            [
+              "Baliq ovqatlanish suv havzalari, eng yuqori kategoriya",
+              "0.05",
+              "3"
+            ],
+            [
+              "Baliq ovqatlanish suv havzalari, kategoriya I",
+              "0.05",
+              "3"
+            ],
+            [
+              "Baliq ovqatlanish suv havzalari, kategoriya II",
+              "0.05",
+              "3"
+            ],
+            [
+              "Uyga va ichimlik suv foydalanish",
+              "0.1",
+              "4"
+            ],
+            [
+              "Munitsipal fazo tashkil etishga oqish",
+              "4.0",
+              "—"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "Sanoat ozonlashining ustunluklari",
+          "features": [
+            {
+              "title": "Ekologik xavfsizlik",
+              "description": "Neft mahsulotlarni ikkinchi darajali ifloslantirish va o'chirishning mahsulotlari tashkil etishsiz to'liq mineralizatsiya"
+            },
+            {
+              "title": "Chegara muvofiqligi",
+              "description": "Baliq ovqatlanish suv havzalariga oqish standartlarini garantiyalangan erishish"
+            },
+            {
+              "title": "Jarayonni avtomatlashtirish",
+              "description": "Kontsentratsiya sensor o'qilmalari bo'yicha ozon dozasining avtomatik regulyatsiyasi"
+            },
+            {
+              "title": "To'lovlarni kamaytirrish",
+              "description": "Ekologik to'lovlar va chegara osish uchun jarimalarga tejashgan"
+            },
+            {
+              "title": "Koʻp qolliliklik",
+              "description": "Barcha neft mahsulotlarining sinflari: alifatik, aromatik, PAU ning samarali tozalashi"
+            },
+            {
+              "title": "Pastroq ishlash xarajatlari",
+              "description": "Iste'mollanuvchi yo'q — faqat elektr va kislorod"
+            }
+          ]
+        },
+        "case": {
+          "title": "Korxona o'rni: Yiliga 6 million ton qabiliyet bilan refinery",
+          "paragraph": "Refinery ning chiqindi suvlarni tozalash qurillalari ozonlash o'rnatilmasining qo'llanilishi:",
+          "tableCaption": "Ozonlash tizimining qo'llanilishi natijalari",
+          "tableHeaders": [
+            "Ko'rsatkich",
+            "Qo'llanilishidan oldin",
+            "Qo'llanilishidan keyin",
+            "Ta'sir"
+          ],
+          "tableRows": [
+            [
+              "Chiqindi suv hajmi, m³/kun",
+              "5,000",
+              "5,000",
+              "—"
+            ],
+            [
+              "Kirish joyidagi OP kontsentratsiyasi, mg/L",
+              "25-40",
+              "25-40",
+              "—"
+            ],
+            [
+              "Chiqish joyidagi OP kontsentratsiyasi, mg/L",
+              "0.8-1.5",
+              "0.03-0.05",
+              "-96%"
+            ],
+            [
+              "Ekologik to'lovlar, million rub/yil",
+              "18.5",
+              "0.2",
+              "-99%"
+            ],
+            [
+              "Koagulyant sarflanishi, t/yil",
+              "120",
+              "0",
+              "-100%"
+            ],
+            [
+              "Cho'kma shakllashishi, t/yil",
+              "850",
+              "0",
+              "-100%"
+            ],
+            [
+              "Qaytarish davri",
+              "—",
+              "14 oy",
+              "—"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "title": "Food production",
+  "description": "Ozonation at food facilities ensures product safety, extends shelf life and meets HACCP requirements. An eco-friendly alternative to chemical preservatives.",
+  "subcategories": {
+    "cold-storage": {
+      "title": "Cold storage",
+      "shortDesc": "Disinfection and deodorization of cold stores",
+      "content": "Ozonation of cold rooms and warehouses is a proven technology for extending food shelf life and removing odors. It has major advantages over \"wet\" disinfection.\n\nTreatment can be done without warming the chamber or unloading product. At lower temperatures, ozonation is more effective. Chamber downtime is reduced by a factor of about 5 compared with traditional methods.\n\nFor empty chambers, 35–40 mg/m³ for 24 hours is recommended. For loaded chambers, 2–10 mg/m³ depending on product type. Ozone suppresses bacterial flora, prevents mold and removes musty odor.",
+      "benefits": [
+        "Treatment of loaded chambers",
+        "Operation at subzero temperatures",
+        "About 5× less downtime",
+        "Musty odor removal",
+        "Energy savings",
+        "No chemical residues"
+      ],
+      "stats": {
+        "downtimeReduction": {
+          "value": "5x",
+          "label": "Faster",
+          "description": "Reduction in chamber downtime for disinfection"
+        },
+        "emptyChamberConcentration": {
+          "value": "35-40",
+          "label": "mg/m³",
+          "description": "Concentration for empty chambers"
+        },
+        "emptyChamberTime": {
+          "value": "24",
+          "label": "hours",
+          "description": "Treatment time for empty chambers"
+        },
+        "noWarming": {
+          "value": "0",
+          "label": "Warming",
+          "description": "Treatment at low temperatures"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Disinfection and deodorization of cold storage facilities is one of the most important sanitary and hygienic measures aimed at preventing spoilage and quality degradation of stored food products. Ozonation has significant advantages over \"wet\" disinfection methods.",
+          "paragraph2": "Practice has shown that ozonation of cold storage chambers and warehouses allows extending product shelf life, removing unpleasant odors and preventing mold colony formation — all without warming the chamber or unloading products.",
+          "instructionTitle": "USSR Ministry of Trade Instruction 1973:",
+          "instructionText": "\"Disinfection and deodorization in cold storage facilities by ozonation\" — working ozone concentration for disinfection of empty chambers: 35-40 mg/m³, ozonation duration 24 hours."
+        },
+        "benefits": {
+          "title": "Advantages of cold storage ozonation",
+          "items": [
+            "Ability to disinfect chambers loaded with food products",
+            "Treatment without warming the chamber — effectiveness increases at low temperatures",
+            "Reduction of chamber downtime by 5 times compared to \"wet\" disinfection",
+            "Indispensable for combating musty odors in cold storage",
+            "Suppression of bacterial flora on walls, grates, hooks, pallets",
+            "Prevention of mold on storage walls, boxes and packaging",
+            "Energy savings — no need for repeated cooling",
+            "Minimal labor costs — automated process"
+          ]
+        },
+        "emptyChambers": {
+          "title": "Ozonation of empty chambers",
+          "intro": "Empty chambers are cleaned of snow, ice, product residues and visible mold colonies before ozonation. The snow \"coat\" must be removed. Chamber doors are tightly closed, and connecting air channels are blocked with dampers.",
+          "tableCaption": "Ozone decay periods after ozonator shutdown",
+          "tableHeaders": [
+            "Initial concentration",
+            "Final concentration",
+            "Time (up to 400 m³)",
+            "Time (over 400 m³)"
+          ],
+          "tableData": [
+            [
+              "40 mg/m³",
+              "20 mg/m³",
+              "0.4 hours",
+              "0.2 hours"
+            ],
+            [
+              "20 mg/m³",
+              "10 mg/m³",
+              "0.8 hours",
+              "0.4 hours"
+            ],
+            [
+              "10 mg/m³",
+              "5 mg/m³",
+              "1.2 hours",
+              "0.6 hours"
+            ],
+            [
+              "5 mg/m³",
+              "2.5 mg/m³",
+              "1.6 hours",
+              "0.8 hours"
+            ],
+            [
+              "2.5 mg/m³",
+              "0.1 mg/m³",
+              "3.6 hours",
+              "1.8 hours"
+            ]
+          ],
+          "warning": "For chambers heavily contaminated with mold and chambers with persistent odors, ozonation duration may be increased to 36, and in some cases — up to 48 hours."
+        },
+        "loadedChambers": {
+          "title": "Ozonation of loaded chambers",
+          "intro": "Based on foreign practice data and results of ozonation application at individual cold storage facilities, the following ozone concentrations are recommended for chambers loaded with products:",
+          "tableHeaders": [
+            "Product",
+            "Temperature",
+            "Concentration",
+            "Time",
+            "Frequency"
+          ],
+          "animalProductsTableCaption": "Recommended ozonation regimes for animal products",
+          "animalProductsTableData": [
+            [
+              "Chilled meat",
+              "-1...-4°C",
+              "8-10 mg/m³",
+              "4-5 h",
+              "Every other day"
+            ],
+            [
+              "Frozen meat",
+              "-18°C",
+              "10 mg/m³",
+              "3 h",
+              "Daily"
+            ],
+            [
+              "Poultry (chilled)",
+              "-1...-4°C",
+              "8-10 mg/m³",
+              "2-3 h",
+              "Daily"
+            ],
+            [
+              "Poultry (frozen)",
+              "-18°C",
+              "8-12 mg/m³",
+              "3 h",
+              "Daily"
+            ],
+            [
+              "Sausage products",
+              "+12°C",
+              "3-10 mg/m³",
+              "3-4 h",
+              "Every 2-3 days"
+            ],
+            [
+              "Cheeses",
+              "-4...+4°C",
+              "3-4 mg/m³",
+              "5-7 h",
+              "Every 2-3 days"
+            ],
+            [
+              "Eggs",
+              "-1.5...+0.5°C",
+              "3-6 mg/m³",
+              "3-5 h",
+              "As odor appears"
+            ]
+          ],
+          "vegetableProductsTableCaption": "Recommended ozonation regimes for fruits and vegetables",
+          "vegetableProductsTableData": [
+            [
+              "Potatoes",
+              "+2...+3°C",
+              "10-15 mg/m³",
+              "6 h",
+              "Every 10 days"
+            ],
+            [
+              "Carrots",
+              "0...-1°C",
+              "15-30 mg/m³",
+              "6 h",
+              "Every 8-10 days"
+            ],
+            [
+              "Apples",
+              "0...-2°C",
+              "1-3 mg/m³",
+              "0.5-2 h",
+              "Daily"
+            ],
+            [
+              "Onions",
+              "-1...-3°C",
+              "25-30 mg/m³",
+              "5-6 h",
+              "Every 3 days"
+            ],
+            [
+              "Grapes",
+              "0...-2°C",
+              "4-6 mg/m³",
+              "3 h",
+              "Daily"
+            ]
+          ]
+        },
+        "comparison": {
+          "title": "Comparison of cold storage chamber disinfection methods",
+          "headers": [
+            "Parameter",
+            "Ozonation",
+            "\"Wet\" disinfection"
+          ],
+          "rows": [
+            {
+              "parameter": "Product unloading",
+              "value1": "Not required",
+              "value2": "Required"
+            },
+            {
+              "parameter": "Chamber warming",
+              "value1": "Not required",
+              "value2": "Required"
+            },
+            {
+              "parameter": "Downtime",
+              "value1": "24 hours",
+              "value2": "5-7 days"
+            },
+            {
+              "parameter": "Energy consumption",
+              "value1": "Minimal",
+              "value2": "Significant"
+            },
+            {
+              "parameter": "Labor costs",
+              "value1": "Minimal",
+              "value2": "High"
+            },
+            {
+              "parameter": "Chemical residues",
+              "value1": "None",
+              "value2": "Rinsing required"
+            },
+            {
+              "parameter": "Hard-to-reach areas treatment",
+              "value1": "Complete",
+              "value2": "Difficult"
+            }
+          ]
+        },
+        "deodorization": {
+          "title": "Cold storage deodorization",
+          "paragraph1": "Ozonation is indispensable for combating musty odors that form in cold storage and freezer chambers. During deodorization, chambers are held after ozonator shutdown for 24 hours without ventilation — ozone fully decays to oxygen.",
+          "paragraph2": "Ozone oxidizes and destroys organic compounds that cause unpleasant odors. This allows using one chamber to store different types of products alternately without risk of odor transfer."
+        },
+        "organization": {
+          "title": "Ozonation process organization",
+          "intro": "In the ozonated chamber, the ozonator is installed in the middle of the chamber on a table approximately 1.2 m high. With two or three ozonators, they are placed at different points in the chamber for even ozone distribution. Air cooler fans are turned off.",
+          "recommendationTitle": "VNIKHI recommendation:",
+          "recommendationText": "To increase ozonation effectiveness after reaching working concentration, it is recommended to briefly turn on fans to mix the ozone-air mixture."
+        },
+        "advantages": {
+          "title": "Advantages for cold storage warehouses",
+          "feature1": {
+            "title": "Treatment of loaded chambers",
+            "description": "Disinfection without unloading products and stopping warehouse operations"
+          },
+          "feature2": {
+            "title": "Operation at subzero temperatures",
+            "description": "Ozonation effectiveness increases at low temperatures"
+          },
+          "feature3": {
+            "title": "Odor elimination",
+            "description": "Complete chamber deodorization without chemical agents"
+          },
+          "feature4": {
+            "title": "Resource savings",
+            "description": "5× reduction in downtime, energy and labor savings"
+          }
+        }
+      }
+    }
+  }
+}

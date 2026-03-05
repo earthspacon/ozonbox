@@ -1,0 +1,228 @@
+{
+  "title": "Food production",
+  "description": "Ozonation at food facilities ensures product safety, extends shelf life and meets HACCP requirements. An eco-friendly alternative to chemical preservatives.",
+  "subcategories": {
+    "meat-sausages": {
+      "title": "Meat and sausages",
+      "shortDesc": "Meat storage and sausage ripening chambers",
+      "content": "Ozonation is an effective disinfection method in meat production and storage. It is used to treat cold rooms, sausage ripening chambers and meat surfaces without changing sensory properties.\n\nFor chilled meat storage, ozonation at 8–10 mg/m³ for 4–5 hours every other day extends shelf life 2–5 times. Ozone destroys mesophilic and psychrotrophic microflora on carcass surfaces at 1–4°C.\n\nFor sausage ripening chambers, 3–8 mg/m³ with daily 3-hour treatment is recommended. Disinfection efficiency reaches 96–99% while preserving taste, aroma and texture.",
+      "benefits": [
+        "2–5 times longer meat shelf life",
+        "96–99% disinfection efficiency",
+        "Mold suppression on sausages",
+        "Preserved sensory properties",
+        "Operation at low temperatures",
+        "Eco-friendly — decay to oxygen"
+      ],
+      "stats": {
+        "shelfLife": {
+          "value": "2-5x",
+          "label": "Shelf life",
+          "description": "Extended shelf life of chilled meat"
+        },
+        "disinfection": {
+          "value": "96-99%",
+          "label": "Disinfection",
+          "description": "Efficiency of ripening chamber disinfection"
+        },
+        "concentration": {
+          "value": "3-8",
+          "label": "mg/m³ ozone",
+          "description": "Concentration for sausage ripening chambers"
+        },
+        "organoleptics": {
+          "value": "100%",
+          "label": "Organoleptics",
+          "description": "Preservation of taste, color and aroma"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "During sausage ripening and meat storage, bacteria, mold fungi and yeasts actively develop. This leads to product spoilage, taste changes, mass loss and reduced shelf life. Ozonation is an effective, eco-friendly and safe disinfection method.",
+          "paragraph2": "Ozone's disinfecting effect is 15-20 times stronger than chlorine, and approximately 300-600 times stronger against spore-forming bacteria. At the same time, ozone completely decays to oxygen, leaving no chemical residues on the product surface."
+        },
+        "instruction": {
+          "label": "USSR Ministry of Trade Instruction 1977:",
+          "text": "Ozonation is recommended for receiving, storing and releasing sausage products and smoked goods. The method allows disinfecting chambers together with loaded products."
+        },
+        "storage": {
+          "title": "Chilled meat storage",
+          "paragraph": "For chilled meat storage, ozonation at 8-10 mg/m³ ensures complete destruction of mesophilic and psychrotrophic microflora on carcass surfaces at 1-4°C. Chilled meat shelf life increases 2-5 times.",
+          "tableCaption": "Ozonation regimes for meat storage",
+          "tableHeaders": [
+            "Product",
+            "Temperature",
+            "Concentration",
+            "Treatment time",
+            "Frequency"
+          ],
+          "tableRows": [
+            [
+              "Chilled meat",
+              "-1...-4°C",
+              "8-10 mg/m³",
+              "4-5 hours",
+              "Every other day"
+            ],
+            [
+              "Frozen meat",
+              "-18°C",
+              "10 mg/m³",
+              "3 hours",
+              "Daily"
+            ],
+            [
+              "Poultry (chilled)",
+              "-1...-4°C",
+              "8-10 mg/m³",
+              "2-3 hours",
+              "Daily"
+            ],
+            [
+              "Poultry (frozen)",
+              "-18°C",
+              "8-12 mg/m³",
+              "3 hours",
+              "Daily"
+            ],
+            [
+              "Offal",
+              "-1...-4°C",
+              "8-10 mg/m³",
+              "3-4 hours",
+              "Daily"
+            ]
+          ]
+        },
+        "ripeningChambers": {
+          "title": "Sausage ripening chambers",
+          "paragraph": "In ripening chambers for dry-cured and air-dried sausages, ozone suppresses development of slimy and mold deposits, preventing off-odors. At moderate concentration, ozone does not cause discoloration of casing or filling.",
+          "tableCaption": "Ozonation regimes for sausage ripening chambers",
+          "tableHeaders": [
+            "Sausage type",
+            "Concentration",
+            "Treatment time",
+            "Temperature",
+            "Efficiency"
+          ],
+          "tableRows": [
+            [
+              "Dry-cured",
+              "3-8 mg/m³",
+              "3 hours",
+              "+12...+14°C",
+              "96-99%"
+            ],
+            [
+              "Cooked-smoked",
+              "3-7 mg/m³",
+              "2 hours",
+              "+10...+12°C",
+              "95-98%"
+            ],
+            [
+              "Air-dried",
+              "5-10 mg/m³",
+              "2-3 hours",
+              "+10...+15°C",
+              "96-99%"
+            ],
+            [
+              "Semi-smoked",
+              "3-6 mg/m³",
+              "2 hours",
+              "+10...+12°C",
+              "95-98%"
+            ]
+          ],
+          "recommendedMode": {
+            "label": "Recommended regime:",
+            "text": "Daily treatment for 1-3 hours. During treatment, no personnel should be in the chamber. Ozonator capacity: 1 g/hour per 20-25 m³ chamber volume."
+          }
+        },
+        "benefits": {
+          "title": "Benefits of ozonation",
+          "items": [
+            "Product surface disinfection — destruction of bacteria, mold spores and yeasts",
+            "Preservation of organoleptic properties — does not change taste and aroma, prevents bitterness",
+            "Reduced mass loss — decreases shrinkage through microflora stabilization",
+            "Chamber disinfection together with products — treatment possible with full load",
+            "Time and cost savings — reduced frequency of manual sanitation",
+            "Automation — timer-based treatment without personnel involvement"
+          ]
+        },
+        "comparison": {
+          "title": "Comparison of ripening chamber disinfection methods",
+          "headers": [
+            "Parameter",
+            "Ozonation",
+            "Traditional treatment"
+          ],
+          "rows": [
+            {
+              "parameter": "Product unloading",
+              "value1": "Not required",
+              "value2": "Required"
+            },
+            {
+              "parameter": "Chemical residues",
+              "value1": "None",
+              "value2": "Rinsing required"
+            },
+            {
+              "parameter": "Hard-to-reach areas",
+              "value1": "Treated with gas",
+              "value2": "Inaccessible"
+            },
+            {
+              "parameter": "Downtime",
+              "value1": "1-3 hours/day",
+              "value2": "24-48 hours"
+            },
+            {
+              "parameter": "Effect on product",
+              "value1": "None",
+              "value2": "Possible"
+            },
+            {
+              "parameter": "Automation",
+              "value1": "Full",
+              "value2": "Manual work"
+            }
+          ]
+        },
+        "regulations": {
+          "title": "Regulatory framework",
+          "paragraph": "Use of ozone for meat product disinfection is regulated by a number of regulatory documents from the Soviet period:",
+          "items": [
+            "1973 — Instruction \"Disinfection and deodorization in cold storage facilities by ozonation\" (USSR Ministry of Trade)",
+            "1977 — Instruction on receiving, storing and releasing sausage products and smoked goods",
+            "1998 — Ozone added to list of disinfectants (reg. No. 0039-98/21, Russian Ministry of Health)",
+            "SanPiN 2.3.4.545-96 — Sausage production"
+          ]
+        },
+        "features": {
+          "title": "Benefits for meat processing plants",
+          "items": [
+            {
+              "title": "Extended shelf life",
+              "description": "2-5 times longer chilled meat shelf life without freezing"
+            },
+            {
+              "title": "Mold suppression",
+              "description": "96-99% efficiency against mold fungi on sausages"
+            },
+            {
+              "title": "Eco-friendliness",
+              "description": "Complete ozone decay to oxygen without chemical residues"
+            },
+            {
+              "title": "Production continuity",
+              "description": "Treatment without unloading products and stopping the process"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

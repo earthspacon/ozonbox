@@ -1,0 +1,214 @@
+{
+  "title": "Qishloq xo'jaligi",
+  "description": "Qishloq xo'jaligida ozonlash hosildorlikni oshiradi, mahsulotlarning saqlash muddatini uzaytiradi va bioxavfsizlikni ta'minlaydi. Kimyoviy pestitsidlar va konservantlarga ekologik toza muqobil.",
+  "subcategories": {
+    "vegetable-storage": {
+      "title": "Sabzavotlarni saqlash",
+      "shortDesc": "Uzoq muddatli saqlashda sabzavot va mevalarning nobud bo'lishini kamaytirish",
+      "content": "Sabzavot omborlarini ozonlash — uzoq muddatli saqlash paytida nobud bo'lishni kamaytirishning samarali usuli. Ozon havo va yuzalarni tez va yaxshilab dezinfeksiya qiladi, viruslar, bakteriyalar, zamburug'lar va mog'orni yo'q qiladi.\n\nOzon pishishni tezlashtiradigan va saqlash muddatini qisqartiradigan etilenni parchalaydi. Bu etilenga sezgir mahsulotlarni etilen ishlab chiqaradigan mahsulotlar bilan birga saqlash imkonini beradi.\n\n300 tonnalik sabzavot ombori uchun ozonlash uskunasi nobud bo'lishni o'rtacha 3 baravar kamaytirishi mumkin.\n\nKo'pgina sabzavot va mevalar uchun ishlov berish rejimi: kuniga 1–2 marta 2–4 soat davomida. Kartoshka, karam, olma va boshqa ekinlar uchun maxsus rejimlar qo'llaniladi.",
+      "stats": {
+        "storageExtension": {
+          "value": "1.5–2×",
+          "label": "Saqlash muddatini uzaytirish",
+          "description": "Mahsulotni saqlash muddatini uzaytirish"
+        },
+        "moldReduction": {
+          "value": "90%",
+          "label": "Mog'orni kamaytirish",
+          "description": "Zamburug' sporalarini yo'q qilish"
+        },
+        "lossReduction": {
+          "value": "30–50%",
+          "label": "Nobud bo'lishni kamaytirish",
+          "description": "Mahsulot buzilishini kamaytirish"
+        },
+        "noChemicals": {
+          "value": "0",
+          "label": "Kimyoviy moddalar",
+          "description": "Konservantlar va fungitsidlarsiz"
+        }
+      },
+      "benefits": [
+        "Nobud bo'lish taxminan 3 baravar kamayadi",
+        "Mog'or va chirishni yo'q qilish",
+        "Uzoqroq saqlash uchun etilenni parchalash",
+        "Mog'or sporalarining unib chiqishini bostirish",
+        "Salbiy haroratlarda ishlash",
+        "Birinchi mavsumda xarajatlarni qoplash"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Sabzavot va mevalarni saqlashdagi nobud bo'lish umumiy hajmning 20 dan 40% gacha yetadi. Asosiy sabablar — mog'or rivojlanishi, bakterial chirish, muddatidan oldin unib chiqish va so'lish. Ozonlash ushbu muammolarni kompleks hal qiladi va saqlash muddatini kimyoviy moddalarsiz 1,5–2 baravar uzaytiradi.",
+          "paragraph2": "Fungitsidlar va konservantlardan farqli o'laroq, ozon mahsulotlarda to'planmaydi va kislorodga parchalanadi. Bu organik dehqonchilik va ekologik toza oziq-ovqat mahsulotlarini ishlab chiqarish uchun juda muhimdir."
+        },
+        "principle": {
+          "title": "Ishlash prinsipi:",
+          "text": "Ozon sabzavot yuzalaridagi va ombor havosidagi mog'or, achitqi va bakteriyalarni yo'q qiladi. Shuningdek, u mevalarning pishishi va qarishini tezlashtiradigan gaz — etilenni parchalaydi."
+        },
+        "efficiency": {
+          "title": "Sabzavotlarni ozonlash samaradorligi",
+          "tableCaption": "Ozonlash bilan saqlash muddatini uzaytirish",
+          "tableHeaders": [
+            "Ekin",
+            "Ozonsiz",
+            "Ozon bilan",
+            "O'sish"
+          ],
+          "tableData": [
+            [
+              "Kartoshka",
+              "4–5 oy",
+              "6–7.5 oy",
+              "+2.5 oy"
+            ],
+            [
+              "Sabzi",
+              "4–6 oy",
+              "7–9 oy",
+              "+3 oy"
+            ],
+            [
+              "Karam",
+              "4–5 oy",
+              "6–8 oy",
+              "+2–3 oy"
+            ],
+            [
+              "Piyoz",
+              "5–6 oy",
+              "8–9 oy",
+              "+3 oy"
+            ],
+            [
+              "Lavlagi",
+              "5–6 oy",
+              "8–9 oy",
+              "+3 oy"
+            ],
+            [
+              "Olma",
+              "4–6 oy",
+              "7–9 oy",
+              "+3 oy"
+            ]
+          ]
+        },
+        "diseases": {
+          "title": "Saqlash kasalliklariga qarshi kurash",
+          "intro": "Sabzavotlarning asosiy saqlash kasalliklari zamburug'lar va bakteriyalar tomonidan chaqiriladi. Ozon barcha asosiy patogenlarga qarshi samaralidir:",
+          "items": [
+            "Kartoshka fitoftorozi — infeksiyani 60–80% ga kamaytirish",
+            "Kulrang chirish (Botrytis) — sporani 95% yo'q qilish",
+            "Nam chirish — bakterial rivojlanishni bostirish",
+            "Fuzarioz — infeksiyani 70% ga kamaytirish",
+            "Meva penitsillozi — sporani 90% yo'q qilish",
+            "Sabzi qora chirishi — rivojlanishining oldini olish"
+          ],
+          "highlight": "Muntazam ozonlash (kuniga 2–3 mg/m³, 4–6 soat) bilan kartoshka fitoftorozi infeksiyasi 15–20% dan 3–5% gacha kamayadi va hosilning 30% gacha qismini saqlab qoladi."
+        },
+        "modes": {
+          "title": "Sabzavot omborlarini ozonlash rejimlari",
+          "tableCaption": "Tavsiya etilgan ishlov berish rejimlari",
+          "tableHeaders": [
+            "Ekin",
+            "Kontsentratsiya",
+            "Ishlov berish vaqti",
+            "Davriyligi"
+          ],
+          "tableData": [
+            [
+              "Kartoshka",
+              "2–5 mg/m³",
+              "4–6 soat",
+              "Har kuni"
+            ],
+            [
+              "Sabzi",
+              "3–5 mg/m³",
+              "4–8 soat",
+              "Har kuni"
+            ],
+            [
+              "Karam",
+              "3–5 mg/m³",
+              "4–6 soat",
+              "Har kuni"
+            ],
+            [
+              "Piyoz",
+              "5–10 mg/m³",
+              "2–4 soat",
+              "Haftada 2–3 marta"
+            ],
+            [
+              "Olma",
+              "2–3 mg/m³",
+              "4–6 soat",
+              "Har kuni"
+            ],
+            [
+              "Sitrus mevalar",
+              "3–5 mg/m³",
+              "4–6 soat",
+              "Har kuni"
+            ]
+          ],
+          "note": "Shuni hisobga olish kerakki, ozonlash rejimi harorat, namlik va mahsulot holatiga bog'liq. Yuqori namlikda (95% dan yuqori) ozon samaradorligi oshadi."
+        },
+        "additionalEffects": {
+          "title": "Ozonlashning qo'shimcha effektlari",
+          "items": [
+            {
+              "title": "Hidlarni yo'q qilish",
+              "description": "Ozon ombordagi chirish, mog'or va kimyoviy hidlarni neytrallaydi"
+            },
+            {
+              "title": "Unib chiqishni bostirish",
+              "description": "Kartoshka va piyozning kimyoviy ingibitorlarsiz unib chiqishini sekinlashtirish"
+            },
+            {
+              "title": "Etilenni parchalash",
+              "description": "Etilen oksidlanishi mevalarning pishishi va qarishini sekinlashtiradi"
+            },
+            {
+              "title": "Dezinseksiya",
+              "description": "Ombordagi zararli hasharotlar va ularning lichinkalarini yo'q qilish"
+            }
+          ]
+        },
+        "economic": {
+          "title": "Iqtisodiy samaradorlik",
+          "intro": "Sabzavot omborlarida ozonlashni joriy etish sezilarli iqtisodiy foyda keltiradi:",
+          "highlight": "1000 tonnalik sabzavot omborini ozonlash uskunasi nobud bo'lishni kamaytirish va yuqori sotuv narxlari hisobiga 1–2 saqlash mavsumida o'zini oqlaydi.",
+          "tableHeaders": [
+            "Ko'rsatkich",
+            "Ozon bilan",
+            "Ozonsiz"
+          ],
+          "tableData": [
+            [
+              "Kartoshka saqlashdagi nobud bo'lish",
+              "5–8%",
+              "15–25%"
+            ],
+            [
+              "Sabzi saqlashdagi nobud bo'lish",
+              "8–12%",
+              "25–35%"
+            ],
+            [
+              "Fungitsidlar xarajatlari",
+              "0",
+              "15–20 rub/t"
+            ],
+            [
+              "Mavsum oxiridagi savdo",
+              "Yuqori narxda",
+              "Chegirma bilan (sifat yomonlashishi)"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

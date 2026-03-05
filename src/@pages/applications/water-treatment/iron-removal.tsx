@@ -3,7 +3,7 @@ import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { getSubcategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
 import {
   ArticleHero,
   ArticleSection,
@@ -29,7 +29,7 @@ interface IronRemovalPageProps {
 
 export function IronRemovalPage({ staticData, lang }: IronRemovalPageProps) {
   const { t } = useTranslate()
-  const ns = getCategoryNamespace('water-treatment')
+  const ns = getSubcategoryNamespace('water-treatment', 'iron-removal')
 
   const categoryData = (staticData as any)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.['iron-removal']

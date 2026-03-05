@@ -1,0 +1,245 @@
+{
+  "title": "Dezinfeksiya",
+  "description": "Ozonlash ta'minovchi binolar va transportni chuqur dezinfeksiya qiladi, bakteriyalarni, viruslarni, zamburug'larni va sporalarni yo'q qiladi, kimyoviy qoldiqsiz. Gaz barcha qiyin-erishiladigan joylarni kirib boradi.",
+  "subcategories": {
+    "offices": {
+      "title": "Ofis binolari",
+      "shortDesc": "Viruslardan salomatli ish muhiti",
+      "content": "Ofis kompaniyaning yuzi. Ifloslangan havo va noxush hidlar ishchilarni zararlab, ish unumdorlik va loyalligini kamaytirib, kompaniyaning tasviri va hamkorlari bilan munosabatlariga salbiy ta'sir ko'rsatadi.\n\nKo'pchilik binolarda havoda toksik moddalarning konsentratsiyasi tashqarida 2-5 marta yuqori. Benzol, formaldegid va ammiak mebeldan, kovradan, ofis jihozlari va tamomlardan chiqadi. Ozonlash bu ifloslantiruvchilarni samarali zaiflashtiradi.\n\nOzon barcha ishchilar va tashrif buyuruvchilar tegadigan sirtlarni dezinfeksiya qiladi: ish stoqlari, stul quloqlari, ofis jihozlari, kofe mashinalar. U sirtlar orqali viruslarni uzatishni kamaytiradi, hidlarni yo'q qiladi va havoyi yangilaydi.\n\nDavomi tungi vaqtda taymer bilan o'tkaziladi. 1-2 soat ozonlash odatda etarli. Ozon generatori quvvati: xona hajmiga qarab 25 m³ uchun soatiga 1 g. Ishchilar kelguniga keyin, ozon dispersiya bo'ladi, yengil yangi hid qoladi.",
+      "benefits": [
+        "Infeksiyaning tarqalishini oldini olish",
+        "Havoda toksik moddalarni neytral qilish",
+        "Ish sirtlarining dezinfeksiyasi",
+        "Avtomatik tungi davomi",
+        "Ishchilarning unumdorlik oshishi",
+        "Kompaniyaning yaxshi tasviri"
+      ],
+      "stats": {
+        "pollution": {
+          "value": "2-5x",
+          "label": "Ifloslanimligi",
+          "description": "Ofis havosi tashqari havoga nisbatan iflosliroq"
+        },
+        "sickLeave": {
+          "value": "-40%",
+          "label": "Bemorlik ta'tili",
+          "description": "Ishchi kasalliklarining kamayishi"
+        },
+        "treatment": {
+          "value": "1-2 h",
+          "label": "Davomi",
+          "description": "To'liq dezinfeksiya uchun etarli"
+        },
+        "residues": {
+          "value": "0",
+          "label": "Qoldiq",
+          "description": "Davomi keyin kimyoviy moddalar"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Ofis kompaniyaning yuzi. Ifloslangan havo va noxush hidlar ishchilarni zararlab, ish unumdorlik va loyalligini kamaytirib, kompaniyaning tasviri va hamkorlari bilan munosabatlariga salbiy ta'sir ko'rsatadi.",
+          "text2": "Olimlar topdilar-ki, ko'pchilik binolarda havoda zararli va toksik kimyoviy moddalarning konsentratsiyasi tashqarida 2-5 marta yuqori. Ba'zi ofiislarda ichki havo ifloslanimligi ba'zi toksik moddalar uchun tashqarida 70 marta yuqori bo'ladi."
+        },
+        "highlight1": {
+          "title": "Ofis havosi ifloslanimligi manbalari:",
+          "text": "benzol, formaldegid va ammiak mebeldan, kovradan, ofis jihozlari va tamomlardan chiqadi. An'anaviy ventilatsiya va konditsionerlash havayi tabiiy yangiligini yo'q qiladi."
+        },
+        "airQuality": {
+          "title": "Ofiislarda havo sifatining muammosi",
+          "text": "Havo konditsionerlash va isitish tizimlarida o'tgach o'z 'yangiligini' yo'qotadi. Natijada ozon va ion darajalari 90% kamayadi. Bu tabiiy havo komponentlarining kamayishi ko'p hollarda doimiy bosh og'rishi, zaiflik va yomon farovonlik — 'bemorli binosi sindromi' xosil qiladi.",
+          "items": [
+            "Benzol — bo'yoq, kover, parda va mebel obivkasidan",
+            "Ammiak — tutun va tozalash vositalaridan",
+            "Formaldegid — laminat, mebel, chipbord va ofis bo'linmalaridan",
+            "Trikloroetilen — bo'yoq, elim, mebel va devor qoplamasidan",
+            "Xloroform — bo'yoq, kover va pardalardan"
+          ]
+        },
+        "effectiveness": {
+          "title": "Ozonlashning samaradorligi",
+          "text": "Tadqiqotlar ko'rsatadiki, havoga 15 milliardga ozon (0,03 mg/m³) qo'shilsa, yangi havoda ikki soat yurgan kabi ta'sir beradi. Ishchilar immunitet tizimini kuchaytirildi, qon kislorodi darajalari oshdi va qon bosimi yaxshilandi.",
+          "tableHeaders": [
+            "Ko'rsatgich",
+            "Ozonlashdan oldin",
+            "Ozonlashdan keyin"
+          ],
+          "tableCaption": "Ofiislarda ozonlash ta'sirining tadqiqot natijalari",
+          "tableData": [
+            [
+              "Bosh og'rish chastotasi",
+              "Tez-tez",
+              "Nadirdir"
+            ],
+            [
+              "Ish qobiliyati",
+              "70%",
+              "100%"
+            ],
+            [
+              "Diqqat kontsentratsiyasi",
+              "Pasaygan",
+              "Normal"
+            ],
+            [
+              "ARK kasalliklari",
+              "Har mavsumda 15-20%",
+              "Har mavsumda 8-10%"
+            ],
+            [
+              "Muhit qoniqish",
+              "45%",
+              "89%"
+            ]
+          ]
+        },
+        "whatDisinfects": {
+          "title": "Ozon ofisda nima dezinfeksiya qiladi",
+          "text": "Ozon barcha ishchilar va tashrif buyuruvchilar tegadigan sirtlarni dezinfeksiya qiladi. Gaz chuqur bo'lmalarni va jihozning orqasi, ventilatsiya tizimidagi qiyin erishiladigan joylarni kirib boradi.",
+          "items": [
+            "Ish stoqlari va hisob-kitoblar",
+            "Stul va o'rindiqlar quloqlari",
+            "Klaviatura, sichqon, telefonlar",
+            "Eshik tutgichlari va qo'l yog'diri",
+            "Ofis jihozlari va kofe mashinalar",
+            "Yig'ilish xonalari va kovorking joylar",
+            "Ventilatsiya va konditsionerlash tizimlar"
+          ]
+        },
+        "treatmentMode": {
+          "title": "Ofis davomi rejimi",
+          "text": "Ofis va kovorking bo'lmalarning ozonlashi tungi vaqtda o'tkaziladi. Jihozlar taymer bilan avtomatik ishlaydi. Ishchilar kelguniga keyin, ozon dispersiya bo'ladi va yengil yangi hid qoladi.",
+          "steps": [
+            {
+              "title": "Xonani tayyorlash",
+              "description": "Barcha oynalar va eshiklarni yoping. Ta'minlovchi ventilatsiyani o'chiring. Xonada hechkim yo'q-ligini ta'minlang."
+            },
+            {
+              "title": "Ozonlashtirgichni boshlash",
+              "description": "Ozonlashtirgichni xona hajmiga qarab 40-120 daqiqa uchun yoqing. Quvvat: 25 m³ xona uchun soatiga 1 g."
+            },
+            {
+              "title": "Ekspozitsiya",
+              "description": "Ozon xona bo'ylab tarqalib, barcha chuqur bo'lmalar va uzoq burchaklarni kirib boradi. Konsentratsiya kerakli darajaga erishadi."
+            },
+            {
+              "title": "Ventilatsiya",
+              "description": "Davomi tugagach 2-3 soat keyin ozon xavfsiz darajaga tushadi. Faol ventilatsiya talab qilinmaydi."
+            }
+          ],
+          "tableHeaders": [
+            "Xona turi",
+            "Hajmi",
+            "Quvvat",
+            "Davomi"
+          ],
+          "tableCaption": "Ofiislarga tavsiya etilgan ozonlash rejimlar",
+          "tableData": [
+            [
+              "Ofis",
+              "50 m³ gacha",
+              "2-3 g/h",
+              "60 min"
+            ],
+            [
+              "Ochiq makon",
+              "100-300 m³",
+              "5-10 g/h",
+              "90 min"
+            ],
+            [
+              "Yig'ilish xonasi",
+              "30-50 m³",
+              "2 g/h",
+              "40 min"
+            ],
+            [
+              "Kovorking",
+              "200-500 m³",
+              "10-20 g/h",
+              "120 min"
+            ]
+          ]
+        },
+        "comparison": {
+          "title": "Havo tozalash usullarining taqqoslashi",
+          "headers": [
+            "Parametr",
+            "Ozonlash",
+            "Kimyoviy tozalash"
+          ],
+          "rows": [
+            {
+              "parameter": "Havo dezinfeksiyasi",
+              "value1": "Ha",
+              "value2": "Yo'q"
+            },
+            {
+              "parameter": "Qiyin erishiladigan joylar",
+              "value1": "Ha (gaz hamma yerga kirib boradi)",
+              "value2": "Yo'q"
+            },
+            {
+              "parameter": "Toksik moddalarni neytral qilish",
+              "value1": "Ha",
+              "value2": "Yo'q"
+            },
+            {
+              "parameter": "Hid yo'q qilish",
+              "value1": "To'liq",
+              "value2": "Niqob qilish"
+            },
+            {
+              "parameter": "Kimyoviy qoldiq",
+              "value1": "Yo'q (O₂ ga parchalanadi)",
+              "value2": "Ha"
+            },
+            {
+              "parameter": "Tiklanish vaqti",
+              "value1": "2-3 soat",
+              "value2": "Darhol"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Ishchilar uchun foyda",
+          "features": [
+            {
+              "title": "Bemorlik ta'tilining kamayishi",
+              "description": "Grip mavsumida ishchi kasalliklarining 30-40% kamayishi"
+            },
+            {
+              "title": "Unumiyligi oshishi",
+              "description": "Toza hava diqqat va ish qobiliyatini yaxshilaydi"
+            },
+            {
+              "title": "Kompaniya tasviri",
+              "description": "Ishchilar sog'lig'iga e'tibor korporativ madaniyatining bir qismi"
+            },
+            {
+              "title": "Avtomatsiya",
+              "description": "Taymer bilan ishchilar ishtirokisiz tungi davomi"
+            }
+          ]
+        },
+        "toiletOdor": {
+          "title": "Tualet hidini yo'q qilish",
+          "text": "Tualet hidi ofis binolarida eng odatiy muammolardan biri. Sabablar turli bo'lishi mumkin: oqimdan chiqib ketgan to'rttik ulanishlari, ventilatsiya 'teskari oqishi', mocha kislotasi toshi hosil bo'lishi.",
+          "highlight": {
+            "text": "Tualet hidini yo'q qilish uchun, 24/7 ozonlash uchun 0,5 g/h quvvatga yoki tungi davomi uchun 5 g/h quvvatga ozonlashtirgichni o'rnating. Ozon hid organik moddalarni oddiy hidsiz moddalarni ajratib chiqaradi."
+          }
+        },
+        "safety": {
+          "title": "Xavfsizlik talablari",
+          "items": [
+            "Davomi odamlar yo'q vaqtida o'tkaziladi",
+            "Ozon MPC ish zonasida — 0,1 mg/m³",
+            "Tungi davomi keyin ventilatsiya talab qilinmaydi",
+            "Davomi keyin xonani ochgan ishchilar respirator ishlatasdi",
+            "Jihozlar taymer bilan avtomatik ishlaydi"
+          ]
+        }
+      }
+    }
+  }
+}

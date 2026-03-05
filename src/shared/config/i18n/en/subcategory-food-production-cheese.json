@@ -1,0 +1,263 @@
+{
+  "title": "Food production",
+  "description": "Ozonation at food facilities ensures product safety, extends shelf life and meets HACCP requirements. An eco-friendly alternative to chemical preservatives.",
+  "subcategories": {
+    "cheese": {
+      "title": "Cheese production",
+      "shortDesc": "Ripening and storage of cheese without mold",
+      "content": "In cheese production, ozonation addresses the key issue of preventing unwanted mold on cheese surfaces during ripening and storage. The technology controls chamber microflora without affecting the ripening process.\n\nFor hard cheeses, 2–4 mg/m³ ozone is recommended; for soft cheeses, 3–6 mg/m³ at 8–12°C and 85–90% humidity. Treatment for 1.5–2 hours gives 94–99% disinfection efficiency.\n\nOzone prevents mold on the rind without disrupting ripening biochemistry. At correct dosage it does not affect color, consistency or taste. Ozonation has been recommended for hard cheese storage in industry guidelines.",
+      "benefits": [
+        "95–99% mold prevention",
+        "Ripening process preserved",
+        "Reduced product shrinkage",
+        "Treatment without unloading cheese",
+        "Compliance with cheese standards",
+        "Disinfection process automation"
+      ],
+      "stats": {
+        "efficiency": {
+          "value": "95-99%",
+          "label": "Efficiency",
+          "description": "Prevention of unwanted mold"
+        },
+        "concentration": {
+          "value": "2-6",
+          "label": "mg/m³ ozone",
+          "description": "Concentration for cheese ripening chambers"
+        },
+        "tastePreservation": {
+          "value": "100%",
+          "label": "Taste preservation",
+          "description": "Does not affect the ripening process"
+        },
+        "instructionYear": {
+          "value": "1975",
+          "label": "Instruction year",
+          "description": "Ozonation for cheese storage in the USSR"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "In cheese production, ozonation addresses the key issue of preventing unwanted mold on cheese surfaces during ripening and storage. The technology controls chamber microflora without affecting the biochemical ripening processes.",
+          "paragraph2": "Ozone prevents mold development on the cheese rind without disrupting the balance of beneficial microflora inside the cheese head. At correct dosage, ozone does not affect the color, consistency, taste, or aroma of the finished product."
+        },
+        "instruction": {
+          "label": "Temporary instruction of the RSFSR Ministry of Trade, 1975:",
+          "text": "Ozonation is recommended for storing hard rennet cheeses. The method allows controlling mold on the cheese surface without using chemical preservatives."
+        },
+        "regimes": {
+          "title": "Ozonation regimes for different cheese types",
+          "tableCaption": "Recommended treatment regimes for cheese ripening chambers",
+          "tableHeaders": [
+            "Cheese type",
+            "Concentration",
+            "Treatment time",
+            "Temperature",
+            "Efficiency"
+          ],
+          "tableRows": [
+            [
+              "Hard cheeses",
+              "2-4 mg/m³",
+              "2 hours",
+              "+10...+12°C",
+              "95-99%"
+            ],
+            [
+              "Soft cheeses",
+              "3-6 mg/m³",
+              "1.5 hours",
+              "+8...+10°C",
+              "94-98%"
+            ],
+            [
+              "Semi-hard cheeses",
+              "2-4 mg/m³",
+              "1.5-2 hours",
+              "+10...+12°C",
+              "95-98%"
+            ],
+            [
+              "Brine cheeses",
+              "2-3 mg/m³",
+              "1 hour",
+              "+6...+8°C",
+              "94-97%"
+            ],
+            [
+              "Mold-ripened cheeses",
+              "1-2 mg/m³",
+              "30 minutes",
+              "+8...+10°C",
+              "90-95%"
+            ]
+          ],
+          "warningLabel": "Important for noble mold cheeses:",
+          "warningText": "For cheeses like Camembert, Brie, and Roquefort, a gentle ozonation regime (1-2 mg/m³, 30 minutes) is required to control unwanted mold without damaging the cultured mold."
+        },
+        "benefits": {
+          "title": "Benefits of ozonation in cheese production",
+          "items": [
+            "Prevention of unwanted mold development on the cheese rind",
+            "Preservation of the ripening process — ozone does not penetrate inside the cheese head",
+            "Reduced product shrinkage due to microflora stabilization",
+            "Treatment without unloading cheese from the ripening chamber",
+            "Compliance with GOST R 54607-2011 \"Cheeses. General technical specifications\"",
+            "Automation of disinfection process on a scheduled basis"
+          ]
+        },
+        "impact": {
+          "title": "Effect of ozone on the product",
+          "paragraph": "Research shows that ozone suppresses microflora growth on cheese surfaces while preserving their organoleptic properties — taste, aroma, texture, and color. The bactericidal effect is particularly pronounced under conditions of high humidity (70-90%) and moderate temperatures (+8...+14°C), typical of ripening chambers.",
+          "tableCaption": "Cheese ripening conditions and ozonation parameters",
+          "tableHeaders": [
+            "Parameter",
+            "Hard cheeses",
+            "Soft cheeses",
+            "Optimum for ozone"
+          ],
+          "tableRows": [
+            [
+              "Temperature",
+              "+10...+14°C",
+              "+8...+12°C",
+              "+8...+14°C"
+            ],
+            [
+              "Humidity",
+              "80-90%",
+              "85-95%",
+              "70-90%"
+            ],
+            [
+              "Ripening time",
+              "2-12 months",
+              "2-6 weeks",
+              "Any"
+            ],
+            [
+              "O₃ concentration",
+              "2-4 mg/m³",
+              "3-6 mg/m³",
+              "2-6 mg/m³"
+            ],
+            [
+              "Frequency",
+              "Every 2-3 days",
+              "Daily",
+              "By schedule"
+            ]
+          ]
+        },
+        "comparison": {
+          "title": "Comparison of mold control methods for cheeses",
+          "headers": [
+            "Parameter",
+            "Ozonation",
+            "Wax/paraffin coating"
+          ],
+          "rows": [
+            {
+              "parameter": "Mold protection",
+              "value1": "95-99%",
+              "value2": "80-90%"
+            },
+            {
+              "parameter": "Effect on taste",
+              "value1": "None",
+              "value2": "Possible"
+            },
+            {
+              "parameter": "Breathable rind",
+              "value1": "Preserved",
+              "value2": "Blocked"
+            },
+            {
+              "parameter": "Additional costs",
+              "value1": "Minimal",
+              "value2": "For materials"
+            },
+            {
+              "parameter": "Manual labor",
+              "value1": "Not required",
+              "value2": "Required"
+            },
+            {
+              "parameter": "Eco-friendliness",
+              "value1": "Complete",
+              "value2": "Wax waste"
+            }
+          ]
+        },
+        "chamberTreatment": {
+          "title": "Ripening chamber treatment",
+          "paragraph": "For stationary ripening chambers, wall-mounted or ducted ozonators with automatic control are recommended. Ozone is distributed evenly throughout the chamber volume, penetrating hard-to-reach areas including racks and shelves.",
+          "tableCaption": "Example treatment regime for cheese ripening chamber (50 m³ volume)",
+          "tableHeaders": [
+            "Parameter",
+            "Value",
+            "Note"
+          ],
+          "tableRows": [
+            [
+              "Ozonator capacity",
+              "2-3 g/hour",
+              "1 g/hour per 15-20 m³"
+            ],
+            [
+              "Ozone concentration",
+              "3-4 mg/m³",
+              "For hard cheeses"
+            ],
+            [
+              "Operating time",
+              "1.5-2 hours",
+              "Daily or every other day"
+            ],
+            [
+              "Chamber humidity",
+              "85-90%",
+              "Optimum for ozone"
+            ],
+            [
+              "Efficiency",
+              "95-99%",
+              "Mold destruction"
+            ]
+          ],
+          "successText": "Regular ozonation of ripening chambers (1-2 times per day for 1.5-2 hours) allows eliminating manual cheese wiping and reducing chamber maintenance labor costs by 70-80%."
+        },
+        "regulations": {
+          "title": "Regulatory documentation",
+          "items": [
+            "GOST R 54607-2011 — Cheeses. General technical specifications",
+            "Temporary instruction on ozonation of hard rennet cheese storage chambers (1975)",
+            "Methodological recommendations on the use of ozone as a disinfectant (1976)",
+            "SanPiN 2.3.4.545-96 — Milk and dairy products production"
+          ]
+        },
+        "features": {
+          "title": "Benefits for cheese production",
+          "items": [
+            {
+              "title": "Mold control",
+              "description": "95-99% prevention of unwanted mold without affecting ripening"
+            },
+            {
+              "title": "Quality preservation",
+              "description": "Cheese taste, aroma, and texture remain unchanged"
+            },
+            {
+              "title": "Reduced shrinkage",
+              "description": "Microflora stabilization reduces mass losses during ripening"
+            },
+            {
+              "title": "Automation",
+              "description": "Scheduled treatment without staff involvement"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

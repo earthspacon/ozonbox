@@ -1,0 +1,300 @@
+{
+  "title": "Dezinfeksiya",
+  "description": "Ozonlash ta'minovchi binolar va transportni chuqur dezinfeksiya qiladi, bakteriyalarni, viruslarni, zamburug'larni va sporalarni yo'q qiladi, kimyoviy qoldiqsiz. Gaz barcha qiyin-erishiladigan joylarni kirib boradi.",
+  "subcategories": {
+    "sports-facilities": {
+      "title": "Sport zallari",
+      "shortDesc": "Zallar va loker xonalarining dezinfeksiyasi",
+      "content": "Sport zallar, fitnes markazlar va loker xonalari infeksiya tarqalishi va maxsus hidlar uchun yuqori xavf. Ozonlash ikkala muammoni hal qiladi: jihoz dezinfeksiya qiladi va ter hidini yo'q qiladi.\n\nOzon bakteriyalar, viruslar, ko'k, zamburug'lar va parazit protozoalarni jihoz, turn, stol va mat'lardan yo'q qiladi. Gaz material porlarini kirib boradi chuqur dezinfeksiya uchun.\n\nSport joylar tungi vaqtda ishlov beriladi. 2-3 soat, xona hajmiga qarab 25 m³ uchun soatiga 1 g. Katta zallar va arenalar uchun mobil ozonlashtirgichlar 60-120 g/h ishlatiladi.\n\nOzonlashtirgich o'chgach, ozon 2-3 soat xavfsiz darajaga tushadi. Faqat yengil yangi hid qoladi. Ishchilar davomi paytida kirishlari kerak emas.",
+      "benefits": [
+        "Samarali ter hidini yo'q qilish",
+        "Sport jihoziining dezinfeksiyasi",
+        "Xamir infeksiyasining oldini olish",
+        "Mat va to'qimaning davobi",
+        "Ko'k o'tishini bosilishi",
+        "Avtomatik tungi davomi"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "2-3 h",
+          "label": "Davomi",
+          "description": "Sport zalida ozonlash vaqti"
+        },
+        "stat2": {
+          "value": "100%",
+          "label": "Hidlar",
+          "description": "Ter hidini yo'q qilish samaradorligi"
+        },
+        "stat3": {
+          "value": "99.9%",
+          "label": "Xamirlar",
+          "description": "Mikoz patogenlarini yo'q qilish"
+        },
+        "stat4": {
+          "value": "60-120",
+          "label": "g/h",
+          "description": "Katta zallar uchun quvvat"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Sport zallar, fitnes markazlar va loker xonalari infeksiya tarqalishi va maxsus hidlar uchun yuqori xavf. Ozonlash ikkala muammoni hal qiladi: jihoz dezinfeksiya qiladi va ter hidini butunlay yo'q qiladi, niqob qilmasdan.",
+          "paragraph2": "Ozon bakteriyalar, viruslar, ko'k, zamburug'lar va parazit protozoalarni jihoz, turn, stol va mat'lardan yo'q qiladi. Gaz material porlarini kirib boradi to'qimaning va yumshoq sirtlarning chuqur dezinfeksiyasini ta'minlash."
+        },
+        "warning": {
+          "title": "Xamir infeksiyalari",
+          "text": "sport zallari uchun asosiy muammolardan biri. Atlettik oyoqlari, qotma, kandidiyasiz loker xonalari, shower va sport jihozlari orqali uzatiladi. Ozon barcha sirtlarda mog'or sporlarini yo'q qiladi."
+        },
+        "whatDisinfects": {
+          "title": "Ozon nima dezinfeksiya qiladi",
+          "items": [
+            "Zamin va sport jihozlar",
+            "Mat, yoga va fitnes mat'lar",
+            "Loker xonasi stoli",
+            "Shikastlar va javonlar",
+            "Shower bo'lmalari va banyo xonalari",
+            "To'qimalar: shumlari, xlamalar (shikastlarda)",
+            "Ventilatsiya va konditsionerlash tizimlar",
+            "Turlar va tamasha joylar"
+          ]
+        },
+        "odorProblem": {
+          "title": "Sport zallarida hid muammosi",
+          "text": "Sport zallarida ter hidi odam terida bakteriya faolligining natijasi. Muntazam tozalash va havo yangilantiruvchilar faqat muammoni niqob qiladi. Ozon hid molekulalarini buzadi va ularni ishlab chiqaradigan bakteriyalarni yo'q qiladi.",
+          "tableHeaders": [
+            "Hid turi",
+            "Manba",
+            "Yo'q qilish vaqti"
+          ],
+          "tableCaption": "Hidlarga qarshi ozon samaradorligi",
+          "tableData": [
+            [
+              "Ter",
+              "Teri bakteriyalari",
+              "30-60 min"
+            ],
+            [
+              "Namlik",
+              "Ko'k va mog'or",
+              "60-90 min"
+            ],
+            [
+              "Qadim havo",
+              "Ventilatsiya yetersizligi",
+              "40-60 min"
+            ],
+            [
+              "Rezina",
+              "Pol va mat'lar",
+              "90-120 min"
+            ]
+          ]
+        },
+        "process": {
+          "title": "Sport zali davomi rejimi",
+          "text": "Sport joylari tungi vaqtda tashrif buyuruvchilar bilan yopilganda davoladi. Katta zallar va arenalar uchun kuchli mobil ozonlashtirgichlar 60-120 g/h ishlatasdi.",
+          "steps": [
+            {
+              "title": "Xonani tayyorlash",
+              "description": "Barcha oynalar va eshiklarni yoping. Ta'minlovchi ventilatsiyani o'chiring. Hechkim zalda yo'q-ligini ta'minlang."
+            },
+            {
+              "title": "Ozonlashtirgich o'rnatishi",
+              "description": "Devarga o'rnatilgan — kamida 3 m baland. Mobil — maksimal balandlikda, masalan, hakam platformasida."
+            },
+            {
+              "title": "Ozonlash",
+              "description": "Ozonlashtirgichni 2-3 soat uchun yoqing. Quvvat: xona hajmiga qarab 25 m³ uchun soatiga 1 g."
+            },
+            {
+              "title": "Ozonning parchalanishi",
+              "description": "Ozonlashtirgich o'chgach, konsentratsiya 2-3 soat xavfsiz darajaga tushadi. Yengil yangi hid qoladi."
+            }
+          ]
+        },
+        "equipment": {
+          "title": "Jihoz hisoblash",
+          "highlight": {
+            "title": "Hisoblash formulasi:",
+            "text": "xona hajmiga qarab 25 m³ uchun soatiga 1 g ozon quvvat. Yuqori ifloslanimligi yoki katta sirt maydoniga ega xonalar uchun, quvvatni 20-30% oshiring."
+          },
+          "tableHeaders": [
+            "Zal turi",
+            "Hajmi",
+            "Quvvat",
+            "Davomi"
+          ],
+          "tableCaption": "Tavsiya etilgan ozonlashtirgich quvvati",
+          "tableData": [
+            [
+              "Fitnes zali",
+              "200-500 m³",
+              "10-20 g/h",
+              "120 min"
+            ],
+            [
+              "Loker xonasi",
+              "50-100 m³",
+              "3-5 g/h",
+              "90 min"
+            ],
+            [
+              "Sport zali",
+              "300-600 m³",
+              "15-25 g/h",
+              "150 min"
+            ],
+            [
+              "Sport arenasi",
+              "2000-5000 m³",
+              "80-200 g/h",
+              "180 min"
+            ],
+            [
+              "Yuzma havuzi",
+              "500-1500 m³",
+              "20-60 g/h",
+              "120 min"
+            ]
+          ]
+        },
+        "specialZones": {
+          "title": "Maxsus diqqat sonalari",
+          "features": [
+            {
+              "title": "Loker xonalari",
+              "description": "Stol, shikastlar, pol — zamburug' infeksiyasini uzatishning asosiy nuqtalari"
+            },
+            {
+              "title": "Shower bo'lmalari",
+              "description": "Namlik muhiti ko'k va mog'or o'sishini rag'batlantiradi"
+            },
+            {
+              "title": "Kardio zona",
+              "description": "Intensiv ter izchiligi, ko'p tutish sirtlari"
+            },
+            {
+              "title": "Guruh darslar zali",
+              "description": "Mat'lar, umumiy jihoz — infeksiya uzatish xavfi"
+            }
+          ]
+        },
+        "pathogens": {
+          "title": "Patogenlarga qarshi samaradorligi",
+          "tableHeaders": [
+            "Patogen",
+            "Inaktivatsiya vaqti",
+            "Samaradorligi"
+          ],
+          "tableCaption": "Patogen inaktivatsiya vaqti (konsentratsiya 20 mg/m³)",
+          "tableData": [
+            [
+              "Trichophyton (atlettik oyoqlari)",
+              "20-30 min",
+              "99.9%"
+            ],
+            [
+              "Kandidiya albikans",
+              "15-20 min",
+              "99.9%"
+            ],
+            [
+              "Stafilo aureusi",
+              "10-15 min",
+              "99.99%"
+            ],
+            [
+              "Gripp viruslari",
+              "5-10 min",
+              "99.99%"
+            ],
+            [
+              "Ko'k (sporlari)",
+              "30-40 min",
+              "99%"
+            ],
+            [
+              "E. coli",
+              "5-10 min",
+              "99.99%"
+            ]
+          ]
+        },
+        "comparison": {
+          "title": "An'anaviy tozalash bilan taqqoslash",
+          "tableTitle": "Ozonlash va kimyoviy dezinfeksiya",
+          "headers": [
+            "Mezon",
+            "Ozonlash",
+            "Kimyoviy davomi"
+          ],
+          "rows": [
+            {
+              "parameter": "Ter hidini yo'q qilish",
+              "value1": "To'liq (molekula buzilishi)",
+              "value2": "Niqob qilish"
+            },
+            {
+              "parameter": "Mat va to'qima davobi",
+              "value1": "Chuqur (gaz porlarida)",
+              "value2": "Faqat sirtlar"
+            },
+            {
+              "parameter": "Ventilatsiya tizimlar",
+              "value1": "Ha",
+              "value2": "Yo'q"
+            },
+            {
+              "parameter": "Kimyoviy qoldiq",
+              "value1": "Yo'q",
+              "value2": "Ha (allergiya xavfi)"
+            },
+            {
+              "parameter": "Tiklanish vaqti",
+              "value1": "2-3 soat",
+              "value2": "Darhol"
+            },
+            {
+              "parameter": "Sarflama mahsulotlar",
+              "value1": "Yo'q",
+              "value2": "Ha"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Zal egasiga foyda",
+          "features": [
+            {
+              "title": "Obro'",
+              "description": "Toza hava va hidlarsiz — raqobat afzalligi"
+            },
+            {
+              "title": "Mijozlar sog'lig'i",
+              "description": "Xamir va viral infeksiya xavfining kamayishi"
+            },
+            {
+              "title": "Tejash",
+              "description": "Kimyoviy vosita va havo yangilantiruvchilar xarajatlari yo'q"
+            },
+            {
+              "title": "Avtomatsiya",
+              "description": "Ishchi ishtirokisiz taymer ishlashi"
+            }
+          ]
+        },
+        "safety": {
+          "title": "Xavfsizlik talablari",
+          "items": [
+            "Davomi faqat bo'sh (tungi) vaqtda",
+            "Ozon MPC ish zonasida — 0,1 mg/m³",
+            "Ishchilar davomi paytida kirishlari kerak emas",
+            "Kirilish zarur bo'lsa — karbon filtri bilan respirator ishlating",
+            "Tungi davomi keyin ventilatsiya talab qilinmaydi",
+            "Ochish vaqtiga ozon to'liq parchalanadi"
+          ],
+          "highlight": "To'g'ri tanlangan boshlash va tugash vaqti bilan, ozon ishchilar va birinchi tashrif buyuruvchilar kelguniga parchalanib ketadi. Faqat yengil yangi hid qoladi, odamlar uchun xavfsiz."
+        }
+      }
+    }
+  }
+}

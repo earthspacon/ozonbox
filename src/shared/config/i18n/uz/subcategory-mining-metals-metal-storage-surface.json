@@ -1,0 +1,94 @@
+{
+  "title": "Kon sanoati va metallar",
+  "description": "Oltin va boshqa metallar qazib olishda, siyanidlarni yo'q qilishda, metallarni saqlash va tozalashda ozon qo'llanilishi. Kon va metallni qayta ishlash uchun ekologik toza texnologiya.",
+  "subcategories": {
+    "metal-storage-surface": {
+      "title": "Metallarni saqlash va sirt ishlovida ozon",
+      "shortDesc": "Ozon bilan metall sirtlarini tozalash va passivlash: organikani olib tashlash, oksid plyonkalar hosil qilish, yarimo'tkazgichlar, optika va aerokosmik sanoatda qo'llanilishi. Korroziyaga ta'siri.",
+      "content": "Ozon metall sirtlarini saqlash va qayta ishlashda tozalash va passivlash uchun ishlatiladi. Yuqori oksidlanish qobiliyati organik ifloslanishlar, uglerodli plyonkalar va barmoq izlarini olib tashlash, sifatli oksid plyonkalar hosil qilish va korroziyaga chidamlilikni oshirishga imkon beradi. Qo'llanilish yarimo'tkazgichlar ishlab chiqarish, optika, aerokosmik sanoat va metallni qayta ishlashni qamrab oladi.",
+      "stats": {
+        "cleaning": {
+          "value": "Ha",
+          "label": "Sirt tozalash",
+          "description": "Organika va uglerodli plyonkalarni olib tashlash"
+        },
+        "passivation": {
+          "value": "Ha",
+          "label": "Passivlash",
+          "description": "Himoya qiluvchi oksid plyonkalar hosil qilish"
+        },
+        "industries": {
+          "value": "4+",
+          "label": "Tarmoqlar",
+          "description": "Yarimo'tkazgichlar, optika, aerokosmika, metallni qayta ishlash"
+        },
+        "corrosion": {
+          "value": "Hisobga olish",
+          "label": "Korroziya",
+          "description": "Muhit uchun rejim tanlash"
+        }
+      },
+      "benefits": [
+        "Organik ifloslanishlar va barmoq izlarini olib tashlash",
+        "Qatlam va yopishtirish uchun toza substratlar",
+        "Korroziyaga chidamlilik uchun metallarni passivlash",
+        "Yarimo'tkazgichlar, optika, aerokosmikada qo'llanilishi"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Ozon metall sirtlarini saqlash va qayta ishlashda tozalash va passivlash uchun ishlatiladi. Yuqori oksidlanish qobiliyati organik ifloslanishlar, uglerodli plyonkalar va barmoq izlarini olib tashlash, sifatli oksid plyonkalar hosil qilish va korroziyaga chidamlilikni oshirishga imkon beradi.",
+          "paragraph2": "Qo'llanilish yarimo'tkazgichlar ishlab chiqarish, optika, aerokosmik sanoat va metallni qayta ishlashni qamrab oladi. Usullar UV nurlanish bilan ozon gazini ishlov berish, ozon qo'shilgan suvga cho'ktirish va gazsimon ozonga to'g'ridan-to'g'ri ta'sir qilishni o'z ichiga oladi."
+        },
+        "cleaning": {
+          "title": "Metall sirtlarini tozalash",
+          "intro": "Ozon sirt ishlov usullari bir nechta maqsadlarga erishish uchun yuqori oksidlanish qobiliyatidan foydalanadi: sirtlardagi uglerod bilan bog'liq ifloslanishlarni kamaytirish, yupqa plyonkalar qatlami uchun toza substratlarni tayyorlash, sifatli oksid plyonkalar hosil qilish va metallarni korroziyaga chidamlilikni oshirish uchun passivlash.",
+          "methods": "Usullar UV nurlanish bilan ozon gazini ishlov berish, ozon qo'shilgan suvga cho'ktirish va gazsimon ozonga to'g'ridan-to'g'ri ta'sir qilishni o'z ichiga oladi. Sanoat qo'llanilishi yarimo'tkazgich plastinkalarni tozalash, optik komponentlarni tozalash, aerokosmik qismlar va organik qoldiqlar va barmoq izlarini olib tashlashni qamrab oladi."
+        },
+        "passivation": {
+          "title": "Metall passivlash",
+          "intro": "Ozon metall sirtlarida himoya qiluvchi oksid plyonkalar hosil qilishni rag'batlantiradi, korroziyaga chidamlilikni oshiradi. UV bilan birga ozon organikani samarali olib tashlaydi va keyingi qoplash yoki korroziyasiz saqlash uchun sirtlarni tayyorlaydi."
+        },
+        "applications": {
+          "title": "Sanoat qo'llanilishi",
+          "intro": "UV va ozon bilan ozon sirt tozalash va aktivlash yarimo'tkazgichlar ishlab chiqarish, optik komponentlar ishlab chiqarish, aerokosmik sanoat va metall mahsulotlarni saqlashda qo'llaniladi. Ishlov qatlam uchun toza substratlarni ta'minlaydi, organik qoldiqlarni olib tashlaydi va yopishtirish yoki qoplash uchun sirtni tayyorlaydi."
+        },
+        "corrosion": {
+          "title": "Ozonning korroziyaga ta'siri",
+          "intro": "Erigan ozonning metallar va qotishmalar korroziyasiga ta'siri suv kimyosi, pH va haroratga bog'liq. Ba'zi sharoitlarda ozon yumshoq po'lat passivlashiga sezilarli ta'sir ko'rsatmaydi; boshqalarda mis va mis-nikel qotishmalarining korroziyasini oshirishi mumkin. Sanoatda ishlatish uchun rejim va muhit tarkibini shunga mos tanlash kerak."
+        },
+        "benefits": {
+          "title": "Ozon metall ishlovining afzalliklari",
+          "items": [
+            {
+              "title": "Tozalash",
+              "description": "Organikani, uglerod plyonkalarini, barmoq izlarini olib tashlash; qatlam uchun toza substratlar."
+            },
+            {
+              "title": "Passivlash",
+              "description": "Himoya qiluvchi oksid plyonkalar, korroziyaga chidamlilikni oshirish."
+            },
+            {
+              "title": "Tarmoqlar",
+              "description": "Yarimo'tkazgichlar, optika, aerokosmika, metallni qayta ishlash, saqlash."
+            },
+            {
+              "title": "Rejimlar",
+              "description": "Aniq muhitda korroziyaga ta'sirini hisobga olgan holda tanlash."
+            }
+          ]
+        }
+      },
+      "sourcesTitle": "Manbalar",
+      "sources": [
+        {
+          "title": "Surface treatment methods using ozone — JST, Japan",
+          "url": "https://www.jstage.jst.go.jp/article/jvsj2/56/8/56_13-RV-012/_article"
+        },
+        {
+          "title": "Ozone application in different industries: A review — ScienceDirect, 2022",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1385894722056686"
+        }
+      ]
+    }
+  }
+}

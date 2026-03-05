@@ -1,0 +1,245 @@
+{
+  "title": "HoReCa",
+  "description": "Mehmonxonalar, restoranlar, kir yuvish xonalari va boshqa mehmonxona muassasalari qulay muhit yaratish, hidlarni yo'q qilish va yuqori gigiyena standartlarini saqlash uchun ozonlashdan foydalanadi.",
+  "subcategories": {
+    "laundries": {
+      "title": "Tijorat kir yuvish xonalari",
+      "shortDesc": "Sovuq suvda to'liq dezinfeksiya bilan yuvish",
+      "heroTitle": "Kir yuvish ozonlashi",
+      "heroDesc": "Sovuq suvda to'liq dezinfeksiya bilan yuvish. Energiya va kimyoviy moddalar bo'yicha 70% gacha tejash.",
+      "content": "Kir yuvish xonalarida suv ozonlashi tozalanji vositalari, issiq suv va energiya ishlatishini sezilarli kamaytiradigan, kir hayotini uzaytiradigan va yuvish vaqtini qisqartiradigan ilg'or texnologiyadir. Ozon suvda eriladi va kimyoviy moddalarning bir qismini almashtiraydi.\n\nBu yuvishning asosiy o'zgarishi: siz qat'iy kimyoviyni ancha yaxshi ishlaydiganiga almashtirasiz. Shunday darajada yaxshiki, suv va vaqt ishlatishini ham kamaytirib bo'ladi.\n\nOzon kuchli oksidlovchi. Kam miqdordagi qamira, sovuq suv va tozalantiruvchi bilan siz xlor va issiq suv bilan teng yoki undan yaxshi toza va porloq qilishi mumkin.\n\nSuv qancha sovuq bo'lsa, ozon shuncha barqaror bo'ladi va uzoqroq ishlaydi. 95°C dan yuqorida ozon tezroq parchalanish tufayli samaradorligini yo'qotadi.",
+      "benefits": [
+        "Su qizitish tejashi 70–100%",
+        "Tozalangich tejashi 30–50%",
+        "Suv ishlatish 20–40% kamaydi",
+        "Düşük haroratda to'liq dezinfeksiya",
+        "Kir hayoti 30% gacha ko'tariladi",
+        "Shaxsiy bo'lmagan kirlarni niqobsiz ishlov berish"
+      ],
+      "stats": {
+        "energySaving": {
+          "value": "70-100%",
+          "label": "Qizitish tejashi",
+          "description": "Sovuq suvda yuvish suv qizitish xarajatlarini olib tashlaydi; ozon sovuq suvda eng samarali ishlaydi."
+        },
+        "chemistrySaving": {
+          "value": "30-50%",
+          "label": "Kimyoviy tejashi",
+          "description": "Kamroq tozalantiruvchi va oqartgich; ozon kimyoviyning bir qismini almashtiradi va yuvish sifatini yaxshilaydi."
+        },
+        "linenLife": {
+          "value": "+30%",
+          "label": "Kir hayoti",
+          "description": "Qat'iy kimyoviy va qizitmasdan; sovuq suv va xlorsiz tolalarning eskirishi kamayadi."
+        },
+        "disinfection": {
+          "value": "99.9%",
+          "label": "Dezinfeksiya",
+          "description": "Sovuq suvda ham bakteriya va viruslarni samarali kamaytirish."
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Kir yuvish xonalarida suv ozonlashi tozalanji vositalari, issiq suv va energiya ishlatishini sezilarli kamaytiradigan, kir hayotini uzaytiradigan va yuvish vaqtini qisqartiradigan ilg'or texnologiyadir. Ozon suvda eriladi va kimyoviy moddalarning bir qismini almashtiraydi, yuqori toza sifatini ta'minlab.",
+          "text2": "Bu yuvishning asosiy o'zgarishi: siz qat'iy kimyoviyni ancha yaxshi ishlaydiganiga almashtirasiz. Shunday darajada yaxshiki, suv va vaqt ishlatishini kamaytirib, yuqori natijalarni qila olasiz."
+        },
+        "highlight1": {
+          "title": "Qanday ishlaydi:",
+          "text": "Ozon kuchli oksidlovchi. Kam miqdordagi qamira, sovuq suv va tozalantiruvchi bilan siz xlor va issiq suv bilan teng yoki undan yaxshi toza va porloq qilishi mumkin."
+        },
+        "economicEffects": {
+          "title": "Iqtisodiy ta'sirlar",
+          "comparisonTitle": "An'anaviy va ozon yuvishining taqqoslash",
+          "headers": [
+            "Parametr",
+            "Ozon yuvish",
+            "An'anaviy"
+          ],
+          "rows": [
+            {
+              "parameter": "Suv harorati",
+              "value1": "Sovuq (15-25°C)",
+              "value2": "Issiq (60-90°C)"
+            },
+            {
+              "parameter": "Elektr energiya ishlatish",
+              "value1": "70-100% kamroq",
+              "value2": "Bazaviy"
+            },
+            {
+              "parameter": "Tozalantiruvchi ishlatish",
+              "value1": "30-50% kamroq",
+              "value2": "Bazaviy"
+            },
+            {
+              "parameter": "Suv ishlatish",
+              "value1": "20-40% kamroq",
+              "value2": "Bazaviy"
+            },
+            {
+              "parameter": "Kir kulrang",
+              "value1": "Minimal",
+              "value2": "Ko'paygan"
+            },
+            {
+              "parameter": "Dezinfeksiya",
+              "value1": "99.9%",
+              "value2": "95-98%"
+            }
+          ]
+        },
+        "coldWater": {
+          "title": "Nima uchun sovuq suv samaradorroq",
+          "text": "Yuvish sifati 4 omilga bog'liq: suv harorati, kimyoviy moddalar, yuvish vaqti va mexanik harakat. Ozondan foydalanib, siz kimyoviy va haroratni yanada samaradorroq yechim bilan almashtirishingiz mumkin.",
+          "items": [
+            "Ozon sovuq suvda pH 8 da hidroksil radikallarini (OH) yaratadi — issiq suvda yuqori pH bilan bir xil",
+            "Suv qancha sovuq bo'lsa, ozon shuncha barqaror bo'ladi va uzoqroq ishlaydi",
+            "95°C dan yuqorida ozon tezroq parchalanish tufayli samaradorligini yo'qotadi",
+            "Sovuq suv to'qima tolalarni shikast bermaydi — kir uzoqroq davom etadi",
+            "Issiq suvdagi xlor oqartgichning yo'qligi to'qimani shikast beradigan kimyoviy reaktsiyalarini oldini oladi"
+          ]
+        },
+        "process": {
+          "title": "Texnoloji jarayon",
+          "tableCaption": "Yuvish komponentlarining taqqoslash",
+          "tableHeaders": [
+            "An'anaviy kir yuvish",
+            "Ozon kir yuvish"
+          ],
+          "tableRows": [
+            [
+              "Issiq suv",
+              "Sovuq suv"
+            ],
+            [
+              "Qamira",
+              "Ozon"
+            ],
+            [
+              "Tozalantiruvchi",
+              "Tozalantiruvchi (kamroq)"
+            ],
+            [
+              "Kislota (neytrallashtirish)",
+              "—"
+            ],
+            [
+              "Oqartgich",
+              "—"
+            ]
+          ],
+          "text": "Ozon o'z-o'zidan kislorodga parchalanadi va an'anaviy kimyoviy moddalardan farqli o'laroq olib chiqilishni talab qilmaydi. Bu rinselash sonini 20-40% kamaytirishga imkon beradi."
+        },
+        "benefits": {
+          "title": "Kir yuvish xonalarida ozonlashning foydalari",
+          "items": [
+            {
+              "title": "Energiya tejashi",
+              "description": "Su qizitish xarcharalarini 70-100% kamayirish. Sovuq suvda to'liq yuvish."
+            },
+            {
+              "title": "Dezinfeksiyaning yaxshillanishi",
+              "description": "Ozon buzgun haroratda ham viruslar va bakteriyalarni samarali yo'q qiladi."
+            },
+            {
+              "title": "Yumshoq kir",
+              "description": "Tolalarda kimyoviy qoldiq yo'q. Kir yumshoq bo'ladi."
+            },
+            {
+              "title": "Yaxshiroq oqartirish",
+              "description": "Ozonning kuchli oksidlovchi xususiyatlari xlorsi bo'lmasdan yorug'likni ta'minlab."
+            }
+          ]
+        },
+        "ozoneClosets": {
+          "title": "Quruq temirlash uchun ozon shkafi",
+          "desc": "Quruq temirlovchilar ozon shkaflaridan foydalanadi — yuqori konsentratsiyada ozon bilan to'ldirilgan mo'hlangan kameralar. Gaz bo'lgani uchun, ozon eng zichlik to'qimlarga va qo'l yetmaydigan joylarga kirib boradi.",
+          "steps": [
+            {
+              "title": "Nozik buyumlarni ishlov berish",
+              "description": "Teatr kostyumlari, antikvar, turali palto, charm jaketlar, motor kokteli, xokkey asbob. Mexanik harakat yoki qizitmasdan — shikast etish xavfi minimal."
+            },
+            {
+              "title": "Hidi yo'q qilish (dezodoratsiya)",
+              "description": "Olov tutuni, qo'zg'algan tabaka tutuni, biologik hidlar, hayvon hidlari, changa qo'zg'algan. Ozon hid sabab molekulyar darajada yo'q qiladi."
+            },
+            {
+              "title": "Dezinfeksiya",
+              "description": "Bakteriyalarning hujayra membranalarini, virus qobiqlarini va qo'ziqorin sporsini yo'q qiladi. Bolalar buyumlar va to'shak kiyimi uchun ideal."
+            },
+            {
+              "title": "Daromad yaratish",
+              "description": "Xizmat qo'shimcha variant (nisbiy sotuvlar) yoki alohida VIP xizmat sifatida sotiladi. Sikl narxi minimal."
+            }
+          ]
+        },
+        "equipment": {
+          "title": "Asboblarni tanlash",
+          "tableHeaders": [
+            "Kir yuvish turi",
+            "Tavsiya qilingan asbob",
+            "Narxi"
+          ],
+          "tableRows": [
+            [
+              "Kichik kir yuvish",
+              "Ozon generatori 5 g/h",
+              "250.000 ₽ dan"
+            ],
+            [
+              "Mehmonxona kir yuvish",
+              "Ozon generatori 10 g/h",
+              "320.000 ₽ dan"
+            ],
+            [
+              "Tijorat kir yuvish",
+              "Ozon generatori 20 g/h",
+              "420.000 ₽ dan"
+            ],
+            [
+              "Quruq temirlovchi (700L shkaf)",
+              "Ozon shkafi OZ-1S",
+              "420.000 ₽ dan"
+            ],
+            [
+              "Quruq temirlovchi (1400L shkaf)",
+              "Ozon shkafi OZ-2S",
+              "500.000 ₽ dan"
+            ]
+          ],
+          "highlightTitle": "Muhim:",
+          "highlightText": "Ozon generatori sig'imini hisoblash ifloslanish hajmi, suv sifati va asboblar xususiyatlariga bog'liq. Aniq tanlash uchun pilot loyiha talab qilinishi mumkin."
+        },
+        "limitations": {
+          "title": "Texnologiya cheklovlari",
+          "text": "Ba'zi hollarda issiq suvning kichik miqdori hali ham kerak bo'lishi mumkin. Sovuq suv yog'li dog'lar (gullo, oyoq poyabzali, siyoh sumi) bilan ishlash uchun mos emas, chunki yuqori haroratda yog'ning fizik tabiati.",
+          "items": [
+            "Og'ir yog' dog'lar bilan ifloslangan kir alohida yog'li to'ldirish dasturi talab qiladi",
+            "Bunday yuklar odatiy tom hajmning faqat juda kichik foizini tashkil etadi",
+            "Qolgan 90%+ kir uchun ozon yuvish sovuq suvda optimal yechimdir"
+          ]
+        },
+        "roi": {
+          "title": "Qaytib berish va to'lash",
+          "items": [
+            "Elektr hisob raqamlarini 50-70% kamayirish (suv qizitish asosiy xaraja)",
+            "Tozalantiruvchi va oqartgich bo'yicha 30-50% tejash",
+            "Kir hayoti 30%+ uzayishi (kamroq almashtirish)",
+            "Kamroq yuvish vaqti — kuniga ko'p sikllar",
+            "Tipik to'lash muddati: 12-18 oy"
+          ]
+        }
+      },
+      "ozoneClosets": {
+        "title": "Quruq temirlash uchun ozon shkafi",
+        "desc": "Quruq temirlovchilar ozon shkaflaridan foydalanadi — yuqori konsentratsiyada ozon bilan to'ldirilgan mo'hlangan kameralar. Gaz bo'lgani uchun, ozon eng zichlik to'qimlarga va qo'l yetmaydigan joylarga kirib boradi.",
+        "features": [
+          "Nozik buyumlarni ishlov berish: teatr kostyumlari, antikvar, turali palto, charm jaketlar",
+          "Hidi yo'q qilish: olov tutuni, tabaka, biologik hidlar, hayvon hidlari",
+          "Dezinfeksiya: bakteriyalar, viruslar va qo'ziqorin sporsini yo'q qiladi",
+          "Pul kiritish: minimal narxda VIP xizmat sifatida sotiladi"
+        ]
+      }
+    }
+  }
+}

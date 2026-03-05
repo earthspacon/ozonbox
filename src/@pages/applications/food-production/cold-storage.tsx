@@ -3,7 +3,7 @@ import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { getSubcategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
 import {
   ArticleHero,
   ArticleSection,
@@ -28,7 +28,7 @@ interface ColdStoragePageProps {
 
 export function ColdStoragePage({ staticData, lang }: ColdStoragePageProps) {
   const { t } = useTranslate()
-  const ns = getCategoryNamespace('food-production')
+  const ns = getSubcategoryNamespace('food-production', 'cold-storage')
 
   // get category data from staticData
   const categoryData = (staticData as Record<string, { subcategories?: { 'cold-storage'?: any } }>)[`${lang}:${ns}`]

@@ -1,0 +1,285 @@
+{
+  "title": "Dezinfeksiya",
+  "description": "Ozonlash ta'minovchi binolar va transportni chuqur dezinfeksiya qiladi, bakteriyalarni, viruslarni, zamburug'larni va sporalarni yo'q qiladi, kimyoviy qoldiqsiz. Gaz barcha qiyin-erishiladigan joylarni kirib boradi.",
+  "subcategories": {
+    "public-transport": {
+      "title": "Jamoaviy transport",
+      "shortDesc": "Avtobuslar, tramvaylar va trolleybuslarning dezinfeksiyasi",
+      "content": "Jamoaviy transport infeksiya uzatishning yuqori xavf muhiti. Ozonlash tez va samarali avtobuslar, tramvaylar va trolleybuslarning ichki bo'lmalarini dezinfeksiya qiladi bir muddatlar orasida yoki tungi vaqtda.\n\nOzon barcha yo'lovchilar tegadigan sirtlarni dezinfeksiya qiladi: qo'l tutgichlari, o'rindiqlar, oynalar va devarlar. Gaz barcha chuqur bo'lmalar va qiyin erishiladigan joylarni kirib boradi to'liq ichki muomalasini ta'minlash. Hidlar va ko'k o'tishi ham bosiladi.\n\nDavomi: 20-40 daqiqa ichki bo'lma hajmiga qarab. Davomi keyin, 20 daqiqa ventilatsiya qiling yoki ozonni dispersiya qilish uchun mashinaning ventilatsiya tizimini yoqing.\n\nJihoz mashinaning quvvatiidan ishlashi mumkin (12V yoki 24V). Hechqanday ishchi qolishi kerak emas — ozonlashtirgichni yoqing va chiqib ket. Hechqanday sarflama mahsulotlar operatsion xarajatlarni kamaytiradi.",
+      "benefits": [
+        "20-40 daqiqada tez davomi",
+        "Barcha ichki sirtlarining dezinfeksiyasi",
+        "Mashinaning quvvatidan ishlash",
+        "Hid va ko'k o'tishining yo'q qilishi",
+        "Hechqanday sarflama mahsulotlar",
+        "Jarayonning avtomatsiyasi"
+      ],
+      "stats": {
+        "time": {
+          "value": "20-40",
+          "label": "Daqiqa",
+          "description": "Bir ichki bo'lma uchun davomi vaqti"
+        },
+        "power": {
+          "value": "12V/24V",
+          "label": "Quvvat",
+          "description": "Mashinaning elektr tizimidan ishlash"
+        },
+        "coverage": {
+          "value": "100%",
+          "label": "Qoplamа",
+          "description": "Barcha sirtlar va qiyin erishiladigan joylar"
+        },
+        "consumables": {
+          "value": "0",
+          "label": "Sarflama mahsulotlar",
+          "description": "Hechqanday kimyoviy reagentlar"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Jamoaviy transport infeksiya uzatishning yuqori xavf muhiti. Minglab yo'lovchilar har kuni bir xil sirtlarga tegasdi: qo'l tutgichlari, o'rindiqlar va tugmachalar. Ozonlash tez va samarali avtobuslar, tramvaylar va trolleybuslarning ichki bo'lmalarini dezinfeksiya qiladi bir muddatlar orasida yoki tungi vaqtda.",
+          "text2": "Qo'lbola dezinfeksiyasidan farqli o'laroq, ozon barcha chuqur bo'lmalar va qiyin erishiladigan joylarni kirib boradi, to'liq ichki muomalasini ta'minlash. Hechqanday kimyoviy qoldiq qolmaydi, bu yo'lovchilarda allergiya sabablashmasdan."
+        },
+        "highlight1": {
+          "title": "Ozonlashning afzalligi:",
+          "text": "gaz o'rindiqlar orasidagi chuqur bo'lmalarni, obivka ostiga, ventilatsiya tizimiga kirib boradi — qo'lbola tozalashi bilan erishmasa bo'ladigan joylar. Davomi keyin ichki bo'lma barcha patogenlardan azod."
+        },
+        "whatDisinfects": {
+          "title": "Transport ichida ozon nima dezinfeksiya qiladi",
+          "items": [
+            "Qo'l tutgichlari va reyinglar — asosiy yo'lovchi tutish nuqtalari",
+            "O'rindiqlar va orqasi — bakteriya va hidlarni to'plash",
+            "Oynalar va devarlar — chang va aerosal zarralari to'planadi",
+            "Ichki pol — ifloslanimligi va mikroorganizmlar to'planadi",
+            "Ventilatsiya tizimi — infeksiyalarni ichki bo'lma bo'ylab tarqatadi",
+            "Voditel kabinasi — kasal bo'lgan ichki xodimlari himoyasi"
+          ]
+        },
+        "treatmentMode": {
+          "title": "Transport davomi rejimi",
+          "steps": [
+            {
+              "title": "Ozonlashtirgich o'rnatishi",
+              "description": "Ozonlashtirgichni yo'lovchi bo'lmasida maksimal balandlikdagi joyga o'rnating. Barcha oynalar va eshiklarni yoping."
+            },
+            {
+              "title": "Davomini boshlash",
+              "description": "Ozonlashtirgichni ichki bo'lma hajmiga qarab 20-40 daqiqa uchun yoqing. Mashinani tark eting."
+            },
+            {
+              "title": "Ozon ekspozitsiyasi",
+              "description": "Ozon ichki bo'lma bo'ylab tarqalib, barcha chuqur bo'lmalar va qiyin erishiladigan joylarni kirib boradi. Viruslar, bakteriyalar, ko'k yo'q qiladi."
+            },
+            {
+              "title": "Ventilatsiya",
+              "description": "Eshiklar va oynalarni oching, 20 daqiqa ventilatsiya qiling. Tezlatish uchun mashinaning ventilatsiya tizimini yoqing."
+            }
+          ],
+          "tableHeaders": [
+            "Transport turi",
+            "Ichki hajmi",
+            "Quvvat",
+            "Vaqti"
+          ],
+          "tableCaption": "Tavsiya etilgan davomi rejimlar",
+          "tableData": [
+            [
+              "Minibus",
+              "15-25 m³",
+              "5-10 g/h",
+              "20 min"
+            ],
+            [
+              "Shahar avtobusi",
+              "40-60 m³",
+              "20-30 g/h",
+              "30 min"
+            ],
+            [
+              "Shunga o'rnatilgan avtobusi",
+              "80-100 m³",
+              "30-50 g/h",
+              "40 min"
+            ],
+            [
+              "Tramvay/trolleybus",
+              "50-80 m³",
+              "20-40 g/h",
+              "35 min"
+            ]
+          ]
+        },
+        "organizationOptions": {
+          "title": "Davomi tashkil etish variantlari",
+          "text": "Jamoaviy transport dezinfeksiyasi floti hajmi va ishlash jadvaliga qarab turli usullar bilan tashkil etilishi mumkin.",
+          "items": [
+            {
+              "title": "Depo davobi",
+              "description": "Kuchli mobil ozonlashtirgichlar bilan tungi vaqtda butun flotning markazlashtirilgan davobi"
+            },
+            {
+              "title": "Chiqishlar orasida",
+              "description": "Kompakt ozonlashtirgichlar bilan terminal to'xtashlarda tezkor davomi"
+            },
+            {
+              "title": "Statsionar o'rnatma",
+              "description": "Ichki devarga o'rnatilgan ozonlashtirgich, mashinaning quvvatida taymer bilan ishlaydi"
+            },
+            {
+              "title": "Mobil xizmat",
+              "description": "Transportni yo'lda davolash uchun tashuvchi ozonlashtirgichlar"
+            }
+          ]
+        },
+        "powerSupply": {
+          "title": "Transport quvvati ta'minoti",
+          "text": "Ozonlashtirgichlar mashinaning quvvatida ishlashi mumkin, tashqi quvvat ulanishisiz davomiga imkon beradi.",
+          "highlight": "Davomi hechqanday ishchi ishtirokini talab qilmaydi — ozonlashtirgichni yoqing va chiqib ket. Hechqanday sarflama mahsulotlar harakat xarajatini kamaytiradi.",
+          "tableHeaders": [
+            "Quvvat turi",
+            "Ijro",
+            "Afzalliklari"
+          ],
+          "tableCaption": "Ozonlashtirgichlar uchun quvvat ta'minoti variantlari",
+          "tableData": [
+            [
+              "12V DC",
+              "Minibus, mikrobuslar",
+              "Standart mashinaning quvvati"
+            ],
+            [
+              "24V DC",
+              "Avtobuslar, trolleybuslar",
+              "Yuqori quvvat"
+            ],
+            [
+              "220V AC",
+              "Depolar, parklar",
+              "Maksimal quvvat"
+            ],
+            [
+              "Batareya",
+              "Mobil xizmat",
+              "Avtonomiya"
+            ]
+          ]
+        },
+        "pathogenEfficiency": {
+          "title": "Patogenlarga qarshi samaradorligi",
+          "tableHeaders": [
+            "Patogen",
+            "Vaqti 20 mg/m³ da",
+            "Samaradorligi"
+          ],
+          "tableCaption": "Transport ichida patogen inaktivatsiya vaqti",
+          "tableData": [
+            [
+              "Koronaviruslar (COVID-19)",
+              "10-15 min",
+              "99.9%"
+            ],
+            [
+              "Gripp viruslari",
+              "5-10 min",
+              "99.9%"
+            ],
+            [
+              "Stafilo aureusi",
+              "10-15 min",
+              "99.9%"
+            ],
+            [
+              "E. coli",
+              "5-10 min",
+              "99.9%"
+            ],
+            [
+              "Ko'k va mog'or",
+              "15-20 min",
+              "99%"
+            ],
+            [
+              "Hidlar (organik)",
+              "20-30 min",
+              "100%"
+            ]
+          ]
+        },
+        "comparison": {
+          "title": "Dezinfeksiya usuli taqqoslashi",
+          "tableTitle": "Ozonlash va kimyoviy davomi",
+          "headers": [
+            "Mezon",
+            "Ozonlash",
+            "Kimyoviy davomi"
+          ],
+          "rows": [
+            {
+              "parameter": "Davomi vaqti",
+              "value1": "20-40 min + ventilatsiya",
+              "value2": "15-30 min"
+            },
+            {
+              "parameter": "Sirtning qoplamasi",
+              "value1": "100% (yashirin joylar kiritilgan)",
+              "value2": "60-70% (faqat kirish)"
+            },
+            {
+              "parameter": "Kimyoviy qoldiq",
+              "value1": "Yo'q",
+              "value2": "Ha (allergiyani sabablashi mumkin)"
+            },
+            {
+              "parameter": "Sarflama mahsulotlar",
+              "value1": "Yo'q",
+              "value2": "Ha (dezinfektantlar)"
+            },
+            {
+              "parameter": "Hid yo'q qilish",
+              "value1": "To'liq",
+              "value2": "Qisman (niqob qilish)"
+            },
+            {
+              "parameter": "Ishchi ishtirokchiligi",
+              "value1": "Minimal",
+              "value2": "Doim"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Transport kompaniyalari uchun foyda",
+          "items": [
+            {
+              "title": "Yo'lovchi himoyasi",
+              "description": "Jamoaviy transportda infeksiya tarqalishining xavfi kamayishi"
+            },
+            {
+              "title": "Voditel himoyasi",
+              "description": "Bemorlik kunlari kam, muntazam faoliyat"
+            },
+            {
+              "title": "Kimyoviy vositasiz",
+              "description": "Dezinfektantlar va saqlash xarajatlari yo'q"
+            },
+            {
+              "title": "Avtomatsiya",
+              "description": "Ishlari tomonidan kuzatishsiz taymer bilan davomi"
+            }
+          ]
+        },
+        "safety": {
+          "title": "Xavfsizlik talablari",
+          "items": [
+            "Davomi ichki bo'lma bo'sh vaqtida o'tkaziladi",
+            "Voditel va ishchilar davomi paytida transportni tark etasdi",
+            "Davomi keyin — 20 daqiqa ventilatsiya qiling yoki ventilatsiya tizimini yoqing",
+            "Ishchilar davomi keyin darhol kirganda respirator ishlatasdi",
+            "Ozon MPC — 0.1 mg/m³ (seziladigan hid darajasi)"
+          ],
+          "warning": "Chiqishlar orasida davomini tashkil etganda, ventilatsiya vaqti jadvaldagi davomiga hisoblanishini ta'minlang. Yo'lovchilar ozon konsentratsiyasi xavfsiz darajaga tushguniga keyin ichki bo'lmaga kirishlari kerak."
+        }
+      }
+    }
+  }
+}

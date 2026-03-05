@@ -1,0 +1,318 @@
+{
+  "title": "Transport",
+  "description": "Transport vositalarini ozonlash yo'lovchi transportining sanitariya xavfsizligini ta'minlaydi, yuk konteynerlarini dezinfeksiya qiladi va kimyoviy fumigatsiyaga ekologik toza muqobil.",
+  "subcategories": {
+    "public-buses": {
+      "title": "Avtobuslar",
+      "shortDesc": "Yo'lovchi avtobuslarini dezinfeksiya qilish",
+      "content": "Yo'lovchi avtobuslarini kundalik ozonlash infektsiya xavfini kamaytiradi, yoqimsiz hidlarni olib tashlaydi va yo'lovchilar uchun qulay muhit yaratadi. Qayta ishlash reyslar orasida yoki depoda kechasi o'tkaziladi.\n\nOzon barcha ichki sirtlarni dezinfeksiya qiladi: tutqichlar, o'rindiqlar, devorlar, pol va shiftga. Gaz o'rindiq qoplamasi, pol qoplamalari va ventilyatsiyaga kirib boradi — bakteriyalar va viruslar to'planishi mumkin bo'lgan hamma joyga.\n\nQayta ishlash: derazalar va eshiklarni yopiq holda 20-40 daqiqa. Generator ichkariga maksimal balandlikka o'rnatilib qo'yiladi. Qayta ishlashdan keyin 15-20 daqiqa shamollating yoki ventilatsiya tizimini ishlating. Jarayon avtomatlashtirilib bo'ladi.\n\nUskunalar avtobusning quvvatidan (12V yoki 24V) yoki depoda 220V dan ishlashi mumkin. Mobil generatorlar bir necha avtobuslarni qayta islashi mumkin. Sarflar yo'q bo'lgani uchun operatsiya xarajatlari kam.",
+      "benefits": [
+        "Infektsiyani oldini olish",
+        "Salon hidlarini bartaraf etish",
+        "20-40 daqiqada tez qayta ishlash",
+        "Avtomobil quvvatidan ishlash",
+        "Yo'lovchilarga raxat",
+        "Kam operatsiya xarajatlari"
+      ],
+      "stats": {
+        "time": {
+          "value": "20-40",
+          "label": "daqiqa",
+          "description": "Salon to'liq davri"
+        },
+        "efficiency": {
+          "value": "99,9%",
+          "label": "Samaradorlik",
+          "description": "Virus va bakteriyalarni yo'qotish"
+        },
+        "power": {
+          "value": "12/24V",
+          "label": "Quvvat",
+          "description": "Avtobus quvvat tizimidan ishlash"
+        },
+        "consumables": {
+          "value": "0",
+          "label": "Sarflar",
+          "description": "Faqat elektr"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text1": "Shahar jamoat transporti odamlar o'rtasida yuqori aloqa intensivligiga ega muhit. Har kuni yuzlab yo'lovchilar avtobus salonidan o'tib, tutqichlar, o'rindiqlar, to'xtash tugmalariga tegar. Epidemiya davrida infektsiya tarqalish xavfi ko'p marta ortadi.",
+          "text2": "Ozonlash barcha ichki sirtlarni, jumladan qiyin erishiladigan joylarni chuqur dezinfeksiya qiladi: qoplamadagi yoriqlar, shamollatish tizimi, o'rindiqlar ostidagi bo'shliq. Dezinfeksiya vositalari bilan artishdan farqli o'laroq, ozon gazi hamma joyga kirib boradi va kimyoviy qoldiqlarni qoldirmaydi."
+        },
+        "highlight1": {
+          "title": "Avtopark operatorlari uchun:",
+          "text": "Ozonlashni avtoparkda kechasi, reyslar orasida yoki texnik tanaffuslar paytida o'tkazish mumkin. Bitta mobil ozonator bir smenada 10-15 ta avtobusni qayta ishlaydi — qo'shimcha tozalash xodimlarini yollash bilan solishtirganda sezilarli tejamkorlik."
+        },
+        "sanitationProblems": {
+          "title": "Jamoat transportida sanitariya muammolari",
+          "text": "Yo'lovchi avtobus salonida mikroorganizmlar ko'payish uchun qulay muhit. Dvigatel issiqligi, yo'lovchilarning nafas olishidan namlik, organik ifloslanish bakteriyalar, viruslar va zamburug'lar uchun ideal sharoit yaratadi.",
+          "items": [
+            "Tutqichlar va dastalar — kontaktli infektsiya uzatishning asosiy manbai",
+            "Mato o'rindiq qoplamasi namlik, hidlar va mikroorganizmlarni yutadi",
+            "Shamollatish tizimi aerosol zarralarni butun salon bo'ylab tarqatadi",
+            "Pol qoplamalari kirlash va patogenlarni poyabzal bilan to'playdi",
+            "Qiyin erishiladigan joylar oddiy tozalash paytida qayta ishlanmaydi"
+          ]
+        },
+        "technology": {
+          "title": "Avtobuslarni ozonlash texnologiyasi",
+          "text": "Avtobus salonini ozonlash — maxsus xodim malakasini talab qilmaydigan oddiy protsedura. Asosiy narsa — qayta ishlash rejimini va xavfsizlik qoidalarini kuzatishdir.",
+          "steps": [
+            {
+              "title": "Salonni tayyorlash",
+              "description": "Barcha derazalar va eshiklarni yoping. Kerak bo'lsa, yirik ifloslanishlarni olib tashlash uchun dastlabki nam tozalashni o'tkazing."
+            },
+            {
+              "title": "Ozonator joylashtirish",
+              "description": "Ozonatorni salon markaziga yoki yo'lakda maksimal balandlikka o'rnating. Elektr tarmog'iga (220V/230V) yoki tashqi quvvat manbaiga ulang."
+            },
+            {
+              "title": "Ozonlash",
+              "description": "Ozonatorni yoqing, salondan chiqing va eshikni yoping. Qayta ishlash vaqti hajm va ifloslanish darajasiga qarab 20-40 daqiqa."
+            },
+            {
+              "title": "Havolantirish",
+              "description": "Barcha eshiklar va derazalarni oching, standart shamollatishni yoqing. Ozon to'liq chiqarilguncha 15-20 daqiqa shamollating."
+            }
+          ],
+          "highlight": "Havolantirishdan keyin salonda yengil yangi hid qoladi — ozon to'liq kislorodga parchalanadi. Avtobus qo'shimcha qayta ishlashsiz liniyaga chiqishga tayyor."
+        },
+        "treatmentModes": {
+          "title": "Avtoparklar uchun qayta ishlash rejimlari",
+          "tableHeaders": [
+            "Qayta ishlash rejimi",
+            "Konsentratsiya",
+            "Vaqt",
+            "Qachon qo'llash kerak"
+          ],
+          "tableCaption": "Shahar avtobuslarini ozonlashning tavsiya etilgan rejimlari",
+          "tableData": [
+            [
+              "Reyslar orasida ekspress",
+              "10-15 mg/m³",
+              "15-20 min",
+              "Oxirgi bekatlarda, tanaffuslar"
+            ],
+            [
+              "Standart kechki",
+              "15-20 mg/m³",
+              "30-40 min",
+              "Har kuni avtoparkda"
+            ],
+            [
+              "Chuqur dezinfeksiya",
+              "25-30 mg/m³",
+              "60 min",
+              "Haftalik yoki voqealaridan keyin"
+            ],
+            [
+              "Mavsumiy qayta ishlash",
+              "20-25 mg/m³",
+              "90 min",
+              "Epidemiya mavsumi oldidan"
+            ]
+          ],
+          "text": "Rejimni tanlashda marshrut yuklanishini, mavsumni (epidemiya davrida — yanada intensiv qayta ishlash), salon holatini hisobga oling. Muntazam ozonlash chuqur qayta ishlashga bo'lgan ehtiyojni kamaytiradi."
+        },
+        "pathogenEfficiency": {
+          "title": "Patogenlarga qarshi samaradorlik",
+          "text": "Ozon jamoat transporti uchun muhim bo'lgan mikroorganizmlarning keng spektrini yo'qotadi:",
+          "tableCaption": "Avtobus salonida patogenlarga qarshi ozon samaradorligi",
+          "tableHeaders": [
+            "Patogen",
+            "Inaktivatsiya vaqti",
+            "Samaradorlik"
+          ],
+          "tableData": [
+            [
+              "Gripp A/B viruslari",
+              "5-10 min",
+              "99,99%"
+            ],
+            [
+              "Koronaviruslar (SARS-CoV-2)",
+              "10-15 min",
+              "99,99%"
+            ],
+            [
+              "Norovirus",
+              "15-20 min",
+              "99,9%"
+            ],
+            [
+              "Staphylococcus aureus",
+              "10-15 min",
+              "99,99%"
+            ],
+            [
+              "E. coli",
+              "5-10 min",
+              "99,99%"
+            ],
+            [
+              "Candida zamburug'lari",
+              "15-20 min",
+              "99,9%"
+            ],
+            [
+              "Mold sporlari",
+              "30-40 min",
+              "99,9%"
+            ]
+          ]
+        },
+        "odorRemoval": {
+          "title": "Salondagi hidlarni bartaraf etish",
+          "text": "Dezinfeksiyadan tashqari, ozonlash avtobus salonida to'planadigan yoqimsiz hidlarni samarali bartaraf etadi:",
+          "items": [
+            "Yuqori yo'lovchi oqimidan ter va inson tanasi hidi",
+            "Yo'lovchilar tashib yurgan ovqat hidlari",
+            "Chekuvchi yo'lovchilarning kiyimidan tamaki tutuni",
+            "Nam qoplamalar va pol qoplamalaridan eskirgan hid",
+            "To'plangan mold bilan konditsioner tizimidan hidlar",
+            "Muayyan yo'lovchi kategoriyalarini tashishdan keyin o'ziga xos hidlar"
+          ],
+          "text2": "Ozon hid molekulalarini oksidlaydi, ularni yashirmaydi. Natija — haqiqatan ham toza havo, hidlar va xushbo'y moddalar aralashmasi emas. Buni ayniqsa ertalabki reys yo'lovchilari qadrlaydi."
+        },
+        "integration": {
+          "title": "Avtopark jadvaliga integratsiya",
+          "items": [
+            {
+              "title": "Kechki qayta ishlash",
+              "description": "Avtobuslar avtoparkda 23:00 dan 05:00 gacha ozonlanadi. Bitta operator butun parkni qayta ishlaydi"
+            },
+            {
+              "title": "Smenalar orasida",
+              "description": "Haydovchilar smenasini almashtirish paytida ekspress qayta ishlash. 15-20 daqiqa — va avtobus keyingi reysga tayyor"
+            },
+            {
+              "title": "Oxirgi bekatlarda",
+              "description": "Kichik ozonator oxirgi bekatda to'xtash paytida avtobus quvvat tizimidan ishlaydi"
+            },
+            {
+              "title": "Avtobuslar to'xtamasdan",
+              "description": "Ozonlash transportni ekspluatatsiyadan chiqarishni talab qilmaydi — standart tanaffuslarda qayta ishlash"
+            }
+          ]
+        },
+        "economics": {
+          "title": "Avtopark ozonlash iqtisodiyoti",
+          "comparisonTitle": "Avtobuslarni sanitariya qayta ishlash usullarini solishtirish",
+          "tableHeaders": [
+            "Parametr",
+            "Ozonlash",
+            "Qo'lda dezinfeksiya"
+          ],
+          "tableData": [
+            [
+              "1 avtobus uchun vaqt",
+              "20-40 daqiqa",
+              "60-90 daqiqa"
+            ],
+            [
+              "Xodimlar",
+              "1 kishi park uchun",
+              "1 kishi 3-5 avtobus uchun"
+            ],
+            [
+              "Sarflar",
+              "Faqat elektr",
+              "Dezinfeksiya vositalari, latta, qo'lqoplar"
+            ],
+            [
+              "Sirt qamrovi",
+              "100%",
+              "60-70%"
+            ],
+            [
+              "Shamollatish qayta ishlash",
+              "Ha",
+              "Yo'q"
+            ],
+            [
+              "Hidlarni bartaraf etish",
+              "To'liq",
+              "Qisman (yashirish)"
+            ]
+          ],
+          "highlight": {
+            "title": "Hisoblash misoli:",
+            "text": "50 ta avtobusdan iborat park. Kundalik qo'lda qayta ishlash 5-6 ta tozalovchini talab qiladi. Ozonatorlar bilan 1 operator + 3-4 ta mobil qurilma buni bajaradi. Uskunalar o'zini qoplash muddati — xodimlar va sarflar bo'yicha tejamkorlik tufayli 4-6 oy."
+          }
+        },
+        "equipment": {
+          "title": "Avtoparklar uchun uskunalar",
+          "text": "Shahar avtobuslarini ozonlash uchun mobil va devor o'rnatilgan ozonatorlar qo'llaniladi:",
+          "items": [
+            "Mobil ozonatorlar (5-30 g/h) — avtobuslar orasida ko'chiriladi, universal",
+            "Devor o'rnatilgan ozonatorlar (10-20 g/h) — salonda doimiy o'rnatiladi",
+            "220V/230V quvvat — elektr tarmog'idan, tashqi ulanish kerak emas",
+            "220V quvvat — avtoparkda qayta ishlash uchun statsionar tarmoqdan",
+            "Taymerlar va masofadan boshqarish — jarayonni avtomatlashtirish"
+          ],
+          "tableCaption": "Avtobus turi bo'yicha ozonator tanlash",
+          "tableHeaders": [
+            "Avtobus turi",
+            "Salon hajmi",
+            "Ishlab chiqarish",
+            "Qayta ishlash vaqti"
+          ],
+          "tableData": [
+            [
+              "Kichik sinf (PAZ)",
+              "15-20 m³",
+              "5-10 g/h",
+              "15-20 min"
+            ],
+            [
+              "O'rta sinf (LiAZ)",
+              "40-50 m³",
+              "10-20 g/h",
+              "20-30 min"
+            ],
+            [
+              "Katta sinf (bo'g'inli)",
+              "80-100 m³",
+              "20-30 g/h",
+              "30-40 min"
+            ],
+            [
+              "Elektr avtobuslar",
+              "50-60 m³",
+              "10-20 g/h",
+              "25-35 min"
+            ]
+          ]
+        },
+        "compliance": {
+          "title": "Normativlarga moslik",
+          "text": "Yo'lovchi transportini ozonlash quyidagi talablarga javob beradi:",
+          "items": [
+            "SanPiN 2.1.2.2645-10 — transport sanitariya holati talablari",
+            "GOST R 51617-2014 — yo'lovchi transport xizmatlari",
+            "Rospotrebnadzor transportni dezinfeksiya qilish bo'yicha metodik tavsiyalar",
+            "Jamoat transportini sanitariya qayta ishlash bo'yicha mintaqaviy talablar"
+          ],
+          "highlight": {
+            "title": "Hujjatlashtirish:",
+            "text": "Sana, vaqt, avtobus raqami va qayta ishlash parametrlarini ko'rsatgan holda ozonlash jurnalini yuriting. Bu tekshiruvlar paytida sanitariya me'yorlariga rioya qilishni tasdiqlaydi."
+          }
+        },
+        "safety": {
+          "title": "Xavfsizlik qoidalari",
+          "text": "Yuqori konsentratsiyadagi ozon nafas olish uchun zararli. Xavfsizlik qoidalariga rioya qiling:",
+          "items": [
+            "Qayta ishlash faqat salonda odamlar bo'lmaganda o'tkaziladi",
+            "Ozonatorni yoqgandan so'ng darhol avtobusdan chiqing",
+            "Qayta ishlash davri tugaguncha eshiklar ochilmaydi",
+            "Qayta ishlashdan keyin — majburiy havolantirish 15-20 daqiqa",
+            "Agar erta kirish kerak bo'lsa — ko'mir filtri bilan respirator ishlating",
+            "Ozonatorni havolantiriladigan xonada saqlang"
+          ]
+        }
+      }
+    }
+  }
+}

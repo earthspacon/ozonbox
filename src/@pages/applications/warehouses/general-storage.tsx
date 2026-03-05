@@ -4,7 +4,7 @@ import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 import { Layout } from '@/widgets/layout'
 
 import { getSubcategoryById } from '@/shared/config/applications-data'
-import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { getSubcategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
 import {
   ArticleHero,
   ArticleSection,
@@ -32,7 +32,7 @@ const GS = 'subcategories.general-storage'
 
 export function GeneralStoragePage({ staticData, lang }: GeneralStoragePageProps) {
   const { t } = useTranslate()
-  const ns = getCategoryNamespace('warehouses')
+  const ns = getSubcategoryNamespace('warehouses', 'general-storage')
   const subcategory = getSubcategoryById('warehouses', 'general-storage')
   const data = (staticData as any)[`${lang}:${ns}`]?.subcategories?.['general-storage']
 

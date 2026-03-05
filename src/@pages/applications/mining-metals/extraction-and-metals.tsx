@@ -3,7 +3,7 @@ import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { getSubcategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
 import {
   ArticleHero,
   ArticleSection,
@@ -29,7 +29,7 @@ interface ExtractionAndMetalsPageProps {
 
 export function ExtractionAndMetalsPage({ staticData, lang }: ExtractionAndMetalsPageProps) {
   const { t } = useTranslate()
-  const ns = getCategoryNamespace('mining-metals')
+  const ns = getSubcategoryNamespace('mining-metals', 'extraction-and-metals')
 
   const categoryData = (staticData as Record<string, { subcategories?: { 'extraction-and-metals'?: any } }>)[
     `${lang}:${ns}`

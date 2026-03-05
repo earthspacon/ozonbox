@@ -1,0 +1,282 @@
+{
+  "title": "Oziq-ovqat ishlab chiqarish",
+  "description": "Oziq-ovqat zavehlarin ozonatsiya qo'llanilishi mahsulot xavfsizligini ta'minlaydi, saqlash muddatini uzaytiradi va HACCP talablariga javob beradi. Kimyoviy konservantlarga ekologik toza muqobil.",
+  "subcategories": {
+    "cold-storage": {
+      "title": "Sovuq saqlash",
+      "shortDesc": "Sovuq ombor dezinfeksiyasi va deodoratsiyasi",
+      "content": "Sovuq xonalari va omborlarini ozonatsiya qilish oziq-ovqat saqlash muddatini uzaytirish va hidilarni bartaraf qilish uchun isbotlangan texnologiya. U \"ho'l\" dezinfeksiya usullariga nisbatan katta afzalliklarga ega.\n\nIshlov berish kamerani issiqmasdan yoki mahsulotni ochirib olmasdan bajarilishi mumkin. Massa haroratida ozonatsiya samaradorroq. Kamera faoliyatni to'xtash eski usullarga nisbatan taxminan 5 baravar kamaytirish bilan o'tadi.\n\nBo'sh kameralar uchun 35–40 mg/m³ 24 soat tavsiya etiladi. Yuklangan kameralar uchun 2–10 mg/m³ mahsulot turiga ko'ra. Ozone bakteriya flora bosgiradi, ko'plakni oldini oladi va xira hidni bartaraf qiladi.",
+      "benefits": [
+        "Yuklangan kameralarni ishlov berish",
+        "Minus haroratda ishlash",
+        "Taxminan 5× saqlash muddat qisqarishi",
+        "Xira hidilarni bartaraf qilish",
+        "Energiya tejash",
+        "Kimyoviy qoldiqlar yo'q"
+      ],
+      "stats": {
+        "downtimeReduction": {
+          "value": "5x",
+          "label": "Tezroq",
+          "description": "Kamera ishlov berish faoliyatni to'xtash qisqarishi"
+        },
+        "emptyChamberConcentration": {
+          "value": "35-40",
+          "label": "mg/m³",
+          "description": "Bo'sh kameralar uchun kontsentratsiya"
+        },
+        "emptyChamberTime": {
+          "value": "24",
+          "label": "soat",
+          "description": "Bo'sh kameralarni ishlov berish vaqti"
+        },
+        "noWarming": {
+          "value": "0",
+          "label": "İsitish",
+          "description": "Massa haroratda ishlov berish"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Sovuq saqlash jarayonlarining dezinfeksiyasi va deodoratsiyasi axlatlanish va sifatning pasayishini oldini olish maqsadida saqlangan oziq-ovqat mahsulotlarning xavfsizligini ta'minlashning eng muhim sanitarliq va gigienik choralaridan biridir. Ozonatsiya \"ho'l\" dezinfeksiya usullariga nisbatan katta afzalliklarga ega.",
+          "paragraph2": "Amaliyot sovuq saqlash kameralari va omborlarini ozonatsiya qilish mahsulot saqlash muddatini uzaytirish, noxush hidilarni bartaraf qilish va ko'plak koloniyalari rivojlanishini oldini olish imkonini beradi — bu kamerani issiqmasdan yoki mahsulotlarni ochirib olmasdan.",
+          "instructionTitle": "SSRQ Savdo Vazirligi 1973 yo'riqlamasi:",
+          "instructionText": "\"Sovuq saqlash jarayonida ozonatsiya orqali dezinfeksiya va deodoratsiya\" — bo'sh kameralarni dezinfeksiya qilish uchun ishlash ozone kontsentratsiyasi: 35-40 mg/m³, ozonatsiya davomiyligi 24 soat."
+        },
+        "benefits": {
+          "title": "Sovuq saqlashni ozonatsiyaning afzalliklari",
+          "items": [
+            "Oziq-ovqat mahsulotlar bilan yuklangan kameralarni dezinfeksiya qilish imkoniyati",
+            "Kamerani issiqmasdan ishlov berish — samaradorlik massa haroratida oshadi",
+            "Kamera faoliyatni to'xtashni \"ho'l\" dezinfeksiyaga nisbatan 5 baravar qisqarishi",
+            "Sovuq saqlashda xira hidni qarshiga olish uchun lazim",
+            "Devorlarda, tora panjalarda, ilmaklar va pallatalarda bakteriya flora bosgirish",
+            "Saqlash devorlari, qutilar va qadoqlashda ko'plakni oldini olish",
+            "Energiya tejash — qayta sovutish shart emas",
+            "Minimal mehnat xarajatlari — avtomatik jarayonlar"
+          ]
+        },
+        "emptyChambers": {
+          "title": "Bo'sh kameralarni ozonatsiya qilish",
+          "intro": "Bo'sh kameralar ozonatsiyadan oldin qor, muz, mahsulot qoldiqlar va ko'rinarli ko'plak koloniyalardan tozalanadi. Qor \"qoplamasi\" olib tashlanganligi kerak. Kamera eshiklari mahkamlangan va hava kanallari damperlar bilan bloklangan.",
+          "tableCaption": "Ozonator to'xtamagandan keyin ozon tanabbusi vaqti",
+          "tableHeaders": [
+            "Boshlang'ich kontsentratsiya",
+            "Yakuniy kontsentratsiya",
+            "Vaqt (400 m³ gacha)",
+            "Vaqt (400 m³ dan ko'p)"
+          ],
+          "tableData": [
+            [
+              "40 mg/m³",
+              "20 mg/m³",
+              "0,4 soat",
+              "0,2 soat"
+            ],
+            [
+              "20 mg/m³",
+              "10 mg/m³",
+              "0,8 soat",
+              "0,4 soat"
+            ],
+            [
+              "10 mg/m³",
+              "5 mg/m³",
+              "1,2 soat",
+              "0,6 soat"
+            ],
+            [
+              "5 mg/m³",
+              "2,5 mg/m³",
+              "1,6 soat",
+              "0,8 soat"
+            ],
+            [
+              "2,5 mg/m³",
+              "0,1 mg/m³",
+              "3,6 soat",
+              "1,8 soat"
+            ]
+          ],
+          "warning": "Ko'plak va tiklanmagan hidilar bilan og'ir kontaminarlangan kameralar uchun ozonatsiya davomiyligi 36 ga orttirilishi mumkin, ba'zi hollarda — 48 soat gacha."
+        },
+        "loadedChambers": {
+          "title": "Yuklangan kameralarni ozonatsiya qilish",
+          "intro": "Xorijiy amaliyot ma'lumotlari va individual sovuq saqlash jarayonlarida ozonatsiya tatbiqi natijalariga asosan, mahsulot bilan yuklangan kameralar uchun quyidagi ozone kontsentratsiyalari tavsiya etiladi:",
+          "tableHeaders": [
+            "Mahsulot",
+            "Harorat",
+            "Kontsentratsiya",
+            "Vaqt",
+            "Chastotasi"
+          ],
+          "animalProductsTableCaption": "Hayvonot mahsulotlari uchun tavsiya etilgan ozonatsiya rejimi",
+          "animalProductsTableData": [
+            [
+              "Sovuq go'sht",
+              "-1...-4°C",
+              "8-10 mg/m³",
+              "4-5 s",
+              "Har ikki kunning"
+            ],
+            [
+              "Muzlatilgan go'sht",
+              "-18°C",
+              "10 mg/m³",
+              "3 s",
+              "Kuniga"
+            ],
+            [
+              "Murjon (sovuq)",
+              "-1...-4°C",
+              "8-10 mg/m³",
+              "2-3 s",
+              "Kuniga"
+            ],
+            [
+              "Murjon (muzlatilgan)",
+              "-18°C",
+              "8-12 mg/m³",
+              "3 s",
+              "Kuniga"
+            ],
+            [
+              "Kolbasa mahsulotlari",
+              "+12°C",
+              "3-10 mg/m³",
+              "3-4 s",
+              "Har 2-3 kunning"
+            ],
+            [
+              "Pishloq",
+              "-4...+4°C",
+              "3-4 mg/m³",
+              "5-7 s",
+              "Har 2-3 kunning"
+            ],
+            [
+              "Tuxumlar",
+              "-1,5...+0,5°C",
+              "3-6 mg/m³",
+              "3-5 s",
+              "Hid paydo bo'lganda"
+            ]
+          ],
+          "vegetableProductsTableCaption": "Mevalar va sabzavotlar uchun tavsiya etilgan ozonatsiya rejimi",
+          "vegetableProductsTableData": [
+            [
+              "Kartoshka",
+              "+2...+3°C",
+              "10-15 mg/m³",
+              "6 s",
+              "Har 10 kunning"
+            ],
+            [
+              "Sabzi",
+              "0...-1°C",
+              "15-30 mg/m³",
+              "6 s",
+              "Har 8-10 kunning"
+            ],
+            [
+              "Olma",
+              "0...-2°C",
+              "1-3 mg/m³",
+              "0,5-2 s",
+              "Kuniga"
+            ],
+            [
+              "Piyoz",
+              "-1...-3°C",
+              "25-30 mg/m³",
+              "5-6 s",
+              "Har 3 kunning"
+            ],
+            [
+              "Angu",
+              "0...-2°C",
+              "4-6 mg/m³",
+              "3 s",
+              "Kuniga"
+            ]
+          ]
+        },
+        "comparison": {
+          "title": "Sovuq saqlash kameralari dezinfeksiya usullari taqqoslanishi",
+          "headers": [
+            "Parametr",
+            "Ozonatsiya",
+            "\"Ho'l\" dezinfeksiya"
+          ],
+          "rows": [
+            {
+              "parameter": "Mahsulotni ochirib olish",
+              "value1": "Shart emas",
+              "value2": "Talab qilinadi"
+            },
+            {
+              "parameter": "Kamerani issiqish",
+              "value1": "Shart emas",
+              "value2": "Talab qilinadi"
+            },
+            {
+              "parameter": "Faoliyatni to'xtash",
+              "value1": "24 soat",
+              "value2": "5-7 kun"
+            },
+            {
+              "parameter": "Energiya sarfiyati",
+              "value1": "Minimal",
+              "value2": "Sezilarli"
+            },
+            {
+              "parameter": "Mehnat xarajatlari",
+              "value1": "Minimal",
+              "value2": "Yuqori"
+            },
+            {
+              "parameter": "Kimyoviy qoldiqlar",
+              "value1": "Yo'q",
+              "value2": "Rinse talab qilinadi"
+            },
+            {
+              "parameter": "Erishilmasa joylarni ishlov berish",
+              "value1": "To'liq",
+              "value2": "Qiyin"
+            }
+          ]
+        },
+        "deodorization": {
+          "title": "Sovuq saqlash deodoratsiyasi",
+          "paragraph1": "Ozonatsiya sovuq saqlash va muzlatgichlar kameralarida paydo bo'ladigan xira hidga qarshiga olish uchun lazim. Deodoratsiya paytida, kameralar ozonator to'xtashdan keyin ventilatsiyasiz 24 soat saqlanadi — ozone butunlay kislorod holatiga aylanadi.",
+          "paragraph2": "Ozone noxush hidlarni keltirib chiqaradigan organik tarkiblar oksidlaydi va yo'q qiladi. Bu bir kamerani alohida mahsulotlar saqlash uchun birma-bir ishlatish imkonini beradi, hidning o'tish xavfisiz."
+        },
+        "organization": {
+          "title": "Ozonatsiya jarayonining tashkillanishi",
+          "intro": "Ozonatsiya qilinadigan kamerada, ozonator kamera o'rtasiga taxminan 1,2 m balandlikdagi stol ustiga o'rnatiladi. Ikkita yoki uchta ozonator bo'lsa, ular kamerada turli joyalarga o'rnatiladi ozone tekis taqsimoti uchun. Sovutish qulaylagichlarining ventilatorlari o'chiriladi.",
+          "recommendationTitle": "VNIKHI tavsiyasi:",
+          "recommendationText": "Ishlash kontsentratsiyasiga erishgandan keyin ozonatsiya samaradorligini oshirish uchun, ozone-hava aralashmasini aralashtirishni qisqa vaqtga ventilatorlarni yoqish tavsiya etiladi."
+        },
+        "advantages": {
+          "title": "Sovuq saqlash omborlari uchun afzalliklari",
+          "feature1": {
+            "title": "Yuklangan kameralarni ishlov berish",
+            "description": "Mahsulotlarni ochirib olmasdan va omborning faoliyatini to'xtamasdan dezinfeksiya qilish"
+          },
+          "feature2": {
+            "title": "Minus haroratda ishlash",
+            "description": "Ozonatsiya samaradorligi massa haroratida oshadi"
+          },
+          "feature3": {
+            "title": "Hidni bartaraf qilish",
+            "description": "Kimyoviy agentlarsiz to'liq kamera deodoratsiyasi"
+          },
+          "feature4": {
+            "title": "Resurslarni tejash",
+            "description": "Faoliyatni to'xtash 5× qisqarishi, energiya va mehnat tejashi"
+          }
+        }
+      }
+    }
+  }
+}

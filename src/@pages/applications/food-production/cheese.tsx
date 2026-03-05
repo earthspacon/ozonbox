@@ -3,7 +3,7 @@ import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { getSubcategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
 import {
   ArticleHero,
   ArticleSection,
@@ -28,7 +28,7 @@ interface CheesePageProps {
 
 export function CheesePage({ staticData, lang }: CheesePageProps) {
   const { t } = useTranslate()
-  const ns = getCategoryNamespace('food-production')
+  const ns = getSubcategoryNamespace('food-production', 'cheese')
 
   // get category data from staticData
   const categoryData = (staticData as Record<string, { subcategories?: { cheese?: any } }>)[`${lang}:${ns}`]

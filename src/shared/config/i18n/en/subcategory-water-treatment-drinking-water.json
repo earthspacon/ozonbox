@@ -1,0 +1,312 @@
+{
+  "title": "Water treatment",
+  "description": "Ozone is the most effective and eco-friendly water treatment method. 95% of drinking water in Europe is treated with ozone. It does not form dangerous byproducts like chlorine.",
+  "subcategories": {
+    "drinking-water": {
+      "title": "Drinking water",
+      "shortDesc": "Disinfection without chemicals or byproducts",
+      "heroTitle": "Drinking water ozonation",
+      "heroDesc": "Drinking water quality standard in developed countries. 95% of water in Europe is treated with ozone.",
+      "content": "Drinking water ozonation is the quality standard in developed countries. Ozone destroys all types of pathogens: bacteria, viruses, spores and cysts with up to 99.99% efficiency. Unlike chlorination, it does not form carcinogenic trihalomethanes.\n\nGiven the hazards of chlorination byproducts (halogenated compounds), alternative disinfection methods are preferred. Ozone is officially recommended as a safer alternative.\n\nOzonation improves water organoleptic properties: removes unpleasant taste and odor, improves color. Residual ozone decays to oxygen in 20–30 minutes, leaving no chemical traces.\n\nRecommended residual ozone in drinking water is 0.1–0.3 mg/L. Treatment is effective at any pH found in natural waters.",
+      "benefits": [
+        "99.99% disinfection",
+        "No carcinogenic byproducts",
+        "Improved taste and odor",
+        "Decay to pure oxygen",
+        "Compliance with drinking water standards",
+        "Effective at any pH"
+      ],
+      "technicalData": {
+        "ozoneDoze": "1-3 mg/L",
+        "residualOzone": "0.1-0.3 mg/L",
+        "contactTime": "4-10 minutes",
+        "disinfectionRate": "99.99%",
+        "phRange": "6.5-8.5"
+      },
+      "regulations": [
+        "Drinking water standards",
+        "Bottled water standards",
+        "Water quality norms"
+      ],
+      "stats": {
+        "disinfection": {
+          "value": "99.99%",
+          "label": "Disinfection",
+          "description": "Pathogen elimination"
+        },
+        "byproducts": {
+          "value": "0",
+          "label": "Byproducts",
+          "description": "Carcinogenic compounds"
+        },
+        "chlorine": {
+          "value": "3000×",
+          "label": "Stronger than chlorine",
+          "description": "Bactericidal activity"
+        },
+        "decay": {
+          "value": "O₂",
+          "label": "Decay",
+          "description": "Pure oxygen only"
+        }
+      },
+      "highlightBox": {
+        "regulation": {
+          "label": "Drinking water standards:",
+          "text": "Given the hazards of chlorination byproducts (halogenated compounds), alternative disinfection methods are preferred. Ozone is officially recommended as a safer alternative."
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Drinking water ozonation is the standard method of disinfection in developed countries: the majority of tap water in Europe is treated with ozone. Ozone destroys bacteria, viruses, protozoan cysts and spores with very high efficiency (up to 99.99%) and is significantly more effective than chlorine, especially against chlorine-resistant pathogens such as Cryptosporidium.",
+          "paragraph2": "Unlike chlorination, ozonation does not form carcinogenic byproducts such as trihalomethanes. It improves the taste and odor of water and reduces color. Residual ozone decays to oxygen within 20–30 minutes, leaving no chemical traces. Recommended residual ozone in drinking water at the consumer tap is 0.1–0.3 mg/L; systems must include proper contact time and, where required, degassing before distribution.",
+          "warningLabel": "Important:",
+          "warningText": "Residual ozone in drinking water must not exceed 0.1–0.3 mg/L at the point of use. Ozonation equipment must be designed and operated in accordance with drinking water standards, with adequate contact time and degassing so that water supplied to the distribution network meets regulatory limits."
+        },
+        "comparison": {
+          "title": "Water disinfection methods comparison",
+          "headers": [
+            "Parameter",
+            "Ozonation",
+            "Chlorination"
+          ],
+          "rows": [
+            {
+              "parameter": "Effectiveness against bacteria",
+              "value1": "99.99%",
+              "value2": "99.5%"
+            },
+            {
+              "parameter": "Effectiveness against viruses",
+              "value1": "99.99%",
+              "value2": "90-95%"
+            },
+            {
+              "parameter": "Effectiveness against cysts",
+              "value1": "99.9%",
+              "value2": "< 50%"
+            },
+            {
+              "parameter": "Disinfection time",
+              "value1": "2-10 minutes",
+              "value2": "30-60 minutes"
+            },
+            {
+              "parameter": "Byproducts",
+              "value1": "None (O₂)",
+              "value2": "Trihalomethanes (carcinogens)"
+            },
+            {
+              "parameter": "Effect on taste",
+              "value1": "Improves",
+              "value2": "Chlorine smell"
+            },
+            {
+              "parameter": "Effect on color",
+              "value1": "Reduces",
+              "value2": "No effect"
+            },
+            {
+              "parameter": "Prolonged action",
+              "value1": "No",
+              "value2": "Yes"
+            }
+          ]
+        },
+        "technicalParams": {
+          "title": "Ozonation technical parameters",
+          "tableCaption": "Recommended parameters for drinking water",
+          "tableHeaders": [
+            "Parameter",
+            "Value",
+            "Regulatory document"
+          ],
+          "tableData": [
+            [
+              "Ozone dose",
+              "1-3 mg/L",
+              "Depending on water quality"
+            ],
+            [
+              "Residual ozone",
+              "0.1-0.3 mg/L",
+              "Drinking water standards"
+            ],
+            [
+              "Contact time",
+              "4-10 minutes",
+              "At temperature 10-20°C"
+            ],
+            [
+              "Water pH",
+              "6.5-8.5",
+              "Optimal range"
+            ],
+            [
+              "Water temperature",
+              "4-25°C",
+              "Effective range"
+            ],
+            [
+              "Source water turbidity",
+              "< 2 NTU",
+              "Recommendation"
+            ]
+          ],
+          "infoLabel": "Important:",
+          "infoText": "Ozone dose of 1-3 mg/L ensures complete water disinfection. At high organic load, the dose is increased to 5 mg/L for oxidation of organic compounds."
+        },
+        "process": {
+          "title": "Ozonation process",
+          "steps": [
+            {
+              "title": "Pre-treatment",
+              "description": "Removal of mechanical impurities and suspended solids. Water turbidity should be < 2 NTU for effective ozonation."
+            },
+            {
+              "title": "Ozone generation",
+              "description": "Production of ozone from purified air or oxygen by corona discharge method. Ozone concentration in gas: 8-12% (from oxygen) or 2-3% (from air)."
+            },
+            {
+              "title": "Ozone dissolution",
+              "description": "Mixing ozone-air mixture with water through ejector or bubbler. Dissolution efficiency: 85-95%."
+            },
+            {
+              "title": "Contact chamber",
+              "description": "Water retention in contact chamber for 4-10 minutes to complete oxidation and disinfection reactions."
+            },
+            {
+              "title": "Degassing",
+              "description": "Removal of residual ozone from water before supply to distribution network. Residual concentration: < 0.1 mg/L."
+            },
+            {
+              "title": "Post-chlorination (optional)",
+              "description": "Addition of minimal chlorine dose (0.3-0.5 mg/L) for prolonged effect in distribution network."
+            }
+          ]
+        },
+        "pathogens": {
+          "title": "What ozone destroys in drinking water",
+          "items": [
+            "Bacteria: E.coli, salmonella, cholera vibrio, legionella — 99.99% in 2 minutes",
+            "Viruses: hepatitis A, rotaviruses, enteroviruses, noroviruses — 99.99% in 4 minutes",
+            "Protozoa: giardia, cryptosporidium (chlorine-resistant!) — 99.9% in 5 minutes",
+            "Bacterial spores: anthrax, clostridia — 99% in 10 minutes",
+            "Organic pollutants: phenols, pesticides, oil products — oxidation to CO₂ and H₂O",
+            "Iron and manganese: oxidation to insoluble forms for subsequent filtration"
+          ]
+        },
+        "effectiveness": {
+          "title": "Disinfection effectiveness",
+          "tableCaption": "Pathogen inactivation time (CT value, mg×min/L)",
+          "tableHeaders": [
+            "Pathogen",
+            "Ozone",
+            "Chlorine",
+            "UV (mJ/cm²)"
+          ],
+          "tableData": [
+            [
+              "E. coli",
+              "0.02",
+              "0.4",
+              "7"
+            ],
+            [
+              "Poliovirus",
+              "0.3",
+              "1.7",
+              "30"
+            ],
+            [
+              "Rotavirus",
+              "0.4",
+              "3.5",
+              "40"
+            ],
+            [
+              "Giardia (cysts)",
+              "0.6",
+              "50",
+              "80"
+            ],
+            [
+              "Cryptosporidium",
+              "3.0",
+              "> 7200",
+              "12"
+            ]
+          ],
+          "highlightBox": "Ozone is especially effective against cryptosporidium — parasites causing diarrhea. They are practically resistant to chlorination (requires more than 7200 mg×min/L of chlorine for inactivation), but vulnerable to ozone."
+        },
+        "benefits": {
+          "title": "Benefits of drinking water ozonation",
+          "items": [
+            {
+              "title": "Safety",
+              "description": "Does not form carcinogenic byproducts. Decays to oxygen in 20-30 minutes."
+            },
+            {
+              "title": "Effectiveness",
+              "description": "Destroys 99.99% of pathogens, including chlorine-resistant cryptosporidium."
+            },
+            {
+              "title": "Quality improvement",
+              "description": "Eliminates unpleasant taste and odor, improves water color."
+            },
+            {
+              "title": "Regulatory compliance",
+              "description": "Full compliance with drinking water standards and international standards."
+            }
+          ]
+        },
+        "productivity": {
+          "title": "Ozonation system productivity",
+          "tableCaption": "Recommended equipment for water treatment",
+          "tableHeaders": [
+            "Station capacity",
+            "Ozonator power",
+            "Contact chamber"
+          ],
+          "tableData": [
+            [
+              "10 m³/h",
+              "20-30 g/h",
+              "1-2 m³"
+            ],
+            [
+              "50 m³/h",
+              "100-150 g/h",
+              "5-10 m³"
+            ],
+            [
+              "100 m³/h",
+              "200-300 g/h",
+              "10-20 m³"
+            ],
+            [
+              "500 m³/h",
+              "1000-1500 g/h",
+              "50-100 m³"
+            ],
+            [
+              "1000 m³/h",
+              "2000-3000 g/h",
+              "100-200 m³"
+            ]
+          ]
+        },
+        "regulations": {
+          "title": "Regulatory framework",
+          "items": [
+            "Drinking water standards «Drinking water. Hygienic requirements for water quality»",
+            "Bottled water standards «Drinking water. Hygienic requirements for bottled water»",
+            "GOST R 51232-98 «Drinking water. General requirements for organization and quality control methods»",
+            "MUK 4.3.2030-05 «Control methods. Physical factors. Ozone and its hygienic regulation»",
+            "GN 2.1.5.1315-03 «Maximum permissible concentrations of chemicals in water bodies»"
+          ]
+        }
+      }
+    }
+  }
+}

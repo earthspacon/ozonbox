@@ -1,0 +1,218 @@
+{
+  "title": "Tozalash",
+  "description": "Tozalash kompaniyalari uchun professional ozonlash: chuqur hidlarni olib tashlash, yong'in sodir bo'lgandan keyin tozalash, hayvon hidlarini olib tashlash, avtomobillarni ozonlash va qalipcha va mebel yuzalarini chuqur tozalash.",
+  "subcategories": {
+    "pet-odors": {
+      "title": "Hayvon hidlari",
+      "shortDesc": "Mushuk va it suylasni hidini olib tashlash",
+      "content": "Hayvon hidlari, xususan mushuk suylasi, eng qiyin olib tashlanishi kerak hidlardan biridir. Uriy kislota ipak tolalarida kristallizatsiyaga uchrasa va namlikka javob beradi, keskin ammonyak hidi chiqadi. Oddiy mahsulotlar muammoni vaqtinchalik yashiradi.\n\nOzon uriy kislota kristallarini molekulyar darajada buzib, hidarning manbasini to'liq olib tashlaydi. Gas mebel, qalipcha, o'rindiqlar va plintuslar — hayvonlar iz qo'ygan barcha yerga kirib oladi.\n\nSamarali ishlov berish uchun avval ko'rinib turadigan doglarni ferment tozalagai bilan tozalang, so'ng yuzalarni quritng. Ozonlash 20-40 mg/m³ da 4-8 soat ishlaydi. Og'ir holatlar 2-3 ta siklani talab qilishi mumkin.\n\nMuhim: ozonlash odamlar va hayvonlar ishtirokisiz amalga oshiriladi. Ishlov berishdan keyin xarakterli ozon hidi yo'q bo'lguniga qadar 1-2 soat ventillyatsiya qiling.",
+      "benefits": [
+        "Uriy kislota kristallarini buzish",
+        "Mebel va qalipchani tozalash",
+        "Qo'l yetib bo'lmagan joylardagi izlarni olib tashlash",
+        "Bakteriya va zamburuqlari yo'q qilish",
+        "Sotish yoki ijaraga tayyorlash",
+        "Ferment tozalashdan ko'proq samarador"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "100%",
+          "label": "Yo'q qilish",
+          "description": "Uriy kislota kristallarining"
+        },
+        "stat2": {
+          "value": "4-8 h",
+          "label": "Ishlov berish vaqti",
+          "description": "Standart tartib"
+        },
+        "stat3": {
+          "value": "2-3",
+          "label": "Sikllar",
+          "description": "Og'ir ifloslanish uchun"
+        },
+        "stat4": {
+          "value": "99.9%",
+          "label": "Bakteriya",
+          "description": "Qo'shimcha yo'q qilish"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Hayvon hidlari, xususan mushuk suylasi, tozalash kompaniyalari bilan bog'lanishning eng keng tarqalgan sabablari. Bu hidni odiy vositalarga yo'qotish deyarli mumkin emas. Havo toza qilish spreylar muammoni yashirinadi, va hid doimiy qaytib keladi, ayniqsa nam hava sharoitida.",
+          "text2": "Hidarning doimiyligi sababni uriy kislotadir. Suylasning boshqa komponentlaridan (urea va uroxrom) farqli o'laroq, u suvda erimagani va ipak tolalarida kristallizatsiyaga uchrasa. Namlik ko'paygan vaqtda kristallar faol bo'lib qaytib ketadi va keskin ammonyak hidi chiqaradi."
+        },
+        "highlight1": {
+          "title": "Nima uchun odiy mahsulotlar ishlama:",
+          "text": "Aksariyat tozalash mahsulotlari suylasa suv-eritma komponentlarini olib tashlasa, tozalashning vahimi hosil qiladi. Lekin uriy kislota kristallar ipak tolalarida qoladi va namlik ko'paygan vaqtda faol bo'ladi. Ozon bu kristallarni kimyoviy tarzda buzadi, natija doimiy bo'ladi."
+        },
+        "howItWorks": {
+          "title": "Ozon hayvon hidlarini qanday yo'q qiladi",
+          "text": "Ozon uriy kislotaning molekulyar tuzilishini buzib quvvat oksidlovchi. Gas bo'lgani uchun mebel, qalipcha, o'rindiqlar, plintuslar, pol siziqlar — suyla kirib o'tgan barcha yerga kirib oladi.",
+          "items": [
+            "Uriy kislota kristallarini xavfsiz birikmalarga oksidlashi",
+            "Porl materiallarga to'liq chuqur kirib oladi",
+            "Qo'l yetib bo'lmagan joylarni tozaladi (mebelning ostida, plintusning ortida)",
+            "Qo'shimcha hid sababchi bakteriyalarni yo'q qiladi",
+            "Hayvonlar hududini belgilash uchun ishlataydigan feromon tutdirishlarni neytrallashtiradi",
+            "Ishlov berishdan keyin kimyoviy qoldiq qolmaydi"
+          ]
+        },
+        "types": {
+          "title": "Hayvon hidlarining turlari",
+          "tableHeaders": [
+            "Hid manbasi",
+            "Xususiyatlari",
+            "Ishlov berish rejimi"
+          ],
+          "tableCaption": "Turli xil hidlarning xususiyatlari va tedavi usullari",
+          "tableData": [
+            [
+              "Mushuk suylasi",
+              "Eng doimiy, uriy kislotani o'z ichiga oladi",
+              "40-60 mg/m³, 6-8 soat, 2-3 sikllar"
+            ],
+            [
+              "It suylasi",
+              "Kam konsentrat, olib tashlash osonroq",
+              "20-40 mg/m³, 4-6 soat, 1-2 sikllar"
+            ],
+            [
+              "Izlar (hududni belgilash)",
+              "Konsentat, feromon bilan",
+              "40-60 mg/m³, 8-12 soat, 2-3 sikllar"
+            ],
+            [
+              "Sochni hidi",
+              "Organik, sebumdan",
+              "10-20 mg/m³, 2-4 soat, 1 siklada"
+            ],
+            [
+              "Tualet qutiidagi hid",
+              "Suyla va najas qoldig'i",
+              "20-40 mg/m³, 4-6 soat, 1-2 sikllar"
+            ]
+          ]
+        },
+        "process": {
+          "title": "Hayvon hidlarini olib tashlash uchun ozonlash jarayoni",
+          "steps": [
+            {
+              "title": "Manba lokalizatsiyasi",
+              "description": "Hayvonlar siz qoldirishdagi barcha joylarni aniqlang. Ultraviolet chiroq ishlating — suyla ultravoyoleta nuri ostida pomsaladi. Aniqlangan barcha joylarni belgilang."
+            },
+            {
+              "title": "Dastlabki tozalash",
+              "description": "Ko'rinib turadigan doglarni ferment tozalagai bilan tozalang. U suyla organik komponentlarni buzadi. Ozonlashdan oldin to'liq quritng."
+            },
+            {
+              "title": "Xonani tayyorlash",
+              "description": "Hayvonlar va o'simliklar olib chiqing. Oynalar, eshiklar, ventillyatsiyani yoping. Perdalar va qora parde ozonning yaxshi kirishi uchun ko'taring."
+            },
+            {
+              "title": "Ozonlash",
+              "description": "Ozon generatorini xona markaziga qo'ying. 20-60 mg/m³ konsentratsiyada 4-8 soat ishlating. Tekis taqsimot uchun ventilyatordan foydalaning."
+            },
+            {
+              "title": "Baholash va qayta tedavi",
+              "description": "Xonani 1-2 soat ventillyatsiya qiling. Natijani baholang. Og'ir ifloslanish uchun 24 soatdan keyin tedavini takrorlang. Odatda 2-3 ta siklda kerak."
+            }
+          ]
+        },
+        "comparison": {
+          "title": "Hid olib tashlash usullarini solishtirish",
+          "tableTitle": "Ozonlash vs odiy mahsulotlar",
+          "headers": [
+            "Mezon",
+            "Ozonlash",
+            "Ferment/kimyoviy mahsulotlar"
+          ],
+          "rows": [
+            {
+              "parameter": "Ishlash printsipi",
+              "value1": "Molekula yo'q qilish",
+              "value2": "Ferment buzilishi"
+            },
+            {
+              "parameter": "Kirib olish chuqurliği",
+              "value1": "Materialning to'liq qalinligi",
+              "value2": "Faqat sirt"
+            },
+            {
+              "parameter": "Qo'l yetib bo'lmagan joylar",
+              "value1": "Ha (gaz hamma yerga kirib oladi)",
+              "value2": "Yo'q (faqat qo'l tozalash)"
+            },
+            {
+              "parameter": "Ta'sirning davomiyligi",
+              "value1": "Doimiy",
+              "value2": "Takrorlashni talab qilishi mumkin"
+            },
+            {
+              "parameter": "Ishlov berish vaqti",
+              "value1": "4-8 soat (avtomat)",
+              "value2": "1-24 soat (qo'lbola mehnati)"
+            },
+            {
+              "parameter": "Dezinfektsiya",
+              "value1": "Ha (bakteriyalarni o'ldiradi)",
+              "value2": "Qisman"
+            }
+          ]
+        },
+        "specialCases": {
+          "title": "Maxsus tedavi hollari",
+          "features": [
+            {
+              "title": "Ko'p mushukli apartament",
+              "description": "Perimetr atrofida ko'p izlar. Yuqori konsentratsiyada 3-4 ta ozonlash siklasi talab"
+            },
+            {
+              "title": "Yog'och pol",
+              "description": "Suyla yog'ochga kiradi. Ozonlash yog'ochni almashtirmasdan tozalashning yagona usuli"
+            },
+            {
+              "title": "Sotish/ijaraga tayyorlash",
+              "description": "Xaridorlar hidlarga sezgir. Hayvonlar bilan apartamentlar uchun ozonlash majbur"
+            },
+            {
+              "title": "Mebel to'shirma",
+              "description": "Divanlar va kreslo ulama belgilash sevimi. Film bilan yopib lokal tozalash mumkin"
+            }
+          ]
+        },
+        "localTreatment": {
+          "title": "Lokal mebel tozalashi",
+          "text": "Agar hid ma'lum mebel bo'lasiga qaniqo'y bo'lsa, kamera ozonlashi amalga oshirish mumkin:",
+          "items": [
+            "Narsani plastik film bilan qoplab \"kamera\" hosil qiling",
+            "Tekislaring sealing uchun polga bosing",
+            "Ozon generatordan shlangi film ostiga o'tkazing",
+            "Ozon generatorni 2-4 soat ishlating",
+            "Bu narsada to'g'ridan-to'g'ri yuqori ozon konsentratsiyani hosil qiladi",
+            "Ishlov berishdan keyin 30-60 daqiqa ventillyatsiya qiling"
+          ],
+          "highlight": {
+            "title": "Maslahat:",
+            "text": "Mebel to'shirmani tozalashda ta'siri kuchaytirish uchun yuzani spreylovchi bilan engilish nam qiling. Namlik uriy kislota kristallarini faol qiladi, ularni ozonning oksidlashiga yanada oson kiritadi."
+          }
+        },
+        "prevention": {
+          "title": "Qayta ifloslanishni oldini olish",
+          "text": "Ozonlashdan keyin izlar qaytib kelishini oldini olish muhim:",
+          "items": [
+            "Izlarning sababini yo'q qiling (stress, kasallik, boshqa hayvonlar bilan to'qnashuv)",
+            "Xavotirni kamaytirish uchun feromon tarqatgichlardan foydalaning",
+            "Etarli tualet qutilari ta'minini qiling (qoida N+1, N – mushuklar soni)",
+            "Tualet qutisini muntazam tozalang — brudli qutisi izlar qoldirishga undaydi",
+            "Zarur bo'lsa, hayvonni sterilizatsiya qiling",
+            "Taza izlarni tez olib tashlash uchun ferment tozalashlardan foydalaning"
+          ],
+          "highlight": {
+            "title": "Xavfsizlik:",
+            "text": "Ozonlash hayvonlar to'liq bo'lmay amalga oshiriladi! Ozon hayvonlar va odamlar uchun xavflidi. To'liq ventillyatsiyadan (1-2 soat) keyin hayvonlarni xonaga qaytaring."
+          }
+        }
+      }
+    }
+  }
+}

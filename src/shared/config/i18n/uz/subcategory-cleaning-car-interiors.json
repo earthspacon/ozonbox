@@ -1,0 +1,286 @@
+{
+  "title": "Tozalash",
+  "description": "Tozalash kompaniyalari uchun professional ozonlash: chuqur hidlarni olib tashlash, yong'in sodir bo'lgandan keyin tozalash, hayvon hidlarini olib tashlash, avtomobillarni ozonlash va qalipcha va mebel yuzalarini chuqur tozalash.",
+  "subcategories": {
+    "car-interiors": {
+      "title": "Avtomobil ichining tozalashi",
+      "shortDesc": "Avtomobillarning dezinfektsiyasi va dehidli bilan tozalashi",
+      "content": "Avtomobil ichini ozonlash avtomobil yuvish stansiyalari va detailing markazlarida keng tarqalgan xizmat. Vaqt o'tgan sari hidlar to'planadi: tutun, to'kilgan ichimliklar, ovqat, ter, hayvonlar. Ular o'rindiq to'shimmasiga, qalipchaga, shiftga va konditsioner kanallariga kirib oladi.\n\nOzon barcha ichidagi materiallarga, shu jumladan ventillyatsiya va konditsionerga kirib oladi. Bu ayniqsa muhim, chunki bakteriya va zamburuq ko'pincha kanallarda to'planadi va konditsioner yoqilgan vaqtda hid chiqaradi.\n\nStandart avtomobil ozonlashi 30-60 daqiqada amalga oshiriladi. Ozon generatori ichida qo'yiladi, ventillyatsiya tizimi bilan ish qilish uchun qayta aylantirilish yoqiladi. Ozon konsentratsiyasi: 20-40 mg/m³. Ishlov berishdan keyin 15-30 daqiqada ventillyatsiya qiling.\n\nIshlatilgan avtomobillarni ozonlash \"avvalgi egasining hidi\" ni olib tashlashga yordam beradi. Dilerlik va avtomobil ijarashi uchun muntazam ozonlash flotlarni toza va gigienik qilib saqlaydi.",
+      "benefits": [
+        "30-60 daqiqada tozalash",
+        "Konditsioner tizimini dezinfektsiya",
+        "Tutun hidini olib tashlash",
+        "Sotishga tayyorlash",
+        "Kimyoviy qoldiqlar yo'q",
+        "Bakteriya va zamburuqlari yo'q qilish"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "30-60",
+          "label": "Daqiqalar",
+          "description": "Standart ichidagi tozalash"
+        },
+        "stat2": {
+          "value": "99.9%",
+          "label": "Bakteriya",
+          "description": "Ventillyatsiya tizimida yo'q qilish"
+        },
+        "stat3": {
+          "value": "15",
+          "label": "Daqiqalar",
+          "description": "Ishlov berishdan keyin ventillyatsiya"
+        },
+        "stat4": {
+          "value": "0",
+          "label": "Izlar",
+          "description": "Ichida kimyoviy qoldiqlar"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Avtomobil ichini o'rindiqlar, qalipchalar, shiftlar, ventillyatsiya va konditsioner tizimi kabi tekstil elementlariga tez hidlar to'planadi: tutun chigiti, ter, ovqat, ichimliklar, hayvonlar.",
+          "text2": "Quruq tozalash axlatni va doglarni olib tashlaydi, lekin doimiy hidlarni har doim hal qila olmaydi. Havo toza qilish spreylar va deodorantlar muammoni yashirinadi. Ozonlash konditsioner kanallaridagi hidlar bilan, hid molekulalarini to'liq yo'q qilish usuli."
+        },
+        "highlight1": {
+          "title": "Muhim:",
+          "text": "Konditsioner yoqilgan vaqtda yoqimsiz hid — ventillyatsiya tizimida bakteriya va zamburuqlar rivojlanishi belgisi. Odiy ichidagi tozalash ularni yo'q qila olmaydi. Ozon barcha kanallarga kirib oladi va muammoni manbada hal qiladi."
+        },
+        "problems": {
+          "title": "Ozonlash qanday muammolarni hal qiladi",
+          "items": [
+            "Tutun hidi — to'shimma, shiftga, plastikga o'rappilangan",
+            "Avvalgi egasining hidi — ishlatilib bo'lgan avtomobil xarid qilishda",
+            "Ovqat va ichimlik hidlari — to'kilgan qahva, tez ovqat, bulg'angan mahsulotlar",
+            "Hayvon hidlari — so'ch, saliqa, izlar",
+            "Nam va kokat hidi — suv to'kish keyin yoki uzoq saqlashdan",
+            "Konditsionerdagi bakteriya — yoqilgan vaqtda yoqimsiz hid sababi"
+          ]
+        },
+        "process": {
+          "title": "Avtomobil ozonlash jarayoni",
+          "steps": [
+            {
+              "title": "Ichini tayyorlash",
+              "description": "Standart tozalashni amalga oshiring: so'rilash, plastik yuzalarni silash. Axlatlarni va shaxsiy narsalarni olib chiqing. Pol kovsalarni alohida tozalash uchun olib chiqing."
+            },
+            {
+              "title": "Ozon generatorini qo'yish",
+              "description": "Ozon generatorini ichida oldi o'rindiqda yoki polda qo'ying. Barcha oyna va eshiklarni yoping. Tashqi generatordan foydalanish bilan quvvat shlangi uchun kichik bo'shliq qoldiring."
+            },
+            {
+              "title": "Ventillyatsiya tizimi tozalashi",
+              "description": "Zal yoqing, hava qayta aylantirilish rejimini o'rnating, ventilyatorni maksimalga o'rnating. Bu ozonning konditsioner tizimi orqali aylanishini ta'minlaydi."
+            },
+            {
+              "title": "Ozonlash",
+              "description": "Ozon generatorni 20-40 mg/m³ konsentratsiyada 20-40 daqiqada ishlating. Kuchli hidlar uchun — 60 daqiqacha. Ishlov berish paytida avtomobilni tark eting."
+            },
+            {
+              "title": "Ventillyatsiya",
+              "description": "Barcha eshiklar va oynalarni oching. 15-30 daqiqada ventillyatsiya qiling. Konditsionerini toza hava kiritish rejimiga yoqing. Avtomobil foydalanishga tayor."
+            }
+          ]
+        },
+        "modes": {
+          "title": "Turli vazifalar uchun tedavi rejimlar",
+          "tableHeaders": [
+            "Ifloslanish turi",
+            "Konsentratsiya",
+            "Vaqti",
+            "Xususiyatlari"
+          ],
+          "tableCaption": "Tavsiya etilgan avtomobil ichini ozonlash parametrlari",
+          "tableData": [
+            [
+              "Yengil hidlar",
+              "10-20 mg/m³",
+              "20 min",
+              "Oldini oluvchi tozalash"
+            ],
+            [
+              "Tutun (yengil)",
+              "20-30 mg/m³",
+              "30 min",
+              "Tutun ichkiliylini yo'qotgan keyin"
+            ],
+            [
+              "Tutun (kuchli)",
+              "30-40 mg/m³",
+              "45-60 min",
+              "Muntazam tutun ichkiliyli avtomobil"
+            ],
+            [
+              "Hayvon hidlari",
+              "30-40 mg/m³",
+              "40-60 min",
+              "Qayta aylantirilish bilan"
+            ],
+            [
+              "Suv to'kish keyin",
+              "40-60 mg/m³",
+              "60 min",
+              "Ichini quriturggandan keyin"
+            ],
+            [
+              "Konditsioner dezinfektsiyasi",
+              "20-30 mg/m³",
+              "30 min",
+              "Faqat qayta aylantirilish"
+            ]
+          ]
+        },
+        "service": {
+          "title": "Avtomobil yuvash va detailing xizmati sifatida ozonlash",
+          "text": "Avtomobil yuvash va detailing markazlari uchun ozonlash yuqori marginli qo'shimcha xizmat. Jihozlar kompakt, toza talabi yo'q, faol mijozlar reklama bilan 1-2 oy ichida to'lanadi.",
+          "features": [
+            {
+              "title": "Yuqori foydalanilishi",
+              "description": "Ishlov berish xarajati elektr energiya. O'rtacha xizmat narxi: $20-40"
+            },
+            {
+              "title": "Tezlik bajarilish",
+              "description": "30-60 daqiqada tozalash uchun. Quruq tozalash yoki polishing bilan parallel qilish mumkin"
+            },
+            {
+              "title": "Oddiy operatsiyalar",
+              "description": "Generatorni qo'ying, yoqing, tark eting. Malaka olgan xodim talab qilmaydi"
+            },
+            {
+              "title": "Quruq tozalashga to'ldirish",
+              "description": "Quruq tozalashdan keyin ozonlash — yuqori narxli komplementar xizmat"
+            }
+          ],
+          "highlight": {
+            "title": "Marketing maslahat:",
+            "text": "Ozonlashni avvalgi sot avtomobilini tayyorlashning majburi qismi sifatida taqdim eting. Ishlatilib bo'lgan avtomobil xaridorlar chet hidlarga xususan sezgir — bu sotuvni rad etishning keng tarqalgan sababi."
+          }
+        },
+        "carsharing": {
+          "title": "Avtomobil ijarashi va taksilarda ozonlash",
+          "text": "Taksi va avtomobil ijarasha flotlari muntazam ozonlash uchun ideal mijozlar:",
+          "items": [
+            "Yuqori aylanma — har kun ko'p turli yo'lovchilar",
+            "Hid to'planishi — yo'lovchilarning ovqati, ichimliklari, parfyumi, tutuni",
+            "Gigienik talablari — ayniqsa pandemiyadan keyin dolzarb",
+            "Nom riski — hid shikoyatlari reytingni pasaytiradi",
+            "Muntazamlik — xizmat shartnomasini imkoniyligi"
+          ],
+          "tableHeaders": [
+            "Flot turi",
+            "Tavsiya etilgan chastotasi",
+            "Maqsadi"
+          ],
+          "tableCaption": "Tavsiya etilgan ozonlash chastotasi",
+          "tableData": [
+            [
+              "Avtomobil ijarashi",
+              "Haftaliga bir marta",
+              "Hid to'planishni oldini olish"
+            ],
+            [
+              "Iqtisodiy taksi",
+              "Har 2 hafta",
+              "Ichidagi toz qilish"
+            ],
+            [
+              "Biznes/qulaylik taksi",
+              "Haftaliga bir marta",
+              "Yuqori sifat standardi"
+            ],
+            [
+              "Ijaradagi avtomobillar",
+              "Har bir mijozdan keyin",
+              "Keyingi ijaraga tayyorlash"
+            ],
+            [
+              "Korporativ transport",
+              "Oyiga bir marta",
+              "Oldini oluvchi tozalash"
+            ]
+          ]
+        },
+        "comparison": {
+          "title": "Alternativ usullar bilan solishtirish",
+          "tableTitle": "Ozonlash vs kimyoviy havo toza qilish spreylar",
+          "headers": [
+            "Parametr",
+            "Ozonlash",
+            "Spreylar/deodorantlar"
+          ],
+          "rows": [
+            {
+              "parameter": "Ishlash printsipi",
+              "value1": "Hid molekulalarini yo'q qilish",
+              "value2": "Boshqa hidlar bilan yashirish"
+            },
+            {
+              "parameter": "Ventillyatsiya tizimi",
+              "value1": "To'liq tozalash",
+              "value2": "Tozalanmadi"
+            },
+            {
+              "parameter": "Ta'sirning davomiyligi",
+              "value1": "Doimiy (yangi ifloslanish paytiga qadar)",
+              "value2": "Vaqtinchalik (soat/kunlar)"
+            },
+            {
+              "parameter": "Dezinfektsiya",
+              "value1": "Ha (bakteriyalarni o'ldiradi)",
+              "value2": "Yo'q"
+            },
+            {
+              "parameter": "Xavfsizlik",
+              "value1": "O₂ ga parchalanadi",
+              "value2": "Kimyoviy birikmalari"
+            },
+            {
+              "parameter": "Ishtirok talab",
+              "value1": "Yo'q (avtomat)",
+              "value2": "Tadbiq talab qiladi"
+            }
+          ]
+        },
+        "interiors": {
+          "title": "Turli xil ichidagi turlar bilan ishlash",
+          "highlight": {
+            "title": "Muhim:",
+            "text": "Teri ichidagi ozonlashdan keyin, terisini konditsioner bilan tozalash tavsiya etiladi. Ozon natural terini biroz quritishi mumkin, lekin to'g'ri konsentratsiyalarda bu kritik emas."
+          },
+          "tableHeaders": [
+            "Ichidagi turi",
+            "Xususiyatlari",
+            "Tavsiyalar"
+          ],
+          "tableCaption": "To'shimma turiga qarab tavsiyalar",
+          "tableData": [
+            [
+              "Mato",
+              "Hidlarni yaxshi so'radi",
+              "Ishlov berish vaqtini 20% ga oshiring"
+            ],
+            [
+              "Teri",
+              "Kam so'rilish, olib tashlash osonroq",
+              "Standart rejimi"
+            ],
+            [
+              "Sintetik teri",
+              "Natural teriyga o'xshash",
+              "Standart rejimi"
+            ],
+            [
+              "Alcantara",
+              "Mikroshua, yaxshi so'radi",
+              "Mato ichidek"
+            ],
+            [
+              "Birlashtirilgan",
+              "Turli xil materiallar",
+              "Mato elementlariga e'tibor qaratilishi"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

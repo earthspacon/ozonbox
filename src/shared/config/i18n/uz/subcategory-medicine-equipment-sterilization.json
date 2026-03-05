@@ -1,0 +1,199 @@
+{
+  "title": "Tibbiyot",
+  "description": "Tibbiyotda ozon terapiyasi va ozonlash: operatsiya xonalari va palatalarni sterilizatsiya qilish, tibbiy uskunalarni dezinfeksiya qilish, stomatologiya kabinetlarini, reabilitatsiya markazlarini va tez yordam mashinalarini davolash.",
+  "subcategories": {
+    "equipment-sterilization": {
+      "title": "Tibbiy uskunalarni sterilizatsiya qilish",
+      "shortDesc": "Asboblar va qurilmalarni sterilizatsiya qilish",
+      "heroText": "Issiqlikka sezgir endoskoplar, plastik mahsulotlar va elektronikaning past haroratda ozon sterilizatsiyasi. Zarar bermaydigan ishlov berish bilan issiqlikka sezgir tibbiy uskunalarning to'liq davolash.",
+      "content": "Ozon yuqori harorat yoki qattiq kimyoviy moddalar bilan ishlov berilmasa bo'lmaydigan tibbiy uskunalarni sterilizatsiya qilish uchun ishlatiladi: endoskoplar, plastik buyumlar, elektronika, optika.\n\nPast haroratda ozon sterilizatsiyasi issiqlikka sezgir uskunalar uchun avtoklavning alternatividir. Jarayon 25–35°C va 80–90% nisbiy namlik sharoitida o'tadi, bu ko'pchilik materiallar uchun xavfsizdir.\n\nEndoskopik uskunalar ayniqsa talabchii. Tor kanallar bilan murakkab yasalish an'anaviy usullar bilan to'liq ishlov berish xavfini yaratadi. Ozon gazi barcha bo'shliqlar va kanallarni kirib boradi to'liq sterilizatsiyani ta'minlash uchun.\n\nOzon sterilizatsiya siklki o'z ichiga oladi: ishlov berishdan oldin namlanish, ozon atmosferasida 30–60 daqiqa davomida ekspoze va gazni chiqarish. Usul sog'liqni saqlashda foydalanish uchun tasdiqlanadi va sterilizatsiya standartlariga javob beradi.",
+      "benefits": [
+        "Past haroratda sterilizatsiya",
+        "Plastik va elektronika uchun xavfsiz",
+        "Tor kanallarga kirib boradi",
+        "Endoskop ishlov berish",
+        "Optikada shikast yo'q",
+        "Tibbiy standartlarga muvofiqlik"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "25-35°C",
+          "label": "Harorat",
+          "description": "Past haroratda sterilizatsiya"
+        },
+        "stat2": {
+          "value": "30-60",
+          "label": "Daqiqa",
+          "description": "To'liq sterilizatsiya sikli"
+        },
+        "stat3": {
+          "value": "99,99%",
+          "label": "Samaradorlik",
+          "description": "Mikroorganizmlarni yo'q qilish"
+        },
+        "stat4": {
+          "value": "0",
+          "label": "Zarar",
+          "description": "Sezgir materiallar uchun xavfsiz"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Zamonaviy tibbiy uskunalar ko'pincha issiqlikka sezgir materiallarni o'z ichiga oladi: plastik, elektronika, optika, ularni autoklav ichida sterilizatsiya qilish mumkin emas. Ozon sterilizatsiyasi 25-35°C da ishlayotgan samarali alternativdir.",
+          "text2": "Ozon hujayra membranalarini buzish orqali bakteriya, viruslar, sporalar va zamburug'larni yo'q qiluvchi kuchli oksidizer. Shu bilan birga, toksik qoldiqlar qoldirmaydi va ishlov berishdan keyin 20-30 daqiqada kislorodga parchalanadi."
+        },
+        "highlight1": {
+          "title": "Muhim:",
+          "text": "121-134°C da an'anaviy bug' sterilizatsiyasi plastik mahsulotlar, elektronika va optikani zarar beradi. Ozon sterilizatsiyasi ushbu materiallarni deformatsiya yoki nosozlik xavfisiz ishlov berish imkonini beradi."
+        },
+        "problem": {
+          "title": "Tibbiy uskunalarni sterilizatsiya qilish muammolari",
+          "text": "Tibbiy uskunalar har bir foydalanishdan keyin sterilizatsiyani talab qiladi. Ammo barcha usullar barcha turdagi mahsulotlar uchun mos emas:",
+          "items": [
+            "Avtoklavlash: yuqori harorat plastik va elektronikani zarar beradi",
+            "Etilenoksid: toksik, uzoq degassing (12 soatgacha) talab qiladi",
+            "Plazma sterilizatsiyasi: uskunaning yuqori narxi",
+            "Kimyoviy eritmalar: metalning korroziyasi, muhrlarning shikasti",
+            "Radiatsion sterilizatsiya: qimmat, kundalik foydalanish uchun mos emas"
+          ]
+        },
+        "endoscopes": {
+          "title": "Endoskoplarni sterilizatsiya qilish",
+          "text": "Endoskoplar tor kanallar, optika va elektronikaga ega murakkab qurilmalardir. Ularning sterilizatsiyasi ozonni samarali hal qiluvchi maxsus vazifadir.",
+          "table": {
+            "caption": "Endoskoplar uchun ozon sterilizatsiya parametrlari",
+            "headers": [
+              "Endoskop turi",
+              "Ozon kontsentratsiyasi",
+              "Ishlov berish vaqti",
+              "Xususiyatlar"
+            ],
+            "rows": [
+              [
+                "Gastroscoplar",
+                "40-60 ppm",
+                "30-40 daqiqa",
+                "Kanal tozalash ozoniga"
+              ],
+              [
+                "Kolonoscoplar",
+                "40-60 ppm",
+                "40-50 daqiqa",
+                "Kanalning uzaytirilgan uzunligi"
+              ],
+              [
+                "Bronchoscoplar",
+                "50-70 ppm",
+                "35-45 daqiqa",
+                "Tor kanallar, nozik optika"
+              ],
+              [
+                "Laparoscoplar",
+                "30-50 ppm",
+                "25-35 daqiqa",
+                "Kompakt dizayn"
+              ]
+            ]
+          },
+          "highlight": "Ozon 1 mm diametrli kanallarni kirib boradi, shuning uchun suyuq dezinfektantlar uchun ochiq bo'lmagan joylarning sterilizatsiyasini ta'minlaydi. Bu nosokomial infektsiyalarni oldini olish uchun kritikaldir."
+        },
+        "lowtemp": {
+          "title": "Past haroratda sterilizatsiya jarayoni",
+          "text": "Ozon sterilizatsiya siklki bir necha bosqichdan iborat bo'lib, har biri to'liq sterillik erishish uchun muhimdir:",
+          "steps": [
+            {
+              "title": "Ishlov berishdan oldin namlanish",
+              "description": "Kamerada namlikni 80-90% ga ko'tarish. Namlik ozonning bakteritsid ta'sirini kuchaytiradi va uning mikroparlarga kirib borishini ta'minlaydi."
+            },
+            {
+              "title": "Ozon saturatsiyasi",
+              "description": "40-80 ppm kontsentratsiyasiga ozon ta'minoti. Gaz kamera bo'ylab tekis tarqalib va barcha uskunalar bo'shliqlariga kirib boradi."
+            },
+            {
+              "title": "Ekspoze",
+              "description": "Belgilangan kontsentratsiyada 30-60 daqiqa saqlash. Bu vaqt oylana barcha mikroorganizmlar hujayralarining membranalarini yo'q qiladi."
+            },
+            {
+              "title": "Gazni chiqarish",
+              "description": "Kameradan qoldiq ozonni olib tashlash. Ozon 15-20 daqiqada kislorodga parchalanadi. Uskunalar foydalanishga tayyor."
+            }
+          ]
+        },
+        "materials": {
+          "title": "Mos keladigan materiallar",
+          "text": "Ozon sterilizatsiyasi tibbiy uskunalarida qo'llaniladigan ko'pchilik materiallar uchun xavfsizdir:",
+          "features": [
+            {
+              "title": "Plastiklar va polimerlar",
+              "description": "Polietilen, polipropilen, polikarbonat, PVC — ozon sterilizatsiyasi paytida zarar berish yo'q"
+            },
+            {
+              "title": "Elektronika",
+              "description": "Platalari, sensorlari, displeylar, endoskop kameralari — statik kuchsiz xavfsiz ishlov berish"
+            },
+            {
+              "title": "Optika",
+              "description": "Linzalar, yorug'lik vositalari, prizmalar — ozon elementlarning optik xususiyatlariga ta'sir qilmaydi"
+            },
+            {
+              "title": "Metallar va qotishmalar",
+              "description": "Rustga chidamli po'latlar, titan, alyuminiy — standart kontsentratsiyalarda ozonaga chidamli"
+            }
+          ]
+        },
+        "comparison": {
+          "title": "Sterilizatsiya usullarini taqqoslash",
+          "tableTitle": "Ozon vs an'anaviy usullar",
+          "headers": [
+            "Parametr",
+            "Ozon",
+            "Avtoklavlash/Etilenoksid"
+          ],
+          "rows": [
+            {
+              "parameter": "Ishlov berish harorati",
+              "value1": "25-35°C",
+              "value2": "121-134°C / 37-55°C"
+            },
+            {
+              "parameter": "To'liq sikl vaqti",
+              "value1": "45-90 daqiqa",
+              "value2": "30-60 daqiqa / 3-12 soat"
+            },
+            {
+              "parameter": "Toksik qoldiqlar",
+              "value1": "Yo'q (O₂ ga parchalanadi)",
+              "value2": "Yo'q / Ha (degassing talab qiladi)"
+            },
+            {
+              "parameter": "Plastik mos kelishi",
+              "value1": "Ha",
+              "value2": "Yo'q / Qisman"
+            },
+            {
+              "parameter": "Iste-foydalanish xaraji",
+              "value1": "Minimal (elektr)",
+              "value2": "O'rtacha / Yuqori"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Sog'liqni saqlash muassasalari uchun foyda",
+          "items": [
+            "Zarar bermaydigan issiqlikka sezgir uskunalarning sterilizatsiyasi",
+            "Tez ishlov berish sikli — uskunalar o'tmashi yuqori",
+            "Toksik qoldiqlar yo'q — bemor xavfsizligi",
+            "Kam operatsion xaraji — minimal iste-foydalanish",
+            "Qiyin erishiladigan joylarga kirib boradi — to'liq kanal sterilizatsiyasi",
+            "Tibbiy qurilmalarni sterilizatsiya qilish standartlariga muvofiqlik"
+          ],
+          "warning": "Ozonatorlar bilan ishlashda xavfsizlik ehtiyotchaligi kuzatilishi kerak: ozon inhale qilinganda toksikdir. Sterilizatsiya kamerlari muhr tutilishi kerak. Ish sohada ozonning PDK 0,1 mg/m³."
+        }
+      },
+      "cta": {
+        "title": "Endoskoplar va tibbiy asboblarni sterilizatsiya qilish uchun ozonlarni joriy qilishni xohlaysizmi?",
+        "text": "Endoskoplar va tibbiy asboblarni sterilizatsiya qilish uchun uskunalar bo'yicha maslahat oling"
+      }
+    }
+  }
+}

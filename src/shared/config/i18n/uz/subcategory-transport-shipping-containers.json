@@ -1,0 +1,405 @@
+{
+  "title": "Transport",
+  "description": "Transport vositalarini ozonlash yo'lovchi transportining sanitariya xavfsizligini ta'minlaydi, yuk konteynerlarini dezinfeksiya qiladi va kimyoviy fumigatsiyaga ekologik toza muqobil.",
+  "subcategories": {
+    "shipping-containers": {
+      "title": "Yuk konteynerlar",
+      "shortDesc": "Konteynerlarni ozon bilan fumigatsiya qilish",
+      "content": "Ozonlash yuk konteynerlarini kimyoviy fumigatsiyadan alternativ ekologik usuli. Ozon zararkunanda hasharotlar, mog'or sporlari va bakteriyalarni yo'q qiladi va karantinlik hidlarni zaharlı qoldiqsiz bartaraf etadi.\n\nMetil bromid yoki fosfin bilan an'anaviy fumigatsiya zaharlı qoldiqlarni qoldiradi, uzoq degassifikatsiya va maxsus ruxsat talab qiladi. Ozon soatlar ichida kislorodga parchalanadi, atrof-muhit va yukni iflos qilmaydi.\n\nOzon barcha bosqichlardagi hasharotlarga karshi samarali: tuxumlar, larva, pupalar va kamalaklari. Qayta ishlash zararkunanda turi bo'yicha 12-24 soat davomida yopiq konteynerda o'tkaziladi.\n\nOzonlashdan keyin konteyner 2-4 soat davomida xavfsiz darajagacha havolantiriladi. Usul oziq-ovqat, to'qimalar, yog'och va boshqa kimyoviy sezgir tovarlar bilan konteynerlar uchun tasdiqlangan.",
+      "benefits": [
+        "Ekologik toza fumigatsiya alternativasi",
+        "Zararkunanda hasharotlarini yo'q qilish",
+        "Zaharlı qoldiqlar yo'q",
+        "Sof kislorodga parchalanish",
+        "Oziq-ovqat yuklari uchun to'g'ri",
+        "Karantinlik hidlarni bartaraf etish"
+      ],
+      "stats": {
+        "cycle": {
+          "value": "12-24",
+          "label": "soat",
+          "description": "To'liq konteyner fumigatsiya sikli"
+        },
+        "eggs": {
+          "value": "100%",
+          "label": "Tuxumlar va larva",
+          "description": "Barcha bosqichlarda yo'q qilish"
+        },
+        "residues": {
+          "value": "0",
+          "label": "Zaharlı qoldiqlar",
+          "description": "Sof kislorodga parchalanish"
+        },
+        "sizes": {
+          "value": "20/40 ft",
+          "label": "Konteynerlar",
+          "description": "Standart o'lchamlar"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text1": "Yuk konteynerları xalqaro savdoning asosi. Har yili millionlab TEU (yigirma futli ekvivalenti) barcha kategoriyali tovarlar bilan dengiz yo'li bo'ylab tashilinadi. Konteynerlar ko'pincha karantinlik qayta ishlashni talab qiladi: zararkunanda hasharotlarni yo'q qilish, mog'or, bakteriyalar yoki oldingi yuklardan hidalarni bartaraf etish.",
+          "text2": "Metil bromid yoki fosfin bilan an'anaviy fumigatsiya zaharlı qoldiqlarni qoldiradi, maxsus ruxsat talab qiladi va uzoq degassifikatsiya kerak. Ozonlash ekologik toza alternativa: ozon sof kislorodga parchalanadi, yukni yoki atrof-muhitni iflos qilmaydi."
+        },
+        "highlight1": {
+          "title": "Importyorlar uchun muhim:",
+          "text": "Konteynerlarni ozonlash ko'pchilik mamlakatlarnig fitosamitariya hizmatları tomonidan kimyoviy fumigatsiyaga muqobil sifatida tan olingan. Bu kimyoviy qoldiqlarning sezgir tovarlarini qayta ishlash imkoniyatini beradi: oziq-ovqat mahsulotları, to'qimalar, elektronika."
+        },
+        "problems": {
+          "title": "Ozonlash bilan hal qilingan muammolar",
+          "text": "Yuk konteynerları uzoq tashish va saqlashga bog'liq ko'pchilik muammolarni hal qiladi:",
+          "items": [
+            "Zararkunanda hasharotlar — boshqa mamlakatlrdan tovarlar bilan kelgan karantinlik turlar",
+            "Mog'or va zambrug'lar — harorat tebranishi va yuqori namlik bilan rivojlanadi",
+            "Bakterial ifloslanish — ayniqsa oziq-ovqat yuklari uchun muhim",
+            "Hidlar — oldingi yuk (baliq, kimyoviy, o'g'it) yoki mog'orn hidalari",
+            "Karantinlik talablar — tovarni mamlakatga import qilishdan oldin majburiy qayta ishlash"
+          ]
+        },
+        "comparison": {
+          "title": "Ozon vs an'anaviy fumigatsiya",
+          "tableHeaders": [
+            "Parametr",
+            "Ozonlash",
+            "Metil bromid",
+            "Fosfin"
+          ],
+          "tableData": [
+            {
+              "parameter": "Zaharlı qoldiqlar",
+              "value1": "Yo'q",
+              "value2": "Ha (karsingen)",
+              "value3": "Ha (juda zaharli)"
+            },
+            {
+              "parameter": "Qayta ishlash vaqti",
+              "value1": "12-24 soat",
+              "value2": "24-48 soat",
+              "value3": "72-120 soat"
+            },
+            {
+              "parameter": "Degassifikatsiya",
+              "value1": "2-4 soat",
+              "value2": "24-48 soat",
+              "value3": "48-72 soat"
+            },
+            {
+              "parameter": "Ozon qatiga ta'siri",
+              "value1": "Yo'q",
+              "value2": "Ha (AB'da taqiqlangan)",
+              "value3": "Yo'q"
+            },
+            {
+              "parameter": "Oziq-ovqat yuklari",
+              "value1": "Ha",
+              "value2": "Cheklangan",
+              "value3": "Yo'q"
+            },
+            {
+              "parameter": "Elektronika",
+              "value1": "Ha (ehtiyot bilan)",
+              "value2": "Ha",
+              "value3": "Ha"
+            },
+            {
+              "parameter": "Maxsus ruxsat",
+              "value1": "Yo'q",
+              "value2": "Ha",
+              "value3": "Ha"
+            }
+          ],
+          "comparisonTitle": "Konteynerlarni qayta ishlash usullarini solishtirish"
+        },
+        "technology": {
+          "title": "Konteynerlarni ozonlash texnologiyasi",
+          "steps": [
+            {
+              "title": "Konteynerlarni tekshirish",
+              "description": "Eshik muhri qattiligi, ventilyatsiya ochiqligini tekshiring. Kerak bo'lsa - lenta yoki plyonka bilan vaqtiy sıg'ish."
+            },
+            {
+              "title": "Parametrlarni hisoblash",
+              "description": "Konteyner hajmini, maqsadli zararkunanda turini, zarur ozon konsentratsiyasini aniqlang. Standart 20-futlik konteyner — taxminan 33 m³."
+            },
+            {
+              "title": "Uskunalarni ulash",
+              "description": "Ozonatorni texnik ochiqlik yoki eshik oraliqdagi gaz ta'minoti bilan konteynering ichiga o'rnating. Kiruvchi joyni sıg'ish."
+            },
+            {
+              "title": "Ozonlash",
+              "description": "Maqsadli konsentratsiyaga yetguncha ozon ta'minot qiling (hasharotlar uchun 50-100 mg/m³). Konsentratsiyani 12-24 soat saqlang."
+            },
+            {
+              "title": "Degassifikatsiya",
+              "description": "Ozonatorni o'chiring, konteynering eshiklarini oching. Tabiiy yoki majburiy havolantirish 2-4 soat."
+            }
+          ],
+          "highlight": "Degassifikatsiyadan keyin ozon konsentratsiyasi xavfsiz darajagacha (<0,1 mg/m³) tushadi. Yuk qo'shimcha qayta ishlashsiz yuklash va foydalanishga tayyor."
+        },
+        "modes": {
+          "title": "Konteynerlarni qayta ishlash rejimlari",
+          "text": "Karantinlik zararkunandalar (qorinng yilemlari, dolali, un kurtaklari) uchun maksimal rejim tavsiya qilinadi: 24 soat davomida 80-100 mg/m³. Bu yog'och yoki don ichidagi tuxumlar o'z ichiga olgan barcha rivojlanish bosqichlardagi hasharotlar yo'q qilishni kafolatlaydI.",
+          "tableCaption": "Turli maqsadlar uchun ozonlash parametrlari",
+          "tableHeaders": [
+            "Qayta ishlash maqsadi",
+            "Konsentratsiya",
+            "Ta'sir vaqti",
+            "Izohlar"
+          ],
+          "tableData": [
+            [
+              "Hasharotlar (kattalar)",
+              "30-50 mg/m³",
+              "12-18 soat",
+              "Ko'pchilik turlar"
+            ],
+            [
+              "Hasharotlar (barcha bosqichlar)",
+              "50-100 mg/m³",
+              "18-24 soat",
+              "Tuxumlar va larva o'z ichiga oladi"
+            ],
+            [
+              "Mog'or va zambrug'lar",
+              "20-30 mg/m³",
+              "8-12 soat",
+              "Yuzalardan"
+            ],
+            [
+              "Bakteriyalar",
+              "15-25 mg/m³",
+              "4-8 soat",
+              "99,9% inaktivatsiya"
+            ],
+            [
+              "Hidlarni bartaraf etish",
+              "10-20 mg/m³",
+              "4-6 soat",
+              "Hidli moddalarni neytrallash"
+            ],
+            [
+              "Murakkab qayta ishlash",
+              "50-80 mg/m³",
+              "24 soat",
+              "Barcha omillar"
+            ]
+          ]
+        },
+        "efficiency": {
+          "title": "Zararkunandalarga qarshi samaradorlik",
+          "highlight": {
+            "title": "Ta'siri mexanizmi:",
+            "text": "Ozon hasharot uyali membranalarini molekulyar darajada yo'q qiladi. Kimyoviy pestitsidlardan farqli o'laroq, ozonga qarshi diroqat rivojlanmaydi — bu asosiy fizikokimyoviy ta'sir."
+          },
+          "tableCaption": "Ozon bilan zararkunanda hasharotlarini yo'q qilish (80 mg/m³, 24 soat)",
+          "tableHeaders": [
+            "Zararkunanda",
+            "Kattalar",
+            "Larva",
+            "Tuxumlar"
+          ],
+          "tableData": [
+            [
+              "Non qo'nogisi",
+              "100%",
+              "100%",
+              "100%"
+            ],
+            [
+              "Don dolali",
+              "100%",
+              "100%",
+              "99,9%"
+            ],
+            [
+              "Un qo'nogisi",
+              "100%",
+              "100%",
+              "100%"
+            ],
+            [
+              "Jurta dolali",
+              "100%",
+              "100%",
+              "99,9%"
+            ],
+            [
+              "Tamaki qo'nogisi",
+              "100%",
+              "100%",
+              "100%"
+            ],
+            [
+              "Yog'och qo'nogisi",
+              "100%",
+              "99,9%",
+              "99,5%"
+            ],
+            [
+              "Kiyim shoshqasI",
+              "100%",
+              "100%",
+              "100%"
+            ]
+          ]
+        },
+        "types": {
+          "title": "Konteyner turlari va qayta ishlash xususiyatlari",
+          "features": [
+            {
+              "title": "Quruq konteynerlar (DC)",
+              "description": "Standart qayta ishlash. 20-futlik — 33 m³, 40-futlik — 67 m³. Ventilyatsiya ochiqliklarini sıg'ish talab qiladi."
+            },
+            {
+              "title": "Sovutilgan (RF)",
+              "description": "Sovutish qurilmasi o'chiq holatda qayta ishlash. Yaxshi muhkamlik. Elektronika bilan ehtiyot."
+            },
+            {
+              "title": "Havolantiriladigan",
+              "description": "Barcha ventilyatsiya ochiqliklarini vaqtiy sıg'ish talab qiladi. Yuqori ozon iste'mol."
+            },
+            {
+              "title": "Ochiq top",
+              "description": "Brezent bilan qoplangandan keyin qayta ishlash. Perimetr sıg'ish. Qisman sizib chiqishi mumkin."
+            }
+          ],
+          "tableCaption": "Konteyner o'lchamiga qarab uskunalar hisoblash",
+          "tableHeaders": [
+            "Konteyner turi",
+            "Hajm",
+            "Ozonator quvvati",
+            "Konsentratsiya ko'tarilish vaqti"
+          ],
+          "tableData": [
+            [
+              "10 fut",
+              "16 m³",
+              "20-30 g/h",
+              "1-2 soat"
+            ],
+            [
+              "20 fut",
+              "33 m³",
+              "30-50 g/h",
+              "2-3 soat"
+            ],
+            [
+              "40 fut",
+              "67 m³",
+              "50-80 g/h",
+              "3-4 soat"
+            ],
+            [
+              "40 fut HC",
+              "76 m³",
+              "60-100 g/h",
+              "3-5 soat"
+            ],
+            [
+              "45 fut",
+              "86 m³",
+              "80-120 g/h",
+              "4-5 soat"
+            ]
+          ]
+        },
+        "applications": {
+          "title": "Turli tovarlar uchun qo'llash",
+          "text": "Ozonlash ko'pchilik tovar kategoriyalariga to'g'ri:",
+          "items": [
+            "Don va bilan — saqlash zararkunandalarini kimyoviy qoldiqsiz yo'q qilish",
+            "Yong'oq va quritilgan meva — ko'rinish va ta'mni saqlab qolish",
+            "Qahva va kakao — mog'or neytrallash aromasiga ta'sir qilmasdan",
+            "Spicalar — importdan oldin karantinlik qayta ishlash",
+            "To'qimalar — ombor saqlashining hid va mog'orni yo'q qilish",
+            "Yog'och va taxtasi — qorinng yilemlari va yog'och o't o'tkaklarini yo'q qilish",
+            "Qog'oz va kartonda — qo'ziqorin shikastining oldini olish"
+          ],
+          "highlight": {
+            "title": "Cheklovlar:",
+            "text": "Rezina muhrlari bilan yukni ehtiyot bilan qayta ishlasin (ozon rezinaning qarishshini tezlashtiradi), himoyasiz elektronika, yangi meva va sabzavot (yuqori konsentratsiylarda shikastlanishi mumkin)."
+          }
+        },
+        "economics": {
+          "title": "Ozon fumigatsiyasining iqtisodiyoti",
+          "text": "Muntazam konteyner qayta ishlash bilan ozonator uskunalarining o'zini qoplash muddati 10-20 qayta ishlashdir. Terminallari va logistika kompaniyalari uchun yuqori konteyner aylanishi bilan tejamkorlik oyiga yuz minglab rubllarga yetadi.",
+          "tableHeaders": [
+            "Xaraj elementi",
+            "Ozonlash",
+            "Kimyoviy fumigatsiya"
+          ],
+          "tableData": [
+            {
+              "parameter": "Uskunalar (bir marta)",
+              "value1": "150-300 ming ₽",
+              "value2": "Talab qilinmaydi (xizmat)"
+            },
+            {
+              "parameter": "Qayta ishlash xaraji",
+              "value1": "500-1000 ₽",
+              "value2": "15-25 ming ₽"
+            },
+            {
+              "parameter": "To'xtash vaqti",
+              "value1": "24-28 soat",
+              "value2": "72-120 soat"
+            },
+            {
+              "parameter": "Hujjatlashtirish",
+              "value1": "Qayta ishlash sertifikati",
+              "value2": "Fumigatsiya sertifikati"
+            },
+            {
+              "parameter": "Xodimlar",
+              "value1": "1 kishi (o'qitish)",
+              "value2": "Lisenziyalashgan brigada"
+            }
+          ],
+          "comparisonTitle": "40-futlik konteynerning qayta ishlash xaraji"
+        },
+        "equipment": {
+          "title": "Konteynerlar uchun uskunalar",
+          "text": "Konteyner fumigatsiyasida yuqori quvvatli sanoat ozonatorlari qo'llaniladi:",
+          "items": [
+            "Ozon generatorlari 50-200 g/h — 20-40 futlik konteynerlar uchun",
+            "Ta'minot tizimi — shlangar, fittinglari, muhrlash gasketlari",
+            "Ozon analizatorlari — real vaqtda konsentratsiyani nazorat qilish",
+            "Taymerlar va boshqaruvlar — jarayonni avtomatlashtirish",
+            "Mobil komplekslar — traktor yoki van asosida"
+          ],
+          "highlight": {
+            "title": "Terminallari uchun:",
+            "text": "Statsionar ozonator komplekslari bir vaqtning o'zida bir necha konteynerlarni qayta ishlash imkoniyatini beradi. Konveyer tizimi saytdagi konteynerlaraga ozon ta'minot qiladi, markaziy boshqarish paneli jarayonni boshqaradi."
+          }
+        },
+        "regulatory": {
+          "title": "Normalativ aspektlar",
+          "text": "Ozonlash karantinlik qayta ishlash usuli ko'pchilik mamlakatlarda tan olingan:",
+          "items": [
+            "ISPM-15 — yog'och qadoqlash qayta ishlash uchun muqobil usullarni ruxsat beradi",
+            "EPA (AQSH) — ozon antimikrob vositasi sifatida ro'yxatga olindi",
+            "AB — organik mahsulotlar uchun ozonlash tasdiqlangan",
+            "Rosselkhoznadzor — karantinlik nazorat uchun ozonlash sertifikatlarini qabul qiladi",
+            "SanPiN — oziq-ovqat mahsulotlarining dezinfeksiyasI uchun ozon tasdiqlangan"
+          ],
+          "text2": "Eksport/import qilishda, maqsad mamlakatining talablarini tekshiring. Ko'pchilik hollarda ozonlash maxsus hujjatlashtirish bilan kimyoviy fumigatsiyaning muqobil sifatida qabul qilinadi: konsentratsiya va ta'sir vaqtini ko'rsatgan qayta ishlash sertifikati."
+        },
+        "safety": {
+          "title": "Xavfsizlik talablari",
+          "items": [
+            "Qayta ishlash faqat ochiq hududlarda yoki havolantiriladigan ombarlarda",
+            "Qayta ishlash hududini to'sqin, ogohlantiruvchi plakatlarni osib qo'ying",
+            "Xodimlar — ishlayotgan ozonatordan hech bo'lmaganda 10 m masofada",
+            "Degassifikatsiyadan oldin konteynerga kirishda — ko'mir filtri bilan respirator",
+            "Odamlarni ruxsat berish oldin analizator bilan konsentratsiyani nazorat qilish",
+            "Sizib chiqish yoki nosozlik aniqlandid yoki xavfsizlik xavfini bartaraf qilish"
+          ],
+          "highlight": {
+            "title": "Ozon MPDK:",
+            "text": "Ish zonasida 0,1 mg/m³. 1 mg/m³ dan yuqori konsentratsiylarda — nafas yo'llari uyalirlashgan. 10+ mg/m³ — sog'liqiga zarar. Nazorat uchun doim analizatorlardan foydalanin."
+          }
+        }
+      }
+    }
+  }
+}

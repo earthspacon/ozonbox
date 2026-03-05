@@ -2,7 +2,7 @@ import { useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
+import { getSubcategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
 import {
   ArticleHero,
   ArticleSection,
@@ -25,7 +25,7 @@ const FS = 'subcategories.fire-smoke'
 
 export function FireSmokePage() {
   const { t } = useTranslate()
-  const ns = getCategoryNamespace('cleaning')
+  const ns = getSubcategoryNamespace('cleaning', 'fire-smoke')
 
   return (
     <Layout>

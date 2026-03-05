@@ -1,0 +1,205 @@
+{
+  "title": "Qishloq xo'jaligi",
+  "description": "Qishloq xo'jaligida ozonlash hosildorlikni oshiradi, mahsulotlarning saqlash muddatini uzaytiradi va bioxavfsizlikni ta'minlaydi. Kimyoviy pestitsidlar va konservantlarga ekologik toza muqobil.",
+  "subcategories": {
+    "livestock": {
+      "title": "Chorvachilik",
+      "shortDesc": "Fermalarni dezinfeksiya qilish, yem-xashakni qayta ishlash va go'sht mahsulotlarini saqlash muddatini uzaytirish",
+      "content": "Chorvachilikda ozonlash bir qator vazifalarni hal qiladi: binolarning sanitariya holatini saqlashdan tortib go'sht mahsulotlarini saqlash muddatini uzaytirishgacha.\n\nChorvachilik binolaridagi havoni ozonlash patogenlar, ammiak va yoqimsiz hidlar kontsentratsiyasini kamaytiradi. Bu mikroklimanni yaxshilaydi, hayvonlar stressini va nafas olish kasalliklari xavfini kamaytiradi.\n\nGo'sht mahsulotlarini saqlashda ozonlash tana yuzasidagi mikroflorani yo'q qiladi va mahsulotning ozuqaviy va sezgi xususiyatlarini saqlaydi. Muntazam ozonlash sovutgich kameralarida sovutilgan go'shtni saqlash muddatini 2-5 marta uzaytiradi.\n\n1-4°C haroratda 2-5 soat davomida 10 mg/m³ ozon kontsentratsiyasi go'sht yuzasidagi mezofil va psixrotrof mikroflorani to'liq yo'q qiladi.",
+      "stats": {
+        "microfloraReduction": {
+          "value": "80-90%",
+          "label": "Mikroflorani kamaytirish",
+          "description": "Chorvachilik binolaridagi havoda"
+        },
+        "morbidityReduction": {
+          "value": "30-50%",
+          "label": "Kasallanishni kamaytirish",
+          "description": "Chorva hayvonlarida nafas olish infeksiyalari"
+        },
+        "productivityGrowth": {
+          "value": "10-15%",
+          "label": "Unumdorlik o'sishi",
+          "description": "O'rtacha kunlik vazn o'sishi va sut mahsuldorligi"
+        },
+        "antibiotics": {
+          "value": "0",
+          "label": "Antibiotiklar",
+          "description": "Ekologik toza mahsulotlar"
+        }
+      },
+      "benefits": [
+        "Go'shtni saqlash muddati 2-5 marta uzayadi",
+        "Sovutgich kameralarni 99,9% dezinfeksiya qilish",
+        "Chorva hayvonlarida kasallanishni kamaytirish",
+        "Ammiak va yoqimsiz hidlarni yo'q qilish",
+        "Mahsulotning ozuqaviy xususiyatlarini saqlash",
+        "Salbiy haroratlarda ishlash"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Zamonaviy chorvachilik jiddiy muammolarga duch kelmoqda: antibiotiklarga chidamlilikning o'sishi, mahsulotlarning ekologik tozaligiga qo'yiladigan qat'iy talablar va xarajatlarni kamaytirish bilan unumdorlikni oshirish zarurati. Ozonlash bu muammolarni kompleks hal qiladigan texnologiyadir.",
+          "paragraph2": "Chorvachilikda ozon qo'llash kasallanishni 30-50% kamaytirish, unumdorlikni 10-15% oshirish va profilaktik antibiotiklardan foydalanishni to'xtatishga imkon beradi. Bu Yevropa Ittifoqining antibiotiklarni o'sish stimulyatorlari sifatida ishlatishni taqiqlashi kontekstida ayniqsa muhimdir."
+        },
+        "pdkInfo": {
+          "label": "Hayvonlar uchun ozon MPC:",
+          "text": "qoramol va cho'chqalar uchun 1,0 mg/m³ gacha, parrandalar uchun 1,2 mg/m³ gacha. Bu rejimlarga rioya qilgan holda hayvonlar mavjud bo'lganda profilaktik muolajalarni o'tkazishga imkon beradi."
+        },
+        "applications": {
+          "title": "Ozon qo'llash yo'nalishlari",
+          "items": [
+            "Hayvonlar yashaydigan binolarda havoni dezinfeksiya qilish",
+            "Ichimlik suvini dezinfeksiya qilish",
+            "Yem-xashakni qayta ishlash — mikotoksinlar va patogenlarni kamaytirish",
+            "Sut uskunalari va idishlarni dezinfeksiya qilish",
+            "Go'ng va chiqindilarni qayta ishlash",
+            "Tug'ruqxonalarni sanitatsiya qilish"
+          ]
+        },
+        "airDisinfection": {
+          "title": "Binolarda havoni dezinfeksiya qilish",
+          "intro": "Chorvachilik binolaridagi havo ammiak, vodorod sulfidi, chang va mikroorganizmlar bilan ifloslanadi. Ammiak kontsentratsiyasi MPC 0,01 mg/l bo'lsa, 0,02-0,03 mg/l ga yetishi mumkin. Bu unumdorlikni kamaytiradi, kasallanishni oshiradi va xodimlar uchun ish sharoitlarini yomonlashtiradi.",
+          "tableCaption": "Sigirxonada havoni ozonlash samaradorligi",
+          "tableHeaders": [
+            "Ko'rsatkich",
+            "Muolajadan oldin",
+            "Muolajadan keyin",
+            "Kamayish"
+          ],
+          "tableData": [
+            [
+              "Ammiak, mg/l",
+              "0,025",
+              "0,005",
+              "80%"
+            ],
+            [
+              "Vodorod sulfidi, mg/l",
+              "0,008",
+              "0,001",
+              "87%"
+            ],
+            [
+              "Mikroflora, KOE/m³",
+              "85 000",
+              "12 000",
+              "86%"
+            ],
+            [
+              "Chang, mg/m³",
+              "4,5",
+              "1,2",
+              "73%"
+            ]
+          ],
+          "highlight": "Muntazam ozonlash (kuniga 2-3 marta, 15-20 daqiqa, 0,5-1,0 mg/m³ kontsentratsiyada) qoramol nafas olish kasalliklarini 40-50% kamaytiradi va o'rtacha kunlik vazn o'sishini 8-12% oshiradi."
+        },
+        "waterDisinfection": {
+          "title": "Ichimlik suvini dezinfeksiya qilish",
+          "intro": "Suv sifati hayvonlar salomatligi va unumdorligiga bevosita ta'sir qiladi. Ochiq manbalardan va hatto artezian quduqlaridan olingan suv ko'pincha patogen mikroorganizmlar, temir, marganets va organik birikmalarni o'z ichiga oladi.",
+          "intro2": "Suvni ozonlash quyidagilarni ta'minlaydi:",
+          "items": [
+            "E.coli, salmonella, kampilobakter va boshqa patogenlarni yo'q qilish",
+            "Temir va marganetsni erimaydigan shakllarga oksidlanishi",
+            "Yoqimsiz hidlar va ta'mlarni yo'q qilish",
+            "Hayvonlar tomonidan suvning yaxshiroq hazm bo'lishi",
+            "Oshqozon-ichak kasalliklarining oldini olish"
+          ],
+          "tableCaption": "Chorvachilik uchun suvni ozonlash rejimlari",
+          "tableHeaders": [
+            "Maqsad",
+            "Ozon kontsentratsiyasi",
+            "Aloqa vaqti"
+          ],
+          "tableData": [
+            [
+              "Qoramol uchun ichimlik suvi",
+              "0,3-0,5 mg/l",
+              "10-15 min"
+            ],
+            [
+              "Cho'chqalar uchun ichimlik suvi",
+              "0,3-0,5 mg/l",
+              "10-15 min"
+            ],
+            [
+              "Uskunalarni yuvish suvi",
+              "1,0-2,0 mg/l",
+              "5-10 min"
+            ],
+            [
+              "Sutni suyultirish suvi",
+              "0,5-1,0 mg/l",
+              "15-20 min"
+            ]
+          ]
+        },
+        "feedTreatment": {
+          "title": "Yem-xashakni qayta ishlash",
+          "intro": "Yem-xashak hayvonlar organizmiga kiruvchi mikotoksinlar va patogen mikroorganizmlarning asosiy manbai hisoblanadi. Yem-xashakni ozonlash quyidagilarga imkon beradi:",
+          "items": [
+            "Mog'or zamburug'larining tarkibini 90-95% kamaytirish",
+            "Mikotoksinlarni (aflatoksinlar, zearalenon, DON) yo'q qilish",
+            "Patogen mikroflorani (salmonella, E.coli) yo'q qilish",
+            "Yem-xashakning biologik qiymati va hazm bo'lishini oshirish",
+            "Yem-xashakni saqlash muddatini uzaytirish"
+          ],
+          "highlight": "Tavsiya etilgan yem-xashakni qayta ishlash rejimi: ozon kontsentratsiyasi 10-15 mg/m³, qayta ishlash vaqti namlik va ifloslanish darajasiga qarab 60-120 daqiqa."
+        },
+        "dairyEquipment": {
+          "title": "Sut uskunalarini dezinfeksiya qilish",
+          "intro": "Sut fermalarida ozon sog'ish uskunalari, sovutgich tanklar, sut quvurlari va idishlarni dezinfeksiya qilish uchun ishlatiladi. Bu kimyoviy tozalash vositalaridan foydalanishni to'xtatish va sut mahsulotlarining xavfsizligini ta'minlashga imkon beradi.",
+          "tableCaption": "Sut fermalarida ozon qo'llash",
+          "tableHeaders": [
+            "Muolaja ob'ekti",
+            "Usul",
+            "Samaradorlik"
+          ],
+          "tableData": [
+            [
+              "Sog'ish apparatlari",
+              "Ozonlangan suv 2-3 mg/l",
+              "99,9%"
+            ],
+            [
+              "Sut tanklari",
+              "Ozonlangan suv + havo",
+              "99,99%"
+            ],
+            [
+              "Sut quvurlari",
+              "Ozonlangan suvni aylantirish",
+              "99,9%"
+            ],
+            [
+              "Saqlash idishlari",
+              "Gazsimon ozon",
+              "99,99%"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "Chorvachilikda ozonlashning afzalliklari",
+          "items": [
+            {
+              "title": "Antibiotiksiz",
+              "description": "Profilaktik antibiotiklarsiz kasallanishni kamaytirish — ekologik toza mahsulotlar"
+            },
+            {
+              "title": "Unumdorlikni oshirish",
+              "description": "Sharoitlarni yaxshilash hisobiga sut mahsuldorligi 5-10%, o'rtacha kunlik vazn o'sishi 8-15% oshadi"
+            },
+            {
+              "title": "Veterinariya xarajatlarini tejash",
+              "description": "Davolash va kasallikning oldini olish xarajatlarini 30-40% kamaytirish"
+            },
+            {
+              "title": "Ish sharoitlarini yaxshilash",
+              "description": "Ferma xodimlari uchun zararli gazlar va hidlar kontsentratsiyasini kamaytirish"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

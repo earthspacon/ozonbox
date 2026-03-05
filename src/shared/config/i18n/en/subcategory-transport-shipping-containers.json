@@ -1,0 +1,405 @@
+{
+  "title": "Transport",
+  "description": "Ozonation of vehicles ensures sanitary safety of passenger transport, disinfection of cargo containers and an eco-friendly alternative to chemical fumigation.",
+  "subcategories": {
+    "shipping-containers": {
+      "title": "Shipping containers",
+      "shortDesc": "Container fumigation with ozone",
+      "content": "Ozonation is an eco-friendly alternative to chemical fumigation of shipping containers. Ozone destroys pests, mold spores and bacteria and removes quarantine odors without toxic residues.\n\nTraditional fumigation with methyl bromide or phosphine leaves toxic residues, requires long degassing and special permits. Ozone decays to oxygen in hours without polluting the environment or cargo.\n\nOzone is effective against insects at all stages: eggs, larvae, pupae and adults. Treatment is done in a sealed container for 12–24 hours depending on pest type.\n\nAfter ozonation, the container is ventilated for 2–4 hours to safe levels. The method is approved for containers with food, textiles, wood and other chemically sensitive goods.",
+      "benefits": [
+        "Eco-friendly fumigation alternative",
+        "Destruction of pest insects",
+        "No toxic residues",
+        "Decay to pure oxygen",
+        "Suitable for food cargo",
+        "Quarantine odor removal"
+      ],
+      "stats": {
+        "cycle": {
+          "value": "12-24",
+          "label": "hours",
+          "description": "Full container fumigation cycle"
+        },
+        "eggs": {
+          "value": "100%",
+          "label": "Eggs and larvae",
+          "description": "Destruction at all stages"
+        },
+        "residues": {
+          "value": "0",
+          "label": "Toxic residues",
+          "description": "Decay to pure oxygen"
+        },
+        "sizes": {
+          "value": "20/40 ft",
+          "label": "Containers",
+          "description": "Standard sizes"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text1": "Shipping containers are the foundation of international trade. Millions of TEU (twenty-foot equivalents) are transported by sea annually with goods of all categories. Containers often require quarantine treatment: to destroy pest insects, mold, bacteria or remove odors from previous cargo.",
+          "text2": "Traditional fumigation with methyl bromide or phosphine leaves toxic residues, requires special permits and long degassing. Ozonation is an eco-friendly alternative: ozone decays to pure oxygen without contaminating cargo or the environment."
+        },
+        "highlight1": {
+          "title": "Important for importers:",
+          "text": "Container ozonation is recognized by phytosanitary services of many countries as an alternative to chemical fumigation. This allows treatment of cargo sensitive to chemical residues: food products, textiles, electronics."
+        },
+        "problems": {
+          "title": "Problems solved by ozonation",
+          "text": "Shipping containers face a number of problems related to long transport and storage:",
+          "items": [
+            "Pest insects — quarantine species imported with cargo from other countries",
+            "Mold and fungi — develop with temperature fluctuations and high humidity",
+            "Bacterial contamination — especially relevant for food cargo",
+            "Odors — from previous cargo (fish, chemicals, fertilizers) or mold",
+            "Quarantine requirements — mandatory treatment before import into the country"
+          ]
+        },
+        "comparison": {
+          "title": "Ozone vs traditional fumigation",
+          "tableHeaders": [
+            "Parameter",
+            "Ozonation",
+            "Methyl bromide",
+            "Phosphine"
+          ],
+          "tableData": [
+            {
+              "parameter": "Toxic residues",
+              "value1": "No",
+              "value2": "Yes (carcinogen)",
+              "value3": "Yes (highly toxic)"
+            },
+            {
+              "parameter": "Treatment time",
+              "value1": "12-24 hours",
+              "value2": "24-48 hours",
+              "value3": "72-120 hours"
+            },
+            {
+              "parameter": "Degassing",
+              "value1": "2-4 hours",
+              "value2": "24-48 hours",
+              "value3": "48-72 hours"
+            },
+            {
+              "parameter": "Impact on ozone layer",
+              "value1": "No",
+              "value2": "Yes (banned in EU)",
+              "value3": "No"
+            },
+            {
+              "parameter": "Food cargo",
+              "value1": "Yes",
+              "value2": "Limited",
+              "value3": "No"
+            },
+            {
+              "parameter": "Electronics",
+              "value1": "Yes (with caution)",
+              "value2": "Yes",
+              "value3": "Yes"
+            },
+            {
+              "parameter": "Special permits",
+              "value1": "No",
+              "value2": "Yes",
+              "value3": "Yes"
+            }
+          ],
+          "comparisonTitle": "Comparison of container treatment methods"
+        },
+        "technology": {
+          "title": "Container ozonation technology",
+          "steps": [
+            {
+              "title": "Container inspection",
+              "description": "Check door seal tightness, ventilation openings. If necessary — temporary sealing with tape or film."
+            },
+            {
+              "title": "Parameter calculation",
+              "description": "Determine container volume, target pest type, required ozone concentration. Standard 20-foot container — about 33 m³."
+            },
+            {
+              "title": "Equipment connection",
+              "description": "Install ozonator with gas supply inside container through technical opening or door gap. Seal the entry."
+            },
+            {
+              "title": "Ozonation",
+              "description": "Supply ozone until target concentration is reached (50-100 mg/m³ for insects). Maintain concentration for 12-24 hours."
+            },
+            {
+              "title": "Degassing",
+              "description": "Turn off ozonator, open container doors. Natural or forced ventilation for 2-4 hours."
+            }
+          ],
+          "highlight": "After degassing, ozone concentration drops to safe levels (<0.1 mg/m³). Cargo is ready for unloading and use without additional treatment."
+        },
+        "modes": {
+          "title": "Container treatment modes",
+          "text": "For quarantine pests (bark beetles, weevils, flour beetles) maximum mode is recommended: 80-100 mg/m³ for 24 hours. This guarantees destruction of insects at all development stages, including eggs inside wood or grain.",
+          "tableCaption": "Ozonation parameters for various purposes",
+          "tableHeaders": [
+            "Treatment goal",
+            "Concentration",
+            "Exposure time",
+            "Notes"
+          ],
+          "tableData": [
+            [
+              "Insects (adults)",
+              "30-50 mg/m³",
+              "12-18 hours",
+              "Most species"
+            ],
+            [
+              "Insects (all stages)",
+              "50-100 mg/m³",
+              "18-24 hours",
+              "Including eggs and larvae"
+            ],
+            [
+              "Mold and fungi",
+              "20-30 mg/m³",
+              "8-12 hours",
+              "From surfaces"
+            ],
+            [
+              "Bacteria",
+              "15-25 mg/m³",
+              "4-8 hours",
+              "99.9% inactivation"
+            ],
+            [
+              "Odor removal",
+              "10-20 mg/m³",
+              "4-6 hours",
+              "Odorant neutralization"
+            ],
+            [
+              "Complex treatment",
+              "50-80 mg/m³",
+              "24 hours",
+              "All factors"
+            ]
+          ]
+        },
+        "efficiency": {
+          "title": "Efficiency against pests",
+          "highlight": {
+            "title": "Mechanism of action:",
+            "text": "Ozone destroys insect cell membranes at the molecular level. Unlike chemical pesticides, resistance to ozone does not develop — this is a fundamental physicochemical effect."
+          },
+          "tableCaption": "Destruction of pest insects with ozone (80 mg/m³, 24 hours)",
+          "tableHeaders": [
+            "Pest",
+            "Adults",
+            "Larvae",
+            "Eggs"
+          ],
+          "tableData": [
+            [
+              "Bread beetle",
+              "100%",
+              "100%",
+              "100%"
+            ],
+            [
+              "Grain weevil",
+              "100%",
+              "100%",
+              "99.9%"
+            ],
+            [
+              "Flour beetle",
+              "100%",
+              "100%",
+              "100%"
+            ],
+            [
+              "Rice weevil",
+              "100%",
+              "100%",
+              "99.9%"
+            ],
+            [
+              "Tobacco beetle",
+              "100%",
+              "100%",
+              "100%"
+            ],
+            [
+              "Wood beetle",
+              "100%",
+              "99.9%",
+              "99.5%"
+            ],
+            [
+              "Clothes moth",
+              "100%",
+              "100%",
+              "100%"
+            ]
+          ]
+        },
+        "types": {
+          "title": "Container types and treatment specifics",
+          "features": [
+            {
+              "title": "Dry containers (DC)",
+              "description": "Standard treatment. 20-foot — 33 m³, 40-foot — 67 m³. Require sealing of ventilation openings."
+            },
+            {
+              "title": "Refrigerated (RF)",
+              "description": "Treatment with refrigeration unit off. Good tightness. Caution with electronics."
+            },
+            {
+              "title": "Ventilated",
+              "description": "Require temporary sealing of all ventilation openings. Higher ozone consumption."
+            },
+            {
+              "title": "Open-top",
+              "description": "Treatment after covering with tarp. Perimeter sealing. Partial leakage possible."
+            }
+          ],
+          "tableCaption": "Equipment calculation by container size",
+          "tableHeaders": [
+            "Container type",
+            "Volume",
+            "Ozonator capacity",
+            "Concentration build-up time"
+          ],
+          "tableData": [
+            [
+              "10 feet",
+              "16 m³",
+              "20-30 g/h",
+              "1-2 hours"
+            ],
+            [
+              "20 feet",
+              "33 m³",
+              "30-50 g/h",
+              "2-3 hours"
+            ],
+            [
+              "40 feet",
+              "67 m³",
+              "50-80 g/h",
+              "3-4 hours"
+            ],
+            [
+              "40 feet HC",
+              "76 m³",
+              "60-100 g/h",
+              "3-5 hours"
+            ],
+            [
+              "45 feet",
+              "86 m³",
+              "80-120 g/h",
+              "4-5 hours"
+            ]
+          ]
+        },
+        "applications": {
+          "title": "Application for various cargo",
+          "text": "Ozonation is suitable for most cargo categories:",
+          "items": [
+            "Grains and legumes — destruction of storage pests without chemical residues",
+            "Nuts and dried fruits — preservation of appearance and taste",
+            "Coffee and cocoa — mold neutralization without affecting aroma",
+            "Spices — quarantine treatment before import",
+            "Textiles — removal of warehouse storage odors, mold",
+            "Wood and lumber — destruction of bark beetles and wood borers",
+            "Paper and cardboard — prevention of fungal damage"
+          ],
+          "highlight": {
+            "title": "Limitations:",
+            "text": "Treat cargo with rubber seals with caution (ozone accelerates rubber aging), unprotected electronics, fresh fruits and vegetables (may be damaged at high concentrations)."
+          }
+        },
+        "economics": {
+          "title": "Ozone fumigation economics",
+          "text": "With regular container treatment, ozonator equipment payback is 10-20 treatments. For terminals and logistics companies with high container turnover, savings amount to hundreds of thousands of rubles per month.",
+          "tableHeaders": [
+            "Cost item",
+            "Ozonation",
+            "Chemical fumigation"
+          ],
+          "tableData": [
+            {
+              "parameter": "Equipment (one-time)",
+              "value1": "150-300 thousand ₽",
+              "value2": "Not required (service)"
+            },
+            {
+              "parameter": "Treatment cost",
+              "value1": "500-1000 ₽",
+              "value2": "15-25 thousand ₽"
+            },
+            {
+              "parameter": "Downtime",
+              "value1": "24-28 hours",
+              "value2": "72-120 hours"
+            },
+            {
+              "parameter": "Documentation",
+              "value1": "Treatment certificate",
+              "value2": "Fumigation certificate"
+            },
+            {
+              "parameter": "Staff",
+              "value1": "1 person (training)",
+              "value2": "Licensed team"
+            }
+          ],
+          "comparisonTitle": "Cost of treating a 40-foot container"
+        },
+        "equipment": {
+          "title": "Equipment for containers",
+          "text": "High-capacity industrial ozonators are used for container fumigation:",
+          "items": [
+            "Ozone generators 50-200 g/h — for 20-40 foot containers",
+            "Supply systems — hoses, fittings, sealing gaskets",
+            "Ozone analyzers — real-time concentration monitoring",
+            "Timers and controllers — process automation",
+            "Mobile complexes — on trailer or van base"
+          ],
+          "highlight": {
+            "title": "For terminals:",
+            "text": "Stationary ozonator complexes allow simultaneous treatment of multiple containers. Pipeline system supplies ozone to containers on the site, central control panel manages the process."
+          }
+        },
+        "regulatory": {
+          "title": "Regulatory aspects",
+          "text": "Ozonation as a quarantine treatment method is recognized in many countries:",
+          "items": [
+            "ISPM-15 — allows alternative methods for wood packaging treatment",
+            "EPA (USA) — ozone registered as antimicrobial agent",
+            "EU — ozonation approved for organic products",
+            "Rosselkhoznadzor — accepts ozonation certificates for quarantine control",
+            "SanPiN — ozone approved for food product disinfection"
+          ],
+          "text2": "When exporting/importing, check destination country requirements. In most cases, ozonation is accepted as an alternative to chemical fumigation with proper documentation: treatment certificate indicating concentration and exposure time."
+        },
+        "safety": {
+          "title": "Safety requirements",
+          "items": [
+            "Treatment only on open areas or ventilated hangars",
+            "Fence treatment area, post warning signs",
+            "Personnel — at least 10 m from operating ozonator",
+            "When entering container before degassing — respirator with carbon filter",
+            "Concentration monitoring with analyzer before allowing people",
+            "Emergency shutdown — upon detection of leak or malfunction"
+          ],
+          "highlight": {
+            "title": "Ozone MAC:",
+            "text": "0.1 mg/m³ in work zone. At concentrations above 1 mg/m³ — respiratory irritation. At 10+ mg/m³ — health hazard. Always use analyzers for monitoring."
+          }
+        }
+      }
+    }
+  }
+}

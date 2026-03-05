@@ -1,0 +1,209 @@
+{
+  "title": "Tibbiyot",
+  "description": "Tibbiyotda ozon terapiyasi va ozonlash: operatsiya xonalari va palatalarni sterilizatsiya qilish, tibbiy uskunalarni dezinfeksiya qilish, stomatologiya kabinetlarini, reabilitatsiya markazlarini va tez yordam mashinalarini davolash.",
+  "subcategories": {
+    "rehabilitation": {
+      "title": "Reabilitatsiya markazlari",
+      "shortDesc": "Ozonoterapiya va sanitariya ishlov berish",
+      "heroText": "Sanatoriyalar va reabilitatsiya markazlarida ozonning keng qo'llanilishi: sog'liqni tiklash uchun ozonoterapiya, basseyn va SPA ozonlash, palatalar va protsedura xonalarini dezinfeksiya qilish.",
+      "content": "Reabilitatsiya markazlari va sanatoriyalar ozondan ikki yo'nalishda foydalanadi: ozonoterapiya davolash va tiklash usuli sifatida va sanitariya standartlarini saqlash uchun xonalarni ozonlash.\n\nOzonoterapiya muskuloskelet, yurak-qon tomir va teri kasalliklarini davolash uchun qo'llaniladi. Usullar quyidagilarni o'z ichiga oladi: ozon vannalari, teri ostiga in'ektsiyalar, ozon bilan avtogemoterapiya, rektal insufflyatsiyalar.\n\nPalatalar va protsedura xonalarini ozonlash qariyalar va immuniteti zaif bo'lgan odamlar reabilitatsiyadan o'tadigan markazlarda ayniqsa muhimdir. Ozon bemorlar orasida nafas olish infektsiyalarining tarqalish xavfini kamaytiradi.\n\nReabilitatsiya markazlaridagi basseynlar, saunalar va SPA zonalari ham ozon bilan ishlov beriladi. Basseyn suvini ozonlash xlorga bo'lgan ehtiyojni kamaytiradi, bu esa sezgir teriga ega bemorlar uchun protseduralarni qulayroq qiladi.",
+      "benefits": [
+        "Davolash usuli sifatida ozonoterapiya",
+        "Palatalar va protsedura xonalarini dezinfeksiya qilish",
+        "Immuniteti zaif bemorlarni himoya qilish",
+        "Basseyn va SPA ni ozonlash",
+        "Suvdagi xlor miqyorini kamaytirish",
+        "Reabilitatsiyaga integratsiyalashgan yondashuv"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "100+",
+          "label": "Ko'rsatmalar",
+          "description": "Ozonoterapiya qo'llash uchun"
+        },
+        "stat2": {
+          "value": "70%",
+          "label": "Kam xlor",
+          "description": "Ozonlash bilan basseynlarda"
+        },
+        "stat3": {
+          "value": "99,9%",
+          "label": "Patogenlar",
+          "description": "Suvda yo'q qilinadi"
+        },
+        "stat4": {
+          "value": "Qulaylik",
+          "label": "Bemorlar",
+          "description": "Xlor hidisiz yumshoq suv"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Reabilitatsiya markazlari va sanatoriyalar noyob talablarga ega: bir tomondan, yuqori sanitariya standartlarini saqlash kerak, ikkinchi tomondan — bemorlarning tiklanishi uchun qulay muhit yaratish kerak. Ozon ikkala vazifani ham hal qiladi.",
+          "text2": "Ozonoterapiya — keng ko'lamli kasalliklarni davolash uchun qo'llaniladigan fizioterapiyaning tan olingan yo'nalishi. Shu bilan birga, ozon xonalarni dezinfeksiya qilish va basseyn suvini tayyorlash uchun ishlatiladi, bu uni reabilitatsiya muassasalari uchun universal yechimga aylantiradi."
+        },
+        "highlight1": {
+          "title": "Keng qamrovli yondashuv:",
+          "text": "Bir markazda ozon davolovchi protseduralar (ozonoterapiya), basseyn suvini tozalash (suvni ozonlash) va xonalarni dezinfeksiya qilish (havoni ozonlash) uchun qo'llanilishi mumkin. Bu xarajatlarni optimallashtiradi va logistikani soddalashtiradi."
+        },
+        "ozonotherapy": {
+          "title": "Reabilitatsiyada ozonoterapiya",
+          "text": "Ozonoterapiya — tibbiy ozonning davolovchi xususiyatlariga asoslangan fizioterapiya usuli. Shikastlanishlar, operatsiyalardan keyin tiklanish va surunkali kasalliklar uchun qo'llaniladi.",
+          "features": [
+            {
+              "title": "Ozon vannalari",
+              "description": "Ozonga to'yingan suv umumiy mustahkamlovchi ta'sir ko'rsatadi, qon aylanishini yaxshilaydi, mushaklarning kuchlanishini kamaytiradi"
+            },
+            {
+              "title": "Teri ostiga in'ektsiyalar",
+              "description": "Bog'lanish kasalliklarida og'riq va yallig'lanishni kamaytirish uchun trigger nuqtalariga ozon-kislorod aralashmasini kiritish"
+            },
+            {
+              "title": "Avtogemoterapiya",
+              "description": "Bemorning qonini ozon bilan boyitish va keyin qayta kiritish — tizimli sog'liqni saqlash ta'siri"
+            },
+            {
+              "title": "Rektal insufflyatsiyalar",
+              "description": "Oshqozon-ichak trakti kasalliklarini davolash va organizmning umumiy sog'lomlashtirish uchun ozon-kislorod aralashmasini kiritish"
+            }
+          ]
+        },
+        "methods": {
+          "title": "Ozonoterapiya usullari va ko'rsatmalar",
+          "text": "Ko'rsatmalar va bemor holatiga qarab turli xil ozonoterapiya usullari qo'llaniladi:",
+          "table": {
+            "caption": "Reabilitatsiyada ozonoterapiya usullari",
+            "headers": [
+              "Usul",
+              "Ko'rsatmalar",
+              "Davolash kursi"
+            ],
+            "rows": [
+              [
+                "Ozon vannalari",
+                "Artrit, artroz, varikoz, tsellyulit",
+                "10-15 protsedura"
+              ],
+              [
+                "Teri ostiga in'ektsiyalar",
+                "Bog'lanish og'rig'i, miofatsial sindrom",
+                "5-10 protsedura"
+              ],
+              [
+                "Avtogemoterapiya (BAXT)",
+                "Immunitet tanqisligi, surunkali charchoq, diabet",
+                "8-12 protsedura"
+              ],
+              [
+                "Rektal insufflyatsiyalar",
+                "Kolit, disbioz, prostatit",
+                "10-15 protsedura"
+              ],
+              [
+                "Vena ichiga infuziyalar",
+                "Ishemiya, trofik yaralar, sepsis",
+                "5-8 protsedura"
+              ]
+            ]
+          }
+        },
+        "spa": {
+          "title": "Ozon bilan SPA protseduralari",
+          "text": "Ozon reabilitatsiya markazlarining SPA zonalarida sog'liqni saqlash protseduralari uchun keng qo'llaniladi:",
+          "steps": [
+            {
+              "title": "Ozon kapsulalari",
+              "description": "Bemor ozonlangan havoga ega kapsulaga joylashtiriladi. Ozon teri orqali o'tib, mikrotsirkulyatsiyani yaxshilaydi va to'qimalarni kislorod bilan to'ydiradi."
+            },
+            {
+              "title": "Ozonlangan suv bilan gidromassaj",
+              "description": "Gidromassaj vannasidagi ozonlangan suv antiseptik xususiyatga ega va teri regeneratsiyasini rag'batlantiradi."
+            },
+            {
+              "title": "Ozon dush",
+              "description": "Tanni mayda disperslangan ozonlangan suv bilan purkash. Terini tonuslaydi, dermatologik muammolarda uning holatini yaxshilaydi."
+            },
+            {
+              "title": "Ozonlangan o'rashlar",
+              "description": "Ozonlangan moy yoki krem qo'llash va keyin o'rash. Tana konturini tuzatish va tsellyulitni davolash uchun qo'llaniladi."
+            }
+          ],
+          "highlight": "Ozon bilan SPA protseduralari boshqa reabilitatsiya usullari bilan birgalikda ayniqsa samarali: massaj, fizioterapiya, davolovchi jismoniy mashqlar. Keng qamrovli yondashuv tiklanishni tezlashtiradi."
+        },
+        "pools": {
+          "title": "Basseynlarni ozonlash",
+          "text": "Reabilitatsiya markazlaridagi basseynlar suvni tayyorlashga maxsus yondashuvni talab qiladi. Ozonlash xlor miqyorini kamaytirish va bemorlar uchun qulay sharoitlar yaratish imkonini beradi:",
+          "items": [
+            "Xlor konsentratsiyasini 60-70% ga kamaytirish — teri va ko'zning minimal qichishishi",
+            "Xlor hidining yo'qligi — nafas olish kasalliklariga ega bemorlar uchun qulaylik",
+            "Xlorga chidamli patogenlarni yo'q qilish: kriptosporidiyalar, lyambliyalar",
+            "Xloraminlarni parchalash — shilliq qavatning qichishishining asosiy sababi",
+            "Suvning shaffofligini yaxshilash — estetik qulaylik"
+          ],
+          "table": {
+            "caption": "Basseynlarni ozonlash parametrlari",
+            "headers": [
+              "Parametr",
+              "Ozon + xlor",
+              "Faqat xlor"
+            ],
+            "rows": [
+              [
+                "Xlor konsentratsiyasi",
+                "0,3-0,5 mg/l",
+                "1,0-1,5 mg/l"
+              ],
+              [
+                "Bog'langan xlor (xloraminlar)",
+                "<0,2 mg/l",
+                "1,0 mg/l gacha"
+              ],
+              [
+                "Suvning shaffofligi",
+                "Kristall aniq",
+                "Yaxshi"
+              ]
+            ]
+          }
+        },
+        "disinfection": {
+          "title": "Xonalarni dezinfeksiya qilish",
+          "text": "Palatalar va protsedura xonalarini ozonlash reabilitatsiya markazida sanitariya rejimining muhim tarkibiy qismidir:",
+          "items": [
+            "Bemorlar o'rtasida palatalarni dezinfeksiya qilish — 40-60 daqiqada to'liq ishlov berish",
+            "Protsedura xonalarini ishlov berish — o'zaro ifloslanishni bartaraf etish",
+            "Massaj stollari, trenajorlar, fizioterapiya uskunalarini ozonlash",
+            "Xonalardagi hidlarni bartaraf etish — kimyoviy xushbo'y hidlarsiz yangi havo",
+            "Ventilyatsiyani dezinfeksiya qilish — nafas olish infektsiyalarining tarqalish xavfini kamaytirish"
+          ],
+          "warning": "Xonalarni ozonlash paytida bemorlar va xodimlar ishlov berilayotgan zonani tark etishlari kerak. Ishlov berishdan keyin ozon konsentratsiyasi PDK (0,1 mg/m³) dan pastga tushguncha ventilyatsiya talab qilinadi."
+        },
+        "benefits": {
+          "title": "Reabilitatsiya markazi uchun ozonning afzalliklari",
+          "features": [
+            {
+              "title": "Keng qamrovli yechim",
+              "description": "Terapiya, suvni tayyorlash va dezinfeksiya qilish uchun bitta texnologik yondashuv — xarajatlarni optimallashtirish va xodimlarni o'qitishni soddalashtirish"
+            },
+            {
+              "title": "Bemorlar qulayligi",
+              "description": "Xlor hidisiz yumshoq suv, toza havo, yoqimli muhit — ijobiy qolish tajribasi"
+            },
+            {
+              "title": "Tibbiy samaradorlik",
+              "description": "Ozonoterapiya — keng ko'lamli ko'rsatmalar va minimal kontraindikatsiyalar bilan isbotlangan davolash usuli"
+            },
+            {
+              "title": "Ekologik tozalik",
+              "description": "Ozon kimyoviy qoldiqlarsiz kislorodga parchalanadi — bemorlar va atrof-muhit uchun xavfsiz"
+            }
+          ]
+        }
+      },
+      "cta": {
+        "title": "Markazingizda ozonni joriy qilishni xohlaysizmi?",
+        "text": "Ozonoterapiya, suvni tayyorlash va dezinfeksiya qilish uchun keng qamrovli yechim oling"
+      }
+    }
+  }
+}

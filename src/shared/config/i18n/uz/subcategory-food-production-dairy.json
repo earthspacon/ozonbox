@@ -1,0 +1,216 @@
+{
+  "title": "Oziq-ovqat ishlab chiqarish",
+  "description": "Oziq-ovqat zavehlarin ozonatsiya qo'llanilishi mahsulot xavfsizligini ta'minlaydi, saqlash muddatini uzaytiradi va HACCP talablariga javob beradi. Kimyoviy konservantlarga ekologik toza muqobil.",
+  "subcategories": {
+    "dairy": {
+      "title": "Sut ishlab chiqarish",
+      "shortDesc": "Uskunani dezinfeksiya qilish va sut mahsulotlarini saqlash",
+      "content": "Sut sanoatida ozonatsiya uskunani, taniklarni, sut liniyalarini va binolarni dezinfeksiya qilish uchun ishlatiladi. Texnologiya kimyoviy tozalash moddalarining ehtiyojini kamaytiradi va mikrobiologik xavfsizlikni ta'minlaydi.\n\nOzonatsiyalangan suv 2–3 mg/L da sovutish taniklari, sut chiqarish uskunasi va quvur liniyalarini 99,9% samaradorlik bilan dezinfeksiya qiladi. Ozone pasteurizatsiyaga chidamli termofillik bakteriyalarni o'z ichiga olgan patogenlari yo'q qiladi.\n\nSut mahsulotlarining sovuq saqlash kamerasida ozonatsiya ko'plakni oldini oladi va pog'ona pishloq, shora krema va boshqa fermentlangan mahsulotlarning saqlash muddatini 30–50% uzaytiradi.",
+      "benefits": [
+        "Uskunani dezinfeksiya qilish 99,9% gacha",
+        "Kimyoviy tozalash moddalarini kamaytirish",
+        "Saqlash muddatini 30–50% uzaytirish",
+        "Termofillik bakteriyalarni yo'q qilish",
+        "Listeriozning oldini olish",
+        "HACCP muvofiqlik"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "99.9%",
+          "label": "Samaradorlik",
+          "description": "Uskunani va taniklani dezinfeksiya qilish"
+        },
+        "stat2": {
+          "value": "30–50%",
+          "label": "Saqlash muddati uzaygan",
+          "description": "Fermentlangan sut mahsulotlari uchun"
+        },
+        "stat3": {
+          "value": "2–3",
+          "label": "mg/L ozone",
+          "description": "Uskunani dezinfeksiya qilish uchun kontsentratsiya"
+        },
+        "stat4": {
+          "value": "0",
+          "label": "Kimyoviy moddalar",
+          "description": "Tozalash moddalarini butunlay yo'q qilish"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Sut sanoatida mikrobiologik xavfsizlikka eng yuqori talablar qo'yiladi. Patogen mikroorganizmalar — Listeria, Salmonella, E.coli — pasteurizatsiyadan keyin ham omon qolishi mumkin, sut liniyalarida va uskunaning sirtida ko'payishi mumkin.",
+          "paragraph2": "Ozonatsiya bu muammoni keng ko'lamda hal qiladi: kimyoviy tozalash moddalarini ishlatmasdan sovutish taniklari, sut chiqarish uskunasi, sut liniyalari va saqlash taniklari dezinfeksiya qiladi. Ozone yuqori haroratga chidamli termofillik bakteriyalari uchun samarali."
+        },
+        "haccpHighlight": {
+          "title": "HACCP:",
+          "text": "Ozonatsiya hazard tahlili tizimida kritik nazorat nuqta (CCP) sifatida tan olinadi, bu sut ishlab chiqarishning barcha bosqichlarida mikrobiologik xavfsizlikni nazorat qilish imkonini beradi."
+        },
+        "application": {
+          "title": "Sut ishlab chiqarishda ozonning qo'llanilishi",
+          "tableCaption": "Sut zaveh uskunalari uchun ozonatsiya rejimi",
+          "tableHeaders": [
+            "Ishlov berish ob'ekti",
+            "Usul",
+            "Kontsentratsiya",
+            "Samaradorlik"
+          ],
+          "tableData": [
+            [
+              "Sut chiqarish uskunasi",
+              "Ozonatsiyalangan suv",
+              "2–3 mg/L",
+              "99,9%"
+            ],
+            [
+              "Sovutish taniklari",
+              "Suv + hava",
+              "3–5 mg/L",
+              "99,99%"
+            ],
+            [
+              "Sut liniyalari",
+              "Ozonatsiyalangan suv shuying",
+              "2–3 mg/L",
+              "99,9%"
+            ],
+            [
+              "Saqlash taniklari",
+              "Gazsimon ozone",
+              "5–10 mg/m³",
+              "99,99%"
+            ],
+            [
+              "Sovuq xonalar",
+              "Gazsimon ozone",
+              "3–6 mg/m³",
+              "99,5%"
+            ]
+          ]
+        },
+        "advantages": {
+          "title": "Eski usullarga nisbatan afzalliklari",
+          "items": [
+            "Pasteurizatsiyaga chidamli termofillik bakteriyalarni yo'q qilish",
+            "Listeriozning oldini olish — yumshoq pishloq va pog'ona pishloq uchun muhim",
+            "Uskunaning sirtida kimyoviy qoldiqlar yo'q",
+            "Sut liniyalarida erishilmasa joylarga ishlov berish imkoniyati",
+            "Ishitmasdan dezinfeksiya qilish — qisqish shart emas",
+            "Jarayonning avtomatik qilish — inson omili ta'sirini kamaytirish"
+          ]
+        },
+        "comparison": {
+          "title": "Sanitatsiya usullarini taqqoslash",
+          "headers": [
+            "Parametr",
+            "Ozonatsiya",
+            "Kimyoviy CIP tozalash"
+          ],
+          "rows": [
+            {
+              "parameter": "Listeria ga nisbatan samaradorlik",
+              "value1": "99,99%",
+              "value2": "95–99%"
+            },
+            {
+              "parameter": "Kimyoviy qoldiqlar",
+              "value1": "Yo'q",
+              "value2": "Rinse talab qilinadi"
+            },
+            {
+              "parameter": "Termofillik bakteriyalar",
+              "value1": "Yo'q qilinadi",
+              "value2": "Qisman omon qoladi"
+            },
+            {
+              "parameter": "Ishlov berish vaqti",
+              "value1": "15–30 daqiqa",
+              "value2": "45–90 daqiqa"
+            },
+            {
+              "parameter": "Suv sarfiyati",
+              "value1": "Minimal",
+              "value2": "Sezilarli"
+            },
+            {
+              "parameter": "Atrof-muhitga mos kelishi",
+              "value1": "To'liq",
+              "value2": "Chiqindini bartaraf qilish talab qilinadi"
+            }
+          ]
+        },
+        "storage": {
+          "title": "Sut mahsulotlarini saqlash",
+          "intro": "Sut mahsulotlarini saqlash uchun sovuq xonalarini ozonatsiya qilish ko'plakni rivojlanishini oldini oladi, psikhrofillik bakteriyalarni bosgiradi va pog'ona pishloq, shora krema, yogurtning saqlash muddatini 30–50% uzaytiradi.",
+          "tableCaption": "Sut mahsulotlarini saqlash uchun ozonatsiya rejimi",
+          "tableHeaders": [
+            "Mahsulot",
+            "Harorat",
+            "Kontsentratsiya",
+            "Saqlash muddatini uzaytirish"
+          ],
+          "tableData": [
+            [
+              "Pog'ona pishloq",
+              "+2...+6°C",
+              "3–4 mg/m³",
+              "+40%"
+            ],
+            [
+              "Shora krema",
+              "+2...+6°C",
+              "2–3 mg/m³",
+              "+35%"
+            ],
+            [
+              "Yogurt",
+              "+2...+6°C",
+              "2–3 mg/m³",
+              "+30%"
+            ],
+            [
+              "Sariyog'",
+              "-6...-12°C",
+              "3–5 mg/m³",
+              "+50%"
+            ],
+            [
+              "Yumshoq pishloq",
+              "+4...+8°C",
+              "3–6 mg/m³",
+              "+45%"
+            ]
+          ],
+          "highlight": {
+            "text": "Sovuq saqlashda ozonatsiya mikroflora o'sishini bosgirmasdan, mahsulotdagi noxush ta'mlarni ham oldini oladi, bu ayniqsa uzun muddat sariyog' saqlashda muhim."
+          }
+        },
+        "listeriosis": {
+          "title": "Listeriozning oldini olish",
+          "paragraph1": "Listeria monocytogenes sut sanoatidagi eng xavfli patogenlardan biri. Bakteriya sovutich haroratida (+4°C) ko'payishi mumkin, uskunaning sirtidagi biofilmlarda omon qolishi mumkin va oqibati o'limga etishi mumkin bo'lgan og'ir kasalliklar keltirib chiqarishi mumkin.",
+          "paragraph2": "Ozone Listeria biofilmlari samarali yo'q qiladi va bakteriya hujayralarini halak qiladi. Suvda ozone kontsentratsiyasi 0,5–1,0 mg/L bo'lganda, L. monocytogenes ning 99,99% inaktivlanishi 5 daqiqali ta'sirot bilan erishiladi."
+        },
+        "benefits": {
+          "title": "Sut ishlab chiqarish uchun foydalari",
+          "items": [
+            {
+              "title": "HACCP muvofiqlik",
+              "description": "Ozonatsiya oziq-ovqat xavfsizlik tizimidagi kritik nazorat nuqtasi"
+            },
+            {
+              "title": "Kimyoviy moddalarni tejash",
+              "description": "Tozalash va dezinfeksiya xarajatlarini 80% gacha kamaytirish"
+            },
+            {
+              "title": "Saqlash muddati uzaygan",
+              "description": "Fermentlangan sut mahsulotlarining saqlash muddatini 30–50% uzaytirish"
+            },
+            {
+              "title": "Mahsulot xavfsizligi",
+              "description": "Listeria va termofillik bakteriyalarni kafolati halak qilish"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

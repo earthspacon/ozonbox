@@ -1,0 +1,483 @@
+{
+  "title": "Industry",
+  "description": "Industrial ozonation for wastewater treatment, air treatment at production sites and compliance with environmental standards. High-capacity solutions for large enterprises.",
+  "subcategories": {
+    "oil-removal": {
+      "title": "Oil-containing wastewater treatment",
+      "shortDesc": "Ozonation of industrial wastewater for oil product removal",
+      "content": "Ozonation is a highly effective method for treating oil-containing wastewater from industrial plants. The technology achieves discharge standards without reagents or secondary pollution.\n\nOil products in wastewater pose a serious environmental threat: 1 liter of oil can pollute up to 1 million liters of water. The maximum allowable concentration of oil products for discharge into fishery water bodies is 0.05 mg/L.\n\nOzone oxidizes oil products to carbon dioxide and water, ensuring deep destruction of pollutants. Treatment efficiency reaches 95–99% at initial oil product concentrations of 5–50 mg/L.\n\nThe technology is used at refineries, transport depots, shipyards, metallurgical plants and any facilities with oil-containing effluents.",
+      "benefits": [
+        "95–99% treatment efficiency",
+        "Achieving 0.05 mg/L discharge limit",
+        "No secondary pollution",
+        "Mineralization to CO₂ and H₂O",
+        "Compliance with environmental norms",
+        "Lower environmental fees"
+      ],
+      "stats": {
+        "efficiency": {
+          "value": "95-99%",
+          "label": "Treatment efficiency",
+          "description": "Removal of oil products from wastewater"
+        },
+        "pdk": {
+          "value": "0.05",
+          "label": "mg/L limit",
+          "description": "Achieving discharge standards"
+        },
+        "consumption": {
+          "value": "3-5",
+          "label": "mg O₃/mg OP",
+          "description": "Ozone consumption for destruction"
+        },
+        "secondaryPollution": {
+          "value": "0",
+          "label": "Secondary pollution",
+          "description": "Mineralization to CO₂ and H₂O"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Wastewater from industrial facilities contaminated with oil products represents one of the most serious environmental problems. One liter of oil can pollute up to 1 million liters of water, creating a film that prevents gas exchange and threatens the death of aquatic ecosystems.",
+          "paragraph2": "Ozonation is an advanced method for deep treatment of oil-containing wastewater, ensuring destruction of hydrocarbons to carbon dioxide and water. Unlike traditional methods (flotation, sorption, biological treatment), ozonation provides complete mineralization of pollutants without formation of secondary waste."
+        },
+        "regulatory": {
+          "title": "Regulatory requirements",
+          "highlight": {
+            "title": "Maximum allowable concentration",
+            "text": "Maximum allowable concentration of oil products for discharge into fishery water bodies is 0.05 mg/L (GOST 17.1.3.07-82). For discharge into municipal sewerage — 4.0 mg/L. Exceeding the limit entails environmental fees and fines up to 2 million rubles."
+          },
+          "paragraph": "Ozonation ensures compliance with current regulations:",
+          "items": [
+            "SanPiN 2.1.5.980-00 — Hygienic requirements for surface water protection",
+            "GOST 17.1.3.07-82 — Rules for water quality control of water bodies",
+            "Ministry of Agriculture Order No. 552 — Water quality standards for fishery water bodies",
+            "Federal Law No. 7-FZ \"On Environmental Protection\"",
+            "Government Decree No. 644 — Rules for cold water supply and wastewater disposal"
+          ],
+          "tableCaption": "Maximum allowable concentrations of oil products for various water use categories",
+          "tableHeaders": [
+            "Water body category",
+            "Limit, mg/L",
+            "Hazard class"
+          ],
+          "tableRows": [
+            [
+              "Fishery water bodies, highest category",
+              "0.05",
+              "3"
+            ],
+            [
+              "Fishery water bodies, category I",
+              "0.05",
+              "3"
+            ],
+            [
+              "Fishery water bodies, category II",
+              "0.05",
+              "3"
+            ],
+            [
+              "Domestic and drinking water use",
+              "0.1",
+              "4"
+            ],
+            [
+              "Discharge to municipal sewerage",
+              "4.0",
+              "—"
+            ]
+          ]
+        },
+        "mechanism": {
+          "title": "Mechanism of oil product oxidation by ozone",
+          "paragraph": "Ozone is a powerful oxidizer with an oxidation-reduction potential of 2.07 V (compared to 1.36 V for chlorine). When interacting with oil products, oxidative destruction reactions occur:",
+          "items": [
+            "Cleavage of long-chain hydrocarbons to short-chain",
+            "Oxidation of aromatic compounds with opening of benzene ring",
+            "Formation of intermediate products: aldehydes, ketones, carboxylic acids",
+            "Complete mineralization to CO₂ and H₂O with sufficient ozone dose",
+            "Destruction of polycyclic aromatic hydrocarbons (PAH)"
+          ],
+          "tableCaption": "Kinetics of oil product oxidation by ozone",
+          "tableHeaders": [
+            "Compound class",
+            "Rate constant, M⁻¹·s⁻¹",
+            "Half-life, min"
+          ],
+          "tableRows": [
+            [
+              "Aliphatic hydrocarbons",
+              "10² — 10³",
+              "15-30"
+            ],
+            [
+              "Aromatic (benzene, toluene)",
+              "10³ — 10⁴",
+              "5-15"
+            ],
+            [
+              "Polyaromatic (PAH)",
+              "10⁴ — 10⁵",
+              "1-5"
+            ],
+            [
+              "Naphthenic acids",
+              "10³ — 10⁴",
+              "5-10"
+            ],
+            [
+              "Phenols",
+              "10⁵ — 10⁶",
+              "<1"
+            ]
+          ],
+          "infoBox": {
+            "title": "Oxidative destruction vs. sorption",
+            "text": "Unlike activated carbon, which only concentrates pollutants and requires regeneration or disposal, ozonation destroys oil product molecules, eliminating formation of secondary waste."
+          }
+        },
+        "technology": {
+          "title": "Treatment process scheme",
+          "paragraph": "Industrial ozonation installation for oil-containing wastewater includes several treatment stages to achieve maximum efficiency:",
+          "steps": [
+            {
+              "title": "Preliminary mechanical treatment",
+              "description": "Removal of suspended solids, settling in oil traps. Reduction of oil product concentration to 30-50 mg/L."
+            },
+            {
+              "title": "Flotation with ozone-air mixture",
+              "description": "Supply of ozone-air mixture (5-10 mg/L) through ejectors. Flotation of emulsified oil products."
+            },
+            {
+              "title": "Ozonation contact chamber",
+              "description": "Deep oxidation of dissolved oil products. Ozone dose 3-5 mg per 1 mg of oil products. Contact time 20-30 minutes."
+            },
+            {
+              "title": "Degassing and post-treatment",
+              "description": "Removal of excess ozone and oxidation products. If necessary — filtration through activated carbon."
+            },
+            {
+              "title": "Quality control",
+              "description": "Automatic monitoring of oil product concentration at outlet. Regulation of ozone dose according to sensor readings."
+            }
+          ],
+          "tableCaption": "Ozonation parameters for various oil product concentrations",
+          "tableHeaders": [
+            "Initial OP concentration, mg/L",
+            "Ozone dose, mg/L",
+            "Contact time, min",
+            "Residual concentration, mg/L"
+          ],
+          "tableRows": [
+            [
+              "5-10",
+              "15-30",
+              "15-20",
+              "<0.05"
+            ],
+            [
+              "10-20",
+              "30-60",
+              "20-30",
+              "<0.05"
+            ],
+            [
+              "20-50",
+              "60-150",
+              "30-45",
+              "<0.1"
+            ],
+            [
+              "50-100",
+              "150-300",
+              "45-60",
+              "<0.3"
+            ],
+            [
+              ">100",
+              "Two-stage treatment",
+              "60-90",
+              "<0.5"
+            ]
+          ]
+        },
+        "types": {
+          "title": "Types of oil-containing wastewater and treatment features",
+          "paragraph": "Ozonation efficiency depends on the composition and concentration of oil products in wastewater:",
+          "tableCaption": "Characteristics of oil-containing wastewater by industry",
+          "tableHeaders": [
+            "Wastewater source",
+            "Typical OP concentration, mg/L",
+            "Composition features",
+            "Treatment mode"
+          ],
+          "tableRows": [
+            [
+              "Refineries, oil depots",
+              "50-500",
+              "Light fractions, benzene, toluene",
+              "Flotation + ozonation"
+            ],
+            [
+              "Transport, gas stations",
+              "10-100",
+              "Oils, fuel, surfactants",
+              "Direct ozonation"
+            ],
+            [
+              "Machine building",
+              "20-200",
+              "Coolants, emulsions, oils",
+              "De-emulsification + ozonation"
+            ],
+            [
+              "Ship repair",
+              "50-300",
+              "Heavy fractions, resins",
+              "Multi-stage treatment"
+            ],
+            [
+              "Metallurgy",
+              "10-50",
+              "Technical oils, soot",
+              "Flocculation + ozonation"
+            ]
+          ],
+          "successBox": {
+            "title": "Synergistic effect",
+            "text": "Combining ozonation with UV irradiation (O₃/UV process) increases oxidation efficiency by 30-40% due to formation of hydroxyl radicals (•OH) with oxidation potential of 2.80 V."
+          }
+        },
+        "equipment": {
+          "title": "Technical specifications of industrial ozonators",
+          "paragraph": "High-capacity corona discharge ozone generators are used for treatment of oil-containing wastewater:",
+          "tableCaption": "Line of industrial ozonators for wastewater treatment",
+          "tableHeaders": [
+            "Model",
+            "Capacity, g O₃/h",
+            "Wastewater volume, m³/h",
+            "Power consumption, kW"
+          ],
+          "tableRows": [
+            [
+              "OZT-100",
+              "100",
+              "3-5",
+              "1.2"
+            ],
+            [
+              "OZT-500",
+              "500",
+              "15-25",
+              "5.5"
+            ],
+            [
+              "OZT-1000",
+              "1000",
+              "30-50",
+              "10"
+            ],
+            [
+              "OZT-2000",
+              "2000",
+              "60-100",
+              "18"
+            ],
+            [
+              "OZT-5000",
+              "5000",
+              "150-250",
+              "45"
+            ]
+          ],
+          "items": [
+            "Oxygen feed for maximum ozone concentration (up to 12% by mass)",
+            "Cooling system for stable operation under high loads",
+            "Automatic capacity regulation by sensor signal",
+            "Residual ozone destructor with catalytic conversion",
+            "Safety system with emergency shutdown on ozone leak"
+          ]
+        },
+        "economics": {
+          "title": "Environmental and economic indicators",
+          "comparisonTitle": "Comparison of oil-containing wastewater treatment methods",
+          "comparisonHeaders": [
+            "Parameter",
+            "Ozonation",
+            "Traditional methods"
+          ],
+          "comparisonRows": [
+            {
+              "parameter": "Treatment efficiency",
+              "value1": "95-99%",
+              "value2": "70-90%"
+            },
+            {
+              "parameter": "Residual OP concentration",
+              "value1": "<0.05 mg/L",
+              "value2": "0.5-5 mg/L"
+            },
+            {
+              "parameter": "Sludge formation",
+              "value1": "None",
+              "value2": "2-5% of volume"
+            },
+            {
+              "parameter": "Reagent consumption",
+              "value1": "Oxygen only",
+              "value2": "Coagulants, sorbents"
+            },
+            {
+              "parameter": "Operating costs",
+              "value1": "15-25 rub/m³",
+              "value2": "30-60 rub/m³"
+            },
+            {
+              "parameter": "Capital costs",
+              "value1": "Medium",
+              "value2": "Low-medium"
+            },
+            {
+              "parameter": "Footprint",
+              "value1": "Minimal",
+              "value2": "Significant"
+            }
+          ],
+          "infoBox": {
+            "title": "Savings calculation",
+            "text": "For discharge of 100 m³/day of wastewater with OP concentration of 20 mg/L, the limit exceedance is 400 times. Discharge fee — up to 50,000 rub/month. Ozonation pays for itself in 8-12 months only on savings from environmental fees."
+          }
+        },
+        "compliance": {
+          "title": "Compliance with regulatory requirements",
+          "paragraph": "Ozonation ensures compliance with current regulations:",
+          "items": [
+            "SanPiN 2.1.5.980-00 — Hygienic requirements for surface water protection",
+            "GOST 17.1.3.07-82 — Rules for water quality control of water bodies",
+            "Ministry of Agriculture Order No. 552 — Water quality standards for fishery water bodies",
+            "Federal Law No. 7-FZ \"On Environmental Protection\"",
+            "Government Decree No. 644 — Rules for cold water supply and wastewater disposal"
+          ],
+          "tableCaption": "Maximum allowable concentrations of oil products for various water use categories",
+          "tableHeaders": [
+            "Water body category",
+            "Limit, mg/L",
+            "Hazard class"
+          ],
+          "tableRows": [
+            [
+              "Fishery water bodies, highest category",
+              "0.05",
+              "3"
+            ],
+            [
+              "Fishery water bodies, category I",
+              "0.05",
+              "3"
+            ],
+            [
+              "Fishery water bodies, category II",
+              "0.05",
+              "3"
+            ],
+            [
+              "Domestic and drinking water use",
+              "0.1",
+              "4"
+            ],
+            [
+              "Discharge to municipal sewerage",
+              "4.0",
+              "—"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "Advantages of industrial ozonation",
+          "features": [
+            {
+              "title": "Environmental safety",
+              "description": "Complete mineralization of oil products without secondary pollution and waste for disposal"
+            },
+            {
+              "title": "Compliance with limits",
+              "description": "Guaranteed achievement of standards for discharge into fishery water bodies"
+            },
+            {
+              "title": "Process automation",
+              "description": "Automatic regulation of ozone dose according to concentration sensor readings"
+            },
+            {
+              "title": "Reduced fees",
+              "description": "Savings on environmental fees and fines for exceeding limits"
+            },
+            {
+              "title": "Versatility",
+              "description": "Effective treatment of all classes of oil products: aliphatic, aromatic, PAH"
+            },
+            {
+              "title": "Low operating costs",
+              "description": "No consumables — only electricity and oxygen"
+            }
+          ]
+        },
+        "case": {
+          "title": "Case study: Refinery with capacity of 6 million tons/year",
+          "paragraph": "Implementation of ozonation at wastewater treatment facilities of a refinery:",
+          "tableCaption": "Results of ozonation system implementation",
+          "tableHeaders": [
+            "Indicator",
+            "Before implementation",
+            "After implementation",
+            "Effect"
+          ],
+          "tableRows": [
+            [
+              "Wastewater volume, m³/day",
+              "5,000",
+              "5,000",
+              "—"
+            ],
+            [
+              "OP concentration at inlet, mg/L",
+              "25-40",
+              "25-40",
+              "—"
+            ],
+            [
+              "OP concentration at outlet, mg/L",
+              "0.8-1.5",
+              "0.03-0.05",
+              "-96%"
+            ],
+            [
+              "Environmental fees, million rub/year",
+              "18.5",
+              "0.2",
+              "-99%"
+            ],
+            [
+              "Coagulant consumption, t/year",
+              "120",
+              "0",
+              "-100%"
+            ],
+            [
+              "Sludge formation, t/year",
+              "850",
+              "0",
+              "-100%"
+            ],
+            [
+              "Payback period",
+              "—",
+              "14 months",
+              "—"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

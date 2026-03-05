@@ -1,0 +1,247 @@
+{
+  "title": "Cleaning",
+  "description": "Professional ozonation for cleaning companies: removal of ingrained odors, post-fire treatment, pet odor removal, vehicle ozonation and deep cleaning of carpets and upholstery.",
+  "subcategories": {
+    "fire-smoke": {
+      "title": "Fire aftermath",
+      "shortDesc": "Removal of smoke and soot odor",
+      "content": "Fire smoke odor is among the hardest to remove. Smoke and soot particles penetrate plaster, concrete, wood, textiles and soak into upholstery and carpets. Conventional cleaning cannot remove this odor — it keeps coming back.\n\nOzonation is the only method that can fully eliminate fire odor without major renovation. Ozone penetrates all materials at the molecular level and oxidizes soot and combustion products, breaking their chemical structure.\n\nPost-fire treatment requires high ozone concentrations (40–80 mg/m³) and long exposure — 24 to 72 hours depending on damage. Multiple cycles with ventilation between are recommended.\n\nBefore ozonation, clean visible soot, wipe surfaces and remove badly damaged items. Ozone does not physically remove soot — it only eliminates the odor.",
+      "benefits": [
+        "Odor removal without renovation",
+        "Penetration into walls and ceilings",
+        "Whole-room treatment at once",
+        "Preservation of finishes",
+        "Faster recovery of the premises",
+        "Savings on major repairs"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "24-72 h",
+          "label": "Treatment time",
+          "description": "Depending on damage level"
+        },
+        "stat2": {
+          "value": "40-80",
+          "label": "mg/m³",
+          "description": "Ozone concentration"
+        },
+        "stat3": {
+          "value": "2-3",
+          "label": "Cycles",
+          "description": "For heavy smoke damage"
+        },
+        "stat4": {
+          "value": "100%",
+          "label": "Elimination",
+          "description": "Of smoke odor without renovation"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Fire smoke odor is among the most persistent and difficult to remove. Combustion products penetrate deep into building materials: plaster, concrete, brick, wood. Tiny soot particles are absorbed into textiles, upholstery, carpets, wallpaper. Traditional cleaning and ventilation don't help — the odor keeps coming back.",
+          "text2": "Many property owners after a fire are forced to do a full renovation with replacement of finishes. However, ozonation allows solving the problem faster and cheaper — without demolishing walls and replacing furniture."
+        },
+        "highlight1": {
+          "title": "Why fire smoke odor is so persistent:",
+          "text": "When organic materials burn, polycyclic aromatic hydrocarbons (PAHs), soot, and resins are formed. These substances have microscopic particle sizes (0.1-1 μm) and penetrate deep into the pores of building materials. Regular cleaning only removes the surface layer."
+        },
+        "howOzone": {
+          "title": "How ozone eliminates fire smoke odor",
+          "text": "Ozone is a gas that penetrates everywhere smoke and soot particles have reached. It oxidizes organic compounds at the molecular level, breaking chemical bonds in combustion product molecules. As a result, safe compounds are formed — water and carbon dioxide.",
+          "items": [
+            "Penetrates micropores of concrete, plaster, brick",
+            "Treats wooden structures from inside",
+            "Reaches hidden cavities behind wall cladding",
+            "Passes through textiles and furniture upholstery",
+            "Cleans ventilation systems and ducts",
+            "Treats books, documents, clothing"
+          ]
+        },
+        "process": {
+          "title": "Post-fire room treatment stages",
+          "steps": [
+            {
+              "title": "Preliminary cleaning",
+              "description": "Remove visible soot and smoke residue from all surfaces. Wipe walls, ceilings, floors. Vacuum upholstery and carpets. Remove severely damaged items."
+            },
+            {
+              "title": "Room sealing",
+              "description": "Close all windows and doors. Seal ventilation openings. Seal gaps. This is necessary to maintain high ozone concentration."
+            },
+            {
+              "title": "First ozonation cycle",
+              "description": "Install ozone generator, leave the room. Treatment at 40-80 mg/m³ concentration for 8-24 hours. Ozone must completely fill the room volume."
+            },
+            {
+              "title": "Ventilation and assessment",
+              "description": "Ventilate the room for 2-4 hours until ozone odor completely disappears. Assess the result. If necessary, perform additional wet cleaning."
+            },
+            {
+              "title": "Repeat cycles (if needed)",
+              "description": "For heavy smoke damage, 2-3 treatment cycles with ventilation breaks are required. Each cycle further reduces odor concentration."
+            }
+          ]
+        },
+        "modes": {
+          "title": "Treatment modes depending on damage level",
+          "highlight": {
+            "title": "Important:",
+            "text": "Ozone does not physically remove soot — it only eliminates the odor. Mechanical cleaning is mandatory before ozonation. Also, ozone does not restore damaged materials — charred surfaces require repair."
+          },
+          "tableHeaders": [
+            "Damage level",
+            "Concentration",
+            "Cycle time",
+            "Number of cycles"
+          ],
+          "tableCaption": "Recommended post-fire ozonation parameters",
+          "tableData": [
+            [
+              "Light smoke",
+              "20-40 mg/m³",
+              "4-8 hours",
+              "1"
+            ],
+            [
+              "Moderate smoke",
+              "40-60 mg/m³",
+              "12-24 hours",
+              "1-2"
+            ],
+            [
+              "Heavy smoke",
+              "60-80 mg/m³",
+              "24-48 hours",
+              "2-3"
+            ],
+            [
+              "Very heavy",
+              "80+ mg/m³",
+              "48-72 hours",
+              "3+"
+            ]
+          ]
+        },
+        "comparison": {
+          "title": "Comparison of fire smoke odor removal methods",
+          "tableTitle": "Ozonation vs other methods",
+          "headers": [
+            "Criterion",
+            "Ozonation",
+            "Major renovation"
+          ],
+          "rows": [
+            {
+              "parameter": "Cost",
+              "value1": "Low",
+              "value2": "Very high"
+            },
+            {
+              "parameter": "Completion time",
+              "value1": "1-3 days",
+              "value2": "2-4 weeks"
+            },
+            {
+              "parameter": "Effectiveness",
+              "value1": "95-100%",
+              "value2": "100%"
+            },
+            {
+              "parameter": "Preservation of finishes",
+              "value1": "Yes",
+              "value2": "No (replacement)"
+            },
+            {
+              "parameter": "Preservation of furniture",
+              "value1": "Yes",
+              "value2": "Depends on damage"
+            },
+            {
+              "parameter": "Need for evacuation",
+              "value1": "During treatment",
+              "value2": "For entire repair period"
+            }
+          ]
+        },
+        "whatCanTreat": {
+          "title": "What can be treated with ozone",
+          "items": [
+            {
+              "title": "Building structures",
+              "description": "Walls, ceilings, floors, wooden beams. Ozone penetrates to a depth of several centimeters"
+            },
+            {
+              "title": "Upholstered furniture",
+              "description": "Sofas, armchairs, mattresses, pillows. Ozone treats both filling and upholstery simultaneously"
+            },
+            {
+              "title": "Carpets and textiles",
+              "description": "Carpet coverings, curtains, clothing in closets. Can be treated directly in the room"
+            },
+            {
+              "title": "Books and documents",
+              "description": "Paper media absorb fire smoke odor. Ozonation allows preserving archives"
+            }
+          ]
+        },
+        "whenNotHelp": {
+          "title": "When ozonation won't help",
+          "text": "Ozonation is not a universal solution. There are cases when additional treatment or repair is required:",
+          "items": [
+            "Charred surfaces — require mechanical cleaning or replacement",
+            "Water-soaked materials after firefighting — drying first",
+            "Melted plastic — odor source not eliminated by ozone",
+            "Deeply sooted drywall — may require replacement",
+            "Ventilation systems with accumulated soot — require mechanical cleaning"
+          ],
+          "highlight": {
+            "title": "Recommendation:",
+            "text": "For maximum effect, combine ozonation with professional cleaning. First — mechanical removal of soot, then — ozonation to eliminate ingrained odor."
+          }
+        },
+        "economic": {
+          "title": "Economic effect",
+          "text": "Ozonation allows significant savings on post-fire restoration:",
+          "tableHeaders": [
+            "Expense item",
+            "With ozonation",
+            "Without ozonation"
+          ],
+          "tableCaption": "Restoration cost comparison (example for 60 m² apartment)",
+          "tableData": [
+            [
+              "Finish removal",
+              "—",
+              "$500"
+            ],
+            [
+              "New finishes",
+              "—",
+              "$2,000"
+            ],
+            [
+              "Furniture cleaning",
+              "$150",
+              "$150"
+            ],
+            [
+              "Ozonation",
+              "$200",
+              "—"
+            ],
+            [
+              "New furniture (replacement)",
+              "—",
+              "$1,500"
+            ],
+            [
+              "TOTAL",
+              "$350",
+              "$4,150"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

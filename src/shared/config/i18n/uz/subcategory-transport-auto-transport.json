@@ -1,0 +1,361 @@
+{
+  "title": "Transport",
+  "description": "Transport vositalarini ozonlash yo'lovchi transportining sanitariya xavfsizligini ta'minlaydi, yuk konteynerlarini dezinfeksiya qiladi va kimyoviy fumigatsiyaga ekologik toza muqobil.",
+  "subcategories": {
+    "auto-transport": {
+      "title": "Avtomobil yuklari",
+      "shortDesc": "Yuk mashinalar va vanlari",
+      "content": "Yuk mashinalarini va vanlarini ozonlash yukining sanitariya xavfsizligini ta'minlaydi, ayniqsa ovqat uchun muhim. U oldingi yuklardan hidalarni olib tashlaydi va yuk hududini dezinfeksiya qiladi.\n\nSovutilgan va izolyatsiyalangan vanlari diqqat bilan sanitariya ehtiyojlari bo'lishi kerak. Ozonlash mahsulotlarni buza oladigan bakteriyalar, mog'orlar va sporlarni yo'q qiladi. Qayta ishlash reyslar orasida o'tkaziladi.\n\nAralash yuk tashiyotgan vanlari uchun ozonlash o'zaro hidlarni bartaraf etadi. Baliq, kimyoviy moddalar yoki o'g'it hidlari devor orqali soqib o'tadi va boshqa tovarlaraga o'tadi. Ozon bu hidlarni neytrallaydi.\n\nQayta ishlash: eshiklarini yopiq holda 30-60 daqiqa. Mobil generator yuk hududiga o'rnatilib qo'yiladi. Qayta ishlashdan keyin 15-20 daqiqa havolantiriladi. Katta avtoparklar uchun yuk hududidagi doimiy ozonlash tizimlarini tavsiya qilinadi.",
+      "benefits": [
+        "Oziq-ovqat transportining xavfsizligi",
+        "Yuk hidlarini bartaraf etish",
+        "Sovutish moslamalarni dezinfeksiya qilish",
+        "Sanitariya normalariga moslik",
+        "Reyslar orasidagi tez qayta ishlash",
+        "Yuk sifatini saqlab qolish"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "20-40",
+          "label": "daqiqa",
+          "description": "Yuk mashinasi tanasini qayta ishlash"
+        },
+        "stat2": {
+          "value": "HACCP",
+          "label": "Moslik",
+          "description": "Oziq-ovqat transporti talablari"
+        },
+        "stat3": {
+          "value": "12/24V",
+          "label": "Quvvat",
+          "description": "Avtomobil quvvatidan ishlash"
+        },
+        "stat4": {
+          "value": "10-15",
+          "label": "vositalar smena uchun",
+          "description": "1 operator boshqaravdi"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Tijorat avtomobil transporti — kichik vanlardan uzun masofali yuk mashinalarigacha — muntazam sanitariya qayta ishlashni talab qiladi. Bu ayniqsa oziq-ovqat tashishtiruvchilar uchun muhim: sut mahsulotlari, go'sht, sabzavot va mevalar. Sanitariya standartlari va HACCP talablari yuk hududining tozaligini saqlab qolishini to'g'ri qiladi.",
+          "paragraph2": "Ozonlash avtoparkni santariya qayta ishlashning samarali va iqtisodiy usuli. Bitta mobil ozonator bir smenada 10-15 ta yuk mashinasini qayta ishlaydi, avtomobil quvvatdan ishlaydi, hech qanday sarflarni talab qilmaydi. Logistika kompaniyalari uchun bu kimyoviy qayta ishlash bilan solishtirganda katta tejamkorlik."
+        },
+        "highlight1": {
+          "title": "Avtoparkni boshqaruvchi uchun:",
+          "text": "Ozonlashni ta'mirlash jadvaliga integratsiya qiling. Haydovchi hujjatlarni qayta ishlashda yoki reyslar orasida dam olayotganda — yuk mashinasi qayta ishlanadi. Bu qo'shimcha to'xtash vaqtini yaratmaydi."
+        },
+        "types": {
+          "title": "Tijorat transportining turlari",
+          "text": "Ozonlash barcha toq avtomobil transporti turlari uchun qo'llaniladi:",
+          "items": [
+            "Sovutilgan — tez buziladigan tovarlarni harorat boshqaruviga bilan tashish",
+            "Izolyatsiyalangan vanlari — faol sovutishsiz tovar yetkazib berish",
+            "Tullo bilan qoplangan yarim traktorlari — universal yuk transporti",
+            "Mustahkam tanali vanlari — chakana do'konlarga yetkazib berish",
+            "Ixtisoslashtirilgan vositalar — non mashinalari, sut mashinalari, go'sht mashinalari",
+            "Konteyner tashiuvchilari — o'rnatilgan yuk konteynerlar bilan"
+          ]
+        },
+        "problems": {
+          "title": "Avtomobil transportida sanitariya muammolari",
+          "text": "Avtomobil yuk hudi turli manbalardan iflos bo'ladi:",
+          "items": [
+            "Oldingi yuklardan hidalar — baliq, go'sht, kimyoviy moddalar, o'g'it",
+            "Bakterial ifloslanish — sizib chiqadigan qadoqlash, shikastlanmish tovarlardan",
+            "Mog'or va zambrug'lar — nam yuk tashishda, kondensatsiya",
+            "Hasharotlar — yuk bilan keltirilgan yoki omborlardan",
+            "Chang va kir — pol va tanasining devorida to'planadi",
+            "Qadoqlash qoldiqlar — kartonda, plyonka, lenta, paleta bog'lar"
+          ],
+          "text2": "An'anaviy yuvish va artish muammoni to'liq hal qilmaydi. Suv bakteriyalarni o'ldirmaydi, hidlar qaytadi, mog'or yana rivojlanadi. Dezinfeksiya talab qilinadi."
+        },
+        "technology": {
+          "title": "Yuk mashinasini qayta ishlash texnologiyasi",
+          "steps": [
+            {
+              "title": "Tanani bo'shatish",
+              "description": "Yuk tushirish, axlat va qadoqlash qoldiqlarni olib tashlash. Katta ifloslanish uchun — dastlabki nam tozalash."
+            },
+            {
+              "title": "Ozonator joylashtirish",
+              "description": "Ozonatorni tananing ichida maksimal balandlikda o'rnating. Elektr tarmog'iga (220V/230V) yoki tashqi manbaaga ulang."
+            },
+            {
+              "title": "Sıg'ish",
+              "description": "Eshiklar, darvozalar, hatchlarni yoping. Tullo bilan qoplangan yarim traktorlari uchun — tullo pasaytiring va havfsizlashtiring."
+            },
+            {
+              "title": "Ozonlash",
+              "description": "Ozonatorni yoqing, taymerdi boshlang. Qayta ishlash vaqti hajm va ifloslanishga qarab 20-40 daqiqa."
+            },
+            {
+              "title": "Havolantirish",
+              "description": "Eshiklar, sovutish mashinasining ventilyatsiyasini yoqing (agar bo'lsa). 15-20 daqiqa shamollating."
+            }
+          ],
+          "highlight": "Havolantirishdan keyin tana yuklashga tayyor. Ozon kislorodga parchalanadi, kimyoviy qoldiqlar yo'q, yuk ifloslanish xatari yo'q."
+        },
+        "modes": {
+          "title": "Avtomobil turi bo'yicha qayta ishlash rejimlari",
+          "tableCaption": "Avtomobil yuklasining ozonlash parametrlari",
+          "tableHeaders": [
+            "Avtomobil turi",
+            "Tana hajmi",
+            "Quvvat",
+            "Qayta ishlash vaqti"
+          ],
+          "tableData": [
+            [
+              "Engil van",
+              "8-15 m³",
+              "5-10 g/h",
+              "15-20 min"
+            ],
+            [
+              "O'rta van",
+              "20-40 m³",
+              "10-20 g/h",
+              "20-30 min"
+            ],
+            [
+              "Sovutilgan (yarim traktor)",
+              "80-90 m³",
+              "20-30 g/h",
+              "30-40 min"
+            ],
+            [
+              "Tullo bilan qoplangan yarim traktor",
+              "90-100 m³",
+              "20-30 g/h",
+              "35-45 min"
+            ],
+            [
+              "Tank maskina (sut maskina)",
+              "5-20 m³",
+              "10-15 g/h",
+              "20-30 min"
+            ],
+            [
+              "Non vani",
+              "15-25 m³",
+              "5-10 g/h",
+              "15-25 min"
+            ]
+          ]
+        },
+        "refrigerators": {
+          "title": "Sovutishni qayta ishlash xususiyatlari",
+          "text": "Sovutish moslamalari va izolyatsiyalangan vanlari maxsus e'tibor talab qiladi — ular qat'iy sanitariya talablari bilan oziq-ovqat mahsulotlarini tashiydi.",
+          "items": [
+            "Sovutish moslamasi o'chiq holatda qayta ishlash — ozon sovutuvchi gazzga ta'sir qilmaydi",
+            "Yaxshi izolyatsiya mustahkamligi samaradorligini oshiradi",
+            "Ozon sendvich panelari va plastik qoplamani shikasta qilmaydi",
+            "Butun ichki sirt qayta ishlanadi, shuningdek shiftga va pol bo'yliklarga",
+            "Oldingi tashishlardan devorga soqib otkagan hidalar yo'q qilinadi"
+          ],
+          "highlight": {
+            "title": "HACCP uchun:",
+            "text": "Har bir qayta ishlashni sana, avtomobil raqami, parametrlari (vaqt, konsentratsiya) ko'rsatgan jurnalga yozib qo'ying. Bu tekshiruvlar paytida sanitariya mosligining hujjatli isboti."
+          }
+        },
+        "odorRemoval": {
+          "title": "Hidlarni bartaraf etish",
+          "text": "Avtomobil transportida asosiy muammolardan biri — oldingi yuklardan hidalar:",
+          "items": [
+            "Baliq va quyosh mahsullari — doimiy hid, devorga soqib o'tadi",
+            "Go'sht — qadoqlash shikastlanmasa yoki harorat rejimi buzilsa",
+            "Piyoz, sarimsoq — o'tkir hid, boshqa yukka o'tadi",
+            "Kimyoviy moddalar — o'g'itlar, uy kimyoviy vositalari, texnika suyuqliklar",
+            "Xushbo'y moddalar — kuchli aroma, oziq-ovqat yugi bilan mos emas"
+          ],
+          "text2": "Ozon hid molekulalarini oksidlaydi, ularni neytral birikmalarga aylantirad. Bu yashirish emas, balki to'liq bartaraf etish. Qayta ishlashdan keyin tana yangi sifatida hid qiladi — \"Bo'ron keyin kabi\".",
+          "tableCaption": "Hidlarni bartaraf etish rejimlar",
+          "tableHeaders": [
+            "Hid turi",
+            "Konsentratsiya",
+            "Qayta ishlash vaqti",
+            "Samaradorlik"
+          ],
+          "tableData": [
+            [
+              "Engil (chang, eskirganlik)",
+              "10-15 mg/m³",
+              "15-20 min",
+              "100%"
+            ],
+            [
+              "O'rta (piyoz, sarimsoq)",
+              "15-20 mg/m³",
+              "20-30 min",
+              "100%"
+            ],
+            [
+              "Kuchli (baliq, go'sht)",
+              "20-30 mg/m³",
+              "30-45 min",
+              "95-100%"
+            ],
+            [
+              "Juda kuchli (kimyoviy)",
+              "25-35 mg/m³",
+              "45-60 min",
+              "90-95%"
+            ],
+            [
+              "Eskirgan (mog'or)",
+              "30-40 mg/m³",
+              "60-90 min",
+              "95-100%"
+            ]
+          ]
+        },
+        "integration": {
+          "title": "Avtoparkka integratsiya",
+          "features": [
+            {
+              "title": "Yuklashdan so'ng",
+              "description": "Haydovchi hujjatlarni qayta ishlay va keyingi vazifani olay — avtomobil qayta ishlanadi"
+            },
+            {
+              "title": "Yuklashdan oldin",
+              "description": "Sezgir yuk yuklashdan oldin prophilaktikal qayta ishlash: sut mahsulotlari, go'sht, sabzavot"
+            },
+            {
+              "title": "Tungi to'xtash",
+              "description": "Depoda turgan avtomobillar tunda qayta ishlanadi — sabahda reysga tayyorlangan"
+            },
+            {
+              "title": "Yuk o'zgarishi",
+              "description": "Bir turdagi yukdan boshqasiga o'tish (baliq → sut) — majburiy qayta ishlash"
+            }
+          ]
+        },
+        "economics": {
+          "title": "Avtoparkni iqtisodiyoti",
+          "comparisonTitle": "Avtoparkni sanitariya qayta ishlash usullarini solishtirish (50 vositalar)",
+          "tableHeaders": [
+            "Ko'rsatkich",
+            "Ozonlash",
+            "Kimyoviy qayta ishlash"
+          ],
+          "tableCaption": "Avtoparkni sanitariya qayta ishlash usullarini solishtirish (50 vositalar)",
+          "tableData": [
+            [
+              "Uskunalar",
+              "50-150 ming ₽ (bir marta)",
+              "Talab qilinmaydi"
+            ],
+            [
+              "Bir avtomobil uchun xaraj",
+              "30-50 ₽ (elektrik energiya)",
+              "500-1500 ₽ (xizmat/materiallar)"
+            ],
+            [
+              "Xodimlar",
+              "1 operator",
+              "3-5 yuvish xodimlari"
+            ],
+            [
+              "Bir avtomobil uchun vaqt",
+              "30-40 min (nazorat qilmasdan)",
+              "60-90 min (qo'lda ishlash)"
+            ],
+            [
+              "Hidlarni bartaraf etish",
+              "To'liq",
+              "Qisman"
+            ],
+            [
+              "O'zini qoplash muddati",
+              "2-4 oy",
+              "—"
+            ]
+          ],
+          "text": "Haftada ikki marta 50 ta avtomobilni qayta ishlashda tejamkorlik oyiga 100-200 ming rubl. Ozonator o'zini qoplash — 2-4 oy. Qo'shimcha foyda — hidlar va ifloslanishga shikoyatlarnigga kamaytirish."
+        },
+        "compliance": {
+          "title": "Sanitariya normalariga moslik",
+          "text": "Avtomobil yuklasining ozonlash quyidagi talablarga javob beradi:",
+          "items": [
+            "SanPiN 2.3.4.050-96 — oziq-ovqat mahsulotlarini tashish",
+            "Texnik Reglament TS 021/2011 — oziq-ovqat mahsulotlarining xavfsizligi",
+            "HACCP — logistikada kritik nazorat nuqtalari",
+            "ISO 22000 — oziq-ovqat xavfsizligi boshqaruv tizimi",
+            "Chakana do'konning tavsiyachor va tashiuvchilarga talablari"
+          ],
+          "warning": {
+            "title": "Hujjatlashtirish:",
+            "text": "Qayta ishlash jurnallarini hech bo'lmaganda 1 yil davomida saqlang. HACCP tekshiruvlari, Rospotrebnadzor inspeksiyalari yoki miski talablari paytida — bu sizning himoyangiz."
+          }
+        },
+        "equipment": {
+          "title": "Avtoparkni uskunalar",
+          "text": "Tijorat transportni qayta ishlash uchun quyidagilardan foydalaniladi:",
+          "items": [
+            "Mobil ozonatorlar 5-20 g/h — vanlar va o'rta yuk mashinalar uchun",
+            "Ko'chma ozonatorlar 20-50 g/h — yarim traktorlar va katta transport uchun",
+            "Devor o'rnatilgan ozonatorlar — tanada doimiy o'rnatish uchun",
+            "220V/230V o'zgartirishlari — tashqi quvvatsiz elektr tarmog'idan ishlash uchun",
+            "Taymer tizimlar — avtomatik jadvalga asoslangan qayta ishlash uchun"
+          ],
+          "tableCaption": "Avtoparkka o'lchamiga qarab ozonatorlarni tanlash",
+          "tableHeaders": [
+            "Avtoparkka o'lcham",
+            "Tavsiya etilgan uskunalar",
+            "To'plam xaraji"
+          ],
+          "tableData": [
+            [
+              "5-15 vositalar",
+              "1-2 mobil ozonatorlar 10-20 g/h",
+              "30-60 ming ₽"
+            ],
+            [
+              "15-50 vositalar",
+              "3-5 ozonatorlar 15-30 g/h",
+              "80-150 ming ₽"
+            ],
+            [
+              "50-100 vositalar",
+              "5-10 ozonatorlar + doimiy zonalar",
+              "150-300 ming ₽"
+            ],
+            [
+              "100+ vositalar",
+              "Shaxsiy yechim",
+              "Shaxsiy"
+            ]
+          ]
+        },
+        "roi": {
+          "title": "Avtoparkni boshqaruvchilari uchun ROI",
+          "text": "30 ta yuk mashinasidan iborat avtoparkni investitsiya qaytarish hisoblash:",
+          "items": [
+            "Investitsiya: 100 000 ₽ (3 ozonator 30-35 ming ₽ bilan)",
+            "Xodimlar tejamkrolic: 40 000 ₽/oy (1-2 tozalovchini ozod qilish)",
+            "Dezinfeksiya vositalari tejamkorligi: 15 000 ₽/oy",
+            "To'xtash vaqti qisqartirish: 10 000 ₽/oy (tez qayta ishlash)",
+            "Umumiy tejamkorlik: ~ 65 000 ₽/oy",
+            "O'zini qoplash muddati: 1,5-2 oy"
+          ],
+          "highlight": {
+            "title": "Qo'shimcha foyda:",
+            "text": "Obro'imomiy ta'sir. Toza, hidisiz yuk mashinalar — bu transport sifatiga ishonch. Katta chakana do'konlar va ishlab chiqaruvchilar tasdiqlanmish sanitariya qayta ishlashga ega tashiuvchilarni tanlaydi."
+          }
+        },
+        "safety": {
+          "title": "Xavfsizlik talablari",
+          "items": [
+            "Qayta ishlash faqat yopiq tana va ichida odamlar bo'lmaganda",
+            "Ozonatorni haydovchi kabinasida yoqmang",
+            "Qayta ishlashdan keyin — tanaga kirishdan oldin majburiy havolantirish",
+            "Erta kirish kerak bo'lsa — ko'mir filtri bilan respirator",
+            "Ozonator chiqarishini rezina muhrlaraga yo'naltirmang",
+            "Ozonatorni quruq havolantiriladigan joyda saqlang"
+          ]
+        }
+      }
+    }
+  }
+}

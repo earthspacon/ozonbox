@@ -1,0 +1,177 @@
+{
+  "title": "HoReCa",
+  "description": "Mehmonxonalar, restoranlar, kir yuvish xonalari va boshqa mehmonxona muassasalari qulay muhit yaratish, hidlarni yo'q qilish va yuqori gigiyena standartlarini saqlash uchun ozonlashdan foydalanadi.",
+  "subcategories": {
+    "hotels": {
+      "title": "Mehmonxonalar",
+      "shortDesc": "Xona dezinfeksiyasi va hidi yo'q qilish",
+      "content": "Mehmonxona xonasini ozonlash tez dezinfeksiya va hidi yo'q qilish uchun zamonaviy usuldir. Ozon bacteria, viruslar, ko'plak, zamburug'lar va parazit protozoalarni barcha sirtlarda samarali yo'q qiladi.\n\nHava ozonatori bemorlar o'zgartirilganda tozalab turib xonani to'liq ishlov berish imkonini beradi. Odatiy ravishda 30–60 daqiqa ishlov berish yetarli. Gaz barcha teschalik va burchaklarga kirib boradi, to'qimalar, mebel va dekoratsiyalarni dezinfeksiya qiladi.\n\nIshlov berishdan keyin ozon toksik mahsulotlarsiz kislorodga parchalanadi. Hava \"yangi\" ko'rinadi, havo yangilantiruvchisiz yoki niqob qiluvchi vositalarsiz. Tabak, ter, changa qo'zg'algan va namlik hidlarning to'liq yo'q qilishi.\n\nIshlov berish ozonator yoqilgandan keyin xodimlarni talab qilmaydi. Zamonaviy qurilmalar avtomatika uchun haftaviy taymerega ega.",
+      "stats": {
+        "processingTime": {
+          "value": "30-60",
+          "label": "Ishlov berish daqiqlari",
+          "description": "Xonani to'liq dezinfeksiya siklsi"
+        },
+        "odorRemoval": {
+          "value": "100%",
+          "label": "Hidi yo'q qilish",
+          "description": "Tabak, ter, changa, oziq"
+        },
+        "disinfection": {
+          "value": "99.9%",
+          "label": "Dezinfeksiya",
+          "description": "Bakteriyalar va viruslarning yo'q qilishi"
+        },
+        "noChemistry": {
+          "value": "0",
+          "label": "Kimyoviy moddalar",
+          "description": "Xushbo'y va havo yangilantiruvchisiz"
+        }
+      },
+      "sections": {
+        "intro": {
+          "p1": "Mehmonxona biznesi asosan mehmon taassurotlari haqida. Fumonlash xonasining hidlari, changa qo'zg'algan, chuqur hidlar hatto eng shoh mehmonxonaning taassurotini buzishi mumkin. Ozonlash bu muammoni radikalyadi hal qiladi — hidlarni niqob qilish emas, balki ularni molekulyar darajada yo'q qilish.",
+          "p2": "Hidlarni yo'q qilishdan tashqari, ozon barcha xona sirtlarini dezinfeksiya qiladi: saltalar, yostiqlar, pardalar, gilam, qaplotilgan mebel. Gaz material tuzilmasiga kirib boradi, bakteriyalar, viruslar, chang qumurtqalari va ko'plak sporsini yo'q qiladi."
+        },
+        "automation": {
+          "title": "Avtomatika:",
+          "text": "Zamonaviy ozonatorlar haftaviy taymerga ega. Ishlov berish xonani tozalashdan keyin avtomatik ravishda boshlashi mumkin, xodimlarning qatnashmasi bo'lmasdan."
+        },
+        "problems": {
+          "title": "Ozonlash bilan hal qilinadigan muammolar",
+          "items": [
+            "Tabak va nargila hidi — to'liq yo'q qilish, niqob qilish emas",
+            "Changa qo'zg'algan va namlik — ayniqsa tabiiy ventilatsiyosiz xonalar uchun muhim",
+            "Oldingi mehmonlarning ter va parfyum hidlari",
+            "Xona xizmatidagi kulinariya aromatlari",
+            "Hayvon hidlari (hayvon-do'st mehmonxonalar)",
+            "Aloqa sirtlarida bakteriyalar va viruslar",
+            "To'qimalardagi chang qumurtqalari — allergiya oldini olish"
+          ]
+        },
+        "process": {
+          "title": "Xona ozonlash jarayoni",
+          "steps": [
+            {
+              "title": "Standart tozalash",
+              "description": "Xona muntazam tozalanadi: to'shak kiyim o'zgartirish, sirtlarni surtish, chang chiqarish."
+            },
+            {
+              "title": "Ozonator o'rnatish",
+              "description": "Portativ ozonator maksimal balandlikka qo'yiladi (shkafning ustiga, polkaga). Oynalar va eshiklar yopiladi."
+            },
+            {
+              "title": "Ozonlash",
+              "description": "Ishlov berish boshlandi. Standart rejim: 30-60 daqiqa, 25 m³ sig'im uchun soatiga 1 g."
+            },
+            {
+              "title": "Ventilatsiya",
+              "description": "Ishlov berishdan keyin — 20-30 daqiqa ventilatsiya. Ozon kislorodga parchalanadi, yangi hissi qoladi."
+            }
+          ],
+          "tableHeaders": [
+            "Holat",
+            "Konsentratsiya",
+            "Vaqt",
+            "Natija"
+          ],
+          "tableCaption": "Xona ozonlash rejimlar",
+          "tableData": [
+            [
+              "Standart ishlov berish",
+              "5-10 mg/m³",
+              "30 daqiqa",
+              "Yangilash, yengil dezinfeksiya"
+            ],
+            [
+              "Fumonchidan keyin",
+              "15-20 mg/m³",
+              "60-90 daqiqa",
+              "To'liq hidi yo'q qilish"
+            ],
+            [
+              "Og'ir ifloslanish",
+              "20-30 mg/m³",
+              "2-3 soat",
+              "Chuqur hidi yo'q qilish"
+            ],
+            [
+              "Yuqumli mehmondan keyin",
+              "25-35 mg/m³",
+              "2-4 soat",
+              "To'liq dezinfeksiya"
+            ]
+          ]
+        },
+        "whatIsTreated": {
+          "title": "Ozon bilan nima ishlov beriladi",
+          "intro": "Ozon gaz bo'lgarki, muntazam tozalashga kirishmaydigan barcha joylarni kirib boradi:",
+          "items": [
+            {
+              "title": "To'qimalar",
+              "description": "Saltalar, yostiqlar, ko'rpalalar, pardalar, mebel qaplotlanishi, gilam"
+            },
+            {
+              "title": "Mebel",
+              "description": "Shkaflarning ichki bo'shliklari, teschaliklar, dekorative elementlar, qo'l tayanglar"
+            },
+            {
+              "title": "Ventilatsiya",
+              "description": "Havo kanallar, panjara, konditsioner tizimi — hidlar va bakteriyalarning manba"
+            },
+            {
+              "title": "Hammom",
+              "description": "Plitka, shpaklevka, sanuztexnika — bakteriyalar va ko'plak to'planish joylari"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Mehmonxonalar uchun foydalari",
+          "items": [
+            "Booking, TripAdvisor-da yuqori reyting — toza va yangi xavf haqidagi sharhlar",
+            "Mehmonlarning hidlar haqidagi shikoyatlari kamaydi — ayniqsa fumonlash xonalarida",
+            "Mehmonlar orasida infeksiya uzatishining oldini olish",
+            "Xonalarni tez o'tkazib berish — check-out va check-in orasidagi vaqtda ishlov berish",
+            "Xushbo'y va aromat xarcharalarining kamayishi",
+            "To'qima hayoti uzoqlashi — hid yo'q qilish qurumisiz"
+          ],
+          "highlight": "Tadqiqotlar ko'rsatadi: 87% mehmon mehmonxonani baholashda \"xona yangiligi\" muhim omil deb hisoblaydilari. Ozonlash \"yangi ta'mirlanmish\" xona his etishini yaratadi."
+        },
+        "equipment": {
+          "title": "Mehmonxonalar uchun asboblar",
+          "intro": "Mehmonxonalar uchun portativ ozonatorlar tavsiya qilinadi, ular xodimlar tozalashdan keyin xonadan xonaga o'tashadilari. Bu narx/samaradorlik nisbati bo'yicha optimal yechimdir.",
+          "tableHeaders": [
+            "Mehmonxona turi",
+            "Tavsiya qilingan asbob",
+            "Miqdor"
+          ],
+          "tableData": [
+            [
+              "Mini-mehmonxona (20 xonagacha)",
+              "Portativ ozonator 5-10 g/soat",
+              "1-2 dona"
+            ],
+            [
+              "O'rta mehmonxona (20-100 xona)",
+              "Portativ ozonatorlar 10-20 g/soat",
+              "3-5 dona"
+            ],
+            [
+              "Katta mehmonxona (100+ xona)",
+              "Ozonator floti + stasionar qurilmalar umumiy joylar",
+              "Hisob qilingani bo'yicha"
+            ]
+          ]
+        }
+      },
+      "benefits": [
+        "Tabak va ter hidlarining to'liq yo'q qilishi",
+        "Barcha sirtlarni kimyosiz dezinfeksiya qilish",
+        "Tez ishlov berish 30–60 daqiqada",
+        "Taymer bilan avtomatik ishlash",
+        "Ozon sof kislorodga parchalanishi",
+        "Yangi havoning his etish"
+      ]
+    }
+  }
+}

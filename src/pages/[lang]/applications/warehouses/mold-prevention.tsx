@@ -2,7 +2,7 @@ import { GetStaticPaths, GetStaticProps } from 'next'
 
 import { MoldPreventionPage } from '@/@pages/applications/warehouses/mold-prevention'
 
-import { getCategoryNamespace, LOCALES_LIST, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { getSubcategoryNamespace, LOCALES_LIST, NAMESPACES, TLocale } from '@/shared/config/tolgee'
 import { loadNamespaces, withTolgee } from '@/shared/lib'
 
 export const getStaticPaths: GetStaticPaths = async () => {
@@ -15,7 +15,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const staticData = await loadNamespaces(lang, [
     NAMESPACES.common,
     NAMESPACES.applications,
-    getCategoryNamespace('warehouses'),
+    getSubcategoryNamespace('warehouses', 'mold-prevention'),
   ])
   return { props: { staticData, lang } }
 }

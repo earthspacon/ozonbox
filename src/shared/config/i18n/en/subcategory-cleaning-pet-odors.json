@@ -1,0 +1,218 @@
+{
+  "title": "Cleaning",
+  "description": "Professional ozonation for cleaning companies: removal of ingrained odors, post-fire treatment, pet odor removal, vehicle ozonation and deep cleaning of carpets and upholstery.",
+  "subcategories": {
+    "pet-odors": {
+      "title": "Pet odors",
+      "shortDesc": "Removal of cat and dog urine odor",
+      "content": "Pet odors, especially cat urine, are among the most persistent and difficult to remove. Uric acid crystallizes in fabric fibers and reactivates with humidity, releasing a sharp ammonia smell. Conventional products only mask the problem temporarily.\n\nOzone breaks down uric acid crystals at the molecular level, fully removing the odor source. The gas penetrates upholstery, carpets, mattresses and baseboards — everywhere pets may have left marks.\n\nFor effective treatment, clean visible stains with an enzymatic cleaner first, then dry surfaces. Ozonation is run at 20–40 mg/m³ for 4–8 hours. Severe cases may need 2–3 cycles.\n\nImportant: ozonation is done with no people or pets present. After treatment, ventilate for 1–2 hours until the typical ozone smell is gone.",
+      "benefits": [
+        "Breakdown of uric acid crystals",
+        "Treatment of upholstery and carpets",
+        "Removal of marks in hard-to-reach spots",
+        "Destruction of bacteria and fungi",
+        "Preparation for sale or rental",
+        "More effective than enzymatic cleaners"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "100%",
+          "label": "Elimination",
+          "description": "Of uric acid crystals"
+        },
+        "stat2": {
+          "value": "4-8 h",
+          "label": "Treatment time",
+          "description": "Standard procedure"
+        },
+        "stat3": {
+          "value": "2-3",
+          "label": "Cycles",
+          "description": "For severe contamination"
+        },
+        "stat4": {
+          "value": "99.9%",
+          "label": "Bacteria",
+          "description": "Additionally destroyed"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Pet odors, especially cat urine, are one of the most common reasons for contacting cleaning companies. This odor is almost impossible to remove with conventional means. Air fresheners only mask the problem, and the odor returns again and again, especially in humid weather.",
+          "text2": "The reason for the persistence of the odor is uric acid. Unlike other components of urine (urea and urochrome), it does not dissolve in water and crystallizes in fabric fibers. When humidity increases, the crystals activate and again release a sharp ammonia smell."
+        },
+        "highlight1": {
+          "title": "Why conventional products don't work:",
+          "text": "Most cleaning products remove water-soluble components of urine, creating an illusion of cleanliness. But uric acid crystals remain in fabric fibers and activate when humidity increases. Ozone chemically breaks down these crystals, making the result permanent."
+        },
+        "howItWorks": {
+          "title": "How ozone eliminates pet odors",
+          "text": "Ozone is a powerful oxidizer that breaks down the molecular structure of uric acid. Being a gas, it penetrates everywhere urine could have reached: upholstery, carpets, mattresses, baseboards, floor cracks.",
+          "items": [
+            "Oxidizes uric acid crystals into safe compounds",
+            "Penetrates porous materials to full depth",
+            "Treats hard-to-reach areas (under furniture, behind baseboards)",
+            "Destroys bacteria causing additional odor",
+            "Neutralizes pheromones animals use to mark territory",
+            "Leaves no chemical residues after treatment"
+          ]
+        },
+        "types": {
+          "title": "Types of pet odors",
+          "tableHeaders": [
+            "Odor source",
+            "Features",
+            "Treatment mode"
+          ],
+          "tableCaption": "Characteristics of different odors and treatment methods",
+          "tableData": [
+            [
+              "Cat urine",
+              "Most persistent, contains uric acid",
+              "40-60 mg/m³, 6-8 hours, 2-3 cycles"
+            ],
+            [
+              "Dog urine",
+              "Less concentrated, easier to remove",
+              "20-40 mg/m³, 4-6 hours, 1-2 cycles"
+            ],
+            [
+              "Marks (territory)",
+              "Concentrated, with pheromones",
+              "40-60 mg/m³, 8-12 hours, 2-3 cycles"
+            ],
+            [
+              "Fur odor",
+              "Organic, from sebum",
+              "10-20 mg/m³, 2-4 hours, 1 cycle"
+            ],
+            [
+              "Litter box odor",
+              "Mixture of urine and feces",
+              "20-40 mg/m³, 4-6 hours, 1-2 cycles"
+            ]
+          ]
+        },
+        "process": {
+          "title": "Ozonation process for pet odor removal",
+          "steps": [
+            {
+              "title": "Source localization",
+              "description": "Identify all places where pets left marks. Use a UV flashlight — urine glows in ultraviolet light. Mark all detected spots."
+            },
+            {
+              "title": "Preliminary cleaning",
+              "description": "Treat visible stains with an enzymatic cleaner. It breaks down organic components of urine. Let dry completely before ozonation."
+            },
+            {
+              "title": "Room preparation",
+              "description": "Remove pets and houseplants. Close windows, doors, ventilation. Raise curtains and drapes for better ozone access."
+            },
+            {
+              "title": "Ozonation",
+              "description": "Place the ozone generator in the center of the room. Run for 4-8 hours at 20-60 mg/m³ concentration. Use a fan for even distribution."
+            },
+            {
+              "title": "Assessment and retreatment",
+              "description": "Ventilate the room for 1-2 hours. Assess the result. For severe contamination, repeat treatment after 24 hours. Usually 2-3 cycles are needed."
+            }
+          ]
+        },
+        "comparison": {
+          "title": "Comparison of odor removal methods",
+          "tableTitle": "Ozonation vs conventional products",
+          "headers": [
+            "Criterion",
+            "Ozonation",
+            "Enzymatic/chemical products"
+          ],
+          "rows": [
+            {
+              "parameter": "Principle of action",
+              "value1": "Molecule destruction",
+              "value2": "Enzymatic breakdown"
+            },
+            {
+              "parameter": "Penetration depth",
+              "value1": "Full material thickness",
+              "value2": "Surface only"
+            },
+            {
+              "parameter": "Hard-to-reach areas",
+              "value1": "Yes (gas penetrates everywhere)",
+              "value2": "No (manual treatment only)"
+            },
+            {
+              "parameter": "Effect duration",
+              "value1": "Permanent",
+              "value2": "May require repetition"
+            },
+            {
+              "parameter": "Treatment time",
+              "value1": "4-8 hours (automatic)",
+              "value2": "1-24 hours (manual labor)"
+            },
+            {
+              "parameter": "Disinfection",
+              "value1": "Yes (kills bacteria)",
+              "value2": "Partial"
+            }
+          ]
+        },
+        "specialCases": {
+          "title": "Special treatment cases",
+          "features": [
+            {
+              "title": "Apartment with multiple cats",
+              "description": "Multiple marks around the perimeter. Requires 3-4 ozonation cycles with high concentration"
+            },
+            {
+              "title": "Wooden floor",
+              "description": "Urine soaks into wood. Ozonation is the only way to treat wood without replacement"
+            },
+            {
+              "title": "Preparation for sale/rental",
+              "description": "Buyers are sensitive to odors. Ozonation is mandatory for apartments with pets"
+            },
+            {
+              "title": "Upholstered furniture",
+              "description": "Sofas and armchairs are favorite marking spots. Can be treated locally by covering with film"
+            }
+          ]
+        },
+        "localTreatment": {
+          "title": "Local furniture treatment",
+          "text": "If the odor is localized in a specific piece of furniture, chamber ozonation can be performed:",
+          "items": [
+            "Cover the item with plastic film, creating a \"chamber\"",
+            "Press film edges to the floor for sealing",
+            "Run hose from ozone generator under the film",
+            "Run ozone generator for 2-4 hours",
+            "This creates high ozone concentration directly in the item",
+            "After treatment — ventilate for 30-60 minutes"
+          ],
+          "highlight": {
+            "title": "Tip:",
+            "text": "To enhance effect when treating upholstered furniture, slightly moisten the surface with a spray bottle. Moisture activates uric acid crystals, making them more accessible for oxidation by ozone."
+          }
+        },
+        "prevention": {
+          "title": "Preventing recontamination",
+          "text": "After ozonation, it's important to prevent reappearance of marks:",
+          "items": [
+            "Eliminate the cause of marks (stress, illness, conflict with other animals)",
+            "Use pheromone diffusers to reduce anxiety",
+            "Provide sufficient number of litter boxes (rule N+1, where N is number of cats)",
+            "Clean litter boxes regularly — dirty box provokes marking",
+            "If necessary, spay/neuter the animal",
+            "For quick removal of fresh marks, use enzymatic cleaners"
+          ],
+          "highlight": {
+            "title": "Safety:",
+            "text": "Ozonation is performed with complete absence of animals! Ozone is toxic to pets just as it is to humans. Return animals to the room only after complete ventilation (1-2 hours)."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "title": "Dezinfeksiya",
+  "description": "Ozonlash ta'minovchi binolar va transportni chuqur dezinfeksiya qiladi, bakteriyalarni, viruslarni, zamburug'larni va sporalarni yo'q qiladi, kimyoviy qoldiqsiz. Gaz barcha qiyin-erishiladigan joylarni kirib boradi.",
+  "subcategories": {
+    "shopping-malls": {
+      "title": "Savdo markazlari",
+      "shortDesc": "Tashrif buyuruvchilar uchun toza hava",
+      "content": "Savdo markazlari massaviy jami bo'lgan joylari, ko'p tashrif buyuruvchilar oqimi. Ozonlash havo sifatini saqlaydi, hidlarni yo'q qiladi va infeksiya tarqalishini oldini olishga yordam beradi.\n\nMuntazam ozonlash ishning bo'sh vaqtida barcha sirtlarni dezinfeksiya qiladi: eskalatorlar, qo'l tutgichlari, liftlar, stol, restoran xonalari. Gaz barcha joylarni erishadi, orqa bo'lmalar va texnik zonalarni o'z ichiga olgan.\n\nOzon restoran xonalaridan, restoran xonalaridan va saqlanuvchi joylardan hidlarni samarali yo'q qiladi. Tamomlardan va tovarlardan kimyoviy ifloslanishni neytral qiladi. Hava tashrif buyuruvchilar uchun yangi va yoqimli bo'lib qoladi.\n\nKatta markazlar yuqori quvvatli sanoat ozonlashtirgichlar yoki ventilatsiya bilan birlashtirilgan tizimlarni ishlatasdi. Davomi taymer va sensorlar bilan avtomatikdir.",
+      "benefits": [
+        "Ko'pchilik joyda infeksiyani oldini olish",
+        "Havo sifatining yaxshilanishi",
+        "Restoran xonasida hidni yo'q qilish",
+        "Tutish sirtlarining dezinfeksiyasi",
+        "Tashrif buyuruvchi farovonligi",
+        "Ventilatsiya tizimi integratsiyasi"
+      ],
+      "stats": {
+        "visitors": {
+          "value": "1000+",
+          "label": "Tashrif buyuruvchilar",
+          "description": "Katta markazlarda kunlik oqimi"
+        },
+        "protection": {
+          "value": "24/7",
+          "label": "Himoya",
+          "description": "Ventilatsiya tizimi integratsiyasi"
+        },
+        "odors": {
+          "value": "100%",
+          "label": "Hidlar",
+          "description": "Restoran xonasida hidni yo'q qilish"
+        },
+        "chemicals": {
+          "value": "0",
+          "label": "Kimyoviy",
+          "description": "Ekologik davomi"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Savdo markazlari massaviy jami bo'lgan joylari, ko'p tashrif buyuruvchilar oqimi. Minglab odamlar har kuni bir xil sirtlarga tegasdi: eskalatorlar, qo'l tutgichlari, lift tugmachalari, eshik tutgichlari. Ozonlash havo sifatini saqlaydi, hidlarni yo'q qiladi va infeksiya tarqalishini oldini olishga yordam beradi.",
+          "paragraph2": "Muntazam ozonlash ishning bo'sh vaqtida barcha sirtlarni dezinfeksiya qiladi, qiyin erishiladigan joylar va texnik zonalarni o'z ichiga olgan. Gaz barcha xonalarni kirib boradi, butun markazni keng davolashni ta'minlash."
+        },
+        "comfort": {
+          "label": "Tashrif buyuruvchi farovonligi",
+          "text": "markazda o'tkaziladigan vaqt va sotib olish hajmiga ta'sir qiladi. Toza yangi hava tashqari hidlarsiz — xarid qilish tajribasining ijobiy elementi."
+        },
+        "zones": {
+          "title": "Savdo markazlarida davomi zonalari",
+          "items": [
+            "Savdo galareylari va atriumlar — asosiy tashrif buyuruvchilar jami joylar",
+            "Eskalatorlar va liftlar — maksimal yuklama tutish sirtlari",
+            "Restoran xonalari — hidlar va oziq kontaminatsiya manbalari",
+            "Restoran xonalari — muhim gigiyena zonalari",
+            "Saqlanuvchi va texnik xonalar — tozalash paytida tashlab ketiladi",
+            "Ventilatsiya tizimlar — butun markazda havoyi tarqatadi",
+            "Avtomobil to'xtashlari — ehtirot gazlarini va hidlarni to'plash"
+          ]
+        },
+        "odorProblem": {
+          "title": "Markazda hid muammosi",
+          "intro": "Savdo markazlari ko'p hid manbalari: restoran xonalari, restoran xonalari, xush hid do'konlar, saqlanuvchi joylar. Ozon samarali barcha bu hidlarni neytral qiladi, niqob qilmasdan, balki hid moddalarining molekulalarini yo'q qiladi.",
+          "tableCaption": "Hid manbalari va yechimlar",
+          "tableHeaders": [
+            "Zona",
+            "Hid manba",
+            "Yechim"
+          ],
+          "tableData": [
+            [
+              "Restoran xonasi",
+              "Tayyorlash, yog', ziravorlar",
+              "Tungi ozonlash + to'rttik ozonlashtirgichlar"
+            ],
+            [
+              "Restoran xonalari",
+              "Organik moddalar",
+              "Uzluksiz kam konsentratsiyali ozonlash"
+            ],
+            [
+              "Atrium",
+              "Hid aralashi, havo tukunchiligi",
+              "Ventilatsiya integratsiyasi"
+            ],
+            [
+              "Avtomobil to'xtashi",
+              "Ehtirot gazlar",
+              "Ehtirot ozonlashtirgichlar"
+            ]
+          ]
+        },
+        "organization": {
+          "title": "Ozonlash tashkil etish variantlari",
+          "night": {
+            "title": "Tungi davomi",
+            "description": "Mobil ozonlashtirgichlar yopilgach markazni davoladi. Maksimal samaradorligi."
+          },
+          "ventilation": {
+            "title": "Ventilatsiya integratsiyasi",
+            "description": "To'rttik ozonlashtirgichlar HVAC tizimida. Uzluksiz havo sifati ta'minoti."
+          },
+          "zonal": {
+            "title": "Zonali davomi",
+            "description": "Devarga o'rnatilgan ozonlashtirgichlar muammoli zonalarda: restoran xonalari, restoran xonasi, avtomobil to'xtashi."
+          },
+          "combined": {
+            "title": "Birlashtirilgan usul",
+            "description": "Maksimal ta'sir uchun barcha usullarni birlashtirish"
+          }
+        },
+        "treatmentMode": {
+          "title": "Davomi rejimi",
+          "steps": [
+            {
+              "title": "Tungi dezinfeksiya",
+              "description": "Markaz yopilgach, mobil ozonlashtirgichlar ishga tushuriladi. Davomi maydoni qarab 2-4 soat. Ochish vaqtiga ozon to'liq parchalanib ketadi."
+            },
+            {
+              "title": "Restoran xonasi",
+              "description": "Kunli cahillari yopilgach davomi. Pishirish hidlarini yo'q qilish, stol va stullarni dezinfeksiya qilsh."
+            },
+            {
+              "title": "Restoran xonalari",
+              "description": "Kam quvvatli ozonlashtirgichlar uzluksiz xavfsiz konsentratsiyada yoki tanaffuslar paytida avtomatik yoqiladi."
+            },
+            {
+              "title": "Ventilatsiya",
+              "description": "To'rttik ozonlashtirgichlar havoni to'rttikka ta'minlaydi, ta'minlovchi havoyi dezinfeksiyasini ta'minlash."
+            }
+          ]
+        },
+        "equipment": {
+          "title": "Jihoz hisoblash",
+          "tableCaption": "Markaz zonalari uchun tavsiya etilgan quvvat",
+          "tableHeaders": [
+            "Zona",
+            "Maydon",
+            "Quvvat",
+            "Rejimi"
+          ],
+          "tableData": [
+            [
+              "Savdo galareylari",
+              "1000-5000 m²",
+              "50-200 g/h",
+              "Tungi davomi"
+            ],
+            [
+              "Restoran xonasi",
+              "500-1500 m²",
+              "20-60 g/h",
+              "Yopilgach kunli"
+            ],
+            [
+              "Restoran xonalari",
+              "20-50 m²",
+              "1-2 g/h",
+              "Uzluksiz yoki tsikllar"
+            ],
+            [
+              "Saqlanuvchi",
+              "100-300 m²",
+              "5-15 g/h",
+              "Haftada 2-3 marta"
+            ],
+            [
+              "Avtomobil to'xtashi",
+              "5000-20000 m²",
+              "100-500 g/h",
+              "Ventilatsiya integratsiyasi"
+            ]
+          ],
+          "highlight": "Katta savdo markazlari uchun, to'liq ozonlash tizimi dizayni tavsiya etiladi, binoni arxitekturasi, ventilatsiya tizimlar va ishlash rejimini hisobga olgan. Biz sozlama yechimlarni ishlab chiqamiz."
+        },
+        "pathogens": {
+          "title": "Patogenlarga qarshi samaradorligi",
+          "tableCaption": "Tutish sirtlarida inaktivatsiya vaqti",
+          "tableHeaders": [
+            "Patogen",
+            "Vaqti (20 mg/m³)",
+            "Samaradorligi"
+          ],
+          "tableData": [
+            [
+              "Koronaviruslar",
+              "10-15 min",
+              "99.9%"
+            ],
+            [
+              "Gripp viruslari",
+              "5-10 min",
+              "99.9%"
+            ],
+            [
+              "Norovirus",
+              "15-20 min",
+              "99.9%"
+            ],
+            [
+              "Stafilo aureusi",
+              "10-15 min",
+              "99.99%"
+            ],
+            [
+              "E. coli",
+              "5-10 min",
+              "99.99%"
+            ],
+            [
+              "Ko'k",
+              "30-40 min",
+              "99%"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "Boshqaruv kompaniyalari uchun foyda",
+          "safety": {
+            "title": "Tashrif buyuruvchi xavfsizligi",
+            "description": "Ko'pchilik joyda infeksiya tarqalish xavfining kamayishi"
+          },
+          "comfort": {
+            "title": "Qulay muhit",
+            "description": "Toza hava hidlarsiz tashrif buyuruvchi qolish vaqti ortadi"
+          },
+          "compliance": {
+            "title": "Qonun talablari",
+            "description": "Umumiy joylar uchun sanitaria talablarini bajarish"
+          },
+          "savings": {
+            "title": "Kimyoviy tejash",
+            "description": "Dezinfektantlar va hava yangilantiruvchilar xarajatlari kamayishi"
+          }
+        },
+        "comparison": {
+          "title": "Dezinfeksiya usuli taqqoslashi",
+          "tableTitle": "Savdo markazi davomi usullari",
+          "headers": [
+            "Mezon",
+            "Ozonlash",
+            "Kimyoviy davomi"
+          ],
+          "rows": [
+            {
+              "parameter": "Havo davomi",
+              "value1": "Ha",
+              "value2": "Yo'q"
+            },
+            {
+              "parameter": "Ventilatsiya tizimlar",
+              "value1": "Ha",
+              "value2": "Yo'q"
+            },
+            {
+              "parameter": "Qiyin erishiladigan joylar",
+              "value1": "Ha (gaz)",
+              "value2": "Yo'q"
+            },
+            {
+              "parameter": "Hid yo'q qilish",
+              "value1": "To'liq",
+              "value2": "Niqob qilish"
+            },
+            {
+              "parameter": "Kimyoviy qoldiq",
+              "value1": "Yo'q",
+              "value2": "Ha"
+            },
+            {
+              "parameter": "Avtomatsiya",
+              "value1": "To'liq",
+              "value2": "Qisman"
+            }
+          ]
+        },
+        "safety": {
+          "title": "Tashrif buyuruvchilar uchun xavfsizlik",
+          "intro": "To'g'ri tashkil etilsa, ozonlash tashrif buyuruvchilar va savdo markazi ishchilar uchun to'liq xavfsizdir.",
+          "items": [
+            "Asosiy davomi — markaz yopilgach tungi vaqtda",
+            "Ventilatsiya integratsiyasi — xavfsiz konsentratsiyada",
+            "Restoran xonalari — tashrif buyuruvchilar kirganda avtomatik o'chadi",
+            "Konsentratsiya sensorlari — real vaqtda ozon darajasi kuzatiladi",
+            "Ochish vaqtiga ozon to'liq kislorodga parchalanadi"
+          ],
+          "warning": "Ish zonasida ozon MPC — 0,1 mg/m³. Ventilatsiya integratsiyasi bilan konsentratsiya 0,03-0,05 mg/m³ da saqlanadi — bu xavfsiz va 'yangi hava' ta'sirini ta'minlash."
+        }
+      }
+    }
+  }
+}

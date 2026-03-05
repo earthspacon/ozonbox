@@ -1,0 +1,85 @@
+{
+  "title": "Mining & metals",
+  "description": "Ozone in gold and metal mining: ore pretreatment, leaching enhancement, cyanide destruction, and metal storage and surface cleaning. Eco-friendly technology for mineral processing and metalworking.",
+  "subcategories": {
+    "cyanide-destruction": {
+      "title": "Ozone cyanide destruction in mining",
+      "shortDesc": "Mechanism of ozone oxidation of cyanides (CN⁻ → CNO⁻ → bicarbonate and nitrogen), dosing 2–3 g O₃/g CN, 99% reduction of free and WAD cyanide. Comparison with hypochlorite and peroxide, water reuse.",
+      "content": "Ozone is an effective oxidant for cyanide destruction at gold mining operations. The process oxidizes free cyanide to cyanate, then with further oxidation and hydrolysis to bicarbonate and nitrogen. Typical reaction time is 10–30 minutes. Industrial trials in South Africa and Southeast Asia showed >99% reduction of free and WAD cyanide at 2–3 g O₃ per gram CN.",
+      "stats": {
+        "cyanideReduction": {
+          "value": "up to 99%",
+          "label": "Cyanide reduction",
+          "description": "Free and WAD at 2–3 g O₃/g CN"
+        },
+        "reactionTime": {
+          "value": "10–30 min",
+          "label": "Reaction time",
+          "description": "Full oxidation to cyanate"
+        },
+        "waterReuse": {
+          "value": "up to 85%",
+          "label": "Water reuse",
+          "description": "After ozone treatment"
+        },
+        "icmcCompliance": {
+          "value": "Yes",
+          "label": "ICMC compliance",
+          "description": "No hazardous residues"
+        }
+      },
+      "benefits": [
+        "Complete oxidation CN⁻ → CNO⁻ → bicarbonate and nitrogen",
+        "Dose 2–3 g O₃ per gram CN, thiocyanates 3–4 g O₃/g SCN⁻",
+        "No hazardous residues (unlike hypochlorite)",
+        "On-site ozone generation from air",
+        "Water reuse up to 85%"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Ozone is an effective oxidant for cyanide destruction at gold mining operations. The process oxidizes free cyanide to cyanate, then with further oxidation and hydrolysis to bicarbonate and nitrogen. Typical reaction time is 10–30 minutes.",
+          "paragraph2": "Industrial trials in South Africa and Southeast Asia showed >99% reduction of free and WAD cyanide at 2–3 g O₃ per gram CN. Ozone-treated water can be returned to the process, reducing fresh water consumption by up to 85%."
+        },
+        "mechanism": {
+          "title": "Mechanism of ozone oxidation of cyanides",
+          "intro": "Ozone oxidizes free cyanide (CN⁻) in a two-stage process. In the first stage CN⁻ is converted to cyanate (CNO⁻). With further oxidation and hydrolysis, cyanate is converted to bicarbonate and nitrogen — non-toxic products.",
+          "process": "The reaction follows first-order kinetics in ozone concentration and zero-order in cyanide concentration. Stoichiometry: one mole of cyanide reacts with one mole of ozone for the CN⁻ → CNO⁻ step. Thiocyanate complexes (SCN⁻) require higher doses — 3–4 g O₃ per gram SCN⁻."
+        },
+        "dosing": {
+          "title": "Dosing and results",
+          "intro": "Average ozone dose for destruction of free and WAD cyanide is 2–3 g O₃ per gram CN. Full oxidation is typically achieved in 10–30 minutes with proper ozone concentration and contact time.",
+          "results": "Industrial trials at gold operations demonstrated 99% or greater reduction of free cyanide and weak acid dissociable (WAD) cyanide complexes. Ozone-treated water can be returned to the process, reducing fresh water consumption by up to 85%."
+        },
+        "comparison": {
+          "title": "Comparison with hypochlorite and peroxide",
+          "intro": "Compared with chemical oxidants (sodium hypochlorite, hydrogen peroxide), ozone leaves no hazardous residues (chlorine, chlorates), is generated on-site from air, and often has lower operating costs at comparable effectiveness. The technology complies with the International Cyanide Management Code (ICMC) and allows tailings to be sent for underground backfill without further treatment."
+        },
+        "industrial": {
+          "title": "Industrial deployment",
+          "intro": "Ozone cyanide destruction systems are installed at gold mines in Southeast Asia and South Africa. Free cyanide reduction of 85–99% or more is achieved with ICMC compliance. Integrated systems combining ozone with peroxide or persulfate improve treatment efficiency for complex effluents."
+        },
+        "benefits": {
+          "title": "Benefits of ozone cyanide destruction",
+          "items": [
+            {
+              "title": "Effectiveness",
+              "description": "99% reduction of free and WAD cyanide at 2–3 g O₃/g CN, ICMC compliance."
+            },
+            {
+              "title": "Safety",
+              "description": "No hazardous residues, on-site generation, water reuse."
+            },
+            {
+              "title": "Economics",
+              "description": "Often lower operating costs than hypochlorite."
+            },
+            {
+              "title": "Deployment",
+              "description": "Expansion as environmental standards tighten."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

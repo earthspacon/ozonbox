@@ -1,0 +1,253 @@
+{
+  "title": "Medicine",
+  "description": "Ozone therapy and ozonation in medicine: sterilization of operating rooms and wards, disinfection of medical equipment, treatment of dental offices, rehabilitation centers and ambulances.",
+  "subcategories": {
+    "hospitals": {
+      "title": "Hospitals and operating rooms",
+      "shortDesc": "Sterilization of wards and operating blocks",
+      "content": "Hospital ozonation provides the highest level of sterility, critical for preventing nosocomial infections. Ozone destroys bacteria, viruses, spores and fungi with up to 99.99% efficiency.\n\nOperating blocks require special sanitary regimes. Ozonation after surgery ensures deep disinfection of all surfaces, including hard-to-reach areas: equipment crevices, ventilation systems, ceiling fixtures.\n\nICU and resuscitation wards are high-risk zones for infection transmission between patients. Regular ozonation reduces microbial load in the air and on surfaces, complementing standard cleaning protocols.\n\nOzone is effective against antibiotic-resistant bacteria, including MRSA and VRE, which pose a serious threat in healthcare. After treatment, ozone decays to oxygen with no toxic residues, which is important for patient safety.",
+      "benefits": [
+        "99.99% efficiency against pathogens",
+        "Fight against nosocomial infections",
+        "Destruction of antibiotic-resistant bacteria",
+        "Disinfection of hard-to-reach areas",
+        "No toxic chemical residues",
+        "Complement to standard protocols"
+      ],
+      "stats": [
+        {
+          "value": "99.99%",
+          "label": "Efficiency",
+          "description": "Destruction of pathogenic microorganisms"
+        },
+        {
+          "value": "MRSA",
+          "label": "Kills",
+          "description": "Antibiotic-resistant bacteria"
+        },
+        {
+          "value": "20-30 min",
+          "label": "Ozone decay",
+          "description": "To safe oxygen level"
+        },
+        {
+          "value": "0",
+          "label": "Residues",
+          "description": "Chemical substances after treatment"
+        }
+      ],
+      "sections": {
+        "intro": {
+          "text": "Nosocomial infections (HAI) are one of the most serious problems in modern medicine. According to WHO, 7-10% of hospitalized patients in developed countries and up to 25% in developing countries are infected. Ozonation is an effective method to combat this problem, ensuring pathogen destruction at 99.99%.",
+          "text2": "Unlike chemical disinfectants, ozone leaves no toxic residues, does not cause resistance in microorganisms, and decays to pure oxygen within 20-30 minutes after treatment. This is especially important for patients with weakened immunity."
+        },
+        "highlight1": {
+          "title": "Important:",
+          "text": "Ozone is effective against antibiotic-resistant bacterial strains, including MRSA (methicillin-resistant Staphylococcus aureus) and VRE (vancomycin-resistant enterococci), which pose a particular threat in healthcare facilities."
+        },
+        "problem": {
+          "title": "The problem of nosocomial infections",
+          "text": "Nosocomial infections increase hospitalization time by an average of 8-10 days, increase treatment costs and increase mortality. Main sources of HAI:",
+          "items": [
+            "Contact surfaces: beds, bedside tables, handrails, call buttons",
+            "Medical equipment: monitors, catheters, breathing circuits",
+            "Air environment: aerosol particles from coughing, sneezing, medical procedures",
+            "Ventilation and air conditioning systems",
+            "Textiles: bed linens, curtains, gowns"
+          ]
+        },
+        "operating-rooms": {
+          "title": "Ozonation of operating blocks",
+          "text": "Operating blocks require special sanitary regimes. Traditional cleaning with disinfectants cannot ensure treatment of all surfaces — ozone, being a gas, penetrates equipment crevices, ventilation systems, hard-to-reach areas behind devices.",
+          "table": {
+            "caption": "Ozonation modes for operating rooms",
+            "headers": [
+              "Treatment type",
+              "Concentration",
+              "Treatment time",
+              "Frequency"
+            ],
+            "rows": [
+              [
+                "Between operations",
+                "10-15 mg/m³",
+                "30-40 min",
+                "After each operation"
+              ],
+              [
+                "Final disinfection",
+                "20-25 mg/m³",
+                "60-90 min",
+                "At end of workday"
+              ],
+              [
+                "After infectious cases",
+                "30-40 mg/m³",
+                "120 min",
+                "As indicated"
+              ],
+              [
+                "Preventive",
+                "10 mg/m³",
+                "60 min",
+                "Weekly"
+              ]
+            ]
+          },
+          "highlight": "After ozonation, 1.5-2 hours of ventilation is sufficient to reduce ozone concentration to a safe level. The room is ready for use without additional treatment."
+        },
+        "wards": {
+          "title": "Disinfection of wards and ICUs",
+          "text": "Intensive care and resuscitation wards are zones with increased risk of infection transmission between patients. The most vulnerable categories are here: patients on mechanical ventilation, after surgery, with immunodeficiency.",
+          "steps": [
+            {
+              "title": "Room preparation",
+              "description": "Removal of patients (if possible) or use of isolated zones. Closing windows and doors, turning off supply ventilation."
+            },
+            {
+              "title": "Ozonation",
+              "description": "Turning on the ozonator for the calculated time. Concentration of 15-20 mg/m³ ensures destruction of most pathogens."
+            },
+            {
+              "title": "Exposure",
+              "description": "Maintaining the set concentration for 30-60 minutes for complete disinfection of all surfaces."
+            },
+            {
+              "title": "Ventilation",
+              "description": "Opening ventilation, airing the room until ozone concentration drops below MAC (0.1 mg/m³)."
+            }
+          ]
+        },
+        "pathogens": {
+          "title": "Effectiveness against pathogens",
+          "text": "Ozone destroys almost all types of pathogenic microorganisms found in healthcare facilities:",
+          "table": {
+            "caption": "Pathogen inactivation time by ozone (concentration 20 mg/m³)",
+            "headers": [
+              "Microorganism",
+              "Inactivation time",
+              "Efficiency"
+            ],
+            "rows": [
+              [
+                "Staphylococcus aureus (MRSA)",
+                "10-15 min",
+                "99.99%"
+              ],
+              [
+                "Escherichia coli",
+                "5-10 min",
+                "99.99%"
+              ],
+              [
+                "Pseudomonas aeruginosa",
+                "15-20 min",
+                "99.99%"
+              ],
+              [
+                "Candida albicans",
+                "15-20 min",
+                "99.9%"
+              ],
+              [
+                "Aspergillus niger (spores)",
+                "30-40 min",
+                "99.9%"
+              ],
+              [
+                "Clostridium difficile (spores)",
+                "40-60 min",
+                "99.9%"
+              ],
+              [
+                "Influenza viruses",
+                "5-10 min",
+                "99.99%"
+              ],
+              [
+                "Coronaviruses",
+                "10-15 min",
+                "99.99%"
+              ]
+            ]
+          }
+        },
+        "comparison": {
+          "title": "Comparison of disinfection methods",
+          "tableTitle": "Ozonation vs traditional methods",
+          "headers": [
+            "Parameter",
+            "Ozonation",
+            "Chemical disinfection"
+          ],
+          "rows": [
+            {
+              "parameter": "Surface coverage",
+              "value1": "100% (including hard-to-reach)",
+              "value2": "70-80% (only accessible)"
+            },
+            {
+              "parameter": "Toxic residues",
+              "value1": "No (decays to O₂)",
+              "value2": "Yes (require rinsing)"
+            },
+            {
+              "parameter": "Bacterial resistance",
+              "value1": "Not formed",
+              "value2": "Forms with frequent use"
+            },
+            {
+              "parameter": "Air treatment",
+              "value1": "Yes (air disinfection)",
+              "value2": "No"
+            },
+            {
+              "parameter": "Need for cleaning after",
+              "value1": "No",
+              "value2": "Yes (wiping, rinsing)"
+            },
+            {
+              "parameter": "Safety for staff",
+              "value1": "Yes (with proper protocol)",
+              "value2": "Risk of allergies and irritation"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Advantages of ozonation in medicine",
+          "features": [
+            {
+              "title": "No resistance",
+              "description": "Ozone acts on cell membranes — bacteria cannot develop resistance"
+            },
+            {
+              "title": "Full coverage",
+              "description": "Gas penetrates everywhere: into crevices, behind equipment, into ventilation, under furniture"
+            },
+            {
+              "title": "No residues",
+              "description": "Decays to oxygen — no rinsing required, safe for patients"
+            },
+            {
+              "title": "Compliance with regulations",
+              "description": "Method recommended by Russian sanitary standards for healthcare facilities"
+            }
+          ]
+        },
+        "safety": {
+          "title": "Safety requirements",
+          "text": "When ozonating medical premises, safety requirements must be observed:",
+          "items": [
+            "Treatment is carried out in the absence of people and animals",
+            "The room must be sealed during treatment",
+            "Staff working with ozonators must undergo training",
+            "After treatment — mandatory ventilation to MAC (0.1 mg/m³)",
+            "Use of ozone concentration sensors is recommended",
+            "Keeping a treatment log for control and reporting"
+          ],
+          "warning": "MAC of ozone in the work zone is 0.1 mg/m³. When exceeded, a characteristic \"after thunderstorm\" smell is felt. Modern ozonators are equipped with timers and automatic shutdown systems."
+        }
+      }
+    }
+  }
+}

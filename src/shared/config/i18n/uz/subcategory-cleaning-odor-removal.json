@@ -1,0 +1,207 @@
+{
+  "title": "Tozalash",
+  "description": "Tozalash kompaniyalari uchun professional ozonlash: chuqur hidlarni olib tashlash, yong'in sodir bo'lgandan keyin tozalash, hayvon hidlarini olib tashlash, avtomobillarni ozonlash va qalipcha va mebel yuzalarini chuqur tozalash.",
+  "subcategories": {
+    "odor-removal": {
+      "title": "Hidarni olib tashlash",
+      "shortDesc": "Chuqur va doimiy hidlarni olib tashlash",
+      "content": "Ozonlash xonalardagi chuqur hidlarni olib tashlashning eng samarali usuli. Havo toza qilish spreylaridan va deodorantlardan farqli o'laroq, ozon hidlarni yashiramaydi, balki hid molekulalarini xavfsiz birikmalarga aylantirib to'liq buzadi: suv va karbon dioksidga.\n\nGaz sifatida ozon hamma yerga kirib oladi: tor yerlar, material porlari, mebel, qalipchalar va hatto ventillyatsiya tizimiga. Bu barcha yuzalarni bir vaqtda tozalash imkonini beradi, shu jumladan qo'l bilan tozalash mumkin bo'lmagan joylarni ham.\n\nOzonlashning samaradorligi hid intensivligi, xona hajmi, harorat va namlikka bog'liq. Kam harorat ozonning yanada barqaror va uzoq faolligi demani anglatadi. 0-5°C da ozon bir necha kun davomida faol qolishi mumkin; 50°C da u 20-30 daqiqada parchalanadi.\n\nIshlov berishni amalga oshirgandan so'ng ozon kimyoviy qoldiqlar qolmasdan kislorodga to'liq parchalanadi. Xona 30-60 daqiqali ventillyatsiyadan keyin foydalanishga tayyor.",
+      "benefits": [
+        "Hid molekulalarining to'liq buzilishi",
+        "Porli materialga kirib borishi",
+        "Qo'l orqali tozalashga ruxsat etilmagan joylarni tozalash",
+        "Kimyoviy qoldiqlar yo'q",
+        "Natija 4-10 soatda",
+        "Doimiy ta'sir"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "100%",
+          "label": "Yo'q qilish",
+          "description": "Hid molekulalarini yashiramaydi"
+        },
+        "stat2": {
+          "value": "4-10 h",
+          "label": "Ishlov berish vaqti",
+          "description": "Intensivlikka qarab"
+        },
+        "stat3": {
+          "value": "30 min",
+          "label": "Ventillyatsiya",
+          "description": "Xona to'liq tayyor bo'lguniga qadar"
+        },
+        "stat4": {
+          "value": "0",
+          "label": "Kimyoviylar",
+          "description": "Faqat kislorodga parchalangandan keyin"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Xonalardagi yoqimsiz hidlar nafaqat noqulaylik. Aksariyat sintetik va organik hidlar zaharli moddalarni o'z ichiga oladi: benzen, formaldegid, amitak, trikhloretilen. Ular karsinogen va mutagendan iborat bo'lib, bosh og'rig'i, charchoq, qon bosimi o'zgarishiga sabab bo'ladi.",
+          "text2": "Oddiy hid nazorati usullari — spreylar, aromalar, sorberntlar — faqat muammoni yashirinadi yoki hava orqali molekulalarni sekin so'riladi. Ozonlash boshqacha ishlaydi: ozon faol ravishda hidli moddalarni oksidlashi, ularni xavfsiz birikmalarga — suv va karbon dioksidga aylantirib buzadi."
+        },
+        "highlight1": {
+          "title": "Ishlash printsipi:",
+          "text": "Ozon (O₃) eng kuchli oksidlovchi, xlorin dan 3000 marta ko'proq samarador. U hid molekulalariga kimyoviy darajada ta'sir qiladi, ularning tuzilishini qaytarilmas tarzda buzadi. Reaksiyadan keyin hid abadiy yo'q bo'lib ketadi, yangi manba paydo bo'lguniga qadar."
+        },
+        "odors": {
+          "title": "Ozon qaysi hidlarni yo'q qiladi",
+          "text": "Ozonlash deyarli har qanday organik va norganik hidlarga samarador:",
+          "items": [
+            "Yonish chigiti — devori, mebeling, tekstilga o'rappilangan",
+            "Remontdan keyin chiqqan hid — bo'ya, elim, cho'zilgan shiftlar, yangi mebel",
+            "Namlik va kokat — nam xonalarda, yer ostida, suv to'ki keyin",
+            "Ovqat hidlari — bulg'angan mahsulotlar, baliq, asar-masalalar",
+            "Uy hidlari — ter, eski kir, uy kimyoviy moddalar",
+            "Celebratsiya hidlari — alkogol, ovqat, tutun"
+          ]
+        },
+        "comparison": {
+          "title": "Nima uchun ozon boshqa usullardan ko'proq samarador",
+          "tableTitle": "Hid olib tashlash usullarini solishtirish",
+          "headers": [
+            "Usul",
+            "Ozonlash",
+            "Spreylar/sorberntlar"
+          ],
+          "rows": [
+            {
+              "parameter": "Ishlash printsipi",
+              "value1": "Molekula yo'q qilish",
+              "value2": "Yashirish/so'rilish"
+            },
+            {
+              "parameter": "Yuzani qamrab olish",
+              "value1": "100% yashirin joylar bilan",
+              "value2": "Faqat hava"
+            },
+            {
+              "parameter": "Chuqur hidlar",
+              "value1": "To'liq yo'q qilish",
+              "value2": "Yo'q qilmaydi"
+            },
+            {
+              "parameter": "Ta'sirning davomiyligi",
+              "value1": "Doimiy",
+              "value2": "Vaqtinchalik"
+            },
+            {
+              "parameter": "Kimyoviy qoldiqlar",
+              "value1": "Yo'q (faqat O₂)",
+              "value2": "Ha (aromalar)"
+            },
+            {
+              "parameter": "Dezinfektsiya",
+              "value1": "Ha (bonus)",
+              "value2": "Yo'q"
+            }
+          ]
+        },
+        "factors": {
+          "title": "Samaradorlikga ta'sir etuvchi omillar",
+          "text": "Ozonlash natijalari to'g'ri tanlangan tedavi rejimiga bog'liq:",
+          "highlight": {
+            "title": "Muhim:",
+            "text": "0-5°C da ozon bir necha kun davomida faol qoladi, 50°C da u 20-30 daqiqada parchalanadi. Bu harorat rejimi bilan tedavi intensivligini nazorat qilish imkonini beradi."
+          },
+          "tableHeaders": [
+            "Parametr",
+            "Ta'sir",
+            "Tavsiya"
+          ],
+          "tableCaption": "Tavsiya etilgan ozonlash parametrlari",
+          "tableData": [
+            [
+              "Ozon konsentratsiyasi",
+              "Yuqori — tezroq natija",
+              "Vazifaga qarab 10-80 mg/m³"
+            ],
+            [
+              "Harorat",
+              "Pastroq T ozonning yanada barqarorligini anglatadi",
+              "Optimal 15-25°C"
+            ],
+            [
+              "Namlik",
+              "Yuqori namlik parchalanishni tezlashtiradi",
+              "40-60% nisbiy namlik"
+            ],
+            [
+              "Ishlov berish vaqti",
+              "Hid intensivligiga bog'liq",
+              "2 dan 24 soatigacha"
+            ],
+            [
+              "Seal qilish",
+              "Siziqlar konsentratsiyani kamaytiradi",
+              "Oynalar, eshiklar, ventillyatsiyani yoping"
+            ]
+          ]
+        },
+        "process": {
+          "title": "Xona ozonlash jarayoni",
+          "steps": [
+            {
+              "title": "Xonani tayyorlash",
+              "description": "Standart tozalashni amalga oshiring, ko'rinib turadigan ifloslanish manbalarini olib tashlang. O'simliklar, hayvonlarni olib chiqing. Oynalar va ta'min ventillyatsiyasini yoping."
+            },
+            {
+              "title": "Parametrlar hisoblash",
+              "description": "Xona hajmi va zarur ozon konsentratsiyasini aniqlang. Kuchsiz hidlar uchun: 10-20 mg/m³, o'rta: 20-40 mg/m³, kuchli: 40-80 mg/m³."
+            },
+            {
+              "title": "Ozonlash",
+              "description": "Ozon generatorini o'rnating, xonani tark eting, hisoblangan vaqt uchun tedavini boshlang. Ozonning tekis taqsimoti uchun ventilyatordan foydalaning."
+            },
+            {
+              "title": "Ekspozitsiya",
+              "description": "Ozonni generatori o'chgandan keyin 30 daqiqadan bir necha soatgacha xonada qoldiring. Ozon parchalanguniga qadar ishlashda davom etadi."
+            },
+            {
+              "title": "Ventillyatsiya",
+              "description": "Oynalar va eshiklarni oching, cho'joq ventillyatsiyasini yoqing. Xarakterli ozon hidi yo'q bo'lguniga qadar ventillyatsiya qiling (15-60 daqiqa)."
+            }
+          ]
+        },
+        "scenarios": {
+          "title": "Tipik qo'llanilish stsenaryilari",
+          "items": [
+            {
+              "title": "Uy ijarachilardan keyin",
+              "description": "Avvalgi egalari, hayvonlar, tutun ichkiligi hidlarini olib tashlash. Sotish yoki ijaraga tayyorlash"
+            },
+            {
+              "title": "Remont keyin ofis",
+              "description": "Bo'ya, elim, yangi mebel, plastik tugatish hidlarini yo'q qilish. Ishchilar uchun xavfsizlik"
+            },
+            {
+              "title": "Mehmonxona xonasi",
+              "description": "Mehmonlar o'rtasida tez tedavi. Tutun, parfyum, ovqat hidlarini olib tashlash"
+            },
+            {
+              "title": "Sovuq saqlash",
+              "description": "Bulg'angan mahsulotlar, baliq, go'sht hidlarini yo'q qilish. Yuklashdan oldin dezinfektsiya"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Tozalash kompaniyalari uchun foydalari",
+          "text": "Ozonlash yuqori foydalanilishli qo'shimcha xizmat. Jihozlar 2-3 oy ichida to'lanadi:",
+          "items": [
+            "Past xarajatlar — ozon generatorlar toza talabi yo'q",
+            "Foydalanishning oshligi — o'rnating, yoqing, tark eting",
+            "Keng ishlab chiqaridagi doiron — apartamentlardan sanoat unumlari omiga",
+            "Aniq natijalar — foydalanuvchi darhol farqni sezadi",
+            "Jihozlarning umri — to'g'ri ishlash bilan 5-10 yil",
+            "Ijara imkoniyligi — qo'shimcha daromad manbai"
+          ],
+          "highlight": {
+            "title": "Xavfsizlik:",
+            "text": "Ozonlash odamlar yoki hayvonlar ishtirokisiz amalga oshiriladi. 0,1 mg/m³ dan yuqori konsentratsiyalar o'pka uchun xavflidi. Xodimlar treningi olishi kerak. Ozon konsentratsiya sensorsidan foydalanish tavsiya etiladi."
+          }
+        }
+      }
+    }
+  }
+}

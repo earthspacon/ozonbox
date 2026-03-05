@@ -1,0 +1,215 @@
+{
+  "title": "HoReCa",
+  "description": "Mehmonxonalar, restoranlar, kir yuvish xonalari va boshqa mehmonxona muassasalari qulay muhit yaratish, hidlarni yo'q qilish va yuqori gigiyena standartlarini saqlash uchun ozonlashdan foydalanadi.",
+  "subcategories": {
+    "restaurants": {
+      "title": "Restoranlar va kofexonalar",
+      "shortDesc": "Oshxona va tabak hidlarining yo'q qilishi",
+      "heroTitle": "Restoran va kofexona ozonlashi",
+      "heroDesc": "Oshxona, tabak va nargila hidlarining yo'q qilishi. Yangi hava mehmon qulayligini va ishtahani yaxshilaydi.",
+      "content": "Restoran biznesi atmosferasi haqida. Fumonlash xonasining hidlari, eski oziq yoki oshxona yog'i hatto sadoqli mijozlarni ham bezdirtsa oladi. Tadqiqotlar ko'rsatadi: havo sifati xizmatning ongli emas fikriga bevosita ta'sir qiladi.\n\nHid ongli his bilan shunchalik bog'langan, ya'ni odamlar joyda o'zlarini qulaylik-qulaysizlik haqidagi sababni tushunmasliklari mumkin. Ular oddiygina \"yoqdi\" yoki \"yoqmadi\" deyshadi. Bu taassurat ularning qaytib kelmalarini aniqlaydi.\n\nOzonlash bu muammoni radikalyadi hal qiladi — hidlarni xushbo'y bilan niqob qilish emas, balki ularni molekulyar darajada yo'q qilish. Ishchi soatlarida binolarni muntazam ozonlash noqulaylik hidlarini sezilarli kamaytiraydi.\n\nOzon gaz va kuchli oksidlovchi. U qo'l yetmaydigan joylar, material tuzilma va porylar kirib boradi, bu yerda hid manbalar sorblanga va hid molekulalarni suv va karbon dioksidga oksidlaydi.",
+      "benefits": [
+        "Mehmon sadoqatining kuchayishi",
+        "O'rtacha hisob 15–20% yuqoriroq",
+        "Qabulning ko'tarilishi",
+        "Hid shikoyatlari kamaydi",
+        "Isteʼmol vositalari yo'q",
+        "Xodimlarning qatnashmasi bo'lmasdan avtomatik ishlash"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "60-120",
+          "label": "Ishlov berish daqiqlari",
+          "description": "Zal suratini to'liq tozalash siklsi"
+        },
+        "stat2": {
+          "value": "100%",
+          "label": "Hidi yo'q qilish",
+          "description": "Tabak, oshxona, namlik"
+        },
+        "stat3": {
+          "value": "+25%",
+          "label": "Turiş vaqti",
+          "description": "Mehmonlar ko'proq qo'nadi"
+        },
+        "stat4": {
+          "value": "0",
+          "label": "Isteʼmol vositalari",
+          "description": "Ozon havadan"
+        }
+      },
+      "problems": [
+        "Tabak va nargila hidi — mebel, pardalar, qaplotlashga kirib boradi",
+        "Oshxona hidlari — yog', ziravor, baliq, sarimsoq",
+        "Namlik va ko'plak — ayniqsa podvalda",
+        "Ventilatsiya hidi — kanalarda yog' to'planishi",
+        "Tualet hidlari — yomon ventilatsiya bilan zalga kiradi",
+        "Bakteriyalar va ko'plak — noqulaylik hidlarining manbalari",
+        "Uy kimyoviy hidi — tozalashdan keyin tozalantirish vositalaridan"
+      ],
+      "zones": {
+        "hall": {
+          "title": "Ovqat emiş sali",
+          "desc": "Tabak, oziq va parfyum hidlarining yo'q qilishi. Mehmonlar uchun yangi va toza his etishni yaratish."
+        },
+        "kitchen": {
+          "title": "Oshxona",
+          "desc": "Ventilatsiyada yog' saytlarining neytrallashtirish, qovuruv, baliq, ziravor hidlari."
+        },
+        "refrigerators": {
+          "title": "Sovuq xonalar",
+          "desc": "O'chiritmasdan dezinfeksiya. 2–3 marta ko'p mahsulot saqlanishi."
+        },
+        "toilets": {
+          "title": "Tualet xonalari",
+          "desc": "To'liq hidi yo'q qilish va barcha sirtlarda bakteriyalarni yo'q qilish."
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Restoran biznesi atmosferasi haqida. Fumonlash xonasining hidlari, eski oziq yoki oshxona yog'i hatto sadoqli mijozlarni ham bezdirtsa oladi. Tadqiqotlar ko'rsatadi: havo sifati xizmatning ongli fikriga bevosita ta'sir qiladi. Ozonlash bu muammoni radikalyadi hal qiladi — hidlarni xushbo'y bilan niqob qilish emas, balki ularni molekulyar darajada yo'q qilish.",
+          "text2": "Hid ongli his bilan shunchalik bog'langan, ya'ni odamlar joyda o'zlarini qulaylik-qulaysizlik haqidagi sababni tushunmasliklari mumkin. Ular oddiygina \"yoqdi\" yoki \"yoqmadi\" deyshadi. Bu taassurat ularning qaytib kelmasini va do'stlariga tavsiya qilmasini aniqlaydi."
+        },
+        "factHighlight": {
+          "title": "Fakt:",
+          "text": "Las Vegas kazinolarining aksariyati ozonatorlardan foydalanadi. Yangi hava mehmon turiş vaqtini va buyurtma hajmini oshiradi. Ozon markaziy asab tizimida spirtning ta'sirini kamaytiraydi — mijozlar uzoqroq hushyar qoladi."
+        },
+        "problems": {
+          "title": "Ozonlash bilan hal qilinadigan restoran muammolari"
+        },
+        "whyImportant": {
+          "title": "Nima uchun hidlar shuncha muhimdir",
+          "text": "Siz ijodiy dizayn yaratib, professional xodimlar ishga olib, reklama uchun sarmoya kiritishingiz mumkin — lekin noqulaylik hidi barcha harakatlarni bekor qiladi. Yaxshi joy yomon hid bilanoq qolishi mumkinmi?",
+          "table": {
+            "caption": "Havo sifatining biznes ko'rsatkich ta'siriga",
+            "headers": [
+              "Ko'rsatkich",
+              "Ozonlashsiz",
+              "Ozonlash bilan"
+            ],
+            "rows": [
+              [
+                "O'rtacha turiş vaqti",
+                "45 daqiqa",
+                "55-60 daqiqa"
+              ],
+              [
+                "Takroriy tashrif",
+                "35%",
+                "52%"
+              ],
+              [
+                "Sharhda \"Toza\" reytingi",
+                "3,8/5",
+                "4,6/5"
+              ],
+              [
+                "Hid shikoyatlari",
+                "12% mehmon",
+                "<1% mehmon"
+              ],
+              [
+                "O'rtacha hisob",
+                "Bazaviy",
+                "+15-20%"
+              ]
+            ]
+          }
+        },
+        "process": {
+          "title": "Restoran ozonlash jarayoni",
+          "steps": [
+            {
+              "title": "Yopilish",
+              "description": "Ozonlash binoda odamlar bo'lmaganda, ishdan chiqish soatlarida amalga oshiriladi."
+            },
+            {
+              "title": "Tayorlash",
+              "description": "Oynalar va eshiklar yopiladi, ta'minot ventilatsiyasi maksimal ozon konsentratsiyasi uchun o'chiriladi."
+            },
+            {
+              "title": "Ozonlash",
+              "description": "Ozonator maksimal balandlikka qo'yiladi. Ishlov berish vaqti: hajmiga qarab 60-120 daqiqa."
+            },
+            {
+              "title": "Ventilatsiya",
+              "description": "Ventilatsiya yoqiladi, oynalar ochiladi. 2-3 soatda ozon xavfsiz darajagacha parchalanadi."
+            }
+          ],
+          "automation": {
+            "title": "Avtomatika:",
+            "text": "Zamonaviy ozonatorlar haftaviy taymerga ega. Siz yopilgandan keyin avtomatik boshlashni o'rnatishingiz mumkin — ertalab havo mutlaqo yangi bo'ladi."
+          }
+        },
+        "zones": {
+          "title": "Restoranlarda qo'llanish zonalari"
+        },
+        "calculation": {
+          "title": "Asboblar hisoblash",
+          "text": "Ozonator sig'imi tanlash: xona hajmi uchun soatiga 25 m³ dan 1 g.",
+          "table": {
+            "caption": "Har xil joylarda hisoblash misollari",
+            "headers": [
+              "Joy turi",
+              "Maydoni",
+              "Hajmi",
+              "Ozonator"
+            ],
+            "rows": [
+              [
+                "Kichik kofexona",
+                "40-60 m²",
+                "120-180 m³",
+                "5-7 g/soat"
+              ],
+              [
+                "O'rta restoran",
+                "100-200 m²",
+                "300-600 m³",
+                "12-24 g/soat"
+              ],
+              [
+                "Katta restoran/banket zali",
+                "300+ m²",
+                "900+ m³",
+                "36+ g/soat yoki bir nechta qurilma"
+              ],
+              [
+                "Nargila zali",
+                "50-100 m²",
+                "150-300 m³",
+                "6-12 g/soat (kunlik ishlov berish)"
+              ]
+            ]
+          }
+        },
+        "additionalUses": {
+          "title": "Qo'shimcha ozon qo'llanishlari",
+          "items": [
+            "Kimyoviy moddalarning ishtirokisiz idish va asboblarning sterilizatsiyasi",
+            "Saqlash vaqti uzaytirish uchun mahsulot ishlov berish (baliq, go'sht, sabzavot)",
+            "Xodimlarning qo'li ozonlashtirilgan suv bilan dezinfeksiyasi (teri uchun yaxshi)",
+            "Dekorativ hovuzlarda va akvariumlarda suv toza qilish",
+            "Kranidagi suvning ichimlik sifatiga ishlov berish",
+            "Podval xonalari va yerto'larda ko'plak nazorati"
+          ],
+          "savings": {
+            "title": "Tejash:",
+            "text": "Bir ozonator hava va suvni ham ishlov berishi mumkin. Kompakt mobil modellar turli xil xonalarga xizmat qiladi va har xil vazifalarni hal qiladi."
+          }
+        },
+        "benefits": {
+          "title": "Biznes foydalari",
+          "items": [
+            "Mehmon sadoqatining kuchayishi — qulay atmosfera esda qoladi",
+            "O'rtacha hisob yuqoriroq — yangi hava ishtahani boshqarib",
+            "Turiş vaqti ko'tarilishi — mehmonlar tez ketib turmaydilari",
+            "Hid shikoyatlari kamaydi — sharhlar saytlarida reputatsiya muhofazasi",
+            "Isteʼmol vositalari yo'q — ozon havadan istehso qilinadi",
+            "Avtomatik ishlash — xodimlarning minimal qatnashmasi"
+          ]
+        }
+      }
+    }
+  }
+}

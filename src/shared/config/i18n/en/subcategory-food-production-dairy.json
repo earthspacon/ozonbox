@@ -1,0 +1,216 @@
+{
+  "title": "Food production",
+  "description": "Ozonation at food facilities ensures product safety, extends shelf life and meets HACCP requirements. An eco-friendly alternative to chemical preservatives.",
+  "subcategories": {
+    "dairy": {
+      "title": "Dairy production",
+      "shortDesc": "Equipment disinfection and dairy storage",
+      "content": "Ozonation in the dairy industry is used to disinfect equipment, tanks, milk lines and premises. The technology reduces the need for chemical detergents and ensures microbiological safety.\n\nOzonated water at 2–3 mg/L effectively disinfects cooling tanks, milking equipment and pipelines with 99.9% efficiency. Ozone destroys pathogens, including thermophilic bacteria resistant to pasteurization.\n\nIn cold storage of dairy products, chamber ozonation prevents mold and extends shelf life of cottage cheese, sour cream and other fermented products by 30–50%.",
+      "benefits": [
+        "Equipment disinfection up to 99.9%",
+        "Reduced chemical detergents",
+        "30–50% longer shelf life",
+        "Destruction of thermophilic bacteria",
+        "Listeriosis prevention",
+        "HACCP compliance"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "99.9%",
+          "label": "Efficiency",
+          "description": "Equipment and tank disinfection"
+        },
+        "stat2": {
+          "value": "30–50%",
+          "label": "Extended shelf life",
+          "description": "For fermented dairy products"
+        },
+        "stat3": {
+          "value": "2–3",
+          "label": "mg/L ozone",
+          "description": "Concentration for equipment disinfection"
+        },
+        "stat4": {
+          "value": "0",
+          "label": "Chemicals",
+          "description": "Complete elimination of detergents"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "The dairy industry has the highest requirements for microbiological safety. Pathogenic microorganisms — Listeria, Salmonella, E.coli — can survive even after pasteurization, multiplying in milk lines and on equipment surfaces.",
+          "paragraph2": "Ozonation solves this problem comprehensively: disinfecting cooling tanks, milking equipment, milk lines and storage tanks without using chemical detergents. Ozone is effective against thermophilic bacteria resistant to high temperatures."
+        },
+        "haccpHighlight": {
+          "title": "HACCP:",
+          "text": "Ozonation is recognized as a critical control point (CCP) in the hazard analysis system, allowing control of microbiological safety at all stages of dairy production."
+        },
+        "application": {
+          "title": "Ozone application in dairy production",
+          "tableCaption": "Ozonation modes for dairy plant equipment",
+          "tableHeaders": [
+            "Treatment object",
+            "Method",
+            "Concentration",
+            "Efficiency"
+          ],
+          "tableData": [
+            [
+              "Milking equipment",
+              "Ozonated water",
+              "2–3 mg/L",
+              "99.9%"
+            ],
+            [
+              "Cooling tanks",
+              "Water + air",
+              "3–5 mg/L",
+              "99.99%"
+            ],
+            [
+              "Milk lines",
+              "Ozonated water flush",
+              "2–3 mg/L",
+              "99.9%"
+            ],
+            [
+              "Storage tanks",
+              "Gaseous ozone",
+              "5–10 mg/m³",
+              "99.99%"
+            ],
+            [
+              "Cold rooms",
+              "Gaseous ozone",
+              "3–6 mg/m³",
+              "99.5%"
+            ]
+          ]
+        },
+        "advantages": {
+          "title": "Advantages over traditional methods",
+          "items": [
+            "Destruction of thermophilic bacteria resistant to pasteurization",
+            "Listeriosis prevention — critical for soft cheeses and cottage cheese",
+            "No chemical residues on equipment surfaces",
+            "Ability to treat hard-to-reach areas in milk lines",
+            "Disinfection at low temperatures — no heating required",
+            "Process automation — reduced human factor influence"
+          ]
+        },
+        "comparison": {
+          "title": "Comparison of sanitation methods",
+          "headers": [
+            "Parameter",
+            "Ozonation",
+            "Chemical CIP cleaning"
+          ],
+          "rows": [
+            {
+              "parameter": "Efficiency against Listeria",
+              "value1": "99.99%",
+              "value2": "95–99%"
+            },
+            {
+              "parameter": "Chemical residues",
+              "value1": "None",
+              "value2": "Rinsing required"
+            },
+            {
+              "parameter": "Thermophilic bacteria",
+              "value1": "Destroyed",
+              "value2": "Partially survive"
+            },
+            {
+              "parameter": "Treatment time",
+              "value1": "15–30 minutes",
+              "value2": "45–90 minutes"
+            },
+            {
+              "parameter": "Water consumption",
+              "value1": "Minimal",
+              "value2": "Significant"
+            },
+            {
+              "parameter": "Eco-friendliness",
+              "value1": "Complete",
+              "value2": "Waste disposal required"
+            }
+          ]
+        },
+        "storage": {
+          "title": "Dairy product storage",
+          "intro": "Ozonation of cold rooms for dairy product storage prevents mold development, suppresses psychrotrophic bacteria growth and extends shelf life of cottage cheese, sour cream, yogurt by 30–50%.",
+          "tableCaption": "Ozonation modes for dairy product storage",
+          "tableHeaders": [
+            "Product",
+            "Temperature",
+            "Concentration",
+            "Shelf life increase"
+          ],
+          "tableData": [
+            [
+              "Cottage cheese",
+              "+2...+6°C",
+              "3–4 mg/m³",
+              "+40%"
+            ],
+            [
+              "Sour cream",
+              "+2...+6°C",
+              "2–3 mg/m³",
+              "+35%"
+            ],
+            [
+              "Yogurt",
+              "+2...+6°C",
+              "2–3 mg/m³",
+              "+30%"
+            ],
+            [
+              "Butter",
+              "-6...-12°C",
+              "3–5 mg/m³",
+              "+50%"
+            ],
+            [
+              "Soft cheeses",
+              "+4...+8°C",
+              "3–6 mg/m³",
+              "+45%"
+            ]
+          ],
+          "highlight": {
+            "text": "In cold storage, ozonation not only suppresses microflora but also prevents off-flavors in products, which is especially important for long-term butter storage."
+          }
+        },
+        "listeriosis": {
+          "title": "Listeriosis prevention",
+          "paragraph1": "Listeria monocytogenes is one of the most dangerous pathogens in the dairy industry. The bacterium can multiply at refrigerator temperature (+4°C), survive in biofilms on equipment surfaces and cause severe diseases with fatal outcomes.",
+          "paragraph2": "Ozone effectively destroys Listeria biofilms and kills bacterial cells. At ozone concentration of 0.5–1.0 mg/L in water, 99.99% inactivation of L. monocytogenes is achieved within 5 minutes of contact."
+        },
+        "benefits": {
+          "title": "Benefits for dairy production",
+          "items": [
+            {
+              "title": "HACCP compliance",
+              "description": "Ozonation is a critical control point in food safety systems"
+            },
+            {
+              "title": "Chemical savings",
+              "description": "Reduction of cleaning and disinfection costs by up to 80%"
+            },
+            {
+              "title": "Extended shelf life",
+              "description": "30–50% longer shelf life for fermented dairy products"
+            },
+            {
+              "title": "Product safety",
+              "description": "Guaranteed destruction of Listeria and thermophilic bacteria"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

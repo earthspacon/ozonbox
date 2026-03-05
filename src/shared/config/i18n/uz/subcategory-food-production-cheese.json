@@ -1,0 +1,263 @@
+{
+  "title": "Oziq-ovqat ishlab chiqarish",
+  "description": "Oziq-ovqat zavehlarin ozonatsiya qo'llanilishi mahsulot xavfsizligini ta'minlaydi, saqlash muddatini uzaytiradi va HACCP talablariga javob beradi. Kimyoviy konservantlarga ekologik toza muqobil.",
+  "subcategories": {
+    "cheese": {
+      "title": "Pishloq ishlab chiqarish",
+      "shortDesc": "Pishloq pishishi va ko'plaksiz saqlash",
+      "content": "Pishloq ishlab chiqarishda ozonatsiya pishloq sirtida noxush ko'plak rivojlanishini oldini olish masalasini hal qiladi pishloq pishirilishi va saqlashda. Texnologiya kamera mikroflorali nazorat qiladi, faqat pishirish jarayoniga ta'sir qilmasda.\n\nQat'iy pishloqlar uchun 2–4 mg/m³ ozone tavsiya etiladi; yumshoq pishloqlar uchun 3–6 mg/m³ 8–12°C va 85–90% nam holata. 1,5–2 soatli ishlov berish 94–99% dezinfeksiya samaradorligini beradi.\n\nOzone pishloq qobigida ko'plakni oldini oladi, pishirish biokimyosini buzmasda. To'g'ri dozo rang, tuzilish yoki ta'mga ta'sir qilmasda. Ozonatsiya sanoat yo'riqlamalarida qat'iy pishloq saqlash uchun tavsiya etilgan.",
+      "benefits": [
+        "95–99% ko'plakni oldini olish",
+        "Pishirish jarayoni saqlanib qoladi",
+        "Mahsulotning qisqarishi kamaytirish",
+        "Pishloqni ochirib olmasdan ishlov berish",
+        "Pishloq standartlariga muvofiqlik",
+        "Dezinfeksiya jarayonining avtomatlasti"
+      ],
+      "stats": {
+        "efficiency": {
+          "value": "95-99%",
+          "label": "Samaradorlik",
+          "description": "Noxush ko'plakni oldini olish"
+        },
+        "concentration": {
+          "value": "2-6",
+          "label": "mg/m³ ozone",
+          "description": "Pishloq pishish kameralari uchun kontsentratsiya"
+        },
+        "tastePreservation": {
+          "value": "100%",
+          "label": "Ta'm saqlanishi",
+          "description": "Pishirish jarayoniga ta'sir qilmasda"
+        },
+        "instructionYear": {
+          "value": "1975",
+          "label": "Yo'riqlamaning yili",
+          "description": "SSRQ-da pishloq saqlash uchun ozonatsiya"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Pishloq ishlab chiqarishda ozonatsiya pishloq pishirilishi va saqlashda pishloq sirtida noxush ko'plak rivojlanishini oldini olish masalasini hal qiladi. Texnologiya kamera mikroflorali nazorat qiladi, biokimyoviy pishirish jarayoniga ta'sir qilmasda.",
+          "paragraph2": "Ozone pishloq qobigida ko'plak rivojlanishini oldini oladi, pishloq ichidagi foydali mikroflora balansi buzmasda. To'g'ri dozo rang, tuzilish, ta'm yoki pishloqning aromatini o'zgartirsa ham."
+        },
+        "instruction": {
+          "label": "RFSSR Savdo Vazirligi 1975 vaqtincha yo'riqnomasi:",
+          "text": "Ozonatsiya qat'iy pishloqning saqlashda tavsiya etiladi. Usul pishloq sirtidagi ko'plakni kimyoviy konservantlarni ishlatmasdan nazorat qilish imkonini beradi."
+        },
+        "regimes": {
+          "title": "Har xil turdagi pishloq uchun ozonatsiya rejimi",
+          "tableCaption": "Pishloq pishish kameralari uchun tavsiya etilgan ishlov berish rejimi",
+          "tableHeaders": [
+            "Pishloq turi",
+            "Kontsentratsiya",
+            "Ishlov berish vaqti",
+            "Harorat",
+            "Samaradorlik"
+          ],
+          "tableRows": [
+            [
+              "Qat'iy pishloqlar",
+              "2-4 mg/m³",
+              "2 soat",
+              "+10...+12°C",
+              "95-99%"
+            ],
+            [
+              "Yumshoq pishloqlar",
+              "3-6 mg/m³",
+              "1,5 soat",
+              "+8...+10°C",
+              "94-98%"
+            ],
+            [
+              "Yarim qat'iy pishloqlar",
+              "2-4 mg/m³",
+              "1,5-2 soat",
+              "+10...+12°C",
+              "95-98%"
+            ],
+            [
+              "Sho'rvali pishloqlar",
+              "2-3 mg/m³",
+              "1 soat",
+              "+6...+8°C",
+              "94-97%"
+            ],
+            [
+              "Ko'plak pishirilgan pishloqlar",
+              "1-2 mg/m³",
+              "30 daqiqa",
+              "+8...+10°C",
+              "90-95%"
+            ]
+          ],
+          "warningLabel": "Asiliy ko'plak pishloqlari uchun muhim:",
+          "warningText": "Camembert, Brie va Roquefort kabi pishloqlar uchun, ehtiyotli ozonatsiya rejimi (1-2 mg/m³, 30 daqiqa) noxush ko'plakni nazorat qilish bilan ko'plak ko'lmi halak qilmasligi kerak."
+        },
+        "benefits": {
+          "title": "Pishloq ishlab chiqarishda ozonatsiyaning foydalari",
+          "items": [
+            "Pishloq qobigida noxush ko'plak rivojlanishini oldini olish",
+            "Pishirish jarayonini saqlanib qoldi — ozone pishloq ichiga kirib bormaydi",
+            "Mahsulotning qisqarishi kamaytirish mikroflora stabilizatsiyasi orqali",
+            "Pishloqni pishish kamerasidan ochirib olmasdan ishlov berish",
+            "GOST R 54607-2011 \"Pishloqlar. Umumiy texnik xususiyatlari\" ga muvofiqlik",
+            "Scheduled asosida dezinfeksiya jarayonining avtomatlasti"
+          ]
+        },
+        "impact": {
+          "title": "Ozonning mahsulotga ta'siri",
+          "paragraph": "Tekshiruv ozonning pishloq sirtida mikroflora o'sishini bosgirishi shuningdek ularning organoleptik xususiyatlarini saqlanib qolishini ko'rsatadi — ta'm, hidi, tekstura va rang. Bakteritsid ta'sir ayniqsa yuqori nam holata (70-90%) va o'rtacha haroratda (+8...+14°C), pishirish kameralarining tipik holati sharoitida aytiladi.",
+          "tableCaption": "Pishloq pishish shartlari va ozonatsiya parametrlari",
+          "tableHeaders": [
+            "Parametr",
+            "Qat'iy pishloqlar",
+            "Yumshoq pishloqlar",
+            "Ozone uchun optimal"
+          ],
+          "tableRows": [
+            [
+              "Harorat",
+              "+10...+14°C",
+              "+8...+12°C",
+              "+8...+14°C"
+            ],
+            [
+              "Namlik",
+              "80-90%",
+              "85-95%",
+              "70-90%"
+            ],
+            [
+              "Pishirish vaqti",
+              "2-12 oy",
+              "2-6 hafta",
+              "Har qanday"
+            ],
+            [
+              "O₃ kontsentratsiya",
+              "2-4 mg/m³",
+              "3-6 mg/m³",
+              "2-6 mg/m³"
+            ],
+            [
+              "Chastota",
+              "Har 2-3 kunning",
+              "Kuniga",
+              "Jadvalni bo'yicha"
+            ]
+          ]
+        },
+        "comparison": {
+          "title": "Pishloqlardagi ko'plak nazorat usullari taqqoslanishi",
+          "headers": [
+            "Parametr",
+            "Ozonatsiya",
+            "Mum/parafin qoplamasi"
+          ],
+          "rows": [
+            {
+              "parameter": "Ko'plak himoyasi",
+              "value1": "95-99%",
+              "value2": "80-90%"
+            },
+            {
+              "parameter": "Ta'miga ta'sir",
+              "value1": "Yo'q",
+              "value2": "Mumkin"
+            },
+            {
+              "parameter": "Nafas olib turuvchi qobiq",
+              "value1": "Saqlanib qoladi",
+              "value2": "Bloklangan"
+            },
+            {
+              "parameter": "Qo'shimcha xarajatlar",
+              "value1": "Minimal",
+              "value2": "Materiallar uchun"
+            },
+            {
+              "parameter": "Qo'l ishi",
+              "value1": "Talab qilinmaydi",
+              "value2": "Talab qilinadi"
+            },
+            {
+              "parameter": "Atrof-muhitga mos kelishi",
+              "value1": "To'liq",
+              "value2": "Mum chiqindilari"
+            }
+          ]
+        },
+        "chamberTreatment": {
+          "title": "Pishish kameras ishlov berish",
+          "paragraph": "Statsionar pishish kameralari uchun, devorasiga o'rnatilgan yoki quvur orqali ozonatorlar avtomatik nazorat bilan tavsiya etiladi. Ozone kamera hajmi bo'ylab tekis taqsimlani, erishilmasa joylar o'z ichiga olgan polka va javonlari kirib boradi.",
+          "tableCaption": "Pishloq pishish kamerasi uchun ishlov berish rejimining misoli (50 m³ hajmi)",
+          "tableHeaders": [
+            "Parametr",
+            "Qiymati",
+            "Eslatma"
+          ],
+          "tableRows": [
+            [
+              "Ozonator imkoniyati",
+              "2-3 g/soat",
+              "15-20 m³ uchun soat bilan 1 g"
+            ],
+            [
+              "Ozone kontsentratsiya",
+              "3-4 mg/m³",
+              "Qat'iy pishloqlar uchun"
+            ],
+            [
+              "Faoliyat vaqti",
+              "1,5-2 soat",
+              "Kuniga yoki har ikki kunning"
+            ],
+            [
+              "Kamera namligi",
+              "85-90%",
+              "Ozone uchun optimal"
+            ],
+            [
+              "Samaradorlik",
+              "95-99%",
+              "Ko'plakni yo'q qilish"
+            ]
+          ],
+          "successText": "Pishish kameralarini muntazam ozonatsiya qilish (kuniga 1-2 marta 1,5-2 soatda) pishloqni qo'lda silkitish va kamera texamatini mehnat xarajatlarini 70-80% kamaytirish imkonini beradi."
+        },
+        "regulations": {
+          "title": "Qonuniy hujjatlar",
+          "items": [
+            "GOST R 54607-2011 — Pishloqlar. Umumiy texnik xususiyatlari",
+            "Qat'iy pishloq saqlash kameralarini ozonatsiya qilish vaqtincha yo'riqnomasi (1975)",
+            "Ozonni dezinfektant sifatida ishlatish haqidagi uslubiy tavsiyalar (1976)",
+            "SanPiN 2.3.4.545-96 — Sut va sut mahsulotlarini ishlab chiqarish"
+          ]
+        },
+        "features": {
+          "title": "Pishloq ishlab chiqarish uchun foydalari",
+          "items": [
+            {
+              "title": "Ko'plak nazorati",
+              "description": "Pishirish ta'sir qilmasdan 95-99% noxush ko'plak oldini olish"
+            },
+            {
+              "title": "Sifat saqlanishi",
+              "description": "Pishloq ta'm, hidi va teksturasi o'zgarishsiz qoladi"
+            },
+            {
+              "title": "Qisqarish kamaytirish",
+              "description": "Mikroflora stabilizatsiya massa yo'qolishini kamaytiradi pishtirilish paytida"
+            },
+            {
+              "title": "Avtomatika",
+              "description": "Jadvallangan ishlov berish xodimlar ishtirok etmasida"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

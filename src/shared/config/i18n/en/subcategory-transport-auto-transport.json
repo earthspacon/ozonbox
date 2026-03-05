@@ -1,0 +1,361 @@
+{
+  "title": "Transport",
+  "description": "Ozonation of vehicles ensures sanitary safety of passenger transport, disinfection of cargo containers and an eco-friendly alternative to chemical fumigation.",
+  "subcategories": {
+    "auto-transport": {
+      "title": "Road freight",
+      "shortDesc": "Trucks and vans",
+      "content": "Ozonation of trucks and vans ensures sanitary safety of cargo, especially important for food. It removes odors from previous loads and disinfects the cargo area.\n\nRefrigerated and insulated vans need careful sanitation. Ozonation destroys bacteria, mold and spores that can spoil products. Treatment is done between runs.\n\nFor vans carrying mixed cargo, ozonation removes cross-odors. Smells of fish, chemicals or fertilizers can soak into walls and transfer to other goods. Ozone neutralizes these odors.\n\nTreatment: 30–60 minutes with doors closed. A mobile generator is placed inside the cargo area. After treatment, ventilate 15–20 minutes. For large fleets, fixed ozonation systems in the loading zone are recommended.",
+      "benefits": [
+        "Food transport safety",
+        "Cargo odor removal",
+        "Refrigerator disinfection",
+        "Compliance with sanitary norms",
+        "Quick treatment between runs",
+        "Cargo quality preservation"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "20-40",
+          "label": "minutes",
+          "description": "Truck body treatment"
+        },
+        "stat2": {
+          "value": "HACCP",
+          "label": "Compliance",
+          "description": "Food transport requirements"
+        },
+        "stat3": {
+          "value": "12/24V",
+          "label": "Power",
+          "description": "Operation from vehicle power"
+        },
+        "stat4": {
+          "value": "10-15",
+          "label": "vehicles per shift",
+          "description": "Handled by 1 operator"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Commercial road transport — from small vans to long-haul trucks — requires regular sanitary treatment. This is especially critical for food transporters: dairy products, meat, vegetables and fruits. Sanitary standards and HACCP requirements mandate maintaining cargo area cleanliness.",
+          "paragraph2": "Ozonation is an effective and economical method of fleet sanitary treatment. One mobile ozonator treats 10-15 trucks per shift, runs from vehicle power, requires no consumables. For logistics companies, this is significant savings compared to chemical treatment."
+        },
+        "highlight1": {
+          "title": "For fleet managers:",
+          "text": "Integrate ozonation into maintenance schedules. While the driver processes paperwork or rests between runs — the truck is treated. This creates no additional downtime."
+        },
+        "types": {
+          "title": "Types of commercial transport",
+          "text": "Ozonation is used for all types of freight road transport:",
+          "items": [
+            "Refrigerators — transport of perishable products with temperature control",
+            "Insulated vans — product delivery without active cooling",
+            "Curtain-sided semi-trailers — universal freight transport",
+            "Solid-body vans — delivery to retail outlets",
+            "Specialized vehicles — bread trucks, milk trucks, meat trucks",
+            "Container carriers — with installed shipping containers"
+          ]
+        },
+        "problems": {
+          "title": "Sanitation problems in freight transport",
+          "text": "Vehicle cargo areas are contaminated from various sources:",
+          "items": [
+            "Odors from previous cargo — fish, meat, chemicals, fertilizers",
+            "Bacterial contamination — from leaking packaging, damaged products",
+            "Mold and fungi — when transporting wet cargo, condensation",
+            "Insects — brought in with cargo or from warehouses",
+            "Dust and dirt — accumulate on floor and body walls",
+            "Packaging residues — cardboard, film, tape, pallet strapping"
+          ],
+          "text2": "Traditional washing and wiping do not fully solve the problem. Water does not kill bacteria, odors return, mold grows again. Disinfection is needed."
+        },
+        "technology": {
+          "title": "Truck treatment technology",
+          "steps": [
+            {
+              "title": "Emptying the body",
+              "description": "Unload cargo, remove trash and packaging residues. For heavy contamination — preliminary wet cleaning."
+            },
+            {
+              "title": "Ozonator placement",
+              "description": "Install ozonator inside the body at maximum height. Connect to electrical network (220V/230V) or external source."
+            },
+            {
+              "title": "Sealing",
+              "description": "Close doors, gates, hatches. For curtain-sided semi-trailers — lower curtain and secure."
+            },
+            {
+              "title": "Ozonation",
+              "description": "Turn on ozonator, start timer. Treatment time 20-40 minutes depending on volume and contamination."
+            },
+            {
+              "title": "Ventilation",
+              "description": "Open doors, turn on refrigerator ventilation (if available). Ventilate for 15-20 minutes."
+            }
+          ],
+          "highlight": "After ventilation, the body is ready for loading. Ozone has decayed to oxygen, no chemical residues, cargo is not at risk of contamination."
+        },
+        "modes": {
+          "title": "Treatment modes by transport type",
+          "tableCaption": "Road freight ozonation parameters",
+          "tableHeaders": [
+            "Transport type",
+            "Body volume",
+            "Capacity",
+            "Treatment time"
+          ],
+          "tableData": [
+            [
+              "Light-duty van",
+              "8-15 m³",
+              "5-10 g/h",
+              "15-20 min"
+            ],
+            [
+              "Medium-duty van",
+              "20-40 m³",
+              "10-20 g/h",
+              "20-30 min"
+            ],
+            [
+              "Refrigerator (semi-trailer)",
+              "80-90 m³",
+              "20-30 g/h",
+              "30-40 min"
+            ],
+            [
+              "Curtain-sided semi-trailer",
+              "90-100 m³",
+              "20-30 g/h",
+              "35-45 min"
+            ],
+            [
+              "Tank truck (milk truck)",
+              "5-20 m³",
+              "10-15 g/h",
+              "20-30 min"
+            ],
+            [
+              "Bread van",
+              "15-25 m³",
+              "5-10 g/h",
+              "15-25 min"
+            ]
+          ]
+        },
+        "refrigerators": {
+          "title": "Refrigerator treatment specifics",
+          "text": "Refrigerators and insulated vans require special attention — they transport food products with strict sanitary requirements.",
+          "items": [
+            "Treatment with refrigeration unit off — ozone does not affect refrigerant",
+            "Good insulation tightness increases effectiveness",
+            "Ozone does not damage sandwich panels and plastic lining",
+            "Entire interior surface treated, including ceiling and floor grooves",
+            "Odors absorbed into walls from previous transports are eliminated"
+          ],
+          "highlight": {
+            "title": "For HACCP:",
+            "text": "Record each treatment in a log with date, vehicle number, parameters (time, concentration). This is documentary proof of sanitary compliance during audits."
+          }
+        },
+        "odorRemoval": {
+          "title": "Odor elimination",
+          "text": "One of the main problems in freight transport — odors from previous cargo:",
+          "items": [
+            "Fish and seafood — persistent odor, absorbs into walls",
+            "Meat — when packaging is damaged or temperature regime violated",
+            "Onions, garlic — sharp odor, transfers to other cargo",
+            "Chemicals — fertilizers, household chemicals, technical fluids",
+            "Perfumes — strong aromas, incompatible with food cargo"
+          ],
+          "text2": "Ozone oxidizes odor molecules, converting them to neutral compounds. This is not masking, but complete elimination. After treatment, the body smells fresh — \"like after a thunderstorm\".",
+          "tableCaption": "Odor elimination modes",
+          "tableHeaders": [
+            "Odor type",
+            "Concentration",
+            "Treatment time",
+            "Efficiency"
+          ],
+          "tableData": [
+            [
+              "Light (dust, mustiness)",
+              "10-15 mg/m³",
+              "15-20 min",
+              "100%"
+            ],
+            [
+              "Medium (onions, garlic)",
+              "15-20 mg/m³",
+              "20-30 min",
+              "100%"
+            ],
+            [
+              "Strong (fish, meat)",
+              "20-30 mg/m³",
+              "30-45 min",
+              "95-100%"
+            ],
+            [
+              "Very strong (chemicals)",
+              "25-35 mg/m³",
+              "45-60 min",
+              "90-95%"
+            ],
+            [
+              "Stale (mold)",
+              "30-40 mg/m³",
+              "60-90 min",
+              "95-100%"
+            ]
+          ]
+        },
+        "integration": {
+          "title": "Fleet integration",
+          "features": [
+            {
+              "title": "After unloading",
+              "description": "While driver processes paperwork and receives next assignment — vehicle is treated"
+            },
+            {
+              "title": "Before loading",
+              "description": "Preventive treatment before loading sensitive cargo: dairy, meat, vegetables"
+            },
+            {
+              "title": "Night layover",
+              "description": "Vehicles in the depot are treated at night — ready for run in the morning"
+            },
+            {
+              "title": "Cargo change",
+              "description": "When switching from one cargo type to another (fish → dairy) — mandatory treatment"
+            }
+          ]
+        },
+        "economics": {
+          "title": "Fleet economics",
+          "comparisonTitle": "Fleet sanitary treatment method comparison (50 vehicles)",
+          "tableHeaders": [
+            "Indicator",
+            "Ozonation",
+            "Chemical treatment"
+          ],
+          "tableCaption": "Fleet sanitary treatment method comparison (50 vehicles)",
+          "tableData": [
+            [
+              "Equipment",
+              "50-150 thousand ₽ (one-time)",
+              "Not required"
+            ],
+            [
+              "Cost per vehicle",
+              "30-50 ₽ (electricity)",
+              "500-1500 ₽ (service/materials)"
+            ],
+            [
+              "Staff",
+              "1 operator",
+              "3-5 washers"
+            ],
+            [
+              "Time per vehicle",
+              "30-40 min (unattended)",
+              "60-90 min (manual work)"
+            ],
+            [
+              "Odor elimination",
+              "Complete",
+              "Partial"
+            ],
+            [
+              "Payback",
+              "2-4 months",
+              "—"
+            ]
+          ],
+          "text": "When treating 50 vehicles twice a week, savings amount to 100-200 thousand rubles per month. Ozonator payback — 2-4 months. Additional benefit — reduced customer complaints about odors and contamination."
+        },
+        "compliance": {
+          "title": "Compliance with sanitary norms",
+          "text": "Road freight ozonation complies with requirements:",
+          "items": [
+            "SanPiN 2.3.4.050-96 — food product transport",
+            "Technical Regulation TS 021/2011 — food product safety",
+            "HACCP — critical control points in logistics",
+            "ISO 22000 — food safety management systems",
+            "Retail chain requirements for suppliers and carriers"
+          ],
+          "warning": {
+            "title": "Documentation:",
+            "text": "Keep treatment logs for at least 1 year. During HACCP audits, Rospotrebnadzor inspections or customer claims — this is your protection."
+          }
+        },
+        "equipment": {
+          "title": "Fleet equipment",
+          "text": "For commercial transport treatment, the following are used:",
+          "items": [
+            "Mobile ozonators 5-20 g/h — for vans and medium trucks",
+            "Portable ozonators 20-50 g/h — for semi-trailers and large transport",
+            "Wall-mounted ozonators — for fixed installation in body",
+            "220V/230V modifications — for operation from electrical network without external power",
+            "Timer systems — for automatic scheduled treatment"
+          ],
+          "tableCaption": "Ozonator selection by fleet size",
+          "tableHeaders": [
+            "Fleet size",
+            "Recommended equipment",
+            "Set cost"
+          ],
+          "tableData": [
+            [
+              "5-15 vehicles",
+              "1-2 mobile ozonators 10-20 g/h",
+              "30-60 thousand ₽"
+            ],
+            [
+              "15-50 vehicles",
+              "3-5 ozonators 15-30 g/h",
+              "80-150 thousand ₽"
+            ],
+            [
+              "50-100 vehicles",
+              "5-10 ozonators + fixed zones",
+              "150-300 thousand ₽"
+            ],
+            [
+              "100+ vehicles",
+              "Custom solutions",
+              "Individual"
+            ]
+          ]
+        },
+        "roi": {
+          "title": "ROI for fleet operators",
+          "text": "Return on investment calculation for fleet of 30 trucks:",
+          "items": [
+            "Investment: 100,000 ₽ (3 ozonators at 30-35 thousand ₽)",
+            "Staff savings: 40,000 ₽/month (release of 1-2 cleaners)",
+            "Disinfectant savings: 15,000 ₽/month",
+            "Downtime reduction: 10,000 ₽/month (quick treatment)",
+            "Total savings: ~65,000 ₽/month",
+            "Payback period: 1.5-2 months"
+          ],
+          "highlight": {
+            "title": "Additional benefit:",
+            "text": "Reputational effect. Clean, odor-free trucks — this is customer confidence in transport quality. Large retail chains and producers choose carriers with confirmed sanitary treatment."
+          }
+        },
+        "safety": {
+          "title": "Safety requirements",
+          "items": [
+            "Treatment only with closed body and no people inside",
+            "Do not turn on ozonator in driver cabin",
+            "After treatment — mandatory ventilation before entering body",
+            "If early entry needed — respirator with carbon filter",
+            "Do not direct ozonator output at rubber seals",
+            "Store ozonator in dry ventilated place"
+          ]
+        }
+      }
+    }
+  }
+}

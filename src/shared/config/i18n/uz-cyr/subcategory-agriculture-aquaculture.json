@@ -1,0 +1,322 @@
+{
+  "title": "Qishloq xo'jaligi",
+  "description": "Qishloq xo'jaligida ozonlash hosildorlikni oshiradi, mahsulotlarning saqlash muddatini uzaytiradi va bioxavfsizlikni ta'minlaydi. Kimyoviy pestitsidlar va konservantlarga ekologik toza muqobil.",
+  "subcategories": {
+    "aquaculture": {
+      "title": "Akvakultura (RAS)",
+      "shortDesc": "Baliq yetishtirishning yopiq tizimlarida suvni tozalash va baliq kasalliklarini nazorat qilish",
+      "stats": {
+        "disinfection": {
+          "value": "99% gacha",
+          "label": "Dezinfeksiya",
+          "description": "Suvdagi patogenlarni yo'q qilish"
+        },
+        "cycleSaving": {
+          "value": "20-30%",
+          "label": "Tsiklni qisqartirish",
+          "description": "Baliqning tezroq o'sishi"
+        },
+        "mortalityReduction": {
+          "value": "50-70%",
+          "label": "O'lim darajasining pasayishi",
+          "description": "Chavoqlar va kattalar orasida"
+        },
+        "waterSaving": {
+          "value": "40-60%",
+          "label": "Suvni tejash",
+          "description": "Yangi suv berishning kamayishi"
+        }
+      },
+      "content": "Baliqchilikda ozonlash ishlab chiqarishning barcha bosqichlarida qo'llaniladi: suv tayyorlashdan tortib hosilni saqlashgacha. Ozon suvni dezinfeksiya qiladi, baliq kasalliklarini nazorat qiladi va saqlash muddatini uzaytiradi.\n\nYopiq suv ta'minoti qurilmalarida (RAS) ozonlash og'ir metall ionlarini, mikrosu o'tlarni, toksinlarni, zamburug' sporalarini, mikroblarni va kistalarni yo'q qiladi. Suvning loyqaligi sezilarli darajada pasayadi va yoqimsiz hidlar yo'qoladi.\n\nOzon patogen organizmlarning: viruslar, bakteriyalar va parazit bir hujayralilarning 99% gacha qismini yo'q qiladi. Bu baliqlarning kasallanishi va o'limini kamaytiradi va yuqoriroq zichlikda saqlash imkonini beradi.\n\nTavsiya etilgan ozon dozasi 1 kg yem uchun taxminan 13 g ni tashkil qiladi. Toza suvda baliqlar tezroq vazn oladi va ishlab chiqarish tsikli qisqaradi.",
+      "benefits": [
+        "99% gacha patogenlarni dezinfeksiya qilish",
+        "Qisqaroq ishlab chiqarish tsikli",
+        "Baliq o'limining kamayishi",
+        "Yuqori zichlikda saqlash imkoniyati",
+        "Yangi suvga bo'lgan talabning kamayishi",
+        "Suvning kislorod bilan to'yinishi"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Baliqchilikda ozonlash ishlab chiqarishning barcha bosqichlarida qo'llaniladi: suv tayyorlashdan tortib tayyor mahsulotni saqlashgacha. Ozon suvni dezinfeksiya qiladi, baliq kasalliklarini nazorat qiladi va ishlab chiqarish tsiklini sezilarli darajada qisqartiradi.",
+          "paragraph2": "Yopiq suv ta'minoti qurilmalarida (RAS) ozonlash suvdagi og'ir metall ionlarini, mikrosu o'tlarni, toksinlarni, zamburug' sporalarini, mikroblarni va kistalarni yo'q qiladi. Suvning loyqaligi sezilarli darajada kamayadi, yoqimsiz hidlar yo'qoladi va baliq o'sishi uchun maqbul sharoitlar yaratiladi."
+        },
+        "dosage": {
+          "title": "Tavsiya etilgan doza:",
+          "text": "1 kg yem uchun 13 g ozon. Ushbu doza dezinfeksiya samaradorligi va baliq xavfsizligi o'rtasidagi optimal muvozanatni ta'minlaydi."
+        },
+        "advantages": {
+          "title": "RASda ozonlashning afzalliklari",
+          "items": [
+            "Suvni viruslar, bakteriyalar va parazit bir hujayralilardan dezinfeksiya qilish",
+            "Organik birikmalar va ammiakni oksidlash",
+            "Suv loyqaligi va rangini yo'q qilish",
+            "Yoqimsiz hidlarni (geosmin, 2-metilizoborneol) yo'q qilish",
+            "Filtrlashni yaxshilash uchun mayda muallaq zarrachalarni koagulyatsiyasi",
+            "Suvni erigan kislorod bilan to'yintirish",
+            "Yangi suv sarfini 40-60% ga kamaytirish"
+          ]
+        },
+        "waterQuality": {
+          "title": "Ozonning suv sifatiga ta'siri",
+          "intro": "Suv sifati muvaffaqiyatli baliq yetishtirish uchun hal qiluvchi omil hisoblanadi. Ozonlash ham biologik, ham kimyoviy ifloslantiruvchi moddalarni yo'q qilib, suvni kompleks tozalashni ta'minlaydi.",
+          "tableCaption": "RASda suvni ozonlash samaradorligi",
+          "tableHeaders": [
+            "Ko'rsatkich",
+            "Ishlov berishdan oldin",
+            "Ishlov berishdan keyin",
+            "Yaxshilanish"
+          ],
+          "tableData": [
+            [
+              "Umumiy bakteriyalar soni",
+              "10⁵-10⁶ KOE/ml",
+              "10²-10³ KOE/ml",
+              "99-99.9%"
+            ],
+            [
+              "Suv loyqaligi",
+              "15-25 NTU",
+              "1-3 NTU",
+              "85-95%"
+            ],
+            [
+              "Ammiak (NH₃)",
+              "0.5-1.5 mg/l",
+              "0.05-0.1 mg/l",
+              "90-95%"
+            ],
+            [
+              "Nitritlar (NO₂)",
+              "0.3-0.8 mg/l",
+              "0.02-0.05 mg/l",
+              "90-95%"
+            ],
+            [
+              "Suv rangi",
+              "40-60°",
+              "5-10°",
+              "80-90%"
+            ],
+            [
+              "Geosmin",
+              "50-100 ng/l",
+              "< 5 ng/l",
+              "> 95%"
+            ]
+          ],
+          "note": "Toza ozonlangan suvda baliqlar tezroq vazn oladi, ishlab chiqarish tsikli 20-30% ga qisqaradi va yem o'zlashtirilishi 10-15% ga yaxshilanadi."
+        },
+        "pathogens": {
+          "title": "Baliq kasalliklariga qarshi kurash",
+          "intro": "Ozon patogen organizmlarning: viruslar, bakteriyalar va parazit bir hujayralilarning 99% gacha qismini yo'q qiladi. Bu baliqlarning kasallanishini kamaytiradi, o'limni pasaytiradi va yuqoriroq zichlikda saqlash imkonini beradi.",
+          "tableCaption": "Baliq patogenlariga qarshi ozon samaradorligi",
+          "tableHeaders": [
+            "Patogen",
+            "Kasallik",
+            "O₃ kontsentratsiyasi",
+            "Samaradorlik"
+          ],
+          "tableData": [
+            [
+              "Aeromonas salmonicida",
+              "Furunkulyoz",
+              "0.1-0.3 mg/l",
+              "99.9%"
+            ],
+            [
+              "Vibrio anguillarum",
+              "Vibrioz",
+              "0.1-0.2 mg/l",
+              "99.9%"
+            ],
+            [
+              "Ichthyophthirius",
+              "Ixtioftirioz",
+              "0.2-0.4 mg/l",
+              "99%"
+            ],
+            [
+              "Saprolegnia",
+              "Saprolegnioz",
+              "0.15-0.3 mg/l",
+              "99.5%"
+            ],
+            [
+              "VHS virusi",
+              "Virusli gemorragik septitsemiya",
+              "0.1-0.2 mg/l",
+              "99.99%"
+            ],
+            [
+              "IHN virusi",
+              "Infeksion gemopoetik nekroz",
+              "0.1-0.2 mg/l",
+              "99.99%"
+            ]
+          ]
+        },
+        "fishTypes": {
+          "title": "Turli baliq turlari uchun ozonlash rejimlari",
+          "intro": "Turli baliq turlari qoldiq ozonga nisbatan turlicha sezgirlikka ega. Har bir tur uchun baliq xavfsizligini saqlagan holda dezinfeksiya samaradorligini ta'minlovchi optimal rejimni tanlash muhimdir.",
+          "tableCaption": "Tavsiya etilgan ozonlash rejimlari",
+          "tableHeaders": [
+            "Baliq turi",
+            "Ozon dozasi",
+            "Qoldiq O₃",
+            "Aloqa vaqti"
+          ],
+          "tableData": [
+            [
+              "Forel",
+              "10-15 g/kg yem",
+              "< 0.01 mg/l",
+              "3-5 min"
+            ],
+            [
+              "Osiyotr",
+              "12-18 g/kg yem",
+              "< 0.01 mg/l",
+              "3-5 min"
+            ],
+            [
+              "Tilapiya",
+              "8-12 g/kg yem",
+              "< 0.02 mg/l",
+              "2-4 min"
+            ],
+            [
+              "Sazan",
+              "10-15 g/kg yem",
+              "< 0.01 mg/l",
+              "3-5 min"
+            ],
+            [
+              "Lagam",
+              "8-12 g/kg yem",
+              "< 0.02 mg/l",
+              "2-4 min"
+            ],
+            [
+              "Krevetka",
+              "5-8 g/kg yem",
+              "< 0.005 mg/l",
+              "5-10 min"
+            ]
+          ],
+          "warning": {
+            "title": "Ogohlantirish:",
+            "text": "Baliq hovuzidagi suvdagi qoldiq ozon 0.01-0.02 mg/l dan oshmasligi kerak. Nazorat qilish uchun ORP datchiklari va avtomatik dozalash tizimlaridan foydalaning."
+          }
+        },
+        "scheme": {
+          "title": "RASda ozonlash sxemasi",
+          "steps": [
+            {
+              "title": "Hovuzdan suv olish",
+              "description": "Baliq hayot faoliyati mahsulotlari bo'lgan suv tozalashga yuboriladi"
+            },
+            {
+              "title": "Mexanik filtrlash",
+              "description": "Barabanli yoki lentali filtrda yirik muallaq zarrachalarni olib tashlash"
+            },
+            {
+              "title": "Ozon aloqa kamerasi",
+              "description": "Diffuzorlar yoki injektorlar orqali ozon yuborish, aloqa vaqti 3-5 daqiqa"
+            },
+            {
+              "title": "Biofiltrlash",
+              "description": "Biologik filtrda ammiak va nitritlarni yakuniy tozalash"
+            },
+            {
+              "title": "Degazatsiya",
+              "description": "Degazatorda yoki faollashtirilgan ko'mir orqali qoldiq ozonni olib tashlash"
+            },
+            {
+              "title": "Hovuzga qaytarish",
+              "description": "Tozalangan suv baliqlarga qaytariladi"
+            }
+          ]
+        },
+        "economic": {
+          "title": "Iqtisodiy samaradorlik",
+          "intro": "RASda ozonlashni joriy etish o'sish ko'rsatkichlarini yaxshilash va operatsion xarajatlarni kamaytirish orqali kompleks iqtisodiy foyda keltiradi.",
+          "tableCaption": "RASda ozonlashning iqtisodiy ko'rsatkichlari",
+          "tableHeaders": [
+            "Ko'rsatkich",
+            "Ozonsiz",
+            "Ozon bilan",
+            "Foyda"
+          ],
+          "tableData": [
+            [
+              "Chavoqlarning yashovchanligi",
+              "60-70%",
+              "85-95%",
+              "+25-35%"
+            ],
+            [
+              "Yem koeffitsienti",
+              "1.3-1.5",
+              "1.1-1.2",
+              "15-20% tejash"
+            ],
+            [
+              "Saqlash zichligi",
+              "30-40 kg/m³",
+              "50-80 kg/m³",
+              "+60-100%"
+            ],
+            [
+              "Yetishtirish vaqti",
+              "12 oy",
+              "9-10 oy",
+              "20-25% qisqarish"
+            ],
+            [
+              "Davolash xarajatlari",
+              "100%",
+              "20-30%",
+              "70-80% tejash"
+            ],
+            [
+              "Yangi suv iste'moli",
+              "100%",
+              "40-60%",
+              "40-60% tejash"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "Baliqchilikda ozonlashning afzalliklari",
+          "items": [
+            {
+              "title": "Toza suv",
+              "description": "Suvni 99% gacha dezinfeksiya qilish, loyqalik, rang va yoqimsiz hidlarni yo'q qilish"
+            },
+            {
+              "title": "Sog'lom baliq",
+              "description": "Kasallanishni 50-70% ga kamaytirish, veterinariya xarajatlarini pasaytirish"
+            },
+            {
+              "title": "Tez o'sish",
+              "description": "Optimal sharoitlar hisobiga ishlab chiqarish tsiklini 20-30% ga qisqartirish"
+            },
+            {
+              "title": "Yuqori zichlik",
+              "description": "Baliqlar uchun xavfsiz holda saqlash zichligini 60-100% ga oshirish imkoniyati"
+            },
+            {
+              "title": "Suvni tejash",
+              "description": "Yaxshilangan tozalash tufayli yangi suv iste'molini 40-60% ga kamaytirish"
+            },
+            {
+              "title": "Mahsulot sifati",
+              "description": "Sotiladigan baliqlarda begona ta'm va hidlarning bo'lmasligi"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

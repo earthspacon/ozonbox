@@ -1,0 +1,286 @@
+{
+  "title": "Cleaning",
+  "description": "Professional ozonation for cleaning companies: removal of ingrained odors, post-fire treatment, pet odor removal, vehicle ozonation and deep cleaning of carpets and upholstery.",
+  "subcategories": {
+    "car-interiors": {
+      "title": "Car interiors",
+      "shortDesc": "Disinfection and deodorization of vehicles",
+      "content": "Car interior ozonation is a popular service at car washes and detailing centers. Over time, odors build up: tobacco, spilled drinks, food, sweat, pets. They soak into seat upholstery, carpets, headliner and AC ducts.\n\nOzone penetrates all interior materials, including ventilation and AC. This matters especially because bacteria and fungi often accumulate in ducts and cause odor when the AC is on.\n\nStandard car ozonation takes 30–60 minutes. The ozone generator is placed inside, recirculation is turned on to treat the ventilation system. Ozone concentration: 20–40 mg/m³. Ventilate for 15–30 minutes after treatment.\n\nFor used cars, ozonation helps remove the \"previous owner smell.\" For dealerships and car-sharing, regular ozonation keeps fleets fresh and hygienic.",
+      "benefits": [
+        "Treatment in 30–60 minutes",
+        "AC system disinfection",
+        "Tobacco odor removal",
+        "Preparation for sale",
+        "No traces or chemical residues",
+        "Destruction of bacteria and fungi"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "30-60",
+          "label": "Minutes",
+          "description": "Standard interior treatment"
+        },
+        "stat2": {
+          "value": "99.9%",
+          "label": "Bacteria",
+          "description": "Destroyed in ventilation system"
+        },
+        "stat3": {
+          "value": "15",
+          "label": "Minutes",
+          "description": "Ventilation after treatment"
+        },
+        "stat4": {
+          "value": "0",
+          "label": "Traces",
+          "description": "Chemical residues in interior"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "A car interior is an enclosed space where odors quickly accumulate: tobacco smoke, sweat, food, drinks, pets. All these odors are absorbed into the interior's textile elements: seats, carpets, headliner, as well as the ventilation and air conditioning system.",
+          "text2": "Dry cleaning removes dirt and stains but doesn't always handle ingrained odors. Air fresheners and deodorizers only mask the problem. Ozonation is the only method that completely destroys odor molecules, including those in AC ducts."
+        },
+        "highlight1": {
+          "title": "Important:",
+          "text": "An unpleasant odor when turning on the AC is a sign that bacteria and fungi have developed in the ventilation system. Regular interior cleaning doesn't eliminate them. Ozone penetrates all ducts and eliminates the problem at the source."
+        },
+        "problems": {
+          "title": "What problems ozonation solves",
+          "items": [
+            "Tobacco smoke odor — ingrained in upholstery, headliner, plastic",
+            "Previous owner smell — when buying a used car",
+            "Food and drink odors — spilled coffee, fast food, spoiled products",
+            "Pet odors — fur, saliva, marks",
+            "Damp and mold odor — after flooding or long storage",
+            "Bacteria in AC — cause of unpleasant odor when turned on"
+          ]
+        },
+        "process": {
+          "title": "Car ozonation process",
+          "steps": [
+            {
+              "title": "Interior preparation",
+              "description": "Perform standard cleaning: vacuum, wipe plastic surfaces. Remove trash and personal items. Take out floor mats for separate treatment."
+            },
+            {
+              "title": "Ozone generator placement",
+              "description": "Place the ozone generator in the interior on the front seat or floor. Close all windows and doors. Leave a small gap for the power cord if using an external generator."
+            },
+            {
+              "title": "Ventilation system treatment",
+              "description": "Turn on ignition, set air recirculation mode, turn fan to maximum. This ensures ozone circulation through the AC system."
+            },
+            {
+              "title": "Ozonation",
+              "description": "Run the ozone generator for 20-40 minutes at 20-40 mg/m³ concentration. For strong odors — up to 60 minutes. Leave the car during treatment."
+            },
+            {
+              "title": "Ventilation",
+              "description": "Open all doors and windows. Ventilate for 15-30 minutes. Turn on AC to fresh air intake mode. The car is ready for use."
+            }
+          ]
+        },
+        "modes": {
+          "title": "Treatment modes for different tasks",
+          "tableHeaders": [
+            "Type of contamination",
+            "Concentration",
+            "Time",
+            "Features"
+          ],
+          "tableCaption": "Recommended car interior ozonation parameters",
+          "tableData": [
+            [
+              "Light odors",
+              "10-20 mg/m³",
+              "20 min",
+              "Preventive treatment"
+            ],
+            [
+              "Tobacco smoke (light)",
+              "20-30 mg/m³",
+              "30 min",
+              "After smoking passenger"
+            ],
+            [
+              "Tobacco smoke (strong)",
+              "30-40 mg/m³",
+              "45-60 min",
+              "Smoker's car"
+            ],
+            [
+              "Pet odors",
+              "30-40 mg/m³",
+              "40-60 min",
+              "With recirculation on"
+            ],
+            [
+              "After flooding",
+              "40-60 mg/m³",
+              "60 min",
+              "After interior drying"
+            ],
+            [
+              "AC disinfection",
+              "20-30 mg/m³",
+              "30 min",
+              "Recirculation only"
+            ]
+          ]
+        },
+        "service": {
+          "title": "Ozonation as a car wash and detailing service",
+          "text": "For car washes and detailing centers, ozonation is a high-margin additional service. Equipment is compact, requires no consumables, pays for itself in 1-2 months with active customer promotion.",
+          "features": [
+            {
+              "title": "High profitability",
+              "description": "Treatment cost is electricity. Average service price: $20-40"
+            },
+            {
+              "title": "Quick execution",
+              "description": "30-60 minutes per treatment. Can be done in parallel with dry cleaning or polishing"
+            },
+            {
+              "title": "Simple operations",
+              "description": "Place generator, turn on, leave. Doesn't require qualified staff"
+            },
+            {
+              "title": "Complement to dry cleaning",
+              "description": "Ozonation after dry cleaning — comprehensive service with higher price"
+            }
+          ],
+          "highlight": {
+            "title": "Marketing tip:",
+            "text": "Offer ozonation as a mandatory part of pre-sale car preparation. Used car buyers are especially sensitive to foreign odors — this is a common reason for purchase refusal."
+          }
+        },
+        "carsharing": {
+          "title": "Ozonation for car-sharing and taxis",
+          "text": "Taxi and car-sharing fleets are ideal clients for regular ozonation:",
+          "items": [
+            "High turnover — many different passengers every day",
+            "Odor accumulation — food, drinks, perfume, tobacco from passengers",
+            "Sanitary requirements — especially relevant after the pandemic",
+            "Reputation risks — odor complaints lower ratings",
+            "Regularity — possibility of service contracts"
+          ],
+          "tableHeaders": [
+            "Fleet type",
+            "Recommended frequency",
+            "Purpose"
+          ],
+          "tableCaption": "Recommended ozonation frequency",
+          "tableData": [
+            [
+              "Car-sharing",
+              "Once a week",
+              "Prevent odor accumulation"
+            ],
+            [
+              "Economy taxi",
+              "Once every 2 weeks",
+              "Maintain interior freshness"
+            ],
+            [
+              "Business/comfort taxi",
+              "Once a week",
+              "High quality standard"
+            ],
+            [
+              "Rental cars",
+              "After each customer",
+              "Preparation for next rental"
+            ],
+            [
+              "Corporate transport",
+              "Once a month",
+              "Preventive treatment"
+            ]
+          ]
+        },
+        "comparison": {
+          "title": "Comparison with alternative methods",
+          "tableTitle": "Ozonation vs chemical air fresheners",
+          "headers": [
+            "Parameter",
+            "Ozonation",
+            "Fresheners/neutralizers"
+          ],
+          "rows": [
+            {
+              "parameter": "Principle of action",
+              "value1": "Destruction of odor molecules",
+              "value2": "Masking with another odor"
+            },
+            {
+              "parameter": "Ventilation system",
+              "value1": "Full treatment",
+              "value2": "Not treated"
+            },
+            {
+              "parameter": "Effect duration",
+              "value1": "Permanent (until new contamination)",
+              "value2": "Temporary (hours/days)"
+            },
+            {
+              "parameter": "Disinfection",
+              "value1": "Yes (kills bacteria)",
+              "value2": "No"
+            },
+            {
+              "parameter": "Safety",
+              "value1": "Decays to O₂",
+              "value2": "Chemical compounds"
+            },
+            {
+              "parameter": "Presence required",
+              "value1": "No (automatic)",
+              "value2": "Requires application"
+            }
+          ]
+        },
+        "interiors": {
+          "title": "Working with different interior types",
+          "highlight": {
+            "title": "Important:",
+            "text": "After ozonating a leather interior, it's recommended to treat the leather with conditioner. Ozone can slightly dry natural leather, though at correct concentrations this is not critical."
+          },
+          "tableHeaders": [
+            "Interior type",
+            "Features",
+            "Recommendations"
+          ],
+          "tableCaption": "Recommendations by upholstery type",
+          "tableData": [
+            [
+              "Fabric",
+              "Absorbs odors well",
+              "Increase treatment time by 20%"
+            ],
+            [
+              "Leather",
+              "Less absorption, easier to treat",
+              "Standard mode"
+            ],
+            [
+              "Synthetic leather",
+              "Similar to natural leather",
+              "Standard mode"
+            ],
+            [
+              "Alcantara",
+              "Microfiber, absorbs well",
+              "Same as fabric interior"
+            ],
+            [
+              "Combined",
+              "Different materials",
+              "Focus on fabric elements"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

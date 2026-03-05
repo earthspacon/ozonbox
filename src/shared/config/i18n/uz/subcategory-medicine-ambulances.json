@@ -1,0 +1,19 @@
+{
+  "title": "Tibbiyot",
+  "description": "Tibbiyotda ozon terapiyasi va ozonlash: operatsiya xonalari va palatalarni sterilizatsiya qilish, tibbiy uskunalarni dezinfeksiya qilish, stomatologiya kabinetlarini, reabilitatsiya markazlarini va tez yordam mashinalarini davolash.",
+  "subcategories": {
+    "ambulances": {
+      "title": "Shifoxona mashinalar",
+      "shortDesc": "Tibbiy transportni tez dezinfeksiya qilish",
+      "content": "Shifoxona mashinalar turli yuqumli kasalliklar bilan bemorlarni tashiladi. Qo'ng'iroqlar o'rtasida tez va samarali dezinfeksiya infeksiya tarqalishini oldini olish uchun juda muhimdir.\n\nShifoxona mashinasining ichining ozonlashi 20–30 daqiqani oladi va barcha sirtlarning to'liq dezinfeksiyasini ta'minlaydi: dandalanlar, uskunalar, qo'l tutgichlari, pol, devarlar va shponka. Gaz o'rindiq obivkasi va qiyin erishiladigan joylarni kirib boradi.\n\nDezinfektantlar bilan an'anaviy silkitish gaz dezinfeksiyasi kabi ishlov berish darajasiga erishmasa. Ozon qo'lda silkitish imkonsiz joylarni erishadi va havoda patogenlarni yo'q qiladi.\n\nShifoxona mashinalari uchun mobil ozon generatorlari 12V yoki 24V mashinaning quvvatida ishlaydi. Uskunalar juda kompakt va kabinada saqlansa bo'ladi. Ishlov berishdan keyin 10–15 daqiqada ventilyatsiya qiling. Mashina keyingi qo'ng'iroqqa tayyor.",
+      "benefits": [
+        "20–30 daqiqada tez dezinfeksiya",
+        "Barcha sirtlarning to'liq ishlov berish",
+        "Elektr ta'minotida foydalanish",
+        "Kompakt mobil uskunalar",
+        "O'zaro infeksiyaning oldini olsh",
+        "Keyingi qo'ng'iroqqa tez tayyorlik"
+      ]
+    }
+  }
+}

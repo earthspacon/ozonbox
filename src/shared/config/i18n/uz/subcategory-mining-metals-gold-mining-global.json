@@ -1,0 +1,97 @@
+{
+  "title": "Kon sanoati va metallar",
+  "description": "Oltin va boshqa metallar qazib olishda, siyanidlarni yo'q qilishda, metallarni saqlash va tozalashda ozon qo'llanilishi. Kon va metallni qayta ishlash uchun ekologik toza texnologiya.",
+  "subcategories": {
+    "gold-mining-global": {
+      "title": "Oltin qazib olishda ozon: global amaliyot (Janubiy Afrika, Chili, Kanada)",
+      "shortDesc": "Janubiy Afrika, Chili, Kanada va Janubi-Sharqiy Osiyodagi oltin konlarida ozon texnologiyalari: qiyin rudalarni oldindan ishlov berish, siyanidlarni yo'q qilish, ICMC ga muvofiqlik.",
+      "content": "Ozon texnologiyalari Janubiy Afrika, Chili, Kanada va Janubi-Sharqiy Osiyoda oltin qazib olishda tobora ko'proq qo'llanilmoqda. Sanoat sinovlari va joriy etish qiyin va ikki marta qiyin rudalarni oldindan ishlov berish, uyum eritishni kuchaytirish va Xalqaro siyanid boshqaruv kodeksiga (ICMC) muvofiq oqova suvlar va dumlarda siyanidlarni yo'q qilishni qamrab oladi.",
+      "stats": {
+        "regions": {
+          "value": "4+",
+          "label": "Hududlar",
+          "description": "Janubiy Afrika, Chili, Kanada, Janubi-Sharqiy Osiyo"
+        },
+        "cyanideReduction": {
+          "value": "85–99%",
+          "label": "Siyanid kamayishi",
+          "description": "Joyida ozon bilan"
+        },
+        "recoveryImprovement": {
+          "value": "53→88%",
+          "label": "Oltin ajratib olish",
+          "description": "Rudalarni ozon bilan oldindan ishlov berishda"
+        },
+        "icmcCompliance": {
+          "value": "Ha",
+          "label": "ICMC muvofiqlik",
+          "description": "Xalqaro siyanid boshqaruv kodeksi"
+        }
+      },
+      "benefits": [
+        "Dumlarda siyanidlarni 85–99% yo'q qilish",
+        "Qiyin va ikki marta qiyin rudalardan oltin ajratib olishni yaxshilash",
+        "Uyum eritishni kuchaytirish (ozon muzi, kislorod)",
+        "ICMC ga muvofiqlik va tozalangan suvni jarayonga qaytarish",
+        "Janubiy Afrika, Chili, Kanada va Osiyoda sanoat sinovlari"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Ozon texnologiyalari Janubiy Afrika, Chili, Kanada va Janubi-Sharqiy Osiyoda oltin qazib olishda tobora ko'proq qo'llanilmoqda. Sanoat sinovlari va joriy etish qiyin va ikki marta qiyin rudalarni oldindan ishlov berish, uyum eritishni kuchaytirish va Xalqaro siyanid boshqaruv kodeksiga (ICMC) muvofiq oqova suvlar va dumlarda siyanidlarni yo'q qilishni qamrab oladi.",
+          "paragraph2": "Janubiy Afrika va Janubi-Sharqiy Osiyodagi sanoat sinovlari joyida ozon ishlab chiqarishdan foydalanilganda erkin va WAD siyanid 85–99% ga kamayishini ko'rsatdi. 1 g siyanid uchun 2–3 g O₃ dozasi 10–30 daqiqa ichida to'liq oksidlanishni ta'minlaydi. Texnologiya ICMC talablariga javob beradi va tozalangan suvni jarayonga qaytarishga imkon beradi."
+        },
+        "southAfrica": {
+          "title": "Janubiy Afrika: siyanidlar va qiyin rudalar",
+          "intro": "Janubiy Afrikada ozon oltin konlarida dumlarda siyanidlarni yo'q qilish va qiyin va ikki marta qiyin rudalardan oltin ajratib olishni yaxshilash uchun ishlatiladi. Janubiy Afrika kon va metallurgiya instituti jurnali ikki marta qiyin oltin rudasini qayta ishlashda ozonlash texnologiyasini baholashni nashr etdi: yaxshilangan oltin ajratib olish va siyanid boshqaruvi.",
+          "trials": "Janubiy Afrika va Janubi-Sharqiy Osiyodagi sanoat sinovlari joyida ozon ishlab chiqarishdan foydalanilganda erkin va WAD siyanid 85–99% ga kamayishini ko'rsatdi. 1 g siyanid uchun 2–3 g O₃ dozasi 10–30 daqiqa ichida to'liq oksidlanishni ta'minlaydi. Texnologiya ICMC talablariga javob beradi va tozalangan suvni jarayonga qaytarishga imkon beradi."
+        },
+        "chileCanada": {
+          "title": "Chili va Kanada: oltin-mis rudalari va uyum eritish",
+          "intro": "Chilida ozon va kombinatsiyalangan texnologiyalar siyanidda eriydigan mis miqdori yuqori rudalarni qayta ishlash kontekstida ko'rib chiqiladi (SART jarayoni va analoglar). Kanadada tadqiqotlar uyum eritish va qiyin rudalarni oldindan ishlov berishga qaratilgan.",
+          "details": "Yuqori siyanid konsentratsiyalarida (60 mg/l) erigan kislorodni 8,2 dan 12 mg/l gacha oshirish oltin eritish tezligini ikki baravar oshiradi. Ustunli eksperimentlarda ozon muzi kislorod manbai sifatida oltin ajratib olishni nazoratga nisbatan 4,1% ga oshirdi. Bu natijalar yirik oltin ishlab chiqaruvchi hududlarda uyum eritishda ozondan foydalanishni qo'llab-quvvatlaydi."
+        },
+        "refractory": {
+          "title": "Qiyin rudalarni oldindan ishlov berish: joriy etish",
+          "intro": "Qiyin oltin rudalari uchun pilot va sanoat ozon oldindan ishlov berish tizimlari ikki marta qiyin rudalarni qayta ishlash ob'ektlarida sinovdan o'tkazildi. Meksika rudalarida tadqiqotlar oltin ajratib olishni 53% dan 88% ga va kumushni 26% dan 78% ga oshirishni, eritish vaqtini 40 soatdan 24 soatgacha qisqartirishni ko'rsatdi.",
+          "adoption": "Ozon bilan sulfid minerallarini (pirit, arsenopirit) oksidlanish keyingi sianidlash uchun oltinni chiqaradi va siyanid sarfini kamaytiradi. Ekologik standartlar qattiqlashishi va qayta ishlashda qiyin rudalarning ulushi oshishi bilan Janubiy Afrika, Chili, Kanada va Osiyodagi korxonalarda ozon oldindan ishlov berishni joriy etish kengayishi kutilmoqda."
+        },
+        "benefits": {
+          "title": "Xulosalar",
+          "items": [
+            {
+              "title": "Siyanidlar",
+              "description": "Erkin va WAD siyanidni 85–99% kamaytirish, ICMC muvofiqlik, suvni jarayonga qaytarish."
+            },
+            {
+              "title": "Qiyin rudalar",
+              "description": "Ozon oldindan ishlov berishda oltin va kumush ajratib olish oshishi (53→88%, 26→78%), qisqaroq eritish vaqti."
+            },
+            {
+              "title": "Uyum eritish",
+              "description": "Ozon muzi va kislorod eritish tezligini oshiradi; Chili va Kanada ma'lumotlari."
+            },
+            {
+              "title": "Joriy etish",
+              "description": "Qiyin rudalarning ulushi va ekologik talablar oshishi bilan keyingi kengayish kutilmoqda."
+            }
+          ]
+        }
+      },
+      "sourcesTitle": "Manbalar",
+      "sources": [
+        {
+          "title": "Evaluation of ozonation technology for gold recovery and cyanide management — J. Southern African Inst. Mining and Metallurgy, 2017",
+          "url": "http://www.scielo.org.za/scielo.php?pid=S2225-62532017000800006&script=sci_arttext"
+        },
+        {
+          "title": "Ozone Ice as an Oxygen Release Reagent for Heap Leaching of Gold Ore — Minerals, MDPI, 2021",
+          "url": "https://mdpi-res.com/d_attachment/minerals/minerals-11-01251/article_deploy/minerals-11-01251-v2.pdf"
+        },
+        {
+          "title": "The Effective Use of Ozone for Cyanide Destruction in Mining and Mineral Processing — Academia.edu",
+          "url": "https://www.academia.edu/26379027/"
+        }
+      ]
+    }
+  }
+}

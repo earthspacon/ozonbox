@@ -3,7 +3,7 @@ import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { Layout } from '@/widgets/layout'
 
-import { getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { getSubcategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
 import {
   ArticleHero,
   ArticleSection,
@@ -29,7 +29,7 @@ interface HospitalsPageProps {
 
 export function HospitalsPage({ staticData, lang }: HospitalsPageProps) {
   const { t } = useTranslate()
-  const ns = getCategoryNamespace('medicine')
+  const ns = getSubcategoryNamespace('medicine', 'hospitals')
 
   // get category data from staticData
   const categoryData = (staticData as Record<string, { subcategories?: { hospitals?: any } }>)[`${lang}:${ns}`]

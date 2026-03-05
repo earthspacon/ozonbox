@@ -1,0 +1,245 @@
+{
+  "title": "Disinfection",
+  "description": "Ozonation provides deep disinfection of premises and transport, destroying bacteria, viruses, fungi and spores without chemical residues. The gas penetrates all hard-to-reach areas.",
+  "subcategories": {
+    "offices": {
+      "title": "Office premises",
+      "shortDesc": "Healthy work environment without viruses",
+      "content": "The office is the face of the company. Polluted air with unpleasant odors harms staff, reduces productivity and loyalty, and damages the company's image with clients and partners.\n\nIn most buildings, concentrations of toxic substances in the air are 2–5 times higher than outdoors. Benzene, formaldehyde and ammonia are released from furniture, carpets, office equipment and finishes. Ozonation effectively neutralizes these pollutants.\n\nOzone disinfects everything staff and visitors touch: desktops, armrests, office equipment, coffee machines. It reduces virus transmission via surfaces, removes odors and freshens the air.\n\nTreatment is run at night on a timer. 1–2 hours of ozonation is usually enough. Ozone generator capacity: about 1 g/h per 25 m³ of room volume. By the time staff arrive, ozone has dissipated, leaving a light fresh smell.",
+      "benefits": [
+        "Infection spread prevention",
+        "Removal of toxic substances from air",
+        "Disinfection of work surfaces",
+        "Automatic night treatment",
+        "Higher staff productivity",
+        "Better company image"
+      ],
+      "stats": {
+        "pollution": {
+          "value": "2-5x",
+          "label": "Pollution",
+          "description": "Office air is dirtier than outdoor air"
+        },
+        "sickLeave": {
+          "value": "-40%",
+          "label": "Sick leave",
+          "description": "Reduction in staff illness"
+        },
+        "treatment": {
+          "value": "1-2 h",
+          "label": "Treatment",
+          "description": "Sufficient for complete disinfection"
+        },
+        "residues": {
+          "value": "0",
+          "label": "Residues",
+          "description": "Chemical substances after treatment"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "The office is the face of the company. Polluted air with unpleasant odors harms staff, reduces productivity and loyalty, and damages the company's image with clients and partners.",
+          "text2": "Scientists have found that in most buildings, concentrations of harmful and toxic chemicals in the air are 2–5 times higher than outdoors. In some offices, indoor air pollution levels for certain toxins are up to 70 times higher than outside."
+        },
+        "highlight1": {
+          "title": "Sources of office air pollution:",
+          "text": "benzene, formaldehyde, and ammonia are released from furniture, carpets, office equipment, and finishes. Traditional ventilation and air conditioning strip the air of its natural freshness."
+        },
+        "airQuality": {
+          "title": "The problem of air quality in offices",
+          "text": "Air loses its 'freshness' after passing through air conditioners and heating systems. As a result, ozone and ion levels drop by 90%. The lack of these natural air components has led to complaints of frequent headaches, weakness, and poor well-being — 'sick building syndrome'.",
+          "items": [
+            "Benzene — from paints, carpets, curtains, and furniture upholstery",
+            "Ammonia — from tobacco smoke and cleaning products",
+            "Formaldehyde — from plywood, furniture, particleboard, office partitions",
+            "Trichloroethylene — from paint, glue, furniture, and wallpaper",
+            "Chloroform — from paints, carpets, and curtains"
+          ]
+        },
+        "effectiveness": {
+          "title": "Effectiveness of ozonation",
+          "text": "Studies have shown that adding ozone to air at 15 parts per billion (0.03 mg/m³) produces an effect equivalent to a two-hour walk in fresh air. Staff showed strengthened immune systems, increased blood oxygen levels, and improved blood pressure.",
+          "tableHeaders": [
+            "Indicator",
+            "Before ozonation",
+            "After ozonation"
+          ],
+          "tableCaption": "Results of ozone impact studies in offices",
+          "tableData": [
+            [
+              "Headache frequency",
+              "Frequent",
+              "Rare"
+            ],
+            [
+              "Work capacity",
+              "70%",
+              "100%"
+            ],
+            [
+              "Attention concentration",
+              "Reduced",
+              "Normal"
+            ],
+            [
+              "ARI incidence",
+              "15-20% per season",
+              "8-10% per season"
+            ],
+            [
+              "Atmosphere satisfaction",
+              "45%",
+              "89%"
+            ]
+          ]
+        },
+        "whatDisinfects": {
+          "title": "What ozone disinfects in the office",
+          "text": "Ozone disinfects all surfaces touched by staff and visitors. The gas penetrates crevices and hard-to-reach areas behind equipment and into ventilation systems.",
+          "items": [
+            "Work desks and countertops",
+            "Armrests of chairs and seats",
+            "Keyboards, mice, phones",
+            "Door handles and handrails",
+            "Office equipment and coffee machines",
+            "Meeting rooms and coworking areas",
+            "Ventilation and air conditioning systems"
+          ]
+        },
+        "treatmentMode": {
+          "title": "Office treatment mode",
+          "text": "Ozonation of offices and coworking spaces is conducted at night. Equipment runs automatically on a timer. By the time staff arrive, ozone has dissipated, leaving a light fresh smell.",
+          "steps": [
+            {
+              "title": "Room preparation",
+              "description": "Close all windows and doors. Turn off supply ventilation. Ensure no one is in the room."
+            },
+            {
+              "title": "Starting the ozonator",
+              "description": "Turn on the ozonator for 40–120 minutes depending on room volume. Capacity: 1 g/h per 25 m³."
+            },
+            {
+              "title": "Exposure",
+              "description": "Ozone spreads throughout the room, penetrating all crevices and far corners. Concentration reaches the required level."
+            },
+            {
+              "title": "Ventilation",
+              "description": "2–3 hours after treatment ends, ozone decomposes to safe levels. Active ventilation is not required."
+            }
+          ],
+          "tableHeaders": [
+            "Room type",
+            "Volume",
+            "Capacity",
+            "Treatment time"
+          ],
+          "tableCaption": "Recommended ozonation modes for offices",
+          "tableData": [
+            [
+              "Office",
+              "up to 50 m³",
+              "2-3 g/h",
+              "60 min"
+            ],
+            [
+              "Open space",
+              "100-300 m³",
+              "5-10 g/h",
+              "90 min"
+            ],
+            [
+              "Meeting room",
+              "30-50 m³",
+              "2 g/h",
+              "40 min"
+            ],
+            [
+              "Coworking",
+              "200-500 m³",
+              "10-20 g/h",
+              "120 min"
+            ]
+          ]
+        },
+        "comparison": {
+          "title": "Comparison of air cleaning methods",
+          "headers": [
+            "Parameter",
+            "Ozonation",
+            "Chemical cleaning"
+          ],
+          "rows": [
+            {
+              "parameter": "Air disinfection",
+              "value1": "Yes",
+              "value2": "No"
+            },
+            {
+              "parameter": "Hard-to-reach areas",
+              "value1": "Yes (gas penetrates everywhere)",
+              "value2": "No"
+            },
+            {
+              "parameter": "Toxin neutralization",
+              "value1": "Yes",
+              "value2": "No"
+            },
+            {
+              "parameter": "Odor elimination",
+              "value1": "Complete",
+              "value2": "Masking"
+            },
+            {
+              "parameter": "Chemical residues",
+              "value1": "No (decomposes to O₂)",
+              "value2": "Yes"
+            },
+            {
+              "parameter": "Recovery time",
+              "value1": "2-3 hours",
+              "value2": "Immediate"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Benefits for employers",
+          "features": [
+            {
+              "title": "Reduced sick leave",
+              "description": "30–40% reduction in staff illness during flu season"
+            },
+            {
+              "title": "Increased productivity",
+              "description": "Clean air improves concentration and work capacity"
+            },
+            {
+              "title": "Company image",
+              "description": "Caring for employee health is part of corporate culture"
+            },
+            {
+              "title": "Automation",
+              "description": "Timer-based operation without staff involvement at night"
+            }
+          ]
+        },
+        "toiletOdor": {
+          "title": "Toilet odor elimination",
+          "text": "Toilet odor is one of the most common problems in office buildings. Causes can vary: leaky pipe connections, ventilation 'backflow', uric acid stone formation.",
+          "highlight": {
+            "text": "To eliminate toilet odor, install an ozonator with capacity of 0.5 g/h for 24/7 ozonation or 5 g/h for night treatment. Ozone breaks down odorous organic compounds into simple odorless compounds."
+          }
+        },
+        "safety": {
+          "title": "Safety requirements",
+          "items": [
+            "Treatment is conducted in the absence of people",
+            "Ozone MAC in work zone — 0.1 mg/m³",
+            "Ventilation is not required after night treatment",
+            "Staff opening the room after treatment use respirators",
+            "Equipment runs automatically on a timer"
+          ]
+        }
+      }
+    }
+  }
+}

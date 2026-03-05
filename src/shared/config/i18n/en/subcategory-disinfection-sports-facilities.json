@@ -1,0 +1,300 @@
+{
+  "title": "Disinfection",
+  "description": "Ozonation provides deep disinfection of premises and transport, destroying bacteria, viruses, fungi and spores without chemical residues. The gas penetrates all hard-to-reach areas.",
+  "subcategories": {
+    "sports-facilities": {
+      "title": "Sports facilities",
+      "shortDesc": "Disinfection of halls and locker rooms",
+      "content": "Gyms, fitness centers and locker rooms are high-risk for infection spread and have specific odors. Ozonation addresses both: it disinfects equipment and removes sweat odor.\n\nOzone destroys bacteria, viruses, mold, fungi and parasitic protozoa on equipment, stands, benches and mats. The gas penetrates material pores for deep disinfection.\n\nSports facilities are treated at night. 2–3 hours at about 1 g/h per 25 m³ is typical. For large halls and arenas, mobile ozone generators of 60–120 g/h are used.\n\nAfter the generator is off, ozone drops to safe levels in 2–3 hours. Only a light fresh smell remains. Staff should not enter during treatment.",
+      "benefits": [
+        "Effective sweat odor removal",
+        "Disinfection of sports equipment",
+        "Fungal infection prevention",
+        "Treatment of mats and textiles",
+        "Mold suppression",
+        "Automatic night operation"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "2-3 h",
+          "label": "Treatment",
+          "description": "Ozonation time for gym"
+        },
+        "stat2": {
+          "value": "100%",
+          "label": "Odors",
+          "description": "Sweat odor elimination efficiency"
+        },
+        "stat3": {
+          "value": "99.9%",
+          "label": "Fungi",
+          "description": "Destruction of mycosis pathogens"
+        },
+        "stat4": {
+          "value": "60-120",
+          "label": "g/h",
+          "description": "Capacity for large halls"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Gyms, fitness centers and locker rooms are high-risk for infection spread and have specific odors. Ozonation addresses both: it disinfects equipment and completely removes sweat odor, rather than masking it.",
+          "paragraph2": "Ozone destroys bacteria, viruses, mold, fungi and parasitic protozoa on equipment, stands, benches and mats. The gas penetrates material pores for deep disinfection of textiles and soft surfaces."
+        },
+        "warning": {
+          "title": "Fungal infections",
+          "text": "are one of the main problems in sports facilities. Athlete's foot, ringworm, candidiasis are transmitted through shared locker rooms, showers and sports equipment. Ozone destroys fungal spores on all surfaces."
+        },
+        "whatDisinfects": {
+          "title": "What ozone disinfects",
+          "items": [
+            "Exercise machines and sports equipment",
+            "Mats, yoga and fitness mats",
+            "Locker room benches",
+            "Lockers and shelves",
+            "Shower cabins and restrooms",
+            "Textiles: towels, robes (in lockers)",
+            "Ventilation and air conditioning systems",
+            "Stands and spectator areas"
+          ]
+        },
+        "odorProblem": {
+          "title": "Odor problem in gyms",
+          "text": "Sweat odor in gyms is the result of bacterial activity on human skin. Regular cleaning and air fresheners only mask the problem. Ozone breaks down odor molecules and destroys the bacteria that produce them.",
+          "tableHeaders": [
+            "Odor type",
+            "Source",
+            "Elimination time"
+          ],
+          "tableCaption": "Ozone effectiveness against odors",
+          "tableData": [
+            [
+              "Sweat",
+              "Skin bacteria",
+              "30-60 min"
+            ],
+            [
+              "Dampness",
+              "Mold and fungi",
+              "60-90 min"
+            ],
+            [
+              "Stale air",
+              "Insufficient ventilation",
+              "40-60 min"
+            ],
+            [
+              "Rubber",
+              "Flooring and mats",
+              "90-120 min"
+            ]
+          ]
+        },
+        "process": {
+          "title": "Sports facility treatment mode",
+          "text": "Sports facilities are treated at night when closed to visitors. For large halls and arenas, powerful mobile ozone generators of 60–120 g/h are used.",
+          "steps": [
+            {
+              "title": "Room preparation",
+              "description": "Close all windows and doors. Turn off supply ventilation. Ensure no one is in the hall."
+            },
+            {
+              "title": "Ozone generator placement",
+              "description": "Wall-mounted generator — at least 3 m high. Mobile — at maximum height, e.g., on a referee's platform."
+            },
+            {
+              "title": "Ozonation",
+              "description": "Run the generator for 2–3 hours. Capacity: 1 g/h per 25 m³ of room volume."
+            },
+            {
+              "title": "Ozone decay",
+              "description": "After the generator stops, concentration drops to safe levels in 2–3 hours. A light fresh smell remains."
+            }
+          ]
+        },
+        "equipment": {
+          "title": "Equipment calculation",
+          "highlight": {
+            "title": "Calculation formula:",
+            "text": "1 g/h ozone capacity per 25 m³ of room volume. For rooms with high contamination or large surface area, increase capacity by 20–30%."
+          },
+          "tableHeaders": [
+            "Facility type",
+            "Volume",
+            "Capacity",
+            "Time"
+          ],
+          "tableCaption": "Recommended ozone generator capacity",
+          "tableData": [
+            [
+              "Fitness hall",
+              "200-500 m³",
+              "10-20 g/h",
+              "120 min"
+            ],
+            [
+              "Locker room",
+              "50-100 m³",
+              "3-5 g/h",
+              "90 min"
+            ],
+            [
+              "Gym",
+              "300-600 m³",
+              "15-25 g/h",
+              "150 min"
+            ],
+            [
+              "Sports arena",
+              "2000-5000 m³",
+              "80-200 g/h",
+              "180 min"
+            ],
+            [
+              "Pool (air)",
+              "500-1500 m³",
+              "20-60 g/h",
+              "120 min"
+            ]
+          ]
+        },
+        "specialZones": {
+          "title": "Special attention zones",
+          "features": [
+            {
+              "title": "Locker rooms",
+              "description": "Benches, lockers, floor — main points of fungal infection transmission"
+            },
+            {
+              "title": "Showers",
+              "description": "Humid environment promotes mold and fungi growth"
+            },
+            {
+              "title": "Cardio zone",
+              "description": "Intense sweating, many contact surfaces"
+            },
+            {
+              "title": "Group class hall",
+              "description": "Mats, shared equipment — infection transmission risk"
+            }
+          ]
+        },
+        "pathogens": {
+          "title": "Effectiveness against pathogens",
+          "tableHeaders": [
+            "Pathogen",
+            "Inactivation time",
+            "Efficiency"
+          ],
+          "tableCaption": "Pathogen inactivation time (concentration 20 mg/m³)",
+          "tableData": [
+            [
+              "Trichophyton (athlete's foot)",
+              "20-30 min",
+              "99.9%"
+            ],
+            [
+              "Candida albicans",
+              "15-20 min",
+              "99.9%"
+            ],
+            [
+              "Staphylococcus aureus",
+              "10-15 min",
+              "99.99%"
+            ],
+            [
+              "Influenza viruses",
+              "5-10 min",
+              "99.99%"
+            ],
+            [
+              "Mold (spores)",
+              "30-40 min",
+              "99%"
+            ],
+            [
+              "E. coli",
+              "5-10 min",
+              "99.99%"
+            ]
+          ]
+        },
+        "comparison": {
+          "title": "Comparison with traditional cleaning",
+          "tableTitle": "Ozonation vs chemical disinfection",
+          "headers": [
+            "Criterion",
+            "Ozonation",
+            "Chemical treatment"
+          ],
+          "rows": [
+            {
+              "parameter": "Sweat odor elimination",
+              "value1": "Complete (molecule breakdown)",
+              "value2": "Masking"
+            },
+            {
+              "parameter": "Mat and textile treatment",
+              "value1": "Deep (gas in pores)",
+              "value2": "Surface only"
+            },
+            {
+              "parameter": "Ventilation systems",
+              "value1": "Yes",
+              "value2": "No"
+            },
+            {
+              "parameter": "Chemical residues",
+              "value1": "No",
+              "value2": "Yes (allergy risk)"
+            },
+            {
+              "parameter": "Recovery time",
+              "value1": "2-3 hours",
+              "value2": "Immediate"
+            },
+            {
+              "parameter": "Consumables",
+              "value1": "No",
+              "value2": "Yes"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Benefits for owners",
+          "features": [
+            {
+              "title": "Reputation",
+              "description": "Clean air and no odors — competitive advantage"
+            },
+            {
+              "title": "Client health",
+              "description": "Reduced risk of fungal and viral infections"
+            },
+            {
+              "title": "Savings",
+              "description": "No costs for chemicals and air fresheners"
+            },
+            {
+              "title": "Automation",
+              "description": "Timer operation without staff involvement"
+            }
+          ]
+        },
+        "safety": {
+          "title": "Safety requirements",
+          "items": [
+            "Treatment only when unoccupied (nighttime)",
+            "Ozone MPC in work zone — 0.1 mg/m³",
+            "Staff should not enter during treatment",
+            "If entry is necessary — use respirator with carbon filter",
+            "After nighttime treatment, ventilation is not required",
+            "By opening time, ozone will fully decompose"
+          ],
+          "highlight": "With properly selected start and end times, ozone will dissipate by the time staff and first visitors arrive. Only a light fresh smell remains, safe for humans."
+        }
+      }
+    }
+  }
+}

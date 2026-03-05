@@ -1,0 +1,280 @@
+{
+  "title": "HoReCa",
+  "description": "Mehmonxonalar, restoranlar, kir yuvish xonalari va boshqa mehmonxona muassasalari qulay muhit yaratish, hidlarni yo'q qilish va yuqori gigiyena standartlarini saqlash uchun ozonlashdan foydalanadi.",
+  "subcategories": {
+    "secondhand": {
+      "title": "Ikkinchi qo'l do'konlar",
+      "shortDesc": "Kiyim xarakterli hidini yo'q qilish",
+      "heroTitle": "Ikkinchi qo'l do'kon ozonlashi",
+      "heroDesc": "Kiyim xarakterli hidini yo'q qilish. Mijoz qulayligi va yuqori sotuvlar.",
+      "content": "Ikkinchi qo'l do'konlarida kiyimlarning xarakterli hidi majburiy dezinfeksiyadan keladi. Sotuvdan oldin, buyumlar viruslar va bakteriyalarni o'ldirish uchun formaldegid yoki metil bromid gazisiga ishlov beriladi. Dezinfeksiyalar kiyimlar polkalarga yetib kelganda poyab, lekin xarakterli hid qoladi.\n\nBu hidi ikkinchi qo'lda asosiy mahdiyatdir. U butun do'konda poyab va kiyilgan kiyimga noqulaylik assosiatsiyalarni keltirib chiqaradi. Ba'zi mijozlar qulaysizlik tufayli do'konda kamroq vaqt o'tkazadi.\n\nHid o'zgartirilgan mahsulot sifatiga ta'sir qiladi. Mijozlar ongli bo'lmagan holda noqulaylik hidli buyumlar uchun kamroq pul to'layshadi, hatto ular ajoyib holatda bo'lsa ham.\n\nMuntazam kiyim ozonlashi hidi samarali yo'q qiladi va do'kon havasini yangilaydi. Ozonlash ishdan chiqish soatlarida 1–3 soat amalga oshiriladi. Gaz barcha teschalik va burchaklarga kirib, barcha tovarlar ishlov beriladi.",
+      "benefits": [
+        "Xarakterli hidini to'liq yo'q qilish",
+        "Barcha tovarlarni bir vaqtda ishlov berish",
+        "Bakteriyalar va chayniqlardan dezinfeksiya",
+        "Tovarlarning yuqori jozibasi",
+        "Do'konda mijoz qulayligi",
+        "Kechuning avtomatik ishlov berish"
+      ],
+      "stats": {
+        "processingTime": {
+          "value": "1-3",
+          "label": "Ishlov berish soatlari",
+          "description": "Kecha ishlov berish"
+        },
+        "odorRemoval": {
+          "value": "100%",
+          "label": "Hidi yo'q qilish",
+          "description": "Kimyoviy neytrallashtirish"
+        },
+        "stayIncrease": {
+          "value": "+30%",
+          "label": "Do'konda vaqt",
+          "description": "Mijoz qulayligi"
+        },
+        "disinfection": {
+          "value": "99.9%",
+          "label": "Dezinfeksiya",
+          "description": "Bakteriyalar va chayniqlar"
+        }
+      },
+      "businessImpact": {
+        "visitTime": {
+          "before": "12 daqiqa",
+          "after": "18-20 daqiqa"
+        },
+        "conversion": {
+          "before": "15%",
+          "after": "22%"
+        },
+        "avgCheck": {
+          "before": "Bazaviy",
+          "after": "+15-25%"
+        },
+        "repeatVisits": {
+          "before": "25%",
+          "after": "40%"
+        }
+      },
+      "advantages": [
+        "Tovarlarning yuqori jozibasi — buyumlar yaxshi sifat deb qabul qilinadi",
+        "Chang chayniqlarining yo'q qilishi — allergiyachi uchun muhimdir",
+        "Xona dezinfeksiyasi — infeksiya uzatishini oldini olish",
+        "Ko'plak yo'q qilish — podval xonalar uchun relevantan",
+        "Marketing afzalligi — hidsi bo'lmagan ikkinchi qo'l do'kon"
+      ],
+      "sections": {
+        "intro": {
+          "p1": "Ikkinchi qo'l do'konlarida kiyimlarning xarakterli hidi majburiy dezinfeksiyadan keladi. Sotuvdan oldin, buyumlar viruslar va bakteriyalarni o'ldirish uchun formaldegid yoki metil bromid gazisiga ishlov beriladi. Dezinfeksiyalar kiyimlar polkalarga yetib kelganda poyab, lekin xarakterli hidi qoladi.",
+          "p2": "Bu hidi ikkinchi qo'lda asosiy mahdiyatdir. U butun do'konda poyab va kiyilgan kiyimga noqulaylik assosiatsiyalarni keltirib chiqaradi. Ba'zi mijozlar qulaysizlik tufayli do'konda kamroq vaqt o'tkazadi, bu to'g'ridan-to'g'ri sotuvlar hajmiga ta'sir qiladi."
+        },
+        "businessProblem": {
+          "title": "Biznes muammosi:",
+          "text": "Hid o'zgartirilgan mahsulot sifatiga ta'sir qiladi. Mijozlar ongli bo'lmagan holda noqulaylik hidli buyumlar uchun kamroq pul to'layshadi, hatto ular ajoyib holatda bo'lsa ham."
+        },
+        "businessImpact": {
+          "title": "Hidning sotuvlar ta'siriga",
+          "tableCaption": "Hidning sotuvlar ta'siriga",
+          "tableHeaders": [
+            "Ko'rsatchi",
+            "Hid bilan",
+            "Ozonlashdan keyin"
+          ],
+          "tableData": [
+            [
+              "O'rtacha turiş vaqti",
+              "12 daqiqa",
+              "18-20 daqiqa"
+            ],
+            [
+              "Sotuvga o'tish",
+              "15%",
+              "22%"
+            ],
+            [
+              "O'rtacha hisob",
+              "Bazaviy",
+              "+15-25%"
+            ],
+            [
+              "Takroriy tashrif",
+              "25%",
+              "40%"
+            ],
+            [
+              "Hid haqidagi salbiy sharhlar",
+              "35%",
+              "<5%"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "Ozonlashning foydalari",
+          "items": [
+            {
+              "title": "To'liq hidi yo'q qilish",
+              "description": "Ozon dezinfeksiyant molekulalarni maskalamasdan neytrallab. Natija — yangi hava."
+            },
+            {
+              "title": "Tovar yechilmasi",
+              "description": "Barcha tovarlar bir vaqtda ishlov beriladi, buyumlarni osilishdan olib chiqish shart emas."
+            },
+            {
+              "title": "Qo'shimcha dezinfeksiya",
+              "description": "Ozon bakteriyalar, viruslar va chang chayniqlarini yo'q qiladi — qo'shimcha sifat kafolati."
+            },
+            {
+              "title": "Mijoz qulayligi",
+              "description": "Do'konda yoqimli atmosfera = tanlash uchun ko'proq vaqt = ko'proq sotuvlar."
+            }
+          ]
+        },
+        "process": {
+          "title": "Ozonlash jarayoni",
+          "steps": [
+            {
+              "title": "Xona tayorlash",
+              "description": "Do'kon yopiladi. Oynalar va eshiklar yopiladi. Ta'minot ventilatsiyasi maksimal ozon konsentratsiyasi uchun o'chiriladi."
+            },
+            {
+              "title": "Ozonator qo'yish",
+              "description": "Devoqaga o'rnatilgan ozonator shiftdan 40-60 sm yuqorida qo'yiladi. Mobil — maksimal balandlikta."
+            },
+            {
+              "title": "Ozonlash",
+              "description": "Xona hajmiga qarab ishlov berish rejimi 1-3 soatga faollashtiriladi."
+            },
+            {
+              "title": "Ventilatsiya yoki kutish",
+              "description": "Kecha ishlov berish uchun ventilatsiya kerak emas — ozon o'z-o'zidan 2-3 soatda poyab. Do'kon ochilganda, faqat ringli yangiligi qoladi."
+            }
+          ]
+        },
+        "calculation": {
+          "title": "Asboblar hisoblash",
+          "text": "Ozonator sig'imi tanlash: xona hajmi uchun soatiga 25 m³ dan 1 g.",
+          "tableCaption": "Ozonator tanlash tafsiyalari",
+          "tableHeaders": [
+            "Do'kon maydoni",
+            "Hajmi",
+            "Ozonator",
+            "Ishlov berish vaqti"
+          ],
+          "tableData": [
+            [
+              "50-100 m²",
+              "150-300 m³",
+              "10 g/soat",
+              "1-2 soat"
+            ],
+            [
+              "100-200 m²",
+              "300-600 m³",
+              "10-20 g/soat",
+              "2-3 soat"
+            ],
+            [
+              "200-400 m²",
+              "600-1200 m³",
+              "20-40 g/soat",
+              "2-3 soat"
+            ],
+            [
+              "400+ m²",
+              "1200+ m³",
+              "Bir nechta qurilma",
+              "2-3 soat"
+            ]
+          ]
+        },
+        "workMode": {
+          "title": "Ishlash rejimi",
+          "items": [
+            "Kunlik kecha ishlov berish — optimal rejim",
+            "Do'kon yopilganidan keyin taymerda avtomatik boshlash",
+            "Ertalab ozon to'liq poyab, yangiliki qoladi",
+            "Xodimlarning qatnashmasi shart emas — to'liq avtomatika",
+            "Kuchli hid uchun — birinchi 3-5 kun 2-3 soatga ishlov berish"
+          ],
+          "highlight": {
+            "title": "Himoya asbob:",
+            "text": "Agar xodim ozonlash paytida xonada bo'lsa (masalan, qurilmani yoqish uchun), o'rtak filtrli respirator yoki gaz niqob talab qilinadi."
+          }
+        },
+        "economics": {
+          "title": "Yechim iqtisodiyoti",
+          "tableHeaders": [
+            "Xaraja maddasi",
+            "Ozonlashsiz",
+            "Ozonlash bilan"
+          ],
+          "tableData": [
+            [
+              "Havo yangilantiruvchilari",
+              "5-15 ming ₽/oy",
+              "0 ₽"
+            ],
+            [
+              "Elektr energiyasi",
+              "—",
+              "500-1000 ₽/oy"
+            ],
+            [
+              "Noqulaylik bilan bezdash miqdor",
+              "Sezilarli",
+              "Minimal"
+            ],
+            [
+              "Asboblar narxi",
+              "—",
+              "22-35 ming ₽ (bir marta)"
+            ]
+          ],
+          "payback": {
+            "title": "To'lash:",
+            "text": "Havo yangilantiruvchilarda oy uchun 10 ming ₽ tejash bilan ozonator 2-3 oyda o'z narxini to'laydi. Keyingi ishlash — faqat energiya narxi."
+          }
+        },
+        "additionalAdvantages": {
+          "title": "Qo'shimcha afzalliklar",
+          "items": [
+            "Tovarlarning yuqori jozibasi — buyumlar yaxshi sifat deb qabul qilinadi",
+            "Chang chayniqlarining yo'q qilishi — allergiyachi uchun muhimdir",
+            "Xona dezinfeksiyasi — infeksiya uzatishini oldini olish",
+            "Ko'plak yo'q qilish — podval xonalar uchun relevantan",
+            "Marketing afzalligi — hidsi bo'lmagan ikkinchi qo'l do'kon"
+          ]
+        },
+        "equipment": {
+          "title": "Tavsiya qilingan asboblar",
+          "tableHeaders": [
+            "Model",
+            "Sig'im",
+            "Qo'llanish",
+            "Narxi"
+          ],
+          "tableData": [
+            [
+              "OZ-A10",
+              "10 g/soat",
+              "250 m³ gacha do'konlar",
+              "22.000 ₽ dan"
+            ],
+            [
+              "OZ-A10(N)",
+              "10 g/soat",
+              "Devoqaga o'rnatish",
+              "32.000 ₽ dan"
+            ],
+            [
+              "OZ-A20",
+              "20 g/soat",
+              "500 m³ gacha do'konlar",
+              "34.000 ₽ dan"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

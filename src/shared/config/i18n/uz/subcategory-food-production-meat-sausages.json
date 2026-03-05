@@ -1,0 +1,228 @@
+{
+  "title": "Oziq-ovqat ishlab chiqarish",
+  "description": "Oziq-ovqat zavehlarin ozonatsiya qo'llanilishi mahsulot xavfsizligini ta'minlaydi, saqlash muddatini uzaytiradi va HACCP talablariga javob beradi. Kimyoviy konservantlarga ekologik toza muqobil.",
+  "subcategories": {
+    "meat-sausages": {
+      "title": "Go'sht va kolbasa",
+      "shortDesc": "Go'sht saqlash va kolbasa pishish kameralari",
+      "content": "Ozonatsiya go'sht ishlab chiqarish va saqlashda samarali dezinfeksiya usuli hisoblanadi. U sovuq xonalar, kolbasa pishish kameralari va go'sht sirtlarini ishlov berish uchun ishlatiladi, shuning uchun sezgilar xususiyatlari o'zgarishsiz qoladi.\n\nSovuq go'sht saqlash uchun ozonatsiya 8–10 mg/m³ da 4–5 soat davomida har ikki kunning ortig'ida qo'llanilsa, saqlash muddati 2–5 baravar uzayadi. Ozone 1–4°C da karkas sirtidagi mezofil va psikhrofillik mikroflora butunlay yo'q qiladi.\n\nKolbasa pishish kameralari uchun 3–8 mg/m³ har kuni 3 soat ishlov berish tavsiya etiladi. Dezinfeksiya samaradorligi 96–99% bo'lib, ta'm, hid va tekstura saqlanib qoladi.",
+      "benefits": [
+        "Go'sht saqlash muddatini 2–5 baravar uzaytirish",
+        "96–99% dezinfeksiya samaradorligi",
+        "Kolbasadagi ko'plakni bosgirish",
+        "Sezgilar xususiyatlari saqlanib qoladi",
+        "Massa haroratida ishlash",
+        "Eco-dostviy — kislorod holatiga o'tish"
+      ],
+      "stats": {
+        "shelfLife": {
+          "value": "2-5x",
+          "label": "Saqlash muddati",
+          "description": "Sovuq go'sht saqlash muddatini uzaytirish"
+        },
+        "disinfection": {
+          "value": "96-99%",
+          "label": "Dezinfeksiya",
+          "description": "Pishish kameras dezinfeksiya samaradorligi"
+        },
+        "concentration": {
+          "value": "3-8",
+          "label": "mg/m³ ozone",
+          "description": "Kolbasa pishish kameralari uchun kontsentratsiya"
+        },
+        "organoleptics": {
+          "value": "100%",
+          "label": "Organoleptik xususiyatlar",
+          "description": "Ta'm, rang va hidning saqlanishi"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Kolbasa pishtirilishi va go'sht saqlashda bakteriyalar, ko'plak fungalari va xamirturush mikroorganizmalar faol rivojlanadi. Bu mahsulotning buzilishiga, ta'm o'zgarishiga, massa yo'qolishiga va saqlash muddatining qisqarishi bilan natijalanad. Ozonatsiya samarali, ekologik toza va xavfsiz dezinfeksiya usuli.",
+          "paragraph2": "Ozonning dezinfeksiya ta'siri xlorin bilan taqqoslaganda 15-20 baravar kuchlidir, sporasini hosil qiluvchi bakteriyalarga nisbatan taxminan 300-600 baravar kuchlidir. Shu bilan birga ozone mahsulot sirtida kimyoviy qoldiqlar qoldirmasdan butunlay kislorod holatiga aylanadi."
+        },
+        "instruction": {
+          "label": "SSRQ Savdo Vazirligi 1977 yo'riqlamasi:",
+          "text": "Ozonatsiya kolbasa mahsulotlarini qabul qilish, saqlash va ishlab chiqarish uchun tavsiya etiladi, shuningdek dumaloq mahsulotlar uchun. Bu usul yuklangan mahsulotlar bilan kamerani dezinfeksiya qilish imkonini beradi."
+        },
+        "storage": {
+          "title": "Sovuq go'sht saqlash",
+          "paragraph": "Sovuq go'sht saqlash uchun 8-10 mg/m³ da ozonatsiya 1-4°C da karkas sirtidagi mezofil va psikhrofillik mikroflora butunlay yo'q qilishni ta'minlaydi. Sovuq go'sht saqlash muddati 2-5 baravar uzayadi.",
+          "tableCaption": "Go'sht saqlash uchun ozonatsiya rejimi",
+          "tableHeaders": [
+            "Mahsulot",
+            "Harorat",
+            "Kontsentratsiya",
+            "Ishlov berish vaqti",
+            "Chastotasi"
+          ],
+          "tableRows": [
+            [
+              "Sovuq go'sht",
+              "-1...-4°C",
+              "8-10 mg/m³",
+              "4-5 soat",
+              "Har ikki kunning"
+            ],
+            [
+              "Muzlatilgan go'sht",
+              "-18°C",
+              "10 mg/m³",
+              "3 soat",
+              "Kuniga"
+            ],
+            [
+              "Murjon (sovuq)",
+              "-1...-4°C",
+              "8-10 mg/m³",
+              "2-3 soat",
+              "Kuniga"
+            ],
+            [
+              "Murjon (muzlatilgan)",
+              "-18°C",
+              "8-12 mg/m³",
+              "3 soat",
+              "Kuniga"
+            ],
+            [
+              "Ichki organlar",
+              "-1...-4°C",
+              "8-10 mg/m³",
+              "3-4 soat",
+              "Kuniga"
+            ]
+          ]
+        },
+        "ripeningChambers": {
+          "title": "Kolbasa pishish kameralari",
+          "paragraph": "Quruq so'lgan va havo quritish kolbasi uchun pishish kameralarida ozone slimy va ko'plak cho'kmasining rivojlanishini bosgiradi, noxush hidilar paydo bo'lishini oldini oladi. O'rtacha kontsentratsiyada ozone qobiq yoki to'ldirilish rangini o'zgartirsa ham, ta'sir qilmaydi.",
+          "tableCaption": "Kolbasa pishish kameralari uchun ozonatsiya rejimi",
+          "tableHeaders": [
+            "Kolbasa turi",
+            "Kontsentratsiya",
+            "Ishlov berish vaqti",
+            "Harorat",
+            "Samaradorlik"
+          ],
+          "tableRows": [
+            [
+              "Quruq so'lgan",
+              "3-8 mg/m³",
+              "3 soat",
+              "+12...+14°C",
+              "96-99%"
+            ],
+            [
+              "Pishirilgan-tutun qilingan",
+              "3-7 mg/m³",
+              "2 soat",
+              "+10...+12°C",
+              "95-98%"
+            ],
+            [
+              "Hava quritish",
+              "5-10 mg/m³",
+              "2-3 soat",
+              "+10...+15°C",
+              "96-99%"
+            ],
+            [
+              "Yarim tutun qilingan",
+              "3-6 mg/m³",
+              "2 soat",
+              "+10...+12°C",
+              "95-98%"
+            ]
+          ],
+          "recommendedMode": {
+            "label": "Tavsiya etilgan rejim:",
+            "text": "Kuniga 1-3 soat ishlov berish. Ishlov berish paytida kamera ichida hech kim bo'lmasligi kerak. Ozonator imkoniyati: kamera hajmi 20-25 m³ uchun soat bilan 1 g."
+          }
+        },
+        "benefits": {
+          "title": "Ozonatsiyaning foydalari",
+          "items": [
+            "Mahsulot sirtini dezinfeksiya qilish — bakteriyalar, ko'plak sporalari va xamirturush yo'q qilish",
+            "Organoleptik xususiyatlari saqlanib qoladi — ta'm va hidni o'zgartirsa ham, achchiklikni oldini oladi",
+            "Massa yo'qolishini kamaytirish — mikroflora stabilizatsiyasi orqali qisqarishni kamaytirish",
+            "Kamera dezinfeksiyasi yuklangan mahsulot bilan — to'liq yuklashda ishlov berish mumkin",
+            "Vaqt va xarajatlarni tejash — qo'lda sanitatsiya chastotasini kamaytirish",
+            "Avtomatika — taymer asosida ishlov berish, inson ishlashsiz"
+          ]
+        },
+        "comparison": {
+          "title": "Pishish kameras dezinfeksiya usullari taqqoslanishi",
+          "headers": [
+            "Parametr",
+            "Ozonatsiya",
+            "Eski usul"
+          ],
+          "rows": [
+            {
+              "parameter": "Mahsulotni ochirib olish",
+              "value1": "Shart emas",
+              "value2": "Talab qilinadi"
+            },
+            {
+              "parameter": "Kimyoviy qoldiqlar",
+              "value1": "Yo'q",
+              "value2": "Rinse talab qilinadi"
+            },
+            {
+              "parameter": "Erishilmasa joylar",
+              "value1": "Gaz bilan ishlov beriladi",
+              "value2": "Erishilb bo'lmaydi"
+            },
+            {
+              "parameter": "Faoliyatni to'xtash",
+              "value1": "1-3 soat/kun",
+              "value2": "24-48 soat"
+            },
+            {
+              "parameter": "Mahsulotga ta'sir",
+              "value1": "Yo'q",
+              "value2": "Mumkin"
+            },
+            {
+              "parameter": "Avtomatika",
+              "value1": "To'liq",
+              "value2": "Qo'l ishi"
+            }
+          ]
+        },
+        "regulations": {
+          "title": "Qonuniy bazasi",
+          "paragraph": "Go'sht mahsulotlarini dezinfeksiya qilish uchun ozone ishlatilishi Sovet davridan qo'yilgan bir nechta qonuniy hujjatlar bilan tartibga solinadi:",
+          "items": [
+            "1973 — \"Sovuq saqlash jarayonida ozonatsiya orqali dezinfeksiya va deodoratsiya\" yo'riqlamasi (SSRQ Savdo Vazirligi)",
+            "1977 — Kolbasa mahsulotlarini va tutun qilingan mahsulotlarni qabul qilish, saqlash va chiqarish haqidagi yo'riqlamasi",
+            "1998 — Ozone dezinfektantlar ro'yxatiga qo'shildi (reg. № 0039-98/21, Rossiya Sog'liqni saqlash Vazirligi)",
+            "SanPiN 2.3.4.545-96 — Kolbasa ishlab chiqarishi"
+          ]
+        },
+        "features": {
+          "title": "Go'sht qayta ishlash zavehilari uchun foydalari",
+          "items": [
+            {
+              "title": "Saqlash muddati uzaygan",
+              "description": "Sovuq go'sht saqlash muddatini muzlatmasdan 2-5 baravar uzaytirish"
+            },
+            {
+              "title": "Ko'plakni bosgirish",
+              "description": "Kolbasa bo'yidagi ko'plak fungalari uchun 96-99% samaradorlik"
+            },
+            {
+              "title": "Atrof-muhitga mos kelishi",
+              "description": "Ozonning kimyoviy qoldiqsiz butunlay kislorod holatiga aylanishi"
+            },
+            {
+              "title": "Ishlab chiqarish davomiylik",
+              "description": "Mahsulotlarni ochirib olmasdan va jarayonni to'xtamasdan ishlov berish"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

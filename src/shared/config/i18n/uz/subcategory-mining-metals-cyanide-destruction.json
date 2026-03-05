@@ -1,0 +1,96 @@
+{
+  "title": "Kon sanoati va metallar",
+  "description": "Oltin va boshqa metallar qazib olishda, siyanidlarni yo'q qilishda, metallarni saqlash va tozalashda ozon qo'llanilishi. Kon va metallni qayta ishlash uchun ekologik toza texnologiya.",
+  "subcategories": {
+    "cyanide-destruction": {
+      "title": "Kon sanoatida ozon bilan siyanidlarni yo'q qilish",
+      "shortDesc": "Ozon bilan siyanidlarni oksidlanish mexanizmi (CN⁻ → CNO⁻ → bikarbonat va azot), doza 2–3 g O₃/g CN, erkin va WAD siyanid 99% kamayishi. Gipoxlorit va peroksid bilan solishtirish, suvni qayta ishlatish.",
+      "content": "Ozon oltin konlarida siyanidlarni yo'q qilish uchun samarali oksidlovchi hisoblanadi. Jarayon erkin siyanidni siyanatga oksidlaydi, keyin qo'shimcha oksidlanish va gidroliz orqali bikarbonat va azotga aylantiradi. Odatiy reaksiya vaqti 10–30 daqiqa. Janubiy Afrika va Janubi-Sharqiy Osiyodagi sanoat sinovlari 1 g CN uchun 2–3 g O₃ da erkin va WAD siyanidning 99% dan ortiq kamayishini ko'rsatdi.",
+      "stats": {
+        "cyanideReduction": {
+          "value": "99% gacha",
+          "label": "Siyanid kamayishi",
+          "description": "2–3 g O₃/g CN da erkin va WAD"
+        },
+        "reactionTime": {
+          "value": "10–30 daqiqa",
+          "label": "Reaksiya vaqti",
+          "description": "Siyanatgacha to'liq oksidlanish"
+        },
+        "waterReuse": {
+          "value": "85% gacha",
+          "label": "Suvni qayta ishlatish",
+          "description": "Ozon ishlovidan keyin"
+        },
+        "icmcCompliance": {
+          "value": "Ha",
+          "label": "ICMC muvofiqlik",
+          "description": "Xavfli qoldiqlar yo'q"
+        }
+      },
+      "benefits": [
+        "CN⁻ → CNO⁻ → bikarbonat va azotgacha to'liq oksidlanish",
+        "1 g CN uchun 2–3 g O₃ dozasi, tiosianatlar 3–4 g O₃/g SCN⁻",
+        "Xavfli qoldiqlar yo'q (gipoxloritdan farqli)",
+        "Havodan joyida ozon ishlab chiqarish",
+        "Suvni 85% gacha qayta ishlatish"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Ozon oltin konlarida siyanidlarni yo'q qilish uchun samarali oksidlovchi hisoblanadi. Jarayon erkin siyanidni siyanatga oksidlaydi, keyin qo'shimcha oksidlanish va gidroliz orqali bikarbonat va azotga aylantiradi. Odatiy reaksiya vaqti 10–30 daqiqa.",
+          "paragraph2": "Janubiy Afrika va Janubi-Sharqiy Osiyodagi sanoat sinovlari 1 g CN uchun 2–3 g O₃ da erkin va WAD siyanidning 99% dan ortiq kamayishini ko'rsatdi. Ozon bilan ishlov berilgan suv jarayonga qaytarilishi mumkin, yangi suv iste'molini 85% gacha kamaytiradi."
+        },
+        "mechanism": {
+          "title": "Ozon bilan siyanidlarni oksidlanish mexanizmi",
+          "intro": "Ozon erkin siyanidni (CN⁻) ikki bosqichli jarayonda oksidlaydi. Birinchi bosqichda CN⁻ siyanatga (CNO⁻) aylanadi. Keyingi oksidlanish va gidroliz bilan siyanat bikarbonat va azotga — zaharsiz mahsulotlarga aylanadi.",
+          "process": "Reaksiya ozon konsentratsiyasiga nisbatan birinchi darajali va siyanid konsentratsiyasiga nisbatan nol darajali kinetikaga amal qiladi. Stexiometriya: bir mol siyanid CN⁻ → CNO⁻ bosqichi uchun bir mol ozon bilan reaksiyaga kirishadi. Tiosianat komplekslari (SCN⁻) yuqoriroq dozalarni talab qiladi — 1 g SCN⁻ uchun 3–4 g O₃."
+        },
+        "dosing": {
+          "title": "Dozalar va natijalar",
+          "intro": "Erkin va WAD siyanidni yo'q qilish uchun o'rtacha ozon dozasi 1 g CN uchun 2–3 g O₃. To'liq oksidlanish odatda to'g'ri ozon konsentratsiyasi va aloqa vaqti bilan 10–30 daqiqada erishiladi.",
+          "results": "Oltin konlarida sanoat sinovlari erkin siyanid va zaif kislota dissotsiatsiyalangan (WAD) siyanid komplekslarining 99% yoki undan ortiq kamayishini ko'rsatdi. Ozon bilan ishlov berilgan suv jarayonga qaytarilishi mumkin, yangi suv iste'molini 85% gacha kamaytiradi."
+        },
+        "comparison": {
+          "title": "Gipoxlorit va peroksid bilan solishtirish",
+          "intro": "Kimyoviy oksidlovchilar (natriy gipoxlorit, vodorod peroksidi) bilan solishtirganda ozon xavfli qoldiqlar (xlor, xloratlar) qoldirmaydi, havodan joyida ishlab chiqariladi va ko'pincha teng samaradorlikda pastroq ekspluatatsiya xarajatlariga ega. Texnologiya Xalqaro siyanid boshqaruv kodeksiga (ICMC) muvofiq va dumlarni qo'shimcha ishlovsiz er osti to'ldirishga yuborishga imkon beradi."
+        },
+        "industrial": {
+          "title": "Sanoatda joriy etish",
+          "intro": "Ozon siyanid yo'q qilish tizimlari Janubi-Sharqiy Osiyo va Janubiy Afrikadagi oltin konlarida o'rnatilgan. Erkin siyanid 85–99% yoki undan ortiq kamayishi ICMC ga muvofiqlik bilan erishiladi. Ozonni peroksid yoki persulfat bilan birlashtirgan integratsiyalangan tizimlar murakkab oqimlar uchun tozalash samaradorligini oshiradi."
+        },
+        "benefits": {
+          "title": "Ozon siyanid yo'q qilishning afzalliklari",
+          "items": [
+            {
+              "title": "Samaradorlik",
+              "description": "2–3 g O₃/g CN da erkin va WAD siyanidni 99% kamaytirish, ICMC muvofiqlik."
+            },
+            {
+              "title": "Xavfsizlik",
+              "description": "Xavfli qoldiqlar yo'q, joyida ishlab chiqarish, suvni qayta ishlatish."
+            },
+            {
+              "title": "Iqtisodiyot",
+              "description": "Gipoxloritga nisbatan ko'pincha pastroq ekspluatatsiya xarajatlari."
+            },
+            {
+              "title": "Joriy etish",
+              "description": "Ekologik standartlar qattiqlashishi bilan kengayish."
+            }
+          ]
+        }
+      },
+      "sourcesTitle": "Manbalar",
+      "sources": [
+        {
+          "title": "The Effective Use of Ozone for Cyanide Destruction in Mining and Mineral Processing — Academia.edu",
+          "url": "https://www.academia.edu/26379027/"
+        },
+        {
+          "title": "Cyanide oxidation by ozone in cyanidation tailings: Reaction kinetics — Minerals Engineering, 2000",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0892687500000340"
+        }
+      ]
+    }
+  }
+}

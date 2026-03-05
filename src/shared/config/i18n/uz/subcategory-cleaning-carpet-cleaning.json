@@ -1,0 +1,274 @@
+{
+  "title": "Tozalash",
+  "description": "Tozalash kompaniyalari uchun professional ozonlash: chuqur hidlarni olib tashlash, yong'in sodir bo'lgandan keyin tozalash, hayvon hidlarini olib tashlash, avtomobillarni ozonlash va qalipcha va mebel yuzalarini chuqur tozalash.",
+  "subcategories": {
+    "carpet-cleaning": {
+      "title": "Qalipcha va mebel to'shirma",
+      "shortDesc": "Tekstil yuzalarni chuqur tozalash",
+      "content": "Qalipcha va mebel to'shirma xonada hid manbalaridir. Tekstil tolalari chang, zamburuq sporsini, bakteriyalarni, teri zarhalmi, teri va to'kilishlarni so'radi. Vaqt o'tgan sari xarakterli nam hidi hosil bo'ladi, oddiy tozalash olib tashlay olmaydi.\n\nOzonlash odiy quruq tozalashni chuqur dehidli va dezinfektsiya bilan to'ldiradi. Nam qalipcha tozalashdan keyin ozon tolalarga kirib oladi va qolgan bakteriyalarni, zamburuq sporsini va hid molekulalarini yo'q qiladi.\n\nMebel yoki qalipchaning lokal tozalashi uchun \"kamera ozonlashi\" ishlatilib: narsa plastik film bilan qoplab, ozon ostiga kirib oladi. Ekspozitsiya: 2-4 soat. Bu narsada to'g'ridan-to'g'ri yuqori ozon konsentratsiyani hosil qiladi.\n\nOzonlash suv to'kish keyin samaradordir: nam hidini olib tashladi va nam mebel va qalipchada kokat oldini oladi. Ishlov berishni narsalar quriturggandan keyin amalga oshiring.",
+      "benefits": [
+        "Quruq tozalashga to'ldirish",
+        "Chang qoqni yo'q qilish",
+        "Nam hidini olib tashlash",
+        "Kokat oldini olish",
+        "Suv to'kish keyin tozalash",
+        "Tekstilning uzoq umri"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "99%",
+          "label": "Qoq",
+          "description": "Ozonlashda o'ladi"
+        },
+        "stat2": {
+          "value": "2-4 soat",
+          "label": "Ishlov berish",
+          "description": "Lokal kamera ishlovi"
+        },
+        "stat3": {
+          "value": "100%",
+          "label": "Chuqurlik",
+          "description": "Tolalarga kirish"
+        },
+        "stat4": {
+          "value": "+50%",
+          "label": "Chekka",
+          "description": "Quruq tozalashga qo'shimcha"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Qalipcha va mebel to'shirma xonada ifloslanishning asosiy to'plagichidir. Tekstil tolalari chang, zamburuq sporsini, bakteriyalarni, teri zarhalmi, ter va to'kilishlarni so'radi. Vaqt o'tgan sari xarakterli nam hidi hosil bo'ladi, changyutgich yoki quruq tozalash ham olib tasha olmaydi.",
+          "paragraph2": "Quruq tozalash ifloslik va doglarni olib tashlaydi, lekin material qatlamida yashovchu chuqur hidlar va mikroorganizmlarga har doim yordam bermaydi. Ozonlash nam tozalashdan keyin to'liq dehidli va dezinfektsiyani ta'minlovchi ideal to'ldiruvchidir."
+        },
+        "highlight1": {
+          "title": "Nima uchun qalipchalar hid qiladi:",
+          "text": "Bir gramm qalipcha changida 100 000 gacha chang qoqi yashaydi. Ularning chiqindilari kuchli allergen. Bakteriyalar organik ifloslanishlarni parchalab, hidli birikmalar chiqaradi. Ozon ham qoqlarni, ham bakteriyalarni yo'q qiladi, hid sababini bartaraf etadi."
+        },
+        "items": {
+          "title": "Ozon bilan nima tedavi qilinadi",
+          "items": [
+            "Qalipchalar va qalipcha yopishmalari — pol, devor, qo'lda ishlangan",
+            "Mebel to'shirma — divanlar, kreslolar, puflar, banketkalar",
+            "Matraslar va yostiqlar — ortopediklar ham",
+            "Pardalar va parda — reyka dan olmasdan",
+            "Yumshoq o'yinchoqlar — bolalar uchun xavfsiz",
+            "Avtomobil o'rindig'lari — alohida xizmat sifatida"
+          ]
+        },
+        "methods": {
+          "title": "Tekstil ozonlash usullari",
+          "paragraph": "Ikki asosiy usul bor: butun xonani tedavi qilish va ma'lum narsani lokal kamera tedavisi.",
+          "tableTitle": "Tekstil ozonlash usullarini taqqoslash",
+          "headers": [
+            "Parametr",
+            "Xona tedavisi",
+            "Kamera tedavisi"
+          ],
+          "rows": [
+            {
+              "parameter": "Qo'llanma",
+              "value1": "Barcha tekstil yuzalari bir vaqtda",
+              "value2": "Bitta mebel/qalipcha"
+            },
+            {
+              "parameter": "Ozon konsentratsiyasi",
+              "value1": "20-40 mg/m³",
+              "value2": "40-80 mg/m³"
+            },
+            {
+              "parameter": "Ishlov berish vaqti",
+              "value1": "4-8 soat",
+              "value2": "2-4 soat"
+            },
+            {
+              "parameter": "Ozon sarfi",
+              "value1": "Yuqori (katta hajm)",
+              "value2": "Past (kichik hajm)"
+            },
+            {
+              "parameter": "Samaradorlik",
+              "value1": "Bir xil",
+              "value2": "Lokal maksimal"
+            },
+            {
+              "parameter": "Qachon ishlatish",
+              "value1": "Umumiy xona dehidli",
+              "value2": "Kuchli lokal hid"
+            }
+          ]
+        },
+        "chamber": {
+          "title": "Kamera tedavisi texnikasi",
+          "steps": [
+            {
+              "title": "Narsani tayyorlash",
+              "description": "Kerak bo'lsa oldindan quruq tozalash yoki changyutish. To'liq quriting. Ifloslanishlarni faollashtirish uchun yuzani purkagich bilan biroz namlang."
+            },
+            {
+              "title": "Kamera yaratish",
+              "description": "Narsani polietilen plyonka bilan qoplang. Chetlarini polga mahkam bosib, havo o'tkazmaydigan \"kamera\" hosil qiling. Ozonator shlangi uchun kichik teshik qoldiring."
+            },
+            {
+              "title": "Ozonatorni ulash",
+              "description": "Shlangni plyonka ostiga kiriting. Ozon chiqib ketmasligi uchun mahkamlang. Ozonatorni yoqing. Plyonka gaz tushishi natijasida biroz shishishi kerak."
+            },
+            {
+              "title": "Ekspozitsiya",
+              "description": "Hid intensivligiga qarab 2-4 soat ushlab turing. Kuchli ifloslanishda — 8 soatgacha. Bir xil tedavi uchun yostiqlarni vaqti-vaqti bilan aylantirish mumkin."
+            },
+            {
+              "title": "Yakunlash",
+              "description": "Ozonatorni o'chiring. Plyonkani olib tashlang. Narsani 30-60 daqiqa ventilyatsiya qiling. Ozon to'liq parchalanadi, iz qoldirmaydi."
+            }
+          ],
+          "highlight": {
+            "title": "Maslahat:",
+            "text": "Siydik dog'lari bo'lgan mebel yoki qalipchani tedavi qilganda samarani oshirish uchun avval iflos joylarni fermentli tozalagich bilan tedavi qiling. Keyin quriting va ozonlashni o'tkazing."
+          }
+        },
+        "afterCleaning": {
+          "title": "Quruq tozalashdan keyin ozonlash",
+          "paragraph": "Ozonlash professional quruq tozalashning ideal yakuniy bosqichi:",
+          "items": [
+            "Tozalashda ishlatiladigan kimyoviy moddalar hidini olib tashlaydi",
+            "Nam tedavidan keyin qolishi mumkin bo'lgan bakteriyalarni yo'q qiladi",
+            "Quruq tozalash bartaraf eta olmagan chuqur hidlarni olib tashlaydi",
+            "Nam joylarda kokat rivojlanishining oldini oladi",
+            "Allergenlarni neytrallashtiradi (qoq, spora, gulchang)",
+            "Quruq tozalash xizmatining qimmatini oshiradi"
+          ],
+          "tableCaption": "Kompleks xizmat: quruq tozalash + ozonlash",
+          "tableHeaders": [
+            "Bosqich",
+            "Nima qilinadi",
+            "Natija"
+          ],
+          "tableRows": [
+            [
+              "1. Quruq tozalash",
+              "Chang, jun, yirik axlat olib tashlash",
+              "Nam tedaviga tayyorlash"
+            ],
+            [
+              "2. Nam tozalash",
+              "Doglar va ifloslanishlarni olib tashlash",
+              "Toza yuzа"
+            ],
+            [
+              "3. Quritish",
+              "10-15% namlikka quritish",
+              "Kokat oldini olish"
+            ],
+            [
+              "4. Ozonlash",
+              "Dehidli va dezinfektsiya",
+              "Yangi hid, mikroblar yo'q qilindi"
+            ]
+          ]
+        },
+        "afterFlood": {
+          "title": "Suv to'kishdan keyin ozonlash",
+          "paragraph": "Suv to'kish tez harakat talab qiladigan maxsus holat. Nam tekstil kokat uchun ideal muhit. Ozonlash buning oldini oladi:",
+          "items": [
+            "Avval qalipcha va mebelni imkon qadar quriting (quritgichlar, ventilyatorlar)",
+            "Qolgan namlik 15-20% dan oshmasligi kerak",
+            "Nam hidning birinchi belgilarida ozonlashni o'tkazing",
+            "Ozon konsentratsiyasi: kokat oldini olish uchun 40-60 mg/m³",
+            "To'liq dezinfektsiya uchun tedavi vaqti: 6-12 soat",
+            "Kokat topilsa — ozonlashdan oldin ingibitor bilan tedavi qiling"
+          ],
+          "highlight": {
+            "title": "Muhim:",
+            "text": "Agar kokat allaqachon yuzada ko'rinsa, faqat ozonlash yetarli emas. Avval kokatni mexanik olib tashlang va antiseptik bilan tedavi qiling. Ozon qolgan sporlar va hidni yo'q qiladi, lekin mitseliyni jismonan olib tashlamaydi."
+          }
+        },
+        "benefitsCompanies": {
+          "title": "Tozalash kompaniyalari uchun afzalliklar",
+          "features": [
+            {
+              "title": "O'rtacha chekni oshirish",
+              "description": "Quruq tozalashdan keyin ozonlash — xizmat narxiga qo'shimcha 30-50%"
+            },
+            {
+              "title": "Murakkab holatlarni hal qilish",
+              "description": "Quruq tozalash bartaraf eta olmaydigan hidlarni ozon olib tashlaydi"
+            },
+            {
+              "title": "Tez o'zini oqlash",
+              "description": "Ozonator muntazam ishlatilganda 1-2 oyda o'zini oqlaydi"
+            },
+            {
+              "title": "Raqobat ustunligi",
+              "description": "Barcha quruq tozalashlar ozonlash taklif qilmaydi — bozorda ajralib turing"
+            }
+          ]
+        },
+        "modes": {
+          "title": "Tavsiya etiladigan tedavi rejimlari",
+          "tableCaption": "Turli tekstil turlari uchun ozonlash parametrlari",
+          "tableHeaders": [
+            "Mahsulot turi",
+            "Usul",
+            "Konsentratsiya",
+            "Vaqt"
+          ],
+          "tableRows": [
+            [
+              "Qalipcha (zaif hid)",
+              "Xona",
+              "20-30 mg/m³",
+              "4-6 soat"
+            ],
+            [
+              "Qalipcha (kuchli hid)",
+              "Kamera",
+              "40-60 mg/m³",
+              "4-8 soat"
+            ],
+            [
+              "Divan",
+              "Kamera",
+              "40-60 mg/m³",
+              "3-4 soat"
+            ],
+            [
+              "Matras",
+              "Kamera",
+              "30-50 mg/m³",
+              "2-4 soat"
+            ],
+            [
+              "Pardalar (reykada)",
+              "Xona",
+              "20-40 mg/m³",
+              "4-6 soat"
+            ],
+            [
+              "Yumshoq o'yinchoqlar",
+              "Kamera (paketda)",
+              "30-40 mg/m³",
+              "1-2 soat"
+            ]
+          ]
+        },
+        "materials": {
+          "title": "Materiallar uchun xavfsizlik",
+          "paragraph": "Ozon tavsiya etilgan konsentratsiyalarga rioya qilganda ko'pchilik tekstil materiallari uchun xavfsiz:",
+          "items": [
+            "Tabiiy matolar (paxta, zig'ir, jun) — xavfsiz",
+            "Sintetik matolar (poliester, neylon) — xavfsiz",
+            "Tabiiy teri — xavfsiz, lekin keyin konditsioner tavsiya etiladi",
+            "Lateks va rezin — yuqori konsentratsiyada uzoq tedavi tavsiya etilmaydi",
+            "Bo'yalgan matolar — xavfsiz, ozon tavsiya rejimlarda rangni o'zgartirmaydi",
+            "Nozik matolar (ipak, viskoza) — standart konsentratsiyalarda xavfsiz"
+          ],
+          "highlight": {
+            "title": "Eslatma:",
+            "text": "Ozon muntazam yuqori konsentratsiyali tedavilarda rezin va lateksning qarishini biroz tezlashtirishi mumkin. Rezinli elementli mebel uchun standart rejimlardan foydalaning."
+          }
+        }
+      }
+    }
+  }
+}

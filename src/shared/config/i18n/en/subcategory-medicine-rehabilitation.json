@@ -1,0 +1,209 @@
+{
+  "title": "Medicine",
+  "description": "Ozone therapy and ozonation in medicine: sterilization of operating rooms and wards, disinfection of medical equipment, treatment of dental offices, rehabilitation centers and ambulances.",
+  "subcategories": {
+    "rehabilitation": {
+      "title": "Rehabilitation centers",
+      "shortDesc": "Ozone therapy and sanitary treatment",
+      "heroText": "Comprehensive use of ozone in sanatoriums and rehabilitation centers: ozone therapy for health recovery, pool and spa ozonation, disinfection of wards and procedure rooms.",
+      "content": "Rehabilitation centers and sanatoriums use ozone in two ways: ozone therapy as a treatment and recovery method, and room ozonation to maintain sanitary standards.\n\nOzone therapy is used for musculoskeletal, cardiovascular and skin conditions. Methods include: ozone baths, subcutaneous injections, autohemotherapy with ozone, rectal insufflations.\n\nOzonation of wards and procedure rooms is especially important in centers where elderly patients and people with weakened immunity undergo rehabilitation. Ozone reduces the risk of respiratory infection spread between patients.\n\nPools, saunas and spa areas in rehabilitation centers are also treated with ozone. Pool water ozonation reduces chlorine demand, making procedures more comfortable for patients with sensitive skin.",
+      "benefits": [
+        "Ozone therapy as treatment",
+        "Disinfection of wards and procedure rooms",
+        "Protection for immunocompromised patients",
+        "Pool and spa ozonation",
+        "Reduced chlorine in water",
+        "Integrated rehabilitation approach"
+      ],
+      "stats": [
+        {
+          "value": "100+",
+          "label": "Indications",
+          "description": "For ozone therapy application"
+        },
+        {
+          "value": "70%",
+          "label": "Less chlorine",
+          "description": "In pools with ozonation"
+        },
+        {
+          "value": "99.9%",
+          "label": "Pathogens",
+          "description": "Destroyed in water"
+        },
+        {
+          "value": "Comfort",
+          "label": "Patients",
+          "description": "Soft water without chlorine odor"
+        }
+      ],
+      "sections": {
+        "intro": {
+          "text": "Rehabilitation centers and sanatoriums have unique requirements: on one hand, it is necessary to maintain high sanitary standards, on the other — to create a comfortable environment for patient recovery. Ozone solves both tasks.",
+          "text2": "Ozone therapy is a recognized field of physiotherapy used to treat a wide range of conditions. In parallel, ozone is used for room disinfection and pool water treatment, making it a universal solution for rehabilitation facilities."
+        },
+        "highlight1": {
+          "title": "Comprehensive approach:",
+          "text": "In one center, ozone can be used for therapeutic procedures (ozone therapy), pool water treatment (water ozonation) and room disinfection (air ozonation). This optimizes costs and simplifies logistics."
+        },
+        "ozonotherapy": {
+          "title": "Ozone therapy in rehabilitation",
+          "text": "Ozone therapy is a physiotherapy method based on the therapeutic properties of medical ozone. Used for recovery after injuries, surgeries, and for chronic conditions.",
+          "features": [
+            {
+              "title": "Ozone baths",
+              "description": "Ozone-saturated water has a general strengthening effect, improves blood circulation, relieves muscle tension"
+            },
+            {
+              "title": "Subcutaneous injections",
+              "description": "Introduction of ozone-oxygen mixture into trigger points to relieve pain and inflammation in joint diseases"
+            },
+            {
+              "title": "Autohemotherapy",
+              "description": "Enrichment of patient's blood with ozone followed by reinjection — systemic health effect"
+            },
+            {
+              "title": "Rectal insufflations",
+              "description": "Introduction of ozone-oxygen mixture for treatment of gastrointestinal diseases and general health improvement"
+            }
+          ]
+        },
+        "methods": {
+          "title": "Ozone therapy methods and indications",
+          "text": "Various ozone therapy methods are used depending on indications and patient condition:",
+          "table": {
+            "caption": "Ozone therapy methods in rehabilitation",
+            "headers": [
+              "Method",
+              "Indications",
+              "Treatment course"
+            ],
+            "rows": [
+              [
+                "Ozone baths",
+                "Arthritis, arthrosis, varicose veins, cellulite",
+                "10-15 procedures"
+              ],
+              [
+                "Subcutaneous injections",
+                "Joint pain, myofascial syndrome",
+                "5-10 procedures"
+              ],
+              [
+                "Autohemotherapy (BAHT)",
+                "Immunodeficiency, chronic fatigue, diabetes",
+                "8-12 procedures"
+              ],
+              [
+                "Rectal insufflations",
+                "Colitis, dysbiosis, prostatitis",
+                "10-15 procedures"
+              ],
+              [
+                "Intravenous infusions",
+                "Ischemia, trophic ulcers, sepsis",
+                "5-8 procedures"
+              ]
+            ]
+          }
+        },
+        "spa": {
+          "title": "SPA procedures with ozone",
+          "text": "Ozone is widely used in SPA areas of rehabilitation centers for wellness procedures:",
+          "steps": [
+            {
+              "title": "Ozone capsules",
+              "description": "Patient is placed in a capsule with ozonated air. Ozone penetrates through the skin, improving microcirculation and saturating tissues with oxygen."
+            },
+            {
+              "title": "Hydromassage with ozonated water",
+              "description": "Ozonated water in a hydromassage tub has antiseptic properties and stimulates skin regeneration."
+            },
+            {
+              "title": "Ozone shower",
+              "description": "Spraying the body with fine-dispersed ozonated water. Tones the skin, improves its condition in dermatological problems."
+            },
+            {
+              "title": "Ozonated wraps",
+              "description": "Application of ozonated oil or cream followed by wrapping. Used for body contouring and cellulite treatment."
+            }
+          ],
+          "highlight": "SPA procedures with ozone are especially effective when combined with other rehabilitation methods: massage, physiotherapy, therapeutic exercise. A comprehensive approach accelerates recovery."
+        },
+        "pools": {
+          "title": "Pool ozonation",
+          "text": "Pools in rehabilitation centers require a special approach to water treatment. Ozonation allows reducing chlorine content and creating comfortable conditions for patients:",
+          "items": [
+            "60-70% reduction in chlorine concentration — minimal skin and eye irritation",
+            "No chlorine odor — comfort for patients with respiratory diseases",
+            "Destruction of chlorine-resistant pathogens: cryptosporidia, giardia",
+            "Decomposition of chloramines — main cause of mucosal irritation",
+            "Improved water clarity — aesthetic comfort"
+          ],
+          "table": {
+            "caption": "Pool ozonation parameters",
+            "headers": [
+              "Parameter",
+              "Ozone + chlorine",
+              "Chlorine only"
+            ],
+            "rows": [
+              [
+                "Chlorine concentration",
+                "0.3-0.5 mg/L",
+                "1.0-1.5 mg/L"
+              ],
+              [
+                "Combined chlorine (chloramines)",
+                "<0.2 mg/L",
+                "up to 1.0 mg/L"
+              ],
+              [
+                "Water clarity",
+                "Crystal clear",
+                "Good"
+              ]
+            ]
+          }
+        },
+        "disinfection": {
+          "title": "Room disinfection",
+          "text": "Ozonation of wards and procedure rooms is an important component of the sanitary regime in rehabilitation centers:",
+          "items": [
+            "Ward disinfection between patient stays — complete treatment in 40-60 minutes",
+            "Procedure room treatment — elimination of cross-contamination",
+            "Ozonation of massage tables, exercise equipment, physiotherapy devices",
+            "Odor elimination in rooms — fresh air without chemical fragrances",
+            "Ventilation disinfection — reduced risk of respiratory infection spread"
+          ],
+          "warning": "During room ozonation, patients and staff must leave the treated area. After treatment, ventilation is required until ozone concentration drops below MAC (0.1 mg/m³)."
+        },
+        "benefits": {
+          "title": "Benefits of ozone for rehabilitation centers",
+          "features": [
+            {
+              "title": "Comprehensive solution",
+              "description": "One technological approach for therapy, water treatment and disinfection — cost optimization and staff training simplification"
+            },
+            {
+              "title": "Patient comfort",
+              "description": "Soft water without chlorine odor, clean air, pleasant atmosphere — positive stay experience"
+            },
+            {
+              "title": "Medical effectiveness",
+              "description": "Ozone therapy is a proven treatment method with a wide range of indications and minimal contraindications"
+            },
+            {
+              "title": "Environmental friendliness",
+              "description": "Ozone decomposes to oxygen without chemical residues — safe for patients and the environment"
+            }
+          ]
+        }
+      },
+      "cta": {
+        "title": "Implement ozone in your center?",
+        "text": "Get a comprehensive solution for ozone therapy, water treatment and disinfection"
+      }
+    }
+  }
+}
