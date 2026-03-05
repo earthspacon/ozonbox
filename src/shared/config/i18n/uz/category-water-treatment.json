@@ -91,7 +91,7 @@
           "tableCaption": "Ichimlik suvi uchun tavsiya etilgan parametrlar",
           "tableHeaders": ["Parametr", "Qiymat", "Normativ hujjat"],
           "tableData": [
-            ["Ozon dozasi", "1-3 mg/L", "Suv sifatiiga qarab"],
+            ["Ozon dozasi", "1-3 mg/L", "Suv sifatiga qarab"],
             ["Qolgan ozon", "0.1-0.3 mg/L", "Ichimlik suvi standartlari"],
             ["Kontakt vaqti", "4-10 daqiqa", "10-20°C haroratda"],
             ["Suv pH", "6.5-8.5", "Optimal diapazon"],
