@@ -19,7 +19,7 @@
         },
         "disinfection": {
           "value": "99.9%",
-          "label": "Дезинфексия",
+          "label": "Дезинфекция",
           "description": "Бактериялар ва вирусларнинг йўқ қилиши"
         },
         "noChemistry": {

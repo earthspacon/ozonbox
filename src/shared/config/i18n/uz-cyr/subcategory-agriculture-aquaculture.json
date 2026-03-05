@@ -9,7 +9,7 @@
       "stats": {
         "disinfection": {
           "value": "99% гача",
-          "label": "Дезинфексия",
+          "label": "Дезинфекция",
           "description": "Сувдаги патогенларни йўқ қилиш"
         },
         "cycleSaving": {
