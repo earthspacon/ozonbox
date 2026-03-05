@@ -56,37 +56,13 @@
             "Hukumat qarorovi № 644 — Sovuq suv ta'minoti va suv o'tkazishning qoidalari"
           ],
           "tableCaption": "Suv havzalarining turli foydalanish kategoriyalari uchun neft mahsulotlarining maksimal ruxsat etilgan kontsentratsiyalari",
-          "tableHeaders": [
-            "Suv havzasi kategoriyasi",
-            "Chegara, mg/L",
-            "Xavf sinfi"
-          ],
+          "tableHeaders": ["Suv havzasi kategoriyasi", "Chegara, mg/L", "Xavf sinfi"],
           "tableRows": [
-            [
-              "Baliq ovqatlanish suv havzalari, eng yuqori kategoriya",
-              "0,05",
-              "3"
-            ],
-            [
-              "Baliq ovqatlanish suv havzalari, I kategoriya",
-              "0,05",
-              "3"
-            ],
-            [
-              "Baliq ovqatlanish suv havzalari, II kategoriya",
-              "0,05",
-              "3"
-            ],
-            [
-              "Xo'jalik va ichimlik suv ta'minoti manbalari",
-              "0,1",
-              "4"
-            ],
-            [
-              "Munitsipal tashkil etishga oqish",
-              "4,0",
-              "—"
-            ]
+            ["Baliq ovqatlanish suv havzalari, eng yuqori kategoriya", "0,05", "3"],
+            ["Baliq ovqatlanish suv havzalari, I kategoriya", "0,05", "3"],
+            ["Baliq ovqatlanish suv havzalari, II kategoriya", "0,05", "3"],
+            ["Xo'jalik va ichimlik suv ta'minoti manbalari", "0,1", "4"],
+            ["Munitsipal tashkil etishga oqish", "4,0", "—"]
           ]
         },
         "mechanism": {
@@ -100,37 +76,13 @@
             "Politsiklik aromatik uglevodoklarning (PAU) yo'q qilishi"
           ],
           "tableCaption": "Ozon tomonidan neft mahsulotlarining oksidlanishining kinetikasi",
-          "tableHeaders": [
-            "Birikma sinfi",
-            "Tezlik konstantasi, M⁻¹·s⁻¹",
-            "Yarim hayoti, min"
-          ],
+          "tableHeaders": ["Birikma sinfi", "Tezlik konstantasi, M⁻¹·s⁻¹", "Yarim hayoti, min"],
           "tableRows": [
-            [
-              "Alifatik uglevodoklarni",
-              "10² — 10³",
-              "15-30"
-            ],
-            [
-              "Aromatik (benzol, toluol)",
-              "10³ — 10⁴",
-              "5-15"
-            ],
-            [
-              "Poliaromatik (PAU)",
-              "10⁴ — 10⁵",
-              "1-5"
-            ],
-            [
-              "Naftnik kislotalar",
-              "10³ — 10⁴",
-              "5-10"
-            ],
-            [
-              "Fenollar",
-              "10⁵ — 10⁶",
-              "<1"
-            ]
+            ["Alifatik uglevodoklarni", "10² — 10³", "15-30"],
+            ["Aromatik (benzol, toluol)", "10³ — 10⁴", "5-15"],
+            ["Poliaromatik (PAU)", "10⁴ — 10⁵", "1-5"],
+            ["Naftnik kislotalar", "10³ — 10⁴", "5-10"],
+            ["Fenollar", "10⁵ — 10⁶", "<1"]
           ],
           "infoBox": {
             "title": "Oksidativ yo'q qilish vs. sorption",
@@ -170,36 +122,11 @@
             "Qolgan kontsentratsiya, mg/L"
           ],
           "tableRows": [
-            [
-              "5-10",
-              "15-30",
-              "15-20",
-              "<0.05"
-            ],
-            [
-              "10-20",
-              "30-60",
-              "20-30",
-              "<0.05"
-            ],
-            [
-              "20-50",
-              "60-150",
-              "30-45",
-              "<0.1"
-            ],
-            [
-              "50-100",
-              "150-300",
-              "45-60",
-              "<0.3"
-            ],
-            [
-              ">100",
-              "Ikki bosqichli tozalash",
-              "60-90",
-              "<0.5"
-            ]
+            ["5-10", "15-30", "15-20", "<0.05"],
+            ["10-20", "30-60", "20-30", "<0.05"],
+            ["20-50", "60-150", "30-45", "<0.1"],
+            ["50-100", "150-300", "45-60", "<0.3"],
+            [">100", "Ikki bosqichli tozalash", "60-90", "<0.5"]
           ]
         },
         "types": {
@@ -213,12 +140,7 @@
             "Tozalash rejimi"
           ],
           "tableRows": [
-            [
-              "Refinery, neft depolar",
-              "50-500",
-              "Yengil fraktsiyalar, benzol, toluol",
-              "Flotatsiya + ozonlash"
-            ],
+            ["Refinery, neft depolar", "50-500", "Yengil fraktsiyalar, benzol, toluol", "Flotatsiya + ozonlash"],
             [
               "Tashish, benzin stantsiyalari",
               "10-100",
@@ -231,18 +153,8 @@
               "Sovitish suyuqliqlari, emulsiyalar, moylashgan maslovlarni",
               "Demulsifikatsiya + ozonlash"
             ],
-            [
-              "Kemir ta'mirlash",
-              "50-300",
-              "Og'ir fraktsiyalar, smaolalar",
-              "Ko'p bosqichli tozalash"
-            ],
-            [
-              "Metalurjiya",
-              "10-50",
-              "Texnik moylashgan maslovlarni, fumar",
-              "Flokulyatsiya + ozonlash"
-            ]
+            ["Kemir ta'mirlash", "50-300", "Og'ir fraktsiyalar, smaolalar", "Ko'p bosqichli tozalash"],
+            ["Metalurjiya", "10-50", "Texnik moylashgan maslovlarni, fumar", "Flokulyatsiya + ozonlash"]
           ],
           "successBox": {
             "title": "Sinergik ta'sir",
@@ -253,43 +165,13 @@
           "title": "Sanoat ozonatorlarining texnik xarakteristikasi",
           "paragraph": "Neft mahsulotlari bilan ifloslangan chiqindi suvlarni tozalash uchun yuqori quvvatli korona ekstremum ozon generatorlari qo'llaniladi:",
           "tableCaption": "Chiqindi suvlarni tozalash uchun sanoat ozonatorlarining liniyasi",
-          "tableHeaders": [
-            "Model",
-            "Qabiliyet, g O₃/soat",
-            "Chiqindi suv hajmi, m³/soat",
-            "Energiya sarflanishi, kW"
-          ],
+          "tableHeaders": ["Model", "Qabiliyet, g O₃/soat", "Chiqindi suv hajmi, m³/soat", "Energiya sarflanishi, kW"],
           "tableRows": [
-            [
-              "OZT-100",
-              "100",
-              "3-5",
-              "1.2"
-            ],
-            [
-              "OZT-500",
-              "500",
-              "15-25",
-              "5.5"
-            ],
-            [
-              "OZT-1000",
-              "1000",
-              "30-50",
-              "10"
-            ],
-            [
-              "OZT-2000",
-              "2000",
-              "60-100",
-              "18"
-            ],
-            [
-              "OZT-5000",
-              "5000",
-              "150-250",
-              "45"
-            ]
+            ["OZT-100", "100", "3-5", "1.2"],
+            ["OZT-500", "500", "15-25", "5.5"],
+            ["OZT-1000", "1000", "30-50", "10"],
+            ["OZT-2000", "2000", "60-100", "18"],
+            ["OZT-5000", "5000", "150-250", "45"]
           ],
           "items": [
             "Maksimal ozon kontsentratsiyas uchun kislorod etakzalash (massa bo'yicha 12% gacha)",
@@ -302,11 +184,7 @@
         "economics": {
           "title": "Ekologik va iqtisodiy ko'rsatkichlar",
           "comparisonTitle": "Neft mahsulotlari bilan ifloslangan chiqindi suvlarni tozalash usullarning taqqoslashi",
-          "comparisonHeaders": [
-            "Parametr",
-            "Ozonlash",
-            "An'anaviy usullar"
-          ],
+          "comparisonHeaders": ["Parametr", "Ozonlash", "An'anaviy usullar"],
           "comparisonRows": [
             {
               "parameter": "Tozalash samaradorligi",
@@ -360,37 +238,13 @@
             "Hukumat farmonî № 644 — Muzlatilgan suv ta'minoti va chiqindi suvlarini o'chiritish qoidalari"
           ],
           "tableCaption": "Turli suv foydalanish kategoriyalari uchun neft mahsulotlarining maksimal ruxsat etilgan kontsentratsiyas",
-          "tableHeaders": [
-            "Suv havzasi kategoriyasi",
-            "Chegara, mg/L",
-            "Xatar sinfi"
-          ],
+          "tableHeaders": ["Suv havzasi kategoriyasi", "Chegara, mg/L", "Xatar sinfi"],
           "tableRows": [
-            [
-              "Baliq ovqatlanish suv havzalari, eng yuqori kategoriya",
-              "0.05",
-              "3"
-            ],
-            [
-              "Baliq ovqatlanish suv havzalari, kategoriya I",
-              "0.05",
-              "3"
-            ],
-            [
-              "Baliq ovqatlanish suv havzalari, kategoriya II",
-              "0.05",
-              "3"
-            ],
-            [
-              "Uyga va ichimlik suv foydalanish",
-              "0.1",
-              "4"
-            ],
-            [
-              "Munitsipal fazo tashkil etishga oqish",
-              "4.0",
-              "—"
-            ]
+            ["Baliq ovqatlanish suv havzalari, eng yuqori kategoriya", "0.05", "3"],
+            ["Baliq ovqatlanish suv havzalari, kategoriya I", "0.05", "3"],
+            ["Baliq ovqatlanish suv havzalari, kategoriya II", "0.05", "3"],
+            ["Uyga va ichimlik suv foydalanish", "0.1", "4"],
+            ["Munitsipal fazo tashkil etishga oqish", "4.0", "—"]
           ]
         },
         "benefits": {
@@ -426,55 +280,15 @@
           "title": "Korxona o'rni: Yiliga 6 million ton qabiliyet bilan refinery",
           "paragraph": "Refinery ning chiqindi suvlarni tozalash qurillalari ozonlash o'rnatilmasining qo'llanilishi:",
           "tableCaption": "Ozonlash tizimining qo'llanilishi natijalari",
-          "tableHeaders": [
-            "Ko'rsatkich",
-            "Qo'llanilishidan oldin",
-            "Qo'llanilishidan keyin",
-            "Ta'sir"
-          ],
+          "tableHeaders": ["Ko'rsatkich", "Qo'llanilishidan oldin", "Qo'llanilishidan keyin", "Ta'sir"],
           "tableRows": [
-            [
-              "Chiqindi suv hajmi, m³/kun",
-              "5,000",
-              "5,000",
-              "—"
-            ],
-            [
-              "Kirish joyidagi OP kontsentratsiyasi, mg/L",
-              "25-40",
-              "25-40",
-              "—"
-            ],
-            [
-              "Chiqish joyidagi OP kontsentratsiyasi, mg/L",
-              "0.8-1.5",
-              "0.03-0.05",
-              "-96%"
-            ],
-            [
-              "Ekologik to'lovlar, million rub/yil",
-              "18.5",
-              "0.2",
-              "-99%"
-            ],
-            [
-              "Koagulyant sarflanishi, t/yil",
-              "120",
-              "0",
-              "-100%"
-            ],
-            [
-              "Cho'kma shakllashishi, t/yil",
-              "850",
-              "0",
-              "-100%"
-            ],
-            [
-              "Qaytarish davri",
-              "—",
-              "14 oy",
-              "—"
-            ]
+            ["Chiqindi suv hajmi, m³/kun", "5,000", "5,000", "—"],
+            ["Kirish joyidagi OP kontsentratsiyasi, mg/L", "25-40", "25-40", "—"],
+            ["Chiqish joyidagi OP kontsentratsiyasi, mg/L", "0.8-1.5", "0.03-0.05", "-96%"],
+            ["Ekologik to'lovlar, million rub/yil", "18.5", "0.2", "-99%"],
+            ["Koagulyant sarflanishi, t/yil", "120", "0", "-100%"],
+            ["Cho'kma shakllashishi, t/yil", "850", "0", "-100%"],
+            ["Qaytarish davri", "—", "14 oy", "—"]
           ]
         }
       }

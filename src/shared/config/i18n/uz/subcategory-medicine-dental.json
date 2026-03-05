@@ -14,28 +14,28 @@
         "Kimyoviy hidlar yo'q",
         "O'zaro infeksiya oldini olish"
       ],
-      "stats": {
-        "stat1": {
+      "stats": [
+        {
           "value": "15-20",
           "label": "Daqiqa",
           "description": "Bemorlar o'rtasida kabinet dezinfeksiyasi"
         },
-        "stat2": {
+        {
           "value": "99,9%",
           "label": "Patogenlar",
           "description": "Ishlov berish paytida yo'q qilindi"
         },
-        "stat3": {
+        {
           "value": "100%",
-          "label": "Qoplamishi",
-          "description": "Barcha sirtlar va uskunalardan"
+          "label": "Qamrov",
+          "description": "Barcha sirtlar va uskunalar"
         },
-        "stat4": {
+        {
           "value": "Ozon terapiyasi",
           "label": "Davolash",
-          "description": "Karixlar va periodontal kasalliklarni"
+          "description": "Karies va periodontal kasalliklar"
         }
-      },
+      ],
       "sections": {
         "intro": {
           "text": "Stomatologiya protseduralar infeksiya uzatish yuqori xavfini tashkil qiladi: turbin quloq qismlaridan aerosollar, qon va saliuva bilan aloqa, kuniga ko'p miqdordagi bemorlar. Ozonlash kabinet dezinfeksiyasini tez va samarali, shuningdek terapiyaviy tatbiqlashni ta'minlaydi.",
@@ -62,37 +62,12 @@
           "text": "Ozonlash bemorlar o'rtasida texnik tanaffuslar paytida tez kabinet dezinfeksiyasiga imkon beradi. 15-20 daqiqada ozon barcha sirtlar va havoda patogenlarni yo'q qiladi.",
           "table": {
             "caption": "Stomatologiya kabinet ozonlash rejimi",
-            "headers": [
-              "Ishlov berish turi",
-              "Kontsentratsiya",
-              "Vaqt",
-              "Chastotasi"
-            ],
+            "headers": ["Ishlov berish turi", "Kontsentratsiya", "Vaqt", "Chastotasi"],
             "rows": [
-              [
-                "Bemorlar o'rtasida",
-                "5-10 mg/m³",
-                "15-20 daqiqa",
-                "Har bir tashrif keyin"
-              ],
-              [
-                "Tushlik tanaffusi",
-                "10-15 mg/m³",
-                "30-40 daqiqa",
-                "Kuniga"
-              ],
-              [
-                "Ish kunining oxiri",
-                "15-20 mg/m³",
-                "60 daqiqa",
-                "Kuniga"
-              ],
-              [
-                "Yuqumli bemordan keyin",
-                "20-30 mg/m³",
-                "60-90 daqiqa",
-                "Ko'rsatilganda"
-              ]
+              ["Bemorlar o'rtasida", "5-10 mg/m³", "15-20 daqiqa", "Har bir tashrif keyin"],
+              ["Tushlik tanaffusi", "10-15 mg/m³", "30-40 daqiqa", "Kuniga"],
+              ["Ish kunining oxiri", "15-20 mg/m³", "60 daqiqa", "Kuniga"],
+              ["Yuqumli bemordan keyin", "20-30 mg/m³", "60-90 daqiqa", "Ko'rsatilganda"]
             ]
           },
           "highlight": "Ozon uskunalarning qiyin erishiladigan joylariga kirib boradi: shlanglarga, quloq qismiga, suv ta'minot tizimiga — an'anaviy silkitish imkonsiz bo'lgan joylar."
@@ -120,37 +95,13 @@
           ],
           "table": {
             "caption": "Terapiyaviy stomatologiyada ozonning qo'llanilishi",
-            "headers": [
-              "Ko'rsatma",
-              "Usul",
-              "Ta'sir"
-            ],
+            "headers": ["Ko'rsatma", "Usul", "Ta'sir"],
             "rows": [
-              [
-                "Boshlang'ich karix",
-                "Gaz 40-60 soniyali o'suvga",
-                "Minerallashtirish, jarayonni to'xtash"
-              ],
-              [
-                "Chuqur karix",
-                "Gaz + ozonlangan suv",
-                "Qalinlik sterilizatsiyasi to'ldirish oldin"
-              ],
-              [
-                "Pulpit",
-                "Ozonlangan suv kanalda",
-                "Yallig'lanishning yengillanishi"
-              ],
-              [
-                "Periodontitis",
-                "Gaz cho'nchada + irrigatsiya",
-                "Qoniy oqishning 80% qisqarilishi"
-              ],
-              [
-                "Stomatit",
-                "Ozonlangan suv, cho'mish",
-                "3-5 kunning sohaylashi"
-              ]
+              ["Boshlang'ich karix", "Gaz 40-60 soniyali o'suvga", "Minerallashtirish, jarayonni to'xtash"],
+              ["Chuqur karix", "Gaz + ozonlangan suv", "Qalinlik sterilizatsiyasi to'ldirish oldin"],
+              ["Pulpit", "Ozonlangan suv kanalda", "Yallig'lanishning yengillanishi"],
+              ["Periodontitis", "Gaz cho'nchada + irrigatsiya", "Qoniy oqishning 80% qisqarilishi"],
+              ["Stomatit", "Ozonlangan suv, cho'mish", "3-5 kunning sohaylashi"]
             ]
           }
         },

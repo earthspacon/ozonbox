@@ -61,37 +61,12 @@
           "text": "Operatsiya bloklar maxsus sanitarya rejimlarini talab qiladi. Dezinfektantlar bilan an'anaviy tozalash barcha sirtlarni ishlov berish imkonini bermaydi — ozon gaz bo'lgani uchun uskunaning teschasiga, ventilyatsiya tizimlariga, uskunaning orqasidagi qiyin erishiladigan joylariga kirib boradi.",
           "table": {
             "caption": "Operatsiya xonalari uchun ozonlash rejimi",
-            "headers": [
-              "Ishlov berish turi",
-              "Kontsentratsiya",
-              "Ishlov berish vaqti",
-              "Chastotasi"
-            ],
+            "headers": ["Ishlov berish turi", "Kontsentratsiya", "Ishlov berish vaqti", "Chastotasi"],
             "rows": [
-              [
-                "Operatsiyalar orasida",
-                "10-15 mg/m³",
-                "30-40 daqiqa",
-                "Har bir operatsiyadan keyin"
-              ],
-              [
-                "Yakuniy dezinfeksiya",
-                "20-25 mg/m³",
-                "60-90 daqiqa",
-                "Ish kunining oxirida"
-              ],
-              [
-                "Yuqumli holatlardan keyin",
-                "30-40 mg/m³",
-                "120 daqiqa",
-                "Ko'rsatilgan joyda"
-              ],
-              [
-                "Profilaktika",
-                "10 mg/m³",
-                "60 daqiqa",
-                "Haftasiga bir"
-              ]
+              ["Operatsiyalar orasida", "10-15 mg/m³", "30-40 daqiqa", "Har bir operatsiyadan keyin"],
+              ["Yakuniy dezinfeksiya", "20-25 mg/m³", "60-90 daqiqa", "Ish kunining oxirida"],
+              ["Yuqumli holatlardan keyin", "30-40 mg/m³", "120 daqiqa", "Ko'rsatilgan joyda"],
+              ["Profilaktika", "10 mg/m³", "60 daqiqa", "Haftasiga bir"]
             ]
           },
           "highlight": "Ozonlashdan keyin ozon kontsentratsiyasini xavfsiz darajaga tushirish uchun 1,5-2 soat ventilyatsiyasi yetarli. Xona qo'shimcha ishlov berishsiz foydalanishga tayyor."
@@ -123,63 +98,23 @@
           "text": "Ozon sog'liqni saqlash muassasalarida topilgan deyarli barcha patogen mikroorganizmlarni yo'q qiladi:",
           "table": {
             "caption": "Ozon tomonidan patogen inaktivatsiya vaqti (kontsentratsiya 20 mg/m³)",
-            "headers": [
-              "Mikroorganizm",
-              "Inaktivatsiya vaqti",
-              "Samaradorlik"
-            ],
+            "headers": ["Mikroorganizm", "Inaktivatsiya vaqti", "Samaradorlik"],
             "rows": [
-              [
-                "Staphylococcus aureus (MRSA)",
-                "10-15 daqiqa",
-                "99,99%"
-              ],
-              [
-                "Escherichia coli",
-                "5-10 daqiqa",
-                "99,99%"
-              ],
-              [
-                "Pseudomonas aeruginosa",
-                "15-20 daqiqa",
-                "99,99%"
-              ],
-              [
-                "Candida albicans",
-                "15-20 daqiqa",
-                "99,9%"
-              ],
-              [
-                "Aspergillus niger (sporalar)",
-                "30-40 daqiqa",
-                "99,9%"
-              ],
-              [
-                "Clostridium difficile (sporalar)",
-                "40-60 daqiqa",
-                "99,9%"
-              ],
-              [
-                "Gripp viruslar",
-                "5-10 daqiqa",
-                "99,99%"
-              ],
-              [
-                "Koronaviruslar",
-                "10-15 daqiqa",
-                "99,99%"
-              ]
+              ["Staphylococcus aureus (MRSA)", "10-15 daqiqa", "99,99%"],
+              ["Escherichia coli", "5-10 daqiqa", "99,99%"],
+              ["Pseudomonas aeruginosa", "15-20 daqiqa", "99,99%"],
+              ["Candida albicans", "15-20 daqiqa", "99,9%"],
+              ["Aspergillus niger (sporalar)", "30-40 daqiqa", "99,9%"],
+              ["Clostridium difficile (sporalar)", "40-60 daqiqa", "99,9%"],
+              ["Gripp viruslar", "5-10 daqiqa", "99,99%"],
+              ["Koronaviruslar", "10-15 daqiqa", "99,99%"]
             ]
           }
         },
         "comparison": {
           "title": "Dezinfeksiya usullarini taqqoslash",
           "tableTitle": "Ozonlash vs an'anaviy usullar",
-          "headers": [
-            "Parametr",
-            "Ozonlash",
-            "Kimyoviy dezinfeksiya"
-          ],
+          "headers": ["Parametr", "Ozonlash", "Kimyoviy dezinfeksiya"],
           "rows": [
             {
               "parameter": "Sirtni qoplamishi",

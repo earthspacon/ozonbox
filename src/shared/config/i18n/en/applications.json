@@ -1,6 +1,7 @@
 {
   "pageTitle": "Ozonation Applications — OZONOXY",
   "pageDescription": "All areas of ozone technology application: medicine, agriculture, food production, HoReCa, water treatment and more.",
+  "subcategoriesCount": "{count, plural, one {# article} other {# articles}}",
   "viewAll": "All application areas",
   "viewAllShort": "View all",
   "backToCategories": "All areas",

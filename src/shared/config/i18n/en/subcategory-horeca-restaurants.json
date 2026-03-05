@@ -82,37 +82,13 @@
           "text": "You can create creative design, hire professional staff, invest in advertising — but an unpleasant smell will negate all efforts. Can a good place smell bad?",
           "table": {
             "caption": "Impact of air quality on business metrics",
-            "headers": [
-              "Metric",
-              "Without ozonation",
-              "With ozonation"
-            ],
+            "headers": ["Metric", "Without ozonation", "With ozonation"],
             "rows": [
-              [
-                "Average visit time",
-                "45 minutes",
-                "55-60 minutes"
-              ],
-              [
-                "Repeat visits",
-                "35%",
-                "52%"
-              ],
-              [
-                "\"Cleanliness\" rating in reviews",
-                "3.8/5",
-                "4.6/5"
-              ],
-              [
-                "Odor complaints",
-                "12% of guests",
-                "<1% of guests"
-              ],
-              [
-                "Average check",
-                "Baseline",
-                "+15-20%"
-              ]
+              ["Average visit time", "45 minutes", "55-60 minutes"],
+              ["Repeat visits", "35%", "52%"],
+              ["\"Cleanliness\" rating in reviews", "3.8/5", "4.6/5"],
+              ["Odor complaints", "12% of guests", "<1% of guests"],
+              ["Average check", "Baseline", "+15-20%"]
             ]
           }
         },
@@ -149,37 +125,12 @@
           "text": "Ozonator capacity is selected at: 1 g/hour per 25 m³ of room volume.",
           "table": {
             "caption": "Calculation examples for different venues",
-            "headers": [
-              "Venue type",
-              "Area",
-              "Volume",
-              "Ozonator"
-            ],
+            "headers": ["Venue type", "Area", "Volume", "Ozonator"],
             "rows": [
-              [
-                "Small cafe",
-                "40-60 m²",
-                "120-180 m³",
-                "5-7 g/hour"
-              ],
-              [
-                "Medium restaurant",
-                "100-200 m²",
-                "300-600 m³",
-                "12-24 g/hour"
-              ],
-              [
-                "Large restaurant/banquet hall",
-                "300+ m²",
-                "900+ m³",
-                "36+ g/hour or multiple units"
-              ],
-              [
-                "Hookah lounge",
-                "50-100 m²",
-                "150-300 m³",
-                "6-12 g/hour (daily treatment)"
-              ]
+              ["Small cafe", "40-60 m²", "120-180 m³", "5-7 g/hour"],
+              ["Medium restaurant", "100-200 m²", "300-600 m³", "12-24 g/hour"],
+              ["Large restaurant/banquet hall", "300+ m²", "900+ m³", "36+ g/hour or multiple units"],
+              ["Hookah lounge", "50-100 m²", "150-300 m³", "6-12 g/hour (daily treatment)"]
             ]
           }
         },

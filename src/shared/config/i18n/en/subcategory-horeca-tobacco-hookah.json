@@ -76,31 +76,11 @@
         },
         "modes": {
           "title": "Treatment modes",
-          "tableHeaders": [
-            "Mode",
-            "Time",
-            "Frequency",
-            "Result"
-          ],
+          "tableHeaders": ["Mode", "Time", "Frequency", "Result"],
           "tableData": [
-            [
-              "Daily prevention",
-              "60 minutes",
-              "Every night",
-              "Maintain freshness"
-            ],
-            [
-              "After busy evening",
-              "90-120 minutes",
-              "As needed",
-              "Deep cleaning"
-            ],
-            [
-              "Aged odor",
-              "2-3 hours",
-              "3-5 days in a row",
-              "Complete removal"
-            ]
+            ["Daily prevention", "60 minutes", "Every night", "Maintain freshness"],
+            ["After busy evening", "90-120 minutes", "As needed", "Deep cleaning"],
+            ["Aged odor", "2-3 hours", "3-5 days in a row", "Complete removal"]
           ]
         }
       }

@@ -58,43 +58,13 @@
           "title": "Ozonated water irrigation",
           "intro": "Irrigation with ozone-enriched water is one of the most effective technologies for increasing yields. Ozone quickly decomposes to oxygen, saturating the root zone and stimulating plant development.",
           "tableCaption": "Effect of ozonated water on yield of various crops",
-          "tableHeaders": [
-            "Crop",
-            "O₃ concentration",
-            "Yield increase",
-            "Additional effect"
-          ],
+          "tableHeaders": ["Crop", "O₃ concentration", "Yield increase", "Additional effect"],
           "tableData": [
-            [
-              "Tomatoes",
-              "0.5–1.0 mg/l",
-              "+18–25%",
-              "Larger fruit size"
-            ],
-            [
-              "Cucumbers",
-              "0.5–0.8 mg/l",
-              "+15–22%",
-              "Improved taste"
-            ],
-            [
-              "Peppers",
-              "0.5–1.0 mg/l",
-              "+20–28%",
-              "Extended shelf life"
-            ],
-            [
-              "Lettuce",
-              "0.3–0.5 mg/l",
-              "+13–18%",
-              "Better appearance"
-            ],
-            [
-              "Strawberries",
-              "0.5–0.8 mg/l",
-              "+22–35%",
-              "Increased sugar content"
-            ]
+            ["Tomatoes", "0.5–1.0 mg/l", "+18–25%", "Larger fruit size"],
+            ["Cucumbers", "0.5–0.8 mg/l", "+15–22%", "Improved taste"],
+            ["Peppers", "0.5–1.0 mg/l", "+20–28%", "Extended shelf life"],
+            ["Lettuce", "0.3–0.5 mg/l", "+13–18%", "Better appearance"],
+            ["Strawberries", "0.5–0.8 mg/l", "+22–35%", "Increased sugar content"]
           ],
           "highlight": "Research shows that regular irrigation with ozonated water increases plant root mass by 15–25%, ensuring better nutrient uptake and stress resistance."
         },
@@ -102,43 +72,13 @@
           "title": "Greenhouse soil disinfection",
           "intro": "Root-knot nematode is one of the main enemies of greenhouse crops. Chemical control methods are ineffective and contaminate the soil. Soil ozonation with concentrated ozone solution effectively suppresses nematodes and stimulates plant development.",
           "tableCaption": "Effectiveness of ozonation against soil pathogens",
-          "tableHeaders": [
-            "Pathogen",
-            "O₃ concentration",
-            "Treatment time",
-            "Effectiveness"
-          ],
+          "tableHeaders": ["Pathogen", "O₃ concentration", "Treatment time", "Effectiveness"],
           "tableData": [
-            [
-              "Root-knot nematode",
-              "3–5 mg/l",
-              "30–60 min",
-              "90–98%"
-            ],
-            [
-              "Fusarium",
-              "2–3 mg/l",
-              "20–30 min",
-              "95–99%"
-            ],
-            [
-              "Verticillium",
-              "2–3 mg/l",
-              "20–30 min",
-              "93–97%"
-            ],
-            [
-              "Root rot",
-              "1.5–2.5 mg/l",
-              "15–25 min",
-              "90–95%"
-            ],
-            [
-              "Phytophthora",
-              "2–4 mg/l",
-              "20–40 min",
-              "96–99%"
-            ]
+            ["Root-knot nematode", "3–5 mg/l", "30–60 min", "90–98%"],
+            ["Fusarium", "2–3 mg/l", "20–30 min", "95–99%"],
+            ["Verticillium", "2–3 mg/l", "20–30 min", "93–97%"],
+            ["Root rot", "1.5–2.5 mg/l", "15–25 min", "90–95%"],
+            ["Phytophthora", "2–4 mg/l", "20–40 min", "96–99%"]
           ],
           "steps": [
             {
@@ -167,37 +107,12 @@
           "title": "Air ozonation in greenhouses",
           "intro": "Air ozonation in greenhouses destroys fungi, bacteria, yeast, viruses and pests. High concentrations are used to prepare the greenhouse for planting when the facility is unoccupied.",
           "tableCaption": "Air ozonation regimes in greenhouses",
-          "tableHeaders": [
-            "Purpose",
-            "O₃ concentration",
-            "Time",
-            "Note"
-          ],
+          "tableHeaders": ["Purpose", "O₃ concentration", "Time", "Note"],
           "tableData": [
-            [
-              "Disease prevention",
-              "0.1–0.3 mg/m³",
-              "2–4 h/day",
-              "With plants present"
-            ],
-            [
-              "Pest control",
-              "1–2 mg/m³",
-              "4–6 hours",
-              "Without people and animals"
-            ],
-            [
-              "Greenhouse disinfection",
-              "5–10 mg/m³",
-              "8–12 hours",
-              "Without plants, before season"
-            ],
-            [
-              "Mold destruction",
-              "2–3 mg/m³",
-              "4–8 hours",
-              "After harvest"
-            ]
+            ["Disease prevention", "0.1–0.3 mg/m³", "2–4 h/day", "With plants present"],
+            ["Pest control", "1–2 mg/m³", "4–6 hours", "Without people and animals"],
+            ["Greenhouse disinfection", "5–10 mg/m³", "8–12 hours", "Without plants, before season"],
+            ["Mold destruction", "2–3 mg/m³", "4–8 hours", "After harvest"]
           ],
           "warning": "Important: When treating the greenhouse with high ozone concentrations (over 1 mg/m³), personnel must be removed and the facility sealed. Ventilation for 30–60 minutes is required after treatment."
         },
@@ -205,37 +120,12 @@
           "title": "Pre-sowing seed treatment",
           "intro": "Ozone seed treatment increases germination, sprouting energy and resistance of young plants to diseases. The technology allows avoiding chemical seed dressers.",
           "tableCaption": "Ozone seed treatment regimes",
-          "tableHeaders": [
-            "Crop",
-            "O₃ concentration",
-            "Treatment time",
-            "Result"
-          ],
+          "tableHeaders": ["Crop", "O₃ concentration", "Treatment time", "Result"],
           "tableData": [
-            [
-              "Tomatoes",
-              "5–10 mg/m³",
-              "30–60 min",
-              "Germination +8–12%"
-            ],
-            [
-              "Cucumbers",
-              "5–8 mg/m³",
-              "20–40 min",
-              "Germination +10–15%"
-            ],
-            [
-              "Peppers",
-              "8–12 mg/m³",
-              "40–60 min",
-              "Germination +7–10%"
-            ],
-            [
-              "Cabbage",
-              "5–8 mg/m³",
-              "20–30 min",
-              "Germination +12–18%"
-            ]
+            ["Tomatoes", "5–10 mg/m³", "30–60 min", "Germination +8–12%"],
+            ["Cucumbers", "5–8 mg/m³", "20–40 min", "Germination +10–15%"],
+            ["Peppers", "8–12 mg/m³", "40–60 min", "Germination +7–10%"],
+            ["Cabbage", "5–8 mg/m³", "20–30 min", "Germination +12–18%"]
           ]
         },
         "benefits": {

@@ -60,37 +60,12 @@
           "title": "Qiyin rudalarni ozon bilan oldindan ishlov berish",
           "intro": "Qiyin oltin rudalari oltin sulfid minerallarida (pirit, arsenopirit, pirrotin) yopilgan bo'lib, an'anaviy sianidlashda ajratib olishni cheklaydi. Ozon bilan oldindan ishlov berish sulfidlarni oksidlaydi va oltin va kumush ajratib olishni yaxshilaydi.",
           "tableCaption": "Qiyin rudalarni ozon bilan oldindan ishlov berish natijalari (tadqiqotlar)",
-          "tableHeaders": [
-            "Ko'rsatkich",
-            "Ozonsiz",
-            "Ozon bilan",
-            "O'zgarish"
-          ],
+          "tableHeaders": ["Ko'rsatkich", "Ozonsiz", "Ozon bilan", "O'zgarish"],
           "tableData": [
-            [
-              "Oltin ajratib olish",
-              "53%",
-              "88%",
-              "+35%"
-            ],
-            [
-              "Kumush ajratib olish",
-              "26%",
-              "78%",
-              "+52%"
-            ],
-            [
-              "Eritish vaqti",
-              "40 soat",
-              "24 soat",
-              "−40%"
-            ],
-            [
-              "Ruda turi",
-              "Ikkilamchi qiyin (Meksika)",
-              "To'g'ridan-to'g'ri ozon oldindan ishlov",
-              "—"
-            ]
+            ["Oltin ajratib olish", "53%", "88%", "+35%"],
+            ["Kumush ajratib olish", "26%", "78%", "+52%"],
+            ["Eritish vaqti", "40 soat", "24 soat", "−40%"],
+            ["Ruda turi", "Ikkilamchi qiyin (Meksika)", "To'g'ridan-to'g'ri ozon oldindan ishlov", "—"]
           ],
           "note": "Ozon bilan sulfid oksidlanishi keyingi sianidlash uchun oltinni chiqaradi va eritish bosqichida siyanid sarfini kamaytirishi mumkin."
         },
@@ -98,37 +73,12 @@
           "title": "Oqova suvlarda siyanidlarni yo'q qilish",
           "intro": "Ozon erkin siyanidni (CN⁻) siyanatga (CNO⁻) oksidlaydi, keyin qo'shimcha oksidlanish va gidroliz orqali bikarbonat va azotga aylantiradi. Odatiy reaksiya vaqti 10–30 daqiqa. Janubiy Afrika va Janubi-Sharqiy Osiyodagi oltin konlarida sanoat sinovlari 2–3 g O₃/g CN da erkin va WAD siyanidning 99% dan ortiq kamayishini ko'rsatdi.",
           "tableCaption": "Ozon siyanid yo'q qilish samaradorligi",
-          "tableHeaders": [
-            "Parametr",
-            "Ishlovdan oldin",
-            "Ishlovdan keyin",
-            "O₃ dozasi"
-          ],
+          "tableHeaders": ["Parametr", "Ishlovdan oldin", "Ishlovdan keyin", "O₃ dozasi"],
           "tableData": [
-            [
-              "Erkin siyanid",
-              "50–200 mg/l",
-              "< 0,5 mg/l",
-              "2–3 g O₃/g CN"
-            ],
-            [
-              "WAD siyanid",
-              "100–400 mg/l",
-              "< 1 mg/l",
-              "2–3 g O₃/g CN"
-            ],
-            [
-              "Tiosianat (SCN⁻)",
-              "—",
-              "3–4 g O₃/g kerak",
-              "CN⁻ dan yuqori"
-            ],
-            [
-              "Aloqa vaqti",
-              "—",
-              "10–30 min",
-              "—"
-            ]
+            ["Erkin siyanid", "50–200 mg/l", "< 0,5 mg/l", "2–3 g O₃/g CN"],
+            ["WAD siyanid", "100–400 mg/l", "< 1 mg/l", "2–3 g O₃/g CN"],
+            ["Tiosianat (SCN⁻)", "—", "3–4 g O₃/g kerak", "CN⁻ dan yuqori"],
+            ["Aloqa vaqti", "—", "10–30 min", "—"]
           ]
         },
         "scheme": {
@@ -160,37 +110,12 @@
           "title": "Iqtisodiyot va joriy etish",
           "intro": "Ozon tizimlari uchun kapital xarajatlar ba'zi kimyoviy oksidlovchilarga qaraganda yuqori, ammo ekspluatatsiya xarajatlari ko'pincha pastroq (masalan, natriy gipoxloritga nisbatan). Texnologiya dum oqimlarini o'zgartirishni talab qilmaydi, tez va qaytarilmas reaksiyani ta'minlaydi va xavfli kimyoviy moddalar bilan ishlashni bartaraf etish orqali operator xavfsizligini oshiradi.",
           "tableCaption": "Ozon va kimyoviy siyanid oksidlovchilari",
-          "tableHeaders": [
-            "Parametr",
-            "Ozon",
-            "Gipoxlorit",
-            "Vodorod peroksidi"
-          ],
+          "tableHeaders": ["Parametr", "Ozon", "Gipoxlorit", "Vodorod peroksidi"],
           "tableData": [
-            [
-              "CN kamayishi (odatiy)",
-              "> 99%",
-              "> 99%",
-              "90–98%"
-            ],
-            [
-              "Xavfli qoldiqlar",
-              "Yo'q",
-              "Xlor, xloratlar",
-              "Minimal"
-            ],
-            [
-              "Joyida ishlab chiqarish",
-              "Ha (havodan)",
-              "Yo'q",
-              "Qisman"
-            ],
-            [
-              "ICMC muvofiqlik",
-              "Ha",
-              "Ha",
-              "Ha"
-            ]
+            ["CN kamayishi (odatiy)", "> 99%", "> 99%", "90–98%"],
+            ["Xavfli qoldiqlar", "Yo'q", "Xlor, xloratlar", "Minimal"],
+            ["Joyida ishlab chiqarish", "Ha (havodan)", "Yo'q", "Qisman"],
+            ["ICMC muvofiqlik", "Ha", "Ha", "Ha"]
           ]
         },
         "benefits": {
@@ -214,7 +139,22 @@
             }
           ]
         }
-      }
+      },
+      "sourcesTitle": "Manbalar",
+      "sources": [
+        {
+          "title": "Oltin ajratib olish va siyanidlarni boshqarish uchun ozonlash texnologiyasini baholash — J. Southern African Inst. Mining and Metallurgy, 2017",
+          "url": "http://www.scielo.org.za/scielo.php?pid=S2225-62532017000800006&script=sci_arttext"
+        },
+        {
+          "title": "Kon sanoati va minerallarni qayta ishlashda siyanidlarni yo'q qilish uchun ozondan samarali foydalanish — Academia.edu",
+          "url": "https://www.academia.edu/26379027/"
+        },
+        {
+          "title": "Turli sohalarda ozondan foydalanish: sharh — ScienceDirect, 2022",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1385894722056686"
+        }
+      ]
     }
   }
 }

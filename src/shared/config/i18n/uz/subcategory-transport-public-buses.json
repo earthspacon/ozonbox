@@ -81,38 +81,13 @@
         },
         "treatmentModes": {
           "title": "Avtoparklar uchun qayta ishlash rejimlari",
-          "tableHeaders": [
-            "Qayta ishlash rejimi",
-            "Konsentratsiya",
-            "Vaqt",
-            "Qachon qo'llash kerak"
-          ],
+          "tableHeaders": ["Qayta ishlash rejimi", "Konsentratsiya", "Vaqt", "Qachon qo'llash kerak"],
           "tableCaption": "Shahar avtobuslarini ozonlashning tavsiya etilgan rejimlari",
           "tableData": [
-            [
-              "Reyslar orasida ekspress",
-              "10-15 mg/m³",
-              "15-20 min",
-              "Oxirgi bekatlarda, tanaffuslar"
-            ],
-            [
-              "Standart kechki",
-              "15-20 mg/m³",
-              "30-40 min",
-              "Har kuni avtoparkda"
-            ],
-            [
-              "Chuqur dezinfeksiya",
-              "25-30 mg/m³",
-              "60 min",
-              "Haftalik yoki voqealaridan keyin"
-            ],
-            [
-              "Mavsumiy qayta ishlash",
-              "20-25 mg/m³",
-              "90 min",
-              "Epidemiya mavsumi oldidan"
-            ]
+            ["Reyslar orasida ekspress", "10-15 mg/m³", "15-20 min", "Oxirgi bekatlarda, tanaffuslar"],
+            ["Standart kechki", "15-20 mg/m³", "30-40 min", "Har kuni avtoparkda"],
+            ["Chuqur dezinfeksiya", "25-30 mg/m³", "60 min", "Haftalik yoki voqealaridan keyin"],
+            ["Mavsumiy qayta ishlash", "20-25 mg/m³", "90 min", "Epidemiya mavsumi oldidan"]
           ],
           "text": "Rejimni tanlashda marshrut yuklanishini, mavsumni (epidemiya davrida — yanada intensiv qayta ishlash), salon holatini hisobga oling. Muntazam ozonlash chuqur qayta ishlashga bo'lgan ehtiyojni kamaytiradi."
         },
@@ -120,47 +95,15 @@
           "title": "Patogenlarga qarshi samaradorlik",
           "text": "Ozon jamoat transporti uchun muhim bo'lgan mikroorganizmlarning keng spektrini yo'qotadi:",
           "tableCaption": "Avtobus salonida patogenlarga qarshi ozon samaradorligi",
-          "tableHeaders": [
-            "Patogen",
-            "Inaktivatsiya vaqti",
-            "Samaradorlik"
-          ],
+          "tableHeaders": ["Patogen", "Inaktivatsiya vaqti", "Samaradorlik"],
           "tableData": [
-            [
-              "Gripp A/B viruslari",
-              "5-10 min",
-              "99,99%"
-            ],
-            [
-              "Koronaviruslar (SARS-CoV-2)",
-              "10-15 min",
-              "99,99%"
-            ],
-            [
-              "Norovirus",
-              "15-20 min",
-              "99,9%"
-            ],
-            [
-              "Staphylococcus aureus",
-              "10-15 min",
-              "99,99%"
-            ],
-            [
-              "E. coli",
-              "5-10 min",
-              "99,99%"
-            ],
-            [
-              "Candida zamburug'lari",
-              "15-20 min",
-              "99,9%"
-            ],
-            [
-              "Mold sporlari",
-              "30-40 min",
-              "99,9%"
-            ]
+            ["Gripp A/B viruslari", "5-10 min", "99,99%"],
+            ["Koronaviruslar (SARS-CoV-2)", "10-15 min", "99,99%"],
+            ["Norovirus", "15-20 min", "99,9%"],
+            ["Staphylococcus aureus", "10-15 min", "99,99%"],
+            ["E. coli", "5-10 min", "99,99%"],
+            ["Candida zamburug'lari", "15-20 min", "99,9%"],
+            ["Mold sporlari", "30-40 min", "99,9%"]
           ]
         },
         "odorRemoval": {
@@ -200,42 +143,14 @@
         "economics": {
           "title": "Avtopark ozonlash iqtisodiyoti",
           "comparisonTitle": "Avtobuslarni sanitariya qayta ishlash usullarini solishtirish",
-          "tableHeaders": [
-            "Parametr",
-            "Ozonlash",
-            "Qo'lda dezinfeksiya"
-          ],
+          "tableHeaders": ["Parametr", "Ozonlash", "Qo'lda dezinfeksiya"],
           "tableData": [
-            [
-              "1 avtobus uchun vaqt",
-              "20-40 daqiqa",
-              "60-90 daqiqa"
-            ],
-            [
-              "Xodimlar",
-              "1 kishi park uchun",
-              "1 kishi 3-5 avtobus uchun"
-            ],
-            [
-              "Sarflar",
-              "Faqat elektr",
-              "Dezinfeksiya vositalari, latta, qo'lqoplar"
-            ],
-            [
-              "Sirt qamrovi",
-              "100%",
-              "60-70%"
-            ],
-            [
-              "Shamollatish qayta ishlash",
-              "Ha",
-              "Yo'q"
-            ],
-            [
-              "Hidlarni bartaraf etish",
-              "To'liq",
-              "Qisman (yashirish)"
-            ]
+            ["1 avtobus uchun vaqt", "20-40 daqiqa", "60-90 daqiqa"],
+            ["Xodimlar", "1 kishi park uchun", "1 kishi 3-5 avtobus uchun"],
+            ["Sarflar", "Faqat elektr", "Dezinfeksiya vositalari, latta, qo'lqoplar"],
+            ["Sirt qamrovi", "100%", "60-70%"],
+            ["Shamollatish qayta ishlash", "Ha", "Yo'q"],
+            ["Hidlarni bartaraf etish", "To'liq", "Qisman (yashirish)"]
           ],
           "highlight": {
             "title": "Hisoblash misoli:",
@@ -253,37 +168,12 @@
             "Taymerlar va masofadan boshqarish — jarayonni avtomatlashtirish"
           ],
           "tableCaption": "Avtobus turi bo'yicha ozonator tanlash",
-          "tableHeaders": [
-            "Avtobus turi",
-            "Salon hajmi",
-            "Ishlab chiqarish",
-            "Qayta ishlash vaqti"
-          ],
+          "tableHeaders": ["Avtobus turi", "Salon hajmi", "Ishlab chiqarish", "Qayta ishlash vaqti"],
           "tableData": [
-            [
-              "Kichik sinf (PAZ)",
-              "15-20 m³",
-              "5-10 g/h",
-              "15-20 min"
-            ],
-            [
-              "O'rta sinf (LiAZ)",
-              "40-50 m³",
-              "10-20 g/h",
-              "20-30 min"
-            ],
-            [
-              "Katta sinf (bo'g'inli)",
-              "80-100 m³",
-              "20-30 g/h",
-              "30-40 min"
-            ],
-            [
-              "Elektr avtobuslar",
-              "50-60 m³",
-              "10-20 g/h",
-              "25-35 min"
-            ]
+            ["Kichik sinf (PAZ)", "15-20 m³", "5-10 g/h", "15-20 min"],
+            ["O'rta sinf (LiAZ)", "40-50 m³", "10-20 g/h", "20-30 min"],
+            ["Katta sinf (bo'g'inli)", "80-100 m³", "20-30 g/h", "30-40 min"],
+            ["Elektr avtobuslar", "50-60 m³", "10-20 g/h", "25-35 min"]
           ]
         },
         "compliance": {

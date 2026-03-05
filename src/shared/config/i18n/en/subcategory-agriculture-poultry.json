@@ -97,20 +97,8 @@
             "Survival with ozone, %"
           ],
           "tableData": [
-            [
-              "Laying hens",
-              "83.9",
-              "86.4",
-              "97.0",
-              "97.8"
-            ],
-            [
-              "Meat chickens",
-              "79.4",
-              "81.8",
-              "93.3",
-              "94.8"
-            ]
+            ["Laying hens", "83.9", "86.4", "97.0", "97.8"],
+            ["Meat chickens", "79.4", "81.8", "93.3", "94.8"]
           ],
           "highlight": "VNITIP recommendations: long-term storage of hatching eggs in an ozone environment prevents premature spoilage, reduces shell contamination by 2–7 times, prevents mold development and extends storage life to 10 days."
         },
@@ -125,42 +113,14 @@
           "intro1": "As a result of bird activity, poultry house air becomes contaminated with harmful substances: ammonia (up to 0.3–0.5 mg/l at MPC 0.01 mg/l), hydrogen sulfide, carbon dioxide, organic dust with microflora (up to 30–50 mg/l).",
           "intro2": "Ozonation in a recirculation system allows air cleaning without significant ventilation and heating costs.",
           "tableCaption": "Poultry house air cleaning efficiency (ozone concentration 11.3 mg/l)",
-          "tableHeaders": [
-            "Parameter",
-            "Before treatment",
-            "After treatment"
-          ],
+          "tableHeaders": ["Parameter", "Before treatment", "After treatment"],
           "tableData": [
-            [
-              "Hydrogen sulfide, mg/l",
-              "0.15",
-              "0.0002"
-            ],
-            [
-              "Ammonia, mg/l",
-              "0.12",
-              "0.004"
-            ],
-            [
-              "Carbon dioxide, mg/l",
-              "14.2",
-              "0.2"
-            ],
-            [
-              "Organic dust, mg/l",
-              "18.1",
-              "—"
-            ],
-            [
-              "Oxygen, % vol.",
-              "21.2",
-              "21.7"
-            ],
-            [
-              "Microflora, colonies/m³",
-              "27,480",
-              "< 200"
-            ]
+            ["Hydrogen sulfide, mg/l", "0.15", "0.0002"],
+            ["Ammonia, mg/l", "0.12", "0.004"],
+            ["Carbon dioxide, mg/l", "14.2", "0.2"],
+            ["Organic dust, mg/l", "18.1", "—"],
+            ["Oxygen, % vol.", "21.2", "21.7"],
+            ["Microflora, colonies/m³", "27,480", "< 200"]
           ],
           "highlight": "Periodic ozonation (8–12 hours once every 3–5 days) reduces harmful gas content by 80–85% and bacterial and mold contamination by 80–90%."
         },
@@ -201,135 +161,45 @@
             "Feed with ozone"
           ],
           "tableData": [
-            [
-              "Microflora, colonies/g",
-              "945",
-              "63",
-              "27,840",
-              "91"
-            ],
-            [
-              "Toxins, mg/kg",
-              "5.11",
-              "0.12",
-              "4.87",
-              "0.18"
-            ]
+            ["Microflora, colonies/g", "945", "63", "27,840", "91"],
+            ["Toxins, mg/kg", "5.11", "0.12", "4.87", "0.18"]
           ]
         },
         "storage": {
           "title": "Extended poultry meat storage",
           "intro": "Positive effect in meat storage is achieved with daily ozonation for 2 hours at ozone concentration ~6 mg/m³. Poultry meat preservation in chilled form (+4°C) increases 4 times.",
           "tableTitle": "Poultry meat storage comparison",
+          "tableCaption": "Poultry meat storage comparison",
           "highlight": "After 20 days of storage, meat with ozonation maintained initial freshness and tenderness without odor. Without treatment — greenish color and putrid odor after just 5 days.",
-          "tableHeaders": [
-            "Parameter",
-            "With ozone",
-            "Without ozone"
-          ],
+          "tableHeaders": ["Parameter", "With ozone", "Without ozone"],
           "tableData": [
-            [
-              "Maximum storage life",
-              "18–21 days",
-              "5–7 days"
-            ],
-            [
-              "Weight loss",
-              "7.6%",
-              "10.9%"
-            ],
-            [
-              "Carcass color",
-              "Light yellow",
-              "Yellow"
-            ],
-            [
-              "Meat odor",
-              "Characteristic of fresh",
-              "Musty, putrid"
-            ],
-            [
-              "Bacterial contamination after storage",
-              "65 colonies/ml",
-              "736 colonies/ml"
-            ]
+            ["Maximum storage life", "18–21 days", "5–7 days"],
+            ["Weight loss", "7.6%", "10.9%"],
+            ["Carcass color", "Light yellow", "Yellow"],
+            ["Meat odor", "Characteristic of fresh", "Musty, putrid"],
+            ["Bacterial contamination after storage", "65 colonies/ml", "736 colonies/ml"]
           ]
         },
         "modes": {
           "title": "Ozonation regimes in poultry farming",
-          "tableHeaders": [
-            "Ozonation purpose",
-            "Concentration",
-            "Treatment time",
-            "Frequency"
-          ],
+          "tableHeaders": ["Ozonation purpose", "Concentration", "Treatment time", "Frequency"],
           "tableData": [
-            [
-              "Preventive egg disinfection",
-              "8–12 mg/m³",
-              "60 min",
-              "Once before loading"
-            ],
-            [
-              "Disinfection during incubation",
-              "8–12 mg/m³",
-              "30 min",
-              "6 hours after loading"
-            ],
-            [
-              "Hatching egg storage",
-              "4–15 mg/m³",
-              "120–180 min",
-              "Once daily"
-            ],
-            [
-              "Embryonic development stimulation",
-              "~10 mg/m³",
-              "20 min",
-              "Once daily throughout period"
-            ],
-            [
-              "Poultry house air disinfection",
-              "8–12 mg/m³",
-              "5–10 min",
-              "2–3 times daily"
-            ],
+            ["Preventive egg disinfection", "8–12 mg/m³", "60 min", "Once before loading"],
+            ["Disinfection during incubation", "8–12 mg/m³", "30 min", "6 hours after loading"],
+            ["Hatching egg storage", "4–15 mg/m³", "120–180 min", "Once daily"],
+            ["Embryonic development stimulation", "~10 mg/m³", "20 min", "Once daily throughout period"],
+            ["Poultry house air disinfection", "8–12 mg/m³", "5–10 min", "2–3 times daily"],
             [
               "Slaughter/cutting room air and carcass",
               "4–8 ppm (gas), 1–5 ppm (water)",
               "4–10 min (carcass), continuous (water)",
               "During processing"
             ],
-            [
-              "Empty-house disinfection",
-              "15–30 mg/m³",
-              "2–4 h",
-              "Between flocks"
-            ],
-            [
-              "Air duct / ventilation disinfection",
-              "10–20 mg/m³",
-              "1–2 h",
-              "When house empty"
-            ],
-            [
-              "Sewage / process water disinfection",
-              "5–15 mg/l",
-              "10–30 min",
-              "Continuous or batch"
-            ],
-            [
-              "Grain storage treatment",
-              "8–12 mg/m³",
-              "60–120 min",
-              "Once daily"
-            ],
-            [
-              "Meat treatment during storage",
-              "~6 mg/m³",
-              "120 min",
-              "1–2 times daily"
-            ]
+            ["Empty-house disinfection", "15–30 mg/m³", "2–4 h", "Between flocks"],
+            ["Air duct / ventilation disinfection", "10–20 mg/m³", "1–2 h", "When house empty"],
+            ["Sewage / process water disinfection", "5–15 mg/l", "10–30 min", "Continuous or batch"],
+            ["Grain storage treatment", "8–12 mg/m³", "60–120 min", "Once daily"],
+            ["Meat treatment during storage", "~6 mg/m³", "120 min", "1–2 times daily"]
           ]
         },
         "benefits": {

@@ -88,48 +88,19 @@
             "title": "Important:",
             "text": "Ozone does not physically remove soot — it only eliminates the odor. Mechanical cleaning is mandatory before ozonation. Also, ozone does not restore damaged materials — charred surfaces require repair."
           },
-          "tableHeaders": [
-            "Damage level",
-            "Concentration",
-            "Cycle time",
-            "Number of cycles"
-          ],
+          "tableHeaders": ["Damage level", "Concentration", "Cycle time", "Number of cycles"],
           "tableCaption": "Recommended post-fire ozonation parameters",
           "tableData": [
-            [
-              "Light smoke",
-              "20-40 mg/m³",
-              "4-8 hours",
-              "1"
-            ],
-            [
-              "Moderate smoke",
-              "40-60 mg/m³",
-              "12-24 hours",
-              "1-2"
-            ],
-            [
-              "Heavy smoke",
-              "60-80 mg/m³",
-              "24-48 hours",
-              "2-3"
-            ],
-            [
-              "Very heavy",
-              "80+ mg/m³",
-              "48-72 hours",
-              "3+"
-            ]
+            ["Light smoke", "20-40 mg/m³", "4-8 hours", "1"],
+            ["Moderate smoke", "40-60 mg/m³", "12-24 hours", "1-2"],
+            ["Heavy smoke", "60-80 mg/m³", "24-48 hours", "2-3"],
+            ["Very heavy", "80+ mg/m³", "48-72 hours", "3+"]
           ]
         },
         "comparison": {
           "title": "Comparison of fire smoke odor removal methods",
           "tableTitle": "Ozonation vs other methods",
-          "headers": [
-            "Criterion",
-            "Ozonation",
-            "Major renovation"
-          ],
+          "headers": ["Criterion", "Ozonation", "Major renovation"],
           "rows": [
             {
               "parameter": "Cost",
@@ -202,43 +173,15 @@
         "economic": {
           "title": "Economic effect",
           "text": "Ozonation allows significant savings on post-fire restoration:",
-          "tableHeaders": [
-            "Expense item",
-            "With ozonation",
-            "Without ozonation"
-          ],
+          "tableHeaders": ["Expense item", "With ozonation", "Without ozonation"],
           "tableCaption": "Restoration cost comparison (example for 60 m² apartment)",
           "tableData": [
-            [
-              "Finish removal",
-              "—",
-              "$500"
-            ],
-            [
-              "New finishes",
-              "—",
-              "$2,000"
-            ],
-            [
-              "Furniture cleaning",
-              "$150",
-              "$150"
-            ],
-            [
-              "Ozonation",
-              "$200",
-              "—"
-            ],
-            [
-              "New furniture (replacement)",
-              "—",
-              "$1,500"
-            ],
-            [
-              "TOTAL",
-              "$350",
-              "$4,150"
-            ]
+            ["Finish removal", "—", "$500"],
+            ["New finishes", "—", "$2,000"],
+            ["Furniture cleaning", "$150", "$150"],
+            ["Ozonation", "$200", "—"],
+            ["New furniture (replacement)", "—", "$1,500"],
+            ["TOTAL", "$350", "$4,150"]
           ]
         }
       }

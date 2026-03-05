@@ -48,49 +48,14 @@
         "efficiency": {
           "title": "Sabzavotlarni ozonlash samaradorligi",
           "tableCaption": "Ozonlash bilan saqlash muddatini uzaytirish",
-          "tableHeaders": [
-            "Ekin",
-            "Ozonsiz",
-            "Ozon bilan",
-            "O'sish"
-          ],
+          "tableHeaders": ["Ekin", "Ozonsiz", "Ozon bilan", "O'sish"],
           "tableData": [
-            [
-              "Kartoshka",
-              "4–5 oy",
-              "6–7.5 oy",
-              "+2.5 oy"
-            ],
-            [
-              "Sabzi",
-              "4–6 oy",
-              "7–9 oy",
-              "+3 oy"
-            ],
-            [
-              "Karam",
-              "4–5 oy",
-              "6–8 oy",
-              "+2–3 oy"
-            ],
-            [
-              "Piyoz",
-              "5–6 oy",
-              "8–9 oy",
-              "+3 oy"
-            ],
-            [
-              "Lavlagi",
-              "5–6 oy",
-              "8–9 oy",
-              "+3 oy"
-            ],
-            [
-              "Olma",
-              "4–6 oy",
-              "7–9 oy",
-              "+3 oy"
-            ]
+            ["Kartoshka", "4–5 oy", "6–7.5 oy", "+2.5 oy"],
+            ["Sabzi", "4–6 oy", "7–9 oy", "+3 oy"],
+            ["Karam", "4–5 oy", "6–8 oy", "+2–3 oy"],
+            ["Piyoz", "5–6 oy", "8–9 oy", "+3 oy"],
+            ["Lavlagi", "5–6 oy", "8–9 oy", "+3 oy"],
+            ["Olma", "4–6 oy", "7–9 oy", "+3 oy"]
           ]
         },
         "diseases": {
@@ -109,49 +74,14 @@
         "modes": {
           "title": "Sabzavot omborlarini ozonlash rejimlari",
           "tableCaption": "Tavsiya etilgan ishlov berish rejimlari",
-          "tableHeaders": [
-            "Ekin",
-            "Kontsentratsiya",
-            "Ishlov berish vaqti",
-            "Davriyligi"
-          ],
+          "tableHeaders": ["Ekin", "Kontsentratsiya", "Ishlov berish vaqti", "Davriyligi"],
           "tableData": [
-            [
-              "Kartoshka",
-              "2–5 mg/m³",
-              "4–6 soat",
-              "Har kuni"
-            ],
-            [
-              "Sabzi",
-              "3–5 mg/m³",
-              "4–8 soat",
-              "Har kuni"
-            ],
-            [
-              "Karam",
-              "3–5 mg/m³",
-              "4–6 soat",
-              "Har kuni"
-            ],
-            [
-              "Piyoz",
-              "5–10 mg/m³",
-              "2–4 soat",
-              "Haftada 2–3 marta"
-            ],
-            [
-              "Olma",
-              "2–3 mg/m³",
-              "4–6 soat",
-              "Har kuni"
-            ],
-            [
-              "Sitrus mevalar",
-              "3–5 mg/m³",
-              "4–6 soat",
-              "Har kuni"
-            ]
+            ["Kartoshka", "2–5 mg/m³", "4–6 soat", "Har kuni"],
+            ["Sabzi", "3–5 mg/m³", "4–8 soat", "Har kuni"],
+            ["Karam", "3–5 mg/m³", "4–6 soat", "Har kuni"],
+            ["Piyoz", "5–10 mg/m³", "2–4 soat", "Haftada 2–3 marta"],
+            ["Olma", "2–3 mg/m³", "4–6 soat", "Har kuni"],
+            ["Sitrus mevalar", "3–5 mg/m³", "4–6 soat", "Har kuni"]
           ],
           "note": "Shuni hisobga olish kerakki, ozonlash rejimi harorat, namlik va mahsulot holatiga bog'liq. Yuqori namlikda (95% dan yuqori) ozon samaradorligi oshadi."
         },
@@ -180,32 +110,12 @@
           "title": "Iqtisodiy samaradorlik",
           "intro": "Sabzavot omborlarida ozonlashni joriy etish sezilarli iqtisodiy foyda keltiradi:",
           "highlight": "1000 tonnalik sabzavot omborini ozonlash uskunasi nobud bo'lishni kamaytirish va yuqori sotuv narxlari hisobiga 1–2 saqlash mavsumida o'zini oqlaydi.",
-          "tableHeaders": [
-            "Ko'rsatkich",
-            "Ozon bilan",
-            "Ozonsiz"
-          ],
+          "tableHeaders": ["Ko'rsatkich", "Ozon bilan", "Ozonsiz"],
           "tableData": [
-            [
-              "Kartoshka saqlashdagi nobud bo'lish",
-              "5–8%",
-              "15–25%"
-            ],
-            [
-              "Sabzi saqlashdagi nobud bo'lish",
-              "8–12%",
-              "25–35%"
-            ],
-            [
-              "Fungitsidlar xarajatlari",
-              "0",
-              "15–20 rub/t"
-            ],
-            [
-              "Mavsum oxiridagi savdo",
-              "Yuqori narxda",
-              "Chegirma bilan (sifat yomonlashishi)"
-            ]
+            ["Kartoshka saqlashdagi nobud bo'lish", "5–8%", "15–25%"],
+            ["Sabzi saqlashdagi nobud bo'lish", "8–12%", "25–35%"],
+            ["Fungitsidlar xarajatlari", "0", "15–20 rub/t"],
+            ["Mavsum oxiridagi savdo", "Yuqori narxda", "Chegirma bilan (sifat yomonlashishi)"]
           ]
         }
       }

@@ -58,12 +58,7 @@
         },
         "comparison": {
           "title": "Ozone vs traditional fumigation",
-          "tableHeaders": [
-            "Parameter",
-            "Ozonation",
-            "Methyl bromide",
-            "Phosphine"
-          ],
+          "tableHeaders": ["Parameter", "Ozonation", "Methyl bromide", "Phosphine"],
           "tableData": [
             {
               "parameter": "Toxic residues",
@@ -140,49 +135,14 @@
           "title": "Container treatment modes",
           "text": "For quarantine pests (bark beetles, weevils, flour beetles) maximum mode is recommended: 80-100 mg/m³ for 24 hours. This guarantees destruction of insects at all development stages, including eggs inside wood or grain.",
           "tableCaption": "Ozonation parameters for various purposes",
-          "tableHeaders": [
-            "Treatment goal",
-            "Concentration",
-            "Exposure time",
-            "Notes"
-          ],
+          "tableHeaders": ["Treatment goal", "Concentration", "Exposure time", "Notes"],
           "tableData": [
-            [
-              "Insects (adults)",
-              "30-50 mg/m³",
-              "12-18 hours",
-              "Most species"
-            ],
-            [
-              "Insects (all stages)",
-              "50-100 mg/m³",
-              "18-24 hours",
-              "Including eggs and larvae"
-            ],
-            [
-              "Mold and fungi",
-              "20-30 mg/m³",
-              "8-12 hours",
-              "From surfaces"
-            ],
-            [
-              "Bacteria",
-              "15-25 mg/m³",
-              "4-8 hours",
-              "99.9% inactivation"
-            ],
-            [
-              "Odor removal",
-              "10-20 mg/m³",
-              "4-6 hours",
-              "Odorant neutralization"
-            ],
-            [
-              "Complex treatment",
-              "50-80 mg/m³",
-              "24 hours",
-              "All factors"
-            ]
+            ["Insects (adults)", "30-50 mg/m³", "12-18 hours", "Most species"],
+            ["Insects (all stages)", "50-100 mg/m³", "18-24 hours", "Including eggs and larvae"],
+            ["Mold and fungi", "20-30 mg/m³", "8-12 hours", "From surfaces"],
+            ["Bacteria", "15-25 mg/m³", "4-8 hours", "99.9% inactivation"],
+            ["Odor removal", "10-20 mg/m³", "4-6 hours", "Odorant neutralization"],
+            ["Complex treatment", "50-80 mg/m³", "24 hours", "All factors"]
           ]
         },
         "efficiency": {
@@ -192,55 +152,15 @@
             "text": "Ozone destroys insect cell membranes at the molecular level. Unlike chemical pesticides, resistance to ozone does not develop — this is a fundamental physicochemical effect."
           },
           "tableCaption": "Destruction of pest insects with ozone (80 mg/m³, 24 hours)",
-          "tableHeaders": [
-            "Pest",
-            "Adults",
-            "Larvae",
-            "Eggs"
-          ],
+          "tableHeaders": ["Pest", "Adults", "Larvae", "Eggs"],
           "tableData": [
-            [
-              "Bread beetle",
-              "100%",
-              "100%",
-              "100%"
-            ],
-            [
-              "Grain weevil",
-              "100%",
-              "100%",
-              "99.9%"
-            ],
-            [
-              "Flour beetle",
-              "100%",
-              "100%",
-              "100%"
-            ],
-            [
-              "Rice weevil",
-              "100%",
-              "100%",
-              "99.9%"
-            ],
-            [
-              "Tobacco beetle",
-              "100%",
-              "100%",
-              "100%"
-            ],
-            [
-              "Wood beetle",
-              "100%",
-              "99.9%",
-              "99.5%"
-            ],
-            [
-              "Clothes moth",
-              "100%",
-              "100%",
-              "100%"
-            ]
+            ["Bread beetle", "100%", "100%", "100%"],
+            ["Grain weevil", "100%", "100%", "99.9%"],
+            ["Flour beetle", "100%", "100%", "100%"],
+            ["Rice weevil", "100%", "100%", "99.9%"],
+            ["Tobacco beetle", "100%", "100%", "100%"],
+            ["Wood beetle", "100%", "99.9%", "99.5%"],
+            ["Clothes moth", "100%", "100%", "100%"]
           ]
         },
         "types": {
@@ -264,43 +184,13 @@
             }
           ],
           "tableCaption": "Equipment calculation by container size",
-          "tableHeaders": [
-            "Container type",
-            "Volume",
-            "Ozonator capacity",
-            "Concentration build-up time"
-          ],
+          "tableHeaders": ["Container type", "Volume", "Ozonator capacity", "Concentration build-up time"],
           "tableData": [
-            [
-              "10 feet",
-              "16 m³",
-              "20-30 g/h",
-              "1-2 hours"
-            ],
-            [
-              "20 feet",
-              "33 m³",
-              "30-50 g/h",
-              "2-3 hours"
-            ],
-            [
-              "40 feet",
-              "67 m³",
-              "50-80 g/h",
-              "3-4 hours"
-            ],
-            [
-              "40 feet HC",
-              "76 m³",
-              "60-100 g/h",
-              "3-5 hours"
-            ],
-            [
-              "45 feet",
-              "86 m³",
-              "80-120 g/h",
-              "4-5 hours"
-            ]
+            ["10 feet", "16 m³", "20-30 g/h", "1-2 hours"],
+            ["20 feet", "33 m³", "30-50 g/h", "2-3 hours"],
+            ["40 feet", "67 m³", "50-80 g/h", "3-4 hours"],
+            ["40 feet HC", "76 m³", "60-100 g/h", "3-5 hours"],
+            ["45 feet", "86 m³", "80-120 g/h", "4-5 hours"]
           ]
         },
         "applications": {
@@ -323,11 +213,7 @@
         "economics": {
           "title": "Ozone fumigation economics",
           "text": "With regular container treatment, ozonator equipment payback is 10-20 treatments. For terminals and logistics companies with high container turnover, savings amount to hundreds of thousands of rubles per month.",
-          "tableHeaders": [
-            "Cost item",
-            "Ozonation",
-            "Chemical fumigation"
-          ],
+          "tableHeaders": ["Cost item", "Ozonation", "Chemical fumigation"],
           "tableData": [
             {
               "parameter": "Equipment (one-time)",

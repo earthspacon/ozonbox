@@ -83,50 +83,15 @@
         },
         "modes": {
           "title": "Treatment modes for different tasks",
-          "tableHeaders": [
-            "Type of contamination",
-            "Concentration",
-            "Time",
-            "Features"
-          ],
+          "tableHeaders": ["Type of contamination", "Concentration", "Time", "Features"],
           "tableCaption": "Recommended car interior ozonation parameters",
           "tableData": [
-            [
-              "Light odors",
-              "10-20 mg/m³",
-              "20 min",
-              "Preventive treatment"
-            ],
-            [
-              "Tobacco smoke (light)",
-              "20-30 mg/m³",
-              "30 min",
-              "After smoking passenger"
-            ],
-            [
-              "Tobacco smoke (strong)",
-              "30-40 mg/m³",
-              "45-60 min",
-              "Smoker's car"
-            ],
-            [
-              "Pet odors",
-              "30-40 mg/m³",
-              "40-60 min",
-              "With recirculation on"
-            ],
-            [
-              "After flooding",
-              "40-60 mg/m³",
-              "60 min",
-              "After interior drying"
-            ],
-            [
-              "AC disinfection",
-              "20-30 mg/m³",
-              "30 min",
-              "Recirculation only"
-            ]
+            ["Light odors", "10-20 mg/m³", "20 min", "Preventive treatment"],
+            ["Tobacco smoke (light)", "20-30 mg/m³", "30 min", "After smoking passenger"],
+            ["Tobacco smoke (strong)", "30-40 mg/m³", "45-60 min", "Smoker's car"],
+            ["Pet odors", "30-40 mg/m³", "40-60 min", "With recirculation on"],
+            ["After flooding", "40-60 mg/m³", "60 min", "After interior drying"],
+            ["AC disinfection", "20-30 mg/m³", "30 min", "Recirculation only"]
           ]
         },
         "service": {
@@ -165,48 +130,20 @@
             "Reputation risks — odor complaints lower ratings",
             "Regularity — possibility of service contracts"
           ],
-          "tableHeaders": [
-            "Fleet type",
-            "Recommended frequency",
-            "Purpose"
-          ],
+          "tableHeaders": ["Fleet type", "Recommended frequency", "Purpose"],
           "tableCaption": "Recommended ozonation frequency",
           "tableData": [
-            [
-              "Car-sharing",
-              "Once a week",
-              "Prevent odor accumulation"
-            ],
-            [
-              "Economy taxi",
-              "Once every 2 weeks",
-              "Maintain interior freshness"
-            ],
-            [
-              "Business/comfort taxi",
-              "Once a week",
-              "High quality standard"
-            ],
-            [
-              "Rental cars",
-              "After each customer",
-              "Preparation for next rental"
-            ],
-            [
-              "Corporate transport",
-              "Once a month",
-              "Preventive treatment"
-            ]
+            ["Car-sharing", "Once a week", "Prevent odor accumulation"],
+            ["Economy taxi", "Once every 2 weeks", "Maintain interior freshness"],
+            ["Business/comfort taxi", "Once a week", "High quality standard"],
+            ["Rental cars", "After each customer", "Preparation for next rental"],
+            ["Corporate transport", "Once a month", "Preventive treatment"]
           ]
         },
         "comparison": {
           "title": "Comparison with alternative methods",
           "tableTitle": "Ozonation vs chemical air fresheners",
-          "headers": [
-            "Parameter",
-            "Ozonation",
-            "Fresheners/neutralizers"
-          ],
+          "headers": ["Parameter", "Ozonation", "Fresheners/neutralizers"],
           "rows": [
             {
               "parameter": "Principle of action",
@@ -246,38 +183,14 @@
             "title": "Important:",
             "text": "After ozonating a leather interior, it's recommended to treat the leather with conditioner. Ozone can slightly dry natural leather, though at correct concentrations this is not critical."
           },
-          "tableHeaders": [
-            "Interior type",
-            "Features",
-            "Recommendations"
-          ],
+          "tableHeaders": ["Interior type", "Features", "Recommendations"],
           "tableCaption": "Recommendations by upholstery type",
           "tableData": [
-            [
-              "Fabric",
-              "Absorbs odors well",
-              "Increase treatment time by 20%"
-            ],
-            [
-              "Leather",
-              "Less absorption, easier to treat",
-              "Standard mode"
-            ],
-            [
-              "Synthetic leather",
-              "Similar to natural leather",
-              "Standard mode"
-            ],
-            [
-              "Alcantara",
-              "Microfiber, absorbs well",
-              "Same as fabric interior"
-            ],
-            [
-              "Combined",
-              "Different materials",
-              "Focus on fabric elements"
-            ]
+            ["Fabric", "Absorbs odors well", "Increase treatment time by 20%"],
+            ["Leather", "Less absorption, easier to treat", "Standard mode"],
+            ["Synthetic leather", "Similar to natural leather", "Standard mode"],
+            ["Alcantara", "Microfiber, absorbs well", "Same as fabric interior"],
+            ["Combined", "Different materials", "Focus on fabric elements"]
           ]
         }
       }

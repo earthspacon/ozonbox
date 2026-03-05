@@ -61,33 +61,13 @@
         "odorProblem": {
           "title": "Odor problem in gyms",
           "text": "Sweat odor in gyms is the result of bacterial activity on human skin. Regular cleaning and air fresheners only mask the problem. Ozone breaks down odor molecules and destroys the bacteria that produce them.",
-          "tableHeaders": [
-            "Odor type",
-            "Source",
-            "Elimination time"
-          ],
+          "tableHeaders": ["Odor type", "Source", "Elimination time"],
           "tableCaption": "Ozone effectiveness against odors",
           "tableData": [
-            [
-              "Sweat",
-              "Skin bacteria",
-              "30-60 min"
-            ],
-            [
-              "Dampness",
-              "Mold and fungi",
-              "60-90 min"
-            ],
-            [
-              "Stale air",
-              "Insufficient ventilation",
-              "40-60 min"
-            ],
-            [
-              "Rubber",
-              "Flooring and mats",
-              "90-120 min"
-            ]
+            ["Sweat", "Skin bacteria", "30-60 min"],
+            ["Dampness", "Mold and fungi", "60-90 min"],
+            ["Stale air", "Insufficient ventilation", "40-60 min"],
+            ["Rubber", "Flooring and mats", "90-120 min"]
           ]
         },
         "process": {
@@ -118,44 +98,14 @@
             "title": "Calculation formula:",
             "text": "1 g/h ozone capacity per 25 m³ of room volume. For rooms with high contamination or large surface area, increase capacity by 20–30%."
           },
-          "tableHeaders": [
-            "Facility type",
-            "Volume",
-            "Capacity",
-            "Time"
-          ],
+          "tableHeaders": ["Facility type", "Volume", "Capacity", "Time"],
           "tableCaption": "Recommended ozone generator capacity",
           "tableData": [
-            [
-              "Fitness hall",
-              "200-500 m³",
-              "10-20 g/h",
-              "120 min"
-            ],
-            [
-              "Locker room",
-              "50-100 m³",
-              "3-5 g/h",
-              "90 min"
-            ],
-            [
-              "Gym",
-              "300-600 m³",
-              "15-25 g/h",
-              "150 min"
-            ],
-            [
-              "Sports arena",
-              "2000-5000 m³",
-              "80-200 g/h",
-              "180 min"
-            ],
-            [
-              "Pool (air)",
-              "500-1500 m³",
-              "20-60 g/h",
-              "120 min"
-            ]
+            ["Fitness hall", "200-500 m³", "10-20 g/h", "120 min"],
+            ["Locker room", "50-100 m³", "3-5 g/h", "90 min"],
+            ["Gym", "300-600 m³", "15-25 g/h", "150 min"],
+            ["Sports arena", "2000-5000 m³", "80-200 g/h", "180 min"],
+            ["Pool (air)", "500-1500 m³", "20-60 g/h", "120 min"]
           ]
         },
         "specialZones": {
@@ -181,53 +131,21 @@
         },
         "pathogens": {
           "title": "Effectiveness against pathogens",
-          "tableHeaders": [
-            "Pathogen",
-            "Inactivation time",
-            "Efficiency"
-          ],
+          "tableHeaders": ["Pathogen", "Inactivation time", "Efficiency"],
           "tableCaption": "Pathogen inactivation time (concentration 20 mg/m³)",
           "tableData": [
-            [
-              "Trichophyton (athlete's foot)",
-              "20-30 min",
-              "99.9%"
-            ],
-            [
-              "Candida albicans",
-              "15-20 min",
-              "99.9%"
-            ],
-            [
-              "Staphylococcus aureus",
-              "10-15 min",
-              "99.99%"
-            ],
-            [
-              "Influenza viruses",
-              "5-10 min",
-              "99.99%"
-            ],
-            [
-              "Mold (spores)",
-              "30-40 min",
-              "99%"
-            ],
-            [
-              "E. coli",
-              "5-10 min",
-              "99.99%"
-            ]
+            ["Trichophyton (athlete's foot)", "20-30 min", "99.9%"],
+            ["Candida albicans", "15-20 min", "99.9%"],
+            ["Staphylococcus aureus", "10-15 min", "99.99%"],
+            ["Influenza viruses", "5-10 min", "99.99%"],
+            ["Mold (spores)", "30-40 min", "99%"],
+            ["E. coli", "5-10 min", "99.99%"]
           ]
         },
         "comparison": {
           "title": "Comparison with traditional cleaning",
           "tableTitle": "Ozonation vs chemical disinfection",
-          "headers": [
-            "Criterion",
-            "Ozonation",
-            "Chemical treatment"
-          ],
+          "headers": ["Criterion", "Ozonation", "Chemical treatment"],
           "rows": [
             {
               "parameter": "Sweat odor elimination",

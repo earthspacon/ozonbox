@@ -48,43 +48,13 @@
         "application": {
           "title": "Sut ishlab chiqarishda ozonning qo'llanilishi",
           "tableCaption": "Sut zaveh uskunalari uchun ozonatsiya rejimi",
-          "tableHeaders": [
-            "Ishlov berish ob'ekti",
-            "Usul",
-            "Kontsentratsiya",
-            "Samaradorlik"
-          ],
+          "tableHeaders": ["Ishlov berish ob'ekti", "Usul", "Kontsentratsiya", "Samaradorlik"],
           "tableData": [
-            [
-              "Sut chiqarish uskunasi",
-              "Ozonatsiyalangan suv",
-              "2–3 mg/L",
-              "99,9%"
-            ],
-            [
-              "Sovutish taniklari",
-              "Suv + hava",
-              "3–5 mg/L",
-              "99,99%"
-            ],
-            [
-              "Sut liniyalari",
-              "Ozonatsiyalangan suv shuying",
-              "2–3 mg/L",
-              "99,9%"
-            ],
-            [
-              "Saqlash taniklari",
-              "Gazsimon ozone",
-              "5–10 mg/m³",
-              "99,99%"
-            ],
-            [
-              "Sovuq xonalar",
-              "Gazsimon ozone",
-              "3–6 mg/m³",
-              "99,5%"
-            ]
+            ["Sut chiqarish uskunasi", "Ozonatsiyalangan suv", "2–3 mg/L", "99,9%"],
+            ["Sovutish taniklari", "Suv + hava", "3–5 mg/L", "99,99%"],
+            ["Sut liniyalari", "Ozonatsiyalangan suv shuying", "2–3 mg/L", "99,9%"],
+            ["Saqlash taniklari", "Gazsimon ozone", "5–10 mg/m³", "99,99%"],
+            ["Sovuq xonalar", "Gazsimon ozone", "3–6 mg/m³", "99,5%"]
           ]
         },
         "advantages": {
@@ -100,11 +70,7 @@
         },
         "comparison": {
           "title": "Sanitatsiya usullarini taqqoslash",
-          "headers": [
-            "Parametr",
-            "Ozonatsiya",
-            "Kimyoviy CIP tozalash"
-          ],
+          "headers": ["Parametr", "Ozonatsiya", "Kimyoviy CIP tozalash"],
           "rows": [
             {
               "parameter": "Listeria ga nisbatan samaradorlik",
@@ -142,43 +108,13 @@
           "title": "Sut mahsulotlarini saqlash",
           "intro": "Sut mahsulotlarini saqlash uchun sovuq xonalarini ozonatsiya qilish ko'plakni rivojlanishini oldini oladi, psikhrofillik bakteriyalarni bosgiradi va pog'ona pishloq, shora krema, yogurtning saqlash muddatini 30–50% uzaytiradi.",
           "tableCaption": "Sut mahsulotlarini saqlash uchun ozonatsiya rejimi",
-          "tableHeaders": [
-            "Mahsulot",
-            "Harorat",
-            "Kontsentratsiya",
-            "Saqlash muddatini uzaytirish"
-          ],
+          "tableHeaders": ["Mahsulot", "Harorat", "Kontsentratsiya", "Saqlash muddatini uzaytirish"],
           "tableData": [
-            [
-              "Pog'ona pishloq",
-              "+2...+6°C",
-              "3–4 mg/m³",
-              "+40%"
-            ],
-            [
-              "Shora krema",
-              "+2...+6°C",
-              "2–3 mg/m³",
-              "+35%"
-            ],
-            [
-              "Yogurt",
-              "+2...+6°C",
-              "2–3 mg/m³",
-              "+30%"
-            ],
-            [
-              "Sariyog'",
-              "-6...-12°C",
-              "3–5 mg/m³",
-              "+50%"
-            ],
-            [
-              "Yumshoq pishloq",
-              "+4...+8°C",
-              "3–6 mg/m³",
-              "+45%"
-            ]
+            ["Pog'ona pishloq", "+2...+6°C", "3–4 mg/m³", "+40%"],
+            ["Shora krema", "+2...+6°C", "2–3 mg/m³", "+35%"],
+            ["Yogurt", "+2...+6°C", "2–3 mg/m³", "+30%"],
+            ["Sariyog'", "-6...-12°C", "3–5 mg/m³", "+50%"],
+            ["Yumshoq pishloq", "+4...+8°C", "3–6 mg/m³", "+45%"]
           ],
           "highlight": {
             "text": "Sovuq saqlashda ozonatsiya mikroflora o'sishini bosgirmasdan, mahsulotdagi noxush ta'mlarni ham oldini oladi, bu ayniqsa uzun muddat sariyog' saqlashda muhim."

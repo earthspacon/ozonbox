@@ -60,37 +60,12 @@
           "title": "Ozone pretreatment of refractory ores",
           "intro": "Refractory gold ores contain gold locked in sulfide minerals (pyrite, arsenopyrite, pyrrhotite), which limits recovery by conventional cyanidation. Ozone pretreatment oxidizes sulfides and improves gold and silver extraction.",
           "tableCaption": "Results of ozone pretreatment of refractory ores (studies)",
-          "tableHeaders": [
-            "Parameter",
-            "Without ozone",
-            "With ozone",
-            "Change"
-          ],
+          "tableHeaders": ["Parameter", "Without ozone", "With ozone", "Change"],
           "tableData": [
-            [
-              "Gold recovery",
-              "53%",
-              "88%",
-              "+35%"
-            ],
-            [
-              "Silver recovery",
-              "26%",
-              "78%",
-              "+52%"
-            ],
-            [
-              "Leaching time",
-              "40 h",
-              "24 h",
-              "−40%"
-            ],
-            [
-              "Ore type",
-              "Double refractory (Mexico)",
-              "Direct ozone pretreatment",
-              "—"
-            ]
+            ["Gold recovery", "53%", "88%", "+35%"],
+            ["Silver recovery", "26%", "78%", "+52%"],
+            ["Leaching time", "40 h", "24 h", "−40%"],
+            ["Ore type", "Double refractory (Mexico)", "Direct ozone pretreatment", "—"]
           ],
           "note": "Sulfide oxidation by ozone releases gold for subsequent cyanidation and can reduce cyanide consumption in the leaching stage."
         },
@@ -98,37 +73,12 @@
           "title": "Cyanide destruction in wastewater",
           "intro": "Ozone oxidizes free cyanide (CN⁻) to cyanate (CNO⁻), then with further oxidation and hydrolysis to bicarbonate and nitrogen. Typical reaction time 10–30 minutes. Industrial trials at gold operations in South Africa and Southeast Asia showed >99% reduction of free and WAD cyanide at 2–3 g O₃ per gram CN.",
           "tableCaption": "Effectiveness of ozone cyanide destruction",
-          "tableHeaders": [
-            "Parameter",
-            "Before treatment",
-            "After treatment",
-            "O₃ dose"
-          ],
+          "tableHeaders": ["Parameter", "Before treatment", "After treatment", "O₃ dose"],
           "tableData": [
-            [
-              "Free cyanide",
-              "50–200 mg/L",
-              "< 0.5 mg/L",
-              "2–3 g O₃/g CN"
-            ],
-            [
-              "WAD cyanide",
-              "100–400 mg/L",
-              "< 1 mg/L",
-              "2–3 g O₃/g CN"
-            ],
-            [
-              "Thiocyanate (SCN⁻)",
-              "—",
-              "requires 3–4 g O₃/g",
-              "Higher than for CN⁻"
-            ],
-            [
-              "Contact time",
-              "—",
-              "10–30 min",
-              "—"
-            ]
+            ["Free cyanide", "50–200 mg/L", "< 0.5 mg/L", "2–3 g O₃/g CN"],
+            ["WAD cyanide", "100–400 mg/L", "< 1 mg/L", "2–3 g O₃/g CN"],
+            ["Thiocyanate (SCN⁻)", "—", "requires 3–4 g O₃/g", "Higher than for CN⁻"],
+            ["Contact time", "—", "10–30 min", "—"]
           ]
         },
         "scheme": {
@@ -160,37 +110,12 @@
           "title": "Economics and deployment",
           "intro": "Capital costs for ozone systems are higher than for some chemical oxidants, but operating costs are often lower (e.g. vs. sodium hypochlorite). The technology does not require tailings stream changes, provides fast and irreversible reaction, and improves operator safety by eliminating handling of hazardous chemicals.",
           "tableCaption": "Ozone vs chemical cyanide oxidants",
-          "tableHeaders": [
-            "Parameter",
-            "Ozone",
-            "Hypochlorite",
-            "Hydrogen peroxide"
-          ],
+          "tableHeaders": ["Parameter", "Ozone", "Hypochlorite", "Hydrogen peroxide"],
           "tableData": [
-            [
-              "CN reduction (typical)",
-              "> 99%",
-              "> 99%",
-              "90–98%"
-            ],
-            [
-              "Hazardous residues",
-              "None",
-              "Chlorine, chlorates",
-              "Minimal"
-            ],
-            [
-              "On-site generation",
-              "Yes (from air)",
-              "No",
-              "Partial"
-            ],
-            [
-              "ICMC compliance",
-              "Yes",
-              "Yes",
-              "Yes"
-            ]
+            ["CN reduction (typical)", "> 99%", "> 99%", "90–98%"],
+            ["Hazardous residues", "None", "Chlorine, chlorates", "Minimal"],
+            ["On-site generation", "Yes (from air)", "No", "Partial"],
+            ["ICMC compliance", "Yes", "Yes", "Yes"]
           ]
         },
         "benefits": {

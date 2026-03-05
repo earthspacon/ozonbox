@@ -97,20 +97,8 @@
             "Ozon bilan yashovchanlik, %"
           ],
           "tableData": [
-            [
-              "Tuxum qo'yuvchi tovuqlar",
-              "83.9",
-              "86.4",
-              "97.0",
-              "97.8"
-            ],
-            [
-              "Go'sht yo'nalishidagi tovuqlar",
-              "79.4",
-              "81.8",
-              "93.3",
-              "94.8"
-            ]
+            ["Tuxum qo'yuvchi tovuqlar", "83.9", "86.4", "97.0", "97.8"],
+            ["Go'sht yo'nalishidagi tovuqlar", "79.4", "81.8", "93.3", "94.8"]
           ],
           "highlight": "VNITIP tavsiyalari: inkubatsiya tuxumlarini ozonli muhitda uzoq muddat saqlash muddatidan oldin buzilishning oldini oladi, po'stloq ifloslanishini 2–7 baravar kamaytiradi, mog'or rivojlanishiga yo'l qo'ymaydi va saqlash muddatini 10 kungacha uzaytiradi."
         },
@@ -125,42 +113,14 @@
           "intro1": "Parrandalar faoliyati natijasida parrandaxona havosi zararli moddalar bilan ifloslanadi: ammiak (0,01 mg/l me'yorda 0,3–0,5 mg/l gacha), vodorod sulfidi, karbonat angidrid, mikroflorali organik chang (30–50 mg/l gacha).",
           "intro2": "Retsirkulyatsiya tizimidagi ozonlash havoni sezilarli shamollatish va isitish xarajatlarisiz tozalash imkonini beradi.",
           "tableCaption": "Parrandaxona havosini tozalash samaradorligi (ozon kontsentratsiyasi 11,3 mg/l)",
-          "tableHeaders": [
-            "Ko'rsatkich",
-            "Ishlov berishdan oldin",
-            "Ishlov berishdan keyin"
-          ],
+          "tableHeaders": ["Ko'rsatkich", "Ishlov berishdan oldin", "Ishlov berishdan keyin"],
           "tableData": [
-            [
-              "Vodorod sulfidi, mg/l",
-              "0.15",
-              "0.0002"
-            ],
-            [
-              "Ammiak, mg/l",
-              "0.12",
-              "0.004"
-            ],
-            [
-              "Karbonat angidrid, mg/l",
-              "14.2",
-              "0.2"
-            ],
-            [
-              "Organik chang, mg/l",
-              "18.1",
-              "—"
-            ],
-            [
-              "Kislorod, hajmiy %",
-              "21.2",
-              "21.7"
-            ],
-            [
-              "Mikroflora, koloniya/m³",
-              "27,480",
-              "< 200"
-            ]
+            ["Vodorod sulfidi, mg/l", "0.15", "0.0002"],
+            ["Ammiak, mg/l", "0.12", "0.004"],
+            ["Karbonat angidrid, mg/l", "14.2", "0.2"],
+            ["Organik chang, mg/l", "18.1", "—"],
+            ["Kislorod, hajmiy %", "21.2", "21.7"],
+            ["Mikroflora, koloniya/m³", "27,480", "< 200"]
           ],
           "highlight": "Vaqti-vaqti bilan ozonlash (har 3–5 kunda bir marta 8–12 soat davomida) zararli gazlar miqdorini 80–85% ga, bakterial va mog'or ifloslanishini esa 80–90% ga kamaytiradi."
         },
@@ -193,28 +153,10 @@
           "title": "Yemni dezinfeksiya qilish",
           "intro": "Yem tarkibidagi mikroflora va mog'or zamburug'lari parrandalar salomatligiga xavf tug'diradigan toksinlar ishlab chiqaradi. Yemni ozon bilan ishlash mikroflora va toksinlarni sezilarli darajada kamaytiradi, ozuqaviy qiymatini va yemning hazm bo'lishini oshiradi.",
           "tableCaption": "Yemni ozonlash samaradorligi",
-          "tableHeaders": [
-            "Ko'rsatkich",
-            "Ozonsiz bug'doy",
-            "Ozon bilan bug'doy",
-            "Ozonsiz yem",
-            "Ozon bilan yem"
-          ],
+          "tableHeaders": ["Ko'rsatkich", "Ozonsiz bug'doy", "Ozon bilan bug'doy", "Ozonsiz yem", "Ozon bilan yem"],
           "tableData": [
-            [
-              "Mikroflora, koloniya/g",
-              "945",
-              "63",
-              "27,840",
-              "91"
-            ],
-            [
-              "Toksinlar, mg/kg",
-              "5.11",
-              "0.12",
-              "4.87",
-              "0.18"
-            ]
+            ["Mikroflora, koloniya/g", "945", "63", "27,840", "91"],
+            ["Toksinlar, mg/kg", "5.11", "0.12", "4.87", "0.18"]
           ]
         },
         "storage": {
@@ -223,114 +165,35 @@
           "tableTitle": "Parranda go'shtini saqlashni solishtirish",
           "tableCaption": "Parranda go'shtini saqlashni solishtirish",
           "highlight": "20 kunlik saqlashdan keyin ozonlangan go'sht hidsiz, o'zining yangiligi va yumshoqligini saqlab qoldi. Ishlov berilmagan go'sht esa atigi 5 kundan keyin yashil rangga kirib, sassiq hid chiqara boshladi.",
-          "tableHeaders": [
-            "Ko'rsatkich",
-            "Ozon bilan",
-            "Ozonsiz"
-          ],
+          "tableHeaders": ["Ko'rsatkich", "Ozon bilan", "Ozonsiz"],
           "tableData": [
-            [
-              "Maksimal saqlash muddati",
-              "18–21 kun",
-              "5–7 kun"
-            ],
-            [
-              "Vazn yo'qotish",
-              "7.6%",
-              "10.9%"
-            ],
-            [
-              "Tana rangi",
-              "Och sariq",
-              "Sariq"
-            ],
-            [
-              "Go'sht hidi",
-              "Yangi go'shtga xos",
-              "Mog'orlagan, sassiq"
-            ],
-            [
-              "Saqlashdan keyingi bakterial ifloslanish",
-              "65 koloniya/ml",
-              "736 koloniya/ml"
-            ]
+            ["Maksimal saqlash muddati", "18–21 kun", "5–7 kun"],
+            ["Vazn yo'qotish", "7.6%", "10.9%"],
+            ["Tana rangi", "Och sariq", "Sariq"],
+            ["Go'sht hidi", "Yangi go'shtga xos", "Mog'orlagan, sassiq"],
+            ["Saqlashdan keyingi bakterial ifloslanish", "65 koloniya/ml", "736 koloniya/ml"]
           ]
         },
         "modes": {
           "title": "Parrandachilikda ozonlash rejimlari",
-          "tableHeaders": [
-            "Ozonlash maqsadi",
-            "Kontsentratsiya",
-            "Ishlov berish vaqti",
-            "Davriyligi"
-          ],
+          "tableHeaders": ["Ozonlash maqsadi", "Kontsentratsiya", "Ishlov berish vaqti", "Davriyligi"],
           "tableData": [
-            [
-              "Tuxumlarni profilaktik dezinfeksiya qilish",
-              "8–12 mg/m³",
-              "60 min",
-              "Yuklashdan oldin bir marta"
-            ],
-            [
-              "Inkubatsiya paytida dezinfeksiya qilish",
-              "8–12 mg/m³",
-              "30 min",
-              "Yuklashdan 6 soat o'tgach"
-            ],
-            [
-              "Inkubatsiya tuxumlarini saqlash",
-              "4–15 mg/m³",
-              "120–180 min",
-              "Kuniga bir marta"
-            ],
-            [
-              "Embrional rivojlanishni rag'batlantirish",
-              "~10 mg/m³",
-              "20 min",
-              "Butun davr davomida kuniga bir marta"
-            ],
-            [
-              "Parrandaxona havosini dezinfeksiya qilish",
-              "8–12 mg/m³",
-              "5–10 min",
-              "Kuniga 2–3 marta"
-            ],
+            ["Tuxumlarni profilaktik dezinfeksiya qilish", "8–12 mg/m³", "60 min", "Yuklashdan oldin bir marta"],
+            ["Inkubatsiya paytida dezinfeksiya qilish", "8–12 mg/m³", "30 min", "Yuklashdan 6 soat o'tgach"],
+            ["Inkubatsiya tuxumlarini saqlash", "4–15 mg/m³", "120–180 min", "Kuniga bir marta"],
+            ["Embrional rivojlanishni rag'batlantirish", "~10 mg/m³", "20 min", "Butun davr davomida kuniga bir marta"],
+            ["Parrandaxona havosini dezinfeksiya qilish", "8–12 mg/m³", "5–10 min", "Kuniga 2–3 marta"],
             [
               "So'yish/kesish xonasi havo va tanalar",
               "4–8 ppm (gaz), 1–5 ppm (suv)",
               "4–10 min (tana), doimiy (suv)",
               "Qayta ishlash paytida"
             ],
-            [
-              "Bo'sh parrandaxonani dezinfeksiya qilish",
-              "15–30 mg/m³",
-              "2–4 soat",
-              "Tsikllar orasida"
-            ],
-            [
-              "Havo kanali/ventilyatsiyani dezinfeksiya qilish",
-              "10–20 mg/m³",
-              "1–2 soat",
-              "Parrandaxona bo'sh paytda"
-            ],
-            [
-              "Oqova/texnologik suvni dezinfeksiya qilish",
-              "5–15 mg/l",
-              "10–30 min",
-              "Doimiy yoki partiyalab"
-            ],
-            [
-              "Don omborlarini ishlash",
-              "8–12 mg/m³",
-              "60–120 min",
-              "Kuniga bir marta"
-            ],
-            [
-              "Go'shtni saqlash paytida ishlash",
-              "~6 mg/m³",
-              "120 min",
-              "Kuniga 1–2 marta"
-            ]
+            ["Bo'sh parrandaxonani dezinfeksiya qilish", "15–30 mg/m³", "2–4 soat", "Tsikllar orasida"],
+            ["Havo kanali/ventilyatsiyani dezinfeksiya qilish", "10–20 mg/m³", "1–2 soat", "Parrandaxona bo'sh paytda"],
+            ["Oqova/texnologik suvni dezinfeksiya qilish", "5–15 mg/l", "10–30 min", "Doimiy yoki partiyalab"],
+            ["Don omborlarini ishlash", "8–12 mg/m³", "60–120 min", "Kuniga bir marta"],
+            ["Go'shtni saqlash paytida ishlash", "~6 mg/m³", "120 min", "Kuniga 1–2 marta"]
           ]
         },
         "benefits": {

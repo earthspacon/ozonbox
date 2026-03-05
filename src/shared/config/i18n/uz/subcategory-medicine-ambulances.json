@@ -3,17 +3,167 @@
   "description": "Tibbiyotda ozon terapiyasi va ozonlash: operatsiya xonalari va palatalarni sterilizatsiya qilish, tibbiy uskunalarni dezinfeksiya qilish, stomatologiya kabinetlarini, reabilitatsiya markazlarini va tez yordam mashinalarini davolash.",
   "subcategories": {
     "ambulances": {
-      "title": "Shifoxona mashinalar",
+      "title": "Tez yordam mashinalari",
       "shortDesc": "Tibbiy transportni tez dezinfeksiya qilish",
-      "content": "Shifoxona mashinalar turli yuqumli kasalliklar bilan bemorlarni tashiladi. Qo'ng'iroqlar o'rtasida tez va samarali dezinfeksiya infeksiya tarqalishini oldini olish uchun juda muhimdir.\n\nShifoxona mashinasining ichining ozonlashi 20–30 daqiqani oladi va barcha sirtlarning to'liq dezinfeksiyasini ta'minlaydi: dandalanlar, uskunalar, qo'l tutgichlari, pol, devarlar va shponka. Gaz o'rindiq obivkasi va qiyin erishiladigan joylarni kirib boradi.\n\nDezinfektantlar bilan an'anaviy silkitish gaz dezinfeksiyasi kabi ishlov berish darajasiga erishmasa. Ozon qo'lda silkitish imkonsiz joylarni erishadi va havoda patogenlarni yo'q qiladi.\n\nShifoxona mashinalari uchun mobil ozon generatorlari 12V yoki 24V mashinaning quvvatida ishlaydi. Uskunalar juda kompakt va kabinada saqlansa bo'ladi. Ishlov berishdan keyin 10–15 daqiqada ventilyatsiya qiling. Mashina keyingi qo'ng'iroqqa tayyor.",
+      "heroText": "Chaqiruvlar orasida tez yordam salonini 20-30 daqiqada tez dezinfeksiya qilish. 220V/230V elektr tarmog'idan ishlaydigan mobil ozonatorlar. Barcha sirtlar va uskunalarni to'liq ishlov berish.",
+      "content": "Tez yordam mashinalari turli yuqumli kasalliklar bilan bemorlarni tashiydi. Chaqiruvlar orasida tez va samarali dezinfeksiya infeksiyaning tarqalishini oldini olish uchun juda muhim.\n\nTez yordam salonini ozonlash 20-30 daqiqa davom etadi va barcha sirtlarni to'liq dezinfeksiya qiladi: zambillar, uskunalar, tutqichlar, pol, devorlar va shift. Gaz o'rindiq qoplamasi va qiyin yetib boriladigan joylarga kirib boradi.\n\nDezinfeksiya eritmalar bilan an'anaviy artish gaz dezinfeksiyasi kabi darajadagi ishlov berishni ta'minlay olmaydi. Ozon qo'lda ishlov berish uchun yetib bo'lmaydigan joylarga yetib boradi va havodagi patogenlarni yo'q qiladi.\n\nTez yordam uchun mobil ozonatorlar 12V yoki 24V bort tarmog'idan ishlaydi. Uskuna ixcham va salonda saqlanishi mumkin. Ishlov berishdan keyin 10-15 daqiqa shamollating. Mashina keyingi chaqiruvga tayyor.",
       "benefits": [
-        "20–30 daqiqada tez dezinfeksiya",
-        "Barcha sirtlarning to'liq ishlov berish",
-        "Elektr ta'minotida foydalanish",
-        "Kompakt mobil uskunalar",
-        "O'zaro infeksiyaning oldini olsh",
-        "Keyingi qo'ng'iroqqa tez tayyorlik"
-      ]
+        "20-30 daqiqada tez dezinfeksiya",
+        "Barcha sirtlarni to'liq ishlov berish",
+        "Elektr tarmog'idan ishlash",
+        "Ixcham mobil uskuna",
+        "O'zaro yuqish oldini olish",
+        "Keyingi chaqiruvga tez tayyorlik"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "20-30",
+          "label": "Daqiqa",
+          "description": "To'liq dezinfeksiya tsikli"
+        },
+        "stat2": {
+          "value": "220V/230V",
+          "label": "Quvvat",
+          "description": "Elektr tarmog'idan ishlash"
+        },
+        "stat3": {
+          "value": "99,9%",
+          "label": "Patogenlar",
+          "description": "Ishlov berishda yo'q qilinadi"
+        },
+        "stat4": {
+          "value": "100%",
+          "label": "Qamrov",
+          "description": "Salon barcha sirtlari"
+        }
+      },
+      "sections": {
+        "intro": {
+          "text": "Tez yordam mashinalari har kuni turli yuqumli kasalliklar bilan bemorlarni tashiydi: ORVI, sil, COVID-19, ichak infeksiyalari. Chaqiruvlar orasida sifatli dezinfeksiya qilinmasa, mashina o'zaro yuqish manbayiga aylanadi.",
+          "text2": "Ozonlash tibbiy transportni tez dezinfeksiya qilishning samarali usuli. 20-30 daqiqada ozon barcha sirtlardagi kasallik qo'zg'atuvchi mikroorganizmlarni yo'q qiladi, shu jumladan qo'lda artishda yetib bo'lmaydigan qiyin joylarda ham."
+        },
+        "highlight1": {
+          "title": "Muhim zarurat:",
+          "text": "Tadqiqotlar ma'lumotlariga ko'ra, tez yordam salonlaridagi sirtlarda antibiotiklarga chidamli shtammlar bilan birga keng doiradagi patogenlar topiladi. An'anaviy artish faqat 60-70% sirtlarni qamrab oladi."
+        },
+        "problem": {
+          "title": "Tez yordam dezinfeksiyasi muammolari",
+          "text": "Mavjud dezinfeksiya usullari jiddiy cheklovlarga ega:",
+          "items": [
+            "Chaqiruvlar orasida cheklangan vaqt — uzoq muddatli ishlov berish mumkin emas",
+            "Qiyin yetib boriladigan joylar — bo'shliqlar, o'rindiq qoplamalari, ventilyatsiya",
+            "Sirtlarning xilma-xilligi — metall, plastik, mato, elektronika",
+            "Tibbiy uskuna — barcha dezinfektantlar asboblar uchun xavfsiz emas",
+            "Kimyoviy moddalarning qoldiq hidlari — keyingi bemorlar uchun noqulaylik"
+          ]
+        },
+        "process": {
+          "title": "Ozonlash jarayoni",
+          "text": "Ozon bilan tez dezinfeksiya bir necha oddiy bosqichda o'tkaziladi:",
+          "steps": [
+            {
+              "title": "Tayyorgarlik",
+              "description": "Salon derazalari va eshiklarini yopish. Mobil ozonatorni o'rnatish. 220V/230V elektr tarmog'iga yoki tashqi manbaga ulash."
+            },
+            {
+              "title": "Ozonlash",
+              "description": "Ozonatorni 15-20 daqiqaga yoqish. Ozon konsentratsiyasi 20-30 mg/m³ ga yetadi, bu patogenlarni yo'q qilishni ta'minlaydi."
+            },
+            {
+              "title": "Ta'sir qilish",
+              "description": "Konsentratsiyani 5-10 daqiqa ushlab turish. Ozon qoplamaga, uskuna bo'shliqlarga, ventilyatsiya tizimiga kirib boradi."
+            },
+            {
+              "title": "Shamollating",
+              "description": "Eshiklarni ochish, 10-15 daqiqa shamollating. Ozon kislorodga parchalanadi. Mashina chaqiruvga tayyor."
+            }
+          ],
+          "highlight": "Butun jarayon 30-45 daqiqa davom etadi. Yoqilg'i quyish yoki texnik tanaffus vaqtida foydalanilganda brigada samaradorligini pasaytirmaydi."
+        },
+        "modes": {
+          "title": "Ishlov berish rejimlari",
+          "text": "Epidemiologik vaziyat va tashilayotgan bemorlar turiga qarab turli rejimlar qo'llaniladi:",
+          "table": {
+            "caption": "Tez yordam ozonlash rejimlari",
+            "headers": ["Ishlov berish turi", "Konsentratsiya", "Vaqt", "Qo'llanilishi"],
+            "rows": [
+              ["Standart", "15-20 mg/m³", "15-20 daq", "Har bir chaqiruvdan keyin"],
+              ["Kuchaytirilgan", "25-30 mg/m³", "25-30 daq", "Yuqumli bemordan keyin"],
+              ["Yakuniy", "30-40 mg/m³", "40-60 daq", "Smena oxirida"]
+            ]
+          }
+        },
+        "equipment": {
+          "title": "Tez yordam uchun uskuna",
+          "text": "Mobil ozonatorlar maxsus tez yordam mashinalarida foydalanish uchun ishlab chiqilgan:",
+          "features": [
+            {
+              "title": "Ixcham o'lchamlar",
+              "description": "O'lchamlar ozonatorni salonda saqlash imkonini beradi. Qurilma og'irligi 3-5 kg. Ko'p joy olmaydi."
+            },
+            {
+              "title": "220V/230V dan ishlash",
+              "description": "Bort tarmog'iga sigaret yoqgich yoki klemmalar orqali ulash. Portativ akkumulyatordan ishlash mumkin."
+            },
+            {
+              "title": "Avtomatik taymer",
+              "description": "Dasturlashtiriladigan ish rejimlari. Tsikl tugagach avtomatik o'chirish. Ovozli signal."
+            },
+            {
+              "title": "Foydalanish qulayligi",
+              "description": "Bir tugma bilan boshqarish. Maxsus ta'lim talab qilinmaydi. Qurilma korpusida ko'rsatma."
+            }
+          ]
+        },
+        "comparison": {
+          "title": "An'anaviy usullar bilan taqqoslash",
+          "tableTitle": "Ozon va kimyoviy dezinfeksiya",
+          "headers": ["Parametr", "Ozonlash", "Dezinfektantlar bilan artish"],
+          "rows": [
+            {
+              "parameter": "Ishlov berish vaqti",
+              "value1": "20-30 daqiqa",
+              "value2": "15-20 daqiqa"
+            },
+            {
+              "parameter": "Sirtlarni qamrab olish",
+              "value1": "100% (qiyin joylari bilan)",
+              "value2": "60-70% (faqat ochiq joylar)"
+            },
+            {
+              "parameter": "Havoni tozalash",
+              "value1": "Ha",
+              "value2": "Yo'q"
+            },
+            {
+              "parameter": "Qoldiq hid",
+              "value1": "Yo'q (O₂ ga parchalanadi)",
+              "value2": "Ha (kimyoviy hid)"
+            },
+            {
+              "parameter": "Xodimlar mehnati",
+              "value1": "Minimal (yoqish-o'chirish)",
+              "value2": "Sezilarli (qo'lda artish)"
+            }
+          ]
+        },
+        "benefits": {
+          "title": "Tez yordam xizmati uchun afzalliklar",
+          "items": [
+            "Chaqiruvlar orasida tez dezinfeksiya — samaradorlikni pasaytirmaydi",
+            "Barcha sirtlarni to'liq ishlov berish, qoplama va ventilyatsiya bilan",
+            "Minimal mehnat — xodimlar vaqtini tejaydi",
+            "Kimyoviy hidlar yo'q — bemorlar uchun qulaylik",
+            "Elektr tarmog'idan ishlash — tashqi quvvat manbalari kerak emas",
+            "Antibiotiklarga chidamli bakteriya va viruslarni yo'q qilish"
+          ],
+          "warning": "Ozonlash vaqtida xodimlar salonda bo'lmasligi kerak. Ish zonasida ozonning ruxsat etilgan konsentratsiyasi — 0,1 mg/m³. Zamonaviy mobil ozonatorlar taymer va ovozli signalizatsiya bilan jihozlangan."
+        }
+      },
+      "cta": {
+        "title": "Tez yordam avtoparkini jihozlamoqchimisiz?",
+        "text": "Tibbiy transport uchun mobil ozonatorlar bo'yicha maslahat oling"
+      }
     }
   }
 }

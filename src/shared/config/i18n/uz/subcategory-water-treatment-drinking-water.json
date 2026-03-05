@@ -42,11 +42,7 @@
         },
         "comparison": {
           "title": "Suvni dezinfeksiya qilish usullarini solishtirish",
-          "headers": [
-            "Parametr",
-            "Ozonlash",
-            "Xlorlash"
-          ],
+          "headers": ["Parametr", "Ozonlash", "Xlorlash"],
           "rows": [
             {
               "parameter": "Bakteriyalarga qarshi samaradorlik",
@@ -93,42 +89,14 @@
         "technicalParams": {
           "title": "Ozonlash texnik parametrlari",
           "tableCaption": "Ichimlik suvi uchun tavsiya etilgan parametrlar",
-          "tableHeaders": [
-            "Parametr",
-            "Qiymat",
-            "Normativ hujjat"
-          ],
+          "tableHeaders": ["Parametr", "Qiymat", "Normativ hujjat"],
           "tableData": [
-            [
-              "Ozon dozasi",
-              "1-3 mg/L",
-              "Suv sifatiga qarab"
-            ],
-            [
-              "Qolgan ozon",
-              "0.1-0.3 mg/L",
-              "Ichimlik suvi standartlari"
-            ],
-            [
-              "Kontakt vaqti",
-              "4-10 daqiqa",
-              "10-20°C haroratda"
-            ],
-            [
-              "Suv pH",
-              "6.5-8.5",
-              "Optimal diapazon"
-            ],
-            [
-              "Suv harorati",
-              "4-25°C",
-              "Samarali diapazon"
-            ],
-            [
-              "Manba suvining loyqaligi",
-              "< 2 NTU",
-              "Tavsiya"
-            ]
+            ["Ozon dozasi", "1-3 mg/L", "Suv sifatiga qarab"],
+            ["Qolgan ozon", "0.1-0.3 mg/L", "Ichimlik suvi standartlari"],
+            ["Kontakt vaqti", "4-10 daqiqa", "10-20°C haroratda"],
+            ["Suv pH", "6.5-8.5", "Optimal diapazon"],
+            ["Suv harorati", "4-25°C", "Samarali diapazon"],
+            ["Manba suvining loyqaligi", "< 2 NTU", "Tavsiya"]
           ],
           "infoLabel": "Muhim:",
           "infoText": "1-3 mg/L ozon dozasi to'liq suv dezinfeksiyasini ta'minlaydi. Yuqori organik yukda, organik birikmalarni oksidlash uchun doza 5 mg/L gacha oshiriladi."
@@ -176,43 +144,13 @@
         "effectiveness": {
           "title": "Dezinfeksiya samaradorligi",
           "tableCaption": "Patogenlarni inaktivatsiya qilish vaqti (CT qiymati, mg×min/L)",
-          "tableHeaders": [
-            "Patogen",
-            "Ozon",
-            "Xlor",
-            "UV (mJ/cm²)"
-          ],
+          "tableHeaders": ["Patogen", "Ozon", "Xlor", "UV (mJ/cm²)"],
           "tableData": [
-            [
-              "E. coli",
-              "0.02",
-              "0.4",
-              "7"
-            ],
-            [
-              "Poliomielit virusi",
-              "0.3",
-              "1.7",
-              "30"
-            ],
-            [
-              "Rotavirus",
-              "0.4",
-              "3.5",
-              "40"
-            ],
-            [
-              "Giardiya (sislar)",
-              "0.6",
-              "50",
-              "80"
-            ],
-            [
-              "Kriptosporidium",
-              "3.0",
-              "> 7200",
-              "12"
-            ]
+            ["E. coli", "0.02", "0.4", "7"],
+            ["Poliomielit virusi", "0.3", "1.7", "30"],
+            ["Rotavirus", "0.4", "3.5", "40"],
+            ["Giardiya (sislar)", "0.6", "50", "80"],
+            ["Kriptosporidium", "3.0", "> 7200", "12"]
           ],
           "highlightBox": "Ozon ayniqsa kriptosporidiumga qarshi samarali — diareyaga olib keladigan parazitlar. Ular deyarli xlorlashga chidamli (inaktivatsiya uchun 7200 mg×min/L dan ko'p xlor kerak), lekin ozonga zaif."
         },
@@ -240,37 +178,13 @@
         "productivity": {
           "title": "Ozonlash tizimlarining unumdorligi",
           "tableCaption": "Suvni tayyorlash uchun tavsiya etilgan uskunalar",
-          "tableHeaders": [
-            "Stansiya quvvati",
-            "Ozonator quvvati",
-            "Kontakt kamerasi"
-          ],
+          "tableHeaders": ["Stansiya quvvati", "Ozonator quvvati", "Kontakt kamerasi"],
           "tableData": [
-            [
-              "10 m³/h",
-              "20-30 g/h",
-              "1-2 m³"
-            ],
-            [
-              "50 m³/h",
-              "100-150 g/h",
-              "5-10 m³"
-            ],
-            [
-              "100 m³/h",
-              "200-300 g/h",
-              "10-20 m³"
-            ],
-            [
-              "500 m³/h",
-              "1000-1500 g/h",
-              "50-100 m³"
-            ],
-            [
-              "1000 m³/h",
-              "2000-3000 g/h",
-              "100-200 m³"
-            ]
+            ["10 m³/h", "20-30 g/h", "1-2 m³"],
+            ["50 m³/h", "100-150 g/h", "5-10 m³"],
+            ["100 m³/h", "200-300 g/h", "10-20 m³"],
+            ["500 m³/h", "1000-1500 g/h", "50-100 m³"],
+            ["1000 m³/h", "2000-3000 g/h", "100-200 m³"]
           ]
         },
         "regulations": {

@@ -98,229 +98,69 @@
         "ascospherosis": {
           "title": "Askosferozga qarshi kurash",
           "tableCaption": "Askosferoz uchun ishlov berish rejimlari",
-          "tableHeaders": [
-            "Inkubatsiya darajasi",
-            "O₃ kontsentratsiyasi",
-            "Ishlov berish vaqti",
-            "Davriyligi"
-          ],
+          "tableHeaders": ["Inkubatsiya darajasi", "O₃ kontsentratsiyasi", "Ishlov berish vaqti", "Davriyligi"],
           "tableData": [
-            [
-              "Profilaktika",
-              "100-150 mg/m³",
-              "30-45 min",
-              "Oyiga bir marta"
-            ],
-            [
-              "Yengil shakli",
-              "200-250 mg/m³",
-              "60 min",
-              "Kuniga ikki marta, 5-7 kun"
-            ],
-            [
-              "O'rtacha shakli",
-              "250-350 mg/m³",
-              "60 min",
-              "Kuniga uch marta, 7-10 kun"
-            ],
-            [
-              "Og'ir shakli",
-              "400-500 mg/m³",
-              "60-90 min",
-              "Kuniga to'rt marta, 10-14 kun"
-            ]
+            ["Profilaktika", "100-150 mg/m³", "30-45 min", "Oyiga bir marta"],
+            ["Yengil shakli", "200-250 mg/m³", "60 min", "Kuniga ikki marta, 5-7 kun"],
+            ["O'rtacha shakli", "250-350 mg/m³", "60 min", "Kuniga uch marta, 7-10 kun"],
+            ["Og'ir shakli", "400-500 mg/m³", "60-90 min", "Kuniga to'rt marta, 10-14 kun"]
           ]
         },
         "pathogens": {
           "title": "Turli patogenlarga qarshi samaradorlik",
           "tableCaption": "Asalari patogenlariga qarshi ozonlash samaradorligi",
-          "tableHeaders": [
-            "Patogen/kasallik",
-            "O₃ kontsentratsiyasi",
-            "Vaqt",
-            "Samaradorlik"
-          ],
+          "tableHeaders": ["Patogen/kasallik", "O₃ kontsentratsiyasi", "Vaqt", "Samaradorlik"],
           "tableData": [
-            [
-              "Ascosphaera apis (askosferoz)",
-              "250-500 mg/m³",
-              "60 min",
-              "50-77%"
-            ],
-            [
-              "Paenibacillus larvae (Amerika chirishi)",
-              "300-500 mg/m³",
-              "60-90 min",
-              "85-95%"
-            ],
-            [
-              "Melissococcus plutonius (Yevropa chirishi)",
-              "250-400 mg/m³",
-              "45-60 min",
-              "90-98%"
-            ],
-            [
-              "Nosema apis (nozematoz)",
-              "200-300 mg/m³",
-              "30-45 min",
-              "80-90%"
-            ],
-            [
-              "Aspergill (aspergilloz)",
-              "300-500 mg/m³",
-              "60-90 min",
-              "85-95%"
-            ],
-            [
-              "Qanot deformatsiyasi virusi",
-              "150-250 mg/m³",
-              "30-45 min",
-              "70-85%"
-            ]
+            ["Ascosphaera apis (askosferoz)", "250-500 mg/m³", "60 min", "50-77%"],
+            ["Paenibacillus larvae (Amerika chirishi)", "300-500 mg/m³", "60-90 min", "85-95%"],
+            ["Melissococcus plutonius (Yevropa chirishi)", "250-400 mg/m³", "45-60 min", "90-98%"],
+            ["Nosema apis (nozematoz)", "200-300 mg/m³", "30-45 min", "80-90%"],
+            ["Aspergill (aspergilloz)", "300-500 mg/m³", "60-90 min", "85-95%"],
+            ["Qanot deformatsiyasi virusi", "150-250 mg/m³", "30-45 min", "70-85%"]
           ]
         },
         "stimulation": {
           "title": "Ozonning rag'batlantiruvchi ta'siri",
           "tableCaption": "Rag'batlantiruvchi ozonlashning asalari oilalariga ta'siri",
-          "tableHeaders": [
-            "Ko'rsatkich",
-            "Nazorat guruhi",
-            "Ishlov berilgan guruh",
-            "Farq"
-          ],
+          "tableHeaders": ["Ko'rsatkich", "Nazorat guruhi", "Ishlov berilgan guruh", "Farq"],
           "tableData": [
-            [
-              "Asal hosili, kg/mavsum",
-              "45-50",
-              "70-75",
-              "+25 kg (+50%)"
-            ],
-            [
-              "Oila kuchi, ramkalar",
-              "8-10",
-              "12-14",
-              "+40%"
-            ],
-            [
-              "Onari asalari tuxum qo'yishi, tuxum/kun",
-              "1200-1400",
-              "1600-1800",
-              "+30%"
-            ],
-            [
-              "Nasl yetishtirish",
-              "100%",
-              "135-140%",
-              "+35-40%"
-            ],
-            [
-              "Qishlash (nobud bo'lish)",
-              "15-20%",
-              "5-8%",
-              "-60%"
-            ],
-            [
-              "To'p ajratish",
-              "Tez-tez",
-              "Kamdan-kam",
-              "2-3 baravar kamayish"
-            ]
+            ["Asal hosili, kg/mavsum", "45-50", "70-75", "+25 kg (+50%)"],
+            ["Oila kuchi, ramkalar", "8-10", "12-14", "+40%"],
+            ["Onari asalari tuxum qo'yishi, tuxum/kun", "1200-1400", "1600-1800", "+30%"],
+            ["Nasl yetishtirish", "100%", "135-140%", "+35-40%"],
+            ["Qishlash (nobud bo'lish)", "15-20%", "5-8%", "-60%"],
+            ["To'p ajratish", "Tez-tez", "Kamdan-kam", "2-3 baravar kamayish"]
           ]
         },
         "equipment": {
           "title": "Kishan va uskunalarni ishlash",
           "tableCaption": "Kishan va uskunalarni ishlash rejimlari",
-          "tableHeaders": [
-            "Muolaja ob'ekti",
-            "O₃ kontsentratsiyasi",
-            "Vaqt",
-            "Eslatma"
-          ],
+          "tableHeaders": ["Muolaja ob'ekti", "O₃ kontsentratsiyasi", "Vaqt", "Eslatma"],
           "tableData": [
-            [
-              "Kishanlar (profilaktika)",
-              "200-300 mg/m³",
-              "30-45 min",
-              "Asal olingandan keyin"
-            ],
-            [
-              "Kishanlar (dezinfeksiya)",
-              "400-600 mg/m³",
-              "60-90 min",
-              "Kasalliklar bo'lganda"
-            ],
-            [
-              "Bo'sh uyalar",
-              "300-500 mg/m³",
-              "45-60 min",
-              "Joylashtirishdan oldin"
-            ],
-            [
-              "Metall uskunalar",
-              "500-700 mg/m³",
-              "30-45 min",
-              "Tutatqichlar, uya asboblari"
-            ],
-            [
-              "Himoya kiyimlari",
-              "300-400 mg/m³",
-              "30-45 min",
-              "Ozon kamerasida"
-            ],
-            [
-              "Asal idishlari",
-              "200-300 mg/m³",
-              "20-30 min",
-              "To'ldirishdan oldin"
-            ]
+            ["Kishanlar (profilaktika)", "200-300 mg/m³", "30-45 min", "Asal olingandan keyin"],
+            ["Kishanlar (dezinfeksiya)", "400-600 mg/m³", "60-90 min", "Kasalliklar bo'lganda"],
+            ["Bo'sh uyalar", "300-500 mg/m³", "45-60 min", "Joylashtirishdan oldin"],
+            ["Metall uskunalar", "500-700 mg/m³", "30-45 min", "Tutatqichlar, uya asboblari"],
+            ["Himoya kiyimlari", "300-400 mg/m³", "30-45 min", "Ozon kamerasida"],
+            ["Asal idishlari", "200-300 mg/m³", "20-30 min", "To'ldirishdan oldin"]
           ]
         },
         "calendar": {
           "title": "Mavsumiy ozonlash taqvimi",
           "tableCaption": "Tavsiya etilgan ishlov berish jadvali",
-          "tableHeaders": [
-            "Davr",
-            "Ishlov berish turi",
-            "Kontsentratsiya",
-            "Maqsad"
-          ],
+          "tableHeaders": ["Davr", "Ishlov berish turi", "Kontsentratsiya", "Maqsad"],
           "tableData": [
-            [
-              "Erta bahor (Mart)",
-              "Rag'batlantiruvchi",
-              "10-15 mg/m³",
-              "Qishlashdan keyin oilani faollashtirish"
-            ],
-            [
-              "Bahor (Aprel-May)",
-              "Profilaktik",
-              "100-200 mg/m³",
-              "Bahorgi infeksiyalarning oldini olish"
-            ],
-            [
-              "Yoz (Iyun-Iyul)",
-              "Rag'batlantiruvchi",
-              "10-15 mg/m³",
-              "Asal hosilini oshirish"
-            ],
+            ["Erta bahor (Mart)", "Rag'batlantiruvchi", "10-15 mg/m³", "Qishlashdan keyin oilani faollashtirish"],
+            ["Bahor (Aprel-May)", "Profilaktik", "100-200 mg/m³", "Bahorgi infeksiyalarning oldini olish"],
+            ["Yoz (Iyun-Iyul)", "Rag'batlantiruvchi", "10-15 mg/m³", "Asal hosilini oshirish"],
             [
               "Asal olgandan keyin (Avgust)",
               "Kishanlarni dezinfeksiya qilish",
               "300-500 mg/m³",
               "Bo'shagan kishanlarni dezinfeksiya qilish"
             ],
-            [
-              "Kuz (Sentabr)",
-              "Profilaktik",
-              "150-250 mg/m³",
-              "Qishlashga tayyorgarlik"
-            ],
-            [
-              "Qishlovxona (Noyabr)",
-              "Dezinfeksiya",
-              "400-600 mg/m³",
-              "Joylashtirishdan oldin qishlovxonani ishlash"
-            ]
+            ["Kuz (Sentabr)", "Profilaktik", "150-250 mg/m³", "Qishlashga tayyorgarlik"],
+            ["Qishlovxona (Noyabr)", "Dezinfeksiya", "400-600 mg/m³", "Joylashtirishdan oldin qishlovxonani ishlash"]
           ]
         },
         "technology": {

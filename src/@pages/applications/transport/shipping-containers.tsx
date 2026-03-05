@@ -95,8 +95,8 @@ export function ShippingContainersPage({ staticData, lang }: ShippingContainersP
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.paragraph1}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.paragraph2}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.text1}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.text2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
@@ -171,8 +171,8 @@ export function ShippingContainersPage({ staticData, lang }: ShippingContainersP
             <BulletList items={data?.sections?.applications?.items} />
 
             <HighlightBox variant="warning">
-              <strong>{data?.sections?.applications?.warning?.title}</strong>{' '}
-              {data?.sections?.applications?.warning?.text}
+              <strong>{data?.sections?.applications?.highlight?.title}</strong>{' '}
+              {data?.sections?.applications?.highlight?.text}
             </HighlightBox>
           </ArticleSection>
 
@@ -209,7 +209,7 @@ export function ShippingContainersPage({ staticData, lang }: ShippingContainersP
             <BulletList items={data?.sections?.safety?.items} />
 
             <HighlightBox variant="warning">
-              <strong>{data?.sections?.safety?.warning?.title}</strong> {data?.sections?.safety?.warning?.text}
+              <strong>{data?.sections?.safety?.highlight?.title}</strong> {data?.sections?.safety?.highlight?.text}
             </HighlightBox>
           </ArticleSection>
         </div>

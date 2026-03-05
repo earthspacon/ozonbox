@@ -99,49 +99,14 @@
         "modes": {
           "title": "Treatment modes by transport type",
           "tableCaption": "Road freight ozonation parameters",
-          "tableHeaders": [
-            "Transport type",
-            "Body volume",
-            "Capacity",
-            "Treatment time"
-          ],
+          "tableHeaders": ["Transport type", "Body volume", "Capacity", "Treatment time"],
           "tableData": [
-            [
-              "Light-duty van",
-              "8-15 m³",
-              "5-10 g/h",
-              "15-20 min"
-            ],
-            [
-              "Medium-duty van",
-              "20-40 m³",
-              "10-20 g/h",
-              "20-30 min"
-            ],
-            [
-              "Refrigerator (semi-trailer)",
-              "80-90 m³",
-              "20-30 g/h",
-              "30-40 min"
-            ],
-            [
-              "Curtain-sided semi-trailer",
-              "90-100 m³",
-              "20-30 g/h",
-              "35-45 min"
-            ],
-            [
-              "Tank truck (milk truck)",
-              "5-20 m³",
-              "10-15 g/h",
-              "20-30 min"
-            ],
-            [
-              "Bread van",
-              "15-25 m³",
-              "5-10 g/h",
-              "15-25 min"
-            ]
+            ["Light-duty van", "8-15 m³", "5-10 g/h", "15-20 min"],
+            ["Medium-duty van", "20-40 m³", "10-20 g/h", "20-30 min"],
+            ["Refrigerator (semi-trailer)", "80-90 m³", "20-30 g/h", "30-40 min"],
+            ["Curtain-sided semi-trailer", "90-100 m³", "20-30 g/h", "35-45 min"],
+            ["Tank truck (milk truck)", "5-20 m³", "10-15 g/h", "20-30 min"],
+            ["Bread van", "15-25 m³", "5-10 g/h", "15-25 min"]
           ]
         },
         "refrigerators": {
@@ -171,43 +136,13 @@
           ],
           "text2": "Ozone oxidizes odor molecules, converting them to neutral compounds. This is not masking, but complete elimination. After treatment, the body smells fresh — \"like after a thunderstorm\".",
           "tableCaption": "Odor elimination modes",
-          "tableHeaders": [
-            "Odor type",
-            "Concentration",
-            "Treatment time",
-            "Efficiency"
-          ],
+          "tableHeaders": ["Odor type", "Concentration", "Treatment time", "Efficiency"],
           "tableData": [
-            [
-              "Light (dust, mustiness)",
-              "10-15 mg/m³",
-              "15-20 min",
-              "100%"
-            ],
-            [
-              "Medium (onions, garlic)",
-              "15-20 mg/m³",
-              "20-30 min",
-              "100%"
-            ],
-            [
-              "Strong (fish, meat)",
-              "20-30 mg/m³",
-              "30-45 min",
-              "95-100%"
-            ],
-            [
-              "Very strong (chemicals)",
-              "25-35 mg/m³",
-              "45-60 min",
-              "90-95%"
-            ],
-            [
-              "Stale (mold)",
-              "30-40 mg/m³",
-              "60-90 min",
-              "95-100%"
-            ]
+            ["Light (dust, mustiness)", "10-15 mg/m³", "15-20 min", "100%"],
+            ["Medium (onions, garlic)", "15-20 mg/m³", "20-30 min", "100%"],
+            ["Strong (fish, meat)", "20-30 mg/m³", "30-45 min", "95-100%"],
+            ["Very strong (chemicals)", "25-35 mg/m³", "45-60 min", "90-95%"],
+            ["Stale (mold)", "30-40 mg/m³", "60-90 min", "95-100%"]
           ]
         },
         "integration": {
@@ -234,43 +169,15 @@
         "economics": {
           "title": "Fleet economics",
           "comparisonTitle": "Fleet sanitary treatment method comparison (50 vehicles)",
-          "tableHeaders": [
-            "Indicator",
-            "Ozonation",
-            "Chemical treatment"
-          ],
+          "tableHeaders": ["Indicator", "Ozonation", "Chemical treatment"],
           "tableCaption": "Fleet sanitary treatment method comparison (50 vehicles)",
           "tableData": [
-            [
-              "Equipment",
-              "50-150 thousand ₽ (one-time)",
-              "Not required"
-            ],
-            [
-              "Cost per vehicle",
-              "30-50 ₽ (electricity)",
-              "500-1500 ₽ (service/materials)"
-            ],
-            [
-              "Staff",
-              "1 operator",
-              "3-5 washers"
-            ],
-            [
-              "Time per vehicle",
-              "30-40 min (unattended)",
-              "60-90 min (manual work)"
-            ],
-            [
-              "Odor elimination",
-              "Complete",
-              "Partial"
-            ],
-            [
-              "Payback",
-              "2-4 months",
-              "—"
-            ]
+            ["Equipment", "50-150 thousand ₽ (one-time)", "Not required"],
+            ["Cost per vehicle", "30-50 ₽ (electricity)", "500-1500 ₽ (service/materials)"],
+            ["Staff", "1 operator", "3-5 washers"],
+            ["Time per vehicle", "30-40 min (unattended)", "60-90 min (manual work)"],
+            ["Odor elimination", "Complete", "Partial"],
+            ["Payback", "2-4 months", "—"]
           ],
           "text": "When treating 50 vehicles twice a week, savings amount to 100-200 thousand rubles per month. Ozonator payback — 2-4 months. Additional benefit — reduced customer complaints about odors and contamination."
         },
@@ -300,32 +207,12 @@
             "Timer systems — for automatic scheduled treatment"
           ],
           "tableCaption": "Ozonator selection by fleet size",
-          "tableHeaders": [
-            "Fleet size",
-            "Recommended equipment",
-            "Set cost"
-          ],
+          "tableHeaders": ["Fleet size", "Recommended equipment", "Set cost"],
           "tableData": [
-            [
-              "5-15 vehicles",
-              "1-2 mobile ozonators 10-20 g/h",
-              "30-60 thousand ₽"
-            ],
-            [
-              "15-50 vehicles",
-              "3-5 ozonators 15-30 g/h",
-              "80-150 thousand ₽"
-            ],
-            [
-              "50-100 vehicles",
-              "5-10 ozonators + fixed zones",
-              "150-300 thousand ₽"
-            ],
-            [
-              "100+ vehicles",
-              "Custom solutions",
-              "Individual"
-            ]
+            ["5-15 vehicles", "1-2 mobile ozonators 10-20 g/h", "30-60 thousand ₽"],
+            ["15-50 vehicles", "3-5 ozonators 15-30 g/h", "80-150 thousand ₽"],
+            ["50-100 vehicles", "5-10 ozonators + fixed zones", "150-300 thousand ₽"],
+            ["100+ vehicles", "Custom solutions", "Individual"]
           ]
         },
         "roi": {

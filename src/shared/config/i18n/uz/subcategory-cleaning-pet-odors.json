@@ -59,38 +59,14 @@
         },
         "types": {
           "title": "Hayvon hidlarining turlari",
-          "tableHeaders": [
-            "Hid manbasi",
-            "Xususiyatlari",
-            "Ishlov berish rejimi"
-          ],
+          "tableHeaders": ["Hid manbasi", "Xususiyatlari", "Ishlov berish rejimi"],
           "tableCaption": "Turli xil hidlarning xususiyatlari va tedavi usullari",
           "tableData": [
-            [
-              "Mushuk suylasi",
-              "Eng doimiy, uriy kislotani o'z ichiga oladi",
-              "40-60 mg/m³, 6-8 soat, 2-3 sikllar"
-            ],
-            [
-              "It suylasi",
-              "Kam konsentrat, olib tashlash osonroq",
-              "20-40 mg/m³, 4-6 soat, 1-2 sikllar"
-            ],
-            [
-              "Izlar (hududni belgilash)",
-              "Konsentat, feromon bilan",
-              "40-60 mg/m³, 8-12 soat, 2-3 sikllar"
-            ],
-            [
-              "Sochni hidi",
-              "Organik, sebumdan",
-              "10-20 mg/m³, 2-4 soat, 1 siklada"
-            ],
-            [
-              "Tualet qutiidagi hid",
-              "Suyla va najas qoldig'i",
-              "20-40 mg/m³, 4-6 soat, 1-2 sikllar"
-            ]
+            ["Mushuk suylasi", "Eng doimiy, uriy kislotani o'z ichiga oladi", "40-60 mg/m³, 6-8 soat, 2-3 sikllar"],
+            ["It suylasi", "Kam konsentrat, olib tashlash osonroq", "20-40 mg/m³, 4-6 soat, 1-2 sikllar"],
+            ["Izlar (hududni belgilash)", "Konsentat, feromon bilan", "40-60 mg/m³, 8-12 soat, 2-3 sikllar"],
+            ["Sochni hidi", "Organik, sebumdan", "10-20 mg/m³, 2-4 soat, 1 siklada"],
+            ["Tualet qutiidagi hid", "Suyla va najas qoldig'i", "20-40 mg/m³, 4-6 soat, 1-2 sikllar"]
           ]
         },
         "process": {
@@ -121,11 +97,7 @@
         "comparison": {
           "title": "Hid olib tashlash usullarini solishtirish",
           "tableTitle": "Ozonlash vs odiy mahsulotlar",
-          "headers": [
-            "Mezon",
-            "Ozonlash",
-            "Ferment/kimyoviy mahsulotlar"
-          ],
+          "headers": ["Mezon", "Ozonlash", "Ferment/kimyoviy mahsulotlar"],
           "rows": [
             {
               "parameter": "Ishlash printsipi",

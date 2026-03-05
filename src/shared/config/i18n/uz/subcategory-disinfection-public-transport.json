@@ -76,38 +76,13 @@
               "description": "Eshiklar va oynalarni oching, 20 daqiqa ventilatsiya qiling. Tezlatish uchun mashinaning ventilatsiya tizimini yoqing."
             }
           ],
-          "tableHeaders": [
-            "Transport turi",
-            "Ichki hajmi",
-            "Quvvat",
-            "Vaqti"
-          ],
+          "tableHeaders": ["Transport turi", "Ichki hajmi", "Quvvat", "Vaqti"],
           "tableCaption": "Tavsiya etilgan davomi rejimlar",
           "tableData": [
-            [
-              "Minibus",
-              "15-25 m³",
-              "5-10 g/h",
-              "20 min"
-            ],
-            [
-              "Shahar avtobusi",
-              "40-60 m³",
-              "20-30 g/h",
-              "30 min"
-            ],
-            [
-              "Shunga o'rnatilgan avtobusi",
-              "80-100 m³",
-              "30-50 g/h",
-              "40 min"
-            ],
-            [
-              "Tramvay/trolleybus",
-              "50-80 m³",
-              "20-40 g/h",
-              "35 min"
-            ]
+            ["Minibus", "15-25 m³", "5-10 g/h", "20 min"],
+            ["Shahar avtobusi", "40-60 m³", "20-30 g/h", "30 min"],
+            ["Shunga o'rnatilgan avtobusi", "80-100 m³", "30-50 g/h", "40 min"],
+            ["Tramvay/trolleybus", "50-80 m³", "20-40 g/h", "35 min"]
           ]
         },
         "organizationOptions": {
@@ -136,84 +111,32 @@
           "title": "Transport quvvati ta'minoti",
           "text": "Ozonlashtirgichlar mashinaning quvvatida ishlashi mumkin, tashqi quvvat ulanishisiz davomiga imkon beradi.",
           "highlight": "Davomi hechqanday ishchi ishtirokini talab qilmaydi — ozonlashtirgichni yoqing va chiqib ket. Hechqanday sarflama mahsulotlar harakat xarajatini kamaytiradi.",
-          "tableHeaders": [
-            "Quvvat turi",
-            "Ijro",
-            "Afzalliklari"
-          ],
+          "tableHeaders": ["Quvvat turi", "Ijro", "Afzalliklari"],
           "tableCaption": "Ozonlashtirgichlar uchun quvvat ta'minoti variantlari",
           "tableData": [
-            [
-              "12V DC",
-              "Minibus, mikrobuslar",
-              "Standart mashinaning quvvati"
-            ],
-            [
-              "24V DC",
-              "Avtobuslar, trolleybuslar",
-              "Yuqori quvvat"
-            ],
-            [
-              "220V AC",
-              "Depolar, parklar",
-              "Maksimal quvvat"
-            ],
-            [
-              "Batareya",
-              "Mobil xizmat",
-              "Avtonomiya"
-            ]
+            ["12V DC", "Minibus, mikrobuslar", "Standart mashinaning quvvati"],
+            ["24V DC", "Avtobuslar, trolleybuslar", "Yuqori quvvat"],
+            ["220V AC", "Depolar, parklar", "Maksimal quvvat"],
+            ["Batareya", "Mobil xizmat", "Avtonomiya"]
           ]
         },
         "pathogenEfficiency": {
           "title": "Patogenlarga qarshi samaradorligi",
-          "tableHeaders": [
-            "Patogen",
-            "Vaqti 20 mg/m³ da",
-            "Samaradorligi"
-          ],
+          "tableHeaders": ["Patogen", "Vaqti 20 mg/m³ da", "Samaradorligi"],
           "tableCaption": "Transport ichida patogen inaktivatsiya vaqti",
           "tableData": [
-            [
-              "Koronaviruslar (COVID-19)",
-              "10-15 min",
-              "99.9%"
-            ],
-            [
-              "Gripp viruslari",
-              "5-10 min",
-              "99.9%"
-            ],
-            [
-              "Stafilo aureusi",
-              "10-15 min",
-              "99.9%"
-            ],
-            [
-              "E. coli",
-              "5-10 min",
-              "99.9%"
-            ],
-            [
-              "Ko'k va mog'or",
-              "15-20 min",
-              "99%"
-            ],
-            [
-              "Hidlar (organik)",
-              "20-30 min",
-              "100%"
-            ]
+            ["Koronaviruslar (COVID-19)", "10-15 min", "99.9%"],
+            ["Gripp viruslari", "5-10 min", "99.9%"],
+            ["Stafilo aureusi", "10-15 min", "99.9%"],
+            ["E. coli", "5-10 min", "99.9%"],
+            ["Ko'k va mog'or", "15-20 min", "99%"],
+            ["Hidlar (organik)", "20-30 min", "100%"]
           ]
         },
         "comparison": {
           "title": "Dezinfeksiya usuli taqqoslashi",
           "tableTitle": "Ozonlash va kimyoviy davomi",
-          "headers": [
-            "Mezon",
-            "Ozonlash",
-            "Kimyoviy davomi"
-          ],
+          "headers": ["Mezon", "Ozonlash", "Kimyoviy davomi"],
           "rows": [
             {
               "parameter": "Davomi vaqti",

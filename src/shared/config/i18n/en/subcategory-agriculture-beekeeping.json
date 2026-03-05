@@ -98,223 +98,63 @@
         "ascospherosis": {
           "title": "Chalkbrood control",
           "tableCaption": "Treatment regimes for chalkbrood",
-          "tableHeaders": [
-            "Infection level",
-            "O₃ concentration",
-            "Treatment time",
-            "Frequency"
-          ],
+          "tableHeaders": ["Infection level", "O₃ concentration", "Treatment time", "Frequency"],
           "tableData": [
-            [
-              "Prevention",
-              "100-150 mg/m³",
-              "30-45 min",
-              "Once a month"
-            ],
-            [
-              "Mild form",
-              "200-250 mg/m³",
-              "60 min",
-              "Twice daily, 5-7 days"
-            ],
-            [
-              "Moderate form",
-              "250-350 mg/m³",
-              "60 min",
-              "Three times daily, 7-10 days"
-            ],
-            [
-              "Severe form",
-              "400-500 mg/m³",
-              "60-90 min",
-              "Four times daily, 10-14 days"
-            ]
+            ["Prevention", "100-150 mg/m³", "30-45 min", "Once a month"],
+            ["Mild form", "200-250 mg/m³", "60 min", "Twice daily, 5-7 days"],
+            ["Moderate form", "250-350 mg/m³", "60 min", "Three times daily, 7-10 days"],
+            ["Severe form", "400-500 mg/m³", "60-90 min", "Four times daily, 10-14 days"]
           ]
         },
         "pathogens": {
           "title": "Effectiveness against various pathogens",
           "tableCaption": "Effectiveness of ozonation against bee pathogens",
-          "tableHeaders": [
-            "Pathogen/disease",
-            "O₃ concentration",
-            "Time",
-            "Effectiveness"
-          ],
+          "tableHeaders": ["Pathogen/disease", "O₃ concentration", "Time", "Effectiveness"],
           "tableData": [
-            [
-              "Ascosphaera apis (chalkbrood)",
-              "250-500 mg/m³",
-              "60 min",
-              "50-77%"
-            ],
-            [
-              "Paenibacillus larvae (American foulbrood)",
-              "300-500 mg/m³",
-              "60-90 min",
-              "85-95%"
-            ],
-            [
-              "Melissococcus plutonius (European foulbrood)",
-              "250-400 mg/m³",
-              "45-60 min",
-              "90-98%"
-            ],
-            [
-              "Nosema apis (nosemosis)",
-              "200-300 mg/m³",
-              "30-45 min",
-              "80-90%"
-            ],
-            [
-              "Aspergillus (aspergillosis)",
-              "300-500 mg/m³",
-              "60-90 min",
-              "85-95%"
-            ],
-            [
-              "Deformed wing virus",
-              "150-250 mg/m³",
-              "30-45 min",
-              "70-85%"
-            ]
+            ["Ascosphaera apis (chalkbrood)", "250-500 mg/m³", "60 min", "50-77%"],
+            ["Paenibacillus larvae (American foulbrood)", "300-500 mg/m³", "60-90 min", "85-95%"],
+            ["Melissococcus plutonius (European foulbrood)", "250-400 mg/m³", "45-60 min", "90-98%"],
+            ["Nosema apis (nosemosis)", "200-300 mg/m³", "30-45 min", "80-90%"],
+            ["Aspergillus (aspergillosis)", "300-500 mg/m³", "60-90 min", "85-95%"],
+            ["Deformed wing virus", "150-250 mg/m³", "30-45 min", "70-85%"]
           ]
         },
         "stimulation": {
           "title": "Stimulating effect of ozone",
           "tableCaption": "Effect of stimulating ozonation on bee colonies",
-          "tableHeaders": [
-            "Indicator",
-            "Control group",
-            "Treated group",
-            "Difference"
-          ],
+          "tableHeaders": ["Indicator", "Control group", "Treated group", "Difference"],
           "tableData": [
-            [
-              "Honey yield, kg/season",
-              "45-50",
-              "70-75",
-              "+25 kg (+50%)"
-            ],
-            [
-              "Colony strength, frames",
-              "8-10",
-              "12-14",
-              "+40%"
-            ],
-            [
-              "Queen egg-laying, eggs/day",
-              "1200-1400",
-              "1600-1800",
-              "+30%"
-            ],
-            [
-              "Brood rearing",
-              "100%",
-              "135-140%",
-              "+35-40%"
-            ],
-            [
-              "Wintering (losses)",
-              "15-20%",
-              "5-8%",
-              "-60%"
-            ],
-            [
-              "Swarming",
-              "Frequent",
-              "Rare",
-              "2-3 times reduction"
-            ]
+            ["Honey yield, kg/season", "45-50", "70-75", "+25 kg (+50%)"],
+            ["Colony strength, frames", "8-10", "12-14", "+40%"],
+            ["Queen egg-laying, eggs/day", "1200-1400", "1600-1800", "+30%"],
+            ["Brood rearing", "100%", "135-140%", "+35-40%"],
+            ["Wintering (losses)", "15-20%", "5-8%", "-60%"],
+            ["Swarming", "Frequent", "Rare", "2-3 times reduction"]
           ]
         },
         "equipment": {
           "title": "Comb and equipment treatment",
           "tableCaption": "Comb and equipment treatment regimes",
-          "tableHeaders": [
-            "Treatment object",
-            "O₃ concentration",
-            "Time",
-            "Note"
-          ],
+          "tableHeaders": ["Treatment object", "O₃ concentration", "Time", "Note"],
           "tableData": [
-            [
-              "Combs (prevention)",
-              "200-300 mg/m³",
-              "30-45 min",
-              "After honey extraction"
-            ],
-            [
-              "Combs (disinfection)",
-              "400-600 mg/m³",
-              "60-90 min",
-              "In case of diseases"
-            ],
-            [
-              "Empty hives",
-              "300-500 mg/m³",
-              "45-60 min",
-              "Before settling"
-            ],
-            [
-              "Metal equipment",
-              "500-700 mg/m³",
-              "30-45 min",
-              "Smokers, hive tools"
-            ],
-            [
-              "Protective clothing",
-              "300-400 mg/m³",
-              "30-45 min",
-              "In ozone chamber"
-            ],
-            [
-              "Honey containers",
-              "200-300 mg/m³",
-              "20-30 min",
-              "Before filling"
-            ]
+            ["Combs (prevention)", "200-300 mg/m³", "30-45 min", "After honey extraction"],
+            ["Combs (disinfection)", "400-600 mg/m³", "60-90 min", "In case of diseases"],
+            ["Empty hives", "300-500 mg/m³", "45-60 min", "Before settling"],
+            ["Metal equipment", "500-700 mg/m³", "30-45 min", "Smokers, hive tools"],
+            ["Protective clothing", "300-400 mg/m³", "30-45 min", "In ozone chamber"],
+            ["Honey containers", "200-300 mg/m³", "20-30 min", "Before filling"]
           ]
         },
         "calendar": {
           "title": "Seasonal ozonation calendar",
           "tableCaption": "Recommended treatment schedule",
-          "tableHeaders": [
-            "Period",
-            "Treatment type",
-            "Concentration",
-            "Purpose"
-          ],
+          "tableHeaders": ["Period", "Treatment type", "Concentration", "Purpose"],
           "tableData": [
-            [
-              "Early spring (March)",
-              "Stimulating",
-              "10-15 mg/m³",
-              "Colony activation after wintering"
-            ],
-            [
-              "Spring (April-May)",
-              "Preventive",
-              "100-200 mg/m³",
-              "Spring infection prevention"
-            ],
-            [
-              "Summer (June-July)",
-              "Stimulating",
-              "10-15 mg/m³",
-              "Honey yield increase"
-            ],
-            [
-              "After extraction (August)",
-              "Comb disinfection",
-              "300-500 mg/m³",
-              "Disinfection of freed combs"
-            ],
-            [
-              "Autumn (September)",
-              "Preventive",
-              "150-250 mg/m³",
-              "Wintering preparation"
-            ],
+            ["Early spring (March)", "Stimulating", "10-15 mg/m³", "Colony activation after wintering"],
+            ["Spring (April-May)", "Preventive", "100-200 mg/m³", "Spring infection prevention"],
+            ["Summer (June-July)", "Stimulating", "10-15 mg/m³", "Honey yield increase"],
+            ["After extraction (August)", "Comb disinfection", "300-500 mg/m³", "Disinfection of freed combs"],
+            ["Autumn (September)", "Preventive", "150-250 mg/m³", "Wintering preparation"],
             [
               "Wintering house (November)",
               "Disinfection",

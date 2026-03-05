@@ -61,37 +61,12 @@
           "text": "Operating blocks require special sanitary regimes. Traditional cleaning with disinfectants cannot ensure treatment of all surfaces — ozone, being a gas, penetrates equipment crevices, ventilation systems, hard-to-reach areas behind devices.",
           "table": {
             "caption": "Ozonation modes for operating rooms",
-            "headers": [
-              "Treatment type",
-              "Concentration",
-              "Treatment time",
-              "Frequency"
-            ],
+            "headers": ["Treatment type", "Concentration", "Treatment time", "Frequency"],
             "rows": [
-              [
-                "Between operations",
-                "10-15 mg/m³",
-                "30-40 min",
-                "After each operation"
-              ],
-              [
-                "Final disinfection",
-                "20-25 mg/m³",
-                "60-90 min",
-                "At end of workday"
-              ],
-              [
-                "After infectious cases",
-                "30-40 mg/m³",
-                "120 min",
-                "As indicated"
-              ],
-              [
-                "Preventive",
-                "10 mg/m³",
-                "60 min",
-                "Weekly"
-              ]
+              ["Between operations", "10-15 mg/m³", "30-40 min", "After each operation"],
+              ["Final disinfection", "20-25 mg/m³", "60-90 min", "At end of workday"],
+              ["After infectious cases", "30-40 mg/m³", "120 min", "As indicated"],
+              ["Preventive", "10 mg/m³", "60 min", "Weekly"]
             ]
           },
           "highlight": "After ozonation, 1.5-2 hours of ventilation is sufficient to reduce ozone concentration to a safe level. The room is ready for use without additional treatment."
@@ -123,63 +98,23 @@
           "text": "Ozone destroys almost all types of pathogenic microorganisms found in healthcare facilities:",
           "table": {
             "caption": "Pathogen inactivation time by ozone (concentration 20 mg/m³)",
-            "headers": [
-              "Microorganism",
-              "Inactivation time",
-              "Efficiency"
-            ],
+            "headers": ["Microorganism", "Inactivation time", "Efficiency"],
             "rows": [
-              [
-                "Staphylococcus aureus (MRSA)",
-                "10-15 min",
-                "99.99%"
-              ],
-              [
-                "Escherichia coli",
-                "5-10 min",
-                "99.99%"
-              ],
-              [
-                "Pseudomonas aeruginosa",
-                "15-20 min",
-                "99.99%"
-              ],
-              [
-                "Candida albicans",
-                "15-20 min",
-                "99.9%"
-              ],
-              [
-                "Aspergillus niger (spores)",
-                "30-40 min",
-                "99.9%"
-              ],
-              [
-                "Clostridium difficile (spores)",
-                "40-60 min",
-                "99.9%"
-              ],
-              [
-                "Influenza viruses",
-                "5-10 min",
-                "99.99%"
-              ],
-              [
-                "Coronaviruses",
-                "10-15 min",
-                "99.99%"
-              ]
+              ["Staphylococcus aureus (MRSA)", "10-15 min", "99.99%"],
+              ["Escherichia coli", "5-10 min", "99.99%"],
+              ["Pseudomonas aeruginosa", "15-20 min", "99.99%"],
+              ["Candida albicans", "15-20 min", "99.9%"],
+              ["Aspergillus niger (spores)", "30-40 min", "99.9%"],
+              ["Clostridium difficile (spores)", "40-60 min", "99.9%"],
+              ["Influenza viruses", "5-10 min", "99.99%"],
+              ["Coronaviruses", "10-15 min", "99.99%"]
             ]
           }
         },
         "comparison": {
           "title": "Comparison of disinfection methods",
           "tableTitle": "Ozonation vs traditional methods",
-          "headers": [
-            "Parameter",
-            "Ozonation",
-            "Chemical disinfection"
-          ],
+          "headers": ["Parameter", "Ozonation", "Chemical disinfection"],
           "rows": [
             {
               "parameter": "Surface coverage",

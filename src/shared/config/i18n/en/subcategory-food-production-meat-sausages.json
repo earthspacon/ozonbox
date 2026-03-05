@@ -49,91 +49,25 @@
           "title": "Chilled meat storage",
           "paragraph": "For chilled meat storage, ozonation at 8-10 mg/m³ ensures complete destruction of mesophilic and psychrotrophic microflora on carcass surfaces at 1-4°C. Chilled meat shelf life increases 2-5 times.",
           "tableCaption": "Ozonation regimes for meat storage",
-          "tableHeaders": [
-            "Product",
-            "Temperature",
-            "Concentration",
-            "Treatment time",
-            "Frequency"
-          ],
+          "tableHeaders": ["Product", "Temperature", "Concentration", "Treatment time", "Frequency"],
           "tableRows": [
-            [
-              "Chilled meat",
-              "-1...-4°C",
-              "8-10 mg/m³",
-              "4-5 hours",
-              "Every other day"
-            ],
-            [
-              "Frozen meat",
-              "-18°C",
-              "10 mg/m³",
-              "3 hours",
-              "Daily"
-            ],
-            [
-              "Poultry (chilled)",
-              "-1...-4°C",
-              "8-10 mg/m³",
-              "2-3 hours",
-              "Daily"
-            ],
-            [
-              "Poultry (frozen)",
-              "-18°C",
-              "8-12 mg/m³",
-              "3 hours",
-              "Daily"
-            ],
-            [
-              "Offal",
-              "-1...-4°C",
-              "8-10 mg/m³",
-              "3-4 hours",
-              "Daily"
-            ]
+            ["Chilled meat", "-1...-4°C", "8-10 mg/m³", "4-5 hours", "Every other day"],
+            ["Frozen meat", "-18°C", "10 mg/m³", "3 hours", "Daily"],
+            ["Poultry (chilled)", "-1...-4°C", "8-10 mg/m³", "2-3 hours", "Daily"],
+            ["Poultry (frozen)", "-18°C", "8-12 mg/m³", "3 hours", "Daily"],
+            ["Offal", "-1...-4°C", "8-10 mg/m³", "3-4 hours", "Daily"]
           ]
         },
         "ripeningChambers": {
           "title": "Sausage ripening chambers",
           "paragraph": "In ripening chambers for dry-cured and air-dried sausages, ozone suppresses development of slimy and mold deposits, preventing off-odors. At moderate concentration, ozone does not cause discoloration of casing or filling.",
           "tableCaption": "Ozonation regimes for sausage ripening chambers",
-          "tableHeaders": [
-            "Sausage type",
-            "Concentration",
-            "Treatment time",
-            "Temperature",
-            "Efficiency"
-          ],
+          "tableHeaders": ["Sausage type", "Concentration", "Treatment time", "Temperature", "Efficiency"],
           "tableRows": [
-            [
-              "Dry-cured",
-              "3-8 mg/m³",
-              "3 hours",
-              "+12...+14°C",
-              "96-99%"
-            ],
-            [
-              "Cooked-smoked",
-              "3-7 mg/m³",
-              "2 hours",
-              "+10...+12°C",
-              "95-98%"
-            ],
-            [
-              "Air-dried",
-              "5-10 mg/m³",
-              "2-3 hours",
-              "+10...+15°C",
-              "96-99%"
-            ],
-            [
-              "Semi-smoked",
-              "3-6 mg/m³",
-              "2 hours",
-              "+10...+12°C",
-              "95-98%"
-            ]
+            ["Dry-cured", "3-8 mg/m³", "3 hours", "+12...+14°C", "96-99%"],
+            ["Cooked-smoked", "3-7 mg/m³", "2 hours", "+10...+12°C", "95-98%"],
+            ["Air-dried", "5-10 mg/m³", "2-3 hours", "+10...+15°C", "96-99%"],
+            ["Semi-smoked", "3-6 mg/m³", "2 hours", "+10...+12°C", "95-98%"]
           ],
           "recommendedMode": {
             "label": "Recommended regime:",
@@ -153,11 +87,7 @@
         },
         "comparison": {
           "title": "Comparison of ripening chamber disinfection methods",
-          "headers": [
-            "Parameter",
-            "Ozonation",
-            "Traditional treatment"
-          ],
+          "headers": ["Parameter", "Ozonation", "Traditional treatment"],
           "rows": [
             {
               "parameter": "Product unloading",

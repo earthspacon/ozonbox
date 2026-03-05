@@ -61,75 +61,27 @@
           "highlight": {
             "text": "For baby water, ozonation is possibly the only preservation option, since use of silver ions and carbon dioxide is prohibited by standards."
           },
-          "tableHeaders": [
-            "Parameter",
-            "First category",
-            "Premium category"
-          ],
+          "tableHeaders": ["Parameter", "First category", "Premium category"],
           "tableCaption": "Requirements for bottled water",
           "tableData": [
-            [
-              "Residual ozone",
-              "≤ 0.1 mg/L",
-              "≤ 0.1 mg/L"
-            ],
-            [
-              "Oxygen content",
-              "≥ 5 mg/L",
-              "≥ 9 mg/L"
-            ],
-            [
-              "Ozone contact time",
-              "≥ 12 minutes",
-              "≥ 12 minutes"
-            ],
-            [
-              "Chlorine use",
-              "Prohibited",
-              "Prohibited"
-            ],
-            [
-              "Silver (baby water)",
-              "Permitted",
-              "Prohibited"
-            ]
+            ["Residual ozone", "≤ 0.1 mg/L", "≤ 0.1 mg/L"],
+            ["Oxygen content", "≥ 5 mg/L", "≥ 9 mg/L"],
+            ["Ozone contact time", "≥ 12 minutes", "≥ 12 minutes"],
+            ["Chlorine use", "Prohibited", "Prohibited"],
+            ["Silver (baby water)", "Permitted", "Prohibited"]
           ]
         },
         "scheme": {
           "title": "Final ozonation schematic",
           "text": "Ozonation system is placed directly before the bottling machine. The system includes oxygen generator, ozone generator, ozone delivery and dissolution system, as well as ozone analyzer or ORP meter for control.",
-          "tableHeaders": [
-            "Component",
-            "Purpose",
-            "Specifications"
-          ],
+          "tableHeaders": ["Component", "Purpose", "Specifications"],
           "tableCaption": "Final ozonation equipment composition",
           "tableData": [
-            [
-              "Oxygen generator",
-              "Pure oxygen supply",
-              "O₂ concentration ≥ 90%"
-            ],
-            [
-              "Ozone generator",
-              "Ozone production",
-              "1 g/hour per 1 m³/hour water"
-            ],
-            [
-              "Ejector / diffuser",
-              "Ozone dissolution in water",
-              "Efficiency > 90%"
-            ],
-            [
-              "Contact tank",
-              "Contact time provision",
-              "≥ 12 minutes"
-            ],
-            [
-              "Ozone analyzer",
-              "Concentration control",
-              "0-2 mg/L"
-            ]
+            ["Oxygen generator", "Pure oxygen supply", "O₂ concentration ≥ 90%"],
+            ["Ozone generator", "Ozone production", "1 g/hour per 1 m³/hour water"],
+            ["Ejector / diffuser", "Ozone dissolution in water", "Efficiency > 90%"],
+            ["Contact tank", "Contact time provision", "≥ 12 minutes"],
+            ["Ozone analyzer", "Concentration control", "0-2 mg/L"]
           ]
         },
         "limitations": {
@@ -139,11 +91,7 @@
         },
         "comparison": {
           "title": "Water disinfection method comparison",
-          "headers": [
-            "Parameter",
-            "Ozonation",
-            "UV treatment"
-          ],
+          "headers": ["Parameter", "Ozonation", "UV treatment"],
           "rows": [
             {
               "parameter": "Container sterilization",

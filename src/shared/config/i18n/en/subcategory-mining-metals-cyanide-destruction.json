@@ -79,7 +79,18 @@
             }
           ]
         }
-      }
+      },
+      "sourcesTitle": "Sources",
+      "sources": [
+        {
+          "title": "The Effective Use of Ozone for Cyanide Destruction in Mining and Mineral Processing — Academia.edu",
+          "url": "https://www.academia.edu/26379027/"
+        },
+        {
+          "title": "Cyanide oxidation by ozone in cyanidation tailings: Reaction kinetics — Minerals Engineering, 2000",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0892687500000340"
+        }
+      ]
     }
   }
 }

@@ -114,12 +114,10 @@ export function DairyPage({ staticData, lang }: DairyPageProps) {
             <BulletList items={data?.sections?.advantages?.items as string[]} />
           </ArticleSection>
 
-          {data?.sections?.comparison?.tableHeaders && (
+          {data?.sections?.comparison?.headers && (
             <ComparisonTable
               title={data.sections.comparison.title}
-              headers={
-                data.sections.comparison.tableHeaders as [string, string, string] | [string, string, string, string]
-              }
+              headers={data.sections.comparison.headers as [string, string, string] | [string, string, string, string]}
               rows={
                 data.sections.comparison.rows as Array<{
                   parameter: string

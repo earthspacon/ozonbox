@@ -95,8 +95,8 @@ export function RailwayPage({ staticData, lang }: RailwayPageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.paragraph1}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.paragraph2}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.text}</Paragraph>
+            <Paragraph>{data?.sections?.intro?.text2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">

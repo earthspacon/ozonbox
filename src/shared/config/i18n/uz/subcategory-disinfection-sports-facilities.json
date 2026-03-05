@@ -61,33 +61,13 @@
         "odorProblem": {
           "title": "Sport zallarida hid muammosi",
           "text": "Sport zallarida ter hidi odam terida bakteriya faolligining natijasi. Muntazam tozalash va havo yangilantiruvchilar faqat muammoni niqob qiladi. Ozon hid molekulalarini buzadi va ularni ishlab chiqaradigan bakteriyalarni yo'q qiladi.",
-          "tableHeaders": [
-            "Hid turi",
-            "Manba",
-            "Yo'q qilish vaqti"
-          ],
+          "tableHeaders": ["Hid turi", "Manba", "Yo'q qilish vaqti"],
           "tableCaption": "Hidlarga qarshi ozon samaradorligi",
           "tableData": [
-            [
-              "Ter",
-              "Teri bakteriyalari",
-              "30-60 min"
-            ],
-            [
-              "Namlik",
-              "Ko'k va mog'or",
-              "60-90 min"
-            ],
-            [
-              "Qadim havo",
-              "Ventilatsiya yetersizligi",
-              "40-60 min"
-            ],
-            [
-              "Rezina",
-              "Pol va mat'lar",
-              "90-120 min"
-            ]
+            ["Ter", "Teri bakteriyalari", "30-60 min"],
+            ["Namlik", "Ko'k va mog'or", "60-90 min"],
+            ["Qadim havo", "Ventilatsiya yetersizligi", "40-60 min"],
+            ["Rezina", "Pol va mat'lar", "90-120 min"]
           ]
         },
         "process": {
@@ -118,44 +98,14 @@
             "title": "Hisoblash formulasi:",
             "text": "xona hajmiga qarab 25 m³ uchun soatiga 1 g ozon quvvat. Yuqori ifloslanimligi yoki katta sirt maydoniga ega xonalar uchun, quvvatni 20-30% oshiring."
           },
-          "tableHeaders": [
-            "Zal turi",
-            "Hajmi",
-            "Quvvat",
-            "Davomi"
-          ],
+          "tableHeaders": ["Zal turi", "Hajmi", "Quvvat", "Davomi"],
           "tableCaption": "Tavsiya etilgan ozonlashtirgich quvvati",
           "tableData": [
-            [
-              "Fitnes zali",
-              "200-500 m³",
-              "10-20 g/h",
-              "120 min"
-            ],
-            [
-              "Loker xonasi",
-              "50-100 m³",
-              "3-5 g/h",
-              "90 min"
-            ],
-            [
-              "Sport zali",
-              "300-600 m³",
-              "15-25 g/h",
-              "150 min"
-            ],
-            [
-              "Sport arenasi",
-              "2000-5000 m³",
-              "80-200 g/h",
-              "180 min"
-            ],
-            [
-              "Yuzma havuzi",
-              "500-1500 m³",
-              "20-60 g/h",
-              "120 min"
-            ]
+            ["Fitnes zali", "200-500 m³", "10-20 g/h", "120 min"],
+            ["Loker xonasi", "50-100 m³", "3-5 g/h", "90 min"],
+            ["Sport zali", "300-600 m³", "15-25 g/h", "150 min"],
+            ["Sport arenasi", "2000-5000 m³", "80-200 g/h", "180 min"],
+            ["Yuzma havuzi", "500-1500 m³", "20-60 g/h", "120 min"]
           ]
         },
         "specialZones": {
@@ -181,53 +131,21 @@
         },
         "pathogens": {
           "title": "Patogenlarga qarshi samaradorligi",
-          "tableHeaders": [
-            "Patogen",
-            "Inaktivatsiya vaqti",
-            "Samaradorligi"
-          ],
+          "tableHeaders": ["Patogen", "Inaktivatsiya vaqti", "Samaradorligi"],
           "tableCaption": "Patogen inaktivatsiya vaqti (konsentratsiya 20 mg/m³)",
           "tableData": [
-            [
-              "Trichophyton (atlettik oyoqlari)",
-              "20-30 min",
-              "99.9%"
-            ],
-            [
-              "Kandidiya albikans",
-              "15-20 min",
-              "99.9%"
-            ],
-            [
-              "Stafilo aureusi",
-              "10-15 min",
-              "99.99%"
-            ],
-            [
-              "Gripp viruslari",
-              "5-10 min",
-              "99.99%"
-            ],
-            [
-              "Ko'k (sporlari)",
-              "30-40 min",
-              "99%"
-            ],
-            [
-              "E. coli",
-              "5-10 min",
-              "99.99%"
-            ]
+            ["Trichophyton (atlettik oyoqlari)", "20-30 min", "99.9%"],
+            ["Kandidiya albikans", "15-20 min", "99.9%"],
+            ["Stafilo aureusi", "10-15 min", "99.99%"],
+            ["Gripp viruslari", "5-10 min", "99.99%"],
+            ["Ko'k (sporlari)", "30-40 min", "99%"],
+            ["E. coli", "5-10 min", "99.99%"]
           ]
         },
         "comparison": {
           "title": "An'anaviy tozalash bilan taqqoslash",
           "tableTitle": "Ozonlash va kimyoviy dezinfeksiya",
-          "headers": [
-            "Mezon",
-            "Ozonlash",
-            "Kimyoviy davomi"
-          ],
+          "headers": ["Mezon", "Ozonlash", "Kimyoviy davomi"],
           "rows": [
             {
               "parameter": "Ter hidini yo'q qilish",

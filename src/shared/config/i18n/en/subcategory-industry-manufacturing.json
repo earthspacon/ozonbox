@@ -57,43 +57,13 @@
           ],
           "table": {
             "caption": "Ozonation efficiency against microorganisms",
-            "headers": [
-              "Microorganism",
-              "Ozone concentration, mg/m³",
-              "Exposure time, min",
-              "Efficiency"
-            ],
+            "headers": ["Microorganism", "Ozone concentration, mg/m³", "Exposure time, min", "Efficiency"],
             "rows": [
-              [
-                "E. coli",
-                "0.5-1.0",
-                "15-20",
-                "99.9%"
-              ],
-              [
-                "Staphylococcus aureus",
-                "1.0-2.0",
-                "20-30",
-                "99.9%"
-              ],
-              [
-                "Aspergillus niger (spores)",
-                "2.0-5.0",
-                "30-60",
-                "99.0%"
-              ],
-              [
-                "Influenza virus",
-                "0.5-1.0",
-                "10-15",
-                "99.99%"
-              ],
-              [
-                "SARS-CoV-2",
-                "1.0-2.0",
-                "15-20",
-                "99.9%"
-              ]
+              ["E. coli", "0.5-1.0", "15-20", "99.9%"],
+              ["Staphylococcus aureus", "1.0-2.0", "20-30", "99.9%"],
+              ["Aspergillus niger (spores)", "2.0-5.0", "30-60", "99.0%"],
+              ["Influenza virus", "0.5-1.0", "10-15", "99.99%"],
+              ["SARS-CoV-2", "1.0-2.0", "15-20", "99.9%"]
             ]
           },
           "highlight": {
@@ -106,42 +76,14 @@
           "paragraph": "The technology is in demand at facilities with high air quality requirements:",
           "table": {
             "caption": "Application industries and specific tasks",
-            "headers": [
-              "Industry",
-              "Main tasks",
-              "Treatment mode"
-            ],
+            "headers": ["Industry", "Main tasks", "Treatment mode"],
             "rows": [
-              [
-                "Food production",
-                "Disinfection, odor removal, extended shelf life",
-                "Daily, night shifts"
-              ],
-              [
-                "Pharmaceuticals",
-                "Sterility of clean rooms classes A-D",
-                "After each shift"
-              ],
-              [
-                "Packaging facilities",
-                "Disinfection of packaging materials and air",
-                "Continuous low-dose"
-              ],
-              [
-                "Textile production",
-                "Odor removal, dust reduction",
-                "Periodic"
-              ],
-              [
-                "Wood processing",
-                "Mold control, dust concentration reduction",
-                "Daily"
-              ],
-              [
-                "Warehouse facilities",
-                "Mold prevention, disinfection",
-                "Scheduled 2-3 times/week"
-              ]
+              ["Food production", "Disinfection, odor removal, extended shelf life", "Daily, night shifts"],
+              ["Pharmaceuticals", "Sterility of clean rooms classes A-D", "After each shift"],
+              ["Packaging facilities", "Disinfection of packaging materials and air", "Continuous low-dose"],
+              ["Textile production", "Odor removal, dust reduction", "Periodic"],
+              ["Wood processing", "Mold control, dust concentration reduction", "Daily"],
+              ["Warehouse facilities", "Mold prevention, disinfection", "Scheduled 2-3 times/week"]
             ]
           }
         },
@@ -174,36 +116,11 @@
               "Required capacity, g/h"
             ],
             "rows": [
-              [
-                "100-500",
-                "5",
-                "15-20",
-                "50-100"
-              ],
-              [
-                "500-2000",
-                "5",
-                "20-30",
-                "100-300"
-              ],
-              [
-                "2000-5000",
-                "5",
-                "30-45",
-                "300-500"
-              ],
-              [
-                "5000-10000",
-                "5",
-                "45-60",
-                "500-800"
-              ],
-              [
-                ">10000",
-                "5",
-                "60-90",
-                "800-1500"
-              ]
+              ["100-500", "5", "15-20", "50-100"],
+              ["500-2000", "5", "20-30", "100-300"],
+              ["2000-5000", "5", "30-45", "300-500"],
+              ["5000-10000", "5", "45-60", "500-800"],
+              [">10000", "5", "60-90", "800-1500"]
             ]
           }
         },
@@ -218,32 +135,12 @@
           ],
           "table": {
             "caption": "Ozonation integration schemes with ventilation",
-            "headers": [
-              "Scheme",
-              "Advantages",
-              "Limitations"
-            ],
+            "headers": ["Scheme", "Advantages", "Limitations"],
             "rows": [
-              [
-                "Injection into supply",
-                "Uniformity, simplicity",
-                "Requires corrosion-resistant ducts"
-              ],
-              [
-                "Recirculation",
-                "Energy savings, continuous treatment",
-                "Concentration limitation"
-              ],
-              [
-                "Separate circuit",
-                "Mode flexibility, independence",
-                "Additional costs"
-              ],
-              [
-                "Mobile units",
-                "Mobility, minimal investment",
-                "Uneven treatment"
-              ]
+              ["Injection into supply", "Uniformity, simplicity", "Requires corrosion-resistant ducts"],
+              ["Recirculation", "Energy savings, continuous treatment", "Concentration limitation"],
+              ["Separate circuit", "Mode flexibility, independence", "Additional costs"],
+              ["Mobile units", "Mobility, minimal investment", "Uneven treatment"]
             ]
           },
           "highlight": {
@@ -256,49 +153,14 @@
           "paragraph": "At facilities using solvents, paints, adhesives, VOC concentrations can exceed MPC by 5-20 times. Ozonation oxidizes organic compounds to safe products:",
           "table": {
             "caption": "Oxidation of typical production facility VOCs",
-            "headers": [
-              "Compound",
-              "MPC, mg/m³",
-              "Oxidation rate",
-              "Reaction products"
-            ],
+            "headers": ["Compound", "MPC, mg/m³", "Oxidation rate", "Reaction products"],
             "rows": [
-              [
-                "Formaldehyde",
-                "0.5",
-                "High",
-                "CO₂, H₂O, formic acid"
-              ],
-              [
-                "Benzene",
-                "5.0",
-                "Medium",
-                "CO₂, H₂O, phenols"
-              ],
-              [
-                "Toluene",
-                "50",
-                "Medium",
-                "CO₂, H₂O, benzaldehyde"
-              ],
-              [
-                "Xylene",
-                "50",
-                "Medium",
-                "CO₂, H₂O, tolualdehyde"
-              ],
-              [
-                "Acetone",
-                "200",
-                "Low",
-                "CO₂, H₂O, acetic acid"
-              ],
-              [
-                "Styrene",
-                "30",
-                "High",
-                "CO₂, H₂O, benzaldehyde"
-              ]
+              ["Formaldehyde", "0.5", "High", "CO₂, H₂O, formic acid"],
+              ["Benzene", "5.0", "Medium", "CO₂, H₂O, phenols"],
+              ["Toluene", "50", "Medium", "CO₂, H₂O, benzaldehyde"],
+              ["Xylene", "50", "Medium", "CO₂, H₂O, tolualdehyde"],
+              ["Acetone", "200", "Low", "CO₂, H₂O, acetic acid"],
+              ["Styrene", "30", "High", "CO₂, H₂O, benzaldehyde"]
             ]
           },
           "highlight": {
@@ -318,49 +180,14 @@
           ],
           "table": {
             "caption": "MPC of main work zone air pollutants",
-            "headers": [
-              "Substance",
-              "Max MPC, mg/m³",
-              "Shift avg MPC, mg/m³",
-              "Hazard class"
-            ],
+            "headers": ["Substance", "Max MPC, mg/m³", "Shift avg MPC, mg/m³", "Hazard class"],
             "rows": [
-              [
-                "Ozone",
-                "0.1",
-                "0.03",
-                "1"
-              ],
-              [
-                "Non-toxic dust",
-                "10",
-                "4",
-                "4"
-              ],
-              [
-                "Ammonia",
-                "20",
-                "—",
-                "4"
-              ],
-              [
-                "Hydrogen sulfide",
-                "10",
-                "—",
-                "2"
-              ],
-              [
-                "Formaldehyde",
-                "0.5",
-                "0.05",
-                "2"
-              ],
-              [
-                "Hydrocarbons (by C)",
-                "300",
-                "100",
-                "4"
-              ]
+              ["Ozone", "0.1", "0.03", "1"],
+              ["Non-toxic dust", "10", "4", "4"],
+              ["Ammonia", "20", "—", "4"],
+              ["Hydrogen sulfide", "10", "—", "2"],
+              ["Formaldehyde", "0.5", "0.05", "2"],
+              ["Hydrocarbons (by C)", "300", "100", "4"]
             ]
           }
         },
@@ -384,11 +211,7 @@
           "title": "Implementation economic indicators",
           "comparisonTable": {
             "title": "Industrial ozonation ROI",
-            "headers": [
-              "Item",
-              "Ozonation",
-              "Alternatives"
-            ],
+            "headers": ["Item", "Ozonation", "Alternatives"],
             "rows": [
               {
                 "parameter": "Capital costs",
@@ -424,42 +247,14 @@
           },
           "table": {
             "caption": "Savings calculation for 2000 m³ production facility",
-            "headers": [
-              "Indicator",
-              "Value",
-              "Comment"
-            ],
+            "headers": ["Indicator", "Value", "Comment"],
             "rows": [
-              [
-                "Equipment cost",
-                "450,000 rub",
-                "200 g/h ozonator + automation"
-              ],
-              [
-                "Installation and commissioning",
-                "80,000 rub",
-                "Integration with ventilation"
-              ],
-              [
-                "Annual electricity",
-                "18,000 rub",
-                "2.5 kW × 2 h/day × 365 days × 10 rub/kWh"
-              ],
-              [
-                "Savings on disinfectants",
-                "180,000 rub/year",
-                "Elimination of chemical treatment"
-              ],
-              [
-                "Reduced sick leave",
-                "150,000 rub/year",
-                "30% reduction in illness"
-              ],
-              [
-                "Net effect",
-                "312,000 rub/year",
-                "Payback in 18 months"
-              ]
+              ["Equipment cost", "450,000 rub", "200 g/h ozonator + automation"],
+              ["Installation and commissioning", "80,000 rub", "Integration with ventilation"],
+              ["Annual electricity", "18,000 rub", "2.5 kW × 2 h/day × 365 days × 10 rub/kWh"],
+              ["Savings on disinfectants", "180,000 rub/year", "Elimination of chemical treatment"],
+              ["Reduced sick leave", "150,000 rub/year", "30% reduction in illness"],
+              ["Net effect", "312,000 rub/year", "Payback in 18 months"]
             ]
           }
         },
@@ -497,49 +292,14 @@
           "paragraph": "Ozonation system implementation at confectionery production enterprise:",
           "table": {
             "caption": "Implementation results over 6 months of operation",
-            "headers": [
-              "Indicator",
-              "Before implementation",
-              "After implementation",
-              "Change"
-            ],
+            "headers": ["Indicator", "Before implementation", "After implementation", "Change"],
             "rows": [
-              [
-                "Facility volume",
-                "3,500 m³",
-                "3,500 m³",
-                "—"
-              ],
-              [
-                "Air microbial contamination",
-                "2,500 CFU/m³",
-                "150 CFU/m³",
-                "-94%"
-              ],
-              [
-                "Mold complaint cases",
-                "12 cases/month",
-                "0-1 case/month",
-                "-95%"
-              ],
-              [
-                "Product shelf life",
-                "14 days",
-                "21 days",
-                "+50%"
-              ],
-              [
-                "Chemical disinfection costs",
-                "35,000 rub/month",
-                "5,000 rub/month",
-                "-86%"
-              ],
-              [
-                "Personnel sick leave",
-                "8 days/month",
-                "3 days/month",
-                "-63%"
-              ]
+              ["Facility volume", "3,500 m³", "3,500 m³", "—"],
+              ["Air microbial contamination", "2,500 CFU/m³", "150 CFU/m³", "-94%"],
+              ["Mold complaint cases", "12 cases/month", "0-1 case/month", "-95%"],
+              ["Product shelf life", "14 days", "21 days", "+50%"],
+              ["Chemical disinfection costs", "35,000 rub/month", "5,000 rub/month", "-86%"],
+              ["Personnel sick leave", "8 days/month", "3 days/month", "-63%"]
             ]
           }
         }

@@ -59,38 +59,14 @@
         "effectiveness": {
           "title": "Effectiveness of ozonation",
           "text": "Studies have shown that adding ozone to air at 15 parts per billion (0.03 mg/m³) produces an effect equivalent to a two-hour walk in fresh air. Staff showed strengthened immune systems, increased blood oxygen levels, and improved blood pressure.",
-          "tableHeaders": [
-            "Indicator",
-            "Before ozonation",
-            "After ozonation"
-          ],
+          "tableHeaders": ["Indicator", "Before ozonation", "After ozonation"],
           "tableCaption": "Results of ozone impact studies in offices",
           "tableData": [
-            [
-              "Headache frequency",
-              "Frequent",
-              "Rare"
-            ],
-            [
-              "Work capacity",
-              "70%",
-              "100%"
-            ],
-            [
-              "Attention concentration",
-              "Reduced",
-              "Normal"
-            ],
-            [
-              "ARI incidence",
-              "15-20% per season",
-              "8-10% per season"
-            ],
-            [
-              "Atmosphere satisfaction",
-              "45%",
-              "89%"
-            ]
+            ["Headache frequency", "Frequent", "Rare"],
+            ["Work capacity", "70%", "100%"],
+            ["Attention concentration", "Reduced", "Normal"],
+            ["ARI incidence", "15-20% per season", "8-10% per season"],
+            ["Atmosphere satisfaction", "45%", "89%"]
           ]
         },
         "whatDisinfects": {
@@ -127,47 +103,18 @@
               "description": "2–3 hours after treatment ends, ozone decomposes to safe levels. Active ventilation is not required."
             }
           ],
-          "tableHeaders": [
-            "Room type",
-            "Volume",
-            "Capacity",
-            "Treatment time"
-          ],
+          "tableHeaders": ["Room type", "Volume", "Capacity", "Treatment time"],
           "tableCaption": "Recommended ozonation modes for offices",
           "tableData": [
-            [
-              "Office",
-              "up to 50 m³",
-              "2-3 g/h",
-              "60 min"
-            ],
-            [
-              "Open space",
-              "100-300 m³",
-              "5-10 g/h",
-              "90 min"
-            ],
-            [
-              "Meeting room",
-              "30-50 m³",
-              "2 g/h",
-              "40 min"
-            ],
-            [
-              "Coworking",
-              "200-500 m³",
-              "10-20 g/h",
-              "120 min"
-            ]
+            ["Office", "up to 50 m³", "2-3 g/h", "60 min"],
+            ["Open space", "100-300 m³", "5-10 g/h", "90 min"],
+            ["Meeting room", "30-50 m³", "2 g/h", "40 min"],
+            ["Coworking", "200-500 m³", "10-20 g/h", "120 min"]
           ]
         },
         "comparison": {
           "title": "Comparison of air cleaning methods",
-          "headers": [
-            "Parameter",
-            "Ozonation",
-            "Chemical cleaning"
-          ],
+          "headers": ["Parameter", "Ozonation", "Chemical cleaning"],
           "rows": [
             {
               "parameter": "Air disinfection",

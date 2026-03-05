@@ -76,38 +76,13 @@
               "description": "Open doors and windows, ventilate cabin for 20 minutes. Use vehicle ventilation system to accelerate."
             }
           ],
-          "tableHeaders": [
-            "Transport type",
-            "Interior volume",
-            "Capacity",
-            "Time"
-          ],
+          "tableHeaders": ["Transport type", "Interior volume", "Capacity", "Time"],
           "tableCaption": "Recommended treatment modes",
           "tableData": [
-            [
-              "Minibus",
-              "15-25 m³",
-              "5-10 g/h",
-              "20 min"
-            ],
-            [
-              "City bus",
-              "40-60 m³",
-              "20-30 g/h",
-              "30 min"
-            ],
-            [
-              "Articulated bus",
-              "80-100 m³",
-              "30-50 g/h",
-              "40 min"
-            ],
-            [
-              "Tram/trolleybus",
-              "50-80 m³",
-              "20-40 g/h",
-              "35 min"
-            ]
+            ["Minibus", "15-25 m³", "5-10 g/h", "20 min"],
+            ["City bus", "40-60 m³", "20-30 g/h", "30 min"],
+            ["Articulated bus", "80-100 m³", "30-50 g/h", "40 min"],
+            ["Tram/trolleybus", "50-80 m³", "20-40 g/h", "35 min"]
           ]
         },
         "organizationOptions": {
@@ -136,84 +111,32 @@
           "title": "Power supply from vehicle electrical system",
           "text": "Ozonators can operate from vehicle electrical system, allowing treatment without external power connection.",
           "highlight": "Treatment requires no staff participation — just turn on the ozonator and leave. No consumables reduce operating costs.",
-          "tableHeaders": [
-            "Power type",
-            "Application",
-            "Advantages"
-          ],
+          "tableHeaders": ["Power type", "Application", "Advantages"],
           "tableCaption": "Ozonator power supply options",
           "tableData": [
-            [
-              "12V DC",
-              "Minibus, microbus",
-              "Standard vehicle power"
-            ],
-            [
-              "24V DC",
-              "Buses, trolleybuses",
-              "Increased power"
-            ],
-            [
-              "220V AC",
-              "Depots, parks",
-              "Maximum capacity"
-            ],
-            [
-              "Battery",
-              "Mobile teams",
-              "Autonomy"
-            ]
+            ["12V DC", "Minibus, microbus", "Standard vehicle power"],
+            ["24V DC", "Buses, trolleybuses", "Increased power"],
+            ["220V AC", "Depots, parks", "Maximum capacity"],
+            ["Battery", "Mobile teams", "Autonomy"]
           ]
         },
         "pathogenEfficiency": {
           "title": "Effectiveness against pathogens",
-          "tableHeaders": [
-            "Pathogen",
-            "Time at 20 mg/m³",
-            "Effectiveness"
-          ],
+          "tableHeaders": ["Pathogen", "Time at 20 mg/m³", "Effectiveness"],
           "tableCaption": "Pathogen inactivation time in transport cabin",
           "tableData": [
-            [
-              "Coronaviruses (COVID-19)",
-              "10-15 min",
-              "99.9%"
-            ],
-            [
-              "Influenza viruses",
-              "5-10 min",
-              "99.9%"
-            ],
-            [
-              "Staphylococcus aureus",
-              "10-15 min",
-              "99.9%"
-            ],
-            [
-              "E. coli",
-              "5-10 min",
-              "99.9%"
-            ],
-            [
-              "Mold and fungi",
-              "15-20 min",
-              "99%"
-            ],
-            [
-              "Odors (organic)",
-              "20-30 min",
-              "100%"
-            ]
+            ["Coronaviruses (COVID-19)", "10-15 min", "99.9%"],
+            ["Influenza viruses", "5-10 min", "99.9%"],
+            ["Staphylococcus aureus", "10-15 min", "99.9%"],
+            ["E. coli", "5-10 min", "99.9%"],
+            ["Mold and fungi", "15-20 min", "99%"],
+            ["Odors (organic)", "20-30 min", "100%"]
           ]
         },
         "comparison": {
           "title": "Disinfection method comparison",
           "tableTitle": "Ozonation vs chemical treatment",
-          "headers": [
-            "Criterion",
-            "Ozonation",
-            "Chemical treatment"
-          ],
+          "headers": ["Criterion", "Ozonation", "Chemical treatment"],
           "rows": [
             {
               "parameter": "Treatment time",

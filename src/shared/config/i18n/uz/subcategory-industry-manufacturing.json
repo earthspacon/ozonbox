@@ -57,43 +57,13 @@
           ],
           "table": {
             "caption": "Mikroorganizmlarga qarshi ozonlash samaradorligi",
-            "headers": [
-              "Mikroorganism",
-              "Ozon kontsentratsiyasi, mg/m³",
-              "Ekspozitsiya vaqti, min",
-              "Samaradorlik"
-            ],
+            "headers": ["Mikroorganism", "Ozon kontsentratsiyasi, mg/m³", "Ekspozitsiya vaqti, min", "Samaradorlik"],
             "rows": [
-              [
-                "E. coli",
-                "0.5-1.0",
-                "15-20",
-                "99.9%"
-              ],
-              [
-                "Staphylococcus aureus",
-                "1.0-2.0",
-                "20-30",
-                "99.9%"
-              ],
-              [
-                "Aspergillus niger (sporalar)",
-                "2.0-5.0",
-                "30-60",
-                "99.0%"
-              ],
-              [
-                "Gripp virusi",
-                "0.5-1.0",
-                "10-15",
-                "99.99%"
-              ],
-              [
-                "SARS-CoV-2",
-                "1.0-2.0",
-                "15-20",
-                "99.9%"
-              ]
+              ["E. coli", "0.5-1.0", "15-20", "99.9%"],
+              ["Staphylococcus aureus", "1.0-2.0", "20-30", "99.9%"],
+              ["Aspergillus niger (sporalar)", "2.0-5.0", "30-60", "99.0%"],
+              ["Gripp virusi", "0.5-1.0", "10-15", "99.99%"],
+              ["SARS-CoV-2", "1.0-2.0", "15-20", "99.9%"]
             ]
           },
           "highlight": {
@@ -106,42 +76,18 @@
           "paragraph": "Texnalogiya hava sifatiga yuqori talablar qo'yuvchi qurillalarida talab.",
           "table": {
             "caption": "Qo'llanish sanoatlari va maxsus vazifalari",
-            "headers": [
-              "Sanoat",
-              "Asosiy vazifalar",
-              "Tozalash rejimi"
-            ],
+            "headers": ["Sanoat", "Asosiy vazifalar", "Tozalash rejimi"],
             "rows": [
               [
                 "Oziq-ovqat ishlab chiqarish",
                 "Dezinfeksiya, hidni olib tashlash, mahsulot qo'l davrini uzoqartirish",
                 "Kunlik, kechki smena"
               ],
-              [
-                "Farmatsevtik",
-                "Toza xonalarning A-D sinifini sterillik",
-                "Har smena keyin"
-              ],
-              [
-                "Qadoqlash qurillalari",
-                "Qadoqlash materiallari va hava dezinfeksiyasi",
-                "Doimiy past-doza"
-              ],
-              [
-                "Matoli ishlab chiqarish",
-                "Hidni olib tashlash, changning kamaytirilishi",
-                "Davriy"
-              ],
-              [
-                "Yog'ochni qayta ishlash",
-                "Qo'ziqoringa nazorat, chang kontsentratsiyas kamaytirilishi",
-                "Kunlik"
-              ],
-              [
-                "Omborlar",
-                "Qo'ziqorindan himoya, dezinfeksiya",
-                "Rejalashtirilgan 2-3 marta/hafta"
-              ]
+              ["Farmatsevtik", "Toza xonalarning A-D sinifini sterillik", "Har smena keyin"],
+              ["Qadoqlash qurillalari", "Qadoqlash materiallari va hava dezinfeksiyasi", "Doimiy past-doza"],
+              ["Matoli ishlab chiqarish", "Hidni olib tashlash, changning kamaytirilishi", "Davriy"],
+              ["Yog'ochni qayta ishlash", "Qo'ziqoringa nazorat, chang kontsentratsiyas kamaytirilishi", "Kunlik"],
+              ["Omborlar", "Qo'ziqorindan himoya, dezinfeksiya", "Rejalashtirilgan 2-3 marta/hafta"]
             ]
           }
         },
@@ -174,36 +120,11 @@
               "Kerakli qabiliyet, g/soat"
             ],
             "rows": [
-              [
-                "100-500",
-                "5",
-                "15-20",
-                "50-100"
-              ],
-              [
-                "500-2000",
-                "5",
-                "20-30",
-                "100-300"
-              ],
-              [
-                "2000-5000",
-                "5",
-                "30-45",
-                "300-500"
-              ],
-              [
-                "5000-10000",
-                "5",
-                "45-60",
-                "500-800"
-              ],
-              [
-                ">10000",
-                "5",
-                "60-90",
-                "800-1500"
-              ]
+              ["100-500", "5", "15-20", "50-100"],
+              ["500-2000", "5", "20-30", "100-300"],
+              ["2000-5000", "5", "30-45", "300-500"],
+              ["5000-10000", "5", "45-60", "500-800"],
+              [">10000", "5", "60-90", "800-1500"]
             ]
           }
         },
@@ -218,32 +139,12 @@
           ],
           "table": {
             "caption": "Ventilatsiya bilan ozonlash integratsiya sxemalar",
-            "headers": [
-              "Sxema",
-              "Ustunluklari",
-              "Cheklovlari"
-            ],
+            "headers": ["Sxema", "Ustunluklari", "Cheklovlari"],
             "rows": [
-              [
-                "Ta'minot kiritish",
-                "Tekisligi, soddaligi",
-                "Erosiya barqararlashtirilgan kanallarni talab qiladi"
-              ],
-              [
-                "Sirkulyatsiya",
-                "Energiya tejash, doimiy tozalash",
-                "Kontsentratsiya cheklanmasi"
-              ],
-              [
-                "Alohida elektr sxemasi",
-                "Rejim mosligi, mustaqillik",
-                "Qo'shimcha xarajatlar"
-              ],
-              [
-                "Mobil birliklar",
-                "Portativlik, minimal investitsiya",
-                "Teng bo'lmagan tozalash"
-              ]
+              ["Ta'minot kiritish", "Tekisligi, soddaligi", "Erosiya barqararlashtirilgan kanallarni talab qiladi"],
+              ["Sirkulyatsiya", "Energiya tejash, doimiy tozalash", "Kontsentratsiya cheklanmasi"],
+              ["Alohida elektr sxemasi", "Rejim mosligi, mustaqillik", "Qo'shimcha xarajatlar"],
+              ["Mobil birliklar", "Portativlik, minimal investitsiya", "Teng bo'lmagan tozalash"]
             ]
           },
           "highlight": {
@@ -256,49 +157,14 @@
           "paragraph": "Erituvchilar, ranglar, yopishqoq moddalarni qo'llash qurillalarida VOK kontsentratsiyas MPC 5-20 marta osib qo'yishi mumkin. Ozonlash organik birikmalarin xavfsiz mahsulotlar ga oksidlaydi:",
           "table": {
             "caption": "Tipik ishlab chiqarish qurillalari VOK oksidlanishi",
-            "headers": [
-              "Birikma",
-              "MPC, mg/m³",
-              "Oksidlanish tezligi",
-              "Reaktsiya mahsulotlari"
-            ],
+            "headers": ["Birikma", "MPC, mg/m³", "Oksidlanish tezligi", "Reaktsiya mahsulotlari"],
             "rows": [
-              [
-                "Formaldegid",
-                "0.5",
-                "Yuqori",
-                "CO₂, H₂O, muravyoq kislotasi"
-              ],
-              [
-                "Benzol",
-                "5.0",
-                "O'rta",
-                "CO₂, H₂O, fenollar"
-              ],
-              [
-                "Toluol",
-                "50",
-                "O'rta",
-                "CO₂, H₂O, benzaldegid"
-              ],
-              [
-                "Ksilol",
-                "50",
-                "O'rta",
-                "CO₂, H₂O, tulualdegid"
-              ],
-              [
-                "Atseton",
-                "200",
-                "Past",
-                "CO₂, H₂O, acetik kislotasi"
-              ],
-              [
-                "Stirol",
-                "30",
-                "Yuqori",
-                "CO₂, H₂O, benzaldegid"
-              ]
+              ["Formaldegid", "0.5", "Yuqori", "CO₂, H₂O, muravyoq kislotasi"],
+              ["Benzol", "5.0", "O'rta", "CO₂, H₂O, fenollar"],
+              ["Toluol", "50", "O'rta", "CO₂, H₂O, benzaldegid"],
+              ["Ksilol", "50", "O'rta", "CO₂, H₂O, tulualdegid"],
+              ["Atseton", "200", "Past", "CO₂, H₂O, acetik kislotasi"],
+              ["Stirol", "30", "Yuqori", "CO₂, H₂O, benzaldegid"]
             ]
           },
           "highlight": {
@@ -318,49 +184,14 @@
           ],
           "table": {
             "caption": "Asosiy ish zona hava ifloslantirgichilar MPC",
-            "headers": [
-              "Modda",
-              "Maks MPC, mg/m³",
-              "Smena o'rtacha MPC, mg/m³",
-              "Xatar sinfi"
-            ],
+            "headers": ["Modda", "Maks MPC, mg/m³", "Smena o'rtacha MPC, mg/m³", "Xatar sinfi"],
             "rows": [
-              [
-                "Ozon",
-                "0.1",
-                "0.03",
-                "1"
-              ],
-              [
-                "Toksinli bo'lmagan chang",
-                "10",
-                "4",
-                "4"
-              ],
-              [
-                "Ammiak",
-                "20",
-                "—",
-                "4"
-              ],
-              [
-                "Vodorod sulfid",
-                "10",
-                "—",
-                "2"
-              ],
-              [
-                "Formaldegid",
-                "0.5",
-                "0.05",
-                "2"
-              ],
-              [
-                "Uglevodoklarni (C bo'yicha)",
-                "300",
-                "100",
-                "4"
-              ]
+              ["Ozon", "0.1", "0.03", "1"],
+              ["Toksinli bo'lmagan chang", "10", "4", "4"],
+              ["Ammiak", "20", "—", "4"],
+              ["Vodorod sulfid", "10", "—", "2"],
+              ["Formaldegid", "0.5", "0.05", "2"],
+              ["Uglevodoklarni (C bo'yicha)", "300", "100", "4"]
             ]
           }
         },
@@ -384,11 +215,7 @@
           "title": "Qo'llanilish iqtisodiy ko'rsatkichlar",
           "comparisonTable": {
             "title": "Sanoat ozonlash ROI",
-            "headers": [
-              "Xarakat",
-              "Ozonlash",
-              "Muqobillar"
-            ],
+            "headers": ["Xarakat", "Ozonlash", "Muqobillar"],
             "rows": [
               {
                 "parameter": "Modal xarajatlar",
@@ -424,42 +251,14 @@
           },
           "table": {
             "caption": "2000 m³ ishlab chiqarish qurillasi uchun tejash hisoblashi",
-            "headers": [
-              "Ko'rsatkich",
-              "Qiymat",
-              "Izoh"
-            ],
+            "headers": ["Ko'rsatkich", "Qiymat", "Izoh"],
             "rows": [
-              [
-                "Qurilla qiymati",
-                "450,000 rub",
-                "200 g/soat ozonator + avtomatika"
-              ],
-              [
-                "O'rnatish va ishga tushirish",
-                "80,000 rub",
-                "Ventilatsiya bilan integratsiya"
-              ],
-              [
-                "Yillik elektr",
-                "18,000 rub",
-                "2.5 kW × 2 soat/kun × 365 kun × 10 rub/kWh"
-              ],
-              [
-                "Dezinfeksiya vositalarga tejash",
-                "180,000 rub/yil",
-                "Kimyoviy tozalashni bartaraf etish"
-              ],
-              [
-                "Bemorga ketayotgan kunlarni kamaytirrish",
-                "150,000 rub/yil",
-                "Kasallikning 30% kamaytirilishi"
-              ],
-              [
-                "Sof ta'sir",
-                "312,000 rub/yil",
-                "18 oyda qaytarish"
-              ]
+              ["Qurilla qiymati", "450,000 rub", "200 g/soat ozonator + avtomatika"],
+              ["O'rnatish va ishga tushirish", "80,000 rub", "Ventilatsiya bilan integratsiya"],
+              ["Yillik elektr", "18,000 rub", "2.5 kW × 2 soat/kun × 365 kun × 10 rub/kWh"],
+              ["Dezinfeksiya vositalarga tejash", "180,000 rub/yil", "Kimyoviy tozalashni bartaraf etish"],
+              ["Bemorga ketayotgan kunlarni kamaytirrish", "150,000 rub/yil", "Kasallikning 30% kamaytirilishi"],
+              ["Sof ta'sir", "312,000 rub/yil", "18 oyda qaytarish"]
             ]
           }
         },
@@ -497,49 +296,14 @@
           "paragraph": "Konfet ishlab chiqarish korxonasida ozonlash tizimining qo'llanilmasi:",
           "table": {
             "caption": "6 oylik ishlash davridagi qo'llanilish natijalari",
-            "headers": [
-              "Ko'rsatkich",
-              "Qo'llanilishidan oldin",
-              "Qo'llanilishidan keyin",
-              "O'zgarish"
-            ],
+            "headers": ["Ko'rsatkich", "Qo'llanilishidan oldin", "Qo'llanilishidan keyin", "O'zgarish"],
             "rows": [
-              [
-                "Qurilla hajmi",
-                "3,500 m³",
-                "3,500 m³",
-                "—"
-              ],
-              [
-                "Hava mikrobial ifloslantirishi",
-                "2,500 CFU/m³",
-                "150 CFU/m³",
-                "-94%"
-              ],
-              [
-                "Qo'ziqorin shikoyat holatlari",
-                "12 holatlar/oyiga",
-                "0-1 holatlar/oyiga",
-                "-95%"
-              ],
-              [
-                "Mahsulot qo'l davri",
-                "14 kun",
-                "21 kun",
-                "+50%"
-              ],
-              [
-                "Kimyoviy dezinfeksiya xarajatlari",
-                "35,000 rub/oyiga",
-                "5,000 rub/oyiga",
-                "-86%"
-              ],
-              [
-                "Xodim bemorga ketayotgan kunlar",
-                "8 kun/oyiga",
-                "3 kun/oyiga",
-                "-63%"
-              ]
+              ["Qurilla hajmi", "3,500 m³", "3,500 m³", "—"],
+              ["Hava mikrobial ifloslantirishi", "2,500 CFU/m³", "150 CFU/m³", "-94%"],
+              ["Qo'ziqorin shikoyat holatlari", "12 holatlar/oyiga", "0-1 holatlar/oyiga", "-95%"],
+              ["Mahsulot qo'l davri", "14 kun", "21 kun", "+50%"],
+              ["Kimyoviy dezinfeksiya xarajatlari", "35,000 rub/oyiga", "5,000 rub/oyiga", "-86%"],
+              ["Xodim bemorga ketayotgan kunlar", "8 kun/oyiga", "3 kun/oyiga", "-63%"]
             ]
           }
         }

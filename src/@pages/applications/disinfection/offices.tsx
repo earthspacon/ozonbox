@@ -143,9 +143,9 @@ export function OfficesPage({ staticData }: OfficesPageProps) {
             <Paragraph>{data?.sections?.effectiveness?.text ?? ''}</Paragraph>
 
             <DataTable
-              caption={data?.sections?.effectiveness?.table?.caption}
-              headers={data?.sections?.effectiveness?.table?.headers ?? []}
-              rows={data?.sections?.effectiveness?.table?.rows ?? []}
+              caption={data?.sections?.effectiveness?.tableCaption}
+              headers={data?.sections?.effectiveness?.tableHeaders ?? []}
+              rows={data?.sections?.effectiveness?.tableData ?? []}
             />
           </ArticleSection>
 
@@ -161,20 +161,17 @@ export function OfficesPage({ staticData }: OfficesPageProps) {
             <ProcessList steps={data?.sections?.treatmentMode?.steps ?? []} />
 
             <DataTable
-              caption={data?.sections?.treatmentMode?.table?.caption}
-              headers={data?.sections?.treatmentMode?.table?.headers ?? []}
-              rows={data?.sections?.treatmentMode?.table?.rows ?? []}
+              caption={data?.sections?.treatmentMode?.tableCaption}
+              headers={data?.sections?.treatmentMode?.tableHeaders ?? []}
+              rows={data?.sections?.treatmentMode?.tableData ?? []}
             />
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.comparison?.title ?? ''}>
             <ComparisonTable
-              title={data?.sections?.comparison?.table?.title}
-              headers={
-                (data?.sections?.comparison?.table?.headers as unknown as [string, string, string]) ?? ['', '', '']
-              }
+              headers={(data?.sections?.comparison?.headers as unknown as [string, string, string]) ?? ['', '', '']}
               rows={
-                (data?.sections?.comparison?.table?.rows as unknown as Array<{
+                (data?.sections?.comparison?.rows as unknown as Array<{
                   parameter: string
                   value1: string
                   value2: string

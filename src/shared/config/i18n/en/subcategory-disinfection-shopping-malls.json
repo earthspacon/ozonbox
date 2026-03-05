@@ -61,32 +61,12 @@
           "title": "Odor problem in malls",
           "intro": "Shopping malls combine many odor sources: food courts, restrooms, perfume stores, storage areas. Ozone effectively neutralizes all these odors, not masking them, but destroying the molecules of odorous substances.",
           "tableCaption": "Odor sources and solutions",
-          "tableHeaders": [
-            "Zone",
-            "Odor source",
-            "Solution"
-          ],
+          "tableHeaders": ["Zone", "Odor source", "Solution"],
           "tableData": [
-            [
-              "Food court",
-              "Food preparation, grease, spices",
-              "Night ozonation + duct ozone generators"
-            ],
-            [
-              "Restrooms",
-              "Organic substances",
-              "Continuous low-concentration ozonation"
-            ],
-            [
-              "Atrium",
-              "Odor mixing, stuffiness",
-              "Ventilation integration"
-            ],
-            [
-              "Parking",
-              "Exhaust fumes",
-              "Duct ozone generators in exhaust"
-            ]
+            ["Food court", "Food preparation, grease, spices", "Night ozonation + duct ozone generators"],
+            ["Restrooms", "Organic substances", "Continuous low-concentration ozonation"],
+            ["Atrium", "Odor mixing, stuffiness", "Ventilation integration"],
+            ["Parking", "Exhaust fumes", "Duct ozone generators in exhaust"]
           ]
         },
         "organization": {
@@ -132,85 +112,27 @@
         "equipment": {
           "title": "Equipment calculation",
           "tableCaption": "Recommended capacity for mall zones",
-          "tableHeaders": [
-            "Zone",
-            "Area",
-            "Capacity",
-            "Mode"
-          ],
+          "tableHeaders": ["Zone", "Area", "Capacity", "Mode"],
           "tableData": [
-            [
-              "Shopping gallery",
-              "1000-5000 m²",
-              "50-200 g/h",
-              "Night treatment"
-            ],
-            [
-              "Food court",
-              "500-1500 m²",
-              "20-60 g/h",
-              "Daily after closing"
-            ],
-            [
-              "Restroom",
-              "20-50 m²",
-              "1-2 g/h",
-              "Continuous or cycles"
-            ],
-            [
-              "Storage",
-              "100-300 m²",
-              "5-15 g/h",
-              "2-3 times per week"
-            ],
-            [
-              "Parking",
-              "5000-20000 m²",
-              "100-500 g/h",
-              "Ventilation integration"
-            ]
+            ["Shopping gallery", "1000-5000 m²", "50-200 g/h", "Night treatment"],
+            ["Food court", "500-1500 m²", "20-60 g/h", "Daily after closing"],
+            ["Restroom", "20-50 m²", "1-2 g/h", "Continuous or cycles"],
+            ["Storage", "100-300 m²", "5-15 g/h", "2-3 times per week"],
+            ["Parking", "5000-20000 m²", "100-500 g/h", "Ventilation integration"]
           ],
           "highlight": "For large shopping malls, comprehensive ozonation system design is recommended, taking into account building architecture, ventilation systems and operating mode. We develop custom solutions."
         },
         "pathogens": {
           "title": "Effectiveness against pathogens",
           "tableCaption": "Inactivation time on contact surfaces",
-          "tableHeaders": [
-            "Pathogen",
-            "Time (20 mg/m³)",
-            "Effectiveness"
-          ],
+          "tableHeaders": ["Pathogen", "Time (20 mg/m³)", "Effectiveness"],
           "tableData": [
-            [
-              "Coronaviruses",
-              "10-15 min",
-              "99.9%"
-            ],
-            [
-              "Influenza viruses",
-              "5-10 min",
-              "99.9%"
-            ],
-            [
-              "Norovirus",
-              "15-20 min",
-              "99.9%"
-            ],
-            [
-              "Staphylococcus aureus",
-              "10-15 min",
-              "99.99%"
-            ],
-            [
-              "E. coli",
-              "5-10 min",
-              "99.99%"
-            ],
-            [
-              "Mold",
-              "30-40 min",
-              "99%"
-            ]
+            ["Coronaviruses", "10-15 min", "99.9%"],
+            ["Influenza viruses", "5-10 min", "99.9%"],
+            ["Norovirus", "15-20 min", "99.9%"],
+            ["Staphylococcus aureus", "10-15 min", "99.99%"],
+            ["E. coli", "5-10 min", "99.99%"],
+            ["Mold", "30-40 min", "99%"]
           ]
         },
         "benefits": {
@@ -235,11 +157,7 @@
         "comparison": {
           "title": "Disinfection approach comparison",
           "tableTitle": "Shopping mall treatment methods",
-          "headers": [
-            "Criterion",
-            "Ozonation",
-            "Chemical treatment"
-          ],
+          "headers": ["Criterion", "Ozonation", "Chemical treatment"],
           "rows": [
             {
               "parameter": "Air treatment",

@@ -57,55 +57,15 @@
           "title": "Saqlash zararkunandalarini yo'q qilish",
           "intro": "Ozon hasharotlar va kanalarga barcha bosqichlarda: tuxum, lichinka, g'umbak va yetuk hasharot holatida ta'sir qiladi. Mexanizm kutikula lipidlarini oksidlash va hasharotlarning nafas olish tizimini yo'q qilishga asoslangan.",
           "tableCaption": "Don zararkunandalariga qarshi ozonlash samaradorligi",
-          "tableHeaders": [
-            "Zararkunanda",
-            "O₃ kontsentratsiyasi",
-            "Ishlov berish vaqti",
-            "O'lim darajasi"
-          ],
+          "tableHeaders": ["Zararkunanda", "O₃ kontsentratsiyasi", "Ishlov berish vaqti", "O'lim darajasi"],
           "tableData": [
-            [
-              "Don qandalasi",
-              "30–50 mg/m³",
-              "30–60 min",
-              "95–99%"
-            ],
-            [
-              "Guruch qandalasi",
-              "30–50 mg/m³",
-              "30–60 min",
-              "96–99%"
-            ],
-            [
-              "Don kemiruvchisi",
-              "40–60 mg/m³",
-              "45–90 min",
-              "95–98%"
-            ],
-            [
-              "Un qo'ng'izi",
-              "40–60 mg/m³",
-              "60–120 min",
-              "93–97%"
-            ],
-            [
-              "Surinam unxo'ri",
-              "30–50 mg/m³",
-              "30–60 min",
-              "97–99%"
-            ],
-            [
-              "Don kuyasi",
-              "20–40 mg/m³",
-              "30–45 min",
-              "98–99%"
-            ],
-            [
-              "Don kanasi",
-              "50–80 mg/m³",
-              "60–120 min",
-              "90–95%"
-            ]
+            ["Don qandalasi", "30–50 mg/m³", "30–60 min", "95–99%"],
+            ["Guruch qandalasi", "30–50 mg/m³", "30–60 min", "96–99%"],
+            ["Don kemiruvchisi", "40–60 mg/m³", "45–90 min", "95–98%"],
+            ["Un qo'ng'izi", "40–60 mg/m³", "60–120 min", "93–97%"],
+            ["Surinam unxo'ri", "30–50 mg/m³", "30–60 min", "97–99%"],
+            ["Don kuyasi", "20–40 mg/m³", "30–45 min", "98–99%"],
+            ["Don kanasi", "50–80 mg/m³", "60–120 min", "90–95%"]
           ],
           "highlightText": "Kimyoviy fumigatsiyadan farqli o'laroq, ozonlash donda qoldiq qoldirmaydi. Ishlov berishdan keyin ozon tezda kislorodga parchalanadi va mahsulot iste'mol uchun to'liq xavfsizdir."
         },
@@ -113,92 +73,27 @@
           "title": "Dezinfeksiya va mikotoksinlarni kamaytirish",
           "intro": "Dondagi mog'or zamburug'lari xavfli mikotoksinlarni ishlab chiqaradi: aflatoksinlar, zearalenon, deoksinivalenol (DON). Ozonlash zamburug'larni yo'q qiladi va allaqachon hosil bo'lgan toksinlarni qisman parchalaydi.",
           "tableCaption": "Zamburug'lar va mikotoksinlarga qarshi ozonlash samaradorligi",
-          "tableHeaders": [
-            "Ko'rsatkich",
-            "O₃ kontsentratsiyasi",
-            "Vaqt",
-            "Samaradorlik"
-          ],
+          "tableHeaders": ["Ko'rsatkich", "O₃ kontsentratsiyasi", "Vaqt", "Samaradorlik"],
           "tableData": [
-            [
-              "Umumiy mikroflora",
-              "20–40 mg/m³",
-              "15–60 min",
-              "80–95%"
-            ],
-            [
-              "Mog'or zamburug'lari",
-              "30–50 mg/m³",
-              "30–60 min",
-              "85–95%"
-            ],
-            [
-              "Aspergill (aflatoksinlar)",
-              "40–60 mg/m³",
-              "45–90 min",
-              "90–95%"
-            ],
-            [
-              "Fuzarium (DON, zearalenon)",
-              "40–60 mg/m³",
-              "60–120 min",
-              "75–90%"
-            ],
-            [
-              "Aflatoksin B1",
-              "50–100 mg/m³",
-              "120–180 min",
-              "60–80%"
-            ],
-            [
-              "Zearalenon",
-              "50–100 mg/m³",
-              "120–180 min",
-              "50–70%"
-            ]
+            ["Umumiy mikroflora", "20–40 mg/m³", "15–60 min", "80–95%"],
+            ["Mog'or zamburug'lari", "30–50 mg/m³", "30–60 min", "85–95%"],
+            ["Aspergill (aflatoksinlar)", "40–60 mg/m³", "45–90 min", "90–95%"],
+            ["Fuzarium (DON, zearalenon)", "40–60 mg/m³", "60–120 min", "75–90%"],
+            ["Aflatoksin B1", "50–100 mg/m³", "120–180 min", "60–80%"],
+            ["Zearalenon", "50–100 mg/m³", "120–180 min", "50–70%"]
           ]
         },
         "modes": {
           "title": "Donni ozonlash rejimlari",
           "intro": "Rejimni tanlash ishlov berish maqsadlariga bog'liq: profilaktika, dezinseksiya yoki dezinfeksiya. Donning namligi, harorati va omborning germetikligini hisobga olish muhimdir.",
           "tableCaption": "Tavsiya etilgan ozonlash rejimlari",
-          "tableHeaders": [
-            "Ishlov berish maqsadi",
-            "O₃ kontsentratsiyasi",
-            "Vaqt",
-            "Davriyligi"
-          ],
+          "tableHeaders": ["Ishlov berish maqsadi", "O₃ kontsentratsiyasi", "Vaqt", "Davriyligi"],
           "tableData": [
-            [
-              "Profilaktika",
-              "10–20 mg/m³",
-              "4–6 soat",
-              "Har 2–4 haftada"
-            ],
-            [
-              "Dezinseksiya",
-              "30–60 mg/m³",
-              "1–2 soat",
-              "Zaruratga qarab"
-            ],
-            [
-              "Dezinfeksiya",
-              "30–50 mg/m³",
-              "1–3 soat",
-              "Yuklash/tushirish paytida"
-            ],
-            [
-              "Chuqur ishlov berish",
-              "60–100 mg/m³",
-              "2–4 soat",
-              "Har 3–6 oyda"
-            ],
-            [
-              "Ekish oldidan ishlov berish",
-              "10–30 mg/m³",
-              "30–60 min",
-              "Ekishdan oldin"
-            ]
+            ["Profilaktika", "10–20 mg/m³", "4–6 soat", "Har 2–4 haftada"],
+            ["Dezinseksiya", "30–60 mg/m³", "1–2 soat", "Zaruratga qarab"],
+            ["Dezinfeksiya", "30–50 mg/m³", "1–3 soat", "Yuklash/tushirish paytida"],
+            ["Chuqur ishlov berish", "60–100 mg/m³", "2–4 soat", "Har 3–6 oyda"],
+            ["Ekish oldidan ishlov berish", "10–30 mg/m³", "30–60 min", "Ekishdan oldin"]
           ],
           "warningLabel": "Muhim",
           "warningText": "Namligi 14% dan yuqori bo'lgan donni ishlaganda ozonlash samaradorligi pasayadi. Oldindan quritish yoki ozon dozasini 20–30% ga oshirish tavsiya etiladi."
@@ -207,49 +102,14 @@
           "title": "Urug'larni ekishdan oldin ishlash",
           "intro": "Urug'larni ozon bilan ishlash unib chiqishni, unib chiqish quvvatini va ko'chatlarning noqulay sharoitlarga chidamliligini oshiradi. Tadqiqotlar hosildorlikning sezilarli darajada o'sishini tasdiqlaydi.",
           "tableCaption": "Ekish oldidan urug'larni ozonlash natijalari",
-          "tableHeaders": [
-            "Ekin",
-            "Ishlov berish rejimi",
-            "Unib chiqish o'sishi",
-            "Hosil o'sishi"
-          ],
+          "tableHeaders": ["Ekin", "Ishlov berish rejimi", "Unib chiqish o'sishi", "Hosil o'sishi"],
           "tableData": [
-            [
-              "Bug'doy",
-              "10–20 mg/m³, 30 min",
-              "+5–8%",
-              "+18–22%"
-            ],
-            [
-              "Arpa",
-              "10–20 mg/m³, 30 min",
-              "+6–10%",
-              "+14–17.5%"
-            ],
-            [
-              "Makkajo'xori",
-              "15–25 mg/m³, 45 min",
-              "+4–7%",
-              "+12–16%"
-            ],
-            [
-              "Kungaboqar",
-              "15–25 mg/m³, 45 min",
-              "+5–8%",
-              "+10–14%"
-            ],
-            [
-              "Soya",
-              "10–20 mg/m³, 30 min",
-              "+6–9%",
-              "+13–18%"
-            ],
-            [
-              "Guruch",
-              "10–15 mg/m³, 20 min",
-              "+7–12%",
-              "+15–20%"
-            ]
+            ["Bug'doy", "10–20 mg/m³, 30 min", "+5–8%", "+18–22%"],
+            ["Arpa", "10–20 mg/m³, 30 min", "+6–10%", "+14–17.5%"],
+            ["Makkajo'xori", "15–25 mg/m³, 45 min", "+4–7%", "+12–16%"],
+            ["Kungaboqar", "15–25 mg/m³, 45 min", "+5–8%", "+10–14%"],
+            ["Soya", "10–20 mg/m³, 30 min", "+6–9%", "+13–18%"],
+            ["Guruch", "10–15 mg/m³, 20 min", "+7–12%", "+15–20%"]
           ]
         },
         "worldExperience": {
@@ -288,47 +148,15 @@
         "comparison": {
           "title": "Kimyoviy fumigatsiya bilan solishtirish",
           "tableCaption": "Ozonlash kimyoviy fumigatsiyaga qarshi",
-          "tableHeaders": [
-            "Ko'rsatkich",
-            "Ozonlash",
-            "Fosfin (PH₃)"
-          ],
+          "tableHeaders": ["Ko'rsatkich", "Ozonlash", "Fosfin (PH₃)"],
           "tableData": [
-            [
-              "Mahsulotdagi qoldiqlar",
-              "Yo'q",
-              "Mavjud (MPC 0.1 mg/kg)"
-            ],
-            [
-              "Ekologik tozalik",
-              "To'liq",
-              "Atrof-muhit uchun toksik"
-            ],
-            [
-              "Ishlov berish vaqti",
-              "2–6 soat",
-              "3–7 kun"
-            ],
-            [
-              "Zararkunandalarning chidamliligi",
-              "Shakllanmaydi",
-              "Har bir foydalanishda oshadi"
-            ],
-            [
-              "Xodimlar xavfsizligi",
-              "Yuqori (MPCga rioya qilinganda)",
-              "Past (kuchli zahar)"
-            ],
-            [
-              "Don sifatiga ta'siri",
-              "Ijobiy",
-              "Unib chiqishni kamaytirishi mumkin"
-            ],
-            [
-              "Ishlov berish narxi",
-              "O'rtacha",
-              "Past–o'rtacha"
-            ]
+            ["Mahsulotdagi qoldiqlar", "Yo'q", "Mavjud (MPC 0.1 mg/kg)"],
+            ["Ekologik tozalik", "To'liq", "Atrof-muhit uchun toksik"],
+            ["Ishlov berish vaqti", "2–6 soat", "3–7 kun"],
+            ["Zararkunandalarning chidamliligi", "Shakllanmaydi", "Har bir foydalanishda oshadi"],
+            ["Xodimlar xavfsizligi", "Yuqori (MPCga rioya qilinganda)", "Past (kuchli zahar)"],
+            ["Don sifatiga ta'siri", "Ijobiy", "Unib chiqishni kamaytirishi mumkin"],
+            ["Ishlov berish narxi", "O'rtacha", "Past–o'rtacha"]
           ]
         },
         "benefits": {

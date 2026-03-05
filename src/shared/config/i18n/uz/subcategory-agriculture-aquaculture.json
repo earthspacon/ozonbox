@@ -5,6 +5,7 @@
     "aquaculture": {
       "title": "Akvakultura (RAS)",
       "shortDesc": "Baliq yetishtirishning yopiq tizimlarida suvni tozalash va baliq kasalliklarini nazorat qilish",
+      "heroText": "Suvni 99% gacha dezinfeksiya qilish, ishlab chiqarish tsiklini qisqartirish va baliq o'limini kamaytirish. Yopiq suv ta'minoti qurilmalari uchun zamonaviy texnologiya.",
       "stats": {
         "disinfection": {
           "value": "99% gacha",
@@ -61,49 +62,14 @@
           "title": "Ozonning suv sifatiga ta'siri",
           "intro": "Suv sifati muvaffaqiyatli baliq yetishtirish uchun hal qiluvchi omil hisoblanadi. Ozonlash ham biologik, ham kimyoviy ifloslantiruvchi moddalarni yo'q qilib, suvni kompleks tozalashni ta'minlaydi.",
           "tableCaption": "RASda suvni ozonlash samaradorligi",
-          "tableHeaders": [
-            "Ko'rsatkich",
-            "Ishlov berishdan oldin",
-            "Ishlov berishdan keyin",
-            "Yaxshilanish"
-          ],
+          "tableHeaders": ["Ko'rsatkich", "Ishlov berishdan oldin", "Ishlov berishdan keyin", "Yaxshilanish"],
           "tableData": [
-            [
-              "Umumiy bakteriyalar soni",
-              "10⁵-10⁶ KOE/ml",
-              "10²-10³ KOE/ml",
-              "99-99.9%"
-            ],
-            [
-              "Suv loyqaligi",
-              "15-25 NTU",
-              "1-3 NTU",
-              "85-95%"
-            ],
-            [
-              "Ammiak (NH₃)",
-              "0.5-1.5 mg/l",
-              "0.05-0.1 mg/l",
-              "90-95%"
-            ],
-            [
-              "Nitritlar (NO₂)",
-              "0.3-0.8 mg/l",
-              "0.02-0.05 mg/l",
-              "90-95%"
-            ],
-            [
-              "Suv rangi",
-              "40-60°",
-              "5-10°",
-              "80-90%"
-            ],
-            [
-              "Geosmin",
-              "50-100 ng/l",
-              "< 5 ng/l",
-              "> 95%"
-            ]
+            ["Umumiy bakteriyalar soni", "10⁵-10⁶ KOE/ml", "10²-10³ KOE/ml", "99-99.9%"],
+            ["Suv loyqaligi", "15-25 NTU", "1-3 NTU", "85-95%"],
+            ["Ammiak (NH₃)", "0.5-1.5 mg/l", "0.05-0.1 mg/l", "90-95%"],
+            ["Nitritlar (NO₂)", "0.3-0.8 mg/l", "0.02-0.05 mg/l", "90-95%"],
+            ["Suv rangi", "40-60°", "5-10°", "80-90%"],
+            ["Geosmin", "50-100 ng/l", "< 5 ng/l", "> 95%"]
           ],
           "note": "Toza ozonlangan suvda baliqlar tezroq vazn oladi, ishlab chiqarish tsikli 20-30% ga qisqaradi va yem o'zlashtirilishi 10-15% ga yaxshilanadi."
         },
@@ -111,98 +77,28 @@
           "title": "Baliq kasalliklariga qarshi kurash",
           "intro": "Ozon patogen organizmlarning: viruslar, bakteriyalar va parazit bir hujayralilarning 99% gacha qismini yo'q qiladi. Bu baliqlarning kasallanishini kamaytiradi, o'limni pasaytiradi va yuqoriroq zichlikda saqlash imkonini beradi.",
           "tableCaption": "Baliq patogenlariga qarshi ozon samaradorligi",
-          "tableHeaders": [
-            "Patogen",
-            "Kasallik",
-            "O₃ kontsentratsiyasi",
-            "Samaradorlik"
-          ],
+          "tableHeaders": ["Patogen", "Kasallik", "O₃ kontsentratsiyasi", "Samaradorlik"],
           "tableData": [
-            [
-              "Aeromonas salmonicida",
-              "Furunkulyoz",
-              "0.1-0.3 mg/l",
-              "99.9%"
-            ],
-            [
-              "Vibrio anguillarum",
-              "Vibrioz",
-              "0.1-0.2 mg/l",
-              "99.9%"
-            ],
-            [
-              "Ichthyophthirius",
-              "Ixtioftirioz",
-              "0.2-0.4 mg/l",
-              "99%"
-            ],
-            [
-              "Saprolegnia",
-              "Saprolegnioz",
-              "0.15-0.3 mg/l",
-              "99.5%"
-            ],
-            [
-              "VHS virusi",
-              "Virusli gemorragik septitsemiya",
-              "0.1-0.2 mg/l",
-              "99.99%"
-            ],
-            [
-              "IHN virusi",
-              "Infeksion gemopoetik nekroz",
-              "0.1-0.2 mg/l",
-              "99.99%"
-            ]
+            ["Aeromonas salmonicida", "Furunkulyoz", "0.1-0.3 mg/l", "99.9%"],
+            ["Vibrio anguillarum", "Vibrioz", "0.1-0.2 mg/l", "99.9%"],
+            ["Ichthyophthirius", "Ixtioftirioz", "0.2-0.4 mg/l", "99%"],
+            ["Saprolegnia", "Saprolegnioz", "0.15-0.3 mg/l", "99.5%"],
+            ["VHS virusi", "Virusli gemorragik septitsemiya", "0.1-0.2 mg/l", "99.99%"],
+            ["IHN virusi", "Infeksion gemopoetik nekroz", "0.1-0.2 mg/l", "99.99%"]
           ]
         },
         "fishTypes": {
           "title": "Turli baliq turlari uchun ozonlash rejimlari",
           "intro": "Turli baliq turlari qoldiq ozonga nisbatan turlicha sezgirlikka ega. Har bir tur uchun baliq xavfsizligini saqlagan holda dezinfeksiya samaradorligini ta'minlovchi optimal rejimni tanlash muhimdir.",
           "tableCaption": "Tavsiya etilgan ozonlash rejimlari",
-          "tableHeaders": [
-            "Baliq turi",
-            "Ozon dozasi",
-            "Qoldiq O₃",
-            "Aloqa vaqti"
-          ],
+          "tableHeaders": ["Baliq turi", "Ozon dozasi", "Qoldiq O₃", "Aloqa vaqti"],
           "tableData": [
-            [
-              "Forel",
-              "10-15 g/kg yem",
-              "< 0.01 mg/l",
-              "3-5 min"
-            ],
-            [
-              "Osiyotr",
-              "12-18 g/kg yem",
-              "< 0.01 mg/l",
-              "3-5 min"
-            ],
-            [
-              "Tilapiya",
-              "8-12 g/kg yem",
-              "< 0.02 mg/l",
-              "2-4 min"
-            ],
-            [
-              "Sazan",
-              "10-15 g/kg yem",
-              "< 0.01 mg/l",
-              "3-5 min"
-            ],
-            [
-              "Lagam",
-              "8-12 g/kg yem",
-              "< 0.02 mg/l",
-              "2-4 min"
-            ],
-            [
-              "Krevetka",
-              "5-8 g/kg yem",
-              "< 0.005 mg/l",
-              "5-10 min"
-            ]
+            ["Forel", "10-15 g/kg yem", "< 0.01 mg/l", "3-5 min"],
+            ["Osiyotr", "12-18 g/kg yem", "< 0.01 mg/l", "3-5 min"],
+            ["Tilapiya", "8-12 g/kg yem", "< 0.02 mg/l", "2-4 min"],
+            ["Sazan", "10-15 g/kg yem", "< 0.01 mg/l", "3-5 min"],
+            ["Lagam", "8-12 g/kg yem", "< 0.02 mg/l", "2-4 min"],
+            ["Krevetka", "5-8 g/kg yem", "< 0.005 mg/l", "5-10 min"]
           ],
           "warning": {
             "title": "Ogohlantirish:",
@@ -242,49 +138,14 @@
           "title": "Iqtisodiy samaradorlik",
           "intro": "RASda ozonlashni joriy etish o'sish ko'rsatkichlarini yaxshilash va operatsion xarajatlarni kamaytirish orqali kompleks iqtisodiy foyda keltiradi.",
           "tableCaption": "RASda ozonlashning iqtisodiy ko'rsatkichlari",
-          "tableHeaders": [
-            "Ko'rsatkich",
-            "Ozonsiz",
-            "Ozon bilan",
-            "Foyda"
-          ],
+          "tableHeaders": ["Ko'rsatkich", "Ozonsiz", "Ozon bilan", "Foyda"],
           "tableData": [
-            [
-              "Chavoqlarning yashovchanligi",
-              "60-70%",
-              "85-95%",
-              "+25-35%"
-            ],
-            [
-              "Yem koeffitsienti",
-              "1.3-1.5",
-              "1.1-1.2",
-              "15-20% tejash"
-            ],
-            [
-              "Saqlash zichligi",
-              "30-40 kg/m³",
-              "50-80 kg/m³",
-              "+60-100%"
-            ],
-            [
-              "Yetishtirish vaqti",
-              "12 oy",
-              "9-10 oy",
-              "20-25% qisqarish"
-            ],
-            [
-              "Davolash xarajatlari",
-              "100%",
-              "20-30%",
-              "70-80% tejash"
-            ],
-            [
-              "Yangi suv iste'moli",
-              "100%",
-              "40-60%",
-              "40-60% tejash"
-            ]
+            ["Chavoqlarning yashovchanligi", "60-70%", "85-95%", "+25-35%"],
+            ["Yem koeffitsienti", "1.3-1.5", "1.1-1.2", "15-20% tejash"],
+            ["Saqlash zichligi", "30-40 kg/m³", "50-80 kg/m³", "+60-100%"],
+            ["Yetishtirish vaqti", "12 oy", "9-10 oy", "20-25% qisqarish"],
+            ["Davolash xarajatlari", "100%", "20-30%", "70-80% tejash"],
+            ["Yangi suv iste'moli", "100%", "40-60%", "40-60% tejash"]
           ]
         },
         "benefits": {

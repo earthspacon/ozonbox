@@ -62,37 +62,12 @@
           "text": "Ozonation allows rapid office disinfection during technical breaks between patients. In 15-20 minutes, ozone destroys pathogens on all surfaces and in the air.",
           "table": {
             "caption": "Dental office ozonation modes",
-            "headers": [
-              "Treatment type",
-              "Concentration",
-              "Time",
-              "Frequency"
-            ],
+            "headers": ["Treatment type", "Concentration", "Time", "Frequency"],
             "rows": [
-              [
-                "Between patients",
-                "5-10 mg/m³",
-                "15-20 min",
-                "After each visit"
-              ],
-              [
-                "Lunch break",
-                "10-15 mg/m³",
-                "30-40 min",
-                "Daily"
-              ],
-              [
-                "End of workday",
-                "15-20 mg/m³",
-                "60 min",
-                "Daily"
-              ],
-              [
-                "After infectious patient",
-                "20-30 mg/m³",
-                "60-90 min",
-                "As indicated"
-              ]
+              ["Between patients", "5-10 mg/m³", "15-20 min", "After each visit"],
+              ["Lunch break", "10-15 mg/m³", "30-40 min", "Daily"],
+              ["End of workday", "15-20 mg/m³", "60 min", "Daily"],
+              ["After infectious patient", "20-30 mg/m³", "60-90 min", "As indicated"]
             ]
           },
           "highlight": "Ozone penetrates hard-to-reach equipment areas: hoses, handpieces, water supply systems — places where traditional wiping is impossible."
@@ -120,37 +95,13 @@
           ],
           "table": {
             "caption": "Ozone use in therapeutic dentistry",
-            "headers": [
-              "Indication",
-              "Method",
-              "Effect"
-            ],
+            "headers": ["Indication", "Method", "Effect"],
             "rows": [
-              [
-                "Initial caries",
-                "Gas 40-60 sec on lesion",
-                "Remineralization, process stop"
-              ],
-              [
-                "Deep caries",
-                "Gas + ozonated water",
-                "Cavity sterilization before filling"
-              ],
-              [
-                "Pulpitis",
-                "Ozonated water in canal",
-                "Inflammation relief"
-              ],
-              [
-                "Periodontitis",
-                "Gas in pockets + irrigation",
-                "80% reduction in bleeding"
-              ],
-              [
-                "Stomatitis",
-                "Ozonated water, rinses",
-                "Healing in 3-5 days"
-              ]
+              ["Initial caries", "Gas 40-60 sec on lesion", "Remineralization, process stop"],
+              ["Deep caries", "Gas + ozonated water", "Cavity sterilization before filling"],
+              ["Pulpitis", "Ozonated water in canal", "Inflammation relief"],
+              ["Periodontitis", "Gas in pockets + irrigation", "80% reduction in bleeding"],
+              ["Stomatitis", "Ozonated water, rinses", "Healing in 3-5 days"]
             ]
           }
         },

@@ -28,10 +28,7 @@
         "iron": "2Fe²⁺ + O₃ + H₂O → 2Fe³⁺ + O₂ + 2OH⁻ → Fe(OH)₃↓",
         "manganese": "Mn²⁺ + O₃ + H₂O → MnO₂↓ + 2H⁺ + O₂"
       },
-      "regulations": [
-        "Drinking water standards",
-        "Water quality norms"
-      ],
+      "regulations": ["Drinking water standards", "Water quality norms"],
       "stats": {
         "ozoneForIron": {
           "value": "0.43",
@@ -63,11 +60,7 @@
         },
         "comparison": {
           "title": "Iron removal methods comparison",
-          "headers": [
-            "Parameter",
-            "Ozonation",
-            "Aeration + filtration"
-          ],
+          "headers": ["Parameter", "Ozonation", "Aeration + filtration"],
           "rows": [
             {
               "parameter": "Fe removal efficiency",
@@ -119,31 +112,11 @@
           "description": "Ozone oxidizes Fe²⁺ to Fe³⁺, which forms insoluble iron hydroxide Fe(OH)₃, easily removed by filtration. The reaction proceeds at pH from 6 to 9.",
           "table": {
             "caption": "Stoichiometric ratios for metal oxidation",
-            "headers": [
-              "Metal",
-              "Theoretical ozone dose",
-              "Practical ozone dose",
-              "Note"
-            ],
+            "headers": ["Metal", "Theoretical ozone dose", "Practical ozone dose", "Note"],
             "rows": [
-              [
-                "Iron (Fe²⁺)",
-                "0.43 mg O₃ / mg Fe",
-                "1 mg O₃ / mg Fe",
-                "With organics"
-              ],
-              [
-                "Manganese (Mn²⁺)",
-                "0.87 mg O₃ / mg Mn",
-                "4 mg O₃ / mg Mn",
-                "With organics"
-              ],
-              [
-                "Hydrogen sulfide (H₂S)",
-                "3.0 mg O₃ / mg H₂S",
-                "3-5 mg O₃ / mg H₂S",
-                "To elemental sulfur"
-              ]
+              ["Iron (Fe²⁺)", "0.43 mg O₃ / mg Fe", "1 mg O₃ / mg Fe", "With organics"],
+              ["Manganese (Mn²⁺)", "0.87 mg O₃ / mg Mn", "4 mg O₃ / mg Mn", "With organics"],
+              ["Hydrogen sulfide (H₂S)", "3.0 mg O₃ / mg H₂S", "3-5 mg O₃ / mg H₂S", "To elemental sulfur"]
             ]
           }
         },
@@ -189,27 +162,11 @@
           "paragraph": "At manganese content above 0.5 mg/L, double ozonation scheme may be required: primary ozonation of source water, filtration, then secondary ozonation of filtrate. This prevents formation of soluble permanganate.",
           "table": {
             "caption": "Double ozonation results (Ashton, England)",
-            "headers": [
-              "Parameter",
-              "Before treatment",
-              "After treatment"
-            ],
+            "headers": ["Parameter", "Before treatment", "After treatment"],
             "rows": [
-              [
-                "Manganese, mg/L",
-                "0.5",
-                "0.05"
-              ],
-              [
-                "Color, degrees",
-                "22",
-                "5"
-              ],
-              [
-                "Turbidity, NTU",
-                "15",
-                "< 2"
-              ]
+              ["Manganese, mg/L", "0.5", "0.05"],
+              ["Color, degrees", "22", "5"],
+              ["Turbidity, NTU", "15", "< 2"]
             ]
           }
         },
@@ -229,37 +186,13 @@
           "title": "Recommended system parameters",
           "table": {
             "caption": "Equipment selection by capacity",
-            "headers": [
-              "Capacity, m³/h",
-              "Ozonator power, g/h",
-              "Contact chamber volume, m³"
-            ],
+            "headers": ["Capacity, m³/h", "Ozonator power, g/h", "Contact chamber volume, m³"],
             "rows": [
-              [
-                "1-5",
-                "5-25",
-                "0.2-1"
-              ],
-              [
-                "5-20",
-                "25-100",
-                "1-4"
-              ],
-              [
-                "20-50",
-                "100-250",
-                "4-10"
-              ],
-              [
-                "50-100",
-                "250-500",
-                "10-20"
-              ],
-              [
-                "100-500",
-                "500-2500",
-                "20-100"
-              ]
+              ["1-5", "5-25", "0.2-1"],
+              ["5-20", "25-100", "1-4"],
+              ["20-50", "100-250", "4-10"],
+              ["50-100", "250-500", "10-20"],
+              ["100-500", "500-2500", "20-100"]
             ]
           },
           "noteLabel": "Note:",
@@ -290,25 +223,10 @@
           "title": "Regulatory requirements",
           "table": {
             "caption": "MPC of iron and manganese by standards",
-            "headers": [
-              "Metal",
-              "Drinking water",
-              "Bottled water",
-              "Hazard class"
-            ],
+            "headers": ["Metal", "Drinking water", "Bottled water", "Hazard class"],
             "rows": [
-              [
-                "Iron (Fe)",
-                "0.3 mg/L",
-                "0.3 mg/L",
-                "III"
-              ],
-              [
-                "Manganese (Mn)",
-                "0.1 mg/L",
-                "0.05 mg/L",
-                "III"
-              ]
+              ["Iron (Fe)", "0.3 mg/L", "0.3 mg/L", "III"],
+              ["Manganese (Mn)", "0.1 mg/L", "0.05 mg/L", "III"]
             ]
           },
           "items": [

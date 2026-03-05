@@ -61,75 +61,27 @@
           "highlight": {
             "text": "Chaqaloq suvi uchun ozonatsiya mumkin bo'lgan bitta konservatsiya varianti bo'lishi mumkin, chunki kumush ionlar va uglerod dioksidning standartlar bo'yicha ishlatilishi taqiqlangan."
           },
-          "tableHeaders": [
-            "Parametr",
-            "Birinchi kategoriya",
-            "Premium kategoriya"
-          ],
+          "tableHeaders": ["Parametr", "Birinchi kategoriya", "Premium kategoriya"],
           "tableCaption": "Shisha suv uchun talablar",
           "tableData": [
-            [
-              "Qolgan ozone",
-              "≤ 0,1 mg/L",
-              "≤ 0,1 mg/L"
-            ],
-            [
-              "Kislorod miqdori",
-              "≥ 5 mg/L",
-              "≥ 9 mg/L"
-            ],
-            [
-              "Ozone ta'sir vaqti",
-              "≥ 12 daqiqa",
-              "≥ 12 daqiqa"
-            ],
-            [
-              "Xlorin ishlatilishi",
-              "Taqiqlangan",
-              "Taqiqlangan"
-            ],
-            [
-              "Kumush (chaqaloq suvi)",
-              "Ruxsat etilgan",
-              "Taqiqlangan"
-            ]
+            ["Qolgan ozone", "≤ 0,1 mg/L", "≤ 0,1 mg/L"],
+            ["Kislorod miqdori", "≥ 5 mg/L", "≥ 9 mg/L"],
+            ["Ozone ta'sir vaqti", "≥ 12 daqiqa", "≥ 12 daqiqa"],
+            ["Xlorin ishlatilishi", "Taqiqlangan", "Taqiqlangan"],
+            ["Kumush (chaqaloq suvi)", "Ruxsat etilgan", "Taqiqlangan"]
           ]
         },
         "scheme": {
           "title": "Finali ozonatsiya sxemasi",
           "text": "Ozonatsiya tizimi to'ldirish mashinasining to'g'ri oldiga o'rnatiladi. Tizim kislorod generatori, ozone generatori, ozone yetkazish va eritish tizimi, shuningdek ozone analizatori yoki nazorat qilish uchun ORP metrini o'z ichiga oladi.",
-          "tableHeaders": [
-            "Komponent",
-            "Maqsadi",
-            "Texnik xususiyatlari"
-          ],
+          "tableHeaders": ["Komponent", "Maqsadi", "Texnik xususiyatlari"],
           "tableCaption": "Finali ozonatsiya uskunalarining tarkibi",
           "tableData": [
-            [
-              "Kislorod generatori",
-              "Sof kislorod yetkazish",
-              "O₂ kontsentratsiyasi ≥ 90%"
-            ],
-            [
-              "Ozone generatori",
-              "Ozone ishlab chiqarish",
-              "Soat bilan 1 m³/soat suvga 1 g"
-            ],
-            [
-              "Ejyunior / diffuzor",
-              "Suvda ozonning erish",
-              "Samaradorlik > 90%"
-            ],
-            [
-              "Ta'sir tanki",
-              "Ta'sir vaqtini ta'minlash",
-              "≥ 12 daqiqa"
-            ],
-            [
-              "Ozone analizatori",
-              "Kontsentratsiyani nazorat qilish",
-              "0-2 mg/L"
-            ]
+            ["Kislorod generatori", "Sof kislorod yetkazish", "O₂ kontsentratsiyasi ≥ 90%"],
+            ["Ozone generatori", "Ozone ishlab chiqarish", "Soat bilan 1 m³/soat suvga 1 g"],
+            ["Ejyunior / diffuzor", "Suvda ozonning erish", "Samaradorlik > 90%"],
+            ["Ta'sir tanki", "Ta'sir vaqtini ta'minlash", "≥ 12 daqiqa"],
+            ["Ozone analizatori", "Kontsentratsiyani nazorat qilish", "0-2 mg/L"]
           ]
         },
         "limitations": {
@@ -139,11 +91,7 @@
         },
         "comparison": {
           "title": "Suv dezinfeksiya usullarining taqqoslanishi",
-          "headers": [
-            "Parametr",
-            "Ozonatsiya",
-            "UV ishlov berish"
-          ],
+          "headers": ["Parametr", "Ozonatsiya", "UV ishlov berish"],
           "rows": [
             {
               "parameter": "Konteyner sterilizatsiyasi",

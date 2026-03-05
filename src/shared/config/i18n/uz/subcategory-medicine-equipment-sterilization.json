@@ -15,28 +15,28 @@
         "Optikada shikast yo'q",
         "Tibbiy standartlarga muvofiqlik"
       ],
-      "stats": {
-        "stat1": {
+      "stats": [
+        {
           "value": "25-35°C",
           "label": "Harorat",
           "description": "Past haroratda sterilizatsiya"
         },
-        "stat2": {
+        {
           "value": "30-60",
           "label": "Daqiqa",
           "description": "To'liq sterilizatsiya sikli"
         },
-        "stat3": {
+        {
           "value": "99,99%",
           "label": "Samaradorlik",
           "description": "Mikroorganizmlarni yo'q qilish"
         },
-        "stat4": {
+        {
           "value": "0",
-          "label": "Zarar",
+          "label": "Shikast",
           "description": "Sezgir materiallar uchun xavfsiz"
         }
-      },
+      ],
       "sections": {
         "intro": {
           "text": "Zamonaviy tibbiy uskunalar ko'pincha issiqlikka sezgir materiallarni o'z ichiga oladi: plastik, elektronika, optika, ularni autoklav ichida sterilizatsiya qilish mumkin emas. Ozon sterilizatsiyasi 25-35°C da ishlayotgan samarali alternativdir.",
@@ -62,37 +62,12 @@
           "text": "Endoskoplar tor kanallar, optika va elektronikaga ega murakkab qurilmalardir. Ularning sterilizatsiyasi ozonni samarali hal qiluvchi maxsus vazifadir.",
           "table": {
             "caption": "Endoskoplar uchun ozon sterilizatsiya parametrlari",
-            "headers": [
-              "Endoskop turi",
-              "Ozon kontsentratsiyasi",
-              "Ishlov berish vaqti",
-              "Xususiyatlar"
-            ],
+            "headers": ["Endoskop turi", "Ozon kontsentratsiyasi", "Ishlov berish vaqti", "Xususiyatlar"],
             "rows": [
-              [
-                "Gastroscoplar",
-                "40-60 ppm",
-                "30-40 daqiqa",
-                "Kanal tozalash ozoniga"
-              ],
-              [
-                "Kolonoscoplar",
-                "40-60 ppm",
-                "40-50 daqiqa",
-                "Kanalning uzaytirilgan uzunligi"
-              ],
-              [
-                "Bronchoscoplar",
-                "50-70 ppm",
-                "35-45 daqiqa",
-                "Tor kanallar, nozik optika"
-              ],
-              [
-                "Laparoscoplar",
-                "30-50 ppm",
-                "25-35 daqiqa",
-                "Kompakt dizayn"
-              ]
+              ["Gastroscoplar", "40-60 ppm", "30-40 daqiqa", "Kanal tozalash ozoniga"],
+              ["Kolonoscoplar", "40-60 ppm", "40-50 daqiqa", "Kanalning uzaytirilgan uzunligi"],
+              ["Bronchoscoplar", "50-70 ppm", "35-45 daqiqa", "Tor kanallar, nozik optika"],
+              ["Laparoscoplar", "30-50 ppm", "25-35 daqiqa", "Kompakt dizayn"]
             ]
           },
           "highlight": "Ozon 1 mm diametrli kanallarni kirib boradi, shuning uchun suyuq dezinfektantlar uchun ochiq bo'lmagan joylarning sterilizatsiyasini ta'minlaydi. Bu nosokomial infektsiyalarni oldini olish uchun kritikaldir."
@@ -144,11 +119,7 @@
         "comparison": {
           "title": "Sterilizatsiya usullarini taqqoslash",
           "tableTitle": "Ozon vs an'anaviy usullar",
-          "headers": [
-            "Parametr",
-            "Ozon",
-            "Avtoklavlash/Etilenoksid"
-          ],
+          "headers": ["Parametr", "Ozon", "Avtoklavlash/Etilenoksid"],
           "rows": [
             {
               "parameter": "Ishlov berish harorati",

@@ -48,49 +48,13 @@
         "regimes": {
           "title": "Har xil turdagi pishloq uchun ozonatsiya rejimi",
           "tableCaption": "Pishloq pishish kameralari uchun tavsiya etilgan ishlov berish rejimi",
-          "tableHeaders": [
-            "Pishloq turi",
-            "Kontsentratsiya",
-            "Ishlov berish vaqti",
-            "Harorat",
-            "Samaradorlik"
-          ],
+          "tableHeaders": ["Pishloq turi", "Kontsentratsiya", "Ishlov berish vaqti", "Harorat", "Samaradorlik"],
           "tableRows": [
-            [
-              "Qat'iy pishloqlar",
-              "2-4 mg/m³",
-              "2 soat",
-              "+10...+12°C",
-              "95-99%"
-            ],
-            [
-              "Yumshoq pishloqlar",
-              "3-6 mg/m³",
-              "1,5 soat",
-              "+8...+10°C",
-              "94-98%"
-            ],
-            [
-              "Yarim qat'iy pishloqlar",
-              "2-4 mg/m³",
-              "1,5-2 soat",
-              "+10...+12°C",
-              "95-98%"
-            ],
-            [
-              "Sho'rvali pishloqlar",
-              "2-3 mg/m³",
-              "1 soat",
-              "+6...+8°C",
-              "94-97%"
-            ],
-            [
-              "Ko'plak pishirilgan pishloqlar",
-              "1-2 mg/m³",
-              "30 daqiqa",
-              "+8...+10°C",
-              "90-95%"
-            ]
+            ["Qat'iy pishloqlar", "2-4 mg/m³", "2 soat", "+10...+12°C", "95-99%"],
+            ["Yumshoq pishloqlar", "3-6 mg/m³", "1,5 soat", "+8...+10°C", "94-98%"],
+            ["Yarim qat'iy pishloqlar", "2-4 mg/m³", "1,5-2 soat", "+10...+12°C", "95-98%"],
+            ["Sho'rvali pishloqlar", "2-3 mg/m³", "1 soat", "+6...+8°C", "94-97%"],
+            ["Ko'plak pishirilgan pishloqlar", "1-2 mg/m³", "30 daqiqa", "+8...+10°C", "90-95%"]
           ],
           "warningLabel": "Asiliy ko'plak pishloqlari uchun muhim:",
           "warningText": "Camembert, Brie va Roquefort kabi pishloqlar uchun, ehtiyotli ozonatsiya rejimi (1-2 mg/m³, 30 daqiqa) noxush ko'plakni nazorat qilish bilan ko'plak ko'lmi halak qilmasligi kerak."
@@ -110,52 +74,18 @@
           "title": "Ozonning mahsulotga ta'siri",
           "paragraph": "Tekshiruv ozonning pishloq sirtida mikroflora o'sishini bosgirishi shuningdek ularning organoleptik xususiyatlarini saqlanib qolishini ko'rsatadi — ta'm, hidi, tekstura va rang. Bakteritsid ta'sir ayniqsa yuqori nam holata (70-90%) va o'rtacha haroratda (+8...+14°C), pishirish kameralarining tipik holati sharoitida aytiladi.",
           "tableCaption": "Pishloq pishish shartlari va ozonatsiya parametrlari",
-          "tableHeaders": [
-            "Parametr",
-            "Qat'iy pishloqlar",
-            "Yumshoq pishloqlar",
-            "Ozone uchun optimal"
-          ],
+          "tableHeaders": ["Parametr", "Qat'iy pishloqlar", "Yumshoq pishloqlar", "Ozone uchun optimal"],
           "tableRows": [
-            [
-              "Harorat",
-              "+10...+14°C",
-              "+8...+12°C",
-              "+8...+14°C"
-            ],
-            [
-              "Namlik",
-              "80-90%",
-              "85-95%",
-              "70-90%"
-            ],
-            [
-              "Pishirish vaqti",
-              "2-12 oy",
-              "2-6 hafta",
-              "Har qanday"
-            ],
-            [
-              "O₃ kontsentratsiya",
-              "2-4 mg/m³",
-              "3-6 mg/m³",
-              "2-6 mg/m³"
-            ],
-            [
-              "Chastota",
-              "Har 2-3 kunning",
-              "Kuniga",
-              "Jadvalni bo'yicha"
-            ]
+            ["Harorat", "+10...+14°C", "+8...+12°C", "+8...+14°C"],
+            ["Namlik", "80-90%", "85-95%", "70-90%"],
+            ["Pishirish vaqti", "2-12 oy", "2-6 hafta", "Har qanday"],
+            ["O₃ kontsentratsiya", "2-4 mg/m³", "3-6 mg/m³", "2-6 mg/m³"],
+            ["Chastota", "Har 2-3 kunning", "Kuniga", "Jadvalni bo'yicha"]
           ]
         },
         "comparison": {
           "title": "Pishloqlardagi ko'plak nazorat usullari taqqoslanishi",
-          "headers": [
-            "Parametr",
-            "Ozonatsiya",
-            "Mum/parafin qoplamasi"
-          ],
+          "headers": ["Parametr", "Ozonatsiya", "Mum/parafin qoplamasi"],
           "rows": [
             {
               "parameter": "Ko'plak himoyasi",
@@ -193,37 +123,13 @@
           "title": "Pishish kameras ishlov berish",
           "paragraph": "Statsionar pishish kameralari uchun, devorasiga o'rnatilgan yoki quvur orqali ozonatorlar avtomatik nazorat bilan tavsiya etiladi. Ozone kamera hajmi bo'ylab tekis taqsimlani, erishilmasa joylar o'z ichiga olgan polka va javonlari kirib boradi.",
           "tableCaption": "Pishloq pishish kamerasi uchun ishlov berish rejimining misoli (50 m³ hajmi)",
-          "tableHeaders": [
-            "Parametr",
-            "Qiymati",
-            "Eslatma"
-          ],
+          "tableHeaders": ["Parametr", "Qiymati", "Eslatma"],
           "tableRows": [
-            [
-              "Ozonator imkoniyati",
-              "2-3 g/soat",
-              "15-20 m³ uchun soat bilan 1 g"
-            ],
-            [
-              "Ozone kontsentratsiya",
-              "3-4 mg/m³",
-              "Qat'iy pishloqlar uchun"
-            ],
-            [
-              "Faoliyat vaqti",
-              "1,5-2 soat",
-              "Kuniga yoki har ikki kunning"
-            ],
-            [
-              "Kamera namligi",
-              "85-90%",
-              "Ozone uchun optimal"
-            ],
-            [
-              "Samaradorlik",
-              "95-99%",
-              "Ko'plakni yo'q qilish"
-            ]
+            ["Ozonator imkoniyati", "2-3 g/soat", "15-20 m³ uchun soat bilan 1 g"],
+            ["Ozone kontsentratsiya", "3-4 mg/m³", "Qat'iy pishloqlar uchun"],
+            ["Faoliyat vaqti", "1,5-2 soat", "Kuniga yoki har ikki kunning"],
+            ["Kamera namligi", "85-90%", "Ozone uchun optimal"],
+            ["Samaradorlik", "95-99%", "Ko'plakni yo'q qilish"]
           ],
           "successText": "Pishish kameralarini muntazam ozonatsiya qilish (kuniga 1-2 marta 1,5-2 soatda) pishloqni qo'lda silkitish va kamera texamatini mehnat xarajatlarini 70-80% kamaytirish imkonini beradi."
         },

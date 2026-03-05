@@ -36,6 +36,12 @@ export function ShoppingMallsPage({ staticData }: ShoppingMallsPageProps) {
   // get category data from staticData
   const categoryData = (staticData as Record<string, { subcategories?: { 'shopping-malls'?: any } }>)[`${lang}:${ns}`]
   const data = categoryData?.subcategories?.['shopping-malls']
+  const organizationItems = Object.entries(data?.sections?.organization ?? {})
+    .filter(([key, value]) => key !== 'title' && value && typeof value === 'object')
+    .map(([, value]) => value as { title: string; description: string })
+  const benefitItems = Object.entries(data?.sections?.benefits ?? {})
+    .filter(([key, value]) => key !== 'title' && value && typeof value === 'object')
+    .map(([, value]) => value as { title: string; description: string })
 
   const breadcrumbs = [
     { label: t('nav.applications', { ns: NAMESPACES.common }), href: '/applications' },
@@ -122,16 +128,14 @@ export function ShoppingMallsPage({ staticData }: ShoppingMallsPageProps) {
 
           <ArticleSection title={data?.sections?.organization?.title}>
             <FeatureGrid columns={2}>
-              {((data?.sections?.organization?.items as Array<{ title: string; description: string }>) ?? []).map(
-                (item, idx) => (
-                  <FeatureCard
-                    key={idx}
-                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={item.title}
-                    description={item.description}
-                  />
-                ),
-              )}
+              {organizationItems.map((item, idx) => (
+                <FeatureCard
+                  key={idx}
+                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                  title={item.title}
+                  description={item.description}
+                />
+              ))}
             </FeatureGrid>
           </ArticleSection>
 
@@ -159,29 +163,27 @@ export function ShoppingMallsPage({ staticData }: ShoppingMallsPageProps) {
 
           <ArticleSection title={data?.sections?.benefits?.title}>
             <FeatureGrid columns={2}>
-              {((data?.sections?.benefits?.items as Array<{ title: string; description: string }>) ?? []).map(
-                (item, idx) => (
-                  <FeatureCard
-                    key={idx}
-                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
-                    title={item.title}
-                    description={item.description}
-                  />
-                ),
-              )}
+              {benefitItems.map((item, idx) => (
+                <FeatureCard
+                  key={idx}
+                  icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                  title={item.title}
+                  description={item.description}
+                />
+              ))}
             </FeatureGrid>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.comparison?.title}>
             <ComparisonTable
-              title={data?.sections?.comparison?.text ?? ''}
+              title={data?.sections?.comparison?.tableTitle ?? ''}
               headers={
-                (data?.sections?.comparison?.tableHeaders as unknown as
+                (data?.sections?.comparison?.headers as unknown as
                   | [string, string, string]
                   | [string, string, string, string]) ?? ['', '', '']
               }
               rows={
-                (data?.sections?.comparison?.tableData as unknown as Array<{
+                (data?.sections?.comparison?.rows as unknown as Array<{
                   parameter: string
                   value1: string
                   value2: string

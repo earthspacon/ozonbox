@@ -87,49 +87,14 @@
           "title": "Treatment modes by carriage type",
           "highlight": "For trains of 10-15 cars, a team method is used: ozonators move sequentially from car to car. While the first cars are ventilating, the last ones are being treated.",
           "tableCaption": "Railway carriage ozonation parameters",
-          "tableHeaders": [
-            "Carriage type",
-            "Volume",
-            "Capacity",
-            "Treatment time"
-          ],
+          "tableHeaders": ["Carriage type", "Volume", "Capacity", "Treatment time"],
           "tableData": [
-            [
-              "Compartment (10 compartments)",
-              "120-130 m³",
-              "30-50 g/h",
-              "40-60 min"
-            ],
-            [
-              "Open coach",
-              "150-160 m³",
-              "40-60 g/h",
-              "50-70 min"
-            ],
-            [
-              "Soft class",
-              "100-110 m³",
-              "20-30 g/h",
-              "30-45 min"
-            ],
-            [
-              "Dining car",
-              "80-90 m³",
-              "20-30 g/h",
-              "40-50 min"
-            ],
-            [
-              "Commuter train (1 car)",
-              "70-80 m³",
-              "15-25 g/h",
-              "30-40 min"
-            ],
-            [
-              "Metro car",
-              "50-60 m³",
-              "10-20 g/h",
-              "20-30 min"
-            ]
+            ["Compartment (10 compartments)", "120-130 m³", "30-50 g/h", "40-60 min"],
+            ["Open coach", "150-160 m³", "40-60 g/h", "50-70 min"],
+            ["Soft class", "100-110 m³", "20-30 g/h", "30-45 min"],
+            ["Dining car", "80-90 m³", "20-30 g/h", "40-50 min"],
+            ["Commuter train (1 car)", "70-80 m³", "15-25 g/h", "30-40 min"],
+            ["Metro car", "50-60 m³", "10-20 g/h", "20-30 min"]
           ]
         },
         "toilets": {
@@ -146,11 +111,7 @@
         },
         "comparison": {
           "title": "Comparison with traditional methods",
-          "tableHeaders": [
-            "Parameter",
-            "Ozonation",
-            "Chemical treatment"
-          ],
+          "tableHeaders": ["Parameter", "Ozonation", "Chemical treatment"],
           "tableData": [
             {
               "parameter": "Mattress and textile treatment",
@@ -225,37 +186,13 @@
           "title": "Economics for depots",
           "text": "Payback period for depot ozonator set — 6-12 months through savings on staff and consumables. Additional benefit — improved passenger reviews of car cleanliness.",
           "tableCaption": "Ozonation efficiency calculation for depot (100 cars)",
-          "tableHeaders": [
-            "Indicator",
-            "With ozonation",
-            "Without ozonation"
-          ],
+          "tableHeaders": ["Indicator", "With ozonation", "Without ozonation"],
           "tableData": [
-            [
-              "Cleaning staff",
-              "3-4 people",
-              "15-20 people"
-            ],
-            [
-              "Train treatment time",
-              "2-3 hours",
-              "5-6 hours"
-            ],
-            [
-              "Disinfectant costs/month",
-              "~5000 ₽ (electricity)",
-              "~80,000 ₽"
-            ],
-            [
-              "Odor complaints",
-              "Rarely",
-              "Regularly"
-            ],
-            [
-              "Ventilation treatment",
-              "Every run",
-              "Once a year (repair)"
-            ]
+            ["Cleaning staff", "3-4 people", "15-20 people"],
+            ["Train treatment time", "2-3 hours", "5-6 hours"],
+            ["Disinfectant costs/month", "~5000 ₽ (electricity)", "~80,000 ₽"],
+            ["Odor complaints", "Rarely", "Regularly"],
+            ["Ventilation treatment", "Every run", "Once a year (repair)"]
           ]
         },
         "equipment": {

@@ -5,6 +5,7 @@
     "aquaculture": {
       "title": "Aquaculture (RAS)",
       "shortDesc": "Water treatment and fish disease control in recirculating aquaculture systems",
+      "heroText": "Up to 99% water disinfection, shorter production cycle and reduced fish mortality. Modern technology for recirculating aquaculture systems.",
       "stats": {
         "disinfection": {
           "value": "Up to 99%",
@@ -61,49 +62,14 @@
           "title": "Effect of ozone on water quality",
           "intro": "Water quality is a critical factor for successful fish farming. Ozonation provides comprehensive water treatment, eliminating both biological and chemical contaminants.",
           "tableCaption": "Effectiveness of water ozonation in RAS",
-          "tableHeaders": [
-            "Parameter",
-            "Before treatment",
-            "After treatment",
-            "Improvement"
-          ],
+          "tableHeaders": ["Parameter", "Before treatment", "After treatment", "Improvement"],
           "tableData": [
-            [
-              "Total bacterial count",
-              "10⁵-10⁶ CFU/ml",
-              "10²-10³ CFU/ml",
-              "99-99.9%"
-            ],
-            [
-              "Water turbidity",
-              "15-25 NTU",
-              "1-3 NTU",
-              "85-95%"
-            ],
-            [
-              "Ammonia (NH₃)",
-              "0.5-1.5 mg/l",
-              "0.05-0.1 mg/l",
-              "90-95%"
-            ],
-            [
-              "Nitrites (NO₂)",
-              "0.3-0.8 mg/l",
-              "0.02-0.05 mg/l",
-              "90-95%"
-            ],
-            [
-              "Water color",
-              "40-60°",
-              "5-10°",
-              "80-90%"
-            ],
-            [
-              "Geosmin",
-              "50-100 ng/l",
-              "< 5 ng/l",
-              "> 95%"
-            ]
+            ["Total bacterial count", "10⁵-10⁶ CFU/ml", "10²-10³ CFU/ml", "99-99.9%"],
+            ["Water turbidity", "15-25 NTU", "1-3 NTU", "85-95%"],
+            ["Ammonia (NH₃)", "0.5-1.5 mg/l", "0.05-0.1 mg/l", "90-95%"],
+            ["Nitrites (NO₂)", "0.3-0.8 mg/l", "0.02-0.05 mg/l", "90-95%"],
+            ["Water color", "40-60°", "5-10°", "80-90%"],
+            ["Geosmin", "50-100 ng/l", "< 5 ng/l", "> 95%"]
           ],
           "note": "In clean ozonated water, fish gain weight faster, the production cycle is shortened by 20-30%, and feed conversion improves by 10-15%."
         },
@@ -111,98 +77,28 @@
           "title": "Fish disease control",
           "intro": "Ozone destroys up to 99% of pathogenic organisms: viruses, bacteria and parasitic protozoa. This reduces fish morbidity, decreases mortality and allows higher stocking density.",
           "tableCaption": "Effectiveness of ozone against fish pathogens",
-          "tableHeaders": [
-            "Pathogen",
-            "Disease",
-            "O₃ concentration",
-            "Effectiveness"
-          ],
+          "tableHeaders": ["Pathogen", "Disease", "O₃ concentration", "Effectiveness"],
           "tableData": [
-            [
-              "Aeromonas salmonicida",
-              "Furunculosis",
-              "0.1-0.3 mg/l",
-              "99.9%"
-            ],
-            [
-              "Vibrio anguillarum",
-              "Vibriosis",
-              "0.1-0.2 mg/l",
-              "99.9%"
-            ],
-            [
-              "Ichthyophthirius",
-              "Ichthyophthiriasis",
-              "0.2-0.4 mg/l",
-              "99%"
-            ],
-            [
-              "Saprolegnia",
-              "Saprolegniasis",
-              "0.15-0.3 mg/l",
-              "99.5%"
-            ],
-            [
-              "VHS virus",
-              "Viral hemorrhagic septicemia",
-              "0.1-0.2 mg/l",
-              "99.99%"
-            ],
-            [
-              "IHN virus",
-              "Infectious hematopoietic necrosis",
-              "0.1-0.2 mg/l",
-              "99.99%"
-            ]
+            ["Aeromonas salmonicida", "Furunculosis", "0.1-0.3 mg/l", "99.9%"],
+            ["Vibrio anguillarum", "Vibriosis", "0.1-0.2 mg/l", "99.9%"],
+            ["Ichthyophthirius", "Ichthyophthiriasis", "0.2-0.4 mg/l", "99%"],
+            ["Saprolegnia", "Saprolegniasis", "0.15-0.3 mg/l", "99.5%"],
+            ["VHS virus", "Viral hemorrhagic septicemia", "0.1-0.2 mg/l", "99.99%"],
+            ["IHN virus", "Infectious hematopoietic necrosis", "0.1-0.2 mg/l", "99.99%"]
           ]
         },
         "fishTypes": {
           "title": "Ozonation regimes for different fish species",
           "intro": "Different fish species have different sensitivity to residual ozone. It is important to select an optimal regime for each species, ensuring disinfection effectiveness while maintaining fish safety.",
           "tableCaption": "Recommended ozonation regimes",
-          "tableHeaders": [
-            "Fish species",
-            "Ozone dose",
-            "Residual O₃",
-            "Contact time"
-          ],
+          "tableHeaders": ["Fish species", "Ozone dose", "Residual O₃", "Contact time"],
           "tableData": [
-            [
-              "Trout",
-              "10-15 g/kg feed",
-              "< 0.01 mg/l",
-              "3-5 min"
-            ],
-            [
-              "Sturgeon",
-              "12-18 g/kg feed",
-              "< 0.01 mg/l",
-              "3-5 min"
-            ],
-            [
-              "Tilapia",
-              "8-12 g/kg feed",
-              "< 0.02 mg/l",
-              "2-4 min"
-            ],
-            [
-              "Carp",
-              "10-15 g/kg feed",
-              "< 0.01 mg/l",
-              "3-5 min"
-            ],
-            [
-              "Catfish",
-              "8-12 g/kg feed",
-              "< 0.02 mg/l",
-              "2-4 min"
-            ],
-            [
-              "Shrimp",
-              "5-8 g/kg feed",
-              "< 0.005 mg/l",
-              "5-10 min"
-            ]
+            ["Trout", "10-15 g/kg feed", "< 0.01 mg/l", "3-5 min"],
+            ["Sturgeon", "12-18 g/kg feed", "< 0.01 mg/l", "3-5 min"],
+            ["Tilapia", "8-12 g/kg feed", "< 0.02 mg/l", "2-4 min"],
+            ["Carp", "10-15 g/kg feed", "< 0.01 mg/l", "3-5 min"],
+            ["Catfish", "8-12 g/kg feed", "< 0.02 mg/l", "2-4 min"],
+            ["Shrimp", "5-8 g/kg feed", "< 0.005 mg/l", "5-10 min"]
           ],
           "warning": {
             "title": "Warning:",
@@ -242,49 +138,14 @@
           "title": "Economic effect",
           "intro": "Implementation of ozonation in RAS provides comprehensive economic benefits through improved growing performance and reduced operating costs.",
           "tableCaption": "Economic indicators of ozonation in RAS",
-          "tableHeaders": [
-            "Indicator",
-            "Without ozone",
-            "With ozone",
-            "Benefit"
-          ],
+          "tableHeaders": ["Indicator", "Without ozone", "With ozone", "Benefit"],
           "tableData": [
-            [
-              "Juvenile survival",
-              "60-70%",
-              "85-95%",
-              "+25-35%"
-            ],
-            [
-              "Feed conversion",
-              "1.3-1.5",
-              "1.1-1.2",
-              "15-20% savings"
-            ],
-            [
-              "Stocking density",
-              "30-40 kg/m³",
-              "50-80 kg/m³",
-              "+60-100%"
-            ],
-            [
-              "Growing time",
-              "12 months",
-              "9-10 months",
-              "20-25% reduction"
-            ],
-            [
-              "Treatment costs",
-              "100%",
-              "20-30%",
-              "70-80% savings"
-            ],
-            [
-              "Fresh water consumption",
-              "100%",
-              "40-60%",
-              "40-60% savings"
-            ]
+            ["Juvenile survival", "60-70%", "85-95%", "+25-35%"],
+            ["Feed conversion", "1.3-1.5", "1.1-1.2", "15-20% savings"],
+            ["Stocking density", "30-40 kg/m³", "50-80 kg/m³", "+60-100%"],
+            ["Growing time", "12 months", "9-10 months", "20-25% reduction"],
+            ["Treatment costs", "100%", "20-30%", "70-80% savings"],
+            ["Fresh water consumption", "100%", "40-60%", "40-60% savings"]
           ]
         },
         "benefits": {

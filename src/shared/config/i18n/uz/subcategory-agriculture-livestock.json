@@ -60,37 +60,12 @@
           "title": "Binolarda havoni dezinfeksiya qilish",
           "intro": "Chorvachilik binolaridagi havo ammiak, vodorod sulfidi, chang va mikroorganizmlar bilan ifloslanadi. Ammiak kontsentratsiyasi MPC 0,01 mg/l bo'lsa, 0,02-0,03 mg/l ga yetishi mumkin. Bu unumdorlikni kamaytiradi, kasallanishni oshiradi va xodimlar uchun ish sharoitlarini yomonlashtiradi.",
           "tableCaption": "Sigirxonada havoni ozonlash samaradorligi",
-          "tableHeaders": [
-            "Ko'rsatkich",
-            "Muolajadan oldin",
-            "Muolajadan keyin",
-            "Kamayish"
-          ],
+          "tableHeaders": ["Ko'rsatkich", "Muolajadan oldin", "Muolajadan keyin", "Kamayish"],
           "tableData": [
-            [
-              "Ammiak, mg/l",
-              "0,025",
-              "0,005",
-              "80%"
-            ],
-            [
-              "Vodorod sulfidi, mg/l",
-              "0,008",
-              "0,001",
-              "87%"
-            ],
-            [
-              "Mikroflora, KOE/m³",
-              "85 000",
-              "12 000",
-              "86%"
-            ],
-            [
-              "Chang, mg/m³",
-              "4,5",
-              "1,2",
-              "73%"
-            ]
+            ["Ammiak, mg/l", "0,025", "0,005", "80%"],
+            ["Vodorod sulfidi, mg/l", "0,008", "0,001", "87%"],
+            ["Mikroflora, KOE/m³", "85 000", "12 000", "86%"],
+            ["Chang, mg/m³", "4,5", "1,2", "73%"]
           ],
           "highlight": "Muntazam ozonlash (kuniga 2-3 marta, 15-20 daqiqa, 0,5-1,0 mg/m³ kontsentratsiyada) qoramol nafas olish kasalliklarini 40-50% kamaytiradi va o'rtacha kunlik vazn o'sishini 8-12% oshiradi."
         },
@@ -106,32 +81,12 @@
             "Oshqozon-ichak kasalliklarining oldini olish"
           ],
           "tableCaption": "Chorvachilik uchun suvni ozonlash rejimlari",
-          "tableHeaders": [
-            "Maqsad",
-            "Ozon kontsentratsiyasi",
-            "Aloqa vaqti"
-          ],
+          "tableHeaders": ["Maqsad", "Ozon kontsentratsiyasi", "Aloqa vaqti"],
           "tableData": [
-            [
-              "Qoramol uchun ichimlik suvi",
-              "0,3-0,5 mg/l",
-              "10-15 min"
-            ],
-            [
-              "Cho'chqalar uchun ichimlik suvi",
-              "0,3-0,5 mg/l",
-              "10-15 min"
-            ],
-            [
-              "Uskunalarni yuvish suvi",
-              "1,0-2,0 mg/l",
-              "5-10 min"
-            ],
-            [
-              "Sutni suyultirish suvi",
-              "0,5-1,0 mg/l",
-              "15-20 min"
-            ]
+            ["Qoramol uchun ichimlik suvi", "0,3-0,5 mg/l", "10-15 min"],
+            ["Cho'chqalar uchun ichimlik suvi", "0,3-0,5 mg/l", "10-15 min"],
+            ["Uskunalarni yuvish suvi", "1,0-2,0 mg/l", "5-10 min"],
+            ["Sutni suyultirish suvi", "0,5-1,0 mg/l", "15-20 min"]
           ]
         },
         "feedTreatment": {
@@ -150,32 +105,12 @@
           "title": "Sut uskunalarini dezinfeksiya qilish",
           "intro": "Sut fermalarida ozon sog'ish uskunalari, sovutgich tanklar, sut quvurlari va idishlarni dezinfeksiya qilish uchun ishlatiladi. Bu kimyoviy tozalash vositalaridan foydalanishni to'xtatish va sut mahsulotlarining xavfsizligini ta'minlashga imkon beradi.",
           "tableCaption": "Sut fermalarida ozon qo'llash",
-          "tableHeaders": [
-            "Muolaja ob'ekti",
-            "Usul",
-            "Samaradorlik"
-          ],
+          "tableHeaders": ["Muolaja ob'ekti", "Usul", "Samaradorlik"],
           "tableData": [
-            [
-              "Sog'ish apparatlari",
-              "Ozonlangan suv 2-3 mg/l",
-              "99,9%"
-            ],
-            [
-              "Sut tanklari",
-              "Ozonlangan suv + havo",
-              "99,99%"
-            ],
-            [
-              "Sut quvurlari",
-              "Ozonlangan suvni aylantirish",
-              "99,9%"
-            ],
-            [
-              "Saqlash idishlari",
-              "Gazsimon ozon",
-              "99,99%"
-            ]
+            ["Sog'ish apparatlari", "Ozonlangan suv 2-3 mg/l", "99,9%"],
+            ["Sut tanklari", "Ozonlangan suv + havo", "99,99%"],
+            ["Sut quvurlari", "Ozonlangan suvni aylantirish", "99,9%"],
+            ["Saqlash idishlari", "Gazsimon ozon", "99,99%"]
           ]
         },
         "benefits": {

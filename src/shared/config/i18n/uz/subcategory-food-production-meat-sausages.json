@@ -49,91 +49,25 @@
           "title": "Sovuq go'sht saqlash",
           "paragraph": "Sovuq go'sht saqlash uchun 8-10 mg/m³ da ozonatsiya 1-4°C da karkas sirtidagi mezofil va psikhrofillik mikroflora butunlay yo'q qilishni ta'minlaydi. Sovuq go'sht saqlash muddati 2-5 baravar uzayadi.",
           "tableCaption": "Go'sht saqlash uchun ozonatsiya rejimi",
-          "tableHeaders": [
-            "Mahsulot",
-            "Harorat",
-            "Kontsentratsiya",
-            "Ishlov berish vaqti",
-            "Chastotasi"
-          ],
+          "tableHeaders": ["Mahsulot", "Harorat", "Kontsentratsiya", "Ishlov berish vaqti", "Chastotasi"],
           "tableRows": [
-            [
-              "Sovuq go'sht",
-              "-1...-4°C",
-              "8-10 mg/m³",
-              "4-5 soat",
-              "Har ikki kunning"
-            ],
-            [
-              "Muzlatilgan go'sht",
-              "-18°C",
-              "10 mg/m³",
-              "3 soat",
-              "Kuniga"
-            ],
-            [
-              "Murjon (sovuq)",
-              "-1...-4°C",
-              "8-10 mg/m³",
-              "2-3 soat",
-              "Kuniga"
-            ],
-            [
-              "Murjon (muzlatilgan)",
-              "-18°C",
-              "8-12 mg/m³",
-              "3 soat",
-              "Kuniga"
-            ],
-            [
-              "Ichki organlar",
-              "-1...-4°C",
-              "8-10 mg/m³",
-              "3-4 soat",
-              "Kuniga"
-            ]
+            ["Sovuq go'sht", "-1...-4°C", "8-10 mg/m³", "4-5 soat", "Har ikki kunning"],
+            ["Muzlatilgan go'sht", "-18°C", "10 mg/m³", "3 soat", "Kuniga"],
+            ["Murjon (sovuq)", "-1...-4°C", "8-10 mg/m³", "2-3 soat", "Kuniga"],
+            ["Murjon (muzlatilgan)", "-18°C", "8-12 mg/m³", "3 soat", "Kuniga"],
+            ["Ichki organlar", "-1...-4°C", "8-10 mg/m³", "3-4 soat", "Kuniga"]
           ]
         },
         "ripeningChambers": {
           "title": "Kolbasa pishish kameralari",
           "paragraph": "Quruq so'lgan va havo quritish kolbasi uchun pishish kameralarida ozone slimy va ko'plak cho'kmasining rivojlanishini bosgiradi, noxush hidilar paydo bo'lishini oldini oladi. O'rtacha kontsentratsiyada ozone qobiq yoki to'ldirilish rangini o'zgartirsa ham, ta'sir qilmaydi.",
           "tableCaption": "Kolbasa pishish kameralari uchun ozonatsiya rejimi",
-          "tableHeaders": [
-            "Kolbasa turi",
-            "Kontsentratsiya",
-            "Ishlov berish vaqti",
-            "Harorat",
-            "Samaradorlik"
-          ],
+          "tableHeaders": ["Kolbasa turi", "Kontsentratsiya", "Ishlov berish vaqti", "Harorat", "Samaradorlik"],
           "tableRows": [
-            [
-              "Quruq so'lgan",
-              "3-8 mg/m³",
-              "3 soat",
-              "+12...+14°C",
-              "96-99%"
-            ],
-            [
-              "Pishirilgan-tutun qilingan",
-              "3-7 mg/m³",
-              "2 soat",
-              "+10...+12°C",
-              "95-98%"
-            ],
-            [
-              "Hava quritish",
-              "5-10 mg/m³",
-              "2-3 soat",
-              "+10...+15°C",
-              "96-99%"
-            ],
-            [
-              "Yarim tutun qilingan",
-              "3-6 mg/m³",
-              "2 soat",
-              "+10...+12°C",
-              "95-98%"
-            ]
+            ["Quruq so'lgan", "3-8 mg/m³", "3 soat", "+12...+14°C", "96-99%"],
+            ["Pishirilgan-tutun qilingan", "3-7 mg/m³", "2 soat", "+10...+12°C", "95-98%"],
+            ["Hava quritish", "5-10 mg/m³", "2-3 soat", "+10...+15°C", "96-99%"],
+            ["Yarim tutun qilingan", "3-6 mg/m³", "2 soat", "+10...+12°C", "95-98%"]
           ],
           "recommendedMode": {
             "label": "Tavsiya etilgan rejim:",
@@ -153,11 +87,7 @@
         },
         "comparison": {
           "title": "Pishish kameras dezinfeksiya usullari taqqoslanishi",
-          "headers": [
-            "Parametr",
-            "Ozonatsiya",
-            "Eski usul"
-          ],
+          "headers": ["Parametr", "Ozonatsiya", "Eski usul"],
           "rows": [
             {
               "parameter": "Mahsulotni ochirib olish",

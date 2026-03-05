@@ -95,13 +95,12 @@ export function PoolsSpaPage({ staticData, lang }: PoolsSpaPageProps) {
       <article className="py-12 md:py-20">
         <div className="container max-w-4xl">
           <ArticleSection>
-            <Paragraph>{data?.sections?.intro?.paragraph1}</Paragraph>
-            <Paragraph>{data?.sections?.intro?.paragraph2}</Paragraph>
+            <Paragraph>{data?.content?.intro1}</Paragraph>
+            <Paragraph>{data?.content?.intro2}</Paragraph>
           </ArticleSection>
 
           <HighlightBox variant="info">
-            <strong>{data?.sections?.highlightBox?.regulation?.label}</strong>{' '}
-            {data?.sections?.highlightBox?.regulation?.text}
+            <strong>{data?.highlightBox?.regulation?.label}</strong> {data?.highlightBox?.regulation?.text}
           </HighlightBox>
 
           <ArticleSection title={data?.sections?.comparison?.title}>

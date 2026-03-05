@@ -23,11 +23,7 @@
         "disinfectionRate": "99.9%",
         "colorReduction": "80% gacha"
       },
-      "regulations": [
-        "Chiqindi suv chiqarish standartlari",
-        "Ekologik me'yorlar",
-        "Suv himoya qoidalari"
-      ],
+      "regulations": ["Chiqindi suv chiqarish standartlari", "Ekologik me'yorlar", "Suv himoya qoidalari"],
       "stats": {
         "bpkReduction": {
           "value": "95%",
@@ -61,11 +57,7 @@
         },
         "comparison": {
           "title": "Chiqindi suvlarni dezinfeksiya qilish usullarini solishtirish",
-          "headers": [
-            "Parametr",
-            "Ozonlash",
-            "Xlorlash"
-          ],
+          "headers": ["Parametr", "Ozonlash", "Xlorlash"],
           "rows": [
             {
               "parameter": "Dezinfeksiya samaradorligi",
@@ -112,42 +104,14 @@
         "technicalParams": {
           "title": "Chiqindi suvlarni ozonlashning texnik parametrlari",
           "caption": "Chiqindi turiga qarab tavsiya etilgan ozon dozalari",
-          "headers": [
-            "Chiqindi suv turi",
-            "Ozon dozasi, mg/L",
-            "Kontakt vaqti, min"
-          ],
+          "headers": ["Chiqindi suv turi", "Ozon dozasi, mg/L", "Kontakt vaqti, min"],
           "rows": [
-            [
-              "Uy-joy (biologik tozalashdan keyin)",
-              "5-15",
-              "10-15"
-            ],
-            [
-              "Sanoat (organik)",
-              "20-50",
-              "15-30"
-            ],
-            [
-              "Neft o'z ichiga olgan chiqindilar",
-              "30-100",
-              "20-40"
-            ],
-            [
-              "Fenol o'z ichiga olgan chiqindilar",
-              "15-30",
-              "15-20"
-            ],
-            [
-              "Sirt faol moddalar o'z ichiga olgan chiqindilar",
-              "10-25",
-              "10-20"
-            ],
-            [
-              "Oziq-ovqat sanoati chiqindilari",
-              "10-20",
-              "10-15"
-            ]
+            ["Uy-joy (biologik tozalashdan keyin)", "5-15", "10-15"],
+            ["Sanoat (organik)", "20-50", "15-30"],
+            ["Neft o'z ichiga olgan chiqindilar", "30-100", "20-40"],
+            ["Fenol o'z ichiga olgan chiqindilar", "15-30", "15-20"],
+            ["Sirt faol moddalar o'z ichiga olgan chiqindilar", "10-25", "10-20"],
+            ["Oziq-ovqat sanoati chiqindilari", "10-20", "10-15"]
           ],
           "highlightBox": {
             "label": "Ozon dozasi hisobi:",
@@ -199,49 +163,14 @@
         "results": {
           "title": "Chiqindi suvlarni ozonlash natijalari",
           "caption": "Uy-joy chiqindilarini tozalash samaradorligi (eksperimental ma'lumotlar)",
-          "headers": [
-            "Parametr",
-            "Ozonlashdan oldin",
-            "Ozonlashdan keyin",
-            "Samaradorlik"
-          ],
+          "headers": ["Parametr", "Ozonlashdan oldin", "Ozonlashdan keyin", "Samaradorlik"],
           "rows": [
-            [
-              "Rang, daraja",
-              "70-100",
-              "10-20",
-              "80-85%"
-            ],
-            [
-              "Loyqalik, mg/L",
-              "30-50",
-              "5-10",
-              "75-80%"
-            ],
-            [
-              "BKP₅, mg/L",
-              "20-30",
-              "3-5",
-              "85-90%"
-            ],
-            [
-              "XPK, mg/L",
-              "50-80",
-              "15-25",
-              "65-70%"
-            ],
-            [
-              "Koli-indeks",
-              "10,000",
-              "< 1,000",
-              "> 90%"
-            ],
-            [
-              "Hid",
-              "Botqoq-fekal",
-              "Yo'q",
-              "100%"
-            ]
+            ["Rang, daraja", "70-100", "10-20", "80-85%"],
+            ["Loyqalik, mg/L", "30-50", "5-10", "75-80%"],
+            ["BKP₅, mg/L", "20-30", "3-5", "85-90%"],
+            ["XPK, mg/L", "50-80", "15-25", "65-70%"],
+            ["Koli-indeks", "10,000", "< 1,000", "> 90%"],
+            ["Hid", "Botqoq-fekal", "Yo'q", "100%"]
           ],
           "paragraph": "Ma'lumotlar kontakt kamerada 15 daqiqa kontakt vaqti bilan 50 mg/L ozon dozasi bilan chiqindilarni qayta ishlashda olingan. 50 mg/L dan yuqori ozon dozalarida rang, loyqalik va hid yo'qoladi, koli-indeks normativ qiymatlarga kamayadi."
         },
@@ -269,42 +198,14 @@
         "applications": {
           "title": "Qo'llash sohalari",
           "caption": "Korxona turlari va chiqindi suvlarni ozonlash xususiyatlari",
-          "headers": [
-            "Sanoat",
-            "Asosiy ifloslantiruvchilar",
-            "Ozon dozasi, mg/L"
-          ],
+          "headers": ["Sanoat", "Asosiy ifloslantiruvchilar", "Ozon dozasi, mg/L"],
           "rows": [
-            [
-              "Neftni qayta ishlash zavodlari",
-              "Neft mahsulotlari, fenollar, sulfidlar",
-              "50-100"
-            ],
-            [
-              "Kimyoviy zavodlar",
-              "Organik erituvchilar, sirt faol moddalar",
-              "30-80"
-            ],
-            [
-              "Oziq-ovqat ishlab chiqarish",
-              "Yog'lar, oqsillar, organik kislotalar",
-              "15-30"
-            ],
-            [
-              "To'qimachilik fabrikalari",
-              "Bo'yoqlar, sirt faol moddalar",
-              "20-50"
-            ],
-            [
-              "Sellyuloza-qog'oz kombinatlari",
-              "Lignin, smolalar",
-              "30-60"
-            ],
-            [
-              "Shahar tozalash inshootlari",
-              "Biologik tozalashdan keyin uy-joy chiqindilari",
-              "10-20"
-            ]
+            ["Neftni qayta ishlash zavodlari", "Neft mahsulotlari, fenollar, sulfidlar", "50-100"],
+            ["Kimyoviy zavodlar", "Organik erituvchilar, sirt faol moddalar", "30-80"],
+            ["Oziq-ovqat ishlab chiqarish", "Yog'lar, oqsillar, organik kislotalar", "15-30"],
+            ["To'qimachilik fabrikalari", "Bo'yoqlar, sirt faol moddalar", "20-50"],
+            ["Sellyuloza-qog'oz kombinatlari", "Lignin, smolalar", "30-60"],
+            ["Shahar tozalash inshootlari", "Biologik tozalashdan keyin uy-joy chiqindilari", "10-20"]
           ]
         },
         "regulations": {

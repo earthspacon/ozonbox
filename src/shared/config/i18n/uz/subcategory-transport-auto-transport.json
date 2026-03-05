@@ -99,49 +99,14 @@
         "modes": {
           "title": "Avtomobil turi bo'yicha qayta ishlash rejimlari",
           "tableCaption": "Avtomobil yuklasining ozonlash parametrlari",
-          "tableHeaders": [
-            "Avtomobil turi",
-            "Tana hajmi",
-            "Quvvat",
-            "Qayta ishlash vaqti"
-          ],
+          "tableHeaders": ["Avtomobil turi", "Tana hajmi", "Quvvat", "Qayta ishlash vaqti"],
           "tableData": [
-            [
-              "Engil van",
-              "8-15 m³",
-              "5-10 g/h",
-              "15-20 min"
-            ],
-            [
-              "O'rta van",
-              "20-40 m³",
-              "10-20 g/h",
-              "20-30 min"
-            ],
-            [
-              "Sovutilgan (yarim traktor)",
-              "80-90 m³",
-              "20-30 g/h",
-              "30-40 min"
-            ],
-            [
-              "Tullo bilan qoplangan yarim traktor",
-              "90-100 m³",
-              "20-30 g/h",
-              "35-45 min"
-            ],
-            [
-              "Tank maskina (sut maskina)",
-              "5-20 m³",
-              "10-15 g/h",
-              "20-30 min"
-            ],
-            [
-              "Non vani",
-              "15-25 m³",
-              "5-10 g/h",
-              "15-25 min"
-            ]
+            ["Engil van", "8-15 m³", "5-10 g/h", "15-20 min"],
+            ["O'rta van", "20-40 m³", "10-20 g/h", "20-30 min"],
+            ["Sovutilgan (yarim traktor)", "80-90 m³", "20-30 g/h", "30-40 min"],
+            ["Tullo bilan qoplangan yarim traktor", "90-100 m³", "20-30 g/h", "35-45 min"],
+            ["Tank maskina (sut maskina)", "5-20 m³", "10-15 g/h", "20-30 min"],
+            ["Non vani", "15-25 m³", "5-10 g/h", "15-25 min"]
           ]
         },
         "refrigerators": {
@@ -171,43 +136,13 @@
           ],
           "text2": "Ozon hid molekulalarini oksidlaydi, ularni neytral birikmalarga aylantirad. Bu yashirish emas, balki to'liq bartaraf etish. Qayta ishlashdan keyin tana yangi sifatida hid qiladi — \"Bo'ron keyin kabi\".",
           "tableCaption": "Hidlarni bartaraf etish rejimlar",
-          "tableHeaders": [
-            "Hid turi",
-            "Konsentratsiya",
-            "Qayta ishlash vaqti",
-            "Samaradorlik"
-          ],
+          "tableHeaders": ["Hid turi", "Konsentratsiya", "Qayta ishlash vaqti", "Samaradorlik"],
           "tableData": [
-            [
-              "Engil (chang, eskirganlik)",
-              "10-15 mg/m³",
-              "15-20 min",
-              "100%"
-            ],
-            [
-              "O'rta (piyoz, sarimsoq)",
-              "15-20 mg/m³",
-              "20-30 min",
-              "100%"
-            ],
-            [
-              "Kuchli (baliq, go'sht)",
-              "20-30 mg/m³",
-              "30-45 min",
-              "95-100%"
-            ],
-            [
-              "Juda kuchli (kimyoviy)",
-              "25-35 mg/m³",
-              "45-60 min",
-              "90-95%"
-            ],
-            [
-              "Eskirgan (mog'or)",
-              "30-40 mg/m³",
-              "60-90 min",
-              "95-100%"
-            ]
+            ["Engil (chang, eskirganlik)", "10-15 mg/m³", "15-20 min", "100%"],
+            ["O'rta (piyoz, sarimsoq)", "15-20 mg/m³", "20-30 min", "100%"],
+            ["Kuchli (baliq, go'sht)", "20-30 mg/m³", "30-45 min", "95-100%"],
+            ["Juda kuchli (kimyoviy)", "25-35 mg/m³", "45-60 min", "90-95%"],
+            ["Eskirgan (mog'or)", "30-40 mg/m³", "60-90 min", "95-100%"]
           ]
         },
         "integration": {
@@ -234,43 +169,15 @@
         "economics": {
           "title": "Avtoparkni iqtisodiyoti",
           "comparisonTitle": "Avtoparkni sanitariya qayta ishlash usullarini solishtirish (50 vositalar)",
-          "tableHeaders": [
-            "Ko'rsatkich",
-            "Ozonlash",
-            "Kimyoviy qayta ishlash"
-          ],
+          "tableHeaders": ["Ko'rsatkich", "Ozonlash", "Kimyoviy qayta ishlash"],
           "tableCaption": "Avtoparkni sanitariya qayta ishlash usullarini solishtirish (50 vositalar)",
           "tableData": [
-            [
-              "Uskunalar",
-              "50-150 ming ₽ (bir marta)",
-              "Talab qilinmaydi"
-            ],
-            [
-              "Bir avtomobil uchun xaraj",
-              "30-50 ₽ (elektrik energiya)",
-              "500-1500 ₽ (xizmat/materiallar)"
-            ],
-            [
-              "Xodimlar",
-              "1 operator",
-              "3-5 yuvish xodimlari"
-            ],
-            [
-              "Bir avtomobil uchun vaqt",
-              "30-40 min (nazorat qilmasdan)",
-              "60-90 min (qo'lda ishlash)"
-            ],
-            [
-              "Hidlarni bartaraf etish",
-              "To'liq",
-              "Qisman"
-            ],
-            [
-              "O'zini qoplash muddati",
-              "2-4 oy",
-              "—"
-            ]
+            ["Uskunalar", "50-150 ming ₽ (bir marta)", "Talab qilinmaydi"],
+            ["Bir avtomobil uchun xaraj", "30-50 ₽ (elektrik energiya)", "500-1500 ₽ (xizmat/materiallar)"],
+            ["Xodimlar", "1 operator", "3-5 yuvish xodimlari"],
+            ["Bir avtomobil uchun vaqt", "30-40 min (nazorat qilmasdan)", "60-90 min (qo'lda ishlash)"],
+            ["Hidlarni bartaraf etish", "To'liq", "Qisman"],
+            ["O'zini qoplash muddati", "2-4 oy", "—"]
           ],
           "text": "Haftada ikki marta 50 ta avtomobilni qayta ishlashda tejamkorlik oyiga 100-200 ming rubl. Ozonator o'zini qoplash — 2-4 oy. Qo'shimcha foyda — hidlar va ifloslanishga shikoyatlarnigga kamaytirish."
         },
@@ -300,32 +207,12 @@
             "Taymer tizimlar — avtomatik jadvalga asoslangan qayta ishlash uchun"
           ],
           "tableCaption": "Avtoparkka o'lchamiga qarab ozonatorlarni tanlash",
-          "tableHeaders": [
-            "Avtoparkka o'lcham",
-            "Tavsiya etilgan uskunalar",
-            "To'plam xaraji"
-          ],
+          "tableHeaders": ["Avtoparkka o'lcham", "Tavsiya etilgan uskunalar", "To'plam xaraji"],
           "tableData": [
-            [
-              "5-15 vositalar",
-              "1-2 mobil ozonatorlar 10-20 g/h",
-              "30-60 ming ₽"
-            ],
-            [
-              "15-50 vositalar",
-              "3-5 ozonatorlar 15-30 g/h",
-              "80-150 ming ₽"
-            ],
-            [
-              "50-100 vositalar",
-              "5-10 ozonatorlar + doimiy zonalar",
-              "150-300 ming ₽"
-            ],
-            [
-              "100+ vositalar",
-              "Shaxsiy yechim",
-              "Shaxsiy"
-            ]
+            ["5-15 vositalar", "1-2 mobil ozonatorlar 10-20 g/h", "30-60 ming ₽"],
+            ["15-50 vositalar", "3-5 ozonatorlar 15-30 g/h", "80-150 ming ₽"],
+            ["50-100 vositalar", "5-10 ozonatorlar + doimiy zonalar", "150-300 ming ₽"],
+            ["100+ vositalar", "Shaxsiy yechim", "Shaxsiy"]
           ]
         },
         "roi": {

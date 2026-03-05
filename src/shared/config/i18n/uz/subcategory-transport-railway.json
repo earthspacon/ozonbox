@@ -87,49 +87,14 @@
           "title": "Vagon turlari bo'yicha qayta ishlash rejimlari",
           "highlight": "10-15 vagondan iborat poyezdlarni qayta ishlashda brigada usuli qo'llaniladi: ozonatorlar ketma-ket vagondan vagonga ko'chiriladi. Birinchi vagonlar havolantirilayotganda, oxirgilari qayta ishlanadi.",
           "tableCaption": "Temir yo'l vagonlarini ozonlash parametrlari",
-          "tableHeaders": [
-            "Vagon turi",
-            "Hajm",
-            "Ishlab chiqarish",
-            "Qayta ishlash vaqti"
-          ],
+          "tableHeaders": ["Vagon turi", "Hajm", "Ishlab chiqarish", "Qayta ishlash vaqti"],
           "tableData": [
-            [
-              "Kupe (10 kupe)",
-              "120-130 m³",
-              "30-50 g/h",
-              "40-60 min"
-            ],
-            [
-              "Platskart",
-              "150-160 m³",
-              "40-60 g/h",
-              "50-70 min"
-            ],
-            [
-              "SV (yumshoq)",
-              "100-110 m³",
-              "20-30 g/h",
-              "30-45 min"
-            ],
-            [
-              "Vagon-restoran",
-              "80-90 m³",
-              "20-30 g/h",
-              "40-50 min"
-            ],
-            [
-              "Elektropoyezd (1 vagon)",
-              "70-80 m³",
-              "15-25 g/h",
-              "30-40 min"
-            ],
-            [
-              "Metro vagoni",
-              "50-60 m³",
-              "10-20 g/h",
-              "20-30 min"
-            ]
+            ["Kupe (10 kupe)", "120-130 m³", "30-50 g/h", "40-60 min"],
+            ["Platskart", "150-160 m³", "40-60 g/h", "50-70 min"],
+            ["SV (yumshoq)", "100-110 m³", "20-30 g/h", "30-45 min"],
+            ["Vagon-restoran", "80-90 m³", "20-30 g/h", "40-50 min"],
+            ["Elektropoyezd (1 vagon)", "70-80 m³", "15-25 g/h", "30-40 min"],
+            ["Metro vagoni", "50-60 m³", "10-20 g/h", "20-30 min"]
           ]
         },
         "toilets": {
@@ -146,11 +111,7 @@
         },
         "comparison": {
           "title": "An'anaviy usullar bilan taqqoslash",
-          "tableHeaders": [
-            "Parametr",
-            "Ozonlash",
-            "Kimyoviy qayta ishlash"
-          ],
+          "tableHeaders": ["Parametr", "Ozonlash", "Kimyoviy qayta ishlash"],
           "tableData": [
             {
               "parameter": "Matras va to'qimalarni qayta ishlash",
@@ -225,37 +186,13 @@
           "title": "Depolar uchun iqtisodiyot",
           "text": "Depo uchun ozonatorlar to'plamining o'zini qoplash muddati - xodimlar va iste'mol materiallariga tejash orqali 6-12 oy. Qo'shimcha samara - yo'lovchilarning vagonlarning tozaligi haqidagi sharhlarini yaxshilash.",
           "tableCaption": "Depo uchun ozonlash samaradorligini hisoblash (100 vagon)",
-          "tableHeaders": [
-            "Ko'rsatkich",
-            "Ozonlash bilan",
-            "Ozonlashsiz"
-          ],
+          "tableHeaders": ["Ko'rsatkich", "Ozonlash bilan", "Ozonlashsiz"],
           "tableData": [
-            [
-              "Tozalash xodimlari",
-              "3-4 kishi",
-              "15-20 kishi"
-            ],
-            [
-              "Poyezdni qayta ishlash vaqti",
-              "2-3 soat",
-              "5-6 soat"
-            ],
-            [
-              "Dezinfeksiya vositalari xarajatlari/oy",
-              "~5000 ₽ (elektrik energiya)",
-              "~80 000 ₽"
-            ],
-            [
-              "Hidlarga shikoyatlar",
-              "Kamdan-kam",
-              "Muntazam"
-            ],
-            [
-              "Ventilyatsiyani qayta ishlash",
-              "Har bir reys",
-              "Yiliga 1 marta (ta'mirlash)"
-            ]
+            ["Tozalash xodimlari", "3-4 kishi", "15-20 kishi"],
+            ["Poyezdni qayta ishlash vaqti", "2-3 soat", "5-6 soat"],
+            ["Dezinfeksiya vositalari xarajatlari/oy", "~5000 ₽ (elektrik energiya)", "~80 000 ₽"],
+            ["Hidlarga shikoyatlar", "Kamdan-kam", "Muntazam"],
+            ["Ventilyatsiyani qayta ishlash", "Har bir reys", "Yiliga 1 marta (ta'mirlash)"]
           ]
         },
         "equipment": {

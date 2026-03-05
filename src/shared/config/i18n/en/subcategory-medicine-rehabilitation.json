@@ -73,37 +73,13 @@
           "text": "Various ozone therapy methods are used depending on indications and patient condition:",
           "table": {
             "caption": "Ozone therapy methods in rehabilitation",
-            "headers": [
-              "Method",
-              "Indications",
-              "Treatment course"
-            ],
+            "headers": ["Method", "Indications", "Treatment course"],
             "rows": [
-              [
-                "Ozone baths",
-                "Arthritis, arthrosis, varicose veins, cellulite",
-                "10-15 procedures"
-              ],
-              [
-                "Subcutaneous injections",
-                "Joint pain, myofascial syndrome",
-                "5-10 procedures"
-              ],
-              [
-                "Autohemotherapy (BAHT)",
-                "Immunodeficiency, chronic fatigue, diabetes",
-                "8-12 procedures"
-              ],
-              [
-                "Rectal insufflations",
-                "Colitis, dysbiosis, prostatitis",
-                "10-15 procedures"
-              ],
-              [
-                "Intravenous infusions",
-                "Ischemia, trophic ulcers, sepsis",
-                "5-8 procedures"
-              ]
+              ["Ozone baths", "Arthritis, arthrosis, varicose veins, cellulite", "10-15 procedures"],
+              ["Subcutaneous injections", "Joint pain, myofascial syndrome", "5-10 procedures"],
+              ["Autohemotherapy (BAHT)", "Immunodeficiency, chronic fatigue, diabetes", "8-12 procedures"],
+              ["Rectal insufflations", "Colitis, dysbiosis, prostatitis", "10-15 procedures"],
+              ["Intravenous infusions", "Ischemia, trophic ulcers, sepsis", "5-8 procedures"]
             ]
           }
         },
@@ -142,27 +118,11 @@
           ],
           "table": {
             "caption": "Pool ozonation parameters",
-            "headers": [
-              "Parameter",
-              "Ozone + chlorine",
-              "Chlorine only"
-            ],
+            "headers": ["Parameter", "Ozone + chlorine", "Chlorine only"],
             "rows": [
-              [
-                "Chlorine concentration",
-                "0.3-0.5 mg/L",
-                "1.0-1.5 mg/L"
-              ],
-              [
-                "Combined chlorine (chloramines)",
-                "<0.2 mg/L",
-                "up to 1.0 mg/L"
-              ],
-              [
-                "Water clarity",
-                "Crystal clear",
-                "Good"
-              ]
+              ["Chlorine concentration", "0.3-0.5 mg/L", "1.0-1.5 mg/L"],
+              ["Combined chlorine (chloramines)", "<0.2 mg/L", "up to 1.0 mg/L"],
+              ["Water clarity", "Crystal clear", "Good"]
             ]
           }
         },

@@ -59,38 +59,14 @@
         },
         "types": {
           "title": "Types of pet odors",
-          "tableHeaders": [
-            "Odor source",
-            "Features",
-            "Treatment mode"
-          ],
+          "tableHeaders": ["Odor source", "Features", "Treatment mode"],
           "tableCaption": "Characteristics of different odors and treatment methods",
           "tableData": [
-            [
-              "Cat urine",
-              "Most persistent, contains uric acid",
-              "40-60 mg/m³, 6-8 hours, 2-3 cycles"
-            ],
-            [
-              "Dog urine",
-              "Less concentrated, easier to remove",
-              "20-40 mg/m³, 4-6 hours, 1-2 cycles"
-            ],
-            [
-              "Marks (territory)",
-              "Concentrated, with pheromones",
-              "40-60 mg/m³, 8-12 hours, 2-3 cycles"
-            ],
-            [
-              "Fur odor",
-              "Organic, from sebum",
-              "10-20 mg/m³, 2-4 hours, 1 cycle"
-            ],
-            [
-              "Litter box odor",
-              "Mixture of urine and feces",
-              "20-40 mg/m³, 4-6 hours, 1-2 cycles"
-            ]
+            ["Cat urine", "Most persistent, contains uric acid", "40-60 mg/m³, 6-8 hours, 2-3 cycles"],
+            ["Dog urine", "Less concentrated, easier to remove", "20-40 mg/m³, 4-6 hours, 1-2 cycles"],
+            ["Marks (territory)", "Concentrated, with pheromones", "40-60 mg/m³, 8-12 hours, 2-3 cycles"],
+            ["Fur odor", "Organic, from sebum", "10-20 mg/m³, 2-4 hours, 1 cycle"],
+            ["Litter box odor", "Mixture of urine and feces", "20-40 mg/m³, 4-6 hours, 1-2 cycles"]
           ]
         },
         "process": {
@@ -121,11 +97,7 @@
         "comparison": {
           "title": "Comparison of odor removal methods",
           "tableTitle": "Ozonation vs conventional products",
-          "headers": [
-            "Criterion",
-            "Ozonation",
-            "Enzymatic/chemical products"
-          ],
+          "headers": ["Criterion", "Ozonation", "Enzymatic/chemical products"],
           "rows": [
             {
               "parameter": "Principle of action",

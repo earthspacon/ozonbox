@@ -60,11 +60,7 @@
           "title": "Tekstil ozonlash usullari",
           "paragraph": "Ikki asosiy usul bor: butun xonani tedavi qilish va ma'lum narsani lokal kamera tedavisi.",
           "tableTitle": "Tekstil ozonlash usullarini taqqoslash",
-          "headers": [
-            "Parametr",
-            "Xona tedavisi",
-            "Kamera tedavisi"
-          ],
+          "headers": ["Parametr", "Xona tedavisi", "Kamera tedavisi"],
           "rows": [
             {
               "parameter": "Qo'llanma",
@@ -139,32 +135,12 @@
             "Quruq tozalash xizmatining qimmatini oshiradi"
           ],
           "tableCaption": "Kompleks xizmat: quruq tozalash + ozonlash",
-          "tableHeaders": [
-            "Bosqich",
-            "Nima qilinadi",
-            "Natija"
-          ],
+          "tableHeaders": ["Bosqich", "Nima qilinadi", "Natija"],
           "tableRows": [
-            [
-              "1. Quruq tozalash",
-              "Chang, jun, yirik axlat olib tashlash",
-              "Nam tedaviga tayyorlash"
-            ],
-            [
-              "2. Nam tozalash",
-              "Doglar va ifloslanishlarni olib tashlash",
-              "Toza yuzа"
-            ],
-            [
-              "3. Quritish",
-              "10-15% namlikka quritish",
-              "Kokat oldini olish"
-            ],
-            [
-              "4. Ozonlash",
-              "Dehidli va dezinfektsiya",
-              "Yangi hid, mikroblar yo'q qilindi"
-            ]
+            ["1. Quruq tozalash", "Chang, jun, yirik axlat olib tashlash", "Nam tedaviga tayyorlash"],
+            ["2. Nam tozalash", "Doglar va ifloslanishlarni olib tashlash", "Toza yuzа"],
+            ["3. Quritish", "10-15% namlikka quritish", "Kokat oldini olish"],
+            ["4. Ozonlash", "Dehidli va dezinfektsiya", "Yangi hid, mikroblar yo'q qilindi"]
           ]
         },
         "afterFlood": {
@@ -207,49 +183,14 @@
         "modes": {
           "title": "Tavsiya etiladigan tedavi rejimlari",
           "tableCaption": "Turli tekstil turlari uchun ozonlash parametrlari",
-          "tableHeaders": [
-            "Mahsulot turi",
-            "Usul",
-            "Konsentratsiya",
-            "Vaqt"
-          ],
+          "tableHeaders": ["Mahsulot turi", "Usul", "Konsentratsiya", "Vaqt"],
           "tableRows": [
-            [
-              "Qalipcha (zaif hid)",
-              "Xona",
-              "20-30 mg/m³",
-              "4-6 soat"
-            ],
-            [
-              "Qalipcha (kuchli hid)",
-              "Kamera",
-              "40-60 mg/m³",
-              "4-8 soat"
-            ],
-            [
-              "Divan",
-              "Kamera",
-              "40-60 mg/m³",
-              "3-4 soat"
-            ],
-            [
-              "Matras",
-              "Kamera",
-              "30-50 mg/m³",
-              "2-4 soat"
-            ],
-            [
-              "Pardalar (reykada)",
-              "Xona",
-              "20-40 mg/m³",
-              "4-6 soat"
-            ],
-            [
-              "Yumshoq o'yinchoqlar",
-              "Kamera (paketda)",
-              "30-40 mg/m³",
-              "1-2 soat"
-            ]
+            ["Qalipcha (zaif hid)", "Xona", "20-30 mg/m³", "4-6 soat"],
+            ["Qalipcha (kuchli hid)", "Kamera", "40-60 mg/m³", "4-8 soat"],
+            ["Divan", "Kamera", "40-60 mg/m³", "3-4 soat"],
+            ["Matras", "Kamera", "30-50 mg/m³", "2-4 soat"],
+            ["Pardalar (reykada)", "Xona", "20-40 mg/m³", "4-6 soat"],
+            ["Yumshoq o'yinchoqlar", "Kamera (paketda)", "30-40 mg/m³", "1-2 soat"]
           ]
         },
         "materials": {

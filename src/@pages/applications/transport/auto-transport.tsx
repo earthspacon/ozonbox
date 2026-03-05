@@ -112,7 +112,7 @@ export function AutoTransportPage({ staticData, lang }: AutoTransportPageProps) 
             <Paragraph>{data?.sections?.problems?.text}</Paragraph>
             <BulletList items={data?.sections?.problems?.items} />
 
-            <Paragraph>{data?.sections?.problems?.paragraph2}</Paragraph>
+            <Paragraph>{data?.sections?.problems?.text2}</Paragraph>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.technology?.title}>
@@ -149,10 +149,10 @@ export function AutoTransportPage({ staticData, lang }: AutoTransportPageProps) 
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.odorRemoval?.title}>
-            <Paragraph>{data?.sections?.odorRemoval?.intro}</Paragraph>
+            <Paragraph>{data?.sections?.odorRemoval?.text}</Paragraph>
             <BulletList items={data?.sections?.odorRemoval?.items} />
 
-            <Paragraph>{data?.sections?.odorRemoval?.paragraph2}</Paragraph>
+            <Paragraph>{data?.sections?.odorRemoval?.text2}</Paragraph>
 
             <DataTable
               caption={data?.sections?.odorRemoval?.tableCaption}
@@ -177,11 +177,9 @@ export function AutoTransportPage({ staticData, lang }: AutoTransportPageProps) 
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.economics?.title}>
-            <ComparisonTable
-              title={data?.sections?.economics?.comparisonTitle}
-              headers={
-                data?.sections?.economics?.tableHeaders as [string, string, string] | [string, string, string, string]
-              }
+            <DataTable
+              caption={data?.sections?.economics?.comparisonTitle}
+              headers={data?.sections?.economics?.tableHeaders}
               rows={data?.sections?.economics?.tableData}
             />
 
@@ -189,14 +187,14 @@ export function AutoTransportPage({ staticData, lang }: AutoTransportPageProps) 
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.compliance?.title}>
-            <Paragraph>{data?.sections?.compliance?.intro}</Paragraph>
+            <Paragraph>{data?.sections?.compliance?.text}</Paragraph>
             <BulletList items={data?.sections?.compliance?.items} />
 
             <HighlightBox variant="warning">{data?.sections?.compliance?.warning?.text}</HighlightBox>
           </ArticleSection>
 
           <ArticleSection title={data?.sections?.equipment?.title}>
-            <Paragraph>{data?.sections?.equipment?.intro}</Paragraph>
+            <Paragraph>{data?.sections?.equipment?.text}</Paragraph>
             <BulletList items={data?.sections?.equipment?.items} />
 
             <DataTable

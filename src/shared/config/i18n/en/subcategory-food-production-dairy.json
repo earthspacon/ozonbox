@@ -48,43 +48,13 @@
         "application": {
           "title": "Ozone application in dairy production",
           "tableCaption": "Ozonation modes for dairy plant equipment",
-          "tableHeaders": [
-            "Treatment object",
-            "Method",
-            "Concentration",
-            "Efficiency"
-          ],
+          "tableHeaders": ["Treatment object", "Method", "Concentration", "Efficiency"],
           "tableData": [
-            [
-              "Milking equipment",
-              "Ozonated water",
-              "2–3 mg/L",
-              "99.9%"
-            ],
-            [
-              "Cooling tanks",
-              "Water + air",
-              "3–5 mg/L",
-              "99.99%"
-            ],
-            [
-              "Milk lines",
-              "Ozonated water flush",
-              "2–3 mg/L",
-              "99.9%"
-            ],
-            [
-              "Storage tanks",
-              "Gaseous ozone",
-              "5–10 mg/m³",
-              "99.99%"
-            ],
-            [
-              "Cold rooms",
-              "Gaseous ozone",
-              "3–6 mg/m³",
-              "99.5%"
-            ]
+            ["Milking equipment", "Ozonated water", "2–3 mg/L", "99.9%"],
+            ["Cooling tanks", "Water + air", "3–5 mg/L", "99.99%"],
+            ["Milk lines", "Ozonated water flush", "2–3 mg/L", "99.9%"],
+            ["Storage tanks", "Gaseous ozone", "5–10 mg/m³", "99.99%"],
+            ["Cold rooms", "Gaseous ozone", "3–6 mg/m³", "99.5%"]
           ]
         },
         "advantages": {
@@ -100,11 +70,7 @@
         },
         "comparison": {
           "title": "Comparison of sanitation methods",
-          "headers": [
-            "Parameter",
-            "Ozonation",
-            "Chemical CIP cleaning"
-          ],
+          "headers": ["Parameter", "Ozonation", "Chemical CIP cleaning"],
           "rows": [
             {
               "parameter": "Efficiency against Listeria",
@@ -142,43 +108,13 @@
           "title": "Dairy product storage",
           "intro": "Ozonation of cold rooms for dairy product storage prevents mold development, suppresses psychrotrophic bacteria growth and extends shelf life of cottage cheese, sour cream, yogurt by 30–50%.",
           "tableCaption": "Ozonation modes for dairy product storage",
-          "tableHeaders": [
-            "Product",
-            "Temperature",
-            "Concentration",
-            "Shelf life increase"
-          ],
+          "tableHeaders": ["Product", "Temperature", "Concentration", "Shelf life increase"],
           "tableData": [
-            [
-              "Cottage cheese",
-              "+2...+6°C",
-              "3–4 mg/m³",
-              "+40%"
-            ],
-            [
-              "Sour cream",
-              "+2...+6°C",
-              "2–3 mg/m³",
-              "+35%"
-            ],
-            [
-              "Yogurt",
-              "+2...+6°C",
-              "2–3 mg/m³",
-              "+30%"
-            ],
-            [
-              "Butter",
-              "-6...-12°C",
-              "3–5 mg/m³",
-              "+50%"
-            ],
-            [
-              "Soft cheeses",
-              "+4...+8°C",
-              "3–6 mg/m³",
-              "+45%"
-            ]
+            ["Cottage cheese", "+2...+6°C", "3–4 mg/m³", "+40%"],
+            ["Sour cream", "+2...+6°C", "2–3 mg/m³", "+35%"],
+            ["Yogurt", "+2...+6°C", "2–3 mg/m³", "+30%"],
+            ["Butter", "-6...-12°C", "3–5 mg/m³", "+50%"],
+            ["Soft cheeses", "+4...+8°C", "3–6 mg/m³", "+45%"]
           ],
           "highlight": {
             "text": "In cold storage, ozonation not only suppresses microflora but also prevents off-flavors in products, which is especially important for long-term butter storage."

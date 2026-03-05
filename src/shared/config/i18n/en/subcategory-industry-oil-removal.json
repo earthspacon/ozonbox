@@ -56,37 +56,13 @@
             "Government Decree No. 644 — Rules for cold water supply and wastewater disposal"
           ],
           "tableCaption": "Maximum allowable concentrations of oil products for various water use categories",
-          "tableHeaders": [
-            "Water body category",
-            "Limit, mg/L",
-            "Hazard class"
-          ],
+          "tableHeaders": ["Water body category", "Limit, mg/L", "Hazard class"],
           "tableRows": [
-            [
-              "Fishery water bodies, highest category",
-              "0.05",
-              "3"
-            ],
-            [
-              "Fishery water bodies, category I",
-              "0.05",
-              "3"
-            ],
-            [
-              "Fishery water bodies, category II",
-              "0.05",
-              "3"
-            ],
-            [
-              "Domestic and drinking water use",
-              "0.1",
-              "4"
-            ],
-            [
-              "Discharge to municipal sewerage",
-              "4.0",
-              "—"
-            ]
+            ["Fishery water bodies, highest category", "0.05", "3"],
+            ["Fishery water bodies, category I", "0.05", "3"],
+            ["Fishery water bodies, category II", "0.05", "3"],
+            ["Domestic and drinking water use", "0.1", "4"],
+            ["Discharge to municipal sewerage", "4.0", "—"]
           ]
         },
         "mechanism": {
@@ -100,37 +76,13 @@
             "Destruction of polycyclic aromatic hydrocarbons (PAH)"
           ],
           "tableCaption": "Kinetics of oil product oxidation by ozone",
-          "tableHeaders": [
-            "Compound class",
-            "Rate constant, M⁻¹·s⁻¹",
-            "Half-life, min"
-          ],
+          "tableHeaders": ["Compound class", "Rate constant, M⁻¹·s⁻¹", "Half-life, min"],
           "tableRows": [
-            [
-              "Aliphatic hydrocarbons",
-              "10² — 10³",
-              "15-30"
-            ],
-            [
-              "Aromatic (benzene, toluene)",
-              "10³ — 10⁴",
-              "5-15"
-            ],
-            [
-              "Polyaromatic (PAH)",
-              "10⁴ — 10⁵",
-              "1-5"
-            ],
-            [
-              "Naphthenic acids",
-              "10³ — 10⁴",
-              "5-10"
-            ],
-            [
-              "Phenols",
-              "10⁵ — 10⁶",
-              "<1"
-            ]
+            ["Aliphatic hydrocarbons", "10² — 10³", "15-30"],
+            ["Aromatic (benzene, toluene)", "10³ — 10⁴", "5-15"],
+            ["Polyaromatic (PAH)", "10⁴ — 10⁵", "1-5"],
+            ["Naphthenic acids", "10³ — 10⁴", "5-10"],
+            ["Phenols", "10⁵ — 10⁶", "<1"]
           ],
           "infoBox": {
             "title": "Oxidative destruction vs. sorption",
@@ -170,36 +122,11 @@
             "Residual concentration, mg/L"
           ],
           "tableRows": [
-            [
-              "5-10",
-              "15-30",
-              "15-20",
-              "<0.05"
-            ],
-            [
-              "10-20",
-              "30-60",
-              "20-30",
-              "<0.05"
-            ],
-            [
-              "20-50",
-              "60-150",
-              "30-45",
-              "<0.1"
-            ],
-            [
-              "50-100",
-              "150-300",
-              "45-60",
-              "<0.3"
-            ],
-            [
-              ">100",
-              "Two-stage treatment",
-              "60-90",
-              "<0.5"
-            ]
+            ["5-10", "15-30", "15-20", "<0.05"],
+            ["10-20", "30-60", "20-30", "<0.05"],
+            ["20-50", "60-150", "30-45", "<0.1"],
+            ["50-100", "150-300", "45-60", "<0.3"],
+            [">100", "Two-stage treatment", "60-90", "<0.5"]
           ]
         },
         "types": {
@@ -213,36 +140,11 @@
             "Treatment mode"
           ],
           "tableRows": [
-            [
-              "Refineries, oil depots",
-              "50-500",
-              "Light fractions, benzene, toluene",
-              "Flotation + ozonation"
-            ],
-            [
-              "Transport, gas stations",
-              "10-100",
-              "Oils, fuel, surfactants",
-              "Direct ozonation"
-            ],
-            [
-              "Machine building",
-              "20-200",
-              "Coolants, emulsions, oils",
-              "De-emulsification + ozonation"
-            ],
-            [
-              "Ship repair",
-              "50-300",
-              "Heavy fractions, resins",
-              "Multi-stage treatment"
-            ],
-            [
-              "Metallurgy",
-              "10-50",
-              "Technical oils, soot",
-              "Flocculation + ozonation"
-            ]
+            ["Refineries, oil depots", "50-500", "Light fractions, benzene, toluene", "Flotation + ozonation"],
+            ["Transport, gas stations", "10-100", "Oils, fuel, surfactants", "Direct ozonation"],
+            ["Machine building", "20-200", "Coolants, emulsions, oils", "De-emulsification + ozonation"],
+            ["Ship repair", "50-300", "Heavy fractions, resins", "Multi-stage treatment"],
+            ["Metallurgy", "10-50", "Technical oils, soot", "Flocculation + ozonation"]
           ],
           "successBox": {
             "title": "Synergistic effect",
@@ -253,43 +155,13 @@
           "title": "Technical specifications of industrial ozonators",
           "paragraph": "High-capacity corona discharge ozone generators are used for treatment of oil-containing wastewater:",
           "tableCaption": "Line of industrial ozonators for wastewater treatment",
-          "tableHeaders": [
-            "Model",
-            "Capacity, g O₃/h",
-            "Wastewater volume, m³/h",
-            "Power consumption, kW"
-          ],
+          "tableHeaders": ["Model", "Capacity, g O₃/h", "Wastewater volume, m³/h", "Power consumption, kW"],
           "tableRows": [
-            [
-              "OZT-100",
-              "100",
-              "3-5",
-              "1.2"
-            ],
-            [
-              "OZT-500",
-              "500",
-              "15-25",
-              "5.5"
-            ],
-            [
-              "OZT-1000",
-              "1000",
-              "30-50",
-              "10"
-            ],
-            [
-              "OZT-2000",
-              "2000",
-              "60-100",
-              "18"
-            ],
-            [
-              "OZT-5000",
-              "5000",
-              "150-250",
-              "45"
-            ]
+            ["OZT-100", "100", "3-5", "1.2"],
+            ["OZT-500", "500", "15-25", "5.5"],
+            ["OZT-1000", "1000", "30-50", "10"],
+            ["OZT-2000", "2000", "60-100", "18"],
+            ["OZT-5000", "5000", "150-250", "45"]
           ],
           "items": [
             "Oxygen feed for maximum ozone concentration (up to 12% by mass)",
@@ -302,11 +174,7 @@
         "economics": {
           "title": "Environmental and economic indicators",
           "comparisonTitle": "Comparison of oil-containing wastewater treatment methods",
-          "comparisonHeaders": [
-            "Parameter",
-            "Ozonation",
-            "Traditional methods"
-          ],
+          "comparisonHeaders": ["Parameter", "Ozonation", "Traditional methods"],
           "comparisonRows": [
             {
               "parameter": "Treatment efficiency",
@@ -360,37 +228,13 @@
             "Government Decree No. 644 — Rules for cold water supply and wastewater disposal"
           ],
           "tableCaption": "Maximum allowable concentrations of oil products for various water use categories",
-          "tableHeaders": [
-            "Water body category",
-            "Limit, mg/L",
-            "Hazard class"
-          ],
+          "tableHeaders": ["Water body category", "Limit, mg/L", "Hazard class"],
           "tableRows": [
-            [
-              "Fishery water bodies, highest category",
-              "0.05",
-              "3"
-            ],
-            [
-              "Fishery water bodies, category I",
-              "0.05",
-              "3"
-            ],
-            [
-              "Fishery water bodies, category II",
-              "0.05",
-              "3"
-            ],
-            [
-              "Domestic and drinking water use",
-              "0.1",
-              "4"
-            ],
-            [
-              "Discharge to municipal sewerage",
-              "4.0",
-              "—"
-            ]
+            ["Fishery water bodies, highest category", "0.05", "3"],
+            ["Fishery water bodies, category I", "0.05", "3"],
+            ["Fishery water bodies, category II", "0.05", "3"],
+            ["Domestic and drinking water use", "0.1", "4"],
+            ["Discharge to municipal sewerage", "4.0", "—"]
           ]
         },
         "benefits": {
@@ -426,55 +270,15 @@
           "title": "Case study: Refinery with capacity of 6 million tons/year",
           "paragraph": "Implementation of ozonation at wastewater treatment facilities of a refinery:",
           "tableCaption": "Results of ozonation system implementation",
-          "tableHeaders": [
-            "Indicator",
-            "Before implementation",
-            "After implementation",
-            "Effect"
-          ],
+          "tableHeaders": ["Indicator", "Before implementation", "After implementation", "Effect"],
           "tableRows": [
-            [
-              "Wastewater volume, m³/day",
-              "5,000",
-              "5,000",
-              "—"
-            ],
-            [
-              "OP concentration at inlet, mg/L",
-              "25-40",
-              "25-40",
-              "—"
-            ],
-            [
-              "OP concentration at outlet, mg/L",
-              "0.8-1.5",
-              "0.03-0.05",
-              "-96%"
-            ],
-            [
-              "Environmental fees, million rub/year",
-              "18.5",
-              "0.2",
-              "-99%"
-            ],
-            [
-              "Coagulant consumption, t/year",
-              "120",
-              "0",
-              "-100%"
-            ],
-            [
-              "Sludge formation, t/year",
-              "850",
-              "0",
-              "-100%"
-            ],
-            [
-              "Payback period",
-              "—",
-              "14 months",
-              "—"
-            ]
+            ["Wastewater volume, m³/day", "5,000", "5,000", "—"],
+            ["OP concentration at inlet, mg/L", "25-40", "25-40", "—"],
+            ["OP concentration at outlet, mg/L", "0.8-1.5", "0.03-0.05", "-96%"],
+            ["Environmental fees, million rub/year", "18.5", "0.2", "-99%"],
+            ["Coagulant consumption, t/year", "120", "0", "-100%"],
+            ["Sludge formation, t/year", "850", "0", "-100%"],
+            ["Payback period", "—", "14 months", "—"]
           ]
         }
       }

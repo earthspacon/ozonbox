@@ -59,38 +59,14 @@
         "effectiveness": {
           "title": "Ozonlashning samaradorligi",
           "text": "Tadqiqotlar ko'rsatadiki, havoga 15 milliardga ozon (0,03 mg/m³) qo'shilsa, yangi havoda ikki soat yurgan kabi ta'sir beradi. Ishchilar immunitet tizimini kuchaytirildi, qon kislorodi darajalari oshdi va qon bosimi yaxshilandi.",
-          "tableHeaders": [
-            "Ko'rsatgich",
-            "Ozonlashdan oldin",
-            "Ozonlashdan keyin"
-          ],
+          "tableHeaders": ["Ko'rsatgich", "Ozonlashdan oldin", "Ozonlashdan keyin"],
           "tableCaption": "Ofiislarda ozonlash ta'sirining tadqiqot natijalari",
           "tableData": [
-            [
-              "Bosh og'rish chastotasi",
-              "Tez-tez",
-              "Nadirdir"
-            ],
-            [
-              "Ish qobiliyati",
-              "70%",
-              "100%"
-            ],
-            [
-              "Diqqat kontsentratsiyasi",
-              "Pasaygan",
-              "Normal"
-            ],
-            [
-              "ARK kasalliklari",
-              "Har mavsumda 15-20%",
-              "Har mavsumda 8-10%"
-            ],
-            [
-              "Muhit qoniqish",
-              "45%",
-              "89%"
-            ]
+            ["Bosh og'rish chastotasi", "Tez-tez", "Nadirdir"],
+            ["Ish qobiliyati", "70%", "100%"],
+            ["Diqqat kontsentratsiyasi", "Pasaygan", "Normal"],
+            ["ARK kasalliklari", "Har mavsumda 15-20%", "Har mavsumda 8-10%"],
+            ["Muhit qoniqish", "45%", "89%"]
           ]
         },
         "whatDisinfects": {
@@ -127,47 +103,18 @@
               "description": "Davomi tugagach 2-3 soat keyin ozon xavfsiz darajaga tushadi. Faol ventilatsiya talab qilinmaydi."
             }
           ],
-          "tableHeaders": [
-            "Xona turi",
-            "Hajmi",
-            "Quvvat",
-            "Davomi"
-          ],
+          "tableHeaders": ["Xona turi", "Hajmi", "Quvvat", "Davomi"],
           "tableCaption": "Ofiislarga tavsiya etilgan ozonlash rejimlar",
           "tableData": [
-            [
-              "Ofis",
-              "50 m³ gacha",
-              "2-3 g/h",
-              "60 min"
-            ],
-            [
-              "Ochiq makon",
-              "100-300 m³",
-              "5-10 g/h",
-              "90 min"
-            ],
-            [
-              "Yig'ilish xonasi",
-              "30-50 m³",
-              "2 g/h",
-              "40 min"
-            ],
-            [
-              "Kovorking",
-              "200-500 m³",
-              "10-20 g/h",
-              "120 min"
-            ]
+            ["Ofis", "50 m³ gacha", "2-3 g/h", "60 min"],
+            ["Ochiq makon", "100-300 m³", "5-10 g/h", "90 min"],
+            ["Yig'ilish xonasi", "30-50 m³", "2 g/h", "40 min"],
+            ["Kovorking", "200-500 m³", "10-20 g/h", "120 min"]
           ]
         },
         "comparison": {
           "title": "Havo tozalash usullarining taqqoslashi",
-          "headers": [
-            "Parametr",
-            "Ozonlash",
-            "Kimyoviy tozalash"
-          ],
+          "headers": ["Parametr", "Ozonlash", "Kimyoviy tozalash"],
           "rows": [
             {
               "parameter": "Havo dezinfeksiyasi",

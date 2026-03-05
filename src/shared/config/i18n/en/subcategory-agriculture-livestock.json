@@ -60,37 +60,12 @@
           "title": "Air disinfection in buildings",
           "intro": "Air in livestock buildings is contaminated with ammonia, hydrogen sulfide, dust and microorganisms. Ammonia concentration can reach 0.02-0.03 mg/l at MPC of 0.01 mg/l. This reduces productivity, increases morbidity and worsens working conditions for staff.",
           "tableCaption": "Effectiveness of air ozonation in dairy barn",
-          "tableHeaders": [
-            "Parameter",
-            "Before treatment",
-            "After treatment",
-            "Reduction"
-          ],
+          "tableHeaders": ["Parameter", "Before treatment", "After treatment", "Reduction"],
           "tableData": [
-            [
-              "Ammonia, mg/l",
-              "0.025",
-              "0.005",
-              "80%"
-            ],
-            [
-              "Hydrogen sulfide, mg/l",
-              "0.008",
-              "0.001",
-              "87%"
-            ],
-            [
-              "Microflora, CFU/m³",
-              "85,000",
-              "12,000",
-              "86%"
-            ],
-            [
-              "Dust, mg/m³",
-              "4.5",
-              "1.2",
-              "73%"
-            ]
+            ["Ammonia, mg/l", "0.025", "0.005", "80%"],
+            ["Hydrogen sulfide, mg/l", "0.008", "0.001", "87%"],
+            ["Microflora, CFU/m³", "85,000", "12,000", "86%"],
+            ["Dust, mg/m³", "4.5", "1.2", "73%"]
           ],
           "highlight": "Regular ozonation (2-3 times daily for 15-20 minutes at 0.5-1.0 mg/m³ concentration) reduces cattle respiratory diseases by 40-50% and increases average daily gain by 8-12%."
         },
@@ -106,32 +81,12 @@
             "Prevention of gastrointestinal diseases"
           ],
           "tableCaption": "Water ozonation regimes for livestock farming",
-          "tableHeaders": [
-            "Purpose",
-            "Ozone concentration",
-            "Contact time"
-          ],
+          "tableHeaders": ["Purpose", "Ozone concentration", "Contact time"],
           "tableData": [
-            [
-              "Drinking water for cattle",
-              "0.3-0.5 mg/l",
-              "10-15 min"
-            ],
-            [
-              "Drinking water for pigs",
-              "0.3-0.5 mg/l",
-              "10-15 min"
-            ],
-            [
-              "Equipment wash water",
-              "1.0-2.0 mg/l",
-              "5-10 min"
-            ],
-            [
-              "Water for milk dilution",
-              "0.5-1.0 mg/l",
-              "15-20 min"
-            ]
+            ["Drinking water for cattle", "0.3-0.5 mg/l", "10-15 min"],
+            ["Drinking water for pigs", "0.3-0.5 mg/l", "10-15 min"],
+            ["Equipment wash water", "1.0-2.0 mg/l", "5-10 min"],
+            ["Water for milk dilution", "0.5-1.0 mg/l", "15-20 min"]
           ]
         },
         "feedTreatment": {
@@ -150,32 +105,12 @@
           "title": "Dairy equipment disinfection",
           "intro": "On dairy farms, ozone is used to disinfect milking equipment, cooling tanks, milk pipelines and containers. This allows avoiding chemical cleaning agents and ensuring dairy product safety.",
           "tableCaption": "Ozone application on dairy farms",
-          "tableHeaders": [
-            "Treatment object",
-            "Method",
-            "Effectiveness"
-          ],
+          "tableHeaders": ["Treatment object", "Method", "Effectiveness"],
           "tableData": [
-            [
-              "Milking machines",
-              "Ozonated water 2-3 mg/l",
-              "99.9%"
-            ],
-            [
-              "Milk tanks",
-              "Ozonated water + air",
-              "99.99%"
-            ],
-            [
-              "Milk pipelines",
-              "Ozonated water circulation",
-              "99.9%"
-            ],
-            [
-              "Storage containers",
-              "Gaseous ozone",
-              "99.99%"
-            ]
+            ["Milking machines", "Ozonated water 2-3 mg/l", "99.9%"],
+            ["Milk tanks", "Ozonated water + air", "99.99%"],
+            ["Milk pipelines", "Ozonated water circulation", "99.9%"],
+            ["Storage containers", "Gaseous ozone", "99.99%"]
           ]
         },
         "benefits": {

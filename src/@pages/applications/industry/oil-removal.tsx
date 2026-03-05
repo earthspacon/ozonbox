@@ -115,8 +115,7 @@ export function OilRemovalPage({ staticData, lang }: OilRemovalPageProps) {
             />
 
             <HighlightBox variant="info">
-              <strong>{data?.sections?.mechanism?.highlight?.title}</strong>{' '}
-              {data?.sections?.mechanism?.highlight?.text}
+              <strong>{data?.sections?.mechanism?.infoBox?.title}</strong> {data?.sections?.mechanism?.infoBox?.text}
             </HighlightBox>
           </ArticleSection>
 

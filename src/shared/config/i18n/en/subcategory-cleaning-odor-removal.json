@@ -60,11 +60,7 @@
         "comparison": {
           "title": "Why ozone is more effective than other methods",
           "tableTitle": "Comparison of odor removal methods",
-          "headers": [
-            "Method",
-            "Ozonation",
-            "Fresheners/sorbents"
-          ],
+          "headers": ["Method", "Ozonation", "Fresheners/sorbents"],
           "rows": [
             {
               "parameter": "Principle of action",
@@ -105,38 +101,14 @@
             "title": "Important:",
             "text": "At 0-5°C ozone remains active for several days, while at 50°C it decays in 20-30 minutes. This allows regulating treatment intensity with temperature mode."
           },
-          "tableHeaders": [
-            "Parameter",
-            "Impact",
-            "Recommendation"
-          ],
+          "tableHeaders": ["Parameter", "Impact", "Recommendation"],
           "tableCaption": "Recommended ozonation parameters",
           "tableData": [
-            [
-              "Ozone concentration",
-              "Higher — faster result",
-              "10-80 mg/m³ depending on task"
-            ],
-            [
-              "Temperature",
-              "Lower T means more stable ozone",
-              "Optimal 15-25°C"
-            ],
-            [
-              "Humidity",
-              "High humidity accelerates decay",
-              "40-60% relative humidity"
-            ],
-            [
-              "Treatment time",
-              "Depends on odor intensity",
-              "From 2 to 24 hours"
-            ],
-            [
-              "Sealing",
-              "Leaks reduce concentration",
-              "Close windows, doors, ventilation"
-            ]
+            ["Ozone concentration", "Higher — faster result", "10-80 mg/m³ depending on task"],
+            ["Temperature", "Lower T means more stable ozone", "Optimal 15-25°C"],
+            ["Humidity", "High humidity accelerates decay", "40-60% relative humidity"],
+            ["Treatment time", "Depends on odor intensity", "From 2 to 24 hours"],
+            ["Sealing", "Leaks reduce concentration", "Close windows, doors, ventilation"]
           ]
         },
         "process": {

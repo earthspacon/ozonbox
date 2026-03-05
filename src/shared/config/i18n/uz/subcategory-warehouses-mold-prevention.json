@@ -58,37 +58,13 @@
           "title": "Ombor uchun jarayonlarni hisoblash",
           "intro": "Ozon generatorining to'g'ri tanlanishi samarali davolashning asosiy omilidir. Omborxona binolari uchun asosiy nisbat ishlatiladi: xona hajmining 25 m³ uchun 1 g/soat ozon ishlab chiqarish.",
           "tableCaption": "Omborlar uchun jarayonlarni tanlash bo'yicha tavsiyalar",
-          "tableHeaders": [
-            "Ombor hajmi",
-            "Ozon generatori ishlab chiqarishi",
-            "Davolash vaqti"
-          ],
+          "tableHeaders": ["Ombor hajmi", "Ozon generatori ishlab chiqarishi", "Davolash vaqti"],
           "tableRows": [
-            [
-              "500 m³ gacha",
-              "20-25 g/soat",
-              "60-90 daqiqa"
-            ],
-            [
-              "500-1000 m³",
-              "40-50 g/soat",
-              "60-120 daqiqa"
-            ],
-            [
-              "1000-2500 m³",
-              "80-100 g/soat",
-              "90-120 daqiqa"
-            ],
-            [
-              "2500-5000 m³",
-              "150-200 g/soat",
-              "120-180 daqiqa"
-            ],
-            [
-              "5000 m³ dan yuqori",
-              "Bir necha ustanovka",
-              "120-180 daqiqa"
-            ]
+            ["500 m³ gacha", "20-25 g/soat", "60-90 daqiqa"],
+            ["500-1000 m³", "40-50 g/soat", "60-120 daqiqa"],
+            ["1000-2500 m³", "80-100 g/soat", "90-120 daqiqa"],
+            ["2500-5000 m³", "150-200 g/soat", "120-180 daqiqa"],
+            ["5000 m³ dan yuqori", "Bir necha ustanovka", "120-180 daqiqa"]
           ],
           "hvacLabel": "HVAC bilan integratsiya:",
           "hvacText": "Katta omborlar uchun ventilyatsiya tizimiga integratsiyalangan kanal ozon generatorlarini ishlatish tavsiya etiladi. Bu ozonning barcha hajm bo'ylab tekis tarqalishini va davolashdan keyin avtomatik shamollatishni ta'minlaydi."
@@ -115,32 +91,12 @@
             }
           ],
           "treatmentTable": "Yuqumlilik darajasiga qarab ozonlash rejimlari",
-          "treatmentHeaders": [
-            "Yuqumlilik darajasi",
-            "Ozon kontsentratsiyasi",
-            "Davolash chastotasi"
-          ],
+          "treatmentHeaders": ["Yuqumlilik darajasi", "Ozon kontsentratsiyasi", "Davolash chastotasi"],
           "treatmentRows": [
-            [
-              "Oldini olish",
-              "2-5 mg/m³",
-              "Haftasiga 1-2 marta"
-            ],
-            [
-              "O'rtacha",
-              "5-10 mg/m³",
-              "Haftasiga 3-4 marta"
-            ],
-            [
-              "Kuchli",
-              "10-20 mg/m³",
-              "Bartaraf etilguncha kunlik"
-            ],
-            [
-              "Kritik",
-              "20-30 mg/m³",
-              "Intensiv kurs 7-14 kun"
-            ]
+            ["Oldini olish", "2-5 mg/m³", "Haftasiga 1-2 marta"],
+            ["O'rtacha", "5-10 mg/m³", "Haftasiga 3-4 marta"],
+            ["Kuchli", "10-20 mg/m³", "Bartaraf etilguncha kunlik"],
+            ["Kritik", "20-30 mg/m³", "Intensiv kurs 7-14 kun"]
           ]
         },
         "humidity": {
@@ -158,32 +114,12 @@
           "title": "Iqtisodiy asoslash",
           "intro": "Omborda ozonlashni joriy etish tez o'zini qoplash bilan investitsiyadir. Mahsulot buzilishidan yo'qotishlarni kamaytirish, kimyoviy davolash xarajatlarini kamaytirish va xodimlarning kasallik ko'rsatkichlarini pasaytirish muhim iqtisodiy ta'sirni shakllantiradi.",
           "tableCaption": "2000 m³ ombor uchun tipik tejash tuzilishi",
-          "tableHeaders": [
-            "Tejash maqolasi",
-            "Yildagi summa",
-            "ROI dagi ulushi"
-          ],
+          "tableHeaders": ["Tejash maqolasi", "Yildagi summa", "ROI dagi ulushi"],
           "tableRows": [
-            [
-              "Mahsulot buzilishidan yo'qotishlarni kamaytirish",
-              "150 000 — 300 000 ₽",
-              "40-50%"
-            ],
-            [
-              "Kimyoviy davolashda tejash",
-              "50 000 — 80 000 ₽",
-              "15-20%"
-            ],
-            [
-              "Xodimlarning kasalxona listlarini kamaytirish",
-              "30 000 — 60 000 ₽",
-              "10-15%"
-            ],
-            [
-              "Brak va shikoyatlarni kamaytirish",
-              "70 000 — 120 000 ₽",
-              "20-25%"
-            ]
+            ["Mahsulot buzilishidan yo'qotishlarni kamaytirish", "150 000 — 300 000 ₽", "40-50%"],
+            ["Kimyoviy davolashda tejash", "50 000 — 80 000 ₽", "15-20%"],
+            ["Xodimlarning kasalxona listlarini kamaytirish", "30 000 — 60 000 ₽", "10-15%"],
+            ["Brak va shikoyatlarni kamaytirish", "70 000 — 120 000 ₽", "20-25%"]
           ],
           "highlightBox": "ROI: Ombor uchun ozon generatori jarayonlarining tipik o'zini qoplash muddati 6-12 oyni tashkil qiladi. Shu bilan birga, sanoat ozon generatorlarining xizmat muddati minimal xizmat ko'rsatish xarajatlari bilan 5 yildan boshlanadi.",
           "roiLabel": "ROI:",

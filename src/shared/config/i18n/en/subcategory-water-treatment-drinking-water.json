@@ -23,11 +23,7 @@
         "disinfectionRate": "99.99%",
         "phRange": "6.5-8.5"
       },
-      "regulations": [
-        "Drinking water standards",
-        "Bottled water standards",
-        "Water quality norms"
-      ],
+      "regulations": ["Drinking water standards", "Bottled water standards", "Water quality norms"],
       "stats": {
         "disinfection": {
           "value": "99.99%",
@@ -65,11 +61,7 @@
         },
         "comparison": {
           "title": "Water disinfection methods comparison",
-          "headers": [
-            "Parameter",
-            "Ozonation",
-            "Chlorination"
-          ],
+          "headers": ["Parameter", "Ozonation", "Chlorination"],
           "rows": [
             {
               "parameter": "Effectiveness against bacteria",
@@ -116,42 +108,14 @@
         "technicalParams": {
           "title": "Ozonation technical parameters",
           "tableCaption": "Recommended parameters for drinking water",
-          "tableHeaders": [
-            "Parameter",
-            "Value",
-            "Regulatory document"
-          ],
+          "tableHeaders": ["Parameter", "Value", "Regulatory document"],
           "tableData": [
-            [
-              "Ozone dose",
-              "1-3 mg/L",
-              "Depending on water quality"
-            ],
-            [
-              "Residual ozone",
-              "0.1-0.3 mg/L",
-              "Drinking water standards"
-            ],
-            [
-              "Contact time",
-              "4-10 minutes",
-              "At temperature 10-20°C"
-            ],
-            [
-              "Water pH",
-              "6.5-8.5",
-              "Optimal range"
-            ],
-            [
-              "Water temperature",
-              "4-25°C",
-              "Effective range"
-            ],
-            [
-              "Source water turbidity",
-              "< 2 NTU",
-              "Recommendation"
-            ]
+            ["Ozone dose", "1-3 mg/L", "Depending on water quality"],
+            ["Residual ozone", "0.1-0.3 mg/L", "Drinking water standards"],
+            ["Contact time", "4-10 minutes", "At temperature 10-20°C"],
+            ["Water pH", "6.5-8.5", "Optimal range"],
+            ["Water temperature", "4-25°C", "Effective range"],
+            ["Source water turbidity", "< 2 NTU", "Recommendation"]
           ],
           "infoLabel": "Important:",
           "infoText": "Ozone dose of 1-3 mg/L ensures complete water disinfection. At high organic load, the dose is increased to 5 mg/L for oxidation of organic compounds."
@@ -199,43 +163,13 @@
         "effectiveness": {
           "title": "Disinfection effectiveness",
           "tableCaption": "Pathogen inactivation time (CT value, mg×min/L)",
-          "tableHeaders": [
-            "Pathogen",
-            "Ozone",
-            "Chlorine",
-            "UV (mJ/cm²)"
-          ],
+          "tableHeaders": ["Pathogen", "Ozone", "Chlorine", "UV (mJ/cm²)"],
           "tableData": [
-            [
-              "E. coli",
-              "0.02",
-              "0.4",
-              "7"
-            ],
-            [
-              "Poliovirus",
-              "0.3",
-              "1.7",
-              "30"
-            ],
-            [
-              "Rotavirus",
-              "0.4",
-              "3.5",
-              "40"
-            ],
-            [
-              "Giardia (cysts)",
-              "0.6",
-              "50",
-              "80"
-            ],
-            [
-              "Cryptosporidium",
-              "3.0",
-              "> 7200",
-              "12"
-            ]
+            ["E. coli", "0.02", "0.4", "7"],
+            ["Poliovirus", "0.3", "1.7", "30"],
+            ["Rotavirus", "0.4", "3.5", "40"],
+            ["Giardia (cysts)", "0.6", "50", "80"],
+            ["Cryptosporidium", "3.0", "> 7200", "12"]
           ],
           "highlightBox": "Ozone is especially effective against cryptosporidium — parasites causing diarrhea. They are practically resistant to chlorination (requires more than 7200 mg×min/L of chlorine for inactivation), but vulnerable to ozone."
         },
@@ -263,37 +197,13 @@
         "productivity": {
           "title": "Ozonation system productivity",
           "tableCaption": "Recommended equipment for water treatment",
-          "tableHeaders": [
-            "Station capacity",
-            "Ozonator power",
-            "Contact chamber"
-          ],
+          "tableHeaders": ["Station capacity", "Ozonator power", "Contact chamber"],
           "tableData": [
-            [
-              "10 m³/h",
-              "20-30 g/h",
-              "1-2 m³"
-            ],
-            [
-              "50 m³/h",
-              "100-150 g/h",
-              "5-10 m³"
-            ],
-            [
-              "100 m³/h",
-              "200-300 g/h",
-              "10-20 m³"
-            ],
-            [
-              "500 m³/h",
-              "1000-1500 g/h",
-              "50-100 m³"
-            ],
-            [
-              "1000 m³/h",
-              "2000-3000 g/h",
-              "100-200 m³"
-            ]
+            ["10 m³/h", "20-30 g/h", "1-2 m³"],
+            ["50 m³/h", "100-150 g/h", "5-10 m³"],
+            ["100 m³/h", "200-300 g/h", "10-20 m³"],
+            ["500 m³/h", "1000-1500 g/h", "50-100 m³"],
+            ["1000 m³/h", "2000-3000 g/h", "100-200 m³"]
           ]
         },
         "regulations": {

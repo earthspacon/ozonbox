@@ -48,49 +48,13 @@
         "regimes": {
           "title": "Ozonation regimes for different cheese types",
           "tableCaption": "Recommended treatment regimes for cheese ripening chambers",
-          "tableHeaders": [
-            "Cheese type",
-            "Concentration",
-            "Treatment time",
-            "Temperature",
-            "Efficiency"
-          ],
+          "tableHeaders": ["Cheese type", "Concentration", "Treatment time", "Temperature", "Efficiency"],
           "tableRows": [
-            [
-              "Hard cheeses",
-              "2-4 mg/m³",
-              "2 hours",
-              "+10...+12°C",
-              "95-99%"
-            ],
-            [
-              "Soft cheeses",
-              "3-6 mg/m³",
-              "1.5 hours",
-              "+8...+10°C",
-              "94-98%"
-            ],
-            [
-              "Semi-hard cheeses",
-              "2-4 mg/m³",
-              "1.5-2 hours",
-              "+10...+12°C",
-              "95-98%"
-            ],
-            [
-              "Brine cheeses",
-              "2-3 mg/m³",
-              "1 hour",
-              "+6...+8°C",
-              "94-97%"
-            ],
-            [
-              "Mold-ripened cheeses",
-              "1-2 mg/m³",
-              "30 minutes",
-              "+8...+10°C",
-              "90-95%"
-            ]
+            ["Hard cheeses", "2-4 mg/m³", "2 hours", "+10...+12°C", "95-99%"],
+            ["Soft cheeses", "3-6 mg/m³", "1.5 hours", "+8...+10°C", "94-98%"],
+            ["Semi-hard cheeses", "2-4 mg/m³", "1.5-2 hours", "+10...+12°C", "95-98%"],
+            ["Brine cheeses", "2-3 mg/m³", "1 hour", "+6...+8°C", "94-97%"],
+            ["Mold-ripened cheeses", "1-2 mg/m³", "30 minutes", "+8...+10°C", "90-95%"]
           ],
           "warningLabel": "Important for noble mold cheeses:",
           "warningText": "For cheeses like Camembert, Brie, and Roquefort, a gentle ozonation regime (1-2 mg/m³, 30 minutes) is required to control unwanted mold without damaging the cultured mold."
@@ -110,52 +74,18 @@
           "title": "Effect of ozone on the product",
           "paragraph": "Research shows that ozone suppresses microflora growth on cheese surfaces while preserving their organoleptic properties — taste, aroma, texture, and color. The bactericidal effect is particularly pronounced under conditions of high humidity (70-90%) and moderate temperatures (+8...+14°C), typical of ripening chambers.",
           "tableCaption": "Cheese ripening conditions and ozonation parameters",
-          "tableHeaders": [
-            "Parameter",
-            "Hard cheeses",
-            "Soft cheeses",
-            "Optimum for ozone"
-          ],
+          "tableHeaders": ["Parameter", "Hard cheeses", "Soft cheeses", "Optimum for ozone"],
           "tableRows": [
-            [
-              "Temperature",
-              "+10...+14°C",
-              "+8...+12°C",
-              "+8...+14°C"
-            ],
-            [
-              "Humidity",
-              "80-90%",
-              "85-95%",
-              "70-90%"
-            ],
-            [
-              "Ripening time",
-              "2-12 months",
-              "2-6 weeks",
-              "Any"
-            ],
-            [
-              "O₃ concentration",
-              "2-4 mg/m³",
-              "3-6 mg/m³",
-              "2-6 mg/m³"
-            ],
-            [
-              "Frequency",
-              "Every 2-3 days",
-              "Daily",
-              "By schedule"
-            ]
+            ["Temperature", "+10...+14°C", "+8...+12°C", "+8...+14°C"],
+            ["Humidity", "80-90%", "85-95%", "70-90%"],
+            ["Ripening time", "2-12 months", "2-6 weeks", "Any"],
+            ["O₃ concentration", "2-4 mg/m³", "3-6 mg/m³", "2-6 mg/m³"],
+            ["Frequency", "Every 2-3 days", "Daily", "By schedule"]
           ]
         },
         "comparison": {
           "title": "Comparison of mold control methods for cheeses",
-          "headers": [
-            "Parameter",
-            "Ozonation",
-            "Wax/paraffin coating"
-          ],
+          "headers": ["Parameter", "Ozonation", "Wax/paraffin coating"],
           "rows": [
             {
               "parameter": "Mold protection",
@@ -193,37 +123,13 @@
           "title": "Ripening chamber treatment",
           "paragraph": "For stationary ripening chambers, wall-mounted or ducted ozonators with automatic control are recommended. Ozone is distributed evenly throughout the chamber volume, penetrating hard-to-reach areas including racks and shelves.",
           "tableCaption": "Example treatment regime for cheese ripening chamber (50 m³ volume)",
-          "tableHeaders": [
-            "Parameter",
-            "Value",
-            "Note"
-          ],
+          "tableHeaders": ["Parameter", "Value", "Note"],
           "tableRows": [
-            [
-              "Ozonator capacity",
-              "2-3 g/hour",
-              "1 g/hour per 15-20 m³"
-            ],
-            [
-              "Ozone concentration",
-              "3-4 mg/m³",
-              "For hard cheeses"
-            ],
-            [
-              "Operating time",
-              "1.5-2 hours",
-              "Daily or every other day"
-            ],
-            [
-              "Chamber humidity",
-              "85-90%",
-              "Optimum for ozone"
-            ],
-            [
-              "Efficiency",
-              "95-99%",
-              "Mold destruction"
-            ]
+            ["Ozonator capacity", "2-3 g/hour", "1 g/hour per 15-20 m³"],
+            ["Ozone concentration", "3-4 mg/m³", "For hard cheeses"],
+            ["Operating time", "1.5-2 hours", "Daily or every other day"],
+            ["Chamber humidity", "85-90%", "Optimum for ozone"],
+            ["Efficiency", "95-99%", "Mold destruction"]
           ],
           "successText": "Regular ozonation of ripening chambers (1-2 times per day for 1.5-2 hours) allows eliminating manual cheese wiping and reducing chamber maintenance labor costs by 70-80%."
         },

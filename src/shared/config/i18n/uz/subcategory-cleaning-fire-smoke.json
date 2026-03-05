@@ -88,48 +88,19 @@
             "title": "Muhim:",
             "text": "Ozon fizik ravishda kulilarni olib tasha olmaydi — u faqat hidni yo'q qiladi. Mexanik tozalash ozonlashdan oldin majbur. Shuningdek, ozon zarar ko'lgan materialni tiklama olmaydi — yongan yuzalar tamirlashni talab qiladi."
           },
-          "tableHeaders": [
-            "Zarar ko'rish darajasi",
-            "Konsentratsiya",
-            "Siklasning vaqti",
-            "Siklalar soni"
-          ],
+          "tableHeaders": ["Zarar ko'rish darajasi", "Konsentratsiya", "Siklasning vaqti", "Siklalar soni"],
           "tableCaption": "Tavsiya etilgan yong'indan keyin ozonlash parametrlari",
           "tableData": [
-            [
-              "Yengil tutun",
-              "20-40 mg/m³",
-              "4-8 soat",
-              "1"
-            ],
-            [
-              "O'rta tutun",
-              "40-60 mg/m³",
-              "12-24 soat",
-              "1-2"
-            ],
-            [
-              "Og'ir tutun",
-              "60-80 mg/m³",
-              "24-48 soat",
-              "2-3"
-            ],
-            [
-              "Juda og'ir",
-              "80+ mg/m³",
-              "48-72 soat",
-              "3+"
-            ]
+            ["Yengil tutun", "20-40 mg/m³", "4-8 soat", "1"],
+            ["O'rta tutun", "40-60 mg/m³", "12-24 soat", "1-2"],
+            ["Og'ir tutun", "60-80 mg/m³", "24-48 soat", "2-3"],
+            ["Juda og'ir", "80+ mg/m³", "48-72 soat", "3+"]
           ]
         },
         "comparison": {
           "title": "Yong'in tutun hidini olib tashlash usullarini solishtirish",
           "tableTitle": "Ozonlash vs boshqa usullar",
-          "headers": [
-            "Mezon",
-            "Ozonlash",
-            "Asosiy remont"
-          ],
+          "headers": ["Mezon", "Ozonlash", "Asosiy remont"],
           "rows": [
             {
               "parameter": "Xarajat",
@@ -202,43 +173,15 @@
         "economic": {
           "title": "Iqtisodiy ta'sir",
           "text": "Ozonlash yong'indan keyin tiklanish xarajatlarida sezilarli tejashni imkon beradi:",
-          "tableHeaders": [
-            "Xarajat maddasi",
-            "Ozonlash bilan",
-            "Ozonlashsiz"
-          ],
+          "tableHeaders": ["Xarajat maddasi", "Ozonlash bilan", "Ozonlashsiz"],
           "tableCaption": "Tiklanish xarajatlarini solishtirish (60 m² apartament uchun misol)",
           "tableData": [
-            [
-              "Tugatishni olib tashlash",
-              "—",
-              "$500"
-            ],
-            [
-              "Yangi tugatish",
-              "—",
-              "$2,000"
-            ],
-            [
-              "Mebelni tozalash",
-              "$150",
-              "$150"
-            ],
-            [
-              "Ozonlash",
-              "$200",
-              "—"
-            ],
-            [
-              "Yangi mebel (almashtirish)",
-              "—",
-              "$1,500"
-            ],
-            [
-              "JAMI",
-              "$350",
-              "$4,150"
-            ]
+            ["Tugatishni olib tashlash", "—", "$500"],
+            ["Yangi tugatish", "—", "$2,000"],
+            ["Mebelni tozalash", "$150", "$150"],
+            ["Ozonlash", "$200", "—"],
+            ["Yangi mebel (almashtirish)", "—", "$1,500"],
+            ["JAMI", "$350", "$4,150"]
           ]
         }
       }

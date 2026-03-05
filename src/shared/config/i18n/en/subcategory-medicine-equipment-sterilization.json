@@ -62,37 +62,12 @@
           "text": "Endoscopes are complex devices with narrow channels, optics and electronics. Their sterilization is a special task that ozone solves effectively.",
           "table": {
             "caption": "Ozone sterilization parameters for endoscopes",
-            "headers": [
-              "Endoscope type",
-              "Ozone concentration",
-              "Treatment time",
-              "Features"
-            ],
+            "headers": ["Endoscope type", "Ozone concentration", "Treatment time", "Features"],
             "rows": [
-              [
-                "Gastroscopes",
-                "40-60 ppm",
-                "30-40 min",
-                "Channel purging with ozone"
-              ],
-              [
-                "Colonoscopes",
-                "40-60 ppm",
-                "40-50 min",
-                "Increased channel length"
-              ],
-              [
-                "Bronchoscopes",
-                "50-70 ppm",
-                "35-45 min",
-                "Thin channels, delicate optics"
-              ],
-              [
-                "Laparoscopes",
-                "30-50 ppm",
-                "25-35 min",
-                "Compact design"
-              ]
+              ["Gastroscopes", "40-60 ppm", "30-40 min", "Channel purging with ozone"],
+              ["Colonoscopes", "40-60 ppm", "40-50 min", "Increased channel length"],
+              ["Bronchoscopes", "50-70 ppm", "35-45 min", "Thin channels, delicate optics"],
+              ["Laparoscopes", "30-50 ppm", "25-35 min", "Compact design"]
             ]
           },
           "highlight": "Ozone penetrates channels with diameter from 1 mm, ensuring sterilization of areas inaccessible to liquid disinfectants. This is critical for preventing nosocomial infections."
@@ -144,11 +119,7 @@
         "comparison": {
           "title": "Sterilization method comparison",
           "tableTitle": "Ozone vs traditional methods",
-          "headers": [
-            "Parameter",
-            "Ozone",
-            "Autoclave/Ethylene oxide"
-          ],
+          "headers": ["Parameter", "Ozone", "Autoclave/Ethylene oxide"],
           "rows": [
             {
               "parameter": "Treatment temperature",

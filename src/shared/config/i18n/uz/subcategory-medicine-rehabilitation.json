@@ -15,28 +15,28 @@
         "Suvdagi xlor miqyorini kamaytirish",
         "Reabilitatsiyaga integratsiyalashgan yondashuv"
       ],
-      "stats": {
-        "stat1": {
+      "stats": [
+        {
           "value": "100+",
           "label": "Ko'rsatmalar",
           "description": "Ozonoterapiya qo'llash uchun"
         },
-        "stat2": {
+        {
           "value": "70%",
           "label": "Kam xlor",
           "description": "Ozonlash bilan basseynlarda"
         },
-        "stat3": {
+        {
           "value": "99,9%",
           "label": "Patogenlar",
           "description": "Suvda yo'q qilinadi"
         },
-        "stat4": {
+        {
           "value": "Qulaylik",
           "label": "Bemorlar",
           "description": "Xlor hidisiz yumshoq suv"
         }
-      },
+      ],
       "sections": {
         "intro": {
           "text": "Reabilitatsiya markazlari va sanatoriyalar noyob talablarga ega: bir tomondan, yuqori sanitariya standartlarini saqlash kerak, ikkinchi tomondan — bemorlarning tiklanishi uchun qulay muhit yaratish kerak. Ozon ikkala vazifani ham hal qiladi.",
@@ -73,37 +73,13 @@
           "text": "Ko'rsatmalar va bemor holatiga qarab turli xil ozonoterapiya usullari qo'llaniladi:",
           "table": {
             "caption": "Reabilitatsiyada ozonoterapiya usullari",
-            "headers": [
-              "Usul",
-              "Ko'rsatmalar",
-              "Davolash kursi"
-            ],
+            "headers": ["Usul", "Ko'rsatmalar", "Davolash kursi"],
             "rows": [
-              [
-                "Ozon vannalari",
-                "Artrit, artroz, varikoz, tsellyulit",
-                "10-15 protsedura"
-              ],
-              [
-                "Teri ostiga in'ektsiyalar",
-                "Bog'lanish og'rig'i, miofatsial sindrom",
-                "5-10 protsedura"
-              ],
-              [
-                "Avtogemoterapiya (BAXT)",
-                "Immunitet tanqisligi, surunkali charchoq, diabet",
-                "8-12 protsedura"
-              ],
-              [
-                "Rektal insufflyatsiyalar",
-                "Kolit, disbioz, prostatit",
-                "10-15 protsedura"
-              ],
-              [
-                "Vena ichiga infuziyalar",
-                "Ishemiya, trofik yaralar, sepsis",
-                "5-8 protsedura"
-              ]
+              ["Ozon vannalari", "Artrit, artroz, varikoz, tsellyulit", "10-15 protsedura"],
+              ["Teri ostiga in'ektsiyalar", "Bog'lanish og'rig'i, miofatsial sindrom", "5-10 protsedura"],
+              ["Avtogemoterapiya (BAXT)", "Immunitet tanqisligi, surunkali charchoq, diabet", "8-12 protsedura"],
+              ["Rektal insufflyatsiyalar", "Kolit, disbioz, prostatit", "10-15 protsedura"],
+              ["Vena ichiga infuziyalar", "Ishemiya, trofik yaralar, sepsis", "5-8 protsedura"]
             ]
           }
         },
@@ -142,27 +118,11 @@
           ],
           "table": {
             "caption": "Basseynlarni ozonlash parametrlari",
-            "headers": [
-              "Parametr",
-              "Ozon + xlor",
-              "Faqat xlor"
-            ],
+            "headers": ["Parametr", "Ozon + xlor", "Faqat xlor"],
             "rows": [
-              [
-                "Xlor konsentratsiyasi",
-                "0,3-0,5 mg/l",
-                "1,0-1,5 mg/l"
-              ],
-              [
-                "Bog'langan xlor (xloraminlar)",
-                "<0,2 mg/l",
-                "1,0 mg/l gacha"
-              ],
-              [
-                "Suvning shaffofligi",
-                "Kristall aniq",
-                "Yaxshi"
-              ]
+              ["Xlor konsentratsiyasi", "0,3-0,5 mg/l", "1,0-1,5 mg/l"],
+              ["Bog'langan xlor (xloraminlar)", "<0,2 mg/l", "1,0 mg/l gacha"],
+              ["Suvning shaffofligi", "Kristall aniq", "Yaxshi"]
             ]
           }
         },

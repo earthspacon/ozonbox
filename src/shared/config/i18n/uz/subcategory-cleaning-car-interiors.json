@@ -83,50 +83,15 @@
         },
         "modes": {
           "title": "Turli vazifalar uchun tedavi rejimlar",
-          "tableHeaders": [
-            "Ifloslanish turi",
-            "Konsentratsiya",
-            "Vaqti",
-            "Xususiyatlari"
-          ],
+          "tableHeaders": ["Ifloslanish turi", "Konsentratsiya", "Vaqti", "Xususiyatlari"],
           "tableCaption": "Tavsiya etilgan avtomobil ichini ozonlash parametrlari",
           "tableData": [
-            [
-              "Yengil hidlar",
-              "10-20 mg/m³",
-              "20 min",
-              "Oldini oluvchi tozalash"
-            ],
-            [
-              "Tutun (yengil)",
-              "20-30 mg/m³",
-              "30 min",
-              "Tutun ichkiliylini yo'qotgan keyin"
-            ],
-            [
-              "Tutun (kuchli)",
-              "30-40 mg/m³",
-              "45-60 min",
-              "Muntazam tutun ichkiliyli avtomobil"
-            ],
-            [
-              "Hayvon hidlari",
-              "30-40 mg/m³",
-              "40-60 min",
-              "Qayta aylantirilish bilan"
-            ],
-            [
-              "Suv to'kish keyin",
-              "40-60 mg/m³",
-              "60 min",
-              "Ichini quriturggandan keyin"
-            ],
-            [
-              "Konditsioner dezinfektsiyasi",
-              "20-30 mg/m³",
-              "30 min",
-              "Faqat qayta aylantirilish"
-            ]
+            ["Yengil hidlar", "10-20 mg/m³", "20 min", "Oldini oluvchi tozalash"],
+            ["Tutun (yengil)", "20-30 mg/m³", "30 min", "Tutun ichkiliylini yo'qotgan keyin"],
+            ["Tutun (kuchli)", "30-40 mg/m³", "45-60 min", "Muntazam tutun ichkiliyli avtomobil"],
+            ["Hayvon hidlari", "30-40 mg/m³", "40-60 min", "Qayta aylantirilish bilan"],
+            ["Suv to'kish keyin", "40-60 mg/m³", "60 min", "Ichini quriturggandan keyin"],
+            ["Konditsioner dezinfektsiyasi", "20-30 mg/m³", "30 min", "Faqat qayta aylantirilish"]
           ]
         },
         "service": {
@@ -165,48 +130,20 @@
             "Nom riski — hid shikoyatlari reytingni pasaytiradi",
             "Muntazamlik — xizmat shartnomasini imkoniyligi"
           ],
-          "tableHeaders": [
-            "Flot turi",
-            "Tavsiya etilgan chastotasi",
-            "Maqsadi"
-          ],
+          "tableHeaders": ["Flot turi", "Tavsiya etilgan chastotasi", "Maqsadi"],
           "tableCaption": "Tavsiya etilgan ozonlash chastotasi",
           "tableData": [
-            [
-              "Avtomobil ijarashi",
-              "Haftaliga bir marta",
-              "Hid to'planishni oldini olish"
-            ],
-            [
-              "Iqtisodiy taksi",
-              "Har 2 hafta",
-              "Ichidagi toz qilish"
-            ],
-            [
-              "Biznes/qulaylik taksi",
-              "Haftaliga bir marta",
-              "Yuqori sifat standardi"
-            ],
-            [
-              "Ijaradagi avtomobillar",
-              "Har bir mijozdan keyin",
-              "Keyingi ijaraga tayyorlash"
-            ],
-            [
-              "Korporativ transport",
-              "Oyiga bir marta",
-              "Oldini oluvchi tozalash"
-            ]
+            ["Avtomobil ijarashi", "Haftaliga bir marta", "Hid to'planishni oldini olish"],
+            ["Iqtisodiy taksi", "Har 2 hafta", "Ichidagi toz qilish"],
+            ["Biznes/qulaylik taksi", "Haftaliga bir marta", "Yuqori sifat standardi"],
+            ["Ijaradagi avtomobillar", "Har bir mijozdan keyin", "Keyingi ijaraga tayyorlash"],
+            ["Korporativ transport", "Oyiga bir marta", "Oldini oluvchi tozalash"]
           ]
         },
         "comparison": {
           "title": "Alternativ usullar bilan solishtirish",
           "tableTitle": "Ozonlash vs kimyoviy havo toza qilish spreylar",
-          "headers": [
-            "Parametr",
-            "Ozonlash",
-            "Spreylar/deodorantlar"
-          ],
+          "headers": ["Parametr", "Ozonlash", "Spreylar/deodorantlar"],
           "rows": [
             {
               "parameter": "Ishlash printsipi",
@@ -246,38 +183,14 @@
             "title": "Muhim:",
             "text": "Teri ichidagi ozonlashdan keyin, terisini konditsioner bilan tozalash tavsiya etiladi. Ozon natural terini biroz quritishi mumkin, lekin to'g'ri konsentratsiyalarda bu kritik emas."
           },
-          "tableHeaders": [
-            "Ichidagi turi",
-            "Xususiyatlari",
-            "Tavsiyalar"
-          ],
+          "tableHeaders": ["Ichidagi turi", "Xususiyatlari", "Tavsiyalar"],
           "tableCaption": "To'shimma turiga qarab tavsiyalar",
           "tableData": [
-            [
-              "Mato",
-              "Hidlarni yaxshi so'radi",
-              "Ishlov berish vaqtini 20% ga oshiring"
-            ],
-            [
-              "Teri",
-              "Kam so'rilish, olib tashlash osonroq",
-              "Standart rejimi"
-            ],
-            [
-              "Sintetik teri",
-              "Natural teriyga o'xshash",
-              "Standart rejimi"
-            ],
-            [
-              "Alcantara",
-              "Mikroshua, yaxshi so'radi",
-              "Mato ichidek"
-            ],
-            [
-              "Birlashtirilgan",
-              "Turli xil materiallar",
-              "Mato elementlariga e'tibor qaratilishi"
-            ]
+            ["Mato", "Hidlarni yaxshi so'radi", "Ishlov berish vaqtini 20% ga oshiring"],
+            ["Teri", "Kam so'rilish, olib tashlash osonroq", "Standart rejimi"],
+            ["Sintetik teri", "Natural teriyga o'xshash", "Standart rejimi"],
+            ["Alcantara", "Mikroshua, yaxshi so'radi", "Mato ichidek"],
+            ["Birlashtirilgan", "Turli xil materiallar", "Mato elementlariga e'tibor qaratilishi"]
           ]
         }
       }

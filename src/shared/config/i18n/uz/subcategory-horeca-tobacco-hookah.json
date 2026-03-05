@@ -76,31 +76,11 @@
         },
         "modes": {
           "title": "Ishlov berish rejimlari",
-          "tableHeaders": [
-            "Rejim",
-            "Vaqt",
-            "Chastotasi",
-            "Natija"
-          ],
+          "tableHeaders": ["Rejim", "Vaqt", "Chastotasi", "Natija"],
           "tableData": [
-            [
-              "Kunlik oldini olish",
-              "60 daqiqa",
-              "Har kecha",
-              "Yangilikiini saqlash"
-            ],
-            [
-              "Shoshqaloq kechdan keyin",
-              "90-120 daqiqa",
-              "Kerak bo'lganda",
-              "Chuqur tozalash"
-            ],
-            [
-              "Eskilashgan hidi",
-              "2-3 soat",
-              "Ketma-ket 3-5 kun",
-              "To'liq yo'q qilish"
-            ]
+            ["Kunlik oldini olish", "60 daqiqa", "Har kecha", "Yangilikiini saqlash"],
+            ["Shoshqaloq kechdan keyin", "90-120 daqiqa", "Kerak bo'lganda", "Chuqur tozalash"],
+            ["Eskilashgan hidi", "2-3 soat", "Ketma-ket 3-5 kun", "To'liq yo'q qilish"]
           ]
         }
       }

@@ -28,10 +28,7 @@
         "iron": "2Fe²⁺ + O₃ + H₂O → 2Fe³⁺ + O₂ + 2OH⁻ → Fe(OH)₃↓",
         "manganese": "Mn²⁺ + O₃ + H₂O → MnO₂↓ + 2H⁺ + O₂"
       },
-      "regulations": [
-        "Ichimlik suvi standartlari",
-        "Suv sifat me'yorlari"
-      ],
+      "regulations": ["Ichimlik suvi standartlari", "Suv sifat me'yorlari"],
       "stats": {
         "ozoneForIron": {
           "value": "0,43",
@@ -63,11 +60,7 @@
         },
         "comparison": {
           "title": "Temir olib tashlash usullarini solishtirish",
-          "headers": [
-            "Parametr",
-            "Ozonlash",
-            "Aeratsiya + filtratsiya"
-          ],
+          "headers": ["Parametr", "Ozonlash", "Aeratsiya + filtratsiya"],
           "rows": [
             {
               "parameter": "Fe olib tashlash samaradorligi",
@@ -119,31 +112,11 @@
           "description": "Ozon Fe²⁺ ni Fe³⁺ ga oksidlaydi, bu erimaydigan temir gidroksid Fe(OH)₃ hosil qiladi, filtrlash orqali osonlik bilan olib tashlanadi. Reaktsiya pH 6 dan 9 gacha bo'lgan diapazonida yuz beradi.",
           "table": {
             "caption": "Metal oksidlanishi uchun stoixiometrik nisbatlar",
-            "headers": [
-              "Metal",
-              "Nazariy ozon dozasi",
-              "Amaliy ozon dozasi",
-              "Izoh"
-            ],
+            "headers": ["Metal", "Nazariy ozon dozasi", "Amaliy ozon dozasi", "Izoh"],
             "rows": [
-              [
-                "Temir (Fe²⁺)",
-                "0,43 mg O₃ / mg Fe",
-                "1 mg O₃ / mg Fe",
-                "Organik moddalar bilan"
-              ],
-              [
-                "Marganets (Mn²⁺)",
-                "0,87 mg O₃ / mg Mn",
-                "4 mg O₃ / mg Mn",
-                "Organik moddalar bilan"
-              ],
-              [
-                "Vodorod sulfidi (H₂S)",
-                "3,0 mg O₃ / mg H₂S",
-                "3-5 mg O₃ / mg H₂S",
-                "Elementar sulfuriga"
-              ]
+              ["Temir (Fe²⁺)", "0,43 mg O₃ / mg Fe", "1 mg O₃ / mg Fe", "Organik moddalar bilan"],
+              ["Marganets (Mn²⁺)", "0,87 mg O₃ / mg Mn", "4 mg O₃ / mg Mn", "Organik moddalar bilan"],
+              ["Vodorod sulfidi (H₂S)", "3,0 mg O₃ / mg H₂S", "3-5 mg O₃ / mg H₂S", "Elementar sulfuriga"]
             ]
           }
         },
@@ -189,27 +162,11 @@
           "paragraph": "Marganets miqdori 0,5 mg/L dan yuqori bo'lganda, qo'sh ozonlash sxemasi talab qilinishi mumkin: manba suvining birlamchi ozonlashi, filtratsiya, undan so'ng filtratning ikkilamchi ozonlashi. Bu eriydigan permanganat hosil bo'lishini oldini oladi.",
           "table": {
             "caption": "Qo'sh ozonlash natijalari (Ashton, Angliya)",
-            "headers": [
-              "Parametr",
-              "Tozalashdan oldin",
-              "Tozalashdan keyin"
-            ],
+            "headers": ["Parametr", "Tozalashdan oldin", "Tozalashdan keyin"],
             "rows": [
-              [
-                "Marganets, mg/L",
-                "0,5",
-                "0,05"
-              ],
-              [
-                "Rang, daraja",
-                "22",
-                "5"
-              ],
-              [
-                "Loyqalik, NTU",
-                "15",
-                "< 2"
-              ]
+              ["Marganets, mg/L", "0,5", "0,05"],
+              ["Rang, daraja", "22", "5"],
+              ["Loyqalik, NTU", "15", "< 2"]
             ]
           }
         },
@@ -229,37 +186,13 @@
           "title": "Tavsiya etilgan tizim parametrlari",
           "table": {
             "caption": "Unumdorlikka qarab uskunalar tanlash",
-            "headers": [
-              "Unumadorlik, m³/h",
-              "Ozonator quvvati, g/h",
-              "Kontakt kamerasi hajmi, m³"
-            ],
+            "headers": ["Unumadorlik, m³/h", "Ozonator quvvati, g/h", "Kontakt kamerasi hajmi, m³"],
             "rows": [
-              [
-                "1-5",
-                "5-25",
-                "0,2-1"
-              ],
-              [
-                "5-20",
-                "25-100",
-                "1-4"
-              ],
-              [
-                "20-50",
-                "100-250",
-                "4-10"
-              ],
-              [
-                "50-100",
-                "250-500",
-                "10-20"
-              ],
-              [
-                "100-500",
-                "500-2500",
-                "20-100"
-              ]
+              ["1-5", "5-25", "0,2-1"],
+              ["5-20", "25-100", "1-4"],
+              ["20-50", "100-250", "4-10"],
+              ["50-100", "250-500", "10-20"],
+              ["100-500", "500-2500", "20-100"]
             ]
           },
           "noteLabel": "Izoh:",
@@ -290,25 +223,10 @@
           "title": "Normativ talablar",
           "table": {
             "caption": "Standartlarga qarab temir va marganetsning MRC",
-            "headers": [
-              "Metal",
-              "Ichimlik suvi",
-              "Shisha suv",
-              "Xavf sinfi"
-            ],
+            "headers": ["Metal", "Ichimlik suvi", "Shisha suv", "Xavf sinfi"],
             "rows": [
-              [
-                "Temir (Fe)",
-                "0,3 mg/L",
-                "0,3 mg/L",
-                "III"
-              ],
-              [
-                "Marganets (Mn)",
-                "0,1 mg/L",
-                "0,05 mg/L",
-                "III"
-              ]
+              ["Temir (Fe)", "0,3 mg/L", "0,3 mg/L", "III"],
+              ["Marganets (Mn)", "0,1 mg/L", "0,05 mg/L", "III"]
             ]
           },
           "items": [

@@ -50,11 +50,7 @@
         "economicEffects": {
           "title": "Economic effects",
           "comparisonTitle": "Comparison of traditional and ozone washing",
-          "headers": [
-            "Parameter",
-            "Ozone washing",
-            "Traditional"
-          ],
+          "headers": ["Parameter", "Ozone washing", "Traditional"],
           "rows": [
             {
               "parameter": "Water temperature",
@@ -102,31 +98,13 @@
         "process": {
           "title": "Technological process",
           "tableCaption": "Comparison of washing components",
-          "tableHeaders": [
-            "Traditional laundry",
-            "Ozone laundry"
-          ],
+          "tableHeaders": ["Traditional laundry", "Ozone laundry"],
           "tableRows": [
-            [
-              "Hot water",
-              "Cold water"
-            ],
-            [
-              "Alkali",
-              "Ozone"
-            ],
-            [
-              "Detergent",
-              "Detergent (less)"
-            ],
-            [
-              "Acid (neutralization)",
-              "—"
-            ],
-            [
-              "Bleach",
-              "—"
-            ]
+            ["Hot water", "Cold water"],
+            ["Alkali", "Ozone"],
+            ["Detergent", "Detergent (less)"],
+            ["Acid (neutralization)", "—"],
+            ["Bleach", "—"]
           ],
           "text": "Ozone spontaneously decomposes to oxygen and does not require removal unlike traditional chemicals. This allows reducing the number of rinses by 20-40%."
         },
@@ -175,37 +153,13 @@
         },
         "equipment": {
           "title": "Equipment selection",
-          "tableHeaders": [
-            "Laundry type",
-            "Recommended equipment",
-            "Cost"
-          ],
+          "tableHeaders": ["Laundry type", "Recommended equipment", "Cost"],
           "tableRows": [
-            [
-              "Small laundry",
-              "Ozone generator 5 g/h",
-              "from 250,000 ₽"
-            ],
-            [
-              "Hotel laundry",
-              "Ozone generator 10 g/h",
-              "from 320,000 ₽"
-            ],
-            [
-              "Commercial laundry",
-              "Ozone generator 20 g/h",
-              "from 420,000 ₽"
-            ],
-            [
-              "Dry cleaner (700L cabinet)",
-              "Ozone cabinet OZ-1S",
-              "from 420,000 ₽"
-            ],
-            [
-              "Dry cleaner (1400L cabinet)",
-              "Ozone cabinet OZ-2S",
-              "from 500,000 ₽"
-            ]
+            ["Small laundry", "Ozone generator 5 g/h", "from 250,000 ₽"],
+            ["Hotel laundry", "Ozone generator 10 g/h", "from 320,000 ₽"],
+            ["Commercial laundry", "Ozone generator 20 g/h", "from 420,000 ₽"],
+            ["Dry cleaner (700L cabinet)", "Ozone cabinet OZ-1S", "from 420,000 ₽"],
+            ["Dry cleaner (1400L cabinet)", "Ozone cabinet OZ-2S", "from 500,000 ₽"]
           ],
           "highlightTitle": "Important:",
           "highlightText": "Ozone generator capacity calculation depends on contamination volume, water quality and equipment specifications. A pilot project may be required for accurate selection."

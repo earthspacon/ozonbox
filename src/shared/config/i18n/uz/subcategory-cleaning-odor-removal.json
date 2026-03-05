@@ -60,11 +60,7 @@
         "comparison": {
           "title": "Nima uchun ozon boshqa usullardan ko'proq samarador",
           "tableTitle": "Hid olib tashlash usullarini solishtirish",
-          "headers": [
-            "Usul",
-            "Ozonlash",
-            "Spreylar/sorberntlar"
-          ],
+          "headers": ["Usul", "Ozonlash", "Spreylar/sorberntlar"],
           "rows": [
             {
               "parameter": "Ishlash printsipi",
@@ -105,38 +101,14 @@
             "title": "Muhim:",
             "text": "0-5°C da ozon bir necha kun davomida faol qoladi, 50°C da u 20-30 daqiqada parchalanadi. Bu harorat rejimi bilan tedavi intensivligini nazorat qilish imkonini beradi."
           },
-          "tableHeaders": [
-            "Parametr",
-            "Ta'sir",
-            "Tavsiya"
-          ],
+          "tableHeaders": ["Parametr", "Ta'sir", "Tavsiya"],
           "tableCaption": "Tavsiya etilgan ozonlash parametrlari",
           "tableData": [
-            [
-              "Ozon konsentratsiyasi",
-              "Yuqori — tezroq natija",
-              "Vazifaga qarab 10-80 mg/m³"
-            ],
-            [
-              "Harorat",
-              "Pastroq T ozonning yanada barqarorligini anglatadi",
-              "Optimal 15-25°C"
-            ],
-            [
-              "Namlik",
-              "Yuqori namlik parchalanishni tezlashtiradi",
-              "40-60% nisbiy namlik"
-            ],
-            [
-              "Ishlov berish vaqti",
-              "Hid intensivligiga bog'liq",
-              "2 dan 24 soatigacha"
-            ],
-            [
-              "Seal qilish",
-              "Siziqlar konsentratsiyani kamaytiradi",
-              "Oynalar, eshiklar, ventillyatsiyani yoping"
-            ]
+            ["Ozon konsentratsiyasi", "Yuqori — tezroq natija", "Vazifaga qarab 10-80 mg/m³"],
+            ["Harorat", "Pastroq T ozonning yanada barqarorligini anglatadi", "Optimal 15-25°C"],
+            ["Namlik", "Yuqori namlik parchalanishni tezlashtiradi", "40-60% nisbiy namlik"],
+            ["Ishlov berish vaqti", "Hid intensivligiga bog'liq", "2 dan 24 soatigacha"],
+            ["Seal qilish", "Siziqlar konsentratsiyani kamaytiradi", "Oynalar, eshiklar, ventillyatsiyani yoping"]
           ]
         },
         "process": {

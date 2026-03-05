@@ -26,9 +26,7 @@
         "residualChlorine": "0.1-0.3 mg/L",
         "phRange": "7.2-7.6"
       },
-      "regulations": [
-        "Pool water standards"
-      ],
+      "regulations": ["Pool water standards"],
       "stats": {
         "chlorineReduction": {
           "value": "7×",
@@ -60,11 +58,7 @@
       "sections": {
         "comparison": {
           "title": "Benefits of pool water ozonation",
-          "headers": [
-            "Parameter",
-            "Ozone + min. chlorine",
-            "Chlorine only"
-          ],
+          "headers": ["Parameter", "Ozone + min. chlorine", "Chlorine only"],
           "rows": [
             {
               "parameter": "Water smell",
@@ -107,37 +101,13 @@
           "title": "Pool ozonation technology",
           "intro": "Ozone is fed into circulating water after filtration, before returning to the pool basin. Recommended ozone dose for pools is 0.7–0.9 g/m³ of circulating water. Contact time in the contact tank is 6–7 minutes.",
           "tableCaption": "Pool ozonation parameters",
-          "tableHeaders": [
-            "Parameter",
-            "Value",
-            "Note"
-          ],
+          "tableHeaders": ["Parameter", "Value", "Note"],
           "tableData": [
-            [
-              "Ozone dose",
-              "0.7-0.9 g/m³",
-              "Per circulating water volume"
-            ],
-            [
-              "Contact time",
-              "6-7 minutes",
-              "In contact tank"
-            ],
-            [
-              "Residual ozone at outlet",
-              "< 0.1 mg/L",
-              "Before entering basin"
-            ],
-            [
-              "Residual chlorine",
-              "0.1-0.3 mg/L",
-              "For prolonged effect"
-            ],
-            [
-              "Water pH",
-              "7.2-7.6",
-              "Optimal range"
-            ]
+            ["Ozone dose", "0.7-0.9 g/m³", "Per circulating water volume"],
+            ["Contact time", "6-7 minutes", "In contact tank"],
+            ["Residual ozone at outlet", "< 0.1 mg/L", "Before entering basin"],
+            ["Residual chlorine", "0.1-0.3 mg/L", "For prolonged effect"],
+            ["Water pH", "7.2-7.6", "Optimal range"]
           ],
           "note": "When using ozone with chlorine, chlorine can be kept at 0.1 mg/L instead of the usual 0.7 mg/L. This practically eliminates skin and eye irritation."
         },
@@ -156,42 +126,14 @@
         "poolTypes": {
           "title": "Ozonation for different pool types",
           "tableCaption": "Recommended ozonation systems",
-          "tableHeaders": [
-            "Pool type",
-            "Volume",
-            "Ozonator capacity"
-          ],
+          "tableHeaders": ["Pool type", "Volume", "Ozonator capacity"],
           "tableData": [
-            [
-              "Private pool",
-              "25-60 m³",
-              "2-5 g/h"
-            ],
-            [
-              "Fitness club pool",
-              "100-300 m³",
-              "10-30 g/h"
-            ],
-            [
-              "Hotel pool",
-              "200-500 m³",
-              "20-50 g/h"
-            ],
-            [
-              "Public pool",
-              "500-2000 m³",
-              "50-200 g/h"
-            ],
-            [
-              "Water park",
-              "2000+ m³",
-              "Individual calculation"
-            ],
-            [
-              "SPA, jacuzzi",
-              "2-10 m³",
-              "1-3 g/h"
-            ]
+            ["Private pool", "25-60 m³", "2-5 g/h"],
+            ["Fitness club pool", "100-300 m³", "10-30 g/h"],
+            ["Hotel pool", "200-500 m³", "20-50 g/h"],
+            ["Public pool", "500-2000 m³", "50-200 g/h"],
+            ["Water park", "2000+ m³", "Individual calculation"],
+            ["SPA, jacuzzi", "2-10 m³", "1-3 g/h"]
           ]
         },
         "benefits": {

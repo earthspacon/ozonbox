@@ -82,37 +82,13 @@
           "text": "Siz ijodiy dizayn yaratib, professional xodimlar ishga olib, reklama uchun sarmoya kiritishingiz mumkin — lekin noqulaylik hidi barcha harakatlarni bekor qiladi. Yaxshi joy yomon hid bilanoq qolishi mumkinmi?",
           "table": {
             "caption": "Havo sifatining biznes ko'rsatkich ta'siriga",
-            "headers": [
-              "Ko'rsatkich",
-              "Ozonlashsiz",
-              "Ozonlash bilan"
-            ],
+            "headers": ["Ko'rsatkich", "Ozonlashsiz", "Ozonlash bilan"],
             "rows": [
-              [
-                "O'rtacha turiş vaqti",
-                "45 daqiqa",
-                "55-60 daqiqa"
-              ],
-              [
-                "Takroriy tashrif",
-                "35%",
-                "52%"
-              ],
-              [
-                "Sharhda \"Toza\" reytingi",
-                "3,8/5",
-                "4,6/5"
-              ],
-              [
-                "Hid shikoyatlari",
-                "12% mehmon",
-                "<1% mehmon"
-              ],
-              [
-                "O'rtacha hisob",
-                "Bazaviy",
-                "+15-20%"
-              ]
+              ["O'rtacha turiş vaqti", "45 daqiqa", "55-60 daqiqa"],
+              ["Takroriy tashrif", "35%", "52%"],
+              ["Sharhda \"Toza\" reytingi", "3,8/5", "4,6/5"],
+              ["Hid shikoyatlari", "12% mehmon", "<1% mehmon"],
+              ["O'rtacha hisob", "Bazaviy", "+15-20%"]
             ]
           }
         },
@@ -149,37 +125,12 @@
           "text": "Ozonator sig'imi tanlash: xona hajmi uchun soatiga 25 m³ dan 1 g.",
           "table": {
             "caption": "Har xil joylarda hisoblash misollari",
-            "headers": [
-              "Joy turi",
-              "Maydoni",
-              "Hajmi",
-              "Ozonator"
-            ],
+            "headers": ["Joy turi", "Maydoni", "Hajmi", "Ozonator"],
             "rows": [
-              [
-                "Kichik kofexona",
-                "40-60 m²",
-                "120-180 m³",
-                "5-7 g/soat"
-              ],
-              [
-                "O'rta restoran",
-                "100-200 m²",
-                "300-600 m³",
-                "12-24 g/soat"
-              ],
-              [
-                "Katta restoran/banket zali",
-                "300+ m²",
-                "900+ m³",
-                "36+ g/soat yoki bir nechta qurilma"
-              ],
-              [
-                "Nargila zali",
-                "50-100 m²",
-                "150-300 m³",
-                "6-12 g/soat (kunlik ishlov berish)"
-              ]
+              ["Kichik kofexona", "40-60 m²", "120-180 m³", "5-7 g/soat"],
+              ["O'rta restoran", "100-200 m²", "300-600 m³", "12-24 g/soat"],
+              ["Katta restoran/banket zali", "300+ m²", "900+ m³", "36+ g/soat yoki bir nechta qurilma"],
+              ["Nargila zali", "50-100 m²", "150-300 m³", "6-12 g/soat (kunlik ishlov berish)"]
             ]
           }
         },
