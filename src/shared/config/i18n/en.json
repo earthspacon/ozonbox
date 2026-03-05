@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "OZONOXY — Ozonation and disinfection for business",
-    "description": "Professional ozonation systems for poultry farming, food industry, HoReCa and medicine. 300 times more effective than chlorine. Free consultation."
+    "description": "Professional ozonation systems for poultry farming, food industry, hotels and restaurants, and medicine. 300 times more effective than chlorine. Free consultation."
   },
   "nav": {
     "technology": "Technology",
@@ -71,7 +71,7 @@
       "text": "Storage of vegetables, fruits and products"
     },
     "horeca": {
-      "title": "HoReCa",
+      "title": "Hotels and restaurants",
       "text": "Hotels, restaurants, cafes"
     },
     "medical": {
@@ -324,7 +324,7 @@
     "pageDescription": "Ozonation applications in poultry farming, food industry, hotels, medicine and water treatment. Specific results and benefits.",
     "header": {
       "title": "Application areas",
-      "subtitle": "Ozonation is successfully used in poultry farming, food industry, HoReCa, medicine and water treatment"
+      "subtitle": "Ozonation is successfully used in poultry farming, food industry, hotels and restaurants, medicine and water treatment"
     },
     "poultry": {
       "title": "Poultry farming",
@@ -367,7 +367,7 @@
       }
     },
     "horeca": {
-      "title": "HoReCa",
+      "title": "Hotels and restaurants",
       "description": "Hotels, restaurants and cafes use ozonation to create a perfectly clean environment and eliminate odors.",
       "rooms": {
         "title": "Rooms and halls",
@@ -499,7 +499,7 @@
       "industryOptions": {
         "poultry": "Poultry farming",
         "food": "Food industry",
-        "horeca": "HoReCa (hotels, restaurants)",
+        "horeca": "Hotels and restaurants",
         "medical": "Medical facilities",
         "water": "Water treatment",
         "other": "Other"

@@ -5,7 +5,7 @@
   },
   "meta": {
     "title": "OZONOXY — Biznes uchun ozonlash va dezinfeksiya",
-    "description": "Parrandachilik, oziq-ovqat sanoati, HoReCa va tibbiyot uchun professional ozonlash tizimlari. Xlordan 300 marta samaraliroq. Konsultatsiya bepul."
+    "description": "Parrandachilik, oziq-ovqat sanoati, mehmonxonalar va restoranlar va tibbiyot uchun professional ozonlash tizimlari. Xlordan 300 marta samaraliroq. Konsultatsiya bepul."
   },
   "nav": {
     "technology": "Texnologiya",
@@ -121,7 +121,7 @@
       "text": "Sabzavot, meva va mahsulotlarni saqlash"
     },
     "horeca": {
-      "title": "HoReCa",
+      "title": "Mehmonxonalar va restoranlar",
       "text": "Mehmonxonalar, restoranlar, kafelar"
     },
     "medical": {
@@ -146,7 +146,7 @@
         "text": "Oziq-ovqat sanoatida ozonlash saqlash muddatini uzaytiradi, mahsulot xavfsizligini va sanitariya standartlariga mosligini kimyoviy qo'shimchalarsiz ta'minlaydi."
       },
       "horeca": {
-        "title": "HoReCa",
+        "title": "Mehmonxonalar va restoranlar",
         "text": "Mehmonxonalar, restoranlar va kafelar qulay muhit yaratish, hidlarni yo'q qilish va yuqori gigiyena standartlarini ta'minlash uchun ozonlashdan foydalanadi."
       },
       "water-treatment": {
@@ -468,7 +468,7 @@
       "industryOptions": {
         "poultry": "Parrandachilik",
         "food": "Oziq-ovqat sanoati",
-        "horeca": "HoReCa (mehmonxonalar, restoranlar)",
+        "horeca": "Mehmonxonalar va restoranlar",
         "medical": "Tibbiy muassasalar",
         "water": "Suv tozalash",
         "other": "Boshqa"

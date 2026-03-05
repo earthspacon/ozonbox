@@ -1,6 +1,6 @@
 {
   "pageTitle": "Ozonation Applications — OZONOXY",
-  "pageDescription": "All areas of ozone technology application: medicine, agriculture, food production, HoReCa, water treatment and more.",
+  "pageDescription": "All areas of ozone technology application: medicine, agriculture, food production, hotels and restaurants, water treatment and more.",
   "subcategoriesCount": "{count, plural, one {# article} other {# articles}}",
   "viewAll": "All application areas",
   "viewAllShort": "View all",
@@ -21,7 +21,7 @@
       "description": "Ozonation in the food industry extends shelf life, ensures product safety and compliance with sanitary standards without the use of chemical additives."
     },
     "horeca": {
-      "title": "HoReCa",
+      "title": "Hotels and restaurants",
       "description": "Hotels, restaurants and cafes use ozonation to create a comfortable environment, eliminate odors and ensure high hygiene standards."
     },
     "water-treatment": {

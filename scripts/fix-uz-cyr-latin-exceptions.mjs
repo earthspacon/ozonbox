@@ -22,7 +22,6 @@ const REPLACEMENTS = [
   ['ГСҲ', 'GSH'],
   ['Cу-Ал', 'Cu-Al'],
   ['CФА', 'CFA'],
-  ['ҲоРеCа', 'HoReCa'],
   ['Фаcебоок', 'Facebook'],
   ['ҲАCCП', 'HACCP'],
   ['ҲВАC', 'HVAC'],
