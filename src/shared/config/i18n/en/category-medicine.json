@@ -10,6 +10,10 @@
       "title": "Medical equipment sterilization",
       "shortDesc": "Sterilization of instruments and devices"
     },
+    "pharmaceuticals": {
+      "title": "Pharmaceuticals",
+      "shortDesc": "Ozone in pharma manufacturing: cleanrooms, water, packaging and logistics"
+    },
     "dental": {
       "title": "Dental clinics",
       "shortDesc": "Sterilization of offices and instruments"

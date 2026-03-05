@@ -1,0 +1,219 @@
+{
+  "title": "Medicine",
+  "description": "Ozone therapy and ozonation in medicine: sterilization of operating rooms and wards, disinfection of medical equipment, treatment of dental offices, rehabilitation centers and ambulances.",
+  "subcategories": {
+    "pharmaceuticals": {
+      "title": "Pharmaceuticals",
+      "shortDesc": "Ozone in pharma manufacturing: cleanrooms, water, packaging and logistics",
+      "heroText": "Ozone helps pharmaceutical plants maintain sterility without chlorine-bearing residues: sanitization of purified-water systems, clean rooms, HVAC, packaging, cotton and cellulose materials, as well as quarantine and warehouse areas.",
+      "content": "In pharmaceuticals, ozone is valued less as a universal synthesis reagent and more as a GMP-support technology for clean air, stable water quality, clean surfaces, and controlled logistics. Because it decomposes to oxygen, it is attractive where manufacturers want strong oxidation without introducing unnecessary chemical residues into the process.\n\nIts most practical value appears in purified-water systems, night-time sanitization of clean rooms and HVAC, treatment of containers and packaging, and low-temperature bleaching and disinfection of cotton-based materials used in medical products. Another important area is quarantine rooms, warehouses, and transport, where microbial load and odor control matter between batches.",
+      "benefits": [
+        "Sanitary protection of purified-water systems and distribution loops",
+        "Night-time treatment of clean rooms, HVAC, and hard-to-reach areas",
+        "Sterilization of containers, packaging, and contact surfaces",
+        "Low-temperature bleaching and disinfection of cotton-based materials",
+        "Lower cross-contamination risk in logistics and quarantine zones",
+        "No chlorine-bearing residues after the cycle"
+      ],
+      "stats": {
+        "waterLoops": {
+          "value": "40+ years",
+          "label": "Pharma practice",
+          "description": "Ozone use in pharmaceutical water storage and distribution systems"
+        },
+        "bleaching": {
+          "value": "35 °C",
+          "label": "Gas-phase bleaching",
+          "description": "Low-temperature mode for cellulose materials"
+        },
+        "cleanrooms": {
+          "value": "1-2 h",
+          "label": "Night sanitization",
+          "description": "Typical cycle for empty rooms and HVAC sections"
+        },
+        "residues": {
+          "value": "0",
+          "label": "Chlorine residues",
+          "description": "Ozone decomposes to oxygen after treatment"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "A pharmaceutical plant operates in conditions where any microbiological failure can directly affect batch release, validation status, and complaint risk. That is why ozone is usually considered part of a broader biosafety chain: from incoming transport and container handling to sanitary protection of purified water, clean rooms, and finished-goods storage.",
+          "paragraph2": "It is important to define ozone's real role correctly. In most projects it is not used to replace every other sterilization method, but as a complementary tool for zones that benefit from penetrating gas treatment, low residue risk, biofilm control in water loops, and gentler processing of cotton or cellulose materials compared with chlorine-based approaches."
+        },
+        "focus": {
+          "title": "Where ozone is strongest:",
+          "text": "its best value is in sanitizing water and air systems, clean rooms, packaging, quarantine areas, and return logistics. For any specific facility, cycle parameters must always be validated against the product, room volume, material compatibility, and EHS/GMP requirements."
+        },
+        "applications": {
+          "title": "Key ozone tasks in a pharmaceutical facility",
+          "items": [
+            "Sanitization of purified-water tanks, storage vessels, and distribution loops, including ambient WFI systems",
+            "Disinfection of clean rooms and HVAC outside working shifts, including hard-to-reach zones",
+            "Treatment of incoming containers, pallets, packaging areas, and product-contact-adjacent surfaces",
+            "Reduction of bioload and odor in quarantine rooms, warehouses, and return logistics",
+            "Bleaching and simultaneous disinfection of cotton, gauze, wool, and other cellulose-based materials",
+            "Oxidation of difficult organic contaminants and support for wastewater treatment"
+          ]
+        },
+        "chain": {
+          "title": "Technology chain: from gate to warehouse",
+          "intro": "When a plant is viewed as one GMP system, ozone fits naturally into several sequential points:",
+          "steps": [
+            {
+              "title": "Transport and entry quarantine",
+              "description": "Trucks, insulated vans, wheel zones, pallets, and return containers can pass through a dedicated gas or ozonated-water sanitation cycle before being allowed into cleaner production areas."
+            },
+            {
+              "title": "Incoming containers and packaging",
+              "description": "Drums, canisters, intermediate containers, caps, secondary packaging, and process carts are treated before entering the manufacturing contour so dust, spores, and external microflora are not brought inside."
+            },
+            {
+              "title": "Purified water and distribution loops",
+              "description": "Ozone is applied to protect cold water storage and distribution systems where biofilm control, lower microbial load, and less reliance on hot sanitization are critical."
+            },
+            {
+              "title": "Clean rooms, HVAC, and equipment",
+              "description": "After a shift, empty rooms, ventilation branches, airlocks, chambers, and selected equipment can be placed into an ozone cycle followed by degassing and confirmation of a safe residual level."
+            },
+            {
+              "title": "Cotton, gauze, and cellulose materials",
+              "description": "For medical cotton wool, dressings, and some packaging-related materials, ozone is attractive as a low-temperature gas-phase oxidant that can bleach and reduce microbial contamination at the same time."
+            },
+            {
+              "title": "Warehouse and finished-product release",
+              "description": "Ozone is also used in quarantine rooms, return logistics, suspect-batch areas, cold rooms, and warehouses where odor control, mold prevention, and lower background microbiology matter between cycles."
+            }
+          ]
+        },
+        "bleaching": {
+          "title": "Bleaching cotton and cellulose materials: ozone vs chlorine and peroxide",
+          "intro": "For medical cotton wool, gauze, bandages, and other cellulose-based materials, aqueous peroxide processes have long been the standard reference, while chlorine-based chemistries were used historically. Research into gas-phase ozone bleaching shows a lower-temperature process with simultaneous disinfection, which is especially relevant for medical-use materials.",
+          "tableCaption": "Comparison of cotton bleaching and sanitation approaches",
+          "tableHeaders": ["Parameter", "Ozone", "Chlorine / hypochlorite", "Hydrogen peroxide"],
+          "tableData": [
+            [
+              "Process medium",
+              "Gas phase, low water consumption",
+              "Aqueous, chemically aggressive",
+              "Usually aqueous bath"
+            ],
+            [
+              "Typical temperature mode",
+              "Around 35 °C",
+              "Often low, but with aggressive chemistry",
+              "Up to ~98 °C in the standard route"
+            ],
+            [
+              "Residues after cycle",
+              "Decomposes to oxygen",
+              "Risk of chlorine-bearing residues and by-products",
+              "Requires residue control and rinsing"
+            ],
+            [
+              "Impact on material",
+              "Gentle when the process is validated",
+              "Risk of damage and yellowing if the regime is wrong",
+              "Reliable, but more energy- and water-intensive"
+            ],
+            [
+              "Additional effect",
+              "Bleaching plus biocidal action",
+              "Bleaching without residue advantages",
+              "Bleaching, sometimes with a separate disinfection step"
+            ]
+          ],
+          "note": "For pharmaceutical materials, whiteness is only part of the requirement. Strength retention, microbiological purity, and process control matter just as much. The 2024 Materials study showed that gas-phase ozone-based schemes can combine bleaching and disinfection at 35 °C with minimal water use."
+        },
+        "logistics": {
+          "title": "Drug transport and quarantine measures",
+          "intro": "In pharmaceuticals, logistics is not only about temperature and traceability. It is also about the sanitary status of vehicles, returnable packaging, and buffer rooms. Ozone is useful here as a barrier technology between batches and risk zones.",
+          "items": [
+            "Treatment of vehicle bodies, wheel zones, pallets, and returnable containers before entry to the site",
+            "Sanitization of vans, containers, and cold-room spaces between supply cycles",
+            "Quarantine rooms for returns, suspect lots, or externally contaminated packaging",
+            "Degassing and verification of a safe residual level before personnel re-entry",
+            "Use together with normal washing, HEPA ventilation, and standard SOPs rather than as a replacement for the whole sanitation program"
+          ]
+        },
+        "examples": {
+          "title": "What is publicly known about industrial use",
+          "intro": "Public GMP case studies that disclose the pharmaceutical company name are limited because many projects are described anonymously by equipment suppliers. Even so, the open data is enough to show where ozone has already matured into accepted practice.",
+          "tableCaption": "Public examples and industry signals",
+          "tableHeaders": ["Organization / example", "What has been implemented or published", "Why it matters"],
+          "tableData": [
+            [
+              "Sterile manufacturer in Rancho Cucamonga (Xylem / Evoqua case)",
+              "Ozone disinfection for a purified-water system serving injectable, intranasal, and inhalation product lines",
+              "Reduced downtime, better parameter verification, and improved employee safety"
+            ],
+            [
+              "ISPE Good Practice Guide, 2024",
+              "Second edition of the industry guide on ozone sanitization of pharmaceutical water storage and distribution systems",
+              "A clear sign that the technology has entered mature engineering and GMP practice"
+            ],
+            [
+              "Novartis RLT / ISPE industry experts",
+              "Large-pharma experts participate in shaping best practices for ozone sanitization",
+              "This indirectly confirms serious interest from advanced pharma sites in ozone-based water-loop control"
+            ],
+            [
+              "GMP solution suppliers: Xylem, Ozonia, Nuvonic, Mettler Toledo",
+              "Ozone generation, residual O3 control, monitoring, and integration into water loops and sanitization cycles",
+              "The technology is supported by a full industrial equipment ecosystem"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "Why pharmaceutical plants consider ozone",
+          "items": [
+            {
+              "title": "No chlorine chemistry in the process boundary",
+              "description": "After the cycle, ozone decomposes to oxygen, which makes it attractive where chlorine-bearing residues and harsh chemical odors are undesirable."
+            },
+            {
+              "title": "Penetrating gas treatment",
+              "description": "Ozone reaches ventilation branches, seams, voids, packaging gaps, and other areas that are difficult to sanitize fully with manual wiping alone."
+            },
+            {
+              "title": "Support for water systems",
+              "description": "For purified water and ambient WFI, it offers a way to manage biofilm and microflora without depending only on hot sanitization."
+            },
+            {
+              "title": "Gentler work with cellulose materials",
+              "description": "For materials such as cotton wool, gauze, and bandages, ozone offers an interesting combination of bleaching and disinfection in a milder temperature regime."
+            }
+          ]
+        }
+      },
+      "sourcesTitle": "Sources",
+      "sources": [
+        {
+          "title": "Xylem / Evoqua: Ozone Disinfection & Sanitization Upgrade for Pharmaceutical Facility",
+          "url": "https://www.xylem.com/en-us/resources/case-studies/ozone-disinfection--sanitization-upgrade-for-pharmaceutical-facility/"
+        },
+        {
+          "title": "Ozcon Environmental: The Use of Ozone in Pharmaceutical Plants",
+          "url": "https://www.ozcon.co.uk/the-use-of-ozone-in-pharmaceutical-plants/"
+        },
+        {
+          "title": "Materials (2024): Environmentally Friendly Bleaching Process of the Cellulose Fibres Materials Using Ozone and Hydrogen Peroxide in the Gas Phase",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10972073/"
+        },
+        {
+          "title": "ISPE Good Practice Guide: Ozone Sanitization of Pharmaceutical Water Storage and Distribution Systems",
+          "url": "https://ispe.org/publications/guidance-documents/ispe-good-practice-guide-ozone-sanitization-pharmaceutical-water-storage-and-distribution"
+        },
+        {
+          "title": "Mettler Toledo: Ozone Sanitization - Your Clean, Green, and Compliant Solution",
+          "url": "https://www.mt.com/us/en/home/library/stories/process-analytics/ozone-sanitization-pharmaceutical-waters.html"
+        }
+      ],
+      "cta": {
+        "title": "Need an ozone scheme for a pharmaceutical site?",
+        "text": "We can help design a solution for purified water, clean rooms, containers, logistics, and quarantine areas"
+      }
+    }
+  }
+}

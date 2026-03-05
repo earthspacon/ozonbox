@@ -26,6 +26,10 @@ export const APPLICATION_CATEGORIES: ApplicationCategory[] = [
         id: 'equipment-sterilization',
         image: 'https://images.pexels.com/photos/13697729/pexels-photo-13697729.jpeg',
       },
+      {
+        id: 'pharmaceuticals',
+        image: 'https://images.unsplash.com/photo-1583911860205-72f8ac8ddcbe?w=800&q=80',
+      },
       { id: 'dental', image: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80' },
       { id: 'rehabilitation', image: 'https://images.pexels.com/photos/25596776/pexels-photo-25596776.jpeg' },
       { id: 'ambulances', image: 'https://images.unsplash.com/photo-1587745416684-47953f16f02f?w=800&q=80' },

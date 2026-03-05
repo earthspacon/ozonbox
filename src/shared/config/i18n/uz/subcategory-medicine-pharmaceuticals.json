@@ -1,0 +1,219 @@
+{
+  "title": "Tibbiyot",
+  "description": "Tibbiyotda ozon terapiyasi va ozonlash: operatsiya xonalari va palatalarni sterilizatsiya qilish, tibbiy uskunalarni dezinfeksiya qilish, stomatologiya kabinetlarini, reabilitatsiya markazlarini va tez yordam mashinalarini davolash.",
+  "subcategories": {
+    "pharmaceuticals": {
+      "title": "Farmatsevtika",
+      "shortDesc": "Farm ishlab chiqarishda ozon: toza zonalar, suv, qadoqlash va logistika",
+      "heroText": "Ozon farmatsevtika korxonalariga xlor qoldiqlarisiz sterillikni ushlashga yordam beradi: tozalangan suv tizimlari, toza xonalar, shamollatish va iqlim nazorati tizimlari, qadoqlash, paxta va selluloza materiallari, shuningdek karantin va ombor zonalarini sanitariya ishlovi uchun.",
+      "content": "Farmatsevtikada ozon ko'proq dori sintezi uchun universal reaktiv sifatida emas, balki GMP muhitini qo'llab-quvvatlovchi texnologiya sifatida qadrlanadi: toza havo, barqaror suv sifati, toza yuzalar va nazorat qilinadigan logistika. U kislorodga parchalangani uchun jarayonga ortiqcha kimyoviy qoldiq kiritmasdan kuchli oksidlovchi ta'sir kerak bo'lgan joylarda ayniqsa qiziqarli hisoblanadi.\n\nEng katta amaliy foyda tozalangan suv tizimlarida, toza xonalar hamda shamollatish va iqlim nazorati tizimlarini tungi sanitariya ishlovidan o'tkazishda, tara va qadoqlashni qayta ishlashda, shuningdek tibbiy mahsulotlarda ishlatiladigan paxta asosidagi materiallarni past haroratda oqartirish va dezinfeksiya qilishda ko'rinadi. Yana bir muhim yo'nalish — karantin xonalari, omborlar va transport, bu yerda partiyalar orasida mikrob yuklamasi va hidlarni nazorat qilish muhim.",
+      "benefits": [
+        "Tozalangan suv tizimlari va taqsimlash halqalarini sanitariya himoyasi",
+        "Toza xonalar, shamollatish tizimlari va yetib borish qiyin joylarni tungi ishlovdan o'tkazish",
+        "Tara, qadoqlash va kontakt yuzalarini steril ishlovdan o'tkazish",
+        "Paxta asosidagi materiallarni past haroratda Oqartirish va dezinfeksiya qilish",
+        "Logistika va karantin zonalarida o'zaro ifloslanish xavfini kamaytirish",
+        "Sikl tugagach xlorli qoldiq qolmasligi"
+      ],
+      "stats": {
+        "waterLoops": {
+          "value": "40+ yil",
+          "label": "Farm amaliyoti",
+          "description": "Farm suvi saqlash va taqsimlash tizimlarida ozondan foydalanish"
+        },
+        "bleaching": {
+          "value": "35 °C",
+          "label": "Gaz fazasida oqartirish",
+          "description": "Selluloza materiallari uchun past haroratli rejim"
+        },
+        "cleanrooms": {
+          "value": "1-2 soat",
+          "label": "Tungi sanitariya",
+          "description": "Bo'sh xonalar va shamollatish tizimlari uchun odatiy sikl"
+        },
+        "residues": {
+          "value": "0",
+          "label": "Xlor qoldig'i",
+          "description": "Ishlovdan keyin ozon kislorodga parchalanadi"
+        }
+      },
+      "sections": {
+        "intro": {
+          "paragraph1": "Farmatsevtika zavodi shunday sharoitda ishlaydiki, har qanday mikrobiologik xato seriyani chiqarishga, validatsiya holatiga va mijoz shikoyatlariga bevosita ta'sir qiladi. Shu sababli ozon ko'pincha kengroq biologik xavfsizlik zanjirining bir qismi sifatida ko'riladi: kiruvchi transport va tara bilan ishlashdan tortib tozalangan suv tizimlari, toza xonalar va tayyor mahsulot omborlarigacha.",
+          "paragraph2": "Ozonning haqiqiy rolini to'g'ri tushunish muhim. Ko'p loyihalarda u boshqa barcha sterilizatsiya usullarini almashtirish uchun emas, balki gazning chuqur kirib borishi, kam qoldiq riski, suv halqalarida biofilmni nazorat qilish va paxta yoki selluloza materiallariga xlorli sxemalarga qaraganda yumshoqroq ishlov berish kerak bo'lgan joylarda qo'shimcha vosita sifatida qo'llanadi."
+        },
+        "focus": {
+          "title": "Ozon ayniqsa qayerda foydali:",
+          "text": "eng katta natija suv va havo tizimlari, toza xonalar, qadoqlash, karantin zonalari va qaytuvchi logistika sanitariyasida olinadi. Har bir obyekt uchun sikl parametrlari mahsulot, xona hajmi, material mosligi hamda mehnat va sanoat xavfsizligi talablari va GMP bo'yicha albatta validatsiya qilinadi."
+        },
+        "applications": {
+          "title": "Farm korxonasida ozonning asosiy vazifalari",
+          "items": [
+            "Tozalangan suv baklari, saqlash idishlari va taqsimlash halqalarini, shu jumladan oddiy haroratdagi WFI tizimlarini sanitariya ishlovidan o'tkazish",
+            "Toza xonalar hamda shamollatish va iqlim nazorati tizimlarini ish smenasidan tashqari vaqtda, jumladan yetib borish qiyin zonalarda dezinfeksiya qilish",
+            "Kiruvchi tara, palletlar, qadoqlash zonalari va mahsulotga yaqin yuzalarni ishlovdan o'tkazish",
+            "Karantin xonalari, omborlar va qaytuvchi logistika hududlarida mikrob yuklamasi va hidlarni kamaytirish",
+            "Paxta, doka, paxta momig'i va boshqa selluloza asosidagi materiallarni Oqartirish hamda bir vaqtning o'zida dezinfeksiya qilish",
+            "Murakkab organik iflosliklarni oksidlash va oqova suvlarni tozalashga yordam berish"
+          ]
+        },
+        "chain": {
+          "title": "Texnologik zanjir: kirish nazoratidan omborgacha",
+          "intro": "Korxona bitta GMP tizimi sifatida ko'rilganda, ozon bir necha ketma-ket nuqtalarga mantiqan ulanadi:",
+          "steps": [
+            {
+              "title": "Transport va kirishdagi karantin",
+              "description": "Yuk mashinalari, izotermik furgonlar, g'ildirak zonalari, palletlar va qaytuvchi tara tozaroq ishlab chiqarish hududiga kiritilishidan oldin alohida gaz yoki ozonlangan suv siklidan o'tishi mumkin."
+            },
+            {
+              "title": "Kiruvchi tara va qadoqlash",
+              "description": "Bochkalar, kanistrlar, oraliq konteynerlar, qopqoqlar, ikkilamchi qadoqlash va texnologik aravachalar ishlab chiqarish konturiga kirishdan oldin ishlovdan o'tkaziladi, shunda chang, sporalar va tashqi mikroflora ichkariga kirmaydi."
+            },
+            {
+              "title": "Tozalangan suv va taqsimlash halqalari",
+              "description": "Ozon sovuq suvni saqlash va taqsimlash tizimlarini himoya qilish uchun ishlatiladi, bu yerda biofilmni nazorat qilish, mikrob yuklamasini kamaytirish va faqat issiq sanitariyaga bog'lanib qolmaslik juda muhim."
+            },
+            {
+              "title": "Toza xonalar, shamollatish tizimlari va uskunalar",
+              "description": "Smena tugagach bo'sh xonalar, ventilyatsiya tarmoqlari, shlyuz xonalari, kameralar va ayrim uskunalarni ozon sikliga o'tkazib, keyin degazatsiya va xavfsiz qoldiq darajasini tasdiqlash mumkin."
+            },
+            {
+              "title": "Paxta, doka va selluloza materiallari",
+              "description": "Tibbiy paxta momig'i, bog'lov materiallari va ayrim qadoqlashga yaqin materiallar uchun ozon past haroratli gaz fazali oksidlovchi sifatida qiziq, chunki u oqartirish va mikrob ifloslanishini kamaytirishni bir vaqtda bajaradi."
+            },
+            {
+              "title": "Ombor va tayyor mahsulot chiqarilishi",
+              "description": "Ozon karantin xonalari, qaytuvchi logistika, shubhali partiyalar hududi, sovuq xonalar va omborlarda qo'llanadi, bu yerda sikllar orasida hidlarni nazorat qilish, mog'orning oldini olish va fon mikrobiologiyasini pasaytirish muhim."
+            }
+          ]
+        },
+        "bleaching": {
+          "title": "Paxta va selluloza materiallarini oqartirish: ozon, xlor va peroksid taqqoslanishi",
+          "intro": "Tibbiy paxta momig'i, doka, bint va boshqa selluloza asosidagi materiallar uchun uzoq vaqt davomida suvli peroksid sxemalari asosiy standart bo'lib kelgan, xlorli kimyo esa tarixan ishlatilgan. Gaz fazasida ozon bilan oqartirish bo'yicha tadqiqotlar pastroq haroratda bir vaqtda dezinfeksiya beradigan jarayonni ko'rsatadi, bu esa tibbiy materiallar uchun ayniqsa muhim.",
+          "tableCaption": "Paxta oqartirish va sanitariya yondashuvlarini solishtirish",
+          "tableHeaders": ["Ko'rsatkich", "Ozon", "Xlor / gipoxlorit", "Vodorod peroksid"],
+          "tableData": [
+            [
+              "Jarayon muhiti",
+              "Gaz fazasi, suv sarfi kam",
+              "Suvli, kimyoviy jihatdan agressiv",
+              "Ko'pincha suvli vanna"
+            ],
+            [
+              "Odatiy harorat",
+              "Taxminan 35 °C",
+              "Ko'pincha past, lekin agressiv kimyo bilan",
+              "Standart sxemada ~98 °C gacha"
+            ],
+            [
+              "Sikldan keyingi qoldiq",
+              "Kislorodga parchalanadi",
+              "Xlorli qoldiq va yon mahsulotlar xavfi bor",
+              "Qoldiq nazorati va chayish talab etiladi"
+            ],
+            [
+              "Materialga ta'sir",
+              "Jarayon validatsiya qilinsa yumshoqroq",
+              "Rejim xato bo'lsa shikastlanish va sarg'ayish xavfi bor",
+              "Ishonchli, lekin energiya va suv sarfi ko'proq"
+            ],
+            [
+              "Qo'shimcha effekt",
+              "Oqartirish va biotsid ta'sir birga",
+              "Oqartirish bor, lekin qoldiq afzalligi yo'q",
+              "Oqartirish, ba'zan alohida dezinfeksiya bosqichi bilan"
+            ]
+          ],
+          "note": "Farm materiallari uchun faqat oq rang emas, balki mustahkamlik, mikrobiologik tozalik va jarayon boshqaruvi ham muhim. Materials jurnalidagi 2024-yilgi ish gaz fazasidagi ozonli sxemalar 35 °C da va minimal suv sarfi bilan oqartirish hamda dezinfeksiyani birlashtira olishini ko'rsatdi."
+        },
+        "logistics": {
+          "title": "Dori transporti va karantin choralari",
+          "intro": "Farmatsevtikada logistika faqat harorat va kuzatuvchanlik emas. U transport vositalari, qaytuvchi qadoqlash va bufer xonalarining sanitariya holati bilan ham bog'liq. Ozon bu yerda partiyalar va xavf zonalari orasidagi to'siq texnologiya sifatida foydali.",
+          "items": [
+            "Avtomobil kuzovi, g'ildirak zonasi, palletlar va qaytuvchi tarani maydonga kiritishdan oldin ishlovdan o'tkazish",
+            "Ta'minot sikllari orasida furgonlar, konteynerlar va sovuq xonalarni sanitariya ishlovidan o'tkazish",
+            "Qaytgan mahsulotlar, shubhali lotlar yoki tashqi tomondan ifloslangan qadoqlar uchun karantin xonalari",
+            "Xodimlar qayta kirishidan oldin degazatsiya va xavfsiz qoldiq darajasini tekshirish",
+            "Ozonni oddiy yuvish, HEPA filtrlash tizimlari va standart reglamentlar bilan birga qo'llash, butun sanitariya dasturini almashtirish uchun emas"
+          ]
+        },
+        "examples": {
+          "title": "Sanoat miqyosida qo'llanishi haqida nimalar ma'lum",
+          "intro": "Farm kompaniyasi nomi ochiq ko'rsatilgan GMP loyihalari kam, chunki ko'plab yechimlar uskunalar yetkazib beruvchilari tomonidan anonim tarzda tasvirlanadi. Shunga qaramay, ochiq ma'lumotlarning o'zi ham ozon qayerlarda yetuk amaliyotga aylanganini ko'rsatadi.",
+          "tableCaption": "Ochiq misollar va sanoat signallari",
+          "tableHeaders": ["Tashkilot / misol", "Nima joriy qilingan yoki e'lon qilingan", "Amaliy ahamiyati"],
+          "tableData": [
+            [
+              "Rancho Cucamonga dagi steril ishlab chiqaruvchi (Xylem / Evoqua misoli)",
+              "In'eksion, intranazal va inhalatsion mahsulot liniyalari uchun tozalangan suv tizimida ozon dezinfeksiyasi",
+              "To'xtab turish vaqtini kamaytirish, parametrlarni yaxshiroq tasdiqlash va xodimlar xavfsizligini oshirish"
+            ],
+            [
+              "ISPE Good Practice Guide, 2024",
+              "Farm suvini saqlash va taqsimlash tizimlarini ozon bilan sanitariya ishlovi bo'yicha sanoat qo'llanmasining ikkinchi nashri",
+              "Texnologiya yetuk muhandislik va GMP amaliyotiga kirganini ko'rsatadi"
+            ],
+            [
+              "Novartis RLT / ISPE sanoat ekspertlari",
+              "Yirik farma ekspertlari ozon sanitariyasi bo'yicha eng yaxshi amaliyotlarni shakllantirishda qatnashmoqda",
+              "Bu katta farm obyektlarida ozonli suv halqalari nazoratiga jiddiy qiziqish borligini bilvosita tasdiqlaydi"
+            ],
+            [
+              "GMP yechimlari yetkazib beruvchilari: Xylem, Ozonia, Nuvonic, Mettler Toledo",
+              "Ozon generatsiyasi, qoldiq ozon nazorati, monitoring va suv halqalari hamda sanitariya sikllariga integratsiya",
+              "Texnologiya to'liq sanoat uskunalari ekotizimi bilan qo'llab-quvvatlanadi"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "Nega farm korxonalari ozonni ko'rib chiqadi",
+          "items": [
+            {
+              "title": "Jarayon chegarasida xlorli kimyo yo'q",
+              "description": "Sikl tugagach ozon kislorodga parchalanadi, shuning uchun xlorli qoldiq va o'tkir kimyoviy hidlar istalmagan joylarda u juda qulay."
+            },
+            {
+              "title": "Chuqur kirib boradigan gaz ishlovi",
+              "description": "Ozon ventilyatsiya tarmoqlari, choklar, bo'shliqlar, qadoq orasidagi tirqishlar va faqat qo'lda artish bilan to'liq ishlov berish qiyin bo'lgan joylargacha yetib boradi."
+            },
+            {
+              "title": "Suv tizimlarini qo'llab-quvvatlash",
+              "description": "Tozalangan suv va oddiy haroratdagi WFI uchun u faqat issiq sanitariyaga suyanib qolmasdan biofilm va mikroflorani boshqarish imkonini beradi."
+            },
+            {
+              "title": "Selluloza materiallari bilan yumshoqroq ishlash",
+              "description": "Paxta momig'i, doka va bint kabi materiallarda ozon pastroq harorat rejimida oqartirish va dezinfeksiyaning qiziqarli kombinatsiyasini beradi."
+            }
+          ]
+        }
+      },
+      "sourcesTitle": "Manbalar",
+      "sources": [
+        {
+          "title": "Xylem / Evoqua: Ozone Disinfection & Sanitization Upgrade for Pharmaceutical Facility",
+          "url": "https://www.xylem.com/en-us/resources/case-studies/ozone-disinfection--sanitization-upgrade-for-pharmaceutical-facility/"
+        },
+        {
+          "title": "Ozcon Environmental: The Use of Ozone in Pharmaceutical Plants",
+          "url": "https://www.ozcon.co.uk/the-use-of-ozone-in-pharmaceutical-plants/"
+        },
+        {
+          "title": "Materials (2024): Environmentally Friendly Bleaching Process of the Cellulose Fibres Materials Using Ozone and Hydrogen Peroxide in the Gas Phase",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10972073/"
+        },
+        {
+          "title": "ISPE Good Practice Guide: Ozone Sanitization of Pharmaceutical Water Storage and Distribution Systems",
+          "url": "https://ispe.org/publications/guidance-documents/ispe-good-practice-guide-ozone-sanitization-pharmaceutical-water-storage-and-distribution"
+        },
+        {
+          "title": "Mettler Toledo: Ozone Sanitization - Your Clean, Green, and Compliant Solution",
+          "url": "https://www.mt.com/us/en/home/library/stories/process-analytics/ozone-sanitization-pharmaceutical-waters.html"
+        }
+      ],
+      "cta": {
+        "title": "Farm maydoni uchun ozon sxemasi kerakmi?",
+        "text": "Tozalangan suv, toza xonalar, tara, logistika va karantin zonalari uchun mos yechimni tanlashda yordam beramiz"
+      }
+    }
+  }
+}

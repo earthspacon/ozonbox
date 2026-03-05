@@ -10,6 +10,10 @@
       "title": "Tibbiy uskunalarni sterilizatsiya qilish",
       "shortDesc": "Asboblar va qurilmalarni sterilizatsiya qilish"
     },
+    "pharmaceuticals": {
+      "title": "Farmatsevtika",
+      "shortDesc": "Farm ishlab chiqarishda ozon: toza zonalar, suv, qadoqlash va logistika"
+    },
     "dental": {
       "title": "Stomatologiya klinikalar",
       "shortDesc": "Kabinetlar va asboblarni sterilizatsiya qilish"
