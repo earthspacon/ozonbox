@@ -145,6 +145,21 @@ export function MeatSausagesPage({ staticData, lang }: MeatSausagesPageProps) {
             }
           />
 
+          {data?.sections?.giants && (
+            <ArticleSection title={data.sections.giants.title}>
+              <Paragraph>{(data.sections.giants as { paragraph1?: string }).paragraph1}</Paragraph>
+              <Paragraph>{(data.sections.giants as { paragraph2?: string }).paragraph2}</Paragraph>
+              <BulletList items={(data.sections.giants as { items?: string[] }).items ?? []} />
+            </ArticleSection>
+          )}
+
+          {data?.sections?.standards && (
+            <ArticleSection title={data.sections.standards.title}>
+              <Paragraph>{(data.sections.standards as { paragraph?: string }).paragraph}</Paragraph>
+              <BulletList items={(data.sections.standards as { items?: string[] }).items ?? []} />
+            </ArticleSection>
+          )}
+
           <ArticleSection title={data?.sections?.regulations?.title}>
             <Paragraph>{data?.sections?.regulations?.paragraph}</Paragraph>
             <BulletList items={data?.sections?.regulations?.items as string[]} />

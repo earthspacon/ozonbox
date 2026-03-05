@@ -8,7 +8,6 @@ import {
   ArticleHero,
   ArticleSection,
   BulletList,
-  ComparisonTable,
   CTASection,
   DataTable,
   FeatureCard,

@@ -4,7 +4,7 @@
   "subcategories": {
     "meat-sausages": {
       "title": "Go'sht va kolbasa",
-      "shortDesc": "Go'sht saqlash va kolbasa pishish kameralari",
+      "shortDesc": "Yirik global tarmoqlar (McDonald's, Burger King va boshqalar) go'sht saqlash va dezinfeksiya uchun ozondan foydalanadi. Saqlash rejimlari va kolbasa pishish kameralari.",
       "content": "Ozonatsiya go'sht ishlab chiqarish va saqlashda samarali dezinfeksiya usuli hisoblanadi. U sovuq xonalar, kolbasa pishish kameralari va go'sht sirtlarini ishlov berish uchun ishlatiladi, shuning uchun sezgilar xususiyatlari o'zgarishsiz qoladi.\n\nSovuq go'sht saqlash uchun ozonatsiya 8–10 mg/m³ da 4–5 soat davomida har ikki kunning ortig'ida qo'llanilsa, saqlash muddati 2–5 baravar uzayadi. Ozone 1–4°C da karkas sirtidagi mezofil va psikhrofillik mikroflora butunlay yo'q qiladi.\n\nKolbasa pishish kameralari uchun 3–8 mg/m³ har kuni 3 soat ishlov berish tavsiya etiladi. Dezinfeksiya samaradorligi 96–99% bo'lib, ta'm, hid va tekstura saqlanib qoladi.",
       "benefits": [
         "Go'sht saqlash muddatini 2–5 baravar uzaytirish",
@@ -119,6 +119,28 @@
               "value1": "To'liq",
               "value2": "Qo'l ishi"
             }
+          ]
+        },
+        "giants": {
+          "title": "Yirik global kompaniyalarda ozon qo'llanishi",
+          "paragraph1": "Yirik tez ovqat tarmoqlari (McDonald's, Burger King, Subway va shunga o'xshashlar) va yetakchi go'sht qayta ishlash korxonalari butun dunyoda go'sht va parranda saqlash, sovuq xonalar va jihozlarni dezinfeksiya qilish uchun ozonatsiyadan foydalanadi. Ozon sovuq omborlarda, kolbasa pishish kameralarida, kesish va qadoqlash liniyalarida, shuningdek sirtlar va ba'zan suvni tozalashda qo'llaniladi. Bunday kompaniyalar FDA, USDA va HACCP standartlariga amal qiladi, bunda ozon xavfsiz va samarali usul sifatida tan olingan.",
+          "paragraph2": "Ozon bilan ishlov berish mahsulotlarni kameradan chiqarishni talab qilmaydi, ishlamay qolish vaqtini qisqartiradi va kimyoviy qoldiqlardan qochadi — bu xavfsizlik va saqlash muddati bo'yicha qat'iy talablar qo'yadigan tarmoqlar uchun muhim. Go'sht va yarim tayyor mahsulotlar tarmoqida ozonni joriy etish global sanoat ishtirokchilari orasida keng tarqalgan.",
+          "items": [
+            "Sovuq xonalar va omborlar — go'sht va parranda saqlash muddatini uzaytirish",
+            "Kolbasa pishish kameralari — mahsulotlarni bo'shatmasdan ko'plakni bostirish",
+            "Jihozlar va sirtlarni sanitariya — kimyoviy qoldiqlarsiz",
+            "FDA, USDA va HACCP tipidagi tizimlarga muvofiqlik"
+          ]
+        },
+        "standards": {
+          "title": "Go'shtda ozon qo'llash bo'yicha standartlar va me'yorlar",
+          "paragraph": "Go'shtni saqlash va qayta ishlashda ozondan foydalanish majburiy hamda ixtiyoriy me'yorlar bilan tartibga solinadi. AQShda ozon 2001 yildan FDA tomonidan GRAS (Generally Recognized as Safe) sifatida tasdiqlangan va USDA tomonidan go'sht va parranda bilan aloqa uchun ruxsat etilgan (21 CFR § 173.368). Ba'zi mamlakatlarda sovuq omborlar va kolbasa ishlab chiqarishda ozon ishlatilishi rasmiy yo'riqnomalar va sanitariya qoidalarida belgilangan; boshqalarida ixtiyoriy standartlar va jihozlar yetkazib beruvchilari tavsiyalariga muvofiq qo'llaniladi. Umuman, ozon go'sht sanoatida rasman xavfsiz dezinfeksiya vositasi sifatida qabul qilingan.",
+          "items": [
+            "FDA GRAS (AQSh, 2001) — ozon go'sht va parrandani o'z ichiga olgan oziq-ovqatni ishlov berish, saqlash va qayta ishlash uchun ruxsat etilgan",
+            "USDA (AQSh) — GMP kuzatilganda go'sht va parranda bilan aloqada ozon qo'llashga ruxsat beradi",
+            "21 CFR § 173.368 — GMP standartlariga muvofiq gaz va suvli fazada ozon ishlatishga ruxsat",
+            "Sovet/Rossiya yo'riqnomalari (1973, 1977) va SanPiN — sovuq omborlar va kolbasa ishlab chiqarishda ozonatsiya",
+            "Ko'plab mamlakatlarda tarmoq va korporativ standartlar (HACCP, GMP) bo'yicha ixtiyoriy qo'llash"
           ]
         },
         "regulations": {

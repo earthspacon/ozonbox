@@ -4,7 +4,7 @@
   "subcategories": {
     "meat-sausages": {
       "title": "Meat and sausages",
-      "shortDesc": "Meat storage and sausage ripening chambers",
+      "shortDesc": "Major global chains (McDonald's, Burger King, etc.) use ozone for meat storage and disinfection. Storage regimes and sausage ripening chambers.",
       "content": "Ozonation is an effective disinfection method in meat production and storage. It is used to treat cold rooms, sausage ripening chambers and meat surfaces without changing sensory properties.\n\nFor chilled meat storage, ozonation at 8–10 mg/m³ for 4–5 hours every other day extends shelf life 2–5 times. Ozone destroys mesophilic and psychrotrophic microflora on carcass surfaces at 1–4°C.\n\nFor sausage ripening chambers, 3–8 mg/m³ with daily 3-hour treatment is recommended. Disinfection efficiency reaches 96–99% while preserving taste, aroma and texture.",
       "benefits": [
         "2–5 times longer meat shelf life",
@@ -119,6 +119,28 @@
               "value1": "Full",
               "value2": "Manual work"
             }
+          ]
+        },
+        "giants": {
+          "title": "Use of ozone by major global companies",
+          "paragraph1": "Major quick-service restaurant chains (McDonald's, Burger King, Subway and similar) and leading meat processors worldwide use ozonation for meat and poultry storage, cold room and equipment disinfection. Ozone is applied in cold storage facilities, sausage ripening chambers, cutting and packaging lines, and for sanitizing surfaces and sometimes process water. These companies align with FDA, USDA and HACCP standards, where ozone is recognized as a safe and effective method.",
+          "paragraph2": "Ozone treatment allows keeping products in chambers without unloading, reduces downtime and avoids chemical residues — which is critical for chains with strict safety and shelf-life requirements. Adopting ozone in the meat and semi-finished product supply chain is common practice among global industry players.",
+          "items": [
+            "Cold rooms and warehouses — extended shelf life of meat and poultry",
+            "Sausage ripening chambers — mold suppression without unloading products",
+            "Equipment and surface sanitation — no chemical residues",
+            "Compliance with FDA, USDA and HACCP-style systems"
+          ]
+        },
+        "standards": {
+          "title": "Standards and regulations for ozone use in meat",
+          "paragraph": "Use of ozone for meat storage and processing is governed by both mandatory and voluntary norms. In the US, ozone has been approved by the FDA as GRAS (Generally Recognized as Safe) since 2001 and by the USDA for contact with meat and poultry (21 CFR § 173.368). In some countries, ozone use in cold storage and sausage production is set out in official instructions and sanitary codes; in others it is used under voluntary standards and equipment supplier guidelines. Overall, ozone is officially accepted as a safe disinfectant in the meat industry.",
+          "items": [
+            "FDA GRAS (USA, 2001) — ozone permitted for treatment, storage and processing of food, including meat and poultry",
+            "USDA (USA) — allows ozone in contact with meat and poultry when GMP is followed",
+            "21 CFR § 173.368 — approval for ozone use in gaseous and aqueous phases per GMP standards",
+            "Soviet/Russian instructions (1973, 1977) and SanPiN — ozonation of cold storage and sausage production",
+            "Voluntary use under industry and corporate standards (HACCP, GMP) in many countries"
           ]
         },
         "regulations": {
