@@ -1,0 +1,10 @@
+---
+description: Format all changed files with Prettier before finishing
+alwaysApply: true
+---
+
+# Formatting: Prettier
+
+- **Always format** every file you create or edit with Prettier before completing the task.
+- Run Prettier on changed files (e.g. `pnpm exec prettier --write <path>`) or use the project's format script if available.
+- Do not leave formatting to the user; apply Prettier as part of your edits so the codebase stays consistent.

@@ -1,0 +1,13 @@
+---
+description: When editing Uzbek i18n (uz or uz-cyr) follow uzbek-translation-quality skill
+globs: src/shared/config/i18n/uz/**/*.json, src/shared/config/i18n/uz-cyr/**/*.json
+---
+
+# Uzbek translations (uz / uz-cyr)
+
+When editing files under `src/shared/config/i18n/uz/` or `src/shared/config/i18n/uz-cyr/`:
+
+- Follow the **uzbek-translation-quality** skill: natural modern Uzbek, understandable to common readers.
+- For **uz-cyr** use Russian-style Cyrillic (я, ё, ю; Russian spellings for loanwords like дезинфекция, технология).
+- For **uz-cyr** use only Cyrillic; no mixed Latin/Cyrillic except allowed brand names, abbreviations (e.g. FDA, HVAC, SARS-CoV-2), and units.
+- Use `src/shared/config/i18n/ru/` as reference for meaning and structure when refactoring or adding content.

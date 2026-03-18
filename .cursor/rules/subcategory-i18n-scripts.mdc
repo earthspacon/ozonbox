@@ -1,0 +1,18 @@
+---
+description: Use scripts for subcategory i18n split so work is not done in one agent; run trim after extract/update so category JSONs stay small.
+globs:
+alwaysApply: false
+---
+
+# Subcategory i18n: scripts and parallel work
+
+When refactoring subcategory pages to load only their own translations (like article pages):
+
+1. **Prefer scripts** so one agent does not load all category JSONs and consume the whole context:
+   - `node scripts/extract-subcategory-jsons.mjs` — create subcategory-*.json from category-*.json
+   - `node scripts/update-subcategory-pages.mjs` — switch getStaticProps and @pages to getSubcategoryNamespace (add new pairs to PAIRS in script if needed)
+   - `node scripts/trim-category-jsons.mjs` — trim category JSONs to title, description, and subcategories.{id}.{ title, shortDesc } only
+
+2. **After trim**, category JSONs must not contain full subcategory content (sections, stats, etc.); that lives only in subcategory-{category}-{sub}.json.
+
+3. For **parallel agents**: one agent per (categoryId, subcategoryId). Each agent handles one pair (create 4 JSONs + update 2 page files + @pages ns). Follow `.cursor/skills/subcategory-i18n-split/SKILL.md`. Run trim script once after all subcategory work is done.

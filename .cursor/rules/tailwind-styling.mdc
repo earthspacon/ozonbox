@@ -1,0 +1,11 @@
+---
+description: Use Tailwind for all new styling; globals.css is legacy only
+alwaysApply: true
+---
+
+# Styling: Tailwind Only
+
+- **Use Tailwind CSS** for all new styling (components, pages, layout).
+- **Do not add new rules** to `src/styles/globals.css` — treat it as legacy. Only change it when fixing existing global styles or variables that Tailwind depends on.
+- Prefer Tailwind utility classes (`className`) over custom CSS files or CSS modules for new code.
+- When modifying existing components that use global CSS, prefer migrating to Tailwind where practical; otherwise leave legacy styles as-is unless the task explicitly requires changing them.
