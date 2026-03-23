@@ -12,6 +12,7 @@
     "applications": "Applications",
     "articles": "Articles",
     "benefits": "Benefits",
+    "products": "Products",
     "about": "About us",
     "contacts": "Contacts"
   },
@@ -69,6 +70,7 @@
     "subtitle": "300 times more effective than chlorine. No chemicals. No residue. No harm to health. Professional ozonation systems for your business.",
     "learnMore": "Learn more",
     "getConsultation": "Get consultation",
+    "viewProducts": "Our products",
     "stats": {
       "power": "more powerful than chlorine",
       "pathogens": "pathogens destroyed",

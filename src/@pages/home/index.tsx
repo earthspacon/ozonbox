@@ -58,8 +58,8 @@ export function HomePage() {
               <AppLink href="/technology" className="btn btn--white btn--large">
                 {t('hero.learnMore')}
               </AppLink>
-              <AppLink href="/contacts" className="btn btn--primary btn--large">
-                {t('hero.getConsultation')}
+              <AppLink href="/products" className="btn btn--primary btn--large">
+                {t('hero.viewProducts')}
               </AppLink>
             </div>
             <div className="hero__stats">

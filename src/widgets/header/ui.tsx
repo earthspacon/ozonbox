@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 import { useScrolled } from '@/shared/hooks'
 import { useIsLangInRoute } from '@/shared/lib/lang'
 import { AppLink } from '@/shared/ui/app-link'
-import { IconClose, IconMenu, IconPhone } from '@/shared/ui/icons'
+import { IconClose, IconMenu } from '@/shared/ui/icons'
 import { LanguageSwitcher } from '@/shared/ui/language-switcher'
 import { Logo } from '@/shared/ui/logo'
 
@@ -21,6 +21,7 @@ export function Header() {
     : router.asPath.split('?')[0]
 
   const navLinks = [
+    { href: '/products', label: t('nav.products') },
     { href: '/technology', label: t('nav.technology') },
     { href: '/applications', label: t('nav.applications') },
     { href: '/articles', label: t('nav.articles') },
@@ -71,24 +72,12 @@ export function Header() {
           <div className="header__actions">
             <LanguageSwitcher />
 
-            <a href="tel:+998942909977" className="header__phone max-lg:!hidden">
-              <IconPhone className="size-[18px]" />
-              <span className="header__phone-text">{t('header.phone')}</span>
-            </a>
-
             <AppLink href="/contacts" className="btn btn--primary header__cta-btn">
               {t('header.contact')}
             </AppLink>
           </div>
 
           <div className="flex items-center gap-2">
-            <a
-              href="tel:+998942909977"
-              className="btn--primary flex size-11 items-center justify-center rounded-lg lg:hidden"
-            >
-              <IconPhone width={18} height={18} fill="#fff" />
-            </a>
-
             <button className="header__menu-toggle" aria-label="Menu" onClick={toggleMobileMenu}>
               {mobileMenuOpen ? (
                 <IconClose style={{ width: 24, height: 24 }} />

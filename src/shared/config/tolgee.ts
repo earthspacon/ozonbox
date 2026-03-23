@@ -41,6 +41,7 @@ export const DEFAULT_LOCALE = LOCALES.ru.id
 // Available namespaces for translations
 export const NAMESPACES = {
   common: 'common',
+  products: 'products',
   applications: 'applications',
   articles: 'articles',
   // Category-specific namespaces (loaded on demand)

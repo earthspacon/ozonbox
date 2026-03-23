@@ -1,0 +1,32 @@
+{
+  "pageTitle": "Mahsulotlar — OZONOXY",
+  "pageDescription": "Professional dezinfeksiya uchun OZONOXY ozonatorlari. 10 dan 200 g/soat gacha modellar. Narxlar va xususiyatlar.",
+  "hero": {
+    "title": "Bizning mahsulotlar",
+    "subtitle": "Professional OZONOXY ozonatorlari — har qanday biznes uchun ishonchli dezinfeksiya tizimlari"
+  },
+  "standardLine": {
+    "title": "Standart seriya",
+    "subtitle": "Kichik va o'rta biznes uchun ixcham ozonatorlar"
+  },
+  "proLine": {
+    "title": "Professional seriya",
+    "subtitle": "Yirik obyektlar va sanoat uchun kuchli yechimlar"
+  },
+  "card": {
+    "capacity": "Unumdorlik",
+    "price": "Narx",
+    "currency": "so'm",
+    "order": "Buyurtma berish"
+  },
+  "gallery": {
+    "title": "Galereya",
+    "subtitle": "OZONOXY ozonatorlari batafsil"
+  },
+  "cta": {
+    "title": "Buyurtmaga tayyormisiz?",
+    "text": "Maslahat va buyurtma uchun biz bilan bog'laning. Biznesingiz uchun mos modelni tanlashga yordam beramiz.",
+    "order": "Buyurtma berish",
+    "call": "Bizga qo'ng'iroq qiling"
+  }
+}

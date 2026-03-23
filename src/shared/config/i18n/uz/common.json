@@ -12,6 +12,7 @@
     "applications": "Qo'llanilishi",
     "articles": "Maqolalar",
     "benefits": "Afzalliklari",
+    "products": "Mahsulotlar",
     "about": "Kompaniya haqida",
     "contacts": "Aloqa"
   },
@@ -69,6 +70,7 @@
     "subtitle": "Xlordan 300 marta samaraliroq. Kimyosiz. Qoldig'isiz. Salomatlikka zararsiz. Biznesingiz uchun professional ozonlash tizimlari.",
     "learnMore": "Ko'proq bilish",
     "getConsultation": "Konsultatsiya olish",
+    "viewProducts": "Mahsulotlarimiz",
     "stats": {
       "power": "xlordan kuchli",
       "pathogens": "patogenlar yo'q qilindi",

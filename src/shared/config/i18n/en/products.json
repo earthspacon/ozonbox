@@ -1,0 +1,32 @@
+{
+  "pageTitle": "Products — OZONOXY",
+  "pageDescription": "OZONOXY ozone generators for professional disinfection. Models from 10 to 200 g/h. Prices and specifications.",
+  "hero": {
+    "title": "Our Products",
+    "subtitle": "Professional OZONOXY ozone generators — reliable disinfection systems for any business scale"
+  },
+  "standardLine": {
+    "title": "Standard Line",
+    "subtitle": "Compact ozone generators for small and medium businesses"
+  },
+  "proLine": {
+    "title": "Professional Line",
+    "subtitle": "Powerful solutions for large facilities and industrial use"
+  },
+  "card": {
+    "capacity": "Capacity",
+    "price": "Price",
+    "currency": "UZS",
+    "order": "Order"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "OZONOXY ozone generators in detail"
+  },
+  "cta": {
+    "title": "Ready to order?",
+    "text": "Contact us for a consultation and to place an order. We'll help you choose the right model for your business.",
+    "order": "Place an order",
+    "call": "Call us"
+  }
+}

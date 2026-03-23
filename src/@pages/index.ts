@@ -1,4 +1,5 @@
 export { HomePage } from './home'
+export { ProductsPage } from './products'
 export { TechnologyPage } from './technology'
 export { ApplicationsPage } from './applications'
 export { ArticlesPage } from './articles'

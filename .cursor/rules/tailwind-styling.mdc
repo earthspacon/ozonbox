@@ -1,11 +1,17 @@
 ---
-description: Use Tailwind for all new styling; globals.css is legacy only
+description: CRITICAL — Use Tailwind for ALL styling; globals.css and CSS classes are legacy, never add new ones
 alwaysApply: true
 ---
 
-# Styling: Tailwind Only
+# CRITICAL: Tailwind Only — No New CSS Classes
 
-- **Use Tailwind CSS** for all new styling (components, pages, layout).
-- **Do not add new rules** to `src/styles/globals.css` — treat it as legacy. Only change it when fixing existing global styles or variables that Tailwind depends on.
-- Prefer Tailwind utility classes (`className`) over custom CSS files or CSS modules for new code.
-- When modifying existing components that use global CSS, prefer migrating to Tailwind where practical; otherwise leave legacy styles as-is unless the task explicitly requires changing them.
+This is the most important styling rule in the project.
+
+- **ALL new styling MUST use Tailwind CSS utility classes** in `className`. No exceptions.
+- **NEVER add new CSS classes, rules, or selectors** to `src/styles/globals.css` or any other CSS file.
+- **NEVER create new CSS files** — no CSS modules, no styled-components, no new `.css` imports besides the existing `globals.css`.
+- `src/styles/globals.css` is **legacy only**. Only touch it to fix existing styles or update `@theme` variables that Tailwind depends on.
+- When modifying existing components that use legacy CSS classes, **migrate them to Tailwind** where practical.
+- Use `cn()` from `@/shared/lib` for conditional class merging (clsx + tailwind-merge).
+- For custom values use Tailwind arbitrary value syntax (e.g. `w-[120px]`, `text-[#1a1a1a]`) instead of writing CSS.
+- Existing CSS classes in `globals.css` (e.g. `.article-card`, `.article-grid`, header/footer classes) are legacy — do not reference them in new code, and migrate away from them when touching those components.

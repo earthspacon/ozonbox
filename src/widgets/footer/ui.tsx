@@ -56,6 +56,11 @@ export function Footer() {
                 </AppLink>
               </li>
               <li>
+                <AppLink href="/products" className="footer__link">
+                  {t('nav.products')}
+                </AppLink>
+              </li>
+              <li>
                 <AppLink href="/technology" className="footer__link">
                   {t('nav.technology')}
                 </AppLink>
