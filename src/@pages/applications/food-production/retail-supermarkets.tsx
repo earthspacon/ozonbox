@@ -9,6 +9,7 @@ import {
   ArticleSection,
   BulletList,
   CTASection,
+  DataTable,
   FeatureCard,
   FeatureGrid,
   HighlightBox,
@@ -129,6 +130,22 @@ export function RetailSupermarketsPage({ staticData, lang }: RetailSupermarketsP
             <ArticleSection title={data.sections.adopters.title}>
               <Paragraph>{data.sections.adopters.intro}</Paragraph>
               <BulletList items={data.sections.adopters.items as string[]} />
+            </ArticleSection>
+          )}
+
+          {data?.sections?.globalExperience && (
+            <ArticleSection title={data.sections.globalExperience.title}>
+              <Paragraph>{data.sections.globalExperience.intro}</Paragraph>
+              {data.sections.globalExperience.tableHeaders && data.sections.globalExperience.tableData && (
+                <DataTable
+                  headers={data.sections.globalExperience.tableHeaders as string[]}
+                  rows={data.sections.globalExperience.tableData as string[][]}
+                  caption={data.sections.globalExperience.tableCaption}
+                />
+              )}
+              {data.sections.globalExperience.highlight && (
+                <HighlightBox variant="info">{data.sections.globalExperience.highlight}</HighlightBox>
+              )}
             </ArticleSection>
           )}
 

@@ -37,7 +37,7 @@ When adding a new subcategory: add `subcategories.{subId}.{ title, shortDesc }` 
 3. **Routes** — `src/pages/articles/{slug}.tsx` (getStaticProps with DEFAULT_LOCALE) and `src/pages/[lang]/articles/{slug}.tsx` (getStaticPaths + getStaticProps with params.lang); both load `common`, `articles`, `article-{slug}`.
 4. **i18n** — `article-{slug}.json` in ru, en, uz, uz-cyr with `title`, `excerpt`, `body.*` (lead + section keys used by the page), `sourcesTitle`, `sources` (array of `{ title, url }`).
 
-### Writing rules for articles
+### Writing rules for articles and subcategory content
 
 - **Page structure:** One independent page component per article (no single dynamic `[slug]` component for content); component receives `staticData` and uses a fixed slug/namespace for that article.
 - **Layout and UX:** Mobile-first layout; article card image and hero image as in existing articles (card from articles-data; hero same image or as in design).
@@ -45,6 +45,17 @@ When adding a new subcategory: add `subcategories.{subId}.{ title, shortDesc }` 
 - **Originality:** For non-scientific or marketing-style texts, rephrase rather than copy-paste from sources; keep tone consistent with the rest of the site.
 - **Content structure:** Use clear sections (body.lead + body.* keys); support components: ArticleHero, ArticleContainer, ArticleSection, Paragraph, HighlightBox, BulletList; add SourcesList only when sources are present (sources block not mandatory).
 - **Images:** Card/hero images must follow the project's image rules (e.g. Unsplash `w=800&q=80` for cards; validate per article-card-images skill when adding or changing images).
+
+### Content quality — no filler, real research required
+
+When creating or updating any content (articles, subcategory pages), **always research the topic on the internet first**:
+
+- **Use WebSearch** to find real companies, real data, real case studies, and real regulatory standards relevant to the topic. Do not write generic "water" text with vague claims and no specifics.
+- **Name real companies and organizations** — instead of "major chains in Japan", name Aeon Group, Seven & i Holdings, etc. Instead of "leading retailers in the US", name Walmart, Costco, Whole Foods Market.
+- **Include concrete numbers and results** — "extends shelf life" is vague; "extends mango shelf life from 14 to 28 days (Edith Cowan University, 2025)" is meaningful.
+- **Reference real standards** — cite specific regulatory documents (FDA 21 CFR 173.368, HACCP, EU regulations, China's GB 2760, FSANZ) rather than just saying "approved by regulators".
+- **Cover multiple regions** when the topic is global — USA, EU, Japan, South Korea, China, Australia, Middle East with specific examples per region.
+- **Verify claims** — if reference material provides unverified claims, use WebSearch to cross-check before including. Present unverifiable claims carefully or omit them.
 
 ## Translations
 

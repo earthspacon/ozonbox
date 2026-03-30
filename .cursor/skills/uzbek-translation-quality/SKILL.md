@@ -21,6 +21,12 @@ Use this skill whenever you add or edit Uzbek translations in `src/shared/config
 - For loanwords that exist in Russian with the same meaning, use the **same Cyrillic spelling** (дезинфекция, препарат, технология, etc.).
 - For typically Uzbek words, still use я/ё/ю so the text reads naturally in Cyrillic.
 
+## Brand name: OZONOXY (never translate)
+
+- The company name **OZONOXY** is **always** written in Latin script, in every language (ru, en, uz, uz-cyr).
+- **Never** transliterate or convert it to Cyrillic (no "ОЗОНОХЙ", "ОЗОНОКСЙ", "Озонокси", etc.).
+- This applies to all contexts: page titles, meta descriptions, footer, hero sections, about page, breadcrumbs, etc.
+
 ## UZ-CYR: Cyrillic only (no mixed script)
 
 - **uz-cyr must use only Cyrillic** for all translatable content. Mixing Latin and Cyrillic in the same uz-cyr file or page is not allowed.

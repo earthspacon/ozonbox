@@ -216,6 +216,12 @@ All new JSON must use **arrays** for ordered collections. Object format is legac
 - **Only Cyrillic** in translatable content
 - **Allowed Latin exceptions:** brand names (OZONOXY, FDA, USDA), scientific names (E. coli, Salmonella), abbreviations (HVAC, SARS-CoV-2), units (mg/m³, ppm, °C)
 
+### Brand name: OZONOXY (never translate)
+
+- The company name **OZONOXY** must **always** be written in Latin — in all 4 languages.
+- **Never** transliterate or convert to Cyrillic (no ОЗОНОХЙ, ОЗОНОКСЙ, Озонокси, etc.).
+- This applies everywhere: page titles, meta, footer, hero, about page, breadcrumbs, article content.
+
 ---
 
 ## Consistency Rules

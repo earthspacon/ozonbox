@@ -39,6 +39,9 @@ When invoked with a filename (e.g., `subcategory-medicine-ambulances.json`), you
 - **Exceptions**: Brand names (OZONOXY, FDA, USDA), scientific names (E. coli, Salmonella), units (mg/m³, ppm, °C)
 - Same meaning as uz Latin, but in Russian-style Cyrillic
 
+### Brand name: OZONOXY (all languages)
+- The company name **OZONOXY** must **always** remain in Latin. Never translate or transliterate it to Cyrillic (no ОЗОНОХЙ or similar). This applies to all 4 languages.
+
 ## Workflow
 
 1. Read the Russian file first to understand the complete structure

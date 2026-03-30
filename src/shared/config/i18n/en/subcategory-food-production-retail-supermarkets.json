@@ -4,12 +4,12 @@
   "subcategories": {
     "retail-supermarkets": {
       "title": "Ozone in supermarkets, adoption by major chains",
-      "shortDesc": "Storage and hygiene standard in developed countries; benefits vs chemicals; Walmart, Bustanica, Japan and South Korea networks",
-      "content": "In developed countries — the US, Western Europe, Japan and South Korea — ozone has long been a standard for food storage, room disinfection and treatment of fruit and vegetables in supermarkets and hypermarkets. Major retail chains use ozone systems to extend shelf life, reduce waste and meet strict hygiene requirements without chemical residues.",
+      "shortDesc": "Storage and hygiene standard in developed countries; benefits vs chemicals; Walmart, Carrefour, Costco, Tesco, Whole Foods, Aeon, E-Mart and others",
+      "content": "In developed countries — the US, Western Europe, Japan, South Korea, China and Australia — ozone has long been the standard for food storage, facility disinfection and treatment of fruit and vegetables in supermarkets and hypermarkets. The world's largest retail chains use ozone systems to extend shelf life, reduce waste and meet strict hygiene requirements without chemical residues.",
       "benefits": [
         "No chemical residues on products",
         "Extended shelf life",
-        "FDA GRAS and international compliance",
+        "FDA (21 CFR 173.368) and international compliance",
         "Disinfection of cold rooms and display cases",
         "Treatment of fruit and vegetables",
         "Reduced spoilage and waste"
@@ -17,61 +17,113 @@
       "stats": {
         "standardAdoption": {
           "value": "FDA",
-          "label": "GRAS",
-          "description": "Ozone is FDA-approved for direct contact with food"
+          "label": "21 CFR 173.368",
+          "description": "Ozone approved by FDA as an antimicrobial agent for direct food contact (since 2001)"
         },
         "fdaGras": {
           "value": "0",
           "label": "residues",
-          "description": "Ozone breaks down to oxygen, leaving no traces"
+          "description": "Ozone breaks down to oxygen within minutes, leaving no traces on products"
         },
         "noResidues": {
-          "value": "—",
-          "label": "Chemistry",
-          "description": "No rinse required unlike chlorine and other oxidizers"
+          "value": "2.2×",
+          "label": "stronger than chlorine",
+          "description": "As an oxidizer ozone is 2.2 times more powerful than chlorine, with no by-products"
         },
         "shelfLife": {
-          "value": "+",
-          "label": "Shelf life",
-          "description": "Extended storage through suppression of microbes and ethylene"
+          "value": "up to 66%",
+          "label": "less waste",
+          "description": "Product waste reduced by up to 66% in retail chain trials"
         }
       },
       "sections": {
         "intro": {
-          "paragraph1": "In supermarkets and hypermarkets ozone is used to disinfect cold rooms, storage areas and display cases, to treat fruit and vegetables, and to suppress ethylene and microbial spoilage. In the US, EU, Japan and South Korea, major retail chains have been using such solutions for many years — from global giants to regional premium networks.",
-          "paragraph2": "Ozonation helps cut spoilage losses, extend product shelf life without preservatives and meet strict hygiene requirements without chlorine or other chemical disinfectants that leave residues on surfaces and products."
+          "paragraph1": "In supermarkets and hypermarkets ozone is used to disinfect cold rooms, storage areas and display cases, to treat fruit and vegetables, and to suppress ethylene and microbial spoilage. In the US, EU, Japan, South Korea, China and Australia, major retail chains have been using ozone for years — from Walmart and Carrefour to Aeon Group and E-Mart.",
+          "paragraph2": "Ozonation helps cut spoilage losses, extend product shelf life without preservatives and meet strict hygiene requirements without chlorine or other chemical disinfectants. Independent testing shows ozone is 2.2 times stronger than chlorine as an oxidizer, yet produces no harmful by-products."
         },
         "benefitsVsOther": {
           "title": "Benefits of ozone compared to other methods",
           "intro": "Compared with chlorine-based and other chemical agents, as well as manual washing, ozone offers several advantages:",
           "items": [
-            "No chemical residues — ozone breaks down to oxygen and does not require rinsing; products and surfaces can be used after brief ventilation.",
-            "Safety for staff and customers — no exposure to aggressive chemicals; when exposure limits are observed, working in treated areas is safe after the generator is off.",
-            "Extended shelf life — suppression of bacteria, mold and ethylene slows spoilage of fruit, vegetables and prepared products.",
+            "No chemical residues — ozone breaks down to oxygen and requires no rinsing; products and surfaces can be used after brief ventilation.",
+            "Safety for staff and customers — no exposure to aggressive chemicals; when exposure limits are observed, treated areas are safe to work in after the generator is switched off.",
+            "Extended shelf life — suppression of bacteria, mold and ethylene slows spoilage. In trials, strawberries remained mold-free for 15 days instead of 2, and asparagus maintained firmness for up to 17 days longer.",
             "Labour and time savings — automated ozone delivery to chambers and storage zones reduces the need for manual disinfection.",
             "Environmental profile — no toxic by-products; ozone is generated on-site from air or oxygen."
           ]
         },
         "standards": {
           "title": "Official standards and regulations",
-          "intro": "Use of ozone in the food industry and retail is governed by national and international documents. Some explicitly permit or recommend ozonation:",
+          "intro": "Use of ozone in the food industry and retail is governed by national and international documents:",
           "items": [
-            "FDA (USA): ozone is permitted for contact with food (GRAS — Generally Recognized as Safe); allowed for storage, washing of fruit and vegetables, and room disinfection.",
-            "Japan and South Korea: national rules and guidelines govern ozone use in retail and storage; major chains must comply with strict microbiological safety requirements.",
-            "EU: use of ozone in the food chain is regulated; in several countries ozone is used for water treatment, room disinfection and shelf-life extension.",
-            "International guidelines (e.g. Codex, retail industry standards) often include ozone as an acceptable or preferred method when concentrations and protocols are followed."
+            "FDA (USA): ozone approved as an antimicrobial agent for food under 21 CFR 173.368 (since 2001). Permitted in gaseous and aqueous phase for storage, processing and treatment of products, including meat and poultry.",
+            "USDA (USA): the Department of Agriculture has approved ozone for use under the National Organic Program.",
+            "China (GB 2760): ozone is included in the national food additive safety standard as an approved processing aid.",
+            "FSANZ (Australia and New Zealand): the Food Standards Agency recognizes ozone as a safe treatment method.",
+            "Japan: the Ministry of Health approves ozone for food processing; the Japan Ozone Association (JOA) sets application standards.",
+            "EU: ozone use is regulated across member states; applied for water treatment, facility disinfection and shelf-life extension.",
+            "International guidelines (Codex Alimentarius, HACCP, retail industry standards) include ozone as an acceptable or preferred method."
           ],
-          "highlight": "Standards may be mandatory (by law or contract with a chain) or advisory. In any case, adoption of ozone in supermarkets and warehouses is based on proven effectiveness and recognized status in developed countries."
+          "highlight": "All of the above standards confirm that ozone, when used at proper concentrations and protocols, is safe and effective with no chemical residues. This allows products to be labeled as 'chemical-free'."
         },
         "adopters": {
-          "title": "Who uses it: major chains and well-known brands",
-          "intro": "Ozone is already used by leading retail and food companies worldwide. Examples:",
+          "title": "Who uses it: major chains by region",
+          "intro": "Ozone is used by leading retail and food companies on every continent:",
           "items": [
-            "Walmart (USA and international) — use of ozone in logistics and food storage, room disinfection and shelf-life extension in line with internal quality standards.",
-            "Bustanica (UAE) — one of the world's largest vertical farms under the Emirates brand; ozone is used to protect harvest and product quality in storage and supply.",
-            "Major chains in Japan and South Korea — supermarkets and hypermarkets use ozonation in cold rooms, warehouses and sales areas to meet national regulations and reduce waste.",
-            "Regional and premium chains in Europe and the US — disinfection of chambers and display cases, treatment of fruit and vegetables with ozone to extend shelf life without chemical residues."
+            "Walmart (USA and international) — the world's largest retailer uses ozonated water at central distribution centers to wash fruit and vegetables and eliminate pathogens (E. coli, Salmonella). Cold storage facilities use ozone to break down ethylene and prevent mold.",
+            "Costco Wholesale (USA and Canada) — high-concentration ozonated water is used to disinfect surfaces (tables, knives, conveyors) in meat and poultry processing areas; considered safer and more effective than chlorine.",
+            "Whole Foods Market (Amazon, USA) — positions ozone as a 'green technology'; ozonated water is used for treating fresh produce displays and facility sanitization.",
+            "Carrefour (France and Europe) — Europe's largest chain uses ozonated ice for storing fresh fish and seafood; this eliminates odor and slows bacterial growth by 2–3 times.",
+            "Tesco (United Kingdom) — ozone is used in the supply chain to disinfect trucks and containers transporting food; eliminates odors and destroys microorganisms in transport containers.",
+            "Aeon Group (Japan) — Asia's largest retail chain uses ozonated water in prepared food (bento) workshops and fish departments to eliminate odors and neutralize microflora.",
+            "Seven & i Holdings / 7-Eleven (Japan) — uses ozonated water to wash salads and fresh-cut fruit before packaging, preserving color and freshness for 3–4 days.",
+            "E-Mart / Shinsegae Group (South Korea) — Korea's largest hypermarket chain uses ozone generators in cold storage for vegetables, including raw materials for kimchi production.",
+            "Lotte Mart (South Korea) — uses ozone gas treatment at logistics centers to protect imported and exported fruit (strawberries, grapes) from mold and fungal disease.",
+            "Woolworths and Coles (Australia) — the two largest Australian chains (80% market share) use ozone for water recycling: ozonation purifies and enables reuse of produce washing water, cutting water consumption. Meat processing areas use ozone for air sterilization.",
+            "Hema / Freshippo (Alibaba, China) — an innovative smart supermarket chain uses ozone to sterilize aquarium water for live fish and to treat fruit and vegetables with ozone gas before packaging, reducing cold chain spoilage by 30–40%.",
+            "JD.com / 7Fresh (China) — central warehouses feature ozone air purification systems to prevent cross-contamination of odors; ozonated water is used to break down residual pesticides on fruit and vegetable surfaces.",
+            "Bustanica (UAE) — the world's largest vertical farm operated by Emirates Flight Catering; ozone is used to protect crops and ensure product quality during storage and delivery to airlines and regional retail chains."
           ]
+        },
+        "globalExperience": {
+          "title": "Global experience: ozone by region",
+          "intro": "Each region applies ozone technology based on local priorities — from pesticide control in China to water conservation in Australia:",
+          "tableCaption": "Key ozone applications in retail by region",
+          "tableHeaders": ["Region", "Primary application", "Key results"],
+          "tableData": [
+            [
+              "USA",
+              "Logistics, fruit and vegetable storage, meat processing",
+              "FDA approval (21 CFR 173.368); chlorine replacement; waste reduction up to 66%"
+            ],
+            [
+              "Europe (France, UK)",
+              "Seafood, logistics, transport disinfection",
+              "Ozonated ice for fish; chemical-free container disinfection"
+            ],
+            [
+              "Japan",
+              "Prepared foods, seafood, salads",
+              "Odor elimination; 99.9% bacteria destruction; 3–4 day freshness retention"
+            ],
+            [
+              "South Korea",
+              "Cold storage, logistics, import/export",
+              "Fruit mold protection; preservation of kimchi raw materials"
+            ],
+            [
+              "China",
+              "Pesticide decomposition, cold chain, aquariums",
+              "90–95% pesticide breakdown; 30–40% less cold chain spoilage"
+            ],
+            [
+              "Australia",
+              "Water recycling, meat processing, organic produce",
+              "Up to 50% water savings; 15–20% longer meat shelf life"
+            ],
+            ["UAE", "Vertical farms, airline supply", "Chemical-free crop protection; aviation catering compliance"]
+          ],
+          "highlight": "Ozone is recognized as safe for food by regulators in the USA (FDA), China (GB 2760), Australia and New Zealand (FSANZ), Japan (Ministry of Health) and is approved by USDA for organic produce."
         },
         "advantages": {
           "title": "Practical benefits for supermarkets",
@@ -81,15 +133,15 @@
           },
           "feature2": {
             "title": "Extended shelf life",
-            "description": "Suppression of microbes and ethylene slows spoilage of fruit, vegetables and prepared products"
+            "description": "Strawberries — up to 15 days mold-free (vs 2), asparagus — firmness up to 17 days longer, mangoes — from 14 to 28 days"
           },
           "feature3": {
-            "title": "Regulatory compliance",
-            "description": "Meets FDA GRAS and national requirements in the US, Japan, South Korea and the EU"
+            "title": "Global regulatory compliance",
+            "description": "FDA 21 CFR 173.368, USDA Organic, FSANZ, GB 2760, HACCP — ozone approved by key regulators worldwide"
           },
           "feature4": {
-            "title": "Proven by major chains",
-            "description": "Technology used by Walmart, Bustanica and chains in Japan and South Korea"
+            "title": "Proven by world's largest chains",
+            "description": "Walmart, Carrefour, Costco, Tesco, Aeon, E-Mart, Lotte Mart, Woolworths, Hema and Bustanica already use ozone"
           }
         }
       }

@@ -104,6 +104,10 @@ Rules:
 - **Keep content universal:** The article should be applicable globally, not tied to any specific country's context.
 - **Exception:** If the article is specifically ABOUT a country (e.g. "Ozone regulation in the EU"), country names are allowed. But for general scientific/technical articles, avoid country mentions.
 
+**Brand name OZONOXY — CRITICAL:**
+
+- The company name **OZONOXY** is **always** written in Latin script. **Never** translate, transliterate, or convert it to Cyrillic (no "ОЗОНОХЙ", "ОЗОНОКСЙ", etc.). This applies to all languages: ru, en, uz, uz-cyr.
+
 **Remove promotional content — CRITICAL:**
 
 - **No brand mentions:** Remove ALL mentions of Ozonbox, ozonbox.pro, or any other commercial brand names from article content
@@ -119,6 +123,19 @@ Rules:
 - Add 3-5 legitimate scientific sources that support the article's claims
 - Prefer: PubMed, ScienceDirect, ResearchGate, Google Scholar, university publications
 - Format sources properly with full citation info
+
+**Content quality — CRITICAL: no filler, real research required:**
+
+- **NEVER write "water" texts** — generic, vague paragraphs with no substance. Every section must contain specific, verifiable facts: real company names, real numbers, real standards, real case studies.
+- **Always do internet research** before writing or updating article content. Use WebSearch to find:
+  - Real companies, brands, and organizations that are relevant to the topic
+  - Specific data points: percentages, standards (e.g. FDA 21 CFR 173.368, HACCP, GB 2760), regulatory approvals, dates
+  - Case studies and documented implementations
+  - Scientific research results with concrete numbers (e.g. "shelf life extended from 14 to 28 days", "66% less product waste")
+- **Name real companies and specific use cases** — do not write "major chains in Japan" when you can name Aeon Group, Seven & i Holdings, E-Mart, Lotte Mart, Carrefour, Tesco, Costco, etc.
+- **Include concrete results and numbers** — "reduces spoilage" is water; "reduces product waste by 66% in a 30-day trial" is meaningful content.
+- **Cross-reference claims** — if a reference text provides claims (e.g. "Woolworths reduces water usage by 50%"), verify via WebSearch before including. If unverifiable, present as industry practice without specific attribution.
+- **Cover global scope** — when the topic involves international adoption, cover multiple regions: USA, EU, Japan, South Korea, China, Australia, Middle East, etc. with specific examples per region.
 
 **Image validation — MANDATORY:**
 

@@ -1,15 +1,15 @@
 {
   "title": "Oziq-ovqat ishlab chiqarish",
-  "description": "Oziq-ovqat zavehlarida ozonatsiya mahsulot xavfsizligini ta'minlaydi, saqlash muddatini uzaytiradi va HACCP talablariga javob beradi.",
+  "description": "Oziq-ovqat korxonalarida ozonatsiya mahsulot xavfsizligini ta'minlaydi, saqlash muddatini uzaytiradi va HACCP talablariga javob beradi.",
   "subcategories": {
     "retail-supermarkets": {
       "title": "Ozon supermarketlarda, yirik tarmoqlar tomonidan qo'llanilishi",
-      "shortDesc": "Rivojlangan mamlakatlarda saqlash va gigiyena standarti; kimyoviy moddalarga nisbatan afzalliklar; Walmart, Bustanica, Yaponiya va Janubiy Koreya tarmoqlari",
-      "content": "Rivojlangan mamlakatlarda — AQSh, G'arbiy Yevropa, Yaponiya va Janubiy Koreya — ozon uzoq vaqtdan beri supermarketlar va gipermarketlarda mahsulotlarni saqlash, joylarni dezinfeksiya qilish va meva-sabzavotlarni qayta ishlash uchun standart hisoblanadi. Yirik chakana savdo tarmoqlari saqlash muddatini uzaytirish, yo'qotishlarni kamaytirish va kimyoviy qoldiqsiz qat'iy gigiyena talablariga javob berish uchun ozon tizimlaridan foydalanadi.",
+      "shortDesc": "Rivojlangan mamlakatlarda saqlash va gigiyena standarti; kimyoviy moddalarga nisbatan afzalliklar; Walmart, Carrefour, Costco, Tesco, Whole Foods, Aeon, E-Mart va boshqalar",
+      "content": "Rivojlangan mamlakatlarda — AQSh, G'arbiy Yevropa, Yaponiya, Janubiy Koreya, Xitoy va Avstraliya — ozon uzoq vaqtdan beri supermarketlar va gipermarketlarda mahsulotlarni saqlash, binolarni dezinfeksiya qilish va meva-sabzavotlarni qayta ishlash uchun standart hisoblanadi. Dunyodagi eng yirik chakana savdo tarmoqlari saqlash muddatini uzaytirish, yo'qotishlarni kamaytirish va kimyoviy qoldiqsiz qat'iy gigiyena talablariga javob berish uchun ozon tizimlaridan foydalanadi.",
       "benefits": [
         "Mahsulotlarda kimyoviy qoldiq yo'q",
         "Saqlash muddati uzayadi",
-        "FDA GRAS va xalqaro talablarga moslik",
+        "FDA (21 CFR 173.368) va xalqaro talablarga moslik",
         "Sovuq kameralar va vitrinalarni dezinfeksiya qilish",
         "Meva va sabzavotlarni qayta ishlash",
         "Aynish va yo'qotishlarni kamaytirish"
@@ -17,61 +17,117 @@
       "stats": {
         "standardAdoption": {
           "value": "FDA",
-          "label": "GRAS",
-          "description": "Ozon oziq-ovqat bilan to'g'ridan-to'g'ri aloqa uchun FDA tomonidan tasdiqlangan"
+          "label": "21 CFR 173.368",
+          "description": "Ozon FDA tomonidan oziq-ovqat bilan bevosita aloqa uchun antimikrob vosita sifatida tasdiqlangan (2001 yildan)"
         },
         "fdaGras": {
           "value": "0",
           "label": "qoldiq",
-          "description": "Ozon kislorodga ajraladi, iz qoldirmaydi"
+          "description": "Ozon bir necha daqiqada kislorodga aylanadi, mahsulotlarda iz qoldirmaydi"
         },
         "noResidues": {
-          "value": "—",
-          "label": "Kimyo",
-          "description": "Xlor va boshqa oksidlovchilardan farqli o'laroq yuvish talab etilmaydi"
+          "value": "2,2×",
+          "label": "xlordan kuchliroq",
+          "description": "Oksidlovchi sifatida ozon xlordan 2,2 marta kuchli, lekin nojo'ya mahsulotlarsiz"
         },
         "shelfLife": {
-          "value": "+",
-          "label": "Saqlash muddati",
-          "description": "Mikroblar va etilenni bostirish orqali saqlash muddati uzayadi"
+          "value": "66% gacha",
+          "label": "kamroq yo'qotish",
+          "description": "Chakana tarmoqlardagi sinovlarda mahsulot yo'qotishlari 66% gacha kamaygan"
         }
       },
       "sections": {
         "intro": {
-          "paragraph1": "Supermarketlar va gipermarketlarda ozon sovuq kameralar, ombor joylari va vitrinalarni dezinfeksiya qilish, meva va sabzavotlarni qayta ishlash, shuningdek etilen va mikrobial aynishni bostirish uchun qo'llaniladi. AQSh, Yevropa Ittifoqi, Yaponiya va Janubiy Koreyada yirik chakana tarmoqlar bunday yechimlardan ko'p yillardan beri foydalanmoqda — global gigantlardan tortib mintaqaviy premium tarmoqlargacha.",
-          "paragraph2": "Ozonatsiya aynish yo'qotishlarini kamaytirish, konservantlarsiz mahsulot saqlash muddatini uzaytirish va sirtlar va mahsulotlarda qoldiq qoldiradigan xlor va boshqa kimyoviy dezinfektantlarsiz qat'iy gigiyena talablariga javob berishga yordam beradi."
+          "paragraph1": "Supermarketlar va gipermarketlarda ozon sovuq kameralar, ombor joylari va vitrinalarni dezinfeksiya qilish, meva va sabzavotlarni qayta ishlash, shuningdek etilen va mikrobial buzilishni bostirish uchun qo'llaniladi. AQSh, Yevropa Ittifoqi, Yaponiya, Janubiy Koreya, Xitoy va Avstraliyada yirik chakana tarmoqlar — Walmart va Carrefour'dan tortib Aeon Group va E-Mart'gacha — ozondan ko'p yillardan beri foydalanmoqda.",
+          "paragraph2": "Ozonatsiya buzilish yo'qotishlarini kamaytirish, konservantlarsiz mahsulot saqlash muddatini uzaytirish va xlor yoki boshqa kimyoviy dezinfektantlarsiz qat'iy gigiyena talablariga javob berishga yordam beradi. Mustaqil sinovlarga ko'ra, ozon oksidlovchi sifatida xlordan 2,2 marta kuchli, bunda zararli nojo'ya mahsulotlar hosil bo'lmaydi."
         },
         "benefitsVsOther": {
           "title": "Ozonning boshqa usullarga nisbatan afzalliklari",
-          "intro": "Xlor asosidagi va boshqa kimyoviy moddalar, shuningdek qo'lda yuvish bilan solishtirganda, ozon bir qancha afzalliklar beradi:",
+          "intro": "Xlor asosidagi va boshqa kimyoviy vositalar hamda qo'lda yuvish bilan solishtirganda, ozon bir qancha afzalliklar beradi:",
           "items": [
-            "Kimyoviy qoldiq yo'q — ozon kislorodga ajraladi va yuvish talab etilmaydi; qisqa ventilyatsiyadan keyin mahsulotlar va sirtlardan foydalanish mumkin.",
-            "Xodimlar va xaridorlar uchun xavfsizlik — agressiv kimyoviy moddalarga ta'sir yo'q; generator o'chirilgandan keyin talablar kuzatilsa, qayta ishlangan joylarda ishlash xavfsiz.",
-            "Saqlash muddati uzayadi — bakteriyalar, mog'or va etilenni bostirish meva, sabzavot va tayyor mahsulotlarning aynishini sekinlashtiradi.",
-            "Mehnat va vaqt tejash — kameralar va saqlash zonalariga ozonni avtomatik yetkazish qo'lda dezinfeksiya ehtiyojini kamaytiradi.",
-            "Atrof-muhit — zaharli qo'shma mahsulotlar hosil bo'lmaydi; ozon joyda havoda yoki kislorodda ishlab chiqariladi."
+            "Kimyoviy qoldiq yo'q — ozon kislorodga aylanadi va yuvish talab etilmaydi; qisqa ventilyatsiyadan keyin mahsulotlar va sirtlardan foydalanish mumkin.",
+            "Xodimlar va xaridorlar uchun xavfsizlik — tajovuzkor kimyoviy moddalar bilan aloqa yo'q; generator o'chirilgandan keyin me'yorlar kuzatilsa, qayta ishlangan joylarda ishlash xavfsiz.",
+            "Saqlash muddati uzayadi — bakteriyalar, mog'or va etilenni bostirish buzilishni sekinlashtiradi. Sinovlarda qulupnay 2 kun o'rniga 15 kun mog'orsiz qoldi, sparjaning elastikligi 17 kungacha uzaydi.",
+            "Mehnat va vaqt tejash — kameralar va saqlash zonalariga ozonni avtomatik yetkazish qo'lda dezinfeksiya hajmini kamaytiradi.",
+            "Ekologik tozalik — zaharli nojo'ya mahsulotlar hosil bo'lmaydi; ozon joyida havo yoki kisloroddan ishlab chiqariladi."
           ]
         },
         "standards": {
           "title": "Rasmiy standartlar va qoidalar",
-          "intro": "Ozonning oziq-ovqat sanoati va chakana savdoda qo'llanilishi milliy va xalqaro hujjatlar bilan tartibga keltirilgan. Ba'zilari ozonatsiyani ochiq ruxsat beradi yoki tavsiya qiladi:",
+          "intro": "Ozonning oziq-ovqat sanoati va chakana savdoda qo'llanilishi milliy va xalqaro hujjatlar bilan tartibga solinadi:",
           "items": [
-            "FDA (AQSh): ozon oziq-ovqat bilan aloqa uchun ruxsat etilgan (GRAS — xavfsiz deb tan olingan); saqlash, meva va sabzavotlarni yuvish, joylarni dezinfeksiya qilish uchun qo'llanilishi mumkin.",
-            "Yaponiya va Janubiy Koreya: milliy qoidalar va ko'rsatmalar chakana savdo va saqlashda ozondan foydalanishni tartibga soladi; yirik tarmoqlar qat'iy mikrobiologik xavfsizlik talablariga rioya qilishi kerak.",
-            "Yevropa Ittifoqi: ozonning oziq-ovqat zanjirida qo'llanilishi tartibga keltirilgan; bir qancha mamlakatlarda ozon suvni qayta ishlash, joylarni dezinfeksiya qilish va saqlash muddatini uzaytirish uchun qo'llaniladi.",
-            "Xalqaro ko'rsatmalar (masalan, Codex, chakana savdo sanoat standartlari) ko'pincha konsentratsiyalar va protokollar kuzatilganda ozonni qabul qilinadigan yoki afzal usul sifatida o'z ichiga oladi."
+            "FDA (AQSh): ozon 21 CFR 173.368 bo'yicha oziq-ovqat uchun antimikrob vosita sifatida tasdiqlangan (2001 yildan). Gaz va suv fazasida saqlash, qayta ishlash va ishlov berish, shu jumladan go'sht va parrandaga ruxsat etilgan.",
+            "USDA (AQSh): Qishloq xo'jaligi vazirligi ozonni Milliy organik dastur (National Organic Program) doirasida qo'llashni ma'qullagan.",
+            "Xitoy (GB 2760): ozon milliy oziq-ovqat qo'shimchalari xavfsizligi standartida ruxsat etilgan yordamchi vosita sifatida kiritilgan.",
+            "FSANZ (Avstraliya va Yangi Zelandiya): Oziq-ovqat standartlari agentligi ozonni xavfsiz qayta ishlash vositasi sifatida tan oladi.",
+            "Yaponiya: Sog'liqni saqlash vazirligi ozonni oziq-ovqat qayta ishlash uchun ruxsat beradi; Yaponiya Ozon Assotsiatsiyasi (JOA) qo'llash standartlarini belgilaydi.",
+            "Yevropa Ittifoqi: ozondan foydalanish a'zo davlatlarda tartibga solinadi; suvni qayta ishlash, binolarni dezinfeksiya qilish va saqlash muddatini uzaytirish uchun qo'llaniladi.",
+            "Xalqaro ko'rsatmalar (Codex Alimentarius, HACCP, chakana savdo sanoat standartlari) ozonni qabul qilinadigan yoki afzal usul sifatida o'z ichiga oladi."
           ],
-          "highlight": "Standartlar majburiy (qonun yoki tarmoq bilan shartnoma bo'yicha) yoki maslahat beruvchi bo'lishi mumkin. Har qanday holatda supermarketlar va omborlarda ozonni joriy etish rivojlangan mamlakatlarda isbotlangan samaradorlik va tan olingan maqomga asoslanadi."
+          "highlight": "Barcha sanab o'tilgan standartlar tasdiqlaydi: ozon to'g'ri konsentratsiya va rejimda qo'llanilganda kimyoviy qoldiq qoldirmaydigan xavfsiz va samarali vosita hisoblanadi. Bu mahsulotlarni «kimyoviy ishlov berilmagan» deb belgilash imkonini beradi."
         },
         "adopters": {
-          "title": "Kim qo'llaydi: yirik tarmoqlar va taniqli brendlar",
-          "intro": "Ozondan dunyo bo'ylab yetakchi chakana savdo va oziq-ovqat kompaniyalari allaqachon foydalanmoqda. Misollar:",
+          "title": "Kim qo'llaydi: mintaqalar bo'yicha eng yirik tarmoqlar",
+          "intro": "Ozondan barcha qit'alarda yetakchi chakana savdo va oziq-ovqat kompaniyalari foydalanmoqda:",
           "items": [
-            "Walmart (AQSh va xalqaro bozorlar) — logistika va oziq-ovqat saqlashda ozondan foydalanish, joylarni dezinfeksiya qilish va ichki sifat standartlariga muvofiq saqlash muddatini uzaytirish.",
-            "Bustanica (BAA) — Emirates brendi ostidagi dunyoning eng yirik vertikal fermalari; ozon hosilni va saqlash va etkazib berishda mahsulot sifatini himoya qilish uchun qo'llaniladi.",
-            "Yaponiya va Janubiy Koreyadagi yirik tarmoqlar — supermarketlar va gipermarketlar milliy qoidalarga javob berish va yo'qotishlarni kamaytirish uchun sovuq kameralar, omborlar va savdo maydonlarida ozonatsiyadan foydalanadi.",
-            "Yevropa va AQShdagi mintaqaviy va premium tarmoqlar — kameralar va vitrinalarni dezinfeksiya qilish, kimyoviy qoldiqsiz saqlash muddatini uzaytirish uchun meva va sabzavotlarni ozon bilan qayta ishlash."
+            "Walmart (AQSh va xalqaro bozorlar) — dunyodagi eng yirik riteyler markaziy taqsimlash markazlarida meva va sabzavotlarni ozonlangan suv bilan yuvib, patogenlarni (E. coli, Salmonella) yo'q qiladi. Sovuq omborlarda etilenni parchalash va mog'orni oldini olish uchun ozon ishlatiladi.",
+            "Costco Wholesale (AQSh va Kanada) — go'sht va parranda qayta ishlash tsexlarida sirtlarni (stollar, pichoqlar, konveyerlar) dezinfeksiya qilish uchun yuqori konsentratsiyali ozonlangan suv qo'llaniladi; xlorga qaraganda xavfsizroq va samaraliroq hisoblanadi.",
+            "Whole Foods Market (Amazon, AQSh) — ozonni «yashil texnologiya» sifatida taqdim etadi; ozonlangan suv meva-sabzavot vitrinalarini qayta ishlash va binolarni sanitariya qilishda ishlatiladi.",
+            "Carrefour (Fransiya va Yevropa) — Yevropaning eng yirik tarmog'i yangi baliq va dengiz mahsulotlarini saqlash uchun ozonlangan muz (ozonated ice) ishlatadi; bu hidni yo'qotadi va bakteriyalar ko'payishini 2–3 barobarga sekinlashtiradi.",
+            "Tesco (Buyuk Britaniya) — logistika zanjirida mahsulot tashuvchi yuk mashinalari va konteynerlarni dezinfeksiya qilishda ozon gazi qo'llaniladi; hidlarni va mikroorganizmlarni yo'q qiladi.",
+            "Aeon Group (Yaponiya) — Osiyoning eng yirik chakana tarmog'i tayyor taomlar (bento) tsexlari va baliq bo'limlarida ozonlangan suvdan hidni yo'qotish va mikroflorani zararsizlantirish uchun foydalanadi.",
+            "Seven & i Holdings / 7-Eleven (Yaponiya) — qadoqlashdan oldin salatlar va kesilgan mevalarni (fresh-cut fruit) ozonlangan suvda yuvish texnologiyasini qo'llaydi, bu mahsulotning rangi va yangiligini 3–4 kun davomida saqlaydi.",
+            "E-Mart / Shinsegae Group (Janubiy Koreya) — Koreyaning eng yirik gipermarketlar tarmog'i sovuq omborlarda sabzavotlarni, shu jumladan kimchi uchun xomashyoni saqlashda ozon generatorlaridan foydalanadi.",
+            "Lotte Mart (Janubiy Koreya) — logistika markazlarida import va eksport qilinadigan mevalarni (qulupnay, uzum) mog'or va zamburug'li kasalliklardan himoya qilish uchun ozon gazi bilan ishlov beradi.",
+            "Woolworths va Coles (Avstraliya) — Avstraliya bozorining 80% ni egallagan ikkita eng yirik tarmoq ozonni suvni qayta ishlashda qo'llaydi: ozonatsiya mahsulotlarni yuvishdan keyin suvni tozalash va qayta ishlatish imkonini beradi, suv sarfini kamaytiradi. Go'sht tsexlarida havoni sterilizatsiya qilishda ozon ishlatiladi.",
+            "Hema / Freshippo (Alibaba, Xitoy) — innovatsion smart-supermarketlar tarmog'i tirik baliq akvariumi suvini sterilizatsiya qilish va meva-sabzavotlarni qadoqlashdan oldin ozon gazi bilan qayta ishlashda ozon qo'llaydi, sovuq zanjirdagi buzilishni 30–40% ga kamaytiradi.",
+            "JD.com / 7Fresh (Xitoy) — markaziy omborlarda hidlarning o'zaro yuqishini oldini olish uchun ozon bilan havoni tozalash tizimi ishlaydi; ozonlangan suv meva va sabzavotlar yuzasidagi qoldiq pestitsidlarni parchalash uchun qo'llaniladi.",
+            "Bustanica (BAA) — Emirates Flight Catering tomonidan boshqariladigan dunyodagi eng yirik vertikal ferma; ozon hosilni himoya qilish va aviakompaniyalar hamda mintaqaviy chakana tarmoqlarga yetkazib berishda mahsulot sifatini ta'minlash uchun ishlatiladi."
           ]
+        },
+        "globalExperience": {
+          "title": "Jahon tajribasi: mintaqalar bo'yicha ozon",
+          "intro": "Har bir mintaqa ozon texnologiyalarini mahalliy ustuvorliklarni hisobga olib qo'llaydi — Xitoydagi pestitsid nazoratidan Avstraliyadagi suv tejashgacha:",
+          "tableCaption": "Chakana savdoda mintaqalar bo'yicha ozon qo'llanilishining asosiy yo'nalishlari",
+          "tableHeaders": ["Mintaqa", "Asosiy yo'nalish", "Asosiy natijalar"],
+          "tableData": [
+            [
+              "AQSh",
+              "Logistika, meva va sabzavotlarni saqlash, go'sht tsexlari",
+              "FDA ruxsati (21 CFR 173.368); xlorni almashtirish; yo'qotishlarni 66% gacha kamaytirish"
+            ],
+            [
+              "Yevropa (Fransiya, Buyuk Britaniya)",
+              "Dengiz mahsulotlari, logistika, transport dezinfeksiyasi",
+              "Baliq uchun ozonlangan muz; kimyoviylarsiz konteyner dezinfeksiyasi"
+            ],
+            [
+              "Yaponiya",
+              "Tayyor taomlar, dengiz mahsulotlari, salatlar",
+              "Hidni yo'qotish; bakteriyalarni 99,9% yo'q qilish; 3–4 kun yangilikni saqlash"
+            ],
+            [
+              "Janubiy Koreya",
+              "Sovuq omborlar, logistika, import/eksport",
+              "Mevalarni mog'ordan himoya; kimchi xomashyosini saqlash"
+            ],
+            [
+              "Xitoy",
+              "Pestitsidlarni parchalash, sovuq zanjir, akvariymlar",
+              "Pestitsidlar 90–95% gacha parchalanadi; sovuq zanjirdagi buzilish 30–40% ga kamayadi"
+            ],
+            [
+              "Avstraliya",
+              "Suvni qayta ishlash, go'sht tsexlari, organik mahsulotlar",
+              "Suv tejash 50% gacha; go'sht saqlash muddati 15–20% ga uzayadi"
+            ],
+            [
+              "BAA",
+              "Vertikal fermalar, aviakompaniyalarga yetkazish",
+              "Kimyoviylarsiz hosilni himoya; aviatsiya katering standartlariga moslik"
+            ]
+          ],
+          "highlight": "Ozon oziq-ovqat uchun xavfsiz deb AQSh (FDA), Xitoy (GB 2760), Avstraliya va Yangi Zelandiya (FSANZ), Yaponiya (Sog'liqni saqlash vazirligi) regulyatorlari tomonidan tan olingan va USDA tomonidan organik mahsulotlar uchun tasdiqlangan."
         },
         "advantages": {
           "title": "Supermarketlar uchun amaliy afzalliklar",
@@ -81,15 +137,15 @@
           },
           "feature2": {
             "title": "Saqlash muddati uzayadi",
-            "description": "Mikroblar va etilenni bostirish meva, sabzavot va tayyor mahsulotlarning aynishini sekinlashtiradi"
+            "description": "Qulupnay — 15 kungacha mog'orsiz (2 kun o'rniga), sparja — elastiklik 17 kungacha uzayadi, mango — 14 kundan 28 kungacha"
           },
           "feature3": {
-            "title": "Standartlarga moslik",
-            "description": "AQSh, Yaponiya, Janubiy Koreya va Yevropa Ittifoqidagi FDA GRAS va milliy talablarga javob beradi"
+            "title": "Jahon standartlariga moslik",
+            "description": "FDA 21 CFR 173.368, USDA Organic, FSANZ, GB 2760, HACCP — ozon asosiy regulyatorlar tomonidan tasdiqlangan"
           },
           "feature4": {
-            "title": "Yirik tarmoqlar tomonidan sinab ko'rilgan",
-            "description": "Walmart, Bustanica va Yaponiya va Janubiy Koreya tarmoqlari tomonidan qo'llaniladigan texnologiya"
+            "title": "Dunyoning eng yirik tarmoqlari tomonidan sinab ko'rilgan",
+            "description": "Walmart, Carrefour, Costco, Tesco, Aeon, E-Mart, Lotte Mart, Woolworths, Hema va Bustanica ozondan foydalanmoqda"
           }
         }
       }

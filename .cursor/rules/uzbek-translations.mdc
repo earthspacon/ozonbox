@@ -10,4 +10,5 @@ When editing files under `src/shared/config/i18n/uz/` or `src/shared/config/i18n
 - Follow the **uzbek-translation-quality** skill: natural modern Uzbek, understandable to common readers.
 - For **uz-cyr** use Russian-style Cyrillic (я, ё, ю; Russian spellings for loanwords like дезинфекция, технология).
 - For **uz-cyr** use only Cyrillic; no mixed Latin/Cyrillic except allowed brand names, abbreviations (e.g. FDA, HVAC, SARS-CoV-2), and units.
+- **Never translate the company name OZONOXY.** Always keep it in Latin as **OZONOXY** in all languages (no Cyrillic forms like ОЗОНОХЙ).
 - Use `src/shared/config/i18n/ru/` as reference for meaning and structure when refactoring or adding content.

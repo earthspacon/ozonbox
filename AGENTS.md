@@ -296,8 +296,9 @@ const data = nsData?.subcategories?.['subcategory-id']
 
 ### Translation Quality Rules
 
+- **Brand name OZONOXY:** The company name is **always** written as **OZONOXY** in Latin script. Never translate, transliterate, or convert it to Cyrillic (no "ОЗОНОХЙ", "ОЗОНОКСЙ", "Озонокси", etc.). In all languages — ru, en, uz, uz-cyr — use the Latin spelling **OZONOXY**.
 - **UZ (Latin):** Natural, modern, readable Uzbek. No archaic or obscure words.
-- **UZ-CYR (Cyrillic):** Russian-style Cyrillic spelling (я/ё/ю not йа/йо/йу). Loanwords use Russian spelling (дезинфекция, технология). Only Cyrillic in translatable content (exceptions: brand names, abbreviations, units).
+- **UZ-CYR (Cyrillic):** Russian-style Cyrillic spelling (я/ё/ю not йа/йо/йу). Loanwords use Russian spelling (дезинфекция, технология). Only Cyrillic in translatable content (exceptions: brand names like OZONOXY, abbreviations, units).
 - **Reference:** Always use `ru` files as the reference for meaning and structure.
 
 ---
