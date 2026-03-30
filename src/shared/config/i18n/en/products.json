@@ -5,19 +5,18 @@
     "title": "Our Products",
     "subtitle": "Professional OZONOXY ozone generators — reliable disinfection systems for any business scale"
   },
-  "standardLine": {
-    "title": "Standard Line",
-    "subtitle": "Compact ozone generators for small and medium businesses"
-  },
-  "proLine": {
-    "title": "Professional Line",
-    "subtitle": "Powerful solutions for large facilities and industrial use"
+  "catalog": {
+    "title": "Ozone Generator Catalog",
+    "subtitle": "From compact models to powerful industrial systems"
   },
   "card": {
     "capacity": "Capacity",
+    "unit": "g/h",
     "price": "Price",
     "currency": "UZS",
-    "order": "Order"
+    "order": "Order",
+    "details": "Learn more",
+    "photoSoon": "Photo coming soon"
   },
   "gallery": {
     "title": "Gallery",

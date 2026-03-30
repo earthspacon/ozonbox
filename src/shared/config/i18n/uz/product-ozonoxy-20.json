@@ -1,0 +1,68 @@
+{
+  "title": "OZONOXY 20",
+  "pageTitle": "OZONOXY 20 — sanoat ozonatori 20 g/soat",
+  "pageDescription": "Standart seriyasidagi sanoat ozonatori OZONOXY 20. Ishlab chiqaruvchanlik 20 g/soat, havo oqimi 105 m³/soat. 700 m³ gacha xonalarni dezinfeksiya qilish.",
+  "shortDesc": "20 g/soat ishlab chiqaruvchanlikka ega Standart seriyasidagi sanoat ozonatori. To'liq dezinfeksiya 300 m³ gacha, o'rtacha daraja — 700 m³ gacha.",
+  "description": "Standart seriyasidagi sanoat ozonatori OZONOXY 20 — professional dezinfeksiya uchun ixcham va kuchli yechim. To'liq dezinfeksiyada 300 m³ gacha, o'rtacha ifloslanish darajasida esa 700 m³ gacha xonalarni qayta ishlaydi.",
+  "images": [
+    "/images/boxes/photo_1_2026-03-23_14-49-21.jpg",
+    "/images/boxes/photo_2_2026-03-23_14-49-21.jpg"
+  ],
+  "specsTitle": "Texnik xususiyatlar",
+  "specsHeaderParam": "Parametr",
+  "specsHeaderValue": "Qiymat",
+  "specs": [
+    {
+      "label": "Ozon ishlab chiqaruvchanligi",
+      "value": "20 g/soat"
+    },
+    {
+      "label": "Havo oqimi",
+      "value": "105 m³/soat"
+    },
+    {
+      "label": "Quvvatlanish kuchlanishi",
+      "value": "220 V"
+    },
+    {
+      "label": "Istemol qilinadigan quvvat",
+      "value": "89 Vt"
+    },
+    {
+      "label": "Kafolat",
+      "value": "5 yil"
+    },
+    {
+      "label": "Xizmat muddati",
+      "value": "10 000 soat"
+    }
+  ],
+  "volumeTitle": "Ishlov beriladigan xona hajmi",
+  "volumeHeaderType": "Ishlov turi",
+  "volumeHeaderValue": "Hajm",
+  "volume": [
+    {
+      "type": "To'liq dezinfeksiya",
+      "value": "300 m³"
+    },
+    {
+      "type": "O'rtacha ifloslanish darajasidagi dezinfeksiya",
+      "value": "700 m³"
+    }
+  ],
+  "featuresTitle": "O'ziga xos xususiyatlar",
+  "features": [
+    "Ozon hosil qilishda azot oksidlari tayyorlanmaydi",
+    "Gofr orqali ozonatorga yangi havo berish orqali nominal quvvatni +20% gacha oshirish imkoniyati",
+    "Tez ulanadigan fiting orqali kislorod berish — quvvatni 50% gacha oshirish imkoniyati",
+    "Ikki bosqichli bo'yoq bilan metall korpus (sinks grunt + emal polimerizatsiyasi)",
+    "Yuqori tozalash filtrlari bor — chang, yog' va yog'moy aralashmalarining yopishishi sababli razryadniklarning yomonlashishini oldini oladi",
+    "Ko'p rejimlilik — ozon oqimini xonalar/hajmlarga turli vaqtlarda, turli quvvat va ta'sir vaqti bilan taqsimlash imkoniyati"
+  ],
+  "tasksTitle": "Qo'llash sohalari:",
+  "tasks": "dezinfeksiya, dezinseksiya, deratizatsiya, dezodoratsiya, detoksikatsiya",
+  "ctaTitle": "OZONOXY 20 buyurtma qilish",
+  "ctaText": "Maslahat va buyurtma uchun biz bilan bog'laning.",
+  "ctaOrder": "Buyurtma berish",
+  "ctaCall": "Bizga qo'ng'iroq qiling"
+}

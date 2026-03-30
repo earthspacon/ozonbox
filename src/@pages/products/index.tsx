@@ -9,48 +9,31 @@ import { IconArrowRight } from '@/shared/ui/icons'
 
 interface Product {
   model: string
+  slug: string
   capacity: number
   price: number
-  image: string
+  image: string | null
 }
 
-const STANDARD_PRODUCTS: Product[] = [
-  { model: 'OZONOXY 10', capacity: 10, price: 6_000_000, image: '/images/boxes/ozonoxy-box.png' },
-  { model: 'OZONOXY 20', capacity: 20, price: 8_000_000, image: '/images/boxes/ozonoxy-box.png' },
-  { model: 'OZONOXY 30', capacity: 30, price: 10_600_000, image: '/images/boxes/ozonoxy-box.png' },
-  { model: 'OZONOXY 40', capacity: 40, price: 13_500_000, image: '/images/boxes/ozonoxy-box.png' },
-  { model: 'OZONOXY 50', capacity: 50, price: 17_000_000, image: '/images/boxes/ozonoxy-box.png' },
-  { model: 'OZONOXY 60', capacity: 60, price: 19_500_000, image: '/images/boxes/ozonoxy-box.png' },
-  { model: 'OZONOXY 100', capacity: 100, price: 27_000_000, image: '/images/boxes/ozonoxy-box.png' },
-]
-
-const PRO_PRODUCTS: Product[] = [
-  {
-    model: 'OZONOXY 100 Pro',
-    capacity: 100,
-    price: 30_000_000,
-    image: '/images/boxes/photo_4_2026-03-23_14-49-21.jpg',
-  },
-  {
-    model: 'OZONOXY 100 Max',
-    capacity: 100,
-    price: 33_000_000,
-    image: '/images/boxes/photo_5_2026-03-23_14-49-21.jpg',
-  },
-  {
-    model: 'OZONOXY 200',
-    capacity: 200,
-    price: 198_000_000,
-    image: '/images/boxes/photo_2026-03-23_14-55-01.jpg',
-  },
+const ALL_PRODUCTS: Product[] = [
+  { model: 'OZONOXY 10', slug: 'ozonoxy-10', capacity: 10, price: 6_000_000, image: '/images/boxes/photo_1_2026-03-23_14-49-21.jpg' },
+  { model: 'OZONOXY 20', slug: 'ozonoxy-20', capacity: 20, price: 8_000_000, image: '/images/boxes/photo_2_2026-03-23_14-49-21.jpg' },
+  { model: 'OZONOXY 30', slug: 'ozonoxy-30', capacity: 30, price: 10_600_000, image: '/images/boxes/photo_1_2026-03-30_19-20-17.jpg' },
+  { model: 'OZONOXY 40', slug: 'ozonoxy-40', capacity: 40, price: 13_500_000, image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg' },
+  { model: 'OZONOXY 50', slug: 'ozonoxy-50', capacity: 50, price: 17_000_000, image: '/images/boxes/photo_1_2026-03-30_19-20-17.jpg' },
+  { model: 'OZONOXY 60', slug: 'ozonoxy-60', capacity: 60, price: 19_500_000, image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg' },
+  { model: 'OZONOXY 100', slug: 'ozonoxy-100', capacity: 100, price: 27_000_000, image: '/images/boxes/photo_5_2026-03-23_14-49-21.jpg' },
+  { model: 'OZONOXY 100 Pro', slug: 'ozonoxy-100-pro', capacity: 100, price: 30_000_000, image: '/images/boxes/photo_4_2026-03-23_14-49-21.jpg' },
+  { model: 'OZONOXY 100 Max', slug: 'ozonoxy-100-max', capacity: 100, price: 33_000_000, image: '/images/boxes/photo_2026-03-23_14-55-01.jpg' },
+  { model: 'OZONOXY 200', slug: 'ozonoxy-200', capacity: 200, price: 198_000_000, image: null },
 ]
 
 const GALLERY_IMAGES = [
   '/images/boxes/photo_1_2026-03-23_14-49-21.jpg',
   '/images/boxes/photo_2_2026-03-23_14-49-21.jpg',
-  '/images/boxes/photo_3_2026-03-23_14-49-21.jpg',
+  '/images/boxes/photo_1_2026-03-30_19-20-17.jpg',
+  '/images/boxes/photo_2_2026-03-30_19-20-17.jpg',
   '/images/boxes/photo_4_2026-03-23_14-49-21.jpg',
-  '/images/boxes/photo_5_2026-03-23_14-49-21.jpg',
   '/images/boxes/photo_2026-03-23_14-55-01.jpg',
 ]
 
@@ -89,24 +72,36 @@ export function ProductsPage() {
       <section className="section">
         <div className="container">
           <div className="section__header">
-            <h2 className="section__title">{t('standardLine.title')}</h2>
-            <p className="section__subtitle">{t('standardLine.subtitle')}</p>
+            <h2 className="section__title">{t('catalog.title')}</h2>
+            <p className="section__subtitle">{t('catalog.subtitle')}</p>
           </div>
           <div className="products-grid">
-            {STANDARD_PRODUCTS.map((product) => (
+            {ALL_PRODUCTS.map((product) => (
               <div key={product.model} className="product-card">
                 <div className="product-card__image">
-                  <Image src={product.image} alt={product.model} width={400} height={300} />
+                  {product.image ? (
+                    <Image src={product.image} alt={product.model} width={400} height={300} />
+                  ) : (
+                    <div className="product-card__placeholder">
+                      <span className="product-card__placeholder-text">{product.model}</span>
+                      <span className="product-card__placeholder-subtext">{t('card.photoSoon')}</span>
+                    </div>
+                  )}
                 </div>
                 <div className="product-card__body">
                   <h3 className="product-card__name">{product.model}</h3>
-                  <span className="product-card__capacity">{product.capacity} g/h</span>
+                  <span className="product-card__capacity">{product.capacity} {t('card.unit')}</span>
                   <div className="product-card__price">
                     {formatPrice(product.price)} {t('card.currency')}
                   </div>
-                  <AppLink href="/contacts" className="btn btn--primary product-card__btn">
-                    {t('card.order')}
-                  </AppLink>
+                  <div className="product-card__actions">
+                    <AppLink href={`/products/${product.slug}`} className="btn btn--outline product-card__btn">
+                      {t('card.details')}
+                    </AppLink>
+                    <AppLink href="/contacts" className="btn btn--primary product-card__btn">
+                      {t('card.order')}
+                    </AppLink>
+                  </div>
                 </div>
               </div>
             ))}
@@ -115,34 +110,6 @@ export function ProductsPage() {
       </section>
 
       <section className="section section--gray">
-        <div className="container">
-          <div className="section__header">
-            <h2 className="section__title">{t('proLine.title')}</h2>
-            <p className="section__subtitle">{t('proLine.subtitle')}</p>
-          </div>
-          <div className="products-grid products-grid--pro">
-            {PRO_PRODUCTS.map((product) => (
-              <div key={product.model} className="product-card product-card--pro">
-                <div className="product-card__image">
-                  <Image src={product.image} alt={product.model} width={400} height={300} />
-                </div>
-                <div className="product-card__body">
-                  <h3 className="product-card__name">{product.model}</h3>
-                  <span className="product-card__capacity">{product.capacity} g/h</span>
-                  <div className="product-card__price">
-                    {formatPrice(product.price)} {t('card.currency')}
-                  </div>
-                  <AppLink href="/contacts" className="btn btn--primary product-card__btn">
-                    {t('card.order')}
-                  </AppLink>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
         <div className="container">
           <div className="section__header">
             <h2 className="section__title">{t('gallery.title')}</h2>

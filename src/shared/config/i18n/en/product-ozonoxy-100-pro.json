@@ -1,0 +1,49 @@
+{
+  "title": "OZONOXY 100 Pro",
+  "pageTitle": "OZONOXY 100 Pro — professional ozone generator, 100 g/h",
+  "pageDescription": "Professional ozone generator OZONOXY 100 Pro. Output 100 g/h, rooms up to 650 m³. Compact, high-reliability design.",
+  "shortDesc": "Professional compact ozone generator with 100 g/h output. Treatable room volume up to 650 m³.",
+  "description": "OZONOXY 100 Pro is a professional compact ozone generator with 100 g/h output. Built for intensive use on medium-sized sites. Its compact size and high reliability suit rooms up to 650 m³. Ideal for regular disinfection of production, warehouse, and commercial spaces.",
+  "images": [
+    "/images/boxes/photo_4_2026-03-23_14-49-21.jpg"
+  ],
+  "specsTitle": "Technical specifications",
+  "specsHeaderParam": "Parameter",
+  "specsHeaderValue": "Value",
+  "specs": [
+    {
+      "label": "Ozone output",
+      "value": "100 g/h"
+    },
+    {
+      "label": "Room volume",
+      "value": "up to 650 m³"
+    },
+    {
+      "label": "Supply voltage",
+      "value": "220 V"
+    },
+    {
+      "label": "Warranty",
+      "value": "5 years"
+    },
+    {
+      "label": "Service life",
+      "value": "10 000 hours"
+    }
+  ],
+  "featuresTitle": "Key features",
+  "features": [
+    "No nitrogen oxide generation during ozone production",
+    "Compact enclosure for professional use",
+    "Oxygen feed via quick-connect fitting for up to 50% higher output",
+    "Metal enclosure with two-stage coating (zinc primer + cured enamel)",
+    "Fine filtration — prevents electrode degradation from dust and grease buildup"
+  ],
+  "tasksTitle": "Applications:",
+  "tasks": "disinfection, pest control, rodent control, deodorization, detoxification",
+  "ctaTitle": "Order OZONOXY 100 Pro",
+  "ctaText": "Contact us for consultation and to place an order.",
+  "ctaOrder": "Place an order",
+  "ctaCall": "Call us"
+}

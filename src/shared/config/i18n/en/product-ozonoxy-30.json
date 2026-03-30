@@ -1,0 +1,68 @@
+{
+  "title": "OZONOXY 30",
+  "pageTitle": "OZONOXY 30 — industrial ozone generator, 30 g/h",
+  "pageDescription": "Industrial ozone generator OZONOXY 30, Standart series. Output 30 g/h. Room disinfection up to 1050 m³.",
+  "shortDesc": "Industrial ozone generator, Standart series, with 30 g/h output. Total disinfection up to 450 m³; medium contamination — up to 1050 m³.",
+  "description": "The industrial ozone generator OZONOXY 30, Standart series, delivers effective disinfection for medium-sized rooms. Total disinfection up to 450 m³; medium-contamination treatment up to 1050 m³.",
+  "images": [
+    "/images/boxes/photo_1_2026-03-30_19-20-17.jpg",
+    "/images/boxes/photo_2_2026-03-30_19-20-17.jpg"
+  ],
+  "specsTitle": "Technical specifications",
+  "specsHeaderParam": "Parameter",
+  "specsHeaderValue": "Value",
+  "specs": [
+    {
+      "label": "Ozone output",
+      "value": "30 g/h"
+    },
+    {
+      "label": "Air flow",
+      "value": "105 m³/h"
+    },
+    {
+      "label": "Supply voltage",
+      "value": "220 V"
+    },
+    {
+      "label": "Power consumption",
+      "value": "89 W"
+    },
+    {
+      "label": "Warranty",
+      "value": "5 years"
+    },
+    {
+      "label": "Service life",
+      "value": "10 000 hours"
+    }
+  ],
+  "volumeTitle": "Treatable room volume",
+  "volumeHeaderType": "Treatment type",
+  "volumeHeaderValue": "Volume",
+  "volume": [
+    {
+      "type": "Total disinfection",
+      "value": "450 m³"
+    },
+    {
+      "type": "Medium contamination disinfection",
+      "value": "1050 m³"
+    }
+  ],
+  "featuresTitle": "Key features",
+  "features": [
+    "No nitrogen oxide generation during ozone production",
+    "Nominal output can be increased by up to +20% by supplying fresh air to the generator via a flexible duct",
+    "Oxygen feed via quick-connect fitting for up to 50% higher output",
+    "Metal enclosure with two-stage coating (zinc primer + cured enamel)",
+    "Fine filtration — prevents electrode degradation from dust and grease buildup",
+    "Multimodal operation — distribute ozone flows across rooms or zones at different times, power levels, and exposure"
+  ],
+  "tasksTitle": "Applications:",
+  "tasks": "disinfection, pest control, rodent control, deodorization, detoxification",
+  "ctaTitle": "Order OZONOXY 30",
+  "ctaText": "Contact us for consultation and to place an order.",
+  "ctaOrder": "Place an order",
+  "ctaCall": "Call us"
+}

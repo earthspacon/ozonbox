@@ -1,0 +1,49 @@
+{
+  "title": "OZONOXY 200",
+  "pageTitle": "OZONOXY 200 — industrial ozone generator, 200 g/h",
+  "pageDescription": "Industrial ozone generator OZONOXY 200. Output 200 g/h. The most powerful system for large industrial facilities.",
+  "shortDesc": "Industrial ozone generator with maximum output of 200 g/h. The most powerful OZONOXY system for large industrial sites.",
+  "description": "OZONOXY 200 is the flagship model with 200 g/h output. It is designed to disinfect the largest industrial plants, production halls, warehouse complexes, and agricultural buildings. It delivers maximum ozone concentration for full disinfection, deodorization, and detoxification of large volumes. No consumables required — no ceramic plates, lamps, or similar parts.",
+  "images": [],
+  "specsTitle": "Technical specifications",
+  "specsHeaderParam": "Parameter",
+  "specsHeaderValue": "Value",
+  "specs": [
+    {
+      "label": "Ozone output",
+      "value": "200 g/h"
+    },
+    {
+      "label": "Supply voltage",
+      "value": "220 V"
+    },
+    {
+      "label": "Warranty",
+      "value": "5 years"
+    },
+    {
+      "label": "Service life",
+      "value": "10 000 hours"
+    }
+  ],
+  "featuresTitle": "Key features",
+  "features": [
+    "No nitrogen oxide generation during ozone production",
+    "Highest output in the OZONOXY range",
+    "Fresh air supply via flexible duct for up to +20% higher output",
+    "Oxygen feed via quick-connect fitting for up to 50% higher output",
+    "Metal enclosure with two-stage coating (zinc primer + cured enamel)",
+    "Fine filtration — prevents electrode degradation from dust and grease buildup",
+    "Multimodal operation — distribute ozone flows across rooms or zones at different times, power levels, and exposure",
+    "No consumables (ceramic plates, lamps, or similar)",
+    "Ozone can be fed into ventilation ducts and piping",
+    "High ozone quality thanks to quartz discharge elements",
+    "Quick connection of pre-filters for use in heavily dusty environments"
+  ],
+  "tasksTitle": "Applications:",
+  "tasks": "disinfection, pest control, rodent control, deodorization, detoxification, room demercurization, neutralization of toxic emissions",
+  "ctaTitle": "Order OZONOXY 200",
+  "ctaText": "Contact us for consultation and to place an order.",
+  "ctaOrder": "Place an order",
+  "ctaCall": "Call us"
+}

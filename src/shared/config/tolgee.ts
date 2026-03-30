@@ -86,6 +86,25 @@ export function getSubcategoryNamespace(categoryId: string, subcategoryId: strin
   return `subcategory-${categoryId}-${subcategoryId}`
 }
 
+export function getProductNamespace(slug: string): string {
+  return `product-${slug}`
+}
+
+export const PRODUCT_SLUGS = [
+  'ozonoxy-10',
+  'ozonoxy-20',
+  'ozonoxy-30',
+  'ozonoxy-40',
+  'ozonoxy-50',
+  'ozonoxy-60',
+  'ozonoxy-100',
+  'ozonoxy-100-pro',
+  'ozonoxy-100-max',
+  'ozonoxy-200',
+] as const
+
+export type TProductSlug = (typeof PRODUCT_SLUGS)[number]
+
 export const tolgee = Tolgee().use(DevTools()).use(FormatSimple()).use(FormatIcu()).init({
   availableLanguages: LOCALES_LIST,
   defaultLanguage: DEFAULT_LOCALE,

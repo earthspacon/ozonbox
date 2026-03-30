@@ -5,19 +5,18 @@
     "title": "Bizning mahsulotlar",
     "subtitle": "Professional OZONOXY ozonatorlari — har qanday biznes uchun ishonchli dezinfeksiya tizimlari"
   },
-  "standardLine": {
-    "title": "Standart seriya",
-    "subtitle": "Kichik va o'rta biznes uchun ixcham ozonatorlar"
-  },
-  "proLine": {
-    "title": "Professional seriya",
-    "subtitle": "Yirik obyektlar va sanoat uchun kuchli yechimlar"
+  "catalog": {
+    "title": "Ozonatorlar katalogi",
+    "subtitle": "Ixcham modellardan kuchli sanoat tizimlarigacha"
   },
   "card": {
     "capacity": "Unumdorlik",
+    "unit": "g/soat",
     "price": "Narx",
     "currency": "so'm",
-    "order": "Buyurtma berish"
+    "order": "Buyurtma berish",
+    "details": "Batafsil",
+    "photoSoon": "Rasm tez orada"
   },
   "gallery": {
     "title": "Galereya",

@@ -1,0 +1,67 @@
+{
+  "title": "OZONOXY 60",
+  "pageTitle": "OZONOXY 60 — ixcham ozonator 60 g/soat",
+  "pageDescription": "Xonalarni dezinfeksiya qilish uchun ixcham ozonator OZONOXY 60. Ishlab chiqaruvchanlik 60 g/soat. Hajm 2100 m³ gacha.",
+  "shortDesc": "60 g/soat ishlab chiqaruvchanlikka ega xonalarni dezinfeksiya qilish uchun ixcham ozonator. Ishlov beriladigan xona hajmi: 900/2100 m³ gacha.",
+  "description": "Xonalarni dezinfeksiya qilish uchun ixcham ozonator OZONOXY 60. To'liq dezinfeksiyada 900 m³ gacha, o'rtacha ifloslanish darajasida esa 2100 m³ gacha hajmlarni qayta ishlaydi. Yomon hidlarni bartaraf qiladi, bakteriya va viruslarni yo'q qiladi, hasharotlar, kemiruvchilar, mog'or va zamburug' bilan kurashadi.",
+  "images": [
+    "/images/boxes/photo_2_2026-03-30_19-20-17.jpg",
+    "/images/boxes/photo_1_2026-03-30_19-20-17.jpg"
+  ],
+  "specsTitle": "Texnik xususiyatlar",
+  "specsHeaderParam": "Parametr",
+  "specsHeaderValue": "Qiymat",
+  "specs": [
+    {
+      "label": "Ozon ishlab chiqaruvchanligi",
+      "value": "60 g/soat"
+    },
+    {
+      "label": "Quvvatlanish kuchlanishi",
+      "value": "220 V"
+    },
+    {
+      "label": "Kafolat",
+      "value": "5 yil"
+    },
+    {
+      "label": "Xizmat muddati",
+      "value": "10 000 soat"
+    }
+  ],
+  "volumeTitle": "Ishlov beriladigan xona hajmi",
+  "volumeHeaderType": "Ishlov turi",
+  "volumeHeaderValue": "Hajm",
+  "volume": [
+    {
+      "type": "To'liq dezinfeksiya",
+      "value": "900 m³"
+    },
+    {
+      "type": "O'rtacha ifloslanish darajasidagi dezinfeksiya",
+      "value": "2100 m³"
+    }
+  ],
+  "eliminatesTitle": "Bartaraf qiladi",
+  "eliminates": [
+    "Yomon hidlar",
+    "Bakteriya va viruslar",
+    "Hasharotlar va kemiruvchilar",
+    "Mog'or va zamburug'"
+  ],
+  "featuresTitle": "O'ziga xos xususiyatlar",
+  "features": [
+    "Ozon hosil qilishda azot oksidlari tayyorlanmaydi",
+    "Gofr orqali ozonatorga yangi havo berish orqali nominal quvvatni +20% gacha oshirish imkoniyati",
+    "Tez ulanadigan fiting orqali kislorod berish — quvvatni 50% gacha oshirish imkoniyati",
+    "Ikki bosqichli bo'yoq bilan metall korpus (sinks grunt + emal polimerizatsiyasi)",
+    "Yuqori tozalash filtrlari bor — chang, yog' va yog'moy aralashmalarining yopishishi sababli razryadniklarning yomonlashishini oldini oladi",
+    "Ko'p rejimlilik — ozon oqimini xonalar/hajmlarga turli vaqtlarda, turli quvvat va ta'sir vaqti bilan taqsimlash imkoniyati"
+  ],
+  "tasksTitle": "Qo'llash sohalari:",
+  "tasks": "dezinfeksiya, dezinseksiya, deratizatsiya, dezodoratsiya, detoksikatsiya",
+  "ctaTitle": "OZONOXY 60 buyurtma qilish",
+  "ctaText": "Maslahat va buyurtma uchun biz bilan bog'laning.",
+  "ctaOrder": "Buyurtma berish",
+  "ctaCall": "Bizga qo'ng'iroq qiling"
+}
