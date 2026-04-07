@@ -157,7 +157,8 @@ import { GetStaticPaths, GetStaticProps } from 'next'
 import { SubcategoryPage } from '@/@pages/applications/{category}/{subcategory}'
 
 import { getSubcategoryNamespace, LOCALES_LIST, NAMESPACES, TLocale } from '@/shared/config/tolgee'
-import { loadNamespaces, withTolgee } from '@/shared/lib'
+import { loadNamespaces } from '@/shared/lib/load-namespaces'
+import { withTolgee } from '@/shared/lib/page-static-functions'
 
 export const getStaticPaths: GetStaticPaths = async () => ({
   paths: LOCALES_LIST.map((lang) => ({ params: { lang } })),
@@ -181,7 +182,7 @@ export default withTolgee(SubcategoryPage)
 
 - Route files contain **no JSX** (except top-level pages with `<Head>`)
 - Route files have **no Seo component** — that lives in the @pages component
-- `withTolgee()` wraps the page component to provide TolgeeProvider + LangSync
+- `withTolgee()` wraps the page component to provide TolgeeProvider
 - Default-locale routes use `DEFAULT_LOCALE` instead of `params.lang`
 
 ### @page Component Pattern
@@ -190,7 +191,7 @@ export default withTolgee(SubcategoryPage)
 // src/@pages/applications/{category}/{subcategory}.tsx
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 import { getSubcategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
-import { useLang } from '@/shared/lib'
+import { useLang } from '@/shared/lib/lang'
 import { Layout } from '@/widgets/layout'
 import { Seo } from '@/shared/ui/seo'
 
@@ -216,7 +217,6 @@ export function SubcategoryPage({ staticData }: { staticData: TolgeeStaticDataPr
 `withTolgee(Component)` from `src/shared/lib/page-static-functions.tsx`:
 
 - Wraps the component in `<TolgeeProvider>` with SSR static data
-- Injects `<LangSync>` for language preference persistence
 - Passes through all props
 
 ---
@@ -454,8 +454,6 @@ Returns current locale (`TLocale`) from Tolgee or router.
 
 Returns `true` if current route has `[lang]` parameter.
 
-### `LangSync` — `@/shared/lib/lang`
-
 Component that syncs language between localStorage, Tolgee, and router.
 
 ### `loadNamespaces(lang, namespaces)` — `@/shared/lib/load-namespaces`
@@ -464,7 +462,7 @@ Dynamically imports JSON translation files. Returns `TolgeeStaticDataProp`.
 
 ### `withTolgee(Component)` — `@/shared/lib/page-static-functions`
 
-Wraps a page component with TolgeeProvider + LangSync.
+Wraps a page component with TolgeeProvider.
 
 ### `getStaticPathsLang` / `getStaticPropsLang` — `@/shared/lib/page-static-functions`
 

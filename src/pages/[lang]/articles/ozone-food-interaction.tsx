@@ -3,7 +3,8 @@ import { GetStaticPaths, GetStaticProps } from 'next'
 import { OzoneFoodInteractionPage } from '@/@pages/articles/ozone-food-interaction'
 
 import { getArticleNamespace, LOCALES_LIST, NAMESPACES, TLocale } from '@/shared/config/tolgee'
-import { loadNamespaces, withTolgee } from '@/shared/lib'
+import { loadNamespaces } from '@/shared/lib/load-namespaces'
+import { withTolgee } from '@/shared/lib/page-static-functions'
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const paths = LOCALES_LIST.map((lang) => ({ params: { lang } }))

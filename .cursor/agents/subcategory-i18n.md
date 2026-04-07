@@ -49,7 +49,7 @@ Replace the entire content with:
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { getCategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
-import { useLang } from '@/shared/lib'
+import { useLang } from '@/shared/lib/lang'
 
 interface SubcategoryData {
   title: string

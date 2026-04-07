@@ -45,7 +45,7 @@ export { CarpetCleaningPage } from './carpet-cleaning'
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { getSubcategoryNamespace, NAMESPACES } from '@/shared/config/tolgee'
-import { useLang } from '@/shared/lib'
+import { useLang } from '@/shared/lib/lang'
 import {
   ArticleSection, Breadcrumb, BulletList, CTASection, DataTable,
   FeatureCard, FeatureGrid, HighlightBox, ProcessList,

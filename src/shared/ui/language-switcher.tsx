@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react'
 
 import { LANG_LS_KEY, LOCALES, TLocale } from '@/shared/config/tolgee'
 
-import { useIsLangInRoute, useLang } from '../lib'
+import { useIsLangInRoute, useLang } from '../lib/lang'
 
 type LanguageSwitcherProps = {
   /** when true, dropdown opens above the trigger (e.g. in mobile menu) */

@@ -4,7 +4,7 @@ import Head from 'next/head'
 import { ProductsPage } from '@/@pages'
 
 import { NAMESPACES } from '@/shared/config/tolgee'
-import { createGetStaticPropsLang, getStaticPathsLang, withTolgee } from '@/shared/lib'
+import { createGetStaticPropsLang, getStaticPathsLang, withTolgee } from '@/shared/lib/page-static-functions'
 
 function Page() {
   const { t } = useTranslate('products')

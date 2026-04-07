@@ -5,7 +5,7 @@ import { CategoryPage } from '@/@pages/applications/category'
 
 import { getAllCategoryIds } from '@/shared/config/applications-data'
 import { DEFAULT_LOCALE, getCategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
-import { withTolgee } from '@/shared/lib'
+import { withTolgee } from '@/shared/lib/page-static-functions'
 import { Seo } from '@/shared/ui/seo'
 
 interface PageProps {

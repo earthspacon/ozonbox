@@ -3,7 +3,8 @@ import { GetStaticProps } from 'next'
 import { OzoneGoldSilverMiningPage } from '@/@pages/articles/ozone-gold-silver-mining'
 
 import { DEFAULT_LOCALE, getArticleNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
-import { loadNamespaces, withTolgee } from '@/shared/lib'
+import { loadNamespaces } from '@/shared/lib/load-namespaces'
+import { withTolgee } from '@/shared/lib/page-static-functions'
 
 export const getStaticProps: GetStaticProps = async () => {
   const articleNs = getArticleNamespace('ozone-gold-silver-mining')

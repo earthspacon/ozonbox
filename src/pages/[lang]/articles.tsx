@@ -3,7 +3,7 @@ import { useTranslate } from '@tolgee/react'
 import { ArticlesPage } from '@/@pages'
 
 import { NAMESPACES } from '@/shared/config/tolgee'
-import { createGetStaticPropsLang, getStaticPathsLang, withTolgee } from '@/shared/lib'
+import { createGetStaticPropsLang, getStaticPathsLang, withTolgee } from '@/shared/lib/page-static-functions'
 import { Seo } from '@/shared/ui/seo'
 
 function Page() {

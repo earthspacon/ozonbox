@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import { AboutPage } from '@/@pages'
 
-import { getStaticPropsDefault, withTolgee } from '@/shared/lib'
+import { getStaticPropsDefault, withTolgee } from '@/shared/lib/page-static-functions'
 
 function Page() {
   const { t } = useTranslate()

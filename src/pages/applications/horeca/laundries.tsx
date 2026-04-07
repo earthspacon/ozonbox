@@ -3,7 +3,8 @@ import { GetStaticProps } from 'next'
 import { LaundriesPage } from '@/@pages/applications/horeca/laundries'
 
 import { DEFAULT_LOCALE, getSubcategoryNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
-import { loadNamespaces, withTolgee } from '@/shared/lib'
+import { loadNamespaces } from '@/shared/lib/load-namespaces'
+import { withTolgee } from '@/shared/lib/page-static-functions'
 
 export const getStaticProps: GetStaticProps = async () => {
   const staticData = await loadNamespaces(DEFAULT_LOCALE as TLocale, [

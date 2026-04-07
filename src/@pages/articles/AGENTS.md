@@ -37,7 +37,7 @@ Each article also has:
 import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 
 import { getArticleNamespace, NAMESPACES } from '@/shared/config/tolgee'
-import { useLang } from '@/shared/lib'
+import { useLang } from '@/shared/lib/lang'
 import {
   ArticleContainer, ArticleHero, ArticleSection, Breadcrumb,
   BulletList, DataTable, HighlightBox, Paragraph, SourcesList,
@@ -106,7 +106,8 @@ import { GetStaticProps } from 'next'
 import { ArticleSlugPage } from '@/@pages/articles/article-slug'
 
 import { DEFAULT_LOCALE, getArticleNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
-import { loadNamespaces, withTolgee } from '@/shared/lib'
+import { loadNamespaces } from '@/shared/lib/load-namespaces'
+import { withTolgee } from '@/shared/lib/page-static-functions'
 
 export const getStaticProps: GetStaticProps = async () => {
   const staticData = await loadNamespaces(DEFAULT_LOCALE as TLocale, [
@@ -128,7 +129,8 @@ import { GetStaticPaths, GetStaticProps } from 'next'
 import { ArticleSlugPage } from '@/@pages/articles/article-slug'
 
 import { getArticleNamespace, LOCALES_LIST, NAMESPACES, TLocale } from '@/shared/config/tolgee'
-import { loadNamespaces, withTolgee } from '@/shared/lib'
+import { loadNamespaces } from '@/shared/lib/load-namespaces'
+import { withTolgee } from '@/shared/lib/page-static-functions'
 
 export const getStaticPaths: GetStaticPaths = async () => ({
   paths: LOCALES_LIST.map((lang) => ({ params: { lang } })),
