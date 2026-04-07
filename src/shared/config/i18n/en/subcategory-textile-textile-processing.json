@@ -4,13 +4,13 @@
   "subcategories": {
     "textile-processing": {
       "title": "Ozone in textile processing: countries, companies, and verified results",
-      "shortDesc": "How ozone is used in denim and fabric finishing, which countries and companies already deploy it, and what studies show",
-      "heroText": "In textiles, ozone is mainly used in two areas: fabric finishing (especially denim) and polishing treatment of colored wastewater. Below are practical cases and studies with verifiable sources.",
+      "shortDesc": "How ozone is used in jeans fabric finishing, which countries and companies already deploy it, and what studies show",
+      "heroText": "In textiles, ozone is mainly used in two areas: fabric finishing (especially jeans fabric) and polishing treatment of colored wastewater. Below are practical cases and studies with verifiable sources.",
       "stats": {
         "waterReduction": {
           "value": "up to 95%",
           "label": "Water savings",
-          "description": "Reported by Jeanologia G2 for selected denim finishing processes"
+          "description": "Reported by Jeanologia G2 for selected jeans fabric finishing processes"
         },
         "chemicalReduction": {
           "value": "up to 100%",
@@ -30,7 +30,7 @@
       },
       "content": "Ozone in textiles is not a single operation but a set of engineering solutions: ozone cabinets and drums for finishing, plus ozone loops in wastewater treatment. Factories usually introduce it where they need lower water and chemistry use and more stable lot-to-lot quality.\n\nThe practical effect depends on the exact line, recipe, fabric, and automation level. The right approach is pilot first, KPI measurement second, and only then full-scale rollout.",
       "benefits": [
-        "Lower water use in denim and dyed fabric finishing",
+        "Lower water use in jeans fabric and dyed fabric finishing",
         "Reduced dependence on aggressive chemicals in part of operations",
         "Stable and repeatable aging/lightening effects",
         "Lower color and toxicity load in difficult wastewater streams under correct process design",
@@ -40,7 +40,7 @@
       "sections": {
         "intro": {
           "paragraph1": "Textile manufacturing is highly resource-intensive, especially in wet processing and finishing. That is why ozone technologies are growing as an alternative to part of conventional chlorine-based and other oxidative treatments.",
-          "paragraph2": "In practice, ozone is used for finishing (denim, vintage effects, shade correction) and for wastewater treatment (decolorization, oxidation of persistent organics, and toxicity reduction before biological stages)."
+          "paragraph2": "In practice, ozone is used for finishing (jeans fabric, vintage effects, shade correction) and for wastewater treatment (decolorization, oxidation of persistent organics, and toxicity reduction before biological stages)."
         },
         "protocol": {
           "title": "Technology framework:",
@@ -51,7 +51,7 @@
           "items": [
             "Improved sustainability KPIs and reporting for international brands",
             "Lower specific water and energy use in selected operations",
-            "More controllable visual effects on denim",
+            "More controllable visual effects on jeans fabric",
             "Reduced chemical logistics and reagent use in part of the line",
             "Better polishing quality for colored wastewater",
             "Faster payback on high-volume finishing lines"
@@ -59,13 +59,13 @@
         },
         "geography": {
           "title": "Where adoption is most active",
-          "intro": "Ozone adoption is strongest in countries with large denim exports and mature textile-equipment ecosystems.",
+          "intro": "Ozone adoption is strongest in countries with large jeans-product exports and mature textile-equipment ecosystems.",
           "tableCaption": "Countries and practical adoption focus",
           "tableHeaders": ["Country", "Market role", "Ozone use practice", "Source"],
           "tableData": [
             [
               "Spain",
-              "Technology hub for denim finishing solutions",
+              "Technology hub for jeans fabric finishing solutions",
               "Industrial deployment of G2/Ozone systems in global supply chains",
               "https://www.jeanologia.com/portfolio/g2/"
             ],
@@ -83,7 +83,7 @@
             ],
             [
               "Pakistan",
-              "Major denim exporter",
+              "Major jeans-product exporter",
               "Factories deploying ozone/eco-wash concepts (for example, Taiga Apparel)",
               "https://www.taiga-apparel.com/"
             ],
@@ -104,13 +104,13 @@
             [
               "Jeanologia",
               "Spain",
-              "G2 ozone technologies for waterless/low-impact denim processing",
+              "G2 ozone technologies for waterless/low-impact jeans fabric processing",
               "https://www.jeanologia.com/portfolio/g2/"
             ],
             [
               "Tonello",
               "Italy",
-              "Ozone systems for denim finishing (EGO, OBleach, O-Zone)",
+              "Ozone systems for jeans fabric finishing (EGO, OBleach, O-Zone)",
               "https://tonello.com/en/ozone-washing-technologies-for-denim/"
             ],
             [
@@ -122,7 +122,7 @@
             [
               "Taiga Apparel",
               "Pakistan",
-              "Publicly reports Jeanologia Eco Ozone use in denim production",
+              "Publicly reports Jeanologia Eco Ozone use in jeans-product production",
               "https://www.taiga-apparel.com/"
             ],
             [
@@ -141,17 +141,17 @@
           "tableData": [
             [
               "Eco-Friendly Ozone Process for Denim Garments (2024)",
-              "Shows practical ozone treatment windows for denim and potential environmental load reduction",
+              "Shows practical ozone treatment windows for jeans fabric and potential environmental load reduction",
               "https://link.springer.com/article/10.1007/s12221-024-00589-2"
             ],
             [
               "Effects of ozone treatment on denim garment properties",
-              "Confirms measurable ozone impact on denim properties and the importance of correct process tuning",
+              "Confirms measurable ozone impact on jeans fabric properties and the importance of correct process tuning",
               "https://onlinelibrary.wiley.com/doi/10.1111/cote.12568"
             ],
             [
               "Finishing of denim fabrics with ozone in water",
-              "Describes ozone effects in aqueous denim finishing",
+              "Describes ozone effects in aqueous jeans fabric finishing",
               "https://medcraveonline.com/JTEFT/JTEFT-05-00189.pdf"
             ],
             [
@@ -179,7 +179,7 @@
             },
             {
               "title": "Run a pilot on one process",
-              "description": "Launch ozone on one operation (for example, denim finishing) and compare quality to the baseline."
+              "description": "Launch ozone on one operation (for example, jeans fabric finishing) and compare quality to the baseline."
             },
             {
               "title": "Parallel quality control",
@@ -205,7 +205,12 @@
           "tableCaption": "Before/after pilot comparison",
           "tableHeaders": ["Indicator", "Baseline scheme", "With ozone", "Comment"],
           "tableData": [
-            ["Water per unit output", "Higher", "Lower", "Most visible impact usually appears in denim finishing"],
+            [
+              "Water per unit output",
+              "Higher",
+              "Lower",
+              "Most visible impact usually appears in jeans fabric finishing"
+            ],
             ["Chemical use", "Higher", "Lower in selected processes", "Depends on each factory recipe map"],
             ["Energy", "Higher", "Often lower", "Especially when replacing part of thermal operations"],
             [

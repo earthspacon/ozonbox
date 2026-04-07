@@ -4,13 +4,13 @@
   "subcategories": {
     "textile-processing": {
       "title": "To'qimachilik ishlovida ozon: mamlakatlar, kompaniyalar va tasdiqlangan natijalar",
-      "shortDesc": "Ozon denim va mato pardozida qanday ishlatiladi, qaysi mamlakat va kompaniyalar uni amalda qo'llayapti, tadqiqotlar nima deydi",
-      "heroText": "To'qimachilikda ozon asosan ikki yo'nalishda ishlatiladi: mato pardozlash (ayniqsa denim) va bo'yalgan oqava suvlarni qo'shimcha tozalash. Quyida real manbalar bilan amaliy misollar berilgan.",
+      "shortDesc": "Ozon jins matosi va boshqa matolarni pardozlashda qanday ishlatiladi, qaysi mamlakat va kompaniyalar uni amalda qo'llayapti, tadqiqotlar nima deydi",
+      "heroText": "To'qimachilikda ozon asosan ikki yo'nalishda ishlatiladi: mato pardozlash (ayniqsa jins matosi) va bo'yalgan oqava suvlarni qo'shimcha tozalash. Quyida real manbalar bilan amaliy misollar berilgan.",
       "stats": {
         "waterReduction": {
           "value": "95% gacha",
           "label": "Suv tejalishi",
-          "description": "Jeanologia G2 ma'lumotlariga ko'ra denim pardozining ayrim jarayonlarida"
+          "description": "Jeanologia G2 ma'lumotlariga ko'ra jins matosini pardozlashning ayrim jarayonlarida"
         },
         "chemicalReduction": {
           "value": "100% gacha",
@@ -30,7 +30,7 @@
       },
       "content": "To'qimachilikda ozon birgina operatsiya emas, balki muhandislik yechimlari to'plamidir: pardozlash uchun ozon kamerasi va barabanlari, shuningdek oqava suvni tozalashdagi ozon konturlari. Fabrikalar bu texnologiyani odatda suv va kimyo sarfini kamaytirish hamda partiyalar bo'yicha sifat barqarorligini oshirish uchun joriy qiladi.\n\nAmaliy natija liniya konfiguratsiyasi, retseptura, mato turi va avtomatlashtirishga bog'liq. Shu sababli to'g'ri yo'l — avval pilot sinov, keyin KPI o'lchovi, undan so'ng to'liq masshtablash.",
       "benefits": [
-        "Denim va bo'yalgan mato pardozida suv sarfining kamayishi",
+        "Jins matosi va bo'yalgan mato pardozida suv sarfining kamayishi",
         "Jarayonlarning bir qismida agressiv kimyoviy moddalarga ehtiyojning kamayishi",
         "Eskitish va ochartirish effektlarining barqaror takrorlanishi",
         "To'g'ri sxemada murakkab oqava suvdagi rang va toksiklik yukining pasayishi",
@@ -40,7 +40,7 @@
       "sections": {
         "intro": {
           "paragraph1": "To'qimachilik eng resurs talab qiladigan tarmoqlardan biri: ayniqsa nam ishlov va pardoz bosqichlarida suv hamda kimyo sarfi yuqori. Shu bois ozon texnologiyalari xlor asosidagi va boshqa oksidlovchi jarayonlarning bir qismini almashtirish uchun tez rivojlanmoqda.",
-          "paragraph2": "Amaliyotda ozon pardozlashda (denim, vintage effektlar, rangni nozik tuzatish) va oqava suvni tozalashda (rangsizlantirish, murakkab organik moddalarning oksidlanishi, biologik bosqich oldidan toksiklikni kamaytirish) qo'llanadi."
+          "paragraph2": "Amaliyotda ozon pardozlashda (jins matosi, vintage effektlar, rangni nozik tuzatish) va oqava suvni tozalashda (rangsizlantirish, murakkab organik moddalarning oksidlanishi, biologik bosqich oldidan toksiklikni kamaytirish) qo'llanadi."
         },
         "protocol": {
           "title": "Texnologik yondashuv:",
@@ -51,7 +51,7 @@
           "items": [
             "Xalqaro brendlar uchun ekologik KPI va hisobot ko'rsatkichlarini yaxshilash",
             "Ayrim jarayonlarda suv va energiyaning solishtirma sarfini kamaytirish",
-            "Denimda vizual effektlarni aniqroq boshqarish",
+            "Jins matosida vizual effektlarni aniqroq boshqarish",
             "Kimyoviy modda logistikasini va ayrim reagentlar sarfini qisqartirish",
             "Bo'yalgan oqava suvni qo'shimcha tozalash sifatini oshirish",
             "Katta hajmli pardoz liniyalarida tezroq iqtisodiy qaytish"
@@ -59,13 +59,13 @@
         },
         "geography": {
           "title": "Texnologiya qayerlarda faolroq joriy etilgan",
-          "intro": "Ozon to'qimachilikda denim eksporti kuchli va texnologik uskuna ekotizimi rivojlangan mamlakatlarda faolroq tarqalgan.",
+          "intro": "Ozon to'qimachilikda jins mahsulotlari eksporti kuchli va texnologik uskuna ekotizimi rivojlangan mamlakatlarda faolroq tarqalgan.",
           "tableCaption": "Mamlakatlar va amaliy joriy etish yo'nalishi",
           "tableHeaders": ["Mamlakat", "Bozordagi roli", "Ozon qo'llanilishi", "Manba"],
           "tableData": [
             [
               "Ispaniya",
-              "Denim finishing texnologiyalari markazi",
+              "Jins matosini pardozlash texnologiyalari markazi",
               "Global ta'minot zanjirlarida G2/Ozone tizimlarining sanoat darajasida joriy etilishi",
               "https://www.jeanologia.com/portfolio/g2/"
             ],
@@ -83,7 +83,7 @@
             ],
             [
               "Pokiston",
-              "Yirik denim eksportchisi",
+              "Yirik jins mahsulotlari eksportchisi",
               "Fabrikalarda ozone/eco-wash konsepsiyalari (masalan, Taiga Apparel)",
               "https://www.taiga-apparel.com/"
             ],
@@ -104,13 +104,13 @@
             [
               "Jeanologia",
               "Ispaniya",
-              "Denimni waterless/low-impact ishlov berish uchun G2 ozon texnologiyalari",
+              "Jins matosini waterless/low-impact ishlov berish uchun G2 ozon texnologiyalari",
               "https://www.jeanologia.com/portfolio/g2/"
             ],
             [
               "Tonello",
               "Italiya",
-              "Denim pardozlash uchun ozon tizimlari (EGO, OBleach, O-Zone)",
+              "Jins matosini pardozlash uchun ozon tizimlari (EGO, OBleach, O-Zone)",
               "https://tonello.com/en/ozone-washing-technologies-for-denim/"
             ],
             [
@@ -122,7 +122,7 @@
             [
               "Taiga Apparel",
               "Pokiston",
-              "Denim ishlab chiqarishda Jeanologia Eco Ozone qo'llanilishini ochiq qayd etadi",
+              "Jins mahsulotlari ishlab chiqarishda Jeanologia Eco Ozone qo'llanilishini ochiq qayd etadi",
               "https://www.taiga-apparel.com/"
             ],
             [
@@ -141,17 +141,17 @@
           "tableData": [
             [
               "Eco-Friendly Ozone Process for Denim Garments (2024)",
-              "Denim uchun amaliy ozon parametrlari va ekologik yukni kamaytirish salohiyati ko'rsatilgan",
+              "Jins matosi uchun amaliy ozon parametrlari va ekologik yukni kamaytirish salohiyati ko'rsatilgan",
               "https://link.springer.com/article/10.1007/s12221-024-00589-2"
             ],
             [
               "Effects of ozone treatment on denim garment properties",
-              "Ozonning denim xossalariga ta'siri va rejimni to'g'ri sozlash zarurligi tasdiqlangan",
+              "Ozonning jins matosi xossalariga ta'siri va rejimni to'g'ri sozlash zarurligi tasdiqlangan",
               "https://onlinelibrary.wiley.com/doi/10.1111/cote.12568"
             ],
             [
               "Finishing of denim fabrics with ozone in water",
-              "Suvli muhitda denim pardozida ozon ta'siri bayon qilingan",
+              "Suvli muhitda jins matosini pardozlashda ozon ta'siri bayon qilingan",
               "https://medcraveonline.com/JTEFT/JTEFT-05-00189.pdf"
             ],
             [
@@ -179,7 +179,7 @@
             },
             {
               "title": "Bitta jarayonda pilot sinov",
-              "description": "Ozonni bitta operatsiyada (masalan, denim pardozlash) ishga tushirib, sifatni baza bilan solishtiring."
+              "description": "Ozonni bitta operatsiyada (masalan, jins matosini pardozlash) ishga tushirib, sifatni baza bilan solishtiring."
             },
             {
               "title": "Parallel sifat nazorati",
@@ -205,7 +205,12 @@
           "tableCaption": "Pilotdan oldin/keyin taqqoslash",
           "tableHeaders": ["Ko'rsatkich", "Bazaviy sxema", "Ozon bilan", "Izoh"],
           "tableData": [
-            ["Mahsulot birligiga suv", "Yuqori", "Pastroq", "Eng katta ta'sir odatda denim pardozlashda ko'rinadi"],
+            [
+              "Mahsulot birligiga suv",
+              "Yuqori",
+              "Pastroq",
+              "Eng katta ta'sir odatda jins matosini pardozlashda ko'rinadi"
+            ],
             ["Kimyo sarfi", "Yuqori", "Ayrim jarayonlarda pastroq", "Har bir fabrikaning retsepturasiga bog'liq"],
             ["Energiya", "Yuqori", "Ko'pincha pastroq", "Ayniqsa termik jarayonlarning bir qismi almashtirilganda"],
             [
