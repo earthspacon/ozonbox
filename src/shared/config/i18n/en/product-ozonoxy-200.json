@@ -4,7 +4,9 @@
   "pageDescription": "Industrial ozone generator OZONOXY 200. Output 200 g/h. The most powerful system for large industrial facilities.",
   "shortDesc": "Industrial ozone generator with maximum output of 200 g/h. The most powerful OZONOXY system for large industrial sites.",
   "description": "OZONOXY 200 is the flagship model with 200 g/h output. It is designed to disinfect the largest industrial plants, production halls, warehouse complexes, and agricultural buildings. It delivers maximum ozone concentration for full disinfection, deodorization, and detoxification of large volumes. No consumables required — no ceramic plates, lamps, or similar parts.",
-  "images": [],
+  "images": [
+    "/images/boxes/ozonoxy-200.png"
+  ],
   "specsTitle": "Technical specifications",
   "specsHeaderParam": "Parameter",
   "specsHeaderValue": "Value",

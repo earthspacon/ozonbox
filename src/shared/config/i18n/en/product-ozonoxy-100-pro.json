@@ -3,7 +3,7 @@
   "pageTitle": "OZONOXY 100 Pro — professional ozone generator, 100 g/h",
   "pageDescription": "Professional ozone generator OZONOXY 100 Pro. Output 100 g/h, rooms up to 650 m³. Compact, high-reliability design.",
   "shortDesc": "Professional compact ozone generator with 100 g/h output. Treatable room volume up to 650 m³.",
-  "description": "OZONOXY 100 Pro is a professional compact ozone generator with 100 g/h output. Built for intensive use on medium-sized sites. Its compact size and high reliability suit rooms up to 650 m³. Ideal for regular disinfection of production, warehouse, and commercial spaces.",
+  "description": "OZONOXY 100 Pro is a professional compact ozone generator with 100 g/h output. Treated room volume: 1500-3500 m3. Total disinfection up to 1500 m³, medium-level treatment up to 3500 m³.",
   "images": [
     "/images/boxes/photo_4_2026-03-23_14-49-21.jpg"
   ],
@@ -16,8 +16,16 @@
       "value": "100 g/h"
     },
     {
+      "label": "Air flow",
+      "value": "650 m³/h"
+    },
+    {
       "label": "Room volume",
       "value": "up to 650 m³"
+    },
+    {
+      "label": "Power consumption",
+      "value": "1650 W"
     },
     {
       "label": "Supply voltage",
@@ -37,7 +45,7 @@
     "No nitrogen oxide generation during ozone production",
     "Compact enclosure for professional use",
     "Oxygen feed via quick-connect fitting for up to 50% higher output",
-    "Metal enclosure with two-stage coating (zinc primer + cured enamel)",
+    "Stainless-steel enclosure used in medicine and the food industry",
     "Fine filtration — prevents electrode degradation from dust and grease buildup"
   ],
   "tasksTitle": "Applications:",

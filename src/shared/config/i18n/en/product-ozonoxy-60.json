@@ -3,10 +3,9 @@
   "pageTitle": "OZONOXY 60 — compact ozone generator, 60 g/h",
   "pageDescription": "Compact ozone generator OZONOXY 60 for room disinfection. Output 60 g/h. Volume up to 2100 m³.",
   "shortDesc": "Compact ozone generator for room disinfection with 60 g/h output. Treatable room volume: up to 900/2100 m³.",
-  "description": "The compact ozone generator OZONOXY 60 is built for room disinfection. It treats up to 900 m³ for total disinfection and up to 2100 m³ for medium contamination. Eliminates unpleasant odors, destroys bacteria and viruses, and combats insects, rodents, mold, and fungus.",
+  "description": "The OZONOXY industrial ozone generator series is designed for professional treatment of rooms and process areas. The equipment helps reduce microbial load, remove persistent odors, and maintain sanitary safety at facilities of different types. Suitable for regular disinfection of production, warehouse, commercial, and service spaces.",
   "images": [
-    "/images/boxes/photo_2_2026-03-30_19-20-17.jpg",
-    "/images/boxes/photo_1_2026-03-30_19-20-17.jpg"
+    "/images/boxes/photo_2_2026-03-30_19-20-17.jpg"
   ],
   "specsTitle": "Technical specifications",
   "specsHeaderParam": "Parameter",
@@ -17,8 +16,16 @@
       "value": "60 g/h"
     },
     {
+      "label": "Air flow",
+      "value": "298 m³/h"
+    },
+    {
       "label": "Supply voltage",
       "value": "220 V"
+    },
+    {
+      "label": "Power consumption",
+      "value": "689 W"
     },
     {
       "label": "Warranty",
@@ -54,7 +61,7 @@
     "No nitrogen oxide generation during ozone production",
     "Nominal output can be increased by up to +20% by supplying fresh air to the generator via a flexible duct",
     "Oxygen feed via quick-connect fitting for up to 50% higher output",
-    "Metal enclosure with two-stage coating (zinc primer + cured enamel)",
+    "Stainless-steel enclosure used in medicine and the food industry",
     "Fine filtration — prevents electrode degradation from dust and grease buildup",
     "Multimodal operation — distribute ozone flows across rooms or zones at different times, power levels, and exposure"
   ],

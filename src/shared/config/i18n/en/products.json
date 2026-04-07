@@ -27,5 +27,39 @@
     "text": "Contact us for a consultation and to place an order. We'll help you choose the right model for your business.",
     "order": "Place an order",
     "call": "Call us"
+  },
+  "universalDescription": {
+    "title": "Description",
+    "intro": "OZONOXY ozone generators are suitable for professional air and surface treatment in facilities of different types. Ozone treatment helps reduce microbial load, remove persistent odors, and maintain sanitary conditions without relying on aggressive chemicals on a routine basis.",
+    "eliminatesTitle": "Helps eliminate",
+    "eliminates": [
+      "persistent and unpleasant odors",
+      "bacteria, viruses, and mold-related contamination",
+      "biological contaminants in air and on surfaces",
+      "effects of long storage periods and weak ventilation"
+    ],
+    "applicationsTitle": "Where it is used",
+    "applicationsIntro": "The equipment is used in production and service environments where hygiene, clean air, and stable sanitary conditions are essential:",
+    "applications": [
+      "warehouses, cold rooms, and utility areas",
+      "food and processing facilities",
+      "medical, laboratory, and service zones",
+      "retail and commercial premises",
+      "transport, logistics, and technical sites",
+      "facilities with strict cleanliness and odor-control requirements"
+    ],
+    "advantagesTitle": "Technology benefits",
+    "advantagesIntro": "Ozone is generated on site and acts as a strong oxidizer, enabling deep and even treatment:",
+    "advantages": [
+      "no constant purchase of consumable chemical reagents",
+      "works by neutralizing odor sources instead of masking them",
+      "suitable for both scheduled and periodic sanitation cycles",
+      "can be used as a standalone solution or integrated into ventilation workflows",
+      "provides even distribution of the ozone-air mixture in target zones",
+      "supports flexible operating modes based on site-specific tasks",
+      "helps maintain a high hygiene standard during regular operation"
+    ],
+    "safetyTitle": "Safety precautions",
+    "safetyText": "Ozone treatment is performed in unoccupied areas, without people or animals present. After each cycle, ventilate the room or wait for natural ozone decay before re-entry and further work."
   }
 }

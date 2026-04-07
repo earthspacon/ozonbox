@@ -27,5 +27,39 @@
     "text": "Maslahat va buyurtma uchun biz bilan bog'laning. Biznesingiz uchun mos modelni tanlashga yordam beramiz.",
     "order": "Buyurtma berish",
     "call": "Bizga qo'ng'iroq qiling"
+  },
+  "universalDescription": {
+    "title": "Tavsif",
+    "intro": "OZONOXY ozonatorlari turli turdagi ob'ektlarda havo va sirtlarga professional ishlov berish uchun mos. Ozon bilan ishlov berish mikrob yuklamasini kamaytirishga, turg'un hidlarni yo'qotishga va agressiv kimyoviy vositalarni doimiy qo'llamasdan sanitariya holatini barqaror saqlashga yordam beradi.",
+    "eliminatesTitle": "Bartaraf etishga yordam beradi",
+    "eliminates": [
+      "yoqimsiz va singib qolgan hidlar",
+      "bakteriya, virus va mog'or bilan bog'liq ifloslanishlar",
+      "havodagi va sirtlardagi biologik ifloslanishlar",
+      "uzoq saqlash va sust shamollatish oqibatlari"
+    ],
+    "applicationsTitle": "Qo'llanilish sohalari",
+    "applicationsIntro": "Uskunalar gigiyena, toza havo va barqaror sanitariya muhiti muhim bo'lgan ishlab chiqarish hamda servis jarayonlarida qo'llanadi:",
+    "applications": [
+      "omborlar, sovutkich xonalari va yordamchi hududlar",
+      "oziq-ovqat va qayta ishlash uchastkalari",
+      "tibbiy, laboratoriya va servis zonalari",
+      "savdo va tijorat binolari",
+      "transport, logistika va texnik ob'ektlar",
+      "tozalik va hid nazorati talablari yuqori bo'lgan joylar"
+    ],
+    "advantagesTitle": "Texnologiya afzalliklari",
+    "advantagesIntro": "Ozon joyning o'zida hosil qilinadi va kuchli oksidlovchi sifatida chuqur hamda bir tekis ishlov berishni ta'minlaydi:",
+    "advantages": [
+      "doimiy sarflanadigan kimyoviy reagentlarni xarid qilishni talab qilmaydi",
+      "hidni yashirmaydi, balki manbani neytrallaydi",
+      "rejalashtirilgan va davriy sanitariya ishlovlari uchun mos",
+      "mustaqil yechim sifatida ham, ventilyatsiya tizimlari bilan ham ishlatilishi mumkin",
+      "ishchi zonalarda ozon-havo aralashmasining bir tekis tarqalishini ta'minlaydi",
+      "ob'ekt vazifalariga qarab ish rejimlarini moslash imkonini beradi",
+      "muntazam foydalanishda yuqori gigiyena darajasini saqlashga yordam beradi"
+    ],
+    "safetyTitle": "Xavfsizlik choralari",
+    "safetyText": "Ozon bilan ishlov berish odamlar va hayvonlar bo'lmagan paytda amalga oshiriladi. Sikl tugagach, xonani shamollatish yoki ozonning tabiiy parchalanishini kutish kerak, shundan keyin kirish va keyingi ishlar bajariladi."
   }
 }

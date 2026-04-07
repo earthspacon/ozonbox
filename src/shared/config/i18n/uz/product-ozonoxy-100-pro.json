@@ -3,7 +3,7 @@
   "pageTitle": "OZONOXY 100 Pro — professional ozonator 100 g/soat",
   "pageDescription": "Professional ozonator OZONOXY 100 Pro. Ishlab chiqaruvchanlik 100 g/soat, 650 m³ gacha xonalarni qayta ishlash. Yuqori ishonchlilikdagi ixcham yechim.",
   "shortDesc": "100 g/soat ishlab chiqaruvchanlikka ega professional ixcham ozonator. Ishlov beriladigan xona hajmi 650 m³ gacha.",
-  "description": "OZONOXY 100 Pro — 100 g/soat ishlab chiqaruvchanlikka ega professional ixcham ozonator. O'rta o'lchamdagi ob'ektlarda intensiv foydalanish uchun ishlab chiqilgan. Ixcham o'lchamlar va yuqori ishonchlilik 650 m³ gacha hajmdagi xonalarda foydalanish imkonini beradi. Ishlab chiqarish, ombor va savdo xonalarini muntazam dezinfeksiya qilish uchun qulay.",
+  "description": "OZONOXY 100 Pro — 100 g/soat ishlab chiqaruvchanlikka ega professional ixcham ozonator. Qayta ishlanadigan xona hajmi - 1500 - 3500 m3. To'liq dezinfeksiya 1500 m³ gacha, o'rtacha daraja — 3500 m³ gacha.",
   "images": [
     "/images/boxes/photo_4_2026-03-23_14-49-21.jpg"
   ],
@@ -16,8 +16,16 @@
       "value": "100 g/soat"
     },
     {
+      "label": "Havo oqimi",
+      "value": "650 m³/soat"
+    },
+    {
       "label": "Xona hajmi",
       "value": "650 m³ gacha"
+    },
+    {
+      "label": "Quvvat sarfi",
+      "value": "1650 Vt"
     },
     {
       "label": "Quvvatlanish kuchlanishi",
@@ -37,7 +45,7 @@
     "Ozon hosil qilishda azot oksidlari tayyorlanmaydi",
     "Professional foydalanish uchun ixcham korpus",
     "Tez ulanadigan fiting orqali kislorod berish — quvvatni 50% gacha oshirish imkoniyati",
-    "Ikki bosqichli bo'yoq bilan metall korpus (sinks grunt + emal polimerizatsiyasi)",
+    "Tibbiyot va oziq-ovqat sanoatida qo'llaniladigan zanglamaydigan po'latdan tayyorlangan metall korpus",
     "Yuqori tozalash filtrlari bor — chang, yog' va yog'moy aralashmalarining yopishishi sababli razryadniklarning yomonlashishini oldini oladi"
   ],
   "tasksTitle": "Qo'llash sohalari:",

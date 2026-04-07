@@ -3,7 +3,7 @@
   "pageTitle": "OZONOXY 20 — industrial ozone generator, 20 g/h",
   "pageDescription": "Industrial ozone generator OZONOXY 20, Standart series. Output 20 g/h, air flow 105 m³/h. Room disinfection up to 700 m³.",
   "shortDesc": "Industrial ozone generator, Standart series, with 20 g/h output. Total disinfection up to 300 m³; medium contamination — up to 700 m³.",
-  "description": "The industrial ozone generator OZONOXY 20, Standart series, is a compact, powerful solution for professional disinfection. It treats rooms up to 300 m³ for total disinfection and up to 700 m³ for medium contamination.",
+  "description": "The OZONOXY industrial ozone generator series is designed for professional treatment of rooms and process areas. The equipment helps reduce microbial load, remove persistent odors, and maintain sanitary safety at facilities of different types. Suitable for regular disinfection of production, warehouse, commercial, and service spaces.",
   "images": [
     "/images/boxes/photo_1_2026-03-23_14-49-21.jpg",
     "/images/boxes/photo_2_2026-03-23_14-49-21.jpg"
@@ -18,7 +18,7 @@
     },
     {
       "label": "Air flow",
-      "value": "105 m³/h"
+      "value": "298 m³/h"
     },
     {
       "label": "Supply voltage",
@@ -26,7 +26,7 @@
     },
     {
       "label": "Power consumption",
-      "value": "89 W"
+      "value": "289 W"
     },
     {
       "label": "Warranty",
@@ -55,7 +55,7 @@
     "No nitrogen oxide generation during ozone production",
     "Nominal output can be increased by up to +20% by supplying fresh air to the generator via a flexible duct",
     "Oxygen feed via quick-connect fitting for up to 50% higher output",
-    "Metal enclosure with two-stage coating (zinc primer + cured enamel)",
+    "Stainless-steel enclosure used in medicine and the food industry",
     "Fine filtration — prevents electrode degradation from dust and grease buildup",
     "Multimodal operation — distribute ozone flows across rooms or zones at different times, power levels, and exposure"
   ],

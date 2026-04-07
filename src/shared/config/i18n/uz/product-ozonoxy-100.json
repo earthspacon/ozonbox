@@ -3,7 +3,7 @@
   "pageTitle": "OZONOXY 100 — sanoat ozonatori 100 g/soat",
   "pageDescription": "Standart seriyasidagi sanoat ozonatori OZONOXY 100. Ishlab chiqaruvchanlik 100 g/soat. To'liq dezinfeksiya 1500 m³ gacha.",
   "shortDesc": "100 g/soat ishlab chiqaruvchanlikka ega Standart seriyasidagi sanoat ozonatori. To'liq dezinfeksiya 1500 m³ gacha, o'rtacha daraja — 3500 m³ gacha.",
-  "description": "Standart seriyasidagi sanoat ozonatori OZONOXY 100 — katta sanoat ob'ektlarini dezinfeksiya qilish uchun kuchli tizim. 1500 m³ gacha xonalarda to'liq dezinfeksiya va o'rtacha ifloslanish darajasida 3500 m³ gacha qayta ishlashni ta'minlaydi.",
+  "description": "Standart seriyasidagi sanoat ozonatori OZONOXY 100 — katta sanoat ob'ektlarini dezinfeksiya qilish uchun kuchli tizim. Qayta ishlanadigan xona hajmi - 1500 - 3500 m3. To'liq dezinfeksiya 1500 m³ gacha, o'rtacha daraja — 3500 m³ gacha.",
   "images": [
     "/images/boxes/photo_5_2026-03-23_14-49-21.jpg"
   ],
@@ -16,8 +16,16 @@
       "value": "100 g/soat"
     },
     {
+      "label": "Havo oqimi",
+      "value": "550 m³/soat"
+    },
+    {
       "label": "Quvvatlanish kuchlanishi",
       "value": "220 V"
+    },
+    {
+      "label": "Quvvat sarfi",
+      "value": "1550 Vt"
     },
     {
       "label": "Kafolat",
@@ -46,7 +54,7 @@
     "Ozon hosil qilishda azot oksidlari tayyorlanmaydi",
     "Gofr orqali ozonatorga yangi havo berish orqali nominal quvvatni +20% gacha oshirish imkoniyati",
     "Tez ulanadigan fiting orqali kislorod berish — quvvatni 50% gacha oshirish imkoniyati",
-    "Ikki bosqichli bo'yoq bilan metall korpus (sinks grunt + emal polimerizatsiyasi)",
+    "Tibbiyot va oziq-ovqat sanoatida qo'llaniladigan zanglamaydigan po'latdan tayyorlangan metall korpus",
     "Yuqori tozalash filtrlari bor — chang, yog' va yog'moy aralashmalarining yopishishi sababli razryadniklarning yomonlashishini oldini oladi",
     "Ko'p rejimlilik — ozon oqimini xonalar/hajmlarga turli vaqtlarda, turli quvvat va ta'sir vaqti bilan taqsimlash imkoniyati"
   ],

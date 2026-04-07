@@ -1,5 +1,6 @@
 import { useTranslate } from '@tolgee/react'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 import { Layout } from '@/widgets/layout'
 
@@ -20,12 +21,12 @@ const ALL_PRODUCTS: Product[] = [
   { model: 'OZONOXY 20', slug: 'ozonoxy-20', capacity: 20, price: 8_000_000, image: '/images/boxes/photo_2_2026-03-23_14-49-21.jpg' },
   { model: 'OZONOXY 30', slug: 'ozonoxy-30', capacity: 30, price: 10_600_000, image: '/images/boxes/photo_1_2026-03-30_19-20-17.jpg' },
   { model: 'OZONOXY 40', slug: 'ozonoxy-40', capacity: 40, price: 13_500_000, image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg' },
-  { model: 'OZONOXY 50', slug: 'ozonoxy-50', capacity: 50, price: 17_000_000, image: '/images/boxes/photo_1_2026-03-30_19-20-17.jpg' },
+  { model: 'OZONOXY 50', slug: 'ozonoxy-50', capacity: 50, price: 17_000_000, image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg' },
   { model: 'OZONOXY 60', slug: 'ozonoxy-60', capacity: 60, price: 19_500_000, image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg' },
   { model: 'OZONOXY 100', slug: 'ozonoxy-100', capacity: 100, price: 27_000_000, image: '/images/boxes/photo_5_2026-03-23_14-49-21.jpg' },
   { model: 'OZONOXY 100 Pro', slug: 'ozonoxy-100-pro', capacity: 100, price: 30_000_000, image: '/images/boxes/photo_4_2026-03-23_14-49-21.jpg' },
   { model: 'OZONOXY 100 Max', slug: 'ozonoxy-100-max', capacity: 100, price: 33_000_000, image: '/images/boxes/photo_2026-03-23_14-55-01.jpg' },
-  { model: 'OZONOXY 200', slug: 'ozonoxy-200', capacity: 200, price: 198_000_000, image: null },
+  { model: 'OZONOXY 200', slug: 'ozonoxy-200', capacity: 200, price: 198_000_000, image: '/images/boxes/ozonoxy-200.png' },
 ]
 
 const GALLERY_IMAGES = [
@@ -43,6 +44,7 @@ function formatPrice(price: number): string {
 
 export function ProductsPage() {
   const { t } = useTranslate('products')
+  const router = useRouter()
 
   return (
     <Layout>
@@ -77,7 +79,20 @@ export function ProductsPage() {
           </div>
           <div className="products-grid">
             {ALL_PRODUCTS.map((product) => (
-              <div key={product.model} className="product-card">
+              <div
+                key={product.model}
+                className="product-card"
+                role="link"
+                tabIndex={0}
+                aria-label={`${product.model} ${t('card.details')}`}
+                onClick={() => router.push(`/products/${product.slug}`)}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault()
+                    router.push(`/products/${product.slug}`)
+                  }
+                }}
+              >
                 <div className="product-card__image">
                   {product.image ? (
                     <Image src={product.image} alt={product.model} width={400} height={300} />
@@ -94,7 +109,7 @@ export function ProductsPage() {
                   <div className="product-card__price">
                     {formatPrice(product.price)} {t('card.currency')}
                   </div>
-                  <div className="product-card__actions">
+                  <div className="product-card__actions" onClick={(event) => event.stopPropagation()}>
                     <AppLink href={`/products/${product.slug}`} className="btn btn--outline product-card__btn">
                       {t('card.details')}
                     </AppLink>

@@ -4,7 +4,9 @@
   "pageDescription": "Sanoat ozonatori OZONOXY 200. Ishlab chiqaruvchanlik 200 g/soat. Eng katta sanoat ob'ektlari uchun eng kuchli tizim.",
   "shortDesc": "200 g/soat maksimal ishlab chiqaruvchanlikka ega sanoat ozonatori. OZONOXY qatorida eng katta sanoat ob'ektlari uchun eng kuchli tizim.",
   "description": "OZONOXY 200 — 200 g/soat ishlab chiqaruvchanlikka ega qatorning flagman modeli. Eng yirik sanoat ob'ektlari, ishlab chiqarish sexlari, ombor komplekslari va qishloq xo'jaligi binolarini dezinfeksiya qilish uchun mo'ljallangan. Katta hajmlarda to'liq dezinfeksiya, dezodoratsiya va detoksikatsiya uchun maksimal ozon konsentratsiyasini ta'minlaydi. Keramika plitalar, lampalar va boshqa sarf materiallarni talab qilmaydi.",
-  "images": [],
+  "images": [
+    "/images/boxes/ozonoxy-200.png"
+  ],
   "specsTitle": "Texnik xususiyatlar",
   "specsHeaderParam": "Parametr",
   "specsHeaderValue": "Qiymat",

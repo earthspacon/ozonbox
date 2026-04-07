@@ -3,7 +3,7 @@
   "pageTitle": "OZONOXY 100 Max — kuchli ozonator 100 g/soat",
   "pageDescription": "Ozonator OZONOXY 100 Max. Ishlab chiqaruvchanlik 100 g/soat, 1050 m³ gacha xonalarni qayta ishlash. Ixcham korpusda maksimal quvvat.",
   "shortDesc": "100 g/soat ishlab chiqaruvchanlikka ega kuchli ozonator. Ishlov beriladigan xona hajmi 1050 m³ gacha.",
-  "description": "OZONOXY 100 Max — 100 g/soat qatorida eng katta qamrov maydoniga ega ozonator. 1050 m³ gacha hajmdagi xonalarni qayta ishlaydi. Yuqori ishlab chiqaruvchanlikni ixcham format bilan birlashtiradi. Katta ishlab chiqarish, ombor va sanoat ob'ektlarida katta maydonlarni muntazam dezinfeksiya qilish talab qilinadigan joylar uchun mo'ljallangan.",
+  "description": "OZONOXY 100 Max — 100 g/soat qatorida eng katta qamrov maydoniga ega ozonator. Qayta ishlanadigan xona hajmi - 1500 - 3500 m3. To'liq dezinfeksiya 1500 m³ gacha, o'rtacha daraja — 3500 m³ gacha.",
   "images": [
     "/images/boxes/photo_2026-03-23_14-55-01.jpg"
   ],
@@ -16,8 +16,16 @@
       "value": "100 g/soat"
     },
     {
+      "label": "Havo oqimi",
+      "value": "1050 m³/soat"
+    },
+    {
       "label": "Xona hajmi",
       "value": "1050 m³ gacha"
+    },
+    {
+      "label": "Quvvat sarfi",
+      "value": "1750 Vt"
     },
     {
       "label": "Quvvatlanish kuchlanishi",
@@ -37,7 +45,7 @@
     "Ozon hosil qilishda azot oksidlari tayyorlanmaydi",
     "100 g/soat qatorida maksimal qamrov maydoni",
     "Tez ulanadigan fiting orqali kislorod berish — quvvatni 50% gacha oshirish imkoniyati",
-    "Ikki bosqichli bo'yoq bilan metall korpus (sinks grunt + emal polimerizatsiyasi)",
+    "Tibbiyot va oziq-ovqat sanoatida qo'llaniladigan zanglamaydigan po'latdan tayyorlangan metall korpus",
     "Yuqori tozalash filtrlari bor — chang, yog' va yog'moy aralashmalarining yopishishi sababli razryadniklarning yomonlashishini oldini oladi",
     "Ko'p rejimlilik — ozon oqimini xonalar/hajmlarga turli vaqtlarda, turli quvvat va ta'sir vaqti bilan taqsimlash imkoniyati"
   ],

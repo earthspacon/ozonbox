@@ -3,9 +3,8 @@
   "pageTitle": "OZONOXY 50 — compact ozone generator, 50 g/h",
   "pageDescription": "Compact ozone generator OZONOXY 50 for room disinfection. Output 50 g/h, air flow 580 m³/h. Up to 1400 m³.",
   "shortDesc": "Compact ozone generator for room disinfection with 50 g/h output. Treatable room volume: up to 600/1400 m³.",
-  "description": "The compact ozone generator OZONOXY 50 is designed for room disinfection. Strong air flow of 580 m³/h spreads ozone quickly. Eliminates unpleasant odors, destroys bacteria and viruses, and combats insects, rodents, mold, and fungus.",
+  "description": "The OZONOXY industrial ozone generator series is designed for professional treatment of rooms and process areas. The equipment helps reduce microbial load, remove persistent odors, and maintain sanitary safety at facilities of different types. Suitable for regular disinfection of production, warehouse, commercial, and service spaces.",
   "images": [
-    "/images/boxes/photo_1_2026-03-30_19-20-17.jpg",
     "/images/boxes/photo_2_2026-03-30_19-20-17.jpg"
   ],
   "specsTitle": "Technical specifications",
@@ -18,15 +17,15 @@
     },
     {
       "label": "Air flow",
-      "value": "580 m³/h"
+      "value": "298 m³/h"
     },
     {
       "label": "Supply voltage",
       "value": "220 V"
     },
     {
-      "label": "Power",
-      "value": "624 W"
+      "label": "Power consumption",
+      "value": "589 W"
     },
     {
       "label": "Weight",
@@ -70,7 +69,7 @@
     "No nitrogen oxide generation during ozone production",
     "Nominal output can be increased by up to +20% by supplying fresh air to the generator via a flexible duct",
     "Oxygen feed via quick-connect fitting for up to 50% higher output",
-    "Metal enclosure with two-stage coating (zinc primer + cured enamel)",
+    "Stainless-steel enclosure used in medicine and the food industry",
     "Fine filtration — prevents electrode degradation from dust and grease buildup",
     "Multimodal operation — distribute ozone flows across rooms or zones at different times, power levels, and exposure"
   ],

@@ -3,9 +3,8 @@
   "pageTitle": "OZONOXY 50 — ixcham ozonator 50 g/soat",
   "pageDescription": "Xonalarni dezinfeksiya qilish uchun ixcham ozonator OZONOXY 50. Ishlab chiqaruvchanlik 50 g/soat, havo oqimi 580 m³/soat. 1400 m³ gacha.",
   "shortDesc": "50 g/soat ishlab chiqaruvchanlikka ega xonalarni dezinfeksiya qilish uchun ixcham ozonator. Ishlov beriladigan xona hajmi: 600/1400 m³ gacha.",
-  "description": "Xonalarni dezinfeksiya qilish uchun ixcham ozonator OZONOXY 50 mo'ljallangan. 580 m³/soat kuchli havo oqimi ozonning tez tarqalishini ta'minlaydi. Yomon hidlarni bartaraf qiladi, bakteriya va viruslarni yo'q qiladi, hasharotlar, kemiruvchilar, mog'or va zamburug' bilan kurashadi.",
+  "description": "OZONOXY sanoat ozonatorlari seriyasi xonalar va texnologik hududlarni professional ishlov berish uchun mo'ljallangan. Uskuna mikrob yuklamasini kamaytirishga, turg'un hidlarni bartaraf etishga va turli turdagi ob'ektlarda sanitariya xavfsizligini saqlashga yordam beradi. Ishlab chiqarish, ombor, tijorat va xizmat ko'rsatish binolarini muntazam dezinfeksiya qilish uchun mos.",
   "images": [
-    "/images/boxes/photo_1_2026-03-30_19-20-17.jpg",
     "/images/boxes/photo_2_2026-03-30_19-20-17.jpg"
   ],
   "specsTitle": "Texnik xususiyatlar",
@@ -18,15 +17,15 @@
     },
     {
       "label": "Havo oqimi",
-      "value": "580 m³/soat"
+      "value": "298 m³/soat"
     },
     {
       "label": "Quvvatlanish kuchlanishi",
       "value": "220 V"
     },
     {
-      "label": "Quvvat",
-      "value": "624 Vt"
+      "label": "Quvvat sarfi",
+      "value": "589 Vt"
     },
     {
       "label": "Og'irlik",
@@ -70,7 +69,7 @@
     "Ozon hosil qilishda azot oksidlari tayyorlanmaydi",
     "Gofr orqali ozonatorga yangi havo berish orqali nominal quvvatni +20% gacha oshirish imkoniyati",
     "Tez ulanadigan fiting orqali kislorod berish — quvvatni 50% gacha oshirish imkoniyati",
-    "Ikki bosqichli bo'yoq bilan metall korpus (sinks grunt + emal polimerizatsiyasi)",
+    "Tibbiyot va oziq-ovqat sanoatida qo'llaniladigan zanglamaydigan po'latdan tayyorlangan metall korpus",
     "Yuqori tozalash filtrlari bor — chang, yog' va yog'moy aralashmalarining yopishishi sababli razryadniklarning yomonlashishini oldini oladi",
     "Ko'p rejimlilik — ozon oqimini xonalar/hajmlarga turli vaqtlarda, turli quvvat va ta'sir vaqti bilan taqsimlash imkoniyati"
   ],

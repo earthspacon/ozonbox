@@ -28,6 +28,7 @@ interface ProductDetailPageProps {
 export function ProductDetailPage({ staticData, lang, slug }: ProductDetailPageProps) {
   const { t } = useTranslate()
   const ns = getProductNamespace(slug)
+  const productsNs = NAMESPACES.products
 
   const productData = (staticData as Record<string, any>)[`${lang}:${ns}`]
   if (!productData) return null
@@ -112,12 +113,6 @@ export function ProductDetailPage({ staticData, lang, slug }: ProductDetailPageP
             </ArticleSection>
           )}
 
-          {productData.features && productData.features.length > 0 && (
-            <ArticleSection title={productData.featuresTitle}>
-              <BulletList items={productData.features} />
-            </ArticleSection>
-          )}
-
           {productData.tasks && (
             <HighlightBox variant="info">
               <strong>{productData.tasksTitle}</strong> {productData.tasks}
@@ -138,6 +133,58 @@ export function ProductDetailPage({ staticData, lang, slug }: ProductDetailPageP
               <BulletList items={productData.eliminates} />
             </ArticleSection>
           )}
+
+          <ArticleSection title={t('universalDescription.title', { ns: productsNs })}>
+            <Paragraph>{t('universalDescription.intro', { ns: productsNs })}</Paragraph>
+
+            <Paragraph>
+              <strong>{t('universalDescription.eliminatesTitle', { ns: productsNs })}</strong>
+            </Paragraph>
+            <BulletList
+              items={[
+                t('universalDescription.eliminates.0', { ns: productsNs }),
+                t('universalDescription.eliminates.1', { ns: productsNs }),
+                t('universalDescription.eliminates.2', { ns: productsNs }),
+                t('universalDescription.eliminates.3', { ns: productsNs }),
+              ]}
+            />
+
+            <Paragraph>
+              <strong>{t('universalDescription.applicationsTitle', { ns: productsNs })}</strong>
+            </Paragraph>
+            <Paragraph>{t('universalDescription.applicationsIntro', { ns: productsNs })}</Paragraph>
+            <BulletList
+              items={[
+                t('universalDescription.applications.0', { ns: productsNs }),
+                t('universalDescription.applications.1', { ns: productsNs }),
+                t('universalDescription.applications.2', { ns: productsNs }),
+                t('universalDescription.applications.3', { ns: productsNs }),
+                t('universalDescription.applications.4', { ns: productsNs }),
+                t('universalDescription.applications.5', { ns: productsNs }),
+              ]}
+            />
+
+            <Paragraph>
+              <strong>{t('universalDescription.advantagesTitle', { ns: productsNs })}</strong>
+            </Paragraph>
+            <Paragraph>{t('universalDescription.advantagesIntro', { ns: productsNs })}</Paragraph>
+            <BulletList
+              items={[
+                t('universalDescription.advantages.0', { ns: productsNs }),
+                t('universalDescription.advantages.1', { ns: productsNs }),
+                t('universalDescription.advantages.2', { ns: productsNs }),
+                t('universalDescription.advantages.3', { ns: productsNs }),
+                t('universalDescription.advantages.4', { ns: productsNs }),
+                t('universalDescription.advantages.5', { ns: productsNs }),
+                t('universalDescription.advantages.6', { ns: productsNs }),
+              ]}
+            />
+
+            <Paragraph>
+              <strong>{t('universalDescription.safetyTitle', { ns: productsNs })}</strong>
+            </Paragraph>
+            <Paragraph>{t('universalDescription.safetyText', { ns: productsNs })}</Paragraph>
+          </ArticleSection>
         </div>
       </article>
 
