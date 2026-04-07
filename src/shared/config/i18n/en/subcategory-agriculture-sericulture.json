@@ -1,0 +1,172 @@
+{
+  "title": "Agriculture",
+  "description": "Ozonation in agriculture improves biosecurity and product quality while reducing losses in storage and processing.",
+  "subcategories": {
+    "sericulture": {
+      "title": "Sericulture",
+      "shortDesc": "Ozone cocoon treatment for disinfection, odor control, and more stable silk quality",
+      "heroText": "In sericulture, ozone is used for cold cocoon disinfection, microbial load reduction, and better raw material stability before storage and reeling.",
+      "stats": {
+        "productionShare": {
+          "value": ">90%",
+          "label": "Asia's share of global silk",
+          "description": "According to International Sericultural Commission data"
+        },
+        "energySaving": {
+          "value": "up to 70-80%",
+          "label": "Energy savings",
+          "description": "Industry estimates when replacing part of thermal treatment with ozone"
+        },
+        "microbialReduction": {
+          "value": "up to 99%",
+          "label": "Microbial load reduction",
+          "description": "Typical range for properly engineered ozone regimes"
+        },
+        "qualityGain": {
+          "value": "+12-15%",
+          "label": "Thread strength",
+          "description": "Some studies show better fiber preservation in ozone or low-water processing modes"
+        }
+      },
+      "content": "In sericulture, ozone is considered an alternative for part of thermal and chemical operations during cocoon preparation and textile post-processing. The main value is cold disinfection and oxidation of odor-forming compounds without adding excess moisture.\n\nFor factories, this means cleaner storage chambers, lower biological risk, and better retention of silk thread parameters for subsequent reeling.",
+      "benefits": [
+        "Lower bioload on cocoon surfaces and in storage chambers",
+        "Reduction of ammonia and volatile organic odors",
+        "Lower water and chemical use in selected preparation steps",
+        "More stable lot quality before reeling",
+        "Safer working conditions with sealed systems",
+        "Straightforward integration into HACCP and internal quality SOPs"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Sericulture performance depends on two factors: sanitary stability of raw cocoons and preservation of fiber structure. In conventional thermal stifling, some plants face high energy costs, odors, and uneven lot quality.",
+          "paragraph2": "Ozone technology works as a controlled cold treatment: gas is supplied to a sealed chamber with a defined concentration and exposure time, followed by ventilation and residual ozone control."
+        },
+        "protocol": {
+          "title": "Technology framework:",
+          "text": "In practice, concentration and exposure ranges are selected for cocoon type, bed thickness, temperature, and humidity. Operating parameters should always be confirmed by pilot tests at each site."
+        },
+        "advantages": {
+          "title": "Why factories consider ozone in sericulture",
+          "items": [
+            "Cold disinfection without boiling and without over-wetting raw material",
+            "Lower mold and secondary contamination risk during storage",
+            "Deodorization of process zones and warehouses",
+            "Reduced dependence on chemical fumigants",
+            "Integration with ventilation, ORP monitoring, and safety automation",
+            "Stepwise deployment model: pilot -> line -> scale-up"
+          ]
+        },
+        "geography": {
+          "title": "Major sericulture countries and ozone deployment potential",
+          "intro": "ISC statistics show that the core of the industry is concentrated in Asia. This is where ozone often has the highest economic impact due to cocoon processing scale and export quality requirements.",
+          "tableCaption": "Countries with the strongest relevance",
+          "tableHeaders": ["Country", "Market role", "Why ozone is considered", "Source"],
+          "tableData": [
+            ["China", "Largest global silk producer", "Biological risk reduction and stable quality at industrial scale", "https://inserco.org/en/statistics"],
+            ["India", "Second largest producer", "Raw material hygiene, deodorization, and plant modernization", "https://inserco.org/en/statistics"],
+            ["Uzbekistan", "Key producer in Central Asia", "Lower energy use and better export-grade consistency", "https://inserco.org/en/statistics"],
+            ["Japan", "Technology-driven premium silk market", "Controlled processes for premium grade positioning", "https://inserco.org/en/statistics"],
+            ["Italy", "Major silk consumer and processor", "High requirements for stability and cleanliness of incoming silk", "https://inserco.org/en/statistics"]
+          ]
+        },
+        "companies": {
+          "title": "Companies and suppliers active in ozone-related silk value-chain tasks",
+          "intro": "Public data more often documents implementation through ozone system suppliers and textile processors. The table below lists publicly verifiable companies and use directions.",
+          "tableCaption": "Company examples",
+          "tableHeaders": ["Company", "Country", "What they do", "Link"],
+          "tableData": [
+            ["OZONE SILK INDIA LLP", "India", "Textile manufacturer; representative of markets where ozone solutions are integrated across silk and fabric workflows", "https://ozonetextile.com/"],
+            ["Ozonetek Limited", "India", "Industrial ozone generators for textile, water, and sanitation applications", "https://www.ozonetek.com/"],
+            ["Primozone", "Sweden / international projects", "High-concentration ozone systems for textile wastewater treatment and water reuse", "https://www.primozone.com/applications-solutions/industrial-applications/textile-waste-water/"],
+            ["ZONO Technologies", "USA", "Ozone-based sanitation of apparel and textile handling streams", "https://zonotechnologies.com/case-study/sanitizing-apparel-onsite-with-ozone/"]
+          ]
+        },
+        "research": {
+          "title": "Scientific studies and technical references",
+          "intro": "For sericulture projects, engineering decisions should rely on verifiable studies rather than marketing-only claims. The references below cover ozone impact on silk and adjacent process steps.",
+          "tableCaption": "Selected references",
+          "tableHeaders": ["Study", "Key finding", "Link"],
+          "tableData": [
+            ["Effects of ozone treatment on raw and degummed tassar silk fabrics (J. Appl. Polym. Sci.)", "Ozone changes key silk material properties and can be used as a process tool when properly controlled", "https://onlinelibrary.wiley.com/doi/10.1002/app.24761"],
+            ["Effect of Ozone Treatment on the Dyeing Properties of Mulberry and Tassar Silk Fabrics", "Shows measurable changes in dyeing behavior after ozone treatment", "https://journals.sagepub.com/doi/10.1177/155892501200700304"],
+            ["Sericulture statistics and market geography (ISC)", "Confirms major producer and consumer countries for silk", "https://inserco.org/en/statistics"],
+            ["Textile wastewater treatment with high-concentration ozone (Primozone)", "Documents industrial ozone use in textile chains relevant for compliance and sustainability", "https://www.primozone.com/applications-solutions/industrial-applications/textile-waste-water/"],
+            ["Ozonetek textile and laundry water treatment", "Provides examples of ozone implementation in textile and hygiene workflows", "https://www.ozonetek.com/laundry-water.html"]
+          ]
+        },
+        "scheme": {
+          "title": "Recommended factory implementation flow",
+          "steps": [
+            {
+              "title": "Line audit",
+              "description": "Assess losses, energy profile, odor load, microbiology, and quality bottlenecks in current cocoon handling."
+            },
+            {
+              "title": "Pilot chamber",
+              "description": "Install a sealed pilot chamber with concentration, temperature, humidity, and exposure-time control."
+            },
+            {
+              "title": "Regime tuning",
+              "description": "Tune operating windows for cocoon variety and tray-bed thickness."
+            },
+            {
+              "title": "Safety layer",
+              "description": "Deploy ventilation, leak sensors, interlocks, and operator access protocols."
+            },
+            {
+              "title": "Quality KPIs",
+              "description": "Track thread strength, color, residual moisture, microbiology, and reject rate by lot."
+            },
+            {
+              "title": "Scale-up",
+              "description": "After KPI confirmation, expand to production capacity and lock into SOP."
+            }
+          ]
+        },
+        "economics": {
+          "title": "Economic effect (model for 1 ton of raw cocoons)",
+          "intro": "Actual economics depends on local tariffs and cocoon quality. The table below is a reference model used in feasibility assessments for ozone line investment.",
+          "tableCaption": "Reference frame for techno-economic evaluation",
+          "tableHeaders": ["Indicator", "Thermal scheme", "Ozone scheme", "Comment"],
+          "tableData": [
+            ["Energy costs", "High (heating/steam)", "Lower with cold process logic", "Pilot projects often report visible savings"],
+            ["Odor and workplace load", "Higher ventilation burden", "Lower odor with correct ozone destruction", "Ventilation and safety design remain mandatory"],
+            ["Mold risk in storage", "Higher in wet regimes", "Lower in dry disinfection mode", "Warehouse humidity control is still required"],
+            ["Thread quality stability", "Sensitive to overheating", "More stable under tuned ozone regimes", "Must be verified by on-site lab tests"],
+            ["Lot market value", "Base grade", "Potential premium uplift", "Depends on buyer contract and quality specification"]
+          ]
+        },
+        "benefits": {
+          "title": "Core benefits for silk enterprises",
+          "items": [
+            {
+              "title": "Raw material hygiene",
+              "description": "Reduced microbial load without aggressive chemistry and without water saturation of cocoons."
+            },
+            {
+              "title": "Color and structure stability",
+              "description": "Less thermal stress on fiber when operating windows are tuned correctly."
+            },
+            {
+              "title": "Lower odor burden",
+              "description": "Ozone oxidizes compounds responsible for strong process-zone odors."
+            },
+            {
+              "title": "Lower operating expenses",
+              "description": "Reduced share of heating costs and part of sanitation chemicals."
+            },
+            {
+              "title": "Environmental compliance",
+              "description": "Fits well into green textile strategies and export market requirements."
+            },
+            {
+              "title": "Scalable deployment",
+              "description": "Can start with a pilot and scale to full capacity without stopping the whole plant."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

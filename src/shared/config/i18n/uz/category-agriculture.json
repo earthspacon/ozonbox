@@ -29,6 +29,10 @@
     "beekeeping": {
       "title": "Asalarichilik",
       "shortDesc": "Uya va kishanlarni dezinfeksiya qilish hamda asalari kasalliklarini nazorat qilish"
+    },
+    "sericulture": {
+      "title": "Pillachilik",
+      "shortDesc": "Pillani ozon bilan ishlash, dezinfeksiya va ipak sifati barqarorligini oshirish"
     }
   }
 }

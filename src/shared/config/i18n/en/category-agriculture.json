@@ -29,6 +29,10 @@
     "beekeeping": {
       "title": "Beekeeping",
       "shortDesc": "Hive and comb disinfection and bee disease control"
+    },
+    "sericulture": {
+      "title": "Sericulture",
+      "shortDesc": "Ozone cocoon treatment, disinfection, and more stable silk quality"
     }
   }
 }

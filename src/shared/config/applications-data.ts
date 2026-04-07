@@ -47,6 +47,11 @@ export const APPLICATION_CATEGORIES: ApplicationCategory[] = [
       { id: 'aquaculture', image: 'https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?w=800&q=80' },
       { id: 'grain-storage', image: 'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=800&q=80' },
       { id: 'beekeeping', image: 'https://images.unsplash.com/photo-1647427062468-74ff21e8934f?w=800&q=80' },
+      {
+        id: 'sericulture',
+        image:
+          'https://images.unsplash.com/photo-1677142712515-10395dd3e469?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      },
     ],
   },
   {

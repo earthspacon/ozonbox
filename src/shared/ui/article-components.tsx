@@ -75,6 +75,25 @@ interface DataTableProps {
 }
 
 export function DataTable({ headers, rows, caption }: DataTableProps) {
+  const isExternalUrl = (value: string) => /^https?:\/\//.test(value)
+
+  const renderCell = (cell: string | number) => {
+    if (typeof cell === 'string' && isExternalUrl(cell)) {
+      return (
+        <a
+          href={cell}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary hover:text-primary-dark inline-flex items-center gap-1 underline underline-offset-2 transition-colors"
+        >
+          {cell}
+        </a>
+      )
+    }
+
+    return cell
+  }
+
   return (
     <div className="my-8 overflow-x-auto">
       <table className="w-full border-collapse overflow-hidden rounded-xl bg-white shadow-sm">
@@ -93,7 +112,7 @@ export function DataTable({ headers, rows, caption }: DataTableProps) {
             <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-bg-light'}>
               {row.map((cell, j) => (
                 <td key={j} className="border-border border-t px-4 py-3 text-sm">
-                  {cell}
+                  {renderCell(cell)}
                 </td>
               ))}
             </tr>

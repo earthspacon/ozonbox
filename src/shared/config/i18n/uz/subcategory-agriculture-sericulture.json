@@ -1,0 +1,172 @@
+{
+  "title": "Qishloq xo'jaligi",
+  "description": "Qishloq xo'jaligida ozonlash bioxavfsizlikni kuchaytiradi, mahsulot sifatini barqarorlashtiradi va saqlash hamda qayta ishlashdagi yo'qotishlarni kamaytiradi.",
+  "subcategories": {
+    "sericulture": {
+      "title": "Pillachilik",
+      "shortDesc": "Pillani ozon bilan ishlash: dezinfeksiya, hidlarni kamaytirish va ipak sifatini barqarorlashtirish",
+      "heroText": "Pillachilikda ozon pilla xomashyosini sovuq usulda dezinfeksiya qilish, mikrob yukini kamaytirish va saqlash hamda ip chiqarishdan oldin sifatni barqaror saqlash uchun qo'llanadi.",
+      "stats": {
+        "productionShare": {
+          "value": ">90%",
+          "label": "Jahon ipak bozorida Osiyo ulushi",
+          "description": "International Sericultural Commission ma'lumotlariga ko'ra"
+        },
+        "energySaving": {
+          "value": "70-80% gacha",
+          "label": "Energiya tejalishi",
+          "description": "Issiqlik bilan ishlovning bir qismini ozon bilan almashtirganda"
+        },
+        "microbialReduction": {
+          "value": "99% gacha",
+          "label": "Mikrob yukining kamayishi",
+          "description": "To'g'ri tanlangan rejimlarda odatiy ko'rsatkich"
+        },
+        "qualityGain": {
+          "value": "+12-15%",
+          "label": "Ipak ipi mustahkamligi",
+          "description": "Ayrim tadqiqotlarda tolaga zarar kamroq bo'lishi qayd etilgan"
+        }
+      },
+      "content": "Pillachilikda ozon texnologiyasi pilla tayyorlash va to'qimachilikdagi ayrim bosqichlarda issiqlik hamda kimyoviy usullarga muqobil yechim sifatida ko'rilmoqda. Asosiy afzallik - ortiqcha namlik bermasdan sovuq dezinfeksiya va hid hosil qiluvchi birikmalarni oksidlash.\n\nAmaliyotda bu ombor va kamera ichida gigiyenani yaxshilaydi, biologik xavflarni kamaytiradi va keyingi ip chiqarish bosqichida xomashyo sifatini barqarorlashtiradi.",
+      "benefits": [
+        "Pilla yuzasi va saqlash kameralarida bioloadning kamayishi",
+        "Ammiak va uchuvchi organik hidlarning kamayishi",
+        "Ayrim bosqichlarda suv va kimyoviy vositalar sarfining qisqarishi",
+        "Partiyalar sifati yanada barqaror bo'lishi",
+        "Germetik tizimlarda xodimlar uchun xavfsizroq ish muhiti",
+        "HACCP va ichki sifat reglamentlariga qulay integratsiya"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Pillachilik samaradorligi ikki omilga tayanadi: xom pilla gigiyenasi va tola tuzilmasining saqlanishi. An'anaviy issiqlik usullarida energiya sarfi yuqori bo'lishi, noxush hidlar va partiyalar sifatidagi notekislik uchrashi mumkin.",
+          "paragraph2": "Ozon texnologiyasi nazorat qilinadigan sovuq ishlov tarzida qo'llanadi: gaz germetik kameraga beriladi, konsentratsiya va vaqt aniq boshqariladi, keyin ventilyatsiya hamda qoldiq ozon nazorati bajariladi."
+        },
+        "protocol": {
+          "title": "Texnologik yondashuv:",
+          "text": "Ish rejimi pilla turi, qatlam qalinligi, harorat va namlikka qarab tanlanadi. Har bir korxonada parametrlar avval pilot sinov orqali tasdiqlanishi kerak."
+        },
+        "advantages": {
+          "title": "Nega pillachilik korxonalari ozonni ko'rib chiqmoqda",
+          "items": [
+            "Qaynatishsiz va ortiqcha namliksiz sovuq dezinfeksiya",
+            "Saqlashda mog'or va ikkilamchi ifloslanish xavfining kamayishi",
+            "Ishlab chiqarish zonalari hamda omborlarda dezodoratsiya",
+            "Kimyoviy fumigantlarga qaramlikning qisqarishi",
+            "Ventilyatsiya, ORP nazorati va xavfsizlik avtomatikasi bilan uyg'un ishlash",
+            "Bosqichma-bosqich joriy etish: pilot -> liniya -> kengaytirish"
+          ]
+        },
+        "geography": {
+          "title": "Yirik pillachilik mamlakatlari va ozon uchun amaliy salohiyat",
+          "intro": "ISC statistikasi bo'yicha sohaning asosiy qismi Osiyoda jamlangan. Katta hajm va eksport sifati talablari sabab aynan shu hududda ozon texnologiyasining iqtisodiy samarasi yuqori bo'ladi.",
+          "tableCaption": "Texnologiya dolzarb bo'lgan mamlakatlar",
+          "tableHeaders": ["Mamlakat", "Bozordagi o'rni", "Ozon nima uchun joriy etiladi", "Manba"],
+          "tableData": [
+            ["Xitoy", "Jahondagi eng yirik ipak ishlab chiqaruvchi", "Katta hajmda biotahdidlarni kamaytirish va sifatni barqaror ushlash", "https://inserco.org/en/statistics"],
+            ["Hindiston", "Jahondagi ikkinchi yirik ishlab chiqaruvchi", "Xomashyo gigiyenasi, hidlarni kamaytirish va modernizatsiya", "https://inserco.org/en/statistics"],
+            ["O'zbekiston", "Markaziy Osiyodagi muhim ishlab chiqaruvchi", "Energiya sarfini kamaytirish va eksport sifati barqarorligi", "https://inserco.org/en/statistics"],
+            ["Yaponiya", "Premium ipak segmentidagi texnologik bozor", "Yuqori sinf mahsulot uchun nazorat qilinadigan jarayonlar", "https://inserco.org/en/statistics"],
+            ["Italiya", "Yirik ipak iste'molchisi va qayta ishlovchisi", "Kiruvchi xomashyo tozaligi va barqarorligiga yuqori talab", "https://inserco.org/en/statistics"]
+          ]
+        },
+        "companies": {
+          "title": "Ozon bilan ishlaydigan kompaniyalar va texnologik yetkazib beruvchilar",
+          "intro": "Ochiq manbalarda ko'proq ozon tizimi yetkazib beruvchilari va to'qimachilik korxonalari orqali joriy etish holatlari uchraydi. Quyida tekshiriladigan kompaniyalar keltirilgan.",
+          "tableCaption": "Kompaniyalar misoli",
+          "tableHeaders": ["Kompaniya", "Mamlakat", "Faoliyat yo'nalishi", "Havola"],
+          "tableData": [
+            ["OZONE SILK INDIA LLP", "Hindiston", "To'qimachilik ishlab chiqaruvchisi; ipak va mato zanjirida ozon yechimlari qo'llanadigan bozor misoli", "https://ozonetextile.com/"],
+            ["Ozonetek Limited", "Hindiston", "To'qimachilik, suv va sanitariya uchun sanoat ozon generatorlari", "https://www.ozonetek.com/"],
+            ["Primozone", "Shvetsiya / xalqaro loyihalar", "To'qimachilik oqova suvlari uchun yuqori konsentratsiyali ozon va suvni qayta ishlatish yechimlari", "https://www.primozone.com/applications-solutions/industrial-applications/textile-waste-water/"],
+            ["ZONO Technologies", "AQSh", "Kiyim va to'qimachilik oqimlarida ozon asosidagi sanitariya ishlovi", "https://zonotechnologies.com/case-study/sanitizing-apparel-onsite-with-ozone/"]
+          ]
+        },
+        "research": {
+          "title": "Ilmiy tadqiqotlar va texnik havolalar",
+          "intro": "Pillachilik loyihalarida qarorlar reklama matniga emas, tekshiriladigan ilmiy manbalarga tayanishi kerak. Quyidagi manbalar ozonning ipak va unga yaqin jarayonlardagi ta'sirini yoritadi.",
+          "tableCaption": "Tanlangan manbalar",
+          "tableHeaders": ["Tadqiqot", "Asosiy xulosa", "Havola"],
+          "tableData": [
+            ["Effects of ozone treatment on raw and degummed tassar silk fabrics (J. Appl. Polym. Sci.)", "Ozon ipak material xossalariga ta'sir qiladi va to'g'ri boshqarilganda texnologik vosita bo'la oladi", "https://onlinelibrary.wiley.com/doi/10.1002/app.24761"],
+            ["Effect of Ozone Treatment on the Dyeing Properties of Mulberry and Tassar Silk Fabrics", "Ozon bilan ishlovdan keyin bo'yash parametrlarida sezilarli o'zgarishlar kuzatilgan", "https://journals.sagepub.com/doi/10.1177/155892501200700304"],
+            ["Sericulture statistics and market geography (ISC)", "Ipak bozoridagi yirik ishlab chiqaruvchi va iste'molchi mamlakatlarni tasdiqlaydi", "https://inserco.org/en/statistics"],
+            ["Textile wastewater treatment with high-concentration ozone (Primozone)", "To'qimachilik zanjirida sanoat ozon qo'llanilishi va ekologik moslik bo'yicha amaliy yo'nalish", "https://www.primozone.com/applications-solutions/industrial-applications/textile-waste-water/"],
+            ["Ozonetek textile and laundry water treatment", "To'qimachilik va gigiyena jarayonlarida ozon joriy etish bo'yicha amaliy misollar", "https://www.ozonetek.com/laundry-water.html"]
+          ]
+        },
+        "scheme": {
+          "title": "Korxonada joriy etishning tavsiya etilgan sxemasi",
+          "steps": [
+            {
+              "title": "Liniya auditi",
+              "description": "Amaldagi jarayonda yo'qotishlar, energiya sarfi, hidlar, mikrobiologiya va sifatdagi zaif nuqtalarni baholash."
+            },
+            {
+              "title": "Pilot kamera",
+              "description": "Konsentratsiya, harorat, namlik va ekspozitsiya vaqtini nazorat qiluvchi germetik pilot kamerani o'rnatish."
+            },
+            {
+              "title": "Rejimlarni moslash",
+              "description": "Pilla turi va podnosdagi qatlam qalinligiga mos ish diapazonini tanlash."
+            },
+            {
+              "title": "Xavfsizlik konturi",
+              "description": "Ventilyatsiya, sizib chiqish datchiklari, blokirovka va xodimlar kirish reglamentini joriy qilish."
+            },
+            {
+              "title": "Sifat KPI",
+              "description": "Partiya bo'yicha ip mustahkamligi, rang, qoldiq namlik, mikrobiologiya va brak ulushini kuzatish."
+            },
+            {
+              "title": "Masshtablash",
+              "description": "KPI tasdiqlangach, yechimni asosiy quvvatga kengaytirish va SOPga biriktirish."
+            }
+          ]
+        },
+        "economics": {
+          "title": "Iqtisodiy samara (1 tonna xom pilla modeli)",
+          "intro": "Haqiqiy iqtisodiy natija mahalliy tariflar va xomashyo sifatiga bog'liq. Jadval ozon liniyasiga investitsiya bahosida qo'llanadigan orientir modelni ko'rsatadi.",
+          "tableCaption": "Texnik-iqtisodiy baholash uchun orientir",
+          "tableHeaders": ["Ko'rsatkich", "Issiqlik sxemasi", "Ozon sxemasi", "Izoh"],
+          "tableData": [
+            ["Energiya xarajati", "Yuqori (qizdirish/bug')", "Sovuq jarayon hisobiga pastroq", "Pilotlarda ko'pincha sezilarli tejalish kuzatiladi"],
+            ["Hid va ishchi muhit yuklamasi", "Ventilyatsiya yuklamasi yuqori", "To'g'ri destruktsiyada hid kamayadi", "Ventilyatsiya va xavfsizlik baribir majburiy"],
+            ["Saqlashda mog'or xatari", "Nam rejimlarda yuqoriroq", "Quruq dezinfeksiyada pastroq", "Ombor namligini nazorat qilish zarur"],
+            ["Ip sifati barqarorligi", "Qizib ketishga sezgir", "Moslangan ozon rejimida barqarorroq", "Har korxonada laboratoriya bilan tekshiriladi"],
+            ["Partiya bozor bahosi", "Bazaviy klass", "Premium ustama olish salohiyati", "Xaridor kontrakti va standartiga bog'liq"]
+          ]
+        },
+        "benefits": {
+          "title": "Ipak korxonasi uchun asosiy foydalar",
+          "items": [
+            {
+              "title": "Xomashyo gigiyenasi",
+              "description": "Agressiv kimyosiz va pillani namlab yubormasdan mikrob yukini kamaytiradi."
+            },
+            {
+              "title": "Rang va tuzilma barqarorligi",
+              "description": "To'g'ri rejimda tolaga issiqlik stresi kamroq bo'ladi."
+            },
+            {
+              "title": "Hidlarning kamayishi",
+              "description": "Ishlab chiqarish zonasidagi o'tkir hid manbalarini ozon oksidlaydi."
+            },
+            {
+              "title": "Operatsion xarajatlar pasayishi",
+              "description": "Qizdirish xarajatlari va sanitariya kimyosining bir qismi qisqaradi."
+            },
+            {
+              "title": "Ekologik moslik",
+              "description": "Green textile yondashuvi va eksport bozorlaridagi talablar bilan mos ishlaydi."
+            },
+            {
+              "title": "Masshtablash qulayligi",
+              "description": "Pilotdan boshlab butun liniyagacha bosqichma-bosqich kengaytirish mumkin."
+            }
+          ]
+        }
+      }
+    }
+  }
+}
