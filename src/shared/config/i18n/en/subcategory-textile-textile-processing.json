@@ -1,0 +1,257 @@
+{
+  "title": "Textile Industry",
+  "description": "Ozonation in textiles helps lower water and chemical use in fabric finishing and supports treatment of complex dyed wastewater.",
+  "subcategories": {
+    "textile-processing": {
+      "title": "Ozone in textile processing: countries, companies, and verified results",
+      "shortDesc": "How ozone is used in denim and fabric finishing, which countries and companies already deploy it, and what studies show",
+      "heroText": "In textiles, ozone is mainly used in two areas: fabric finishing (especially denim) and polishing treatment of colored wastewater. Below are practical cases and studies with verifiable sources.",
+      "stats": {
+        "waterReduction": {
+          "value": "up to 95%",
+          "label": "Water savings",
+          "description": "Reported by Jeanologia G2 for selected denim finishing processes"
+        },
+        "chemicalReduction": {
+          "value": "up to 100%",
+          "label": "Chemical reduction",
+          "description": "In selected effects (such as ozone bleaching), based on equipment vendor data"
+        },
+        "energyReduction": {
+          "value": "up to 80%",
+          "label": "Energy reduction",
+          "description": "Public case data from Jeanologia / Ellen MacArthur Foundation"
+        },
+        "decolorization": {
+          "value": "98-99%",
+          "label": "Wastewater decolorization",
+          "description": "Shown in studies on textile wastewater ozonation"
+        }
+      },
+      "content": "Ozone in textiles is not a single operation but a set of engineering solutions: ozone cabinets and drums for finishing, plus ozone loops in wastewater treatment. Factories usually introduce it where they need lower water and chemistry use and more stable lot-to-lot quality.\n\nThe practical effect depends on the exact line, recipe, fabric, and automation level. The right approach is pilot first, KPI measurement second, and only then full-scale rollout.",
+      "benefits": [
+        "Lower water use in denim and dyed fabric finishing",
+        "Reduced dependence on aggressive chemicals in part of operations",
+        "Stable and repeatable aging/lightening effects",
+        "Lower color and toxicity load in difficult wastewater streams under correct process design",
+        "Easier alignment with brand sustainability requirements",
+        "Step-by-step deployment without stopping the whole factory"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "Textile manufacturing is highly resource-intensive, especially in wet processing and finishing. That is why ozone technologies are growing as an alternative to part of conventional chlorine-based and other oxidative treatments.",
+          "paragraph2": "In practice, ozone is used for finishing (denim, vintage effects, shade correction) and for wastewater treatment (decolorization, oxidation of persistent organics, and toxicity reduction before biological stages)."
+        },
+        "protocol": {
+          "title": "Technology framework:",
+          "text": "Ozone is delivered into a sealed system with control of concentration, exposure time, humidity, and temperature. After treatment, residual ozone is destructed and safe ventilation is ensured. For wastewater, ozonation is usually integrated into a combined scheme (biology + AOP)."
+        },
+        "advantages": {
+          "title": "Why textile factories move to ozone",
+          "items": [
+            "Improved sustainability KPIs and reporting for international brands",
+            "Lower specific water and energy use in selected operations",
+            "More controllable visual effects on denim",
+            "Reduced chemical logistics and reagent use in part of the line",
+            "Better polishing quality for colored wastewater",
+            "Faster payback on high-volume finishing lines"
+          ]
+        },
+        "geography": {
+          "title": "Where adoption is most active",
+          "intro": "Ozone adoption is strongest in countries with large denim exports and mature textile-equipment ecosystems.",
+          "tableCaption": "Countries and practical adoption focus",
+          "tableHeaders": ["Country", "Market role", "Ozone use practice", "Source"],
+          "tableData": [
+            [
+              "Spain",
+              "Technology hub for denim finishing solutions",
+              "Industrial deployment of G2/Ozone systems in global supply chains",
+              "https://www.jeanologia.com/portfolio/g2/"
+            ],
+            [
+              "Italy",
+              "Major center of machinery and process expertise",
+              "Tonello ozone technologies (EGO, OBleach, O-Zone) for finishing",
+              "https://tonello.com/en/ozone-washing-technologies-for-denim/"
+            ],
+            [
+              "India",
+              "One of the largest textile markets",
+              "Industrial ozone generators in textile and water loops",
+              "https://www.ozonetek.com/"
+            ],
+            [
+              "Pakistan",
+              "Major denim exporter",
+              "Factories deploying ozone/eco-wash concepts (for example, Taiga Apparel)",
+              "https://www.taiga-apparel.com/"
+            ],
+            [
+              "Bangladesh",
+              "One of the largest washing and garment hubs",
+              "Studies on factory sustainability and migration to cleaner processes including ozone",
+              "https://eprints.soton.ac.uk/480642/"
+            ]
+          ]
+        },
+        "companies": {
+          "title": "Real companies and projects",
+          "intro": "Below are companies with public materials on ozone in textile workflows, from finishing to wastewater treatment.",
+          "tableCaption": "Companies where ozone is part of industrial practice",
+          "tableHeaders": ["Company", "Country", "What they do", "Link"],
+          "tableData": [
+            [
+              "Jeanologia",
+              "Spain",
+              "G2 ozone technologies for waterless/low-impact denim processing",
+              "https://www.jeanologia.com/portfolio/g2/"
+            ],
+            [
+              "Tonello",
+              "Italy",
+              "Ozone systems for denim finishing (EGO, OBleach, O-Zone)",
+              "https://tonello.com/en/ozone-washing-technologies-for-denim/"
+            ],
+            [
+              "Ozonetek Limited",
+              "India",
+              "Industrial ozone solutions for textile and water treatment loops",
+              "https://www.ozonetek.com/laundry-water.html"
+            ],
+            [
+              "Taiga Apparel",
+              "Pakistan",
+              "Publicly reports Jeanologia Eco Ozone use in denim production",
+              "https://www.taiga-apparel.com/"
+            ],
+            [
+              "Primozone",
+              "Sweden",
+              "High-concentration ozone for textile wastewater treatment",
+              "https://www.primozone.com/applications-solutions/industrial-applications/textile-waste-water/"
+            ]
+          ]
+        },
+        "research": {
+          "title": "Scientific studies and technical references",
+          "intro": "Engineering decisions should rely on peer-reviewed studies and technical case material, not only vendor marketing claims.",
+          "tableCaption": "Verifiable references on ozone in textiles",
+          "tableHeaders": ["Study / material", "Key result", "Link"],
+          "tableData": [
+            [
+              "Eco-Friendly Ozone Process for Denim Garments (2024)",
+              "Shows practical ozone treatment windows for denim and potential environmental load reduction",
+              "https://link.springer.com/article/10.1007/s12221-024-00589-2"
+            ],
+            [
+              "Effects of ozone treatment on denim garment properties",
+              "Confirms measurable ozone impact on denim properties and the importance of correct process tuning",
+              "https://onlinelibrary.wiley.com/doi/10.1111/cote.12568"
+            ],
+            [
+              "Finishing of denim fabrics with ozone in water",
+              "Describes ozone effects in aqueous denim finishing",
+              "https://medcraveonline.com/JTEFT/JTEFT-05-00189.pdf"
+            ],
+            [
+              "Integrated biological and ozone treatment of printing textile wastewater",
+              "Combined biology + ozone shows high efficiency in reducing color and pollutants",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1385894712005773"
+            ],
+            [
+              "AOP review for textile wastewater (Water, MDPI)",
+              "Highlights ozone and catalytic ozonation as practical tools for difficult dye pollutants",
+              "https://www.mdpi.com/2073-4441/13/24/3515"
+            ]
+          ],
+          "note": {
+            "title": "Important:",
+            "text": "Some indicators (for example, “up to 95% water savings”) refer to specific processes and machine configurations. Validate all parameters on your own pilot line before full investment."
+          }
+        },
+        "scheme": {
+          "title": "Recommended implementation sequence at a factory",
+          "steps": [
+            {
+              "title": "Audit the current line",
+              "description": "Measure baseline water, energy, chemicals, rejects, and wastewater treatment KPIs."
+            },
+            {
+              "title": "Run a pilot on one process",
+              "description": "Launch ozone on one operation (for example, denim finishing) and compare quality to the baseline."
+            },
+            {
+              "title": "Parallel quality control",
+              "description": "Track shade, strength, lot repeatability, and cycle time under real production conditions."
+            },
+            {
+              "title": "Integrate safety",
+              "description": "Deploy leak sensors, ozone destruct unit, ventilation, and access interlocks."
+            },
+            {
+              "title": "Extend to ETP if needed",
+              "description": "Add ozonation into wastewater treatment as a dedicated process block when required."
+            },
+            {
+              "title": "Scale up",
+              "description": "After KPI confirmation, expand to more processes and lock settings in SOPs."
+            }
+          ]
+        },
+        "economics": {
+          "title": "Project economics (reference model)",
+          "intro": "Actual numbers depend on production volume, water/energy tariffs, and target quality. The table below is a practical reference for techno-economic assessment.",
+          "tableCaption": "Before/after pilot comparison",
+          "tableHeaders": ["Indicator", "Baseline scheme", "With ozone", "Comment"],
+          "tableData": [
+            ["Water per unit output", "Higher", "Lower", "Most visible impact usually appears in denim finishing"],
+            ["Chemical use", "Higher", "Lower in selected processes", "Depends on each factory recipe map"],
+            ["Energy", "Higher", "Often lower", "Especially when replacing part of thermal operations"],
+            [
+              "Result consistency",
+              "Sensitive to manual operations",
+              "Higher with automation",
+              "Requires disciplined process settings"
+            ],
+            [
+              "ETP load",
+              "Higher color burden",
+              "Lower with proper integration",
+              "Combined approach (biology + ozone) is often optimal"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "Core benefits for textile enterprises",
+          "items": [
+            {
+              "title": "Resource efficiency",
+              "description": "Lower water and partial chemical usage in high-volume finishing operations."
+            },
+            {
+              "title": "Export competitiveness",
+              "description": "Easier confirmation of sustainability KPIs for international brand customers."
+            },
+            {
+              "title": "Quality and repeatability",
+              "description": "Automated ozone regimes deliver more consistent lot-to-lot output."
+            },
+            {
+              "title": "Environmental safety",
+              "description": "With proper engineering, wastewater and chemical footprint are reduced."
+            },
+            {
+              "title": "Flexible rollout",
+              "description": "Start with one operation and scale gradually across the plant."
+            },
+            {
+              "title": "Transparent verification",
+              "description": "Results are measurable through water, energy, lab tests, and ETP KPIs."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

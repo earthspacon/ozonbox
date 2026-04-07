@@ -1,0 +1,10 @@
+{
+  "title": "To'qimachilik sanoati",
+  "description": "To'qimachilikda ozonlash matoni pardozlashda suv va kimyo sarfini kamaytiradi hamda murakkab bo'yalgan oqava suvlarni tozalashga yordam beradi.",
+  "subcategories": {
+    "textile-processing": {
+      "title": "To'qimachilik ishlovida ozon",
+      "shortDesc": "Denim pardozlash, oqartirish, sanitariya va to'qimachilik oqava suvlarini tozalash bo'yicha real mamlakat misollari"
+    }
+  }
+}

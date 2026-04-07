@@ -1,0 +1,10 @@
+{
+  "title": "Textile Industry",
+  "description": "Ozonation in textiles helps lower water and chemical use in fabric finishing and supports treatment of complex dyed wastewater.",
+  "subcategories": {
+    "textile-processing": {
+      "title": "Ozone in textile processing",
+      "shortDesc": "Denim finishing, bleaching, sanitation, and textile wastewater treatment with real country-level cases"
+    }
+  }
+}

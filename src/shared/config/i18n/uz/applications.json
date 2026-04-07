@@ -40,6 +40,10 @@
       "title": "Omborlar",
       "description": "Ombor binolarini ozonlash mog'or o'sishini oldini oladi, hidlarni kamaytiradi va tovarlarning saqlanishini ta'minlaydi."
     },
+    "textile": {
+      "title": "To'qimachilik sanoati",
+      "description": "To'qimachilikda ozon denim ishlovi, xlorsiz oqartirish, suv sarfini kamaytirish va oqava suvlarni chuqur tozalashda qo'llanadi."
+    },
     "industry": {
       "title": "Sanoat",
       "description": "Sanoatda ozonlash ishlab chiqarishning maxsus vazifalarini hal qiladi: neft mahsulotlarini tozalash, binolarni dezinfeksiya qilish, suvni tayyorlash."

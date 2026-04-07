@@ -123,6 +123,19 @@ export const APPLICATION_CATEGORIES: ApplicationCategory[] = [
     ],
   },
   {
+    id: 'textile',
+    icon: 'IconFactory',
+    image:
+      'https://images.unsplash.com/photo-1675176785803-bffbbb0cd2f4?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    subcategories: [
+      {
+        id: 'textile-processing',
+        image:
+          'https://images.unsplash.com/photo-1542044801-30d3e45ae49a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      },
+    ],
+  },
+  {
     id: 'industry',
     icon: 'IconFactory',
     image: 'https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=800&q=80',

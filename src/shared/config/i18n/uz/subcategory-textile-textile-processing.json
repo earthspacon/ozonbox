@@ -1,0 +1,257 @@
+{
+  "title": "To'qimachilik sanoati",
+  "description": "To'qimachilikda ozonlash matoni pardozlashda suv va kimyo sarfini kamaytiradi hamda murakkab bo'yalgan oqava suvlarni tozalashga yordam beradi.",
+  "subcategories": {
+    "textile-processing": {
+      "title": "To'qimachilik ishlovida ozon: mamlakatlar, kompaniyalar va tasdiqlangan natijalar",
+      "shortDesc": "Ozon denim va mato pardozida qanday ishlatiladi, qaysi mamlakat va kompaniyalar uni amalda qo'llayapti, tadqiqotlar nima deydi",
+      "heroText": "To'qimachilikda ozon asosan ikki yo'nalishda ishlatiladi: mato pardozlash (ayniqsa denim) va bo'yalgan oqava suvlarni qo'shimcha tozalash. Quyida real manbalar bilan amaliy misollar berilgan.",
+      "stats": {
+        "waterReduction": {
+          "value": "95% gacha",
+          "label": "Suv tejalishi",
+          "description": "Jeanologia G2 ma'lumotlariga ko'ra denim pardozining ayrim jarayonlarida"
+        },
+        "chemicalReduction": {
+          "value": "100% gacha",
+          "label": "Kimyo kamayishi",
+          "description": "Ayrim effektlarda (masalan, ozon bilan oqartirish) uskuna ishlab chiqaruvchilari ma'lumotlariga ko'ra"
+        },
+        "energyReduction": {
+          "value": "80% gacha",
+          "label": "Energiya kamayishi",
+          "description": "Jeanologia / Ellen MacArthur Foundation ochiq keyslari asosida"
+        },
+        "decolorization": {
+          "value": "98-99%",
+          "label": "Oqava suv rangsizlanishi",
+          "description": "To'qimachilik oqava suvlarini ozonlash bo'yicha tadqiqotlarda ko'rsatilgan"
+        }
+      },
+      "content": "To'qimachilikda ozon birgina operatsiya emas, balki muhandislik yechimlari to'plamidir: pardozlash uchun ozon kamerasi va barabanlari, shuningdek oqava suvni tozalashdagi ozon konturlari. Fabrikalar bu texnologiyani odatda suv va kimyo sarfini kamaytirish hamda partiyalar bo'yicha sifat barqarorligini oshirish uchun joriy qiladi.\n\nAmaliy natija liniya konfiguratsiyasi, retseptura, mato turi va avtomatlashtirishga bog'liq. Shu sababli to'g'ri yo'l — avval pilot sinov, keyin KPI o'lchovi, undan so'ng to'liq masshtablash.",
+      "benefits": [
+        "Denim va bo'yalgan mato pardozida suv sarfining kamayishi",
+        "Jarayonlarning bir qismida agressiv kimyoviy moddalarga ehtiyojning kamayishi",
+        "Eskitish va ochartirish effektlarining barqaror takrorlanishi",
+        "To'g'ri sxemada murakkab oqava suvdagi rang va toksiklik yukining pasayishi",
+        "Brendlarning barqarorlik talablariga moslashish osonlashishi",
+        "Butun fabrikani to'xtatmasdan bosqichma-bosqich joriy etish imkoniyati"
+      ],
+      "sections": {
+        "intro": {
+          "paragraph1": "To'qimachilik eng resurs talab qiladigan tarmoqlardan biri: ayniqsa nam ishlov va pardoz bosqichlarida suv hamda kimyo sarfi yuqori. Shu bois ozon texnologiyalari xlor asosidagi va boshqa oksidlovchi jarayonlarning bir qismini almashtirish uchun tez rivojlanmoqda.",
+          "paragraph2": "Amaliyotda ozon pardozlashda (denim, vintage effektlar, rangni nozik tuzatish) va oqava suvni tozalashda (rangsizlantirish, murakkab organik moddalarning oksidlanishi, biologik bosqich oldidan toksiklikni kamaytirish) qo'llanadi."
+        },
+        "protocol": {
+          "title": "Texnologik yondashuv:",
+          "text": "Ozon germetik tizimga kontsentratsiya, vaqt, namlik va harorat nazorati bilan beriladi. Ishlovdan keyin qoldiq ozon xavfsiz parchalanadi va shamollatish ta'minlanadi. Oqava suvda esa ozonlash odatda kombinatsiyalangan sxemaga (biologiya + AOP) ulanadi."
+        },
+        "advantages": {
+          "title": "Nega to'qimachilik fabrikalari ozonga o'tmoqda",
+          "items": [
+            "Xalqaro brendlar uchun ekologik KPI va hisobot ko'rsatkichlarini yaxshilash",
+            "Ayrim jarayonlarda suv va energiyaning solishtirma sarfini kamaytirish",
+            "Denimda vizual effektlarni aniqroq boshqarish",
+            "Kimyoviy modda logistikasini va ayrim reagentlar sarfini qisqartirish",
+            "Bo'yalgan oqava suvni qo'shimcha tozalash sifatini oshirish",
+            "Katta hajmli pardoz liniyalarida tezroq iqtisodiy qaytish"
+          ]
+        },
+        "geography": {
+          "title": "Texnologiya qayerlarda faolroq joriy etilgan",
+          "intro": "Ozon to'qimachilikda denim eksporti kuchli va texnologik uskuna ekotizimi rivojlangan mamlakatlarda faolroq tarqalgan.",
+          "tableCaption": "Mamlakatlar va amaliy joriy etish yo'nalishi",
+          "tableHeaders": ["Mamlakat", "Bozordagi roli", "Ozon qo'llanilishi", "Manba"],
+          "tableData": [
+            [
+              "Ispaniya",
+              "Denim finishing texnologiyalari markazi",
+              "Global ta'minot zanjirlarida G2/Ozone tizimlarining sanoat darajasida joriy etilishi",
+              "https://www.jeanologia.com/portfolio/g2/"
+            ],
+            [
+              "Italiya",
+              "Uskuna va texnologik ekspertiza markazi",
+              "Tonello'ning EGO, OBleach, O-Zone tizimlari orqali pardozlash",
+              "https://tonello.com/en/ozone-washing-technologies-for-denim/"
+            ],
+            [
+              "Hindiston",
+              "Eng yirik to'qimachilik bozorlaridan biri",
+              "To'qimachilik va suv konturlarida sanoat ozon generatorlari",
+              "https://www.ozonetek.com/"
+            ],
+            [
+              "Pokiston",
+              "Yirik denim eksportchisi",
+              "Fabrikalarda ozone/eco-wash konsepsiyalari (masalan, Taiga Apparel)",
+              "https://www.taiga-apparel.com/"
+            ],
+            [
+              "Bangladesh",
+              "Eng yirik washing/garments klasterlaridan biri",
+              "Fabrikalar barqarorligi va ozonni o'z ichiga olgan ekologikroq jarayonlarga o'tish bo'yicha tadqiqotlar",
+              "https://eprints.soton.ac.uk/480642/"
+            ]
+          ]
+        },
+        "companies": {
+          "title": "Real kompaniyalar va loyihalar",
+          "intro": "Quyida to'qimachilik zanjirida ozon bo'yicha ochiq materiallari bor kompaniyalar keltirilgan: pardozlashdan tortib oqava suv tozalashgacha.",
+          "tableCaption": "Ozon sanoat amaliyotining bir qismi bo'lgan kompaniyalar",
+          "tableHeaders": ["Kompaniya", "Mamlakat", "Nima qiladi", "Havola"],
+          "tableData": [
+            [
+              "Jeanologia",
+              "Ispaniya",
+              "Denimni waterless/low-impact ishlov berish uchun G2 ozon texnologiyalari",
+              "https://www.jeanologia.com/portfolio/g2/"
+            ],
+            [
+              "Tonello",
+              "Italiya",
+              "Denim pardozlash uchun ozon tizimlari (EGO, OBleach, O-Zone)",
+              "https://tonello.com/en/ozone-washing-technologies-for-denim/"
+            ],
+            [
+              "Ozonetek Limited",
+              "Hindiston",
+              "To'qimachilik va suv konturlari uchun sanoat ozon yechimlari",
+              "https://www.ozonetek.com/laundry-water.html"
+            ],
+            [
+              "Taiga Apparel",
+              "Pokiston",
+              "Denim ishlab chiqarishda Jeanologia Eco Ozone qo'llanilishini ochiq qayd etadi",
+              "https://www.taiga-apparel.com/"
+            ],
+            [
+              "Primozone",
+              "Shvetsiya",
+              "To'qimachilik oqava suvlarini tozalash uchun yuqori kontsentratsiyali ozon",
+              "https://www.primozone.com/applications-solutions/industrial-applications/textile-waste-water/"
+            ]
+          ]
+        },
+        "research": {
+          "title": "Ilmiy tadqiqotlar va texnik manbalar",
+          "intro": "Loyiha qarorlarini faqat marketing da'volariga emas, balki taqrizdan o'tgan maqolalar va muhandislik materiallariga tayash kerak.",
+          "tableCaption": "To'qimachilikda ozon bo'yicha tekshiriladigan manbalar",
+          "tableHeaders": ["Tadqiqot / material", "Asosiy natija", "Havola"],
+          "tableData": [
+            [
+              "Eco-Friendly Ozone Process for Denim Garments (2024)",
+              "Denim uchun amaliy ozon parametrlari va ekologik yukni kamaytirish salohiyati ko'rsatilgan",
+              "https://link.springer.com/article/10.1007/s12221-024-00589-2"
+            ],
+            [
+              "Effects of ozone treatment on denim garment properties",
+              "Ozonning denim xossalariga ta'siri va rejimni to'g'ri sozlash zarurligi tasdiqlangan",
+              "https://onlinelibrary.wiley.com/doi/10.1111/cote.12568"
+            ],
+            [
+              "Finishing of denim fabrics with ozone in water",
+              "Suvli muhitda denim pardozida ozon ta'siri bayon qilingan",
+              "https://medcraveonline.com/JTEFT/JTEFT-05-00189.pdf"
+            ],
+            [
+              "Integrated biological and ozone treatment of printing textile wastewater",
+              "Biologiya + ozon kombinatsiyasi rang va ifloslantiruvchilarni kamaytirishda yuqori samaradorlik ko'rsatadi",
+              "https://www.sciencedirect.com/science/article/abs/pii/S1385894712005773"
+            ],
+            [
+              "AOP review for textile wastewater (Water, MDPI)",
+              "Murakkab bo'yoq ifloslantiruvchilari uchun ozon va katalitik ozonlash amaliy yechim sifatida ajratib ko'rsatilgan",
+              "https://www.mdpi.com/2073-4441/13/24/3515"
+            ]
+          ],
+          "note": {
+            "title": "Muhim:",
+            "text": "Ayrim ko'rsatkichlar (masalan, «95% gacha suv tejalishi») faqat ma'lum jarayon va uskuna konfiguratsiyalariga tegishli. To'liq investitsiyadan oldin parametrlarni o'z fabrikangiz pilotida tekshiring."
+          }
+        },
+        "scheme": {
+          "title": "Fabrikada joriy etish bo'yicha tavsiya etilgan ketma-ketlik",
+          "steps": [
+            {
+              "title": "Mavjud liniyani audit qilish",
+              "description": "Bazaviy holatda suv, energiya, kimyo, brak va oqava suv KPIlarini o'lchang."
+            },
+            {
+              "title": "Bitta jarayonda pilot sinov",
+              "description": "Ozonni bitta operatsiyada (masalan, denim pardozlash) ishga tushirib, sifatni baza bilan solishtiring."
+            },
+            {
+              "title": "Parallel sifat nazorati",
+              "description": "Real ishlab chiqarishda rang, mustahkamlik, partiya takrorlanuvchanligi va sikl vaqtini kuzating."
+            },
+            {
+              "title": "Xavfsizlik integratsiyasi",
+              "description": "Sizib chiqish datchiklari, ozon destruktori, shamollatish va kirish blokirovkalarini joriy qiling."
+            },
+            {
+              "title": "Kerak bo'lsa ETPga kengaytirish",
+              "description": "Zarur holatda ozonlashni oqava suv tozalashga alohida texnologik blok sifatida qo'shing."
+            },
+            {
+              "title": "Masshtablash",
+              "description": "KPI tasdiqlangach, yechimni boshqa jarayonlarga kengaytiring va SOPda mustahkamlang."
+            }
+          ]
+        },
+        "economics": {
+          "title": "Loyiha iqtisodiyoti (namuna model)",
+          "intro": "Haqiqiy raqamlar ishlab chiqarish hajmi, suv/energiya tarifi va maqsadli sifatga bog'liq. Quyidagi jadval texnik-iqtisodiy baholash uchun amaliy yo'nalish beradi.",
+          "tableCaption": "Pilotdan oldin/keyin taqqoslash",
+          "tableHeaders": ["Ko'rsatkich", "Bazaviy sxema", "Ozon bilan", "Izoh"],
+          "tableData": [
+            ["Mahsulot birligiga suv", "Yuqori", "Pastroq", "Eng katta ta'sir odatda denim pardozlashda ko'rinadi"],
+            ["Kimyo sarfi", "Yuqori", "Ayrim jarayonlarda pastroq", "Har bir fabrikaning retsepturasiga bog'liq"],
+            ["Energiya", "Yuqori", "Ko'pincha pastroq", "Ayniqsa termik jarayonlarning bir qismi almashtirilganda"],
+            [
+              "Natija barqarorligi",
+              "Qo'l mehnatiga sezgir",
+              "Avtomatlashtirishda yuqoriroq",
+              "Rejimlarni intizom bilan yuritish kerak"
+            ],
+            [
+              "ETP yuklamasi",
+              "Rang yuklamasi yuqori",
+              "To'g'ri integratsiyada pastroq",
+              "Ko'pincha kombinatsiya (biologiya + ozon) eng maqbul"
+            ]
+          ]
+        },
+        "benefits": {
+          "title": "To'qimachilik korxonasi uchun asosiy foydalar",
+          "items": [
+            {
+              "title": "Resurs samaradorligi",
+              "description": "Katta hajmli pardozlash jarayonlarida suv va kimyo sarfining kamayishi."
+            },
+            {
+              "title": "Eksport raqobatbardoshligi",
+              "description": "Xalqaro brend mijozlari oldida barqarorlik KPIlarini tasdiqlash osonlashadi."
+            },
+            {
+              "title": "Sifat va takrorlanuvchanlik",
+              "description": "Avtomatlashtirilgan ozon rejimlari partiyadan partiyaga barqarorroq natija beradi."
+            },
+            {
+              "title": "Ekologik xavfsizlik",
+              "description": "To'g'ri muhandislikda oqava suv va kimyoviy iz kamayadi."
+            },
+            {
+              "title": "Moslashuvchan joriy etish",
+              "description": "Bitta operatsiyadan boshlab butun zavod bo'ylab bosqichma-bosqich kengaytirish mumkin."
+            },
+            {
+              "title": "Shaffof tekshiruv",
+              "description": "Natijalar suv, energiya, laboratoriya testlari va ETP KPIlari orqali aniq o'lchanadi."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

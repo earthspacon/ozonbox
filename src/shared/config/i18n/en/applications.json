@@ -40,6 +40,10 @@
       "title": "Warehouses",
       "description": "Ozonation of warehouse facilities prevents mold growth, controls odors and ensures the preservation of stored goods."
     },
+    "textile": {
+      "title": "Textile Industry",
+      "description": "In textile production, ozone is used for denim finishing, chlorine-free bleaching, lower water use, and deeper treatment of textile wastewater."
+    },
     "industry": {
       "title": "Industry",
       "description": "Industrial ozonation solves specific production tasks: oil product removal, facility disinfection, water treatment."
