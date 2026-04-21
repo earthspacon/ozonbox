@@ -4,9 +4,7 @@
   "pageDescription": "Ozonator OZONOXY 100 Max. Ishlab chiqaruvchanlik 100 g/soat, 1050 m³ gacha xonalarni qayta ishlash. Ixcham korpusda maksimal quvvat.",
   "shortDesc": "100 g/soat ishlab chiqaruvchanlikka ega kuchli ozonator. Ishlov beriladigan xona hajmi 1050 m³ gacha.",
   "description": "OZONOXY 100 Max — 100 g/soat qatorida eng katta qamrov maydoniga ega ozonator. Qayta ishlanadigan xona hajmi - 1500 - 3500 m3. To'liq dezinfeksiya 1500 m³ gacha, o'rtacha daraja — 3500 m³ gacha.",
-  "images": [
-    "/images/boxes/photo_2026-03-23_14-55-01.jpg"
-  ],
+  "images": ["/images/boxes/photo_2026-03-23_14-55-01.jpg"],
   "specsTitle": "Texnik xususiyatlar",
   "specsHeaderParam": "Parametr",
   "specsHeaderValue": "Qiymat",
@@ -25,7 +23,7 @@
     },
     {
       "label": "Quvvat sarfi",
-      "value": "1750 Vt"
+      "value": "1130 Vt"
     },
     {
       "label": "Quvvatlanish kuchlanishi",

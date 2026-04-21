@@ -4,9 +4,7 @@
   "pageDescription": "Ozone generator OZONOXY 100 Max. Output 100 g/h, rooms up to 1050 m³. Maximum coverage in a compact enclosure.",
   "shortDesc": "High-output ozone generator with 100 g/h output. Treatable room volume up to 1050 m³.",
   "description": "OZONOXY 100 Max offers the largest coverage in the 100 g/h range. Treated room volume: 1500-3500 m3. Total disinfection up to 1500 m³, medium-level treatment up to 3500 m³.",
-  "images": [
-    "/images/boxes/photo_2026-03-23_14-55-01.jpg"
-  ],
+  "images": ["/images/boxes/photo_2026-03-23_14-55-01.jpg"],
   "specsTitle": "Technical specifications",
   "specsHeaderParam": "Parameter",
   "specsHeaderValue": "Value",
@@ -25,7 +23,7 @@
     },
     {
       "label": "Power consumption",
-      "value": "1750 W"
+      "value": "1130 W"
     },
     {
       "label": "Supply voltage",
