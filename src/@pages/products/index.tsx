@@ -17,12 +17,12 @@ interface Product {
 }
 
 const ALL_PRODUCTS: Product[] = [
-  { model: 'OZONOXY 10', slug: 'ozonoxy-10', capacity: 10, price: 6_000_000, image: '/images/boxes/photo_1_2026-03-23_14-49-21.jpg' },
-  { model: 'OZONOXY 20', slug: 'ozonoxy-20', capacity: 20, price: 8_000_000, image: '/images/boxes/photo_2_2026-03-23_14-49-21.jpg' },
-  { model: 'OZONOXY 30', slug: 'ozonoxy-30', capacity: 30, price: 10_600_000, image: '/images/boxes/photo_1_2026-03-30_19-20-17.jpg' },
-  { model: 'OZONOXY 40', slug: 'ozonoxy-40', capacity: 40, price: 13_500_000, image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg' },
-  { model: 'OZONOXY 50', slug: 'ozonoxy-50', capacity: 50, price: 17_000_000, image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg' },
-  { model: 'OZONOXY 60', slug: 'ozonoxy-60', capacity: 60, price: 19_500_000, image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg' },
+  { model: 'OZONOXY S 10', slug: 'ozonoxy-10', capacity: 10, price: 6_000_000, image: '/images/boxes/photo_1_2026-03-23_14-49-21.jpg' },
+  { model: 'OZONOXY S 20', slug: 'ozonoxy-20', capacity: 20, price: 8_000_000, image: '/images/boxes/photo_2_2026-03-23_14-49-21.jpg' },
+  { model: 'OZONOXY S 30', slug: 'ozonoxy-30', capacity: 30, price: 10_600_000, image: '/images/boxes/photo_1_2026-03-30_19-20-17.jpg' },
+  { model: 'OZONOXY S 40', slug: 'ozonoxy-40', capacity: 40, price: 13_500_000, image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg' },
+  { model: 'OZONOXY S 50', slug: 'ozonoxy-50', capacity: 50, price: 17_000_000, image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg' },
+  { model: 'OZONOXY S 60', slug: 'ozonoxy-60', capacity: 60, price: 19_500_000, image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg' },
   { model: 'OZONOXY 100', slug: 'ozonoxy-100', capacity: 100, price: 27_000_000, image: '/images/boxes/photo_5_2026-03-23_14-49-21.jpg' },
   { model: 'OZONOXY 100 Pro', slug: 'ozonoxy-100-pro', capacity: 100, price: 30_000_000, image: '/images/boxes/photo_4_2026-03-23_14-49-21.jpg' },
   { model: 'OZONOXY 100 Max', slug: 'ozonoxy-100-max', capacity: 100, price: 33_000_000, image: '/images/boxes/photo_2026-03-23_14-55-01.jpg' },
