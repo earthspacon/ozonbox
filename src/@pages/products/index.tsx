@@ -19,7 +19,7 @@ interface Product {
 const ALL_PRODUCTS: Product[] = [
   { model: 'OZONOXY S 10', slug: 'ozonoxy-10', capacity: 10, price: 6_000_000, image: '/images/boxes/photo_1_2026-03-23_14-49-21.jpg' },
   { model: 'OZONOXY S 20', slug: 'ozonoxy-20', capacity: 20, price: 8_000_000, image: '/images/boxes/photo_2_2026-03-23_14-49-21.jpg' },
-  { model: 'OZONOXY S 30', slug: 'ozonoxy-30', capacity: 30, price: 10_600_000, image: '/images/boxes/photo_1_2026-03-30_19-20-17.jpg' },
+  { model: 'OZONOXY S 30', slug: 'ozonoxy-30', capacity: 30, price: 11_500_000, image: '/images/boxes/photo_1_2026-03-30_19-20-17.jpg' },
   { model: 'OZONOXY S 40', slug: 'ozonoxy-40', capacity: 40, price: 13_500_000, image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg' },
   { model: 'OZONOXY S 50', slug: 'ozonoxy-50', capacity: 50, price: 17_000_000, image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg' },
   { model: 'OZONOXY S 60', slug: 'ozonoxy-60', capacity: 60, price: 19_500_000, image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg' },
