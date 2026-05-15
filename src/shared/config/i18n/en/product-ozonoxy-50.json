@@ -4,9 +4,7 @@
   "pageDescription": "Compact ozone generator OZONOXY S 50 for room disinfection. Output 50 g/h, air flow 580 m³/h. Up to 1400 m³.",
   "shortDesc": "Compact ozone generator for room disinfection with 50 g/h output. Treatable room volume: up to 600/1400 m³.",
   "description": "The OZONOXY industrial ozone generator series is designed for professional treatment of rooms and process areas. The equipment helps reduce microbial load, remove persistent odors, and maintain sanitary safety at facilities of different types. Suitable for regular disinfection of production, warehouse, commercial, and service spaces.",
-  "images": [
-    "/images/boxes/photo_2_2026-03-30_19-20-17.jpg"
-  ],
+  "images": ["/images/boxes/photo_2_2026-03-30_19-20-17.jpg"],
   "specsTitle": "Technical specifications",
   "specsHeaderParam": "Parameter",
   "specsHeaderValue": "Value",
@@ -58,12 +56,7 @@
     }
   ],
   "eliminatesTitle": "Eliminates",
-  "eliminates": [
-    "Unpleasant odors",
-    "Bacteria and viruses",
-    "Insects and rodents",
-    "Mold and fungus"
-  ],
+  "eliminates": ["Unpleasant odors", "Bacteria and viruses", "Insects and rodents", "Mold and fungus"],
   "featuresTitle": "Key features",
   "features": [
     "No nitrogen oxide generation during ozone production",

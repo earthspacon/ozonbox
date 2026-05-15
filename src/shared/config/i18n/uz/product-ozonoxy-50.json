@@ -4,9 +4,7 @@
   "pageDescription": "Xonalarni dezinfeksiya qilish uchun ixcham ozonator OZONOXY S 50. Ishlab chiqaruvchanlik 50 g/soat, havo oqimi 580 m³/soat. 1400 m³ gacha.",
   "shortDesc": "50 g/soat ishlab chiqaruvchanlikka ega xonalarni dezinfeksiya qilish uchun ixcham ozonator. Ishlov beriladigan xona hajmi: 600/1400 m³ gacha.",
   "description": "OZONOXY sanoat ozonatorlari seriyasi xonalar va texnologik hududlarni professional ishlov berish uchun mo'ljallangan. Uskuna mikrob yuklamasini kamaytirishga, turg'un hidlarni bartaraf etishga va turli turdagi ob'ektlarda sanitariya xavfsizligini saqlashga yordam beradi. Ishlab chiqarish, ombor, tijorat va xizmat ko'rsatish binolarini muntazam dezinfeksiya qilish uchun mos.",
-  "images": [
-    "/images/boxes/photo_2_2026-03-30_19-20-17.jpg"
-  ],
+  "images": ["/images/boxes/photo_2_2026-03-30_19-20-17.jpg"],
   "specsTitle": "Texnik xususiyatlar",
   "specsHeaderParam": "Parametr",
   "specsHeaderValue": "Qiymat",
@@ -58,12 +56,7 @@
     }
   ],
   "eliminatesTitle": "Bartaraf qiladi",
-  "eliminates": [
-    "Yomon hidlar",
-    "Bakteriya va viruslar",
-    "Hasharotlar va kemiruvchilar",
-    "Mog'or va zamburug'"
-  ],
+  "eliminates": ["Yomon hidlar", "Bakteriya va viruslar", "Hasharotlar va kemiruvchilar", "Mog'or va zamburug'"],
   "featuresTitle": "O'ziga xos xususiyatlar",
   "features": [
     "Ozon hosil qilishda azot oksidlari tayyorlanmaydi",

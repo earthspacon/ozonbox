@@ -2,13 +2,7 @@ import { GetStaticPaths, GetStaticProps } from 'next'
 
 import { ProductDetailPage } from '@/@pages/products/product-detail'
 
-import {
-  DEFAULT_LOCALE,
-  getProductNamespace,
-  NAMESPACES,
-  PRODUCT_SLUGS,
-  TLocale,
-} from '@/shared/config/tolgee'
+import { DEFAULT_LOCALE, getProductNamespace, NAMESPACES, PRODUCT_SLUGS, TLocale } from '@/shared/config/tolgee'
 import { loadNamespaces } from '@/shared/lib/load-namespaces'
 import { withTolgee } from '@/shared/lib/page-static-functions'
 

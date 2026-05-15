@@ -17,16 +17,76 @@ interface Product {
 }
 
 const ALL_PRODUCTS: Product[] = [
-  { model: 'OZONOXY S 10', slug: 'ozonoxy-10', capacity: 10, price: 6_000_000, image: '/images/boxes/photo_1_2026-03-23_14-49-21.jpg' },
-  { model: 'OZONOXY S 20', slug: 'ozonoxy-20', capacity: 20, price: 8_000_000, image: '/images/boxes/photo_2_2026-03-23_14-49-21.jpg' },
-  { model: 'OZONOXY S 30', slug: 'ozonoxy-30', capacity: 30, price: 11_500_000, image: '/images/boxes/photo_1_2026-03-30_19-20-17.jpg' },
-  { model: 'OZONOXY S 40', slug: 'ozonoxy-40', capacity: 40, price: 13_500_000, image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg' },
-  { model: 'OZONOXY S 50', slug: 'ozonoxy-50', capacity: 50, price: 17_000_000, image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg' },
-  { model: 'OZONOXY S 60', slug: 'ozonoxy-60', capacity: 60, price: 19_500_000, image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg' },
-  { model: 'OZONOXY 100', slug: 'ozonoxy-100', capacity: 100, price: 27_000_000, image: '/images/boxes/photo_5_2026-03-23_14-49-21.jpg' },
-  { model: 'OZONOXY 100 Pro', slug: 'ozonoxy-100-pro', capacity: 100, price: 30_000_000, image: '/images/boxes/photo_4_2026-03-23_14-49-21.jpg' },
-  { model: 'OZONOXY 100 Max', slug: 'ozonoxy-100-max', capacity: 100, price: 33_000_000, image: '/images/boxes/photo_2026-03-23_14-55-01.jpg' },
-  { model: 'OZONOXY 200', slug: 'ozonoxy-200', capacity: 200, price: 198_000_000, image: '/images/boxes/ozonoxy-200.png' },
+  {
+    model: 'OZONOXY S 10',
+    slug: 'ozonoxy-10',
+    capacity: 10,
+    price: 6_000_000,
+    image: '/images/boxes/photo_1_2026-03-23_14-49-21.jpg',
+  },
+  {
+    model: 'OZONOXY S 20',
+    slug: 'ozonoxy-20',
+    capacity: 20,
+    price: 8_000_000,
+    image: '/images/boxes/photo_2_2026-03-23_14-49-21.jpg',
+  },
+  {
+    model: 'OZONOXY S 30',
+    slug: 'ozonoxy-30',
+    capacity: 30,
+    price: 11_500_000,
+    image: '/images/boxes/photo_1_2026-03-30_19-20-17.jpg',
+  },
+  {
+    model: 'OZONOXY S 40',
+    slug: 'ozonoxy-40',
+    capacity: 40,
+    price: 13_500_000,
+    image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg',
+  },
+  {
+    model: 'OZONOXY S 50',
+    slug: 'ozonoxy-50',
+    capacity: 50,
+    price: 17_000_000,
+    image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg',
+  },
+  {
+    model: 'OZONOXY S 60',
+    slug: 'ozonoxy-60',
+    capacity: 60,
+    price: 19_500_000,
+    image: '/images/boxes/photo_2_2026-03-30_19-20-17.jpg',
+  },
+  {
+    model: 'OZONOXY 100',
+    slug: 'ozonoxy-100',
+    capacity: 100,
+    price: 27_000_000,
+    image: '/images/boxes/photo_5_2026-03-23_14-49-21.jpg',
+  },
+  {
+    model: 'OZONOXY 100 Pro',
+    slug: 'ozonoxy-100-pro',
+    capacity: 100,
+    price: 30_000_000,
+    image: '/images/boxes/photo_4_2026-03-23_14-49-21.jpg',
+  },
+  {
+    model: 'OZONOXY 100 Max',
+    slug: 'ozonoxy-100-max',
+    capacity: 100,
+    price: 33_000_000,
+    image: '/images/boxes/photo_2026-03-23_14-55-01.jpg',
+  },
+  {
+    model: 'OZONOXY 200',
+    slug: 'ozonoxy-200',
+    capacity: 200,
+    price: 198_000_000,
+    image: '/images/boxes/ozonoxy-200.png',
+  },
 ]
 
 const GALLERY_IMAGES = [
@@ -59,13 +119,7 @@ export function ProductsPage() {
               </AppLink>
             </div>
             <div className="products-hero__image">
-              <Image
-                src="/images/boxes/ozonoxy-box.png"
-                alt="OZONOXY"
-                width={600}
-                height={400}
-                priority
-              />
+              <Image src="/images/boxes/ozonoxy-box.png" alt="OZONOXY" width={600} height={400} priority />
             </div>
           </div>
         </div>
@@ -105,7 +159,9 @@ export function ProductsPage() {
                 </div>
                 <div className="product-card__body">
                   <h3 className="product-card__name">{product.model}</h3>
-                  <span className="product-card__capacity">{product.capacity} {t('card.unit')}</span>
+                  <span className="product-card__capacity">
+                    {product.capacity} {t('card.unit')}
+                  </span>
                   <div className="product-card__price">
                     {formatPrice(product.price)} {t('card.currency')}
                   </div>
@@ -133,12 +189,7 @@ export function ProductsPage() {
           <div className="products-gallery">
             {GALLERY_IMAGES.map((src, i) => (
               <div key={src} className="products-gallery__item">
-                <Image
-                  src={src}
-                  alt={`OZONOXY ${i + 1}`}
-                  width={600}
-                  height={400}
-                />
+                <Image src={src} alt={`OZONOXY ${i + 1}`} width={600} height={400} />
               </div>
             ))}
           </div>

@@ -3,7 +3,6 @@ import { GetStaticPaths, GetStaticProps } from 'next'
 
 import { DEFAULT_LOCALE, LOCALES_LIST, NAMESPACES, TLocale, TNamespace, tolgee } from '@/shared/config/tolgee'
 
-
 interface BasePageProps {
   staticData: TolgeeStaticDataProp
   lang: string
@@ -17,7 +16,6 @@ export function withTolgee(PageComponent: React.ComponentType<any>) {
 
     return (
       <TolgeeProvider tolgee={tolgee} ssr={{ language: lang, staticData: props.staticData }}>
-    
         <PageComponent {...props} />
       </TolgeeProvider>
     )

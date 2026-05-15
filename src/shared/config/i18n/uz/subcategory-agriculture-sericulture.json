@@ -63,11 +63,36 @@
           "tableCaption": "Texnologiya dolzarb bo'lgan mamlakatlar",
           "tableHeaders": ["Mamlakat", "Bozordagi o'rni", "Ozon nima uchun joriy etiladi", "Manba"],
           "tableData": [
-            ["Xitoy", "Jahondagi eng yirik ipak ishlab chiqaruvchi", "Katta hajmda biotahdidlarni kamaytirish va sifatni barqaror ushlash", "https://inserco.org/en/statistics"],
-            ["Hindiston", "Jahondagi ikkinchi yirik ishlab chiqaruvchi", "Xomashyo gigiyenasi, hidlarni kamaytirish va modernizatsiya", "https://inserco.org/en/statistics"],
-            ["O'zbekiston", "Markaziy Osiyodagi muhim ishlab chiqaruvchi", "Energiya sarfini kamaytirish va eksport sifati barqarorligi", "https://inserco.org/en/statistics"],
-            ["Yaponiya", "Premium ipak segmentidagi texnologik bozor", "Yuqori sinf mahsulot uchun nazorat qilinadigan jarayonlar", "https://inserco.org/en/statistics"],
-            ["Italiya", "Yirik ipak iste'molchisi va qayta ishlovchisi", "Kiruvchi xomashyo tozaligi va barqarorligiga yuqori talab", "https://inserco.org/en/statistics"]
+            [
+              "Xitoy",
+              "Jahondagi eng yirik ipak ishlab chiqaruvchi",
+              "Katta hajmda biotahdidlarni kamaytirish va sifatni barqaror ushlash",
+              "https://inserco.org/en/statistics"
+            ],
+            [
+              "Hindiston",
+              "Jahondagi ikkinchi yirik ishlab chiqaruvchi",
+              "Xomashyo gigiyenasi, hidlarni kamaytirish va modernizatsiya",
+              "https://inserco.org/en/statistics"
+            ],
+            [
+              "O'zbekiston",
+              "Markaziy Osiyodagi muhim ishlab chiqaruvchi",
+              "Energiya sarfini kamaytirish va eksport sifati barqarorligi",
+              "https://inserco.org/en/statistics"
+            ],
+            [
+              "Yaponiya",
+              "Premium ipak segmentidagi texnologik bozor",
+              "Yuqori sinf mahsulot uchun nazorat qilinadigan jarayonlar",
+              "https://inserco.org/en/statistics"
+            ],
+            [
+              "Italiya",
+              "Yirik ipak iste'molchisi va qayta ishlovchisi",
+              "Kiruvchi xomashyo tozaligi va barqarorligiga yuqori talab",
+              "https://inserco.org/en/statistics"
+            ]
           ]
         },
         "companies": {
@@ -76,10 +101,30 @@
           "tableCaption": "Kompaniyalar misoli",
           "tableHeaders": ["Kompaniya", "Mamlakat", "Faoliyat yo'nalishi", "Havola"],
           "tableData": [
-            ["OZONE SILK INDIA LLP", "Hindiston", "To'qimachilik ishlab chiqaruvchisi; ipak va mato zanjirida ozon yechimlari qo'llanadigan bozor misoli", "https://ozonetextile.com/"],
-            ["Ozonetek Limited", "Hindiston", "To'qimachilik, suv va sanitariya uchun sanoat ozon generatorlari", "https://www.ozonetek.com/"],
-            ["Primozone", "Shvetsiya / xalqaro loyihalar", "To'qimachilik oqova suvlari uchun yuqori konsentratsiyali ozon va suvni qayta ishlatish yechimlari", "https://www.primozone.com/applications-solutions/industrial-applications/textile-waste-water/"],
-            ["ZONO Technologies", "AQSh", "Kiyim va to'qimachilik oqimlarida ozon asosidagi sanitariya ishlovi", "https://zonotechnologies.com/case-study/sanitizing-apparel-onsite-with-ozone/"]
+            [
+              "OZONE SILK INDIA LLP",
+              "Hindiston",
+              "To'qimachilik ishlab chiqaruvchisi; ipak va mato zanjirida ozon yechimlari qo'llanadigan bozor misoli",
+              "https://ozonetextile.com/"
+            ],
+            [
+              "Ozonetek Limited",
+              "Hindiston",
+              "To'qimachilik, suv va sanitariya uchun sanoat ozon generatorlari",
+              "https://www.ozonetek.com/"
+            ],
+            [
+              "Primozone",
+              "Shvetsiya / xalqaro loyihalar",
+              "To'qimachilik oqova suvlari uchun yuqori konsentratsiyali ozon va suvni qayta ishlatish yechimlari",
+              "https://www.primozone.com/applications-solutions/industrial-applications/textile-waste-water/"
+            ],
+            [
+              "ZONO Technologies",
+              "AQSh",
+              "Kiyim va to'qimachilik oqimlarida ozon asosidagi sanitariya ishlovi",
+              "https://zonotechnologies.com/case-study/sanitizing-apparel-onsite-with-ozone/"
+            ]
           ]
         },
         "research": {
@@ -88,11 +133,31 @@
           "tableCaption": "Tanlangan manbalar",
           "tableHeaders": ["Tadqiqot", "Asosiy xulosa", "Havola"],
           "tableData": [
-            ["Effects of ozone treatment on raw and degummed tassar silk fabrics (J. Appl. Polym. Sci.)", "Ozon ipak material xossalariga ta'sir qiladi va to'g'ri boshqarilganda texnologik vosita bo'la oladi", "https://onlinelibrary.wiley.com/doi/10.1002/app.24761"],
-            ["Effect of Ozone Treatment on the Dyeing Properties of Mulberry and Tassar Silk Fabrics", "Ozon bilan ishlovdan keyin bo'yash parametrlarida sezilarli o'zgarishlar kuzatilgan", "https://journals.sagepub.com/doi/10.1177/155892501200700304"],
-            ["Sericulture statistics and market geography (ISC)", "Ipak bozoridagi yirik ishlab chiqaruvchi va iste'molchi mamlakatlarni tasdiqlaydi", "https://inserco.org/en/statistics"],
-            ["Textile wastewater treatment with high-concentration ozone (Primozone)", "To'qimachilik zanjirida sanoat ozon qo'llanilishi va ekologik moslik bo'yicha amaliy yo'nalish", "https://www.primozone.com/applications-solutions/industrial-applications/textile-waste-water/"],
-            ["Ozonetek textile and laundry water treatment", "To'qimachilik va gigiyena jarayonlarida ozon joriy etish bo'yicha amaliy misollar", "https://www.ozonetek.com/laundry-water.html"]
+            [
+              "Effects of ozone treatment on raw and degummed tassar silk fabrics (J. Appl. Polym. Sci.)",
+              "Ozon ipak material xossalariga ta'sir qiladi va to'g'ri boshqarilganda texnologik vosita bo'la oladi",
+              "https://onlinelibrary.wiley.com/doi/10.1002/app.24761"
+            ],
+            [
+              "Effect of Ozone Treatment on the Dyeing Properties of Mulberry and Tassar Silk Fabrics",
+              "Ozon bilan ishlovdan keyin bo'yash parametrlarida sezilarli o'zgarishlar kuzatilgan",
+              "https://journals.sagepub.com/doi/10.1177/155892501200700304"
+            ],
+            [
+              "Sericulture statistics and market geography (ISC)",
+              "Ipak bozoridagi yirik ishlab chiqaruvchi va iste'molchi mamlakatlarni tasdiqlaydi",
+              "https://inserco.org/en/statistics"
+            ],
+            [
+              "Textile wastewater treatment with high-concentration ozone (Primozone)",
+              "To'qimachilik zanjirida sanoat ozon qo'llanilishi va ekologik moslik bo'yicha amaliy yo'nalish",
+              "https://www.primozone.com/applications-solutions/industrial-applications/textile-waste-water/"
+            ],
+            [
+              "Ozonetek textile and laundry water treatment",
+              "To'qimachilik va gigiyena jarayonlarida ozon joriy etish bo'yicha amaliy misollar",
+              "https://www.ozonetek.com/laundry-water.html"
+            ]
           ]
         },
         "scheme": {
@@ -130,11 +195,36 @@
           "tableCaption": "Texnik-iqtisodiy baholash uchun orientir",
           "tableHeaders": ["Ko'rsatkich", "Issiqlik sxemasi", "Ozon sxemasi", "Izoh"],
           "tableData": [
-            ["Energiya xarajati", "Yuqori (qizdirish/bug')", "Sovuq jarayon hisobiga pastroq", "Pilotlarda ko'pincha sezilarli tejalish kuzatiladi"],
-            ["Hid va ishchi muhit yuklamasi", "Ventilyatsiya yuklamasi yuqori", "To'g'ri destruktsiyada hid kamayadi", "Ventilyatsiya va xavfsizlik baribir majburiy"],
-            ["Saqlashda mog'or xatari", "Nam rejimlarda yuqoriroq", "Quruq dezinfeksiyada pastroq", "Ombor namligini nazorat qilish zarur"],
-            ["Ip sifati barqarorligi", "Qizib ketishga sezgir", "Moslangan ozon rejimida barqarorroq", "Har korxonada laboratoriya bilan tekshiriladi"],
-            ["Partiya bozor bahosi", "Bazaviy klass", "Premium ustama olish salohiyati", "Xaridor kontrakti va standartiga bog'liq"]
+            [
+              "Energiya xarajati",
+              "Yuqori (qizdirish/bug')",
+              "Sovuq jarayon hisobiga pastroq",
+              "Pilotlarda ko'pincha sezilarli tejalish kuzatiladi"
+            ],
+            [
+              "Hid va ishchi muhit yuklamasi",
+              "Ventilyatsiya yuklamasi yuqori",
+              "To'g'ri destruktsiyada hid kamayadi",
+              "Ventilyatsiya va xavfsizlik baribir majburiy"
+            ],
+            [
+              "Saqlashda mog'or xatari",
+              "Nam rejimlarda yuqoriroq",
+              "Quruq dezinfeksiyada pastroq",
+              "Ombor namligini nazorat qilish zarur"
+            ],
+            [
+              "Ip sifati barqarorligi",
+              "Qizib ketishga sezgir",
+              "Moslangan ozon rejimida barqarorroq",
+              "Har korxonada laboratoriya bilan tekshiriladi"
+            ],
+            [
+              "Partiya bozor bahosi",
+              "Bazaviy klass",
+              "Premium ustama olish salohiyati",
+              "Xaridor kontrakti va standartiga bog'liq"
+            ]
           ]
         },
         "benefits": {

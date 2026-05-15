@@ -4,10 +4,7 @@
   "pageDescription": "Industrial ozone generator OZONOXY S 10, Standart series. Output 10 g/h, air flow 290 m³/h. Disinfection, deodorization, detoxification.",
   "shortDesc": "Industrial ozone generator, Standart series, with 10 g/h output and 290 m³/h air flow.",
   "description": "The OZONOXY industrial ozone generator series is designed for professional treatment of rooms and process areas. The equipment helps reduce microbial load, remove persistent odors, and maintain sanitary safety at facilities of different types. Suitable for regular disinfection of production, warehouse, commercial, and service spaces.",
-  "images": [
-    "/images/boxes/photo_1_2026-03-23_14-49-21.jpg",
-    "/images/boxes/photo_2_2026-03-23_14-49-21.jpg"
-  ],
+  "images": ["/images/boxes/photo_1_2026-03-23_14-49-21.jpg", "/images/boxes/photo_2_2026-03-23_14-49-21.jpg"],
   "specsTitle": "Technical specifications",
   "specsHeaderParam": "Parameter",
   "specsHeaderValue": "Value",

@@ -1,10 +1,11 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { useTranslate } from '@tolgee/react'
+import { TolgeeStaticDataProp, useTranslate } from '@tolgee/react'
 import Image from 'next/image'
 
 import { Layout } from '@/widgets/layout'
 
 import { getProductNamespace, NAMESPACES, TLocale } from '@/shared/config/tolgee'
+import { AppLink } from '@/shared/ui/app-link'
 import {
   ArticleHero,
   ArticleSection,
@@ -15,9 +16,7 @@ import {
   HighlightBox,
   Paragraph,
 } from '@/shared/ui/article-components'
-import { AppLink } from '@/shared/ui/app-link'
 import { Seo } from '@/shared/ui/seo'
-import { TolgeeStaticDataProp } from '@tolgee/react'
 
 interface ProductDetailPageProps {
   staticData: TolgeeStaticDataProp
@@ -83,12 +82,7 @@ export function ProductDetailPage({ staticData, lang, slug }: ProductDetailPageP
             <div className="product-detail-gallery">
               {productData.images.map((src: string, i: number) => (
                 <div key={i} className="product-detail-gallery__item">
-                  <Image
-                    src={src}
-                    alt={`${productData.title} — ${i + 1}`}
-                    width={600}
-                    height={400}
-                  />
+                  <Image src={src} alt={`${productData.title} — ${i + 1}`} width={600} height={400} />
                 </div>
               ))}
             </div>
@@ -106,10 +100,7 @@ export function ProductDetailPage({ staticData, lang, slug }: ProductDetailPageP
 
           {specsRows.length > 0 && (
             <ArticleSection title={productData.specsTitle}>
-              <DataTable
-                headers={[productData.specsHeaderParam, productData.specsHeaderValue]}
-                rows={specsRows}
-              />
+              <DataTable headers={[productData.specsHeaderParam, productData.specsHeaderValue]} rows={specsRows} />
             </ArticleSection>
           )}
 

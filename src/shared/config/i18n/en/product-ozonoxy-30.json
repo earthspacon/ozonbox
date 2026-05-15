@@ -4,10 +4,7 @@
   "pageDescription": "Industrial ozone generator OZONOXY S 30, Standart series. Output 30 g/h. Room disinfection up to 1050 m³.",
   "shortDesc": "Industrial ozone generator, Standart series, with 30 g/h output. Total disinfection up to 450 m³; medium contamination — up to 1050 m³.",
   "description": "The OZONOXY industrial ozone generator series is designed for professional treatment of rooms and process areas. The equipment helps reduce microbial load, remove persistent odors, and maintain sanitary safety at facilities of different types. Suitable for regular disinfection of production, warehouse, commercial, and service spaces.",
-  "images": [
-    "/images/boxes/photo_1_2026-03-30_19-20-17.jpg",
-    "/images/boxes/photo_2_2026-03-30_19-20-17.jpg"
-  ],
+  "images": ["/images/boxes/photo_1_2026-03-30_19-20-17.jpg", "/images/boxes/photo_2_2026-03-30_19-20-17.jpg"],
   "specsTitle": "Technical specifications",
   "specsHeaderParam": "Parameter",
   "specsHeaderValue": "Value",
