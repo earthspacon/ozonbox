@@ -5,7 +5,7 @@
   },
   "meta": {
     "title": "OZONOXY — Biznes uchun ozonlash va dezinfeksiya",
-    "description": "Parrandachilik, oziq-ovqat sanoati, mehmonxonalar va restoranlar va tibbiyot uchun professional ozonlash tizimlari. Xlordan 300 marta samaraliroq. Konsultatsiya bepul."
+    "description": "Parrandachilik, oziq-ovqat sanoati, mehmonxonalar va restoranlar va tibbiyot uchun professional ozonlash tizimlari. Xlordan 3000 marta samaraliroq. Konsultatsiya bepul."
   },
   "nav": {
     "technology": "Texnologiya",
@@ -67,7 +67,7 @@
   },
   "hero": {
     "title": "Ozon — Tabiat dezinfeksiya kuchi",
-    "subtitle": "Xlordan 300 marta samaraliroq. Kimyosiz. Qoldig'isiz. Salomatlikka zararsiz. Biznesingiz uchun professional ozonlash tizimlari.",
+    "subtitle": "Xlordan 3000 marta samaraliroq. Kimyosiz. Qoldig'isiz. Salomatlikka zararsiz. Biznesingiz uchun professional ozonlash tizimlari.",
     "learnMore": "Ko'proq bilish",
     "getConsultation": "Konsultatsiya olish",
     "viewProducts": "Mahsulotlarimiz",
@@ -80,7 +80,7 @@
   },
   "features": {
     "power": {
-      "title": "300 marta kuchliroq",
+      "title": "3000 marta kuchliroq",
       "text": "Ozon dezinfeksiya samaradorligida xlorni yuzlab marta ortda qoldiradi"
     },
     "pathogens": {
@@ -249,7 +249,7 @@
       "ozone": "Ozon",
       "chlorine": "Xlor",
       "efficiency": "Dezinfeksiya samaradorligi",
-      "efficiencyOzone": "300 marta yuqori",
+      "efficiencyOzone": "3000 marta yuqori",
       "efficiencyChlorine": "Asosiy",
       "time": "Bakteriyalarga ta'sir vaqti",
       "timeOzone": "10-30 soniya",
@@ -326,7 +326,7 @@
       "efficiency": {
         "title": "Samaradorlik",
         "list": {
-          "1": "Xlordan 300 marta kuchli",
+          "1": "Xlordan 3000 marta kuchli",
           "2": "Patogenlarning 99,9% yo'q qiladi",
           "3": "Xlorga chidamli viruslarga qarshi ishlaydi",
           "4": "Tez ta'sir (10-30 soniya)"

@@ -182,6 +182,125 @@
             "Reduced wash time — more cycles per day",
             "Typical payback period: 12-18 months"
           ]
+        },
+        "aqueousOzone": {
+          "title": "Ozonated water: washing at 18–20 °C",
+          "text": "Ozone is dissolved directly into the cold water used for washing. The generator produces it from dried air or oxygen, and an injector or diffuser feeds the gas into the fill line or directly into the machine drum. In water, ozone acts as the strongest oxidiser available in practice: 2.07 volts against 1.36 for chlorine. Hence the difference in speed — it inactivates microorganisms thousands of times faster.",
+          "text2": "The practical consequence is that the water does not need to be heated. Everything for which linen is taken to 60–90 °C is achieved by oxidation at 18–20. Moreover, cold water dissolves more ozone and keeps it active longer: at 5 °C solubility is almost twice that at 25. The low temperature here is not a compromise but the normal operating mode of the technology.",
+          "params": {
+            "title": "Working parameters",
+            "tableCaption": "Working parameters for ozone washing",
+            "tableHeaders": ["Parameter", "Value", "Rationale"],
+            "tableRows": [
+              [
+                "Water temperature",
+                "18–20 °C, 30 maximum",
+                "Above this, ozone dissolves less readily and decomposes faster"
+              ],
+              [
+                "Dissolved ozone in the drum",
+                "4–5 mg/L",
+                "The key acceptance parameter: measured in the drum, not taken from the generator's data sheet"
+              ],
+              [
+                "Method of injection",
+                "Diffuser into the drum or injector in the fill line",
+                "A diffuser gives a more stable concentration"
+              ],
+              [
+                "pH of the solution",
+                "8–9",
+                "Above pH 9 ozone decomposes too quickly — the alkali dose must be reduced"
+              ],
+              [
+                "Pipework and seals",
+                "Stainless steel, PTFE, PVDF, Viton",
+                "Ordinary rubber and PVC degrade under ozone"
+              ],
+              [
+                "Safety",
+                "Ozone sensor, destructor, extraction",
+                "The occupational exposure limit in workplace air is 0.1 mg/m³"
+              ]
+            ]
+          },
+          "machines": {
+            "title": "Equipment",
+            "intro": "Ozone washing has been used in the USA and the United Kingdom since the 1990s. Major laundry equipment manufacturers supply both machines with a factory-fitted ozone module and retrofit kits for equipment already in operation.",
+            "items": [
+              {
+                "title": "Machines with an ozone module",
+                "description": "Washer-extractors with factory-fitted ozone pipework and valves and ready-made low-temperature wash programs."
+              },
+              {
+                "title": "Retrofitting of existing machines",
+                "description": "A machine of any brand can be converted to ozone: generator, injector, hot-water bypass, sensor and destructor. The drum and the electronics remain unchanged — there is no need to replace the fleet."
+              },
+              {
+                "title": "Ozone wash programs",
+                "description": "Dedicated cycles are programmed into the controller: cold fill, an extended oxidation phase, fewer rinses and minimal alkali."
+              },
+              {
+                "title": "Tunnel washer lines",
+                "description": "In large laundries ozone is fed into the continuous batch washing modules — the plant processes more linen on the same equipment."
+              }
+            ]
+          },
+          "cases": {
+            "title": "Implementation results",
+            "tableCaption": "Data from independent field measurements",
+            "tableHeaders": ["Site", "Parameter measured", "Result"],
+            "tableRows": [
+              [
+                "Hotel, 2.3 tonnes of linen per day (US Department of Energy measurements)",
+                "Gas for water heating",
+                "Down 65%. Water and sewerage down 15%. Payback 2.8 years"
+              ],
+              [
+                "278-room hotel, California",
+                "Hot water",
+                "Down 91%. Total water consumption down 35%, or 3,300 m³ per year. Payback 7.5 months"
+              ],
+              [
+                "Industrial laundry, 2,000 tonnes per year",
+                "Cycle time",
+                "Down 27%; throughput increased by a quarter"
+              ],
+              [
+                "104-room hotel",
+                "Chemistry and labour",
+                "21% less chemistry, 39% less labour, water heating down 80–90%"
+              ],
+              [
+                "Hospital laundry, six months of monitoring",
+                "Microbiology of the linen",
+                "After washing at room temperature, no MRSA, C. difficile, mould or yeast were detected in the samples"
+              ]
+            ]
+          },
+          "hygiene": {
+            "title": "Cleanliness at low temperature",
+            "text": "The principal question about the technology is whether the linen is genuinely clean if it has not been heated. The answer has come from hospital laundries, where disinfection requirements are the strictest in the industry.",
+            "items": [
+              "After ozone washing at room temperature, no MRSA, C. difficile, mould or yeast were detected in the linen samples",
+              "After standard thermal disinfection at 71 °C, C. difficile persisted in some samples",
+              "On staff uniforms deliberately inoculated with MRSA, ozone achieved a reduction of more than 8 log against 3.3 log for hot washing",
+              "As early as 2009 the British health service recognised ozone washing as more effective than the systems previously in use",
+              "Odour is removed together with the microflora: ozone destroys sweat and tobacco molecules rather than masking them with fragrance"
+            ]
+          },
+          "textile": {
+            "title": "Why linen lasts longer",
+            "items": [
+              "No heating to 60–90 °C — the fibre is not subjected to thermal shock in every cycle",
+              "No chlorine bleach in hot water: for fabric this is the most destructive combination",
+              "Less alkali and less neutralising acid — a lower chemical load on the fibre",
+              "Ozone loosens the fibre, so soil is released with less mechanical action",
+              "No chemistry remains in the fabric: ozone breaks down into oxygen, and linen is soft without softener"
+            ]
+          },
+          "highlightTitle": "Economics:",
+          "highlightText": "The main saving comes from eliminating water heating, so the technology pays back where at least 500–700 kg is washed per day and the laundry is in-house. An important point: water consumption will fall only if the programs are reconfigured and surplus rinses are cut at the same time — otherwise the water bill will rise. We prepare the calculation for your volume and tariffs before the equipment is purchased."
         }
       },
       "ozoneClosets": {

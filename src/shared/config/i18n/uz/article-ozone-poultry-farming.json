@@ -22,7 +22,10 @@
     "salmonella1": "2003 yilda Las-Vegasdagi kongressda Rodriges salmonella muammosi haqida hisobot taqdim etdi. AQShda har yili xom tuxum iste'moli bilan bog'liq 40 000 dan ortiq kasallik holati qayd etiladi.",
     "salmonella2": "Murakkab ishlov usuli ishlab chiqilgan: termal va vakuumli ta'sir ozonlash bilan birgalikda. Ifloslanishning 5 daraja kamayishiga erishildi — bu patogenlar sonining 100 000 marta kamayishini anglatadi.",
     "conclusionTitle": "Xulosalar",
-    "conclusion": "Ozon parranda fermasi uchun samarali va ekologik xavfsiz vositadir. Uning qo'llanilishi butun ishlab chiqarish siklini qamrab oladi — tuxumlarni inkubatsiya qilishdan tayyor mahsulotni qayta ishlashgacha. To'g'ri rejim tanlanganda, ozonlash zararli qoldiqlarsiz va mahsulot sifatiga salbiy ta'sirsiz yuqori darajadagi dezinfeksiyani ta'minlaydi."
+    "conclusion": "Ozon parranda fermasi uchun samarali va ekologik xavfsiz vositadir. Uning qo'llanilishi butun ishlab chiqarish siklini qamrab oladi — tuxumlarni inkubatsiya qilishdan tayyor mahsulotni qayta ishlashgacha. To'g'ri rejim tanlanganda, ozonlash zararli qoldiqlarsiz va mahsulot sifatiga salbiy ta'sirsiz yuqori darajadagi dezinfeksiyani ta'minlaydi.",
+    "relatedTitle": "Parrandachilikda ozonlangan suv",
+    "relatedText": "Alohida yirik yo'nalish — suv shakli: ichimlik suvini zararsizlantirish, ichirish liniyalaridagi bioplyonkaga qarshi kurash, tuxumni yuvish va so'yish liniyasida tanalarga ishlov berish. Batafsil tahlil alohida materialda:",
+    "relatedLink": "Parrandachilikda ozonlangan suv: ichimlik suvi, bioplyonka va qayta ishlash"
   },
   "table": {
     "caption": "5.1-jadval. Tuxumlarni mikoplazmadan zararsizlantirish natijalari",

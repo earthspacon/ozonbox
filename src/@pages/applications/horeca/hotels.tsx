@@ -134,6 +134,15 @@ export function HotelsPage({ staticData, lang }: HotelsPageProps) {
             <HighlightBox variant="success">{data?.sections?.benefits?.highlight}</HighlightBox>
           </ArticleSection>
 
+          <ArticleSection title={data?.sections?.laundry?.title}>
+            <Paragraph>{data?.sections?.laundry?.p1}</Paragraph>
+            <Paragraph>{data?.sections?.laundry?.p2}</Paragraph>
+            <BulletList items={data?.sections?.laundry?.items} />
+            <HighlightBox variant="success">
+              <strong>{data?.sections?.laundry?.highlightTitle}</strong> {data?.sections?.laundry?.highlightText}
+            </HighlightBox>
+          </ArticleSection>
+
           <ArticleSection title={data?.sections?.equipment?.title}>
             <Paragraph>{data?.sections?.equipment?.intro}</Paragraph>
             <DataTable headers={data?.sections?.equipment?.tableHeaders} rows={data?.sections?.equipment?.tableData} />

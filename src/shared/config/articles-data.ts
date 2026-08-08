@@ -77,6 +77,14 @@ export const ARTICLES: ArticleMeta[] = [
     sourceUrl: '',
   },
   {
+    id: 'aqueousOzonePoultry',
+    slug: 'aqueous-ozone-poultry',
+    image: 'https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=800&q=80',
+    date: '2025-02-10',
+    sourceName: 'Frontiers in Microbiology; FDA 21 CFR 173.368; USDA/FSIS Directive 7120.1',
+    sourceUrl: 'https://www.frontiersin.org/articles/10.3389/fmicb.2020.593911/full',
+  },
+  {
     id: 'ozoneCovid19Treatment',
     slug: 'ozone-covid-19-treatment',
     image: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=800&q=80',

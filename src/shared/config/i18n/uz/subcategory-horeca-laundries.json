@@ -182,6 +182,121 @@
             "Kamroq yuvish vaqti — kuniga ko'p sikllar",
             "Tipik to'lash muddati: 12-18 oy"
           ]
+        },
+        "aqueousOzone": {
+          "title": "Ozonlangan suv: 18–20 °C da yuvish",
+          "text": "Ozon to'g'ridan-to'g'ri yuviladigan sovuq suvda eritiladi. Generator uni quritilgan havodan yoki kisloroddan oladi, injektor yoki diffuzor esa gazni suv quyish liniyasiga yoxud bevosita mashina bakiga uzatadi. Suvda ozon amalda qo'llaniladigan eng kuchli oksidlovchi sifatida ishlaydi: 2,07 volt, xlorda esa 1,36. Tezlikdagi farq ham shundan — mikroorganizmlarni u minglab marta tezroq yo'q qiladi.",
+          "text2": "Amaliy natija: suvni isitish talab qilinmaydi. Kirni 60–90 °C gacha qizdirishdan ko'zlangan barcha maqsadga oksidlanish 18–20 darajada erishiladi. Bundan tashqari, sovuq suvda ozon ko'proq eriydi va uzoqroq ishlaydi: 5 °C da eruvchanlik 25 °C dagiga qaraganda deyarli ikki barobar yuqori. Past harorat bu yerda yon berish emas, texnologiyaning shtatdagi ish rejimi.",
+          "params": {
+            "title": "Ish parametrlari",
+            "tableCaption": "Ozonli yuvishning ish parametrlari",
+            "tableHeaders": ["Parametr", "Qiymat", "Sababi"],
+            "tableRows": [
+              ["Suv harorati", "18–20 °C, ko'pi bilan 30", "Yuqorida ozon yomonroq eriydi va tezroq parchalanadi"],
+              [
+                "Bakdagi erigan ozon",
+                "4–5 mg/l",
+                "Qabul qilishdagi asosiy ko'rsatkich: generator pasportidan olinmaydi, bakda o'lchanadi"
+              ],
+              [
+                "Uzatish usuli",
+                "Bakka diffuzor yoki quyish liniyasiga injektor",
+                "Diffuzor orqali konsentratsiya barqarorroq bo'ladi"
+              ],
+              [
+                "Eritmaning pH darajasi",
+                "8–9",
+                "pH 9 dan yuqori bo'lganda ozon juda tez parchalanadi — ishqor dozasini kamaytirish kerak"
+              ],
+              [
+                "Quvurlar va zichlagichlar",
+                "Zanglamaydigan po'lat, PTFE, PVDF, viton",
+                "Oddiy rezina va PVX ozon ta'sirida yemiriladi"
+              ],
+              [
+                "Xavfsizlik",
+                "Ozon datchigi, destruktor, so'rib oluvchi shamollatish",
+                "Ish zonasi havosidagi chegaraviy konsentratsiya — 0,1 mg/m³"
+              ]
+            ]
+          },
+          "machines": {
+            "title": "Jihozlar",
+            "intro": "Ozonli yuvish AQSh va Buyuk Britaniyada to'qsoninchi yillardan beri qo'llaniladi. Kir yuvish jihozlarining yirik ishlab chiqaruvchilari ham shtat ozon moduli bilan mashinalar, ham sexda allaqachon ishlab turgan texnikani qo'shimcha jihozlash uchun komplektlar chiqaradi.",
+            "items": [
+              {
+                "title": "Ozon moduli bilan mashinalar",
+                "description": "Shtat ozon obvyazkasi, klapanlari va tayyor past haroratli yuvish dasturlariga ega yuvish-siqish mashinalari."
+              },
+              {
+                "title": "Amaldagi mashinalarni qo'shimcha jihozlash",
+                "description": "Ozonga istalgan brend mashinasini o'tkazish mumkin: generator, injektor, issiq suv baypasi, datchik va destruktor. Baraban va elektronika o'zgarishsiz qoladi — mashina parkini almashtirish talab qilinmaydi."
+              },
+              {
+                "title": "Ozonli yuvish dasturlari",
+                "description": "Kontrollerga alohida sikllar kiritiladi: sovuq suv quyish, uzaytirilgan oksidlanish fazasi, kamroq chayish, minimal ishqor."
+              },
+              {
+                "title": "Tunnel liniyalari",
+                "description": "Yirik kir yuvish korxonalarida ozon uzluksiz yuvish modullariga uzatiladi — sex o'sha jihozning o'zida ko'proq kir qayta ishlaydi."
+              }
+            ]
+          },
+          "cases": {
+            "title": "Joriy etish natijalari",
+            "tableCaption": "Mustaqil dala o'lchovlari ma'lumotlari",
+            "tableHeaders": ["Obyekt", "Nima o'lchandi", "Natija"],
+            "tableRows": [
+              [
+                "Mehmonxona, sutkasiga 2,3 tonna kir (AQSh Energetika vazirligi o'lchovlari)",
+                "Suv isitishga ketgan gaz",
+                "65% kam. Suv va oqova — 15% kam. O'zini qoplashi 2,8 yil"
+              ],
+              [
+                "278 xonali mehmonxona, Kaliforniya",
+                "Issiq suv",
+                "91% kam. Umumiy suv sarfi — 35% kam, bu yiliga 3 300 m³. O'zini qoplashi 7,5 oy"
+              ],
+              [
+                "Sanoat kir yuvish korxonasi, yiliga 2 000 tonna",
+                "Sikl davomiyligi",
+                "27% kam; o'tkazuvchanlik qobiliyati chorak baravar oshdi"
+              ],
+              [
+                "104 xonali mehmonxona",
+                "Kimyo va mehnat sarfi",
+                "Kimyo 21% kam, mehnat sarfi 39% kam, suv isitish 80–90% ga kamaydi"
+              ],
+              [
+                "Shifoxona kir yuvish xonasi, yarim yillik kuzatuv",
+                "Kirning mikrobiologiyasi",
+                "Xona haroratida yuvilgandan keyin namunalarda MRSA, C. difficile, mog'or va achitqi aniqlanmadi"
+              ]
+            ]
+          },
+          "hygiene": {
+            "title": "Past haroratda tozalik",
+            "text": "Texnologiyaga beriladigan asosiy savol — kir isitilmagan bo'lsa, u rostdan ham toza bo'ladimi. Javobni shifoxona kir yuvish xonalari amaliyoti berdi: u yerda zararsizlantirishga qo'yiladigan talablar sohada eng qat'iy hisoblanadi.",
+            "items": [
+              "Xona haroratida ozonli yuvishdan keyin kir namunalarida na MRSA, na C. difficile, na mog'or, na achitqi aniqlandi",
+              "71 °C da standart termik dezinfeksiyadan keyin esa ayrim namunalarda C. difficile saqlanib qoldi",
+              "Maxsus MRSA yuqtirilgan xodimlar formasida ozon 8 log dan ortiq kamayish berdi, issiq yuvishda bu ko'rsatkich 3,3 log bo'ldi",
+              "Britaniya sog'liqni saqlash xizmati yana 2009-yildayoq ozonli yuvishni undan oldin qo'llanilgan tizimlardan samaraliroq deb tan olgan",
+              "Hid mikroflora bilan birga ketadi: ter va tamaki molekulalarini ozon xushbo'ylatgich bilan bosmaydi, balki parchalaydi"
+            ]
+          },
+          "textile": {
+            "title": "Nega kir uzoqroq xizmat qiladi",
+            "items": [
+              "60–90 °C gacha qizdirish yo'q — tola har siklda termik zarba olmaydi",
+              "Issiq suvda xlorli oqartirgich yo'q: mato uchun bu eng halokatli kombinatsiya",
+              "Ishqor va uni neytrallovchi kislota kamroq — tolaga tushadigan kimyoviy yuklama past",
+              "Ozon tolani bo'shashtiradi, shuning uchun ifloslanish kamroq mexanik ta'sirda ketadi",
+              "Matoda kimyo qoldig'i qolmaydi: ozon kislorodga parchalanadi, kir konditsionersiz ham yumshoq bo'ladi"
+            ]
+          },
+          "highlightTitle": "Iqtisod haqida:",
+          "highlightText": "Asosiy tejam suvni isitishdan voz kechish hisobiga shakllanadi, shuning uchun texnologiya sutkasiga 500–700 kg dan yuvadigan va o'z kir yuvish xonasiga ega joylarda o'zini oqlaydi. Muhim jihat: suv sarfi faqat dasturlar bir vaqtda qayta sozlanib, ortiqcha chayishlar qisqartirilgandagina kamayadi — aks holda suv uchun hisob aksincha oshadi. Hisob-kitobni sizning hajmingiz va tariflaringiz bo'yicha jihoz xarid qilinishidan oldin bajaramiz."
         }
       },
       "ozoneClosets": {

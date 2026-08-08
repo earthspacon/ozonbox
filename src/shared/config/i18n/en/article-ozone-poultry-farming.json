@@ -22,7 +22,10 @@
     "salmonella1": "At the Las Vegas congress in 2003, Rodriguez presented a report on the salmonella problem. More than 40,000 cases of illness associated with raw egg consumption are recorded annually in the USA.",
     "salmonella2": "A complex treatment has been developed: thermal and vacuum exposure combined with ozonation. A contamination reduction of 5 orders of magnitude has been achieved — this means a 100,000-fold decrease in pathogen count.",
     "conclusionTitle": "Conclusions",
-    "conclusion": "Ozone is an effective and environmentally safe tool for poultry farming. Its application covers the entire production cycle — from egg incubation to finished product processing. With proper mode selection, ozonation provides a high degree of disinfection without harmful residues and negative effects on product quality."
+    "conclusion": "Ozone is an effective and environmentally safe tool for poultry farming. Its application covers the entire production cycle — from egg incubation to finished product processing. With proper mode selection, ozonation provides a high degree of disinfection without harmful residues and negative effects on product quality.",
+    "relatedTitle": "Ozonated water in poultry farming",
+    "relatedText": "The aqueous form is a substantial separate area: disinfection of drinking water, control of biofilm in the drinker lines, egg washing and carcass treatment at slaughter. It is examined in detail in a separate article:",
+    "relatedLink": "Ozonated water in poultry farming: drinking water, biofilm and processing"
   },
   "table": {
     "caption": "Table 5.1. Results of egg decontamination from mycoplasma",

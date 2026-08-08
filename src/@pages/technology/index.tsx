@@ -357,7 +357,7 @@ export function TechnologyPage() {
                   height: 'auto',
                 }}
               >
-                300×
+                3000×
               </div>
               <h3 className="feature-card__title">{t('technology.stats.power.title')}</h3>
               <p className="feature-card__text">{t('technology.stats.power.text')}</p>

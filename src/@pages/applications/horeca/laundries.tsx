@@ -150,6 +150,55 @@ export function LaundriesPage({ staticData, lang }: LaundriesPageProps) {
             </FeatureGrid>
           </ArticleSection>
 
+          <ArticleSection title={data?.sections?.aqueousOzone?.title}>
+            <Paragraph>{data?.sections?.aqueousOzone?.text}</Paragraph>
+            <Paragraph>{data?.sections?.aqueousOzone?.text2}</Paragraph>
+
+            <DataTable
+              caption={data?.sections?.aqueousOzone?.params?.tableCaption}
+              headers={data?.sections?.aqueousOzone?.params?.tableHeaders ?? []}
+              rows={data?.sections?.aqueousOzone?.params?.tableRows ?? []}
+            />
+
+            <ArticleSection title={data?.sections?.aqueousOzone?.machines?.title}>
+              <Paragraph>{data?.sections?.aqueousOzone?.machines?.intro}</Paragraph>
+              <FeatureGrid columns={2}>
+                {(
+                  (data?.sections?.aqueousOzone?.machines?.items as Array<{ title: string; description: string }>) ?? []
+                ).map((item, index) => (
+                  <FeatureCard
+                    key={index}
+                    icon={<IconCheck style={{ width: 24, height: 24 }} />}
+                    title={item.title}
+                    description={item.description}
+                  />
+                ))}
+              </FeatureGrid>
+            </ArticleSection>
+
+            <ArticleSection title={data?.sections?.aqueousOzone?.cases?.title}>
+              <DataTable
+                caption={data?.sections?.aqueousOzone?.cases?.tableCaption}
+                headers={data?.sections?.aqueousOzone?.cases?.tableHeaders ?? []}
+                rows={data?.sections?.aqueousOzone?.cases?.tableRows ?? []}
+              />
+            </ArticleSection>
+
+            <ArticleSection title={data?.sections?.aqueousOzone?.hygiene?.title}>
+              <Paragraph>{data?.sections?.aqueousOzone?.hygiene?.text}</Paragraph>
+              <BulletList items={(data?.sections?.aqueousOzone?.hygiene?.items as string[]) ?? []} />
+            </ArticleSection>
+
+            <ArticleSection title={data?.sections?.aqueousOzone?.textile?.title}>
+              <BulletList items={(data?.sections?.aqueousOzone?.textile?.items as string[]) ?? []} />
+            </ArticleSection>
+
+            <HighlightBox variant="info">
+              <strong>{data?.sections?.aqueousOzone?.highlightTitle}</strong>{' '}
+              {data?.sections?.aqueousOzone?.highlightText}
+            </HighlightBox>
+          </ArticleSection>
+
           <ArticleSection title={data?.sections?.ozoneClosets?.title}>
             <Paragraph>{data?.sections?.ozoneClosets?.desc}</Paragraph>
             <ProcessList steps={data?.sections?.ozoneClosets?.steps ?? []} />

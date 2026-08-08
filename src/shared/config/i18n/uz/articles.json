@@ -69,6 +69,10 @@
     "ozoneFoodWarehouseMeat": {
       "title": "Oziq-ovqat omborlarida va go'sht saqlashda ozonni qo'llash",
       "excerpt": "Sovuq saqlash inshootlarida, go'shtni saqlashda, patogenlarni nazorat qilishda va yirik oziq-ovqat xizmat ko'rsatish tarmoqlari tomonidan qabul qilinishida ozon texnologiyasining keng qamrovli sharhi. FDA GRAS to'g'ridan-to'g'ri oziq-ovqat bilan aloqa qilish uchun tasdiqlangan."
+    },
+    "aqueousOzonePoultry": {
+      "title": "Parrandachilikda ozonlangan suv: ichimlik suvi, bioplyonka va qayta ishlash",
+      "excerpt": "Parranda fabrikasida ozonlangan suvni qo'llash: ichimlik suvini zararsizlantirish, ichirish liniyalaridagi bioplyonkaga qarshi kurash, tuxumni yuvish va tanalarga ishlov berish. Dozalar, tajriba natijalari, FDA va USDA talablari, iqtisodiy samara."
     }
   }
 }

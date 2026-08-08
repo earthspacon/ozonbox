@@ -5,7 +5,7 @@
   },
   "meta": {
     "title": "OZONOXY — Ozonation and disinfection for business",
-    "description": "Professional ozonation systems for poultry farming, food industry, hotels and restaurants, and medicine. 300 times more effective than chlorine. Free consultation."
+    "description": "Professional ozonation systems for poultry farming, food industry, hotels and restaurants, and medicine. 3000 times more effective than chlorine. Free consultation."
   },
   "nav": {
     "technology": "Technology",
@@ -67,7 +67,7 @@
   },
   "hero": {
     "title": "Ozone — Nature's disinfection power",
-    "subtitle": "300 times more effective than chlorine. No chemicals. No residue. No harm to health. Professional ozonation systems for your business.",
+    "subtitle": "3000 times more effective than chlorine. No chemicals. No residue. No harm to health. Professional ozonation systems for your business.",
     "learnMore": "Learn more",
     "getConsultation": "Get consultation",
     "viewProducts": "Our products",
@@ -80,7 +80,7 @@
   },
   "features": {
     "power": {
-      "title": "300x more powerful",
+      "title": "3000x more powerful",
       "text": "Ozone exceeds chlorine in disinfection efficiency by hundreds of times"
     },
     "pathogens": {
@@ -249,7 +249,7 @@
       "ozone": "Ozone",
       "chlorine": "Chlorine",
       "efficiency": "Disinfection efficiency",
-      "efficiencyOzone": "300 times higher",
+      "efficiencyOzone": "3000 times higher",
       "efficiencyChlorine": "Basic",
       "time": "Bacterial exposure time",
       "timeOzone": "10-30 seconds",
@@ -326,7 +326,7 @@
       "efficiency": {
         "title": "Effectiveness",
         "list": {
-          "1": "300 times more powerful than chlorine",
+          "1": "3000 times more powerful than chlorine",
           "2": "Destroys 99.9% of pathogens",
           "3": "Works against chlorine-resistant viruses",
           "4": "Fast action (10-30 seconds)"

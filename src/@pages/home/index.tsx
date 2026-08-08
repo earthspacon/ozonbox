@@ -64,7 +64,7 @@ export function HomePage() {
             </div>
             <div className="hero__stats">
               <div className="hero__stat">
-                <div className="hero__stat-value">300×</div>
+                <div className="hero__stat-value">3000×</div>
                 <div className="hero__stat-label">{t('hero.stats.power')}</div>
               </div>
               <div className="hero__stat">

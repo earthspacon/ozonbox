@@ -159,6 +159,21 @@
             "Isteʼmol vositalari yo'q — ozon havadan istehso qilinadi",
             "Avtomatik ishlash — xodimlarning minimal qatnashmasi"
           ]
+        },
+        "aqueousOzone": {
+          "title": "Oshxonada ozonlangan suv",
+          "text": "Ozon faqat zal havosida ishlamaydi. Ozon eritilgan oddiy sovuq suv eng kuchli dezinfeksiya vositasiga aylanadi: oksidlash kuchi bo'yicha bu 2,07 volt, xlorda esa 1,36. Bunda mahsulotga hech narsa o'tmaydi — ozon kislorodga parchalanadi va na iz, na ta'm, na hid qoldiradi.",
+          "text2": "Shu sababli AQShda ozon mahsulot bilan bevosita aloqada bo'lish uchun rasman ruxsat etilgan (FDA ning 21 CFR 173.368 qoidasi 2001-yildan amalda), FSIS xizmati esa uni barcha go'sht va parranda mahsulotlari uchun ma'qullagan. Restoran uchun bu — xlor nomaqbul yoki bevosita taqiqlangan joylarda yuvish va dezinfeksiya qilish imkoniyati.",
+          "items": [
+            "Sabzavot, ko'kat va mevalarni yuvish: mikroflora kamayadi, mahsulot uzoqroq saqlanadi, xlor ta'mi qolmaydi",
+            "Stol, taxta, inventar va idishlarga ishlov berish — ishchi eritma suv va havodan tayyorlanadi, sarf materiallari talab qilinmaydi",
+            "Muz generatorlari, kofe mashinalari va suv liniyalarini yuvish: ozon bioplyonkani yemiradi, niqoblamaydi",
+            "Vodoprovod suvini qo'shimcha tozalash — xlor ta'mi, temir va hid ketadi, bu esa kofe, choy va muz ta'miga bevosita ta'sir qiladi",
+            "Xodimlar qo'lini ozonlangan suv bilan yuvish — terini quritadigan antiseptiklarsiz",
+            "Restoran kir yuvish xonasi: dasturxon, salfetka va forma 18–20 °C da to'liq zararsizlantirish bilan yuviladi, suv isitishda esa 65–90% gacha tejaladi"
+          ],
+          "highlightTitle": "Amaliy samara:",
+          "highlightText": "Bitta generator ham zal havosini, ham oshxonadagi suvni qamrab oladi. Xomashyo — havo va elektr: kimyo ombori talab qilinmaydi, dozalashdagi xatolar istisno etiladi, idish va mahsulotlarda dezinfeksiya vositasi qoldig'i qolmaydi."
         }
       }
     }

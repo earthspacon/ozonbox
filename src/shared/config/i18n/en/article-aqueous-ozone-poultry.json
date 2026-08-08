@@ -1,0 +1,92 @@
+{
+  "title": "Ozonated water in poultry farming: drinking water, biofilm and processing",
+  "excerpt": "What ozonated water provides on a poultry farm: clean water in the drinkers, control of biofilm in the drinker lines, egg washing and carcass treatment. Doses, trial results, FDA and USDA requirements, economics.",
+  "body": {
+    "intro": "Ozone is the strongest oxidiser available in practice: 2.07 volts against 1.36 for chlorine. It inactivates microorganisms thousands of times faster than chlorine and, once spent, breaks down into ordinary oxygen — leaving no residues in the product and no by-products in the water. Poultry operations are increasingly moving from gaseous schemes to ozonated water, because water is where most of the problems are concentrated: the drinker lines, the shell, the slaughter line.",
+    "whyWaterTitle": "Why water comes first",
+    "whyWater": "Water on a poultry farm is both part of the ration and the shortest route for infection. Salmonella, E. coli and Campylobacter live not so much in the water itself as in the biofilm — the slime layer on the inner walls of the drinker lines. There they are protected from conventional disinfectants and continuously reseed the flock. Ozone destroys the film itself, not only the free cells in the water, so it acts on the source rather than the symptom.",
+    "whyWater2": "The second argument is the cleanliness of the medium. Drinking water contains almost no organic matter to consume the oxidiser, so the required dose is small and the result is predictable. To inactivate 99.9% of Giardia cysts, ozone requires a CT of only 0.72–1.9 mg·min/L — an order of magnitude less than chlorine dioxide.",
+    "solubilityTitle": "Solubility and temperature",
+    "solubility": "Ozone dissolves more readily the colder the water: 0.64 mg/L at 5 °C, 0.52 at 15 °C, 0.38 at 25 °C and 0.29 at 35 °C. Hence the practical rule: in summer and in warm water the dose must be increased. In clean water at 20 °C ozone persists for about 20 minutes; in water containing organic matter, only a few minutes. It cannot be stored: the generator operates on site and produces exactly as much as is required at the time.",
+    "drinkingTitle": "Drinking water: system design",
+    "drinking1": "The layout is standard: an ozone generator, an ejector or contact column, and a dissolved-ozone analyser or an ORP meter with a target value of 650–750 mV. Two operating scenarios are used — flushing the lines between flocks, and supplying disinfected water to the birds during grow-out.",
+    "drinking2": "A representative example from a European broiler operation: the lines were flushed with ozonated water between flocks, and from day 15 of grow-out the birds received ozonated water continuously. The result: microflora in the water was practically absent, no biofilm accumulated in the lines, the use of veterinary medicines fell, and feed conversion improved by 0.02. Water consumption rose by about 5%, with no deterioration in litter condition. The installation for three houses (120,000 broilers) cost €22,950; over three years that is about one euro cent per bird, not counting the savings on cleaning and disinfecting agents. Over four years of operation there have been no failures.",
+    "drinking3": "The technology has one characteristic that must be allowed for at the design stage: ozone provides no residual effect along the length of the line. Chlorine maintains a concentration that remains active all the way to the drinker, whereas ozone decomposes too quickly. In extended systems it is therefore used either in flushing mode or with ORP monitoring at several points.",
+    "eggsTitle": "Washing and disinfecting eggs",
+    "eggs1": "An egg with a contaminated shell cannot be disinfected by dry treatment — the aqueous form is required here. Ozonated water with acidification washes and disinfects the shell in a single pass. Neither formaldehyde fumigation, nor peroxide, nor peracetic acid is required — that is, no reagents hazardous to staff and no residues on the product.",
+    "eggs2": "Industry data: shell contamination falls from 780 to 12 colonies per cm² in layer crosses and from 913 to 24 in broiler breeders. Hatchability gains 2–3 percentage points and livability about one. Against mycoplasma the most effective combination is heat plus ozone: 95–99%, against 40–70% when the two factors are applied separately.",
+    "processingTitle": "Slaughter and processing",
+    "processing1": "On the line, everything is determined by dose — concentration multiplied by contact time. In a trial on chicken drumsticks contaminated with Salmonella (6.9 log₁₀ CFU/cm² at the start), ozonated water at 8 mg/L gave a reduction of 1.6 log₁₀ per immersion and 1.2 log₁₀ per spray application. Six consecutive immersions or seven spray applications brought contamination below the detection limit. The colour and appearance of the skin were unchanged.",
+    "processing2": "The converse result is equally instructive: with short treatments of 15–45 seconds — precisely the duration of the post-chiller pass — the reduction in Salmonella was only 0.3–0.7 log₁₀. The practical conclusion: in processing, ozone is effective but not as a single barrier. It is applied as part of a multi-barrier scheme or in consecutive cycles.",
+    "regulationTitle": "Regulatory status",
+    "regulation": "Ozone is the only strong oxidiser permitted in direct contact with food without declaration on the label. In the USA the FDA authorised it under rule 21 CFR 173.368 in June 2001 — in both the gaseous and the aqueous phase, including meat and poultry. The FSIS of the US Department of Agriculture approved ozone for all meat and poultry products in Directive 7120.1. In local practice, the application modes are governed by the sectoral instruction on veterinary and sanitary treatment of facilities under veterinary supervision.",
+    "safetyTitle": "Safety",
+    "safety": "Ozone dissolved in water is safe for the birds and for the product, but the gaseous phase requires monitoring. The occupational exposure limit in workplace air is 0.1 mg/m³; in the presence of birds the sectoral instruction permits up to 1.2 mg/m³. The minimum equipment set: a fixed gas analyser that shuts down the generator on exceedance, a catalytic destructor at the outlet, and ozone-resistant materials — AISI 304/316 stainless steel, PTFE, PVDF and Viton. Ordinary rubber, PVC, copper and carbon steel degrade under ozone.",
+    "economicsTitle": "Economics",
+    "economics": "Ozone has no consumables: the raw materials are air and electricity. No chemical store or reagent logistics is required, and dosing errors by staff are eliminated. The economic effect comes from several sources: fewer veterinary preparations and disinfectants, better feed conversion and livability, and no need for formaldehyde fumigation with its associated occupational-safety requirements. The absence of residues in the product is a separate benefit — it provides direct access to markets with strict requirements.",
+    "recommendationsTitle": "Where to start",
+    "recommendations": "It is best to start with water: disinfection of the drinking water and flushing of the drinker lines pay back most predictably and carry no risk to the flock. The next step is egg washing and treatment at slaughter. The dose should be calculated, not the concentration, with a correction for organic load and water temperature. The system should not be rolled out across the whole operation at once: install it in a single house, monitor water microflora, mortality, feed conversion and weight gain against a control house, and complete at least one full grow-out cycle.",
+    "conclusionTitle": "Conclusions",
+    "conclusion": "Ozonated water is a mature technology with recognised regulatory status and clear economics. It addresses the most vulnerable point of the operation — the biofilm in the drinker lines — without chemical residues, without a reagent store and without risk to product quality. With a correctly calculated dose and standard safety monitoring, ozone provides what no conventional disinfectant can: maximum oxidising power that disappears without trace by the time the product is shipped.",
+    "relatedTitle": "See also",
+    "relatedText": "Gaseous ozonation in poultry farming — egg incubation, air sanitation in the house, and treatment of feed and packaging — is covered in a separate article:",
+    "relatedLink": "Ozone in poultry farming. An introduction"
+  },
+  "table": {
+    "caption": "Working modes for ozonated water in poultry farming",
+    "headers": ["Application", "Concentration", "Contact time", "Result"],
+    "rows": [
+      [
+        "Drinking water for the birds",
+        "0.1–0.4 mg/L, ORP 650–750 mV",
+        "Continuous",
+        "No microflora in the water, no biofilm accumulation"
+      ],
+      ["Flushing drinker lines between flocks", "0.5–2 mg/L", "20–60 min", "Destruction of biofilm in the lines"],
+      [
+        "Washing and disinfecting eggs",
+        "1–3 mg/L with acidification",
+        "1–5 min",
+        "Shell contamination 30–60 times lower"
+      ],
+      ["Carcass immersion at processing", "8 mg/L", "6 cycles", "Salmonella below the detection limit"],
+      ["Spraying of carcasses", "8 mg/L", "7 cycles", "1.2 log₁₀ per cycle, up to full elimination"],
+      [
+        "Short treatment after the chiller",
+        "2.5–10 mg/L",
+        "15–45 s",
+        "0.3–0.7 log₁₀ — only as one barrier among several"
+      ]
+    ]
+  },
+  "sourcesTitle": "Sources",
+  "sources": [
+    {
+      "title": "Megahed A., Aldridge B., Lowe J. Antimicrobial Efficacy of Aqueous Ozone and Ozone–Lactic Acid Blend on Salmonella-Contaminated Chicken Drumsticks. Frontiers in Microbiology, 2020;11:593911",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmicb.2020.593911/full"
+    },
+    {
+      "title": "FDA, 21 CFR 173.368 — Ozone as an antimicrobial agent for direct contact with food (secondary direct food additive)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-173/subpart-D/section-173.368"
+    },
+    {
+      "title": "USDA / FSIS Directive 7120.1 — Safe and Suitable Ingredients Used in the Production of Meat, Poultry, and Egg Products",
+      "url": "https://www.fsis.usda.gov/policy/fsis-directives/7120.1"
+    },
+    {
+      "title": "Chang R. et al. Assessment of gaseous ozone treatment on Salmonella Typhimurium and Escherichia coli O157:H7 reductions in poultry litter. Waste Management, 2020;117:42–47",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32805600"
+    },
+    {
+      "title": "Oliveira G.S. et al. Effects of Sanitizers on Microbiological Control of Hatching Eggshells. Animals (MDPI), 2022;12(20):2826",
+      "url": "https://www.mdpi.com/2076-2615/12/20/2826"
+    },
+    {
+      "title": "BroilerNet EU. Healthier Broilers Through the Use of Ozone for Disinfecting Water Systems (case study)",
+      "url": "https://broilernet.eu"
+    },
+    {
+      "title": "Instruction on veterinary and sanitary treatment of facilities under veterinary supervision using ozone (Veterinary Department of the Ministry of Agriculture of the Russian Federation, 09.07.2001); GOST 12.1.005-88; GN 2.2.5"
+    }
+  ]
+}

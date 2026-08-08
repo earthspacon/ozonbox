@@ -69,6 +69,10 @@
     "ozoneFoodWarehouseMeat": {
       "title": "Ozone Applications in Food Warehouses and Meat Storage",
       "excerpt": "Comprehensive review of ozone technology in cold storage facilities, meat preservation, pathogen control, and adoption by major food service chains. FDA GRAS approved for direct food contact."
+    },
+    "aqueousOzonePoultry": {
+      "title": "Ozonated water in poultry farming: drinking water, biofilm and processing",
+      "excerpt": "What ozonated water provides on a poultry farm: clean water in the drinkers, control of biofilm in the drinker lines, egg washing and carcass treatment. Doses, trial results, FDA and USDA requirements, economics."
     }
   }
 }

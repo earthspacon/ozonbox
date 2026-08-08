@@ -147,6 +147,16 @@ export function RestaurantsPage({ staticData, lang }: RestaurantsPageProps) {
             />
           </ArticleSection>
 
+          <ArticleSection title={data?.sections?.aqueousOzone?.title}>
+            <Paragraph>{data?.sections?.aqueousOzone?.text}</Paragraph>
+            <Paragraph>{data?.sections?.aqueousOzone?.text2}</Paragraph>
+            <BulletList items={data?.sections?.aqueousOzone?.items} />
+            <HighlightBox variant="info">
+              <strong>{data?.sections?.aqueousOzone?.highlightTitle}</strong>{' '}
+              {data?.sections?.aqueousOzone?.highlightText}
+            </HighlightBox>
+          </ArticleSection>
+
           <ArticleSection title={data?.sections?.additionalUses?.title}>
             <BulletList items={data?.sections?.additionalUses?.items} />
 

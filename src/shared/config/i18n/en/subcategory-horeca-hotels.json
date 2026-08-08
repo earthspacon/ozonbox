@@ -121,6 +121,21 @@
             ["Medium hotel (20-100 rooms)", "Portable ozonators 10-20 g/h", "3-5 units"],
             ["Large hotel (100+ rooms)", "Ozonator fleet + stationary units in common areas", "As calculated"]
           ]
+        },
+        "laundry": {
+          "title": "Ozonated water in the hotel laundry",
+          "p1": "In a hotel, ozone works not only in the air of the room. If the laundry is in-house, ozone is dissolved directly into the cold water: the generator feeds the gas through an injector into the fill line or through a diffuser into the machine drum. In oxidising power, ozone (2.07 V) is considerably ahead of chlorine (1.36 V), and it inactivates microorganisms thousands of times faster.",
+          "p2": "For a hotel this is primarily a matter of economics. Heating water to 60–90 °C is the most expensive item in a laundry, and ozone removes it: washing runs at 18–20 degrees. Cold water dissolves more ozone and keeps it active longer, so the low temperature here is the normal operating mode rather than a compromise.",
+          "items": [
+            "Gas for water heating: down 65–90% according to field measurements in operating hotels",
+            "Water consumption: down by up to 35%, provided surplus rinses are cut at the same time",
+            "Detergents: down 20–40%; chlorine bleach is not required in most programs",
+            "Cycles 10–27% shorter — the laundry processes more linen per shift",
+            "Linen lasts longer: no thermal shock and no aggressive chemistry",
+            "Disinfection is not compromised: in hospital laundries, ozone washing at room temperature left neither MRSA nor C. difficile"
+          ],
+          "highlightTitle": "Equipment:",
+          "highlightText": "There is no need to replace the machines — existing ones are retrofitted with an ozone module: generator, injector, hot-water bypass, sensor and destructor. Machines with factory-fitted ozone are also available. The technology pays back from approximately 500 kg of linen per day; we prepare the calculation for your volume and tariffs before purchase."
         }
       },
       "benefits": [

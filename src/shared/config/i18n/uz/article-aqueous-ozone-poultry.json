@@ -1,0 +1,97 @@
+{
+  "title": "Parrandachilikda ozonlangan suv: ichimlik suvi, bioplyonka va qayta ishlash",
+  "excerpt": "Parranda fabrikasida ozonlangan suvni qo'llash: ichimlik suvini zararsizlantirish, ichirish liniyalaridagi bioplyonkaga qarshi kurash, tuxumni yuvish va tanalarga ishlov berish. Dozalar, tajriba natijalari, FDA va USDA talablari, iqtisodiy samara.",
+  "body": {
+    "intro": "Ozon — amalda qo'llaniladiganlar orasidagi eng kuchli oksidlovchi: 2,07 volt, xlorda esa 1,36. U mikroorganizmlarni xlordan minglab marta tezroq yo'q qiladi, ishlab bo'lgach esa oddiy kislorodga parchalanadi — mahsulotda qoldiq, suvda esa qo'shimcha birikmalar qolmaydi. Parrandachilikda gazli sxemalardan ozonlangan suvga o'tish tobora kengayib bormoqda: muammolarning asosiy qismi aynan suvda to'plangan — ichirish liniyalari, tuxum po'stlog'i, so'yish uchastkasi.",
+    "whyWaterTitle": "Nega suvdan boshlanadi",
+    "whyWater": "Parranda fabrikasida suv — ham ratsionning bir qismi, ham infeksiya uchun eng qisqa yo'l. Salmonella, ichak tayoqchasi va kampilobakter suvning o'zida emas, ko'proq bioplyonkada — ichirish liniyalarining ichki devoridagi shilimshiq qatlamda yashaydi. U yerda ular oddiy dezinfeksiya vositalaridan himoyalangan bo'lib, podani doimiy ravishda qayta zararlaydi. Ozon suvdagi erkin hujayralarnigina emas, plyonkaning o'zini yemiradi, ya'ni oqibat bilan emas, manba bilan ishlaydi.",
+    "whyWater2": "Ikkinchi dalil — muhitning tozaligi. Ichimlik suvida oksidlovchini sarflaydigan organika deyarli yo'q, shuning uchun doza kichik, natija esa oldindan bashorat qilinadi. Lyamblia sistalarining 99,9% ini inaktivatsiya qilish uchun ozonga 0,72–1,9 mg·min/l CT yetarli — bu xlor dioksidiga qaraganda bir tartibga kam.",
+    "solubilityTitle": "Eruvchanlik va harorat",
+    "solubility": "Suv qanchalik sovuq bo'lsa, ozon shunchalik yaxshi eriydi: 5 °C da 0,64 mg/l, 15 °C da 0,52, 25 °C da 0,38 va 35 °C da 0,29. Bundan amaliy qoida kelib chiqadi: yozda va iliq suvda dozani oshirish kerak. Toza suvda 20 °C da ozon 20 daqiqacha yashaydi, organikasi bor suvda esa bir necha daqiqa. Uni zaxiraga tayyorlab bo'lmaydi: generator joyning o'zida ishlaydi va aynan hozir qancha talab qilinsa, shuncha beradi.",
+    "drinkingTitle": "Ichirish: qanday tashkil etiladi",
+    "drinking1": "Sxema standart: ozon generatori, ejektor yoki kontakt kolonnasi, erigan ozon analizatori yoxud 650–750 mV maqsadli qiymatga sozlangan ORP-metr. Ikki stsenariy bo'yicha ishlanadi — partiyalar orasida liniyalarni yuvish va boqish davrida parrandaga zararsizlantirilgan suv berish.",
+    "drinking2": "Yevropa broyler xo'jaligidan namunali misol: liniyalar partiyalar orasida ozonlangan suv bilan yuvilgan, boqishning 15-kunidan boshlab esa parranda doimiy ravishda ozonlangan suv olgan. Natija: suvda mikroflora deyarli yo'q, liniyalarda bioplyonka o'smaydi, dori preparatlari sarfi kamaygan, yem konversiyasi 0,02 ga yaxshilangan. Suv iste'moli taxminan 5% ga oshgan — to'shama holati esa yomonlashmagan. Uch korpusga (120 ming broyler) mo'ljallangan qurilma 22 950 yevroga tushgan; uch yil hisobida bu bir bosh uchun bir yevrotsent chamasi, yuvish va dezinfeksiya vositalaridagi tejamni hisobga olmaganda. To'rt yillik ekspluatatsiya davomida nosozliklar qayd etilmagan.",
+    "drinking3": "Texnologiyaning loyihalashda hisobga olish kerak bo'lgan xususiyati bor: ozon liniya bo'ylab qoldiq ta'sir bermaydi. Xlor ichirgichning o'zigacha ishlaydigan konsentratsiya qoldiradi, ozon esa juda tez parchalanadi. Shuning uchun uzun tizimlarda uni yo yuvish rejimida qo'llashadi, yo bir necha nuqtaga ORP nazoratini o'rnatishadi.",
+    "eggsTitle": "Tuxumni yuvish va dezinfeksiya qilish",
+    "eggs1": "Po'stlog'i ifloslangan tuxumni quruq ishlov berish bilan zararsizlantirib bo'lmaydi — bu yerda suv shakli talab qilinadi. Kislotalangan ozonlangan suv po'stloqni bir o'tishda ham yuvadi, ham dezinfeksiya qiladi. Na formaldegid fumigatsiyasi, na perekis, na peruksus kislotasi kerak — ya'ni xodimlar uchun xavfli reagentlar ham, mahsulotdagi qoldiqlar ham yo'q.",
+    "eggs2": "Soha amaliyoti ma'lumotlari: po'stloq ifloslanishi tuxum krosslarida 780 dan 12 koloniya/sm² gacha, go'sht krosslarida esa 913 dan 24 gacha kamayadi. Jo'ja chiqishi shu bilan 2–3 foiz punktga, saqlanish esa bir punktcha ortadi. Mikoplazmaga qarshi eng samarali usul — «qizdirish plyus ozon» kombinatsiyasi: omillar alohida qo'llanganda 40–70% bo'lsa, birgalikda 95–99%.",
+    "processingTitle": "So'yish va qayta ishlash",
+    "processing1": "Liniyada hamma narsani doza belgilaydi — konsentratsiya kontakt vaqtiga ko'paytiriladi. Salmonella yuqtirilgan tovuq boldirlarida o'tkazilgan tajribada (boshida 6,9 log₁₀ KHB/sm²) 8 mg/l li ozonlangan suv bir marta botirishda 1,6 log₁₀, bir marta purkashda 1,2 log₁₀ kamayish bergan. Ketma-ket olti marta botirish yoki yetti marta purkash ifloslanishni aniqlash chegarasidan pastga tushirgan. Terining rangi va tovar ko'rinishi o'zgarmagan.",
+    "processing2": "Teskari natija ham diqqatga sazovor: 15–45 soniyalik qisqa ishlov berishda — chillerdan keyingi o'tish aynan shuncha davom etadi — salmonella bo'yicha kamayish atigi 0,3–0,7 log₁₀ ni tashkil etgan. Amaliy xulosa: qayta ishlashda ozon samarali, lekin yagona to'siq sifatida emas. Uni ko'p bosqichli sxema tarkibida yoki ketma-ket sikllar rejimida qo'llashadi.",
+    "regulationTitle": "Normativ maqom",
+    "regulation": "Ozon — mahsulot bilan bevosita aloqada bo'lishga tarkibda ko'rsatilmasdan ruxsat etilgan yagona kuchli oksidlovchi. AQShda FDA uni 21 CFR 173.368 qoidasi bilan yana 2001-yil iyunidayoq ruxsat etgan — gaz fazasida ham, suv fazasida ham, jumladan go'sht va parranda uchun. AQSh Qishloq xo'jaligi vazirligining FSIS xizmati 7120.1 direktivasi bilan ozonni barcha go'sht va parranda mahsulotlari uchun ruxsat etgan. Mahalliy amaliyotda qo'llash rejimlari veterinariya nazorati obyektlariga veterinariya-sanitariya ishlovi berish bo'yicha soha yo'riqnomasida tartibga solingan.",
+    "safetyTitle": "Xavfsizlik",
+    "safety": "Suvda erigan ozon parranda va mahsulot uchun xavfsiz, gaz fazasi esa nazorat talab qiladi. Ish zonasi havosidagi chegaraviy konsentratsiya — 0,1 mg/m³; parranda ishtirokida soha yo'riqnomasi 1,2 mg/m³ gacha ruxsat beradi. Minimal jihozlar to'plami: me'yor oshganda generatorni bloklaydigan statsionar gaz analizatori, chiqishdagi katalitik destruktor va ozonga chidamli materiallar — AISI 304/316 zanglamaydigan po'lat, PTFE, PVDF, viton. Oddiy rezina, PVX, mis va uglerodli po'lat ozon ta'sirida yemiriladi.",
+    "economicsTitle": "Iqtisodiy samara",
+    "economics": "Ozonda sarf materiallari yo'q: xomashyo — havo va elektr energiyasi. Kimyo ombori va reagentlar logistikasi talab qilinmaydi, xodimlar tomonidan dozalashda yo'l qo'yiladigan xatolar istisno etiladi. Iqtisodiy samara bir necha manbadan shakllanadi: vetpreparatlar va dezinfeksiya vositalari kamayadi, yem konversiyasi va saqlanish yaxshilanadi, formaldegid fumigatsiyasi va unga bog'liq mehnat muhofazasi talablari kerak bo'lmaydi. Alohida jihat — mahsulotda qoldiq bo'lmasligi, bu esa qat'iy talablarga ega bozorlarga to'g'ridan-to'g'ri yo'l ochadi.",
+    "recommendationsTitle": "Nimadan boshlash kerak",
+    "recommendations": "Suvdan boshlash maqsadga muvofiq: ichimlik suvini zararsizlantirish va ichirish liniyalarini yuvish eng bashorat qilinadigan tarzda o'zini oqlaydi va poda uchun xavf tug'dirmaydi. Keyingi qadam — tuxumni yuvish va so'yishdagi ishlov. Konsentratsiya emas, doza hisoblanadi — organik yuklama va suv haroratiga tuzatma kiritilgan holda. Tizimni birdaniga butun xo'jalikka joriy etish tavsiya etilmaydi: uni bitta korpusga o'rnating, suv mikroflorasi, nobudgarchilik, konversiya va vazn qo'shimchasini nazorat korpusiga nisbatan kuzatib boring va kamida bitta to'liq boqish siklini o'tkazing.",
+    "conclusionTitle": "Xulosalar",
+    "conclusion": "Ozonlangan suv — normativ maqomi tan olingan va iqtisodi tushunarli yetuk texnologiya. U xo'jalikning eng zaif nuqtasi — ichirish liniyalaridagi bioplyonka bilan ishlaydi va buni kimyoviy qoldiqlarsiz, reagentlar omborisiz va mahsulot sifatiga xavf solmasdan bajaradi. Doza to'g'ri hisoblanganda va xavfsizlik shtatdagi tartibda nazorat qilinganda ozon an'anaviy dezinfektantlarning hech biri bera olmaydigan natijani beradi: maksimal oksidlash kuchi, u mahsulot jo'natilguncha izsiz yo'qoladi.",
+    "relatedTitle": "Shuningdek o'qing",
+    "relatedText": "Parrandachilikdagi gazli ozonlash — tuxum inkubatsiyasi, parrandaxona havosini sanatsiya qilish, yem va idishlarga ishlov berish — alohida materialda ko'rib chiqilgan:",
+    "relatedLink": "Parrandachilikda ozon. Kirish"
+  },
+  "table": {
+    "caption": "Parrandachilikda ozonlangan suvning ish rejimlari",
+    "headers": ["Vazifa", "Konsentratsiya", "Kontakt vaqti", "Natija"],
+    "rows": [
+      [
+        "Parranda uchun ichimlik suvi",
+        "0,1–0,4 mg/l, ORP 650–750 mV",
+        "Doimiy",
+        "Suvda mikroflora yo'q, bioplyonka o'smaydi"
+      ],
+      [
+        "Partiyalar orasida ichirish liniyalarini yuvish",
+        "0,5–2 mg/l",
+        "20–60 daqiqa",
+        "Liniyalardagi bioplyonka yemiriladi"
+      ],
+      [
+        "Tuxumni yuvish va dezinfeksiya qilish",
+        "1–3 mg/l, kislotalash bilan",
+        "1–5 daqiqa",
+        "Po'stloq ifloslanishi 30–60 marta kam"
+      ],
+      ["Qayta ishlashda tanalarni botirish", "8 mg/l", "6 sikl", "Salmonella aniqlash chegarasidan past"],
+      ["Tanalarga purkash", "8 mg/l", "7 sikl", "Har siklda 1,2 log₁₀, to'liq yo'q qilinguncha"],
+      [
+        "Chillerdan keyingi qisqa ishlov",
+        "2,5–10 mg/l",
+        "15–45 soniya",
+        "0,3–0,7 log₁₀ — faqat to'siqlardan biri sifatida"
+      ]
+    ]
+  },
+  "sourcesTitle": "Manbalar",
+  "sources": [
+    {
+      "title": "Megahed A., Aldridge B., Lowe J. Antimicrobial Efficacy of Aqueous Ozone and Ozone–Lactic Acid Blend on Salmonella-Contaminated Chicken Drumsticks. Frontiers in Microbiology, 2020;11:593911",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmicb.2020.593911/full"
+    },
+    {
+      "title": "FDA, 21 CFR 173.368 — Ozone as an antimicrobial agent for direct contact with food (secondary direct food additive)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-173/subpart-D/section-173.368"
+    },
+    {
+      "title": "USDA / FSIS Directive 7120.1 — Safe and Suitable Ingredients Used in the Production of Meat, Poultry, and Egg Products",
+      "url": "https://www.fsis.usda.gov/policy/fsis-directives/7120.1"
+    },
+    {
+      "title": "Chang R. et al. Assessment of gaseous ozone treatment on Salmonella Typhimurium and Escherichia coli O157:H7 reductions in poultry litter. Waste Management, 2020;117:42–47",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32805600"
+    },
+    {
+      "title": "Oliveira G.S. et al. Effects of Sanitizers on Microbiological Control of Hatching Eggshells. Animals (MDPI), 2022;12(20):2826",
+      "url": "https://www.mdpi.com/2076-2615/12/20/2826"
+    },
+    {
+      "title": "BroilerNet EU. Healthier Broilers Through the Use of Ozone for Disinfecting Water Systems (amaliy keys)",
+      "url": "https://broilernet.eu"
+    },
+    {
+      "title": "Veterinariya nazorati obyektlariga ozon yordamida veterinariya-sanitariya ishlovi berish bo'yicha yo'riqnoma (RF QXV, 09.07.2001); GOST 12.1.005-88; GN 2.2.5"
+    }
+  ]
+}

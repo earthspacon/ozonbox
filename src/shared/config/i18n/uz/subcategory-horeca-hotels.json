@@ -125,6 +125,21 @@
               "Hisob qilingani bo'yicha"
             ]
           ]
+        },
+        "laundry": {
+          "title": "Mehmonxona kir yuvish xonasida ozonlangan suv",
+          "p1": "Mehmonxonada ozon faqat xona havosida ishlamaydi. Kir yuvish xonasi o'ziniki bo'lsa, ozon to'g'ridan-to'g'ri yuviladigan sovuq suvda eritiladi: generator gazni injektor orqali suv quyish liniyasiga yoki diffuzor orqali mashina bakiga uzatadi. Oksidlash kuchi bo'yicha ozon (2,07 V) xlordan (1,36 V) sezilarli ustun, mikroorganizmlarni esa minglab marta tezroq yo'q qiladi.",
+          "p2": "Mehmonxona uchun bu, avvalo, iqtisod masalasi. Suvni 60–90 °C gacha isitish — kir yuvish xonasidagi eng qimmat xarajat moddasi, ozon esa uni bartaraf etadi: yuvish 18–20 darajada olib boriladi. Bundan tashqari, sovuq suvda ozon ko'proq eriydi va uzoqroq ishlaydi, ya'ni past harorat bu yerda yon berish emas, texnologiyaning shtatdagi ish rejimi.",
+          "items": [
+            "Suv isitishga ketadigan gaz: amaldagi mehmonxonalarda o'tkazilgan dala o'lchovlariga ko'ra 65–90% kam",
+            "Suv sarfi: ortiqcha chayishlar bir vaqtda qisqartirilganda 35% gacha kam",
+            "Yuvish vositalari: 20–40% kam, xlorli oqartirgich aksar dasturlarda talab qilinmaydi",
+            "Sikl 10–27% ga qisqaradi — bir smenada kir yuvish xonasi ko'proq kir qayta ishlaydi",
+            "Kir uzoqroq xizmat qiladi: termik zarba ham, agressiv kimyo ham yo'q",
+            "Zararsizlantirish sifati pasaymaydi: shifoxona kir yuvish xonalarida xona haroratidagi ozonli yuvishdan keyin na MRSA, na C. difficile qolgan"
+          ],
+          "highlightTitle": "Jihozlar haqida:",
+          "highlightText": "Mashinalarni almashtirish shart emas — amaldagi mashinalar ozon moduli bilan qo'shimcha jihozlanadi: generator, injektor, issiq suv baypasi, datchik va destruktor. Shtat ozon moduli bilan chiqariladigan mashinalar ham mavjud. Texnologiya taxminan sutkasiga 500 kg kirdan boshlab o'zini oqlaydi; hisob-kitobni sizning hajmingiz va tariflaringiz bo'yicha xariddan oldin bajaramiz."
         }
       },
       "benefits": [

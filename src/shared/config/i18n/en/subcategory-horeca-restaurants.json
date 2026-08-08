@@ -159,6 +159,21 @@
             "No consumables — ozone is produced from air",
             "Automatic operation — minimal staff involvement"
           ]
+        },
+        "aqueousOzone": {
+          "title": "Ozonated water in the kitchen",
+          "text": "Ozone works not only in the air of the dining room. Ordinary cold water with dissolved ozone becomes the most powerful disinfectant available: in oxidising power this is 2.07 volts against 1.36 for chlorine. Nothing is transferred to the product — ozone breaks down into oxygen, leaving no residues, no taste and no odour.",
+          "text2": "For this reason ozone is officially approved in the USA for direct contact with food (FDA rule 21 CFR 173.368, in force since 2001), and the FSIS has permitted it for all meat and poultry products. For a restaurant this means the ability to wash and disinfect where chlorine is undesirable or expressly prohibited.",
+          "items": [
+            "Washing vegetables, herbs and fruit: less microflora, longer freshness, no chlorine aftertaste",
+            "Treatment of tables, boards, utensils and containers — the working solution is made from water and air, with no consumables",
+            "Flushing of ice machines, coffee machines and water lines: ozone destroys biofilm rather than masking it",
+            "Polishing of mains water — the chlorine aftertaste, iron and odour are removed, which directly affects the taste of coffee, tea and ice",
+            "Hand washing for staff with ozonated water, without antiseptics that dry the skin",
+            "The restaurant laundry: tablecloths, napkins and uniforms are washed at 18–20 °C with full disinfection and savings on water heating of up to 65–90%"
+          ],
+          "highlightTitle": "Practical effect:",
+          "highlightText": "A single generator covers both the air in the dining room and the water in the kitchen. The raw materials are air and electricity: no chemical store is required, dosing errors are eliminated, and no disinfectant residues remain on dishes or food."
         }
       }
     }
