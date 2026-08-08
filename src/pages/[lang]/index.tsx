@@ -1,19 +1,17 @@
 import { useTranslate } from '@tolgee/react'
-import Head from 'next/head'
 
 import { HomePage } from '@/@pages'
 
 import { getStaticPathsLang, getStaticPropsLang, withTolgee } from '@/shared/lib/page-static-functions'
+import { buildOrganizationJsonLd, JsonLd, Seo } from '@/shared/ui/seo'
 
 function Page() {
   const { t } = useTranslate()
 
   return (
     <>
-      <Head>
-        <title>{t('meta.title')}</title>
-        <meta name="description" content={t('meta.description')} />
-      </Head>
+      <Seo title={t('meta.title')} description={t('meta.description')} titleSuffix={false} />
+      <JsonLd id="organization" data={buildOrganizationJsonLd()} />
       <HomePage />
     </>
   )

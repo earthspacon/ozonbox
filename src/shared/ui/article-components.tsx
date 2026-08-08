@@ -1,5 +1,9 @@
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 import { ReactNode } from 'react'
+
+import { useLang } from '@/shared/lib/lang'
+import { buildBreadcrumbJsonLd, buildCanonicalUrl, JsonLd } from '@/shared/ui/seo'
 
 interface StatCardProps {
   value: string
@@ -384,8 +388,20 @@ interface BreadcrumbProps {
 }
 
 export function Breadcrumb({ items }: BreadcrumbProps) {
+  const router = useRouter()
+  const locale = useLang()
+  const pageUrl = buildCanonicalUrl(locale, router.asPath)
+
   return (
     <nav className="inline-flex max-w-full flex-nowrap items-center gap-2 overflow-hidden rounded-full bg-white/95 px-4 py-2.5 text-sm shadow-lg backdrop-blur-sm">
+      <JsonLd
+        id="breadcrumbs"
+        data={buildBreadcrumbJsonLd(
+          items.map((item) => ({ name: item.label, path: item.href })),
+          pageUrl,
+          locale,
+        )}
+      />
       {items.map((item, i) => (
         <span key={i} className={`flex items-center gap-2 ${i === items.length - 1 ? 'min-w-0' : 'flex-shrink-0'}`}>
           {i > 0 && (
