@@ -66,8 +66,10 @@
     }
   },
   "hero": {
+    "tagline": "O'zbekistonning ekologik toza texnologiyalar ishlab chiqaruvchisi",
     "title": "Ozon — Tabiat dezinfeksiya kuchi",
     "subtitle": "Xlordan 3000 marta samaraliroq. Kimyosiz. Qoldig'isiz. Salomatlikka zararsiz. Biznesingiz uchun professional ozonlash tizimlari.",
+    "slogan": "Atrofimiz qanchalik toza bo'lsa, biz shunchalik sog'lommiz",
     "learnMore": "Ko'proq bilish",
     "getConsultation": "Konsultatsiya olish",
     "viewProducts": "Mahsulotlarimiz",

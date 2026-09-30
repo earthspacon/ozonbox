@@ -66,8 +66,10 @@
     }
   },
   "hero": {
+    "tagline": "Eco-friendly technology manufacturer from Uzbekistan",
     "title": "Ozone — Nature's disinfection power",
     "subtitle": "3000 times more effective than chlorine. No chemicals. No residue. No harm to health. Professional ozonation systems for your business.",
+    "slogan": "The cleaner the world around us, the healthier we are",
     "learnMore": "Learn more",
     "getConsultation": "Get consultation",
     "viewProducts": "Our products",

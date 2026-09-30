@@ -21,6 +21,8 @@ import {
   IconWater,
 } from '@/shared/ui/icons'
 
+import { HeroSlogan, HeroTagline } from './hero-brand'
+
 const APPLICATION_ICONS: Record<string, typeof IconMedical> = {
   IconMedical,
   IconPoultry,
@@ -50,8 +52,9 @@ export function HomePage() {
           <div className="hero__shape hero__shape--2"></div>
           <div className="hero__shape hero__shape--3"></div>
         </div>
-        <div className="container">
+        <div className="container grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_400px] lg:gap-x-12">
           <div className="hero__content fade-in visible">
+            <HeroTagline />
             <h1 className="hero__title mt-5 md:mt-0">{t('hero.title')}</h1>
             <p className="hero__subtitle">{t('hero.subtitle')}</p>
             <div className="hero__actions">
@@ -62,23 +65,24 @@ export function HomePage() {
                 {t('hero.viewProducts')}
               </AppLink>
             </div>
-            <div className="hero__stats">
-              <div className="hero__stat">
-                <div className="hero__stat-value">3000×</div>
-                <div className="hero__stat-label">{t('hero.stats.power')}</div>
-              </div>
-              <div className="hero__stat">
-                <div className="hero__stat-value">99.9%</div>
-                <div className="hero__stat-label">{t('hero.stats.pathogens')}</div>
-              </div>
-              <div className="hero__stat">
-                <div className="hero__stat-value">0</div>
-                <div className="hero__stat-label">{t('hero.stats.residue')}</div>
-              </div>
-              <div className="hero__stat">
-                <div className="hero__stat-value">7</div>
-                <div className="hero__stat-label">{t('hero.stats.functions')}</div>
-              </div>
+          </div>
+          <HeroSlogan />
+          <div className="hero__stats relative z-[1] text-white lg:col-start-1 lg:max-w-[700px]">
+            <div className="hero__stat">
+              <div className="hero__stat-value">3000×</div>
+              <div className="hero__stat-label">{t('hero.stats.power')}</div>
+            </div>
+            <div className="hero__stat">
+              <div className="hero__stat-value">99.9%</div>
+              <div className="hero__stat-label">{t('hero.stats.pathogens')}</div>
+            </div>
+            <div className="hero__stat">
+              <div className="hero__stat-value">0</div>
+              <div className="hero__stat-label">{t('hero.stats.residue')}</div>
+            </div>
+            <div className="hero__stat">
+              <div className="hero__stat-value">7</div>
+              <div className="hero__stat-label">{t('hero.stats.functions')}</div>
             </div>
           </div>
         </div>

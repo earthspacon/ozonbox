@@ -26,6 +26,15 @@ export const IconMolecule = (props: IconProps) => (
   </svg>
 )
 
+export const IconBrandMark = (props: IconProps) => (
+  <svg viewBox="0 0 48 32" fill="none" {...props}>
+    <path d="M8 8 L20 22 L42 12" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
+    <circle cx="8" cy="8" r="6" fill="currentColor" />
+    <circle cx="20" cy="22" r="7" fill="currentColor" />
+    <circle cx="42" cy="12" r="4.5" stroke="currentColor" strokeWidth="2.5" />
+  </svg>
+)
+
 export const IconEco = (props: IconProps) => (
   <svg viewBox="0 0 64 64" fill="none" {...props}>
     <path d="M32 56c0-24 20-40 24-44-8 4-32 8-32 32" stroke="currentColor" strokeWidth="2" />
