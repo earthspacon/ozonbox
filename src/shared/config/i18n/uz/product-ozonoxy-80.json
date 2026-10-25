@@ -1,9 +1,9 @@
 {
-  "title": "OZONOXY 100",
-  "pageTitle": "OZONOXY 100 — sanoat ozonatori 100 g/soat",
-  "pageDescription": "Standart seriyasidagi sanoat ozonatori OZONOXY 100. Ishlab chiqaruvchanlik 100 g/soat. To'liq dezinfeksiya 1500 m³ gacha.",
-  "shortDesc": "100 g/soat ishlab chiqaruvchanlikka ega Standart seriyasidagi sanoat ozonatori. To'liq dezinfeksiya 1500 m³ gacha, o'rtacha daraja — 3500 m³ gacha.",
-  "description": "Standart seriyasidagi sanoat ozonatori OZONOXY 100 — katta sanoat ob'ektlarini dezinfeksiya qilish uchun kuchli tizim. Qayta ishlanadigan xona hajmi - 1500 - 3500 m3. To'liq dezinfeksiya 1500 m³ gacha, o'rtacha daraja — 3500 m³ gacha.",
+  "title": "OZONOXY 80",
+  "pageTitle": "OZONOXY 80 — sanoat ozonatori 80 g/soat",
+  "pageDescription": "Standart seriyasidagi sanoat ozonatori OZONOXY 80. Ishlab chiqaruvchanlik 80 g/soat. To'liq dezinfeksiya 1500 m³ gacha.",
+  "shortDesc": "80 g/soat ishlab chiqaruvchanlikka ega Standart seriyasidagi sanoat ozonatori. To'liq dezinfeksiya 1500 m³ gacha, o'rtacha daraja — 3500 m³ gacha.",
+  "description": "Standart seriyasidagi sanoat ozonatori OZONOXY 80 — katta sanoat ob'ektlarini dezinfeksiya qilish uchun kuchli tizim. Qayta ishlanadigan xona hajmi - 1500 - 3500 m3. To'liq dezinfeksiya 1500 m³ gacha, o'rtacha daraja — 3500 m³ gacha.",
   "images": ["/images/boxes/photo_5_2026-03-23_14-49-21.jpg"],
   "specsTitle": "Texnik xususiyatlar",
   "specsHeaderParam": "Parametr",
@@ -11,7 +11,7 @@
   "specs": [
     {
       "label": "Ozon ishlab chiqaruvchanligi",
-      "value": "100 g/soat"
+      "value": "80 g/soat"
     },
     {
       "label": "Havo oqimi",
@@ -58,7 +58,7 @@
   ],
   "tasksTitle": "Qo'llash sohalari:",
   "tasks": "dezinfeksiya, dezinseksiya, deratizatsiya, dezodoratsiya, detoksikatsiya",
-  "ctaTitle": "OZONOXY 100 buyurtma qilish",
+  "ctaTitle": "OZONOXY 80 buyurtma qilish",
   "ctaText": "Maslahat va buyurtma uchun biz bilan bog'laning.",
   "ctaOrder": "Buyurtma berish",
   "ctaCall": "Bizga qo'ng'iroq qiling"
