@@ -100,7 +100,7 @@ export const PRODUCT_SLUGS = [
   'ozonoxy-50',
   'ozonoxy-60',
   'ozonoxy-80',
-  'ozonoxy-100-pro',
+  'ozonoxy-90-pro',
   'ozonoxy-100-max',
   'ozonoxy-200',
 ] as const

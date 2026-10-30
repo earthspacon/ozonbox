@@ -1,9 +1,9 @@
 {
-  "title": "OZONOXY 100 Pro",
-  "pageTitle": "OZONOXY 100 Pro — professional ozone generator, 100 g/h",
-  "pageDescription": "Professional ozone generator OZONOXY 100 Pro. Output 100 g/h, rooms up to 650 m³. Compact, high-reliability design.",
-  "shortDesc": "Professional compact ozone generator with 100 g/h output. Treatable room volume up to 650 m³.",
-  "description": "OZONOXY 100 Pro is a professional compact ozone generator with 100 g/h output. Treated room volume: 1500-3500 m3. Total disinfection up to 1500 m³, medium-level treatment up to 3500 m³.",
+  "title": "OZONOXY 90 Pro",
+  "pageTitle": "OZONOXY 90 Pro — professional ozone generator, 90 g/h",
+  "pageDescription": "Professional ozone generator OZONOXY 90 Pro. Output 90 g/h, rooms up to 650 m³. Compact, high-reliability design.",
+  "shortDesc": "Professional compact ozone generator with 90 g/h output. Treatable room volume up to 650 m³.",
+  "description": "OZONOXY 90 Pro is a professional compact ozone generator with 90 g/h output. Treated room volume: 1500-3500 m3. Total disinfection up to 1500 m³, medium-level treatment up to 3500 m³.",
   "images": ["/images/boxes/photo_4_2026-03-23_14-49-21.jpg"],
   "specsTitle": "Technical specifications",
   "specsHeaderParam": "Parameter",
@@ -11,7 +11,7 @@
   "specs": [
     {
       "label": "Ozone output",
-      "value": "100 g/h"
+      "value": "90 g/h"
     },
     {
       "label": "Air flow",
@@ -48,7 +48,7 @@
   ],
   "tasksTitle": "Applications:",
   "tasks": "disinfection, pest control, rodent control, deodorization, detoxification",
-  "ctaTitle": "Order OZONOXY 100 Pro",
+  "ctaTitle": "Order OZONOXY 90 Pro",
   "ctaText": "Contact us for consultation and to place an order.",
   "ctaOrder": "Place an order",
   "ctaCall": "Call us"

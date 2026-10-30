@@ -67,9 +67,9 @@ const ALL_PRODUCTS: Product[] = [
     image: '/images/boxes/photo_5_2026-03-23_14-49-21.jpg',
   },
   {
-    model: 'OZONOXY 100 Pro',
-    slug: 'ozonoxy-100-pro',
-    capacity: 100,
+    model: 'OZONOXY 90 Pro',
+    slug: 'ozonoxy-90-pro',
+    capacity: 90,
     price: 30_000_000,
     image: '/images/boxes/photo_4_2026-03-23_14-49-21.jpg',
   },
